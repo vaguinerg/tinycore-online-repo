@@ -1,0 +1,39 @@
+name: Download and Update ISO
+
+on:
+  workflow_run:
+    workflows: ["Check-ISO-Update"]
+    types:
+      - completed
+
+jobs:
+  download-update:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check if ISO exists
+      id: check
+      run: |
+        if [ -f CorePure64-14.0.iso ]; then
+          echo "::set-output name=exists::true"
+        else
+          echo "::set-output name=exists::false"
+        fi
+
+    - name: Download ISO
+      if: steps.check.outputs.exists == 'false' || github.event.workflow_run.conclusion == 'success'
+      run: |
+        wget -O CorePure64-14.0.iso https://distro.ibiblio.org/tinycorelinux/14.x/x86_64/release/CorePure64-14.0.iso
+
+    - name: Update ISO if newer
+      if: steps.check.outputs.exists == 'true' && github.event.workflow_run.conclusion == 'success'
+      run: |
+        remote_date=$(curl -sI https://distro.ibiblio.org/tinycorelinux/14.x/x86_64/release/CorePure64-14.0.iso | grep Last-Modified | cut -d' ' -f2-)
+        local_date=$(stat -c %y CorePure64-14.0.iso)
+
+        if [[ $remote_date > $local_date ]]; then
+          echo "Remote ISO is newer. Updating..."
+          cp CorePure64-14.0.iso $GITHUB_WORKSPACE
+        else
+          echo "Local ISO is up to date."
+        fi
