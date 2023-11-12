@@ -1,10 +1,9 @@
 name: Download and Update ISO
 
 on:
-  workflow_run:
-    workflows: ["Check-ISO-Update"]
-    types:
-      - completed
+  push:
+    branches:
+      - main
 
 jobs:
   download-update:
