@@ -1,1 +1,1 @@
-echo test
+echo ${GITHUB_WORKSPACE}
