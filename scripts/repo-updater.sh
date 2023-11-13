@@ -6,8 +6,21 @@ for version_dir in tinycorelinux/*.x; do
 	for arch_dir in tinycorelinux/$version/*; do
 		arch=$(basename "$arch_dir")
 		mkdir -p data/$version/$arch/
-		find tinycorelinux/$version/$arch/tcz/*.list -maxdepth 1 -type f -exec basename {} \; | sed 's/\.list//' > data/$version/$arch/tczlist
-	done
+  		output_directory="data/$version/$arch"
+		find tinycorelinux/$version/$arch/tcz/*.list -maxdepth 1 -type f -exec basename {} \; | sed 's/\.list//' > "$output_directory/tczlist"
+		
+  		#I couldn't get JQ to work, so I'm going to use this aberration that is working.
+		echo "{" > "$output_directory/provides.json"
+		for file in tinycorelinux/$version/$arch/tcz/*.list; do
+		    name=$(basename "$file" .list)
+		    echo "\"$name\": [" >> "$output_directory/provides.json"
+		    while IFS= read -r line || [ -n "$line" ]; do
+		        echo "\"$line\"," >> "$output_directory/provides.json"
+		    done < "$file"
+		    echo "]," >> "$output_directory/provides.json"
+		done
+		echo "}" >> "$output_directory/provides.json"
+ 	done
 done
 
 
