@@ -1,0 +1,23 @@
+vulkan-tools.tcz
+   libvulkan.tcz
+   mesa-vulkan-rpi4.tcz
+      libdrm.tcz
+         libpciaccess.tcz
+         libudev.tcz
+            glib2.tcz
+               gamin.tcz
+               libelf.tcz
+               pcre.tcz
+                  bzip2-lib.tcz
+                  gcc_libs.tcz
+      libX11.tcz
+         libxcb.tcz
+            libXau.tcz
+            libXdmcp.tcz
+      expat2.tcz
+      wayland.tcz
+         expat2.tcz
+         libxml2.tcz
+            liblzma.tcz
+      libvulkan.tcz
+

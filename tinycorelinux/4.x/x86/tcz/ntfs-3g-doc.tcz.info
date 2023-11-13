@@ -1,0 +1,28 @@
+Title:          ntfs-3g-doc.tcz
+Description:    Read/write userspace NTFS driver docs.
+Version:        2011.04.12
+Author:         Szabolcs Szakacsits
+Original-site:  www.ntfs-3g.org/
+Copying-policy: GPL
+Size:		44K
+Extension_by:   Jason W
+Tags:	    Read write userspace NTFS driver docs.
+Comments:       Ntfs-3g is considered a stable read/write driver for 
+		ntfs formatted volumes.  This extension has been tested
+		but use ntfs-3g at your own risk on production machines.    
+		Usage:
+		$ sudo ntfs-3g /dev/hda1 /mnt/hda1
+		to mount /dev/hda1 ntfs partition.
+Change-log:     2008/11/04 First version
+                2008/12/09 Rebuilt for i486 and size.
+                2008/01/21 Fixed broken /usr/local/mount.ntfs-3g symlink.
+	        2009/03/04 Bumped to version 2009.2.1.
+ 		2009/04/04 Bumped to version 2009.4.4
+		2009/11/25 Bumped to version 2009.11.14
+		2010/02/23 Bumped to version 2010.1.16
+		2010/03/06 Bumped to version 2010.3.6
+		2010/05/29 Bumped to 2010.5.16
+		2010/06/13 Bumped to 2010.6.13
+		2010/11/27 Bumped to 2010.10.2
+Current:	2011/08/01 Bumped to 2011.04.12
+

@@ -1,0 +1,25 @@
+Title:          gnome-music.tcz
+Description:    gnome music app
+Version:        3.10.4
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 216KB
+Extension_by:   juanito
+Tags:	        music gtk+ gtk3 gnome
+Comments:       gnome music application
+                ----------
+                *** gnome-music-gir is required for this to work ***
+                this extension probably only works with gnome-session/gnome-shell
+                uses tracker to find music and expects music to be in xdg desktop locations
+                $ xdg-users-dirs-update
+                if no music found
+                $ tracker-control -e
+                $ tracker-control --start
+                use gst-plugins-{good,bad,ugly} to suit your music format 
+                ----------
+                This extension contains:
+                gnome-music-3.10.4 - GPLv2 - http://ftp.gnome.org/pub/gnome/sources/gnome-music/3.10/gnome-music-3.10.4.tar.xz
+                ----------
+Change-log:     first version
+Current:        2014/05/01

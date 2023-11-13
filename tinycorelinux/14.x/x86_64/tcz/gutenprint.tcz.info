@@ -1,0 +1,109 @@
+Title:          gutenprint.tcz
+Description:    printer drivers for most printers
+Version:        5.3.4
+Author:         https://github.com/echiu64/gutenprint/blob/master/AUTHORS
+Original-site:  https://sourceforge.net/projects/gimp-print/
+Copying-policy: GPL v2
+Size:           5.8M
+Extension_by:   aus9
+Tags:           cups printer ppd 
+Comments:       Not for scanning. To know if gutenprint is suitable see
+                http://gimp-print.sourceforge.net/p_Supported_Printers.php
+                above is for 5.3.3 so likely to be more and 5.2 manual 
+                https://gimp-print.sourceforge.net/gutenprint-users-manual.pdf
+
+                Optional dependencies
+                ##################
+                colord.tcz reduce log warnings or if printing colour images
+                evince.tcz for print preview
+                readline.tcz for Epson ink levels
+                librest.tcz for reduced errors for gimp2
+ 
+                gimp2, I recommend you use print preview to resize images please.
+
+                Wireless (WL) Printing
+                #############
+                I recommend you set up your router to reserve an IP for your WL printer first.
+                Be aware that some printers advertised as wireless printers may not have
+                full hardware.     WL ink levels can be checked by using your web browser 
+                eg url= 192.168.1.7  -- once the printer IP is set.
+
+                Epson ink levels, once printer is set up
+                ##    tested in the past on TX100, I no longer have it 
+                $ tce-load -wi readline
+                $ escputil --raw-device=/dev/usb/lp0 --ink-level
+                 ^ if that fails....repeat...if fails try as root.
+                 
+                Extra printer calibration
+                ###################
+                $ sudo cups-calibrate
+                (and enter only numbers as directed after viewing the test page)
+
+                How to use  after reading above
+                ########### 
+                $ tce-load -i gutenprint 
+                $ [ -f /var/run/cups/cupsd.pid ] || sudo /usr/local/etc/init.d/cups start
+                $ sudo passwd # to set up a root passwd, if not already set 
+                ---------as /usr/local/etc/cups is root owned
+                Next, open your web browser to  http://localhost:631/admin
+
+                Do NOT click on "Find New Printer", instead click on Add Printer
+                Then make your selection. Remember to click the "Add Printer" button
+                to then get options to change paper size etc. At the end of that process
+                a popup (ensure you allow popups in browser settings) will 
+                ask for user, input root and your new password please. I did not need
+                locale set.
+
+                After setup (recommended) pulldown administration and make your printer
+                the server default. Then test printer. 
+
+                If printer not found for WL printers run
+                $ tce-load -i avahi 
+                For my Canon and my Epson I did not need to run next command
+                Only run it if you can not find your printer PPD or maybe if you are runnng avahi.
+                $ sudo generate-ppd.sh
+
+                For persistence 
+                ################
+                Add these lines to /opt/.filetool.lst 
+                etc/shadow
+                usr/local/etc/cups/cupsd.conf
+                usr/local/etc/cups/printers.conf
+                usr/local/etc/cups/ppd
+                ###   ^ this dir contains all your printer PPDs
+                
+                On reboot
+                ##########
+                Assuming you have done the persistence suggestions, load gutenprint 
+                and then start cups with
+                $ sudo /usr/local/etc/init.d/cups start
+                and if you are using a WL printer and need avahi
+                $ sudo /usr/local/etc/init.d/avahi start
+
+                #######################
+                NO MATCHING MODEL FOUND
+                ######################
+                If you are not sure which PPD is best for you, uncompressed PPDs are
+                created at /usr/local/share/cups/model/gutenprint/5.3
+                after running $ sudo generate-ppd.sh 
+
+                Before rebooting and losing all of them except your persistent ones,
+                you may like to copy some into your home dir. CUPS allows you to try 
+                a PPD from a non-system pathway.....but for gutenprint it needs to have
+                been designed for that version of gutenprint. It may take a few tries
+                where you can not find your exact model listed. Good Luck!
+                eg you have make Z model 142 so try model 140 then 100 etc
+                cups also supplies generic models but these tend to be a bit limited
+
+                One issue to note is
+                ####################
+                If you have a USB-connected printer, you must have a printer connected 
+                to each USB port that you plan to use and powered on when you restart CUPS.  
+                If you do not do so, you will not be able to reinstall the printer. It is only 
+                necessary to do this if you wish to update PPD files manually; if you use 
+                cups-genppdupdate, you do not need to do this
+                
+Change-log:     2018/06/17 first version 
+                2019/01/04 v 5.2.14 -> 5.3.1 add simplified PPD option for 10x
+                2020/04/21 v 5.3.3 for 11x
+Current:        2023/03/28 v 5.3.4 for 14x    

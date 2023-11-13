@@ -1,0 +1,32 @@
+openldap-dev.tcz
+   openldap.tcz
+      libltdl.tcz
+      unixODBC.tcz
+         readline.tcz
+            ncursesw.tcz
+         libltdl.tcz
+      cyrus-sasl.tcz
+         openssl-1.1.1.tcz
+      openssl-1.1.1.tcz
+   unixODBC-dev.tcz
+      unixODBC.tcz
+         readline.tcz
+            ncursesw.tcz
+         libltdl.tcz
+      readline-dev.tcz
+         readline.tcz
+            ncursesw.tcz
+         ncursesw-dev.tcz
+            ncursesw.tcz
+   cyrus-sasl-dev.tcz
+      cyrus-sasl.tcz
+         openssl-1.1.1.tcz
+      openssl-1.1.1-dev.tcz
+         openssl-1.1.1.tcz
+   icu-dev.tcz
+      icu-bin.tcz
+         icu.tcz
+   openssl-1.1.1-dev.tcz
+      openssl-1.1.1.tcz
+   libltdl.tcz
+

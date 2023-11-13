@@ -1,0 +1,27 @@
+Title:          grub2.tcz
+Description:    grub boot loader
+Version:        2.00
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 6.0MB
+Extension_by:   juanito
+Tags:	        grub bootloader
+Comments:       grand unified bootloader
+                ----------
+                howto:
+                $ sudo mount /dev/sdc1
+                $ sudo grub-install --boot-directory=/mnt/sdc1/boot /dev/sdc
+                $ cat /mnt/sdc1/grub/grub.cfg
+                insmod ext2
+                search --no-floppy --fs-uuid --set=root 3916536c-ab5b-45f4-92de-a6b8af8ec630
+                menuentry "core" {
+                linux /boot/vmlinuz quiet noswap waitusb=10:UUID="3916536c-ab5b-45f4-92de-a6b8af8ec630" tce=UUID="3916536c-ab5b-45f4-92de-a6b8af8ec630" tz=GMT-4 blacklist=bcma blacklist=ssb blacklist=b43 text
+                initrd /boot/rootfs.gz /boot/modules.gz
+                }
+                ----------
+                This extension contains:
+                grub-2.00 - GPLv3 - ftp://ftp.gnu.org/gnu/grub/grub-2.00.tar.xz
+                ----------
+Change-log:     first version
+Current:        2013/10/30

@@ -1,0 +1,26 @@
+Title:          openssh.tcz
+Description:    OpenSSH server and client
+Version:        9.3p1
+Author:         Many, see source file
+Original-site:  http://www.openssh.org
+Copying-policy: BSD
+Size:           2.5MB
+Extension_by:   paul-123
+Tags:           NETWORK SSH CLI CLIENT SERVER
+Comments:       Binaries only
+                ----
+                Compiled against openssl 3.1
+                ----
+                For autostart add this to /opt/bootlocal.sh:
+                /usr/local/etc/init.d/openssh start
+                Add config files to /opt/.filetool.lst
+                to make config persistent if you changed them:
+                usr/local/etc/ssh/ssh_config
+                usr/local/etc/ssh/sshd_config
+                Add generated keys to backup also for persistency
+                ----
+Change-log:     2020/07/19 First version, 8.3p1
+                2020/10/06 adjusted init.d (juanito)
+                2020/10/10 Upgraded to 8.4p1 and commonized user privsep(paul-123)
+                2023/04/08 Update to version, 9.3p1
+Current:        2023/05/07 Rebuilt for config change to allow 3 login attempts

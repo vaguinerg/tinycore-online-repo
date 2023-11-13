@@ -1,0 +1,20 @@
+Title:		fsarchiver.tcz
+Description:	fsarchiver - Archiving tool for miscellaneous filesystems including NTFS
+Version:	0.6.15
+Author:		Various (see /usr/local/share/doc/License/fsarchiver-authors.txt)
+Original-site:	http://www.fsarchiver.org
+Copying-policy:	GPLv2 (see /usr/local/share/doc/License/fsarchiver-copying.txt)
+Size:		756.0K
+Extension_by:	gutmensch
+Tags:		deploy save image ntfs clone restore
+Comments:	Load ntfs-3g.tcz for NTFS support.
+		---
+		Usage examples:
+		# fsarchiver savefs /mnt/sdb1/os-image.fsa /dev/sda1
+		# fsarchiver restfs /mnt/sdb1/os-image.fsa id=0,dest=/dev/sda1
+		# fsarchiver archinfo /mnt/sdb1/os-image.fsa
+	   	--- 
+		This extension is PPI compatible.
+Change-log:	2010/08/28	Initial version 0.6.10
+		2010/12/16	Rebuilt against xz 5.0, bump to 0.6.11
+Current:	2012/06/24	Rebuilt against TC 4.x, bump to 0.6.15, static build

@@ -1,0 +1,28 @@
+Title:          weston.ini.tcz  
+Description:    Create a weston.ini 
+Version:        1.0
+Author:         aus9 
+Original-site:  TC
+Copying-policy: Open source
+Size:           4.0K
+Extension_by:   aus9 at gmx dot com
+Tags:           weston
+Comments:       The current weston TCE has no weston.ini
+                This install script attempts to create one
+                with mainly gnome apps. Do not have this in your 
+                onboot list please. Designed to be run once.
+                $ tce-load -i weston.ini
+
+                After loading, edit .config/weston.ini to suit what apps you
+                prefer to run instead.
+
+                Be aware that you will get an icon that looks like
+                X 
+                if you have not loaded that app for a particular boot.
+
+                fltk or gtk1/2 apps will neeed xwayland loaded to run them.
+                The last icon is for exittc so likely to appear as X as its FLTK based.
+                
+                Compiled for 64 9.x
+Change-log:     2018/11/27  First version 
+Current:        2018/11/27 

@@ -1,0 +1,34 @@
+Title:          cups.tcz
+Description:    cups printing system
+Version:        2.2.4
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 7.0MB
+Extension_by:   juanito
+Tags:	        cups printing system
+Comments:       cups, the standards-based, open source printing system..
+                ..developed by Apple Inc. for Mac OS X and other UNIX-like..
+                ..operating systems
+                ----------
+                built with the cups usb backend (not the libusb backend)
+                ----------
+                optionally can use the hplip extension
+                ----------
+                howto:
+                $ sudo /usr/local/etc/init.d/cups [start|stop|restart|status]
+                the root password needs to be set perform admin tasks with..
+                ..the browser interface
+                $ sudo passwd
+                http://localhost:631/admin will start the browser interface
+                To persist across boots, add the following to your backup (remove leading "/"):
+                /usr/local/etc/cups/ppd/HP_OfficeJet_G85.ppd [for example]
+                /usr/local/etc/cups/printers.conf
+                /usr/local/etc/cups/cupsd.conf (only if you changed it)
+                /etc/shadow (if you want to save to root password
+                ----------
+                This extension contains:
+                cups-2.2.4-source - GPLv2 - https://github.com/apple/cups/releases/download/v2.2.4/cups-2.2.4-source.tar.gz
+                ----------
+Change-log:     2015/08/12 first version (bmarkus)
+Current:        2017/11/04 updated 2.0.4 -> 2.2.4

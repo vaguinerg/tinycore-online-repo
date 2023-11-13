@@ -1,0 +1,43 @@
+Title:          bluez.tcz
+Description:    bluetooth stack
+Version:        4.101
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 688KB
+Extension_by:   juanito
+Tags:           bluetooth
+Comments:       Official Linux Bluetooth protocol stack
+                ----------
+                Optionally can use the alsa extension for sound over bluetooth.
+                Optionally can use the python, dbus-python and pygobject..
+                extensions with simple-agent to pair
+                ----------
+                This extension contains:
+                bluez-4.101 - GPLv2 - http://www.kernel.org/pub/linux/bluetooth/bluez-4.101.tar.xz
+                ----------
+                Howto:
+                $ sudo /usr/local/etc/init.d/bluez [start|stop|restart|status]
+                ..in my case, this loads all required modules
+                $ hcitool dev [shows local bluetooth addresses]
+                $ hcitool scan [shows remote bluetooth addresses]
+                ----------
+                Howto pair:
+                $ echo "0000" | simple-agent hci0 00:1B:66:00:31:88 [0000 for a bt headset/headphones]
+                Release
+                New device (/org/bluez/11538/hci0/dev_00_1B_66_00_31_88)
+                ...
+                ----------
+                To enable sound with alsa:
+                $ cp /usr/local/etc/alsa/example_.asoundrc ~/.asoundrc
+                edit the bluetooth address for your hardware
+                start alsa
+                start bluez daemon
+                pair
+                ..to test bt headphones
+                $ aplay -Dplug:bluetooth -v /usr/local/share/sounds/alsa/Noise.wav
+                ..to test bt headset "testing, testing, 1, 2, 3.."
+                $ arecord -D bluetooth -f S16_LE | aplay -D bluetooth -f S16_LE
+                ----------
+Change-log:     first version
+Current:        2013/01/19

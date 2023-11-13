@@ -1,0 +1,29 @@
+Title:          easyprint.tcz
+Description:    driverless, CUPS-free printing using ipp
+Version:        3.3
+Author:         Bruno "GNUser" Dantas
+Original-site:  n/a
+Copying-policy: GPLv3
+Size:		60K
+Extension_by:   gnuser
+Tags:	        ipp driverless cups printing print printer pdf
+Comments:       ----------
+                Configuration:
+                $ cp /usr/local/share/easyprint/easyprint.conf ~/.config/
+                edit ~/.config/easyprint.conf (correct printer uri)
+                ----------
+                Usage example:
+                $ ep into_the_core.pdf
+                ----------
+                Notes:
+                * pdf files are supported by default
+                * libreoffice is needed to support other file types
+                * yad is needed if you want a gui
+                * for more details: $ ep --help
+                ----------
+Change-log:     2023/09/28 first version
+                2023/10/05 updated 1.0 -> 2.0
+                2023/10/10 updated 2.0 -> 3.0
+                2023/10/12 updated 3.0 -> 3.1
+                2023/10/14 updated 3.1 -> 3.2
+Current:        2023/10/24 updated 3.2 -> 3.3

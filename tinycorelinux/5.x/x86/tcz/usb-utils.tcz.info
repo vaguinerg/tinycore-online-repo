@@ -1,0 +1,33 @@
+Title:          usb-utils.tcz
+Description:    usb-utils and usb.ids
+Version:        005
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 220KB
+Extension_by:   juanito
+Tags:           usb utility
+Comments:       usb-utils and usb.ids device data
+                ----------
+                $ sudo update-usbids.sh [to download latest usb device info]
+                ----------
+                optionally lsusb.py can be used with python
+                ----------
+                This extension contains:
+                usbutils-005 - GPLv2 - http://www.kernel.org/pub/linux/utils/usb/usbutils/usbutils-005.tar.bz2
+                ----------
+Change-log:     2008/09/12
+                Updated to libusb-1 and added libusb wrapper
+                2009/02/11
+                Re-compiled on tc_2.x
+                updated usb-utils 0.73 -> 0.84, libusb-compat 0.1.0 -> 0.1.2
+                2009/07/19
+                split out libusb into separate extension
+                updated 0.84 -> 0.86
+                2009/07/19
+                updated 0.86 -> 002
+                2011/06/14
+                added startup script, updated usb.ids
+                2011/09/30
+                updated 002 -> 005
+Current:        2012/04/29

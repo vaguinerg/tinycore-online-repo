@@ -1,0 +1,22 @@
+Title:          xf86-video-ati.tcz
+Description:    xorg modesetting video driver
+Version:        7.1.0
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 124KB
+Extension_by:   juanito
+Tags:	        x xorg driver video 2d ati radeon
+Comments:       video driver for ATI Radeon video cards including all chipsets ranging from
+                R100 to R900 and the newer RAxx chipsets
+                ----------
+                Note:
+                The atimisc sub-driver has been split out to xf86-video-mach64
+                The r128 sub-driver has been split out to xf86-video-r128
+                some cards require Firmware to be available when the kernel driver is loaded
+                ----------
+                This extension contains:
+                xf86-video-ati-7.1.0 - (c)  Bogdan D - http://xorg.freedesktop.org/releases/individual/driver/xf86-video-ati-7.1.0.tar.bz2
+                ----------
+Change-log:     first version
+Current:        2013/07/13

@@ -1,0 +1,102 @@
+Title:          xfwm4.tcz 
+Description:    xfce window manager
+Version:        4.13.0
+Author:         see doc for authors  
+Original-site:  xfce.org
+Copying-policy: GPL v2
+Size:		296K
+Extension_by:   aus9 at gmx dot com
+Tags:           xfce 
+Comments:       xfce window manager. 
+
+                 Before doing any download or reboot into xfce please
+                 edit /opt/shutdown.sh and add the following line to bottom 
+                 of script. changing  tc to whatever your login name is.
+                                  rm -rf /home/tc/.xsession
+
+                 This allows you to reboot into another WM/DE because
+                 if you do not like xfce we do not want your .xsession file
+                 to have the xfce stuff in it. When you boot up bootloader 
+                 choosing xfce.lst, .xsession file changes to a compatible xfce one
+                 Remember to exit using exittc please
+                
+                If you wish to try out XFCE, please follow these steps
+                In APPS choose download rather than onboot. 
+                               ###########################
+
+                In Apps download xfwm4 and xfwm4-list ( APPS will also 
+                download lots of dependencies as XFCE is not a light 
+                window manager)
+
+                The main reason for the below steps is if you do not 
+                like XFCE, you have not corrupted your current 
+                boot list, likely to be onboot.lst. So if you find any 
+                gremlins simply use the exit menu or if that is not 
+                working, press your hardware reboot button and reboot 
+                into your preferred window manager.  Leaping ahead, my 
+                list is small. On boot up to XFCE, you can use Apps ->
+                Maintenance -> Onboard Maintenance to add in your fav apps.
+                (APPS is smart to alter only the current boot-list file!!!)
+                
+                2. After download of those 2 TCZs, in a terminal
+                $ tce-load -i xfwm4-list
+                This will create xfce.lst into your tcedir. Note it is
+                xfce.lst for list not xfce.1st Please check its there 
+                before reboot! The xfwm4-list TCZ is designed to be run once,
+                while the main or doc etc can be run multiple times.
+
+                3. Reboot into your bootloader
+                If you have xbase.lst entry, manually change 
+                that entry from xbase.lst to xfce.lst
+                and use your bootloader to boot
+                (For grub2 users press F10)
+                
+                If you have no list showing in bootloader 
+                menu, edit your bootloader menu manually,
+                find the line that included tce=sd(etc)
+                add this extra bit
+                lst=xfce.lst 
+                and then boot with that amended entry.
+
+                If your bootloader menu is missing tce=(etc)
+                add lst=xfce.lst to whatever is your kernel
+                line for grub/2 
+                OR for APPEND line for syslinux.cfg
+
+                If in doubt seek help in the forum.
+
+                4. If after testing, you like XFCE seek help
+                on how to add a new entry. I use another 
+                distro grub2 to boot into TC
+
+                5. Newbies should not delete any entry for xfce.lst
+                without forum or email help. However, if you have
+                intel graphics do not  delete graphics-KERNEL.tcz 
+                
+                My build no longer uses /etc/sysconfig/desktop
+                If you wish to check you are on XFCE the 
+                correct command to run is
+                $ echo $XDG_CURRENT_DESKTOP
+                (expected result=XFCE)
+
+                PLEASE READ THE INFO for
+                ########################
+                xfce4-xkb-plugin....Thunar
+                xfce4-panel.........xfce4-session
+                xfce4-settings......xfdesktop
+                and any other info files mentioned in them
+
+                Optional Dependency
+                ###################
+                xfwm4-extra-themes.tcz
+
+                Good Luck!
+ 
+                REFERENCES
+                ##########
+                http://wiki.tinycorelinux.net/wiki:extlinux
+                http://distro.ibiblio.org/tinycorelinux/faq.html#bootcodes
+                http://wiki.tinycorelinux.net/wiki:boot_codes_explained
+                Compiled for 64 9x
+Change-log:     2018/04/22  First version 
+Current:        2018/05/24 rebuild for gtk3 issue 

@@ -1,0 +1,27 @@
+Title:	star-cups-driver.tcz
+Description: Star Linux CUPS Raster Driver with printers .ppd files
+Version: 3.0.0
+Author: wonderfulll
+Original-site:	www.starasia.com 
+Copying-policy: GPL
+Size:	92KB
+Extension_by:	wonderfulll
+Tags:	 Star CUPS Raster Driver printers .ppd
+Comments:	Driver for Star printers. 
+		Includes .ppd for: hsp7000r.ppd.gz, sp717.ppd.gz,
+		tsp143.ppd.gz, tup542.ppd.gz, hsp7000s.ppd.gz,
+		sp742.ppd.gz, tsp143gt.ppd.gz, tup592.ppd.gz,
+		hsp7000v.ppd.gz, sp747.ppd.gz, tsp651.ppd.gz,
+		tup942.ppd.gz, sp512.ppd.gz, tsp1000.ppd.gz,
+		tsp654.ppd.gz, tup992.ppd.gz, sp542.ppd.gz,
+		tsp113.ppd.gz, tsp700II.ppd.gz, sp712.ppd.gz,
+		tsp113gt.ppd.gz, tsp828l.ppd.gz
+		This package was tested with CUPS 1.3.11 and Star 
+		TSP700II(connected through parallel port). 
+		After that you can print using lpr command or just
+		echo -ne "\ntext you want to print\n\x1B\x64\001" > 
+		/dev/lp0 (last charecters are for cutting).
+		Note: if your printer is connected through parallel port 
+		you need to 'modprobe lp' on boot.
+Change-log:	First version
+Current:	2010/05/19

@@ -1,0 +1,33 @@
+Title:		distcc-doc.tcz
+Description:	distributed compilation software
+Version:	3.2rc1
+Author:		Martin Pool et al
+Original-site:	http://distcc.googlecode.com/files/distcc-doc-3.2rc1.tar.gz
+Copying-policy:	GPLv2
+Size:		108K
+Extension-by:	dentonlt
+Tags:		gcc distributed compilation build
+Comments:	----------
+		These are doc files for extension distcc.
+		distcc is a program for distributing C/C++ compilation across
+		several networked machines. It is often 2x or more faster than
+		local compile.
+		The installation script appends port 3632 to /etc/services.
+		To use distcc, you will need to ...
+		1) modify:
+			/usr/local/etc/hosts
+			/usr/local/etc/clients.allow
+		by adding the LAN IPs of your distcc servers.
+		2) start distccd on each server using:
+			distccd --daemon --allow CLIENT_IP
+		where CLIENT_IP is the LAN IP of your primary build system.
+		3) export CC='distcc gcc' and CXX='distcc g++' before you
+		call make.
+		This extension includes distccmon-gnome, which requires
+		libglade and its dep gtk2. libglade is NOT in the distcc
+		dep file, as the monitor is only useful on the primary
+		build machine. To use the monitor, you must first load
+		extension libglade.
+		----------
+Change-log:	2014/01/19 first version for x86_64; 3.1 dentonlt
+Current:	2014/01/19 first version for x86_64; 3.1 dentonlt

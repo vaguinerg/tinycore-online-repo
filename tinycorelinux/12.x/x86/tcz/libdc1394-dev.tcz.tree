@@ -1,0 +1,36 @@
+libdc1394-dev.tcz
+   libdc1394.tcz
+      libraw1394.tcz
+         firewire-5.10.3-tinycore.tcz
+      libusb.tcz
+         udev-lib.tcz
+            glib2.tcz
+               libffi.tcz
+   libraw1394-dev.tcz
+      libraw1394.tcz
+         firewire-5.10.3-tinycore.tcz
+   libusb-dev.tcz
+      libusb.tcz
+         udev-lib.tcz
+            glib2.tcz
+               libffi.tcz
+      udev-dev.tcz
+         udev-lib.tcz
+            glib2.tcz
+               libffi.tcz
+         glib2-dev.tcz
+            glib2-python.tcz
+               glib2.tcz
+                  libffi.tcz
+               python3.6.tcz
+                  openssl-1.1.1.tcz
+                  sqlite3.tcz
+                  gdbm.tcz
+                  bzip2-lib.tcz
+                  liblzma.tcz
+                  readline.tcz
+                     ncursesw.tcz
+                  libffi.tcz
+            libffi-dev.tcz
+               libffi.tcz
+

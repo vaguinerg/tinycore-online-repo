@@ -1,0 +1,26 @@
+libcups.tcz
+   libavahi.tcz
+      dbus.tcz
+         expat2.tcz
+         libSM.tcz
+            libICE.tcz
+         libX11.tcz
+            libxcb.tcz
+               libXau.tcz
+               libXdmcp.tcz
+      gcc_libs.tcz
+      glib2.tcz
+         gamin.tcz
+         libelf.tcz
+         pcre.tcz
+            bzip2-lib.tcz
+            gcc_libs.tcz
+         libmount.tcz
+   gnutls.tcz
+      gcc_libs.tcz
+      libidn.tcz
+      nettle.tcz
+         gmp.tcz
+      p11-kit.tcz
+         libtasn1.tcz
+

@@ -1,0 +1,41 @@
+Title:          vsftpd.tcz
+Description:    FTP Server
+Version:        2.3.5
+Author:         Chris Evans
+Original-site:  http://vsftpd.beasts.org/
+Copying-policy: GPL
+Size:		52K
+Extension_by:   robc
+Tags:	    FTP Server
+Comments:       Use the following command to 
+		run vsftpd:
+			sudo vsftpd &
+			
+		The configuration file will need to be
+		edited, it can be found at:
+		/usr/local/etc/vsftpd.conf
+		
+		Add vsftpd.conf to the .filelist backup
+		file list for persistency.
+		
+		---------------------------------------
+		
+		Please visit http://vsftpd.beasts.org/
+		for more information on setting up 
+		vsftpd.
+		
+		
+		Please see the man page for additional 
+		information.
+		
+		---------------------------------------
+		
+Change-log:     2009/1/19 Original
+		2009/5/27 Updated to v2.1.0, PPI compatible
+		2009/08/31 Updated to v2.2.0
+		2009/11/12 Updated to v2.2.1
+		2010/01/22 Updated to v2.2.2
+		2010/09/29 Updated to v2.3.2
+		2011/03/08 Updated to v2.3.4
+		2011/12/22 Updated to v2.3.5
+Current:	2011/12/22 Updated to v2.3.5

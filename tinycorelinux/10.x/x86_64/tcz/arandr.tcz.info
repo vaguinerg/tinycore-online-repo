@@ -1,0 +1,38 @@
+Title:          arandr.tcz  
+Description:    Front end to libXrandr
+Version:        0.1.9
+Author:         see doc for authors  
+Original-site:  http://christian.amsuess.com/tools/arandr/#project
+Copying-policy: GPL v3
+Size:		44K
+Extension_by:   aus9 at gmx dot com
+Tags:           xrandr libxrandr 
+Comments:       a(nother)(x)randr, monitor resolutions app
+
+                Steps
+                #####
+                Run a window manager with Xorg please.
+
+                $ tce-load -i arandr
+                wbar -> arandr or $ arandr
+                GUI should show < name of connection >,
+                -------I see HDMI-2, but I am on DVI cable.
+                other choices for me, DP-1 and other HDMIs
+
+                Ouputs -> < name of your connection>
+                -> Resolution -> Choice your numbers eg 800x600 
+                -> Click the Apply button 
+                (expect Monitor to go black for a couple of seconds)
+                And then new resolution should occur
+               
+                If instead of size you wish to rotate, instead of 
+                Resolution choose Orientation. On my PC, 
+                rotate left...rotates clockwise and no need 
+                to click apply for rotation.
+
+                I am unable to test 2 monitors and Primary was
+                unticked. YMMV
+                
+                Compiled for 64 9.x
+Change-log:     2018/04/05  First version 
+Current:        2018/04/05 

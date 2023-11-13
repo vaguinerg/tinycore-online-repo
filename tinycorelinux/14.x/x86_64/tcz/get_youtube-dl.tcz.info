@@ -1,0 +1,48 @@
+Title:		get_youtube-dl.tcz
+Description:	Script to create youtube-dl.tcz for youtube-dl or yt-dlp
+Version:	202305
+Author:		nitram, CNK
+Original-site:	http://forum.tinycorelinux.net/index.php/topic,20524.0.html
+Copying-policy:	http://unlicense.org
+Size:		4.0K
+Extension_by:	CNK
+Tags:		youtube-dl youtube media video downloader
+Comments:	Run 'get_youtube-dl.sh' to get the latest version of
+		youtube-dl or yt-dlp and create a youtube-dl.tcz
+		extension.
+
+		If run without arguments, it will prompt for the release
+		type you want to install (listed below), and to add
+		youtube-dl.tcz to onboot.lst or OnDemand.
+
+		If run with one of these arguments, the script will
+		download the specified release type and not prompt for
+		user input:
+
+		youtube-dl		-- Latest official release
+		youtube-dl_daily	-- Latest daily dev. build
+		yt-dlp			-- Youtube-dl fork (Python 3)
+		[custom URL]		-- User-provided link to
+					   youtube-dl executable to
+					   download (eg. older version)
+		Examples:
+		 get_youtube-dl.sh youtube-dl_daily
+		 get_youtube-dl.sh https://github.com/ytdl-patched/youtube-dl/releases/download/2023.05.18.810/youtube-dl
+
+		Re-run 'get_youtube-dl.sh' for subsequent update
+		checks.
+
+		Script output provides mediaplayer stream example plus
+		links to youtube-dl homepage, supported sites, README.
+
+		Youtube-dl is a rich commandline media downloader,
+		works on numerous websites, licenced with Unlicense:
+		 https://rg3.github.io/youtube-dl/
+Change-log:	2016/11/19 Version 201611 for TC7 (nitram)
+		2016/12/13 Version 201612 for TC7 (nitram)
+                -added squashfs-tools dependency and sanity checks,
+                 script renamed get_youtube-dl.sh to prevent OnDemand
+                 menu autorun, improved logic and runtime efficiency,
+                 proper TC upgrade protocol
+Current:	2023/05/27 Version 202305 for TC14, TC Pure64 14, and
+		 PiCore 13. (CNK) - Changes at "Original-site" link.

@@ -1,0 +1,23 @@
+Title:          watcher.tcz
+Description:    FLTK cpu/ram/swap/battery meter
+Version:        1.9
+Author:         juanito
+Original-site:  http://tinycorelinux.com
+Copying-policy: GPL
+Size:		8KB
+Extension_by:   Curaga
+Tags:		FLTK cpu ram swap battery meter
+Comments:       The latest watcher, now available as an extension.
+-
+		Use the X standard -g option to position watcher where-ever
+		wanted. X counts from top-left, so watcher in top-left corner:
+		watcher -g +0+0
+		Top-right would be "-0+0", bottom left "+0-0", bottom right
+		"-0-0".
+-
+		To start watcher on X start, add to .xsession:
+		[ $(which watcher) ] && watcher -g +0-0 -bat BAT0 &
+-
+		This extension is PPI compatible.
+Change-log:     first version
+Current:        2014/11/30

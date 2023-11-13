@@ -1,0 +1,26 @@
+Title:          bash.tcz
+Description:    bash for tinycore
+Version:        4.4
+Author:         Chet Ramey
+Original-site:  www.gnu.org/software/bash/
+Copying-policy: GPL
+Size:		456KB
+Extension_by:   Jason W
+Tags:	    	bash
+Comments:       Bash is a shell for Linux.
+		This extension is PPI compatible. 
+                ----------
+Change-log:     2008/07/23 First version
+	        2008/09/09 Removed the symlink /bin/sh -> /bin/bash.
+		/bin/sh needs to remain pointing to busybox ash. 
+	        2008/11/27 Recompiled for 486 and size optimization.
+                2009/02/02 Made PPI compatible.
+		2009/04/05 Added basic bashrc
+		2009/09/19 Upgraded to version 4.0.
+		2010/02/21 Corrected startup script to not overwrite existing /usr/local/etc/bashrc.
+		2011/05/24 Copying .bashrc to /etc/skel/
+                2013/06/12 compiled for TC-5.0 (3.8.10 Kernel) patched 1-45 & updated by coreplayer2
+                2014/09/18 updated 4.2 -> 4.3 patches 0-25 (juanito)
+                2015/07/29 updated 4.3 -> 4.3.30 patches -> 39 (juanito)
+                2015/09/27 adjusted startup script (juanito)
+Current:	2016/10/20 updated 4.3.30 -> 4.4 (juanito)

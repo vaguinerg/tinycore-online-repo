@@ -1,0 +1,19 @@
+Title:          cifs-utils.tcz
+Description:    cifs mount utility
+Version:        6.2
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 32KB
+Extension_by:   juanito
+Tags:	        cifs mounts
+Comments:       utilities for doing and managing cifs mounts
+                ----------
+                Example:
+                # mount -t cifs //192.168.1.160/Public /mnt/public-n4800 -o user=juanito,pass=xxxxxx
+                ----------
+                This extension contains:
+                cifs-utils-6.2 - GPLv3 - http://ftp.samba.org/pub/linux-cifs/cifs-utils/cifs-utils-6.2.tar.bz2
+                ----------
+Change-log:     first version
+Current:        2013/12/28

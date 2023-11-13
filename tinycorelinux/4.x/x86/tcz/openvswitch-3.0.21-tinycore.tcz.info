@@ -1,0 +1,25 @@
+Title:          openvswitch-3.0.21-tinycore.tcz
+Description:    Production quality, multilayer virtual switch
+Version:        1.11.0
+Author:         http://git.openvswitch.org/cgi-bin/gitweb.cgi?p=openvswitch;a=blob_plain;f=AUTHORS;hb=HEAD
+Original-site:  http://openvswitch.org
+Copying-policy: Apache 2.0
+Size:		4.1M
+Extension_by:   brezular
+Tags:		openvswitch
+Comments:       Open vSwitch is a production quality open source
+		software switch designed to be used as a vswitch
+                in virtualized server environments. 
+		A vswitch forwards traffic between different VMs 
+		on the same physical host and also forwards traffic 
+		between VMs and the physical network.
+                Open vSwitch supports standard management interfaces
+		(e.g. NetFlow, RSPAN, ERSPAN, CLI), and is open to 
+		programmatic extension and control using OpenFlow 
+		and the OVSDB management protocol.              
+
+Change-log:     2011/06/21 First version 1.1.1
+		2011/08/18 Updated to 1.2.0
+		2011/10/05 Updated to 1.2.2
+		2012/11/05 Updated to 1.7.1
+Current: 	2013/09/11 1.11.0

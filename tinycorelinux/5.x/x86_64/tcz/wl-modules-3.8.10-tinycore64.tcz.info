@@ -1,0 +1,25 @@
+Title:          wl-modules-3.8.10-tinycore64.tcz
+Description:    broadcom wl kernel module
+Version:        5.100.82.112
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 1012KB
+Extension_by:   juanito
+Tags:	        broadcom wl wireless kernel module
+Comments:       Broadcom's IEEE 802.11a/b/g/n hybrid Linux device driver for use..
+                ..with Broadcom's BCM4311-, BCM4312-, BCM4313-, BCM4321-, BCM4322-, BCM43224-,
+                and BCM43225-, BCM43227- and BCM43228-based hardware 
+                ----------
+                Note: you need to blacklist the bcma, ssb and b43 modules for this to work
+                ----------
+                This extension contains:
+                hybrid-portsrc_x86_64-v5_100_82_112 - Broadcom License - http://www.broadcom.com/support/802.11/linux_sta.php
+                ----------
+Change-log:     2011/12/21
+                updated for 3.0.21 kernel
+                2012/08/25
+                patched and compiled to work in cfg80211 api mode
+                2013/04/11
+                recompiled for tc-5.x
+Current:        2013/10/14

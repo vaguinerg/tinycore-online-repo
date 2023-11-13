@@ -1,0 +1,59 @@
+Title:		grabber.tcz
+Description:	Use your mouse to select an area of your screen for a screenshot in png format.
+Version:	1.2
+Author:		Richard Rost
+Original-site:	None
+Copying-policy:	See /usr/local/share/doc/License/grabber-License.txt
+Size:		12K
+Extension_by:	Rich
+Tags:		screenshot png mouse selection
+Comments:	Start the program from the command line by entering  grabber  or click on the
+		grabber icon or click the SelectiveScreenshot entry on the desktop menu..
+
+		Move the mouse with the left button depressed to draw an outline around the
+		section of the screen to save. Everything inside the outline will saved as
+		a  .png  file. The outline will not be included in the saved file.
+
+		Clicking the left button again clears the outline. Moving the mouse with the
+		right button depressed moves the outline.
+
+		The readout in the top left corner displays the origin and size of the area
+		that will be saved. Click and drag the readout to move it if it's in your
+		way, or use the v key to toggle whether it's visible or not. There's a
+		setting in the config file for the default location or to disable it. It
+		also has a setting for the font to use.
+		The readout will not be included in the saved file.
+
+		Keyboard functions
+
+			X or x	  Make the outline one pixel larger or smaller
+			Y or y	  Make the outline one pixel taller or shorter
+
+			l or r	  Move the outline one pixel left or right
+			u or d	  Move the outline one pixel up or down
+				  The arrow keys will also move the outline
+
+			s	  Save the outlined area to a file. If an outline 
+				  is not defined, the whole screen is saved. The config
+				  file has settings for default path and file name.
+
+			c	  Same as s except include the mouse cursor in the image.
+
+			v	  Toggle the visibility of the coordinates readout.
+
+			n	  Start a new instance of the program. Lets you
+				  capture the outline should you wish to.
+
+			q	  Quits the current instance of the program.
+			
+			k	  Kills all instances of the program.
+			
+			Any other key brings up a help window.
+
+		Configuration settings can be found in  /home/$USER/.config/grabber/grabber.conf
+
+		This extension is PPI compatible.
+Change-log:	2015/5/14  Original release
+		2015/7/1   Fixed to work with fluxbox and icewm. Changed save filename format.
+		2015/10/14 Added help window and kill function.
+Current:	2016/5/9   Fixed cropping rectangle off by one pixel bug. Removed Esc key to quit function.

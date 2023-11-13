@@ -1,0 +1,29 @@
+Title:		dillo-gemini.tcz
+Description:	Gemini protocol support for Dillo
+Version:	6b75737
+Author:		Charles E. Lehner
+Original-site:	https://git.scuttlebot.io/%25V0D7DtSnZyyAp1NbgOJF2ZAFMeUy9eXwyClCEKYUYAI%3D.sha256
+Copying-policy:	FSFAP
+Size:		4.0K
+Extension_by:	CNK
+Tags:		FLTK light internet gemini browser dillo plugin plug-in
+Comments:	This plug-in for the Dillo web browser adds support
+		for the Gemini protocol.
+
+		Your choice of Dillo extension should be loaded
+		before loading this extension.
+
+		Browsing history is kept in:
+		~/.dillo/gemini/history.txt
+
+		Cached content is kept in:
+		~/.ssb/blobs/tmp
+		Which, unless already existing when the extension
+		is loaded, is symlinked to:
+		/tmp/ssb/blobs
+
+		-----
+		For x86 and x86_64.
+		-----
+Change-log:	2022/02/26 First packaged version, 6b75737
+Current:	2022/02/26 First packaged version, 6b75737

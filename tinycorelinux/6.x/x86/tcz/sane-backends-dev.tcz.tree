@@ -1,0 +1,31 @@
+sane-backends-dev.tcz
+   sane-backends.tcz
+      libsane.tcz
+         libtiff.tcz
+            liblzma.tcz
+            libjpeg-turbo.tcz
+         libusb.tcz
+            udev-lib.tcz
+               glib2.tcz
+                  gamin.tcz
+                  libffi.tcz
+         libcups.tcz
+            libavahi.tcz
+               dbus.tcz
+                  expat2.tcz
+               gcc_libs.tcz
+               glib2.tcz
+                  gamin.tcz
+                  libffi.tcz
+            openssl.tcz
+         libv4l.tcz
+            v4l-dvb-3.16.6-tinycore.tcz
+               i2c-3.16.6-tinycore.tcz
+               alsa-modules-3.16.6-tinycore.tcz
+                  input-joystick-3.16.6-tinycore.tcz
+            libjpeg-turbo.tcz
+         libieee1284.tcz
+         net-snmp.tcz
+            openssl.tcz
+         libnl.tcz
+

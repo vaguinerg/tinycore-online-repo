@@ -1,0 +1,16 @@
+libcaca.tcz
+   Xorg-7.7-lib.tcz
+      libxcb.tcz
+   bzip2-lib.tcz
+   freetype.tcz
+      bzip2-lib.tcz
+   imlib2.tcz
+      freetype.tcz
+         bzip2-lib.tcz
+      libjpeg-turbo.tcz
+      libpng.tcz
+   libxcb.tcz
+   ncurses.tcz
+      ncurses-common.tcz
+   slang.tcz
+

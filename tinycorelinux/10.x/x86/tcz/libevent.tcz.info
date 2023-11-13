@@ -1,0 +1,21 @@
+Title:		libevent.tcz
+Project:	libevent
+Description:    Provides mechanism to execute callback function when specific event occurs
+Version:	2.1.11
+Author:		Niels Provos and Nick Mathewson
+Original-site:	http://libevent.org
+Copying-policy:	3-clause BSD style
+Size:		268K
+Extension_by: 	andyj
+Tags:		event notification library
+Comments:	Library to use events and callbacks instead of polling
+                Install Python for event_rpcgen.py
+                Compiled for Core 6.0
+		Binaries only
+Change-log:	2014/11/27 First version, to 2.0.21 (bmarkus)
+		2017/07/01 Upgraded to version 2.1.8, recompiled for TC 8.x
+		2019/01/21 recompiled for TC 10.x
+		2019/05/31 updated to version 2.1.10
+		2019/07/06 recompiled with openssl-1.1.1
+Current:	2019/10/19 updated to version 2.1.11 (new ABI)
+

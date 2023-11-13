@@ -1,0 +1,38 @@
+Title:          ibus-chewing.tcz
+Description:    IBus front-end of Chewing
+Version:        c1e7f0d
+Author:         Peng Huang, Ding-Yi Chen
+Original-site:  https://github.com/definite/ibus-chewing
+Copying-policy: GPLv2
+Size:           112K
+Extension_by:   polikuo
+Tags:           ibus libchewing Traditional Chinese input method zhuyin bopomofo phonetic
+Comments:       Tested on openbox and jwm with gedit
+                Before you start, add "lang=zh_TW.utf8" in your boot code
+                * Download and run getlocale.tcz, select zh_TW.utf8 and install
+                * Fetch any font that support UTF-8 (ex: unifont.tcz)
+                * Load this extension
+                * Start openbox
+                You should be able to use chewing now, enjoy ~ !
+                ----------
+                Troubleshooting:
+                If nothing happens, here're some common solutions
+                * Environment variables (VERY IMPORTANT)
+                "log out" then "log in" to reset the environment variables
+                Type "echo $XIM" in the terminal to varify if it's "ibus"
+                Please refer to /etc/profile.d/ibus.sh in ibus.tcz
+                * ibus-daemon didn't start
+                When "ibus engine" gives you error messages
+                Type "ibus-daemon -drx -n openbox" to start the daemon
+                * Select Input Method
+                Press <Super> + <Space> to switch input method
+                Or run the GUI tool, ibus-setup, to change the setting
+                ----------
+                For more details, please refer to the documents
+                Check ~/.X.d/ibus-chewing and adjust the script for your machine
+                Or /usr/local/share/doc/ibus-chewing/startup_script.example
+                ----------
+                Compiled for 12.x aarch64
+                ----------
+Change-log:     2020/10/15 First Version
+Current:        2020/10/15 First Version

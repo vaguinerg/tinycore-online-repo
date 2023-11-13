@@ -1,0 +1,25 @@
+Title:		enlightenment.tcz
+Description:	The Enlightenment DR17 Desktop Environment
+Version:	0.17.5
+Author:		See http://enlightenment.org/p.php?p=contact&l=e
+Original-site:	enlightenment.org
+Copying-policy:	BSD
+Size:		28M
+Extension_by:	Althalus (nomore), jls_legalize (jlslegalize at gmail dot com)
+Tags:		Enlightenment DR17 Desktop Environment
+Comments:	In case e doesn't start, delete ~/.e and restart X, then make
+		your way through the initial config, then go to settings
+		panel -> look -> startup and uncheck show splash screen on
+		login.
+		In case u use the wm shutdown/restart instead of the exit
+		tc gui the backup will be performed depending on the global
+		tc BACKUP variable.
+		optional deps:
+		   -e-modules-extra
+		   -evas_generica_loaders
+		   -evas_generic_loaders+librsvg for svg
+		    (first way doesn't work for me)
+		For a cannection manager load connman and optionally
+		econnman
+Change-log:	2013/08/08 Updated to 0.17.4
+Current:	2013/11/22 Rebuilt in core 5.1rc1, changed deps

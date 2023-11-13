@@ -1,0 +1,37 @@
+libpulseaudio.tcz
+   dbus.tcz
+      expat2.tcz
+      libSM.tcz
+         libICE.tcz
+      libX11.tcz
+         libxcb.tcz
+            libXau.tcz
+            libXdmcp.tcz
+   libcap.tcz
+   libSM.tcz
+      libICE.tcz
+   libXtst.tcz
+      libXi.tcz
+         libXext.tcz
+            libX11.tcz
+               libxcb.tcz
+                  libXau.tcz
+                  libXdmcp.tcz
+   libsndfile.tcz
+      flac.tcz
+         libogg.tcz
+      libasound.tcz
+         alsa-modules-5.4.51-piCore-v7.tcz
+      libvorbis.tcz
+         libogg.tcz
+      sqlite3.tcz
+   glib2.tcz
+      gamin.tcz
+      libelf.tcz
+      pcre.tcz
+         bzip2-lib.tcz
+         gcc_libs.tcz
+   speexdsp.tcz
+      speex.tcz
+         libogg.tcz
+

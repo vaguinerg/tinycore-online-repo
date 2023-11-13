@@ -1,0 +1,14 @@
+Title:		udev-keymap.tcz
+Description:	udev extension for computer model specific key mappings.
+Version:	173
+Author:		---
+Original-site:	http://www.kernel.org/pub/linux/utils/kernel/hotplug/udev.html
+Copying-policy:	GPL-2
+Size:		24K
+Extension_by:	Arslan S.
+Tags:		udev extension for computer model specific key mappings.
+Comments:	This is particularly necessary for the non-standard extra keys found on many laptops,
+		such as "brightness up", "next song", "www browser", or "suspend". Often these
+		are accessed with the Fn key.
+Change-log:	2012/07/31 Added more rules and new extension udev-keymap
+Current:	2012/08/11 Added option to avoid overwriting tc rules

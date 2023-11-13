@@ -1,0 +1,26 @@
+xf86-video-intel.tcz
+   graphics-3.16.6-tinycore64.tcz
+      i2c-3.16.6-tinycore64.tcz
+   glamor-egl.tcz
+      libEGL.tcz
+         libGL.tcz
+            libXdamage.tcz
+               libXfixes.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
+            libXxf86vm.tcz
+               libXext.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
+            libdrm.tcz
+               libpciaccess.tcz
+               udev-lib.tcz
+            libxshmfence.tcz
+   libxcb.tcz
+      libXau.tcz
+      libXdmcp.tcz
+

@@ -1,0 +1,25 @@
+Title:		openssh.tcz
+Description:	openssh client and server
+Version:	8.4p1
+Author:		Many contributors, see site
+Original-site:	http://www.openssh.org
+Copying-policy:	BSD
+Size:		1.4MB
+Extension_by:	juanito
+Tags:		openssh server client ssh
+Comments:       Config files are located at /usr/local/etc/ssh/
+		Copy ssh_config.orig and sshd_config.orig to
+		ssh_config and sshd_config AND EDIT to fit setup.
+		**Warning: Default sshd_config contains possible
+		security concerns.
+		Host key files will need to be generated only
+		if you intend to run a server.
+		Use /usr/local/etc/init.d/openssh to start, stop or
+		restart server and to generate host keys.
+		This extension is PPI compatible
+Change-log:	2012/11/09 first version
+                2014/01/19 updated 6.0p1 -> 6.4p1
+                2016/04/12 updated 6.4p1 -> 7.2p2
+                2017/05/26 corrected init.d typo
+                2019/12/12 updated 7.2p2 -> 8.1p1
+Current:	2021/03/03 updated 8.1p1 -> 8.4p1

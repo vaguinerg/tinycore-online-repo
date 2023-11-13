@@ -1,0 +1,39 @@
+Title:          secure_erase.tcz
+Description:    ATA Secure Erase
+Version:	None specified
+Author:         Patrick Verner and Jason Vasquez
+Original-site:	http://partedmagic.com
+Copying-policy: None specified
+Size:		12K
+Extension_by:   coreplayer2
+Tags:	    ATA Secure Erase
+Comments:	This script will activate an HDD or SSD's Internal Secure Erase command 
+		as per the ATA specification, USE AT YOUR OWN RISK.
+		For more info, see:
+		http://cmrr.ucsd.edu/people/Hughes/SecureErase.shtml
+
+		After the third dialog box warning all user data will be irretrievably 
+		lost.  
+		This method is additionally recommended to restore an SSD to near factory fresh condition and 
+		performance.
+
+		Tip;  Best to accept the NULL password unless one has been previously set.
+
+		Quote from the script		
+		"According to testing by CMRR at UCSD, nearly all ATA drives
+		manufactured after the year 2001 (with capacities >15 GB)
+		are integrated with the disk drive Secure Erase command.
+		Employing this internal feature offers a higher level of
+		secure erasure than block overwriting software utilities.
+		Normal Secure Erase will write binary zeroes to the entire
+		drive's user-accessible data area, so all data will be deleted.
+		(Note: Secure Erase can take 40 to 330 minutes for completion.)"
+
+		Dependencies: hdparm, lsblk (found in util-linux.tcz), Xdialog, awk, BASH.
+
+		This extension is PPI compatible.
+
+Change-log:     2011/11/22 	removed dep "lsblk" from extension as it's  
+				included in "util-linux.tcz"
+
+Current:	2011/11/01 	version 1.1

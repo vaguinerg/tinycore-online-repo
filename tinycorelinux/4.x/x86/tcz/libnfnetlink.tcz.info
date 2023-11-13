@@ -1,0 +1,21 @@
+Title:		libnfnetlink.tcz
+Description:	Low-level library for netfilter related kernel/userspace communication.
+Version:	1.0.1
+Author:		netfilter core team, contributions from Pablo Neira Ayuso
+Original-site:	http://www.netfilter.org/projects/libnfnetlink
+Copying-policy: GPLv2+
+Size:		16K
+Extension_by:	Rich
+Tags:		library conntrack netlink
+Comments:	libnfnetlink is the low-level library for netfilter
+		related kernel/userspace communication. It provides a
+		generic messaging infrastructure for in-kernel netfilter
+		subsystems (such as nfnetlink_log, nfnetlink_queue,
+		nfnetlink_conntrack) and their respective users and/or
+		management tools in userspace. This library is not meant
+		as a public API for application developers. It is only
+		used by other netfilter.org projects, such as
+		libnetfilter_log, libnetfilter_queue or
+		libnetfilter_conntrack.
+Change-log:     ----
+Current:	2013-01-28 First version, 1.0.1

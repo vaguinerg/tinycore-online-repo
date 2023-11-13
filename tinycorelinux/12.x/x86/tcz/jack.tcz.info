@@ -1,0 +1,14 @@
+Title:		jack.tcz
+Description:	jack - Jack Audio Connection Kit 2
+Version:	1.9.7
+Author:		Various
+Original-site:	http://jackaudio.org
+Copying-policy:	GPL
+Size:		280.0K
+Extension_by:	gutmensch
+Tags:		jack Jack Audio Connection Kit 2
+Comments:	Configure your alsa or ffado device and start jack server with $ sudo jackd -d alsa or $ sudo jackd -d firewire.
+	   	--- 
+		This extension is PPI compatible.
+Change-log:	
+Current:	2011/07/10	Bump to version 1.9.7, split off jack libs, added ffado support

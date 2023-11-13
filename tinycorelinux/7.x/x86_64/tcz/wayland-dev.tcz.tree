@@ -1,0 +1,26 @@
+wayland-dev.tcz
+   wayland.tcz
+      libffi.tcz
+      expat2.tcz
+      libxml2.tcz
+   libffi-dev.tcz
+      libffi.tcz
+   expat2-dev.tcz
+      expat2.tcz
+   libxml2-dev.tcz
+      libxml2-bin.tcz
+         libxml2.tcz
+      libxml2-python.tcz
+         libxml2.tcz
+         python.tcz
+            sqlite3.tcz
+            bzip2-lib.tcz
+            openssl.tcz
+            tk.tcz
+               tcl.tcz
+            gdbm.tcz
+            readline.tcz
+               ncurses.tcz
+            expat2.tcz
+            libffi.tcz
+

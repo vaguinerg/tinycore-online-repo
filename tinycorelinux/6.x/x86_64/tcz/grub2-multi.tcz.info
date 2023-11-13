@@ -1,0 +1,20 @@
+Title:          grub2-multi.tcz
+Description:    grub i386pc and efi boot loader
+Version:        2.00
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 11.3MB
+Extension_by:   juanito
+Tags:	        grub bootloader efi uefi i386
+Comments:       grub efi/uefi/i386 64bit bootloader
+                ----------
+                allows the creation of multi (legacy bios and uefi) boot media
+                howto:
+                $ sudo x86_64-grub-mkrescue -o myiso.iso iso
+                ----------
+                This extension contains:
+                grub-2.00 - GPLv3 - ftp://ftp.gnu.org/gnu/grub/grub-2.00.tar.xz
+                ----------
+Change-log:     first version
+Current:        2015/02/11

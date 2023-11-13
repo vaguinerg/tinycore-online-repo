@@ -1,0 +1,26 @@
+Title:          bluez-gnome.tcz
+Description:    bluez-gnome bt pairing applet
+Version:        1.8
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 120KB
+Extension_by:   juanito
+Tags:	    bluez-gnome bt pairing applet
+Comments:       bluez-gnome applets for bluetooth
+                ----------
+                requires the bluez, bt-2.6.29.1-tinycore, libusb,
+                dbus, dbus-glib, glib2, expat2, GConf-2.18.0.1.devs,
+                ORBit2-2.14.17_devs, libnotify, gtk2 and deps extensions
+                ----------
+                This extension contains:
+                bluez-gnome-1.8 - GPLv2 - http://www.kernel.org/pub/linux/bluetooth/bluez-gnome-1.8.tar.gz
+Change-log:     2008/09/30
+                Updated 1.3 -> 1.8, added icon to start pairing wizard
+                2008/11/05
+                Modified menu item/icon to start bluez-wizard as root
+                2009/06/15
+                eliminated user.tar.gz
+                2009/10/10
+                factored out orbit, gconf & libnotify
+Current:        2009/10/12

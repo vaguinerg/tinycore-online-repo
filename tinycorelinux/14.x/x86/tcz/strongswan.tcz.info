@@ -1,0 +1,30 @@
+Title:          strongswan.tcz
+Description:    strongswan the OpenSource IPsec-based VPN Solution
+Version:        5.9.5
+Author:         Andreas Steffen
+Original-site:  https://www.strongswan.org/
+Copying-policy: GPLv2
+Size:		956K
+Extension_by:   rhermsen
+Tags:           strongswan vpn ipsec
+Comments:       StrongSwan is an OpenSource IPsec implementation.
+                strongSwan originally was designed for Linux, but has since been ported
+                to Android, FreeBSD, Mac OS X, Windows and other platforms.
+                The focus of strongSwan is on:
+                'simplicity of configuration
+                strong encryption and authentication methods
+                powerful IPsec policies supporting large and complex VPN networks
+                modular design with great expandability
+
+                You can ignore the 'modprobe: module <name>  not found in
+                modules.dep' messages. TCL hase these options build into the kernel.
+
+                The IPv6 kernel modules are not automatically installed.
+                If IPv6 is desired, install ipv6-4.x.x-tinycore.tcz via
+                the Apps GUI, or cli (tce-load -wi ipv6-KERNEL).
+
+                Configuration templates are located in strongswan-doc.tcz.
+                (/usr/local/share/strongswan/templates/config/)
+Change-log:     2018/06/27 First Version, 5.6.3
+                2022/02/24 Updated version, 5.9.5
+Current:        2022/02/24 Updated version, 5.9.5

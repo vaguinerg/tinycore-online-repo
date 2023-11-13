@@ -1,0 +1,24 @@
+Title:          gfortran.tcz
+Description:    GNU fortran compiler
+Version:        8.2.0
+Author:         GNU
+Original-site:  http://gcc.gnu.org/fortran/
+Copying-policy: GPLv2
+Size:		9.5MB
+Extension_by:   Akane
+Tags:           GNU fortran compiler
+Comments:	----------
+		Please see the man page for additional 
+		information. 
+		
+		Also see http://gcc.gnu.org/fortran/
+		for more information.
+		----------
+Change-log:     2009/05/11 Original
+		2009/06/03 Rebuilt for TC 2.X
+		2009/06/25 Rebuilt for seperate gcc and binutils, put in /usr/local
+		2010/11/03 Rebuilt for TC 3.x, updated to 4.4.3
+		2011/12/02 Split libs, force copy of compiler to fs
+		2012/10/07 '/usr/local/lib/libquadmath.la' was located in '/usr/lib/', fixed by Akane
+                2016/08/13 updated 4.6.1 -> 5.2.0 (juanito)
+Current:	2019/10/23 updated 5.2.0 -> 8.2.0 (juanito)

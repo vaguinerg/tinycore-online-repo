@@ -1,0 +1,29 @@
+Title:		qbittorrent-nox.tcz
+Description:	Free Software alternative to µtorrent. This is the WebUI-only version.
+Version:	2.7.3
+Author:		Christophe Dumez
+Original-site:	http://qbittorrent.sourceforge.net/
+Copying-policy:	GPL-2 with openssl exception
+Size:		1.9M
+Extension_by:	Tomasz S.
+Tags:		Free Software alternative µtorrent. This WebUI-only version.
+Comments:	The WebUI has fewer configuration options than the GUI version.
+
+		If you want to make use of any function not configurable through the WebUI,
+		you can either install the GUI version alongside this one and setup everything through it,
+		or you can edit the config file manually at: ~/.config/qBittorrent/qBittorrent.conf
+
+		Example: If you want to keep seeding torrents to a ratio of 1.4 and then pause them, add the following to the config file:
+		Bittorrent\MaxRatio=1.4
+		Bittorrent\MaxRatioAction=0
+
+		Magnet:
+		You can add magnet links through the "Download from URL" option in the WebUI.
+
+		Multi-user:
+		If you want each user to have their own private torrent downloads, you can run a separate instance of qbittorrent-nox for each of them.
+		The easiest way to do this, that I know of, is:
+		su -c "qbittorrent-nox [--webui-port=x]" [USERNAME] & ## You may need to run this as root.
+
+Change-log:	2011/04/19 First version 2.7.3
+Current:	2011/04/19 First version 2.7.3

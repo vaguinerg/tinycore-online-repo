@@ -1,0 +1,32 @@
+Title:		postgresql-10.tcz
+Project:	postgresql
+Description:	PostgreSQL Database Management System
+Version:	10.14
+Author:		PostgreSQL Global Development Group
+Original-site:	http://www.postgresql.org
+Copying-policy:	PostgreSQL License
+Size:		12M
+Extension_by: 	andyj
+Tags:		postgresql database client server
+Comments:	Advanced database which is ACID compliant, has strong ANSI-SQL:2008
+		compliance, full foreign key support, supports subqueries and subselects,
+		joins, views, triggers, and stored procedures.
+		Procedural languages supported:
+		PG SQL, Perl 5, Python 3.6, Tcl 8.6, C/C++
+		Compiled for support for 128 character object names for compatibility
+		----
+Change-log:	2018/04/11 First version, 10.3
+		2018/05/29 updated to 10.4, use ncursesw library
+		2018/08/17 updated to 10.5
+		2018/11/10 updated to 10.6
+		2019/01/21 recompiled for TC 10.x
+		2019/02/15 updated to 10.7
+		2019/05/31 updated to 10.8
+		2019/07/06 updated to 10.9, use openssl-1.1.1 library
+		2019/10/09 updated to 10.10
+		2019/12/05 updated to 10.11
+		2020/02/04 updated to python3.6, recompiled for TC 11.x
+		2020/03/03 updated to 10.12
+		2020/06/09 updated to 10.13
+Current:	2020/09/10 updated to 10.14
+

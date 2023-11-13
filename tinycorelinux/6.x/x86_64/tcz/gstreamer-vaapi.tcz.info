@@ -1,0 +1,22 @@
+Title:          gstreamer-vaapi.tcz
+Description:    gstreamer vaapi (testing)
+Version:        0.6.1
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 		604KB
+Extension_by:   juanito
+Tags:	        gstreamer va vaapi
+Comments:       gstreamer va api hardware acceleration
+                ----------
+                deps are for intel graphics hardware to play mp4 files
+                ----------
+                requires working Xorg-7.7-3d
+                test with:
+                gst-launch-1.0 -v filesrc location=/path-to-file/*.mp4 ! qtdemux ! vaapidecode ! vaapisink fullscreen=true
+                ----------
+                this extension contains:
+                gstreamer-vaapi-0.6.1 - lGPLv2.1 - http://www.freedesktop.org/software/vaapi/releases/gstreamer-vaapi/gstreamer-vaapi-0.6.1.tar.bz2
+                ----------
+Change-log:     first version
+Current:   	2015/10/18

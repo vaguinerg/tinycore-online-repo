@@ -1,0 +1,37 @@
+qt-4.x-extended.tcz
+   qt-4.x-base.tcz
+      glib2.tcz
+         libffi.tcz
+         pcre.tcz
+      openssl-1.0.0.tcz
+      dbus.tcz
+         expat2.tcz
+      libasound.tcz
+      libpng.tcz
+      libXrender.tcz
+         libX11.tcz
+            libxcb.tcz
+               libXau.tcz
+               libXdmcp.tcz
+      libGL.tcz
+         libXdamage.tcz
+            libXfixes.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
+         libXxf86vm.tcz
+            libXext.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
+         libdrm.tcz
+            libpciaccess.tcz
+            udev-lib.tcz
+      fontconfig.tcz
+         expat2.tcz
+         freetype.tcz
+      libSM.tcz
+      libICE.tcz
+

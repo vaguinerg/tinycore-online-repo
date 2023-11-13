@@ -1,0 +1,26 @@
+Title:		totem.tcz
+Description:	Movie Player of GNOME
+Version:	3.22.1
+Author:		Bastien Nocera, Julien Moutte
+Original-site:	http://projects.gnome.org/totem/
+Copying-policy:	GPL-2
+Size:		536KB
+Extension_by:	Arslan S.
+Tags:		Movie Player gtk+ gtk3 gnome gstreamer
+Comments:	This extension is PPI compatible
+                ----------
+                Note:
+                Xorg-7.7-3d must be loaded before first "startx"
+                tested with alsa sound
+                default deps will play mpeg4 video with aac audio
+                ----------
+Change-log:	2010/01/10 First Version 2.28.5
+		2010/01/18 Removed some broken plugins
+		2010/02/07 Updated init script & reduced size
+                2010/08/13 Updated to 2.30.2
+                2013/09/30 updated 2.30.2 -> 3.8.2 (juanito)
+                2015/07/14 updated 3.8.2 -> 3.16.2 (juanito)
+                2015/10/14 updated 3.16.2 -> 3.16.4 (juanito)
+                2016/09/23 updated 3.16.4 -> 3.22.0 (juanito)
+                2017/04/13 updated 3.22.0 -> 3.22.1 (juanito)
+Current:	2017/07/01 recompiled for updated libgcrypt (juanito)

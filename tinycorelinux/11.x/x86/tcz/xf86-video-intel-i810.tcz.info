@@ -1,0 +1,44 @@
+Title:          xf86-video-intel-i810.tcz
+Description:    xorg intel i810 video drivers
+Version:        20200218
+Author:         See source
+Original-site:  http://anduin.linuxfromscratch.org/BLFS/xf86-video-intel/xf86-video-intel-20200218.tar.xz
+Copying-policy: See source
+Size:           900K
+Extension_by:   nitram
+Tags:           x xorg driver video 2d intel i810
+Comments:       - Open-source X.org graphics driver for Intel i810.
+                - Intel i810 with DRI support for better performance.
+                - Just use xf86-video-intel-i810.tcz and Xorg-7.7.tcz.
+                - Use 'xrandr' to check resoutions and ~/.X.d/ entry
+                  to set, example 'xrandr -s 1280x800'.
+                - Or xorg.conf file for options/over-ride resolution,
+                  add 'etc/X11/xorg.conf' to /opt/.filetool.lst.
+                - Sample xorg.conf file:
+                    Section "Monitor"
+                         Identifier   "Monitor0"
+                         HorizSync    30-80
+                         VertRefresh  50-75
+                    EndSection
+                    Section "Device"
+                         Identifier     "Card0"
+                         Driver         "intel"
+                         #Option "DRI"  "false"
+                    EndSection
+                    Section  "Screen"
+                         Identifier    "Screen0"
+                         Device        "Card0"
+                         Monitor       "Monitor0"
+                         DefaultDepth  16
+                         SubSection "Display"
+                              Depth   16
+                              #Modes   "1152x864"
+                              Modes   "1280x800"
+                         EndSubSection
+                    EndSection
+Change-log:     2016/10/31, Intel v2.99.917 for TC7 (nitram)
+                2016/12/06, Intel v2.99.917 for TC7 (nitram)
+                - DRI support for better performance
+                - Utilizes the i810 kernel module
+                - Should not need xorg.conf file
+Current:        2021/01/14, v20200218 for TC11 (nitram)

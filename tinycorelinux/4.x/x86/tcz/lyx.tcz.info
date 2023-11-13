@@ -1,0 +1,49 @@
+Title:		lyx.tcz
+Description:	LyX is a document processor.
+Version:	2.0.4
+Author:		LyX Team
+Original-site:	http://www.lyx.org
+Copying-policy:	GPL-2
+Size:		13M
+Extension_by:	Arslan S.
+Tags:		LyX is a document processor.
+Comments:	LyX combines the power and flexibility of TeX/LaTeX with the ease of 
+		use of a graphical interface. LyX needs a full TeX distribution to generate 
+		DVI,PDF,PS outputs. A full Tex Live installation takes about 2G disk space. 
+		So instead of an installation use iso/DVD option. 
+
+		To summarize things to do:
+		1) Download texlive20xx.iso from http://tug.org/texlive/acquire-iso.html
+		2) Burn it with a DVD or Mount texlive20xx.iso
+		4) cd to DVD/iso root and Run tl-portable
+		5) Run lyx in the same terminal
+		6) Tools->Reconfigure
+		7) Restart LyX
+
+		LyX needs more than Tex Live for full functionality. Here are some suggested extensions:
+		Image converter --> ImageMagick, GraphicsMagick
+		Spell checker --> ispell, aspell, hunspell
+		DVI viewer --> xdvi (available with TeX Live)
+		PDF viewer --> xpdf, epdfview, gsview, evince, okular, foxit, adobe acrobat
+		PS viewer --> gsview, evince, okular
+
+		For more information see:
+		http://www.lyx.org/AdditionalSoftware
+
+		Note: Installing these programs is not enough usually. You have to specify
+		appropriate commands to invoke them in Tools->Preferences
+		
+		For example if you installed GraphicsMagick as image converter
+		Go to Tools->Preferences->File Handling->Converters
+		add from PNG format to EPS format with command 'gm convert $$i $$o'
+		For file viewers, Tools->Preferences->File Handling->File formats 
+		Choose a file format and type correct program name inside textbox 'Viewer'
+		
+		
+Change-log:	2009/10/29 First Version
+		2009/12/13 Updated to 1.6.5
+		2010/08/26 Updated to 1.6.7
+		2010/11/16 Updated to 1.6.8
+		2011/02/07 Updated to 1.6.9
+		2011/09/15 Updated to 2.0.1
+Current:	2012/07/21 Updated to 2.0.4

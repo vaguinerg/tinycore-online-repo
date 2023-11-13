@@ -1,0 +1,21 @@
+Title:          weston.tcz
+Description:    reference wayland compositor
+Version:        10.0.0
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 944KB
+Extension_by:   juanito
+Tags:	        wayland compositor wm
+Comments:       weston is the reference implementation of a wayland compositor
+                can optionally use the gst-plugins-base and freerdp extensions
+                ----------
+                see graphics-KERNEL info file
+                howto: (from the console prompt)
+                $ XDG_RUNTIME_DIR=/run/user/$(id -u) weston-launch
+                ----------
+                This extension contains:
+                weston-10.0.0 - MIT - https://wayland.freedesktop.org/releases/weston-10.0.0.tar.xz
+                ----------
+Change-log:     2020/08/09 first version
+Current:        2022/06/04 updated 8.0.0 -> 10.0.0

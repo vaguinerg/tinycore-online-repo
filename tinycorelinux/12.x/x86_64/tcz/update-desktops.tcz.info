@@ -1,0 +1,41 @@
+Title:          update-desktops.tcz
+Description:    tool to refresh mime and desktops
+Version:        1.0
+Author:         aus9
+Original-site:  TinyCore
+Copying-policy: opensource 
+Size:           4.0K         
+Extension_by:   aus9  
+Tags:          mime desktops
+Comments:   Some of us load TCEs after booting. File managers like
+            pcmanfm and spacefm do not auto detect freshly loaded TCEs.
+            If any new loaded TCE offer mime handling, consider 
+            running this app.
+            
+            If you see the next line, it means no new desktops
+            were detected.
+            "The databases in /usr/local/share/applications/ 
+            could not be updated."  ^ = (above-dir used below)
+            
+            Be aware that if you attempt to open something in a 
+            file manager, and you have no option to open it with a 
+            TCE.....check that your preferred desktop file mentions 
+            your target mime type.
+            
+            mime types include txt mp3 mp4 pdf html and so on.
+            Look under /above-dir/something.desktop for the line 
+            that starts with MimeType.
+            If not found, consider reporting by pm or forum post to 
+            the downstream maintainer. 
+            
+            In pcmanfm and spacefm, it is not necessary to close and 
+            restart it, to see new mime type TCE options after running 
+            this exe
+            
+            You can copy from /tmp/tcloop/etc the bin file to 
+            ~./local/bin/ if you prefer not to have this TCE in 
+            your boot list       
+                          
+Change-log:     2020/07/31 Original 11x  v 1.00
+Current:        2020/07/31 
+

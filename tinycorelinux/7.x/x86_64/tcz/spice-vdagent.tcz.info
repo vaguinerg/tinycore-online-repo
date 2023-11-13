@@ -1,0 +1,21 @@
+Title:          spive-vdagent.tcz
+Description:    spice vm guest agent
+Version:        0.16.0
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 44KB
+Extension_by:   juanito
+Tags:	        spice vm guest
+Comments:       spice agent for linux guest vm (enables copy paste)
+                ----------
+                in the guest vm
+                $ sudo modprobe uinput
+                $ sudo spice-vdagentd
+                $ spice-vdagent
+                ----------
+                This extension contains:
+                spice-vdagent-0.16.0 - GPLv3 - http://www.spice-space.org/download/releases/spice-vdagent-0.16.0.tar.bz2
+                ----------
+Change-log:     first version
+Current:        2016/04/08

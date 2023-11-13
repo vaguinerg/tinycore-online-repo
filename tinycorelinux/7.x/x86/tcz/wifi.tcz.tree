@@ -1,0 +1,14 @@
+wifi.tcz
+   wireless_tools.tcz
+      libiw.tcz
+      wireless-4.2.9-tinycore.tcz
+   wpa_supplicant.tcz
+      libnl.tcz
+      ncurses.tcz
+      openssl.tcz
+      readline.tcz
+         ncurses.tcz
+      wireless_tools.tcz
+         libiw.tcz
+         wireless-4.2.9-tinycore.tcz
+

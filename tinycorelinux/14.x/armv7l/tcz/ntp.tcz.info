@@ -1,0 +1,21 @@
+Title:          ntp.tcz
+Description:    NTP utilities
+Version:        4.2.8p14
+Author:         Harlan Stenn
+Original-site:  http://www.ntp.org
+Copying-policy: Free, see COPYRIGHT
+Size:           876KB
+Extension_by:   bmarkus
+Tags:           CLI SYSTEM
+Comments:       Binaries only
+                ----
+                Run ntpd as root to start daemon.
+                Add /usr/local/bin/ntpd to /opt/bootlocal.sh
+                to autostart.
+                Default configuration file must work
+                in most cases, no customization needed.
+                Add /var/lib/ntp to backup to keep drift
+                value over reboots
+                ----
+Change-log:     2016/05/29 first version
+Current:        2020/06/21 updated 4.2.8p7 -> 4.2.8p14 (juanito)

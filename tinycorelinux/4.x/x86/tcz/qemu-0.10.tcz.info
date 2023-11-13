@@ -1,0 +1,26 @@
+Title:          qemu.tcz
+Description:    A full/cpu emulator
+Version:        0.10.2
+Author:         Various
+Original-site:  http://nongnu.org/qemu
+Copying-policy: GPL
+Size:		16.2M
+Extension_by:   Curaga
+Tags:	    full cpu emulator
+Comments:       Support for all architectures compiled in, both full 
+		systems and linux-cpu-emulators.
+
+		As Qemu system emulation is by default completely done 
+		in software, it might work better but also slower than 
+		alternatives.
+-
+		Support for KVM included (hardware virtualization).
+		This optional feature depends on 
+		kvm-2.6.29.1-tinycore.tcz.
+-
+		Kqemu is supported, but AFAIK the module doesn't compile with 
+		gcc4.
+
+		Depends on SDL.
+Change-log:     2009/04/05 Original
+Current:        2009/04/25 Update to 0.10.2, KVM

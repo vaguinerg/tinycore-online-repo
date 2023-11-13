@@ -1,0 +1,26 @@
+Title:          cups-smb.tcz
+Description:    The Samba components needed to set up a Windows shared printer in CUPS
+Version:        3.4.1
+Author:         samba.org
+Original-site:  http://us3.samba.org/samba/ftp/stable/samba-3.4.1.tar.gz
+Copying-policy: GPLv3
+Size:           760K
+Extension_by:   perthie
+Tags:	    Samba components needed set up Windows shared printer CUPS
+Comments:       This extension works with cups1311.tcz
+                --------
+                In CUPS, add your Windows printer as smb://PCNAME/PRINTERNAME
+                --------
+                Find PCNAME under Control Panel > System > Computer Name > Full name
+                --------
+                PRINTERNAME is the one-word identifier assigned by Windows. Find it
+                under the Sharing tab of the printer's properties. If PRINTERNAME
+                contains spaces, replace them with the code %20 in CUPS.
+                --------
+                If your PC requires authentication, try 
+                    smb://USER:PASSWORD@WORKGROUP/PCNAME/PRINTERNAME
+                --------
+                You may need to modify your PC's firewall or security software to 
+                allow network printing.
+Change-log:     --------
+Current:        2009/10/19 first version

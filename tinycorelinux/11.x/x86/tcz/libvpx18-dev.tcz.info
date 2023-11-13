@@ -1,0 +1,21 @@
+Title:		libvpx17-dev.tcz
+Description:	libvpx - Free VP8 video en-/decoder library - dev files
+Version:	1.8.2
+Author:		Various
+Original-site:	http://www.webmproject.org/code/
+Copying-policy:	Special
+Size:		44KB
+Extension_by:	gutmensch
+Tags:		matroska webm vp8 vp9 video encode decode dev
+Comments:	
+	   	--- 
+		This extension is PPI compatible.
+Change-log:	2010/06/30	Initial version from git repository
+		2010/08/20	Bump to new git revision
+		2010/09/25	Bump to new git version (without memory bug hopefully)
+		2010/09/29	Omit --enable-psnr because of huge memory adressing BUG
+		2010/11/16	Bump to new revision 0.9.5+
+		2011/07/28	Bump to 0.9.6
+                2012/05/21	Bump to 1.1.0
+                2018/12/11  updated 1.1.0 -> 1.7.0, renamed (juanito)
+Current:	2020/01/17  updated 1.7.0 -> 1.8.2, renamed (juanito)

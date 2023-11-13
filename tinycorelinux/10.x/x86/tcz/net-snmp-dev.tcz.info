@@ -1,0 +1,20 @@
+Title:          net-snmp-dev.tcz
+Description:	Simple Network Management Protocol development tools
+Version:	5.8
+Author:         Various, see WEB site for details
+Original-site:  http://www.net-snmp.org
+Copying-policy: CMU/UCD (BSD like)
+Size:		17M
+Extension_by:	andyj
+Tags:		Simple Network Management Protocol development SNMP
+Comments:	Simple Network Management Protocol (SNMP) is a protocol for monitoring
+		the health and welfare of network equipment. Net-SNMP is a suite of
+		applications used to implement this protocol
+		----------
+Change-log:	2013/12/09 first version 5.7.2 (juanito)
+		2016/04/06 version 5.7.3
+		2017/07/01 added bindings for python2.7 and perl5, recompiled for TC 8.x
+		2018/08/17 updated to version 5.8, recompiled for TC 9.x
+		2019/01/21 recompiled for TC 10.x
+Current:	2019/07/06 recompiled with openssl-1.1.1
+

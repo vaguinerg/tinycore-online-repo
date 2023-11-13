@@ -1,0 +1,33 @@
+Title:          freeradius.tcz
+Description:    fully featured open-source RADIUS server
+Version:        2.2.9
+Author:         Alan DeKok, Arran Cudbard-Bell and FreeRADIUS Team
+Original-site:  http://freeradius.org
+Copying-policy: GPL v2
+Size:		556K
+Extension_by:   Lukasz032
+Tags:	        radius server freeradius authentication eap
+Comments:	The FreeRADIUS Server is a daemon for unix and unix like 
+                operating systems which allows one to set up 
+                a radius protocol server, which can be used 
+                for Authentication and Accounting various types 
+                of network access. 
+                
+                To use the server, you also need a correctly setup client 
+                which will talk to it, including terminal servers, 
+                Ethernet Switches, Wireless Access Points or a PC 
+                with appropriate software which emulates it 
+                (PortSlave, radiusclient etc).
+                
+                The configuration files are located in /usr/local/etc/raddb.
+                If you don't want it to be recreated every boot, put it
+                onto your filetool.lst to make it persistent.
+                
+                On first-run, after configuring parameters, you will need
+                a set of working certificates. You can use bootstrap script
+                in a raddb/certs directory to create some testing certs.
+                
+                Compiled from source for TC 5.x.
+
+Change-log:     2015/10/16 : Initial release.
+Current:        2015/10/16 : Initial release.

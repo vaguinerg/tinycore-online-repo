@@ -1,0 +1,23 @@
+Title:          hackedbox.tcz
+Description:    Hackedbox Window Manager
+Version:        0.8.5
+Author:         Larry Owen
+Original-site:  http://scrudgeware.org/projects/Hackedbox/
+Copying-policy: GPL
+Size:		360K
+Extension_by:   roberts
+Tags:	        hackedbox window manager wm
+Comments:       Requires Tiny Core v6.x or newer.
+                Includes interface programs that are compatible with fluxbox & blackbox
+Change-log:     2009/05/20 Original
+                2009/05/23 Fixed typos in backgrounds section, added backgrounds directory
+                2009/05/24 Removed backgrounds section. Now works with Control Panel
+                2009/08/31 Added startup script for auto desktop and updated menu.
+                2010/05/22 Updated for freedesktop and ondemand.
+		2010/11/07 Updated to allow img files in ondemand dir
+		2011/11/19 Updated to Core 4.2 standards.
+		2012/01/07 Corrected permissions.
+                2012/01/14 Improved dynamic menu handling.
+	        2013/08/05 recompiled for tc-5.x (juanito)
+	        2014/12/01 recompiled for tc-6.x (coreplayer2)
+Current:	2020/09/13 Fixed exec= parsing issue in _menu_common script. (Rich)

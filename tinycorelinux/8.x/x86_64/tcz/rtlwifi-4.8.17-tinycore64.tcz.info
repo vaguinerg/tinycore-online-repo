@@ -1,0 +1,19 @@
+Title:          rtlwifi-4.8.17-tinycore64.tcz  (TESTING)
+Description:    Redistributable kernel modules for Realtek Wireless LAN
+Version:        2017/05/18
+Author:         Realtek and lwfinger 
+Original-site:  https://github.com/lwfinger/rtlwifi_new.git
+Copying-policy: Redistributable, GNU General Public License
+Size:		828K
+Extension_by:   coreplayer2
+Tags:           RTL WIFI WIRELESS
+Comments:       latest rtlwifi kernel modules replacing those in wireless-4.8.17-tinycore64.tz
+		-----------------
+		This extension will conflict with wireless-4.8.17-tinycore64.tz extension.
+		The Startup script will remove the wireless-4.8.17-tinycore64.tz entry from 
+		wireless-tools.tcz.dep, a reboot maybe required after initial install or
+		dep updates
+		-----------------
+Current:     	2017/05/18 Original by coreplayer2
+Change-log:     2017/05/18 Original by coreplayer2
+

@@ -1,0 +1,21 @@
+Title:          ca-certificates.tcz
+Description:    ca-certificates
+Version:        2017/04/20
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 196KB
+Extension_by:   juanito
+Tags:	        ca certificate authority
+Comments:       certificate authority certificates and debian installation script
+                ----------
+                to add certificates see /usr/local/etc/ca-certificates.conf
+                ----------
+                This extension contains:
+                ca-certificates_20160104 - GPLv2 - http://http.debian.net/debian/pool/main/c/ca-certificates/ca-certificates_20161130.tar.xz
+                certdata.txt - MPL - http://anduin.linuxfromscratch.org/BLFS/other/certdata.txt
+                ----------
+Change-log:     2016/09/12 first version
+                2017/04/24 updated to latest certificates
+                2017/05/24 added non-perl c_rehash by andyj
+Current:        2017/05/25 adjusted non-perl c_rehash

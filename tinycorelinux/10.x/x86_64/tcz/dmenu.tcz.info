@@ -1,0 +1,76 @@
+Title:          dmenu.tcz 
+Description:    Dynamic Menu Launcher for X or Sway
+Version:        4.8
+Author:         Hiltjo Posthuma
+Original-site:  https://tools.suckless.org/dmenu/
+Copying-policy: MIT/X Consortium
+Size:		20K
+Extension_by:   aus9 at gmx dot com
+Tags:           sway launcher menu
+Comments:       A tool that can search executables on X (or Sway) 
+                Then attempt to launch the highlighted entry           
+                when you press the Enter key. 
+                Inputs search the user's $PATH
+                It is not a fuzzy search tool but exact search.
+
+                For this info file, dmenu (or dmenu active) means the visible menu 
+                ----at top of monitor
+
+                How to run on X (tested on openbox and fvwm)
+                ###############
+                $ dmenu_run 
+
+                dmenu will appear at top of your monitor
+                
+                Input of "leaf" will return one highlighted
+                result of "leafpad" for me. Pressing enter
+                launches leafpad. Input of "lea" will give
+                more hits including "clear" 
+
+                Use arrow keys with numlock OFF to navigate to
+                your target command or type more letters
+
+                If you pressed enter, you are attempting to 
+                launch the highlighted item and dmenu closes.
+                BUT not all commands are meant to be run without
+                parameters - options etc 
+
+                If you pressed enter against a hit that 
+                can only run in a terminal, it should appear in
+                your active terminal.
+                
+                If you change your mind press Escape key 
+                to exit dmenu. While dmenu is active, you may lose
+                kb combos such as swapping workspaces.
+
+                If your search input is (eg) "lll" you lose all hits
+                and if you forget to Escape and press enter you are 
+                launching a missing executable called 'lll" and will get
+                a not found error. This is not a bug but operator error
+                (Not that I have ever made this error joke)
+
+                locale users
+                ############
+                /usr/local/bin/dmenu_run is a root writeable file
+                Optional, edit to suit your locale 
+                
+                How to run on Sway
+                ##################
+                Press keys logo (and) d to start dmenu
+                More info in Sway info or forum post
+                Follow above for the rest.
+                ######################################
+                It does not seem Weston can use dmenu.
+
+                man dmenu provides other ways of running eg
+                dmenu_run -l 5
+
+                Possible Glitches
+                #################
+                On fvwm, dmenu may cover any open app that is
+                at the top of your monitor. So to close an app,
+                you may have to either launch an app or press escape,
+                while dmenu active. 
+                Compiled for 9x 
+Change-log:     2018/07/26 first version 
+Current:        2018/07/26 

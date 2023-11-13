@@ -1,0 +1,27 @@
+Title:		openldap.tcz
+Project:	openldap
+Description:	Lightweight Directory Access Protocol
+Version:	2.4.55
+Author:		OpenLDAP Foundation
+Original-site:	http://www.openldap.org
+Copying-policy:	OpenLDAP Public License
+Size:		1.6M
+Extension_by: 	andyj
+Tags:		ldap
+Comments:	OpenLDAP server, client, and libraries
+		----
+Change-log:	2016/04/06 First version, 2.4.44
+		2016/06/25 rebuilt against db6.0.19
+		2017/07/01 updated to 2.4.45,
+			drop support for Berkeley DB, recompiled for TC 8.x
+		2017/09/07 drop *.conf files, add tce.installed script to create if they don't exist
+		2018/01/12 recompiled for TC 9.x
+		2018/04/11 updated to 2.4.46
+		2019/01/21 updated to 2.4.47, recompiled for TC 10.x
+		2019/07/06 recompiled for openssl-1.1.1
+		2019/10/09 updated to 2.4.48
+		2020/03/03 updated to 2.4.49, recompiled for TC 11.x
+		2020/06/09 updated to 2.4.50
+		2020/09/10 updated to 2.4.53
+Current:	2020/11/06 updated to 2.4.55
+

@@ -1,0 +1,12 @@
+Title:		amv-ffmpeg.tcz
+Description:	amv video encoder
+Version:	        20071030
+Author:		 tomvanbraeckel
+Original-site:	http://code.google.com/p/amv-codec-tools/
+Copying-policy:	GNU General Public License (GPL) Version 2 
+Size:		1.8MB
+Extension_by:	jls_legalize (unsenepopiu at tin.it)
+Tags:		amv video encoder
+Comments:	This extension is PPI compatible
+Change-log:	amv-ffmpeg-linux-i386-20071030 -i INPUTFILE -r 16 -qmin 3 -qmax 3 -s 160x120 -mbd 2 -g 1 -ac 1 -ar 22050 OUTPUT.amv
+Current:	2009/11/08 First Version

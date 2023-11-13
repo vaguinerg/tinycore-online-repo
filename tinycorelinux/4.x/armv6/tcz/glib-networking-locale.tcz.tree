@@ -1,0 +1,16 @@
+glib-networking-locale.tcz
+   glib-networking.tcz
+      glib2.tcz
+         libffi.tcz
+      libproxy.tcz
+         glib2.tcz
+            libffi.tcz
+      gnutls.tcz
+         libgcrypt.tcz
+            libgpg-error.tcz
+         nettle.tcz
+            gmp.tcz
+         p11-kit.tcz
+            libtasn1.tcz
+         libtasn1.tcz
+

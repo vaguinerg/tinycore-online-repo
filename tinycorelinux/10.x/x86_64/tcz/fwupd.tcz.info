@@ -1,0 +1,21 @@
+Title:          fwupd.tcz
+Description:    firmware update tools
+Version:        1.3.1
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 2.8MB
+Extension_by:   juanito
+Tags:	        firmware update
+Comments:       tools to to update device firmware
+                ----------
+                $ sudo /usr/local/etc/init.d/dbus start
+                $ sudo /usr/local/lib/fwupd/fwupd
+                $ fwupdmgr get-updates
+                *** tested update firmware for wireless mouse ***
+                ----------
+                This extension contains:
+                fwupd-1.3.1 - lGPLv2.1 - https://github.com/fwupd/fwupd/archive/1.3.1.tar.gz
+                ----------
+Change-log:     first version
+Current:        2019/09/15

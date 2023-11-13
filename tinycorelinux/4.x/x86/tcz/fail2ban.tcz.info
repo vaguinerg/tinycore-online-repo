@@ -1,0 +1,34 @@
+Title:          fail2ban.tcz
+Description:    Fail2Ban
+Version:        0.8.4 
+Author:         Cyril Jaquier
+Original-site:  http://www.fail2ban.org/
+Copying-policy: GPLv2
+Size:           100k
+Extension_by:   andriscom
+Tags:	    Fail2Ban
+Comments:       Fail2Ban scans log files like /var/log/pwdfail and bans IP
+                that makes too many password failures. It updates firewall
+                rules to reject the IP address. These rules can be defined by
+                the user. Fail2Ban can read multiple log files.
+
+                You can configure Fail2ban using the files in /usr/local/etc/fail2ban.
+                It is possible to configure the server using commands sent to
+                it by fail2ban-client. The available commands are described
+                in the man page of fail2ban-client. Please refer to it or to
+                the website: http://www.fail2ban.org
+
+                Built with the following command:
+                python setup.py build --verbose
+
+                Fail2Ban is Python script so no compiling needed.
+
+                You should edit the configuration files:
+                 /usr/local/etc/fail2ban/
+
+                Use the: 'fail2ban-client -d -c /usr/share/fail2ban' command to debug!
+Source:         http://sourceforge.net/projects/fail2ban/files/fail2ban-stable/fail2ban-0.8.4/fail2ban-0.8.4.tar.bz2
+Change-log:     2010/10/16 Version: 0.8.4
+                2010/11/06 Version: 0.8.4 - Rebuilt with Python 2.7, dependency changed to python.tcz
+Current:        2010/11/06 Version: 0.8.4 - Rebuilt with Python 2.7, dependency changed to python.tcz
+

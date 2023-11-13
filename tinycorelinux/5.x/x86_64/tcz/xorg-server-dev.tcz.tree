@@ -1,0 +1,35 @@
+xorg-server-dev.tcz
+   xorg-server.tcz
+      libXau.tcz
+      libXdmcp.tcz
+      libXfont.tcz
+         freetype.tcz
+         libfontenc.tcz
+      libdrm.tcz
+         libpciaccess.tcz
+         udev-lib.tcz
+      openssl-1.0.0.tcz
+      pixman.tcz
+   libXdmcp-dev.tcz
+      libXdmcp.tcz
+   libXfont-dev.tcz
+      libXfont.tcz
+         freetype.tcz
+         libfontenc.tcz
+      freetype-dev.tcz
+         freetype.tcz
+      libfontenc-dev.tcz
+         libfontenc.tcz
+   libdrm-dev.tcz
+      libdrm.tcz
+         libpciaccess.tcz
+         udev-lib.tcz
+      libpciaccess-dev.tcz
+         libpciaccess.tcz
+      udev-lib-dev.tcz
+         udev-lib.tcz
+   openssl-1.0.0-dev.tcz
+      openssl-1.0.0.tcz
+   pixman-dev.tcz
+      pixman.tcz
+

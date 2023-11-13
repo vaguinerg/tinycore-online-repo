@@ -1,0 +1,50 @@
+Title:          flwm_topside.tcz
+Description:    Fast Light Window Manager
+Version:        1.12
+Author:         Bill Spitzak
+Original-site:  http://flwm.sourceforge.net
+Copying-policy: GPL
+Size:		28K
+Extension_by:   roberts
+Tags:		fltk window manager X
+Comments:       For microcore, as found in tinycore v2.4
+                Thanks to Mike L. For the may improvements to flwm.
+
+		Window title bar at top of Window instead of rotated left.
+
+		changed Alt+Enter to Alt+F1 to iconize a window
+
+		Ctrl Alt arrows moves the window
+		Ctrl Alt =         grows the window (unshifted + key)
+		Ctrl Alt -          shrinks the window
+		Ctrl Alt PgUp   grows the window veritcally
+		Ctrl Alt PgDn   shrinks the window vertically
+		Ctrl Alt ,           grows the window hortizontally (unshifted < key)
+		Ctrl Alt .           grows the window hortizontally (unshifted > key)
+		Ctrl Alt t           taller (sames as PgUp)
+		Ctrl Alt s          shorter (same as PgDn)
+		Ctrl Alt m          maximize widow
+		Ctrl Alt v          maximize vertical
+		Ctrl Alt h          maximize hortizontal
+
+		flwm now optionally supports environment variable FLWM_TITLEBAR_COLOR to set color for window title bars.
+		To set use hex rgb, e.g, 20:5F:20 (Currently supports fltk gtk+ scheme.)
+
+Change-log:     
+                2009/05/31 Modified by RS to work with Tiny Core.
+                2009/08/01 Updated Tools menu for v2.2.
+                2009/08/22 Bug fixes by Mike Lockmoore.
+                2009/10/03 Many enhancements by Mike Lockmoore.
+                2009/11/13 Fixed restart menu issue when binary was renamed flwm_topside
+                2009/12/17 Added ondemand and permissions
+                2009/12/18 Slight mod to make dir ondemand (mkdir -p)
+                2010/01/31 Dropped embedded help menu item.
+                2010/02/12 Dropped duplicate item in Control Panel from Tools menu, (Appsaudit,Run Command,Swapfile,Update Extensions,USB Installation,Xvesa Setup).
+                2010/02/28 Added symlink support in OnDemand.
+                2010/03/07 OnDemand updated to support full version nbrs in ext.
+                2010/03/20 Iconize button moved and updated, new fully automatic ondemand.
+		2010/11/22 Interface programs updated for Tiny Core 3.3
+		2011/10/08 Updated ondemand initialization.
+		2012/01/06 Recompiled from source.
+	        2012/01/07 Recompiled for i486.
+Current:        2012/08/16 Patched for desktop files with multi Name= and Exec= lines

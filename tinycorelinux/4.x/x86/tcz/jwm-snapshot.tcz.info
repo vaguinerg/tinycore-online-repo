@@ -1,0 +1,30 @@
+Title:          jwm-snapshot.tcz
+Description:    Joe's Window Manager
+Version:        revision 457
+Author:         Joe Wingbermuehle
+Original-site:  http://joewing.net/programs/jwm/
+Copying-policy: GPL
+Size:           64K
+Extension_by:   N. Carigon
+Tags:	    Joe's Window Manager
+Comments:       This is the newer jwm snapshot binary that supports
+                more features then the original jwm extension, such 
+                as rounded corners. It installs the executable to 
+                /usr/local/bin/jwm which is before /usr/bin/jwm in 
+                the $PATH. To revert to the original jwm binary just 
+                uninstall this extension. This change from the 
+                previous release is meant to simplify the process of
+                keeping up with configuration changes to the original
+                jwm extension.
+-
+                To use boot option THEME to specify and set theme, add to .xsession:
+                [ -n "$THEME" ] && cp /opt/jwmThemes/"$THEME" .jwmrc-theme
+Change-log:     2009/08/22 Initial release
+                2009/10/13 Updated to revision 457
+                           Added dependency for original jwm extension
+                           Package only contains updated jwm binary now
+                2009/10/13
+                2010/05/22 Updated for freedesktop and ondemand
+		2010/11/07 Updated to allow img files in ondemand dir
+		2011/08/29 Updated to better support .jwmrc files.
+Current:	2011/11/19 Updated to support Core v4.2 standards.

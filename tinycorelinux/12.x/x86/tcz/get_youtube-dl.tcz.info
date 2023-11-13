@@ -1,0 +1,25 @@
+Title:          get_youtube-dl.tcz
+Description:    Simple script creates youtube-dl.tcz.
+Version:        201612
+Author:         nitram
+Original-site:  n/a
+Copying-policy: http://unlicense.org
+Size:		4.0K
+Extension_by:   nitram
+Tags:           get youtube-dl youtube media command line
+Comments:       -Run script 'get_youtube-dl.sh' to wget latest youtube-dl
+                 from yt-dl.org and create a youtube-dl.tcz extension.
+                -Prompts to add youtube-dl.tcz to onboot.lst or OnDemand.
+                -Re-run 'get_youtube-dl.sh' for subsequent update checks,
+                 updates typically released weekly.
+                -Script output provides mediaplayer stream example plus
+                 links to youtube-dl homepage, supported sites, README.
+                -youtube-dl is a rich commandline media downloader, works
+                 on numerous websites, uses http://unlicense.org:
+                 https://rg3.github.io/youtube-dl/
+Change-log:     2016/11/19 Version 201611 for TC7 (nitram)
+Current:        2016/12/13 Version 201612 for TC7 (nitram)
+                -added squashfs-tools dependency and sanity checks,
+                 script renamed get_youtube-dl.sh to prevent OnDemand
+                 menu autorun, improved logic and runtime efficiency,
+                 proper TC upgrade protocol

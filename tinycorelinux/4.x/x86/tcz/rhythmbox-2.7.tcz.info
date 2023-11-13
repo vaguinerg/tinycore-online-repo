@@ -1,0 +1,48 @@
+Title:          rhythmbox-2.7.tcz
+Description:    rhythmbox music player
+Version:        0.13.3
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 		1.4MB
+Extension_by:   juanito
+Tags:	        audio music player
+Comments:       one-stop multimedia application, supporting a music library,
+                multiple playlists, internet radio, and more
+                ----------
+                optional using avahi, can be used to stream music to daap compliant
+                players like a roku soundbridge and to play music streamed from a daap
+                source like firefly - use "edit/plugins" to enable
+                ----------
+                can be used with the python_coherence extension to stream music
+                to dnla/upnp compliant players like a ps3 and to play music streamed
+                from a dnla/upnp source - use "edit/plugins" to enable
+                ----------
+                optionally can use gst-plugins-bad, gst-plugins-ugly, libdmapsharing
+                libmusicbrainz, gst-python-2.7, gnome-python-desktop, libgpodm, libmtp
+                krb5, gnome-icon-theme, pywebkit-2.7, python_mako-2.7, gnome-utils
+                ----------
+                optionally can use the gst-plugins deps libexempi, libexif, libmimic
+                wavpack, libv4l, aalib, libmpcdec, libjpeg-utils
+                ----------
+                this extension contains:
+                rhythmbox-0.13.3 - GPLv2 - http://ftp.gnome.org/pub/GNOME/sources/rhythmbox/0.13/rhythmbox-0.13.3.tar.bz2
+                ----------
+Change-log:     2009/11/08
+                added daap streaming via avahi dependency
+                2009/11/20
+                updated 0.12.5 -> 0.12.6, added libgpod dep
+                2010/01/09
+                added start-up script to enable icons properly
+                added hicolor-icon-theme & libavahi dep, removed avahi dep
+                2010/03/11
+                updated 0.12.6 -> 0.13.1
+                2010/09/12
+                removed /usr/local/lib/rhythmbox/plugins/upnp_coherence
+                2010/09/24
+                updated 0.13.1 -> 0.13.2 (fixes problem playing daap stream)
+                2010/11/05
+                updated 0.13.2 -> 0.13.3 and split out devs
+                2011/05/14
+                rebuilt with latest deps
+Current:   	2012/07/17

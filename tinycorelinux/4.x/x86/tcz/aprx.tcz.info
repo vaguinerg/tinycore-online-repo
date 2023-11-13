@@ -1,0 +1,29 @@
+Title:          aprx.tcz
+Description:    aprx (TESTING)
+Version:        2.07svn539
+Author:         Matti Aarnio, OH2MQK
+Original-site:  http://wiki.ham.fi/Aprx.en
+Copying-policy: http://ham.zmailer.org/oh2mqk/aprx/LICENSE
+Size:		84K
+Extension_by:   Robert Garcia, N5QM
+Tags:		amateur ham radio aprs digipeater igate txigate
+Comments:       Ham Radio APRS iGate, TX iGate, and Digipeater Daemon
+
+		----
+		Configuration
+		----
+		A sample configuration file is included as aprx.conf.sample 
+		in the /usr/local/etc/ directory.  Modify and save it as 
+		/usr/local/etc/aprx.conf before running the daemon.
+		
+		If you wish the configuration to be persistent, please add 
+		the file to /opt/.filetool.lst
+		
+		----
+		Control
+		----
+		Use /usr/local/etc/init.d/aprx to stop/start/restart.
+		
+Change-log:     2013/06/2
+Current:        2013/06/26 - Initial release
+

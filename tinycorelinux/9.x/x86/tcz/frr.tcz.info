@@ -1,0 +1,29 @@
+Title:          frr.tcz
+Description:    FRRouting is a routing software suite
+Version:        4.0
+Author:         See Original-site
+Original-site:  https://frrouting.org/
+Copying-policy: LGPL
+Size:		3.0M
+Extension_by:   rhermsen
+Tags:		frr zebra routing quagga
+Comments:	Frr is a routing software package that provides TCP/IP based
+		routing services with routing protocols support such as RIPv1,
+		RIPv2, RIPng, OSPFv2, OSPFv3, IS-IS, BGP-4, and BGP-4+.
+		Frr also supports special BGP Route Reflector and Route Server behavior.
+		In addition to traditional IPv4 routing protocols, Frr also supports
+		IPv6 routing protocols. With SNMP daemon which supports SMUX and
+		AgentX protocol, Frr provides routing protocol MIBs.
+		
+		The IPv6 kernel modules are not automatically installed.
+		If IPv6 is desired, install ipv6-4.x.x-tinycore.tcz via
+		the Apps GUI, or cli (tce-load -wi ipv6-KERNEL).
+
+		A startup script is included at /usr/local/etc/init.d/frr.
+		To use this script cp /usr/local/etc/frr/daemons.sample to /usr/local/etc/frr/daemons.
+		Configure the daemons you want to start with yes or a priority.
+		Use the script with "sudo /usr/local/etc/init.d/frr" <options>.		
+Change-log:     2018/01/23 First Version, 3.0.3
+		2018/02/25 adapted frr script to work with TCL, 3.0.3
+		2018/04/20 New major version, 4.0
+Current:        2018/04/20 New major version, 4.0

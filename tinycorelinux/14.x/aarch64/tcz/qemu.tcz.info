@@ -1,0 +1,23 @@
+Title:          qemu.tcz
+Description:    qemu virtualisation
+Version:        6.2.0
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 30.5MB
+Extension_by:   juanito
+Tags:	        virtualization x86_64 i386
+Comments:       virtualization for x86 hardware with virtualization extensions
+                ----------
+                example howto:
+                $ qemu-img create -f qcow2 vdisk.img 2G
+                $ qemu-system-x86_64 -hda vdisk.img -m 2G -cdrom CorePure64-8.0.iso -boot d
+                to get a network connection using bridge-utils (see info file)
+                # echo 'allow br0' > /usr/local/etc/qemu/bridge.conf
+                add "-net nic -net bridge" to qemu command above
+                ----------
+                This extension contains:
+                qemu-6.2.0 - GPLv2 - https://download.qemu-project.org/qemu-6.2.0.tar.xz
+                ----------
+Change-log:     first version
+Current:        2022/08/22

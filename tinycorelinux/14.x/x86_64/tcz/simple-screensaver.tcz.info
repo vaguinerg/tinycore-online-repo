@@ -1,0 +1,25 @@
+Title:          simple-screensaver.tcz
+Description:    minimalistic fork of xscreensaver
+Version:        3.0
+Author:         Bruno "GNUser" Dantas
+Original-site:  n/a
+Copying-policy: GPLv3
+Size: 19M
+Extension-by:   gnuser
+Tags:	        screensaver xscreensaver
+Comments:       ----------
+  Usage:
+    $ cp /usr/local/share/simple-screensaver/simple-screensaver.conf ~/.config/
+    edit ~/.config/simple-screensaver.conf
+    $ simple-screensaver &
+  To reload config file while script is running:
+    $ pkill -USR1 -f simple-screensaver
+  To manually trigger animations to start immediately:
+    $ pkill -USR2 -f simple-screensaver
+  To see animations that have been played:
+    $ cat /tmp/animations-played
+                ----------
+Change-log:     2021/05/24 first version
+                2021/11/27 updated 1.0 -> 1.5
+                2023/02/09 updated 1.5 -> 2.0
+Current:        2023/04/14 updated 2.0 -> 3.0

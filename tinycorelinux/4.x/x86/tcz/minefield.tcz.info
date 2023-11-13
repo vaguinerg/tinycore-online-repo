@@ -1,0 +1,25 @@
+Title:          minefield.tcz
+Description:    Unbranded custom Firefox build
+Version:        3.0.4
+Author:         Mozilla
+Original-site:  http://mozilla.com/firefox
+Copying-policy: MPL
+Size:		9.1M
+Extension_by:   Curaga
+Tags:	    Unbranded custom Firefox build
+Comments:       A custom build of Firefox 3.0.4 for TC.
+		Unlike the official Mozilla one, this does not
+		depend on Xorg, and this also has a cooler icon ;)
+-
+		I modified the sources based on the Swiftfox patch;
+		This build is fast.
+-
+		Customizations include dropping *all* unneeded cruft,
+		like Gnome or D-bus support, updater, crash reporter.
+		So there you have it, a light Icy Foxy.
+Change-log:     
+                2008/11/16 Original
+	        2008/12/22 tcz posted
+		2009/01/20 Placed firefox-bin in a user.tar.gz to support
+		flash. (Jason W)
+Current:	2009/10/05 Replaced user.tar.gz with a startup script

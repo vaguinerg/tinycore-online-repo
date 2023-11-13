@@ -1,0 +1,20 @@
+Title:          libpng15.tcz
+Description:    libpng compatibity extension
+Version:        1.5.18
+Author:         Guy Eric Schalnat, Andreas Dilger, Glenn Randers-Pehrson
+Original-site:  http://www.libpng.org/pub/png/libpng.html
+Copying-policy: Open Source: http://www.libpng.org/pub/png/src/libpng-LICENSE.txt
+Size:           78k
+Extension_by:   bmarkus
+Tags:           LIBRARY PNG CONMPATIBILITY
+Comments:       Library is provided for compatibility reasons to make
+                older applications usable on current system with new version
+                of libpng.
+                ----
+                It can coexist with other versions of libpng.
+                ----
+                Do not compile new apps against this old lib.
+                When creating tcz, use current libpng-dev.tcz
+                from the repository.
+Change-log:     ----
+Current:        2014/11/15 Packed for TC 6.0

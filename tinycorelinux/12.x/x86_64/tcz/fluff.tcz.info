@@ -1,0 +1,34 @@
+Title:		fluff.tcz
+Description:	File Manager
+Version:	1.0.9
+Author:		Michael A. Losh
+Original-site:	http://tinycorelinux.com
+Copying-policy:	GPLv3
+Size:		56.0K
+Extension_by:	Michael A. Losh
+Tags:		File Manager fm
+Comments:	Full Version including icon and
+		.desktop file, suitable for Tiny Core 3.7 and later.
+		Fluff is a fast, light utility for files.  Fluff uses
+		the FLTK user interface library, which makes it
+		especially efficient on TinyCore Linux. The source code
+		of Fluff is released under the GNU license.  This file
+		manager features a directory tree and file details list;
+		keyboard, menu, and drag-and-drop file manipulations;
+		automatic configurable program associations; trashbin with
+		restore; file renaming; file property editing; and more!
+		Less than 150 KB installed.
+
+
+		Built with:
+		CFLAGS=-fuse-linker-plugin -mtune=generic -Os -flto -g -pipe -Wall -Wextra -fno-plt
+		CXXFLAGS=-fuse-linker-plugin -mtune=generic -Os -flto -g -pipe -Wall -Wextra -fno-exceptions -fno-rtti
+		LDFLAGS=-Wl,-T/usr/local/lib/ldscripts/elf_x86_64.xbn
+
+Change-log:	2011/05/13 (Initial release as extension)
+		2010/05/13 1.0.0
+		2014/03/19 v1.0.7 compiled for corepure64-v5.x (coreplayer2)
+		2020/01/30 v1.0.7 compiled for tc-11.x and fltk-1.3.5 (gnuser)
+		2020/02/07 updated 1.0.7 -> 1.0.8 (gnuser)
+Current:	2022/03/02 1.0.9 Reverted previous pointer changes, see fluff.cpp
+

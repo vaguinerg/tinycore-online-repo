@@ -1,0 +1,38 @@
+Title:          pcmanfm.tcz
+Description:    Graphical File Manager 
+Version:        1.3.2
+Author:         Hong Jen Yee
+Original-site:  https://downloads.sourceforge.net/pcmanfm
+Copying-policy: GPL v2
+Size:           124K
+Extension_by:   aus9 
+Tags:           file manager gtk2      
+Comments:       online manual https://man.archlinux.org/man/pcmanfm.1.en
+                Config will auto-create at ~/.config/pcmanfm/default/pcmanfm.conf
+                Original /etc/xdg/pcmanfm/pcmanfm.conf
+
+                Change by pulldown Edit -> Preferences.
+                If pcmanfm run in desktop mode, other preferences can be activated
+                see   https://tinyurl.com/y3ouvb94
+                Recommend change preferences to not allow volume management automount
+                of volumes on startup. 
+                FM preferences can also change libfm (dependency) config.
+                            
+                FM Bookmarks at ~/.gtk-bookmarks 
+                
+                gvfs and trash can support disabled. pcmanfm has trashcan/network 
+                settings but do not try to use please.
+
+                FM can integrate with either xarchiver, file-roller or engrampa to unpack 
+                common archives types but no dependencies set. Load your preferred archive 
+                tool and various archive format TCEs then run $ update-desktops
+
+                Read update-desktops info please. If you load an extra GUI
+                run $ update-desktops to get mime handling please
+
+Change-log:     2014/01/18 First version, 1.1.2.2 (bmarkus)
+                2015/08/20 v1.2.3 (gordon64)
+                2019/02/10 v1.3.0  for 10x(aus9)
+                2020/07/19 v 1.3.1 for 11x change install script
+                2020/08/04 add update-desktops to dep and info  
+Current:        2023/03/27 v 1.3.2 on 14x

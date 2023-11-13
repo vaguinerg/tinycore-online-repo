@@ -1,0 +1,31 @@
+Title:		nrg2iso.tcz
+Description:	A linux utility for converting CD (or DVD) images generated
+		by Nero Burning Rom to ISO format.		 
+Version:	0.4
+Author:		Gregory Kokanosky
+Original-site:	http://gregory.kokanosky.free.fr/v4/linux/nrg2iso.en.html
+Copying-policy:	GPLv2
+Size:		4K
+Extension_by:	combo3
+Tags:	 utility converting CD or DVD images generated
+Comments:	This extension is PPI compatible
+		---------------------------------------------------------------
+		Usage:  nrg2iso image.nrg image.iso
+
+
+		Note:
+
+		NOT INTENDED FOR AUDIO CDs OR MULTITRACK IMAGES.
+
+		NRG is a proprietary variant of the common ISO format.
+
+		nrg2iso reads all .nrg files as disc at once (DAO). Images with
+		a single track can be burned as usual.
+
+		However, track at once (TAO) images will fail.
+
+		Trying to burn multitrack .nrg images converted to .iso will result
+		in getting only the first track recorded.
+
+Change-log:	----------
+Current:	2009/12/10 First Version

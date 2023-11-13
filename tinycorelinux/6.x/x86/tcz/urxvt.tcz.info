@@ -1,0 +1,20 @@
+Title:		urxvt.tcz
+Description:	RXVT-Unicode Terminal Emulator
+Version:	9.07
+Author:		Marc Lehmann
+Original-site:	http://software.schmorp.de/pkg/rxvt-unicode.html
+Copying-policy:	GPLv2
+Size:		114k
+Extension_by:	peterc
+Tags:		RXVT-Unicode Terminal Emulator
+Comments:	A clone of the RXVT terminal emulator that supports
+		Unicode. For a version that is lighter on memory usage,
+		see urxvt-daemon.
+		This version supports 256 colors and has disabled
+		support for the AfterImage library, as well as the
+		built-in perl interpreter.
+		Program Documentation:
+		http://pod.tst.eu/http://cvs.schmorp.de/rxvt-unicode/doc/rxvt.1.pod
+Change-log:	2010/09/03 Added Xft support
+		2010/06/03 Original
+Current:	2010/09/03

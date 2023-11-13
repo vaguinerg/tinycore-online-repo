@@ -1,0 +1,24 @@
+Title:          rtorrent.tcz
+Description:    rTorrent torrent client
+Version:        0.9.6
+Author:         Jari Sundell <jaris@ifi.uio.no>
+Original-site:  http://libtorrent.rakshasa.no
+Copying-policy: GNU GPL V2
+Size:		292KB
+Extension_by:   rrgida <rrgida@gmail.com>
+		kvzacc <kvzacc01@gmail.com>
+Tags:		rtorrent torrent client
+Comments:       Sample rc file: /usr/local/share/doc/rtorrent/rtorrent.rc.sample
+		Sample options file: /usr/local/share/doc/rtorrent/rtorrent.sample
+		  Copy this file to /usr/local/etc, rename rtorrent, and overwrite the
+		  "user=tc" line (if you wish).
+		  Dont forget it save the file !
+		Start/stop script: /usr/local/etc/init.d/rtorrent
+		rutorrent front-end: https://code.google.com/p/rutorrent/
+                ----------
+                *** i586 and above ***
+                ----------
+Change-log:     2014/05/02 first version
+		2014/05/12 emove xmlrpc-c, move options file to /usr/local/etc, recompile under TC 5.3
+		2014/08/22 update to 0.9.4 (compile under TC 5.3), remove apache2 scgi module, remove libtorrent
+Current:        2016/08/06 update 0.9.4 -> 0.9.6 (juanito)

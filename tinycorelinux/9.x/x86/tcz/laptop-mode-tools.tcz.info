@@ -1,0 +1,27 @@
+Title:          laptop-mode-tools.tcz
+Description:    laptop power saving tools
+Version:        1.53
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 60KB
+Extension_by:   juanito
+Tags:	        laptop power saving tools
+Comments:       utility to adjust many aspects or power saving for laptops
+                ----------
+                howto:
+                edit various config files in /usr/local/etc/laptop-mode to your liking
+                $ sudo /usr/local/etc/init.d/acpid start
+                $ sudo /usr/local/etc/init.d/laptop-mode status
+                ..check things look as expected
+                $ sudo /usr/local/etc/init.d/laptop-mode start
+                ----------
+                This extension contains:
+                laptop-mode-tools_1.53 - GPLv2 - http://samwel.tk/laptop_mode/tools/downloads/laptop-mode-tools_1.53.tar.gz
+                ----------
+Change-log:     2009/04/28 first version
+                2009/01/13 updated 1.47 -> 1.53, moved to /usr/local
+                2015/10/25 adjusted for kernel version in tc-6.x
+                2017/01/26 adjusted for kernel version in tc-7.x, corrected lm_ac_adapter
+                2017/06/14 adjusted for kernel version in tc-8.x
+Current:        2018/06/14 adjusted for kernel version in tc-9.x

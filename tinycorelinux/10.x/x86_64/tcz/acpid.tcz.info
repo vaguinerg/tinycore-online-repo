@@ -1,0 +1,26 @@
+Title:          acpid.tcz
+Description:    acpid daemon
+Version:        2.0.23
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 28KB
+Extension_by:   juanito
+Tags:	        acpid daemon
+Comments:       advanced control and power interface daemon
+                ----------
+                to add acpid event handling (see /usr/local/share/acpid/files):
+                1. Add event capture file to /usr/local/etc/acpi/events
+                2. Add script to /usr/local/etc/acpi/actions
+                ----------
+                to control acpid:
+                $ sudo /usr/local/etc/init.d/acpid [start|stop|restart|status]
+                ----------
+                to trouble-shoot
+                $ sudo acpid -dfl
+                ----------
+                This extension contains:
+                acpid-2.0.23 - GPLv2 - http://downloads.sourceforge.net/acpid2/acpid-2.0.23.tar.xz
+                ----------
+Change-log:     first version
+Current:        2015/03/14

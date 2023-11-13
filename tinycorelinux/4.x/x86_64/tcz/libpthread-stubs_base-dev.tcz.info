@@ -1,0 +1,17 @@
+Title:          libpthread-stubs_base-dev.tcz
+Description:    libpthread-stubs
+Version:        0.3
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 4KB
+Extension_by:   juanito
+Tags:	    libpthread-stubs dev
+Comments:       provides weak aliases for pthread functions not provided in libc or otherwise available by default
+                essentially a pkg-config file for (e)glibc pthread functionality required to compile some apps, eg libxcb
+                ----------
+                This extension contains:
+                libpthread-stubs-0.3 - GPL - ftp://ftp.x.org/pub/individual/lib/libpthread-stubs-0.3.tar.bz2
+                ----------
+Change-log:     first version
+Current:        2012/11/09

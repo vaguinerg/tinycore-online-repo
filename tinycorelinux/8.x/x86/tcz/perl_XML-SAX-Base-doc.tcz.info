@@ -1,0 +1,18 @@
+Title:          perl_XML-SAX-Base-doc.tcz
+Description:    perl xml::sax::base module
+Version:        1.09
+Author:         Grant McLean
+Original-site:  http://search.cpan.org/~grantm/XML-SAX-Base-1.09/lib/XML/SAX/Base.pm
+Copying-policy: See Original-site
+Size:		16K
+Extension_by:   rhermsen
+Tags:           xml sax doc perl perl5
+Comments:       XML::SAX::Base
+                This module has a very simple task - to be a base class for PerlSAX drivers and filters.
+                It's default behaviour is to pass the input directly to the output unchanged.
+                It can be useful to use this module as a base class so you don't have to, 
+                for example, implement the characters() callback.
+                
+                This extension is PPI compatible
+Change-log:     2018/01/11 First Version, 1.09
+Current:        2018/01/11 First Version, 1.09

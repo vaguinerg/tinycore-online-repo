@@ -1,0 +1,21 @@
+Title:          gdisk.tcz
+Description:    guid gpt partition tool
+Version:        1.0.1
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 196KB
+Extension_by:   juanito
+Tags:           guid gpt gdisk cgdisk fixparts sgdisk partition hd drive utility efi uefi
+Comments:       set of programs for guid (gpt) disk drives. A gpt partitioned disk is required for drives
+                greater than 2tb and is a replacement for disk drives that use an mbr.
+                gdisk has an inteface similar to the classic fdisk program
+                a gpt partitioned drive is required for (u)efi boot devices
+                ----------
+                also contains cgdisk (requires ncurses) fixparts and sgdisk (requires popt)
+                ----------
+                This extension contains:
+                gptfdisk-1.0.1 - GPLv2 - http://downloads.sourceforge.net/project/gptfdisk/gptfdisk/1.0.1/gptfdisk-1.0.1.tar.gz
+                ----------
+Change-log:     2015/05/02 first version
+Current:        2016/06/11 updated 1.0.0 -> 1.0.1

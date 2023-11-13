@@ -1,0 +1,19 @@
+Title:          mpg123.tcz
+Description:    Mp3 player and decoder library.
+Version:        1.10.1
+Author:         Michael Hipp
+Original-site:  http://mpg123.org
+Copying-policy: LGPL
+Size: 237K
+Extension_by:   Jason W
+Tags:	    Mp3 player decoder library.
+Comments:       ----
+Change-log:     2008/11/05 First version (i486 compatible)
+	        2008/12/04 Combined with -dev extension and added
+		libltdl.so.* to enable usage.  
+		Choose either alsa.tcel or OSS.tcel for sound.
+        	2009/02/18 Fixed broken symlink found by mikshaw.
+	        2009/03/28 Upgraded to 1.7.0
+       		2009/3/30 Combined -devs again to make it work (Thanks again to Curaga)
+        	2009/06/19 Upgraded to 1.8.1 and ALSA output module.
+Current:	2010/03/06 Upgraded to 1.10.1 and put in /usr/local.

@@ -1,0 +1,21 @@
+pinentry-gtk2.tcz
+   gtk2.tcz
+      atk.tcz 
+      pango.tcz 
+      gdk-pixbuf2.tcz 
+      shared-mime-info.tcz
+         glib2.tcz
+            libffi.tcz
+            pcre.tcz
+         libxml2.tcz
+            liblzma.tcz
+      Xorg-7.7-lib.tcz 
+   libassuan.tcz
+      libgpg-error.tcz
+   libsecret.tcz
+      libgcrypt.tcz
+         libgpg-error.tcz
+      glib2.tcz
+         libffi.tcz
+         pcre.tcz
+

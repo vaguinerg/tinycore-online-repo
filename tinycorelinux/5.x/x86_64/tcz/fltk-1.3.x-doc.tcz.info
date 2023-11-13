@@ -1,0 +1,26 @@
+Title:		fltk-1.3.x-doc.tcz
+Description:	fast light toolkit (dev library)
+Version:	r10080
+Author:		Bill Spizak et al
+Original-site:	http://fltk.org/pub/fltk/snapshots/fltk-1.3.x-doc-r10080.tar.bz2
+Copying-policy:	LGPL
+Size:		300K
+Extension-by:	dentonlt
+Tags:		fast light toolkit tool kit
+Comments:	----------
+		These are doc files for extension fltk-1.3.x.
+				Big FLTK 1.3.x snapshot build, with cairo +
+		Xft.
+		WARNING: On load, this extension will replace the links to
+		the base fltk libs.
+		The base extension includes just the libraries. Test
+		binaries, fluid, etc are in the dev extension. The doc
+		extension has man pages and example code.
+		configure args:
+		--enable-xft --enable-cairo --enable-shared --disable-gl
+		--enable-debug --enable-localjpeg --enable-localpng
+		--enable-localzlib
+		----------
+Change-log:	2014/01/05 first version for x86_64; v1.3.x-r10040 dentonlt
+		2014/01/26 bump to v1.3.x-r10080 dentonlt
+Current:	2014/01/26 bump to v1.3.x-r10080 dentonlt

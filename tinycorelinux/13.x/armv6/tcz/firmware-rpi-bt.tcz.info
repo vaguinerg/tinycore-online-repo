@@ -1,0 +1,20 @@
+Title:          firmware-rpi-bt.tcz
+Description:    firmware for RPi onboard bluetooth adapter
+Version:        See Changelog
+Author:         Cypress/Broadcom
+Original-site:  https://github.com/RPi-Distro/bluez-firmware
+Copying-policy: https://github.com/raspberrypi/linux/issues/1342#issuecomment-321221748
+Size:           128KB
+Extension_by:   paul-123
+Tags:           firmware rpi bluetooth bt
+Comments:       Binaries only
+                ---
+                Built for piCore 13.x
+Change-log:     2017/03/12 first version
+                2017/08/08 (pi3/0 firmware MD5: 85801286c2253de0741310b2789bf187)
+                2018/03/17 (Add pi3b+ firmware MD5: ec75853caa3fa18a86fa4cbcb5242d54)
+                2020/01/20 Update from RPI
+                2020/05/18 Post-Sweyntooth update of BCM43430A1 and BCM4345C0 hcds
+                2020/11/24 Update BCM4345C0 hcd for BLE corrections
+                2021/07/17 Update BT firmware to latest, includes Spectra Fixes
+Current:        2021/11/13 Add firmware for Zero2W

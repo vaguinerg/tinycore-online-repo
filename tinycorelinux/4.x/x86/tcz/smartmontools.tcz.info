@@ -1,0 +1,29 @@
+Title:          smartmontools.tcz
+Description:    smartmontools
+Version:        6.1
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 360KB
+Extension_by:   juanito
+Tags:	        smartmontools disk test tool
+Comments:       S.M.A.R.T. is a system in modern hard drives designed to..
+                ..report conditions that may indicate impending failure
+                ----------
+                Howto:
+                $ sudo smartctl -i /dev/hda
+                see http://blog.shadypixel.com/monitoring-hard-drive-health-on-linux-with-smartmontools
+                $ sudo  /usr/local/etc/init.d/smartd
+                /usr/local/etc/init.d/smartd [start|stop|restart|status]
+                $ sudo update-smart-drivedb
+                ----------
+                This extension contains:
+                smartmontools-6.1 - GPLv2 - http://garr.dl.sourceforge.net/sourceforge/smartmontools/smartmontools-6.1.tar.gz
+                ----------
+Change-log:     2009/05/18
+                moved user.tar.gz -> start-up script
+                2009/10/10
+                updated 5.38 -> 5.42
+                2011/12/29
+                updated 5.42 -> 6.1
+Current:        2013/04/26

@@ -1,0 +1,19 @@
+Title:		nvidia-modules-3.8.13-tinycore.tcz
+Description:	NVIDIA x86 Linux Driver, GLX modules, Nvidia Settings GUI
+Version:	319.49
+Author:		NVIDIA
+Original-site:	http://www.nvidia.com
+Copying-policy:	Proprietary
+Size:		47M
+Extension_by:	Arslan S.
+Tags:		NVIDIA Linux Drivers, kernel module.
+Comments:	---
+		includes x86 driver module, GLX modules and settings GUI
+		built with Xorg-7.7-3d
+		Install onboot and reboot, use confless unless your
+		system requires a xorg.conf file.
+Change-log:	2012/03/23 Rebuilt for tc 4.4
+		2012/03/23 Rebuilt for tc 4.4
+		2012/09/26 Updated to 304.51
+		2014/06/16 Rebuilt for tc-5.x
+Current:	2014/06/16 Updated to 319.49 by coreplayer2

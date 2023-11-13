@@ -1,0 +1,21 @@
+Title:          clang.tcz
+Description:    clang compiler
+Version:        6.0.0
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 80.0MB
+Extension_by:   juanito
+Tags:	        compile c c++ clang
+Comments:       compiler front-end for the C family of languages
+                ----------
+                to build with lto
+                $ CC="clang -flto -march=i486 -mtune=i686 -Os -pipe" ./configure --blah-blah
+                ----------
+                This extension contains:
+                cfe-6.0.0.src - (c) University of Illinois - http://llvm.org/releases/6.0.0/cfe-6.0.0.src.tar.xz
+                compiler-rt-6.0.0.src - (c) University of Illinois - http://llvm.org/releases/6.0.0/compiler-rt-6.0.0.src.tar.xz
+                ----------
+Change-log:     2017/02/20 first version
+                2017/09/15 updated 3.9.1 -> 4.0.1
+Current:        2018/03/28 updated 4.0.1 -> 6.0.0

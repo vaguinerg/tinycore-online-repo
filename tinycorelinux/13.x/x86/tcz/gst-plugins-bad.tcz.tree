@@ -1,0 +1,35 @@
+gst-plugins-bad.tcz
+   gst-plugins-base.tcz
+      gstreamer.tcz
+         glib2.tcz
+            libffi.tcz
+      libtheora.tcz
+         libogg.tcz
+      libvorbis.tcz
+         libogg.tcz
+      libasound.tcz
+      libopus.tcz
+   libdvdnav.tcz
+      libdvdread.tcz
+   libGLESv2.tcz
+      libGL.tcz
+         libXdamage.tcz
+            libXfixes.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
+         libXxf86vm.tcz
+            libXext.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
+         libdrm.tcz
+            libpciaccess.tcz
+            udev-lib.tcz
+               glib2.tcz
+                  libffi.tcz
+         libxshmfence.tcz
+   libwebp1.tcz
+

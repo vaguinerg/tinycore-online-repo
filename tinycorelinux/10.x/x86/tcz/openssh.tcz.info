@@ -1,0 +1,21 @@
+Title:          openssh.tcz
+Description:    OpenSSH server and client
+Version:        7.2p2
+Author:         Many, see source file
+Original-site:  http://www.openssh.org
+Copying-policy: BSD
+Size:           1.2M
+Extension_by:   bmarkus
+Tags:           NETWORK SSH CLI CLIENT SERVER
+Comments:       Binaries only
+                ----
+                For autostart add this to /opt/bootlocal.sh:
+                /usr/local/etc/init.d/openssh start
+                Add config files to /opt/.filetool.lst
+                to make config persistent if you changed them:
+                usr/local/etc/ssh/ssh_config
+                usr/local/etc/ssh/sshd_config
+                Add generated keys (8 files) to backup also for persistency
+                ----
+Change-log:     2016/04/10 first version
+Current:        2019/02/18 recompiled against updated libedit (juanito)

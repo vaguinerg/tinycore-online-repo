@@ -1,0 +1,22 @@
+Title:           lxterminal.tcz
+Description:     terminal for LXDE or can run alone
+Version:         0.30
+Author:          7 authors see doc
+Original-site:   http://sourceforge.net/projects/lxde/files
+Copying-policy:  GPL v2
+Size:		 48KB
+Extension_by:    gordons64
+Tags:            terminal utf8
+Comments:        This is a gtk3 terminal capable of UTF-8 display.
+                 Allows multiple tabs.
+
+                 If not in Xorg, to adjust fontname or its size edit
+                  .config/lxterminal/lxterminal.conf
+
+                 Optional deps:  More font TCZs, load fontconfig
+                 then load lxterminal please.
+
+                 x86 (32 bit) maintainer bmarkus
+Change-log:      2015/08/01 first version
+                 2016/06/16 adjusted lxterminal-xterm (juanito)
+Current:         2017/04/13 updated 0.20 -> 0.30 (juanito)

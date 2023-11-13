@@ -1,0 +1,24 @@
+Title:          usbutils.tcz
+Description:    usb tools 
+Version:        1.0.23
+Author:         Greg Kroah-Hartman..usbutils
+                Stephen J. Gowdy....usb.ids
+Original-site:  https://github.com/gregkh/usbutils
+                http://www.linux-usb.org/usb.ids
+Copying-policy: GPL v 3
+Size:           292K
+Extension_by:   aus9
+Tags:           usb usb.ids lsusb
+Comments:       USB utilities including lsusb 
+                
+                usb.ids updated to 20200820  
+                If you wish to update run
+                $ sudo update-usbids.sh
+                To persist add to backup
+                usr/local/share/hwdata/usb.ids
+
+                Optional: load python2.7 for $ lsusb.py
+                load bash for $ usb-devices
+
+Change-log:     2020/09/12 Original v 1.0.23 on 12x 
+Current:        2020/09/12    

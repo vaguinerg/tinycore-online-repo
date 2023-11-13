@@ -1,0 +1,13 @@
+Title:		wireguard-5.4.3-tinycore64.tcz
+Description:	extremely simple yet fast and modern VPN (kernel module)
+Version:	1.0.20200520
+Author:		Jason Donenfeld
+Original-site:	https://www.wireguard.com
+Copying-policy:	GPLv2
+Size:		3.9M
+Extension-by:	gnuser
+Tags:		vpn
+Comments:	----------
+Change-log:	2020/05/15 first version (gnuser)
+			2020/06/01 recompiled kernel module (5/15 submission was stripped, leading to stability issues)
+Current:	2020/06/03 wireguard.tcz separated into two extensions (wireguard-tools.tcz and wireguard-KERNEL.tcz)

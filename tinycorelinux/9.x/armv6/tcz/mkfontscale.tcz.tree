@@ -1,0 +1,16 @@
+mkfontscale.tcz
+   freetype.tcz
+      bzip2-lib.tcz
+      libpng.tcz
+      harfbuzz.tcz
+         glib2.tcz
+            gamin.tcz
+            libelf.tcz
+            pcre.tcz
+               bzip2-lib.tcz
+               gcc_libs.tcz
+            libmount.tcz
+         graphite2.tcz
+         icu.tcz
+   libfontenc.tcz
+

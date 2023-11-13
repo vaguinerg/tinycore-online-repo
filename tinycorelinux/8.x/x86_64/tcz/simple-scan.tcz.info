@@ -1,0 +1,22 @@
+Title:          simple-scan.tcz
+Description:    simple scanner
+Version:        3.22.0.1
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 160KB
+Extension_by:   juanito
+Tags:	        scan gtk+ gtk3 gnome
+Comments:       an easy way to scan both documents and photos
+                ----------
+                howto (hp office jet)
+                $ hp-makeuri 192.168.1.170
+                ...
+                SANE URI: hpaio:/net/Officejet_6700?ip=192.168.1.170
+                $ simple-scan hpaio:/net/Officejet_6700?ip=192.168.1.170
+                ----------
+                This extension contains:
+                simple-scan-3.22.0.1 - GPLv3 - http://ftp.acc.umu.se/pub/GNOME/sources/simple-scan/3.22/simple-scan-3.22.0.1.tar.xz
+                ----------
+Change-log:     2013/12/10 first version
+Current:        2017/05/16 updated 3.3.92 -> 3.22.0.1

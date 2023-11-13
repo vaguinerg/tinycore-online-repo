@@ -1,0 +1,24 @@
+Title:          lighttpd.tcz
+Description:    Small memory footprint WEB server with advanced feature
+Version:        1.4.35
+Author:         Jan Kneschke
+Original-site:  http://www.lighttpd.net
+Copying-policy: See COPYING
+Size:           254k
+Extension_by:   bmarkus
+Tags:           WEB HTTP SERVER
+Comments:       Binaries only
+                ----
+                Document root is /var/www/htdocs
+                
+                Use /usr/local/etc/init.d/lighttpd to 
+                start/stop service
+
+                Configuration files in /usr/local/etc/lighttpd
+
+                Add '/usr/local/etc/init.d/lighttpd start' line
+                to /opt/bootlocal.sh to autostart server
+                ----
+                Compiled for piCore 6.x
+Change-log:     ----
+Current:        2015/03/23 First version, 1.4.35

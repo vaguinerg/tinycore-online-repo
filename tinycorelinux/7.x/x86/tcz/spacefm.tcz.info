@@ -1,0 +1,61 @@
+Title:		spacefm.tcz
+Description:	gtk2 file manager 
+Version:        1.0.4
+Author:         Various, see AUTHORS
+Original-site:  https://github.com/IgnorantGuru/spacefm
+Copying-policy: GPL v3
+Size:		676K
+Extension_by:   aus9
+Tags:	        file manager spacefm gtk2
+Comments:	SpaceFM is a multi-panel tabbed file manager for Linux
+       			with built-in VFS, udev-based device manager,
+        		highly customizable system, bash integration and
+        		custom plugins.
+
+        		v1.0.4 built against udevil and fakeroot providing auto
+        		mounting mount removable drives without password  
+        		This version is a gtk2 build
+        		video thumbnail support is disabled
+	
+        		OPTIONAL dependencies
+        		lsof.tcz
+        		eject.tcz
+        		ntfs-3g.tcz
+        		cifs-utils sshfs davfs2
+
+        		udevil.tcz for Auto-mounting of
+        		removable (USB drives, DVD/CD's etc. etc.)
+	
+	        	After install,
+        		1. Set tinycore root password to facilitate opening a
+			root window: File > Root Window  (note: a root window opens at the 
+			current user file system location)
+        		2. If a browser is not auto-detected, set web browser in
+        		Help -> Options -> browser.
+        		Insert the actual executable name pls (eg chromium-browser).
+
+			Usage hints:
+			spacefm-doc.tcz provides the offline manual. While online, selecting
+			F1 or Help > User's Manual will open the latest manual in your 
+			current internet browser window.
+		
+			F4 brings up a terminal window in the current tab location
+
+			Selecting (double click) a tar archive will extract contents
+			into a directory of current location
+
+			Added generic icon set for standard file types.  To add icons for  
+			new file types you may edit the mime-type overides.xml file as 
+			required at "~/.local/share/mime/packages/overides.xml" or replace 
+			old mime-type entries with custom application/x-(filetype).xml files. 
+
+			License files relocated to spacefm-doc extension
+			
+
+Change-log:		2013/02/09 First version 0.8.5
+			2013/03/07 Fix wbar icons
+		       	2015/04/22 Updated v1.0.0 with gtk2 for tc-6.x (by coreplayer2)
+			2015/12/01 Updated to v1.0.4 (by coreplayer2)
+ 			2016/01/06 Added default icons (by coreplayer2)
+Current: 		2016/02/08 Miscellaneous startup and mime fixes (by coreplayer2)
+

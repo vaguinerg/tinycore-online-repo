@@ -1,0 +1,32 @@
+Title:          ibus-chewing.tcz
+Description:    IBus-Chewing is an IBus front-end of Chewing
+Version:        1.5.2
+Author:         Peng Huang, Ding-Yi Chen
+Original-site:  https://github.com/definite/ibus-chewing
+Copying-policy: GPLv2
+Size:		92K
+Extension_by:   polikuo
+Tags:           ibus libchewing Traditional Chinese input method zhuyin bopomofo phonetic
+Comments:       Tested on genome, openbox.
+                Before you start, add "lang=zh_TW.utf8" in your boot code
+                Download and run getlocale.tcz, select zh_TW.utf8 and install
+                Fetch any font that support UTF-8 (ex: unifont.tcz)
+                Load this extension
+                Start a window manager gnome (see gnome-session.tcz) or openbox
+                You should be able to use chewing now, enjoy ~ !
+
+                If nothing happens, "log out" and log back in.
+                I that doesn't fix the problem, here's the instructions.
+                Gnome:
+                Open IBus Preferences (ibus-setup). Go to "Input Method" tab
+                Add, Chinese, Chewing, Add, Close
+                Open Configuration pannel. At "Input Sources" section
+                "+", Chinese, Chinese (Chewing), Add
+                Openbox:
+                Press <Super> + <Space> to switch input method
+                See ~/.X.d/ibus-chewing
+Change-log:     2016/10/14 First Version
+                2016/11/2 recompiled for libchewing
+                2016/12/26 add start-up script
+                2017/01/07 fix start-up script, dep
+Current:        2017/01/07 fix start-up script, dep

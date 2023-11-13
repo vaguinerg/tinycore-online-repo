@@ -1,0 +1,22 @@
+Title:          libao.tcz
+Description:    cross-platform audio library
+Version:        1.2.0
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 32KB
+Extension_by:   juanito
+Tags:	        audio av cross platform
+Comments:       cross-platform audio, useful to output audio on a variety of platforms
+                ----------
+                can optionally use the libasound and libpulseaudio extensions
+                ----------
+                howto set default audio
+                $ cat ~/.libao
+                default_driver={oss,alsa,pulse}
+                ----------
+                This extension contains:
+                libao-1.2.0 - GPLv2 - http://downloads.xiph.org/releases/ao/libao-1.2.0.tar.gz
+                ----------
+Change-log:     first version
+Current:        2014/03/06

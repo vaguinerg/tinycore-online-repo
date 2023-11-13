@@ -1,0 +1,16 @@
+Title:          imlib.tcz
+Description:    Image loading and rendering library.
+Version:        1.9.15
+Author:         Carsten Haitzler
+Original-site:  ftp.gnome.org/pub/GNOME/sources/imlib/
+Copying-policy: LGPL
+Size: 1.3M
+Extension_by:   Jason W
+Tags:	    Image loading rendering library.
+Comments:       This extension requires gtk1.tcz, glib1.tcz
+		and graphics-libs-1.tcz.  This extension has
+		also been patched with the security fix from
+		https://bugzilla.redhat.com/show_bug.cgi?id=426091
+                ----------
+Change-log:     2008/08/26 First version
+Current:        2008/12/25 Rebuilt for i486, size, cramfs.

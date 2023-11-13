@@ -1,0 +1,19 @@
+Title:		setproxy.tcz
+Description:	set the proxy server from boot parameter
+Version:	0.1
+Author:		Sven Oliver 'SvOlli' Moll
+Original-site:	http://www.tinycorelinux.com/
+Copying-policy:	GPL
+Size:		4.0K
+Extension_by:	SvOlli
+Tags:		set proxy server boot parameter
+Comments:	The following boot options can be used to define the proxy
+		server environment variables via boot options:
+		- http_proxy=http://<host>:<port>
+		- https_proxy=http://<host>:<port>
+		- ftp_proxy=http://<host>:<port>
+		- proxy=http://<host>:<port> (sets all of the above unless they
+		are set individually)
+		This extension is only effective when loaded upon boot.
+		----
+Change-log:	2010/05/14 Initial Version

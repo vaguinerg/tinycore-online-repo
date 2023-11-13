@@ -1,0 +1,26 @@
+Title:          psutils.tcz (TESTING)
+Description:    Postscript utilities
+Version:        17.0
+Author:         see LICENSE
+Original-site:  ftp://ftp.knackered.org/pub/psutils
+Copying-policy: see LICENSE  
+Size:		84K
+Extension_by:   aus9
+Tags:	    	psutils postscript 
+Comments:       utilities for manipulating PostScript documents.
+		Page selection and rearrangement are supported, 
+		including arrangement into signatures for booklet 
+		printing, and page merging for n-up printing.
+		Built for TC 4.x------	Short Descriptions
+		                        ##################
+		epsffit = fits an EPSF file to a given bounding box.
+		psbook  = rearranges pages into signatures.
+		psnup   = puts multiple pages per physical sheet of paper.
+		psresize = alters the document paper size.
+		psselect = selects pages and page ranges.
+		pstops = performs general page rearrangements and selection.
+		scripts = the remaining commands are scripts that perform 
+		...........specific functions described in their respective man pages.
+               
+Change-log: 	2013/03/20 - first version 
+Current: 	2013/03/20 - version 17.0

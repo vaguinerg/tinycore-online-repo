@@ -1,0 +1,26 @@
+Title:          gtk2.tcz
+Description:    Gimp Tool Kit
+Version:        2.24.32
+Author:         https://github.com/GNOME/gtk/blob/master/AUTHORS
+Original-site:  http://www.gtk.org
+Copying-policy: LGPL v2
+Size:           1.9M
+Extension_by:   aus9 
+Tags:           gtk2 
+Comments:       Gimp Tool Kit
+                Your config file is ~/.gtkrc-2.0 contains pathway /home/tc
+                The cache update generates
+                /usr/local/lib/gtk-2.0/2.10.0/immodules.cache
+
+                Optional dependency lxappearance to modify config
+                
+                If you would like to input using multipress method, you need
+                a keypad keyboard, numlock on and open a gtk2 app eg leafpad
+                Right hand click an input area and choose input methods -> multipress
+                pressing the same numlock number key quickly displays different characters
+                see /usr/local/etc/gtk-2.0/im-multipress.conf
+ 
+Change-log:     2016/08/14 Original 2.24.30 (bmarkus)
+                2017/01/29 -> 2.24.31
+Current:        2020/06/30 -> 2.24.32 (juanito)
+Current:        2020/10/03 add print suppport 12x (aus9) 

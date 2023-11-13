@@ -1,0 +1,18 @@
+Title:		simple-mtpfs.tcz
+Project:	simple-mtpfs
+Description:	Userspace filesystem for MTP (Android) devices
+Version:	0.3.0
+Author:		Peter Hatina
+Original-site:	https://github.com/phatina/simple-mtpfs
+Copying-policy:	GPL2
+Size:		60K
+Extension_by: 	andyj
+Tags:		MTPFS FUSE Android
+Comments:	SIMPLE-MTPFS (Simple Media Transfer Protocol FileSystem) is a file system
+		capable of operating on files on MTP devices attached via USB to local
+		machine. The end user can seamlessly interact with MTP device files as
+		part of the overall filesystem. Works in VMware VM's, too.
+		Usage: simple-mtpfs <mountpoint>
+		----
+Change-log:	2018/01/13 first build
+Current:	2018/01/13

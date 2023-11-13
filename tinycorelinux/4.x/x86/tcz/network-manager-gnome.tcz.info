@@ -1,0 +1,40 @@
+Title:		network-manager-gnome.tcz
+Description:	NetworkManager GNOME frontend.
+Version:	0.8.4
+Author:		Dan Williams
+Original-site:	http://projects.gnome.org/NetworkManager/
+Copying-policy:	GPL-2
+Size:		556K
+Extension_by:	Arslan S.
+Tags:		NetworkManager GNOME frontend.
+Comments:	This is a panel applet and a client to the NetworkManager. So you need a panel or a system tray
+		and the NetworkManager daemon running.
+
+		To start NetworkManager add to your /opt/bootlocal.sh :
+			/usr/local/etc/init.d/dbus restart
+			/usr/local/etc/init.d/NetworkManager start
+
+		network-manager-gnome (nm-applet) should  autostart in freedesktops (LXDE, XFCE, GNOME, KDE).
+		----------------------------------------------------------------------------------------------------------------------------
+
+		This applet uses gnome-keyring to store passwords. So you need gnome-keyring for persistent passwords.
+		When loaded gnome-keyring daemon should be automatically started because of xdg autostart entries.
+		If gnome-keyring is not automatically started then add the command below to your desktop startup commands :
+			/usr/local/bin/gnome-keyring-daemon --start --components=secrets
+
+		nm-applet should also be automatically started, If it is not running :
+			nm-applet --sm-disable *
+
+		* Due to a problem you need to execute nm-applet as root but then gnome-keyring does not store user passwords
+			sudo nm-applet --sm-disable
+
+		Optional dependencies:
+			-gnome-bluetooth
+			-mobile-broadband-provider-info
+			-gnome-keyring
+			-notification-daemon or notify-osd or xfce4-notifyd
+
+		This extension is PPI compatible.
+Change-log:	2010/07/05 First Version 0.8.1~git100705
+		2010/08/04 Updated to 0.8.1
+Current:	2011/10/18 Updated to 0.8.4

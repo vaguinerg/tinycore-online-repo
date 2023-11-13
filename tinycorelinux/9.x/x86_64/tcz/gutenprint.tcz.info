@@ -1,0 +1,104 @@
+Title:          gutenprint.tcz
+Description:    printer drivers for most printers
+Version:        5.3.1
+Author:         see -doc/AUTHORS
+Original-site:  https://sourceforge.net/projects/gimp-print/
+Copying-policy: GPL v2
+Size:           4.9M
+Extension_by:   aus9 at gmx dot com
+Tags:           cups printer ppd 
+Comments:       To know if gutenprint is suitable, the list of printers can be
+                searched here
+                http://gimp-print.sourceforge.net/p_Supported_Printers.php
+                
+                Optional dependency load colord.tcz to reduce
+                warnings in error log. Printing still works without it.
+
+                Wireless (WL) Printing
+                #############
+                For my Canon MG 3060 I found I did not need avahi loaded or running
+                YMMV and so you may need avahi loaded and its daemon started but note
+                that on first use, you must run the generate-ppd command
+                before starting avahi.
+                             
+                WL ink levels can be checked by using your web browser to 
+                go to your static ip for your wl printer eg 192.168.1.7
+                -- once the printer is set up
+
+                Epson ink levels, once printer is set up
+                ############### tested on usb cable model TX100 
+                $ tce-load -wi readline
+                # escputil -i --raw-device /dev/usb/lp0
+
+                Extra printer calibration
+                #########################
+                $ sudo cups-calibrate
+                (and enter only numbers as directed after viewing the test page)
+
+                Preview
+                ########
+                Needs evince.tcz to preview. Tested on leafpad.
+
+                ##########                
+                How to use ..... if you need avahi  
+                ########### 
+                # drop avahi if not WL
+                $ tce-load -i gutenprint avahi
+                
+                First time use or if you have not saved the files
+                ##############
+                sh file starts cups but will not load avahi
+                $ sudo generate-ppd.sh
+
+                Next, /usr/local/etc/cups is owned by root so set up a root password 
+                $ sudo passwd
+
+                Next, open your web browser to  
+                http://localhost:631/admin
+
+                Do NOT click on "Find New Printer", instead click on Add Printer
+                Then make your selection. Remember to click the "Add Printer" button
+                to then get options to change paper size etc. At some point in that process
+                either at the beginning or after selecting your model, a popup will 
+                ask for user, input root and your new password please.
+
+                Next (recommended) pulldown administration and make your printer
+                the server default. Then test printer.
+
+                For persistence 
+                ################
+                (1) Add these lines to /opt/.filetool.lst 
+                etc/passwd
+                usr/local/etc/cups/cupsd.conf
+                usr/local/etc/cups/printers.conf
+                usr/local/etc/cups/ppd/Canon_MG3000_series.ppd (change to your PPD)
+                
+                (2) You can choose to add gutenprint.tcz to your 
+                boot.lst depending on how frequent you think you might do printing.
+
+                On reboot
+                ##########
+                Assuming you have done the persistence suggestions, load gutenprint 
+                and then start cups with
+                $ sudo /usr/local/etc/init.d/cups start
+                and if you are using a WL printer and need avahi
+                $ sudo /usr/local/etc/init.d/avahi start
+
+                #######################
+                NO MATCHING MODEL FOUND
+                ######################
+                If you are not sure which PPD is best for you, uncompressed PPDs are
+                created at /usr/local/share/cups/model/gutenprint/5.2
+                before rebooting and loosing all of them except your persistent ones,
+                you may like to copy some into your home dir. CUPS allows you to try 
+                a PPD from a non-system pathway.....but for gutenprint it needs to have
+                been designed for that version of gutenprint. It may take a few tries
+                where you can not find your exact model listed. Good Luck!
+
+                eg you have make Z model 142 so try model 140 then 100 etc
+                cups also supplies generic models but these tend to be a bit limited
+ 
+
+                Compiled for 9x 
+Change-log:     2018/06/17 first version 
+Current:        2019/01/03  v 5.2.14 -> 5.3.1 add simplified PPD option  

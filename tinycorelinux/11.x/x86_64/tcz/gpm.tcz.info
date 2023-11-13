@@ -1,0 +1,21 @@
+Title:          gpm.tcz
+Description:    general purpose mouse daemon
+Version:        1.20.7
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 120KB
+Extension_by:   juanito
+Tags:	        mouse daemon server console xterm
+Comments:       general purpose mouse daemon - mouse server for console and xterm
+                ----------
+                the default gpm.conf should work for most cases, if not adjust
+                and add to your backup, then
+                $ sudo /usr/local/etc/init.d/gpm start
+                ----------
+                This extension contains:
+                gpm-1.20.7 - GPLv2 - http://www.nico.schottelius.org/software/gpm/archives/gpm-1.20.7.tar.bz2
+                ----------
+Change-log:     2017/02/13 first version
+                2017/05/01 recompiled for updated ncurses
+Current:        2018/04/24 recompiled against ncursesw

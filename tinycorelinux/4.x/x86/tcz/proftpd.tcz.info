@@ -1,0 +1,53 @@
+Title:          proftpd.tcz
+Description:    proFTPd
+Version:        1.3.4a
+Author:         The ProFTPD Project team
+Original-site:  http://www.proftpd.org/
+Copying-policy: GPL
+Size:		412K
+Extension_by:   andriscom
+Tags:	    proFTPd
+Comments:       ProFTPd is a highly configurable GPL-licensed FTP server software (compiled with UTF-8 support).
+
+                Built with CFLAGS: -march=i486 -mtune=i686 -Os -pipe
+                Built with CXXFLAGS: -march=i486 -mtune=i686 -Os -pipe
+                Built with LDFLAGS: -Wl,-O1
+                Built with the following options:
+                ./configure --prefix=/usr/local --bindir=/usr/local/bin --sysconfdir=/usr/local/etc --libexecdir=/usr/local/libexec --localstatedir=/var/run --sbindir=/usr/local/sbin --disable-ident --enable-nls --enable-scoreboard-updates --enable-tunable-buffer-size --enable-autoshadow --enable-shadow --enable-openssl --enable-pcre --with-modules=mod_tls:mod_ifsession:mod_rewrite:mod_deflate:mod_copy:mod_load
+
+                For man entries you can install the proftpd-doc.tcz package or visit:
+                 http://linux.die.net/man/8/proftpd
+                 http://linux.die.net/man/5/xferlog
+
+                Some extra utils also come with this package:
+                ftpcount, ftpdctl, ftptop, ftpwho, prxs, ftpasswd, ftpscrub, ftpshut
+
+                The easiest way to start is to create virtual groups and users with ftpasswd:
+                (You need perl for this script!)
+                sudo ftpasswd --name readwrite --group --gid 1000 --file /etc/proftpd.group
+                sudo ftpasswd --name readonly --group --gid 1001 --file /etc/proftpd.group
+                sudo ftpasswd --name admin --passwd --home /mnt/ --shell /bin/false --uid 1000 --gid 1000 --file /etc/proftpd.passwd
+                sudo ftpasswd --name user --passwd --home /mnt/ --shell /bin/false --uid 1001 --gid 1001 --file /etc/proftpd.passwd
+
+                Change proftpd.conf if you want to use your real system users.
+                In this case you don't need to use the ftpasswd perl script (and you don't need to install perl).
+
+                If you would like to use FTPS (SSL/TLS) then:
+                 Set TLSEngine on in /usr/local/etc/proftpd.conf.
+                Generate server certificate and key:
+                 sudo openssl req -new -x509 -days 1460 -nodes -out /usr/local/etc/proftpd_server.cert.pem -keyout /usr/local/etc/proftpd_server.key.pem
+                Generate server root CA key and certificate:
+                 sudo openssl genrsa -aes256 -out /usr/local/etc/proftpd_rootCA.key.pem -rand private/.rand 2048
+                 sudo openssl req -new -x509 -days 365 -key /usr/local/etc/proftpd_rootCA.key.pem -out /usr/local/etc/proftpd_rootCA.cert.pem
+
+                To control proFTPd:
+                 sudo /usr/local/etc/init.d/proftpd [start|stop|restart]
+
+                Use the: 'sudo proftpd -n -d 20' command to start in debug mode!
+Source:         ftp://ftp.proftpd.org/distrib/source/proftpd-1.3.4a.tar.gz
+Change-log:     2010/09/28 First version (1.3.3b)
+                2010/10/16 Version: 1.3.3b - Added: CFLAGS, CXXFLAGS, LDFLAGS, mod_tls, mod_rewrite, IPv6 support, Shadow file handling, init.d script added
+                2010/11/06 Version: 1.3.3c
+                2011/07/06 Version: 1.3.3e - Added: mod_copy, mod_deflate
+Current:        2011/11/17 Version: 1.3.4a - Updated init.d script - Added: mod_deflate, mod_copy, mod_load, - Enabled: pcre
+

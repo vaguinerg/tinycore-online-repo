@@ -1,0 +1,22 @@
+Title:          vnstat-doc.tcz
+Description:    vnStat man pages
+Version:        1.10
+Author:         Teemu Toivola
+Original-site:  http://humdi.net/vnstat/
+Copying-policy: GPLv2
+Size:           12k
+Extension_by:   andriscom
+Tags:	    vnStat man pages
+Comments:       Console-based network traffic monitor that keeps a log 
+                of network traffic for the selected interface(s). It 
+                uses the network interface statistics provided by the 
+                kernel as information source. This means that vnStat 
+                won't actually be sniffing any traffic and also ensures 
+                light use of system resources.
+
+                This package contains the man pages.
+Source:         http://humdi.net/vnstat/vnstat-1.10.tar.gz
+Change-log:     2009/07/09 Original version by alu (1.8)
+                2010/11/02 Version: 1.10
+Current:        2010/11/02 Version: 1.10
+

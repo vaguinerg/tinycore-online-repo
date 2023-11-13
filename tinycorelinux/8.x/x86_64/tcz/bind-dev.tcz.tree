@@ -1,0 +1,33 @@
+bind-dev.tcz
+   bind.tcz
+      libcap.tcz
+         attr.tcz
+      openssl.tcz
+      libxml2.tcz
+      json-c.tcz
+   openssl-dev.tcz
+      openssl.tcz
+   libcap-dev.tcz
+      libcap.tcz
+         attr.tcz
+      attr-dev.tcz
+         attr.tcz
+   libxml2-dev.tcz
+      libxml2-bin.tcz
+         libxml2.tcz
+      libxml2-python.tcz
+         libxml2.tcz
+         python.tcz
+            sqlite3.tcz
+            bzip2-lib.tcz
+            openssl.tcz
+            tk.tcz
+               tcl.tcz
+            gdbm.tcz
+            readline.tcz
+               ncurses.tcz
+            expat2.tcz
+            libffi.tcz
+   json-c-dev.tcz
+      json-c.tcz
+

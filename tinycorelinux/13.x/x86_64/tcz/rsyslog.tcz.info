@@ -1,0 +1,43 @@
+Title:		rsyslog.tcz
+Project:	rsyslog
+Description:	Syslog server and logging
+Version:	8.2012.0
+Author:		Rainer Gerhards <rgerhards@adiscon.com>, Adiscon GmbH
+Original-site:	http://www.rsyslog.com
+Copying-policy:	GPL 3
+Size:		600K
+Extension_by: 	andyj
+Tags:		syslog server
+Comments:	syslog server for centralized collection of syslogs from multiple hosts
+		supports multiple output channels such as files and databases
+		based on source and content
+		----
+Change-log:	2016/04/28 First version, 8.18.0
+		2016/09/05 updated to version 8.21.0
+		2016/10/09 updated to version 8.22.0
+		2016/11/27 updated to version 8.23.0
+		2017/01/26 updated to version 8.24.0
+		2017/03/19 updated to version 8.25.0
+		2017/04/22 updated to version 8.26.0
+		2017/07/01 updated to version 8.28.0, recompiled for TC 8.x
+		2017/08/10 updated to version 8.29.0
+		2017/10/23 updated to version 8.30.0
+		2017/12/02 updated to version 8.31.0
+		2018/01/12 recompiled for TC 9.x
+		2018/04/11 updated to version 8.34.0
+		2018/05/29 updated to version 8.35.0
+		2018/07/19 updated to version 8.36.0
+		2018/08/17 updated to version 8.37.0
+		2018/11/18 updated to version 8.39.0
+		2019/01/21 updated to version 8.40.0, recompiled for TC 10.x
+		2019/02/09 updated to version 8.1901.0
+		2019/03/18 updated to version 8.1903.0, compiled against mariadb 10.3
+		2019/05/05 updated to version 8.1904.0
+		2019/07/06 updated to version 8.1905.0, use openssl-1.1.1 library
+		2019/10/09 updated to version 8.1908.0
+		2020/02/04 updated to version 8.2001.0, compiled against mariadb 10.4, recompiled for TC 11.x
+		2020/04/15 updated to version 8.2002.0
+		2020/09/10 updated to version 8.2006.0
+		2020/10/06 updated to version 8.2010.0
+Current:	2021/01/23 updated to version 8.2012.0, compiled against mariadb 10.5, compiled for TC 12.x
+

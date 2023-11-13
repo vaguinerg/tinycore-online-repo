@@ -1,0 +1,22 @@
+Title:          epdfview-cups.tcz
+Description:    GTK2 PDF viewer with CUPS printing support
+Version:        0.1.7
+Author:         Jordi Fita
+Original-site:  http://trac.emma-soft.com/epdfview
+Copying-policy: GPLv2
+Size:           68K
+Extension_by:   perthie
+Tags:	    GTK2 PDF viewer CUPS printing support
+Comments:       requires gtk2, poppler, shared-mime-info, CUPS
+                if you don't have CUPS, install libcups.tcz instead
+                -------------
+                Go to View > Show Index to see a document's index.
+                Go to Edit > Preferences to set the web browser for URIs.
+                To capture text from a PDF:
+                  choose Edit > Select Text
+                  drag mouse over text and release (don't use Ctrl-C)
+                  open a text document
+                  paste text in with a right-click
+                 Or use the command: pdftotext filename.pdf
+Change-log:     -------------
+Current:        2009/11/11 first version

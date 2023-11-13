@@ -1,0 +1,36 @@
+Title:          submitqc4.tcz
+Description:    Extension audit tool for the TC 4.x repo
+Version:        4.x
+Author:         Jason W
+Original-site:  www.tinycorelinux.com
+Copying-policy: GPL-2
+Size:		8.0K
+Extension_by:   Jason W
+Tags:	    Extension audit tool TC 4.x repo
+Comments:       This is used to audit extensions before
+		submission.  Just open a terminal in the
+		same directory as the extensions you are
+		wanting to check and this tool will tell
+		you of any issues with the structure of 
+		the extensions being checked.  "submitqc4"
+		is the command to run. Some specific uses
+		are listed below if the entire audit is 
+		not needed:
+		#  To check dep files only:
+		submitqc4 checkdep
+		#  To check info files only:
+		submitqc4 checkinfo
+		#  To check for maintainership only:
+		submitqc4 checkmaintainer
+		----
+		Results are echoed to the terminal in progress but
+		to see the specific results of each check
+		performed, look in the /tmp/submitqc directory
+		to see the results of checks that are in question
+		----
+Change-log:     ----
+        	2010/12/06 First version as extension.
+		2011/09/17 Renamed to submitqc4.tcz for simplicity.
+		2012/02/12 Updated, removed dir perm check, .desktop file
+			   check, simplified dependency check.
+Current:	2013/01/26 Fixed dep file checking bugs (Thanks Rich)

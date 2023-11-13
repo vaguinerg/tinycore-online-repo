@@ -1,0 +1,23 @@
+Title:          ntp.tcz
+Description:    NTP utilities
+Version:        4.2.6.p5
+Author:         Harlan Stenn
+Original-site:  http://www.ntp.org
+Copying-policy: Free, see COPYRIGHT
+Size:           709k
+Extension_by:   bmarkus
+Tags:           CLI SYSTEM
+Comments:       Binaries only
+                ----
+                Compiled for RPI
+                ----
+                Run ntpd as root to start daemon.
+                Add /usr/local/bin/ntpd to /opt/bootlocal.sh
+                to autostart.
+                Default configuration file must work
+                in most cases, no customization needed.
+                Add /var/lib/ntp to backup to keep drift
+                value over reboots.
+Change-log:     2013/11/13 First version, 4.2.6.p5
+                2013/11/22 Fixed typo in ntp.conf
+Current:        2014/02/28 Fixed tce.installed permission

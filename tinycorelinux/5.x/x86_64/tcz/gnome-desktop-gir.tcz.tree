@@ -1,0 +1,29 @@
+gnome-desktop-gir.tcz
+   gnome-desktop.tcz
+      gsettings-desktop-schemas.tcz
+         glib2.tcz
+            libffi.tcz
+            pcre.tcz
+      iso-codes.tcz
+   gsettings-desktop-schemas-gir.tcz
+      gsettings-desktop-schemas.tcz
+         glib2.tcz
+            libffi.tcz
+            pcre.tcz
+      gobject-introspection.tcz
+         glib2.tcz
+            libffi.tcz
+            pcre.tcz
+         python.tcz
+            sqlite3.tcz
+            bzip2-lib.tcz
+            openssl-1.0.0.tcz
+            tk.tcz
+               tcl.tcz
+            gdbm.tcz
+            ncurses.tcz
+               ncurses-common.tcz
+            readline.tcz
+               ncurses.tcz
+                  ncurses-common.tcz
+

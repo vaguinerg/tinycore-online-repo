@@ -1,0 +1,20 @@
+Title:          gnome-shell-extension-sensors.tcz
+Description:    gnome-shell sensors extension
+Version:        git 15/10/22
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 20KB
+Extension_by:   juanito
+Tags:	        sensors extension gtk+ gtk3 gnome
+Comments:       display sensors data in gnome-shell top panel
+                ----------
+                use gnome-tweak-tool to enable
+                then "sudo sensors-detect"
+                can optionally use udisks as a fallback for hdd temp
+                ----------
+                This extension contains:
+                gnome-shell-extension-system-monitor - GPLv3 - git clone git://github.com/paradoxxxzero/gnome-shell-system-monitor-applet.git
+                ----------
+Change-log:     first version
+Current:        2015/10/22

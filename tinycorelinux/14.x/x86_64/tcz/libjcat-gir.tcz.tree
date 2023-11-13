@@ -1,0 +1,37 @@
+libjcat-gir.tcz
+   libjcat.tcz
+      json-glib.tcz
+         glib2.tcz
+            libffi.tcz
+            pcre.tcz
+      gnutls35.tcz
+         p11-kit.tcz
+            libffi.tcz
+            libtasn1-4.tcz
+         nettle3.tcz
+            gmp.tcz
+         libidn2.tcz
+            libunistring.tcz
+            ncursesw.tcz
+      gpgme.tcz
+         libassuan.tcz
+            libgpg-error.tcz
+   json-glib-gir.tcz
+      json-glib.tcz
+         glib2.tcz
+            libffi.tcz
+            pcre.tcz
+      gobject-introspection.tcz
+         glib2.tcz
+            libffi.tcz
+            pcre.tcz
+         python3.6.tcz
+            openssl-1.1.1.tcz
+            sqlite3.tcz
+            gdbm.tcz
+            bzip2-lib.tcz
+            liblzma.tcz
+            readline.tcz
+               ncursesw.tcz
+            libffi.tcz
+

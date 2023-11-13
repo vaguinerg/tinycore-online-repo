@@ -1,0 +1,25 @@
+Title:          pcmanfm.tcz  TESTING
+Description:    Graphical File Manager
+Version:        1.2.3
+Author:         Hong Jen Yee, Brian Tarricone
+Original-site:  http://sourceforge.net/projects/pcmanfm/
+Copying-policy: GPL v2
+Size:		124K
+Extension_by:   gordons64
+Tags:           pcmanfm  file manager
+Comments:       Graphical file manager normally for LXDE
+                but can run as stand-alone. Runs on GTK2.
+
+                Warning: all partitions may be automounted 
+                but no umount in this app. 
+                Use the mount tool to un-mount please.
+
+                Running pcmanfm as root does allow un-mount.
+
+                Adjust .config/pcmanfm/default/pcmanfm.conf if
+                automount does not suit you, etc
+ 
+                Compiled for x86 6.x
+Change-log:     2015/07/05 First version, 1.2.3 bmarkus
+Current:        2015/09/01 re-compiled for dependency updates
+

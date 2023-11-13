@@ -1,0 +1,22 @@
+bind-dev.tcz
+   bind.tcz
+      libcap.tcz
+         attr.tcz
+      openssl.tcz
+      libxml2.tcz
+         liblzma.tcz
+      json-c.tcz
+   openssl-dev.tcz
+      openssl.tcz
+   libcap-dev.tcz
+      libcap.tcz
+         attr.tcz
+      attr-dev.tcz
+         attr.tcz
+   libxml2-dev.tcz
+      libxml2.tcz
+         liblzma.tcz
+      liblzma-dev.tcz
+         liblzma.tcz
+   libjson-c-dev.tcz
+

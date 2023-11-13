@@ -1,0 +1,32 @@
+gtk-doc.tcz
+   docbook-xml.tcz
+      libxml2-bin.tcz
+         libxml2.tcz
+            liblzma.tcz
+   itstool.tcz
+      libxml2-python.tcz
+         libxml2.tcz
+            liblzma.tcz
+         python3.8.tcz
+            bzip2-lib.tcz
+            gdbm.tcz
+            liblzma.tcz
+            openssl.tcz
+               ca-certificates.tcz
+            readline.tcz
+               ncurses.tcz
+            sqlite3.tcz
+      docbook-xsl.tcz
+         libxml2-bin.tcz
+            libxml2.tcz
+               liblzma.tcz
+   libxslt-dev.tcz
+      libgcrypt-dev.tcz
+         libgcrypt.tcz
+            libgpg-error.tcz
+         libgpg-error-dev.tcz
+            libgpg-error.tcz
+      libxslt.tcz
+         libgcrypt.tcz
+            libgpg-error.tcz
+

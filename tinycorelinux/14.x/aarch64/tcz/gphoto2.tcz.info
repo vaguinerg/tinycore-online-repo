@@ -1,0 +1,43 @@
+Title:          gphoto2.tcz
+Description:    command line frontend to libgphoto2 
+Version:        2.5.26
+Author:         Lutz Mueller, Hans Ulrich Niedermann, Christophe Barbe 
+                Hubert Figuiere, Colin Marquardt, Marcus Meissner & Theodore Kilgore
+Original-site:  http://gphoto.org
+Copying-policy: GPL v2
+Size:           52K
+Extension_by:   aus9
+Tags:           camera
+Comments:       Mainly to copy images or movies from camera to PC
+                TC mount tool/usb-utils not needed and online help =
+                http://gphoto.org/doc/manual/
+                Supported cameras list
+                http://www.gphoto.org/proj/libgphoto2/support.php
+                Mine=Fuji T500 is unlisted but image copy works OK
+                
+                $ gphoto2 --auto-detect # must show a camera or phone
+                (My phone did not need usb debug enabled)
+                eg USB PTP Class Camera usb:001,005
+                If not, power cycle your camera until you see one.
+                
+                $ gphoto2 --get-all-files
+                -> Saving file as DSCF1462.JPG                                                    
+                -> Saving file as DSCF1464.AVI  
+
+                $ gphoto2 -a  # shows with example
+                Abilities for camera: USB PTP Class Camera                        
+                Serial port support:              no
+                USB support:                      yes 
+                Capture choices: :                Image
+                                                  Preview
+                Configuration support:            yes
+                Delete selected files on camera:  yes
+                Delete all files on camera:       no
+                File preview (thumbnail) support: yes
+                File upload support:              yes 
+                (I have not found an use for ~/.gphoto/settings)
+                $ gphoto2 --capture-image
+                -> Sorry, your camera does not support generic capture
+                             
+Change-log:     2020/11/04 Original v 2.5.26 on 12x
+Current:        2020/11/04 

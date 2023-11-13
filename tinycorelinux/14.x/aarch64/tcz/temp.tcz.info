@@ -1,0 +1,22 @@
+Title:          temp.tcz
+Description:    command for CPU and GPU temperatures 
+Version:        1.0
+Author:         Vivek Gite
+Original-site:  https://www.cyberciti.biz/faq/\
+                linux-find-out-raspberry-pi-gpu-and-arm-cpu-temperature-command/
+Copying-policy: GPL v2
+Size:           4.0K
+Extension_by:   aus9
+Tags:           CPU GPU temp temperature
+Comments:       As we do not have a video group, run with sudo by
+                $ sudo temp
+
+                On my non-overclocked, passive cooled RPi4 ->  
+                
+                Sun Nov  1 01:32:13 UTC 2020 @ box
+                -------------------------------------------
+                GPU => temp=42.0'C
+                CPU => 42'C
+
+Change-log:     2020/11/01 Original 1.0 on 12x anyarch
+Current:        2020/11/01 

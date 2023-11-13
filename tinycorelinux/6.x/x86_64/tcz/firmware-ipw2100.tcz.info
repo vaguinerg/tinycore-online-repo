@@ -1,0 +1,19 @@
+Title:          firmware-ipw2100.tcz
+Description:    ntel Centrino Drivers firmware for IPW2100
+Version:        1.3
+Author:         James Ketrenos
+Original-site:  http://ipw2100.sourceforge.net/firmware.php
+Copying-policy: custom
+Size:		284K
+Extension_by:   Jason W
+Tags:	    ntel Centrino Drivers firmware IPW2100
+Comments:       This extension is PPI compatible.
+		Please read and agree to the license in
+		/usr/local/lib/firmware/LICENSE.ipw2100-fw
+		before using. Also, be sure that this extension
+		is loaded before wireless-KERNEL.tcz or
+		compat-wireless-KERNEL.tcz.  That is, list it
+		higher than the other wireless extensions
+		on your onboot.lst list in your tce directory .
+Change-log:     --------
+Current:	2011/05/15 First version 1.3

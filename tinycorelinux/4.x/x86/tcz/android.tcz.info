@@ -1,0 +1,25 @@
+Title:          android.tcz
+Description:    Android Support
+Version:        1.0
+Author:         Google Inc
+Original-site:  http://www.glassechidna.com.au/products/heimdall/
+		http://developer.android.com/tools/index.html
+Copying-policy: MIT License (Heimdall),  Creative Commons Attribution 2.5 (adb)
+Size:		232K
+Extension_by:   Tsaukpaetra
+Comments:       This package contains adb for shelling into your Android device, 
+		as well as Heimdall for flashing.
+		I personally have not made any of the binaries, but they seem to 
+		work out-of-box for my device OK.
+
+		Note: heimdall-frontend requires dependency "qt-4.x-xml.tcz", and
+		 the question mark "help" buttons don't seem to work right.
+
+		You CAN soft-brick your device if you use Heimdall incorrectly. 
+		Please read, re-read, and read out loud the instructions VERY 
+		carefully before attempting to use an unfamiliar tool. Heimdall is 
+		THAT powerful.
+
+Change-log:     2012/08/08 Initial package. Heimdall Version 1.3.2
+Current:        2012/08/08
+

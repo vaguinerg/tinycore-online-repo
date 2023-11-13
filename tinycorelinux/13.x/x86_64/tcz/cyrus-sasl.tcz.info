@@ -1,0 +1,26 @@
+Title:		cyrus-sasl.tcz
+Project:	cyrus-sasl
+Description:	Cyrus Simple Authentication and Security Layer
+Version:	2.1.27
+Author:		Cyrus Team
+Original-site:	http://cyrusimap.org
+Copying-policy:	free "Carnegie Mellon University"
+Size:		216K
+Extension_by: 	andyj
+Tags:		cyrus authentication security connection development
+Comments:	simple authentication and security layer, a method for adding
+		authentication support to connection-based protocols
+		using locally maintained databases or a central LDAP server
+		----
+Change-log:	2016/03/29 (juanito)
+                2016/04/06 added LDAP support
+		2016/09/25 updated to -git version
+		2017/07/01 drop support for Berkeley DB
+		2017/07/01 recompiled for TC 8.x
+		2018/01/12 recompiled for TC 9.x
+		2018/11/24 updated to 2.1.27
+		2019/01/21 compiled for TC 10.x
+		2019/01/21 compiled for TC 10.x
+		2019/03/18 recompiled against mariadb 10.3
+Current:	2019/07/06 recompiled for openssl-1.1.1
+

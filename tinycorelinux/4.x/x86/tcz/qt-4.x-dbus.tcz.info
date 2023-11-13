@@ -1,0 +1,37 @@
+Title:		qt-4.x-dbus.tcz
+Description:	cross-platform application and UI framework
+Version:	4.7.4
+Author:		Nokia / Trolltech
+Original-site:	http://qt.nokia.com/
+Copying-policy:	LGPL
+Size:		360.0K
+Extension_by:	SvOlli (using tcbuild: http://svolli.org/software/tinycore/)
+Tags:		multiplatform development toolkit
+Comments:	Using Qt, you can write applications once and deploy them
+		across many desktop and embedded operating systems without
+		rewriting the source code.
+		Package containing dbus interface.
+Change-log:	2009/06/11 first version 4.5.1
+		2009/06/19 more modular rework with more features
+		2009/06/25 upgrade to 4.5.2
+		2009/06/30 fix for sql module
+		2009/10/05 upgrade to 4.5.3 and dbus module added
+		2010/01/08 added accessibilty plugin to base package and added
+		qt3support module
+		2010/01/24 added support for glib and openssl as by public
+		requests
+		2010/03/06 added opengl module
+		2010/05/13 upgrade to 4.6.2 for TCL 3.0
+		2010/06/03 added doc module
+		2010/06/08 recompiled with Xorg-7.5
+		2010/06/19 upgrade to 4.6.3
+		2010/07/12 moved qtconfig and designer from dev to own
+		packages; bugfixes thanks to Arslan S.
+		2010/07/20 added support for MySQL and PostgreSQL
+		2010/07/31 switched to system SQLite
+		2010/09/25 upgrade to 4.7.0
+		2010/11/14 upgrade to 4.7.1
+		2011/06/11 upgrade to 4.7.3
+		2011/09/26 upgrade to 4.7.4 and Tiny Core 4.x
+Current:	2012/08/22 added tiff, updated Xorg, openssl and mysql
+		dependencies

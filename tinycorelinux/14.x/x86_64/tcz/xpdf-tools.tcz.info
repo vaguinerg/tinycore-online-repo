@@ -1,0 +1,36 @@
+Title:		xpdf-tools.tcz
+Description:	PDF tools from Xpdf
+Version:	3.04
+Author:		Glyph & Cog, LLC.
+Original-site:	http://www.foolabs.com/xpdf/
+Copying-policy:	GPL v2 & GPL v3
+Size:		3.6M
+Extension_by:	CNK
+Tags:		pdf document viewer motif
+Comments:	PDF-related command-line programs.
+
+		Note that alternatives to these tools are in the
+		poppler21-bin.tcz extension (or another version).
+
+		Tools included:
+		pdftops -- generates a Postscript file from a PDF
+		pdftotext -- generates a plain text file from a PDF
+		pdfinfo -- dumps a PDF file's Info dictionary (plus some other
+				useful information)
+		pdffonts -- lists the fonts used in a PDF file along with various
+				information for each font
+		pdfdetach -- lists or extracts embedded files (attachments) from a
+				PDF file
+		pdftoppm -- converts a PDF file to a series of PPM/PGM/PBM-format
+				bitmaps
+		pdfimages -- extracts the images from a PDF file
+
+		Note that docs are included in this extension
+		because the README states that this is required by 
+		the author.
+
+		----                 
+		Compiled for TC Pure64 12.x
+		----   
+Change-log:	2022/02/19 First packaged version, 3.04
+Current:	2022/02/19 First packaged version, 3.04

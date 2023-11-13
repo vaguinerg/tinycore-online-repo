@@ -1,0 +1,37 @@
+Title:          opera-12.tcz
+Description:    Opera browser
+Version:        12.16
+Author:         Opera Software
+Original-site:  https://www.opera.com
+Copying-policy: Opera license
+Size:		21M
+Extension_by:   neonix
+Tags:		opera web browser
+Comments:       Fastest full-featured browser available.
+                
+		Optional dependencies:                
+                gst-ffmpeg.tcz
+                gst-plugins-good0.10.tcz
+                gst-plugins-bad0.10.tcz
+                gst-plugins-ugly0.10.tcz
+                
+                In /usr/local for persistent configurations,
+		in other words, PPI compatible.
+		
+		This extension does not conflicts with any ohter opera##.tcz
+		(use settings in ~/.opera-12)
+                
+                Opera has a low-ram mode (e-mail, IRC, functionality
+		is removed), the icon launches full-browser.
+		Low-ram mode is available from the menu.
+                
+                Notice that Opera requires a color depth of 24
+                to run.
+Change-log:     2011/08/06 First version 11.50
+		2011/08/06 Version 11.50
+		2011/09/21 Updated to 11.51
+		2011/11/12 Updated to 11.52
+    		2012/01/07 Updated to 11.60
+		2012/04/04 Updated to 11.62 by Xianwen Chen
+Current:	2019/10/05 Updated to 12.16 by neonix
+

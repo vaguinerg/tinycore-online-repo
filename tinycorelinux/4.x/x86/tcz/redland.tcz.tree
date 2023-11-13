@@ -1,0 +1,20 @@
+redland.tcz
+   bsddb.tcz
+   raptor.tcz
+      libxml2.tcz
+         liblzma.tcz
+      curl.tcz
+      libxslt.tcz
+         libxml2.tcz
+            liblzma.tcz
+   rasqal.tcz
+      raptor.tcz
+         libxml2.tcz
+            liblzma.tcz
+         curl.tcz
+         libxslt.tcz
+            libxml2.tcz
+               liblzma.tcz
+      mpfr.tcz
+         gmp.tcz
+

@@ -1,0 +1,21 @@
+Title:          gdb-6.8_bin.tcz
+Description:    GNU Debugger
+Version:        6.8
+Author:         www.gnu.org/software/gdb/
+Original-site:  www.gnu.org/software/gdb/
+Copying-policy: GNU GPL v2
+Size: 2.7MB
+Extension_by:   ^thehatsrule^
+Tags:	    GNU Debugger
+Comments:       GDB: The GNU Project Debugger
+-
+                Contains:
+                - binaries: gdb gdbtui gdbserver
+                - libs: libthread_db.so.1 (for pthreads)
+-
+                Notes:
+                - built without expat
+                - libthread_db.so.1 is from rs' glibc-2.3.6
+Change-log:     2008/11/19 Original
+                [juanito] removed libthread_db
+Current:        2009/10/20

@@ -1,0 +1,25 @@
+Title:		hashcat-binaries.tcz
+Description:	hashcat binaries including OpenCL, LZMA-SDK, Zlib, xxHash (compiled within hashcat source)
+Version:	6.0.0
+Size:		31M
+Extension-by:	juanito
+Tags:		hashcat password cracker opencl lzma zlib hash
+Author:		see below
+Original-site:	see below
+Copying-policy:	see below
+Comments:	World's fastest password cracker
+		WARNING:
+			Never add hashcat to onboot.lst.
+			Always load hashcat ONLY WITH "tce-load -ic hashcat-binaries.tcz".
+			"tce-load -i hashcat-binaries.tcz" DOESN'T WORK.
+		Note:
+		    AMD GPUs on Linux require "RadeonOpenCompute (ROCm)" Software Platform (3.1 or later)
+		    AMD GPUs on Windows require "AMD Radeon Adrenalin 2020 Edition" (20.2.2 or later)
+		    Intel CPUs require "OpenCL Runtime for Intel Core and Intel Xeon Processors" (16.1.1 or later)
+		    NVIDIA GPUs require "NVIDIA Driver" (440.64 or later) and "CUDA Toolkit" (9.0 or later)
+		--------------------------
+		This extension contains :
+		hashcat-binaries - 6.0.0 - MIT - https://github.com/hashcat/hashcat
+		--------------------------
+Change-log:	First Version
+Current:	2020/07/17

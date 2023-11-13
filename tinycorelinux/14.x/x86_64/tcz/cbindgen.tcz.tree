@@ -1,0 +1,13 @@
+cbindgen.tcz
+   rust.tcz
+      llvm-lib.tcz
+         libffi.tcz
+         libxml2.tcz
+            liblzma.tcz
+         ncursesw.tcz
+      curl.tcz
+         ca-certificates.tcz
+            openssl-1.1.1.tcz
+      libssh2.tcz
+         openssl-1.1.1.tcz
+

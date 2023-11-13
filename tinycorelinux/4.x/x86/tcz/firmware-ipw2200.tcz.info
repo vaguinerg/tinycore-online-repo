@@ -1,0 +1,21 @@
+Title:          firmware-ipw2200.tcz
+Description:    Intel PRO/Wireless 2200BG firmware
+Version:        3.1
+Author:         James Ketrenos
+Original-site:  http://ipw2200.sourceforge.net/firmware.php
+Copying-policy: custom
+Size:		300K
+Extension_by:   Jason W
+Tags:	    Intel PRO Wireless 2200BG firmware
+Comments:       This extension is PPI compatible.
+		Please read and agree to the license in
+		/usr/local/lib/firmware/LICENSE.ipw2200-fw
+		before using. Also, be sure that this extension
+		is loaded before wireless-KERNEL.tcz or
+		compat-wireless-KERNEL.tcz.  That is, list it
+		higher than the other wireless extensions
+		on your onboot.lst list in your tce directory .
+Change-log:     --------
+Current:	2011/05/06 First version 3.1
+
+

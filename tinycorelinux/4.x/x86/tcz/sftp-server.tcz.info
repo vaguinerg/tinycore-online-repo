@@ -1,0 +1,14 @@
+Title:		sftp-server.tcz
+Description:	sftp-server from OpenSSH
+Version:	5.8p1
+Author:		Many contributors, see site
+Original-site:	http://www.openssh.org
+Copying-policy:	BSD
+Size:		28K
+Extension_by:	Daniel Barnes
+Tags:		sftp-server OpenSSH
+Comments:	The sftp-server binary from OpenSSH specially built to
+		remove shared library dependencies. Useful for users
+		who want to add sftp to dropbear without other dependencies.
+Change-log:	2009/06/27 Initial release
+Current:	2011/04/19 Update to 5.8p1

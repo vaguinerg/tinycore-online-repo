@@ -1,0 +1,19 @@
+Title:          ppp-modules-4.9.22-piCore.tcz
+Description:    Kernel modules for ppp 
+Version:        4.9.22
+Author:         Linus Torvald
+Original-site:  http://tinycorelinux.net/9.x/armv6/releases/RPi/src/kernel/4.9.22-piCore_modules.tar.xz
+Copying-policy: GPL
+Size:		48KB
+Extension_by:   juanito
+Tags:	        ppp kernel modules
+Comments:       Kernel modules for ppp.tcz extension
+                Run commands below after installation:
+                
+                echo "/sbin/modprobe pppox" >> /opt/bootlocal.sh
+                echo "/sbin/modprobe slhc" >> /opt/bootlocal.sh
+                echo "/sbin/modprobe ppp_generic" >> /opt/bootlocal.sh
+                echo "/sbin/modprobe pppoe" >> /opt/bootlocal.sh
+                /usr/bin/filetool.sh -b
+Change-log:     first version
+Current:	2018/07/26

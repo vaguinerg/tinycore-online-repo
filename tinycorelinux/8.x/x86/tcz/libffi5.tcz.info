@@ -1,0 +1,20 @@
+Title:          libffi5.tcz
+Description:    Foreign function interface
+Version:        3.0.10
+Author:         Anthony Green
+Original-site:  http://sourceware.org/libffi/
+Copying-policy: Free, see source code for details
+Size:           12k
+Extension_by:   bmarkus
+Tags:           LIBRARY COMPATIBILITY
+Comments:       Library is provided for compatibility reason to make
+                older applications usable on current system with new version
+                of libffi.
+                ----
+                It can coexist with other versions of libffi.
+                ----
+                Do not compile new apps against this old lib.
+                When creating tcz, user current libffi-dev.tcz
+                from the repository.
+Change-log:     ----
+Current:        2014/11/15 packed for TC 6.0

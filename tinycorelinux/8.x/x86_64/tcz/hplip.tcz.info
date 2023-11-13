@@ -1,0 +1,33 @@
+Title:          hplip.tcz
+Description:    hp print, fax, scan
+Version:        3.13.11
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 6.2MB
+Extension_by:   juanito
+Tags:	        hp print fax scan
+Comments:       Hp Linux Imaging and Printing software
+                ----------
+                fax not tested since it is not supported on the
+                ..usb all-in-one machines I have access to
+                ----------
+                howto:
+                open http://localhost:631 in a browser
+                click on "add printer" button and follow instructions
+                choose a driver of the form "HP Officejet k80, hpcups 3.10.6 (color)"
+                corresponding to a uri of the form..
+                "hp:/usb/OfficeJet_K80?serial=ES0911401VOH"
+                ..this should already be shown
+                click on "print testpage" button to test
+                ----------
+                To keep settings on reboot, add the following to your backup
+                /usr/local/etc/cups/cupsd.conf (if changed)
+                /usr/local/etc/cups/printers.conf
+                /usr/local/etc/cups/ppd
+                ----------
+                This extension contains:
+                hplip-3.13.11 - GPLv2 - http://downloads.sourceforge.net/project/hplip/hplip/3.13.11/hplip-3.13.11.tar.gz
+                ----------
+Change-log:     2013/12/09 first version
+Current:        2017/05/17 corrected various python shebangs

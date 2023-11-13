@@ -1,0 +1,24 @@
+libsoup-gnome.tcz
+   libsoup.tcz
+      glib2.tcz
+         libffi.tcz
+      libxml2.tcz
+         liblzma.tcz
+      sqlite3.tcz
+      libpsl.tcz
+         libidn2.tcz
+            libunistring.tcz
+            ncursesw.tcz
+   glib-networking.tcz
+      glib2.tcz
+         libffi.tcz
+      gnutls3.6.tcz
+         nettle3.tcz
+            gmp.tcz
+         p11-kit.tcz
+            libffi.tcz
+            libtasn1.tcz
+         libidn2.tcz
+            libunistring.tcz
+            ncursesw.tcz
+

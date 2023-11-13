@@ -1,0 +1,15 @@
+Title:		ifplugd.tcz
+Description:	lightweight daemon to watch NIC interface and configure/deconfigure at plug-in/out event
+Version:	0.28
+Author:	Lennart Poettering
+Original-site:	http://0pointer.de/lennart/projects/ifplugd/
+Copying-policy: GPLv2
+Size:		28.0K
+Extension_by:	Yoshihiro Sato
+Tags:		networking
+Comments:	configure /usr/local/etc/ifplugd/ifplugd.conf and ifplugd.action
+		then start up ifplugd as daemon
+		  /usr/local/sbin/ifplugd -b -r /usr/local/etc/ifplugd/ifplugd.action
+		To start at boot, set this in /opt/bootlocal.sh
+Change-log:	----
+Current:	2018/09/09 - first version - 0.28

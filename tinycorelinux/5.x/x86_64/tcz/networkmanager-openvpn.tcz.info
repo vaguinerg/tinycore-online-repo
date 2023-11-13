@@ -1,0 +1,22 @@
+Title:          networkmanager-openvpn.tcz
+Description:    network manager openvpn plugin
+Version:        0.9.8.4
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 80KB
+Extension_by:   juanito
+Tags:	        vpn open network plugin
+Comments:       openvpn support for networkmanager
+                ----------
+                assumes that you have a running openvpn x.509 setup as mentioned
+                in the openvpn 2.0 howto on the openvpn homepage
+                ----------
+                This extension contains:
+                NetworkManager-openvpn-0.9.8.4 - GPLv2 - http://ftp.acc.umu.se/pub/gnome/sources/NetworkManager-openvpn/0.9/NetworkManager-openvpn-0.9.8.4.tar.xz
+                ----------
+Change-log:     2014/06/23
+                patched to use libsecret
+                2014/06/29
+                patched to use tun compiled into kernel
+Current:        2014/07/05

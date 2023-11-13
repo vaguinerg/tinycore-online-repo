@@ -1,0 +1,25 @@
+Title:          minefield21.tcz
+Description:    unbranded web browser based on Mozilla technology
+Version:        21.0
+Author:         The Mozilla Community
+Original-site:  http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/
+Copying-policy: MPL
+Size:		26M
+Extension_by:   aus9
+Tags:		web browser mozilla unbranded 
+Comments:       This is the unbranded build based on Mozilla technology built from source. 
+		This extension is not designed to load with other Mozilla family browsers 
+		already loaded. If you elect to have 2 or more mozilla browsers downloaded 
+		then run one per boot.
+
+		Each major release gets a new minefieldnn.tcz where nn = major release number
+		check the changelog in the info file for minor release numbers.
+
+		Be aware that loading a plugin for one browser "made" it available for the other
+		on reboot, due to /home/tc/.mozilla, which keeps all mozilla configs in one folder
+
+		**legal info
+		http://www.mozilla.org/foundation/trademarks/policy.html
+
+Change-log:     2013/06/05 First version 
+Current:	2013/06/14

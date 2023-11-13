@@ -1,0 +1,21 @@
+Title:          fcitx-4.1.2-table
+Description:    Fcitx is a input method framework with extension support. 
+Version:        4.1.2
+Author:		Yuking, CSSlayer, yunfan
+Original-site:  http://code.google.com/p/fcitx/
+Copying-policy: GNU GPL v2
+Size:           4.9M
+Extension_by:   aswjh
+Tags:	    Fcitx input method framework extension support. 
+Comments:	Fcitx is a input method framework with extension support. 
+		1).Requires locale.You need locale-col-zh.tcz,or get getlocale.tcz to make.
+		2).Requires font.You can place the fonts in /usr/share/fonts/;
+		3).LANG,LC_CTYPE must be set.
+			eg:You can add the command line to ~/.xsession,
+			export LANG=zh_CN.gb18030;export LC_CTYPE=zh_CN.gb18030;
+		fcitx-4.1.2-base.tcz:base files,pinyin,sp;
+		fcitx-4.1.2-table.tcz:cj,db,erbi,qxm,wanfeng,wbpy,wbx,zrm;
+		fcitx-4.1.2-doc.tcz:doc,man;
+		fcitx-4.1.2-dev.tcz:development files;
+Change-log:     2012/01/04 fcitx 4.1.2
+Current:        2012/01/04 fcitx 4.1.2

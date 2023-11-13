@@ -1,0 +1,23 @@
+Title:          numlockx.tcz
+Description:    Numlock toggle utility for X
+Version:        1.2
+Author:		Lubos Lunak <l.lunak@kde.org>, Oswald Buddenhagen <ossi@kde.org>
+Original-site:  http://ktown.kde.org/~seli/numlockx
+Copying-policy: X11/MIT
+Size:           4K
+Extension_by:   Martynas Brijunas <mbrijun@gmail.com>
+Tags:	    Numlock toggle utility X
+Comments:       This little thingy allows you to start X with NumLock on (which
+                is a feature that a lot of people seem to miss and nobody really
+                knew how to achieve this).
+                
+                This code relies on X extensions called XTest and XKB, so you need
+                to have at least one of these X extensions installed.
+                
+                Usage: numlockx [on|off|toggle]
+                on     - turns NumLock on in X (default)
+                off    - turns NumLock off in X
+                toggle - toggles the NumLock on and off in X
+
+Change-log:     2010/12/04 First version
+Current:        2010/12/04 First version

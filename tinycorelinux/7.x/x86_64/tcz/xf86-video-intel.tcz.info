@@ -1,0 +1,38 @@
+Title:          xf86-video-intel.tcz
+Description:    xorg intel video drivers
+Version:        git (2016/08/04)
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 808KB
+Extension_by:   juanito
+Tags:	        x xorg driver video 2d intel
+Comments:       Driver for Intel integrated video cards including i810, i810-dc100,
+                i810e, i815, i830M, 845G, 854, 852GM/855GM, 865G, 915G, E7221 (i915),
+                915GM, 945G, 945GM, 945GME, Pineview GM, Pineview G, 965G, G35, 965Q,
+                946GZ, 965GM, 965GME/GLE, G33, Q35, Q33, GM45, 4 Series, G45/G43,
+                Q45/Q43, G41, B43, HD Graphics: 2000-6000,Iris Graphics: 5100, 6100,
+                Iris Pro Graphics: 5200, 6200, P6300
+                ----------
+                Note:
+                sna default, uxa optional, ums disabled
+                if sna crashes use:
+                $ cat /usr/local/share/X11/xorg.conf.d/20-intel.conf
+                Section "Device"
+                    Identifier "Intel Graphics"
+                    Driver "intel"
+                    Option "AccelMethod" "uxa"
+                EndSection
+                ----------
+                This extension contains:
+                xf86-video-intel - (c) Tungsten Graphics - git clone git://anongit.freedesktop.org/xorg/driver/xf86-video-intel
+                ----------
+Change-log:     2013/10/20 first version
+                2013/11/30 recompiled for glamor-egl acceleration
+                2014/02/14 recompiled against updated glamor-egl
+                2014/05/16 default acceleration set to uxa
+                2014/10/28 updated 2.21.15 -> 2.99.916
+                2015/03/25 updated 2.99.916 -> 2.99.917
+                2015/12/11 updated 2.99.917 -> 0340718
+                2015/12/17 recompiled for xorg-server-1.18.0
+Current:        2016/08/04 updated 0340718 -> latest git

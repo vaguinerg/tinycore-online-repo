@@ -1,0 +1,29 @@
+Title:          grub2-multi.tcz
+Description:    grub boot loader
+Version:        2.06
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 19.3MB
+Extension_by:   juanito
+Tags:	        grub bootloader legacy bios efi
+Comments:       grand unified bootloader with legacy bios and efi modules
+                ----------
+                howto:
+                $ sudo mount /dev/sdc1
+                $ sudo grub-install --boot-directory=/mnt/sdc1/boot /dev/sdc
+                $ cat /mnt/sdc1/boot/grub/grub.cfg
+                insmod ext2
+                search --no-floppy --fs-uuid --set=root 3916536c-ab5b-45f4-92de-a6b8af8ec630
+                menuentry "core" {
+                linux /boot/vmlinuz quiet noswap waitusb=10:UUID="3916536c-ab5b-45f4-92de-a6b8af8ec630" tce=UUID="3916536c-ab5b-45f4-92de-a6b8af8ec630" tz=GMT-4 blacklist=bcma blacklist=ssb blacklist=b43 text
+                initrd /boot/rootfs.gz /boot/modules.gz
+                }
+                ----------
+                This extension contains:
+                grub-2.06 - GPLv3 - https://ftp.gnu.org/gnu/grub/grub-2.06.tar.xz
+                unifont-13.0.06 GPLv2 - https://unifoundry.com/pub/unifont/unifont-13.0.06/font-builds/unifont-13.0.06.pcf.gz
+                ----------
+Change-log:     2013/10/30 first version
+                2017/06/02 updated 2.00 -> 2.02, merged with grub2-efi, renamed
+Current:        2021/11/14 updated 2.02 -> 2.06

@@ -1,0 +1,51 @@
+Title:          android-file-transfer.tcz  
+Description:    Connect PC to Android for file tranfers
+Version:        gitzip 2018/01/22
+Author:         Vladimir Menshakov  
+Original-site:  https://github.com/whoozle/android-file-transfer-linux
+Copying-policy: GPL v3
+Size:           2.3M
+Extension_by:   aus9 at gmx dot com
+Tags:           xfce android 
+Comments:       One method of transferring files from/to Android/PC
+                Does not use udev/rules
+ 
+                If you're happy with gmtp/gvfs/mtpfs or any other 
+                mtp software, you might not need this TCZ 
+                
+                See the website for known problems, eg samsung phones
+                are read only. (untested as I have non-samsung)
+
+                Android Instructions 
+                - Enable USB debugging 
+                -> System settings -> about phone
+                -> TAP "build number" 7 times to enable developer mode
+                -> Go into new dir and turn on usb debugging
+
+                Data cable is connected PC to a live phone
+
+                On phone enable file transfer (default is charging)
+                ---on most androids, its a pull down notification.
+                
+                PC Instructions 
+                ----vary depending on your home persistance,
+                commands below are non-root commands
+                -> Make a dir to access files EG $ mkdir ~/Android
+                -> $ aft-mtp-mount ~/Android
+                (you may see this type of error EG # device is already in use)
+                -> ignore that error and use your fav File Manager to navigate to 
+                that new dir. (EG Android)
+                Thunar works as expected. Ditto spacefm
+
+                My error has more info at the website but I can ignore it as
+                Thunar or SpaceFM etc still mounted phone
+                image of error....and no need to load mtp TCZs
+                https://imgur.com/a/rG3D4
+                proof Thunar sees Android OK (not a Samsung)
+                https://imgur.com/a/tJzEq
+ 
+
+
+                Compiled for 64 9.x
+Change-log:     2018/01/07  First version 
+Current:        2018/01/07

@@ -1,0 +1,44 @@
+Title:          wifi-manager.tcz
+Description:    minimalistic wifi manager
+Version:        2.6
+Author:         Bruno "GNUser" Dantas
+Original-site:  n/a
+Copying-policy: GPLv3
+Size:		32K
+Extension_by:   gnuser
+Tags:	        wireless wifi manager
+Comments: ----------
+  ----- Prerequisite -----
+  The iw utility must be able to detect your wireless interface.
+  To check, run this command (substitute wlan0 with wlan1 if appropriate):
+    $ iw dev wlan0 info
+  If the command outputs "No such device", you need to first load the driver
+  and/or firmware for your wireless interface. 
+
+  ----- Configuration -----
+  $ cp /usr/local/share/wifi-manager/wifi-manager.conf ~/.config/
+  edit ~/.config/wifi-manager.conf
+
+  ----- CLI usage -----
+  Scan and connect to wifi: 
+    $ sudo wifi-connect
+  View last scan's results: 
+    $ cat /tmp/APs
+
+  ----- GUI usage -----
+  You need to have a system tray/notification area of your choice, plus yad:
+    $ tce-load -wi yad
+  Create systray icon: 
+    $ wifi-monitor &
+  Scan and connect to wifi: 
+    $ sudo wifi-connect -or- click systray icon
+  View last scan's results:
+    $ cat /tmp/APs
+----------
+Change-log:     2022/12/22 first version
+                2023/01/02 updated 1.6 -> 1.7
+                2023/03/06 updated 1.7 -> 1.8
+                2023/03/16 updated 1.8 -> 2.0
+                2023/08/30 updated 2.0 -> 2.2
+                2023/09/03 updated 2.2 -> 2.5
+Current:        2023/10/24 updated 2.5 -> 2.6

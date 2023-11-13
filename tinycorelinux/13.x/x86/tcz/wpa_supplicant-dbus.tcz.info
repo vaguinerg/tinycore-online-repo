@@ -1,0 +1,20 @@
+Title:		wpa_supplicant-dbus.tcz
+Description:	WPA Supplicant with dbus support
+Version:	2.9
+Author:		Jouni Malinen
+Original-site:	http://hostap.epitest.fi/wpa_supplicant
+Copying-policy:	GPL-2
+Size:		444KB
+Extension_by:	Arslan S., jlslegalize@gmail.com
+Tags:		wifi wpa ieee 802.1x dbus
+Comments:	This extension conflicts with wpa_supplicant.tcz
+Change-log:	2010/07/05 First Version 0.6.10
+		2010/11/18 Updated to 0.7.3
+		2011/10/08 Rebuilt for TCL 4.x
+                2014/01/18 rebuilt for tc5
+                2017/04/09 updated 2.0 -> 2.6, patched snr to favour higher throughput (juanito)
+                2017/12/18 patched for security flaw (juanito)
+                2018/03/05 recompiled against ncursesw (juanito)
+                2019/12/28 updated 2.6-> 2.9 (juanito)
+                2020/01/23 enabled 802.11r/ft, bgscan added security patch (juanito)
+Current:	2021/01/01 recompiled for updated readline (juanito)

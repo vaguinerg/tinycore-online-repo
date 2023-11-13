@@ -1,0 +1,36 @@
+python2.7-dev.tcz
+   python2.7.tcz
+      sqlite3.tcz
+      bzip2-lib.tcz
+      openssl.tcz
+         ca-certificates.tcz
+      gdbm.tcz
+      readline.tcz
+         ncurses.tcz
+      expat2.tcz
+   sqlite3-dev.tcz
+      sqlite3-bin.tcz
+         sqlite3.tcz
+         readline.tcz
+            ncurses.tcz
+      readline-dev.tcz
+         readline.tcz
+            ncurses.tcz
+         ncurses-dev.tcz
+            ncurses.tcz
+   bzip2-dev.tcz
+      bzip2.tcz
+         bzip2-lib.tcz
+   openssl-dev.tcz
+      openssl.tcz
+         ca-certificates.tcz
+   gdbm-dev.tcz
+      gdbm.tcz
+   readline-dev.tcz
+      readline.tcz
+         ncurses.tcz
+      ncurses-dev.tcz
+         ncurses.tcz
+   expat2-dev.tcz
+      expat2.tcz
+

@@ -1,0 +1,30 @@
+Title:          parole.tcz  
+Description:    gtk3 gstreamer media player 
+Version:        4.18.0
+Author:         Ali Abdallah, Simon Steinbeiss & Sean Davis
+Original-site:  https://docs.xfce.org/apps/parole/start
+Copying-policy: GPL v2
+Size:           300K		
+Extension_by:   aus9
+Tags:           gtk3 video audio player  
+Comments:       Online docs with extra links here
+                https://docs.xfce.org/apps/parole/start
+                home config is 
+                ~/.config/xfce4/xfconf/xfce-perchannel-xml/parole.xml
+
+                Video sub-titles not tested. You may need more fonts.
+                If you load a screensaver, kill it.
+
+                Audio: config already enabled and loads headphones (bcm2835)
+                Which also allows my desktop speakers to sing to me.
+                Read config.txt for hdmi issues please
+
+                Plays most formats like mp3, mp4 etc but not .m4a (AAC) nor 
+                .flac audio files. Some .mkv videos lose audio output 
+
+                With parole open, tools -> plugins -> enable tray plugin and it works in jwm
+
+                YMMV
+
+Change-log:     2020/10/22 v 1.0.5 on 12.x 
+Current:        2023/06/20 v 4.18.0 on 14.x 

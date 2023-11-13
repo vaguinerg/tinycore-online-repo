@@ -1,0 +1,20 @@
+Title:          stardict.tcz
+Description:    StarDict is an off-line dictionary reader
+Version:        3.0.0
+Author:         Hu Zheng
+Original-site:  http://stardict.sourceforge.net
+Copying-policy: GPLv3
+Size:           372K
+Extension_by:   perthie
+Tags:	    StarDict an off-line dictionary reader
+Comments:       To use StarDict, you must first install a dictionary. 
+                The squashfs-tools extension is needed for the following
+                     procedure and is included as a dependency.
+                1. Go to http://stardict.sourceforge.net/Dictionaries.php
+                2. Download a tarball.
+                3. Type: dict2ext dictionary.tar.bz2
+                   This creates the extension dictionary.tcz.
+                4. Move it to your tce folder and reboot. 
+                   Or type: tce-load -i dictionary.tcz
+Change-log:     -------------
+Current:        2009/11/17 first version

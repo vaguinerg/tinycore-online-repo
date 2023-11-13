@@ -1,0 +1,36 @@
+Title:          roam.tcz
+Description:	Wireless and ethernet network manager
+Version:	1
+Author:         hiro
+Original-site:  none
+Copying-policy: Beerware License
+Size:		4.0K
+Extension_by:   hiro
+Tags:		Wireless ethernet network manager
+Comments:	If you own a laptop with wifi and ethernet this is for you.
+		I wrote this as a lightweight and resource saving alternative to 
+		wicd and network-manager.
+		It switches between ethernet and wireless depending on whether
+		there is a cable inserted and then uses DHCP to get an IP.
+
+		Setup:
+		- adjust your network interface names in /usr/local/etc/roam.conf
+		- initialise roaming by typing: sudo /usr/local/etc/init.d/roam
+		- setup your wireless networks with wpa_gui.tcz (will save 
+		  to wpa_supplicant.conf automatically)
+
+		Persistence:
+		- backup roam.conf and wpa_supplicant.conf
+		- add /usr/local/etc/init.d/roam to /opt/bootlocal.sh
+		
+		You can look at the scripts and edit ifup and ifdown to include
+		your own modifications, e.g. if you need a static IP or have to
+		use a vpn. Also please send me your patches if you think others
+		may have a need for them.
+		
+		wpa_supplicant and thus wpa_gui also support wep and plaintext!
+		
+		wpa_gui depends on qt, sorry about that. As you won't need to
+		run it very often you should install it ondemand.
+Change-log:
+Current:        2011/02/25 First Version 

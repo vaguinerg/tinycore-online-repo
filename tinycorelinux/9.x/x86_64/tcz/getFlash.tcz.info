@@ -1,0 +1,43 @@
+Title:          getFlash.tcz
+Description:    Script to download & Create flash.tcz
+Version:        0.4
+Author:         roberts (Original)
+Original-site:  http://www.tinycorelinux.com
+Copying-policy: GPL
+Size:		20K
+Extension_by:   roberts, Jason W, robc, coreplayer2
+Tags: 		adobe flash player flashplayer
+Comments:       This extension downloads the latest Flash Player
+		(currently v24.x) from Adobe and contains flash audio support  
+		libraries for all x86, x8_64, OSS and Alsa installs.
+.
+                CAUTION-1: Please uninstall all prior Flash versions before continuing.
+.
+                Extracts linux libflashplayer.so
+                Setup libflashplayer for Minefield, Firefox, Opera, 
+		Seamonkey. Includes libflashsupport.so for OSS
+		sound. libflashsupport is licensed under Creative 
+		Commons Attribution 3.0.
+		Added libflashsupport.so with Alsa & pulseaudio support.
+		System installed sound modules (OSS or ALSA) will be dectected, then
+		required libflashsupport.so for system will
+		be installed to flash extension.
+		NOTE: Re-run this extension/script if sound modules are changed,
+		to include system specific libflashsupport module.
+.
+                Finally packages a flash.tcz to add with your tcz collection.
+.
+                NOTE:  Upon first time loading of this extension, the getflash
+		script is automatically run.  Later, if you want to update your flash.tcz, 
+		run getflash extension and following the directions given regards rebooting.
+.
+		flash.tcz will be loaded upon completion of the getflash script.
+.           
+Change-log:     2008/12/11 Original
+		2016/11/06 Updated for current Flash  (coreplayer2)
+		2016/11/12 Added support for custom onboot lists (coreplayer2)
+		2016/12/01 Ondemand fix for Startup file (coreplayer2)
+		2016/12/27 Updated with OSS Flash support (coreplayer2)
+		2016/12/27 Updated for Flash v24 i386/x86_64 (coreplayer2)
+Current:	2017/10/28 fixed addition to onboot.lst (coreplayer2)
+

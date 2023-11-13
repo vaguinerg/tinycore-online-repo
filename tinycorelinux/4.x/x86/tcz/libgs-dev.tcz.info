@@ -1,0 +1,17 @@
+Title:          libgs-dev.tcz
+Description:    devs for ghostscript 
+Version:        9.07
+Author:         see AUTHORS
+Original-site:  http://sourceforge.net/projects/ghostscript
+Copying-policy: see LICENSE and COPYING
+Size:		924K
+Extension_by:   aus9
+Tags:	    	devs for ghostscript lib
+Comments:       headers for ghostscript lib
+                might require ghostscript_common in some circumstances
+                
+Change-log:     2011/02/17  split out devs first version
+                2011/04/13  added check for libgs.so.8 and create if required
+                2011/12/09  updated 9.00 -> 9.04
+        	2011/12/28  updated to git 2011/12/28 (to cure printing colour in greyscale)(Juanito)
+Current:	2013/03/16  updated to 9.07 (aus9)

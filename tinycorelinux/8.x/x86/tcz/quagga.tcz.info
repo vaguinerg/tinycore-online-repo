@@ -1,0 +1,22 @@
+Title:          quagga.tcz
+Description:    Quagga Routing Software Suite
+Version:        1.2.2
+Author:         See Original-site
+Original-site:  http://www.quagga.net
+Copying-policy: GPL
+Size:		1.8M
+Extension_by:   rhermsen
+Tags:           quagga zebra routing
+Comments:       Quagga is a routing software suite, providing
+                implementations of OSPFv2, OSPFv3, RIP v1 and v2,
+                RIPng and BGP-4 for Unix platforms, particularly FreeBSD,
+                Linux, Solaris and NetBSD. Quagga is a fork of GNU Zebra
+                which was developed by Kunihiro Ishiguro.
+
+                The IPv6 kernel modules are not automatically installed.
+                If IPv6 is desired, install ipv6-4.8.17-tinycore.tcz via
+                the Apps GUI, or cli (tce-load -wi ipv6-KERNEL).
+Change-log:     2009/11/11 First version (0.99.15, size 1.0M, Joan Batet)
+		2018/01/17, 1.2.2 (rhermsen)
+                2018/01/31, 1.2.2, no ipv6 dependency (rhermsen)
+Current:        2018/01/31, 1.2.2 (rhermsen)

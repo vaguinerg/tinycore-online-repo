@@ -1,0 +1,38 @@
+Title:          parole.tcz  
+Description:    gtk3 media player 
+Version:        1.0.5
+Author:         Ali Abdallah, Simon Steinbeiss & Sean Davis
+Original-site:  https://docs.xfce.org/apps/parole/start
+Copying-policy: GPL v2
+Size:           272K
+Extension_by:   aus9
+Tags:           gtk3 video audio player  
+Comments:       online docs with extra links here
+                https://docs.xfce.org/apps/parole/start
+                home config is 
+                ~/.config/xfce4/xfconf/xfce-perchannel-xml/parole.xml
+                
+                AUDIO -To play audio ONLY I suggest xmms.tcz
+                Set up Alsa first please.
+                                               
+                VIDEO (RPi 4 )
+                My config.txt reads (I have one output)
+                [pi4]
+                dtoverlay=vc4-kms-v3d-pi4
+                max_framebuffers=1
+                gpu_mem=256
+                hdmi_enable_4kp60=1
+                -> full reboot
+                
+                If RAM less than 1G see
+                https://www.raspberrypi.org/documentation/configuration/config-txt/memory.md
+                Video sub-titles not tested. You may need more fonts.
+                
+                If you load xscreensaver, $ killall xscreensaver
+
+                Fullscreen mp4 on large monitors more likely to glitch/drop frames
+                On a 22 inch monitor, my nastiest AAC encoded mp4 file, plays OK with 13.5 inch GUI
+                but 16 inch on aarch64 for same file. Non-AAC encoded seem to play ok at 16 inch
+
+Change-log:     2020/10/21 original v 1.0.5 on 12x 
+Current:        2020/10/21   

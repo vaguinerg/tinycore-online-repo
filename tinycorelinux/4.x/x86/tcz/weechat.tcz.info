@@ -1,0 +1,46 @@
+Title:          weechat.tcz
+Description:    fast, light and extensible chat client
+Version:        0.4.1
+Author:         Various see usr/local/share/doc/tcz-name/AUTHORS
+Original-site:  http://weechat.org
+Copying-policy: GPL v3
+Size:		1012K
+Extension_by:   aus9
+Tags:	        weechat IRC chat 
+Comments:       WeeChat is an IRC chat client with curses frontend.
+		$ weechat-curses (starts weechat)
+		/connect irc.freenode.net 
+		/join #tinycorelinux
+		---when fully loaded change your nickname pls with
+		/nick newnickname
+
+		You can make it automatic see .weechat folder/irc.conf
+				
+		############# WARNING##########
+		Sometimes, there may be a security risk so pls read
+		http://www.weechat.org/security/
+		
+		If you are upgrading and if you have any issues
+		then delete /home/tc/.weechat 
+
+		** OPTIONAL TCZs: weechat-scripts to gain more features 
+		AND add one or more scripting languages relevant to the script.
+		Online documents are preferred to our manpage
+		http://weechat.org/files/doc/stable/weechat_user.en.html
+		/plugin list 
+		(to see what plugin are loaded at start up before connect command
+		or join command)
+
+		/help (to get help)
+
+		.weechat/logs may need to be added to your .xfiletool.lst if you enable logs
+
+		If you use a firewall allow out port 6667 pls
+
+		Please read weechat-scripts especially to enable spelling error with color
+
+
+Change-log:     2010/07/23 First version by blofsy
+		2013/01/04 Updated to 0.3.9.2 aus9
+	        2013/01/22 Updated to 0.4 
+Current:	2013/05/23 updated to 0.4.1 for security updates

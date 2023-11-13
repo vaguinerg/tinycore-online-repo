@@ -1,0 +1,21 @@
+pycurl.tcz
+   python.tcz
+      sqlite3.tcz
+      bzip2-lib.tcz
+      openssl-1.0.0.tcz
+      gdbm.tcz
+      ncurses.tcz
+         ncurses-common.tcz
+      readline.tcz
+         ncurses.tcz
+            ncurses-common.tcz
+   curl.tcz
+      libgcrypt.tcz
+         libgpg-error.tcz
+      libgpg-error.tcz
+      libidn.tcz
+      libssh2.tcz
+         libgcrypt.tcz
+            libgpg-error.tcz
+      openssl-1.0.0.tcz
+

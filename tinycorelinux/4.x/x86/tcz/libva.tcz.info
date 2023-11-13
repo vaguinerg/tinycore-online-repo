@@ -1,0 +1,48 @@
+Title:          libva.tcz
+Description:    Video Acceleration API
+Version:        1.1.0
+Author:         VA-API team
+Original-site:  http://freedesktop.org/wiki/Software/vaapi
+Copying-policy: as per COPYING file.
+Size:		804K
+Extension_by:   aus9
+Tags:	        Video API media 
+Comments:       The main motivation for VA-API (Video Acceleration API) is to enable hardware accelerated video 
+                decode/encode at various entry-points (VLD, IDCT, Motion Compensation etc.) for the prevailing 
+                coding standards today (MPEG-2, MPEG-4 ASP/H.263, MPEG-4 AVC/H.264, and VC-1/VMW3). Extending 
+                XvMC was considered, but due to its original design for MPEG-2 MotionComp only, it made more 
+                sense to design an interface from scratch that can fully expose the video decode capabilities 
+                in today's GPUs. The current video decode/encode interface is window system independent, so 
+                that potentially it can be used with graphics sub-systems other than X. In a nutshell it is 
+                basically a scheme to pass various types of data buffers from the application to the GPU for 
+                decoding or encoding. 
+Change-log:	2010/07/28 First Version git original TC maintainer blofsy
+                2012/10/25 Updated to 1.1.0 (stable release)
+                           API: add raw DRM support for headless pipelines
+                           Fix generic VA/GLX implementation for newer cluttersink versions
+                           Fix threading issues in VA objects reference code (+Krzysztof Kotlenga)
+                           API: data structures for JPEG Baseline decoding
+                           API: clarify the definition of slice_data_bit_offset
+                           Add a simple test case for JPEG decoding
+                           API: make {Top,Bottom}FieldOrderCnt signed (Yi Wang)
+                           Refine VA trace & VA fool utilities
+                           Move i965 driver to a specific repository (vaapi/intel-driver)
+                           Fix DSO link issue in tests
+                           Fix fglrx driver name detection
+                           Fix API vs. DSO vs. package versioning
+                           API: rename VA_DECODE_ERROR_TYPE to VADecodeErrorType
+                           Fix memory leaks (Edgar Hucek)
+                           Fix VA trace logs (Alexander Osin)
+                           Fix vaTerminate() with some applications, e.g. GStreamer
+                           API: fix VA_ROTATION_270 definition
+                           Add a simple H.264 encoder "avcenc" (Chang Zhou)
+                           Fix VA tracer (Alexander Osin)
+                           Fix vaBufferInfo() interface (Alexander Osin)
+                           API: add VARenderMode interface to select overlay or GPU rendering mode
+                           API: add VARenderDevice interface to allow rendering to an external device
+                           API: add VADisplayAttribOverlay{ColorKey,AutoPaintColorKey} interface
+Current:        2012/10/25 Updated to 1.1.0
+
+
+
+

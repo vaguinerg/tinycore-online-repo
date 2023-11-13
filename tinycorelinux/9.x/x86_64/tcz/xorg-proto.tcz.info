@@ -1,0 +1,17 @@
+Title:          xorg-proto.tcz
+Description:    X protocol files
+Version:        2018.4
+Author:         Various
+Original-site:  http://www.x.org/
+Copying-policy: X11
+Size:		356KB
+Extension_by:   juanito
+Tags:		X protocol dev
+Comments:       header files required to build the X Window system
+                ----
+Change-log:     2013/10/20 first version
+                2014/10/28 updated/added dri3proto, fontsproto, glproto, presentproto, xcb-proto, xextproto and xproto
+                2015/12/17 updated inputproto, kbproto, randrproto and xproto
+                2016/07/30 updated inputproto, videoproto, xcb-proto and xproto
+                2017/02/18 updated presentproto, xcb-proto and xproto
+Current:	2018/03/25 updated -> 2018.4, split out xcb-proto

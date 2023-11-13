@@ -1,0 +1,18 @@
+Title:          davfs2.tcz
+Description:    Mount a WebbDAV resource as a regular file system
+Version:        1.5.0
+Author:         Various, see source tarball for list
+Original-site:  http://savannah.nongnu.org/projects/davfs2
+Copying-policy: GPL v3
+Size:           57k
+Extension_by:   bmarkus
+Tags:           CLI WEBDAV
+Comments:       Binaries only
+                ----
+                Usage: mount.davfs <server-url> <mountpoint>
+                       umount.davfs<mountpoint>
+                You may customize davfs2.conf and secrets for regular use
+                ----
+                Compiled for 5.x
+Change-log:     ----
+Current:        2014/06/19 First version, 1.5.0

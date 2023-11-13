@@ -1,0 +1,34 @@
+Title:          jwm.tcz
+Description:    Joe's Window Manager
+Version:        2.3.6
+Author:         Joe Wingbermuehle
+Original-site:  http://joewing.net/programs/jwm/
+Copying-policy: GPL
+Size:		88K
+Extension_by:   Curaga
+Tags:	        joe window manager wm
+Comments:       Requires Tiny Core v3 or newer 
+-
+                To use boot option THEME to specify and set theme, add to .xsession:
+                [ -n "$THEME" ] && cp /opt/jwmThemes/"$THEME" .jwmrc-theme
+
+Change-log:     2009/05/16 Original window manager used in Tiny Core v1.x
+                2009/05/21 Fixed fullscreen video bug
+                2009/05/24 Interfaces to control panel Backgrounds
+                2009/06/05 Adjusted timing issue with wbar
+                2009/06/15 Adjusted menu to eliminiate extra shell
+                2009/08/31 Added startup script for auto desktop
+                2009/09/24 Extracted watcher. Watcher is its own extension
+                2009/10/09 Adjusted jwm_initmenu to not overwrite existing
+                2009/11/03 Adjusted .jwmrc for change in menu item tce-update
+                2010/05/22 Updated for freedesktop and ondemand
+		2010/11/07 Updated to allow img files in ondemand dir
+		2011/08/29 Updated to better support .jwmrc files
+		2011/09/29 Update to 2.1.0 (Curaga)
+		2011/11/19 Update to Core v4.2 Standards
+                2012/01/14 Improved dynamic menu handling
+                2013/08/04 recompiled for tc-5.x (juanito)
+                2015/05/19 updated 2.1.0 -> 2.2.2 (juanito)
+                2017/01/09 updated 2.2.0 -> 2.3.6 (juanito)
+	        2019/01/24 adjusted .jwmrc* (juanito)
+Current:	2020/09/13 Fixed exec= parsing issue in _menu_common script. (Rich)

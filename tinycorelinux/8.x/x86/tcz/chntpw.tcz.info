@@ -1,0 +1,37 @@
+Title:          chntpw.tcz
+Description:    chntpw - Tools for recovering Windows NT passwords
+Version:        140201
+Author:         Petter Nordahl-Hagen
+Original-site:  http://pogostick.net/~pnh/ntpasswd/
+Copying-policy: GPL v2, LGPL
+Size:		156K
+Extension_by:   halfbyte
+Tags:		NT PASSWORD RECOVERY SAM
+Comments:       This extension contains:
+		chntpw: interactive password tool
+		reged: Registry edit tool
+		sampasswd: user list and password reset commandline utility
+		samusrgrp: group list and group membership tool
+		cpnt: simple copy utility
+Change-log:	PRE-1 970528 - first public release
+		PRE-1 970611 - no syskey support
+		v 0.90 990307 - full registry parse/read/viewer
+		v 0.98 000215 - write support
+		v 0.98 000401 - smaller bugfixes
+		v 0.98.1 000607 - view source code for technical details
+		v 0.98.2 010107 - using OpenSSL for MD4 and DES encryption
+		v 0.98.3 010808 - updated blank password detection
+		v 0.98.4 011022 - fixed input buffer overflow
+		v 0.98.5 021208 - fixed bug in handling of blank LANMAN-pass
+		v 0.98.6 021213 - added parsing of users F and SAM F value
+		v 0.99.0 030112 - full registry edit support
+		v 0.99.1 030126 - fixed bug in ntreg
+		v 0.99.2 040105 - added RecoveryConsole parameter change
+		v 0.99.3 040818 - a lot of bugfixes
+		v 0.99.3 041205 - fixed bug in loadhive()
+		v 0.99.4 070406 - changed to GPL license
+		v 0.99.5 070923 - menu-driven user edit
+		v 0.99.6 080526 - new interactive registry edit tool reged
+		v 0.99.6 100627 - bugfixes
+		v 0.99.6 110511 - new regedit library
+Current:	2014-02-01 v 1.00 140201

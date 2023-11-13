@@ -1,0 +1,22 @@
+Title:          zlib_base-dev.tcz
+Description:    zlib devs
+Version:        1.2.11
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 96KB
+Extension_by:   juanito
+Tags:	        zlib dev
+Comments:       dev files for zlib in tc-9 x86_64 base
+                ----------
+                This extension contains:
+                zlib-1.2.11 - (C) Jean-loup Gailly & Mark Adler - http://www.zlib.net/zlib-1.2.11.tar.xz
+                ----------
+                2011/08/16 first version
+                2013/03/23 updated 1.2.5 -> 1.2.7
+                2013/06/10 recompiled without -lto for smaller static libs
+                2013/10/12 updated 1.2.7 -> 1.2.8
+                2014/09/22 recompiled on tc-6.x
+                2015/10/31 recompiled on tc-7.x
+                2016/10/17 recompiled on tc-8.x
+Current:        2017/12/06 updated 1.2.8 -> 1.2.11

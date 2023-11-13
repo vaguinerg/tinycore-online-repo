@@ -1,0 +1,44 @@
+Title:          xf86-video-intel-i810.tcz
+Description:    xorg intel i810 video drivers
+Version:        Intel v2.99.917
+Author:         See source -> AUTHORS
+Original-site:  https://01.org/temp-linuxgraphics/documentation/development/source-code
+Copying-policy: See source -> COPYING
+Size:		712K
+Extension_by:   nitram
+Tags:           x xorg driver video 2d intel i810
+Comments:       - Open-source X.org graphics driver for Intel graphics.
+                - Intel i810 with DRI support for better performance.
+                - Old chip, no Intel 3d support, Xorg-7.7-3d not required,
+                  boot.lst needs Xorg-7.7.tcz and xf86-video-intel-i810.tcz.
+                - Should not need xorg.conf file, 'xrandr' for resolutions,
+                  use ~/.X.d/ entry to set, example 'xrandr -s 1280x800'.
+                - Review /var/log/Xorg.0.log to confirm 16 bit color depth.
+                - If want xorg.conf file to set options/resolution,
+                  add 'etc/X11/xorg.conf' to /opt/.filetool.lst.
+                - Sample xorg.conf file:
+                    Section "Monitor"
+                         Identifier   "Monitor0"
+                    EndSection
+                    Section "Device"
+                         Identifier  "Card0"
+                         Driver      "intel"
+                         BusID       "PCI:0:1:0"
+                    EndSection
+                    Section  "Screen"
+                         Identifier    "Screen0"
+                         Device        "Card0"
+                         Monitor       "Monitor0"
+                         DefaultDepth  16
+                         SubSection "Display"
+                              Depth    16
+                              #Modes   "1024x768"
+                              Modes    "1280x800"
+                         EndSubSection
+                    EndSection
+                - See xf-86-video-intel-i810-doc.tcz for man pages.
+Change-log:     2016/10/31, first version, Intel v2.99.917 (nitram)
+Current:        2016/12/06, Intel v2.99.917 (nitram)
+                - Recompile with DRI support for better performance,
+                  now utilizes the i810 kernel module
+                - Should not need xorg.conf file to get graphics

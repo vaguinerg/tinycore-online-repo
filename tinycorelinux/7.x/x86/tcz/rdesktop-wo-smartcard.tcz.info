@@ -1,0 +1,17 @@
+Title:          rdesktop-wo-smartcard.tcz
+Description:    rdesktop - Linux RDP Client for Windows
+Version:        1.8.3
+Author:         Various
+Original-site:  http://www.rdesktop.org
+Copying-policy: GPL (see /usr/local/share/doc/License/rdesktop-copying.txt)
+Size:		168K
+Tags:           RDESKTOP RDP
+Extension_by:   curaga, gutmensch, alatun
+Comments:       rdesktop client for RDP protocol, 
+                - compiled without smart card support (did no longer compile)
+                - fixes issues with Windows menu keys
+Change-log:     2009/01/08     Original
+                2011/04/19     Bump to 1.7.0, added pcsc-lite support
+                2012/04/14     Bump to 1.7.1, recompiled against TC4
+Current:        2015/09/04     Bump to 1.8.3, recompiled against TC6
+

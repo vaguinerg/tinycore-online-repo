@@ -1,0 +1,43 @@
+Title:          watcher.tcz
+Description:    FLTK cpu/ram/swap/battery meter
+Version:        1.10.1
+Author:         Curaga
+Original-site:  http://tinycorelinux.com
+Copying-policy: GPL
+Size:		8.0K
+Extension_by:   Curaga
+Tags:		FLTK cpu ram swap battery meter
+Comments:       The latest watcher, now available as an extension.
+		1.10.1:
+		- Removed 2 error messages because they were not errors yet. Rich
+		1.10:
+		- A patch to check for energy as well as charge was applied
+		- on Sept 1, 2017 but never recompiled. Rich
+		Changes from 1.8.1:
+		- Support for more meminfo formats, FLTK 1.3 rebuild
+		1.8:
+		- WM border fix
+		1.7:
+		- updated battery support for linux 3.0
+		1.6:
+		- battery support
+		- no borders (looking better on non-swallowing WMs)
+-
+		Use the X standard -g option to position watcher where-ever
+		wanted. X counts from top-left, so watcher in top-left corner:
+		watcher -g +0+0
+		Top-right would be "-0+0", bottom left "+0-0", bottom right
+		"-0-0".
+-
+		To start watcher on X start, add to .xsession:
+		[ $(which watcher) ] && watcher -g +0-0 &
+-
+		For more options, run  watcher -h
+-
+		This extension is PPI compatible.
+Change-log:     2009/09/13 Original
+		2011/10/16 Update to 1.8
+		2011/11/24 Update to 1.8.1
+		2014/11/22 Update to 1.9, build with FLTK 1.3
+		2019/1/29 Compiled in energy patch. Rich
+Current:        2019/1/30 Removed 2 error messages. Rich

@@ -1,0 +1,46 @@
+Title:			firefox_getLatest.tcz
+Description:		Firefox latest download and installer
+Version:		2.5
+Author:			coreplayer2
+Original-site:  	http://forum.tinycorelinux.net/index.php/topic,17879.msg107764.html#msg107764
+Copying-policy:		GPL
+Size:                   8.0K
+Extension_by:   	coreplayer2
+Tags:			firefox get latest
+Comments:		This script detects the latest available Firefox Browser, downloads the  
+			update and creates an extension.  The new or updated Firefox extension
+			is then installed using tce-audit or scheduled for update during the 
+			next reboot.
+			
+			There are alternative options available,  for more help type at the 
+			command-line: 
+				firefox-getLatest.sh -h    (for more info eg: how to get beta versions)
+				                     -m    (for manual version entry)
+				
+
+			Will create latest Firefox extension for:
+			tc-8 x86
+			tc-8 x86_64
+
+			Note: The newly created extension is a replacement for the depreciated 
+			firefox-official extension.  If found during an onboot check, this old 
+			extension will be scheduled for removal by tce-auit during the next reboot
+			Aditionally this extension replaces the depreciated firefox-latest.tcz
+Change-log:		---
+			2014/12/20 Original
+			2015/01/17 Updated to support cloud mode install and Firefox major update
+			2015/10/03 Support for command-line options
+			2015/10/04 Name change and permissions update
+			2015/10/11 fix for wget used in tc-4.x
+			2015/10/14 onboot improvements and some cosmetic changes
+			2015/10/31 Updated language detection
+			2015/11/16 Updated cleanup function
+			2015/11/22 firefox get version fixes
+			2015/11/22 Added additional firefox desktop menus
+			2015/11/23 Minor changes/fixes in wget arguments and menu inconsistencies
+			2015/11/24 Name change to accommodate new menu items and WM's
+			2016/01/09 Improved detection of arch. and squashfs-tools versions in tc4 & tc5
+			2016/05/28 Fixed lib64 (corepure64) and added GTK3 to dep lists
+			2017/05/19 added ca-certificates to dep list
+			2017/05/19 updated to comply with busybox changes
+Current:		2018/12/15 updated dep lists (added gcc_libs & gdk-pixbuf2)

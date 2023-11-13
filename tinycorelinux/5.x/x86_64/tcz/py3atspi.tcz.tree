@@ -1,0 +1,32 @@
+py3atspi.tcz
+   py3gobject.tcz
+      gobject-introspection.tcz
+         glib2.tcz
+            libffi.tcz
+            pcre.tcz
+         python.tcz
+            sqlite3.tcz
+            bzip2-lib.tcz
+            openssl-1.0.0.tcz
+            tk.tcz
+               tcl.tcz
+            gdbm.tcz
+            ncurses.tcz
+               ncurses-common.tcz
+            readline.tcz
+               ncurses.tcz
+                  ncurses-common.tcz
+      py3cairo.tcz
+   at-spi2-core.tcz
+      dbus.tcz
+         expat2.tcz
+      glib2.tcz
+         libffi.tcz
+         pcre.tcz
+      libICE.tcz
+      libSM.tcz
+      libX11.tcz
+         libxcb.tcz
+            libXau.tcz
+            libXdmcp.tcz
+

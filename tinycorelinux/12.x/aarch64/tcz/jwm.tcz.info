@@ -1,0 +1,21 @@
+Title:          jwm.tcz
+Description:    Xorg Stacking Window Manager 
+Version:        2.3.7
+Author:         Joe Wingbermuelhle
+Original-site:  http://joewing.net/projects/jwm/
+Copying-policy: accompanied
+Size:           100K
+Extension_by:   aus9
+Tags:           window manager wm
+Comments:       Joe's Window Manager
+                Window focus changes with mouse over new window,
+                unless pcmanfm controls your background.
+                See TC64 for pcmanfm features, if interested. Remove wbar from
+                boot list if you like pcmanfm in control of bg
+
+                Your active window has bright titlebar.
+
+                
+Change-log:     2020/09/10 Original 2.3.7 on 12x
+	        2020/09/10     
+Current:	2020/09/23 Fixed exec= parsing issue in _menu_common script. (Rich)

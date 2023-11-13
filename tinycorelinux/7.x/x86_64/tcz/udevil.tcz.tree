@@ -1,0 +1,18 @@
+udevil.tcz
+   bash.tcz
+      readline.tcz
+         ncurses.tcz
+   glib2.tcz
+      libffi.tcz
+      pcre.tcz
+   udev-lib.tcz
+   fakeroot.tcz
+      glib2.tcz
+         libffi.tcz
+         pcre.tcz
+      util-linux.tcz
+         readline.tcz
+            ncurses.tcz
+      filesystems-4.2.9-tinycore64.tcz
+         mtd-4.2.9-tinycore64.tcz
+

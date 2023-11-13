@@ -1,0 +1,27 @@
+Title:          ntp-server.tcz
+Description:    NTP server and client
+Version:        4.2.8p9
+Author:         see copyright notice.
+Original-site:  http://www.ntp.org/
+Copying-policy: 
+        Copyright (c) University of Delaware 1992-2015 
+        Copyright (c) Network Time Foundation 2011-2015 
+        All Rights Reserved
+
+             see /usr/local/share/doc/ntp.COPYRIGHT
+             for full info
+
+Size:		728K
+Extension_by:   thewizz
+Tags:           ntp ntpd ntpq ntp-keygen sntp
+Comments:       ntp deamon , client and server
+                this program is used to sync host clocks
+                
+                create a /etc/ntp.conf or use -c to specify  
+                elsewhere 
+
+Change-log:     ----
+                Compiled for TC 7.x x86_64
+                ----
+Current:        2016/12/22 first version (thewizz)
+

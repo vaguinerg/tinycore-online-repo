@@ -1,0 +1,20 @@
+gnupg.tcz
+   libassuan.tcz
+      libgpg-error.tcz
+   libgcrypt.tcz
+      libgpg-error.tcz
+   libksba.tcz
+      libgpg-error.tcz
+   libusb.tcz
+      udev-lib.tcz
+   gnutls35.tcz
+      p11-kit.tcz
+         libffi.tcz
+         libtasn1-4.tcz
+      nettle3.tcz
+         gmp.tcz
+      libidn2.tcz
+         libunistring.tcz
+         ncursesw.tcz
+   npth.tcz
+

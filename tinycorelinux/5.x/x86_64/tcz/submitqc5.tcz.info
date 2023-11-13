@@ -1,0 +1,32 @@
+Title:          submitqc5.tcz
+Description:	Extension audit tool for the TC 5.x x86_64 repo
+Version:	5
+Author:		Jason W
+Original-site:	www.tinycorelinux.net
+Copying-policy: GPL-2
+Size:		8.0K
+Extension_by:	gordonselfish
+Tags:	    	audit tool repo submit quality check
+Comments:	This is used to audit extensions before
+		submission.  Just open a terminal in the
+		same directory as the extensions you are
+		wanting to check and this tool will tell
+		you of any issues with the structure of
+		the extensions being checked.  "submitqc5"
+		is the command to run. Some specific uses
+		are listed below if the entire audit is
+		not needed:
+		Results are echoed to the terminal in progress but
+		to see the specific results of each check
+		performed, look in the /tmp/submitqc directory
+		to see the results of checks that are in question
+Change-log:     ----
+        	2010/12/06 First version as extension.
+		2011/09/17 Renamed to submitqc4.tcz for simplicity.
+		2012/02/12 Updated, removed dir perm check, .desktop file
+		check, simplified dependency check.
+		2013/01/26 Fixed dep file checking bugs (Thanks Rich)
+		2013/09/07 adapt for 5x repo (gordonselfish)
+		2014/02/08 busybox mount fix by coreplayer2
+		2014/02/10 miscellaneous fixes by coreplayer2
+Current:	2014/06/24 updated for tc-5.x x86_64 by coreplayer2

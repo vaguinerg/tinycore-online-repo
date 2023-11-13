@@ -1,0 +1,34 @@
+getFlash_beta.tcz
+   gtk2.tcz
+      atk.tcz 
+      pango.tcz 
+      gdk-pixbuf2.tcz 
+      shared-mime-info.tcz
+         glib2.tcz
+            libffi.tcz
+            pcre.tcz
+         libxml2.tcz
+            liblzma.tcz
+      Xorg-7.7-lib.tcz 
+   curl.tcz
+      ca-certificates.tcz
+         openssl.tcz
+   nss.tcz
+      nspr.tcz
+      sqlite3.tcz
+   squashfs-tools.tcz
+      liblzma.tcz
+      lzo.tcz
+      libzstd.tcz
+   bash.tcz
+      readline.tcz
+         ncursesw.tcz
+   aterm.tcz
+      libXext.tcz
+         libX11.tcz
+            libxcb.tcz
+               libXau.tcz
+               libXdmcp.tcz
+      libSM.tcz
+      libICE.tcz
+

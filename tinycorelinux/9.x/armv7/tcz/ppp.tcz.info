@@ -1,0 +1,18 @@
+Title:          ppp.tcz
+Description:    PPP daemon for dialup, pppoe, ppp
+Version:        2.4.7
+Author:         Various
+Original-site:  http://ppp.samba.org
+Copying-policy: GPL,BSD,PD
+Size: 		320K
+Extension_by:   brezular
+Tags:	        ppp daemon dialup pppoe ppp
+Comments:       The daemon for making PPP connections.
+		This includes dialup, PPPoE, and other kinds
+		of PPP such as connections over a serial cable.
+-		The config files are *not* in /usr/local,
+		as they are hardcoded to /etc/ppp in the sources.
+		If you make any changes to these files, you might
+		want to add /etc/ppp to your backup.
+Change-log:     First version
+Current:        2017/12/12

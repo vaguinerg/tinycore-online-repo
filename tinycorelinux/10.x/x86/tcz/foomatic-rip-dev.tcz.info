@@ -1,0 +1,19 @@
+Title:          foomatic-rip-dev.tcz
+Description:    dev files for Foomatic printer filter for CUPS
+Version:        nightly build 2013.02.20
+Author:         Till Kamppeter, Lars Uebernickel, Grant Taylor & Helge Blischke
+Original-site:  http://www.openprinting.org/download/foomatic/
+Copying-policy: GPL v2
+Size:		12K
+Extension_by:   aus9
+Tags:	    	Foomatic printer filter CUPS dev
+Comments:       dev files for foomatic-rip
+		Built for TC 4.x
+Change-log: 	2009/10/12 - first version - removed foomatic-rip from CUPS package (perthie)
+                           - foomatic v4 is now a binary and does not require Perl
+                2009/10/15 - removed libgs and changed to a .tcz extension
+                           - libgs is now a separate extension to maintain compatibility with gsview
+                2011/10/08 - restored original permissions (juanito)
+                2011/10/11 - updated 4.0.2 -> 4.0.6 (juanito)
+		2011/12/01 - changed preferred shell to /bin/ash
+Current: 	2013/02/17 - updated to nightly build 2013.02.20

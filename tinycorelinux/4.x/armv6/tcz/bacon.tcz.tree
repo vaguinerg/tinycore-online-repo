@@ -1,0 +1,19 @@
+bacon.tcz
+   compile-essentials.tcz
+      autoconf.tcz
+      automake.tcz
+         autoconf.tcz
+      eglibc_base-dev.tcz
+      file.tcz
+      gcc.tcz
+         gcc_libs.tcz
+         binutils.tcz
+         libmpc.tcz
+            mpfr.tcz
+               gmp.tcz
+      libtool.tcz
+         libltdl.tcz
+      m4.tcz
+      make.tcz
+      patch.tcz
+

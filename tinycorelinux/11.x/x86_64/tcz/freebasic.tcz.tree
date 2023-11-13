@@ -1,0 +1,35 @@
+freebasic.tcz
+   compiletc.tcz
+      bison.tcz
+      diffutils.tcz
+      file.tcz
+      findutils.tcz
+      flex.tcz
+      gawk.tcz
+         mpfr.tcz
+            gmp.tcz
+         readline.tcz
+            ncursesw.tcz
+      gcc.tcz
+         gcc_base-dev.tcz
+         gcc_libs-dev.tcz
+            gcc_libs.tcz
+         binutils.tcz
+         mpc.tcz
+            mpfr.tcz
+               gmp.tcz
+      grep.tcz
+      m4.tcz
+      make.tcz
+      patch.tcz
+         attr.tcz
+      pkg-config.tcz
+      sed.tcz
+      e2fsprogs_base-dev.tcz
+      glibc_base-dev.tcz
+      linux-5.4_api_headers.tcz
+      util-linux_base-dev.tcz
+      zlib_base-dev.tcz
+      glibc_add_lib.tcz
+   ncursesw.tcz
+

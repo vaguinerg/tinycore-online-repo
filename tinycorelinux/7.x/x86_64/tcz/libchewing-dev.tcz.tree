@@ -1,0 +1,19 @@
+libchewing-dev.tcz
+   libchewing.tcz
+      sqlite3.tcz
+   libtool-dev.tcz
+      libtool.tcz
+         libltdl.tcz
+   ncurses-dev.tcz
+      ncurses.tcz
+   sqlite3-dev.tcz
+      sqlite3-bin.tcz
+         sqlite3.tcz
+         readline.tcz
+            ncurses.tcz
+      readline-dev.tcz
+         readline.tcz
+            ncurses.tcz
+         ncurses-dev.tcz
+            ncurses.tcz
+

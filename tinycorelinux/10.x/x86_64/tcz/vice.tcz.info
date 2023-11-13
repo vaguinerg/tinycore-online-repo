@@ -1,0 +1,48 @@
+Title:          vice.tcz  TESTING
+Description:    Commodore Emulator see below
+Version:        3.3
+Author:         see doc/AUTHORS  
+Original-site:  http://vice-emu.sourceforge.net/
+Copying-policy: GPL v2
+Size:           3.5M
+Extension_by:   aus9 at gmx dot com
+Tags:           emulator commodore c64
+Comments:       WARNING downloading ROMs may be illegal
+
+                FIRST set up and test sound works for pulseaudio as per its info
+                I used both US kb and logitech gamepad F310 in testing.
+                No claims made about any being any good.
+
+                App stripped to c64 emulators, all others in vice-others.tcz
+
+                It is important to read most of the docs in the docs TCE please.
+                Any reference to 
+                /usr/local/lib64/vice/doc is to be READ as
+                /usr/local/share/doc/vice-doc/
+                So in GUI you can not open the manual in the help pulldown
+                Instead load doc and point web browser to index.html
+           
+                Suggest you mkdir ROMs with local powers and add roms there. 
+                Use GUI to attach ROM by navigating to it.
+
+                Quick guide to using T(ape) or D(isk) image ROMs see
+                http://vice-emu.sourceforge.net/vice_5.html
+
+                C64 keymap is /usr/local/lib64/vice/C64/gtk3_sym.vkm
+                --- for keyboard users
+
+                HINTS----C key is likely to be left Ctrl
+                Run/stop key likely to be Esc 
+                Space bar may likely have effects too
+                Some games expect controller in number 2 position
+                Do you see green light on "applet controller" when "direction" pressed?
+                Do you see red light in middle of applet controller when you fire?
+                applet controller = tiny representations in GUI at bottom.
+
+                Note that you MAY need to change your vicerc file
+                to other pathways...from C64 to (eg) C128 etc
+                --if you can see that loading of a non-c64 emulator fails
+
+                Compiled for 10.x
+Change-log:     2019/03/03  First version 
+Current:        2019/03/03      

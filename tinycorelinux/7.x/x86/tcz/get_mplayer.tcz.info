@@ -1,0 +1,26 @@
+Title:          get_mplayer.tcz
+Description:    Script to wget and compile MPlayer (movie player).
+Version:        201612
+Author:         nitram
+Original-site:  n/a
+Copying-policy: http://unlicense.org
+Size:		100K
+Extension_by:   nitram
+Tags:           get mplayer compile command line multi media movie player
+Comments:       -Run 'get_mplayer.sh' to wget and compile MPlayer with
+                 FFmpeg to create an mplayer_custom.tcz extension.
+                -MPlayer ./configure uses hardware autodetect, compile
+                 natively on target system for best performance.
+                -CLI, OSD and gmplayer (graphic) MPlayer compile options.
+                -Default compile lean with Xorg, Alsa and libXv support.
+                -Default options tested to compile and play well in TC7.
+                -Prompted for additional configure options before compile.
+                -Prompted to add extension to onboot.lst or OnDemand.
+                -Prompted to create config and copy example configs.
+                -Prompted to install default skin (gmplayer).
+                -MPlayer is a command line multimedia player, uses
+                 GPL2 license: http://www.mplayerhq.hu/design7/news.html
+                -Thanks to Michael Zeising for the 'Productive' skin:
+                 http://www.mplayerhq.hu/images/skins/productive-01.jpg
+Change-log:     ---
+Current:        2016/12/13 TC7, MPlayer 1.3.0, FFmpeg 3.0.0 (nitram)

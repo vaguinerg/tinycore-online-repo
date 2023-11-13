@@ -1,0 +1,13 @@
+gcc.tcz
+   gcc_base-dev.tcz
+   gcc_libs-dev.tcz
+      gcc_libs.tcz
+   binutils.tcz
+      flex.tcz
+   cloog.tcz
+      isl.tcz
+         gmp.tcz
+   mpc.tcz
+      mpfr.tcz
+         gmp.tcz
+

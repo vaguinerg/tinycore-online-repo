@@ -1,0 +1,31 @@
+Title:		mkjavapkg.tcz
+Description:    Shell script to repackage Oracle Java for Tiny Core Linux.
+Version:        0.1.1
+Author:         Stephen Lutz
+Original-site:  N/A
+Copying-policy: GPL
+Size:		20K
+Extension_by:   Stephen Lutz
+Tags:           Oracle Java repackage TCZ
+Comments:       This script is dependent on  binutils.tcz and squashfstools.tcz
+                There are options to specify the java install path and the
+                java installation archive path. Additionally, the legal documents
+                are separated into their own TCZ package and an md5sum file will
+                be generated for both. All final output files are placed in
+                either the TCE/optional folder, if install selected, or the
+                users home directory.
+                The resulting Java TCZ file is created to install to /usr/local, /opt
+                or the specified target directory.
+                Tested against Java 8u16x, 9.0.x and 10, ix86 and x86_64 bit, jdk, jre and
+                serverjre tarballs.
+                User must manually download the tarball from Oracle at
+                http://www.oracle.com/technetwork/java/javase/downloads/index.html
+                The tarball checksum in optional, but the script can retrieve it
+                from Oracle if 'fetch' entered for checksum.
+                The plugin is not configured for web browsers, as it did not
+                work correctly when it was configured for either Firefox or Opera.
+                It is recommended that the mkjavapkg.tcz be installed as
+                on-demand.
+Change-log:     Improved error handling, adding ability to fetch tarball checksum
+                from Oracle.
+Current:        2018/04/04 for Tiny Core 4.8.x

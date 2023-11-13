@@ -1,0 +1,30 @@
+Title:          rox-filer.tcz  
+Description:    file manager
+Version:        2.11
+Author:         Thomas Leonard 
+Original-site:  https://sourceforge.net/projects/rox
+Copying-policy: GPL v2.1
+Size:		540K
+Extension_by:   aus9 @ linuxquestions.org
+Tags:           rox-filer
+Comments:       gtk2 file manager 
+                You can safely ignore these errors, if found
+                gtkrc-2.0:16: error: scanner: unknown error
+                Could not find the icon text-plain
+
+                OPTIONAL: remove the doc from your dep file if un-needed
+
+                How to asoociate open a file with specific executable?
+                Assuming RH mouse user RH click empty space inside file manager
+                Select Next Click -> Set Run Action
+                (cursor changes to a + sign)
+                Click the filetype you want to change association
+                --Brings up a menu which you then input the pathway to exe or in the shell box
+                (eg only) firefox "$@"
+                Finally click the Use Command button
+                                
+
+                Compiled for Corepure64 8.x
+Change-log:     2017/09/06  First version 
+Current:        2017/09/06
+

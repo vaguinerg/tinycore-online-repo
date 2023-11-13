@@ -1,0 +1,49 @@
+Title:          aqualung.tcz
+Description:    gtk2 graphical audio media player/ripper 
+Version:        1.0
+Author:         Tom Szilagyi
+Original-site:  http://aqualung.jeremyevans.net/
+Copying-policy: GPL v2 
+Size:           496K          
+Extension_by:   aus9  
+Tags:           gtk2 audio player
+Comments:       Ensure sound works for Alsa as no pulseaudio built in.
+                To keep size smallish, only wav, ogg and mp3 supported.
+
+                Manual 
+                https://aqualung.jeremyevans.net/manual/aqualung-doc.html
+
+                There is about 5 second delay before play button works. YMMV
+                If you try to add a file and it does not appear in your list,
+                its not a format I have compiled support for.
+
+                Click the MS or PL buttons  to toggle on/off the music 
+                store or playlist.
+                For a right hand mouse user, RH click nearly anyone in the GUI
+                will bring up a control panel.
+                You will probably want to adjust DSP -> sample rate converter
+
+                There is a volume slider and a left-right channel slider at top.
+
+                Optional dep of aqualung-skin.tcz for more skins
+
+                To play audio disc, ensure MS button is on. 
+                 -------CD Audio should appear in store.
+                Double Left click it to add to your playlist.
+                Click the playlist entry. click play to play entire cd.
+                To play a specific track, click the button to the left of 
+                cd-name and choose track then click play at top. 
+                Or use the MS playlist menu to add a specific track 
+                 to your playlist.
+
+                You can not rip and play audio cd at same time.
+                In case its not obvious....to rip try this
+                After seeing audio cd-name in MS,
+                RH click that name, select rip in context menu that opens
+                You can now choose all or one track etc
+                "Output Tab" choose output formats of wav,ogg or mp3
+                 --if you choose ogg or mp3 Variable Bit Rates can be changed. 
+                     
+Change-log:     2020/05/16 first version 1.0 on 11x
+Current:        2020/05/16  
+

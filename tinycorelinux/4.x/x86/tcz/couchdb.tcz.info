@@ -1,0 +1,36 @@
+Title:          couchdb.tcz
+Description:    Document database server.
+Version:        1.0.1
+Author:         Various / Apache Software Fundation
+Original-site:  http://couchdb.apache.org/index.html
+Copying-policy: Apache License, Version 2.0
+Size:           900Kb
+Extension_by:   Jose Maria Garcia <josemaria.alkala@gmail.com>
+Tags:	    Document database server.
+Comments:       CouchDB is document database server. It is schema-free,
+                distributed, ... It is not a relational database.
+
+                To load it use:
+                $ tce-load -i couchdb
+                
+                To start the database server:
+                $ /etc/init.d/couchdb start
+                
+                To test it:
+                $ curl 127.0.0.1:5984
+                
+                The paths to the configuration files being use are in this
+                distribution are:
+                /etc/default/couchdb
+                /etc/couchdb/*
+                /etc/init.d/couchdb
+                
+                Bear in mind that, by default, the database is created at:
+                /usr/local/var/lib/couchdb
+                
+                This directory disappears when you reboot. You may wish to
+                change that directory in the file:
+                /etc/couchdb/default.ini
+                
+Change-log:     2010/11/26 First version
+Current:        2010/11/26

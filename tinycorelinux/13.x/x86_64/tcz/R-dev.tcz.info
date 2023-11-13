@@ -1,0 +1,40 @@
+Title:          R-dev.tcz
+Description:    R is a free software environment for statistical computing and graphics
+Version:        4.0.5
+Author:         see list of sites below
+Original-site:  https://www.r-project.org/
+Copying-policy: GPLv2
+Size:           288K
+Extension_by:   polikuo
+Tags:           MATH statistical computing scientific calculator
+Comments:       This is the R development extension
+                To add more packages, please load the build essentials
+                   compiletc.tcz
+                   gfortran.tcz
+                   R-dev.tcz
+                You'll likely need extra softwares like 'bash.tcz' for the scripts.
+                Or documentation tools like 'miktex.tcz' for pdflatex.
+                Sometimes you'll need headers that are not covered by this extension.
+                ----------
+                LTO support: by default, the Link Time Optimization is turned off.
+                You can enable it by switching the link to Makeconf like below:
+                  sudo unlink /usr/local/lib/R/etc/Makeconf
+                  sudo ln -s Makeconf.lto /usr/local/lib/R/etc/Makeconf
+                The compiler flags for TC are already included in both files.
+                ----------
+                Installing packages:
+                Please refer to the online resources for the requirements beforehand
+                It's recommended to install the packages locally for TC beginners.
+                Remember to append your /opt/.filetool.lst to keep the changes.
+                  echo usr/local/lib/R/doc/html/packages.html >> /opt/.filetool.lst
+                  filetool.sh -bv
+                For advance users who would like to install globally as a tcz,
+                make sure to squash up all the extra files and modify 'packages.html'
+                with the tce.installed script via tools like 'patch'.
+                Please refer to the Tiny Core wiki:creating_extensions.html
+                ----------
+                This extension contains:
+                R-4.0.5.tar.xz - https://fossies.org/linux/misc/R-4.0.5.tar.xz
+                ----------
+Change-log:     2021/04/17 First version
+Current:        2021/04/17 First version

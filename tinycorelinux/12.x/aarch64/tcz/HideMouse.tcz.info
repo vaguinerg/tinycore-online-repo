@@ -1,0 +1,36 @@
+Title:		HideMouse.tcz
+Description:	Hide mouse cursor and move it to the screens corner.
+Version:	version 0.1  Jan 23 2021 13:41:40
+Author:		Richard A. Rost
+Original-site:	None
+Copying-policy:	GPLv2
+Size:		4.0K
+Extension_by:	Rich
+Tags:		move hide mouse cursor pointer
+Comments:	Run  HideMouse h  for this help output:
+
+		HideMouse version 0.1  Jan 23 2021 13:41:40
+		Copyright Richard A. Rost March 1, 2020
+		HideMouse is for hiding/moving the mouse cursor.
+
+		First run:  HideMouse &
+
+		Then:  echo X > /tmp/HideMouse
+
+		Where X is:
+				h=Hide cursor  s=Show cursor  q=Quit
+				1=Top Left  2=Top Right  3=Bottom Left  4=Bottom Right
+
+
+		Note: If you need to stop the program, use the Quit option. If
+		      you stop it with kill, /tmp/HideMouse will need to be
+		      removed if you want to restart HideMouse. The cursor
+		      will become visible if the program exits.
+
+		Built with:
+		CFLAGS=-march=armv8-a+crc -mtune=cortex-a72 -Os -g -pipe -Wall -Wextra
+		LDFLAGS=-Wl,-O1
+
+Change-log:	 Original release version 0.1  Jan 23 2021 13:41:40
+Current:	 Original release version 0.1  Jan 23 2021 13:41:40
+

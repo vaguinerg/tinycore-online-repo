@@ -1,0 +1,50 @@
+Title:          hplip.tcz
+Description:    hp print, fax, scan
+Version:        3.11.5
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 6.1MB
+Extension_by:   juanito
+Tags:	        hp print fax scan
+Comments:       Hp Linux Imaging and Printing software
+                ----------
+                the hplip_sane extension is required to scan
+                the libieee1284 extension is required for parallel port printers
+                ----------
+                fax not tested since it is not supported on the
+                .. two usb all-in-one machines I have access to
+                ----------
+                howto:
+                open http://localhost:631 in a browser
+                click on "add printer" button and follow instructions
+                choose a driver of the form "HP Officejet k80, hpcups 3.10.6 (color)"
+                corresponding to a uri of the form..
+                "hp:/usb/OfficeJet_K80?serial=ES0911401VOH"
+                ..this should already be shown
+                click on "print testpage" button to test
+                ----------
+                To keep settings on reboot, add the following to your backup
+                /usr/local/etc/cups/cupsd.conf (if changed)
+                /usr/local/etc/cups/printers.conf
+                /usr/local/etc/cups/ppd
+                ----------
+                This extension contains:
+                hplip-3.11.5 - GPLv2 - http://downloads.sourceforge.net/project/hplip/hplip/3.11.5/hplip-3.11.5.tar.gz
+                ----------
+Change-log:     2009/03/13
+                updated to 3.9.8 and recompiled against cups-1.4.0
+                compiled to use dynamic cups drivers
+                2009/09/16
+                moved /etc/hp & udev rules -> /usr/local
+                2009/09/22
+                updated 3.9.8 -> 3.9.12
+                2010/02/18
+                recompiled against python-2.7, updated 3.9.12 -> 3.10.6
+                2010/09/03
+                updated 3.10.6 -> 3.11.5
+                2011/06/29
+                changed sysfs -> attrs in udev rules
+                2011/07/06
+                re-compiled for tc-5.x
+Current:        2013/07/13

@@ -1,0 +1,23 @@
+Title:		privoxy.tcz
+Description:	privoxy - Non-caching web-proxy for enhancing privacy
+Version:	3.0.19-stable
+Author:		Various (see /usr/local/share/doc/License/privoxy-authors.txt)
+Original-site:	http://www.privoxy.org
+Copying-policy:	GPLv2 (see /usr/local/share/doc/License/privoxy.txt)
+Size:		208K
+Extension_by:	gutmensch
+Tags:		privoxy web proxy tor privacy
+Comments:	By default configured to connect to tor via socks. 
+		Steps after installation of tor.tcz and privoxy.tcz:
+		1. Execute from bootlocal.sh or ControlPanel => Services:
+			/usr/local/etc/init.d/tor start
+			/usr/local/etc/init.d/privoxy start
+		2. Point your browser to the proxy:
+			127.0.0.1:8118
+		3. Surf to https://check.torproject.org
+			
+		More configuration at /usr/local/etc/privoxy/.
+	   	--- 
+		This extension is PPI compatible.
+Change-log:	
+Current:	2012/05/27	Initial version 3.0.19

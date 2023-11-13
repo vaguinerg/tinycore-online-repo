@@ -1,0 +1,32 @@
+Title:		mupdf.tcz
+Description:	MuPDF - Lightweight PDF Viewer
+Version:	1.9
+Author:		Artifex Software, Inc.
+Original-site:	http://www.mupdf.com
+Copying-policy:	GPLv3
+Size:		9.9M
+Extension_by:	gnuser
+Tags:		MuPDF Lightweight PDF Viewer
+Comments:	A simple PDF viewer. Usage:
+		Left click to pan, right click to select and copy text. Hold down shift when scrolling to zoom.
+		Your navigation history is saved when following links, use 'T' to go back. 
+
+		L, R                 rotate page  
+		h, j, k, l           scroll page  
+		+, -                 zoom in or out  
+		w                    shrinkwrap  
+		r                    reload file  
+		. pgdn right space   next page  
+		, pgup left  b       previous page  
+		<, >                 skip back/forth 10 pages  
+		m                    mark page for snap back  
+		t                    pop back to latest mark  
+		1m                   mark page in register 1  
+		1t                   go to page in register 1  
+		123g                 go to page 123  
+		/                    search for text  
+		n, N                 find next/previous search result  
+		c                    toggle between color and grayscale
+	   	--- 
+Change-log:		2019/08/21 initial version for tc-10.x by gnuser
+Current:		2020/03/11 repackaged to include .desktop file and icon (gnuser)

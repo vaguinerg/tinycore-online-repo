@@ -1,0 +1,19 @@
+Title:          mplayer-cli.tcz
+Description:    cli movie player
+Version:        1.2.1
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 		2.0MB
+Extension_by:   juanito
+Tags:	        video movie player cli
+Comments:       movie player that can play most standard video formats
+                ----------
+                to use av devices other than default:
+                $ mplayer -vo x11 -ao alsa:device=hw=1.0 video.mp4
+                ----------
+                this extension contains:
+                mplayer-1.2.1 - GPLv2 - http://www.mplayerhq.hu/MPlayer/releases/MPlayer-1.2.1.tar.xz
+                ----------
+Change-log:     first version
+Current:   	2017/04/18

@@ -1,0 +1,69 @@
+Title:          php5.tcz
+Description:    PHP with cgi/fcgi
+Version:        5.3.29
+Author:         PHP Group (http://www.php.net/credits.php)
+Original-site:  http://www.php.net/
+Copying-policy: PHP License v3.01 (http://www.php.net/license/3_01.txt)
+Size:		19M
+Extension_by:   Lukasz032
+Tags:	        PHP cgi fcgi
+Comments:	PHP hypertext preprocessor for TC 5.x, working
+                with cgi/fcgi webservers such as lighttpd or apache.
+                
+                Most extensions has been compiled into binary
+                to reduce dependencies and speed up processing.
+                There are still some extensions disabled by default;
+                if you wish to enable them, just edit php.ini.
+		
+		The php.ini configuration file is found in
+		/usr/local/lib. This file can be editted to
+		change the runtime options.
+		
+		Can be used with apache2 or lighttpd for a
+		HTTP/PHP server (probably others too).
+		
+		For lighttpd:
+			make sure mod_cgi is loaded in your 
+			lighttpd.conf:
+				server.modules = (
+					"mod_cgi",
+					)
+				 
+			Then add this lines to the same file:
+				static-file.exclude-extensions = (".php", ".pl")
+                                cgi.assign = (".php" => "/usr/local/bin/php-cgi")
+
+                        And if you want php file as a directory index,
+                        just put the desired filename in next section, i.e.:
+                                index-file.names = ("starter.htm", "starter.php")
+                                                                    ^^^^^^^^^^^^
+			
+			Other server modules that may be needed:
+				mod_auth
+				mod_access
+				mod_accesslog
+		
+		For apache2:
+			Make sure cgi.force_redirect = 0 in php.ini.
+			The following, or similar, must be included 
+			in the httpd.conf file:
+				ScriptAlias /cgi-bin/ "/usr/local/cgi-bin/"
+				AddHandler cgi-script .php
+				Action cgi-script "/usr/local/bin/php-cgi"
+			The ExecCGI option must be enabled for the
+			HTTP server's root directory (htdocs).
+			A shebang for php-cgi must also be included.
+				#!/usr/local/bin/php-cgi
+		
+		----------------------------------------------
+		
+		Please see the man page for additional 
+		information. 
+		
+		Also see http://www.php.net/
+		for more information.
+		
+		----------------------------------------------
+		
+Change-log:     2015/10/08 : Initial release.
+Current:        2015/10/08 : Initial release.

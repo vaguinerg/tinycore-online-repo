@@ -1,0 +1,17 @@
+Title:          sstrip.tcz
+Description:    sstrip ELF stripper
+Version:        3.1
+Author:         Brian Raiter, Nikola Vladov
+Original-site:  http://riemann.fmi.uni-sofia.bg/programs/sstrip.c
+Copying-policy: GPL
+Size:		8KB
+Extension_by:   Curaga
+Tags:	        sstrip ELF stripper
+Comments:       Only use this on binaries
+
+		Binaries become undebuggable
+		Libraries as well, but they also can no longer be
+		linked against
+                ----
+Change-log:     2010/01/31 Original
+Current:        2018/11/29 updated 2.0 -> 3.1 (juanito)

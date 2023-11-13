@@ -1,0 +1,24 @@
+Title:          gsview.tcz
+Description:    gsview pdf viewer
+Version:        4.9
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 236KB
+Extension_by:   juanito
+Tags:	    gsview pdf viewer
+Comments:       gtk1 ghostscript viewer for pdf/ps files
+                requires glib1, gtk1, libgs-8.70, cairo, expat2, 
+                fontconfig, libcups and pixman extensions
+                ----------
+                note: not intended for printing pdf files, but it might work
+                ----------
+                This extension contains:
+                gsview-4.9 - AFPL - http://mirror.cs.wisc.edu/pub/mirrors/ghost/ghostgum/gsview-4.9.tar.gz
+Change-log:     2009/01/30
+                Removed libcups dependency
+                2009/02/03
+                re-compiled against ghostscript-8.70
+                2009/10/16
+                removed libgs
+Current:        2009/11/01

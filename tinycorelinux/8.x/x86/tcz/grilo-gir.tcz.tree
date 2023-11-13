@@ -1,0 +1,36 @@
+grilo-gir.tcz
+   grilo.tcz
+      libsoup.tcz
+         glib2.tcz
+            libffi.tcz
+         libxml2.tcz
+            liblzma.tcz
+         sqlite3.tcz
+   libsoup-gir.tcz
+      libsoup.tcz
+         glib2.tcz
+            libffi.tcz
+         libxml2.tcz
+            liblzma.tcz
+         sqlite3.tcz
+      gobject-introspection.tcz
+         glib2.tcz
+            libffi.tcz
+         python.tcz
+            bzip2-lib.tcz
+            gdbm.tcz
+            openssl.tcz
+            readline6.tcz
+               ncurses5.tcz
+            sqlite3.tcz
+   gobject-introspection.tcz
+      glib2.tcz
+         libffi.tcz
+      python.tcz
+         bzip2-lib.tcz
+         gdbm.tcz
+         openssl.tcz
+         readline6.tcz
+            ncurses5.tcz
+         sqlite3.tcz
+

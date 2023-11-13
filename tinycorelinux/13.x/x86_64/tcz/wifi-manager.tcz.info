@@ -1,0 +1,21 @@
+Title:          wifi-manager.tcz
+Description:    minimalistic wifi manager
+Version:        1.7
+Author:         Bruno "GNUser" Dantas
+Original-site:  n/a
+Copying-policy: GPLv3
+Size:		28K
+Extension_by:   gnuser
+Tags:	        wireless wifi manager
+Comments: ----------
+  Configuration:
+    $ cp /usr/local/share/wifi-manager/wifi-manager.conf ~/.config/
+    edit ~/.config/wifi-manager.conf
+  Create systray icon: 
+    $ wifi-monitor &
+  Scan and connect to wifi: 
+    $ sudo wifi-connect -or- click systray icon
+  View last scan's results:
+    $ cat /tmp/APs
+Change-log:	2022/12/22 first version
+Current:	2023/01/02 updated 1.6 -> 1.7

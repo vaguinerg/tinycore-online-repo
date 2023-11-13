@@ -1,0 +1,31 @@
+gcab-dev.tcz
+   gcab.tcz
+      glib2.tcz
+         libffi.tcz
+         pcre.tcz
+   glib2-dev.tcz
+      glib2-python.tcz
+         glib2.tcz
+            libffi.tcz
+            pcre.tcz
+         python3.6.tcz
+            openssl.tcz
+            sqlite3.tcz
+            gdbm.tcz
+            bzip2-lib.tcz
+            liblzma.tcz
+            readline.tcz
+               ncursesw.tcz
+      pcre-dev.tcz
+         pcre.tcz
+         bzip2-dev.tcz
+            bzip2.tcz
+               bzip2-lib.tcz
+         readline-dev.tcz
+            readline.tcz
+               ncursesw.tcz
+            ncursesw-dev.tcz
+               ncursesw.tcz
+      libffi-dev.tcz
+         libffi.tcz
+

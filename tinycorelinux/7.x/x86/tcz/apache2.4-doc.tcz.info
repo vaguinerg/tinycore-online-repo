@@ -1,0 +1,19 @@
+Title:          apache2.4-doc.tcz
+Description:    Apache HTTP WEB server
+Version:        2.4.23
+Author:         Apache Software Foundation
+Original-site:  http://www.apache.org
+Copying-policy: Apache
+Size:           8.6M
+Extension_by:   bmarkus
+Tags:           WEB HTTPD SERVER
+Comments:       Doc files
+                ----
+                Start with 'sudo apachectl -k start'
+                ----
+                Config: /usr/local/etc/httpd
+                Document root: /usr/local/apache2/htdocs
+                ----
+                Compiled for Core 7.x
+Change-log:     2016/06/06 First version, 2.4.20
+Current:        2016/07/24 Updated to 2.4.23

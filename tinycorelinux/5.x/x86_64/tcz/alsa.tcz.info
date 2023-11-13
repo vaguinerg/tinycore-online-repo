@@ -1,0 +1,33 @@
+Title:          alsa.tcz
+Description:    alsa sound
+Version:        1.0.27.2
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size:		1.1MB
+Extension_by:   juanito/jasonw
+Tags:	        alsa sound audio
+Comments:       Advanced Linux Sound Architecture
+                ----------
+                This extension contains:
+                alsa-lib-1.0.27.2 - LGPLv2.1 - ftp://ftp.alsa-project.org/pub/lib/alsa-lib-1.0.27.2.tar.bz2
+                alsa-utils-1.0.27.2 - GPLv2 - ftp://ftp.alsa-project.org/pub/utils/alsa-utils-1.0.27.2.tar.bz2
+                ----------
+                To test sound, use alsamixer to un-mute the master and then:
+                $ speaker-test -c2 -t wav -l1
+                ----------
+		From tc-5.x, it appears that loading the alsa extension is sufficient to initialise sound.
+                if this doesn't work try:
+                $ sudo /usr/local/etc/init.d/alsasound start
+		If adding this command to bootlocal.sh, you may need
+		to precede it with the sleep command for it to be effective.
+		If you want your alsa settings to persist across reboots, use the
+		command 'sudo alsactl store' after alsa has been set up.  This stores the
+		configuration in /usr/local/etc/asound.state.  Place this file in your backup to
+		allow your alsa settings to persist across sessions.
+		----------
+Change-log:	2012/12/08
+                updated 1.0.26 -> 1.0.27.2
+                2013/11/07
+                recompile asound.state -> /usr/local/etc
+Current:	2014/04/07

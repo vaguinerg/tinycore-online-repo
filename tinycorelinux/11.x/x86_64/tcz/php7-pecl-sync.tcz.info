@@ -1,0 +1,19 @@
+Title:		php7-pecl-sync.tcz
+Project:	php
+Description:    PHP Hypertext Processor extention modules
+Version:	1.1.1
+Author:		Thomas Hruska
+Original-site:  http://pecl.php.net		
+Copying-policy: MIT License
+Size:		12K
+Extension_by:   andyj			
+Tags:		php extension module sync
+Comments:       The 'sync' extension introduces synchronization objects into PHP. Named and
+		unnamed Mutex, Semaphore, Event, Reader-Writer, and named Shared Memory
+		objects provide OS-level synchronization mechanisms.
+		----			
+Change-log:     2018/11/10 First version, 1.1.1
+		2019/02/09 recompiled for TC 10.x and PHP 7.3
+		2019/10/26 extension now in /usr/local/lib/php/extensions/
+Current:	2019/12/05 recompiled for PHP 7.4
+

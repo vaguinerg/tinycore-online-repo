@@ -1,0 +1,23 @@
+Title:		network-manager-kde.tcz
+Description:	KDE NetworkManager client.
+Version:	0.9~svngit20110408
+Author:		Will Stephenson, Sebastian Kogler
+Original-site:	http://plasma.kde.org
+Copying-policy:	GPL
+Size:		1.3M
+Extension_by:	Arslan S.
+Tags:		KDE NetworkManager client.
+Comments:	This is a KDE4 plasma widget and a client to the NetworkManager.
+
+		All you need to do is to start NetworkManager daemon on startup.
+		To start NetworkManager add to /opt/bootlocal.sh :
+			/usr/local/etc/init.d/dbus restart
+			/usr/local/etc/init.d/NetworkManager start
+
+		knetworkmanager service is automatically started by kde4 but due to a conflict:
+		go to systemsettings->startup and shutdown->service manager and unclick on NetworkManager user settings service
+
+		Optional dependency: mobile-broadband-provider-info
+Change-log:	2010/07/22 First Version svn1141976
+		2010/08/04 Updated to svn1154750
+Current:	2011/12/09 Updated to 0.9~svngit20110408

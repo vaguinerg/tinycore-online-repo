@@ -1,0 +1,22 @@
+Title:		cryptsetup.tcz
+Description:	TESTING - cryptsetup - Files and scripts for setting up encrypted volumes
+Version:	1.7.5
+Author:		Various (see /usr/local/share/doc/License/cryptsetup-authors.txt)
+Original-site:	http://code.google.com/p/
+Copying-policy:	GPL (see /usr/local/share/doc/License/cryptsetup-copying.txt)
+Size:		116K
+Extension_by:	rarepepe
+Tags:		cryptsetup encrypt drive luks key setup
+Comments:	Use cryptsetup to easily encrypt partitions or disks.
+		BE CAREFUL. YOU MAY LOSE DATA WHEN YOU CHOOSE A WRONG DISK!
+		Example for a hard disk /dev/sdd:
+		$ sudo su
+		$ cryptsetup luksFormat /dev/sdd
+		$ cryptsetup luksOpen /dev/sdd cryptedsdd
+		$ mkfs.ext4 /dev/mapper/cryptedsdd
+		$ mkdir /mnt/cryptedsdd
+		$ mount /dev/mapper/cryptedsdd /mnt/cryptedsdd
+	   	---
+		This extension is PPI compatible.
+Change-log:	2020/01/22	Initial version 1.7.5
+Current:	2020/01/22      Initial version 1.7.5 (by rarepepe)

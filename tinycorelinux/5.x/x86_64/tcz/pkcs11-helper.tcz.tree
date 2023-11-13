@@ -1,0 +1,12 @@
+pkcs11-helper.tcz
+   openssl-1.0.0.tcz
+   gnutls.tcz
+      p11-kit.tcz
+         libffi.tcz
+         libtasn1.tcz
+      nettle.tcz
+         gmp.tcz
+   nss.tcz
+      nspr.tcz
+      sqlite3.tcz
+

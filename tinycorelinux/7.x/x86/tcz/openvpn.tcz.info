@@ -1,0 +1,19 @@
+Title:		openvpn.tcz
+Description:	OpenVPN - Open Source Virtual Private Network
+Version:	2.2.2
+Author:		Various (see /usr/local/share/doc/License/openvpn-authors.txt)
+Original-site:	http://openvpn.net
+Copying-policy:	GPL (see /usr/local/share/doc/License/openvpn-copying.txt)
+Size:		304K
+Extension_by:	gutmensch
+Tags:		VPN connection network OpenVPN
+Comments:	Build your own VPN with the help of included easy-rsa scripts.
+		For further information please visit
+		http://openvpn.net/index.php/open-source/documentation/howto.html
+		For client access use:
+		$ sudo openvpn --config /path/to/your/conf
+	   	---
+		This extension is PPI compatible.
+Change-log:	2010/10/24	Initial version 2.1.3
+		2010/11/19	Resolved iproute2 dep, bump to 2.1.4
+Current:	2012/03/09	Bump to 2.2.2, recompiled for TC4 against openssl-1.0.0, removed bash as needed shell

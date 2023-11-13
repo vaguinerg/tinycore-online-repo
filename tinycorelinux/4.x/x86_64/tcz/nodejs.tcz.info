@@ -1,0 +1,17 @@
+Title:          nodejs.tcz
+Description:    nodejs
+Version:        0.10.0
+Author:         Ryan Lienhart Dahl
+Original-site:  http://www.nodejs.org/
+Copying-policy: MIT License
+Size:		4.5M
+Extension_by:   slamet, solorin, sihorton
+Tags:	        development interpreted internet server javascript js ecmascript
+Comments:       npm works out of the box for javascript modules.
+		for native modules npm needs a c++ build environment so install make.tcz and compiletc.tcz
+		if npm complains of a missing lib while building a particular native module then search for the missing
+		lib in the app browser, so for example libexpat can be found by searching for expat and then
+		installing expat2.tcz, v0.10 is a new branch so it may 
+		take time for all c++ extensions to build correctly.
+Change-log:	2013/03/12 v0.10.0
+Current:	2013/03/12 v0.10.0

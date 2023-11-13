@@ -1,0 +1,19 @@
+Title:          libbluetooth-dev.tcz
+Description:    bluetooth compatibility devs
+Version:        5.50
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size:           44KB
+Extension_by:   juanito
+Tags:           bluetooth compatibility dev
+Comments:       dev files for libbluetooth
+                ----------
+                This extension contains:
+                bluez-5.50 - GPLv2 - https://www.kernel.org/pub/linux/bluetooth/bluez-5.54.tar.xz
+                ----------
+Change-log:     2017/03/12 first version
+                2020/04/20 updated 5.43 -> 5.54
+                2020/08/29 rebuilt with rpi patches, 5.54 (paul-123)
+                2020/11/29 Upraded to 5.55 (added midi and gatttool support) (paul-123)
+Current:        2021/06/02 Downgrade to 5.50 with all rpiOS patches (paul-123)

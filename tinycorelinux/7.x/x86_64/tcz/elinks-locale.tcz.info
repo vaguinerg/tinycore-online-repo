@@ -1,0 +1,23 @@
+Title:		elinks-locale.tcz
+Description:	Elinks is a full-featured text-based web browser
+Version:	0.12pre6
+Author:		Mikulas Patocka et al
+Original-site:	http://elinks.cz/download/elinks-locale-0.12pre6.tar.gz
+Copying-policy:	GPL-like (see COPYING.elinks)
+Size:		576K
+Extension-by:	dentonlt
+Tags:		web browser text cli links links2
+Comments:	----------
+		These are locale files for extension elinks.
+		Plain-text web browser. The latest stable elinks is 0.11.7
+		(codename Elated). 0.12pre6 is an 'official' unstable
+		prerelease from 2012/10/30. Other options and versions are
+		available via git checkout.
+		elinks uses a configuration file at ~/.elinks.
+		This build uses:
+		--without-spidermonkey --without-lua --without-tre --with-x
+		--enable-256-color --enable-exmode --enable-no-root
+		--enable-fastmem
+		----------
+Change-log:	2014/01/28: first version for x86_64; v0.12pre6, dentonlt
+Current:	2014/01/28: first version for x86_64; v0.12pre6, dentonlt

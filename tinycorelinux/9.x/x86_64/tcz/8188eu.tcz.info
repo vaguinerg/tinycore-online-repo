@@ -1,0 +1,71 @@
+Title:          8188eu.tcz
+Description:    wifi module and one firmware ...as below
+Version:        Kernel=4.14.10-tinycore64 - module=git-zip-20180704
+Author:         lwfinger for kernel module and see below
+Original-site:  https://github.com/lwfinger/rtl8188eu
+Copying-policy: see below
+Size:		396K
+Extension_by:   aus9 at gmx dot com
+Tags:           8188eu rtl8188eufw.bin wifi network adapter usb dongle
+Comments:       The following devices are supported but try at own risk please
+                usb 2357:010C TL-WN722N v2 (tested)....class N
+                usb 056E:4008 from Elecom Coy Ltd
+                usb 2001:3311 from D-Link
+                usb 2001:3310 from D-Link
+                usb 2001:330F from D-Link
+                usb 0DF6:0076 from Sitecom  Europe
+                usb 07B8:8179 from AboCom Systems
+                usb 0BDA:0179 RTL8188ETV Wireless LAN 802.11n Network Adapter
+                usb 0BDA:8179 RTL8188EUS 802.11n Wireless Network Adapter
+                (Load usb-utils if you wish to run $lsusb to get usb ids)
+
+                I have failed to connect with $ sudo wifi.sh. Possible reason
+                - if interested...(So I have forced wicd on you.)
+                https://github.com/lwfinger/rtl8188eu/issues/197
+                 
+                You may need to blacklist or remove any half working 
+                module if it exists. See wiki on howto blacklist.
+                                
+                After wifi device is inserted I run
+                $ tce-load -i 8188eu
+                $ sudo /usr/local/etc/init.d/dbus start
+                $ sudo /usr/local/etc/init.d/wicd start
+
+                Click on the wicd icon, and assuming you see your router 
+                name, click on properties and pulldown and choose WPA 1/2 
+                (PASSPHRASE) assuming you use wpa2, input your passphrase 
+                then click Ok. Next click connect.
+
+                Optional--Top right corner is a triangle pointing down symbol
+                - Preferences -> advanced settings you may like to click 
+                dBm to get dBm instead of % connection strength?
+                I prefer to un-tick show never connections. YMMV 
+
+                If your device works for you, consider reading wicd info 
+                on adding some stuff to your backup, and adding this TCZ
+                to your current boot list.
+
+                Good Luck Testing
+
+                Info
+                ##### 
+                COPYING file is for module license = GPL v2
+                Real*txt is the license for the firmware file and names the author
+                Credits to coreplayer2 and bmarkus for supplying the fw
+                license that I have copied over.
+                Pathways explained in build script
+
+                Example of correct hardware detection...from $ dmesg
+                ####################################
+                8188eu: loading out-of-tree module taints kernel.
+                Chip Version Info: CHIP_8188E_Normal_Chip_TSMC_D_CUT_1T1R_RomVer(0)
+                EEPROM ID = 0x8129
+                usbcore: registered new interface driver r8188eu
+                R8188EU: Firmware Version 11, SubVersion 1, Signature 0x88e1
+                MAC Address = (not showing as I am shy)
+      
+                compiled for 9x
+Change-log:     2015/05/17 first version used restart daemon script
+                2018/05/29 daemons were started by install script 
+                2018/07/04 start daemons removed from install script on name 8188
+Current:        2018/07/08 rename to 8188eu as there may be more 8188 packages  

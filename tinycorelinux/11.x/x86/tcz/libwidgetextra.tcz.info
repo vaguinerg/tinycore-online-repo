@@ -1,0 +1,19 @@
+Title:          libwidgetextra.tcz
+Description:    extra wxWidgets libraries(mainly for audacity)
+Version:        2.3.3
+Author:         wxWidgets/audacity contributors
+Original-site:  www.audacityteam.org/
+Copying-policy: wxWindows Licence(based on L-GPL)
+Size:		16K
+Extension_by:   justincb
+Comments:       CFLAGS="-march=i386 -mtune=i386 -Os"
+                CXXFLAGS="-march=i386 -mtune=i386 -Os"
+                LDFLAGS="-O2"
+                Comes from Audacity source tarball available @-
+                www.audacityteam.org/downloads/source/
+                Note - since this is a package from audacity &
+                doesn't seem to have its own version #, I've 
+                put audacity's version #.
+Tags:           audacity graphics wxWidgets
+Change-log:     2020/02/20 compiled from source
+Current:        2020/02/20 compiled from source

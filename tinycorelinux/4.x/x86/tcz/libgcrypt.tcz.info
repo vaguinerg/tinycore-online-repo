@@ -1,0 +1,17 @@
+Title:		libgcrypt.tcz
+Description:	libgcrypt - Crypto library from GNUPG
+Version:	1.5.0
+Author:		Werner Koch (see /usr/local/share/doc/License/libgcrypt-authors.txt)
+Original-site:	http://www.gnupg.org
+Copying-policy:	GPL (see /usr/local/share/doc/License/libgcrypt-copying.txt)
+Size:		280.0K
+Extension_by:	gutmensch
+Tags:		gnupg crypto library
+Comments:	
+	   	--- 
+		This extension is PPI compatible.
+Change-log:	2009/08/29	Initial version
+		#CHANGELOG[00001]="2010/02/02	Bump to 1.4.5, rebuild, reduce size
+		#CHANGELOG[00002]="2010/03/25	Recompiled with -fno-strict-aliasing and -O2
+		#CHANGELOG[00003]="2010/08/20	Bump to 1.4.6
+Current:	2012/05/25	Recompiled against TC 4.x, bump to 1.5.0

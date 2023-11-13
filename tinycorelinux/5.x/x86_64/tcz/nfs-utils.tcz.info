@@ -1,0 +1,19 @@
+Title:          nfs-utils.tcz
+Description:    nfs fs utilities
+Version:        1.2.9
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 164KB
+Extension_by:   juanito
+Tags:	        nfs utility
+Comments:       userspace server and client tools necessary to use nfs protocol to share file systems over the network
+                ----------
+                nfs server requires filesystem-KERNEL extension
+                ----------
+                This extension contains:
+                nfs-utils-1.2.9 - GPLv2 - http://downloads.sourceforge.net/nfs/nfs-utils-1.2.9.tar.bz2
+                ----------
+Change-log:     2013/12/10 first version
+                2014/11/18 modified nfs-server script as per @centralware
+Current:	2014/11/29 corrected nfs-server script

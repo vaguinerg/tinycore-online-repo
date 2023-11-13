@@ -1,0 +1,25 @@
+Title:		tzdata.tcz
+Description:	Time Zone Database
+Version:	2013i
+Author:		Arthur David Olson et al.
+Original-site:	http://www.iana.org/time-zones/repository/releases/tzdata2013i.tar.gz
+Copying-policy:	Public Domain
+Size:		592K
+Extension-by:	dentonlt
+Tags:		olson tz tzdata iana
+Comments:	----------
+		Now managed by IANA, this is the international timezone database
+		started by Arthur Olson. State the POSIX-Extended TZ value in
+		your kernel boot line:
+			tz=Australia/Melbourne
+		To change the tz on the fly, just
+			export TZ=America/Chicago
+		To search the possible TZ values, use
+			sudo /usr/local/etc/tzselect
+		This build has no dependencies. Modifications:
+			sets LOCALTIME=UTC (instead of GMT)
+			sets tzselect to use /bin/sh (instead of /bin/bash)
+			ln -s /usr/share/zoneinfo* /usr/local/etc/zoneinfo*
+		----------
+Change-log:	2014/01/12 first version for x86_64; v2013i dentonlt
+Current:	2014/01/12 first version for x86_64; v2013i dentonlt

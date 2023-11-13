@@ -1,0 +1,23 @@
+Title:		lighttpd-nodeps.tcz
+Description:	Light and fast HTTP server
+Version:	1.4.28
+Author:		Jan Kneschke
+Original-site:	http://www.lighttpd.net/
+Copying-policy:	BSD
+Size:		292K
+Extension_by:	Daniel Barnes
+Tags:		Light fast HTTP server
+Comments:	Lighttpd built with no dependencies for small, simple uses.
+		Example chroot script:
+		HTTPD=/usr/local/sbin/lighttpd
+		HTTPD_ROOT=/www
+		HTTPD_CONF=$HTTPD_ROOT/lighttpd.conf
+		cat << EOF > $HTTPD_CONF
+		server.document-root = "/htdocs"
+		server.port = 80
+		server.username = "nobody"
+		server.groupname = "nogroup"
+		server.chroot = "$HTTPD_ROOT"
+		EOF
+		exec $HTTPD -D -f $HTTPD_CONF
+Current:	2011/05/17 - Initial release

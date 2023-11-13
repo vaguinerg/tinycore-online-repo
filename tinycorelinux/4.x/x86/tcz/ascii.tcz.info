@@ -1,0 +1,17 @@
+Title:          ascii.tcz
+Description:    Conversion between various byte representations and 
+                ASCII table.
+Version:        3.8
+Author:         Eric S. Raymond 
+Original-site:  http://www.catb.org/~esr/ascii/
+Copying-policy: GPL
+Size:           12KB
+Extension_by:   abelmora
+Tags:	    Conversion between various byte representations 
+Comments:       Source at http://www.catb.org/~esr/ascii/ascii-3.8.tar.gz
+                CXXFLAGS=-march=i486 -mtune=i686 -Os -pipe -fno-exceptions -fno-rtti
+                PKG_CONFIG_PATH=/usr/local/lib/pkgconfig:/usr/lib/pkgconfig
+                $ make
+Change-log:     2009/12/21 Original
+Current:        2009/12/21 Original 3.8
+

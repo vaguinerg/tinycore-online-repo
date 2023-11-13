@@ -1,0 +1,33 @@
+geoclue.tcz
+   json-glib.tcz
+      glib2.tcz
+         libffi.tcz
+   libsoup.tcz
+      glib2.tcz
+         libffi.tcz
+      libxml2.tcz
+         liblzma.tcz
+      sqlite3.tcz
+      libpsl.tcz
+         libidn2.tcz
+            libunistring.tcz
+            ncursesw.tcz
+   libavahi.tcz
+      dbus.tcz
+         expat2.tcz
+      gcc_libs.tcz
+      glib2.tcz
+         libffi.tcz
+   libnotify.tcz
+      gdk-pixbuf2.tcz
+         glib2.tcz
+            libffi.tcz
+         libpng.tcz
+         libtiff.tcz
+            liblzma.tcz
+            libjpeg-turbo.tcz
+         libX11.tcz
+            libxcb.tcz
+               libXau.tcz
+               libXdmcp.tcz
+

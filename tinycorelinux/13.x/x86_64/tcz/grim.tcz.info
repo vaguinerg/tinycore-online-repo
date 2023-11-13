@@ -1,0 +1,24 @@
+Title:          grim.tcz 
+Description:    GRab IMages from sway 
+Version:        1.3.0
+Author:         emersion
+Original-site:  https://github.com/emersion/grim
+Copying-policy: Accompanied 
+Size:           12K
+Extension_by:   aus9 
+Tags:           sway screen capture
+Comments:       screenshot app limited to its current terminal and 
+                can only be used on sway
+
+                Usage: grim [options...] <output-file>
+                  
+                example without a mouse for current window    
+                $ grim ~/Pictures/$(date +%Y-%m-%d-%H%M%S_grim.png) 
+                # Use a timestamped filename under Pictures dir
+
+                grim can not capture outside its active window (terminal) 
+                to capture another window, see slurp please 
+                                
+Change-log:     2019/06/16 Original v 1.2.0 on 10x 
+Current:        2020/07/02 -> v 1.3.0 on 11x 
+

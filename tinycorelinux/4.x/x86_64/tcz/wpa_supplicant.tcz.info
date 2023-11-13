@@ -1,0 +1,42 @@
+Title:		wpa_supplicant.tcz
+Description:	wpa_supplicant - Wi-Fi Protected Access supplicant
+Version:	2.0
+Author:		Jouni Malinen
+Original-site:	http://hostap.epitest.fi/wpa_supplicant
+Copying-policy:	GPLv2 (see /usr/local/share/doc/License/wpa_supplicant-copying.txt)
+Size:		280.0K
+Extension_by:	juanito
+Tags:		wireless wpa protection access provider supplicant wpa_supplicant
+Comments:	wpa_supplicant tools for Tiny Core Linux
+
+		GUI Interface:	
+		Load wpa_gui.tcz, open ControlPanel => Services and activate wpa_gui, then
+		start wpa_gui application from wbar and configure your wireless network.
+		After setting up your wireless network, choose "File -> Save Configuration" 
+		and put etc/wpa_gui.conf to your backup. On next boot, with wpa_gui.tcz loaded
+		it should automatically reconnect to your wireless network (without having the
+		need of starting wpa_gui again), when you put "/usr/local/etc/init.d/wpa_gui start"
+		to your bootlocal.sh.
+
+		Cmd line usage (instead of -Dwext you can also try -Dnl80211):
+		$ sudo su
+		# wpa_passphrase YourSSID YourPassword > /etc/wpa_supplicant.conf
+		# wpa_supplicant -Dwext -iwlan0 -c/etc/wpa_supplicant.conf -B
+		# udhcpc -b -i wlan0 -h box -p /var/run/udhcpc.wlan0.pid
+		
+		Information:
+		Being connected to ethernet _and_ wireless with two DHCP client processes can
+		lead to problems like slow connections. As a solution setup a static IP address
+		on one of the devices.
+
+		IMPORTANT:
+		You will most probably need firmware*.tcz extensions to use your wireless device!
+		Since there are lot of them like firmware-atheros, firmware, firmware-iwlwifi,
+		please check which vendor firmware belongs to your device.
+	   	--- 
+		This extension is PPI compatible.
+Change-log:	2012/11/09
+                recompiled against openssl1.0.0 and libnl
+                2012/12/06
+                updated 1.0 -> 2.0
+Current:	2013/04/13

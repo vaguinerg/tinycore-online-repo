@@ -1,0 +1,29 @@
+Title:          icewm-list.tcz
+Description:    boot list for your bootloader
+Version:        1.0
+Author:         aus9
+Original-site:  Tinycore
+Copying-policy: opensource
+Size:           4.0K
+Extension_by:   aus9
+Tags:           window manager wm
+Comments:       Do NOT choose OnBoot in Apps please.
+                Do not download this TCE unless you 
+                have tested icewm and am happy to 
+                have a boot loader list file to 
+                automate the booting of IceWM.
+
+                When ready, in Apps choose 
+                DownloadOnly (not + load)
+                In a terminal run
+                $ tce-load -i icewm-list
+                $ cat /etc/sysconfig/tcedir/icewm.lst
+                Optional you can then elect to add TCEs
+                to that list from your current list
+                (Maybe from onboot.lst?)
+
+                If you need firmware, order is important
+                see your current boot list or refer to forum
+
+Change-log:     2020/07/22 Original 1.7.0 on 11x
+Current:        2020/11/29 Removed /tmp/tcloop/... from path in tce.installed script. (Rich)

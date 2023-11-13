@@ -1,0 +1,114 @@
+Title:          sway.tcz TESTING
+Description:    i3 Tiling compatible compositor for Wayland
+Version:        1.0
+Author:         Drew DeVault
+Original-site:  https://github.com/swaywm/sway
+Copying-policy: Accompanied 
+Size:           5.1M
+Extension_by:   aus9 at gmx dot com
+Tags:           wayland sway
+Comments:       You must NOT load sway on a libX or Xorg desktop as 
+                your desktop will crash...... Online wiki is here
+                https://github.com/swaywm/sway/wiki
+                Note the wiki also mentions polkit matters. I have US keyboard,  
+                read the sway-doc for other inputs please.
+
+                This wayland compositor might suit members who do not mind 
+                reading the config and using keyboard combinations (kb combos) 
+                to launch their fav apps. Kb combos tend to be faster than mouse, 
+                but you may need a mouse.
+
+                If you change .config/sway/config,  run from within sway
+                $ sway -C (to check its correct)
+
+                FIRST TIME USE
+                ###############
+                Download this App and sway-dot, then run sway-dot
+                to create a dot local bin file called z -which you can edit if needed.
+                $ tce-load -i sway-dot  
+
+                VIDEO DRIVER?
+                #############
+                Closed source drivers are not supported by sway. 
+                 
+                How to start Sway
+                ###########
+                Exit to prompt  and run
+                $  z                 
+
+                Running Sway
+                ############
+                config has list of current kb combos and other info
+                You can change the main modifier key--Note the capitals where applicable
+                logo key = Mod4  (our default and defined elsewhere as $mod)
+                Alt key = Mod1
+                Ctrl key = Control 
+                Shift key = Shift 
+
+                Create and move to new workspace (WS) by (eg) logo + 2 (or some other number)
+                (The + sign means you hold down the logo key and press 2)
+
+                Open a terminal by logo + Enter. One has been auto started on WS 1
+                Repeating logo and enter will tile second terminal....and so on etc.
+                Tiling occurs for all apps too if you duplicate the kb combos.
+
+                Except when dmenu/bemenu (optional deps) are active, your active app
+                has a bold title bar. Start dmenu by logo + d
+               
+                Quit active App (executable) by (config shows it as focused window)
+                logo + shift + q
+
+                Exitting sway----- to get back to X(org) DE/WM 
+                #############
+                logo + Shift + e 
+                Use mouse to click correct button
+                $ startx
+
+                If you do not need a mouse, edit your home config line so it reads
+                bindsym $mod+Shift+e exec swaymsg exit
+
+                Optional dependencies
+                ##################
+                grim and slurp (take screenshots)
+                dmenu  ( a launcher must have xwayland loaded and enabled)
+                bemenu and j4-dmenu-desktop (can run with xwayland disabled)
+                wl-clipboard (terminal clipboard manager)
+                wf-recorder (screen recorder--no sound)
+                
+                quick guide to change resolution and speed
+                ######################################
+                $ swaymsg -t get_outputs
+                (look at output  ---mine defaults to highest  resolution @ 60Hz
+                and modify the config file with my example showing)
+                output HDMI-A-2 mode 1280x1024@75Hz
+                (exit sway and re-start it then repeat get outputs command)
+
+                Other info
+                ########
+                Tray icon support has been disabled this build. 
+                Bottom of file has some non-standard configs below the ###s
+                # xwayland disable  
+                exec lxterminal
+                exec apps
+
+                ^^ remove the comment if you are confident using commands
+                to maintain your system without FLTK GUIs
+              
+                You can launch more apps on WS 1 INSTEAD of creating keybindings
+                and then use "move" kb combos to move them to preferred WS numbers 
+                eg I use a specific workspace for local terminal, another for web browser etc
+                Remember your "move" kb combo actions the ACTIVE titlebar app
+
+                Alternatively try at WS 1....use kb combo to -- create and move -- to workspace 2 
+                = logo +2 ...use config "created" kb keybinding  to launch your fav app
+                repeat to create and move to workspace 3...etc.etc
+                IMHO my first way is faster. 
+
+                I recommend you remove wbar and add sway then reboot to test sway.
+                Otherwise you will need to kill wbar if you load a new package on sway.
+                Remember sway will not auto launch over reboot, it needs to exit to prompt 
+                and run z command. 
+                  
+                Compiled for 10.x 
+Change-log:     2019/05/30 first version 
+Current:        2019/05/30  

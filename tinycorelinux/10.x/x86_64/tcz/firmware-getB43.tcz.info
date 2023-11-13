@@ -1,0 +1,18 @@
+Title:			firmware-getB43.tcz
+Description:		Broadcom b43 firmware installer
+Version:		1.0
+Author:			coreplayer2
+Original-site:  	http://forum.tinycorelinux.net/
+Copying-policy:		GPL
+Size:			4.0K
+Extension_by:   	coreplayer2
+Tags:			firmware Broadcom b43
+Comments:		This script creates and installs an extension with Broadcom's b43 firmware.
+ 
+			It downloads Broadcom's proprietary driver, then uses "b43-fwcutter" to extract and
+			then installs a b43 firmware extension. 
+			On reboot the firmware should be detected.
+Change-log:		---
+			2017/03/18 Original
+Current:		2017/08/03 removed startup script
+

@@ -1,0 +1,29 @@
+Title:          quakeforge.tcz
+Description:    QuakeForge is a 3D first-person shooter game engine.
+Version:        0.7.2
+Author:         The QuakeForge Project
+Original-site:  http://www.quakeforge.net/
+Copying-policy: GPL
+Size:           1.7M
+Extension_by:   madRat
+Tags:           quake fps
+Comments:       QuakeForge is a source port of Quake and QuakeWorld,
+                the successors to id Software's very popular DOOM series.
+                Its primary development goal is to remain compatible
+                with the original games released by id Software while
+                adding portability and optional extensions to enhance gameplay.
+                ---
+                This package contains:
+                 * Netquake and Quakeworld versions for client and server
+                 * oss, alsa, sdl for sound
+                 * CD Audio may be played with file, linux-cd or sdl plugins
+                ---
+                Available renders:
+                  * Software Render with x86 Assembler (sw)
+                  * Software Render (sw32)
+                  * OpenGL(gl)
+                  * OpenGL with Shaders (glsl)
+                NOTE: sw version is optimized for i486/pentium processors,
+                so can not show the best perfomance on modern computers.
+Change-log:     ---
+Current:        1970/01/01 Initial version, 0.7.2.

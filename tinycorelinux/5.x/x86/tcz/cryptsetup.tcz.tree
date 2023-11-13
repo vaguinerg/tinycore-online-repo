@@ -1,0 +1,13 @@
+cryptsetup.tcz
+   libgcrypt.tcz
+      libgpg-error.tcz
+   popt.tcz
+   lvm2.tcz
+      raid-dm-3.8.13-tinycore.tcz
+      liblvm2.tcz
+         libdevmapper.tcz
+            udev-lib.tcz
+      readline.tcz
+      ncurses.tcz
+         ncurses-common.tcz
+

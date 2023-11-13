@@ -1,0 +1,28 @@
+opensc-dev.tcz
+   opensc.tcz
+      readline.tcz
+         ncursesw.tcz
+      openpace.tcz
+         openssl.tcz
+      ccid.tcz
+         libusb.tcz
+            udev-lib.tcz
+         pcsc-lite.tcz
+            udev-lib.tcz
+         flex.tcz
+   readline-dev.tcz
+      readline.tcz
+         ncursesw.tcz
+      ncursesw-dev.tcz
+         ncursesw.tcz
+   openpace-dev.tcz
+      openpace.tcz
+         openssl.tcz
+      openssl-dev.tcz
+         openssl.tcz
+   pcsc-lite-dev.tcz
+      pcsc-lite.tcz
+         udev-lib.tcz
+      udev-lib-dev.tcz
+         udev-lib.tcz
+

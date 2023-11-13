@@ -1,0 +1,18 @@
+Title:          tcc.tcz
+Description:    Tiny C compiler.
+Version:        0.9.25
+Author:         Fabrice Bellard
+Original-site:  http://bellard.org/tcc/
+Copying-policy: LGPL
+Size: 159KB
+Extension_by:   Jason W
+Tags:	    Tiny C compiler.
+Comments:       Built with-----
+		export PKG=/mnt/hda2/tcc
+		export CFLAGS="-march=i486 -mtune=i686 -Os -pipe"
+		./configure --prefix=/usr/local
+		make
+		make install
+Change-log:     First version 2009/01/12 0.9.24
+Current:        2009/06/22 Bumped to 0.9.25
+

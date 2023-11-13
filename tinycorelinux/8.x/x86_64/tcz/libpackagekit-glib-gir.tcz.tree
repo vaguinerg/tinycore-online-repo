@@ -1,0 +1,22 @@
+libpackagekit-glib-gir.tcz
+   libpackagekit-glib.tcz
+      glib2.tcz
+         libffi.tcz
+         pcre.tcz
+      sqlite3.tcz
+   gobject-introspection.tcz
+      glib2.tcz
+         libffi.tcz
+         pcre.tcz
+      python.tcz
+         sqlite3.tcz
+         bzip2-lib.tcz
+         openssl.tcz
+         tk.tcz
+            tcl.tcz
+         gdbm.tcz
+         readline.tcz
+            ncurses.tcz
+         expat2.tcz
+         libffi.tcz
+

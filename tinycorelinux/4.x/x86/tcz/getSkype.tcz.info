@@ -1,0 +1,53 @@
+Title:		getSkype.tcz
+Description:	getSkype downloads Skype and creates extension for TC 4.x
+Version:	4.0
+Author:		Alex Bilinsky <alex dot bilinsky at gmail dot com>
+Original-site:	--
+Copying-policy:	GPLv2+
+Size:		68K
+Extension_by:	AbNoRMiS
+Tags:		Skype VoIP video voice Internet communication instant messaging telephony conferencing
+Comments:	ABOUT
+		Skype is a VoIP (Voice-over-Internet Protocol) application
+		for any communication taking place over the Internet.
+		More information about Skype for Linux can be found on page
+		http://www.skype.com/intl/en/get-skype/on-your-computer/linux/
+		----
+		INSTALLATION
+		getSkype lets choose between installing recent Skype version,
+		previous stable versions 4.0.0.8 and 2.2.0.35, and also old
+		version 2.0.0.72 with OSS support.
+		After installation getSkype.tcz will be auto removed at reboot,
+		please don't impede this to avoid problems during system boot.
+		----
+		SOUND SUPPORT
+		- Old version 2.0.0.72 with OSS support necessarily require
+		  installed OSS.tcz or alsa.tcz to run Skype.
+		- Other Skype versions are require alsa.tcz or pulseaudio.tcz
+		  for voice calls support.
+		Optional bluetooth sound features require bluez.tcz
+		----
+		LOCALIZATION
+		Recent and previous stable Skype versions are require
+		liberation-fonts-ttf.tcz or dejavu-fonts-ttf.tcz for
+		display non-English character sets.
+		----
+		CONFLICTS
+		Different co-installed Skype versions does not cause conflicts.
+		----
+		COPYRIGHTS
+		Skype was founded by Janus Friis and Niklas Zennstrom,
+		since 2011 Skype belongs to Microsoft Corporation.
+		Read and accept license agreement during first start
+		before using Skype.
+		----
+		DETAILS
+		Created for TC 4+
+		PPI Compatible
+		----
+Change-log:	2012/04/01 First release. Version 1.0
+		2012/04/03 Version 1.1. Fixed on-demand icon, other minor improvements.
+		2012/06/22 Version 2.0. Fixes related to Skype 4.0, fixes of static v2.2 deps.
+		2012/07/21 Version 3.0. Improved determination of current Skype version.
+		2012/11/27 Version 4.0. Fixed for use BusyBox Wget, added Skype 4.1 support.
+Current:	2012/11/27 Version 4.0. Fixed for use BusyBox Wget, added Skype 4.1 support.

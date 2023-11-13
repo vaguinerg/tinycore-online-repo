@@ -1,0 +1,18 @@
+Title:		xt_geoip_LE_IPv4.tcz
+Description:    Geoip addon database for xtables-addons
+Version:        2.12
+Author:         Jan Engelhardt et al.
+Original-site:  http://xtables-addons.sourceforge.net/
+Copying-policy: GPL v2
+Size:		640K
+Extension_by:   andyj
+Tags:           iptables netfilter xtables geoip database
+Comments:       geoip database from http://geolite.maxmind.com
+		Compiled for xtables 2.10
+Change-log:	2015/03/29 First version 2.6
+		2016/02/15 upgraded to 2.10
+		2016/04/09 updated to latest database
+		2016/09/05 upgraded to version 2.11
+		2016/11/27 updated to latest database
+Current:	2017/01/26 updated to latest database and xtables 2.12
+			little endian IPv4 data only

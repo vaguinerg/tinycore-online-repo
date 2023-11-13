@@ -1,0 +1,34 @@
+Title:		eiwd.tcz
+Description:	iwd (wireless daemon for linux) without dbus
+Version:	1.6-1
+Author:		Intel (iwd), dylanaraps and contributors (eiwd)
+Original-site:	https://github.com/dylanaraps/eiwd
+Copying-policy:	LGPL-2.1
+Size:		496K
+Extension-by:	gnuser
+Tags:		wifi wireless
+Comments:	----------
+  - How to connect to password-protected hotspot: 
+    1. $ printf "PASSWORD" | sudo iwd_passphrase "SSID" >/var/lib/iwd/SSID.psk 2>/dev/null
+    2. $ sudo iwd -i IFACE &
+    3. $ sudo udhcpc -i IFACE
+  - How to connect to open (passwordless) hotspot:
+    1. $ sudo touch /var/lib/iwd/SSID.open
+    2. $ sudo iwd -i IFACE &
+    3. $ sudo udhcpc -i IFACE
+  - Example usage:
+    1. $ printf "mySecret123" | sudo iwd_passphrase "HomeSweetHome" >/var/lib/iwd/HomeSweetHome.psk 2>/dev/null
+    2. $ sudo iwd -i wlan0 &
+    3. $ sudo udhcpc -i wlan0
+  - To disconnect from hotspot:
+    $ sudo pkill -f iwd
+  - General settings go in /etc/iwd/main.conf, ssid-specific settings go in /var/lib/iwd/SSID.foo
+  - iwd connects to best-quality hotspot among those in /var/lib/iwd/. To force connection to a 
+    specific hotspot when several are within range, do "sudo rm /var/lib/iwd/*" before step 1 above
+  - Note about dhcp and dns: eiwd has a built-in dhcp client (disabled by default) which requires
+    resolvconf or openresolv to manage dns settings. If you choose to enable eiwd's dhcp client
+    (via "[General] EnableNetworkConfiguration=true" in /etc/iwd/main.conf), then you'll either 
+    need to load openresolv.tcz or else manually edit /etc/resolv.conf--for example:
+    # echo "nameserver 1.1.1.1" >/etc/resolv.conf
+Change-log:	----------
+Current:	2021/03/09 first version

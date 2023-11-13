@@ -1,0 +1,31 @@
+Title:          boost-1.41.tcz
+Description:    Peer-reviewed portable C++ source libraries (TESTING)
+Version:        1.41.0
+Author:         Various (http://www.boost.org/users/people.html)
+Original-site:  http://www.boost.org/
+Copying-policy: Boost Software License v1.0 (http://www.boost.org/LICENSE_1_0.txt)
+Size:		2.4M
+Extension_by:   robc
+Tags:	    Peer-reviewed portable C++ source libraries 
+Comments:
+		This is the boost shared libs without the .so symlinks	
+		version 1.41 kept for maintaining backward compatibility of
+		apps build against the boost shared libs.  The boost-dev
+		extension is for use with the current version of boost.
+		
+		----------------------------------------------
+		
+		Please see the man page for additional 
+		information. 
+		
+		Also see http://www.boost.org/
+		for more information.
+		
+		----------------------------------------------
+		
+Change-log:     2009/08/05 Original
+		2009/10/28 Updated to v1.40.0
+		2010/01/22 Updated to v1.41.0
+		2010/01/22 Updated to v1.41.0
+Current:	2010/07/05 Added version number to name and removed the .so symlinks, \
+			   for use with apps built against this version of boost.

@@ -1,0 +1,27 @@
+Title:		brasero.tcz
+Description:	CD/DVD Burning Application of GNOME.
+Version:	2.32.1
+Author:		Philippe Rouquier
+Original-site:	http://live.gnome.org/Brasero
+Copying-policy:	GPL-2
+Size:		1.3M
+Extension_by:	Arslan S.
+Tags:		CD/DVD Burning Application of GNOME.
+Comments:	Optional dependencies:
+			-cdrdao     : to burn CD-Rs at DAO mode (Disk-At-Once)
+			-dvdauthor  : to create video DVDs
+			-vcdimager  : to create VCDs and SVCDs
+			-libdvdcss  : to copy encrypted DVDs
+			-gst-plugins-bad or
+			-gst-plugins-ugly or
+			-gst-plugins-good or
+			-gst-ffmpeg : for more audio and video format support when creating AUDIO CDs, DVD Movies, VCDs and SVCDs
+			-libburn    : alternative burning backend
+			-libisofs   : alternative iso backend
+
+		
+Change-log:	2010/01/23 First Version 2.29.4
+		2010/02/07 Updated init script
+		2010/07/29 Updated to 2.30.2
+		2010/11/29 Updated to 2.32.1
+Current:	2012/07/14 Rebuilt

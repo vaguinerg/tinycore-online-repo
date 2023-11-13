@@ -1,0 +1,18 @@
+mono-basic-dbg.tcz
+   mono-basic.tcz
+      mono.tcz
+         glib2.tcz
+            libffi.tcz
+         libgdiplus.tcz
+            glib2.tcz
+               libffi.tcz
+            cairo.tcz
+               pixman.tcz
+               fontconfig.tcz
+                  expat2.tcz
+            fontconfig.tcz
+               expat2.tcz
+            graphics-libs-1.tcz
+            libexif.tcz
+         libiconv.tcz
+

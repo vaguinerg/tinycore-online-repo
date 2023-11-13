@@ -1,0 +1,22 @@
+Title:		firmware-radeon.tcz
+Description:	Proprietary, redistributable firmware for Radeon Graphics Cards
+Version:        2018/12/18
+Author:		various
+Original-site:	git://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git
+Copying-policy:	AMD Redistribution License (see LICENSE.radeon)
+Size:		2.7M
+Extension_by:	dentonlt
+Tags:		redistributable firmware ati radeon binary
+Comments:	----------
+		This is a collection built from git checkout. Version is by
+		git checkout date. 
+		This Package contains firmware for Kernel-3.17 and newer
+		----------
+Change-log:	2014/01/02 first version for x86_64
+		2014/08/18 fixed startup file by coreplayer2
+		2015/03/05 Updated to support recent hardware by coreplayer2
+		2015/06/01 Updated from linux/kernel/git by coreplayer2
+	        2016/01/14 Updated firmware by coreplayer2
+		2017/03/17 Updated firmware by coreplayer2
+                2018/02/25 Updated firmware by coreplayer2
+Current:        2018/12/24 Updated firmware by coreplayer2

@@ -1,0 +1,60 @@
+Title:          ncmpcpp.tcz 
+Description:    A complete fully featured curses client for mpd. (TESTING)
+                Inspired by ncmpc
+Version:        git, 2010-08-24
+Author:         Andrzej Rybczak, Frank Blendinger
+Original-site:  http://unkart.ovh.org/ncmpcpp/
+Copying-policy: GPLv2
+Size:           244K
+Extension_by:   TaoTePuh
+
+Tags:	    complete fully featured curses client mpd. 
+Comments:        
+                Compiled with UTF-8 support !
+
+		Screenshots:    http://unkart.ovh.org/ncmpcpp/screenshots.php
+                
+                Terminal/locale   UTF-8    ISO-8859-15    C
+                --------------------------------------------
+                aterm              2)          3)         1)
+                LXTerminal         OK          4)         1)
+                Terminal (Xfce)    OK          3)         1)
+                
+                1) non-ISO-8859-1 chars are not displayed correctly
+                   search for special characters only with ".." and regex-mode
+                   
+                2) non-ISO-8859-1 chars are not displayed correctly
+                   search for special characters works but they are not 
+                   displayed correctly
+                
+                3) characters are displayed correctly
+                   search for special characters only with ".." and regex-mode
+                
+                4) characters are displayed correctly
+                   search for special characters only with ".." and regex-mode
+                   Borders and lines are not displayed correctly
+                
+                Compiled with support for :
+                - outputs screen
+                - music visualizer screen
+                - clock screen
+                - fetching lyrics from the Internet
+                - iconv support
+                - tag editor
+                
+                Usage (in a console, e.g. aterm):
+                
+                Connect to local  mpd : ncmpcpp
+                Connect to remote mpd : ncmpcpp --host IP/FQDN --port 6600
+
+                Getting help screen by pressing 1 or F1
+                
+                Config-File (optional):
+                
+                tce-load -i ncmpcpp-doc.tcz
+                mkdir -p ~/.ncmpcpp/
+                cp /usr/local/share/doc/ncmpcpp/config ~/.ncmpcpp/config
+                Modify ~/.ncmpcpp/config according to your needs
+
+Change-log:     2010/08/21 First Version, git
+Current:        2010/08/24 UTF-8 support added (--enable-unicode)

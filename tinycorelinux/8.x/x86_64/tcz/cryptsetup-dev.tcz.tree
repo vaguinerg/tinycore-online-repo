@@ -1,0 +1,18 @@
+cryptsetup-dev.tcz
+   cryptsetup.tcz
+      liblvm2.tcz
+         udev-lib.tcz
+      openssl.tcz
+   lvm2-dev.tcz
+      liblvm2.tcz
+         udev-lib.tcz
+      udev-lib-dev.tcz
+         udev-lib.tcz
+      readline-dev.tcz
+         readline.tcz
+            ncurses.tcz
+         ncurses-dev.tcz
+            ncurses.tcz
+   openssl-dev.tcz
+      openssl.tcz
+

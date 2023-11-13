@@ -1,0 +1,37 @@
+Title:		open-vm-tools-desktop.tcz
+Project:	open-vm-tools
+Description:	GUI utilities for VMware hosted virtual machine clients
+Version:	10.2.0.1608 (build-7253323)
+Author:		VMware
+Original-site:	https://github.com/vmware/open-vm-tools
+Copying-policy:	GPL 2, LGPL 2.1
+Size:		144K
+Extension_by: 	andyj
+Tags:		vmware client utilities virtual machine
+Comments:	GUI utilities for virtual machine clients using VMware
+		Workstation Pro (full functionality):
+			copy/paste, time sync, host folders, window resizing,
+			full-screen multi-monitor, mouse auto grab/ungrab,
+			hot-plug devices (USB), sound, suspend/power-down
+		Player locally hosted (limited functionality):
+			time sync, host folders, window resizing, mouse auto grab/ungrab,
+			hot-plug devices (USB), sound, suspend/power-down
+		ESXi hosted VM using Player (limited functionality):
+			time sync, window resizing, mouse auto grab/ungrab,
+			suspend/power-down
+		See also https://kb.vmware.com/kb/2073803
+		----
+		Download and install in console before reboot; do not install while in X.
+		Add to ~/.xsession after mouse-config to enable copy/paste, mouse grab/ungrab, and desktop resizing:
+			[ $(which vmware-checkvm) ] && [ vmware-checkvm ] && vmware-user &
+		Move wbar to upper left vertical because wbar doesn't know when the desktop is resized.
+		Aterm text does not render correctly, use lxterminal or rxvt instead.
+		----
+Change-log:	2016/02/19 First version, 10.0.0
+		2016/04/06 version 10.0.7
+		2016/11/27 version 10.1.0
+		2017/01/04 add missing directory from git
+		2017/03/19 update to version 10.1.5
+		2017/07/01 recompiled for TC 8.x
+Current:	2018/01/05 update to version 10.2.0
+

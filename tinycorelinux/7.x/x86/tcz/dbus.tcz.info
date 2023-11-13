@@ -1,0 +1,43 @@
+Title:          dbus.tcz
+Description:    dbus message system
+Version:        1.6.4
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 396KB
+Extension_by:   juanito
+Tags:	        dbus message system
+Comments:       dbus message bus system, a simple way for applications to talk to one another
+                ----------
+                $ sudo /usr/local/etc/init.d/dbus [start|stop|restart|reload|status]
+                ----------
+                This extension contains:
+                dbus-1.6.4 - GPLv2 - http://dbus.freedesktop.org/releases/dbus/dbus-1.6.4.tar.gz
+                ----------
+Change-log:     2009/06/07
+                added start-up script to start dbus daemon when loaded
+                2009/09/16
+                updated 1.2.14 -> 1.2.16, moved /etc/dbus-1 -> /usr/local
+                2009/09/22
+                Added /usr/local/etc/init.d/dbus, no longer starts on loading extension
+                2010/01/31
+                Added machine-id to startup script
+                2010/02/07
+                Adjusted permissions for dbus-daemon-launch-helper
+		2010/02/11
+		Edited startup script to return status (Curaga)
+                2010/04/22
+                updated 1.2.16 -> 1.2.24
+                2010/05/17
+                updated 1.2.24 -> 1.4.0 and split out dev files
+                2010/12/05
+                updated 1.4.0 -> 1.4.1
+                2011/01/07
+                updated 1.4.1 -> 1.4.8
+                2011/04/12
+                updated 1.4.8 -> 1.4.16
+                2011/04/12
+                updated 1.4.16 -> 1.4.20
+                2012/04/29
+                updated 1.4.20 -> 1.6.4, added reload to init.d/dbus
+Current:        2012/07/28

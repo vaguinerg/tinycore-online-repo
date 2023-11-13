@@ -1,0 +1,46 @@
+Title:          bluez5.tcz
+Description:    bluetooth stack
+Version:        5.55
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 972KB
+Extension_by:   juanito
+Tags:           bluetooth bluez
+Comments:       Official Linux Bluetooth protocol stack
+                ----------
+                Optionally can use the alsa/pulseaudio extensions for sound over bluetooth.
+                Optionally can use the gstreamer and gstplugins-base extensions
+                Optionally can use the obex and fuse extensions to transfer files
+                ..and mount file systems over bluetooth.
+                Optionally can use the blueman extension to pair
+                ----------
+                This extension contains:
+                bluez-5.55 - GPLv2 - https://www.kernel.org/pub/linux/bluetooth/bluez-5.55.tar.xz
+                ----------
+                Howto:
+                $ sudo /usr/local/etc/init.d/bluez [start|stop|restart|status]
+                ..in my case, this loads all required modules
+                ----------
+                To enable sound with pulseudio:
+                use blueman to pair
+                right-click on bt headphones and select "trust" and "audio sink"
+                use pavucontrol to select bt headphones as output device
+                use rhythmbox or xmms-pulse to play to bt headphones
+                ----------
+Change-log:     2009/05/01 first version
+                2009/06/17 Added simple-agent and other applets, updated 4.37 -> 4.41
+                2009/06/17 Added pand support, updated 4.41 -> 4.43
+                2009/09/22 updated 4.43 -> 4.53, moved /etc/bluetooth, dbus-1, udev -> /usr/local, added bluetooth cups printer support
+                2010/01/31 removed start on loading extension
+                2010/04/11 updated 4.53 -> 4.63, added gstreamer support
+                2010/05/28 updated init.d script to pass status to services app
+                2010/11/29 updated 4.63 -> 4.80
+                2011/01/07 updated 4.80 -> 4.81 and stripped out dev files
+                2011/08/31 updated 4.81 -> 4.96 and recompiled on tc-4
+                2012/04/29 updated 4.96 -> 4.99
+                2012/07/21 updated 4.99 -> 4.101, added in *conf to (re)enable a2dp, etc
+                2013/07/17 updated audio.conf for pulseaudio-4
+                2015/05/15 patched to enable network access point
+                2019/06/25 updated 4.101 -> 5.50, renamed
+Current:        2021/01/19 updated 5.50 -> 5.55

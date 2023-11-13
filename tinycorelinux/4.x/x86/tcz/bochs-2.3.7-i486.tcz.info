@@ -1,0 +1,38 @@
+Title:          bochs-2.3.7-i486.tcz
+Description:    Portable (C++) x86/x86-64 emulator
+Version:        2.3.7
+Author:         Kevin Lawton, Bochs x86 Emulator Project
+Original-site:  http://bochs.sourceforge.net/
+Copying-policy: GPL
+Size:		1.2M
+Extension_by:   Jason W
+Tags:	    Portable C++ x86 x86-64 emulator
+Comments:       This extension is PPI compatible, and self contained in
+		/usr/local/bochs-2.3.7-i486.  It is built specifically to 
+		emulate an i486 DX processor, mostly useful for testing 
+		i486 compatibility of iso's or apps.  
+
+		Being self contained, it will not interfere with
+		other bochs extensions.  It is provided with a default
+		config file that will boot a cdrom, though easily edited
+		to boot an iso image on the hard drive.  The file used is
+		/usr/local/bochs-2.3.7-i486/share/bochs/bochsrc.  Edit and
+		back up this file if desired.  There is also the much larger
+		and complex default upstream config file that requires 
+		editing to function, found in the same directory called 
+		bochsrc-upstream.  
+
+		To toggle mouse, use ctrl/middle-mouse-button.
+
+		Basically, pop in a cdrom in your /dev/hdc drive and load 
+		bochs from the menu entry and it should work. 
+
+		Compile options:
+		./configure --prefix=/usr/local/bochs-2.3.7-i486 --enable-cpu-level=4
+		--enable-plugins --with-all-libs --enable-pci --enable-usb 
+		--build=i486-pc-linux-gnu --enable-ne2000 --enable-sb16=linux --enable-vbe 
+
+Change-log:     -----
+Current:	2011/09/02 First version 2.3.7
+
+

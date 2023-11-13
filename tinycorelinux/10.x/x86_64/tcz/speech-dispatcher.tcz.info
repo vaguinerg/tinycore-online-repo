@@ -1,0 +1,20 @@
+Title:          speech-dispatcher.tcz
+Description:    speech sysntesis interface
+Version:        0.8.8
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 428KB
+Extension_by:   juanito
+Tags:	        audio speech
+Comments:       high-level device independent layer for access to speech synthesis
+                ----------
+                set up pulseaudio and then
+                $ spd-say -o espeak-ng "test text"
+                ----------
+                This extension contains:
+                speech-dispatcher-0.8.8 - GPLv2 - http://devel.freebsoft.org/pub/projects/speechd/speech-dispatcher-0.8.8.tar.gz
+                ----------
+Change-log:     2016/09/19 first version
+                2018/05/27 updated 0.8.5 -> 0.8.8
+Current:        2019/06/07 recompiled for updated gdbm

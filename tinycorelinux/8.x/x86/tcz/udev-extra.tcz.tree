@@ -1,0 +1,20 @@
+udev-extra.tcz
+   udev-lib.tcz
+      glib2.tcz
+         libffi.tcz
+   acl.tcz
+      attr.tcz
+   glib2.tcz
+      libffi.tcz
+   libusb.tcz
+      udev-lib.tcz
+         glib2.tcz
+            libffi.tcz
+   usbutils.tcz
+      libusb.tcz
+         udev-lib.tcz
+            glib2.tcz
+               libffi.tcz
+   pci-utils.tcz
+      libpci.tcz
+

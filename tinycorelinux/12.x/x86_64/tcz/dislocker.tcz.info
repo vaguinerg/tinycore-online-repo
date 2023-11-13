@@ -1,0 +1,20 @@
+Title:          dislocker.tcz
+Description:    read/write encrypted BitLocker volumes
+Version:        0.7.3
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size:           72K
+Extension_by:   hurzli
+Tags:           encrypt decrypt
+Comments:       Dislocker has been designed to read BitLocker encrypted
+                partitions under a Linux system. The FUSE driver is able
+                to read/write partitions which were encrypted running
+                Windows Vista up to 10 or BitLocker-To-Go.
+                ----
+                This extension contains:
+                dislocker-0.7.3 - GPLv2 - https://github.com/Aorimn/dislocker/archive/refs/tags/v0.7.3.tar.gz
+                ----
+                Compiled running TC 12.x x86_64
+Change-log:     ----
+Current:        2023/04/19 First version, 0.7.3

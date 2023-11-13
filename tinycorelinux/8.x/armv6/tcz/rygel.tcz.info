@@ -1,0 +1,25 @@
+Title:          rygel.tcz
+Description:    dnla services
+Version:        0.32.1
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 724KB
+Extension_by:   juanito
+Tags:           av upnp streaming media
+Comments:       a collection of DLNA (UPnP AV) services, implemented through a plug-in mechanism
+                ----------
+                Howto:
+                $ rygel-preferences [to load av files to be streamed, requires gtk3]
+                $ rygel & [to stream av files]
+                add ~/.config/rygel.conf to your backup
+                ----------
+                To play music or video, some or all of gst-plugins-* or gst-libav are required.
+                gupnp-av-cp from gupnp-tools can be used for this
+                Viewing still images doesn't seem to work with gupnp-av-cp
+                ----------
+                This extension contains:
+                rygel-0.32.1 - GPLv2 - http://ftp.acc.umu.se/pub/GNOME/sources/rygel/0.32/rygel-0.32.1.tar.xz
+                ----------
+Change-log:     first version
+Current:        2017/03/03

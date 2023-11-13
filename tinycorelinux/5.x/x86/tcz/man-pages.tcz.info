@@ -1,0 +1,20 @@
+Title:          man-pages.tcz
+Description:    Man pages for your offline viewing pleasure
+Version:        3.22
+Author:         Various
+Original-site:  http://kernel.org/pub/linux/docs/man-pages
+Copying-policy: freely distributable
+Size:		1.1M
+Extension_by:   Curaga
+Tags:	    Man pages your offline viewing pleasure
+Comments:       All man pages from man-pages-3.22 converted into
+		text, for your offline viewing pleasure.
+-
+		No script for viewing them included, because everyone likes
+		different editors. Example script:
+-
+		#!/bin/sh
+		less /usr/local/share/man/man*/${1}*
+		This extension is PPI compatible.
+Change-log:
+Current:        2009/09/13 Original

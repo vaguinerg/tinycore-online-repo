@@ -1,0 +1,37 @@
+libbluray-dev.tcz
+   libbluray.tcz
+      libxml2.tcz
+         liblzma.tcz
+   libxml2-dev.tcz
+      libxml2-bin.tcz
+         libxml2.tcz
+            liblzma.tcz
+         readline.tcz
+            ncursesw.tcz
+      libxml2-python.tcz
+         libxml2.tcz
+            liblzma.tcz
+         python3.6.tcz
+            openssl-1.1.1.tcz
+            sqlite3.tcz
+            gdbm.tcz
+            bzip2-lib.tcz
+            liblzma.tcz
+            readline.tcz
+               ncursesw.tcz
+            libffi.tcz
+      liblzma-dev.tcz
+         liblzma.tcz
+      readline-dev.tcz
+         readline.tcz
+            ncursesw.tcz
+         ncursesw-dev.tcz
+            ncursesw.tcz
+   freetype-dev.tcz
+      freetype.tcz
+         libpng.tcz
+      libpng-dev.tcz
+         libpng-bin.tcz
+            libpng.tcz
+   fontconfig-dev.tcz 
+

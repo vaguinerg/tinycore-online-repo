@@ -1,0 +1,23 @@
+Title:          bridge-utils.tcz
+Description:    network bridge utils
+Version:        1.7.1
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size:		12K
+Extension_by:   juanito
+Tags:	        network bridge vm
+Comments:       utility needed to create and manage bridge devices
+                useful in setting up networks for a hosted virtual machine
+                ----------
+                Howto:
+                $ sudo modprobe bridge
+                $ sudo brctl addbr br0
+                $ sudo brctl addif br0 eth0
+                $ sudo ifconfig br0 up
+                ----------
+                This extension contains:
+                bridge-utils-1.7.1 - GPLv2 - https://www.kernel.org/pub/linux/utils/net/bridge-utils/bridge-utils-1.7.1.tar.xz
+                ----------
+Change-log:     2016/04/03 first version
+Current:        2021/08/21 updated 1.5 -> 1.7.1

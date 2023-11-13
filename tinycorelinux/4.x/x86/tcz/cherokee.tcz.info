@@ -1,0 +1,51 @@
+Title:          cherokee.tcz
+Description:    Cherokee Web Server
+Version:        1.2.101
+Author:         Alvaro Lopez Ortega
+Original-site:  http://www.cherokee-project.com/
+Copying-policy: GPL
+Size:		1.3M
+Extension_by:   andriscom
+Tags:	    Cherokee Web Server
+Comments:       Cherokee is a lighweight, very fast, flexible and easy to configure Web Server.
+                Its performance is comparable to nginx, with less RAM utilized under high load.
+
+                It supports:
+                FastCGI, SCGI, PHP, CGI, SSI, TLS and SSL encrypted connections, Virtual hosts, 
+                Authentication, on the fly encoding, Load Balancing, Apache compatible log files, 
+                Data Base Balancing, Reverse HTTP Proxy, Traffic Shaper and others.
+
+                An optional user friendly interface called cherokee-admin is provided for a no-hassle 
+                browser-based configuration of the server. The conf file can also be edited manually.
+                Check out the benchmarks and documentation to learn more, and give it a try to
+                squeeze your hardware to the fullest!
+
+                This extension is PPI Compatible.
+                Just add /usr/local/etc/cherokee/cherokee.conf into your /opt/.filetool.lst
+
+                Built with CFLAGS: -march=i486 -mtune=i686 -Os -pipe
+                Built with CXXFLAGS: -march=i486 -mtune=i686 -Os -pipe
+                Built with LDFLAGS: -Wl,-O1
+                Built with the following options:
+                ./configure --prefix=/usr/local --sysconfdir=/usr/local/etc --localstatedir=/var --with-wwwroot=/var/www
+
+                There are some optional dependencies that are not included to keep Cherokee lightweight.
+                These packages are requied to get the following functionality:
+                 PHP: php5.tcz
+                 Streaming: ffmpeg-ffserver.tcz, lib
+                 Cherokee-admin WebGUI: python.tcz
+                 htdigest.py: python.tcz
+
+                Generate server certificate and key for Mod TLS:
+                 sudo openssl req -new -x509 -days 1460 -nodes -out /usr/local/etc/cherokee/cherokee.cert.pem -keyout /usr/local/etc/cherokee/cherokee.key.pem
+
+                To create authorized user: (Digest)
+                 htdigest.py -c /usr/local/etc/cherokee.passwd "Realm name" username -b password
+                To control Cherokee:
+                 sudo /usr/local/etc/init.d/cherokee [start|stop|reload|rotate-logs|restart|force-restart]
+Source:         http://www.cherokee-project.com/download/1.2/1.2.101/cherokee-1.2.101.tar.gz
+Change-log:     2009/10/16 Original version by evofx (0.99.24)
+                2010/11/06 Version: 1.0.8
+                2011/07/06 Version: 1.2.98
+Current:        2011/11/05 Version: 1.2.101 - Updated init.d script
+

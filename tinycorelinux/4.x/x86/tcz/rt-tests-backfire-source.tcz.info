@@ -1,0 +1,18 @@
+Title:		rt-tests-backfire-source.tcz
+Description:	backfire kernel module source
+Version:	0.72
+Author:		various
+Original-site:	http://www.kernel.org/pub/linux/kernel/people/tglx/rt-tests/
+Copying-policy:	GPL-2
+Size:		4.0K
+Extension_by:	Arslan S.
+Tags:		backfire kernel module source
+Comments:	To build backfire module for your kernel
+		$ cd /usr/local/src/backfire
+		$ sudo ./make.sh # execute it in a toolchain64 shell for 64 bit tcl kernel
+		or
+		$ sudo KERNEL=2.6.XY.Z-<suffix> ARCH=arm CROSS_COMPILE=arm-linux- LINUX_BUILD=/full/path/to/linux/build ./make.sh
+
+		This extension is PPI compatible.
+Change-log:	---
+Current:	2011/03/07 First Version

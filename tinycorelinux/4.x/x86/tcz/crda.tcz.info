@@ -1,0 +1,21 @@
+Title:          crda.tcz
+Description:    This is the Central Regulatory Domain Agent for Linux.
+Version:        1.1.0
+Author:         Luis R. Rodriguez,Johannes Berg,Michael Green
+Original-site:  git://git.kernel.org/pub/scm/linux/kernel/git/mcgrof/crda.git
+Copying-policy: ISC
+		Copyright (c) 2008, Luis R. Rodriguez <mcgrof@gmail.com>
+		Copyright (c) 2008, Johannes Berg <johannes@sipsolutions.net>
+		Copyright (c) 2008, Michael Green <Michael.Green@Atheros.com>
+Size: 		36 KB
+Extension_by:   ZhaoChunsheng
+Tags:	    This Central Regulatory Domain Agent Linux.
+Comments:       This is the Central Regulatory Domain Agent for Linux. It serves one
+		purpose: tell Linux kernel what to enforce. In essence it is a udev
+		helper for communication between the kernel and userspace. You only
+		need to run this manually for debugging purposes. For manual changing
+		of regulatory domains use iw (iw reg set) or wpa_supplicant (feature
+		yet to be added). 
+Change-log:     -
+Current:        2009/12/12 - First version(1.1.0)
+

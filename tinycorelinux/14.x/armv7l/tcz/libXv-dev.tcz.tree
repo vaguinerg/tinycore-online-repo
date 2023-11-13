@@ -1,0 +1,37 @@
+libXv-dev.tcz
+   libXv.tcz
+      libXext.tcz
+         libX11.tcz
+            libxcb.tcz
+               libXau.tcz
+               libXdmcp.tcz
+   libXext-dev.tcz
+      libXext.tcz
+         libX11.tcz
+            libxcb.tcz
+               libXau.tcz
+               libXdmcp.tcz
+      libX11-dev.tcz
+         libX11.tcz
+            libxcb.tcz
+               libXau.tcz
+               libXdmcp.tcz
+         libxcb-dev.tcz
+            libxcb.tcz
+               libXau.tcz
+               libXdmcp.tcz
+            libXau-dev.tcz
+               libXau.tcz
+               xorg-proto.tcz
+                  util-macros.tcz
+            libXdmcp-dev.tcz
+               libXdmcp.tcz
+               xorg-proto.tcz
+                  util-macros.tcz
+            xcb-proto.tcz
+               xorg-proto.tcz
+                  util-macros.tcz
+         xtrans.tcz
+            xorg-proto.tcz
+               util-macros.tcz
+

@@ -1,0 +1,58 @@
+Title:          mfm.tcz
+Description:    MFM - My File Manager - A lightweight Linux file manager
+Version:        0.4
+Author:         Stefano Gatti <s.gatti@email.it>
+Original-site:  http://sg67.altervista.org/mfm/
+Copying-policy: GPL: http://www.gnu.org/licenses/gpl.html
+Size:		136K
+Extension_by:   nitram
+Tags:           FLTK file manager burn rename compress find mount
+Comments:       MFM is a small, fast and lightweight file manager,
+                utilizing the FLTK graphics toolkit.
+                
+                Numerous executables (most can run standalone):
+                - mfm       # MFM file manager
+                - mfmburn   # CD/DVD burn utility (not tested)
+                - mfmcfg    # configure MFM
+                - mfmfind   # GUI find utility by name or content
+                              (wildcard/size/date filters)
+                - mfmhelp   # built-in help, launch from within MFM
+                - mfmmount  # partition mount/umount
+                - mfmrename # bulk file rename GUI
+                - mfmzip    # compress/extract GUI (tar tar.gz tgz tar.bz2 zip)
+                
+                Minimal yet nicely configurable for:
+                - default window size
+                - scroll speed
+                - file extension and directory colours
+                - trash can location
+                - preferred editor and terminal
+                - preferred open/run applications
+                
+                Neat features:
+                - double-click menubar 'New' opens new window to /home/user
+                - double-click menubar 'Change_dir' up to parent directory
+                - double-click menubar 'Exit' closes active window
+                - 'Exit' > 'Quit all' closes all open file manager windows,
+                  but leaves directory browser and partition GUIs open
+                - 'directory browser'opens directory tree
+                - middle-click opens directory in new window
+                - 'select dir' to change directories
+                - 'select dir' supports favorites/directory bookmarks
+                - keyboard shortcuts for individual directory bookmarks
+                - 'select wildcard' selects specified files in directory
+                - 'Copy to ...' and 'Move to ...' utilities
+                - mount/umount partitions with simple right-click
+                - partitions GUI displays freespace of mounted partitions
+                - 'Open temporary' automatically mounts and opens partition,
+                  then automatically umounts when that MFM window is closed
+                  
+                Issues:
+                - beta software, needs refinement, some bugs
+                - dormant, last version release 2006
+                - closing last open MFM window doesn't always exit cleanly,
+                  may hang, cause high processor usage, require kill
+Change-log:     ----
+                Compiled for TC 6
+                ----
+Current:        2015/08/01 first version (nitram)

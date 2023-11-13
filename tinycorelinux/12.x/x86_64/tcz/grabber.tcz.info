@@ -1,0 +1,58 @@
+Title:          grabber.tcz
+Description:    Use your mouse to select an area of your screen for a screenshot in png format.
+Version:        1.2
+Author:         Richard Rost
+Original-site:  http://forum.tinycorelinux.net
+Copying-policy: See LICENSE
+Size:           16K         
+Extension_by:   aus9
+Tags:           screenshot png mouse selection
+Comments:       Start the program from the command line by entering  grabber  or click on the
+                grabber icon or click the SelectiveScreenshot entry on the desktop menu.
+
+                Move the mouse with the left button depressed to draw an outline around the
+                section of the screen to save. Everything inside the outline will be saved as
+                a  .png  file. The outline will not be included in the saved file.
+
+                Clicking the left button again clears the outline. Moving the mouse with the
+                right button depressed moves the outline.
+
+                The readout in the top left corner displays the origin and size of the area
+                that will be saved. Click and drag the readout to move it if it is in your
+                way, or use the v key to toggle whether it is visible or not. There is a
+                setting in the config file for the default location or to disable it. It
+                also has a setting for the font to use.
+                The readout will not be included in the saved file.
+
+                Keyboard functions
+
+                        X or x    Make the outline one pixel larger or smalle
+                        Y or y    Make the outline one pixel taller or shorter
+
+                        l or r    Move the outline one pixel left or right
+                        u or d    Move the outline one pixel up or down
+                                  The arrow keys will also move the outline
+
+                        s         Save the outlined area to a file. If an outline 
+                                  is not defined, the whole screen is saved. The config
+                                  file has settings for default path and file name.
+
+                        c         Same as s except include the mouse cursor in the image.
+
+                        v         Toggle the visibility of the coordinates readout.
+
+                        n         Start a new instance of the program. Lets you
+                                  capture the outline should you wish to.
+
+                        q         Quits the current instance of the program.
+
+                        k         Kills all instances of the program.
+
+                        Any other key brings up a help window.
+
+                Configuration settings can be found in /home/$USER/.config/grabber/grabber.conf
+
+                32 maintainer is Rich the creator
+                compiled for 9X
+Change-log:     2018/08/09 first version
+Current:        2018/08/09

@@ -1,0 +1,26 @@
+Title:          alsaplayer.tcz
+Description:    A GTK2 alternative to audio players like xmms
+                Alsaplayer works with both ALSA and OSS drivers
+Version:        0.99.80
+Author:         Various
+Original-site:  http://www.alsaplayer.org
+Copying-policy: GPL
+Size:           940K
+Extension_by:   perthie
+Tags:	    GTK2 alternative audio players like xmms
+Comments:       Plays the following content:
+                - CDs with CDDB lookup
+                - audio files - mp3, ogg, flac, wav
+                - streaming audio 
+                    make a playlist.m3u file that contains the URIs, like
+                      http://72.26.204.18:6688
+                      http://vorbis.nm.cbc.ca:80/cbcr1-toronto.ogg
+                    load it with Open (Add only works with files)
+                -------------
+                Some useful settings in /home/tc/.alsaplayer/config:
+                  - cdda.device=/dev/cdrom
+                  - main.default_output=oss
+                -------------
+                Use sgmixer.tcz for finer volume control 
+Change-log:     -------------
+Current:        2009/11/23 first version

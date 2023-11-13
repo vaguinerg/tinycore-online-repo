@@ -1,0 +1,23 @@
+Title:          slurp.tcz 
+Description:    Select a region in a sway for screenshots 
+Version:        1.2.0
+Author:         emersion
+Original-site:  https://github.com/emersion/slurp
+Copying-policy: Accompanied 
+Size:           16K
+Extension_by:   aus9 at gmx dot com
+Tags:           sway screen capture
+Comments:       Can only be used on sway.  slurp is a command-line app to 
+                select a region inside sway and used with grim to take a screenshot.
+                grim can not escape its current window, but slurp can.
+
+                $ slurp | grim 1.png
+                (for a RH mouse user, Left click top left corner of your desired selection
+                hold mouse button down....move mouse to bottom RH corner of selection.
+                Release button.....screenshot taken)
+
+                man page offer more options
+
+                Compiled for 10x.1
+Change-log:     2019/06/16 first version 
+Current:        2019/06/16  

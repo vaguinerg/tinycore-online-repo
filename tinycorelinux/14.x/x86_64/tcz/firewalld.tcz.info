@@ -1,0 +1,20 @@
+Title:          firewalld.tcz
+Description:    dynamically managed firewall
+Version:        0.8.2
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 580KB
+Extension_by:   juanito
+Tags:	        firewall python python3.6
+Comments:       dynamically managed firewall with support for network or firewall
+                zones to define the trust level of network connections or interfaces
+                ----------
+                requires dbus daemon to be running
+                $ sudo firewalld
+                ----------
+                This extension contains:
+                firewalld-0.8.2 - GPLv2 - https://github.com/firewalld/firewalld/releases/download/v0.8.2/firewalld-0.8.2.tar.gz
+                ----------
+Change-log:     first version
+Current:        2020/04/19

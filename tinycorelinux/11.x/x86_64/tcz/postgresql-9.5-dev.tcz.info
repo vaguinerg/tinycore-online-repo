@@ -1,0 +1,37 @@
+Title:		postgresql-9.5-dev.tcz
+Project:	postgresql
+Description:	PostgreSQL Database Management System development
+Version:	9.5.23
+Author:		PostgreSQL Global Development Group
+Original-site:	http://www.postgresql.org
+Copying-policy:	PostgreSQL License
+Size:		5.5M
+Extension_by: 	andyj
+Tags:		postgresql database client server development
+Comments:	Advanced database which is ACID compliant, has strong ANSI-SQL:2008
+		compliance, full foreign key support, supports subqueries and subselects,
+		joins, views, triggers, and stored procedures.
+		Procedural languages supported:
+		PG SQL, Perl 5, Python 3.6, Tcl 8.6, C/C++
+		Compiled for support for 128 character object names for compatibility
+		----
+Change-log:	2016/03/07 First version, 9.5.1
+		2016/04/06 9.5.2
+		2016/04/28 added contrib extensions, drop support for Python 2.7 and Tcl 8.5
+		2016/05/12 updated to 9.5.3
+		2016/08/11 updated to 9.5.4
+		2018/04/11 updated to 9.5.12, compiled for TC 9.x
+		2018/05/29 updated to 9.5.13, use ncursesw library
+		2018/08/17 updated to 9.5.14
+		2018/11/10 updated to 9.5.15
+		2019/01/21 recompiled for TC 10.x
+		2019/02/15 updated to 9.5.16
+		2019/05/31 updated to 9.5.17
+		2019/07/06 updated to 9.5.18, use openssl-1.1.1 library
+		2019/10/09 updated to 9.5.19
+		2019/12/05 updated to 9.5.20
+		2020/02/04 updated to python3.6, recompiled for TC 11.x
+		2020/03/03 updated to 9.5.21
+		2020/06/09 updated to 9.5.22
+Current:	2020/09/10 updated to 9.5.23
+

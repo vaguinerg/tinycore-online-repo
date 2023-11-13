@@ -1,0 +1,17 @@
+Title:          nethack.tcz
+Description:    nethack
+Version:        3.4.3
+Author:         Various
+Original-site:  http://nethack.org
+Copying-policy: NetHack General Public License
+Size:		1.2M
+Extension_by:   awabimakoto
+Tags:		nethack roguelike game
+Comments:       To enable graphics UI, add line
+		OPTIONS=windowtype:X11
+		to .nethackrc in your home directory
+		and append line
+		NetHack*tile_file: /usr/local/share/games/nethack/x11tiles
+		to .Xdefaults.
+Change-log:     2013/10/11 Original
+Current:        2013/10/11 Original

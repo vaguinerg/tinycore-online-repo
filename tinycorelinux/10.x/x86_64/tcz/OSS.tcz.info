@@ -1,0 +1,48 @@
+Title:          OSS.tcz
+Description:    Open Sound System
+Version:        v4.2-build2019
+Author:         4front-tech.com
+Original-site:  http://www.4front-tech.com/oss.html
+Copying-policy: GPLv2
+Size:           1.6M
+Extension_by:   aus9 at gmx dot com
+Tags:           sound OSS
+Comments:       Sound with no support for Alsa nor pulseaudio
+                Unable to test on my new hardware. Refer to the wiki
+                Install script will start OSS then run $ossinfo to see if 
+                any audio devices are found.  (=sound out devices)
+
+                If you load any usb device, after loading TCE then restart OSS by
+                $ sudo soundoff && sudo soundon
+
+                To see which devices are supported see devices.list 
+             
+                Optional dep is GUI mixer called OSS-mixer.tcz
+                ###########  ossmix or ossxmix may show sound muted by default
+                libvorbis.tcz might offer ogg support but unable to test
+
+                Persistence files use control panel to add any that you need please
+                #############
+                1) if you run $sudo savemixer ---file to backup will be 
+                           usr/lib/oss/etc/mixer.state
+                2) For Dir=usr/lib/oss/etc save 3 files if found they are:
+                     installed_drivers legacy_devices userdefs
+                3) If you change any config under usr/lib/oss/etc/conf/
+                        backup the entire dir please, due to the my poor 
+                        design of tce.installed which re-creates entire dir.
+                 So your backup would be usr/lib/oss/etc/conf
+
+                  Compiled for 10x  Changelog combined 32/64 bit             
+Change-log:     2008/07/06 Original for 2.6.24.7-dsl  (Curaga until TC7)
+                2008/07/23 Updated for 2.6.26-tinycore, added menu items
+                2008/07/27 Updated menu items for the new /tmp/tcz.menu
+                2008/10/10 Updated menu items to JWM format
+                2009/04/11 Update to 4.1 for 2.6.29.1-tinycore, gtk2 mixer
+                2009/12/17 Updated startup script to handle non-standard module location
+                2010/01/25 Added /etc/asound.conf, separated gtk2 mixer
+                2010/03/25 Updated config files writable
+                2010/05/12 Update to 4.2 for TC 3, modules separated
+                2010/05/19 Made usr/lib/oss/etc writable
+                2011/09/09 Update to 4.2 b2005 for TC 4
+                2016/12/29 Updated for TC 7 ( Coreplayer2)
+Current:        2019/03/07 Updated for TC 10 - need root powers to write to usr/lib/oss/etc/conf (aus9)  

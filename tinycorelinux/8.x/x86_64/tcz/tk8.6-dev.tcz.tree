@@ -1,0 +1,36 @@
+tk8.6-dev.tcz
+   tk8.6.tcz
+      libXft.tcz
+         fontconfig.tcz
+            expat2.tcz
+            freetype.tcz
+               libpng.tcz
+               harfbuzz.tcz
+                  glib2.tcz
+                     libffi.tcz
+                     pcre.tcz
+               bzip2-lib.tcz
+         freetype.tcz
+            libpng.tcz
+            harfbuzz.tcz
+               glib2.tcz
+                  libffi.tcz
+                  pcre.tcz
+            bzip2-lib.tcz
+         libXrender.tcz
+            libX11.tcz
+               libxcb.tcz
+                  libXau.tcz
+                  libXdmcp.tcz
+      libXss.tcz
+         libXext.tcz
+            libX11.tcz
+               libxcb.tcz
+                  libXau.tcz
+                  libXdmcp.tcz
+      tcl8.6.tcz
+         tzdata.tcz
+   tcl8.6-dev.tcz
+      tcl8.6.tcz
+         tzdata.tcz
+

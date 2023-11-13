@@ -1,0 +1,26 @@
+Title:		r8168-5.10.3-tinycore64.tcz
+Description:	RealTek r8168 Ethernet NIC driver
+Version:	8.048.03
+Author:		Realtek Semiconductor Corp.
+Original-site:	https://www.realtek.com/en/component/zoo/category/network-interface-controllers-10-100-1000m-gigabit-ethernet-pci-express-software
+Copying-policy:	GPL v2
+Size:		112K
+Extension_by:	CNK
+Tags:		network driver ethernet realtek
+Comments:	RealTek driver for RTL8168B/RTL8168E/RTL8168H
+		PCIe NIC.
+
+		If the standard Linux r8169 driver is unreliable or
+		not working at all, this official driver often works
+		better. Block the r8169 driver from loading by adding
+		the bootcode "blacklist=r8169", and load using:
+		 insmod /usr/local/lib/modules/5.4.3-tinycore64/kernel/drivers/net/ethernet/realtek/r8168.ko.gz
+		Add that line to /opt/bootlocal.sh to make permanent.
+
+		Note that although GPL licensed, this driver is commonly
+		considered to be "non-free" (due to patents?).
+                ----                 
+                Compiled for TC Pure64 12.0
+                ----   
+Change-log:     2020/11/24 First version, 8.048.03
+Current:        2021/05/03 TC11 -> TC12

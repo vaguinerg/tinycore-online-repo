@@ -1,0 +1,74 @@
+Title:          alsa.tcz
+Description:    alsa sound
+Version:        1.0.27.1
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size:		1.0M
+Extension_by:   juanito/jasonw
+Tags:	        alsa sound audio
+Comments:       Advanced Linux Sound Architecture
+                ----------
+                This extension contains:
+                alsa-lib-1.0.27.1 - LGPLv2.1 - http://alsa.cybermirror.org/lib/alsa-lib-1.0.27.1.tar.bz2
+                alsa-utils-1.0.27.1 - GPLv2 - http://alsa.cybermirror.org/utils/alsa-utils-1.0.27.1.tar.bz2
+                ----------
+                Example howto:
+                $ sudo alsaconf
+                $ speaker-test -c2 -t wav -l1
+                ----------
+		Install the alsaconf.tcz extension if you need the alsaocnf
+		script.
+		To initialize alsa without having to use alsaconf, there is a
+		script that will do that.
+		It can be placed in /opt/bootlocal.sh so it alsa will be setup
+		on boot with no user interaction required.  The command to do this is:
+		/usr/local/etc/init.d/alsasound start
+		If adding this command to bootlocal.sh, you may need
+		to precede it with the sleep command for it to be effective.
+		If you want your alsa settings to persist across reboots, use the
+		command 'sudo alsactl store' after alsa has been set up.  This stores the
+		configuration in /usr/local/etc/asound.state.  Place this file in your backup to
+		allow your alsa settings to persist across sessions.
+		Additionally, if you first run alsaconf, the result of that will be used
+		by /usr/local/etc/init.d/alsasound instead of probing for and activating
+		all the soundcards found on your system.  Only the card you selected in
+		alsaconf will be setup by alsasound upon later starting of alsasound once
+		alsaconf is run.  To make this persist across reboots so alsasound does
+		not have to be run in later sessions, back up these files/directories:
+		opt/alsa
+		etc/modprobe.conf
+		Then add the command "/usr/local/etc/init.d/alsasound start" in your
+		/opt/bootlocal.sh file and your card should load on each boot as previously
+		set up by alsaconf.
+		ISA PnP support has been added to /usr/local/etc/init.d/alsasound.
+		It will probe and insert modules for many known ISA PnP sound cards.
+		Also, an option to specify which kernel module for your ISA card is
+		there, just enter that/those names into /opt/alsa/.alsadriver, one on
+		each line and only that module will be inserted without modprobing
+		unnecessary modules while trying to find your card.
+		----------
+Change-log:     2008/11/03
+                Added udev alsa.rules, modified alsa.conf, removed snddevices [thanks curaga]
+                2008/11/05
+                Modified to be PPI compliant and to load oss modules
+                2009/02/09
+ 		2009/04/22 Added /usr/local/etc/init.d/alsasound script for TC 2.x
+	        2009/04/28 Fixes to alsasound and alsaconf
+		2009/06/13 Updated to alsa-lib/alsa-utils 1.0.20
+		2009/08/22 Replaced user.tar.gz with scripting.
+		2009/09/29 Removed libs to the libasound extension and made it a dep.
+		2009/10/15 Updated alsaconf to recognize lspci in /usr/local/(s)bin.
+		2010/01/25 Seperated config files into own extension.
+		2010/02/08 Edited startup script to reload udev rules (Curaga)
+                2010/02/09 Re-edit startup script (Curaga)
+                updated 1.0.20 -> 1.0.23
+		2010/05/27
+		2010/10/17 Added ISA detection to alsasound routine
+			   and better use of alsaconf setup.
+		2010/12/20 Separated out alsaconf.
+		2011/11/14 Separated out alsa-config config files.
+                2012/01/17 Updated to alsa-lib-1.0.24.1/alsa-util-1.0.24.2
+                2013/06/21 Updated to alsa-lib-1.0.27.1/alsa-utils-1.0.27.1
+                2013/08/30 modified start-up script to create /var/lib/alsa
+Current:	2014/04/07 recompiled asound.state -> /usr/local/etc

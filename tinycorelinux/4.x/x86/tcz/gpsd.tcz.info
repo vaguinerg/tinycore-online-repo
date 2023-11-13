@@ -1,0 +1,20 @@
+Title:		gpsd.tcz
+Description:	GPS (Global Positioning System) services daemon.
+Version:	3.1
+Author:		various
+Original-site:	http://www.catb.org/gpsd/
+Copying-policy:	BSD
+Size:		228K
+Extension_by:	Arslan S., T. Buctoo
+Tags:		GPS Global Positioning System services daemon.
+Comments:	Service daemon can be controlled using the command:
+                sudo /usr/local/etc/init.d/gpsd start|stop|reload|restart
+                Configuration is set by the script /usr/local/etc/gpsd.rc
+Change-log:	2010/03/14 First version by Arslan S.
+		2010/03/29 Stripped optional components by T. Buctoo
+		2010/07/10 Moved libgps.so from gpsd-dev to gpsd (mounted extension causes broken symlinks)
+			   Fixed init.d script now returns exit codes properly when status requested by Arslan S.
+		2010/11/01 Updated to latest git revision by Arslan S.
+		2011/01/21 Updated to latest git revision by Arslan S
+		2011/04/12 Updated to 2.96bis by Arslan S.
+Current:	2011/10/07 Updated to 3.1 by Arslan S.

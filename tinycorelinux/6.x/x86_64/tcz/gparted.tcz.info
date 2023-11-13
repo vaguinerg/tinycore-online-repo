@@ -1,0 +1,21 @@
+Title:		gparted.tcz
+Description:	Gnome Partition Editor
+Version:	0.17.0
+Author:		Bart Hakvoort, Curtis Gedak, et al
+Original-site:	http://downloads.sourceforge.net/project/gparted/gparted/gparted-0.17.0/gparted-0.17.0.tar.bz2?r=http%3A%2F%2Fsourceforge.net%2Fprojects%2Fgparted%2Ffiles%2Fgparted%2Fgparted-0.17.0%2F&ts=1390373365&use_mirror=aarnet -O gparted-0.17.0.tar.bz2
+Copying-policy:	GPLv2
+Size:		368K
+Extension-by:	dentonlt
+Tags:		disk drive partition tool
+Comments:	----------
+		The Gnome Partition Editor is a tool for creating,
+		reorganizing, and deleting disk partitions.
+		WARNING: USING THIS TOOL INCORRECTLY MAY CAUSE SUBSTANTIAL
+		AND PERMANENT DATA LOSS. You have been warned. gparted must
+		be run from a terminal/prompt using sudo.
+		This extension requires	gtkmm-2.24 and gtk2.
+		The gparted startup script has been edited to use pgrep
+		instead of 'ps -e | grep ...'.
+		----------
+Change-log:	2014/01/22 first version for x86_64; v0.17.0 dentonlt
+Current:	2014/01/22 first version for x86_64; v0.17.0 dentonlt

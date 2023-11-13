@@ -1,0 +1,28 @@
+gnupg.tcz
+   libassuan.tcz
+      libgpg-error.tcz
+   libgcrypt.tcz
+      libgpg-error.tcz
+   libksba.tcz
+      libgpg-error.tcz
+   libusb.tcz
+      libudev.tcz
+         glib2.tcz
+            gamin.tcz
+            libelf.tcz
+            pcre.tcz
+               bzip2-lib.tcz
+               gcc_libs.tcz
+   gnutls.tcz
+      libidn2.tcz
+         libunistring.tcz
+      unbound.tcz
+         expat2.tcz
+         openssl.tcz
+            ca-certificates.tcz
+      nettle.tcz
+         gmp.tcz
+      p11-kit.tcz
+         libtasn1.tcz
+   npth.tcz
+

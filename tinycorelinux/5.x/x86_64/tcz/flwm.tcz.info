@@ -1,0 +1,29 @@
+Title:          flwm.tcz
+Description:    Fast Light Window Manager
+Version:        1.12
+Author:         Bill Spitzak
+Original-site:  http://flwm.sourceforge.net
+Copying-policy: GPL
+Size:		32KB
+Extension_by:   juanito
+Tags:		fltk window manager X
+Comments:       For microcore, as found in tinycore v2.4
+                Thanks to Mike L. For the may improvements to flwm.
+		changed Alt+Enter to Alt+F1 to iconize a window
+		Ctrl Alt arrows moves the window
+		Ctrl Alt =         grows the window (unshifted + key)
+		Ctrl Alt -          shrinks the window
+		Ctrl Alt PgUp   grows the window veritcally
+		Ctrl Alt PgDn   shrinks the window vertically
+		Ctrl Alt ,           grows the window hortizontally (unshifted < key)
+		Ctrl Alt .           grows the window hortizontally (unshifted > key)
+		Ctrl Alt t           taller (sames as PgUp)
+		Ctrl Alt s          shorter (same as PgDn)
+		Ctrl Alt m          maximize widow
+		Ctrl Alt v          maximize vertical
+		Ctrl Alt h          maximize hortizontal
+		flwm now optionally supports environment variable FLWM_TITLEBAR_COLOR to set color for window title bars.
+		To set use hex rgb, e.g, 20:5F:20 (Currently supports fltk gtk+ scheme.)
+Change-log:     2012/11/09
+                recompiled for tc-5.x
+Current:        2013/10/20

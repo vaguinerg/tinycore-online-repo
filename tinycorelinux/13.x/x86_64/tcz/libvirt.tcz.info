@@ -1,0 +1,22 @@
+Title:          libvirt.tcz
+Description:    vm toolkit
+Version:        7.2.0
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 4.9MB
+Extension_by:   juanito
+Tags:	        vm toolkit
+Comments:       virtual machine toolkit
+                ----------
+                This extension contains:
+                libvirt-7.2.0 - GPLv2 - ftp://libvirt.org/libvirt/libvirt-7.2.0.tar.xz
+                ----------
+Change-log:     2016/03/29 first version
+                2016/04/01 recompiled for correct qemu location and libyajl
+                2016/09/25 updated 1.3.2 -> 1.3.5
+                2017/04/27 recompiled for updated readline
+                2017/06/05 recompiled for updated libgcrypt
+                2018/05/28 recompiled to remove ncurses dep
+                2020/02/24 recompiled for openssl-1.1.1
+Current:        2021/04/03 updated 1.3.5 -> 7.2.0

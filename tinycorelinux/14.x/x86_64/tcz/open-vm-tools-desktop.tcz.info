@@ -1,0 +1,53 @@
+Title:		open-vm-tools-desktop.tcz
+Project:	open-vm-tools
+Description:	GUI utilities for VMware hosted virtual machine clients
+Version:	12.2.0.41219 (build-21223074)
+Author:		VMware
+Original-site:	https://github.com/vmware/open-vm-tools
+Copying-policy:	GPL 2, LGPL 2.1
+Size:		132K
+Extension_by: 	andyj
+Tags:		vmware client utilities virtual machine
+Comments:	GUI utilities for virtual machine clients using VMware
+		Workstation Pro (full functionality):
+			copy/paste, time sync, host folders, window resizing,
+			full-screen multi-monitor, mouse auto grab/ungrab,
+			hot-plug devices (USB), sound, suspend/power-down
+		Player locally hosted (limited functionality):
+			time sync, host folders, window resizing, mouse auto grab/ungrab,
+			hot-plug devices (USB), sound, suspend/power-down
+		ESXi hosted VM using Player (limited functionality):
+			time sync, window resizing, mouse auto grab/ungrab,
+			suspend/power-down
+		See also https://kb.vmware.com/kb/2073803
+		----
+		Download and install in console before reboot; do not install while in X.
+		Either: 1) Verify ~/.xsession has line to execute scripts in /usr/local/etc/X.d
+		    or: 2) Add to ~/.xsession after mouse-config to enable copy/paste, mouse grab/ungrab, and desktop resizing:
+				[ $(which vmware-checkvm) ] && [ vmware-checkvm ] && vmware-user &
+		Move wbar to upper left vertical because wbar doesn't know when the desktop is resized.
+		Aterm text does not render correctly, use lxterminal or rxvt instead.
+		If DRM isn't working try adding 'mks.gl.allowBlacklistedDrivers = "TRUE"' to ~/.vmware/preferences on host
+		----
+Change-log:	2016/02/19 First version, 10.0.0
+		2016/04/06 version 10.0.7
+		2016/11/27 version 10.1.0
+		2017/01/04 add missing directory from git
+		2017/03/19 updated to version 10.1.5
+		2017/07/01 recompiled for TC 8.x
+		2018/01/12 updated to version 10.2.0 and GTK3, recompiled for TC 9.x
+		2018/04/11 updated to version 10.2.5
+		2018/07/19 updated to version 10.3.0
+		2018/11/10 updated to version 10.3.5
+		2019/01/21 recompiled for TC 10.x
+		2019/02/09 updated shutdown/reboot commands; dropped dependency on ICU
+		2019/03/18 updated to version 10.3.10
+		2019/07/06 recompiled for openssl-1.1.1, updates to shared folder scripts
+		2019/10/22 upgraded to version 11.0.1
+		2020/02/04 updated to version 11.0.5, recompiled for TC 11.x
+		2020/06/09 updated to version 11.1.0
+		2020/09/10 updated to version 11.1.5
+		2020/11/06 updated to version 11.2.0
+		2021/01/23 updated to version 11.2.5, compiled for TC 12.x
+Current:	2023/04/06 updated to version 12.2.0, compiled for TC 14.x
+

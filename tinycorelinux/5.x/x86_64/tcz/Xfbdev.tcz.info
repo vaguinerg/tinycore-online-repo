@@ -1,0 +1,21 @@
+Title:          Xfbdev.tcz
+Description:    X framebuffer
+Version:        1.2.0 tinyx git
+Author:         Various
+Original-site:  Various
+Copying-policy: GPL
+Size:		404KB
+Extension_by:   juanito
+Tags:	        X framebuffer
+Comments:       Subsitute X server providing Framebuffer
+                ----------
+                example boot codes:
+                vga-791, vga=0x318 video=vesafb:mtrr
+                ----------
+                git clone http://git.tinycorelinux.net/tinyx
+                ----------
+Change-log:     2012/12/02
+                added patch to avoid window corruption when dragging right
+                2013/01/17
+                compiled from tinyx git
+Current:        2014/06/02

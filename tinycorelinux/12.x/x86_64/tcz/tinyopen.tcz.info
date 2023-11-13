@@ -1,0 +1,33 @@
+Title:          tinyopen.tcz
+Description:    manage filetype associations by editing a simple text file 
+Version:        5.0
+Author:         Bruno "GNUser" Dantas
+Original-site:  https://gitlab.com/GNUser/tinyopen
+Copying-policy: GPLv3
+Size:		20K
+Extension_by:   gnuser
+Tags:	        filetype associations mime xdg-open xdg-utils
+Comments:       - After loading this extension, well-behaved applications (i.e.,
+                  those that call xdg-open or parse mimeapps.list) will 
+                  automatically start using tinyopen
+                - For less well-behaved applications (i.e., those that 
+                  maintain their own list of filetype associations--larger 
+                  applications such as web browsers and file managers usually
+                  fall into this category) to also use tinyopen, you need to go
+                  into the application settings and associate every filetype 
+                  with /usr/local/bin/tinyopen; how to do this depends on the 
+                  application, but it usually goes something like this:
+                  Edit -> Preferences -> Filetype Associations
+                - The file that contains all your filetype associations and
+                  controls tinyopen is ~/.config/tinyopen.conf
+                - If your home directory is not persistent, don't forget to 
+                  include your customized ~/.config/tinyopen.conf in your backup
+                - It is best to not load xdg-utils.tcz when using tinyopen; if
+                  you must load xdg-utils.tcz (e.g., because it is a dependency
+                  of an extension you use), then load tinyopen.tcz *after* 
+                  loading xdg-utils.tcz
+                - To troubleshoot, run this command in a terminal and watch its
+                  output as you open various files: $ tail -f /tmp/tinyopen.log
+Change-log:     2020/12/02 first version for tcl-11.x (gnuser)
+		2021/05/14 version bump 4.0 -> 5.0 (gnuser)
+Current:        2021/10/17 minor adjustments for better http/https link handling (gnuser)

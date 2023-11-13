@@ -1,0 +1,24 @@
+Title:          opentyrian.tcz
+Description:    
+		OpenTyrian is a port of the DOS shoot-em-up Tyrian. Jason Emery generously gave the OpenTyrian
+		developers a copy of the Tyrian 2.1 source code, which has since been ported from Turbo Pascal
+		to C. The port uses SDL, making it easily cross-platform.
+
+		Tyrian is an arcade-style vertical scrolling shooter. The story is set in 20,031 where you 
+		play as Trent Hawkins, a skilled fighter-pilot employed to fight Microsol and save the galaxy.
+Version:        mercurial
+Author:         Opentyrian Team
+Original-site:  http://code.google.com/p/opentyrian/
+Copying-policy: GPL V2
+Size:           1.5M
+Extension_by:   blofsy
+Tags:	    
+Comments:       Requires: SDL.tcz
+		
+		To use it:
+		You need backup or permanent opt/home to save the config and saved games. Opentyrian needs the 
+		freeware tyrian 2.1 files. To download them run: ot_postinstall.sh (you only need to run it 
+		after the first install)
+		Source and build instructions: https://opentyrian.googlecode.com/hg/ opentyrian
+Current:        Sat Jul 24 20:42:13 CEST 2010, opentyrian mercurial 
+

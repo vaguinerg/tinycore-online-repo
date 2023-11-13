@@ -1,0 +1,25 @@
+Title:  		feh-1.3.4
+Description:   		Feh is an image viewer at heart, though it does 
+			other cool stuff.
+Version: 		1.3.4
+Author: 		Tom Gilbert + others
+Original-site: 		linuxbrit.co.uk/feh
+Copying-policy: 	Tom GIlbert: free of charge with copywrite notice
+size:			303K
+Extension_by: 		Averyeng
+Tags:	   		Feh an image viewer heart though it does 
+Comments:   		
+			modify Makefile after "./configure"
+change
+# GIBLIB_LIBS = -L/usr/local/lib -lgiblib -L/usr/lib -lImlib2 -lfreetype -lz -L/usr/X11R6/lib -lX11 -lXext -ldl -lm
+to
+GIBLIB_LIBS = -L/usr/local/lib -lgiblib -L/usr/lib -lImlib2 -lfreetype -lz -lX11 -lXext -ldl -lm
+		
+			To Compile Dep:
+			xorg-dev
+			imlib2-dev
+			giblib
+
+			To run Dep:
+			giblib
+Current:		2009/04/08

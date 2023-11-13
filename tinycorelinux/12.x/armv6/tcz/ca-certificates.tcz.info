@@ -1,0 +1,14 @@
+Title:          ca-certificates.tcz
+Description:    Bundle of CA Root Certificates
+Version:        2020.11.19
+Author:         Mozilla
+Original-site:  https://hg.mozilla.org/releases/mozilla-release/raw-file/default/security/nss/lib/ckfw/builtins/certdata.txt
+Copying-policy: MPL 2.0
+Size:           1.5M
+Extension_by:   paul-123
+Tags:           SECURITY
+Comments:       Certificates
+                ----
+Change-log:     
+                2020/06/13 First verison
+Current:        2020/11/19 Update to latest, and change to Debian style update-ca-certificates

@@ -1,0 +1,45 @@
+Title:          chrony-doc.tcz
+Description:    chrony - programs for keeping computer clocks accurate
+Version:        1.26
+Author:         Paul Rombouts
+Original-site:  http://chrony.tuxfamily.org/
+Source:         http://download.tuxfamily.org/chrony/chrony-1.26.tar.gz
+Copying-policy: GNU General Public License Version 2
+Size:		80K
+Extension_by:   vitex
+Tags:	    chrony programs keeping computer clocks accurate
+Comments:       From http://chrony.tuxfamily.org/:
+
+                  Chrony is a pair of programs which are used to
+                  maintain the accuracy of the system clock on a
+                  computer. The two programs are called chronyd and
+                  chronyc.
+
+                  Chronyd is a daemon which runs in background on the
+                  system. It obtains measurements via the network of
+                  the system clock's offset relative to time servers
+                  on other systems and adjusts the system time
+                  accordingly. For isolated systems, the user can
+                  periodically enter the correct time by hand (using
+                  Chronyc). In either case, Chronyd determines the
+                  rate at which the computer gains or loses time, and
+                  compensates for this. Chronyd implements the NTP
+                  protocol and can act as either a client or a server.
+
+                  Chronyc provides a user interface to Chronyd for
+                  monitoring its performance and configuring various
+                  settings. It can do so while running on the same
+                  computer as the Chronyd instance it is controlling
+                  or a different computer.
+
+            
+                -----------------------------------------------------
+
+                This extension contains the documentation files in 
+                the directory /usr/local/share/doc/chrony/.
+
+                -----------------------------------------------------
+
+Change-log:     ----------
+         	2010/04/03 First version
+Current:	2011/12/14 Upgraded to 1.26

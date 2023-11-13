@@ -1,0 +1,31 @@
+harfbuzz-icu-dev.tcz
+   harfbuzz-icu.tcz
+      harfbuzz.tcz
+         glib2.tcz
+            libffi.tcz
+         graphite2.tcz
+      icu62.tcz
+   harfbuzz-dev.tcz
+      harfbuzz.tcz
+         glib2.tcz
+            libffi.tcz
+         graphite2.tcz
+      glib2-dev.tcz
+         glib2-python.tcz
+            glib2.tcz
+               libffi.tcz
+            python3.6.tcz
+               openssl.tcz
+               sqlite3.tcz
+               gdbm.tcz
+               bzip2-lib.tcz
+               liblzma.tcz
+               readline.tcz
+                  ncursesw.tcz
+         libffi-dev.tcz
+            libffi.tcz
+      graphite2-dev.tcz
+         graphite2.tcz
+   icu62-dev.tcz
+      icu62.tcz
+

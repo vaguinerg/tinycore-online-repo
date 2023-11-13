@@ -1,0 +1,84 @@
+Title:          sway.tcz 
+Description:    Tiling desktop for Wayland
+Version:        1.4
+Author:         Drew DeVault
+Original-site:  https://github.com/swaywm/sway
+Copying-policy: Accompanied 
+Size:           5.1M
+Extension_by:   aus9 
+Tags:           wayland sway
+Comments:       You must NOT load sway on a libX or Xorg desktop as 
+                your desktop "should" crash...... Online wiki is here
+                https://github.com/swaywm/sway/wiki
+                Note the wiki also mentions polkit matters. I have US keyboard,  
+                read the sway-doc for other inputs please.
+
+                This wayland desktop might suit those who do not mind 
+                reading the config and using keyboard combinations (kb combos) 
+                to launch their fav apps. Kb combos tend to be faster than mouse, 
+                but you may need a mouse to exit sway.
+
+                If you change ~/.config/sway/config,  run from within sway
+                $ sway -C (to check its correct)
+
+                FIRST TIME USE
+                ###############
+                Download this App and sway-dot, then load sway-dot
+                $ tce-load -i sway-dot
+                Install script also adds memory.txt to config dir. 
+
+                VIDEO DRIVERS
+                #############
+                Closed source drivers are not supported by sway. 
+                 
+                How to start Sway
+                ###########
+                Exit to console prompt and run
+                $  z                 
+
+                Running Sway
+                ############
+                Read the auto started help.txt file in sway.
+
+                If you do not need a mouse, edit your home config line so it reads
+                bindsym $mod+Shift+e exec swaymsg exit
+
+                Optional dependencies
+                ##################
+                grim and slurp (take screenshots)
+                dmenu  (a launcher. Must have xwayland loaded and enabled)
+                wl-clipboard (terminal clipboard manager if not using a 
+                terminal with copy and paste support)
+                leafpad can be removed from dep file if you prefer something else.
+                Ditto sakura but make sure you modify and test config please.
+          
+                quick guide to change resolution and speed
+                ######################################
+                $ swaymsg -t get_outputs
+                (look at output  ---mine defaults to highest  resolution @ 60Hz
+                and modify the config file with my example showing)
+                output HDMI-A-2 mode 1280x1024@75Hz
+                (exit sway and re-start it then repeat get outputs command)
+
+                Other info
+                ########
+                I recommend not removing # against xwayland line until you know
+                what will be the consequences for any non-wayland supported app.
+                xwayland allows most apps to run on wayland.
+                
+                How I use sway  YMMV
+                Method A: You can "auto" launch more apps on WS 1 instead of creating 
+                keybindings and then use move kb combos to move them to preferred 
+                WS numbers eg I use a specific workspace for terminal, another 
+                for web browser etc. 
+
+                Method B: use kb combo to create and move focus to WS 2 
+                = logo +2 ...use config "created" kb keybinding to launch a TCE
+                then move to workspace 3...and launch your fav TCE
+                IMHO Method A is faster. 
+
+                I recommend you remove wbar, from boot list, if you like sway.
+                  
+Change-log:     2019/05/30 Original 1.0 on 10x 
+Current:        2020/07/11 -> 1.4 on 11x install script moved to sway-dot
+

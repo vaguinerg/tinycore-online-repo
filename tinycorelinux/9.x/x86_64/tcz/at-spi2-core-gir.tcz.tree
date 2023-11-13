@@ -1,0 +1,29 @@
+at-spi2-core-gir.tcz
+   gobject-introspection.tcz
+      glib2.tcz
+         libffi.tcz
+         pcre.tcz
+      python3.6.tcz
+         openssl.tcz
+         sqlite3.tcz
+         gdbm.tcz
+         bzip2-lib.tcz
+         liblzma.tcz
+         readline.tcz
+            ncursesw.tcz
+   at-spi2-core.tcz
+      dbus.tcz
+         expat2.tcz
+         elogind.tcz
+            acl.tcz
+               attr.tcz
+      glib2.tcz
+         libffi.tcz
+         pcre.tcz
+      libICE.tcz
+      libSM.tcz
+      libX11.tcz
+         libxcb.tcz
+            libXau.tcz
+            libXdmcp.tcz
+

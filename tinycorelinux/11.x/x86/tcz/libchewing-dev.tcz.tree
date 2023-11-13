@@ -1,0 +1,16 @@
+libchewing-dev.tcz
+   libchewing.tcz
+      sqlite3.tcz
+   ncursesw-dev.tcz
+      ncursesw.tcz
+   sqlite3-dev.tcz
+      sqlite3-bin.tcz
+         sqlite3.tcz
+         readline.tcz
+            ncursesw.tcz
+      readline-dev.tcz
+         readline.tcz
+            ncursesw.tcz
+         ncursesw-dev.tcz
+            ncursesw.tcz
+

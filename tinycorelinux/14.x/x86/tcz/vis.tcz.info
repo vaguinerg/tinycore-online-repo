@@ -1,0 +1,23 @@
+Title:          vis.tcz
+Description:    A highly efficient, modal editor with built-in support for
+                multiple selections, structural regular expressions and Lua
+                scripting capabilities.
+Version:        0.7
+Author:         Marc Andre Tanner
+Original-site:  https://github.com/martanne/vis
+Copying-policy: ISC
+Size:           172K
+Extension_by:   jazzbiker
+Tags:           text editor console vi sam glenda
+Comments:       This extension includes full Lua scriptable version of the
+                editor.
+                Syntax highlighting can be enables using vis-lexer.tcz
+                Basic yet very powerful version without Lua - vis-nolua.tcz
+                Documentation - vis-doc.tcz
+                You can copy /usr/local/share/vis/visrc.lua to Your
+                ~/.config/vis/ directory and adjust it for Your needs.
+                Quick help during editing session can obtained with ":help"
+                command.
+Change-log:     2020/08/14 version 0.6
+                2021/04/10 version 0.7
+Current:        2021/04/10 version 0.7

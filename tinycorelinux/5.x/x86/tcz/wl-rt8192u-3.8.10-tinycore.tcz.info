@@ -1,0 +1,20 @@
+Title:			wl-rt8192u-3.8.10-tinycore.tcz
+Description:		Realtek rt8192cu Wireless driver for 8192cu/8188cu USB adapters
+Version:		v3.4.3_4369.x
+Author:			Realtek, forked by skeller
+Original-site:		https://github.com/dz0ny/rt8192cu
+Copying-policy:		GPLv2
+Size:		188K
+Extension_by:		coreplayer2
+Tags:			Realtek 8192cu wireless driver
+Comments:		Based on official Realtek driver v3.4.3_4369.20120622
+			forked to kernel-3.8.x  by skeller github
+			Driver requires no additional firmware
+			Will not work with in-tree version rtl8192cu.ko, therefore
+			wireless-3.8.10-tinycore.tcz can not be installed with this driver
+			Install,  set DHCP using tc network tools, reboot then
+			start your preferred Wireless connection manager
+			(for modprobe use 8192cu)
+			tested with an RTL8188CUS 802.11n USB WLAN Adapter using wifi.tcz
+Change-log:		---
+Current:		2013/07/15 First Version.

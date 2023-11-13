@@ -1,0 +1,16 @@
+Title:          gcc.tcz
+Description:    GCC, the GNU C/C++ compiler
+Version:        10.2.0
+Author:         Many, see source tarball for list
+Original-site:  https://gcc.gnu.org
+Copying-policy: Various by components, see source tarball for details
+Size:           44M
+Extension_by:   paul-123
+Tags:           COMPILER CLI
+Comments:       GCC core components (C, C++)
+                ----
+                Compiled for piCore64 13.x
+Change-log:     ----
+                2020/12/27 First version, 10.2.0
+                2021/12/11 Fixed missing link for bfd-plugins
+Current:        2022/05/25 replcased cpp symlink with file (juanito)

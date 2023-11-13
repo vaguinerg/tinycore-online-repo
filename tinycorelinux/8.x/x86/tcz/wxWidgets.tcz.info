@@ -1,0 +1,17 @@
+Title:          wxWidgets.tcz
+Description:    wxWidgets 
+Version:        3.0.2
+Author:         wxWidgets contributors
+Original-site:  www.wxwidgets.org
+Copying-policy: wxWindows License(based on L-GPL)
+Size:		6.4M
+Extension_by:   justincb
+Comments:       Compiled with CFLAGS="-march=i386 -mtune=i386 -Os -pipe"
+                CXXFLAGS="-march=i386 -mtune=i386 -Os -pipe"
+                LDFLAGS="-Os"
+                It automatically adds "-Wl" to linking
+                source is available at www.wxwidgets.org/downloads/
+Tags:           graphics
+Change-log:     2016/10/17 compiled from source
+                2016/10/18 added wx-config and wxWidgets.tcz.list
+Current:        2016/10/19 fixed symlinks

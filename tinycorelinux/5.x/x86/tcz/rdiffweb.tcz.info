@@ -1,0 +1,47 @@
+Title:          rdiffweb.tcz
+Description:    Rdiffweb is a web interface for browsing and restoring from
+		rdiff-backup repositories.
+		TESTING
+Version:        0.7.0
+Author:         Patrik Dufresne, Josh Nisly
+Original-site:  http://www.patrikdufresne.com/en/development-version-rdiffweb/
+Copying-policy: GPLv3
+Size:		332K
+Extension_by:   remus
+Tags:           rdiffweb rdiff-web rdiff-backup
+Comments:       Rdiffweb is a web interface for browsing and restoring from
+		rdiff-backup repositories.
+		More about rdiff-backup here:
+		http://www.nongnu.org/rdiff-backup/
+		NOTE: rdiffweb Regression uses /tmp folder to process data
+		regression by default. For best results restoring large
+		files/folders regressed many increments specify a tmp folder
+		on a disk which has lots of unused space. Else you may get
+		"not enough space on device" or similar errors.
+		Following is a setup example that assumes you have pletty
+		of unused space on /mnt/sda1, and that /mnt/sda1 is mounted
+		at boot up.
+		$ mkdir /mnt/sda1/tmp
+		$ sudo cp /tmp/tcloop/rdiffweb/etc/rdiffweb/rdw.conf /etc/rdiffweb/
+		$ sudo nano /etc/rdiffweb/rdw.conf
+		Find "#tempdir=/tmp" and replace it with "tempdir=/mnt/sda1/tmp"
+		save and exit nano
+		Now make changes permanent.
+		$ sudo nano /opt/.filetool.lst
+		add "etc/rdiffweb"
+		save and exit nano
+		$ filetool.sh -b
+		You can control rdiffweb server with:
+		$ sudo /etc/init.d/rdiffweb start
+		$ sudo /etc/init.d/rdiffweb stop
+		$ sudo /etc/init.d/rdiffweb restart
+		If you want the rdiffweb server to start at boot up.
+		$ sudo nano /opt/bootlocal.sh
+		add "sudo /etc/init.d/rdiffweb start"
+		save and exit nano
+		Start a web browser and load http://localhost:8080/setup or
+		http://ip-of-rdiffweb-pc:8080/setup for inital auto config.
+		Follow onscreen instructions.
+Compiled for TC 3.x, 4.x, 5.x
+Current:        2014/12/12 First version, 0.7.0
+Change-log:     ---

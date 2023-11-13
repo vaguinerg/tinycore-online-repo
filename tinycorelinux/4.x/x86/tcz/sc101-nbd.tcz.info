@@ -1,0 +1,38 @@
+Title:		sc101-nbd.tcz
+Description:    Netgear SC101 'Toaster' driver translates psan to nbd.
+Version:        Alpha
+Author:         Iain Wade <iwade@optusnet.com.au>
+Original-site:  http://code.google.com/p/sc101-nbd/downloads/list
+Copying-policy: GPL v2
+Size:		12K
+Extension_by:   gerald_clark
+Tags:           NBD SC101 
+Comments:       Install the man package to read the ut man page or
+		see the website for instructions on 'ut' usage.
+	
+		Sample config file is /usr/local/etc/sc101-nbd.conf.sample.
+		Make a custom sc101-nbd.conf file.
+		Config file consists of lines with:
+		LABEL Device-Name Optional-Mount-Point
+		Add usr/local/ext/sc101-nbd.conf to /opt/filetool.lst.
+	
+		Use '/usr/local/etc/init.d/sc101-nbd start' to attach and mount
+		the SC101 drives listed in /usr/local/etc/sc101-nbd.conf.
+		Use '/usr/local/etc/init.d/sc101-nbd stop' to umount and detach
+		the drives.
+	
+		HD install - use a pretce install of sc101-ndb.tcz per wiki.
+		NETBOOT   -  use tftp or http to load sc101-ndb.tcz per wiki.
+		Boot code: sc101=Drive[,Drive]...
+		Where Drive is: Label or Label:Mount-Point or Label:-
+		Mount point defaults to /mnt/nbdX where X is the number of this Label in the comma seperated list.
+		Mount point of '-' means connect the drive to /dev/nbdX but don't mount it.
+		If a mount point is specified, it is relative to /mnt unless it starts with a '/'.
+		Use 'ut listall' to see the current labels..
+		You can specify tce=nbd0 opt=nbd0 home=nbd0 ( or any specified mount point in /mnt).
+		For use with md RAID, use boot option like sc101=Label1:-,Label2:- so nbd0 and nbd1 will not be mounted.
+	
+		Do not include devices in the config file that are specified in the boot code.
+
+Change-log:     04/19/13 Original                                       
+Current:        04/19/13                                                

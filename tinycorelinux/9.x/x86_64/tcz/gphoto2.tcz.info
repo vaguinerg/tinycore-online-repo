@@ -1,0 +1,35 @@
+Title:          gphoto2.tcz
+Description:    CLI for libgphoto2 
+Version:        2.5.20
+Author:         Lutz Mueller, Hans Ulrich, Christophe Barbe, Hubert Figuiere,
+                      Colin Marquardt, Marcus Messner, Theodore Kilgore
+Original-site:   http://gphoto.org
+Copying-policy: GPL v2
+Size:           52K                  
+Extension_by:   aus9 at gmx dot com
+Tags:           camera  
+Comments:       For cameras
+                Online help is here
+                http://gphoto.org/doc/manual/
+                http://gphoto.org/doc/manual/permissions.html
+
+                Alternative TCE shotwell and similar
+
+                QUICK START commands
+                $ gphoto2 --auto-detect
+                 >> must show a camera
+                 If not, power cycle your camera until you see one in above command
+                $ gphoto2 --get-all-files
+                >> copies images to current dir.
+                
+               $ gphoto2 --summary
+               (If you see Device Capabilities)
+	       >       File Download, File Deletion, File Upload
+	       >      No Image Capture, No Open Capture, No vendor specific capture
+
+               Then following command will fail
+               $ gphoto2 --capture-image-and-download
+                             
+               Compiled on 9x 
+Change-log:     2018/11/17 first version
+Current:        2018/11/17  

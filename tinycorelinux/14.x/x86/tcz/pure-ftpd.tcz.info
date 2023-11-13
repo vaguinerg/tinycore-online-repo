@@ -1,0 +1,19 @@
+Title:          pure-ftpd.tcz
+Description:    simple and secure ftp-server with tls support
+Version:        1.0.49
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size:           132K
+Extension_by:   bonbob
+Tags:           ftp ftps
+Comments:       simple and secure ftp-server with tls support
+                ----------
+                edit /usr/local/etc/pure-ftpd.conf and run pure-ftpd
+                $ sudo /usr/local/etc/init.d/pure-ftpd {start|stop|restart|status}
+                ----------
+                This extension contains:
+                pure-ftpd-1.0.49 - bsd - https://download.pureftpd.org/pub/pure-ftpd/releases/pure-ftpd-1.0.49.tar.gz
+                ----------
+Change-log:     2020/06/08 first version 1.0.49
+Current:        2020/06/08 first version 1.0.49

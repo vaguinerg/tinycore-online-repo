@@ -1,0 +1,26 @@
+Title:          binutils.tcz
+Description:    binutils
+Version:        2.31.1
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 5.4MB
+Extension_by:   juanito
+Tags:	        binutils
+Comments:       binutils for tinycore-10.x x86
+                ----------
+                the ar function requires the flex extension
+                ----------
+                This extension contains:
+                binutils-2.31.1 - GPLv2 - http://ftp.gnu.org/gnu/binutils/binutils-2.31.1.tar.bz2
+                ----------
+Change-log:     2009/06/01 first version
+                2010/03/05 recompiled on tc-3 and updated 2.17 -> 2.20
+                2011/08/16 recompiled on tc-4 and updated 2.20 -> 2.21.1
+                2013/03/23 recompiled on tc-5 and updated 2.21.1 -> 2.23.1
+                2014/09/18 recompiled on tc-6 and updated 2.23.1 -> 2.24.51
+                2015/10/02 recompiled on tc-7 and updated 2.24.51 -> 2.25.1
+                2016/01/12 enabled gold linker
+                2016/10/20 recompiled on tc-8 and updated 2.25.1 -> 2.27
+                2017/12/09 recompiled on tc-9 and updated 2.27 -> 2.29.1
+Current:        2018/11/04 recompiled on tc-10 and updated 2.29.1 -> 2.31.1

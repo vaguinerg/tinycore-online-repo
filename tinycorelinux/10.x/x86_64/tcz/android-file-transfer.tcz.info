@@ -1,0 +1,47 @@
+Title:          android-file-transfer.tcz  
+Description:    Connect PC to Android for file tranfers
+Version:        3.6
+Author:         Vladimir Menshakov  
+Original-site:  https://github.com/whoozle/android-file-transfer-linux
+Copying-policy: LGPL v2.1
+Size:           2.5M
+Extension_by:   aus9 at gmx dot com
+Tags:           android 
+Comments:       One method of transferring files from/to Android/PC
+                Does not use udev/rules  Access internal storage or sdcard,
+                no access to System Files to root device etc
+ 
+                If you are happy with gmtp/gvfs/mtpfs or any other 
+                mtp software, you might not need this TCE 
+                
+                See the website (or doc TCE) for known problems, 
+                eg samsung phones are read only. 
+
+                Android Instructions 
+                Enable USB debugging 
+                System settings -> about phone
+                TAP "build number" 7 times to enable developer mode
+                Go into new dir and turn on usb debugging
+
+                Next, data cable is connected PC to a live phone
+                Enable file transfer (default is charging)
+                ---on most androids, its a pull down notification.
+                Some recent Androids may ask if you trust the attached PC
+                
+                PC Instructions, vary depending on your home persistance,
+                $ mkdir ~/Android  # if no persistence
+                $ aft-mtp-mount ~/Android
+                ( You may see a ignorable error as per below)
+                
+                Navigate using your file manager or terminal to Android dir
+                and copy/paste or "whatever" you need to do
+
+                Ignoreable error suggests phone is NOT mounted when it is!
+                image of error
+                https://imgur.com/a/mqXwnSv
+                proof pcmanfm sees non-Samsung Android OK 
+                https://imgur.com/a/o5bkkZU
+ 
+                Compiled for 10.x
+Change-log:     2018/01/07  First version 
+Current:        2019/02/21 

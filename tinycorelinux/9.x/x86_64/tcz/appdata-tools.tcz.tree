@@ -1,0 +1,31 @@
+appdata-tools.tcz
+   libsoup.tcz
+      glib-networking.tcz
+         glib2.tcz
+            libffi.tcz
+            pcre.tcz
+         gnutls35.tcz
+            p11-kit.tcz
+               libffi.tcz
+               libtasn1-4.tcz
+            nettle3.tcz
+               gmp.tcz
+            libidn2.tcz
+               libunistring.tcz
+               ncursesw.tcz
+      libxml2.tcz
+         liblzma.tcz
+      sqlite3.tcz
+   gdk-pixbuf2.tcz
+      glib2.tcz
+         libffi.tcz
+         pcre.tcz
+      libtiff.tcz
+         libjpeg-turbo.tcz
+         liblzma.tcz
+      libpng.tcz
+      libX11.tcz
+         libxcb.tcz
+            libXau.tcz
+            libXdmcp.tcz
+

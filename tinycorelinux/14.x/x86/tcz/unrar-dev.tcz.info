@@ -1,0 +1,28 @@
+Title:          unrar-dev.tcz
+Description:    unrar shared library headers
+Version:        5.5.8
+Author:         This source includes parts of code written by the following authors.
+                 Dmitry Shkarin     PPMII v.H text compression
+                 Dmitry Subbotin    Carryless rangecoder
+                 Szymon Stefanek    AES encryption
+                 Brian Gladman      AES encryption
+                 Steve Reid         SHA-1 hash function
+                 Marcus Herbert     makefile.unix file
+                 Tomasz Klim        fixes for libunrar.so
+                 Robert Riebisch    makefile.dj and patches for DJGPP
+Original-site:  www.rarlab.com
+Copying-policy: Unrar source may be used in any software to handle RAR archives
+                without limitations free of charge, but cannot be used to re-create
+                the RAR compression algorithm, which is proprietary. Distribution
+                of modified Unrar source in separate form or as a part of other
+                software is permitted, provided that it is clearly stated in
+                the documentation and source comments that the code may not be used
+                to develop a RAR (WinRAR) compatible archiver.
+                More detailed license text is available in license.txt , which is
+                in /usr/local/share/unrar-dev/license .
+Size:		188K
+Extension_by:   justincb
+Tags:           compression headers rar
+Comments:       Header files for the library. The program is in unrar.tcz .
+Change-log:     2017/09/25 Compiled from source for tinycore 8.x
+Current:        2017/09/25 Compiled from source for tinycore 8.x

@@ -1,0 +1,27 @@
+Title:          nano.tcz
+Description:    A terminal editor
+Version:        3.2
+Author:         see doc
+Original-site:  http://www.nano-editor.org
+Copying-policy: GPL v3
+Size:		148K
+Extension_by:   aus9 at gmx dot com
+Tags:           nano terminal text editor
+Comments:       Editor for terminal
+
+                For those who need to run nano as root, read your 
+                .nanorc and if you like to, copy your .nanorc to 
+                /root/.nanorc  and edit as per suggestions inside file.
+                To persist over reboot, add that root file to your
+                /opt/.filetool.lst
+
+                online manual
+                https://www.nano-editor.org/dist/v3/nano.html
+
+                Compiled for 9 x
+Change-log:     2015/08/01 first version
+                2017/05/05 v 2.8.1 (juanito)
+                2017/08/12 v 2.8.6 and color (aus9)
+                2017/08/12 v 2.8.7 
+                2018/03/23 v 2.9.4 compiled against ncursesw 
+Current:        2018/12/15 v 3.2 change nanorc test

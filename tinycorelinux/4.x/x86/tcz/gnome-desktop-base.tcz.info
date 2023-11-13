@@ -1,0 +1,76 @@
+Title:          gnome-desktop-base.tcz
+Description:    GNOME Desktop for Tiny Core Linux.
+Version:        2.32.1
+Author:         Sercan Arslan <arslanserc@gmail.com>
+Original-site:  ---
+Copying-policy: GPL
+Size:		
+Extension_by:   Arslan S.
+Tags:	    GNOME Desktop Tiny Core Linux.
+Comments:       Minimum System Requirements
+			-Pentium III CPU
+			-256MB RAM + Swap
+
+		Total number of dependencies =~ 200
+
+		Installation
+		-------------
+		Step 1-) Set root and <user> password
+			 $ sudo passwd root
+			 $ sudo passwd <user>
+
+		Step 2-) Setup environment
+			 $ gnome-desktop-base-setup
+
+		Step 3-) Backup and reboot
+			 $ filetool.sh backup
+			 $ sudo reboot
+		
+		Optional GNOME packages:
+			-file-roller (archive manager, nautilus plugin)
+			-brasero (cd/dvd burning application)
+			-totem (movie player & thumbnailer)
+			-gnote (tomboy notes, sticky notes panel plugin)
+			-gnome-games, gbrainy, gnome-hearts (small games)
+			-epiphany (web browser)
+			-evince (ps/pdf/djvulibre/tiff document viewer, and a thumbnailer for the supported file types)
+			-gnome-colors & arc-colors & shiki-colors (icons/backgrounds/themes)
+			-rhythmbox (music player)
+			-evolution, balsa (e-mail clients)
+			-gnome-backgrounds (set of background images)
+			-cheese (web cam application)
+			-eog-plugins (flickr uploader integrated with nautilus)
+			-banshee (music management and player application)
+			-vinagre & vino (remote desktop server and client)
+			-gcalctool (calculator)
+			-gconf-editor (graphical editor for the GConf configuration system)
+			-gnome-audio (desktop sounds)
+			-gnome-bluetooth (bluetooth connection wizard)
+			-nautilus-sendto (through nautilus context menu, send files to usb, bluetooth devices or anyone via mail)
+			-xscreensaver-base or xscreensaver-extra for more screensavers to use with gnome-screensaver
+			-network-manager-gnome (NetworkManager GNOME client)
+
+		Other optional packages: acpid, cpufreqd, wicd, samba3, avahi ...
+
+		PULSEAUDIO is the only option and will be installed for sound.
+
+		This extension requires Xorg.
+		This extension is PPI compatible.
+
+Change-log:  	2010/03/26 First Version 2.28.2
+		2010/03/31 Separated out evolution,evolution-data-server,gthtml,libgweather,rarian & libgnome-desktop
+		2010/04/04 Separated out gtksourceview,pygtksourceview,gedit,gnome-backgrounds & gnome-themes
+		2010/05/20 Separated out eog,gucharmap,libnautilus-extension,libgnome-menu,libgnome-window-settings,zenity & metacity
+			   -Added nautilus-python for eog-plugins integration
+			   -Added libxklavier-4.0 & rebuilt gnome-settings-daemon and gnome-applets
+			   -Updated for compatibility with compiz-gnome
+		2010/06/17 Separated out yelp,gnome-terminal,gnome-media,gnome-audio,sound-theme-freedesktop,gconf-editor and gcalctool
+		2010/07/01 Rebuild gnome-screensaver
+		2010/07/05 Separated out gnome-keyring
+		2010/08/06 Updated to 2.30.2
+			   -Built with Pulseaudio support
+			   -Replaced hal based volume management, gnome-volume-manager & gnome-mount with udisks based gnome-disk-utility (TESTING)
+			   -Partial removal of hal, now only required for laptop lcd brightness
+			   -Splitted out everything
+Current:	2010/12/02 Updated to 2.32.1
+

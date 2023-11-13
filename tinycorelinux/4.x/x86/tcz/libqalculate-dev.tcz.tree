@@ -1,0 +1,28 @@
+libqalculate-dev.tcz
+   libqalculate.tcz
+      glib2.tcz
+         libffi.tcz
+      libxml2.tcz
+         liblzma.tcz
+      ncurses.tcz
+         ncurses-common.tcz
+      readline.tcz
+         ncurses.tcz
+            ncurses-common.tcz
+      cln.tcz
+         gmp.tcz
+   glib2-dev.tcz
+      glib2.tcz
+         libffi.tcz
+      libffi-dev.tcz
+      perl5.tcz
+   libxml2-dev.tcz
+      libxml2-bin.tcz
+         libxml2.tcz
+            liblzma.tcz
+      liblzma-dev.tcz
+         liblzma.tcz
+   cln-dev.tcz
+      cln.tcz
+         gmp.tcz
+

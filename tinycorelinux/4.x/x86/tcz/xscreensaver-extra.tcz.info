@@ -1,0 +1,31 @@
+Title:          xscreensaver-extra.tcz (TESTING)
+Description:    screensavers for X (10 basic savers) 
+Version:        5.10
+Author:         Jamie Zawinski et al
+Original-site:  www.jwz.org/xscreensaver/ 
+Copying-policy: proprietary
+Size: 		2.5M		
+Extension_by:   dentonlt
+Tags:	    screensavers X 10 basic savers 
+Comments:       The base extension requires GTK2 and its dependencies.
+		The extra extension requires the base extension and,
+		optionally, Perl for screen savers with custom text. 
+
+		Neither extension includes OpenGL savers. This version 
+		was compiled and tested on TC 3.0.
+
+		This extra extension has some 100 screen savers.
+		
+		To start at boot, put the following in 
+		~/.X.d/xscreensaver:
+		   xscreensaver -nosplash &
+		
+		To configure, use 
+		   xscreensaver-command -prefs
+		
+		In LXDE, a menu item is added under settings.	
+		 
+Change-log: 	2009/12/21 first version 
+Current:	2010/07/31 updated Xorg for TC 3.0
+		
+

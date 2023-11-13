@@ -1,0 +1,29 @@
+Title:          88x2bu.tcz
+Description:    wifi kernel module for some usb dongles
+Version:        git-20210702
+Author:         Realtek
+Original-site:  https://github.com/morrownr/88x2bu-20210702
+Copying-policy: GPLv2
+Size:		1.4M
+Extension_by:   gnuser
+Tags:           wifi wlan wireless
+Comments:       Supported wireless devices:
+                ALFA AWUS036ACU
+                ASUS AC1300 USB-AC55 B1
+                ASUS AC53 Nano
+                ASUS U2
+                Cudy WU1400
+                Edimax EW-7822UAD
+                Edimax EW-7822ULC
+                Edimax EW-7822UTC
+                EDUP EP-AC1605GS
+                FIDECO 6B21-AC1200M
+                Linksys WUSB6300 V2
+                NetGear A6150
+                TRENDnet TEW-808UBM
+                jjPlus WMU6202 miniPCIe - USB
+
+                Note: firmware is embedded in the kernel module.
+                (i.e., a separate firmware file is not needed.)
+Change-log:     ----------
+Current:        2023/08/30 first version, compiled for TC14 x86_64 (kernel version 6.1.2)

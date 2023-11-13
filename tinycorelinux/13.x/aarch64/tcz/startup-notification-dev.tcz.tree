@@ -1,0 +1,24 @@
+startup-notification-dev.tcz
+   startup-notification.tcz
+      libX11.tcz
+         libxcb.tcz
+            libXau.tcz
+            libXdmcp.tcz
+   libX11-dev.tcz
+      libX11.tcz
+         libxcb.tcz
+            libXau.tcz
+            libXdmcp.tcz
+      libxcb-dev.tcz
+         libxcb.tcz
+            libXau.tcz
+            libXdmcp.tcz
+         libXau-dev.tcz
+            libXau.tcz
+         libXdmcp-dev.tcz
+            libXdmcp.tcz
+         xcb-proto.tcz
+            xorg-proto.tcz
+               util-macros.tcz
+      xtrans.tcz
+

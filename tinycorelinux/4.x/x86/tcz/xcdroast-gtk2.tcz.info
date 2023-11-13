@@ -1,0 +1,22 @@
+Title:          xcdroast-gtk2.tcz
+Description:    Graphical cdrecord frontend.
+Version:        0.98alpha16
+Author:         Thomas Niederreiter
+Original-site:  www.xcdroast.org/ 
+Copying-policy: GPL
+Size:		508K
+Extension_by:   Jason W
+Tags:	    Graphical cdrecord frontend.
+Comments:       Requires cdrtools.tcz and gtk2.tcz and it's dependencies.
+                Non-root mode is already setup, but you must run once as root
+		and save a setup to use as an unprivileged user.
+		Backup the file /usr/local/etc/xcdroast.conf for the
+		settings to persist across reboots and not to have to run
+		the setup as root after every following reboot.
+		This extension is PPI compatible and does not 
+		conflict with the gtk1 version, they can both be installed
+		at the same time.
+Change-log:     --------
+      		2009/02/10
+Current:	2011/02/08 Updated with patches and made gtk1
+		           and gtk2 versions.

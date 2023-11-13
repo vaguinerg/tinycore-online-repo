@@ -1,0 +1,37 @@
+Title:          gparted.tcz
+Description:    gparted disk editor
+Version:        0.13.1
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 456KB
+Extension_by:   juanito
+Tags:	         disk partition editor
+Comments:       partition editor for creating, reorganizing, and deleting disk partitions
+                ----------
+                depending on the file operations desired, can be used with the
+                dosfstools, e2fsprogs, jfsutils, mtools, ntfsprogs, reiserfsprogs and
+                util-linux extensions
+                ----------
+                Big Fat Warning
+                ----------
+                $ gparted
+                quote
+                Root privileges are required for running GParted
+                Since GParted is a powerful tool capable of destroying partition
+                tables and vast amounts of data, only root may run it.
+                unquote
+                ----------
+                This extension contains:
+                gparted-0.13.1 - GPLv2 - http://garr.dl.sourceforge.net/sourceforge/gparted/gparted-0.13.1.tar.bz2
+                ----------
+Change-log:     2009/01/16
+                Factored out etfsprogs and parted
+                Re-compiled on tc_2.x and updated 0.4.1 -> 0.4.5
+                2009/05/22
+                updated 0.4.5 -> 0.5.0, added menu item
+                2010/01/07
+                updated 0.5.0 -> 0.6.2
+                2010/08/30
+                updated 0.6.2 -> 0.13.1
+Current:        2012/08/26

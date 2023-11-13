@@ -1,0 +1,14 @@
+Title:		vblade.tcz
+Description:    ATA over Ethernet server
+Version:        Alpha
+Author:         Free Software Foundation
+Original-site:  http://sourceforge.net/projects/aoetools/files/vblade/01/vblade-1.tar.gz
+Copying-policy: GPL                                                     
+Size:		8.0K
+Extension_by:   gerald_clark                                            
+Tags:           AOE ATAOE server vblade
+Comments:       To start server:
+		/usr/local/bin/vblade <shelf> <slot> <netif> <device>
+		Ex: /usr/local/bin/vblade 2 3 eth0 /dev/sdb3
+Change-log:     09/06/12 Original                                       
+Current:        09/06/12                                                

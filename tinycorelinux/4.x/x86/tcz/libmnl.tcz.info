@@ -1,0 +1,18 @@
+Title:		libmnl.tcz
+Description:	Library oriented to Netlink developers, required by conntrack
+Version:	1.0.3
+Author:		Pablo Neira Ayuso, Jozsef Kadlecsik, Jan Engelhardt
+Original-site:	http://www.netfilter.org/projects/libmnl
+Copying-policy: LGPLv2.1+
+Size:		12K
+Extension_by:	Rich
+Tags:		library conntrack netlink
+Comments:	libmnl is a minimalistic user-space library oriented
+		to Netlink developers. There are a lot of common tasks
+		in parsing, validating, constructing of both the Netlink
+		header and TLVs that are repetitive and easy to get
+		wrong. This library aims to provide simple helpers that
+		allows you to re-use code and to avoid re-inventing
+		the wheel.
+Change-log:     ----
+Current:	2013-01-28 First version, 1.0.3

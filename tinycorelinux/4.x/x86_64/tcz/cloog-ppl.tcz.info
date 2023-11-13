@@ -1,0 +1,20 @@
+Title:          cloog-ppl.tcz
+Description:    chunky loop generator 
+Version:        0.15.11
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 53KB
+Extension_by:   juanito
+Tags:	    chunky loop generator 
+Comments:       CLooG-PPL is a library to generate code for scanning Z-polyhedra.
+                In other words, it finds code that reaches each integral point..
+                ..of one or more parameterized polyhedra. GCC links with this..
+                ..library in order to enable the new loop generation code known..
+                ..as Graphite.
+                ----------
+                This extension contains:
+                cloog-ppl-0.15.11 - GPLv2 - ftp://gcc.gnu.org/pub/gcc/infrastructure/cloog-ppl-0.15.11.tar.gz
+                ----------
+Change-log:     first version
+Current:        2012/11/09

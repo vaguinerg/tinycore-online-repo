@@ -1,0 +1,21 @@
+Title:          appbrowser-cli.tcz
+Description:    Command-line appbrowser
+Version:        0.6
+Author:         Curaga
+Original-site:  http://tinycorelinux.com
+Copying-policy: GPLv3
+Size:		8K
+Extension_by:   Curaga
+Tags:		Command-line appbrowser
+Comments:       My adaptation of appbrowser to ncurses.
+-
+		Requires at least TC/MC 2.3.
+		Search requires at least 4.4.
+-
+		PPI compatible
+Change-log:     2009/10/03 Original
+		2009/10/30 Fixes, new features
+		2010/02/13 Removed install option, added argv search
+		2010/03/26 Updated search for recent versions (2.9)
+		2012/04/20 Updated search for v4.4
+Current:        2012/10/07 Fixed two bugs, removed blinking

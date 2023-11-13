@@ -1,0 +1,17 @@
+htslib-dev.tcz
+   bzip2-dev.tcz
+      bzip2.tcz
+         bzip2-lib.tcz
+   curl-dev.tcz
+      curl.tcz
+         ca-certificates.tcz
+            openssl-1.1.1.tcz
+      openssl-1.1.1-dev.tcz
+         openssl-1.1.1.tcz
+   htslib.tcz
+      bzip2-lib.tcz
+      curl.tcz
+         ca-certificates.tcz
+            openssl-1.1.1.tcz
+      liblzma.tcz
+

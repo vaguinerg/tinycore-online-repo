@@ -1,0 +1,22 @@
+Title:          gnucash.tcz
+Description:    personal finance manager
+Version:        3.0
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 6.8MB
+Extension_by:   juanito
+Tags:	        finance manager gtk+ gtk3
+Comments:       personal finance manager
+                ----------
+                optionally can use the perl_finance_quote extension to download stock quotations
+                or, use "sudo gnc-fq-update" with compiletc and openssl-dev
+                to download and compile the latest finance::quote module
+                ----------
+                This extension contains:
+                gnucash-3.0 - GPLv3 - https://github.com/Gnucash/gnucash/releases/download/3.0/gnucash-3.0.tar.bz2
+                ----------
+Change-log:     2014/06/25 first version
+                2014/07/12 added ofx functionality
+                2017/05/25 updated 2.6.3 -> 2.6.16
+Current:        2018/04/05 updated 2.6.16 -> 3.0

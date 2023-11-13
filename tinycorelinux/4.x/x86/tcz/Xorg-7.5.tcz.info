@@ -1,0 +1,36 @@
+Title:          Xorg-7.5.tcz
+Description:    X.org server
+Version:        7.5 (1.7.7)
+Author:		Various
+Original-site:  http://x.org
+Copying-policy: X11
+Size:		9.8M
+Extension_by:   Curaga
+Tags:	    X.org server
+Comments:       To run confless, restart X after loading the extension.
+		If you need to configure something, such as a keymap, or
+		have trouble with autodetection, create a xorg.conf.
+.
+		If you are only looking to get software 3D
+		and no accel, instead of creating a config file
+		suitable for your hardware like below, you can rename
+		/etc/X11/xorg.conf.vesa to xorg.conf.
+.
+		To get Xorg with accel, exit to prompt,
+                get a root console (sudo su), and then
+		Xorg -configure
+.
+		Edit the newly created config file as needed.
+		When ready copy it to /etc/X11 named xorg.conf.
+		Remember to add this file to your backup (/opt/.filetool.lst)
+		or save it some other way.
+.
+		See Xorg-7.5-3d.tcz for acceleration.
+.
+		Please note, for AGP or integrated AGP cards such as Intel
+		chips you will always need graphics-KERNEL.tcz.
+.
+		Tips on 3D and X keymaps can be found in
+		/etc/X11/README.xorg.conf.
+Change-log:     2010/05/28 Original
+Current:        2010/06/16 Moved libEGL to -lib

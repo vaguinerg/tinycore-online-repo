@@ -1,0 +1,31 @@
+compile-essentials.tcz
+   autoconf.tcz
+      perl5.tcz
+   automake.tcz
+      autoconf.tcz
+         perl5.tcz
+   glibc_base-dev.tcz
+   glibc_apps.tcz
+   glibc_add_lib.tcz
+   glibc_gconv.tcz
+   file.tcz
+   gcc.tcz
+      gcc_base-dev.tcz
+      gcc_libs-dev.tcz
+         gcc_libs.tcz
+      binutils.tcz
+         flex.tcz
+      cloog.tcz
+         isl.tcz
+            gmp.tcz
+      mpc.tcz
+         mpfr.tcz
+            gmp.tcz
+   libtool.tcz
+      libltdl.tcz
+   m4.tcz
+   make.tcz
+   patch.tcz
+   binutils.tcz
+      flex.tcz
+

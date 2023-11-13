@@ -1,0 +1,32 @@
+Title:          	tce-md5check.tcz
+Description:    updates/resolves missing tcz.md5.txt files, tcz integrity check and update
+Version:        	1.08
+Author:         	coreplayer2
+Original-site:  http://tinycorelinux.com
+Copying-policy: GPL
+Size:		8.0K
+Extension_by:   coreplayer2
+Tags:		md5 update
+Comments:	Extension integrity check  
+
+			A utility for verifying the integrety of each installed 
+			extension, then auto updates any which fail.  
+			Provides a mechanism for the protection of user modified extensions,
+			protected extensions will not be processed, updated or removed.
+			Resolves missing *./tcz.md5.txt files and updates as required,
+			unless protected.
+			Default mode verifies against md5.db from respective repo
+			Creates a backup of updated tcz's to safegaurd against inadvertent deletion 
+			yet includes a method to clean up previously backed up extensions.
+
+			Use
+			tce-md5check    	from the desktop menu option, or from command line.
+			tce-md5check -h 	from the command line for more options
+		
+			Integrity verification is the primary intent, however 
+			a byproduct of this results in a one-click extension auto-update.
+
+		
+Change-log:   2014/7/8   Original
+Current:		2015/04/28 added command line help options
+

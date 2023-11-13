@@ -1,0 +1,17 @@
+Title:		minidlna-locale.tcz
+Description:	server software with the aim of being fully compliant with DLNA/UPnP-AV clients
+Version:	1.0.25
+Author:		Justin Maggard, Portions:  Thomas Bernard
+Original-site:	http://minidlna.sourceforge.net
+Copying-policy:	GPL-2
+Size:		8.0K
+Extension_by:	jlslegalize@gmail.com
+Tags:		server DLNA/UPnP-AV
+Comments:	Config file is /etc/minidlna.com
+		Launch the program with:
+		sudo minidlna 
+		or 
+		minidlna 
+		if u adjust the config file
+Change-log:	2010/11/17  First version
+Current:	2012/07/24 Updated to 1.0.25, 			cause used the static version due to compile errors, 			added locale as a separate extension

@@ -1,0 +1,28 @@
+Title:          inxi.tcz
+Description:    Command line system information script for console
+Version:        3.1.00
+Author:         See top of /usr/local/bin with a text editor
+Original-site:  https://raw.githubusercontent.com/smxi/inxi/master/inxi
+Copying-policy: GPL v3 
+Size:           248K         
+Extension_by:   aus9  
+Tags:          hardware 
+Comments:   Online manual is here
+            https://smxi.org/docs/inxi-man.htm
+
+            inxi can show system hardware, CPU, drivers, Xorg, Desktop, 
+            --Kernel, gcc version(s), Processes, RAM usage, and a 
+            -----wide variety of other useful information.
+
+            The following may be useful but its up to you to decide how
+            much info to share on a forum or IRC
+            dmidecode.tcz for bios info
+            util-linux.tcz for blockdev info
+            usb-utils.tcz for usb device info
+            lm-sensors.tcs for sensor info
+            upower.tcz for power/battery info
+            libXrandr.tcz may be Xorg installed for graphic resolutions
+                          
+Change-log:     2012/09/27 v 1.8.17 on 32 bit
+Current:        2020/05/12 updated on 32/64 bit 11.1   3.1.00
+

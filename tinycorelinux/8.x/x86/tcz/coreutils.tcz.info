@@ -1,0 +1,32 @@
+Title:          coreutils.tcz
+Description:    core utilities
+Version:        8.25
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 1.9MB
+Extension_by:   juanito
+Tags:	        core utilities
+Comments:       utilities for showing and setting the basic system characteristics.
+                replaces busybox equivalents
+                ----------
+                note:
+                expr, factor require the gmp extension
+                cp, install, mv require the acl and attr extensions
+                ls, dir, vdir require the acl, attr and libcap extensions
+                ----------
+                This extension contains:
+                coreutils-8.25 - GPLv3 - ftp://ftp.gnu.org/gnu/coreutils/coreutils-8.25.tar.gz
+                ----------
+Change-log:     2008/09/06 first version
+                2008/12/05 Updated 6.9 -> 6.12
+                2009/05/08 Updated 6.12 -> 7.1, re-compiled to /usr/local
+                2009/09/18 updated 7.1 -> 7.6
+                2009/11/27 updated 7.6 -> 8.1
+                2010/01/23 updated 8.1 -> 8.4
+                2010/05/05 recompiled on tc3, updated 8.4 -> 8.5
+                2011/04/21 updated 8.5 -> 8.11
+                2011/08/30 updated 8.11 -> 8.12, recompiled on tc-4
+                2014/09/18 updated 8.12 -> 8.23, recompiled on tc-6
+                2015/10/02 updated 8.23 -> 8.24, recompiled on tc-7
+Current:        2015/10/02 updated 8.24 -> 8.25, recompiled on tc-8

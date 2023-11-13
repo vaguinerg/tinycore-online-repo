@@ -1,0 +1,30 @@
+Title:          firefox-get.tcz
+Description:    script to allow firefox in home folder or private TCZ
+Version:        2
+Author:         gordonselfish
+Original-site:  tinycorelinux.net
+Copying-policy: MIT
+Size:		4.0K
+Extension_by:   gordonselfish
+Tags:           firefox web browser
+Comments:       a "get" script only, contains no binaries. The name of
+		executable to run is "firefox-get"
+		Please backup any existing wolf.tcz* if you plan to use script
+		to update.
+		First type the version number you want...... eg 23.0.1
+		------and press the enter key
+		wget will try to download that product, unless you left
+		firefox*.bz2 in your home folder, that matches your input.
+		Next type your choice from one of the following:
+		exit  local  tcz
+		-----and press the enter key
+		You can run the script again and choose something different.
+		If you typed tcz and pressed enter, wolf.tcz is generated and
+		is designed not to conflict with any mozilla web browser.
+		/usr/local/bin/wolf links to /usr/local/wolf/firefox
+		If you typed local and pressed enter, you are running firefox from
+		your home folder but .local/bin/wolf should work.
+		"local" users now have the option to have smaller updates.
+		Compiled for 5.x
+Change-log:     2013/09/15 First version
+Current:        2013/09/15 version 2

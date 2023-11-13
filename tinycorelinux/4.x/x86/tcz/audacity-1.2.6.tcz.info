@@ -1,0 +1,39 @@
+Title:          audacity-1.2.6.tcz
+Description:    A cross-platform multitrack audio editor
+Version:        1.2.6
+Author:         Dominic Mazzoni
+Original-site:  http://audacity.sourceforge.net/
+Copying-policy: GPL
+Size: 3.6MB
+Extension_by:   Jason W
+Tags:	    cross-platform multitrack audio editor
+Comments:       This extension is installed self contained in 
+		/usr/local/audacity.  This extension also contains
+		wxgtk-2.4.2 inside /usr/local/audacity/lib as it is 
+		an older wxgtk library compiled specifically for 
+		audacity that may otherwise conflict with the more c
+		current wxgtk offerings in the extension repo if 
+		installed in the usual manner in /usr/local/lib.  
+		Install alsa or OSS for sound.
+		-------
+		Sources:
+		http://audacity.sourceforge.net/latest/audacity-src/audacity-src-1.2.6.tar.gz
+		http://biolpc22.york.ac.uk/pub/2.4.2/wxGTK-2.4.2.tar.bz2
+		------
+		Wxgtk 2.4.2:
+		license: lgpl
+		author: wxwidgets team  (http://www.wxwidgets.org/whowhat.htm)
+		--------
+		Build options:
+		Standard TC build flags per wiki.
+		wxgtk:
+		./configure && make && make install
+		audacity:
+		./configure --prefix=/usr/local/audacity \   
+		--without-soundtouch \
+		--disable-unicode
+		make && make install
+		-------
+		This extension is PPI compatible.
+Change-log:     ----
+Current:   	2009/05/09 First version 1.2.6

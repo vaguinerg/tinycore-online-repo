@@ -1,0 +1,29 @@
+Title:          pilot-link-base.tcz [TESTING]
+Description:    CLI tools for Palm OS devices
+Version:        0.12.5 + changes
+Author:         Kenneth Albanowski, David A. Desrosiers, et al.
+Original-site:  http://www.pilot-link.org/
+Copying-policy: GNU GPL 2
+Size: 		232k
+Extension_by:   dentonlt
+Tags:	    CLI tools Palm OS devices
+Comments:	Pilot-link is a collection of tools for communication
+		with a Palm OS device. Pilot-link supports Linux, OSX,
+		and theoretically Windows via Cygwin. Pilot Link is
+		used by J-Pilot and other GUI tools.
+		This extension includes significant changes to support
+		libusb-1.0 and Tiny Core 3.1. Tested on TC 3.1 with a
+		Palm Tungsten E.
+		Use "pilot-xfer" from the CLI to interact with your
+		handheld. Example for 'list':
+			pilot-xfer -p usb: -l -t 5
+		For help, see the online man pages or use pilot-xfer
+		without arguments.
+		This is the base extension. It includes libraries,
+		the pilot-xfer binary, and source file for libusb.c.
+		Headers and other binaries are in the dev extension.
+	 	-----
+		Stock source code: http://www.pilot-link.org/
+		changes: included as usr/local/share/pilot-link/libusb.c
+Change-log:     2010/01/03 First version
+Current: 	2010/09/23 bump to 0.12.5

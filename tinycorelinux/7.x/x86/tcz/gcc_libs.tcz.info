@@ -1,0 +1,23 @@
+Title:          gcc_libs.tcz
+Description:    gcc shared libs
+Version:        5.2.0
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 756KB
+Extension_by:   juanito
+Tags:	        gcc shared libs
+Comments:       gnu compiler collection shared libs for tinycore-7.x
+                ----------
+                gcc shared libs for use with other extensions in order to..
+                ..avoid the bulk of the full gcc extension
+                ----------
+                This extension contains:
+                gcc-5.2.0 - GPLv2 - http://ftp.gnu.org/gnu/gcc/gcc-5.2.0/gcc-5.2.0.tar.bz2
+                ----------
+Change-log:     2009/10/04 first version
+                2010/03/05 recompiled for tc3 and updated 4.2.2 -> 4.4.3
+                2011/08/16 recompiled for tc4 and updated 4.4.3 -> 4.6.1
+                2013/03/23 recompiled for tc5 and updated 4.6.1 -> 4.7.2
+                2014/09/18 recompiled for tc6 and updated 4.7.2 -> 4.9.1
+Current:        2015/10/02 recompiled for tc7 and updated 4.9.1 -> 5.2.0

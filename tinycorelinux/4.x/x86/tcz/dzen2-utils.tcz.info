@@ -1,0 +1,28 @@
+Title:		dzen2-utils.tcz
+Description:	Small utility programs for dzen2
+Version:	0.9.5 (SVN 271)
+Author:		Robert Manea
+Original-site:	http://sites.google.com/site/gotmor/dzen
+Copying-policy:	MIT/X
+Size:		16k
+Extension_by:	peterc
+Tags:		Small utility programs dzen2
+Comments:	Dzen2 was designed to be scriptable in any language and 
+		integrate well with window managers like dwm, wmii, and 
+		xmondad, though it will work with any window manager.
+
+		Basic Documentation: 
+		http://dzen.googlecode.com/svn/trunk/README
+		Wiki for advanced topics and example scripts:
+		http://dzen.geekmode.org/dwiki/doku.php
+
+		This extension includes the "gadget" programs that come 
+		with the dzen2 source code:
+		dbar - generates semi-graphical progress meters
+		textwidth - calculate the width in pixels of text with 
+			    a given font
+		gdbar - generates fully graphical progress meters
+		gcpubar - CPU utilization meter
+
+Change-log:	2010/06/02 Original
+Current:	2010/07/14 Updated to latest SVN version (271)

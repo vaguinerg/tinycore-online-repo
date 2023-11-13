@@ -1,0 +1,15 @@
+xf86-video-openchrome.tcz
+   libdrm.tcz
+      libpciaccess.tcz
+      udev-lib.tcz
+         glib2.tcz
+            gamin.tcz
+            libffi.tcz
+   libXvmc.tcz
+      libXv.tcz
+         libXext.tcz
+            libX11.tcz
+               libxcb.tcz
+                  libXau.tcz
+                  libXdmcp.tcz
+

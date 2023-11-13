@@ -1,0 +1,28 @@
+Title:          Helix-locale.tcz
+Description:    Helix is the open-source version of RealPlayer
+                It is a basic GTK2 alternative to audio players like xmms
+Version:        11.0.2.1743
+Author:         Various
+Original-site:  https://player.helixcommunity.org
+Copying-policy: GPL
+Size:		258kb
+Extension_by:   perthie
+Tags:	    Helix open-source version RealPlayer
+Comments:       Helix plays mp3/ogg/wav files and pls/m3u streams.
+                It does not play RealAudio.
+                -----------
+                Because of licensing restrictions, Helix does not ship with
+                an mp3 plugin. However this extension also contains the script
+                "updatehelix". It will download the RealPlayer installer,
+                extract its mp3 plugin and add it to your Helix extension.
+                -----------
+                The first time you run Helix, you must set the audio driver.
+                Go to Tools > Preferences > Hardware and select ALSA or OSS.
+                -------------
+                You will also need wget.tcz if you want to run the optional 
+                connection speed test.
+                -------------
+                To play streaming audio, just paste the URI into Open Location
+Change-log:     2009/11/21 first version
+Current:	2010/03/09 Bugfixes in updatehelix script. (Jason W)
+

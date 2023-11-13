@@ -1,0 +1,27 @@
+Title:          webkitgtk.tcz
+Description:    webkit gtk3 port
+Version:        2.4.8
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 29MB
+Extension_by:   juanito
+Tags:           web kit gtk+ gtk3
+Comments:       port of the portable web rendering engine to the gtk3 platform
+                version 3 of the libwebkit2gtk library
+                ----------
+                plugins may require gtk2
+                ----------
+                html5 video supported with default deps
+                http://ie.microsoft.com/testdrive/performance/fishietank/
+                html5 flac, ogg-vorbis, wave audio supported with gst-plugins-good
+                html5 mp3 audio supported with gst-plugins-ugly, libmad
+                http://hpr.dogphilosophy.net/test/
+                ----------
+                This extension contains:
+                webkitgtk-2.4.8 - free - http://webkitgtk.org/releases/webkitgtk-2.4.8.tar.xz
+                ----------
+Change-log:     2013/12/02 first version
+                2014/10/24 recompiled on tc-6.x
+                2015/05/10 updated 2.2.2 -> 2.4.8
+Current:        2017/06/05 recompiled against updated libwebp

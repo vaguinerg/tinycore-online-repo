@@ -1,0 +1,21 @@
+Title:          jwm.tcz
+Description:    Joe's Window Manager
+Version:        2.3.7
+Author:         Joe Wingbermuehle
+Original-site:  http://joewing.net/projects/jwm
+Copying-policy: GPL
+Documentation:  http://joewing.net/projects/jwm/config.shtml
+Size:		100KB
+Extension_by:   maluvia
+Tags:	        joe window manager wm
+Comments:       Includes original Tiny Core scripts (c) Robert Shingledecker 
+	        
+                -------------------
+                To use boot option THEME to specify and set theme, add to .xsession:
+                [ -n "$THEME" ] && cp /opt/jwmThemes/"$THEME" .jwmrc-theme
+                --------------------
+                This extension contains:
+                jwm-2.3.7 - GPL - http://joewing.net/projects/jwm/releases/jwm-2.3.7.tar.xz
+                --------------------
+Change-log:     2014/12/01 first version
+Current:        2019/03/19 updated 2.2.2 -> 2.3.7 (juanito)

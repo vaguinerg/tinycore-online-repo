@@ -1,0 +1,56 @@
+Title:          icewm.tcz
+Description:    Stacking Window Manager 
+Version:        1.7.0
+Author:         see doc TCE for AUTHORS
+Original-site:  https://github.com/bbidulock/icewm
+Copying-policy: LGPL v2 
+Size:           1.1M
+Extension_by:   aus9
+Tags:           window manager wm
+Comments:       Do NOT choose OnBoot in Apps please.
+                If you like this WM then download and run
+                icewm-list to get a icewm boot list you can
+                use with your boot loader. Then add your other TCEs
+                
+                Most preferences, use the menu button or 
+                context menu to change please. 
+                 
+                Please READ/edit your configs under ~/icewm
+                Toolbar (and keys) has sakuara TCE set 
+                sakura.tcz (forced dep as xterm set)
+                pcmanfm.tcz (recommended TCE)
+                geany.tcz (recommended TCE)
+                keys names kb combos but only sakura is a dep
+                (Means you need to load the others or add to boot list 
+                to be effective)
+                
+                Feel free to edit YOUR configs. I am unable to test on 
+                basic X so forced Xorg-7.7 (2d) as a dep.
+                            
+                Be aware that IceWM uses this order: 
+                prefoverride over theme over preferences
+                
+                icewmbg can control background or wallpaper(s)
+                See pcmanfm for a conflicting wallpaper method
+                https://tinyurl.com/y3ouvb94
+
+                After any change to a config file, any TCE added after boot,
+                that has a kb combo set.....needs WM refresh with kb combo of
+                Super+r = logo+r
+
+                optional TCEs not already mentioned include: 
+                icewm-themes (CrystalBlue is new default)
+                icewm-help (stripped from main TCE)
+                icewm-doc (man pages)
+                icewm-locale 
+                xscreensaver (and set local and root pw please)
+                ( This evades lock workstation setting )
+                
+                Do NOT try logout/shutdown buttons after using 
+                Ctrl+Alt+Del keys. Or any other non-exittc method.
+                YOUR SYSTEM  WILL FREEZE!
+                                
+                Recommend https://ice-wm.org/FAQ/ too
+                
+Change-log:     2020/07/22 Original 1.7.0 on 11x
+Current:        2020/11/29 Removed /tmp/tcloop/... from path in tce.installed script. (Rich)

@@ -1,0 +1,40 @@
+Title:          gcc.tcz
+Description:    gcc for tc_13.x
+Version:        11.2.0
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 50.1MB
+Extension_by:   juanito
+Tags:	        gcc tc-10.x
+Comments:       gnu compiler collection for tinycore-13.x
+                ----------
+                Note: for ease of use, you can use the compiletc meta extension to load gcc and
+                all the commonly required apps to have a complete compile environment for microcore/tinycore.
+                Of course if you want to do things differently, that's OK too.
+                ----------
+                This extension contains:
+                gcc-11.2.0 - GPLv2 - http://ftp.gnu.org/gnu/gcc/gcc-11.2.0/gcc-11.2.0.tar.xz
+                ----------
+Change-log:     2009/06/01 first version
+                2009/06/17 Added symlink cc -> gcc
+                2009/10/04 split out shared libs to gcc_libs extension
+                2010/03/05 recompiled for tc3 and updated 4.2.2 -> 4.4.3
+                2011/08/16 recompiled for tc4 and updated 4.4.3 -> 4.6.1
+                2011/08/30 removed libstdc++ devs
+                2013/03/23 recompiled for tc5 and updated 4.6.1 -> 4.7.2
+                2014/03/03 updated specs to fix lib*.specs error
+                2014/09/18 recompiled for tc6 and updated 4.7.2 -> 4.9.1
+                2015/01/13 added missing cpp hardlink
+                2015/02/24 adjusted specs file to enable openmp
+                2015/02/26 corrected cpp
+                2015/03/04 corrected symlink to cpp
+                2015/10/02 updated 4.9.1 -> 5.2.0
+                2016/01/12 enabled gold linker
+                2016/10/09 recompiled to work with non-sse2 hardware
+                2016/10/20 updated 5.2.0 -> 6.2.0
+                2017/12/09 updated 6.2.0 -> 7.2.0
+                2018/11/04 updated 7.2.0 -> 8.2.0
+                2019/11/29 updated 8.2.0 -> 9.2.0
+                2020/12/21 updated 9.2.0 -> 10.2.0
+Current:        2021/11/04 updated 10.2.0 -> 11.2.0

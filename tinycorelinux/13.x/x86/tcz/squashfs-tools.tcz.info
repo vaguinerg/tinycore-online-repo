@@ -1,0 +1,17 @@
+Title:          squashfs-tools.tcz
+Description:    compressed read-only file filesystem tools
+Version:        4.3-git
+Author:         see below
+Original-site:  https://github.com/plougher/squashfs-tools
+Copying-policy: GPL v2
+Size:           108KB
+Extension_by:   bmarkus
+Tags:           cli squash sf filesystem compression zlib lzma lzo zstd
+Comments:       Binaries only
+                ----
+                defaults to zlib 4k block size
+                ----
+Change-log:     2013/05/30 First version, 4.2
+                2014/09/15 Updated to 4.3
+                2014/09/26 recompiled on tc-6.x (juanito)
+Current:        2017/11/17 updated 4.3 -> 4.3-git (juanito)

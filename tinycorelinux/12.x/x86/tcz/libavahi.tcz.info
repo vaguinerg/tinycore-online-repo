@@ -1,0 +1,23 @@
+Title:          libavahi.tcz
+Description:    avahi network service libs
+Version:        0.6.32
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 168KB
+Extension_by:   juanito
+Tags:	        avahi network service libs
+Comments:       libs for a system which facilitates service discovery on a local network
+                ----------
+                This extension contains:
+                avahi-0.6.32 - GLGPLv2.1 - http://avahi.org/download/avahi-0.6.32.tar.gz
+                ----------
+Change-log:     2010/03/11 first version 
+                2010/09/03 updated 0.6.25 -> 0.6.27
+                2010/09/29 applied debian patch to allow avahi-browse to work with avahi-daemon
+                2011/05/15 updated 0.6.27 -> 0.6.30
+                2012/07/27 updated 0.6.30 -> 0.6.31, enabled libdns_sd
+                2013/07/11 split out gui libs
+                2013/09/08 readjusted libs
+                2014/12/22 recompiled for tc-6.x
+Current:        2021/01/09 updated 0.6.31 -> 0.6.32

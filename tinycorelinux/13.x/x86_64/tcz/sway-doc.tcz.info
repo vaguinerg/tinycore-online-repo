@@ -1,0 +1,21 @@
+Title:          sway-doc.tcz 
+Description:    docs for Sway
+Version:        1.4
+Author:         Drew DeVault
+Original-site:  https://github.com/swaywm/sway
+Copying-policy: Accompanied 
+Size:           52K
+Extension_by:   aus9 
+Tags:           wayland man
+Comments:       $ man sway (= $ man sway.1) for the compositor
+                while $ man sway.5 is for the config file
+
+                For non-US keyboard layouts $ man sway-input.5
+
+                One man page refers to man xkeyboard-config
+                TC does not appear to have instead try
+                https://linux.die.net/man/7/xkeyboard-config
+
+Change-log:     2019/05/30 Original 1.0 on 10x 
+Current:        2020/07/11 -> 1.4 on 11x
+

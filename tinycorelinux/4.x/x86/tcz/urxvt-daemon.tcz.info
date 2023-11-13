@@ -1,0 +1,33 @@
+Title:		urxvt-daemon.tcz
+Description:	RXVT-Unicode Terminal Emulator, Daemonized version
+Version:	9.07
+Author:		Marc Lehmann
+Original-site:	http://software.schmorp.de/pkg/rxvt-unicode.html
+Copying-policy:	GPLv2
+Size:		147k
+Extension_by:	peterc
+Tags:		RXVT-Unicode Terminal Emulator Daemonized version
+Comments:	A clone of the RXVT terminal emulator that supports 
+		Unicode. This version supports daemonized instances, so 
+		that you can run multiple terminals and use less memory. 
+		The urxvtd program (the daemon) needs to be running 
+		first; urxvtc (the client) requests a new terminal 
+		window from it.
+		
+		To automate the process, place in your .xsession or 
+		.xinitrc file the following:
+		
+		urxvtd -q -o -f
+		
+		Then call urxvtc whenever you want a new terminal.
+
+		This version supports 256 colors and has disabled 
+		support for the AfterImage library, as well as the 
+		built-in perl interpreter.
+
+		Program Documentation: 
+		http://pod.tst.eu/http://cvs.schmorp.de/rxvt-unicode/doc/rxvt.1.pod
+
+Change-log:	2010/09/03 Added Xft support
+		2010/06/03 Original
+Current:	2010/09/03

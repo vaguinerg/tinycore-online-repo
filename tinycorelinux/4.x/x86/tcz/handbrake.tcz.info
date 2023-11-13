@@ -1,0 +1,21 @@
+Title:          handbrake.tcz
+Description:    video transcoder
+Version:        0.9.5
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 12.8MB
+Extension_by:   juanito
+Tags:	    video transcoder
+Comments:       multi-threaded video transcoder
+                ----------
+                Note the handbrake build system does not (easily) allow using the usual
+                tc cflags/cxxflags, which possibly means it will not work on some machines
+                Note also the handbrake build system insists on statically linking some deps
+                rather than using the system libs, which results in bloat and duplication
+                ----------
+                This extension contains:
+                HandBrake-0.9.5 - GPLv2 - http://handbrake.fr/rotation.php?file=HandBrake-0.9.5.tar.bz2
+                ----------
+Change-log:     first version
+Current:        2012/01/02

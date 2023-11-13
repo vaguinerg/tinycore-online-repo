@@ -1,0 +1,32 @@
+xorg-server.tcz
+   libEGL.tcz
+      libGL.tcz
+         libXdamage.tcz
+            libXfixes.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
+         libXxf86vm.tcz
+            libXext.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
+         libdrm.tcz
+            libpciaccess.tcz
+            udev-lib.tcz
+         libxshmfence.tcz
+   libXfont.tcz
+      freetype.tcz
+         libpng.tcz
+         harfbuzz.tcz
+            glib2.tcz
+               libffi.tcz
+               pcre.tcz
+      libfontenc.tcz
+   libepoxy.tcz
+   expat2.tcz
+   openssl.tcz
+   pixman.tcz
+

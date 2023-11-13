@@ -1,0 +1,23 @@
+Title:          bluez.tcz
+Description:    bluetooth stack
+Version:        5.55
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size:           2.0MB
+Extension_by:   juanito
+Tags:           bluetooth
+Comments:       official linux bluetooth protocol stack
+                ----------
+                use blueman to pair
+                use libbluetooth for apps requiring bluez-4 compatibility
+                ----------
+                This extension contains:
+                bluez-5.55 - GPLv2 - https://www.kernel.org/pub/linux/bluetooth/bluez-5.55.tar.xz
+                ----------
+Change-log:     2017/03/12 first version
+                2020/04/20 updated 5.43 -> 5.54
+                2020/08/29 Rebuilt with rpi patches, 5.54 (paul-123)
+                2020/11/29 Upraded to 5.55 (added midi and gatttool support) (paul-123)
+                2021/06/02 Downgrade to 5.50 with all rpiOS patches (paul-123)
+Current:        2021/07/24 Upgrade back to 5.55 with all rpiOS patches (paul-123)

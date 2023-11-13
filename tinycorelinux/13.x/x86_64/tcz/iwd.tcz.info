@@ -1,0 +1,24 @@
+Title:          iwd.tcz
+Description:    iNet Wireless Daemon
+Version:        2.0
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size:		672K
+Extension_by:   juanito
+Tags:	        wireless wifi daemon
+Comments:       wireless daemon
+                ----------
+                Basic usage (connecting to wifi):
+                $ sudo iwd 2>/dev/null &
+                $ sudo iwctl station wlan0 scan
+                $ sudo iwctl station wlan0 get-networks
+                $ sudo iwctl station wlan0 connect SSID
+                $ sudo udhcpc -i wlan0
+                ----------
+                This extension contains:
+                iwd-2.0 - lGPLv2.1 - https://git.kernel.org/pub/scm/network/wireless/iwd.git
+                ell-0.54 - lGPLv2.1 - https://git.kernel.org/pub/scm/libs/ell/ell.git
+                ----------
+Change-log:	2022/11/23 first version
+Current:	2022/12/14 latest git (improved scanning, other fixes) (gnuser)

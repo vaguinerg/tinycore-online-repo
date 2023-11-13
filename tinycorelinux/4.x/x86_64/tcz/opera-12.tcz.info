@@ -1,0 +1,25 @@
+Title:          opera-12.tcz
+Description:    Opera browser
+Version:        12.12
+Author:         Opera Software
+Original-site:  http://www.opera.com
+Copying-policy: Opera license
+Size:		18M
+Extension_by:   juanito
+Tags:	        web browser
+Comments:       opera web browser
+                ----------
+                added gtk2/gstreamer deps so that html5 audio/video work
+                tested with alsa and ogg-vorbis sound
+                ----------
+		PPI compatible.
+                
+                Notice that Opera requires a color depth of 24
+                to run.
+                
+                If opera prompts crash error when exiting, you
+                need Xorg with appropriate video adapter driver
+                ----------
+Change-log:     2012/11/09
+                updated 12.10 -> 12.12
+Current:	2013/01/12

@@ -1,0 +1,21 @@
+Title:          kmaps.tcz
+Description:    All keymaps from kbd converted to kmaps
+Version:        1.15.2-2
+Author:         Various
+Original-site:  ftp://ftp.altlinux.com/pub/people/legion/kbd
+Copying-policy: GPL
+Size:		140K
+Extension_by:   Curaga
+Tags:	    All keymaps kbd converted kmaps
+Comments:       All keymaps available in kbd converted to the
+		binary kmap format used in Busybox.
+-
+		The two thai keymaps, th-latin1 and th-win-latin1, are from
+		http://linux.thai.net/pub/thailinux/cvs/software/thai-console-data/keymaps/
+Change-log:     2008/07/05 - First version
+		2010/01/31 - Update to 1.15.1
+		2010/02/12 - Added thai keymaps
+		2010/06/02 - Updated dvorak and dvorak-r
+		2010/12/14 - Update to 1.15.2. NOTE: changed structure!
+		2010/12/16 - Restored dvorak.kmap from Jun 2nd
+Current:        2010/12/22 - Updated conversion script w/ feedback, re-converted 1.15.2

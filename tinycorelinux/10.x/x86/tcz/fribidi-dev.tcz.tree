@@ -1,0 +1,19 @@
+fribidi-dev.tcz
+   fribidi.tcz
+      glib2.tcz
+         libffi.tcz
+   glib2-dev.tcz
+      glib2-python.tcz
+         glib2.tcz
+            libffi.tcz
+         python3.6.tcz
+            openssl.tcz
+            sqlite3.tcz
+            gdbm.tcz
+            bzip2-lib.tcz
+            liblzma.tcz
+            readline.tcz
+               ncursesw.tcz
+      libffi-dev.tcz
+         libffi.tcz
+

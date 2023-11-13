@@ -1,0 +1,25 @@
+Title:		postgresql-12-dev.tcz
+Project:	postgresql
+Description:	PostgreSQL Database Management System development
+Version:	12.5
+Author:		PostgreSQL Global Development Group
+Original-site:	http://www.postgresql.org
+Copying-policy:	PostgreSQL License
+Size:		7.3M
+Extension_by: 	andyj
+Tags:		postgresql database client server development
+Comments:	Advanced database which is ACID compliant, has strong ANSI-SQL:2008
+		compliance, full foreign key support, supports subqueries and subselects,
+		joins, views, triggers, and stored procedures.
+		Procedural languages supported:
+		PG SQL, Perl 5, Python 3.6, Tcl 8.6, C/C++
+		Compiled for support for 128 character object names for compatibility
+		----
+Change-log:	2019/10/19 First version, 12.0
+		2019/11/24 updated to version 12.1
+		2020/02/06 recompiled for TC 11.x, updated python from 2.7 to 3.6
+		2020/02/28 updated to version 12.2
+		2020/06/13 updated to version 12.3
+		2020/09/11 updated to version 12.4
+Current:	2021/01/23 updated to version 12.5, compiled for TC 12.x
+

@@ -1,0 +1,22 @@
+Title:          libcups.tcz
+Description:    cups libraries
+Version:        1.6.2
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 232KB
+Extension_by:   juanito
+Tags:	        cups libs
+Comments:       common unix printing system libraries
+                ----------
+                howto print from a cups client to cups server
+                create a file of the form:
+                $ cat /usr/local/etc/cups/client.conf
+                ServerName 192.168.1.200
+                and replace with the ip address of your cups server
+                ----------
+                This extension contains:
+                cups-1.6.2 - lGPLv2 - ftp://ftp.easysw.com/pub/cups/1.6.2/cups-1.6.2-source.tar.bz2
+                ----------
+Change-log:     first version
+Current:        2013/04/17

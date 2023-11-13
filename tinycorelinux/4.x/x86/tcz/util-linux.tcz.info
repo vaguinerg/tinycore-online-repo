@@ -1,0 +1,18 @@
+Title:          util-linux.tcz
+Description:    Miscellaneous system utilities for Linux
+Version:        2.19.1
+Author:         Karel Zak 
+Original-site:  http://userweb.kernel.org/~kzak/util-linux-ng/
+Copying-policy: GPL
+Size:		640K
+Extension_by:   Jason W
+Tags:	    Miscellaneous system utilities Linux
+Comments:	Also patched to look for helper programs (like mount.nfs)
+		in /usr/local/sbin.
+Change-log:     2009/07/01 First version 2.14.2
+		2009/11/15 Added back in loop-aes patched 
+		mount and losetup.
+		2009/11/16 Updated to 2.16.1 and patched with loop-aes-3.2h.
+                2010/05/29 Updated to 2.17.2
+		2011/08/19 Updated to 2.19.1, renamed (juanito)
+Current:	2011/11/19 Split out cfdisk. (Jason W)

@@ -1,0 +1,32 @@
+sox-dev.tcz
+   sox.tcz
+      alsa.tcz
+         alsa-modules-3.16.6-tinycore.tcz
+            input-joystick-3.16.6-tinycore.tcz
+         libasound.tcz
+         ncurses.tcz
+      alsa-config.tcz
+         alsa.tcz
+            alsa-modules-3.16.6-tinycore.tcz
+               input-joystick-3.16.6-tinycore.tcz
+            libasound.tcz
+            ncurses.tcz
+         pci-utils.tcz
+            libpci.tcz
+      libpng.tcz
+      gcc_libs.tcz
+      libid3tag.tcz
+      libmad.tcz
+      libao.tcz
+         libasound.tcz
+      lame.tcz
+         ncurses.tcz
+      twolame.tcz
+         libsndfile.tcz
+            flac.tcz
+               libogg.tcz
+            libvorbis.tcz
+               libogg.tcz
+         libvorbis.tcz
+            libogg.tcz
+

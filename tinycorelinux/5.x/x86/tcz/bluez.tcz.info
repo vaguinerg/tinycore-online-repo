@@ -1,0 +1,75 @@
+Title:          bluez.tcz
+Description:    bluetooth stack
+Version:        4.101
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 1MB
+Extension_by:   juanito
+Tags:           bluetooth
+Comments:       Official Linux Bluetooth protocol stack
+                ----------
+                Optionally can use the alsa/pulseaudio extensions for sound over bluetooth.
+                Optionally can use the gstreamer and gstplugins-base extensions
+                Optionally can use the obex and fuse extensions to transfer files
+                ..and mount file systems over bluetooth.
+                Optionally can use the bluez-gnome/blueman extensions and deps to pair
+                Optionally can use the python, dbus-python and pygobject..
+                extensions with simple-agent to pair
+                ----------
+                This extension contains:
+                bluez-4.101 - GPLv2 - http://www.kernel.org/pub/linux/bluetooth/bluez-4.101.tar.xz
+                ----------
+                Howto:
+                $ sudo /usr/local/etc/init.d/bluez [start|stop|restart|status]
+                ..in my case, this loads all required modules
+                ----------
+                Howto pair:
+                $ echo "0000" | simple-agent hci0 00:1B:66:00:31:88 [0000 for a bt headset]
+                Release
+                New device (/org/bluez/11538/hci0/dev_00_1B_66_00_31_88)
+                ...
+                Howto connect to pulseaudio stream:
+                $ dbus-send --print-reply --system --dest=org.bluez /org/bluez/11538/hci0/dev_00_1B_66_00_31_88 org.bluez.AudioSink.Connect
+                method return sender=:1.1 -> dest=:1.17 reply_serial=2
+                ----------
+                To enable sound with alsa:
+                $ cp /etc/alsa/example_.asoundrc /home/tc
+                edit the bluetooth address
+                ..to test bt headphones
+                $ aplay -Dplug:bluetooth -v /usr/local/share/sounds/alsa/Noise.wav
+                ..to test bt headset "testing, testing, 1, 2, 3.."
+                $ arecord -D bluetooth -f S16_LE | aplay -D bluetooth -f S16_LE
+                ----------
+                To enable sound with pulseudio:
+                use blueman-2.7 to pair
+                right-click on bt headphones and select "trust" and "audio sink"
+                use pavucontrol to select bt headphones as output device
+                use rhythmbox-2.7 to play to bt headphones
+                ----------
+Change-log:     2009/05/01
+                Added simple-agent and other applets, updated 4.37 -> 4.41
+                2009/06/17
+                Added pand support, updated 4.41 -> 4.43
+                2009/06/17
+                updated 4.43 -> 4.53, moved /etc/bluetooth, dbus-1, udev -> /usr/local
+                added bluetooth cups printer support
+                2009/09/22
+                removed start on loading extension
+                2010/01/31
+                updated 4.53 -> 4.63, added gstreamer support
+                2010/04/11
+                updated init.d script to pass status to services app
+                2010/05/28
+                updated 4.63 -> 4.80
+                2010/11/29
+                updated 4.80 -> 4.81 and stripped out dev files
+                2011/01/07
+                updated 4.81 -> 4.96 and recompiled on tc-4
+                2011/08/31
+                updated 4.96 -> 4.99
+                2012/04/29
+                updated 4.99 -> 4.101, added in *conf to (re)enable a2dp, etc
+                2012/07/21
+                updated audio.conf for pulseaudio-4
+Current:        2013/07/17

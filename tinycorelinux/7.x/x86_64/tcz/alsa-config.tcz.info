@@ -1,0 +1,30 @@
+Title:          alsa-config.tcz
+Description:    alsa sound
+Version:        1.1.0
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size:		928KB
+Extension_by:   juanito/jasonw
+Tags:	        alsa sound audio
+Comments:       Advanced Linux Sound Architecture config and test files,
+                which may only be required for legacy/exotic hardware
+                ----------
+                If loading alsa-config followed by alsa doesn't work, try:
+                $ sudo /usr/local/etc/init.d/alsasound start
+		If adding this command to bootlocal.sh, you may need
+		to precede it with the sleep command for it to be effective.
+                ----------
+                To test sound, use alsamixer to un-mute the master and then:
+                $ speaker-test [-Ddefault:1] -c2 -t wav -l1
+                [change default to suit multiple cards]
+                ----------
+                This extension contains:
+                alsa-lib-1.1.0 - LGPLv2.1 - http://alsa.cybermirror.org/lib/alsa-lib-1.1.0.tar.bz2
+                alsa-utils-1.1.0 - GPLv2 - http://alsa.cybermirror.org/utils/alsa-utils-1.1.0.tar.bz2
+                ----------
+Change-log:	2011/11/14 Separated out alsa-config config files.
+                2012/01/17 Updated to alsa-lib-1.0.24.1/alsa-utils-1.0.24.2
+                2013/06/21 Updated to alsa-lib-1.0.27.1/alsa-utils-1.0.27.1
+                2014/10/07 updated 1.0.27.2 -> 1.0.28, moved speaker test files to this extension
+Current:	2015/12/14 updated 1.0.28 -> 1.1.0

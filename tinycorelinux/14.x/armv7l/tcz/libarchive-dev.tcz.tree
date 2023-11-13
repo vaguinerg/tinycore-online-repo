@@ -1,0 +1,29 @@
+libarchive-dev.tcz
+   libarchive.tcz
+      openssl.tcz
+         ca-certificates.tcz
+      libacl.tcz
+         libattr.tcz
+      lzo.tcz
+      bzip2-lib.tcz
+      libxml2.tcz
+         liblzma.tcz
+   openssl-dev.tcz
+      openssl.tcz
+         ca-certificates.tcz
+   acl-dev.tcz
+      acl.tcz
+         libacl.tcz
+            libattr.tcz
+      attr-dev.tcz
+         attr.tcz
+            libattr.tcz
+   lzo-dev.tcz
+      lzo.tcz
+   bzip2-dev.tcz
+      bzip2.tcz
+         bzip2-lib.tcz
+   libxml2-dev.tcz
+      libxml2.tcz
+         liblzma.tcz
+

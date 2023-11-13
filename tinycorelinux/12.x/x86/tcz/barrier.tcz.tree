@@ -1,0 +1,24 @@
+barrier.tcz
+   qt-5.x-opengl.tcz
+      qt-5.x-dbus.tcz
+      gst-plugins-base.tcz
+         gstreamer.tcz
+            glib2.tcz
+               libffi.tcz
+         libtheora.tcz
+            libogg.tcz
+         libvorbis.tcz
+            libogg.tcz
+         libasound.tcz
+         libopus.tcz
+   avahi.tcz
+      libavahi.tcz
+         dbus.tcz
+            expat2.tcz
+         gcc_libs.tcz
+         glib2.tcz
+            libffi.tcz
+      libdaemon.tcz
+      nss-mdns.tcz
+      expat2.tcz
+

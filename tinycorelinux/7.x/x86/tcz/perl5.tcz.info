@@ -1,0 +1,26 @@
+Title:          perl5.tcz
+Description:    Practical Extraction and Report Language
+Version:        5.22.0
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 13.0M
+Extension_by:   juanito
+Tags:	        Practical Extraction Report Language
+Comments:       a high-level, general-purpose, interpreted, dynamic programming..
+                ..language. Perl was originally developed by Larry Wall, as a..
+                ..general-purpose scripting language to make report..
+                ..processing easier
+                ----------
+                This extension contains:
+                perl-5.22.0 - GPLv1 - http://www.cpan.org/src/5.0/perl-5.22.0.tar.bz2
+                ----------
+Change-log:     2009/01/11 first version
+                2009/05/18 re-compiled for tc_2.x, edited Makefile and config.sh for tc cflags/cppflags
+                2009/10/02 updated 5.10.0 -> 5.10.1, re-compiled with static libperl without threads
+                2011/09/30 updated 5.10.1 -> 5.14.1
+                2013/03/23 updated 5.14.1 -> 5.16.3
+                2014/07/02 addded symlink /usr/bin/perl
+                2014/09/18 updated 5.16.3 -> 5.20.0
+                2014/11/27 added /usr/bin/perl symlink
+Current:        2015/10/02 updated 5.20.0 -> 5.22.0

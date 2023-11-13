@@ -1,0 +1,21 @@
+Title:		wmi.tcz
+Description:	Connector to connect to WMI on Windows
+Version:	1.3.13
+Author:		Zenoss
+Original-site:	http://Zenoss.org
+Copying-policy:	GNU GPL v2
+Size:		13M
+Extension_by:	KHarvey
+Tags:		wmi zenoss
+Comments:	To building this app just run:
+		export ZENHOME=/usr/local/wmi
+		make DESTDIR=/usr/local/wmi/
+		To run a query against WMI on a Windows box run:
+		wmic -U <domainname>\\<username>%<password> //<remote computer> "<query>"
+		Example:
+		wmic -U xyz\\BobTBuilder%Password123 //xyzfileserver "SELECT OperatingSystemSKU FROM Win32_OperatingSystem"
+		-------
+		Compiled for TC 4.5.6
+		-------
+Change-log:	2012/09/19 First Version
+Current:	2012/09/19 FirstVersion

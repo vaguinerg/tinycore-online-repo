@@ -1,0 +1,12 @@
+meson.tcz
+   python3.8-setuptools.tcz
+      python3.8.tcz
+         bzip2-lib.tcz
+         gdbm.tcz
+         liblzma.tcz
+         openssl.tcz
+            ca-certificates.tcz
+         readline.tcz
+         sqlite3.tcz
+   ninja.tcz
+

@@ -1,0 +1,19 @@
+Title:          apulse.tcz
+Description:    PulseAudio emulation for ALSA
+Version:        0.1.13
+Author:         Rinat Ibragimov 
+Original-site:  https://github.com/i-rinat/apulse
+Copying-policy: accompanied
+Size:           48K
+Extension-by:   aus9
+Tags:           alsa
+Comments:       Designed to allow (mainly) firefox to run 
+                without pulseaudio. 
+                $ tce-load -i alsa-utils
+                $ speaker-test 
+                # ......Optional adjust alsamixer levels
+                $ apulse firefox https://youtu.be/enuOArEfqGo
+
+Change-log:     2020/10/05 Original 0.1.13 on 12x
+                2020/10/21 only analog sound card now visible YMMV
+Current:        2020/11/01 rebuilt against updated libasound  

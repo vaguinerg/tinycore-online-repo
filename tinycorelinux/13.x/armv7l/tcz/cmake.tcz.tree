@@ -1,0 +1,17 @@
+cmake.tcz
+   curl.tcz
+      openssl.tcz
+         ca-certificates.tcz
+   libarchive.tcz
+      openssl.tcz
+         ca-certificates.tcz
+      libacl.tcz
+         libattr.tcz
+      lzo.tcz
+      bzip2-lib.tcz
+      libxml2.tcz
+         liblzma.tcz
+   expat2.tcz
+   ncurses.tcz
+   libuv.tcz
+

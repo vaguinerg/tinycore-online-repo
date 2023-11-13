@@ -1,0 +1,21 @@
+ConsoleKit.tcz
+   eglibc_apps.tcz
+   expat2.tcz
+   glib2.tcz
+      libffi.tcz
+   Linux-PAM.tcz
+      cracklib.tcz
+      bsddb.tcz
+   polkit.tcz
+      glib2.tcz
+         libffi.tcz
+      expat2.tcz
+      Linux-PAM.tcz
+         cracklib.tcz
+         bsddb.tcz
+   dbus-glib.tcz
+      dbus.tcz
+         expat2.tcz
+      glib2.tcz
+         libffi.tcz
+

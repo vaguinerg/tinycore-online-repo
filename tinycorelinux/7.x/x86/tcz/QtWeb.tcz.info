@@ -1,0 +1,24 @@
+Title:          QtWeb.tcz
+Description:    QtWeb Portable Web Browser
+Version:        3.8.5
+Author:         Multiple, see Help > About > Credits
+Original-site:  http://qtweb.net/qtweb.html
+Copying-policy: GNU GPLv2
+Size:		13M
+Extension_by:   nitram
+Tags:           QtWeb Qt WebKit portable internet web browser
+Comments:       A fast, lightweight, portable open source browser based on
+                Nokia's Qt framework (former Trolltech) and Apple's WebKit
+                rendering engine (used in Apple Safari and Google Chrome).
+                Note:
+                _ Requires no additional dependencies
+                - Tested in both Xorg and Xvesa
+                - Downloads default to /home/tc, edit preferences
+                - Empty non-executable /usr/local/share/QtWeb/unins000.exe
+                  file indicates an installed version so user's .config
+                  and .local directories can be used for settings/cache
+                - The project has been archived, updates unlikely
+Change-log:     -----
+                Prepared for TC 6
+                -----
+Current:        2015/10/08 first version (nitram)

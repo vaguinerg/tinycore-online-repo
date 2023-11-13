@@ -1,0 +1,50 @@
+Title:		nvidia-390.87-4.14.10-tinycore64.tcz
+Description:    NVIDIA x86_64 Linux Driver, GLX modules, Nvidia Settings GUI
+Version:        410.73
+Author:         NVIDIA
+Original-site:  http://www.nvidia.com
+Copying-policy: Proprietary
+Size:		45M
+Extension_by:   Arslan S., coreplayer2
+Tags:           NVIDIA Drivers, kernel module.
+Comments:       --------------
+                For supported products as lised here 
+                http://us.download.nvidia.com/XFree86/Linux-x86_64/384.90/README/supportedchips.html
+
+                Includes x86_64 kernel module, GLX libraries and settings GUI, 
+                built with Xorg-7.7-3d
+
+                Install onboot 
+                This extension must load before Xorg
+
+                Only if needed, create a /etc/X11/xorg.conf file
+                and add "Nvidia" entries as necessary eg:
+
+                Section "Device"
+                  Identifier     "Device0"
+                  Driver         "nvidia"
+                  VendorName     "NVIDIA Corporation"
+                EndSection
+
+                Or use "nvidia-xconfig", you may need to install
+                these additional dependencies:
+                Xorg-7.7-3d-dev.tcz
+                xorg-server-dev.tcz
+                pkg-config.tcz
+                autoconf.tcz
+                bash.tcz.
+                run "mkdir -p /etc/X11"
+                run "sudo nvidia-xconfig"
+                run "startx"
+                then add /etc/X11/xorg.conf to your backup
+
+Change-log:     --------------
+                2010/05/24 First Version 195.36.24
+	        2010/11/17 Updated to 260.19.21
+	        2011/08/20 Updated to 280.13
+	        2011/10/04 Rebuilt for kernel 3.0.3-tinycore64
+	        2012/04/18 Rebuilt for kernel 3.0.21-tinycore64 by robc
+                2012/09/26 Updated to 304.51
+	        2016/01/27 Updated to 352.63 for tc-7.x by coreplayer2
+	        2017/10/14 Updated to 384.90 for tc-8.x by coreplayer2
+Current:        2018/11/04 Updated to 390.87 for tc-9.x by coreplayer2

@@ -1,0 +1,59 @@
+Title:          lmms.tcz
+Description:    linux multimedia studio
+Version:        0.3.2
+Author:         pgib, tobydox
+Original-site:  http://www.alsa-project.org/
+Copying-policy: GPLv2
+Size: 9.6M
+Extension_by:   jls_legalize (unsenepopiu at tin dot it)
+Tags:	    multimedia studio
+Comments:       configure warnings:
+	 = You don't seem to have JACK-library installed and/or JACK-lib-development-
+	 = package is missing. This will disable support for JACK-transport.
+	 = This is no problem but you'll miss the great possibilities of interacting
+	 = with other sound-applications in realtime!
+	 = Consider installing the missing packages for using the full power of LMMS.
+	 =
+	 = You don't seem to have SDL_sound-library installed and/or SDL_sound-
+	 = development-package is missing. This means that you can only load samples
+	 = within LMMS if you have libsndfile and libvorbis installed!
+	 = Consider installing the missing packages for using the full power of LMMS.
+	 =
+	 = As the header file ladspa.h could not be found on your system, a version
+	 = shipped with LMMS will be used. This is no problem at all but generally
+	 = it's better to use files being customized to your system/distribution.
+	 = If you encounter problems related to LADSPA-support, try to install
+	 = LADSPA-SDK-package (ladspa-sdk, ladspa-dev or similiar) and run configure
+	 = again.
+	 =
+	 = You don't seem to have STK installed and/or STK-development-package
+	 = (Debian/Ubuntu: libstk0-dev) is missing. Without this package, the 
+	 = STK instrument plugins ("Mallets") won't be built.
+	 = Consider installing the missing packages for using the full power of LMMS.
+	 =
+	 = You don't seem to have Festival development files.
+	 = The SingerBot instrument plugin will be ignored.
+	 = Before enabling this plugin, bear in mind that it is still experimental.
+	 =
+ 	 = You don't seem to have installed WINE or it's development-packages (headers,
+	 = winegcc etc.) which are neccessary for building LMMS with built-in
+	 = VST-support.
+	 = If you do not intend to use VST-plugins with LMMS you can ignore this 
+	 = warning.
+	 = Consider installing the missing packages (Debian: libwine-dev,
+	 = Ubuntu: wine-dev, openSUSE: wine-devel) for using the full power of LMMS.
+	 =
+	
+	LMMS will be able to use 
+	        * ALSA for audio- and MIDI-input/output
+	        * OSS for audio- and MIDI-input/output
+	        * SDL for audio-output
+	        * libvorbis for encoding/decoding OGG-files
+	        * libsndfile for sample-decoding
+	        * LADSPA-plugins
+
+	---------------------------------
+	This extension is PPI compatible.
+	---------------------------------
+Changelog:      ------
+Current:        2009/19/05 Initial packaging

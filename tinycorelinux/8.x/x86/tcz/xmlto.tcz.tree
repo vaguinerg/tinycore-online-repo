@@ -1,0 +1,24 @@
+xmlto.tcz
+   bash.tcz
+      readline.tcz
+         ncurses.tcz
+   docbook_xsl.tcz
+      docbook_xml_dtd.tcz
+      libxml2-bin.tcz
+         libxml2.tcz
+            liblzma.tcz
+      libxslt.tcz
+         libxml2.tcz
+            liblzma.tcz
+   links.tcz
+      libtiff.tcz
+         liblzma.tcz
+         libjpeg-turbo.tcz
+      libpng.tcz
+      bzip2-lib.tcz
+      openssl.tcz
+      libX11.tcz
+         libxcb.tcz
+            libXau.tcz
+            libXdmcp.tcz
+

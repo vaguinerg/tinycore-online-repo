@@ -1,0 +1,39 @@
+Title:          getFlash_beta.tcz (Beta)
+Description:    Script to download & Create flash_beta.tcz  (x86_64 version)
+Version:        0.1
+Author:         roberts (Original)
+Original-site:  http://www.tinycorelinux.com
+Copying-policy: GPL
+Size:		36K
+Extension_by:   roberts, Jason W, robc, coreplayer2
+Tags:		adobe flash player flashplayer flash beta
+Comments:	This script has been modified to download the 
+		latest Flash Beta (currently v24.x) from Adobe.
+.
+		CAUTION-1: Please uninstall all prior Flash versions before continuing.
+		CAUTION-2: The Flash Player beta is designed for evaluation purposes only. 
+		We do not recommended that this release be used on production systems or 
+		for any mission-critical work.
+.
+		Extracts linux libflashplayer.so
+		Setup libflashplayer for either Minefield, Firefox, Opera, 
+		Seamonkey or all four. 
+.
+		Also includes re-compiled libflashsupport.so module
+		for pulseaudio5. NOTE: pulseaudio5.tcz will be needed
+		libflashsupport is licensed under Creative 
+		Commons Attribution 3.0.
+		src from "git-clone http://git.0pointer.de/repos/libflashsupport.git/"
+.
+		Finally packages a flash_beta.tcz to add with your tcz collection.
+.
+		NOTE:  Upon first time loading of this extension, the getflash_beta.sh
+		script is automatically run.  Later, if you want to update your flash_beta.tcz, 
+		run getflash_beta extension and following the directions given regards rebooting.
+.
+		flash_beta.tcz will be loaded upon completion of the getflash_beta script.
+
+
+Change-log:	2008/12/11 Original
+		2016/11/06 Updated for current Flash Beta  (coreplayer2)
+Current:	2016/11/12 Added support for custom onboot lists (coreplayer2)

@@ -1,0 +1,21 @@
+Title:          sshfs.tcz
+Description:    ssh filesystem client
+Version:        3.7.0
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 28KB
+Extension_by:   juanito
+Tags:	        ssh fuse filesystem
+Comments:       ssh filesystem client
+                useful for mounting a remote computer that you have ssh access to
+                as a local filesystem, allowing you to drag and drop files, etc
+                ----------
+                $ sshfs -p 22 juanito@xxx.xxx.xxx.xxx:/home/juanito ~/test
+                $ fusermount -u ~/test
+                ----------
+                This extension contains:
+                sshfs-fuse-3.7.0 - GPLv2 - https://github.com/libfuse/sshfs/releases/download/sshfs-3.7.0/sshfs-3.7.0.tar.xz
+                ----------
+Change-log:     2016/04/12 first version
+Current:        2020/08/07 updated 2.5 -> 3.7.0, renamed

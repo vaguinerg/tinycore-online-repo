@@ -1,0 +1,24 @@
+Title:          surfraw.tcz
+Description:    Shell User's Revolutionary Front Rage Against the Web
+Version:        2.2.8
+Author:         Julian Assange et. al 
+Original-site:  surfraw.alioth.debian.org
+Copying-policy: Public Domain
+Size:		100K
+Extension_by:   solorin
+Tags:	    Shell User's Revolutionary Front Rage Against Web
+Comments:       Surfraw's default browser is set to conkeror, because that 
+                was installed when the package was made. :P
+                To configure with the text browser elinks for example, edit 
+                .surfraw.conf with the following:
+                SURFRAW_text_browser=/usr/local/bin/elinks                    
+                SURFRAW_graphical=no 
+                You will need perl for many search scripts(elvi), such as 
+                google, to work. 
+                From the docs: If you wish to run the elvi directly, run 
+                "surfraw-update-path" to append /usr/local/lib/surfraw to 
+                your $PATH in your shell's config files. 
+                For any further clarification refer to website or docs in 
+                surfraw-doc.tcz. 
+Change-log:     11/16/11 Initial build
+Current:        11/16/11 Initial build

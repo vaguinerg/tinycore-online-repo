@@ -1,0 +1,18 @@
+Title:          mesa-vulkan-rpi4.tcz
+Description:    rpi4 vulkan driver
+Version:        20.2.0
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 800KB
+Extension_by:   juanito
+Tags:           graphics vulkan
+Comments:       rpi4 vulkan driver
+                ----------
+                requires dtoverlay=vc4-kms-v3d-pi4 and Xorg-3d or weston
+                ----------
+                This extension contains:
+                wip/igalia/v3dv - GPLv2 - https://gitlab.freedesktop.org/apinheiro/mesa/-/tree/wip/igalia/v3dv
+                ----------
+Change-log:     first version
+Current:        2020/06/22

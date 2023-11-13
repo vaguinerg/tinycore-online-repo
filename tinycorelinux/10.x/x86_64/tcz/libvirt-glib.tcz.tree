@@ -1,0 +1,31 @@
+libvirt-glib.tcz
+   libvirt.tcz
+      libnl.tcz
+      liblvm2.tcz
+         udev-lib.tcz
+      libavahi.tcz
+         dbus.tcz
+            expat2.tcz
+            elogind.tcz
+               acl.tcz
+                  attr.tcz
+               libcap.tcz
+                  attr.tcz
+         gcc_libs.tcz
+         glib2.tcz
+            libffi.tcz
+            pcre.tcz
+      cyrus-sasl.tcz
+         openssl-1.1.1.tcz
+      libssh2.tcz
+         openssl.tcz
+      libgcrypt.tcz
+         libgpg-error.tcz
+      curl.tcz
+         ca-certificates.tcz
+            openssl.tcz
+      libyajl.tcz
+      libxml2.tcz
+         liblzma.tcz
+      libtirpc.tcz
+

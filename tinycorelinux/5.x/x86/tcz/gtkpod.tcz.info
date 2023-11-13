@@ -1,0 +1,29 @@
+Title:          gtkpod.tcz
+Description:    iPod/iPhone/iPad interface
+Version:        2.1.4
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 928KB
+Extension_by:   juanito
+Tags:	        ipod iphone ipad utility gtk+ gtk3
+Comments:       a graphical user interface for the Apple iPod for Unix-like systems,
+                written using the GTK+ toolkit
+                ----------
+                Howto:
+                use ifuse to mount your device at /media/ipod
+                ..or elsewhere, but modify ~/.gtkpod/prefs to suit
+                ..or make yourself a udev rule to mount your iP* automatically
+                ----------
+                This extension contains:
+                gtkpod-2.1.4 - GPLv2 - http://sourceforge.net/projects/gtkpod/files/gtkpod/gtkpod-2.1.4.tar.bz2
+                ----------
+Change-log:     2011/05/10
+                updated 2.0.0 -> 2.0.1
+                2011/05/14
+                recompiled against latest gnutls, libimobiledevice
+                2012/06/30
+                updated 2.0.1 -> 2.1.3
+                2013/07/27
+                updated 2.1.3 -> 2.1.4
+Current:        2014/01/26

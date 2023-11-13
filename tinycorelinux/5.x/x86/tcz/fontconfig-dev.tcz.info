@@ -1,0 +1,18 @@
+Title:          fontconfig-dev.tcz
+Description:    Library for font configuration - dev files
+Version:        2.11.0
+Author:         Keith Packard.
+Original-site:  www.fontconfig.org/
+Copying-policy: GPL
+Size: 		12KB
+Extension_by:   Jason W
+Tags:	        font configuration dev
+Comments:       This along with fontconfig is required for 
+		compiling apps dependent on fontconfig.
+Change-log:     2008/08/05 First version
+                2008/10/22 Rebuilt to adjust sysconfdir.
+        	2008/12/04 Rebuilt for i486 and size.
+		2009/05/21 Fixed expat.la path
+                2010/02/21 Updated to 2.8.0
+                2013/07/08 *la adjusted for tc-5.x (juanito)
+Current:	2013/11/07 updated to 2.11.0 (juanito)

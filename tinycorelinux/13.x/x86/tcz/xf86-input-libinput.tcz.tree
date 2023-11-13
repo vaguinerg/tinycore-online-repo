@@ -1,0 +1,12 @@
+xf86-input-libinput.tcz
+   libinput.tcz
+      mtdev.tcz
+      libevdev.tcz
+      udev-lib.tcz
+         glib2.tcz
+            libffi.tcz
+      libwacom.tcz
+         udev-lib.tcz
+            glib2.tcz
+               libffi.tcz
+

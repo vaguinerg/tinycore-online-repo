@@ -1,0 +1,29 @@
+Title:          ntop.tcz
+Description:    Network Traffic Probe (TESTING)
+Version:        4.0.3
+Author:         Luca Deri
+Original-site:  http://www.ntop.org/
+Copying-policy: GPLv2
+Size:		29M
+Extension_by:   robc
+Tags:	    Network Traffic Probe 
+Comments:		This package requires python, geoip,
+		libgdbm, libpcap, rrdtool, and their deps.
+		
+		NOTE: /usr/local/share/ntop and its contents
+		must be owned by the user that will use ntop.
+		It is set to $USER:staff upon installation.
+		
+		----------------------------------------------
+		
+		Please see the man page for additional 
+		information. 
+		
+		Also see http://www.ntop.org/
+		for more information.
+		
+		----------------------------------------------
+		
+Change-log:     2009/08/12 Original
+		2010/11/09 Updated to v4.0.3
+Current:	2010/11/09 Updated to v4.0.3

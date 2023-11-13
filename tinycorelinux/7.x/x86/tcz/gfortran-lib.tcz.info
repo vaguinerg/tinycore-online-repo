@@ -1,0 +1,23 @@
+Title:          gfortran-lib.tcz
+Description:    GNU fortran compiler libraries
+Version:        5.2.0
+Author:         GNU
+Original-site:  http://gcc.gnu.org/fortran/
+Copying-policy: GPLv2
+Size:		376KB
+Extension_by:   robc
+Tags:           GNU fortran compiler libraries
+Comments:
+		----------
+		Please see the man page for additional 
+		information. 
+		
+		Also see http://gcc.gnu.org/fortran/
+		for more information.
+		----------
+Change-log:     2009/05/11 Original
+		2009/06/03  Rebuilt for TC 2.X
+		2009/06/25 Rebuilt for seperate gcc and binutils, put in /usr/local
+		2010/11/03 Rebuilt for TC 3.x, updated to 4.4.3
+		2011/12/02 Split libs, force copy of compiler to fs
+Current:	2016/08/13 updated 4.6.1 -> 5.2.0 (juanito)

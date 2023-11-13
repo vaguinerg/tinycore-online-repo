@@ -1,0 +1,45 @@
+Title:          grub2.tcz
+Description:    The GNU GRand Unified Bootloader
+Version:        1.99
+Author:         Yoshinori K. Okuji, Jeroen Dekkers, Marco Gerards,
+		Omniflux, Vincent Pelletier, Hollis Blanchard,
+		Tomas Ebenlendr, Guillem Jover, Vesa Jaaskelainen
+Original-site:  www.gnu.org/software/grub/
+Copying-policy: GPL
+Size:		1.5M
+Extension_by:   Jason W
+Tags:	    GNU GRand Unified Bootloader
+Comments:       This extension is PPI compatible.
+		Be sure to not have any other versions of grub
+		installed when using this one.
+		For a basic usage, install this package and then
+		issue this command if your boot device is /dev/hda
+		and your boot directory is /mnt/hda2/boot:	
+		------
+		sudo grub-install --no-floppy --root-directory=/mnt/hda2 /dev/hda
+		------
+		Then create a basic config file in /mnt/hda2/boot/grub/
+		named grub.cfg. Below is one that would work with the above
+		scenario assuming you have bzImage and tinycore.gz located
+		in /mnt/hda2/boot:
+		------
+		##begin file
+		menuentry "Tinycore 3" {
+		linux /boot/bzImage quiet home=hda2 showapps
+		initrd /boot/tinycore.gz
+		}
+		##end file
+		------
+		Refer to grub2 documentation for a more elaborate stetup
+		or how to multiboot other OS's.  Also, a wiki page
+		is located at http://wiki.tinycorelinux.com/gfx.
+		There is presently no automatic grub setup as the 
+		grub binaries need the / directory mounted to a device
+		to work.  So manual grub.cfg creation is necessary at
+		this time.
+		------
+Change-log:     --------
+		2010/07/03 First version 1.98
+Current:	2011/05/22 Update to 1.99
+
+

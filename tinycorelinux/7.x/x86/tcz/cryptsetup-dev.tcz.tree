@@ -1,0 +1,24 @@
+cryptsetup-dev.tcz
+   cryptsetup.tcz
+      libgcrypt.tcz
+         libgpg-error.tcz
+      popt.tcz
+      lvm2.tcz
+         raid-dm-4.2.7-tinycore.tcz
+         liblvm2.tcz
+            libdevmapper.tcz
+               udev-lib.tcz
+                  glib2.tcz
+                     gamin.tcz
+                     libffi.tcz
+         readline.tcz
+            ncurses.tcz
+         ncurses.tcz
+   libgcrypt-dev.tcz
+      libgcrypt.tcz
+         libgpg-error.tcz
+      libgpg-error-dev.tcz
+         libgpg-error.tcz
+   popt-dev.tcz
+      popt.tcz
+

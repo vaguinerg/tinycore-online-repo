@@ -1,0 +1,13 @@
+kaa-display-2.7.tcz
+   python.tcz
+      sqlite3.tcz
+      bzip2-lib.tcz
+   kaa-base-2.7.tcz
+      python.tcz
+         sqlite3.tcz
+         bzip2-lib.tcz
+      glib2.tcz
+         libffi.tcz
+   SDL.tcz
+      libmad.tcz
+

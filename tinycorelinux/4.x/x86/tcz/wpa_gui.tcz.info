@@ -1,0 +1,46 @@
+Title:		wpa_gui.tcz
+Description:	wpa_gui - extension made from wpa_supplicant
+Version:	2.0
+Author:		Jouni Malinen
+Original-site:	http://hostap.epitest.fi/wpa_supplicant
+Copying-policy:	GPLv2
+Size:		324K
+Extension_by:	gutmensch
+Tags:		
+Comments:	wpa_supplicant tools for Tiny Core Linux
+
+		GUI Interface:	
+		Load wpa_gui.tcz, open ControlPanel => Services and activate wpa_gui, then
+		start wpa_gui application from wbar and configure your wireless network.
+		After setting up your wireless network, choose "File -> Save Configuration" 
+		and put etc/wpa_gui.conf to your backup. On next boot, with wpa_gui.tcz loaded
+		it should automatically reconnect to your wireless network (without having the
+		need of starting wpa_gui again), when you put "/usr/local/etc/init.d/wpa_gui start"
+		to your bootlocal.sh.
+
+		Cmd line usage:
+		$ sudo su
+		$ wpa_passphrase YourSSID YourPassword > /etc/wpa_supplicant.conf
+		$ wpa_supplicant -Dwext -iwlan0 -c/etc/wpa_supplicant.conf -B
+		$ udhcpc -b -i wlan0 -h box -p /var/run/udhcpc.wlan0.pid
+		
+		Information:
+		Being connected to ethernet _and_ wireless with two DHCP client processes can
+		lead to problems like slow connections. As a solution setup a static IP address
+		on one of the devices.
+
+		IMPORTANT: 
+		You will most probably need firmware*.tcz extensions to use your wireless device!
+		Since there are lot of them like firmware-atheros, firmware, firmware-iwlwifi,
+		please check which vendor firmware belongs to your device.
+	   	--- 
+		This extension is PPI compatible.
+Change-log:	2008/12/01	Initial version 0.5.11 by dmoerner
+		2009/08/08	Bump to 0.6.9 by Juanito, fixed corrupted tcz by ^thehatsrule^
+		2011/06/17	Bump to 0.7.3
+		2011/06/28	Removed startup script
+		2011/12/05	Recompiled against openssl 1.0.0 and recompiled wpa_gui
+		2011/12/07	Added init script to ease the use of wpa_gui
+		2012/05/30	Bump to 1.0, support new libnl-3
+		2012/06/05	Updated wpa_gui init script to avoid multiple instances of udhcpc
+Current:	2013/04/14	Bump to 2.0

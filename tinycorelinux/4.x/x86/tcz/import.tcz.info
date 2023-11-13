@@ -1,0 +1,30 @@
+Title:          import.tcz
+Description:    Import Debian Packages to Tiny Core tcz format
+Version:        0.5
+Author:         Robert Shingledecker
+Original-site:  www.tinycorelinux.com
+Copying-policy: GPL
+Size:		4K
+Extension_by:   roberts
+Tags:		cli import debian tool utilities deb2tcz tcz
+Comments:       A console based tool to import Debian packages
+                It will produce a directory of tcz and dependencies from accessing a
+		Debian master index list.
+
+		************************************************************************
+		Warning: This will attempt to download the master index file.
+		It is a 27MB file. Be sure that you have your tce directory setup
+		on physical media!
+		************************************************************************
+
+		Subsequent use of import uses zsync to ensure the master index file
+		remains current.
+
+		Once tested, use the import flags to copy tczs to your regular tce 
+		directory then removed the pacakge directory. 
+Change-log:     
+		2012/09/29 v0.1 Original first cut.
+		2012/11/14 v0.2 Modular, now with full recursion, & downloads Master index.
+		2013/01/14 v0.3 Many enhancements to provide a smoother import experience.
+		2013/01/23 v0.4 Added ability to import for arm on Core x86.
+Current:	2013/01/29 v0.5 Enhanced mkcpio to generate .gzs and store in gzs directory

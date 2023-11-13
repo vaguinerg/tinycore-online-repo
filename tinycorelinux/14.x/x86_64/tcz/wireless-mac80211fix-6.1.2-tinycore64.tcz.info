@@ -1,0 +1,24 @@
+Title:          wireless-mac80211fix-6.1.2-tinycore64.tcz
+Description:    Wireless support
+Version:	mac80211fix-6.1.2-tinycore64
+Author:		Various
+Original-site:  http://kernel.org
+Copying-policy: GPL
+Size:		4.5M
+Extension_by:   gnuser
+Tags:		wifi mediatek mt7612u mt7610u hostapd wireless
+Comments: ----------
+  - includes patched mac80211 kernel module, which fixes 
+    kernel panic when using USB wireless adapters with mt7612u or mt7610u
+    chipset
+  - if you would like to use this patched version of the extension instead of 
+    the default version, do this:
+    $ tce-load -wi wireless-mac80211fix-KERNEL
+    $ cd /etc/sysconfig/tcedir/optional
+    $ mv wireless-mac80211fix-6.1.2-tinycore64.tcz wireless-6.1.2-tinycore64.tcz
+    $ rm wireless*-6.1.2-tinycore64.tcz.md5.txt
+    $ sed -i 's/mac80211fix-//' ../onboot.lst
+  - refs: https://tinyurl.com/bdhk3ru9 https://tinyurl.com/yevff3yb
+  ----------
+Change-log: ----------
+Current:        2023/01/21 Original

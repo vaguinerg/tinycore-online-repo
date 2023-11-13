@@ -1,0 +1,14 @@
+Title:          rng-tools.tcz
+Description:    Random number generator daemon
+Version:        6.16
+Author:         Neil Horman
+Original-site:  https://github.com/nhorman/rng-tools
+Copying-policy: GPL v2
+Size:           36k
+Extension_by:   paul-123
+Tags:           CLI DAEMON RANDOM
+Comments:       Binaries only
+                ----
+Change-log:     2020/06/07 First version
+                2020/10/30 Rebuilt for only /dev/hwrng to reduce dependancies.
+Current:        2023/05/11 Upgrade 6.10 -> 6.16

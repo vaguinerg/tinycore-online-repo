@@ -1,0 +1,40 @@
+Title:          pppsetup.tcz
+Description:    Dialup configuration utility.
+Version:        1.98
+Author:         Robert S. Liesenfeld, Kent Robotti
+Original-site:  http://linux.maruhn.com/sec/pppsetup.html
+Copying-policy: View /usr/local/share/pppsetup/README.pppsetup for copyright.
+Size: 24k
+Extension_by:   mcewanw
+Tags:	    Dialup configuration utility.
+Comments:       This extension will set up a dial up internet connection.
+
+		There are menu entries for setup, connecting and disconnecting.
+
+		Files that need to be in backup for configuration to persist
+                across reboots:
+
+		etc/ppp
+		etc/resolv.conf
+		usr/local/sbin/ppp-go
+
+		If you also include usr/local/bin/ppp-off, you can remove
+		pppsetup.tcz from the tce directory after setting up the
+		connection. If you do, menu entries are also removed. So connect
+		to the internet by typing "sudo ppp-go" in the terminal, and
+		disconnect by typing "sudo ppp-off."
+
+		If you are using tclocal mounting, then /etc/ppp and
+		/etc/resolv.conf are the only files that need to be backed up.
+
+		This extension requires pppd.tcz.
+		This extension is NOT PPI compatible.
+Change-log:     2008/12/29 First version (Jason W)
+                2009/01/06 Fixed script to place ppp-go in /usr/local/sbin.
+                2009/05/09 (mcewanw) Changed the default modem init string;
+                           added pppd option -am;
+			   fixed JWM menu to point to /usr/local/sbin/ppp-go
+	        2009/05/19 Removed spaces from JWM menu to make work with FLWM
+Current:        2009/11/10 Modified script to get the IP addresses of the domain
+			   name servers, and copy them to /etc/resolv.conf,
+			   instead of requiring them to be entered manually.

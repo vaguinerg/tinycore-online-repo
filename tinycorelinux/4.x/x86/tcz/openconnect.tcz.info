@@ -1,0 +1,20 @@
+Title:		openconnect.tcz
+Description:	openconnect - OSS solution for connections to Cisco AnyConnect VPN routers
+Version:	git678
+Author:		David Woodhouse (see /usr/local/share/doc/License/openconnect-authors.txt)
+Original-site:	http://www.infradead.org/openconnect.html
+Copying-policy:	LGPL
+Size:		356K
+Extension_by:	gutmensch
+Tags:		openconnect OSS solution connections Cisco AnyConnect VPN routers
+Comments:	Built with debugging symbols.
+
+		To connect to your VPN, openconnect.html suggests to run:
+		
+		$ openconnect --script /usr/local/etc/vpnc/vpnc-script https://vpn.yourcompany.com/
+		
+		For more information take a look into openconnect.html.
+	   	--- 
+		This extension is PPI compatible.
+Change-log:	
+Current:	2011/02/14	Initial version from git

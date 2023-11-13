@@ -1,0 +1,26 @@
+Title:		vmware-view-client-mk.tcz
+Description:	VMware View Client generator
+Version:	2.1.0-1 (1213173)
+Author:		Gene Cumm
+Copying-policy:	GPL-2
+Size:		4.0K
+Extension_by:	Gene Cumm
+Tags:		RDP client connect Windows PCoIP VMware Horizon View
+Comments:	Generate your own extension for the proprietary licensed
+		VMware Horizon View Client.
+
+		VMware Horizon View Client	lets you connect from a Linux or
+		Mac OS X desktop to remote Windows desktops managed by VMware
+		View.
+
+		- The generated extension contains content not licensed for
+		    redistribution
+		- The generated extension conflicts with
+		    vmware-view-open-client.tcz and vmware-view.tcz
+		- generated extension bug/quirk:
+		    Might not go full screen automatically; maximize vertically
+		    and horizontally
+
+Current:	2013/03/29 - 2.1.0-1 (1213173)
+Change-log:	2013/09/15 - 2.1.0-1 (1213173)
+		2013/03/29 - 1.7.0.0-1 (941674)

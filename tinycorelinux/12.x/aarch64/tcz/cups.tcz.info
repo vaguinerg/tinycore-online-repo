@@ -1,0 +1,32 @@
+Title:          cups.tcz
+Description:    printing tool 
+Version:        2.3.3
+Author:         Apple Inc
+Original-site:  https://github.com/apple/cups
+Copying-policy: accompanied
+Size:           5.1M
+Extension_by:   aus9
+Tags:           printing
+Comments:       No longer conflicts between the Cups libusb backend 
+                and the usblp kernel driver. Built with libusb for 
+                hopefully better usb support.
+               
+                optional: gutenprint or hplip TCEs
+
+                howto:
+                $ sudo /usr/local/etc/init.d/cups [start|stop|restart|status]
+                the root password needs to be set as root owns /usr/local/etc/cups
+                $ sudo passwd
+                At some stage in the process below use root and root password 
+                Ensure popups allowed in your web browser.
+
+                http://localhost:631/admin will start the browser interface
+                Do not click on "Find New Printers", first attempt click "add printer"
+                To persist across boots, add the following to your backup (remove leading "/"):
+                /usr/local/etc/cups/ppd/HP_OfficeJet_G85.ppd [for example]
+                /usr/local/etc/cups/printers.conf
+                /usr/local/etc/cups/cupsd.conf (only if you changed it)
+                /etc/shadow (if you want to save to root password
+ 
+Change-log:     2020/09/26 Original v 2.3.3 on 12x 
+Current:        2020/09/26    

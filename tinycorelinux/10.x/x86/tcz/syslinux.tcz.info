@@ -1,0 +1,36 @@
+Title:          syslinux.tcz
+Description:    extlinux/syslinux
+Version:        6.03
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 2.6MB
+Extension_by:   juanito
+Tags:	        extlinux syslinux boot loader efi efi32 uefi legacy bios 
+Comments:       extlinux and syslinux
+                optionally requires perl5 extension to use isohybrid, mkdiskimage, etc
+                ----------
+                bootloaders for MS-DOS FAT filesystems (SYSLINUX),
+                network booting (PXELINUX),
+                bootable "El Torito" CD-ROMs (ISOLINUX), and
+                Linux ext2/ext3/ext4 or btrfs filesystems (EXTLINUX).
+                ----------
+                Howto:
+                $ sudo mkdir -p /mnt/sda1/boot/extlinux
+                $ sudo extlinux -i /mnt/sda1/boot/extlinux
+                copy and rename config from tinycore iso...
+                $ sudo cp /path-to-file/isolinux.cfg /mnt/sda1/boot/extlinux/extlinux.conf
+                ----------
+                This extension contains:
+                syslinux-6.03 - GPLv2 - http://www.kernel.org/pub/linux/utils/boot/syslinux/syslinux-6.03.tar.xz
+                ----------
+Change-log:     2008/08/23 first version
+                2009/05/30 Re-compiled to /usr/local and upgraded 3.71 -> 3.81
+                2009/06/16 Added in mkdiskimage perl script and upgraded 3.81 -> 3.82
+                2009/06/18 Replaced syslinux with syslinux-nomtools, added mbr.bin
+                2009/06/18 Renamed extension extlinux -> syslinux
+                2009/07/01 Added isohybrid
+                2010/07/14 updated 3.82 -> 4.01
+                2012/01/11 updated 4.01 -> 4.05
+                2012/04/21 recompiled for better i486 compatibility
+Current:        2016/11/10 updated 4.05 -> 6.03

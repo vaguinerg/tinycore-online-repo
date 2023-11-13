@@ -1,0 +1,21 @@
+Title:          libssh2.tcz
+Description:    libssh2
+Version:        1.2.7 
+Author:         Simon Josefsson, Daniel Stenberg, Eli Fant, The Written Word, Inc., Mikhail Gusarov, Sara Golemon
+Original-site:  http://www.libssh2.org/
+Copying-policy: BSD
+Size:           60k
+Extension_by:   andriscom
+Tags:	    libssh2
+Comments:       libssh2 is a client-side C library implementing the SSH2 protocol
+
+                Built with CFLAGS: -march=i486 -mtune=i686 -Os -pipe
+                Built with CXXFLAGS: -march=i486 -mtune=i686 -Os -pipe
+                Built with LDFLAGS: -Wl,-O1
+                Built with the following options:
+                ./configure --prefix=/usr/local
+Source:         http://www.libssh2.org/download/libssh2-1.2.7.tar.gz
+Change-log:     
+                2010/11/06 Version: 1.2.7
+Current:        2010/11/06 Version: 1.2.7
+

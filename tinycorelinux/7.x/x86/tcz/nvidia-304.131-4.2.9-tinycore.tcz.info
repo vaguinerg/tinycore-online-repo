@@ -1,0 +1,51 @@
+Title:          nvidia-304.131-4.2.9-tinycore.tcz
+Description:	NVIDIA x86 Linux Driver, GLX modules, Nvidia Settings GUI
+Version:	304.131
+Author:		NVIDIA
+Original-site:	http://www.nvidia.com
+Copying-policy:	Proprietary
+Size:		26M
+Extension_by:	Arslan S.
+Tags:		NVIDIA Drivers, kernel module.
+Comments:	--------------
+		For supported products as lised here 
+		http://www.nvidia.com/download/driverResults.aspx/95158/en-us
+		or
+		http://us.download.nvidia.com/XFree86/Linux-x86/304.131/README/supportedchips.html
+
+		Includes x86 kernel module, GLX libraries and settings GUI, 
+		built with Xorg-7.7-3d
+
+		Install onboot 
+		This extension must load before Xorg
+
+		Then create a /etc/X11/xorg.conf file
+		and add "Nvidia" entries as necessary eg:
+
+		Section "Device"
+		    Identifier     "Device0"
+		    Driver         "nvidia"
+		    VendorName     "NVIDIA Corporation"
+		EndSection
+
+		Or use "nvidia-xconfig", you may need to install
+		these additional dependencies:
+		Xorg-7.7-3d-dev.tcz
+		xorg-server-dev.tcz
+		pkg-config.tcz
+		autoconf.tcz
+		bash.tcz.
+		run "mkdir -p /etc/X11"
+		run "sudo nvidia-xconfig"
+		run "startx"
+		then add /etc/X11/xorg.conf to your backup
+
+Change-log:     --------------
+		2012/03/23 Rebuilt for tc 4.4
+		2012/03/23 Rebuilt for tc 4.4
+		2012/09/26 Updated to 304.51
+		2014/06/16 Rebuilt for tc-5.x
+Current:	2016/02/27 Updated to 304.131 for tc-7.x by coreplayer2
+
+
+

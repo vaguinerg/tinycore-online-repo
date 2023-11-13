@@ -1,0 +1,21 @@
+Title:          opencl_headers.tcz
+Description:    opencl headers
+Version:        2.2
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 56KB
+Extension_by:   juanito
+Tags:           opencl dev
+Comments:       opencl host headers
+                ----------
+                defaults to opencl-2.2
+                to change default:
+                #define CL_TARGET_OPENCL_VERSION 120 (for opencl-1.2)
+                #include <CL/opencl.h>
+                ----------
+                This extension contains:
+                OpenCL-Headers-2.2 - (c) khronos - https://github.com/KhronosGroup/OpenCL-Headers
+                ----------
+Change-log:     2017/09/25 first version
+Current:        2019/04/10 updated 2.0 -> 2.2

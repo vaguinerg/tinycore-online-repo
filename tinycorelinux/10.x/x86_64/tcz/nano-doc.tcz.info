@@ -1,0 +1,26 @@
+Title:          nano-doc.tcz
+Description:    docs for nano
+Version:        4.0
+Author:         see doc
+Original-site:  http://www.nano-editor.org
+Copying-policy: GPL v3
+Size:		128K
+Extension_by:   aus9 at gmx dot com
+Tags:           nano
+Comments:       Contains man page and some docs
+
+                Optional dep = nano
+                --in case you want to view color syntax html
+
+                Optional dep = texinfo
+                to view info eg  $ info nano
+                v4 has some display issues
+
+                Compiled for 10 x
+Change-log:     2015/08/01 first version
+                2017/05/05 v 2.8.1 (juanito)
+                2017/08/12 v 2.8.6 and color (aus9)
+                2017/08/12 v 2.8.7 
+                2018/03/23 v 2.9.4 compiled against ncursesw 
+                2018/12/15 v 3.2 change nanorc test
+Current:        2019/03/30 v 4.0   

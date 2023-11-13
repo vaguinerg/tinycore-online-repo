@@ -1,0 +1,25 @@
+gst-plugins-base-gir.tcz
+   gst-plugins-base.tcz
+      gstreamer.tcz
+         glib2.tcz
+            libffi.tcz
+      libtheora.tcz
+         libogg.tcz
+      libvorbis.tcz
+         libogg.tcz
+      libasound.tcz
+   gstreamer-gir.tcz
+      gstreamer.tcz
+         glib2.tcz
+            libffi.tcz
+      gobject-introspection.tcz
+         glib2.tcz
+            libffi.tcz
+         python.tcz
+            bzip2-lib.tcz
+            gdbm.tcz
+            openssl.tcz
+            readline.tcz
+               ncursesw.tcz
+            sqlite3.tcz
+

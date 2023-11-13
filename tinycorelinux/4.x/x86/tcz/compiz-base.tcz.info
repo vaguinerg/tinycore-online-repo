@@ -1,0 +1,40 @@
+Title:          compiz-base.tcz
+Description:    Compiz OpenGL Desktop Environment.
+Version:        1.0
+Author:         Sercan Arslan
+Original-site:  arslanserc@gmail.com
+Copying-policy: GPL
+Size:		4.0K
+Extension_by:   Arslan S.
+Tags:	    Compiz OpenGL Desktop Environment.
+Comments:       This is OpenGL Desktop based on compiz.
+
+		Before proceeding you need to setup hardware accelerated GLX (i.e. nvidia-glx, ati-fglrx)
+		if you don't have it already.
+
+		Installation:
+		1-) Install gconf schemas:
+			sudo update-gconf-database register-all
+		2-) Add to backup (/opt/.filetool.lst)
+			usr/local/etc/gconf/gconf.xml.defaults/%gconf-tree.xml
+
+		I have setup compiz with some plugins loaded by default
+		and intentionally left all remaining plugin selection to you.
+
+		You can select plugins with compizconfig settings manager (ccsm).
+
+		My plugin recommendations:
+		---------------------------------------
+		Rotate Cube or Wall
+		Ring Switcher or Shift Switcher
+		Expo
+		---------------------------------------
+
+		Important note: Keybindings may not be working when you are just logged into X session.
+		Restarting window manager solves this issue. You can restart compiz by executing the command "compiz".
+
+		This extension requires Xorg.
+		This extension is PPI compatible.
+Change-log:  	2010/05/27 First Version
+Current:     	2011/10/18 Tested for TC4
+

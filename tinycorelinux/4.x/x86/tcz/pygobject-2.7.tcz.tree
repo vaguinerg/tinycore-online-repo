@@ -1,0 +1,25 @@
+pygobject-2.7.tcz
+   glib2.tcz
+      libffi.tcz
+   gobject-introspection.tcz
+      glib2.tcz
+         libffi.tcz
+      libffi.tcz
+      cairo.tcz
+         pixman.tcz
+         fontconfig.tcz
+            expat2.tcz
+      Xorg-7.6-lib.tcz
+      python.tcz
+         sqlite3.tcz
+         bzip2-lib.tcz
+   pycairo-2.7.tcz
+      cairo.tcz
+         pixman.tcz
+         fontconfig.tcz
+            expat2.tcz
+      python.tcz
+         sqlite3.tcz
+         bzip2-lib.tcz
+   libffi.tcz
+

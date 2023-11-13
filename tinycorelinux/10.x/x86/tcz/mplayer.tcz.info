@@ -1,0 +1,22 @@
+Title:		mplayer.tcz  (Testing)
+Description:	Command line music/video player & encoder
+Version:	1.3.0
+Author:		A'rpi : Árpád Gereöffy et al.
+Original-site:  http://www.mplayerhq.hu
+Copying-policy: GPLv2
+Size:		2.1MB
+Extension_by:	moB
+Tags:		Multimedia player transcoder encoder rip subtitles command line
+Comments:	Play audio and video with mplayer.
+		Manipulate media with mencoder.
+		Icon on wbar loads large easy to read CLI.
+		Options:
+		To change size/colors edit ~/.mplayer/termvar
+		In terminal do "font_demo" for examples.
+		If you mess it up don't panick - restart your system,
+		be sure mplayer.tcz is not set as onboot, delete file.
+		It will be restored to new state on next mplayer load.
+		See docs for mplayer & mencoder manuals.
+Change-log:	14/05/19 first version
+                14/11/21 recompiled for i486 (juanito)
+Current:	18/01/24 updated 1.1.1 -> 1.3.0 (juanito)

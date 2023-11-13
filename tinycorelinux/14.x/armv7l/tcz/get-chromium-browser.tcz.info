@@ -1,0 +1,27 @@
+Title:          get-chromium-browser.tcz
+Description:    Script to get latest chromium-browser package from RaspiOS
+Version:        1
+Author:         Tinycore
+Original-site:  Tinycore
+Copying-policy: open source
+Size:           16k
+Extension_by:   aus9/paul-123
+Tags:           web browser chromium
+Comments:       from a shell prompt run "get-chromium-latest.sh"
+
+                Proceed at your own risk, script attempts to
+                download a debian browser and its codec package
+                -> create TCE & inject it into your TCEDIR
+
+                You will need over 500MB of free ram or free space
+                to download and build package. The final extension is about
+                150MB
+
+                When script has finished and you have loaded TCE,
+                wbar icon should launch or try terminal command
+                $ chromium-browser
+
+                Example startup scripts in /usr/local/share/get-chromium-browser/files
+
+Change-log:     2023/07/29 v 1 on 14.x  arm7(l) or aarch64
+Current:        2023/07/29

@@ -1,0 +1,39 @@
+Title:          sakura.tcz
+Description:    gtk3 terminal
+Version:        3.7.0
+Author:         David Gomez Espinosa
+Original-site:  https://launchpad.net/sakura
+Copying-policy: GPL v2
+Size:           36K                   
+Extension_by:   aus9
+Tags:           terminal 
+Comments:       Terminal for gtk3 users. Can support UTF-8
+
+                Does not have a menu bar but has a context menu (GUI)
+                First run creates the config file at ~/.config/sakura/sakura.conf 
+                or to start afresh delete config and re-run the term.
+               
+                NO font dep has been set, but a default has been attempted.
+                Do not edit that file for font names or sizes please.
+                I noticed a diff in font names so I recommend you use
+                context menu -> options -> select font
+                eg Sans Regular 16  
+                Config line reads Sans 16
+
+                The config file does not mention that the action keys
+                for certain keyboard combos is hold Ctrl and Shift = C+S
+                Toggle on/off scroll  C+S s  (or use GUI)
+                Copy = C+S  c (or use GUI)
+                Paste = C+S v (or use GUI)
+
+                The "+" sign is used for next line.
+                Increase/decrease font size = C "+" / C -
+                
+                online help
+                http://www.troubleshooters.com/linux/sakura.htm
+
+                Optional dep for GUI is adwaita-icon-theme to get - and + buttons
+
+Change-log:     2019/01/03 v 3.6.0
+Current:        2020/04/17 v 3.7.0 on 11x 
+ 

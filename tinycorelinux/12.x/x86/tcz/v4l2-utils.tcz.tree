@@ -1,0 +1,31 @@
+v4l2-utils.tcz
+   libv4l2.tcz
+      v4l-dvb-5.10.3-tinycore.tcz
+         i2c-5.10.3-tinycore.tcz
+         alsa-modules-5.10.3-tinycore.tcz
+            input-joystick-5.10.3-tinycore.tcz
+      libjpeg-turbo.tcz
+   glu.tcz
+      libGL.tcz
+         libXdamage.tcz
+            libXfixes.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
+         libXxf86vm.tcz
+            libXext.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
+         libdrm.tcz
+            libpciaccess.tcz
+            udev-lib.tcz
+               glib2.tcz
+                  libffi.tcz
+         libxshmfence.tcz
+   libasound.tcz
+   sdl2_image.tcz
+      SDL2.tcz
+

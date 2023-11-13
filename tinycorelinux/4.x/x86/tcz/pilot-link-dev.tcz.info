@@ -1,0 +1,30 @@
+Title:          pilot-link-dev.tcz [TESTING]
+Description:    CLI tools for Palm OS devices 
+Version:        0.12.5 + changes 
+Author:         Kenneth Albanowski, David A. Desrosiers, et al. 
+Original-site:  http://www.pilot-link.org/
+Copying-policy: GNU GPL 2
+Size: 		360k	
+Extension_by:   dentonlt
+
+Tags:	    CLI tools Palm OS devices 
+Comments:	Pilot-link is a collection of tools for communication
+		with a Palm OS device. Pilot-link supports Linux, OSX,
+		and theoretically Windows via Cygwin. Pilot Link is
+		used by J-Pilot and other GUI tools. 
+		
+		This version includes significant changes to support  
+		libusb-1.0 and Tiny Core. Tested on TC 3.1 with a 
+		Palm Tungsten E.
+
+		This is the development extension. It includes headers,
+		binaries other than pilot-xfer, and support files for
+		dlpsh and the pilot-link debugger. 
+		
+	 	-----
+		Stock source code: http://www.pilot-link.org/
+		Changes: source included in base extension
+
+Change-log:     2010/01/03 First version
+
+Current:	2010/09/23 bump to 0.12.5

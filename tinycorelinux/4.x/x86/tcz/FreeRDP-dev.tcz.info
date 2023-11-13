@@ -1,0 +1,21 @@
+Title:		FreeRDP-dev.tcz
+Description:	FreeRDP - A remote client for MS RDP/Windows - dev files
+Version:	1.0.2
+Author:		Various
+Original-site:	http://www.freerdp.com
+Copying-policy:	GPL
+Size:		84.0K
+Extension_by:	gutmensch
+Tags:		 development headers static
+Comments:	Might require Xorg for other than US layout.
+
+		Install FreeRDP-ffmpeg.tcz for the full multimedia feature set (e.g. RemoteFX).
+	   	--- 
+		This extension is PPI compatible.
+Change-log:	2010/11/01	Initial version 0.8.1
+		2010/11/19	Bump to 0.8.2
+		2010/11/22	Added pcsc support
+		2012/01/24	Bump to 1.0.0
+		2012/03/31	Bump to 1.0.1
+		2012/04/04	Moved xkb.pl to -dev.
+Current:	2013/01/09	Bump to 1.0.2

@@ -1,0 +1,50 @@
+Title:          rtl8188eu-6.1.2-tinycore.tcz
+Description:    wifi kernel module & fw for below devices
+Version:        module: git-May4
+                fw: Jan17
+Author:         module: Ivan Ovborislav 
+                fw: Realtek Semiconductor Corporation
+Original-site:  module: https://github.com/ivanovborislav/rtl8188eu
+                fw: https://git.kernel.org/pub/scm/linux/\
+                kernel/git/firmware/linux-firmware.git
+Copying-policy: module: GPL v2
+                fw: accompanied
+Size:           724K
+Extension_by:   aus9
+Tags:           wifi wlan wireless
+Comments:       fw=firmware       
+                Supported class N USB wireless devices
+                TP-Link TL-WN722N V2/V3 High Gain 
+                TP-Link TL-WN727N V5.20 
+                TP-Link TL-WN725N V3 Nano 
+                EDIMAX EW-7811Un V2 4 Nano 
+                ASUS USB-N10 Nano B1 
+                D-Link DWA-125 (rev.D)
+                D-Link DWA-123 (rev.D)
+                D-Link GO-USB-N150 Easy (rev.B)
+                D-Link DWA-121 (rev.B)
+                Realtek RTL8188EU 
+                Realtek RTL8188ETV 
+                802.11bgn Mini 
+                ELECOM WDC-150SU2M 
+                Sitecom WLA-1100 V2  
+                MERCUSYS MW150US V2 Nano 
+                Rosewill RNX-N150NUB Nano 
+
+                simple instructions - insert dongle first pls
+                $ sudo ifconfig eth0 down # cable can remain connected
+                $ tce-load -i wifi rtl8188eu
+                $ sudo wifi.sh # and follow prompts
+
+                For module parameters, ids etc $ modinfo 8188eu 
+
+                If you need power, managed mode etc
+                see README.txt in /usr/local/share/doc/8188eu dir
+                Those commands will need more TCEs downloaded and installed
+
+                Optional dependency- wireless-db.tcz -read its info please
+                                
+                dmesg outputs a lot of info.
+
+Change-log:    2023/09/28 2reduce deps-fw added on 14.x
+Current:       2023/09/28     

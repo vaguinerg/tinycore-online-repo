@@ -1,0 +1,23 @@
+Title:          Xorg-7.7-opencl.tcz
+Description:    opencl mesa drivers
+Version:        17.2.0
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 11.3MB
+Extension_by:   juanito
+Tags:	        opencl gpu graphics
+Comments:       opencl drivers for mesa
+                ----------
+                Note:
+                libclc contains amd/radeon gpu code (not tested)
+                beignet contains intel gpu code (tested)
+                to use intel:
+                $ sudo rm /etc/OpenCL/vendors/mesa.icd
+                re-start X
+                ----------
+                This extension contains:
+                mesa-17.2.0 - GPLv2 -  ftp://ftp.freedesktop.org/pub/mesa/mesa-17.2.0.tar.xz
+                ----------
+Change-log:     first version
+Current:        2017/09/22

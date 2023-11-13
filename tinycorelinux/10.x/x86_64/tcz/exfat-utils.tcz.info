@@ -1,0 +1,25 @@
+Title:		exfat-utils.tcz
+Description:	exFAT filesystem support
+Version:	v1.3.0.11 
+Author:		Andrew Nayenko
+Original-site:	https://github.com/relan/exfat
+Copying-policy:	GPLv2
+Size:		64K
+Extension_by:	Rich
+Tags:		exFAT filesystem support
+Comments:	Utilities to create, check, label
+		and dump exFAT filesystems.
+
+		Built with:
+		CFLAGS= -flto -mtune=generic -Os -pipe -Wall -Wextra -fno-plt
+		CXXFLAGS=
+		LDFLAGS=-Wl,-T/usr/local/lib/ldscripts/elf_x86_64.xbn
+		PREFIX=/usr/local
+
+		For man entry(s) see:
+		/usr/local/share/man/man8/
+
+Source:		https://github.com/relan/exfat
+Change-log:	2020/04/02 Original release Version: v1.3.0.11
+Current:	2020/04/02 Original release Version: v1.3.0.11
+

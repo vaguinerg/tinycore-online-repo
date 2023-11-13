@@ -1,0 +1,26 @@
+Title:          wicd.tcz
+Description:    python network manager
+Version:        1.7.4
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 300KB
+Extension_by:   juanito
+Tags:	        network manager python python2
+Comments:       network manager written in Python
+                ----------
+                howto:
+                load any required wifi device firmware before wicd
+		$ sudo /usr/local/etc/init.d/dbus start
+		$ sudo /usr/local/etc/init.d/wicd start
+		optionally the following can be added to your backup
+		  usr/local/etc/wicd
+		  var/lib/wicd/configurations
+                ----------
+                optionally python-urwid required for wicd-curses (use sudo)
+                ----------
+                This extension contains:
+                wicd-1.7.4 - GPLv2 - https://launchpad.net/wicd/1.7/1.7.4/+download/wicd-1.7.4.tar.gz
+                ----------
+Change-log:     2016/03/13 first version
+Current:        2017/03/01 patched for wicd-curses errors

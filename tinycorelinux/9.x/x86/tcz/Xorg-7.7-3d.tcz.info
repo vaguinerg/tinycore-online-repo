@@ -1,0 +1,27 @@
+Title:          Xorg-7.7-3d.tcz
+Description:    3d graphics drivers
+Version:        18.0.0
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 16MB
+Extension_by:   juanito
+Tags:	        3d graphics driver
+Comments:       OpenGL compatible 3D graphics library drivers
+                ----------
+                *** minimum cpu pentium-m ***
+                ----------
+                Note: the graphics-KERNEL extension is required for hardware acceleration
+                ----------
+                This extension contains:
+                mesa-18.0.0 - GPLv2 -  ftp://ftp.freedesktop.org/pub/mesa/mesa-18.0.0.tar.xz
+                ----------
+Change-log:     2013/07/05 first version
+                2014/02/14 factored out libEGL/libgbm
+                2015/02/13 updated 9.1.4 -> 10.4.4
+                2015/12/17 updated 10.4.4 -> 11.0.7
+                2016/08/01 updated 11.0.7 -> 12.0.1
+                2016/08/04 recompiled for minimum cpu pentium-m
+                2017/02/21 updated 12.0.1 -> 13.0.4
+                2017/09/16 updated 13.0.4 -> 17.2.0
+Current:        2018/03/31 updated 17.2.0 -> 18.0.0

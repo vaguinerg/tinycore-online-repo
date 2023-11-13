@@ -1,0 +1,35 @@
+Title:		simple-screensaver.tcz
+Description:	shellscript-controlled screensaver
+Version:	12.5
+Author:		Bruno "GNUser" Dantas
+Original-site:	n/a
+Copying-policy:	GPLv3
+Size:		15M
+Extension-by:	gnuser
+Tags:		screensaver
+Comments: ----------
+  - The script takes no arguments. To start it with default settings, simply do:
+      $ simple-screensaver &
+  - To change the default settings, edit ~/.config/simple-screensaver.conf
+  - If you change the config file while the script is running, send USR1 signal
+    to the script for it to reload the config file, like this:
+      $ pkill -USR1 -f simple-screensaver
+  - To manually trigger animations to start, send USR2 signal:
+      $ pkill -USR2 -f simple-screensaver
+  - Normally you should only have to change two settings: "idle" (how many 
+    seconds system should be idle before screensaver starts) and "cycle" (how 
+    many seconds to play an animation before switching to a different one)
+  - Use cycle=0 if you don't want animation to change once it starts
+  - Comment-out all but a single line in the command file if you want a specific
+    animation instead of a random one
+  - Any command that produces an animation or image can be included in the
+    command file; the command can be in animation_dir or anywhere in your PATH
+  - Caveat: Your window manager needs to be EWMH/NetWM-compatible in order for 
+    the script to work as intended; ultra-minimalistic window managers such as 
+    flwm are not compatible (see http://tripie.sweb.cz/utils/wmctrl)
+Change-log:	2021/05/24 first version
+		2021/05/28 more animations (complete xscreensaver set)
+		2021/06/07 updated 5.0 -> 5.2
+		2021/06/14 updated 5.2 -> 5.5
+		2021/11/27 updated 5.5 -> 12.4 (xephyr backend)
+Current:	2021/12/06 updated 12.4 -> 12.5 (minor improvements)

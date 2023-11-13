@@ -1,0 +1,19 @@
+Title:          samdump2.tcz
+Description:    samdump2 - Dump Windows 2k/NT/XP password hashes
+Version:        3.0 
+Author:         Nicola Cuomo and Cedric Tissieres 
+Original-site:  http://www.objectif-securite.ch
+Copying-policy: GPL v2 
+Size:		20K
+Extension_by:   halfbyte
+Tags:           HASH DUMP SAM SYSKEY BOOTKEY 
+Comments:       This tool is designed to dump Windows 2k/NT/XP password  hashes  from  a
+		SAM file, using the syskey bootkey from the system hive.
+Change-log:     2006-10-13 Switch to GNU General Public License version 2
+                2006-10-14 Updated to version 1.0.0
+		2006-10-15 Fix wrong permissions in Makefile
+		2007-02-16 Updated to version 1.1.0
+		2007-11-21 Updated to version 1.1.1
+		2008-03-17 Updated to version 2.0
+		2008-10-02 Minor changes to match the code in ophcrack branch
+Current:        2012-04-20 Updated to version 3.0

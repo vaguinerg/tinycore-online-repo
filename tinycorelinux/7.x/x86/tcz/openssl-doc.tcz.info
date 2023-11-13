@@ -1,0 +1,20 @@
+Title:          openssl-doc.tcz
+Description:    Open Source toolkit for SSL/TLS - documentation files
+Version:        1.0.2l
+Author:         OpenSSL Project Team
+Original-site:  http://www.openssl.org
+Copying-policy: OpenSSL License
+Size:		1.5M
+Extension_by:   Lukasz032
+Tags:	        openssl ssl tls security crypto pki
+Comments:	Documentation files for use with OpenSSL (openssl package).
+		Contains man pages and license information.
+		
+		Newest root certificates available as a separate package (openssl-certs).
+		Static libraries in dev package, shared libraries and main binaries in main package.
+		
+		Previous packages:
+		- 1.0.1 by bmarkus
+		- 1.0.2d by gordons64
+Change-log:     2017/10/13 : Initial release.
+Current:        2017/10/13 : Initial release.

@@ -1,0 +1,21 @@
+Title:          curl-doc.tcz
+Description:    Client and library for transferring data
+Version:        7.30.0
+Author:         Daniel Stenberg
+Original-site:  http://curl.haxx.se
+Copying-policy: Free
+Size:           213k
+Extension_by:   Jason W, bmarkus
+Tags:           NETWORK LIBRARY CLI FILE TRANSFER TRANSFER
+Comments:       Doc files
+                ----
+                Compiled for RPI
+                ----
+                PPI compatible
+Change-log:     2008/09/10 First version
+                2008/12/12 Rebuilt for i486, size, cramfs.
+                2009/11/26 Updated and rebuilt against openssl-0.9.8k.
+                2010/02/18 Updated to 7.20.0 and hardlinked against openssl-0.9.8k.
+                2010/03/28 Rebuilt against openssl-0.9.8m
+                2010/08/15 Rebuilt with static openssl-1.0.0d and static libssh2 1.2.7.
+Current:        2013/05/04 Updated to 7.30.0 with shared deps used by bmarkus

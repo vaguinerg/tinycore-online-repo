@@ -1,0 +1,29 @@
+Title:          gcc.tcz
+Description:    gcc for tc_4.x
+Version:        4.6.1
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 17.8MB
+Extension_by:   juanito
+Tags:	    gcc tc_4.x
+Comments:       gnu compiler collection for tinycore_4.x
+                ----------
+                Note: for ease of use, you can use the compiletc meta extension to load gcc and
+                all the commonly required apps to have a complete compile environment for microcore/tinycore.
+                Of course if you want to do things differently, that's OK too.
+                ----------
+                This extension contains:
+                gcc-4.6.1 - GPLv2 - http://ftp.gnu.org/gnu/gcc/gcc-4.6.1/gcc-4.6.1.tar.bz2
+                ----------
+Change-log:     2009/06/01
+                Added symlink cc -> gcc
+                2009/06/17
+                split out shared libs to gcc_libs extension
+                2009/10/04
+                recompiled for tc3 and updated 4.2.2 -> 4.4.3
+                2010/03/05
+                recompiled for tc4 and updated 4.4.3 -> 4.6.1
+                2011/08/16
+                removed libstdc++ devs
+Current:        2011/08/30

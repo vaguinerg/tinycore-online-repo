@@ -1,0 +1,35 @@
+Title:          hplip.tcz
+Description:    hp print, fax, scan
+Version:        3.20.3
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 7.4MB
+Extension_by:   juanito
+Tags:	        hp print fax scan
+Comments:       Hp Linux Imaging and Printing software
+                ----------
+                hp-scan requires the python3.6-pillow extension
+                ----------
+                fax not tested since it is not supported on the
+                ..usb all-in-one machines I have access to
+                ----------
+                howto:
+                $ sudo passwd
+                $ sudo /usr/local/etc/init.d/dbus start
+                $ sudo /usr/local/etc/init.d/cups start
+                $ hp-setup -i (root password needed to confirm)
+                ----------
+                To keep settings on reboot, add the following to your backup
+                /usr/local/etc/cups/cupsd.conf (if changed)
+                /usr/local/etc/cups/printers.conf
+                /usr/local/etc/cups/ppd
+                ----------
+                This extension contains:
+                hplip-3.20.3 - GPLv2 - https://sourceforge.net/projects/hplip/files/hplip/3.20.3/hplip-3.20.3.tar.gz/download
+                ----------
+Change-log:     2013/12/09 first version
+                2017/05/17 corrected various python shebangs
+                2018/12/21 updated 3.13.11 -> 3.17.11
+                2020/03/26 updated 3.17.11 -> 3.20.3
+Current:        2020/04/25 adjusted startup script and hardcoded paths

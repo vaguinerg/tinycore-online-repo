@@ -1,0 +1,31 @@
+libblockdev.tcz
+   libbytesize.tcz
+      mpfr.tcz
+         gmp.tcz
+      libpcre.tcz
+   volume_key.tcz
+      glib2.tcz
+         libffi.tcz
+         pcre.tcz
+      pcre.tcz
+      gpgme.tcz
+         libassuan.tcz
+            libgpg-error.tcz
+      cryptsetup.tcz
+         liblvm2.tcz
+            udev-lib.tcz
+         openssl.tcz
+      nss.tcz
+         nspr.tcz
+         sqlite3.tcz
+   mdadm.tcz
+      raid-dm-4.8.17-tinycore64.tcz
+   parted.tcz
+      liblvm2.tcz
+         udev-lib.tcz
+   util-linux.tcz
+      readline.tcz
+         ncurses.tcz
+   btrfs-progs.tcz
+      lzo.tcz
+

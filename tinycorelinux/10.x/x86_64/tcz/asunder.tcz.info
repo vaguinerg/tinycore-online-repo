@@ -1,0 +1,30 @@
+Title:          asunder.tcz
+Description:    GUI audio ripper and encoder 
+Version:        2.9.2
+Author:         many see doc AUTHORS
+Original-site:  http://littlesvr.ca/asunder
+Copying-policy: GPL v2 June 1991
+Size:           72K          
+Extension_by:   aus9 at gmx dot com
+Tags:           graphical GUI audio cd ripper encoder
+Comments:       GTK2 graphical audio ripper
+
+                In order to use it, cddb needs online access 
+                There is a short delay for info to populate the GUI
+
+                Quick Tips 
+                extra TCEs can be loaded with asunder already running
+                untick any tracks before Preferences and choosing
+                format:
+                --wav already supported
+                --mp3 needs lame.tcz
+                --ogg needs vorbis-tools .tcz
+                --flac needs flac.tcz (loaded by vorbis-tools too)
+                --wavpack needs wavpack.tcz
+                I suggest you until M3U playlist under preferences too
+                Now its safe to click that RIP button
+                RESULTS are under each artist Dir.
+
+                Compiled for 10x
+Change-log:     2019/04/07 first version
+Current:        2019/04/07  

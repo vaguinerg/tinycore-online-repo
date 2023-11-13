@@ -1,0 +1,30 @@
+Title:          tc-install.tcz
+Description:    Tiny Core Installation Tool
+Version:        0.6
+Author:         Robert Shingledecker
+Original-site:  www.tinycorelinux.com
+Copying-policy: GPL
+Size:		20KB
+Extension_by:   roberts
+Tags:		FLTK GUI install frugal usb
+Comments:       An FLTK GUI installer for Tiny Core.
+                Supports frugal, USB-HDD, and USB-ZIP methods.
+                Selectable from menu or icon.
+Change-log:
+		2011/06/04 v0.1 Original GUI Tiny Core Installer.
+		2011/07/26 v0.2 Added installation of tce infrastructure.
+		2011/08/08 v0.3 Now uses vmlinuz for v4.x
+		2011/10/04 v0.4 For multicore 4.0.1
+		2011/10/16 v0.5 Corrected permissions on optional and onboot.lst
+		2011/12/04 Updated for Core 4.2 specs.
+		2012/01/07 Misc. bug fixes
+		2012/02/23 Misc. bug fixes
+		2012/04/23 Noted "removable" devices on pick list.
+		2012/10/22 Fixed tc-install.sh install from iso installations.
+		2013/08/26 Added aterm as needed by Core v5.x
+		2013/08/28 Added extra dependencies as needed by Core v5.x
+		2014/02/15 Rebuilt with extra bootcode label for clarity (Curaga)
+                2014/11/04 Rebuilt for fltk-1.3
+                2016/01/21 edited tc-install.sh for fltk-1.3 (juanito)
+                2016/01/22 removed flwm double-listing (juanito)
+Current:	2016/11/11 adjusted for updated syslinux as per polikuo (juanito)

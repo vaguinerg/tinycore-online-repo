@@ -1,0 +1,17 @@
+xf86-video-geode.tcz
+   xorg-server.tcz
+      libXau.tcz
+      libXdmcp.tcz
+      libXfont.tcz
+         freetype.tcz
+         libfontenc.tcz
+      libdrm.tcz
+         libpciaccess.tcz
+         udev-lib.tcz
+            glib2.tcz
+               gamin.tcz
+               libffi.tcz
+      openssl.tcz
+      pixman.tcz
+      libepoxy.tcz
+

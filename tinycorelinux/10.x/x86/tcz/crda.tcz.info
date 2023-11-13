@@ -1,0 +1,26 @@
+Title:          crda.tcz
+Description:    This is the Central Regulatory Domain Agent
+Version:        3.18
+Author:         Luis R. Rodriguez,Johannes Berg,Michael Green
+Original-site:  https://www.kernel.org/pub/software/network/crda/
+Copying-policy: ISC
+		Copyright (c) 2008, Luis R. Rodriguez <mcgrof@gmail.com>
+		Copyright (c) 2008, Johannes Berg <johannes@sipsolutions.net>
+		Copyright (c) 2008, Michael Green <Michael.Green@Atheros.com>
+Size: 		86KB
+Extension_by:   ZhaoChunsheng
+Tags:	        crda
+Comments:       This is the Central Regulatory Domain Agent for Linux. It serves one
+		purpose: tell Linux kernel what to enforce. In essence it is a udev
+		helper for communication between the kernel and userspace. You only
+		need to run this manually for debugging purposes. For manual changing
+		of regulatory domains use iw (iw reg set) or wpa_supplicant (feature
+		yet to be added)
+                ----
+                This extension contains:
+                crda-3.18 - copyleft-next-0.3.0 - https://www.kernel.org/pub/software/network/crda/crda-3.18.tar.xz
+                wireless-regdb-2017.03.07 - (c) Rodriguez Berg Green https://www.kernel.org/pub/software/network/wireless-regdb/wireless-regdb-2017.03.07.tar.xz
+                ----
+Change-log:     2009/12/12 first version
+Current:        2017/05/21 updated 1.1.0 -> 3.18 (juanito)
+

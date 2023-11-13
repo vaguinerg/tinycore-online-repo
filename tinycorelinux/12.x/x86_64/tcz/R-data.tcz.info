@@ -1,0 +1,23 @@
+Title:          R-data.tcz
+Description:    R is a free software environment for statistical computing and graphics
+Version:        4.0.5
+Author:         see list of sites below
+Original-site:  https://www.r-project.org/
+Copying-policy: GPLv2
+Size:           8.5M
+Extension_by:   polikuo
+Tags:           MATH statistical computing scientific calculator data document
+Comments:       Data files and documents for R
+                By default, a copy of /usr/local/lib/R/doc/html/packages.html
+                is created in the filesystem. (RAM)
+                This file keep tracks of the packages you installed globally.
+                If you install a package as root, this file should be added
+                into your /opt/.filetool.lst (backup).
+                Alternatively, you chould make a tcz extension with a startup
+                script that would patch the differences.
+                ----------
+                This extension contains:
+                R-4.0.5.tar.xz - https://fossies.org/linux/misc/R-4.0.5.tar.xz
+                ----------
+Change-log:     2021/04/17 First version
+Current:        2021/04/17 First version

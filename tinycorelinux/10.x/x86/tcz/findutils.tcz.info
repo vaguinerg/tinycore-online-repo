@@ -1,0 +1,25 @@
+Title:          findutils.tcz
+Description:    findutils
+Version:        4.6.0
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 136KB
+Extension_by:   juanito
+Tags:	        findutils
+Comments:       findutils - gnu find, xargs, and locate programs
+                ----------
+                This extension contains:
+                findutils-4.6.0 - GPLv3 - http://ftp.gnu.org/gnu/findutils/findutils-4.6.0.tar.gz
+                ----------
+Change-log:     2009/04/17 first version
+                2010/05/01 updated 4.4.0 -> 4.4.2
+                2011/12/18 added start-up script to create /var/lib/locate
+                2013/03/23 recompiled on tc-5
+                2014/05/28 corrected sort path in updatedb
+                2014/09/18 recompiled on tc-6.x
+                2015/05/11 corrected sort path in updatedb 
+                2015/10/02 recompiled on tc-7.x
+                2016/10/20 updated 4.4.2 -> 4.6.0
+                2018/11/04 recompiled on tc-10.x
+Current:        2019/02/20 corrected sort path in updatedb

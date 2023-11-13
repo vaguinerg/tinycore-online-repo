@@ -1,0 +1,28 @@
+Title:          screen.tcz
+Description:    Screen
+Version:        4.0.3
+Author:         Oliver Laumann, Wayne Davison, Juergen Weigert and Michael Schroeder.
+Original-site:  http://www.gnu.org/software/screen/
+Copying-policy: GPLv2
+Size:           388.0K
+Extension_by:   Althalus
+Tags:	    Screen
+Comments:       " Screen is a full-screen window manager that multiplexes a 
+                physical terminal between several processes, typically 
+                interactive shells. " -- From GNU Screen website
+
+                Basically, screen allows you to create virtual terminals 
+                You can disconnect from a screen session and reconnect from
+                somewhere else while preserving your shell and other running
+                processes (mail/irc/bit torent/long builds, etc).
+
+                You can also have more than one connection to a session,
+                or allow other users to connect to your same session.
+
+                It's also handy for working over a shaky connection - your
+                apps stay running if your session gets interupted.
+
+                And this is only the tip of the iceberg!
+Source:         https://savannah.gnu.org/git/?group=screen
+Chnage-log:     First version
+Current:        2009/12/23

@@ -1,0 +1,20 @@
+Title:		putty-gtk3.tcz
+Description:    putty is a graphical SSH, Telnet and Rlogin client for X (gtk3)
+Version:        0.73
+Author:         developed originally by Simon Tatham (see LICENSE for additional names)
+Original-site:  https://www.putty.org/
+Copying-policy: https://www.chiark.greenend.org.uk/~sgtatham/putty/licence.html
+Size:		3.3M
+Extension_by:   rudock1
+Tags:	        ssh telnet xterm remote gtk+ gtk3 putty cli
+Comments:       implementation of telnet and ssh, along with an xterm emulator
+                documentation included in putty-doc.tcz
+                to preserve PuTTY configuration settings backup ~/.putty/
+                ----------
+                This extension contains:
+                https://www.chiark.greenend.org.uk/~sgtatham/putty/releases/0.73.html
+                putty-0.73 - MIT licence - https://the.earth.li/~sgtatham/putty/0.73/putty-0.73.tar.gz
+                ----------
+                Binaries only, compiled for 11.x x86_64
+Change-log:     2015/03/14 first version v0.64 (GPLv2, gtk2 extension by Juanito)
+Current:        2020/04/14 updated 0.64 -> v0.73 (now MIT-licensed, gtk3)

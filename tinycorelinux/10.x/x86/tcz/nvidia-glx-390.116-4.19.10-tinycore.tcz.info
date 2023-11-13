@@ -1,0 +1,33 @@
+Title:          nvidia-glx-390.116-4.19.10-tinycore.tcz
+Description:	NVIDIA x86 GLX modules, Nvidia Settings GUI
+Version:	390.116
+Author:		NVIDIA
+Original-site:	http://www.nvidia.com
+Copying-policy:	Proprietary
+Size:		31M
+Extension_by:	Arslan S., coreplayer2
+Tags:		NVIDIA Driver
+Comments:	--------------
+		For supported products see here 
+		http://us.download.nvidia.com/XFree86/Linux-x86/390.87/README/supportedchips.html
+
+		Includes GLX libraries and settings GUI separated from nvidia-390.116-4.19.10-tinycore.tcz
+		built with Xorg-7.7-3d
+
+		Install onboot 
+		***Important to load driver before Xorg-7.7***
+		
+		
+
+Change-log:     --------------
+		2012/03/23 Rebuilt for tc 4.4
+		2012/03/23 Rebuilt for tc 4.4
+		2012/09/26 Updated to 304.51
+		2014/06/16 Rebuilt for tc-5.x
+		2014/06/16 Updated to 319.49 for tc-5.x by coreplayer2
+		2016/01/20 Updated to 352.63 for tc-7.x by coreplayer2
+		2017/10/14 Updated to 384.90 for tc-8.x by coreplayer2
+		2018/03/02 Updated to 390.25 for tc-9.x by coreplayer2
+		2018/08/07 Updated to 390.25 for tc-9.x by coreplayer2
+                2019/07/05 Updated to 390.87 for tc-10x by coreplayer2
+Current:	2019/07/27 Updated to 390.116 for tc-10x by coreplayer2

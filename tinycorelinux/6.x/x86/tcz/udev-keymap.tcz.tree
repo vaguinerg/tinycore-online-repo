@@ -1,0 +1,25 @@
+udev-keymap.tcz
+   udev-extra.tcz
+      udev-lib.tcz
+         glib2.tcz
+            gamin.tcz
+            libffi.tcz
+      acl.tcz
+         libattr.tcz
+      glib2.tcz
+         gamin.tcz
+         libffi.tcz
+      libusb.tcz
+         udev-lib.tcz
+            glib2.tcz
+               gamin.tcz
+               libffi.tcz
+      usbutils.tcz
+         libusb.tcz
+            udev-lib.tcz
+               glib2.tcz
+                  gamin.tcz
+                  libffi.tcz
+      pci-utils.tcz
+         libpci.tcz
+

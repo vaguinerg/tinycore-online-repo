@@ -1,0 +1,45 @@
+Title:          rtorrent.tcz
+Description:    rTorrent
+Version:        0.8.9 
+Author:         Jari Sundell
+Original-site:  http://libtorrent.rakshasa.no/
+Copying-policy: GPL
+Size:		348K
+Extension_by:   andriscom
+Tags:	    rTorrent
+Comments:       LibTorrent is a BitTorrent library written in C++ for *nix, with a focus on high performance and good code.
+                The library differentiates itself from other implementations by transfering directly from file pages to the network stack.
+                On high-bandwidth connections it is able to seed at 3 times the speed of the official client.
+                The client uses ncurses and is ideal for use with  screen or dtach.
+                It supports saving of sessions and allows the user to add and remove torrents.
+
+                Built with CFLAGS: -march=i486 -mtune=i686 -Os -pipe
+                Built with CXXFLAGS: -march=i486 -mtune=i686 -Os -pipe
+                Built with LDFLAGS: -Wl,-O1
+                Built with the following options:
+                ./configure --prefix=/usr/local --disable-debug --with-xmlrpc-c
+
+                You should move the /usr/local/etc/.rtorrent.rc config file to your home directory!
+                Check the configuration and create the proper directories! (/home/tc/.session for example)
+
+                If you would like to use a WebUI:
+                Download ruTorrent via svn:
+                 cd /usr/local/var/www/
+                 svn co http://rutorrent.googlecode.com/svn/trunk/rutorrent
+                 cd /usr/local/var/www/rutorrent/
+                 rmdir plugins
+                 svn co http://rutorrent.googlecode.com/svn/trunk/plugins/
+                Uncomment line: scgi_port or scgi_local .rtorrent.rc
+                ruTorrent's config.php also need be configured to either use 'port' or 'local unix socket' connection method
+                You also need to configure your webserver: http://code.google.com/p/rutorrent/wiki/WebSERVER
+
+                To control rTorrent you can use the /usr/local/etc/init.d/rtorrent script.
+                You will need to install the screen.tcz optional extension to use the init script.
+
+                For man entries you can install the rtorrent-doc.tcz package or visit:
+                 http://libtorrent.rakshasa.no/rtorrent/rtorrent.1.htm
+Source:         http://libtorrent.rakshasa.no/downloads/rtorrent-0.8.9.tar.gz
+Change-log:     2010/09/28 First version (0.8.6)
+                2010/10/06 Version: 0.8.6 - Added: CFLAGS, CXXFLAGS, LDFLAGS, canvas-fix.patch, equal-operator.patch
+Current:        2011/11/17 Version: 0.8.9 - Removed: canvas-fix.patch, equal-operator.patch
+

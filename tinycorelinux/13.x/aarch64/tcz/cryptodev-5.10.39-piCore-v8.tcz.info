@@ -1,0 +1,19 @@
+Title:          cryptodev-5.10.39-piCore-v8.tcz
+Description:    hw crypto access
+Version:        1.12
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 28KB
+Extension_by:   juanito
+Tags:           hardware cryptographic accelerator
+Comments:       user-space access to hardware cryptographic accelerators
+                ----------
+                $ sudo modprobe aes-neon-bs
+                $ sudo modprobe cryptodev
+                ----------
+                This extension contains:
+                cryptodev-linux-1.12 - GPLv2 - https://github.com/cryptodev-linux/cryptodev-linux/archive/refs/tags/cryptodev-linux-1.12.tar.gz
+                ----------
+Change-log:     first version
+Current:        2021/10/16

@@ -1,0 +1,24 @@
+Title:          geany.tcz
+Description:    ide text editor
+Version:        1.36
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size:		1.6M
+Extension_by:   juanito
+Tags:           text editor ide gtk+ gtk3
+Comments:       text editor with basic features of an integrated development environment
+                ----------
+                This extension contains:
+                geany-1.36 - GPLv2 - http://download.geany.org/geany-1.36.tar.gz
+                ----------
+                Notes on terminal support:
+                  - to be able to launch terminals from within geany you need to install vte.tcz
+                  - Edit > Preferences > Terminal > check "Execute programs in the VTE" to
+                     use message window's built-in terminal or leave unchecked to use external terminal
+                  - if using external terminal, you may need to adjust two more settings:
+                     1. Build > Set Build Commands > next to Execute, type (for example): "./%e"
+                     2. Edit > Preferences > Tools > next to Terminal, type (for example): urxvt -e /bin/sh %c
+                ----------
+Change-log:     2015/06/26 first version
+Current:        2020/04/03 version bump 1.24.1 -> 1.36 (gnuser)

@@ -1,0 +1,22 @@
+Title:          cyrus-sasl-dev.tcz
+Project:	cyrus-sasl
+Description:    Simple Authentication and Security Layer Protocol Development Files
+Version:	2.1.28
+Author:         Tim Martin, Rob Earhart, Rob Siemborski
+Original-site:  http://asg.web.cmu.edu/sasl/
+Copying-policy: Copyright Carnegie Mellon University
+Size:		92K
+Extension_by: 	andyj
+Tags:		cyrus authentication security connection development
+Comments:	simple authentication and security layer, a method for adding
+                authentication support to connection-based protocols
+		using locally maintained databases or a central LDAP server
+		----
+Change-log:     2010/01/26 Original
+		2010/04/05 Rebuilt with updated openssl-0.9.8
+		2011/11/15 Updated to 2.1.25
+		2011/11/15 Updated to 2.1.25
+		2017/07/01 Add LDAP support, drop support for Berkeley DB, recompiled for TC 8.x
+		2019/01/21 updated to 2.1.27, recompiled for TC 10.x
+		2019/07/06 recompiled with openssl-1.1.1
+Current:	2023/04/06 updated to 2.1.28, recompiled for TC 14.x

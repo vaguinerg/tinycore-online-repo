@@ -1,0 +1,15 @@
+cmake.tcz
+   gcc.tcz
+      gcc_libs.tcz
+      binutils.tcz
+      libmpc.tcz
+         mpfr.tcz
+            gmp.tcz
+   binutils.tcz
+   ncurses.tcz
+      ncurses-common.tcz
+   libssl-0.9.8.tcz
+   libidn.tcz
+      libiconv.tcz
+   libiconv.tcz
+

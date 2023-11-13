@@ -1,0 +1,29 @@
+Title:		gtk-themes.tcz
+Description:	GTK+ themes collection from gnome-look.org.
+Version:	0.1
+Author:		---
+Original-site:	http://gnome-look.org/
+Copying-policy:	GPL
+Size:		1.2M
+Extension_by:	Arslan S.
+Tags:		gtk+ themes gtk2 gtk3
+Comments:	This collection contains the following themes:
+			Zukitwo
+			Adwaita Cupertino
+			Orion
+			Mediterranean
+			FlatStudio
+
+		Choose a theme from /usr/local/share/themes
+		and edit ~/.gtkrc-2.0 and ~/.config/gtk-3.0/settings.ini such as:
+			gtk-theme-name = "Zukitwo" (Default)
+			gtk-theme-name = "Orion"
+			gtk-theme-name = "Adwaita Cupertino L"
+			gtk-theme-name = "MediterraneanLight"
+			gtk-theme-name = "FlatStudio"
+
+		Important: Remove quotation marks "" from theme name in gtk-3.0/settings.ini
+
+		gnome-icon-theme is recommended.
+Change-log:	---
+Current:	2012/10/14 First Version

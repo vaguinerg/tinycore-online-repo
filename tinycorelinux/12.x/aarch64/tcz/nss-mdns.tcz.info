@@ -1,0 +1,24 @@
+Title:          nss-mdns.tcz
+Description:    name resolution by mDNS  
+Version:        0.14.1
+Author:         Lennart Poettering
+Original-site:  https://github.com/lathiat/nss-mdns
+Copying-policy: LGPL v 2.1
+Size:           12K
+Extension_by:   aus9
+Tags:           daemon
+Comments:       nss-mdns is a plugin providing host name resolution via Multicast DNS 
+                (aka Zeroconf, aka Apple Rendezvous, aka Apple Bonjour) nss-mdns provides 
+                client functionality only, which means that you have to run avahi if you 
+                want to register the local host name via mDNS.
+
+                compiled to know avahi socket is non-standard under /run not /var/run
+                
+                nss-mdns tries to contact a running avahi-daemon for resolving host names and 
+                addresses and making use of its superior record cacheing. Instructions 
+                https://github.com/lathiat/nss-mdns
+                Especially: If you run a firewall, do not forget to allow UDP traffic to the 
+                mDNS multicast address 224.0.0.251 on port 5353. 
+
+Change-log:     2020/09/18 Original v 0.14.1 on 12x 
+Current:        2020/09/18    

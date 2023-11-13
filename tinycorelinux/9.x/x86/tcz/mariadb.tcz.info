@@ -1,0 +1,20 @@
+Title:          mariadb.tcz
+Description:    An enhanced, drop-in replacement for MySQL
+Version:        10.0.17
+Author:         MariaDB Foundation
+Original-site:  https://mariadb.org
+Copying-policy: GPL V2, LGPL v2.1
+Size:           33.3M
+Extension_by:   bmarkus
+Tags:           LIBRARY CLI SERVER SQL MYSQL MARIADB
+Comments:       Binaries only
+                ----
+                Start server with command
+                'sudo /usr/local/mysql/bin/mysqld_safe &'
+                
+                Database is /usr/local/mysql/data
+                Backup or use persistent storage
+                ----
+                Compiled for Core 6.0
+Change-log:     2014/11/27 First version, to 10.0.15
+Current:        2015/04/06 Updated to 10.0.17

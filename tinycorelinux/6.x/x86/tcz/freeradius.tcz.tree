@@ -1,0 +1,20 @@
+freeradius.tcz
+   freeradius-lib.tcz
+   openssl.tcz
+   libltdl.tcz
+   db.tcz
+   krb5.tcz
+   gdbm.tcz
+   ncurses.tcz
+   readline.tcz
+      ncurses.tcz
+   mariadb.tcz
+      libltdl.tcz
+      libxml2.tcz
+         liblzma.tcz
+      openssl.tcz
+      unixODBC.tcz
+         readline.tcz
+            ncurses.tcz
+   perl5.tcz
+

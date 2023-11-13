@@ -1,0 +1,22 @@
+Title:          xfwm4-list.tcz
+Description:    special TCZ to create xfce.lst
+Version:        4.13.0
+Author:         aus9
+Original-site:  aus9 at gmx dot com
+Copying-policy: GPL v2
+Size:		4.0K
+Extension_by:   aus9 at gmx dot com
+Tags:           xfce 
+Comments:       Designed to be run once by TC members
+                who wish to try out XFCE.
+
+                An install script will place
+                xfce.lst into your TCEDIR
+
+                Members can then use Apps once they 
+                have booted up with lst=xfce.lst to 
+                add their preferred software.
+
+                Compiled for 64 9x
+Change-log:     2018/04/22  First version 
+Current:        2018/05/24 rebuild for gtk3 issue

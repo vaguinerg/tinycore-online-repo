@@ -1,0 +1,28 @@
+Title:          grub2-efi.tcz
+Description:    grub efi boot loader
+Version:        2.00
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 7.0MB
+Extension_by:   juanito
+Tags:	        grub bootloader efi uefi
+Comments:       grub efi/uefi 32bit bootloader
+                ----------
+                howto:
+                $ sudo grub-install --target=i386-efi --boot-directory=/mnt/sdc1/EFI/BOOT --efi-directory=/mnt/sdc1 --removable [usb stick]
+                $ cat /mnt/sdb1/EFI/BOOT/grub/grub.cfg
+menuentry "core" {
+  linux (hd1,gpt2)/boot/vmlinuz quiet noswap tce=sdb2 tz=GMT-4 blacklist=bcma blacklist=ssb blacklist=b43 text
+  initrd (hd1,gpt2)/boot/core.gz
+}
+                You can optionally copy unicode.pf2 to /mnt/sdc1/EFI/BOOT/grub/fonts
+                ----------
+                Note: many machines seem to use the 64bit (u)efi boot loader
+                see corepure64 grub2-efi
+                ----------
+                This extension contains:
+                grub-2.00 - GPLv3 - ftp://ftp.gnu.org/gnu/grub/grub-2.00.tar.xz
+                ----------
+Change-log:     first version
+Current:        2013/05/31

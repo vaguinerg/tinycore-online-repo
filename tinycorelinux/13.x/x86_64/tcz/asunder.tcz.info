@@ -1,0 +1,28 @@
+Title:          asunder.tcz
+Description:    graphical audio CD ripper and encoder
+Version:        2.9.7
+Author:         Andrew Smith et al.
+Original-site:  http://littlesvr.ca/asunder
+Copying-policy: GPLv2
+Size:		80K
+Extension_by:   gnuser
+Tags:	        audio cd ripper
+Comments:       - The following are optional runtime dependencies
+                  (load only what you plan on using at encode step):
+                  * lame.tcz (for MP3 support)
+                  * vorbis-tools.tcz (for Ogg Vorbis support)
+                  * fdkaac.tcz (for Aacsupport)
+                  * flac.tcz (for FLAC support)
+                  * opus.tcz (for Opus support)
+                  * wavpack.tcz (for wavpack support)
+                  * mpcenc (for Musepack support)
+                    http://www.musepack.net/
+                  * mac (for Monkey's Audio support)
+                    http://www.monkeysaudio.com/
+                - If you are using config file from older version of asunder,
+                  note that asunder no longer uses freedb for CDDB lookups. The
+                  correct settings for Preferences -> Advanced -> CDDB are:
+                  Server = gnudb.gnudb.org
+                  Port = 8880
+Change-log:     ----------
+Current:        2020/12/15 first version for tcl-11.x (gnuser)

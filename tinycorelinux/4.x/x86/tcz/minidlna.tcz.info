@@ -1,0 +1,13 @@
+Title:		minidlna.tcz
+Description:	server software with the aim of being fully compliant with DLNA/UPnP-AV clients
+Version:	1.0.25
+Author:		Justin Maggard, Portions:  Thomas Bernard
+Original-site:	http://minidlna.sourceforge.net/
+Copying-policy:	GPL-2
+Size:		1.4M
+Extension_by:	jls_legalize <unsenepopiu at tin dot it>
+Tags:		server DLNA/UPnP-AV
+Comments:	Configuration file is /etc/minidlna.conf
+Change-log:	2012/05/06 First Version 1.0.24
+		2012/05/24 Rebuilt against ffmpeg-0.10
+Current:	2012/07/24 Updated to 1.0.25, 			cause used the static version due to compile errors, 			added locale as a separate extension

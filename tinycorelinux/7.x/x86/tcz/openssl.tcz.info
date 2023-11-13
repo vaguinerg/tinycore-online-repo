@@ -1,0 +1,21 @@
+Title:          openssl.tcz
+Description:    Open Source toolkit for SSL/TLS
+Version:        1.0.2l
+Author:         OpenSSL Project Team
+Original-site:  http://www.openssl.org
+Copying-policy: OpenSSL License (see doc package)
+Size:		1.1M
+Extension_by:   Lukasz032
+Tags:	        openssl ssl tls security crypto pki
+Comments:	OpenSSL package compiled with SSLv2 and SSLv3 disabled.
+		Supports TLS 1.2 and 1.3 as of October 2017.
+		
+		Newest root certificates available as a separate package (openssl-certs).
+		Package contains binary and shared libraries.
+		Static libraries in dev package, documentation in doc package.
+		
+		Previous packages:
+		- 1.0.1 by bmarkus
+		- 1.0.2d by gordons64
+Change-log:     2017/10/13 : Initial release.
+Current:        2017/10/13 : Initial release.

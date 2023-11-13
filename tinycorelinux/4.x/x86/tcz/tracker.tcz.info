@@ -1,0 +1,28 @@
+Title:		tracker.tcz
+Description:	a search engine
+Version:	0.14.2
+Author:		various
+Original-site:	http://projects.gnome.org/tracker/
+Copying-policy:	GPL-2
+Size:		964K
+Extension_by:	jls_legalize <jlselgalize@gmail.com>
+Tags:		search
+Comments:	to start tracker use this command:
+		tracker-control -s
+
+		optional dep: gtk3.scm for tracker-preferences & tracker-needle
+
+		In case u are upgrading delete 
+                ~/.X.d/tracker-miner-fs,  ~/.X.d/tracker-writeback and
+		~/.X.d/tracker
+Change-log:	    2011/01/27 first version 0.9.35
+		2011/02/12 updated to 0.9.38
+		2011/03/06 updated to 0.10.1, changed
+			~/.X.d//tracker-miner-fs to
+			~/.X.d//tracker-writeback
+		2011/03/12 updated to 0.10.3, changed
+	                ~/.X.d//tracker-writeback to
+	                ~/.X.d//tracker
+	 	2011/03/22 updated to 0.10.4
+		2011/04/13 updated to 0.10.8
+Current:	2012/07/25 Upated to 0.14.2, changed deps and removed autostarting

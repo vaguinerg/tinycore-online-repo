@@ -1,0 +1,23 @@
+Title:          languageONE.tcz 
+Description:    The newest, yet oldest of programming languages 
+Version:        1.20
+Author:         Author(s) Roger Tunnicliffe 
+Original-site:  http://www.languageONE.com.au
+Copying-policy: GPL v2
+Size:		1.1M
+Extension_by:   roger@languageONE.com.au
+Tags:           nasm macro program
+Comments:       languageONE is a collection of NASM macros that disguise the
+                calls to routines in statically linked object modules.
+                The linked routines themselves provide 64bit services to the
+                application programmer. It includes macros that are used to 
+                ensure data is structured in a way that these routines may 
+                easily manipulate that data. The macros are built in such a 
+                way that the application programmer would feel that they are
+                programming in a higher level language
+                ----------
+Change-log:     2015/01/01 First version, 0.01
+                2016/10/01 V1.16, Packaged for CorePure64
+Previous:       2016/12/01 V1.20, Packaged for CorePure64
+Current:        2017/03/21 V1.24, Packaged for CorePure64
+

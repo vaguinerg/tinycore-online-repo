@@ -1,0 +1,17 @@
+Title:          nfs-utils.tcz
+Description:    NFS client and server utilities
+Version:        1.3.4
+Author:         Neil Brown
+Original-site:  http://nfs.sourceforge.net
+Copying-policy: GPL
+Size:		180KB
+Extension_by:   juanito
+Tags:	        NFS client server utilities
+Comments:       filesystems-`uname -r`.tcz is a 
+		dependency if you are using the nfs-server, and needs to be
+		installed for server use.  Both client and server functions are 
+		supported through this extension
+                The iana-etc extension may be required for additional functionality
+                ----------
+Change-log:     first version
+Current:	2021/01/03

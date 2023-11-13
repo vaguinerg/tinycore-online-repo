@@ -1,0 +1,19 @@
+Title:          dropbear.tcz
+Description:    Small SSH server and client
+Version:        2012.55
+Author:         Matt Johnston
+Original-site:  https://matt.ucc.asn.au/dropbear/dropbear.html
+Copying-policy: Varying by code portion, see source tarball
+Size:		112K
+Extension_by:   bmarkus
+Tags:           SECURITY CLI SSH
+Comments:       Binaries only
+                ----
+                Compiled for RPI
+                ----
+                Use /usr/local/etc/init.d/dropbear start|stop|retart|status 
+                to manage service as root
+                ----
+                PPI compatible
+Change-log:     ----
+Current:        2012/09/20 First version, 2012.55

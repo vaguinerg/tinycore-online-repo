@@ -1,0 +1,20 @@
+Title:          ghostscript-doc.tcz
+Description:    docs for ghostscript 
+Version:        9.07
+Author:         see AUTHORS
+Original-site:  http://sourceforge.net/projects/ghostscript
+Copying-policy: see LICENSE and COPYING
+Size:		7.6M
+Extension_by:   aus9
+Tags:	    	doc ghostscript 
+Comments:       docs for ghostscript.
+		I have only made a dep for man page
+		Optional deps include: your web browser,
+		your pdf viewer 
+
+ 		$gs -h may report for help see /usr/local/share/something/doc
+		but search /usr/local/share/doc/ghostscript-doc please.
+		Key doc to read is Use.htm
+              
+Change-log:     2013/03/16 First version
+Current: 	2013/03/16  v 9.07 

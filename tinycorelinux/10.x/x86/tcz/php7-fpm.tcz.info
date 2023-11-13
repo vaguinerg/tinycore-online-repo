@@ -1,0 +1,44 @@
+Title:		php7-fpm.tcz
+Description:    PHP Hypertext Processor Fast Page Mode server
+Version:	7.4.2
+Author:		PHP Group
+Original-site:  http://php.net
+Copying-policy: PHP License 3.01
+Size:		1.6M
+Extension_by:   andyj
+Tags:		php fpm fast page mode
+Comments:       PHP FPM utility, requires php-ext.tcz for extentions
+		extensions may have additional dependency requirements
+		----
+Change-log:	2017/07/01 First version, 7.1.6, compiled for TC 8.x,
+			drop support for Berkeley DB, drop support for mcrypt,
+			drop support for XBM format in gd, add support for libtidy
+		2017/07/26 updated to 7.1.7
+		2017/08/11 updated to 7.1.8
+		2017/09/10 updated to 7.1.9
+		2017/10/30 updated to 7.1.11
+		2017/12/02 updated to 7.1.12
+		2018/01/06 upgraded to 7.2.1
+		2018/04/11 updated to 7.2.4, compiled for TC 9.x
+		2018/08/17 updated to 7.2.9
+		2018/09/23 updated to 7.2.10
+		2018/11/11 updated to 7.2.12
+		2019/01/21 upgraded to 7.3.1, recompiled for TC 10.x
+		2019/02/09 updated to 7.3.2
+		2019/03/07 updated to 7.3.3
+		2019/04/05 updated to 7.3.4
+		2019/05/05 updated to 7.3.5
+		2019/05/31 updated to 7.3.6
+		2019/07/06 updated to 7.3.7, recompiled with openssl-1.1.1
+			extensions moved to /usr/local/lib/php/extensions/
+		2019/10/22 updated to 7.3.11, libxml, filter, and mysqlnd are now
+			shared extensions and not built in. Add to php.ini if needed.
+		2019/11/24 updated to 7.3.12
+		2019/12/05 upgrade to 7.4.0
+                        extension hash is now required to be compiled in,
+				remove extension=hash from php.ini
+                        extensions recode and wddx are deprecated (dropped)
+                        extension ffi (foreign function interface) is new
+			extension mbstring requires libonig.tcz (no longer bundled)
+Current:        2020/01/29 upgrade to 7.4.2
+

@@ -1,0 +1,16 @@
+Title:          dropbear.tcz
+Description:    Small SSH client and server
+Version:        0.52
+Author:         Matt Johnston
+Original-site:  http://matt.ucc.asn.au/dropbear/dropbear.html
+Copying-policy: MIT
+Size:		92K
+Extension_by:   roberts
+Tags:	    Small SSH client server
+Comments:       Compiled for armv7 Allwinner port.
+		To start the server: /etc/init.d/dropbear start
+-
+		Not PPI compatible.
+Change-log:	2010/01/17 Original
+Current:        2010/04/10 Added status check to init script - Curaga.
+Current:	2012/12/17 Compiled for armv7

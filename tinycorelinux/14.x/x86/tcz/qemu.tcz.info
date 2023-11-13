@@ -1,0 +1,19 @@
+Title:          qemu.tcz
+Description:    Generic machine emulator and virtualizer
+Version:        3.1.0
+Author:         Various
+Original-site:  http://qemu.org
+Copying-policy: GPL v2
+Size:           15.1MB
+Extension_by:   bmarkus
+Tags:           QEMU EMULATOR INTEL X86 X86_64
+Comments:       x86, x86_64 specific binaries
+                ----
+                example howto:
+                $ sudo modprobe kvm-intel
+                $ qemu-img create -f qcow2 vdisk.img 1G
+                $ qemu-system-i386 -enable-kvm -hda vdisk.img -m 1G -cdrom TinyCore-4.7.7.iso -boot d
+                ----
+Change-log:     2014/02/01 First version, 1.7.0
+                2014/04/18 Updated to 2.0.0
+Current:        2018/12/16 updated 2.0.0 -> 3.1.0 (juanito)

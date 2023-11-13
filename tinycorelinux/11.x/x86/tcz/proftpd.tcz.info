@@ -1,0 +1,19 @@
+Title:          proftpd.tcz
+Description:    FTP, SFTP and FTPS server
+Version:        1.3.7
+Author:         Michael Renner, Daniel Roesen, John Morrissey, TJ Saunders
+Original-site:  http://www.proftpd.org
+Copying-policy: see list of sites below
+Size:           792K
+Extension_by:   bonbob
+Tags:           FTP FTPS SFTP server
+Comments:       FTP, SFTP and FTPS server
+                ----------
+                edit /usr/local/etc/proftpd.conf and run proftpd
+                $ sudo /usr/local/etc/init.d/proftpd {start|stop|restart|status}
+                ----------
+                This extension contains:
+                proftpd-1.3.7rc3 - ftp://ftp.proftpd.org/distrib/source/proftpd-1.3.7rc3.tar.gz
+                ----------
+Change-log:     2020/05/25 first version 1.3.7
+Current:        2020/05/25 version 1.3.7

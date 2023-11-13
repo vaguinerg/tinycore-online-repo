@@ -1,0 +1,21 @@
+lvm2-doc.tcz
+   lvm2.tcz
+      raid-dm-3.0.21-tinycore.tcz
+      liblvm2.tcz
+         libdevmapper.tcz
+            udev-lib.tcz
+      readline.tcz
+         ncurses.tcz
+            ncurses-common.tcz
+      ncurses.tcz
+         ncurses-common.tcz
+   man.tcz
+      less.tcz
+         ncurses.tcz
+            ncurses-common.tcz
+         pcre.tcz
+            readline.tcz
+               ncurses.tcz
+                  ncurses-common.tcz
+      groff.tcz
+

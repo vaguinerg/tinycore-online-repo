@@ -1,0 +1,32 @@
+Title:		Hack-font.tcz
+Project:	Hack Font
+Description:	Monospace fonts with unicode glyphs tuned for code readability
+Version:	3.0.0
+Author:		Chris Simpkins
+Original-site:	https://github.com/source-foundry/Hack
+Copying-policy:	MIT, Bitstream Vera
+Size:		708K
+Extension_by: 	andyj
+Tags:		font monospace truetype
+Comments:	Hack is designed to be a workhorse typeface for source code.
+		It has deep roots in the free, open source typeface community
+		and expands upon the contributions of the Bitstream Vera &
+		DejaVu projects. The large x-height + wide aperture + low
+		contrast design make it legible at commonly used source code
+		text sizes with a sweet spot that runs in the 8px - 14px range.
+
+		For best results add the following to ~/.Xdefaults:
+
+		Xft.autohint: 0
+		Xft.lcdfilter: lcddefault
+		Xft.hintstyle: hintslight
+		Xft.hinting: 1
+		Xft.antialias: 1
+		Xft.rgba: rgb
+		URxvt*font: xft:Hack:style=Regular:size=9
+		URxvt*letterSpace: 0
+
+		----
+Change-log:	2017/12/15 First version, 3.0.0
+Current:	2017/12/15
+

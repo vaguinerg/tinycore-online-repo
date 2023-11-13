@@ -1,0 +1,106 @@
+Title:          clamfs.tcz
+Description:    ClamFS uses clamav to provide real time anti virus protection for linux directorys.
+Version:        1.0.1
+Author:         Krzysztof Burghardt
+Original-site:  http://clamfs.sourceforge.net/
+Copying-policy: GNU GPL Version 2
+Size:		76K
+Extension_by:   Remus
+Tags:	    ClamFS clamav provide real time anti virus protection directorys.
+Comments:       ClamFS is a FUSE-based user-space file system for Linux with on-access anti-virus file scanning 
+through clamd daemon.
+
+Features
+- User-space file system (no kernel patches, recompilation, etc.)
+- Configuration stored in XML files
+- FUSE (and libfuse) used as file system back-end
+- Scan files using ClamAV
+- ScanCache (LRU with time-based and out-of-memory expiration) speeds up file access
+- Sends mail to administrator when detect virus
+
+HowTo
+
+- Setup clamd.conf
+
+Prep the clamd.conf file
+$ cd /usr/local/etc/clamav
+$ sudo rm -f clamd.conf
+$ sudo cp /tmp/tcloop/clamav/usr/local/etc/clamav/clamd.conf .
+$ echo "usr/local/etc/clamav/clamd.conf" >> /opt/.filetool.lst
+
+Edit the clamd.conf file
+Uncomment this line
+#LocalSocket /tmp/clamd.socket
+Save and exit clamd.conf file
+ 
+Update virus definitions
+$ freshclam
+ 
+Start clamav daemon
+$ clamd
+ 
+If you want clamd to start onboot
+$ echo "clamd" >> /opt/bootlocal.sh
+ 
+Make the changes persistent
+$ filetool.sh -b
+ 
+- setup clamfs.xml
+ 
+Create some folders, I'm doing this as the tc user.
+$ cd /home/tc
+$ mkdir public
+$ mkdir .public
+ 
+Prep the clamfs.xml file
+$ cd /usr/local/etc/clamfs
+$ sudo rm -f clamfs.xml
+$ sudo cp /tmp/tcloop/clamfs/usr/local/etc/clamfs/clamfs.xml .
+$ echo "usr/local/etc/clamfs/clamfs.xml" >> /opt/.filetool.lst
+ 
+Edit the clamfs.xml file
+ 
+Find this line
+ <clamd socket="/var/run/clamav/clamd.ctl" check="yes" />
+Change it to this
+ <clamd socket="/tmp/clamd.socket" check="yes" />
+  
+Find this line
+ <filesystem root="/tmp" mountpoint="/clamfs/tmp" public="yes" />
+Change it to this
+ <filesystem root="/home/tc/.public" mountpoint="/home/tc/public" readonly="no" nonempty="yes" public="yes" />
+     
+Find this line
+ <!-- <log method="file" filename="/var/log/clamfs.log" verbose="no" /> -->
+Change it to this
+ <log method="file" filename="/var/log/clamfs.log" verbose="no" />
+      
+Save and exit clamfs.xml
+      
+Start clamfs and mount your public folder
+$ sudo clamfs clamfs.xml
+      
+- Test everything is working
+      
+$ cd /home/tc/public
+      
+Download the eicar test file with wget
+$ tce-load -i wget
+$ wget http://www.eicar.org/download/eicar.com
+      
+Performing any action on the file should result in an error, but you can delete the file.
+      
+Check the clamfs log file for entrys regarding the eicar test file
+$ less /var/log/clamfs.log
+      
+A few notes:
+- The public folders are only examples, use your folders as needed
+- The default whitelist and blacklist entrys in clamfs.xml might need fine tuning, depending on what you want 
+to monitor
+- ClamFS does its thing once an infected file is in your file system and you try to access the file 
+in some way, Clamfs does not stop an infected file form being saved to your file system in the first 
+place. To quote a very helpful tinycore forum member "The cockroaches can get in, but they can't 
+get out"
+
+Change-log:     -----
+Current:        2012/02/09 First Version

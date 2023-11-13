@@ -1,0 +1,35 @@
+libcamera-apps.tcz
+   libcamera.tcz
+      openssl.tcz
+         ca-certificates.tcz
+      libudev.tcz
+         glib2.tcz
+            gamin.tcz
+            libelf.tcz
+            pcre.tcz
+               bzip2-lib.tcz
+               gcc_libs.tcz
+      libyaml.tcz
+      v4l-dvb-5.10.77-piCore-v8.tcz
+         alsa-modules-5.10.77-piCore-v8.tcz
+         graphics-5.10.77-piCore-v8.tcz
+            alsa-modules-5.10.77-piCore-v8.tcz
+   boost.tcz
+   libdrm.tcz
+      libpciaccess.tcz
+      libudev.tcz
+         glib2.tcz
+            gamin.tcz
+            libelf.tcz
+            pcre.tcz
+               bzip2-lib.tcz
+               gcc_libs.tcz
+   libexif.tcz
+   libtiff.tcz
+      liblzma.tcz
+      libjpeg-turbo.tcz
+      zstd.tcz
+         liblzma.tcz
+         liblz4.tcz
+   libpng.tcz
+

@@ -1,0 +1,29 @@
+libcacard-dev.tcz
+   libcacard.tcz
+      nss.tcz
+         nspr.tcz
+         sqlite3.tcz
+      pcsc-lite.tcz
+         udev-lib.tcz
+   nss-dev.tcz
+      nss.tcz
+         nspr.tcz
+         sqlite3.tcz
+      nspr-dev.tcz
+         nspr.tcz
+      sqlite3-dev.tcz
+         sqlite3-bin.tcz
+            sqlite3.tcz
+            readline.tcz
+               ncurses.tcz
+         readline-dev.tcz
+            readline.tcz
+               ncurses.tcz
+            ncurses-dev.tcz
+               ncurses.tcz
+   pcsc-lite-dev.tcz
+      pcsc-lite.tcz
+         udev-lib.tcz
+      udev-lib-dev.tcz
+         udev-lib.tcz
+

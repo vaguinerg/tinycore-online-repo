@@ -1,0 +1,53 @@
+Title:          vsftpd-ssl.tcz
+Description:    FTP Server with SSL Support
+Version:        2.3.5
+Author:         Chris Evans
+Original-site:  http://vsftpd.beasts.org/
+Copying-policy: GPL
+Size:		52K
+Extension_by:   robc
+Tags:	    FTP Server SSL Support
+Comments:       Use the following command to 
+		run vsftpd:
+			sudo vsftpd &
+			
+		The configuration file will need to be
+		edited, it can be found at:
+		/usr/local/etc/vsftpd.conf
+		
+		Add vsftpd.conf to the .filelist backup
+		file list for persistency.
+		
+		Add the following lines to vsftpd.conf
+		to activate SSL FTP:
+			ssl_enable=YES
+			ssl_sslv2=YES
+			ssl_sslv3=YES
+		
+		The default location for the pem file
+		is /usr/local/etc/ssl/cert/vsftpd.pem
+		This can be changed in vsftpd.conf with
+			rsa_cert_file=/path/to/cert
+		
+		---------------------------------------
+		
+		Please visit http://vsftpd.beasts.org/
+		for more information on setting up 
+		vsftpd.
+		
+		
+		Please see the man page for additional 
+		information.
+		
+		---------------------------------------
+		
+Change-log:     2009/1/19 Original
+		2009/5/27 Updated to v2.1.0, PPI compatible
+		2009/08/31 Updated to v2.2.0, Added SSL support
+		2009/11/12 Updated to v2.2.1, updated to openssl-0.9.8k
+		2010/01/22 Updated to v2.2.2
+		2010/04/05 Rebuilt against updated openssl-0.9.8.
+		2010/09/29 Updated to v2.3.2
+		2011/03/08 Updated to v2.3.4
+		2011/12/22 Updated to v2.3.5
+Current:	2011/12/22 Updated to v2.3.5

@@ -1,0 +1,40 @@
+Title:          set_rlimits.tcz
+Description:    Set Linux realtime resource limits.
+Version:        1.3.0
+Author:         Jonathan Woithe
+Original-site:  http://www.physics.adelaide.edu.au/~jwoithe/
+Copying-policy: GPL
+Size: 		16K
+Extension_by:   hiro
+Tags:	    Set realtime resource limits.
+Comments:	set_rlimits is a small wrapper program to allow people to take advantage of
+		the realtime resource limit extensions available in Linux kernels 2.6.12 and
+		later without having to resort to using a PAM module.  This is of particular
+		interest for Slackware users since Slackware doesn't use PAM, but other
+		users may find this program helpful as well.  In addition, several other
+		resource limits can be manipulated by the program.
+		
+		set_rlimits needs to be installed setuid root.  However, it runs at
+		elevated priviledges only when setting the process resource limits.  This
+		minimises potential security implications.  Despite this, no security 
+		guarantee is given; users concerned about the security of this program
+		should review the source code themselves.  Suggestions on improving security
+		are welcomed by the author.
+		
+		The resource limits which set_rlimits is permitted to grant are controlled
+		in /usr/local/etc/set_rlimits.conf (change in source: set_rlimits.c). 
+		This file sets the maximum priorities which
+		set_rlimits can set for a given program when executed by a given user or
+		group.  The program specified must include an absolute path.  This gives an
+		administrator fairly fine-grained control over who can execute programs at
+		elevated priorities and which programs they are.  The enforced specification
+		of an absolute path in the configuration file means the administrator can
+		maintain control over exactly which programs may be run with elevated
+		resource limits.
+		
+		For further details on the configuration file format, refer to the
+		/usr/local/etc/set_rlimits.conf.example provided in the extension, or the
+		source itself.
+			
+Change-log: 
+Current:        2010/06/16 First Version 

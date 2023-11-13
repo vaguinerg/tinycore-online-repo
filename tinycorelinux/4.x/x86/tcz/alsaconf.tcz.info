@@ -1,0 +1,24 @@
+Title:          alsaconf.tcz
+Description:    alsa sound configuration tool
+Version:        1.0.23
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 1.1MB
+Extension_by:   juanito/jasonw
+Tags:	    alsa sound configuration tool
+Comments:       Advanced Linux Sound Architecture
+                ----------
+                This extension contains:
+                alsa-lib-1.0.23 - LGPLv2.1 - ftp://ftp.alsa-project.org/pub/lib/alsa-lib-1.0.23.tar.bz2
+                alsa-utils-1.0.23 - GPLv2 - ftp://ftp.alsa-project.org/pub/utils/alsa-utils-1.0.23.tar.bz2
+                ----------
+                Example howto:
+                $ sudo alsaconf
+                $ speaker-test -c2 -t wav -l1
+		---------- 
+Change-log:     ----------
+Current:	2010/12/20 Separated from alsa extension
+			    to reduce dependencies most folks
+			    won't need.
+

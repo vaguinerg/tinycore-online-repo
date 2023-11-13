@@ -1,0 +1,19 @@
+Title:          sg3-utils.tcz
+Description:    scsi and usb utilities
+Version:        1.40b
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 588KB
+Extension_by:   juanito
+Tags:	        scsi usb utility
+Comments:       multiple scsi and usb command line utilities
+                ----------
+                to activate mac superdrive in linux:
+                $ sg_raw /dev/sr0 EA 00 00 00 00 00 01
+                ----------
+                This extension contains:
+                sg3_utils-1.40b11r618 - BSD - http://sg.danny.cz/sg/p/sg3_utils-1.40b11r618.tar.xz
+                ----------
+Change-log:     first version
+Current:        2014/11/01

@@ -1,0 +1,27 @@
+geocode-glib.tcz
+   json-glib.tcz
+      glib2.tcz
+         libffi.tcz
+         pcre.tcz
+   libsoup.tcz
+      glib-networking.tcz
+         glib2.tcz
+            libffi.tcz
+            pcre.tcz
+         gnutls35.tcz
+            p11-kit.tcz
+               libffi.tcz
+               libtasn1-4.tcz
+            nettle3.tcz
+               gmp.tcz
+            libidn2.tcz
+               libunistring.tcz
+               ncursesw.tcz
+      libxml2.tcz
+         liblzma.tcz
+      sqlite3.tcz
+      libpsl.tcz
+         libidn2.tcz
+            libunistring.tcz
+            ncursesw.tcz
+

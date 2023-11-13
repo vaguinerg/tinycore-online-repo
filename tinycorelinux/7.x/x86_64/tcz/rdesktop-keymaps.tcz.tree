@@ -1,0 +1,22 @@
+rdesktop-keymaps.tcz
+   rdesktop.tcz
+      libX11.tcz
+         libxcb.tcz
+            libXau.tcz
+            libXdmcp.tcz
+      libXrandr.tcz
+         libXext.tcz
+            libX11.tcz
+               libxcb.tcz
+                  libXau.tcz
+                  libXdmcp.tcz
+         libXrender.tcz
+            libX11.tcz
+               libxcb.tcz
+                  libXau.tcz
+                  libXdmcp.tcz
+      libasound.tcz
+      openssl.tcz
+      pcsc-lite.tcz
+         udev-lib.tcz
+

@@ -1,0 +1,31 @@
+Title:          transmission.tcz    (Testing)
+Description:    Uses less CPU than any other GUI clients and some non-GUI client
+Author:         Jordan Lee, et al
+Size:		1.5M
+Extension_by:   moB
+Original-site:  https://www.transmissionbt.com
+Copying-policy: GPLv3
+Tags:       	Torrent client/server p2p CLI browser-based frugal
+Comments:    Uses less CPU than any other GUI clients and some non-GUI client
+                Lowest memory footprint of any major BitTorrent client.
+                Share files with using CLI and/or web-browser interfaces.
+                Local and remote management.
+                Tested with Icecat. For example:
+                1. ln -s /mnt/sdb1/Downloads ~/Downloads [see Note 1]
+                2. Start transmission-daemon
+                3. Browser http://127.0.0.1:9091/transmission/web/
+                   Allow scripts on page.
+                4. Paste in magnet link. Got book in 28 seconds.
+                Note 1:
+                 Add link (or maybe you made a mount point) to
+                 /opt/.xfiletool.lst to for quick TC loading.
+                Missing: copy or export magnet link from torrent.
+                We can still make magnet links to send to friends
+                and post in forums. I have included a simple
+                tool, magnet_trans, for you.
+                See docs for manuals - also wiki and forum
+                https://forum.transmissionbt.com/
+                https://trac.transmissionbt.com/wiki/WikiStart
+Version:        2.83
+Change-log:     26 May 2014 first version
+Current:        26 May 2014 first version

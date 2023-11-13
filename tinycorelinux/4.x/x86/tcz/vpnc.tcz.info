@@ -1,0 +1,26 @@
+Title:		vpnc.tcz
+Description:	vpnc - VPN concentrator for Cisco network routers
+Version:	0.5.3~svn449
+Author:		Maurice Massar
+Original-site:	http://www.unix-ag.uni-kl.de/~massar/vpnc/
+Copying-policy:	GPLv2
+Size:		64.0K
+Extension_by:	gutmensch
+Tags:		vpnc VPN concentrator Cisco network routers
+Comments:	If you want to use the included pcf2vpnc script you will
+		have to install the perl5.tcz extension once as it is not
+		included in the dependencies (due to size).
+		
+		Then do:
+		  1. pcf2vpnc your.pcf > your.conf
+		  2. sudo cp your.conf /usr/local/etc/vpnc/
+		  3. sudo vpnc your
+	
+		Add your.conf to your backup and for automatic start put in
+		your username and password as well.
+		
+		This extension is PPI compatible
+Change-log:	10/02/03 Fix /etc/vpnc to /usr/local/etc/vpnc.
+		10/02/02 Bump to svn 0.5.3-svn449, rebuild, reduce size.
+		09/08/29 Initial version.
+Current:	10/02/03

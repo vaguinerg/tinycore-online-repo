@@ -1,0 +1,20 @@
+fluidsynth-dev.tcz
+   fluidsynth.tcz
+      glib2.tcz
+         libffi.tcz
+      flac.tcz
+      jack-lib.tcz
+      libasound.tcz
+      libogg.tcz
+      libsndfile.tcz
+         flac.tcz
+         libvorbis.tcz
+            libogg.tcz
+      libvorbis.tcz
+         libogg.tcz
+      ncurses.tcz
+         ncurses-common.tcz
+      readline.tcz
+         ncurses.tcz
+            ncurses-common.tcz
+

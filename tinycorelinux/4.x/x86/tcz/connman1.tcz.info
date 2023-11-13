@@ -1,0 +1,26 @@
+Title:		connman1.tcz
+Description:	a daemon for managing internet connections
+Version:	1.16
+Author:		Marcel Holtmann and Samuel Ortiz
+Original-site:	http://connman.net
+Copying-policy:	GPL-2
+Size:		284K
+Extension_by:	jls_legalize <jlslegalize@gmail.com>
+Tags:		daemon internet connections
+Comments:	Add to /opt/bootlocal.sh :
+			/usr/local/etc/init.d/dbus start
+			connmand
+		In case u need a wifi connection load 
+			wpa_supplicant-dbus.tcz
+		To save settings add /var/lib/connman to /opt/.filetool.lst
+		This extension confilcts with connman.tcz
+Change-log:	2012/08/15 First version
+		2012/08/24 Updated to 1.6, rebuilt against gnutls2, so update you dep
+		file
+		2013/04/26 rebuilt fixing configure options, modified dbus config to enable
+		user to control the program
+		2013/05/02 rebuilt fixing configure options, modified dbus config to enable
+		user to control the program
+		2013/05/07 Updated to 1.14
+		2013/05/31 Updated to 1.15
+Current:	2013/07/20 Updated to 1.16

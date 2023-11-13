@@ -1,0 +1,54 @@
+Title:          luajit.tcz
+Description:    Lua Just-In-Time Compiler
+Version:        2.0.0-beta9
+Author:         Mike Pall
+Original-site:  http://luajit.org/luajit.html
+Copying-policy: GNU General Public License Version 2
+Size:		212K
+Extension_by:   vitex
+Tags:	    Lua Just-In-Time Compiler
+Comments:       From http://luajit.org/luajit.html:
+
+                  LuaJIT implements the full set of language features
+                  defined by Lua 5.1. The virtual machine (VM) is API-
+                  and ABI-compatible to the standard Lua interpreter
+                  and can be deployed as a drop-in replacement.
+
+                  LuaJIT offers more performance, at the expense of
+                  portability. It currently runs on all popular
+                  operating systems based on x86 or x64 CPUs (Linux,
+                  Windows, OSX etc.) or embedded systems based on ARM
+                  (Android, iOS) or PPC CPUs. Other platforms will be
+                  supported in the future, based on user demand and
+                  sponsoring.
+
+                  ...
+
+                  The FFI library allows calling external C functions
+                  and using C data structures from pure Lua code.
+
+                  The FFI library largely obviates the need to write
+                  tedious manual Lua/C bindings in C. No need to learn
+                  a separate binding language — it parses plain C
+                  declarations! These can be cut-n-pasted from C
+                  header files or reference manuals. It's up to the
+                  task of binding large libraries without the need for
+                  dealing with fragile binding generators.
+                  
+                -----------------------------------------------------
+
+                This extension was built from 
+
+                  http://luajit.org/download/LuaJIT-2.0.0-beta9.tar.gz
+
+                This extension contains the x86 version of the LuaJIT
+                compiler. See the luajit-dev extension for the
+                developmental files from the LuaJIT distribution.
+
+                See the LuaJIT web site for extensive documentation.
+
+                -----------------------------------------------------
+
+Change-log:     ----------
+          	2010/01/01 First version
+Current:	2011/12/14 Upgraded to 2.0.0-beta9

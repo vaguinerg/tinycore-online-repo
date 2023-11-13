@@ -1,0 +1,36 @@
+Title:          grub-0.97-splash.tcz
+Description:    GRand Unified Bootloader
+Version:        0.97-splash
+Author:         Various
+Original-site:  http://gnu.org/software/grub
+Copying-policy: GPL
+Size:		272K
+Extension_by:   Curaga
+Tags:	    GRand Unified Bootloader
+Comments:       GRUB 0.97, with various patches for
+		bugs, recognition, and splash support.
+-
+		Short howto for usb stick install:
+		echo "(hd0) /dev/sdX" > /tmp/devmap
+		sudo su
+		grub --device-map /tmp/devmap
+		root (hd0,Y)
+		setup (hd0)
+		quit
+		exit
+-
+		For installing to hard drive:
+		sudo su
+		grub
+		root (hdZ,F)
+		setup (hdZ)
+		quit
+		exit
+-
+		Please remember to replace X,Y,Z,F with suitable
+		numbers. If unsure, tab-complete.
+		Splashimages are 640x480 gzipped XPM, max 14 colors.
+Change-log:     2008/10/28 Original
+		2009/03/17 CLFS patch required autoreconf, and they did 
+-		not mention that anywhere
+Current:	2010/03/07 Updated with ext4 and Xen support.

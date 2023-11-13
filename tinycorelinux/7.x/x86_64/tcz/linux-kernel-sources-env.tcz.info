@@ -1,0 +1,44 @@
+Title:		linux-kernel-sources-env.tcz 
+Description:	Linux kernel full sources build environment
+Version:	2.3
+Author:		Linux project
+Original-site:	kernel.org
+Copying-policy:	GPLv2
+Size:		4.0K
+Extension_by:	coreplayer2
+Tags:	 	kernel sources
+Comments:	Script to download and prepare Linux 
+		kernel sources for compiling modules, etc.
+		in lieu of kenel headers. 
+		This extension supports TC-7.x Kernel-4.2.9
+		x86 & x86_64 architectures
+
+		Installed:
+		/usr/src/linux-4.2.9
+
+		Symlinks:
+		/lib/modules/4.2.9-tinycore(64)/build
+		/lib/modules/build
+
+		Deps:
+		Script will download sources and deps for
+		build environment.
+		sources are saved to /tmp which may be saved 
+		at your discretion. If saved within reach of 
+		the file system, these sources will be reused.
+
+		run as normal from the desktop menu or 
+		command line, or you may choose to add 
+		this command to your module build script
+
+		    cliorx linux-kernel-sources-env.sh
+			
+
+-
+Change-log:	---
+		2013/08/06 Original
+		2013/09/02 Added 2nd script
+		2013/12/02 many changes, primarily to support kernel-3.8.13
+		2015/01/14 Added TC-6.x support with compressed Module.symvers
+		2015/05/25 Added autoconf dep and minor cosmetic changes 
+Current:	2016/01/18 This extension primarily supports Kernel-4.2.9

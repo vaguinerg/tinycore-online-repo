@@ -1,0 +1,30 @@
+Title:          sway-dot.tcz 
+Description:    Mainly local bin to start sway
+Version:        1.1
+Author:         aus9
+Original-site:  Tinycore
+Copying-policy: open source 
+Size:           4.0K
+Extension_by:   aus9 
+Tags:           sway
+Comments:       startx is used to start a X WM while sway runs 
+                on Wayland so to allow people to try sway I 
+                have elected to give them a dot local bin file 
+                ..z..to use at console prompt to launch sway
+
+                See sway TCE info on how to exit sway and then 
+                you can run startx to start your preferred DE/WM,
+                if you do not like sway.
+
+                That means this app is a DownloadOnly and not to be 
+                added to your boot list file. It is run once by 
+                $ tce-load -i sway-dot
+
+                I have attempted to put a help.txt file under
+                ~/.config/sway which will autostart with sway 
+
+                sway-dot can be loaded without sway loaded.
+                
+Change-log:     2019/05/17 Original v 1.0 on 10.x  
+Current:        2020/07/11 -> 1.1 takes over all sway script functions
+

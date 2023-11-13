@@ -1,0 +1,26 @@
+Title:          firmware-rtlwifi.tcz
+Description:    firmware for Realtek Wireless LAN
+Version:        20230117
+Author:         Various
+Original-site:  https://git.kernel.org/pub/scm/linux/\
+                kernel/git/firmware/linux-firmware.git
+Copying-policy: Distributable
+Size:           972K
+Extension_by:   aus9 
+Tags:           firmware realtek wifi
+Comments:       firmware 
+
+                (update) deleted rtl8192eefw rtl8723bs_ap_wowlan 
+                rtl8723bs_nic rtl8723bs_wowlan
+
+Change-log:     2013/07/01 Original for tc5.x (bmarkus)
+                2014/03/04 updated for piCore-5.2
+                2014/04/25 Added rtl8188eufw.bin
+                2014/10/17 Added rtl8192cufw_TMSC.bin
+                2015/06/02 updated (coreplayer2)
+                2017/03/17 updated (coreplayer2)
+                2018/02/25 updated (coreplayer2)
+                2018/12/24 updated (coreplayer2)
+                2020/06/20 updated (aus9)
+Current:        2023/02/04 updated (aus9) has 4 deletions
+

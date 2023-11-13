@@ -1,0 +1,26 @@
+Title:		xscreensaver.tcz
+Description:	screensavers for x
+Version:	5.26
+Author:		Jamie Zawinski et al
+Original-site:	http://www.jwz.org/xscreensaver/xscreensaver-5.26.tar.gz
+Copying-policy:	proprietary
+Size:		3.2M
+Extension-by:	dentonlt
+Tags:		screensavers X x11 glade gtk
+Comments:	----------
+		This extension requires GTK2 and its dependencies. OpenGL
+		screensavers have not been included. xscreensaver needs to
+		be run as root in order to write to the screen.
+		To start at boot, create an .X.d\xscreensaver file with:
+			xscreensaver -nosplash &
+		Configure using xscreensaver-command -prefs.
+		This version is built with screen locking and setuid
+		support for some savers. Configure options used:
+		--with-gtk --with-pixbuf --without-gl
+		--includedir=/usr/local/include/gdk-pixbuf-2.0/
+		--enable-locking --with-jpeg --with-setuid-hacks
+		----------
+Change-log:	2009/12/21: first version for x86
+		2010/07/31: updated Xorg for tc3.0
+		2014/01/29: first version for x86_64 / tc5
+Current:	2014/01/29: first version for x86_64 / tc5

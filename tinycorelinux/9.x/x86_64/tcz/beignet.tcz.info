@@ -1,0 +1,20 @@
+Title:          beignet.tcz
+Description:    intel opencl gpu drivers
+Version:        git-afd050f
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 20.5MB
+Extension_by:   juanito
+Tags:	        opencl intel gpu graphics
+Comments:       opencl intel gpu drivers
+                ----------
+                Note:
+                $ sudo rm /etc/OpenCL/vendors/mesa.icd
+                re-start X
+                ----------
+                This extension contains:
+                beignet - lGPLv2.1 - git clone git://anongit.freedesktop.org/beignet
+                ----------
+Change-log:     first version
+Current:        2017/09/22

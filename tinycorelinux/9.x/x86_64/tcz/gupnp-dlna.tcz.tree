@@ -1,0 +1,31 @@
+gupnp-dlna.tcz
+   gupnp.tcz
+      gssdp.tcz
+         libsoup.tcz
+            glib-networking.tcz
+               glib2.tcz
+                  libffi.tcz
+                  pcre.tcz
+               gnutls35.tcz
+                  p11-kit.tcz
+                     libffi.tcz
+                     libtasn1-4.tcz
+                  nettle3.tcz
+                     gmp.tcz
+                  libidn2.tcz
+                     libunistring.tcz
+                     ncursesw.tcz
+            libxml2.tcz
+               liblzma.tcz
+            sqlite3.tcz
+   gst-plugins-base.tcz
+      gstreamer.tcz
+         glib2.tcz
+            libffi.tcz
+            pcre.tcz
+      libtheora.tcz
+         libogg.tcz
+      libvorbis.tcz
+         libogg.tcz
+      libasound.tcz
+

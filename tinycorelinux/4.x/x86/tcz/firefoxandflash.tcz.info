@@ -1,0 +1,29 @@
+Title:          firefoxandflash.tcz
+Description:    Use your choice of Firefox and Flash (TESTING)
+Version:        0.1
+Author:         rudolf (contact via forum)
+Original-site:  www.tinycorelinux.net
+Copying-policy: GPL-2
+Size:		8.0K
+Extension_by:   rudolf
+Comments:       This extension installs your choice of
+		Firefox and Flash.It does not contain Firefox
+		or Flash. You download the version
+		(and language) you wish to use from the internet, and
+		put it into the tce directory, or put it in home, and
+		use the  copy-from-home Application to copy the
+		downloaded files from your home directory into tce.
+		The newest versions found in tce will
+		be used  (as determined by ls -rv).
+		You don't need to have flash if you don't want to,
+		this extension also works with Firefox only.
+		You can switch versions quickly by simply replacing 
+		the file(s)in tce and rebooting.
+		This extension uses the files you have download
+		and installs them "on the fly" on every boot.
+		Works with Firefox 3.6 thru 8, flash 10 and 11
+		Works with Firefox 9 thru 18.
+Change-log:     ----
+        	2011/11/12 First version as extension.
+        	2013/01/28 adapted to changes made to /etc/sysconfig in Tinycore 4.1->4.2 
+Current:	2013/01/28

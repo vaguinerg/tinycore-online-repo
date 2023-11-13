@@ -1,0 +1,32 @@
+compile-essentials.tcz
+   autoconf.tcz
+      perl5.tcz
+   automake.tcz
+      autoconf.tcz
+         perl5.tcz
+   bash.tcz
+      ncurses.tcz
+   glibc_base-dev.tcz
+   glibc_apps.tcz
+   glibc_add_lib.tcz
+   glibc_gconv.tcz
+   grep.tcz
+      pcre.tcz
+         bzip2-lib.tcz
+   file.tcz
+   gcc.tcz
+      isl.tcz
+         gmp.tcz
+      mpc.tcz
+         mpfr.tcz
+            gmp.tcz
+   libtool.tcz
+      libltdl.tcz
+   linux-4.1.y_api_headers.tcz
+   m4.tcz
+   make.tcz
+   patch.tcz
+   zlib_base-dev.tcz
+   binutils.tcz
+      flex.tcz
+

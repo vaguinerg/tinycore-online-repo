@@ -1,0 +1,33 @@
+Title:          setserial.tcz
+Description:    Serial Port Configuration Tool
+Version:        2.17
+Author:         Theodore Ts'o
+Original-site:  http://setserial.sourceforge.net/
+Copying-policy: GPL
+Size:		8.0K
+Extension_by:   robc
+Tags:	    Serial Port Configuration Tool
+Comments:       Example for a standard COM1:
+		setserial /dev/ttyS0 uart 16450 port 0x3F8 irq 4
+		
+		/etc/serial.conf stores the configuration
+		information for your serial port setup. A
+		sample /etc/serial.conf is provided.
+		
+		Warning: using an incorrect I/O port can
+		lock up your machine.
+		
+		
+		----------------------------------------------
+		
+		Please see the man page for additional 
+		information. 
+		
+		Also see http://setserial.sourceforge.net/
+		for more information.
+		
+		----------------------------------------------
+		
+Change-log:     2009/1/12 Original
+		2011/01/17 Rebuilt for TC 3.x
+Current:	2011/01/17 Rebuilt for TC 3.x

@@ -1,0 +1,22 @@
+Title:          numlockx.tcz  TESTING
+Description:    numlock control in X
+Version:        1.2
+Author:         Lubos Lunak,  Oswald Buddenhagen
+Original-site:  Lost see below
+Copying-policy: MIT
+Size:		8.0K
+Extension_by:   gordons64
+Tags:           numlockx
+Comments:       An app to turn on or off the numlock
+                site=http://mirrors.bloomu.edu/debian/pool/
+                main/n/numlockx/numlockx_1.2.orig.tar.gz
+
+                Create a text file with contents without quotes
+                /usr/local/bin/numlockx on  
+                save file as .X.d/numlockx
+                reboot to test
+
+		Compiled for Corepure64 6.x
+Change-log:     2015/08/01 First version 
+Current:        2015/08/01
+

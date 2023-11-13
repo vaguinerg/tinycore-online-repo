@@ -1,0 +1,17 @@
+Title:		gtk3-dev.tcz
+Description:	A multi-platform toolkit for creating graphical user interfaces (v3), development files.
+Version:	3.4.4
+Author:		Various
+Original-site:	http://www.gtk.org
+Copying-policy:	LGPL
+Size:		804K
+Extension_by:	AmatCoder
+Tags:		gtk toolkit widget interface GUI
+Comments:	Compiled with: 
+		export LDFLAGS='-Wl,-O1,-enable-new-dtags,-rpath,/usr/local/lib'
+		
+		WARNING:
+		You may need same LDFLAGS when you compile gtk3 applications.
+		See: http://forum.tinycorelinux.net/index.php/topic,13389.0.html
+Change-log:	---
+Current:	2012/10/06 First Version 3.4.4

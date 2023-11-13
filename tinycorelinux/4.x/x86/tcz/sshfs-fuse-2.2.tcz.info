@@ -1,0 +1,46 @@
+Title:          sshfs-fuse-2.2.tcz
+Description:    File system client for SFTP
+		Allows you to mount a remote directory over SSH and
+		interact with the files as if they were local.
+Version:        2.2
+Author:         Miklos Szeredi
+Original-site:  http://fuse.sourceforge.net/sshfs.html
+Copying-policy: GPLv2
+Size:		480K
+Extension_by:   combo3
+Tags:	    File system client SFTP
+Comments:       This extension is PPI compatible
+                ----------------------------------------------------
+                Create a mountpoint in your home directory. Then
+                mount the remote host with:
+                
+		$ sshfs hostname mountpoint
+		
+		Example:
+		-------
+		$ mkdir /home/tc/work-pc
+		$ sshfs user@192.168.1.20:/home/user /home/tc/work-pc
+		
+		Note: 
+		----
+		When connecting to a host for the first time you will
+		be greeted with either:
+				
+		 - an authentication request, or
+		 - a plain cursor
+		
+		In both cases, just type in the word 'yes' and hit 
+		enter to continue.
+		
+		------------------------------------------------------
+		For more options use:
+		
+		$ sshfs -h
+
+		------------------------------------------------------
+		usr/local/bin/sshfs
+		usr/local/share/man/man1/sshfs.1
+
+
+Change-log:     2009/05/27  First Version
+Current:	2010/03/25  Converted to recursive deps

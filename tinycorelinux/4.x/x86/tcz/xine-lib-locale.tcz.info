@@ -1,0 +1,27 @@
+Title:		xine-lib-locale.tcz
+Description:	a free (gpl-licensed) high-performance, portable and reusable 
+		multimedia playback engine, locale files.
+Version:	1.2.3
+Author:		Xine Project Team
+Original-site:	 http://www.xine-project.org/home
+Copying-policy:	GPL-2
+Size:		456K
+Extension_by:	jlslegalize@gmail.com
+Tags:		multimedia playback engine
+Comments:	configured with:
+		--without-pulseaudio 
+		--disable-gnomevfs 
+		--disable-vaapi
+		
+		Optional deps:
+                        libxcb
+                        SDL
+                        ImageMagick
+                        jack
+                        samba3
+                        libv4l
+			lcms2
+
+		extension made using http://code.google.com/p/tc-ext-tools/
+Change-log:	---
+Current:	2013/05/31 Updated to 1.2.3

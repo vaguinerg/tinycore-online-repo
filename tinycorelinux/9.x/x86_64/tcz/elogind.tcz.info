@@ -1,0 +1,21 @@
+Title:          elogind.tcz
+Description:    standalone login daemon
+Version:        235.3
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 804KB
+Extension_by:   juanito
+Tags:	        systemd login
+Comments:       systemd project's "logind", extracted out to be a standalone daemon
+                ----------
+                $ tce-load -i shadow
+                $ sudo /usr/local/etc/init.d/dbus start
+                $ sudo /usr/local/lib/elogind/elogind --daemon
+                $ su - tc
+                ----------
+                This extension contains:
+                elogind-235.3 - GPLv3 - https://github.com/elogind/elogind/archive/v235.3.tar.gz
+                ----------
+Change-log:     2018/05/11 first version
+Current:        2018/06/10 recompiled in legacy mode

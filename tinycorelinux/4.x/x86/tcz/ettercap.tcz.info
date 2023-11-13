@@ -1,0 +1,25 @@
+Title:          ettercap.tcz
+Description:    Ettercap	
+Version:        NG-0.7.3
+Author:         Alberto Ornaghi, Marco Valleri
+Original-site:  http://ettercap.sourceforge.net/
+Copying-policy: GPLv2
+Size:           424k
+Extension_by:   andriscom
+Tags:	    Ettercap	
+Comments:       Ettercap is a suite for man in the middle attacks on LAN.
+                It features sniffing of live connections, content filtering
+                on the fly and many other interesting tricks. It supports
+                active and passive dissection of many protocols (even ciphered ones)
+                and includes many feature for network and host analysis. 
+
+                Built with CFLAGS: -march=i486 -mtune=i686 -Os -pipe
+                Built with CXXFLAGS: -march=i486 -mtune=i686 -Os -pipe
+                Built with LDFLAGS: -Wl,-O1
+                Built with the following options:
+                ./configure --prefix=/usr/local --enable-static=zlib:libpthreads --enable-plugins --disable-gtk --mandir=/usr/local/share/man --with-libpcap=/usr/local/ --with-libnet=/usr/local --with-libncurses=/usr/local --with-libpcre=/usr/local --with-openssl=/usr/local
+
+Source:         http://sourceforge.net/projects/ettercap/files/ettercap/NG-0.7.3/ettercap-NG-0.7.3.tar.gz
+Change-log:     2010/11/06 Version: NG-0.7.3
+Current:        2010/11/06 Version: NG-0.7.3
+

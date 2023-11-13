@@ -1,0 +1,21 @@
+Title:          lm-sensors.tcz
+Description:    hardware monitoring
+Version:        3.3.5
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 116KB
+Extension_by:   juanito
+Tags:	        hardware monitor
+Comments:       provides user-space support for the kernel hardware monitoring drivers
+                ----------
+                howto:
+                $ sensors
+                can optionally use the perl5 and bash extensions
+                $ sudo sensors-detect
+                ----------
+                This extension contains:
+                lm_sensors-3.3.5 - GPLv2 - http://dl.lm-sensors.org/lm-sensors/releases/lm_sensors-3.3.5.tar.bz2
+                ----------
+Change-log:     first version
+Current:        2014/08/01

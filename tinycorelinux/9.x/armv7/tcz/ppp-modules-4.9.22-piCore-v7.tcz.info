@@ -1,0 +1,20 @@
+Title:          ppp-modules-4.9.22-piCore-v7.tcz
+Description:    Kernel modules for ppp 
+Version:        4.9.22
+Author:         Linus Torvald
+Original-site:  https://mirrors.dotsrc.org/tinycorelinux/9.x/armv7/releases/RPi/src/kernel/4.9.22-piCore-v7_modules.tar.xz
+Copying-policy: GPL
+Size:		48KB
+Extension_by:   brezular
+Tags:	        ppp kernel modules
+Comments:       Kernel modules for ppp.tcz extension - slhc.ko, pppox.ko
+                ppp_generic.ko,pppoe.ko. Run commands below after installation.
+                sudo depmod -a
+                echo "/lib/modules/4.9.22-piCore-v7/modules.dep" >> /opt/.filetool.lst
+                echo "/sbin/modprobe pppox" >> /opt/bootlocal.sh
+                echo "/sbin/modprobe slhc" >> /opt/bootlocal.sh
+                echo "/sbin/modprobe ppp_generic" >> /opt/bootlocal.sh
+                echo "/sbin/modprobe pppoe" >> /opt/bootlocal.sh
+                /usr/bin/filetool.sh -b
+Change-log:     2017/12/12 first version
+Current:	2018/02/10 added ppp_async (juanito)

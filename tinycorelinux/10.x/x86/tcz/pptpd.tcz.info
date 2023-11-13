@@ -1,0 +1,21 @@
+Title:          pptpd.tcz
+Description:    Open Source PPTP Server
+Version:        1.3.4
+Author:         James Cameron
+Original-site:  http://www.poptop.org/
+Copying-policy: GPL
+Size:           40k
+Extension_by:   N. Carigon
+Tags:           pptp dameon
+Comments:       Compiled with --enable-bcrelay
+                Compiled without encryption (make sure your VPN client is set to
+                not use encryption as well)
+                To Start
+                ----------
+                1) Make sure the correct localip and bcrelay interface are
+                   specified in /etc/pptpd.conf. The startup script attempts to
+                   do this but usually gets it wrong.
+                2) Make sure /etc/ppp/chap-secrets is configured properly
+                3) Run pptpd as root
+Change-log:     2009/12/14 Original version
+Current:        2009/12/14

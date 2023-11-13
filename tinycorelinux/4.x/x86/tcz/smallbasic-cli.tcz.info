@@ -1,0 +1,20 @@
+Title:          smallbasic-cli.tcz
+Description:    Interpreted and structured general purpose language.
+                CLI (TESTING)
+Version:        0.10.6
+Author:         Nicholas Christopoulos & Chris Warren-Smith
+Original-site:  http://smallbasic.sourceforge.net
+Copying-policy: GPL
+Size:           148KB
+Extension_by:   abelmora
+Tags:	    Interpreted structured general purpose language.
+Comments:       This is the binary file for the Linux console which can also
+                draw graphics with a framebuffer device. 
+                Built from sources.
+                http://downloads.sourceforge.net/smallbasic/smallbasic-0.10.6.tar.gz
+                CXXFLAGS=-march=i486 -mtune=i686 -Os -pipe -fno-exceptions -fno-rtti
+                PKG_CONFIG_PATH=/usr/local/lib/pkgconfig:/usr/lib/pkgconfig
+                ./configure; make
+Change-log:     2009/12/19 Original.
+Current:        2009/12/19 Original.
+

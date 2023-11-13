@@ -1,0 +1,58 @@
+Title:          8188eu.tcz
+Description:    See below
+Version:        Kernel=5.4.3-tinycore64 - module=git-2020may25
+Author:         lwfinger for kernel module and see below
+Original-site:  https://github.com/lwfinger/rtl8188eu
+Copying-policy: see below
+Size:           332K
+Extension_by:   aus9
+Tags:           8188eu wifi  
+Comments:       Class N wifi kernel module and firmware for:
+              0B05:18F0 ASUSTek - unknown model
+              0BDA:0179 Realtek - RTL8188ETV 
+              0BDA:8179 Realtek - RTL8188EUS   
+              0DF6:0076 Sitecom Europe - unknown model
+              056E:4008 Elecom Coy Ltd - unknown model
+              07B8:8179 AboCom Systems - unknown model            
+              2001:330F D-Link - unknown model
+              2001:331B D-Link - unknown model
+              2001:3310 D-Link - unknown model
+              2001:3311 D-Link - unknown model
+              2357:010C TP-Link - TL-WN722N v2 (my device)
+              2357:0111 TP-Link - unknown model
+              2C4E:0102 unknown make and model
+              After usb dongle is inserted 
+              $ sudo ifconfig eth0 down # cable can remain connected
+              $ tce-load -i 8188eu 
+              $ cd /usr/local/etc
+              $ sudo init.d/dbus start && sudo init.d/wicd start
+
+              Assuming router uses WPA2...
+              Click on the wicd icon, click on properties next to your router 
+              name and pulldown and choose WPA 1/2 (PASSPHRASE) then 
+              input your passphrase then click Ok. Next pulldown the button 
+              top RH corner of GUI and select Preferences. Under Network 
+              Interfaces input wlan0 (optional against wired input eth0) then 
+              go to advanced TAB and click use dBm to measure signal 
+              strength. Next click OK. Now click connect.
+
+              To swap back to eth....click disconnect against your router
+              then click connect against your wired network at top.
+
+              COPYING file is for module license = GPL v2
+              Real*txt is the license for the firmware file and names the author
+              Example from $ dmesg | grep 8188  BEFORE SETUP
+              ## order may differ
+              8188eu: loading out-of-tree module taints kernel.
+              Chip Version Info: CHIP_8188E_Normal_Chip_TSMC_D_CUT_1T1R_RomVer(0)
+              usbcore: registered new interface driver r8188eu
+              AFTER SETUP dmesg should show an extra line
+              R8188EU: INFO assoc success
+
+Change-log:   2018/05/17 first version used a restart daemon script
+              2018/05/29 daemons were started by install script 
+              2018/07/04 start daemons removed from install script 
+              2018/07/08 renamed to 8188eu  
+              2019/01/29  for 10x and modify build as no kernel headers 
+Current:      2020/05/26  for 11x kernel and updated git source
+

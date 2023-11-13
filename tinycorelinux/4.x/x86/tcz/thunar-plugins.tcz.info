@@ -1,0 +1,58 @@
+Title:          thunar-plugins.tcz
+Description:    Thunar file manager plugins.(TESTING)
+Version:        see below
+Author:         Various
+Original-site:  http://www.xfce.org
+Copying-policy: GPL-2
+Size:           108K
+Extension_by:   Arslan S.
+Tags:		Thunar file manager plugins.
+Comments:	This extension consists of the following plugins:
+
+		thunar-archive-plugin:(tested ok)
+		Description: Create and extract archives from the context menu**
+		version: 0.2.4
+		recommended: file-roller, squeeze or xarchiver*
+		
+		thunar-media-tags-plugin:(tested ok)
+		Description: Tags editing from thunar properties menu.
+		version: 0.1.2+svn-r04939
+
+		thunar-thumbnailers:(testing)
+		Description: Generate previews for certain file types.
+		version: 0.4.1
+		recommended: ImageMagick
+
+		thunar-uca:(tested ok)
+		user defined custom actions
+		version: distributed with thunar file manager
+
+		thunar-wallpaper-plugin:(tested ok)
+		Description: Set pictures wallpaper from the context menu.
+
+		thunar-apr:(testing)
+		Description: Advanced Properties Plugin.
+		version: distributed with thunar file manager
+		
+		thunar-spr:(testing)
+		Description: Simple Builtin Renamers.
+		version: distributed with thunar file manager
+		 
+
+		To add Open As Root command for text files 
+		to the context menu of thunar:
+		open thunar->configure custom actions->add
+			-Enter a name and a brief description
+			-Command: sudo mousepad %f (or any text editor)
+
+		for details of usage please refer to:
+		http://thunar.xfce.org/plugins.html
+
+		* xarchiver needs to be updated with thunar support.
+
+		** context menu: right click menu of thunar file manager.
+
+		This extension is PPI compatible.
+Change-log:     2010/02/24 Original
+Current:        2010/02/25 Removed vcs and actions plugin
+			   Added sbr,uca,apr and wallpaper-plugin

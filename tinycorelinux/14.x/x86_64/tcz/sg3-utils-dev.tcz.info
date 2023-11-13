@@ -1,0 +1,21 @@
+Title:		sg3-utils-dev.tcz
+Description:    scsi and usb utilities
+Version:        1.45
+Author:         Douglas Gilbert, et al (see COPYING doc)
+Original-site:  http://sg.danny.cz/sg/sg3_utils.html
+Copying-policy: https://github.com/hreinecke/sg3_utils/blob/master/COPYING
+Size:		56K
+Extension_by:   rudock1
+Tags:	        scsi usb utility
+Comments:       multiple scsi and usb command line utilities
+                ----------
+                to activate mac superdrive in linux:
+                $ sg_raw /dev/sr0 EA 00 00 00 00 00 01
+                ----------
+                This extension contains:
+                sg3_utils 1.45, 20200302, [svn: r843]
+                BSD
+                http://sg.danny.cz/sg/p/sg3_utils-1.45.tar.xz
+                ----------
+Change-log:     2014/11/01 first version (extension by Juanito)
+Current:        2020/05/01 updated v1.40 -> 1.45

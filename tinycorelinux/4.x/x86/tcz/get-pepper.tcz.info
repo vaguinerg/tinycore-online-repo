@@ -1,0 +1,46 @@
+Title:          get-pepper.tcz (TESTING)
+Description:    get the pepper flash player browser plugin
+Version:        1.0
+Author:         Google Inc
+Original-site:  https://www.google.com/intl/en/chrome/browser/
+Copying-policy: the get script is GPL 
+Size:		4.0K
+Extension_by:   aus9
+Tags:	    	flash pepper libpepflashplayer  
+Comments:       pepper is the common name for libpepflashplayer.so 
+
+		The desktop entry or the command pepper will, if consent granted,
+		run the TC chromium-browser and offer an alternative flash plugin to		
+		Adobe's.
+
+		To check when you need to run this script again, if you like it,
+		I suggest you bookmark
+		http://www.adobe.com/software/flash/about/
+
+		This plugin starts at 11.7.700.169 while it is rumoured 
+		Adobe's will not exceed 11.2.202.280 
+
+		The get script will download large files, then create the tcz.
+		
+		The local TC user may attempt to run pepper, before consenting but 
+		it will provide an error message informing you to consent to the EULA.
+
+		Be aware of the total downloads, you may already have some. 
+		Totals are rounded to nearest M
+		58M chromium-browser.tcz
+		38M Debian file
+		4M  submitqc4.tcz 
+		3M wget.tcz + coreutils.tcz
+		1M xz.tcz + dkpg-deb.tcz 
+
+		If you wish to use persistence, add pepper.tcz to your
+		onboot.lst and remove chromium-browser.tcz 
+
+		If you wish to view the EULA before running this script see
+		http://www.google.com/chrome/intl/en/eula_text.html
+
+		To run the script use root powers via
+		sudo sh /usr/local/bin/get-pepper.sh
+               
+Change-log: 	2013/04/18 - first version 
+Current: 	2013/04/18 

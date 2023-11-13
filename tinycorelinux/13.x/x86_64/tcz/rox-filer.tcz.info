@@ -1,0 +1,35 @@
+Title:          rox-filer.tcz  
+Description:    gtk2 file manager
+Version:        2.11
+Author:         Thomas Leonard 
+Original-site:  https://sourceforge.net/projects/rox/files/
+Copying-policy: GPL v2
+Size:           592K
+Extension_by:   aus9 
+Tags:           rox-filer file manager
+Comments:       exe=rox
+                Icon themes under ~/.icons
+                To open 2 FMs at same time eg $ rox /home/tc /usr/local/bin
+                Home config DIR is ~/.config/rox.sourceforge.net
+                To start a panel you can drag more dirs to ...$ rox -t=MyPanel
+                ^ change -t (top) to -b (bottom) if you prefer.
+                I assume you are a Right Hand (RH) mouse user
+                To open context menu (preferences) click RH mouse button
+                either inside any rox panel or rox FM
+
+                How to set a default app to open (example) png
+                $ tce-load -i <your-preferred-TCE> eg mtpaint
+                In FM, RH click any png file
+                Click "Set Run Action"
+                click radio button for either all image types or just png
+                Click into shell command and prefix command so it reads
+                mtpaint "$@"
+                ("$@" will already exist, with luck)
+                LH click...... Use Command button
+                -----to test you now need to LH click the png file
+
+                Please click on the Help button. You need to see all the options please.
+            
+Change-log:     2017/09/06  First version  for 8x
+Current:        2020/05/02 redone for 11x
+

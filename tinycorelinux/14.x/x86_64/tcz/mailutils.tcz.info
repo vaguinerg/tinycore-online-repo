@@ -1,0 +1,27 @@
+Title:		mailutils.tcz
+Description:	Email tools
+Version:	3.15
+Author:		Various authors
+Original-site:	https://mailutils.org/
+Copying-policy:	GPL v3 (libraries LGPL v3)
+Size:		2.6M
+Extension_by:	CNK
+Tags:		mail email utility pop imap smtp lmtp mda mua mra server
+Comments:	GNU Mailutils provides a wide range of utilities and
+                daemons for processing e-mail. See the homepage for an
+		overview of the many different programs included.
+		
+		Clients:
+		putmail frm mail sieve messages readmsg dotlock movemail                         mimeview decodemail
+		
+		Servers:
+		pop3d imap4d comsat mda lmtpd
+		
+		Global configuration file (optional) location:
+		/etc/mailutils.conf
+
+		----                 
+		Compiled for TC Pure64 13.x
+		----   
+Change-log:	2022/06/14 First packaged version, 3.15
+Current:	2022/06/14 First packaged version, 3.15

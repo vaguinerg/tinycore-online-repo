@@ -1,0 +1,25 @@
+Title:          vlc2.tcz  TESTING
+Description:    audio and video media player
+Version:        2.2.1
+Author:         see doc/AUTHORS
+Original-site:  http://videolan.org
+Copying-policy: GPL v3
+Size:		6.8M
+Extension_by:   gordons64
+Tags:           vlc audio video play stream encode youtube dvd
+Comments:       Media player, streamer and encoder.
+                alsa is loaded but some people may also need
+                to load alsa-config read those info files if
+                no sound please.
+
+                See info for pulseaudio and load it if you wish
+                to use it please.
+
+                If no dvd drive or youtube or streaming support 
+                needed, see vlc.tcz
+
+                Compiled for x86 6.x
+Change-log:     2014/05/01 First version, 2.1.4 bmarkus
+                2015/05/04 updated 2.2.1 Juanito
+Current:        2015/09/09 add youtube/dvd support gordon64 
+

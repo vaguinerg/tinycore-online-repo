@@ -1,0 +1,16 @@
+mailutils.tcz
+   readline.tcz
+   ncurses.tcz
+      ncurses-common.tcz
+   libltdl.tcz
+   gnutls.tcz
+      libgcrypt.tcz
+         libgpg-error.tcz
+      libtasn1.tcz
+      nettle.tcz
+         gmp.tcz
+      p11-kit.tcz
+         libtasn1.tcz
+         libffi.tcz
+   tcp_wrappers.tcz
+

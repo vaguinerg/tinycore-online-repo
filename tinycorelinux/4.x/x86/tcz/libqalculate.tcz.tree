@@ -1,0 +1,13 @@
+libqalculate.tcz
+   glib2.tcz
+      libffi.tcz
+   libxml2.tcz
+      liblzma.tcz
+   ncurses.tcz
+      ncurses-common.tcz
+   readline.tcz
+      ncurses.tcz
+         ncurses-common.tcz
+   cln.tcz
+      gmp.tcz
+

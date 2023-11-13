@@ -1,0 +1,37 @@
+Title:          rhythmbox.tcz
+Description:    rhythmbox music player
+Version:        3.4.4
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 		1.2MB
+Extension_by:   juanito
+Tags:	        audio music player gtk+ gtk3
+Comments:       one-stop multimedia application, supporting a music library,
+                multiple playlists, internet radio, and more
+                ----------
+                load libsecret, start the avahi daemon to access dlna/upnp streams
+                ----------
+                to login to last.fm
+                cat ~/.local/share/applications/mimeapps.list
+                [Default Applications]
+                x-scheme-handler/http=epiphany.desktop
+                ----------
+                context pane requires py3gobject, python-mako and webkitgtk-gir
+                ----------
+                run in gnome-session with the udev-extra extension to play audio cds
+                ----------
+                this extension contains:
+                rhythmbox-3.4.4 - GPLv2 - http://ftp.gnome.org/pub/GNOME/sources/rhythmbox/3.4/rhythmbox-3.4.4.tar.xz
+                ----------
+Change-log:     2013/11/21 first version
+                2014/04/28 updated 3.0.1 -> 3.0.2
+                2015/04/04 updated 3.0.2 -> 3.2
+                2016/01/20 updated 3.2 -> 3.2.1
+                2016/02/03 updated 3.2.1 -> 3.3
+                2016/05/25 updated 3.3 -> 3.3.1
+                2016/09/18 updated 3.3.1 -> 3.4.1
+                2017/07/11 recompiled for updated libgcrypt
+                2018/11/23 updated 3.4.1 -> 3.4.2
+                2020/04/15 updated 3.4.2 -> 3.4.4
+Current:   	2021/02/07 recompiled against updated libffi

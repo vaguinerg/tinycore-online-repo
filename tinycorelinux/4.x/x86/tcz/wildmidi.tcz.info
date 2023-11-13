@@ -1,0 +1,37 @@
+Title:          wildmidi.tcz
+Description:    WildMIDI is a simple software midi player which has a core 
+                softsynth library that can be use with other applications. 
+Version:        0.2.3.4
+Author:         Chris Ison
+Original-site:  wildmidi.sourceforge.net
+Copying-policy: GPLv3
+Size:           64K
+Extension_by:   TaoTePuh
+Tags:	    WildMIDI software midi player which has core 
+Comments:       The WildMIDI library uses Gravis Ultrasound patch files to
+                convert MIDI files into audio which is them passed back to the
+                calling application for further processing or output. 
+
+                Currently there is a small command line player that accompanies
+                the library which gives just one example of the use of the 
+                WildMIDI library.                
+                
+                Attention
+                ---------
+                This program comes without any set of sound fonts (instrument
+                patches), but you need these for playing songs. 
+                There is another extension (wildmidi-freepats, 29M) which 
+                includes a basic free and open set of instrument patches for
+                playing most songs in sufficient quality. Load therefore
+                "wildmidi-freepats" if you do not have your own instrument 
+                patches.
+
+                Usage
+                -----
+                play midi file from console :
+                # wildmidi MIDI_FILE.mid
+
+                convert midi -> wav :
+                # wildmidi -o OUTPUT_FILE.wav MIDI_FILE.mid
+Change-log:
+Current:        2010/09/16 First Version, 0.2.3.4

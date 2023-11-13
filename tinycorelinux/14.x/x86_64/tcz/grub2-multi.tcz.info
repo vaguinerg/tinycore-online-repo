@@ -1,0 +1,29 @@
+Title:          grub2-multi.tcz
+Description:    grub i386pc and x86_64-efi boot loader
+Version:        2.06
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 20.0MB
+Extension_by:   juanito
+Tags:	        grub bootloader efi uefi i386 x86_64 legacy bios
+Comments:       grub efi/uefi/i386 64bit bootloader
+                ----------
+                allows the creation of multi (legacy-bios and uefi) boot media
+                howto examples:
+                $ sudo grub-install --target=x86_64-efi --boot-directory=/mnt/sdc1/EFI/BOOT --efi-directory=/mnt/sdc1 --removable
+                $ sudo grub-install --target=i386-pc --boot-directory=/mnt/sdc1/boot /dev/sdc
+                $ sudo grub-mkrescue -o myiso.iso iso
+                ----------
+                the efibootmgr extensions may be required
+                ----------
+                This extension contains:
+                grub-2.06 - GPLv3 - https://ftp.gnu.org/gnu/grub/grub-2.06.tar.xz
+                unifont-13.0.06 GPLv2 - https://unifoundry.com/pub/unifont/unifont-13.0.06/font-builds/unifont-13.0.06.pcf.gz
+                ----------
+Change-log:     2015/02/11 first version
+                2015/12/23 added unicode fonts
+                2015/12/24 updated to latest git for mkrescue bug fixes
+                2017/05/13 updated 2.02~beta2 -> 2.02
+                2019/07/27 updated 2.02 -> 2.04
+Current:        2021/11/14 updated 2.04 -> 2.06

@@ -1,0 +1,44 @@
+Title:		openssh.tcz
+Description:	OpenSSH Server and Client
+Version:	6.0p1
+Author:		Many contributors, see site
+Original-site:	http://www.openssh.org
+Copying-policy:	BSD
+Size:		876K
+Extension_by:	Kingdomcome
+Tags:		OpenSSH Server Client ssh
+Comments:	This extension depends on openssl-0.9.8.tcz and
+		gcc_libs.tcz
+		Config files are located at /usr/local/etc/ssh/
+		Copy ssh_config.example and sshd_config.example to
+		ssh_config and sshd_config AND EDIT to fit setup.
+		**Warning: Default sshd_config contains possible
+		security concerns.
+		Host key files will need to be generated only
+		if you intend to run a server.
+		Use /usr/local/etc/init.d/openssh to start, stop or
+		restart server and to generate host keys.
+		This extension is PPI compatible
+Change-log:	2009/05/15 First Version
+		2009/09/02 Rebuilt to not use user.tar.gz
+		           Removed host key generation from post-install
+		2009/09/15 Moved license to proper directory
+		2009/10/12 Bumped to 5.3p1
+			   Removed libssp and added gcc_libs.tczl as dep
+		2009/11/25 Added script to generate host keys
+		2009/11/29 Removed keygen script in favor of
+			   all-inclusive init script
+		2010/02/27 Rebuilt against openssl-0.9.8m
+		2010/03/14 Removed copying of example configs to default
+			   config name
+			   Reworded info
+		2010/03/25 Fixed bug in init script
+		2010/04/04 Bumped to 5.4p1
+			   Rebuilt against openssl-0.9.8(n)
+		2010/06/21 Bumped to 5.5p1
+			   Rebuilt against openssl-0.9.8(o)
+		2011/02/18 Bumped to 5.8p1
+			   Rebuilt against openssl-0.9.8(p)
+		2012/05/23 Bumped to 6.0p1 (Jason W)
+			   Rebuilt against openssl-1.0.0(i)
+Current:	2013/11/02 Added status ti init.d script (bmarkus)

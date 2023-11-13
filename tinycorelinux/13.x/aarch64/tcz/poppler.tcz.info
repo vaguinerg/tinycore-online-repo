@@ -1,0 +1,16 @@
+Title:          poppler.tcz
+Description:    a library for rendering PDF files
+Version:        20.09.0
+Author:         Albert Astals Cid (forked from Derek Noonburg xpdf)
+Original-site:  https://github.com/poppler/poppler
+Copying-policy: GPL v2
+Size:           1.4M
+Extension_by:   aus9
+Tags:           pdf
+Comments:       library for rendering PDF files, and examining or
+                modifying their structure.  Poppler originally 
+                came from the XPDF
+                $ pdftotext sample.pdf /tmp/sample.txt
+
+Change-log:     2020/09/25 Original v 20.09.0 on 12x 
+Current:        2020/11/09 rebuilt for glib2 for sane support   

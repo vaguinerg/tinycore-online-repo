@@ -1,0 +1,33 @@
+Title:          pilot-link-bin.tcz
+Description:    CLI tools for Palm OS devices
+Version:        0.12.5 + changes
+Author:         Kenneth Albanowski, David A. Desrosiers, et al.
+Original-site:  http://www.pilot-link.org/
+Copying-policy: GNU GPL 2
+Size:		224K
+Extension_by:   nitram
+Tags:           palm OS device CLI tools
+Comments:       pilot-link is a suite of tools used to connect your
+                Palm or PalmOS compatible handheld with Unix, Linux
+                and any other POSIX-compatible machine.
+                pilot-link works with all PalmOS handhelds, including
+                those made by Handspring, Sony, Palm and others.
+                This extension consists of numerous binaries removed
+                from TC 4 pilot-link-dev.tcz, originally compiled by
+                dentonlt in 2010 and tested in Tiny Core versions 3 & 4.
+                Significant changes were required to support libusb-1.0
+                and Tiny Core.
+                Dependencies updated for TC 6. Most binaries tested.
+                For usage information, enter the desired command
+                without options.
+                  Palm Pilot Pro with serial port example:
+                       pilot-memos -p /dev/ttyS0                
+                  Palm Tungsten with USB connection example:
+                       pilot-memos -p usb:
+                Note: These binaries are most useful for running Palm 
+                GUI related software, such as J-Pilot. For users only
+                wanting to backup, restore and install software on a
+                Palm device via CLI, the pilot-xfer binary from the
+                pilot-link-base.tcz extension is all that is required.
+Change-log:     ---
+Current:        2015/08/17: First version (nitram)

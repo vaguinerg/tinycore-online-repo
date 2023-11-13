@@ -1,0 +1,23 @@
+Title:          adoptopenjdk-12.tcz
+Description:    OpenJDK12 with HotsPot VM 
+Version:        12.0.2_10
+Author:	        AdoptOpenJDK
+Original-site:  https://adoptopenjdk.net/
+Copying-policy: GPLv2+CE 
+Size:		217M
+Extension_by:   Rubén Llorente
+Tags:           Java JDK12 AdoptOpenJDK HotSpot
+Comments:       Repackaging of the AdoptOpenJDK binaries.
+                ----
+		This package places profile scripts in
+		/etc/profile.d that have to be loaded in order to
+		have a working Java environment.
+
+		It is recommended to restart the operating system
+		after installing the module, or to restart the
+		user session or shell in order to get the
+		environment loaded.
+                ----
+                Packaged for Core 11.x
+Change-log:     ----
+Current:        2020/06/23 Packaged from official binaries. 

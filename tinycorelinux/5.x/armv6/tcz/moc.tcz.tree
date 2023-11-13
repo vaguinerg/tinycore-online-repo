@@ -1,0 +1,26 @@
+moc.tcz
+   libasound.tcz
+   curl.tcz
+      libgcrypt.tcz
+         libgpg-error.tcz
+      libgpg-error.tcz
+      libidn.tcz
+      libssh2.tcz
+         libgcrypt.tcz
+            libgpg-error.tcz
+      openssl-1.0.0.tcz
+   ncurses.tcz
+      ncurses-common.tcz
+   flac.tcz
+      libogg.tcz
+   libvorbis.tcz
+      libogg.tcz
+   libsndfile.tcz
+      flac.tcz
+         libogg.tcz
+      libvorbis.tcz
+         libogg.tcz
+   libmad.tcz
+   speex.tcz
+      libogg.tcz
+

@@ -1,0 +1,17 @@
+Title:		libnetfilter_conntrack.tcz
+Description:	API to the in-kernel connection tracking state table.
+Version:	1.0.2
+Author:		Pablo Neira and Harald Welte
+Original-site:	http://www.netfilter.org/projects/libnetfilter_conntrack
+Copying-policy: GPLv2+
+Size:		44K
+Extension_by:	Rich
+Tags:		library conntrack netlink
+Comments:	libnetfilter_conntrack is a userspace library providing
+		a programming interface (API) to the in-kernel connection
+		tracking state table. The library libnetfilter_conntrack
+		has been previously known as libnfnetlink_conntrack and
+		libctnetlink. This library is currently used by
+		conntrack-tools among many other applications.
+Change-log:     ----
+Current:	2013-01-28 First version, 1.0.2

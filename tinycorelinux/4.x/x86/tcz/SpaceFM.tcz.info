@@ -1,0 +1,31 @@
+Title:          SpaceFM.tcz (TESTING)
+Description:    file manager
+Version:        0.8.6
+Author:         Various, see AUTHORS
+Original-site:  https://github.com/IgnorantGuru/spacefm
+Copying-policy: GPL v3
+Size:		612K
+Extension_by:   aus9
+Tags:	        file manager spacefm
+Comments:       SpaceFM is a multi-panel tabbed file manager for Linux 
+		with built-in VFS, udev-based device manager, 
+		customizable menu system, and bash integration.
+		
+		I have not set your web browser, Help -> Options -> browser. 
+		Insert the actual executable name pls (eg chromium-browser). 
+		No need to set url. 
+				
+		Before running SpaceFM start read the dbus.tcz and setup it up pls.
+
+		OPTIONAL dependency eject.tcz
+		$ sudo eject (will eject most optical disks)
+
+		At the moment clean umounting of usb disks is
+		$ sudo umount /mnt/sdxn
+		(change xn to letter number as appropriate)
+		
+		built for TC 4.x
+
+Change-log:	2013/02/09 First version 0.8.5
+		2013/03/07 Fix wbar icons
+Current:        2013/03/07 Fix wbar icons

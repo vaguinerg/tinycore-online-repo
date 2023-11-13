@@ -1,0 +1,20 @@
+lighttpd-auth.tcz
+   openldap.tcz
+      openssl-1.0.0.tcz
+      cyrus-sasl.tcz
+         openssl-1.0.0.tcz
+      bsddb.tcz
+   lighttpd.tcz
+      bzip2-lib.tcz
+      gamin.tcz
+         glib2.tcz
+            libffi.tcz
+      gdbm.tcz
+      libmemcache.tcz
+      libssl-0.9.8.tcz
+      pcre.tcz
+         readline.tcz
+            ncurses.tcz
+               ncurses-common.tcz
+      libattr.tcz
+

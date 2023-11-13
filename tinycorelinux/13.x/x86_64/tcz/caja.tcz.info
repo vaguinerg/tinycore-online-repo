@@ -1,0 +1,27 @@
+Title:          caja.tcz
+Description:    MATE Desktop Environment's file manager
+Version:        1.24.0
+Author:         MATE developers
+Original-site:  https://github.com/mate-desktop/caja
+Copying-policy: GPLv2+
+Size:		2.1M
+Extension_by:   gnuser
+Tags:	        mate file manager caja nautilus
+Comments:       ----------
+  - Icon theme (default is Adwaita) goes in ~/.config/gtk-3.0/settings.ini
+    For example:
+    [Settings]
+    gtk-icon-theme-name=Humanity
+  - "Open in Terminal" looks for xterm--see
+    /usr/local/share/glib-2.0/schemas/org.mate.applications-terminal.gschema.xml
+    If you don't use xterm, create a symlink to your preferred terminal emulator
+    For example:
+    $ sudo ln -s /usr/local/bin/aterm /usr/local/bin/xterm
+  - To set keyboard shorcut for "Open in Terminal" (e.g., F4), append this line:
+    (gtk_accel_path "<Actions>/ExtensionsMenuGroup/CajaOpenTerminal::open_terminal" "F4")
+    to ~/.config/caja/accels
+  - For video file thumbnails, load ffmpegthumbnailer.tcz
+  - For "Extract Here" when right-clicking on archive files, load engrampa.tcz
+  - You can use this file manager with any desktop environment or window manager
+Change-log:     2020/12/29 first version for tcl-11.x (gnuser)
+Current:        2021/01/02 version bump 1.16.6 -> 1.24.0 (gnuser)

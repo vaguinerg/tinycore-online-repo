@@ -1,0 +1,15 @@
+Title:          portmap.tcz
+Description:    Portmapper for NFS NIS and FAM.
+Version:        6.0
+Author:         Neil Brown
+Original-site:  neil.brown.name/portmap/
+Copying-policy: BSD
+Size: 		12K
+Extension_by:   Jason W
+Tags:	    Portmapper NFS NIS FAM.
+Comments:       This extension requires the tcp-wrappers.tcz
+		extension.
+Change-log:     2008/09/08 First version
+        	2008/11/28 Recompiled for 486 and size optimization.
+Current:	2010/04/09 Added status option to startup script.
+

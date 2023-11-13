@@ -1,0 +1,34 @@
+totem-pl-parser.tcz
+   gmime.tcz
+      glib2.tcz
+         gamin.tcz
+         libffi.tcz
+   libsoup-gnome.tcz
+      libsoup.tcz
+         glib2.tcz
+            gamin.tcz
+            libffi.tcz
+         libxml2.tcz
+            liblzma.tcz
+         sqlite3.tcz
+      glib-networking.tcz
+         glib2.tcz
+            gamin.tcz
+            libffi.tcz
+         gnutls.tcz
+            libgcrypt.tcz
+               libgpg-error.tcz
+            libtasn1.tcz
+            nettle.tcz
+               gmp.tcz
+            p11-kit.tcz
+               libtasn1.tcz
+               libffi.tcz
+   libarchive.tcz
+      acl.tcz
+         libattr.tcz
+      bzip2-lib.tcz
+      liblzma.tcz
+      expat2.tcz
+      openssl.tcz
+

@@ -1,0 +1,33 @@
+Title:          gcc.tcz
+Description:    gcc for tc_5.x
+Version:        4.7.2
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 18.7MB
+Extension_by:   juanito
+Tags:	        gcc tc-5.x
+Comments:       gnu compiler collection for tinycore-5.x
+                ----------
+                Note: for ease of use, you can use the compiletc meta extension to load gcc and
+                all the commonly required apps to have a complete compile environment for microcore/tinycore.
+                Of course if you want to do things differently, that's OK too.
+                ----------
+                This extension contains:
+                gcc-4.7.2 - GPLv2 - http://ftp.gnu.org/gnu/gcc/gcc-4.7.2/gcc-4.7.2.tar.bz2
+                ----------
+Change-log:     2009/06/01
+                Added symlink cc -> gcc
+                2009/06/17
+                split out shared libs to gcc_libs extension
+                2009/10/04
+                recompiled for tc3 and updated 4.2.2 -> 4.4.3
+                2010/03/05
+                recompiled for tc4 and updated 4.4.3 -> 4.6.1
+                2011/08/16
+                removed libstdc++ devs
+                2011/08/30
+                recompiled for tc5 and updated 4.6.1 -> 4.7.2
+                2013/03/23
+                updated specs to fix lib*.specs error
+Current:        2014/03/03

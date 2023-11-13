@@ -1,0 +1,23 @@
+Title:          flit.tcz
+Description:    Clock, Sound, and Battery tray.
+Version:        1.3.2.1
+Author:         Michael A. Losh and and Jakob Bysewski
+Original-site:  http://tinycorelinux.com
+Copying-policy: GPLv3
+Size:           24KB
+Extension_by:   juanito
+Tags:           fltk clock sound battery tray
+Comments:       PPI compatible
+-
+                Version 1.3.1 alternate config files,
+                prevent/force multiple instances,
+                dockable in some WM trays,
+                supports ALSA or OSS, 
+                ACPI or OLPC XO-1 battery status, 
+                scalable screen sizes, 
+-
+                To start flit on X start, add to .xsession:
+                [ $(which flit) ] && flit &
+Change-log:     2019/01/29 first version
+                2019/02/28 updated to correct version
+Current         2019/03/08 various sound fixes from Rich

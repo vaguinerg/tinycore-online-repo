@@ -1,0 +1,21 @@
+Title:          jwm-full.tcz
+Description:    Joe's Window Manager - TESTING
+Version:        2.2.2
+Author:         Joe Wingbermuehle
+Original-site:  http://joewing.net/projects/jwm
+Copying-policy: GPL
+Documentation: http://joewing.net/projects/jwm/config.shtml
+Size:		88K
+Extension_by:   maluvia
+Tags:	        joe window manager wm
+Comments: Includes original Tiny Core scripts (c) Robert Shingledecker 
+                  With support for cairo and rsvg  Compiled for Pure64
+                -------------------
+                To use boot option THEME to specify and set theme, add to .xsession:
+                [ -n "$THEME" ] && cp /opt/jwmThemes/"$THEME" .jwmrc-theme
+                --------------------
+                This extension contains:
+                jwm-2.2.2 - GPL - http://joewing.net/projects/jwm/releases/jwm-2.2.2.tar.xz
+                --------------------
+Change-log:  first version
+Current:    2014/12/01 

@@ -1,0 +1,29 @@
+Title:          wbar.tcz
+Description:    Icon Quick Launch Bar
+Version:        2.3.0
+Author:         Various
+Original-site:  http://code.google.com/p/wbar/
+Copying-policy: GPL v2
+Size:		36K
+Extension_by:   roberts
+Tags:		icon launcher
+Comments:       For microcore users, wbar as found in tinycore.
+
+Change-log:     2009/07/08 First version.
+                2009/09/23 Now reads extra configurations from $HOME/.wbar 
+		2009/10/23 Fixed file test for $HOME/.wbar 
+                2010/02/27 Updated with background fix (Curaga)
+                2010/11/22 Interface programs updated for Tiny Core 3.4
+		2011/05/11 Updated to ensure icon directory is created.
+		2011/08/29 Updated to use -pos instead of -p
+		2011/11/19 Added luxisr font used by wbar.
+	        2012/04/24 Updated to v2.3 added "More" options requires Core v4.5
+	        2012/04/27 Patched to fix --nofont option.
+	        2012/08/17 Patched to fix desktop files with multi Name= and Exec= lines
+	        2012/11/01 Updated support scripts for ondemand  scm icons. 
+		2013/10/22 Updated support applications icon generation from running X. 
+		2014/11/04 Rebuilt tc-wbarconf against fltk 1.3 (curaga)
+		2014/11/11 Rebuilt tc-wbarconf with correct version (curaga)
+                2015/05/31 Edited wbar.sh to fix random deaths (curaga)
+	        2018/04/05 edited dot.wbar for changed luxisr font location (juanito)
+Current:	2020/09/13 Fixed exec= parsing issue in wbar_update.sh script. (Rich)

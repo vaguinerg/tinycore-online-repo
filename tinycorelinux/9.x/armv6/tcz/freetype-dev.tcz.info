@@ -1,0 +1,19 @@
+Title:          freetype-dev.tcz
+Description:    Image loading and rendering library
+Version:        2.7.1
+Author:         FreeType
+Original-site:  http://www.freetype.org
+Copying-policy: FreeType
+Size:           516k
+Extension_by:   bmarkus
+Tags:           LIBRARY FONT
+Comments:       Dev files
+                ----
+                hurfbuzz is not in .dep to avoid
+                circular references
+                Compiled for piCore 8.x
+Change-log:     2016/05/18 First version, 2.6.3
+                2016/08/06 Updated to 2.6.5
+                2016/08/13 Rebuilt with harfbuzz
+                2016/09/09 Updated to 2.7
+Current:        2017/01/01 Updated to 2.7.1

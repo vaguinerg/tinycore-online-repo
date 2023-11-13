@@ -1,0 +1,18 @@
+Title:		notification-daemon-xfce.tcz
+Description:	notification-daemon-xfce - Xfce port of GNOME notification daemon
+Version:	0.3.7
+Author:		Christian Hammond, John Palmieri
+Original-site:	http://goodies.xfce.org/projects/applications/notification-daemon-xfce
+Copying-policy:	GPL
+Size:		56K
+Extension_by:	gutmensch
+Tags:		notification-daemon-xfce Xfce port GNOME notification daemon
+Comments:	1. Start /usr/local/libexec/notification-daemon-xfce & in your .xsession
+		2. Setup the position of widgets with $ notification-settings
+		3. Use it with $ notify-send "Widget-title" "Text" -i icon.png
+	
+			
+		
+		This extension is PPI compatible.
+Change-log:	2010/02/08 Initial version.
+Current:	2010/02/08

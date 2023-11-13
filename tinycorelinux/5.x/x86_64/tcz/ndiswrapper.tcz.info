@@ -1,0 +1,28 @@
+Title:          ndiswrapper.tcz
+Description:    ndiswrapper
+Version:        1.58
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 16KB
+Extension_by:   juanito
+Tags:	        ndiswrapper wireless
+Comments:       windows wireless driver wrapper
+                ----------
+                example howto:
+                enter bootcodes blacklist=ssb blacklist=b43 blacklist=bcma
+                $ sudo ndiswrapper -i /mnt/sda1/drivers/ndiswrapper/bcmwl5.inf
+                $ sudo ndiswrapper -l
+                $ sudo ndiswrapper -m
+                $ sudo modprobe ndiswrapper
+                ----------
+                Note: you can now make an extension out of everything in
+                .. /etc/ndiswrapper and use it with the ndiswrapper extension
+                ..to avoid having to use the perl5 extension
+                ----------
+                This extension contains:
+                ndiswrapper-1.58 - GPL - http://freefr.dl.sourceforge.net/sourceforge/ndiswrapper/ndiswrapper-1.58.tar.gz
+                ----------
+Change-log:     2013/04/10
+                recompiled for tc-5.x
+Current:        2013/12/05

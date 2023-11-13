@@ -1,0 +1,31 @@
+gammu-dev.tcz
+   gammu.tcz
+      bash.tcz
+         ncurses.tcz
+            ncurses-common.tcz
+      libiconv.tcz
+      curl.tcz
+         libssh2.tcz
+            libgcrypt.tcz
+               libgpg-error.tcz
+         libidn.tcz
+   libiconv-dev.tcz
+      libiconv.tcz
+   curl-dev.tcz
+      curl.tcz
+         libssh2.tcz
+            libgcrypt.tcz
+               libgpg-error.tcz
+         libidn.tcz
+      libssh2-dev.tcz
+         libssh2.tcz
+            libgcrypt.tcz
+               libgpg-error.tcz
+         libgcrypt-dev.tcz
+            libgcrypt.tcz
+               libgpg-error.tcz
+            libgpg-error-dev.tcz
+               libgpg-error.tcz
+      libidn-dev.tcz
+         libidn.tcz
+

@@ -1,0 +1,23 @@
+Title:          perl_XML-NamespaceSupport-doc.tcz
+Description:    simple generic namespace processor
+Version:        1.12
+Author:         Robin Berjon
+Original-site:  http://search.cpan.org/~perigrin/XML-NamespaceSupport-1.12/lib/XML/NamespaceSupport.pm
+Copying-policy: See Original-site
+Size:		8.0K
+Extension_by:   rhermsen
+Tags:           perl xml namespacesupport
+Comments:       XML::NamespaceSupport
+                This module offers a simple way to process namespaced XML names
+                (unames) from within any application that may need them. It
+                also helps maintain a prefix to namespace URI map, and provides
+                a number of basic checks.
+                The model for this module is SAX2's NamespaceSupport class,
+                readable at
+                http://www.saxproject.org/namespaces.html
+                It adds a few perlisations where we thought it appropriate, and supports
+                the Namespaces in XML 1.1 specification.
+                
+Change-log:     2018/01/11 First Version, 1.12
+                2018/04/07 recompiled on tc-9.x, 1.12
+Current:        2018/04/07 recompiled on tc-9.x, 1.12

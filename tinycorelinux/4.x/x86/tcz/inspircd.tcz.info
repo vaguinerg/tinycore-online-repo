@@ -1,0 +1,20 @@
+Title:		inspircd.tcz
+Description:	IRC server     (TESTING)
+Version:	2.0.0b4
+Author:		http://wiki.inspircd.org/Credits
+Original-site:	http://www.inspircd.org/
+Copying-policy:	GPLv2
+Size:		3.8M
+Extension_by:	Kingdomcome
+Tags:		IRC server     
+Comments:	This is a beta version of InspIRCd
+		Everything is installed into /opt/inspircd
+		To run, copy conf/*.example to conf/* and edit configs.
+		Then from /opt/inspircd run ./inspircd start
+		
+		The wiki found at http://wiki.inspircd.org/ has good
+		documentation on configuration and running.
+		
+		Depends on perl5 and optionally on openssl or gnutls
+Change-log:	----
+Current:	2010/03/07 First Version

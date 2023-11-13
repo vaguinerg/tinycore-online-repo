@@ -1,0 +1,15 @@
+Title:          vbetool.tcz
+Description:    small application that executes code from BIOS
+Version:        1.1
+Author:         Matthew Garrett <mjg59@srcf.ucam.org>
+Original-site:  https://www.codon.org.uk/~mjg59/vbetool/
+Copying-policy: GPL (see /usr/local/share/doc/vbetool/License/vbetool-copying.txt)
+Size:		108K
+Extension_by:   juanito gnuser
+Tags:           screen backlight BIOS suspend acpi
+Comments:       To turn screen's backlight off: $ sudo vbetool dpms off
+                To turn screen's backlight on: $ sudo vbetool dpms on 
+Change-log:     2009/05/29 Initial version
+Current:        2019/07/10 for tc 10.x, includes libx86
+
+

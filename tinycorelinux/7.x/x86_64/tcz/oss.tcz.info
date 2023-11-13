@@ -1,0 +1,45 @@
+Title:          oss.tcz
+Description:    Open Sound System 4.2 (x86_64)
+Version:        build 2011
+Author:         4Front Technologies
+Original-site:  http://www.opensound.com
+Copying-policy: GPL
+Size:		636K
+Extension_by:   Curaga
+Tags:	    	Open Sound System 4.2
+Comments:       This is a really awesome application that does many 
+		different things I think the Core community will benefit 
+		from :)
+-
+		Sound will be configured automatically when you load the 
+		extension. However if you wish to see the messages, the 
+		command is "sudo soundon".
+-
+		The optional GUI mixer (ossxmix.tcz) depends on GTK2; 
+		the command-line mixer, ossmix, works in all systems.
+-
+		Some of the included apps:
+		ossplay		Wave player
+		ossrecord	Wave recorder
+		ossmix		Console mixer
+		osstest		A sound test
+		ossinfo		Displays information about your sound
+-
+		Detected hardware and saved volume settings are in 
+		/usr/lib/oss/etc, so you might want to add that to your 
+		backup.
+-
+		Note: to compile apps that use OSS, no need to have OSS 
+		loaded. The header file is in compiletc.
+Change-log:     2008/07/06 Original for 2.6.24.7-dsl
+		2008/07/23 Updated for 2.6.26-tinycore, added menu items
+		2008/07/27 Updated menu items for the new /tmp/tcz.menu
+		2008/10/10 Updated menu items to JWM format
+                2009/04/11 Update to 4.1 for 2.6.29.1-tinycore, gtk2 mixer
+		2009/12/17 Updated startup script to handle non-standard module location
+		2010/01/25 Added /etc/asound.conf, separated gtk2 mixer
+		2010/03/25 Updated config files writable
+		2010/05/12 Update to 4.2 for TC 3, modules separated
+		2010/05/19 Made usr/lib/oss/etc writable
+	        2011/09/09 Update to 4.2 b2005 for TC 4
+Current:        2016/12/29 Updated for TC 7 x86_64 (by Coreplayer2)

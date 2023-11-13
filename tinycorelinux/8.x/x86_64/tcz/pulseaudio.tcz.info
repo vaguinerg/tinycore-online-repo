@@ -1,0 +1,42 @@
+Title:          pulseaudio.tcz
+Description:    pulseaudio sound server
+Version:        9.0
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size:           1.1MB
+Extension_by:   juanito
+Tags:	        pulseaudio sound server audio
+Comments:       PulseAudio is a sound system for POSIX OSes, meaning that it is a proxy
+                for sound applications. It allows you to do advanced operations on your
+                sound data as it passes between your application and your hardware.
+                Things like transferring the audio to a different machine, changing
+                the sample format or channel count and mixing several sounds into one
+                are easily achieved using a sound server
+                ----------
+                howto:
+                alsa needs to be working for whatever sound device you have.
+                Create dbus entry for booting into X
+                $ echo  'dbus-launch --sh-syntax --exit-with-session' > ~/.X.d/dbus
+                $ /usr/local/etc/init.d/dbus status [Check dbus is running]
+                If not running, start dbus with
+                $ sudo /usr/local/etc/init.d/dbus start
+                If dbus was not, initially running, add a command to start it next reboot
+                $ sudo echo '/usr/local/etc/init.d/dbus start' >> /opt/bootlocal.sh
+
+                exit to console
+                startx
+                $ pulseaudio -vv [to test]
+                When it is running correctly
+                echo "start-pulseaudio-x11" > ~/.X.d/pulseaudio
+                ----------
+                if a bluetooth sound devices is paired and configured, pulseaudio
+                should find it automatically if the daemon is running
+                ----------
+                use pavucontrol to switch source & control volume
+                ----------
+                This extension contains:
+                pulseaudio-9.0 - GPLv2 - http://freedesktop.org/software/pulseaudio/releases/pulseaudio-9.0.tar.xz
+                ----------
+Change-log:     2014/04/21 first version
+Current:        2016/11/19 updated 5.0 -> 9.0

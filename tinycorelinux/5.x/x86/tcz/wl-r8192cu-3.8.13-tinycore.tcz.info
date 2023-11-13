@@ -1,0 +1,25 @@
+Title:				wl-r8192cu-3.8.13-tinycore.tcz
+Description:		Realtek rtl8192cu Wireless driver for 8192cu/8188cu USB adapters
+Version:			v4.0.2_9000
+Author:			Realtek
+Original-site:		http://www.realtek.com
+Copying-policy:	GPLv2
+Size:		244K
+Extension_by:		coreplayer2
+Tags:			Realtek 8192cu wireless driver
+Comments:		Official Realtek rtl8192cu driver
+				Does not require any additional firmware
+				Notes:
+				Blacklisting in-tree version of rtl8192cu.ko is
+				required to use this Realtek version, therefore
+				add bootcode
+					blacklist=rtl8192cu
+				Additionally remove any previously installed Realtek extensions,
+				especially wl-r8188eu-3.8.13-tinycore64.tcz due to a symlink
+				tested with wifi.tcz on
+				NetGear, Inc. WNA1000M 802.11bgn [Realtek RTL8188CUS]
+				0bda:8176, 802.11n WLAN Adapter [Realtek RTL8188CUS]
+				2001:330d D-Link DWA-131rB1 802.11n WLAN Adapter [Realtek RTL8192CU]
+Change-log:		---
+				2013/12/02 First Version.
+Current:			2013/12/31 Updated with PID's for D-LINK DWA-131,rB1

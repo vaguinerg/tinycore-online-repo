@@ -1,0 +1,26 @@
+Title:		postgresql-11-dev.tcz
+Project:	postgresql
+Description:	PostgreSQL Database Management System development
+Version:	11.6
+Author:		PostgreSQL Global Development Group
+Original-site:	http://www.postgresql.org
+Copying-policy:	PostgreSQL License
+Size:		6.5M
+Extension_by: 	andyj
+Tags:		postgresql database client server development
+Comments:	Advanced database which is ACID compliant, has strong ANSI-SQL:2008
+		compliance, full foreign key support, supports subqueries and subselects,
+		joins, views, triggers, and stored procedures.
+		Procedural languages supported:
+		PG SQL, Perl 5, Python 2.7, Tcl 8.6, C/C++
+		Compiled for support for 128 character object names for compatibility
+		----
+Change-log:	2018/10/31 First version, 11.0
+		2018/11/11 updated to version 11.1
+		2019/01/21 recompiled for TC 10.x
+		2019/02/15 updated to version 11.2
+		2019/05/31 updated to version 11.3
+		2019/07/06 updated to version 11.4, recompiled with openssl-1.1.1
+		2019/10/19 updated to version 11.5
+Current:	2019/11/24 updated to version 11.6
+

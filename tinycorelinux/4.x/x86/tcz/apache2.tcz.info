@@ -1,0 +1,47 @@
+Title:		apache2.tcz
+Description:	Apache HTTP server
+Version:	2.2.21
+Author:		Apache Software Foundation
+Original-site:	http://www.apache.org/
+Copying-policy:	Apache License, Version 2.0
+Size:		948K
+Extension_by:	robc
+Tags:		Apache HTTP server
+Comments:	Start with "sudo apachectl -k start"
+		
+		The home page directory is at:
+			/usr/local/apache2/htdocs
+		
+		The configuration file is at:
+			/usr/local/apache2/conf/httpd.conf
+		
+		WARNING: apache2 includes a binary at
+			/usr/local/bin/ab. This binary will
+			override the ab command in TC unless it is
+			used explicitly.
+		
+		----------------------------------------------
+		
+		Please see the man page for additional 
+		information. 
+		
+		Also see http://www.apache.org/
+		for more information.
+		
+		----------------------------------------------
+		
+		This extension is PPI compatible
+
+Change-log:	2009/10/09 converted to tcz, stripped libs
+			and binaries, seperated devs, replaced 
+			included expat lib with extension, made PPI 
+			compatible.
+		2010/06/07 Updated to 2.2.15. Added ssl support, 
+			changed threading type to worker.
+		2010/06/09 Added mod_dav_lock, mod_proxy,
+			and mod_suexec
+		2010/10/08 Updated to v2.2.16
+		2010/10/28 Updated to v2.2.17
+		2011/05/28 Updated to v2.2.19
+		2011/11/06 Updated to v2.2.21
+Current:	2011/11/06 Updated to v2.2.21

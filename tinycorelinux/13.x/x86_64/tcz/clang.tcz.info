@@ -1,0 +1,23 @@
+Title:          clang.tcz
+Description:    clang compiler
+Version:        13.0.0
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 132MB
+Extension_by:   juanito
+Tags:	        compile c c++ clang
+Comments:       compiler front-end for the C family of languages
+                ----------
+                to build with lto
+                $ CC="clang -flto -mtune=generic -Os -pipe" ./configure --blah-blah
+                ----------
+                This extension contains:
+                clang-13.0.0 - (c) University of Illinois - https://github.com/llvm/llvm-project/releases/download/llvmorg-13.0.0/clang-13.0.0.src.tar.xz
+                compiler-rt-13.0.0.src - (c) University of Illinois - https://github.com/llvm/llvm-project/releases/download/llvmorg-13.0.0/compiler-rt-13.0.0.src.tar.xz
+                ----------
+Change-log:     2017/02/18 first version
+                2017/09/14 updated 3.9.1 -> 4.0.1
+                2018/03/29 updated 4.0.1 -> 6.0.0
+                2019/04/04 updated 6.0.0 -> 8.0.0
+Current:        2022/01/13 updated 8.0.0 -> 13.0.0

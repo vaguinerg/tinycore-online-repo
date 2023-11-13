@@ -1,0 +1,28 @@
+Title:		firmware-zd1211.tcz
+Description:	Firmware files for the ZD1211 chip used in WLAN USB sticks.
+Version:        1.4
+Author:		Daniel Drake, M.Kiesel, Mike Pinna, Roman Kurakin
+Original-site:	http://sourceforge.net/projects/zd1211/
+Copying-policy: GPLv2
+Size:		24K
+Extension_by:   combo3
+Tags:		Firmware files ZD1211 chip used WLAN USB sticks.
+Comments:       This extension is PPI compatible
+                -------------------------------------------------------------
+		Firmware files are located at: /usr/local/lib/firmware/zd1211
+	
+		For a list of supported devices see:
+
+		http://www.linuxwireless.org/en/users/Drivers/zd1211rw/devices
+	
+
+
+		Optional Extensions:
+	
+		wpa-supplicant.tcz
+
+
+Change-log:     2009-11-17  First Version 1.4
+		2010/03/25  Converted to recursive deps
+Current:	2011/05/31  Renamed to fit firmware naming convention.
+

@@ -1,0 +1,17 @@
+Title:		open-vm-tools-3.16.6-tinycore.tcz
+Description:	Open Source client tools for VMWare hosted virtual machines
+Version:	10.0.0 build 3000743
+Author:		VMWare
+Original-site:	http://sourceforge.net/projects/open-vm-tools/files/open-vm-tools/
+Copying-policy:	Lesser GPL 2.1
+Size:		796K
+Extension_by:	andyj
+Tags:		VMWare client tools
+Comments:	Add open-vm-tools-KERNEL.tcz to onboot.lst
+		Download dependencies before reboot
+		open-vm-tools init.d script copied from previous version
+			and probably needs to be updated
+		Add to ~/.xsession after mouse-config:
+			[ $(which vmware-checkvm) ] && [ vmware-checkvm ] && vmware-user &
+Change-log:	2013/06/19 Original version 9.2.3 build 1031360
+Current:	2015/11/09 updated to version 10.0.0 build 3000743 for TC 6.4.1

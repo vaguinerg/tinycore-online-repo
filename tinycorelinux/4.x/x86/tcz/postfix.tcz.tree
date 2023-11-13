@@ -1,0 +1,22 @@
+postfix.tcz
+   bsddb.tcz
+   cyrus-sasl.tcz
+      openssl-1.0.0.tcz
+   krb5.tcz
+   libgcrypt.tcz
+      libgpg-error.tcz
+   libgpg-error.tcz
+   ncurses.tcz
+      ncurses-common.tcz
+   openldap.tcz
+      openssl-1.0.0.tcz
+      cyrus-sasl.tcz
+         openssl-1.0.0.tcz
+      bsddb.tcz
+   openssl-1.0.0.tcz
+   pcre.tcz
+      readline.tcz
+         ncurses.tcz
+            ncurses-common.tcz
+   sqlite3.tcz
+

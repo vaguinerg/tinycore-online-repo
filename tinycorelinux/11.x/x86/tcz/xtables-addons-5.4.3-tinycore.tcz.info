@@ -1,0 +1,42 @@
+Title:		xtables-addons-5.4.3-tinycore.tcz
+Description:    Addons for netfilter xtables including geoip
+Version:        3.9
+Author:         Jan Engelhardt et al.
+Original-site:  http://xtables-addons.sourceforge.net/
+Copying-policy: GPL v2
+Size:		156K
+Extension_by:   andyj
+Tags:           iptables netfilter xtables geoip kernel module 
+Comments:       Includes the following matches:
+			condition, dhcpmac, fuzzy, geoip, gradm, iface, ipp2p,
+			ipv4options, length2, lscan, psd, quota2, pknock
+		Includes the following targets:
+			ACCOUNT - per IP accounting
+			CHAOS - random response to attackers
+			DELUDE - false response to attackers
+			DHCPMAC - change MAC addresses
+			DNETMAP - dynamic two-way mapping of IP subnets
+			ECHO - reflect all packets
+			IPMARK - mark IP packets
+			LOGMARK - log marked packets to syslog
+			SYSRQ - remote SYSRQ trigger
+			TARPIT - connecton capture
+Change-log:	2015/03/29 First version 2.6
+		2016/02/15 upgraded to 2.10
+			added xt_geoip_build.tcl as lighter weight alternative to Perl script
+		2016/04/09 build for Corepure64
+		2016/09/05 updated to version 2.11
+		2017/01/26 updated to version 2.12
+		2017/07/01 updated to latest database, recompiled for TC 8.x
+			little endian IPv4 data only
+		2017/08/11 updated to version 2.13
+		2018/01/06 updated to version 2.14
+		2018/04/11 updated to latest database, recompiled for TC 9.x
+		2019/01/21 upgraded to version 3.2, recompiled for TC 10.x
+		2019/04/05 updated to version 3.3
+		2019/10/19 updated to version 3.5
+		2019/11/24 updated to version 3.6
+		2020/02/06 updated to version 3.7, recompiled for TC 11.x
+		2020/02/06 updated to version 3.8
+Current:	2020/04/15 updated to version 3.9
+

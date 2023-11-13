@@ -1,0 +1,29 @@
+Title:          wego.tcz
+Description:    Weather app for the terminal 
+Version:        2.0
+Author:         schachmat   https://github.com/schachmat/wego/issues 
+Original-site:  https://github.com/schachmat/wego
+Copying-policy: https://github.com/schachmat/wego/blob/master/LICENSE
+Size:           2.7M
+Extension_by:   rudock1
+Tags:           fforecast weather ascii-art command line cli golang
+Comments:       wego is a weather client for the terminal.
+                Features : show forecast for 1 to 7 days; nice ASCII art
+                icons; info: displayed info (metric or imperial units),
+                temperature range (felt and measured), windspeed and
+                direction, viewing distance, precipitation amount and
+                probability; ssl; multi language support; config file for
+                default location which can be overridden by commandline.
+                ----------
+                See /usr/local/share/wego/wego-setup.txt
+                utf-8 terminal with 256 colors, A sane monospaced font
+                containing all the required runes (I use dejavu sans mono)
+                An API key for the backend
+                ----------
+                This extension contains:
+                wego-2.0 - ISC license
+                https://github.com/schachmat/wego.git
+                ----------
+                Compiled for 11.x x86_64
+Change-log:     first version
+Current:        2020/09/06 v2.0 (released 2019-02-11)

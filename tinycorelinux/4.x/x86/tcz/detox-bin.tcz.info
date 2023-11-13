@@ -1,0 +1,15 @@
+Title:          detox-bin.tcz
+Description:    Renames files to make them easier to work with (TESTING)
+Version:        1.2.0
+Author:         Doug Harple
+Original-site:  http://detox.sourceforge.net
+Copying-policy: BSD License
+Size:           88 KB
+Extension_by:   abelmora
+Tags:	    Renames files make them easier work 
+Comments:       http://sourceforge.net/projects/detox/files/detox/1.2.0/detox-1.2.0.tar.gz/download
+                CXXFLAGS=-march=i486 -mtune=i686 -Os -pipe -fno-exceptions -fno-rtti
+                PKG_CONFIG_PATH=/usr/local/lib/pkgconfig:/usr/lib/pkgconfig
+                ./configure; make
+Change-log:     Compiled from sources at Dec 21, 2009
+Current:        2009/12/21 First version 1.2.0

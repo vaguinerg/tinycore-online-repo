@@ -1,0 +1,20 @@
+raptor-dev.tcz
+   raptor.tcz
+      curl.tcz
+         ca-certificates.tcz
+            openssl.tcz
+      libxslt.tcz
+         libxml2.tcz
+            liblzma.tcz
+   libxml2-dev.tcz
+      libxml2.tcz
+         liblzma.tcz
+      liblzma-dev.tcz
+         liblzma.tcz
+   curl-dev.tcz
+      curl.tcz
+         ca-certificates.tcz
+            openssl.tcz
+      openssl-dev.tcz
+         openssl.tcz
+

@@ -1,0 +1,37 @@
+Title:          wvdial.tcz
+Description:    WvDial is a program that makes it easy to
+                connect your Linux workstation to the
+                Internet (TESTING)
+Version:	1.6.1
+Author:         Dave Coombs/Avery Pennarun
+Original-site:  http://alumnit.ca/wiki/index.php?page=WvDial
+Copying-policy: LGPL
+Size:		256K
+Extension_by:   vinnie
+Tags:	    WvDial program that makes it easy to
+Comments:	----------------------------------------------
+		The first time it is good to start 
+                # wvdialconf , this command will try to
+                automatically configure settings for your
+                modem in /etc/wvdial.conf ; this file along
+                with /etc/resolv.conf (containing the dns) may
+                be placed in /opt/.filetool.lst to store your
+                settings.
+                # wvdial command requires root privileges to
+                start correctly, after a first successfully
+                launched but interrupted for incorrect
+                settings of wvdial.conf, you may not be able
+                to relaunch the program correctly; try to reuse 
+                wvdialconf to unlock the situation and remember
+                that it overwrite wvdial.conf.
+
+                In case you need to use concomitantly with
+                usb_modeswitch for internet key, I recommend
+                installing this in boot mode and restart the
+                distro. This is to prevent any inconvenient
+                with udev.
+		----------------------------------------------	
+		This extension is PPI compatible.			
+Change-log:     ---
+		
+Current:	2011/04/14 First Release

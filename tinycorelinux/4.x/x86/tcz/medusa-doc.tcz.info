@@ -1,0 +1,32 @@
+Title:          medusa-doc.tcz
+Description:    Medusa man pages
+Version:        2.0
+Author:         JoMo-Kun
+Original-site:  http://www.foofus.net/~jmk/medusa/medusa.html
+Copying-policy: GPLv2
+Size:           4k
+Extension_by:   andriscom
+Tags:	    Medusa man pages
+Comments:       Medusa is intended to be a speedy, massively parallel, modular, login brute-forcer.
+                The goal is to support as many services which allow remote authentication as possible.
+                The author considers following items as some of the key features of this application:
+                 - Thread-based parallel testing. Brute-force testing can be performed against multiple
+                   hosts, users or passwords concurrently.
+                 - Flexible user input. Target information (host/user/password) can be specified in a variety
+                   of ways. For example, each item can be either a single entry or a file containing multiple
+                   entries. Additionally, a combination file format allows the user to refine their target listing.
+                 - Modular design. Each service module exists as an independent .mod file. This means that
+                   no modifications are necessary to the core application in order to extend the supported
+                   list of services for brute-forcing.
+
+                Built with CFLAGS: -march=i486 -mtune=i686 -Os -pipe
+                Built with CXXFLAGS: -march=i486 -mtune=i686 -Os -pipe
+                Built with LDFLAGS: -Wl,-O1
+                Built with the following options:
+                ./configure --prefix=/usr/local
+
+                Note: svn module is not included because the current (2010/06/05) svn-dev extension does not include the necessary header files
+Source:         http://www.foofus.net/jmk/tools/medusa-2.0.tar.gz
+Change-log:     2010/11/06 Version: 2.0
+Current:        2010/11/06 Version: 2.0
+

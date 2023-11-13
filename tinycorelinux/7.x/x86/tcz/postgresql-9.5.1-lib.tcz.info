@@ -1,0 +1,14 @@
+Title:		postgresql-9.5.1-lib.tcz
+Description:	PostgreSQL database client library
+Version:	9.5.1
+Author:		PostgreSQL Global Development Group
+Original-site:	http://www.postgresql.org
+Copying-policy:	PostgreSQL License
+Size:		128K
+Extension_by:	andyj
+Tags:		PostgreSQL database client library
+Comments:	Compiled for TC 7.x
+		This library is for client connections only, the full database extension does not require this extension
+		This library is required for PHP pgsql and pdo_pgsql extensions, pgtclng, and ecpg-based programs
+Change-log:	2015/03/20 first version 9.4.1
+Current:	2016/02/24 updated to version 9.5.1

@@ -1,0 +1,50 @@
+Title:          weechat-scripts.tcz
+Description:    scriptss for weechat
+Version:        2013.01.06
+Author:         weechat team
+Original-site:  http://weechat.org/files/src
+Copying-policy: GPL v3
+Size:		880K
+Extension_by:   aus9
+Tags:	    	IRC chat weechat plugins
+Comments:       Recommended to give you maximum options over weechat.tcz
+		Scripts (Plugins) for weechat. Enables scripting languages scripts but 
+		no script languages have been set in the depends file.
+		You decide which script to load or edit depends file pls.
+		
+		############# Warning: scripts are unofficial ################
+		The scripts are downloaded into /home/tc.weechat when you run
+		/script install <script_name.xx> and remain there unless you change
+		your persistence settings. 
+
+		if you like inxi.tcz, set its colors first then, it can be used by weechat
+		/script install shell.py (you need python.tcz)
+		/shell -o inxi -bx       
+		(set your colors in terminal with inxi first)
+				
+		http://weechat.org/files/doc/stable/weechat_user.en.html
+
+		/help (to get help)....when you see / ----it means weechat command and
+		------must be used to tell weechat to execute something
+
+		To setup aspell pls read
+		http://dev.weechat.org/post/2008/10/18/Aspell-plugin-is-born-again
+		eg multilingual users might open weechat and run
+		/set aspell.check.default_dict "en,de"
+		/set aspell.check.enabled "on"
+		/set aspell.check.real_time "on"
+		-------Screen should show they are accepted
+		/quit (and restart and test with)
+		/aspell (to show new options)
+		----I recommend you do not edit the text conf file!
+
+		After aspell is set, as you type, the word remains in red until you press space and word is good
+		OR remains in red at input screen when you start typing next word
+
+		If you use persistence, most scripts will be enabled check your first weechat screen pls.
+
+		scripts tcz = plugins does not have a version number, made into a date version
+
+			
+Change-log:     2013/01/06 First version 
+Current:        2013/01/06 for TC 4.x 5x		

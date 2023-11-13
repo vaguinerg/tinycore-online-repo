@@ -1,0 +1,70 @@
+Title:		php7-fpm.tcz
+Project:	php
+Description:    PHP Hypertext Processor Fast Page Mode server
+Version:	7.4.12
+Author:		PHP Group
+Original-site:  http://php.net
+Copying-policy: PHP License 3.01
+Size:		1.7M
+Extension_by:   andyj
+Tags:		php fpm fast page mode
+Comments:       PHP FPM utility, requires php-ext.tcz for extentions
+		extensions may have additional dependency requirements
+		----
+Change-log:     2016/04/06 First version, 7.0.5
+                2016/04/06 updated to 7.0.6
+		2016/05/27 updated to 7.0.7
+		2016/06/25 updated to 7.0.8
+		2016/07/30 updated to 7.0.9
+		2016/08/23 updated to 7.0.10
+		2016/09/16 updated to 7.0.11
+		2016/10/14 updated to 7.0.12, build with postgresql 9.6 client
+		2016/11/27 updated to 7.0.13
+		2016/12/08 updated to 7.0.14
+		2017/01/22 updated to 7.0.15 ODBC tested with MS SQL Server
+		2017/02/17 updated to 7.0.16
+		2017/03/19 updated to 7.0.17
+                2017/04/22 updated to 7.0.18                              
+		2017/07/01 upgrade to 7.1.6, drop support for Berkeley DB,
+			drop support for mcrypt, drop support for XBM format in gd,
+			add support for libtidy, recompiled for TC 8.x
+		2017/07/13 updated to 7.1.7
+		2017/08/10 updated to 7.1.8
+		2017/09/07 updated to 7.1.9
+		2017/10/10 updated to 7.1.10
+		2017/11/04 updated to 7.1.11
+		2017/12/02 updated to 7.1.12
+		2018/01/12 upgrade to 7.2.1, add support for libsodium and libzip,
+			extensions now in /usr/local/lib/php/extensions/no-debug-zts-20170718,
+			recompiled for TC 9.x
+		2018/04/11 updated to 7.2.4
+		2018/05/29 updated to 7.2.6, use ncursesw library
+		2018/07/22 updated to 7.2.8
+		2018/08/17 updated to 7.2.9
+		2018/10/08 updated to 7.2.10
+		2018/11/10 updated to 7.2.12
+		2019/01/21 upgrade to 7.3.1
+			extensions now in /usr/local/lib/php/extensions/no-debug-zts-20180731,
+			recompiled for TC 10.x
+		2019/02/09 updated to 7.3.2
+		2019/04/05 updated to 7.3.4
+		2019/05/05 updated to 7.3.5
+		2019/05/31 updated to 7.3.6
+		2019/07/06 updated to 7.3.7, use openssl-1.1.1 library
+			extensions now in /usr/local/lib/php/extensions/
+		2019/10/22 updated to 7.3.11
+			extensions libxml, filter, and mysqlnd are now shared, not compiled in
+			and will need to be loaded explicitly in php.ini if needed
+		2019/12/05 upgrade to 7.4.0
+                        extension hash is now required to be compiled in
+				remove extension=hash from php.ini
+                        extensions recode and wddx are deprecated (dropped)
+                        extension ffi (foreign function interface) is new
+                        extension mbstring requires libonig.tcz (no longer bundled)
+		2020/02/04 updated to 7.4.2, recompiled for TC 11.x
+		2020/03/03 updated to 7.4.3
+		2020/04/15 updated to 7.4.5
+		2020/06/12 updated to 7.4.7
+		2020/09/10 updated to 7.4.10
+Current:        2020/11/06 updated to 7.4.12
+

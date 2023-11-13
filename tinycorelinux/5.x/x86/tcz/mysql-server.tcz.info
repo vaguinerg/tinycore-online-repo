@@ -1,0 +1,28 @@
+Title:          mysql-server.tcz
+Description:    MySQL Community database server
+Version:        5.5.46
+Author:         MySQL AB / Oracle Inc.
+Original-site:  http://mysql.com
+Copying-policy: GPL v2
+Size:		6.6M
+Extension_by:   Lukasz032
+Tags:	        mysql sql database community server
+Comments:	MySQL Community Edition is the freely downloadable 
+                version of the world's most popular open source database. 
+                It is available under the GPL license and is supported 
+                by a huge and active community of open source developers.
+                
+                Only server binaries included.
+                If you want to use client binary,
+                also download the client package - mysql.
+                
+                Database files are stored in /usr/local/data.
+                You can add this path to filetool to avoid it 
+                being recreated during every boot.
+                
+                Additional (massive!) tools available in mysql-server-tools.
+                
+                Compiled from source for TC 5.x/6.x.
+
+Change-log:     2015/10/15 : Initial release.
+Current:        2015/10/15 : Initial release.

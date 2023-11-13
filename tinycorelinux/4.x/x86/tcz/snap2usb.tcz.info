@@ -1,0 +1,24 @@
+Title:          snap2usb.tcz
+Description:    Screenshot To USB tool
+Version:        1.0
+Author:         coreplayer2
+Original-site:  http://forum.tinycorelinux.net/index.php/topic,16050.0.html
+Copying-policy: GPL
+Size:		8.0K
+Extension_by:   coreplayer2
+Tags:		screenshot snapshot
+Comments:       Thanks to tc-dev team for use of screenshot.sh source which
+		is used in this script.
+
+		The primary function of this small script based tool
+		called "snap2usb" is to save desktop snapshots directly to 
+		USB drives (usb_device/snapshots/) directory.
+		
+		Simply select the wbar camera icon to have a snapshot saved 
+		in your usb device's snapshots/ directory.
+		In the event a USB drive is not found (eg: booted from a cd) then
+		a snapshots directory will created in the users home directory
+		and the snapshots will be saved there.
+
+Change-log:     2013/10/10 First Version.
+Current:	2013/10/10 v1.0

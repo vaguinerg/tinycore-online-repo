@@ -1,0 +1,26 @@
+Title:          grub2-efi.tcz
+Description:    grub efi boot loader
+Version:        2.00 beta 6
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 7.5MB
+Extension_by:   juanito
+Tags:	        grub bootloader efi uefi
+Comments:       grub efi/uefi 64bit bootloader
+                ----------
+                howto:
+                $ sudo x86_64-grub-install --target=x86_64-efi --boot-directory=/mnt/sdc1/EFI/BOOT --efi-directory=/mnt/sdc1 --removable [usb stick]
+                $ cat /mnt/sdb1/EFI/BOOT/grub/grub.cfg
+
+menuentry "core" {
+  linux (hd1,gpt2)/boot/vmlinuz64 quiet noswap tce=sdb2 tz=GMT-4 blacklist=bcma blacklist=ssb blacklist=b43 text
+  initrd (hd1,gpt2)/boot/corepure64.gz
+}
+                You can optionally copy unicode.pf2 to /mnt/sdc1/EFI/BOOT/grub/fonts
+                ----------
+                This extension contains:
+                grub-2.00 beta 6 - GPLv3 - ftp://ftp.gnu.org/gnu/grub/grub-2.00.tar.xz
+                ----------
+Change-log:     first version
+Current:        2013/05/31

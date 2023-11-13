@@ -1,0 +1,23 @@
+postgresql.tcz
+   openssl-1.0.0.tcz
+   readline.tcz
+      ncurses.tcz
+         ncurses-common.tcz
+   tzdata.tcz
+      bash.tcz
+         ncurses.tcz
+            ncurses-common.tcz
+      gawk.tcz
+   krb5.tcz
+   libxml2.tcz
+      liblzma.tcz
+   libxslt.tcz
+      libxml2.tcz
+         liblzma.tcz
+   Linux-PAM.tcz
+      cracklib.tcz
+      bsddb.tcz
+   postgresql-lib.tcz
+      openssl-1.0.0.tcz
+      krb5.tcz
+

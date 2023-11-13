@@ -1,0 +1,96 @@
+Title:          sprunge_script.tcz
+Description:    no paste script
+Version:	?
+Author:         shell.person
+Original-site:  http://www.shellperson.net/sprunge-pastebin-script/
+Copying-policy: ?
+Size:		4.0K
+Extension_by:   vinnie
+Tags:	    no paste script
+Comments:	----------------------------------------------
+		The command is "sprunge" or "nopaste" (symlink)
+		I quote the text of the blog where I found this
+		script:
+		
+		"I discovered the scripting-friendly pastebin
+		http://sprunge.us a few days ago via One Thing
+		Well. It's extremely convenient to use, but in my
+		laziness I've tried to make it even easier.
+		Here is a script that will upload to sprunge and
+		return the URL. It accepts piped data, STDIN
+		redirection, filenames as arguments, and text
+		strings as arguments. EDIT: while using the script,
+		I just realized that using either form of STDIN
+		input (pipe or redirection) will treat tabs as
+		spaces.
+		While this will occasionally break code, it will
+		almost always make it less legible. So, if you
+		need to preserve tab whitespace, I suggest using
+		a filename as an argument to the script
+		(e.g. sprunge myscript.txt). (Click "show source")"
+		
+		"So, for example, any of the following commands
+		would work (I cleverly named the script "sprunge"
+		and put it in my $PATH):
+
+ls -lA | sprunge
+cat .bashrc | sprunge
+sprunge < .bashrc
+sprunge .bashrc
+sprunge 'if [ -f ~/.bashrc ]; then echo "everything after the word sprunge will be uploaded as a text string"; fi'
+## note that the last line needs to be surrounded by single quotes, because of the semicolons.
+
+		And here's the short description and usage (which
+		is included above, but maybe more readable here):
+		DESCRIPTION
+		Upload data and fetch URL from the pastebin
+		http://sprunge.us
+ 
+		USAGE
+./sprunge filename.txt
+./sprunge text string
+./sprunge < filename.txt
+piped_data | ./sprunge
+ 
+		NOTES
+		----------------------------------------------
+		* INPUT METHODS *
+		./sprunge can accept piped data, STDIN redirection
+		[<filename.txt], text strings following the
+		command as arguments, or filenames as arguments.
+		Only one of these methods can be used at a time,
+		so please see the note on precedence.
+ 
+		* PRECEDENCE *
+		STDIN redirection has precedence, then piped input,
+		then a filename as an argument, and finally text
+		strings as an arguments.
+ 
+		EXAMPLE:
+echo piped | "./sprunge" arguments.txt < stdin_redirection.txt
+ 
+		In this example, the contents of
+		file_as_stdin_redirection.txt would be uploaded.
+		Both the piped_text and the file_as_argument.txt are
+		ignored.
+		If there is piped input and arguments, the arguments
+		will be ignored, and the piped input uploaded.
+ 
+		* FILENAMES *
+		If a filename is misspelled or doesn't have the
+		necessary path description, it will NOT generate an
+		error, but will instead treat it as a text string
+		and upload it.
+		----------------------------------------------
+
+		Appropriately, I used the script to upload the script
+		to sprunge. http://sprunge.us/cXjM is the URL, but
+		you can add "?bash" to the end of it to get line
+		numbers and syntax highlighting, like so:
+		http://sprunge.us/cXjM?bash.
+
+		----------------------------------------------	
+		This extension is PPI compatible.			
+Change-log:     First version
+		
+Current:	2011/08/24 First Release

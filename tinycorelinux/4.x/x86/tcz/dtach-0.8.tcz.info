@@ -1,0 +1,31 @@
+Title:          dtach-0.8.tcz
+Description:    Tiny app gives the "detach" function of "GNU Screen"  (TESTING)
+Version:        0.8
+Author:         Ned T. Crigler copyright 2004-2008
+Original-site:  http://sourceforge.net/projects/dtach
+Copying-policy: GPL
+Size: 		20K
+Extension_by:   hlavery
+Tags:	    Tiny app gives "detach" function "GNU Screen"  
+Comments:       "dtach" allows a console application to be "detached"
+	       	from the screen and associated with a file for later retrieval.
+	        
+	        Basic use is to start a CLI appliation with:
+	        
+	        dtach -c  /tmp/foo application (foo being whatever..)
+	        example:"dtach -c /tmp/foo elinks"
+	        You can then move on to something else with:
+		(control backslash)
+		Ctrl\  will return you to the CLI prompt.
+
+	        Multiple programs can be "dtach"-ed to /tmp/foo1, etc. 
+	        The dtach'd app can be recovered with
+	        
+	        dtach -a /tmp/foo  (multiples with foo1, etc)
+
+		The app can be "brought back" at your original terminal,
+		 or from  anywhere you can ssh into your machine.
+
+		Useful in Microcore, works from Aterm in Tinycore, too.
+Current:        2009/11/15 Original
+

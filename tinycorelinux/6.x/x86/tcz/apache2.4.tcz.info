@@ -1,0 +1,19 @@
+Title:          apache2.4.tcz
+Description:    Apache HTTP WEB server
+Version:        2.4.16
+Author:         Apache Software Foundation
+Original-site:  http://www.apache.org
+Copying-policy: Apache
+Size:           1.3M
+Extension_by:   bmarkus
+Tags:           WEB HTTPD SERVER
+Comments:       Binaries only
+                ----
+                Start with 'sudo apachectl -k start'
+                ----
+                Config: /usr/local/etc/httpd
+                Document root: /usr/local/apachce2/htdocs
+                ----
+                Compiled for Core 6.x
+Change-log:     ----
+Current:        2015/10/05 First version, 2.4.16

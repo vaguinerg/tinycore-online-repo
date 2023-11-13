@@ -1,0 +1,30 @@
+Title:          fd-find.tcz
+Description:    A simple, fast and user-friendly alternative to 'find' 
+Version:        8.1.1
+Author:         David Peter    https://david-peter.de/
+Original-site:  https://github.com/sharkdp/fd
+Copying-policy: https://github.com/sharkdp/fd/blob/master/LICENSE-MIT
+Size:           1.3M
+Extension_by:   rudock1
+Tags:           search regex command line cli rust
+Comments:       While it does not seek to mirror all of find's powerful
+                functionality, it provides sensible defaults for 80% of
+                the use cases.
+                Features
+                    Convenient syntax: fd PATTERN instead of find -iname '*PATTERN*'.
+                    Colorized terminal output (similar to ls).
+                    Smart case: the search is case-insensitive by default.
+                      It switches to case-sensitive if the pattern contains
+                      an uppercase character*.
+                    Regular expressions.
+                    Unicode-awareness.
+                    Parallel command execution with a syntax similar to
+                      GNU Parallel.
+                ----------
+                This extension contains:
+                fd-find-8.1.1 - MIT license
+                https://github.com/sharkdp/fd/archive/v8.1.1.tar.gz
+                ----------
+                Compiled for 11.x x86_64
+Change-log:     first version
+Current:        2020/08/05 v8.1.1 (released 2020-05-25)

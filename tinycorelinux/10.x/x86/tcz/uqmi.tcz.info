@@ -1,0 +1,32 @@
+Title:		uqmi.tcz
+Description:	uqmi - control QMI modems
+Version:	git commit ae8c4b22b905136967b89438e958526ac5a37604
+Author:		Felix Fietkau <nbd@openwrt.org>
+Original-site:	git://nbd.name/uqmi.git and git://nbd.name/luci2/libubox.git
+Copying-policy:	LGPL v2
+Size:		80K
+Extension_by:	hiro
+Tags:		qmi modem control
+Comments:	To compile this on Linux smal changes had to be 
+		made (remove some const declarations) and lua 
+		had to be disabled due to incompatible versions 
+		(for libubox run: cmake CMakeLists.txt -DBUILD_LUA=OFF)
+
+		compiled against and delivered with libubox, openwrt stuff.
+
+		be careful with usb_modeswitch, one of it's scripts 
+		requires tclsh to be in the right path.
+
+		Example:
+		sudo uqmi --device=/dev/cdc-wdm0 --keep-client-id wds --start-network my.apn --autoconnect
+
+		As I'm now getting connected automatically all that's left
+		is to get IP running with: sudo udhcpc -i wwan0
+
+
+		Helpful references were: 
+		- http://lists.freedesktop.org/archives/modemmanager-devel/2014-December/001707.html
+		- http://www.draisberghof.de/usb_modeswitch/bb/viewtopic.php?p=9465&sid=9c23f9373aa4ab37da02c3866cab5c9b#p9465
+		
+Change-log:	2015/08/13
+Current:	2015/08/13

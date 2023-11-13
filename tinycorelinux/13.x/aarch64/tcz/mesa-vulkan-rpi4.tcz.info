@@ -1,0 +1,20 @@
+Title:          mesa-vulkan-rpi4.tcz
+Description:    rpi4 vulkan driver
+Version:        22.3.7
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 5.7MB
+Extension_by:   juanito
+Tags:           graphics vulkan
+Comments:       rpi4 vulkan driver
+                ----------
+                requires dtoverlay=vc4-kms-v3d-pi4 and Xorg-3d or weston
+                ----------
+                This extension contains:
+                mesa-22.3.7 - GPLv2 - https://archive.mesa3d.org//mesa-22.3.7.tar.xz
+                ----------
+Change-log:     2020/08/06 first version
+                2021/05/24 updated 20.1.4 -> 21.1.1
+                2022/06/03 updated 21.1.1 -> 22.1.1
+Current:        2023/03/10 updated 22.1.1 -> 22.3.7

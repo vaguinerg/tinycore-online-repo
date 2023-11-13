@@ -1,0 +1,16 @@
+open-vm-tools-dev.tcz
+   open-vm-tools.tcz
+      glib2.tcz
+         libffi.tcz
+      fuse.tcz
+      libdnet.tcz
+      procps-ng.tcz
+         ncurses5.tcz
+      icu.tcz
+      libtirpc.tcz
+      openssl.tcz
+   libdnet-dev.tcz
+      libdnet.tcz
+   openssl-dev.tcz
+      openssl.tcz
+

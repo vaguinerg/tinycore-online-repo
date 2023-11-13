@@ -1,0 +1,27 @@
+Title:          gcc.tcz
+Description:    gcc for tc_8.x x86_64
+Version:        6.2.0
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 32.3MB
+Extension_by:   juanito
+Tags:	        gcc x86_64
+Comments:       gnu compiler collection for tinycore_7.x x86_64
+                ----------
+                Note: for ease of use, you can use the compiletc meta extension to load gcc and
+                all the commonly required apps to have a complete compile environment for microcore/tinycore.
+                Of course if you want to do things differently, that's OK too.
+                ----------
+                This extension contains:
+                gcc-6.2.0 - GPLv2 - http://ftp.gnu.org/gnu/gcc/gcc-6.2.0/gcc-6.2.0.tar.bz2
+                ----------
+Change-log:     2012/11/09 first version
+                2013/10/12 updated 4.6.1 -> 4.7.2
+                2014/03/03 updated specs to fix lib*.specs error
+                2014/09/22 updated 4.7.2 -> 4.9.1
+                2015/02/24 updated specs to fix lib*.specs error (again)
+                2015/08/28 corrected cpp symlink
+                2015/10/31 updated 4.9.1 -> 5.2.0
+                2016/01/12 enabled gold linker
+Current:        2016/10/17 updated 5.2.0 -> 6.2.0

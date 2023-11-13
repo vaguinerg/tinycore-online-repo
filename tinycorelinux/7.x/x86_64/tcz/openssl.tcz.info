@@ -1,0 +1,26 @@
+Title:          openssl.tcz
+Description:    Open Source toolkit for SSL/TLS plus certs
+Version:        1.0.2h and certs 2016/09/04
+Author:         see below
+Original-site:  see below
+Copying-policy: see below
+Size:		2.1MB
+Extension_by:   gordons64
+Tags:           openssl  security crypto certificates
+Comments:       openssl sslv2 + 3 disabled at compile
+                ----------
+                Authors openssl: OpenSSL Project Team
+                site: http://www.openssl.org
+                License: OpenSSL license
+
+                This TCZ contains Certificates adapted from
+http://www.linuxfromscratch.org/blfs/view/svn/postlfs/cacerts.html
+                Authors: see doc
+                License: https://www.mozilla.org/MPL/2.0/
+                Previous TCZ=openssl-1.0.0 by bmarkus
+
+                Some functions require the perl5 extension
+                ----------
+Change-log:     2015/09/01 first version
+                2016/05/01 updated 1.0.2d -> 1.0.2g (juanito)
+Current:        2016/09/09 updated 1.0.2g -> 1.0.2h, updated ca-certs (juanito)

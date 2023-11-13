@@ -1,0 +1,30 @@
+Title:          arandr.tcz  
+Description:    Front end to libXrandr
+Version:        0.1.11
+Author:         chrysn 
+Original-site:  http://christian.amsuess.com/tools/arandr/#project
+Copying-policy: GPL v3
+Size:           68K
+Extension_by:   aus9 
+Tags:           xrandr monitor screen graphics
+Comments:       monitor resolution app
+                MUST be on Xorg (2d or 3d). 
+                Click Outputs for your active HDMI* DVI* etc 
+                -> Resolution -> Choose your preference  
+                -> Click the Tick button  
+                I am unable to test 2 monitors.
+                
+                If you wish to save new setting -> Click the 
+                download icon and choose a filename (example) 1920
+                .sh is added and creates $HOME/.screenlayout/1920.sh 
+                after you press the save button or press enter
+                
+                To automate it -> (change below to your filename please)
+                echo '$HOME/.screenlayout/1920.sh &' > $HOME/.X.d/monitor
+                
+                To test without reboot, exit to prompt and run $ startx 
+                If unhappy, delete $HOME/.X.d/monitor       
+                
+Change-log:     2018/04/05 v 0.1.9 on 9x used python2.7
+                2020/08/01 v 0.1.10 on 11x used python3.6
+Current:        2023/04/27 v 0.1.11 on 14x                    

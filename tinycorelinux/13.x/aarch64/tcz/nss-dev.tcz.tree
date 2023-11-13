@@ -1,0 +1,21 @@
+nss-dev.tcz
+   nss.tcz
+      gcc_libs.tcz
+      nspr.tcz
+      sqlite3.tcz
+   gcc_libs-dev.tcz
+      gcc_libs.tcz
+   nspr-dev.tcz
+      nspr.tcz
+      perl5.tcz
+   sqlite3-dev.tcz
+      sqlite3-bin.tcz
+         sqlite3.tcz
+         readline.tcz
+            ncurses.tcz
+      readline-dev.tcz
+         readline.tcz
+            ncurses.tcz
+         ncurses-dev.tcz
+            ncurses.tcz
+

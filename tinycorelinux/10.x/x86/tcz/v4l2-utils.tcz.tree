@@ -1,0 +1,28 @@
+v4l2-utils.tcz
+   libv4l2.tcz
+      v4l-dvb-4.19.10-tinycore.tcz
+      libjpeg-turbo.tcz
+   glu.tcz
+      libGL.tcz
+         libXdamage.tcz
+            libXfixes.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
+         libXxf86vm.tcz
+            libXext.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
+         libdrm.tcz
+            libpciaccess.tcz
+            udev-lib.tcz
+               glib2.tcz
+                  libffi.tcz
+         libxshmfence.tcz
+   libasound.tcz
+   sdl2_image.tcz
+      SDL2.tcz
+

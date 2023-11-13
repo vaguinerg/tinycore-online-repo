@@ -1,0 +1,33 @@
+qemu-arm.tcz
+   SDL.tcz
+      libmad.tcz
+   curl.tcz
+      libidn.tcz
+      libssh2.tcz
+         libgcrypt.tcz
+            libgpg-error.tcz
+      openssl.tcz
+   glib2.tcz
+      gamin.tcz
+      libffi.tcz
+   libasound.tcz
+   libusb.tcz
+      udev-lib.tcz
+         glib2.tcz
+            gamin.tcz
+            libffi.tcz
+   ncurses.tcz
+   pixman.tcz
+   qemu-common.tcz
+      curl.tcz
+         libidn.tcz
+         libssh2.tcz
+            libgcrypt.tcz
+               libgpg-error.tcz
+         openssl.tcz
+      glib2.tcz
+         gamin.tcz
+         libffi.tcz
+      libcap-ng.tcz
+      ncurses.tcz
+

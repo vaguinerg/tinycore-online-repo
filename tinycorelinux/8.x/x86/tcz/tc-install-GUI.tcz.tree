@@ -1,0 +1,17 @@
+tc-install-GUI.tcz
+   fltk-1.3.tcz
+      libXext.tcz
+         libX11.tcz
+            libxcb.tcz
+               libXau.tcz
+               libXdmcp.tcz
+      libjpeg-turbo.tcz
+      libpng.tcz
+   tc-install.tcz
+      dosfstools.tcz
+      glibc_gconv.tcz
+      mtools.tcz
+         glibc_gconv.tcz
+      perl5.tcz
+      syslinux.tcz
+

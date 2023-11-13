@@ -1,0 +1,20 @@
+Title:          xlockmore.tcz
+Description:    X Window System Lock Screen
+Version:        5.26
+Author:         David A. Bagley and Patrick J. Naughton
+Original-site:  http://gwyn.tux.org/~bagleyd/xlockmore.html
+Copying-policy: GPL
+Size: 484K
+Extension_by:   Jason W
+Tags:	    X Window System Lock Screen
+Comments:       Xlockmore requires no other extensions to run.  If
+		you have not already set a passwork, you will be
+		prompted to set one before your screen locks.  A word
+		of warning: this extension disables the control key 
+		when Xlockmore is in operation, so be sure to 
+		remember your passwd as Ctrl-Alt-Backspace or
+		Ctrl-Alt-Delete will not exit X or reboot the machine
+		until you enter a passwd and return to your desktop.
+                ----------
+Change-log:     2008/09/14 First version 5.24
+Current:        2008/12/10 Rebuilt for i486 and cramfs and updated to 5.26.

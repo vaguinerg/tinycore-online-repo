@@ -1,0 +1,32 @@
+modemmanager.tcz
+   polkit.tcz
+      glib2.tcz
+         libffi.tcz
+         pcre.tcz
+      expat2.tcz
+      js52.tcz
+         nspr.tcz
+         readline.tcz
+            ncursesw.tcz
+         icu61.tcz
+      dbus.tcz
+         expat2.tcz
+         elogind.tcz
+            acl.tcz
+               attr.tcz
+            libcap.tcz
+               attr.tcz
+      linux-pam.tcz
+      elogind.tcz
+         acl.tcz
+            attr.tcz
+         libcap.tcz
+            attr.tcz
+   libqmi.tcz
+      libmbim.tcz
+         gudev-lib.tcz
+            udev-lib.tcz
+            glib2.tcz
+               libffi.tcz
+               pcre.tcz
+

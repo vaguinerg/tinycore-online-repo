@@ -1,0 +1,21 @@
+Title:          sbcl-x86-bin.tcz
+Description:    Steel Bank Common Lisp (SBCL) is a high performance Common Lisp compiler. (TESTING) 
+Version:        1.0.48
+Author:         William Newman and various.
+Original-site:  http://www.sbcl.org/
+Copying-policy:	BSD-style and Public Domain
+Size:		13M
+Extension_by:   Jose Maria Garcia
+Tags:	    Steel Bank Common Lisp SBCL high performance Common Lisp compiler.  
+Comments:       This version is based on the binary distribution for x86:
+		http://sourceforge.net/projects/sbcl/files/sbcl/1.0.48/sbcl-1.0.48-x86-linux-binary.tar.bz2
+
+		For some reason doesn't seem to work properly. You can try:
+                $ sbcl
+                * (require 'asdf)
+                * (asdf:oos 'asdf:load-op :asdf-install)
+                * (asdf-install:install 'clx)
+
+		This extension is PPI compatible.
+Change-log:     2011/05/09 First Version 1.0.48
+Current:        2011/05/09 First Version 1.0.48

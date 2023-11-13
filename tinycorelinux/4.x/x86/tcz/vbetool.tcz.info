@@ -1,0 +1,23 @@
+Title:          vbetool.tcz
+Description:    vbetool
+Version:        1.1
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 16KB
+Extension_by:   juanito
+Tags:	    vbetool
+Comments:       vbetool for tinycore 2.x
+                requires libx86 and pci-utils extensions
+                vbetool is a small application that executes code from the BIOS..
+                ..of your video card. This is mostly useful for reinitialising..
+                ..the hardware, for instance after ACPI suspend/resuming.
+                ----------
+                Example:
+                $ sudo vbetool vbemode get
+                16645
+                ----------
+                This extension contains:
+                vbetool-1.1 - GPLv2 - http://www.codon.org.uk/~mjg59/vbetool/download/vbetool-1.1.tar.gz
+Change-log:     First  version
+Current:        2009/05/29

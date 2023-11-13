@@ -1,0 +1,46 @@
+Title:          frr.tcz
+Description:    FRRouting is a routing software suite
+Version:        6.0.2
+Author:         See Original-site
+Original-site:  https://frrouting.org/
+Copying-policy: LGPL
+Size:		2.3M
+Extension_by:   rhermsen
+Tags:		frr zebra routing quagga
+Comments:	Frr is a routing software package that provides TCP/IP based
+		routing services with routing protocols support such as RIPv1,
+		RIPv2, RIPng, OSPFv2, OSPFv3, IS-IS, BGP-4, and BGP-4+.
+		Frr also supports special BGP Route Reflector and Route Server behavior.
+		In addition to traditional IPv4 routing protocols, Frr also supports
+		IPv6 routing protocols. With SNMP daemon which supports SMUX and
+		AgentX protocol, Frr provides routing protocol MIBs.
+		
+		The IPv6 kernel modules are not automatically installed.
+		If IPv6 is desired, install ipv6-netfilter-x.x.x-tinycore.tcz via
+		the Apps GUI, or cli (tce-load -wi ipv6-netfilter-KERNEL).
+
+		A startup script is included at /usr/local/etc/init.d/frr.
+		To use this script cp /usr/local/etc/frr/daemons.sample to /usr/local/etc/frr/daemons.
+		Configure the daemons you want to start with yes or a priority.
+		Use the script with "sudo /usr/local/etc/init.d/frr" <options>.
+		This script also includes a reload option, to reload a configuration file.
+		The reload option requires python-ipaddr.tcz to be intalled 
+		(tce-load -wi python-ipaddr.tcz).
+
+                The install script can help to do the basic setup of FRR.
+                By default it will setup FRR to use vtysh (one configuration for all daemons).
+                If you don't want the install script to do the basic setup for you,
+                you can disable it with creating a file NOSETUPHELP in /tmp 
+                (touch /tmp/NOSETUPHELP) before installation.
+
+		Watchfrr, a daemon monitoring connectivity with routing daemons,
+		is now enabled by default. This can be disabled via /usr/local/etc/frr/daemons.
+
+
+Change-log:     2018/01/23 First Version, 3.0.3
+		2018/02/25 adapted frr script to work with TCL, 3.0.3
+                2018/04/20 New major version, 4.0
+                2019/02/10 New major version, 5.0.2
+                2019/02/24 fixed script issues, watchfrr support, 5.0.2
+		2020/04/03 New major version, 6.0.2
+Current:        2020/04/03 New major version, 6.0.2

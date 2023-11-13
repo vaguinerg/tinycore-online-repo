@@ -1,0 +1,24 @@
+Title:          espeak.tcz
+Description:    eSpeak text to speech. TESTING
+Version:        espeak-1.40.02
+Author:         Jonathan Duddington
+Original-site:  http://espeak.sourceforge.net/
+Copying-policy: GPLv3
+Size: ...KB
+Extension_by:   mcewanw
+Tags:	    eSpeak text speech. 
+Comments:       
+		This extension is PPI compatible.
+		Depends on libportaudio v19.
+		Built and only tested on TC2.0rc2.1
+		Also, only tested with alsa so don't know if works with OSS.
+		[you might need to run alsaconf to get alsa working]
+		
+		Usage example:
+		
+		espeak "what are you doing dave?"
+
+Sources: http://kent.dl.sourceforge.net/sourceforge/espeak/espeak-1.40.02-source.zip
+
+Change-log:     --------
+Current:        2009/05/24 First version espeak-1.40.02

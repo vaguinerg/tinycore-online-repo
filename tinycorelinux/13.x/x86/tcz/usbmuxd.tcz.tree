@@ -1,0 +1,10 @@
+usbmuxd.tcz
+   libusb.tcz
+      udev-lib.tcz
+         glib2.tcz
+            libffi.tcz
+   libimobiledevice.tcz
+      libusbmuxd.tcz
+         libplist.tcz
+      openssl-1.1.1.tcz
+

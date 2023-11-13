@@ -1,0 +1,19 @@
+Title:          apache2.4-dev.tcz
+Description:    Apache HTTP WEB server
+Version:        2.4.9
+Author:         Apache Software Foundation
+Original-site:  http://www.apache.org
+Copying-policy: Apache
+Size:           246k
+Extension_by:   bmarkus
+Tags:           WEB HTTPD SERVER
+Comments:       Dev files
+                ----
+                Start with 'sudo apachectl -k start'
+                ----
+                Config: /usr/local/etc/httpd
+                Document root: /usr/local/apachce2/htdocs
+                ----
+                Compiled for 5.x
+Change-log:     ----
+Current:        2014/03/20 First version, 2.4.9

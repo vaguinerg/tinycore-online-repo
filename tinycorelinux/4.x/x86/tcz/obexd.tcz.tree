@@ -1,0 +1,24 @@
+obexd.tcz
+   glib2.tcz
+      libffi.tcz
+   dbus.tcz
+      expat2.tcz
+   bluez.tcz
+      dbus-glib.tcz
+         dbus.tcz
+            expat2.tcz
+         glib2.tcz
+            libffi.tcz
+      libusb.tcz
+      bluetooth-3.0.21-tinycore.tcz
+   openobex.tcz
+      bluez.tcz
+         dbus-glib.tcz
+            dbus.tcz
+               expat2.tcz
+            glib2.tcz
+               libffi.tcz
+         libusb.tcz
+         bluetooth-3.0.21-tinycore.tcz
+   libical.tcz
+

@@ -1,0 +1,25 @@
+Title:          vlc.tcz  TESTING
+Description:    audio and video media player
+Version:        2.2.1
+Author:         see doc/AUTHORS
+Original-site:  http://videolan.org
+Copying-policy: GPL v3
+Size:		5.7M
+Extension_by:   gordons64
+Tags:           vlc audio video play encode
+Comments:       Media player and encoder.
+                alsa is loaded but some people may also need
+                alsa-config read those info files if
+                no sound please.
+
+                If you need pulseaudio, dvd playback, youtube or
+                streaming support, see vlc2.tcz next command
+                $ cvlc -vv (can display disabled support items)
+
+                This TCZ has only local file and cdrom support.
+
+                Compiled for x86 6.x
+Change-log:     2014/05/01 First version, 2.1.4 bmarkus
+                2015/05/04 updated 2.2.1 Juanito
+Current:        2015/09/09 disable lots of TCZs gordon64
+

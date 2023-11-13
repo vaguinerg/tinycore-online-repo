@@ -1,0 +1,21 @@
+Title:          aspell-hu.tcz
+Description:    Hungarian dictionary for aspell
+Version:        0.99.4.2-0
+Author:         Laszlo Nemeth
+Original-site:  aspell.net
+Copying-policy: GPL v2
+Size:		2.5M
+Extension_by:   aus9
+Tags:	        aspell spell checker dictionary
+Comments:       Hungarian dictionary for aspell
+		Default lang is set by locale, If you need help with locale see
+		http://forum.tinycorelinux.net/index.php/topic,7169.0.html
+		Summary: download and run getlocale.tcz and select your locale
+		Add created mylocale.tcz to your onboot.lst and  edit your bootloader
+		to set your language and/or keyboard mappings
+		Consider changing the aspell dep for dictionary to your dictionary
+		Alternatively try
+		$ aspell --lang=hu -c filename
+		If no errors exits without message. Otherwise shows wrong words in terminal.
+Change-log:	2012/11/20 First Version
+Current:        2012/11/20 version 0.99.4.2-0 built against TC 4.x

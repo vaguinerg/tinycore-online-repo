@@ -1,0 +1,54 @@
+Title:          cups-browsed.tcz (TESTING)
+Description:    daemon for (possible) detection of remote printers
+Version:        1.0.34
+Author:         see AUTHORS
+Original-site:  http://www.openprinting.org/download/cups-filters/
+Copying-policy: see COPYING
+Size:		60K
+Extension_by:   aus9
+Tags:    	cups printer cups-browsed remote wireless
+Comments:       CUPS upstream has split into cups and cups-filters.
+
+		cups-browsed is an executable to browse Bonjour broadcasts 
+		of remote CUPS printers and makes those printers available.
+		OPTIONAL bluez.tcz  
+
+		Do NOT start cups with normal init please but use either:
+		--"browsed" init, assumes you do not need to use bluetooth;
+		--"2b" assumes you do.
+		Run which ever fits your hardware needs
+		$ sudo /usr/local/etc/init.d/browsed {start/stop/status/restart}
+		$ sudo /usr/local/etc/init.d/2b {start/stop/status/restart}
+
+		If one or more daemons are falling over, I suggest you do not
+		use "restart" but stop them all and start again.
+
+		** Persistence, add to your backup, the following line
+		usr/local/etc/cups/cups-browsed.conf (if you changed it)
+		You may also need to change configs from cups.tcz
+		** Some network users may need to create (using root powers) /usr/local/etc/cups/client.conf
+		ServerName server-ip  eg ServerName 192.168.1.200
+		Where server-ip would be replaced by the local IP address of the CUPS server on the network.
+		Config is case sensitive, meaning watch out for ServerName. Most printers have different 
+		settings pls read http://localhost:631/help/network.html
+
+		Note that---the remote printer = target printer NEEDS to have
+		printer shaing enabled for your print job to work.
+
+		For those browsing Windows printer you may wish to read the samba section of
+		http://alien.slackbook.org/dokuwiki/doku.php?id=slackware:cups
+		and a shorter config to read for samba users is
+		http://www.maenad.net/geek/di8k-debian/node16.html
+
+		** software firewall users might like to try
+		$ sudo iptables -A INPUT -p udp -m udp --dport 5353 -j ACCEPT
+		I am not a security expert, try at own risk pls
+
+		**TIP for extra trouble-shooting, instead of running $ /pathway/some-init status
+		load htop and press F4 for filter search and type cups then type avahi
+
+		
+
+Change-log:     2013/05/29 first version
+Current:	2013/05/29 version 1.0.34
+

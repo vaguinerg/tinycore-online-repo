@@ -1,0 +1,64 @@
+Title:		dnsmasq.tcz
+Description:	Dnsmasq
+Version:	2.55
+Author:		Simon Kelley
+Original-site:	http://www.thekelleys.org.uk/dnsmasq/doc.html
+Copying-policy:	GPL
+Size:		112k
+Extension_by:	andriscom
+Tags:		Dnsmasq
+Comments:	Dnsmasq is a lightweight, easy to configure DNS forwarder and DHCP server.
+		It is designed to provide DNS and, optionally, DHCP, to a small network.
+		It can serve the names of local machines which are not in the global DNS.
+		The DHCP server integrates with the DNS server and allows machines with
+		DHCP-allocated addresses to appear in the DNS with names configured either in
+		each host or in a central configuration file. Dnsmasq supports static and
+		dynamic DHCP leases and BOOTP/TFTP/PXE for network booting Dnsmasq is targeted
+		at home networks using NAT and connected to the internet via a modem, cable-modem
+		or ADSL connection but would be a good choice for any smallish network (up to
+		1000 clients is known to work) where low resource use and ease of configuration
+		are important.
+
+		Dnsmasq provides the following features:
+		- The DNS configuration of machines behind the firewall is simple and doesn't
+		  depend on the details of the ISP's dns servers.
+		- Clients which try to do DNS lookups while a modem link to the internet is down
+		  will time out immediately.
+		- Serve names from the /etc/hosts file on the firewall machine: If the names of
+		  local machines are there, then they can all be addressed without having to maintain
+		  /etc/hosts on each machine.
+		- Supports static and dynamic DHCP leases and multiple networks and IP ranges.
+		- Supports BOOTP/TFTP/PXE for network booting.
+		- Machines which are configured by DHCP have their names automatically included in
+		  the DNS and the names can specified by each machine or centrally by associating a
+		  name with a MAC address in the dnsmasq config file.
+		- Caches internet addresses (A records and AAAA records) and address-to-name mappings
+		  (PTR records), reducing the load on upstream servers and improving performance
+		  (especially on modem connections).
+		- Can be configured to automatically pick up the addresses of its upstream nameservers
+		  from ppp or dhcp configuration. It will automatically reload this information if it
+		  changes. This facility will be of particular interest to maintainers of Linux firewall
+		  distributions since it allows dns configuration to be made automatic.
+		- Can both talk to upstream servers via IPv6 and offer DNS service via IPv6. On
+		  dual-stack (IPv4 and IPv6) boxes it talks both protocols and can even act as
+		  IPv6-to-IPv4 or IPv4-to-IPv6 forwarder.
+		- Can be configured to send queries for certain domains to upstream servers handling
+		  only those domains. This makes integration with private DNS systems easy.
+		- Supports MX and SRV records and can be configured to return MX records for any or all
+		  local machines.
+
+		Example config file located at /usr/local/etc/dnsmasq.conf.example
+		dnsmask defaults to /etc/dnsmask.conf. To override the default, use:
+			dnsmasq --conf-file=/usr/local/etc/dnsmasq.conf  
+
+		Built with CFLAGS: -march=i486 -mtune=i686 -Os -pipe
+		Built with CXXFLAGS: -march=i486 -mtune=i686 -Os -pipe
+		Built with LDFLAGS: -Wl,-O1
+
+		For man entries you can install the dnsmasq-doc.tcz package or visit:
+		http://www.thekelleys.org.uk/dnsmasq/docs/dnsmasq-man.html
+Source:		http://www.thekelleys.org.uk/dnsmasq/dnsmasq-2.55.tar.gz
+Change-log:	Changelog: 2009/07/14 First Version by Kingdomcome
+		2010/12/04 Version: 2.55
+Current:	2013/06/03 Version: 2.55 Added default config file behavior note to Comments. Rich
+

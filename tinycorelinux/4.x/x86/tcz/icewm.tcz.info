@@ -1,0 +1,22 @@
+Title:          icewm.tcz
+Description:    IceWM is a window manager for the X Window System.
+Version:        1.2.37
+Author:         Marko Macek, Mathias Hasselmann
+Original-site:  http://www.icewm.org/
+Copying-policy: LGPL
+Size: 		327K
+Extension_by:   Jason W
+Tags:	    IceWM window manager X Window System.
+Comments:       Needs fontconfig and expat2.
+Change-log:     ----
+  		2009/06/07 First version
+		2009/06/26 Patched for menu function and fixed icewm_initmenu.
+			   Reduced dependencies.
+         	2009/11/08 Rebuilt with themes menu included.
+         	2010/05/22 Updated for freedesktop and ondemand.
+	        2010/11/07 Updated to allow img files in ondemand dir
+		2010/11/16 Rebuilt as i486 compatible.
+		2011/01/02 Split out unneeded stuff into an icewm-full.tcz
+			   extension for those who want full functionality.
+		2011/11/19 Updated to Core v4.2 standards.
+Current:        2012/01/14 Improved dynamic menu handling.

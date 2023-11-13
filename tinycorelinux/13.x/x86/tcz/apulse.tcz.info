@@ -1,0 +1,18 @@
+Title:		apulse.tcz
+Description:	pulseaudio emulation for alsa
+Version:	0.1.13
+Author:		Rinat Ibragimov
+Original-site:	https://github.com/i-rinat/apulse
+Copying-policy:	MIT
+Size:		56K
+Extension-by:	gnuser
+Tags:		pulseaudio alsa sound
+Comments:	-----
+	- This is a minimalistic, partial implementation of the pulseaudio API
+	- For users who don't want pulseaudio but use an application that requires it (e.g., recent firefox)
+	- With this extension loaded, applications that can use alsa will continue to use alsa
+	- Usage: Launch the pulseaudio-requiring application using the apulse wrapper script, like so:
+	   $ apulse firefox
+	-----
+Change-log:	-----
+Current:	2020/08/11 first version (gnuser)

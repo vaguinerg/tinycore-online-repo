@@ -1,0 +1,25 @@
+Title:          volumeicon.tcz 
+Description:    alsa volume applet for panels
+Version:        0.5.1
+Author:         various
+Original-site:  https://github.com/Maato/volumeicon
+Copying-policy: GPL v3 
+Size:           52K
+Extension_by:   you 
+Tags:           alsa
+Comments:       tested on icewm panel
+                alsa sound must be set up first please
+                applet does not work with wbar.
+                For a RH mouse user, left click normally
+                mutes master volume
+                and right click opens context menu
+
+                Autostart applet add line to existing file,
+                its not a script just a file
+                $ cat ~/X.d/my-autostarts
+                pcmanfm --desktop &
+                volumeicon &
+                /home/tc/.local/bin/fox &
+
+Change-log:     2023/03/13 Original 0.5.1 on 14x
+Current:        2023/03/13  

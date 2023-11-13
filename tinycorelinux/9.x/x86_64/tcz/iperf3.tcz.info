@@ -1,0 +1,16 @@
+Title:          iperf3.tcz
+Description:    A tool for measuring Internet bandwidth performance.
+Version:        3.1.b3
+Author:         Jon Dugan - ESnet, Seth Elliott, Kaustubh Prabhu (summer students), Brian Tierney - ESnet
+Original-site:  https://github.com/esnet/iperf
+Copying-policy: Copyright (c) 2009-2011, The Regents of the University of California, through Lawrence 
+		Berkeley National Laboratory 
+Size:		136K
+Extension_by:   brezular
+Tags:	    	a tool for measuring achievable bandwidth on IP networks.
+Comments:       iperf3 is NOT backwards compatible with the original iperf 2.x. It is a new implementation 
+		from scratch, with the goal of a smaller, simpler code base, and a library version of the 
+		functionality that can be used in other programs. Iperf3 also a number of features found in 
+		other tools such as nuttcp and netperf, but were missing from iperf2.x.
+Change-log:     -
+Current:        2015/07/23 First version

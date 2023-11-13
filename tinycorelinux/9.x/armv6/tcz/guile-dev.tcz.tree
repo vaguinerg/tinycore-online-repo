@@ -1,0 +1,26 @@
+guile-dev.tcz
+   gc-dev.tcz
+      libatomic_ops.tcz
+      gc.tcz
+         libatomic_ops.tcz
+   gmp-dev.tcz
+      gmp.tcz
+   libtool-dev.tcz
+      libtool.tcz
+         libltdl.tcz
+   libunistring-dev.tcz
+      libunistring.tcz
+   readline-dev.tcz
+      readline.tcz
+         ncurses.tcz
+      ncurses-dev.tcz
+         ncurses.tcz
+   guile.tcz
+      gc.tcz
+         libatomic_ops.tcz
+      gmp.tcz
+      libltdl.tcz
+      libunistring.tcz
+      readline.tcz
+         ncurses.tcz
+

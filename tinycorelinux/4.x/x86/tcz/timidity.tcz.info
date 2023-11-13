@@ -1,0 +1,29 @@
+Title:          timidity.tcz
+Description:    midi-to-wave converter and player
+Version:        git 2013/05/05
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 400KB
+Extension_by:   juanito
+Tags:	        midi wave converter player
+Comments:       TiMidity++ is a software synthesizer. It can play MIDI files..
+                ..by converting them into PCM waveform data; give it a MIDI data..
+                ..along with digital instrument data files, then it synthesizes..
+                ..them in real-time, and plays. It can not only play sounds,
+                but also can save the generated waveforms.
+                ----------
+                should play with alsa and oss
+                ----------
+                edit /usr/local/share/timidity/timidity.cfg to suit your setup
+                ..will not work without sound fonts or sound patches added..
+                ..eg http://gd.tuwien.ac.at/opsys/linux/gentoo/distfiles/eawpats12_full.tar.gz
+                ..or ftp://ftp.personalcopy.net/pub/Unison.sf2.gz
+                ----------
+                This extension contains:
+                TiMidity++ git 2013/05/05 - GPLv2 - git clone git://timidity.git.sourceforge.net/gitroot/timidity/timidity
+                ----------
+                2009/10/27
+                updated 2.13.2 -> git 2013/05/05
+                changed gui gtk1 -> Xaw
+Current:        2013/05/08

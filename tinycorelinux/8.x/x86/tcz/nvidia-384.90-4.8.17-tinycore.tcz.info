@@ -1,0 +1,50 @@
+Title:          nvidia-384.90-4.8.17-tinycore.tcz
+Description:	NVIDIA x86 Linux Driver, GLX modules, Nvidia Settings GUI
+Version:	384.90
+Author:		NVIDIA
+Original-site:	http://www.nvidia.com
+Copying-policy:	Proprietary
+Size:		44M
+Extension_by:	Arslan S., coreplayer2
+Tags:		NVIDIA Drivers, kernel module.
+Comments:	--------------
+		For supported products see here 
+		http://us.download.nvidia.com/XFree86/Linux-x86/384.90/README/supportedchips.html
+
+		Includes x86 kernel module, GLX libraries and settings GUI, 
+		built with Xorg-7.7-3d
+
+		Install onboot 
+		***Important to load before Xorg-7.7***
+
+		Only if necassary create a /etc/X11/xorg.conf file
+		and add "Nvidia" entries as necessary eg:
+
+		Section "Device"
+		    Identifier     "Device0"
+		    Driver         "nvidia"
+		    VendorName     "NVIDIA Corporation"
+		EndSection
+
+		Or use "nvidia-xconfig", you may need to install
+		these additional dependencies:
+		Xorg-7.7-3d-dev.tcz
+		xorg-server-dev.tcz
+		pkg-config.tcz
+		autoconf.tcz
+		bash.tcz.
+		run "mkdir -p /etc/X11"
+		run "sudo nvidia-xconfig"
+		run "startx"
+		then add /etc/X11/xorg.conf to your backup
+
+Change-log:     --------------
+		2012/03/23 Rebuilt for tc 4.4
+		2012/03/23 Rebuilt for tc 4.4
+		2012/09/26 Updated to 304.51
+		2014/06/16 Rebuilt for tc-5.x
+		2014/06/16 Updated to 319.49 for tc-5.x by coreplayer2
+		2016/01/20 Updated to 352.63 for tc-7.x by coreplayer2
+Current:	2017/10/14 Updated to 384.90 for tc-8.x by coreplayer2
+
+
