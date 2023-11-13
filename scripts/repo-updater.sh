@@ -20,6 +20,22 @@ for version_dir in tinycorelinux/*.x; do
 		    echo "]," >> "$output_directory/provides.json"
 		done
 		echo "}" >> "$output_directory/provides.json"
+
+		echo "{" > "$output_directory/sizelist.json"
+		for file in tinycorelinux/$version/$arch/tcz/*.info; do
+		    name=$(basename "$file" .info)
+		    size=$(grep -Eo 'Size:[[:space:]]+[0-9.]+[[:alpha:]]+' "$file" | awk '{print $2}')
+		    echo "\"$name\": \"$size\"," >> "$output_directory/sizelist.json"
+		done
+		echo "}" >> "$output_directory/sizelist.json"
+		
+		echo "{" > "$output_directory/taglist.json"
+		for file in tinycorelinux/$version/$arch/tcz/*.info; do
+		    name=$(basename "$file" .info)
+		    tags=$(grep -Eo 'Tags:[[:space:]]+.+' "$file" | awk '{$1=""; print $0}' | tr -s ' ' | sed 's/^[[:space:]]//')
+		    echo "\"$name\": [\"$tags\"]," >> "$output_directory/taglist.json"
+		done
+		echo "}" >> "$output_directory/taglist.json"
  	done
 done
 
