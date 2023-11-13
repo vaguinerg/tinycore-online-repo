@@ -12,10 +12,13 @@ on:
 
 jobs:
   runscript:
-    runs-on: self-hosted
     name: Run Updater Script
-    #runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
+      - name: Cancel Other Workflows
+        uses: styfle/cancel-workflow-action@0.9.0
+        with:
+          access_token: ${{ github.token }}
       - name: Checkout repository
         uses: actions/checkout@v2
       - name: Call a Bash Script
