@@ -9,5 +9,7 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
+      - name: test
+        run:  find .
       - name: Call a Bash Script
         run:  bash ${GITHUB_WORKSPACE}/scripts/repo-updater.sh
