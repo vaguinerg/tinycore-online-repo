@@ -1,19 +1,44 @@
-name: Update ISO
+name: Download ISO file
 
 on: [push]
 
 jobs:
-  download-update:
+  download-iso:
     runs-on: ubuntu-latest
-
     steps:
-    - name: Check and update ISO
-      run: |
-        [ -f CorePure64-14.0.iso ] || wget -O CorePure64-14.0.iso https://distro.ibiblio.org/tinycorelinux/14.x/x86_64/release/CorePure64-14.0.iso
-        git add CorePure64-14.0.iso && git commit -m "Update ISO" || true
-        git push
-
-        remote_date=$(curl -sI https://distro.ibiblio.org/tinycorelinux/14.x/x86_64/release/CorePure64-14.0.iso | grep Last-Modified | cut -d' ' -f2-)
-        local_date=$(stat -c %y CorePure64-14.0.iso)
-
-        [[ $remote_date > $local_date ]] && echo "Remote ISO is newer. Updating..." && cp CorePure64-14.0.iso $GITHUB_WORKSPACE && git add CorePure64-14.0.iso && git commit -m "Update ISO" && git push || echo "Local ISO is up to date."
+      - name: Check out repository code
+        uses: actions/checkout@v2
+      - name: Check if ISO file exists
+        id: check-file
+        run: |
+          FILE=CorePure64-14.0.iso
+          if [ -f "$FILE" ]; then
+            echo "::set-output name=exists::true"
+            echo "::set-output name=date::$(date -r $FILE +%s)"
+          else
+            echo "::set-output name=exists::false"
+          fi
+      - name: Get remote file date
+        id: get-date
+        run: |
+          URL=https://distro.ibiblio.org/tinycorelinux/14.x/x86_64/release/CorePure64-14.0.iso
+          DATE=$(curl -sI $URL | grep -i last-modified | cut -d' ' -f2-)
+          echo "::set-output name=date::$(date -d "$DATE" +%s)"
+      - name: Download ISO file if newer or not exists
+        run: |
+          URL=https://distro.ibiblio.org/tinycorelinux/14.x/x86_64/release/CorePure64-14.0.iso
+          FILE=CorePure64-14.0.iso
+          if [ "${{ steps.check-file.outputs.exists }}" == "false" ] || [ "${{ steps.get-date.outputs.date }}" -gt "${{ steps.check-file.outputs.date }}" ]; then
+            echo "Downloading $URL"
+            curl -L -o $FILE $URL
+            echo "Downloaded $FILE"
+          else
+            echo "$FILE is up to date"
+          fi
+      - name: Commit changes
+        run: |
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'actions@github.com'
+          git add .
+          git commit -m "Update ISO file" || echo "No changes to commit"
+          git push
