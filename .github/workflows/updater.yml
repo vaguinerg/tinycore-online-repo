@@ -12,8 +12,9 @@ on:
 
 jobs:
   runscript:
+    runs-on: self-hosted
     name: Run Updater Script
-    runs-on: ubuntu-latest
+    #runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
