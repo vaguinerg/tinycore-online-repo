@@ -7,5 +7,7 @@ jobs:
     name: Run Updater Script
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
       - name: Call a Bash Script
         run:  bash ${GITHUB_WORKSPACE}/scripts/repo-updater.sh
