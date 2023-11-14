@@ -8,7 +8,7 @@
 </style>
 
 <script src="https://unpkg.com/json5@2/dist/index.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 
 <select id="SelectVersion">
     <option disabled selected>Select a version</option>
@@ -17,7 +17,6 @@
 <hr>
 
 <select id="TCZList" style="width:15vw;height:100%" size="2"></select>
-
 <script>
     $(document).ready(function(){
 
@@ -26,27 +25,29 @@
             var selectedOptgroup = selectedOption.closest('optgroup').attr('label');
             var selectedValue = selectedOption.val();
 
-            fetch(`data/${selectedOptgroup}/${selectedValue}/tczlist`)
-                .then(response => response.text())
-                .then(text => {
-                    $('#TCZList').empty(); 
-                    text.split('\n').forEach(line => {
-                        $('#TCZList').append($('<option>', { text: line }));
-                    });
+            $.get(`data/${selectedOptgroup}/${selectedValue}/tczlist`, function(data){
+                $('#TCZList').empty(); 
+                data.split('\n').forEach(line => {
+                    $('#TCZList').append($('<option>', { text: line }));
                 });
+            });
         });
-
-        fetch('site-data/versions.json')
-            .then(response => response.text())
-            .then(text => JSON5.parse(text))
-            .then(data => {
-                $.each(data, (version, values) => {
+        //The json is invalid because it has Trailing commas, but .get still forces the file to be read as JSON. I need to use AJAX to avoid jquery parse so I can use JSON5.
+        $.ajax({
+            url: 'site-data/versions.json',
+            dataType: 'text',
+            success: function(data){
+                var parsedData = JSON5.parse(data);
+                $.each(parsedData, function(version, values){
                     $('#SelectVersion').append(
                         $('<optgroup>', { label: version }).append(
-                            values.map(value => $('<option>', { value, text: value }))
+                            values.map(function(value){
+                                return $('<option>', { value: value, text: value });
+                            })
                         )
                     );
                 });
-            });
+            }
+        });
     });
 </script>
