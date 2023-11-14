@@ -37,32 +37,42 @@
     </tr>
 </table>
 <script>
-    var selectedVersion, selectedArch;
+var selectedVersion, selectedArch;
 
-    $(document).ready(function(){
-        $('#SelectVersion').change(function(){
-            var selectedOption = $('#SelectVersion option:selected');
-            selectedVersion = selectedOption.closest('optgroup').attr('label');
-            selectedArch = selectedOption.val();
+$(document).ready(function(){
+    $('#SelectVersion').change(function(){
+        var selectedOption = $('#SelectVersion option:selected');
+        selectedVersion = selectedOption.closest('optgroup').attr('label');
+        selectedArch = selectedOption.val();
 
-            $.get(`https://raw.githubusercontent.com/CardealRusso/tinycore-online-repo/main/data/${selectedVersion}/${selectedArch}/tczlist`, function(data){
-                $('#TCZList').empty(); 
-                data.split('\n').forEach(line => {
-                    $('#TCZList').append($('<option>', { text: line }));
-                });
-            });
-        });
-
-        $.get('https://raw.githubusercontent.com/CardealRusso/tinycore-online-repo/main/site-data/versions', function(data){
-            var parsedData = JSON5.parse(data);
-            
-            Object.keys(parsedData).sort((a, b) => parseInt(b) - parseInt(a)).forEach(version => {
-                $('#SelectVersion').append(
-                    $('<optgroup>', { label: version }).append(
-                        parsedData[version].map(value => $('<option>', { value: value, text: value }))
-                    )
-                );
+        $.get(`https://raw.githubusercontent.com/CardealRusso/tinycore-online-repo/main/data/${selectedVersion}/${selectedArch}/tczlist`, function(data){
+            $('#TCZList').empty(); 
+            data.split('\n').forEach(line => {
+                $('#TCZList').append($('<option>', { text: line }));
             });
         });
     });
+
+    $('#TCZList').change(function(){
+        var selectedItem = $('#TCZList option:selected').text();
+        var infoUrl = `https://raw.githubusercontent.com/CardealRusso/tinycore-online-repo/main/tinycorelinux/${selectedVersion}/${selectedArch}/tcz/${selectedItem}.info`;
+
+        $.get(infoUrl, function(infoData){
+            var formattedInfo = infoData.replace(/\n/g, '<br>');
+            $('#InfoList').html(formattedInfo);
+        });
+    });
+
+    $.get('https://raw.githubusercontent.com/CardealRusso/tinycore-online-repo/main/site-data/versions', function(data){
+        var parsedData = JSON5.parse(data);
+        
+        Object.keys(parsedData).sort((a, b) => parseInt(b) - parseInt(a)).forEach(version => {
+            $('#SelectVersion').append(
+                $('<optgroup>', { label: version }).append(
+                    parsedData[version].map(value => $('<option>', { value: value, text: value }))
+                )
+            );
+        });
+    });
+});
 </script>
