@@ -34,10 +34,11 @@
    
        $.get('https://raw.githubusercontent.com/CardealRusso/tinycore-online-repo/main/site-data/versions', function(data){
            var parsedData = JSON5.parse(data);
-           $.each(parsedData, function(version, values){
+           
+           Object.keys(parsedData).sort((a, b) => parseInt(b) - parseInt(a)).forEach(version => {
                $('#SelectVersion').append(
                    $('<optgroup>', { label: version }).append(
-                       values.map(value => $('<option>', { value: value, text: value }))
+                       parsedData[version].map(value => $('<option>', { value: value, text: value }))
                    )
                );
            });
