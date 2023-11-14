@@ -16,20 +16,37 @@
 
 <hr>
 
-<select style="width:15vw;height:100%" size="2"></select>
+<select id="TCZList" style="width:15vw;height:100%" size="2"></select>
 
 <script>
-    fetch('https://cardealrusso.github.io/tinycore-online-repo/site-data/versions.json')
-        .then(response => response.text())
-        .then(text => JSON5.parse(text))
-        .then(data => {
-            $.each(data, (version, values) => {
-                $('#SelectVersion').append(
-                    $('<optgroup>', { label: version }).append(
-                        values.map(value => $('<option>', { value, text: value }))
-                    )
-                );
-            });
-        });
-</script>
+    $(document).ready(function(){
 
+        $('#SelectVersion').change(function(){
+            var selectedOption = $('#SelectVersion option:selected');
+            var selectedOptgroup = selectedOption.closest('optgroup').attr('label');
+            var selectedValue = selectedOption.val();
+
+            fetch(`data/${selectedOptgroup}/${selectedValue}/tczlist`)
+                .then(response => response.text())
+                .then(text => {
+                    $('#TCZList').empty(); 
+                    text.split('\n').forEach(line => {
+                        $('#TCZList').append($('<option>', { text: line }));
+                    });
+                });
+        });
+
+        fetch('site-data/versions.json')
+            .then(response => response.text())
+            .then(text => JSON5.parse(text))
+            .then(data => {
+                $.each(data, (version, values) => {
+                    $('#SelectVersion').append(
+                        $('<optgroup>', { label: version }).append(
+                            values.map(value => $('<option>', { value, text: value }))
+                        )
+                    );
+                });
+            });
+    });
+</script>
