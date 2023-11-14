@@ -1,37 +1,35 @@
 <style>
-  * {
-    background-color:#202225;
-    color: #959ca6;
-    border: 1px solid #40444b;
-    border-radius: 5px;
-  }
+    * { 
+        background-color:#202225; 
+        color:#959ca6; 
+        border:1px solid #40444b; 
+        border-radius:5px; 
+    }
 </style>
 
 <script src="https://unpkg.com/json5@2/dist/index.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"></script>
 
-<select>
-  <option disabled="disabled" selected="selected">Select a version</option>
+<select id="SelectVersion">
+    <option disabled selected>Select a version</option>
 </select>
+
 <hr>
-<select style="width:15vw;height:100%" size="2">
-</select>
+
+<select style="width:15vw;height:100%" size="2"></select>
 
 <script>
- fetch('site-data/versions.json')
-   .then(response => response.text())
-   .then(text => JSON5.parse(text))
-   .then(data => {
-     const selectElement = document.querySelector('select');
-     for (const version in data) {
-       const optgroup = document.createElement('optgroup');
-       optgroup.label = version;
-       data[version].forEach(value => {
-         const option = document.createElement('option');
-         option.value = value;
-         option.textContent = value;
-         optgroup.appendChild(option);
-       });
-       selectElement.appendChild(optgroup);
-     }
-   })
+    fetch('https://cardealrusso.github.io/tinycore-online-repo/site-data/versions.json')
+        .then(response => response.text())
+        .then(text => JSON5.parse(text))
+        .then(data => {
+            $.each(data, (version, values) => {
+                $('#SelectVersion').append(
+                    $('<optgroup>', { label: version }).append(
+                        values.map(value => $('<option>', { value, text: value }))
+                    )
+                );
+            });
+        });
 </script>
+
