@@ -5,6 +5,17 @@
         border:1px solid #40444b; 
         border-radius:5px; 
     }
+
+    #TCZList {
+        width:15vw;
+        height:100%;
+    }
+
+    table {
+        max-width:100%;
+        white-space:nowrap;
+        height:100%;
+    }
 </style>
 
 <script src="https://unpkg.com/json5@2/dist/index.min.js"></script>
@@ -13,35 +24,45 @@
 <select id="SelectVersion">
     <option disabled selected>Select a version</option>
 </select>
-
 <hr>
 
-<select id="TCZList" style="width:15vw;height:100%" size="2"></select>
+<table>
+    <tr>
+        <td>
+            <select id="TCZList" size="2"></select>
+        </td>
+        <td valign="top">
+            <div id=InfoList><div>
+        </td>
+    </tr>
+</table>
 <script>
-   $(document).ready(function(){
-       $('#SelectVersion').change(function(){
-           var selectedOption = $('#SelectVersion option:selected');
-           var selectedOptgroup = selectedOption.closest('optgroup').attr('label');
-           var selectedValue = selectedOption.val();
-   
-           $.get(`https://raw.githubusercontent.com/CardealRusso/tinycore-online-repo/main/data/${selectedOptgroup}/${selectedValue}/tczlist`, function(data){
-               $('#TCZList').empty(); 
-               data.split('\n').forEach(line => {
-                   $('#TCZList').append($('<option>', { text: line }));
-               });
-           });
-       });
-   
-       $.get('https://raw.githubusercontent.com/CardealRusso/tinycore-online-repo/main/site-data/versions', function(data){
-           var parsedData = JSON5.parse(data);
-           
-           Object.keys(parsedData).sort((a, b) => parseInt(b) - parseInt(a)).forEach(version => {
-               $('#SelectVersion').append(
-                   $('<optgroup>', { label: version }).append(
-                       parsedData[version].map(value => $('<option>', { value: value, text: value }))
-                   )
-               );
-           });
-       });
-   });
+    var selectedVersion, selectedArch;
+
+    $(document).ready(function(){
+        $('#SelectVersion').change(function(){
+            var selectedOption = $('#SelectVersion option:selected');
+            selectedVersion = selectedOption.closest('optgroup').attr('label');
+            selectedArch = selectedOption.val();
+
+            $.get(`https://raw.githubusercontent.com/CardealRusso/tinycore-online-repo/main/data/${selectedVersion}/${selectedArch}/tczlist`, function(data){
+                $('#TCZList').empty(); 
+                data.split('\n').forEach(line => {
+                    $('#TCZList').append($('<option>', { text: line }));
+                });
+            });
+        });
+
+        $.get('https://raw.githubusercontent.com/CardealRusso/tinycore-online-repo/main/site-data/versions', function(data){
+            var parsedData = JSON5.parse(data);
+            
+            Object.keys(parsedData).sort((a, b) => parseInt(b) - parseInt(a)).forEach(version => {
+                $('#SelectVersion').append(
+                    $('<optgroup>', { label: version }).append(
+                        parsedData[version].map(value => $('<option>', { value: value, text: value }))
+                    )
+                );
+            });
+        });
+    });
 </script>
