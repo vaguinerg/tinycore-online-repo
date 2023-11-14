@@ -39,6 +39,17 @@ for version_dir in tinycorelinux/*.x; do
  	done
 done
 
+echo "{" > "site-data/versions.json"
+for version in ./data/*/; do
+    version_name=$(basename "$version")
+    echo "\"$version_name\": [" >> "site-data/versions.json"
+    for arch in "$version"/*/; do
+        arch_name=$(basename "$arch")
+        echo "\"$arch_name\"," >> "site-data/versions.json"
+    done
+    echo "]," >> "site-data/versions.json"
+done
+echo "}" >> "site-data/versions.json"
 
 git config --global user.name 'GitHub Actions'
 git config --global user.email 'actions@github.com'
