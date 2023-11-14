@@ -4,12 +4,11 @@ Version:        Various
 Author:         Cypress
 Original-site:  https://github.com/RPi-Distro/firmware-nonfree
 Copying-policy: See LICENCE
-Size:           1.9M
+Size:           2.0M
 Extension_by:   paul-123
-Tags:           FIRMWARE RPI4 RPI3 RPI0W RPI02 WIFI WIRELESS
+Tags:           FIRMWARE RPI5 RPI4 RPI3 RPI0W RPI02 WIFI WIRELESS
 Comments:       Binaries only
                 ----
-                Packed for piCore 10.x / RPi3 and RPi0W
 Change-log:     2016/06/28 First version 7.45.41.26
                 CVE-2017-9417: Broadpwn issue fix
                 Add CY string in the version string.
@@ -34,4 +33,6 @@ Change-log:     2016/06/28 First version 7.45.41.26
                            Update copywrites per latest raspiOS package
                 2023/05/06 Update to include board names per rpi package
                 2023/06/20 Update Zero 2 W wifi firmware (7.45.96.s1) and create links.
-Current:        2023/08/11 Add missing compute module 4 firmware links.
+                2023/08/11 Add missing compute module 4 firmware links.
+                2023/10/09 Add Pi 5-specific links to the 43455 firmware.
+Current:        2023/11/11 Update Synaptics license.
