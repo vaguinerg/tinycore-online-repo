@@ -18,36 +18,29 @@
 
 <select id="TCZList" style="width:15vw;height:100%" size="2"></select>
 <script>
-    $(document).ready(function(){
-
-        $('#SelectVersion').change(function(){
-            var selectedOption = $('#SelectVersion option:selected');
-            var selectedOptgroup = selectedOption.closest('optgroup').attr('label');
-            var selectedValue = selectedOption.val();
-
-            $.get(`https://raw.githubusercontent.com/CardealRusso/tinycore-online-repo/main/data/${selectedOptgroup}/${selectedValue}/tczlist`, function(data){
-                $('#TCZList').empty(); 
-                data.split('\n').forEach(line => {
-                    $('#TCZList').append($('<option>', { text: line }));
-                });
-            });
-        });
-        //The json is invalid because it has Trailing commas, but .get still forces the file to be read as JSON. I need to use AJAX to avoid jquery parse so I can use JSON5.
-        $.ajax({
-            url: 'https://raw.githubusercontent.com/CardealRusso/tinycore-online-repo/main/site-data/versions.json',
-            dataType: 'text',
-            success: function(data){
-                var parsedData = JSON5.parse(data);
-                $.each(parsedData, function(version, values){
-                    $('#SelectVersion').append(
-                        $('<optgroup>', { label: version }).append(
-                            values.map(function(value){
-                                return $('<option>', { value: value, text: value });
-                            })
-                        )
-                    );
-                });
-            }
-        });
-    });
+   $(document).ready(function(){
+       $('#SelectVersion').change(function(){
+           var selectedOption = $('#SelectVersion option:selected');
+           var selectedOptgroup = selectedOption.closest('optgroup').attr('label');
+           var selectedValue = selectedOption.val();
+   
+           $.get(`https://raw.githubusercontent.com/CardealRusso/tinycore-online-repo/main/data/${selectedOptgroup}/${selectedValue}/tczlist`, function(data){
+               $('#TCZList').empty(); 
+               data.split('\n').forEach(line => {
+                   $('#TCZList').append($('<option>', { text: line }));
+               });
+           });
+       });
+   
+       $.get('https://raw.githubusercontent.com/CardealRusso/tinycore-online-repo/main/site-data/versions', function(data){
+           var parsedData = JSON5.parse(data);
+           $.each(parsedData, function(version, values){
+               $('#SelectVersion').append(
+                   $('<optgroup>', { label: version }).append(
+                       values.map(value => $('<option>', { value: value, text: value }))
+                   )
+               );
+           });
+       });
+   });
 </script>
