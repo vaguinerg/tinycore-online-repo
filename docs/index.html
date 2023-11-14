@@ -25,7 +25,7 @@
             var selectedOptgroup = selectedOption.closest('optgroup').attr('label');
             var selectedValue = selectedOption.val();
 
-            $.get(`data/${selectedOptgroup}/${selectedValue}/tczlist`, function(data){
+            $.get(`https://raw.githubusercontent.com/CardealRusso/tinycore-online-repo/main/data/${selectedOptgroup}/${selectedValue}/tczlist`, function(data){
                 $('#TCZList').empty(); 
                 data.split('\n').forEach(line => {
                     $('#TCZList').append($('<option>', { text: line }));
@@ -34,7 +34,7 @@
         });
         //The json is invalid because it has Trailing commas, but .get still forces the file to be read as JSON. I need to use AJAX to avoid jquery parse so I can use JSON5.
         $.ajax({
-            url: 'site-data/versions.json',
+            url: 'https://raw.githubusercontent.com/CardealRusso/tinycore-online-repo/main/site-data/versions.json',
             dataType: 'text',
             success: function(data){
                 var parsedData = JSON5.parse(data);
