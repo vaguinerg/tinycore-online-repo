@@ -13,46 +13,46 @@ for version_dir in tinycorelinux/*.x; do
 		find tinycorelinux/$version/$arch/tcz/*.list -maxdepth 1 -type f -exec basename {} \; | sed 's/\.list//' > "$output_directory/tczlist"
 		
   		#I couldn't get JQ to work, so I'm going to use this aberration that is working.
-		echo "{" > "$output_directory/provides.json"
+		echo "{" > "$output_directory/provides"
 		for file in tinycorelinux/$version/$arch/tcz/*.list; do
 		    name=$(basename "$file" .list)
-		    echo "\"$name\": [" >> "$output_directory/provides.json"
+		    echo "\"$name\": [" >> "$output_directory/provides"
 		    while IFS= read -r line || [ -n "$line" ]; do
-		        echo "\"$line\"," >> "$output_directory/provides.json"
+		        echo "\"$line\"," >> "$output_directory/provides"
 		    done < "$file"
-		    echo "]," >> "$output_directory/provides.json"
+		    echo "]," >> "$output_directory/provides"
 		done
-		echo "}" >> "$output_directory/provides.json"
+		echo "}" >> "$output_directory/provides"
 
-		echo "{" > "$output_directory/sizelist.json"
+		echo "{" > "$output_directory/sizelist"
 		for file in tinycorelinux/$version/$arch/tcz/*.info; do
 		    name=$(basename "$file" .info)
 		    size=$(grep -Eo 'Size:[[:space:]]+[0-9.]+[[:alpha:]]+' "$file" | awk '{print $2}')
-		    echo "\"$name\": \"$size\"," >> "$output_directory/sizelist.json"
+		    echo "\"$name\": \"$size\"," >> "$output_directory/sizelist"
 		done
-		echo "}" >> "$output_directory/sizelist.json"
+		echo "}" >> "$output_directory/sizelist"
 		
-		echo "{" > "$output_directory/taglist.json"
+		echo "{" > "$output_directory/taglist"
 		for file in tinycorelinux/$version/$arch/tcz/*.info; do
 		    name=$(basename "$file" .info)
 		    tags=$(grep -Eo 'Tags:[[:space:]]+.+' "$file" | awk '{$1=""; print $0}' | tr -s ' ' | sed 's/^[[:space:]]//')
-		    echo "\"$name\": [\"$tags\"]," >> "$output_directory/taglist.json"
+		    echo "\"$name\": [\"$tags\"]," >> "$output_directory/taglist"
 		done
-		echo "}" >> "$output_directory/taglist.json"
+		echo "}" >> "$output_directory/taglist"
  	done
 done
 
-echo "{" > "site-data/versions.json"
+echo "{" > "site-data/versions"
 for version in ./data/*/; do
     version_name=$(basename "$version")
-    echo "\"$version_name\": [" >> "site-data/versions.json"
+    echo "\"$version_name\": [" >> "site-data/versions"
     for arch in "$version"/*/; do
         arch_name=$(basename "$arch")
-        echo "\"$arch_name\"," >> "site-data/versions.json"
+        echo "\"$arch_name\"," >> "site-data/versions"
     done
-    echo "]," >> "site-data/versions.json"
+    echo "]," >> "site-data/versions"
 done
-echo "}" >> "site-data/versions.json"
+echo "}" >> "site-data/versions"
 
 git config --global user.name 'GitHub Actions'
 git config --global user.email 'actions@github.com'
