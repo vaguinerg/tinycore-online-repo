@@ -1,0 +1,25 @@
+* {
+    background-color: #202225;
+    color: #959ca6;
+    border-radius: 5px;
+    font-family: 'Liberation Mono', sans-serif;
+}
+
+#TCZList, #InfoList, #SelectVersion, #SearchType, hr {
+    border: 1px solid;
+}
+
+#TCZList {
+    width: 15vw;
+    height: 100%;
+}
+
+#InfoList {
+    white-space: break-spaces;
+}
+
+#InfoTable {
+    max-width: 100%;
+    white-space: nowrap;
+    height: 100%;
+}
