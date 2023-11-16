@@ -28,6 +28,7 @@ for version_dir in tinycorelinux/*.x; do
 
   		echo "{" > "$output_directory/sizelist"
 		for file in tinycorelinux/$version/$arch/tcz/*.info; do
+		    size="NA"
 		    name=$(basename "$file" .info)
 		    IFS=$'\n'; for line in $result; do
 			if [ "$(echo $line | awk '{print $5}')" == "$version/$arch/tcz/$name" ]; then
