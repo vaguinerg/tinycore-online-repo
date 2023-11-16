@@ -63,7 +63,7 @@
         });
 
         $('#InputSearchTerm').keypress(function (event) {
-            if (event.which === 13) {
+            if (event.which === 13 && selectedVersion) {
                 var searchTerm = $('#InputSearchTerm').val().toLowerCase();
                 var searchType = $('#SearchType option:selected').text().toLowerCase();
 
@@ -75,7 +75,7 @@
 
                     searchTerm.length === 0 && $('#TCZList option').show();
                 }
-                if (searchType === 'Info') {
+                if (searchType === 'info') {
                     alert("All .info files will be searched. This search takes a long time.");
                     $('#TCZList').empty();
                     $.get(`https://raw.githubusercontent.com/CardealRusso/tinycore-online-repo/main/data/${selectedVersion}/${selectedArch}/tczlist`, function (data) {
