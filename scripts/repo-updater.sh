@@ -25,7 +25,9 @@ for version_dir in tinycorelinux/*.x; do
 		    echo "]," >> "$output_directory/provides"
 		done
 		echo "}" >> "$output_directory/provides"
-
+		
+  
+  		#This needs to be improved urgently, it's taking hours in just one loop
   		echo "{" > "$output_directory/sizelist"
 		for file in tinycorelinux/$version/$arch/tcz/*.info; do
 		    size="NA"
