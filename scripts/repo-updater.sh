@@ -7,8 +7,8 @@ rsync -av --size-only --delete --prune-empty-dirs --include="*/*/tcz/*.tcz.dep" 
 mapfile -t tcvers < <(find tinycorelinux -mindepth 2 -maxdepth 2 -type d -exec sh -c 'echo "$(basename $(dirname {})) $(basename {})"' \;)
 
 for item in "${tcvers[@]}"; do
-  version=$(echo "$tcvers" | awk '{print $1}')
-  arch=$(echo "$tcvers" | awk '{print $2}')
+  version=$(echo "$item" | awk '{print $1}')
+  arch=$(echo "$item" | awk '{print $2}')
   [ -d "data/$version/$arch" ] || mkdir -p "data/$version/$arch"
   output_directory="data/$version/$arch"
   input_directory="tinycorelinux/$version/$arch/tcz"
