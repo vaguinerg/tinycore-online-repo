@@ -46,6 +46,7 @@ for version_dir in tinycorelinux/*.x; do
 		    echo "\"$name\": [\"$tags\"]," >> "$output_directory/taglist"
 		done
 		echo "}" >> "$output_directory/taglist"
+  		echo "Finished $version - $arch"
  	done
 done
 
