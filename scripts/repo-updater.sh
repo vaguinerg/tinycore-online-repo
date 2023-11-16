@@ -4,6 +4,7 @@ sudo apt-get install -y jq
 #need to manually map *.tcz.* files to skip *.tcz.zsync and md5
 rsync -av --size-only --delete --prune-empty-dirs --include="*/*/tcz/*.tcz.dep" --include="*/*/tcz/*.tcz.list" --include="*/*/tcz/*.tcz.info" --include="*/*/tcz/*.tcz.tree" --include="*/" --exclude="*" repo.tinycorelinux.net::tc ./tinycorelinux
 result=$(rsync -av --list-only --include="*/*/tcz/*.tcz" --include="*/" --exclude="*" repo.tinycorelinux.net::tc ./tinycorelinux | grep '\.tcz')
+echo "Finished getting file list"
 
 for version_dir in tinycorelinux/*.x; do
 	version=$(basename "$version_dir")
