@@ -14,6 +14,7 @@
                 <option>Search</option>
                 <option disabled>Provides</option>
                 <option disabled>Tags</option>
+                <option>Info</option>
             </select>
         </td>
         <td>
@@ -73,6 +74,21 @@
                     });
 
                     searchTerm.length === 0 && $('#TCZList option').show();
+                }
+                if (searchType === 'Info') {
+                    alert("All .info files will be searched. This search takes a long time.");
+                    $('#TCZList').empty();
+                    $.get(`https://raw.githubusercontent.com/CardealRusso/tinycore-online-repo/main/data/${selectedVersion}/${selectedArch}/tczlist`, function (data) {
+                        var lines = data.split('\n');
+                        lines.forEach(function (line) {
+                            var fileName = line.trim();
+                            $.get(`https://raw.githubusercontent.com/CardealRusso/tinycore-online-repo/main/tinycorelinux/${selectedVersion}/${selectedArch}/tcz/${fileName}.info`, function (infoData) {
+                                if (infoData.toLowerCase().includes(searchTerm)) {
+                                    $('#TCZList').append($('<option>', { text: fileName }));
+                                }
+                            });
+                        });
+                    });
                 }
             }
         });
