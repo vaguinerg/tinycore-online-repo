@@ -24,10 +24,17 @@ for version_dir in tinycorelinux/*.x; do
 		done
 		echo "}" >> "$output_directory/provides"
 
-		echo "{" > "$output_directory/sizelist"
+  		result=$(rsync -av --list-only --include="*/*/tcz/*.tcz" --include="*/" --exclude="*" repo.tinycorelinux.net::tc ./tinycorelinux)
+
+  		echo "{" > "$output_directory/sizelist"
 		for file in tinycorelinux/$version/$arch/tcz/*.info; do
 		    name=$(basename "$file" .info)
-		    size=$(grep -Eo 'Size:[[:space:]]+[0-9.]+[[:alpha:]]+' "$file" | awk '{print $2}')
+		    IFS=$'\n'; for line in $result; do
+			if [ "$(echo $line | awk '{print $5}')" == "$version/$arch/tcz/$name" ]; then
+			  size=$(echo $line | awk '{print $2}')
+			fi
+		    done
+		    #size=$(grep -Eo 'Size:[[:space:]]+[0-9.]+[[:alpha:]]+' "$file" | awk '{print $2}')
 		    echo "\"$name\": \"$size\"," >> "$output_directory/sizelist"
 		done
 		echo "}" >> "$output_directory/sizelist"
