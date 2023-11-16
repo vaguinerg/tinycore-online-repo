@@ -27,18 +27,13 @@ for version_dir in tinycorelinux/*.x; do
 		echo "}" >> "$output_directory/provides"
 		
   
-  		#This needs to be improved urgently, it's taking hours in just one loop
-  		echo "{" > "$output_directory/sizelist"
-		for file in tinycorelinux/$version/$arch/tcz/*.info; do
-		    size="NA"
-		    name=$(basename "$file" .info)
-		    IFS=$'\n'; for line in $result; do
-			if [ "$(echo $line | awk '{print $5}')" == "$version/$arch/tcz/$name" ]; then
-			  size=$(echo $line | awk '{print $2}')
-			fi
-		    done
-		    #size=$(grep -Eo 'Size:[[:space:]]+[0-9.]+[[:alpha:]]+' "$file" | awk '{print $2}')
-		    echo "\"$name\": \"$size\"," >> "$output_directory/sizelist"
+		echo "{" > "$output_directory/sizelist"
+		IFS=$'\n'; for line in $result; do
+		    if [[ "$line" == *"$version/$arch/tcz/"* ]]; then
+		        name=$(echo $line | awk '{print $5}' | cut -d '/' -f 4)
+		        size=$(echo $line | awk '{gsub(",", ""); print $2}')
+		        echo "\"$name\": \"$size\"," >> "$output_directory/sizelist"
+		    fi
 		done
 		echo "}" >> "$output_directory/sizelist"
 		
