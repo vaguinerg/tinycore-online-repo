@@ -46,6 +46,8 @@ for version_dir in tinycorelinux/*.x; do
 		end=$(date +%s);
   		runtime=$((end-start))
   		sizeTime=$((sizeTime + runtime))
+    
+    		start=$(date +%s);
 		echo "{" > "$output_directory/taglist"
 		for file in tinycorelinux/$version/$arch/tcz/*.info; do
 		    name=$(basename "$file" .info)
