@@ -36,67 +36,76 @@
 
 <script>
     var selectedVersion, selectedArch;
-
-    $(document).ready(function () {
-        $('#SelectVersion').change(function () {
+    
+    $(document).ready(async function () {
+        $('#SelectVersion').change(async function () {
             var selectedOption = $('#SelectVersion option:selected');
             selectedVersion = selectedOption.closest('optgroup').attr('label');
             selectedArch = selectedOption.val();
-
-            $.get(`https://raw.githubusercontent.com/CardealRusso/tinycore-online-repo/main/data/${selectedVersion}/${selectedArch}/tczlist`, function (data) {
-                $('#TCZList').empty();
-                data.split('\n').forEach(line => {
-                    $('#TCZList').append($('<option>', { text: line }));
-                });
-            });
+    
+            await loadTczList();
         });
-
-        $('#TCZList').change(function () {
+    
+        $('#TCZList').change(async function () {
             var selectedItem = $('#TCZList option:selected').text();
             var infoUrl = `https://raw.githubusercontent.com/CardealRusso/tinycore-online-repo/main/tinycorelinux/${selectedVersion}/${selectedArch}/tcz/${selectedItem}.info`;
-
-            $.get(infoUrl, function (infoData) {
-                var formattedInfo = infoData.replace(/\n/g, '<br>');
-                $('#InfoList').html(formattedInfo);
-                $('#InfoList').show()
-            });
+    
+            var infoData = await $.get(infoUrl);
+            var formattedInfo = infoData.replace(/\n/g, '<br>');
+    
+            $('#InfoList').html(formattedInfo);
+            $('#InfoList').show();
         });
-
-        $('#InputSearchTerm').keypress(function (event) {
+    
+        $('#InputSearchTerm').keypress(async function (event) {
             if (event.which === 13 && selectedVersion) {
                 var searchTerm = $('#InputSearchTerm').val().toLowerCase();
                 var searchType = $('#SearchType option:selected').text().toLowerCase();
-
+    
                 if (searchType === 'search') {
                     $('#TCZList option').each(function () {
                         var itemText = $(this).text().toLowerCase();
                         $(this).toggle(itemText.includes(searchTerm));
                     });
-
+    
                     searchTerm.length === 0 && $('#TCZList option').show();
                 }
+    
                 if (searchType === 'info') {
                     alert("All .info files will be searched. This search takes a long time.");
                     $('#TCZList').empty();
-                    $.get(`https://raw.githubusercontent.com/CardealRusso/tinycore-online-repo/main/data/${selectedVersion}/${selectedArch}/tczlist`, function (data) {
-                        var lines = data.split('\n');
-                        lines.forEach(function (line) {
-                            var fileName = line.trim();
-                            $.get(`https://raw.githubusercontent.com/CardealRusso/tinycore-online-repo/main/tinycorelinux/${selectedVersion}/${selectedArch}/tcz/${fileName}.info`, function (infoData) {
-                                if (infoData.toLowerCase().includes(searchTerm)) {
-                                    $('#TCZList').append($('<option>', { text: fileName }));
-                                }
-                            });
-                        });
-                    });
+                    await DeepInfoSearch(searchTerm);
                 }
             }
         });
-
+    
+        async function loadTczList() {
+            var data = await $.get(`https://raw.githubusercontent.com/CardealRusso/tinycore-online-repo/main/data/${selectedVersion}/${selectedArch}/tczlist`);
+    
+            $('#TCZList').empty();
+            data.split('\n').forEach(line => {
+                $('#TCZList').append($('<option>', { text: line }));
+            });
+        }
+    
+        async function DeepInfoSearch(searchTerm) {
+            var data = await $.get(`https://raw.githubusercontent.com/CardealRusso/tinycore-online-repo/main/data/${selectedVersion}/${selectedArch}/tczlist`);
+            var lines = data.split('\n');
+    
+            for (const line of lines) {
+                var fileName = line.trim();
+                var infoData = await $.get(`https://raw.githubusercontent.com/CardealRusso/tinycore-online-repo/main/tinycorelinux/${selectedVersion}/${selectedArch}/tcz/${fileName}.info`);
+    
+                if (infoData.toLowerCase().includes(searchTerm)) {
+                    $('#TCZList').append($('<option>', { text: fileName }));
+                }
+            }
+        }
+    
         $.get('https://raw.githubusercontent.com/CardealRusso/tinycore-online-repo/main/site-data/versions', function (data) {
             var jsonString = data.replace(/,\s*([\]}])/g, '$1');
             var parsedData = JSON.parse(jsonString);
-
+    
             Object.keys(parsedData).sort((a, b) => parseInt(b) - parseInt(a)).forEach(version => {
                 $('#SelectVersion').append(
                     $('<optgroup>', { label: version }).append(
