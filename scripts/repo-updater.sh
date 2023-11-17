@@ -82,6 +82,7 @@ for version_dir in tinycorelinux/*.x; do
 	for arch_dir in tinycorelinux/$version/*; do
 		arch=$(basename "$arch_dir")
   		echo '}' >> "data/$version/$arch/sizelist.json"
+    		sed -i ':begin;$!N;s/,\n}/\n}/g;tbegin;P;D' "data/$version/$arch/sizelist.json"
 	done
 done
 
