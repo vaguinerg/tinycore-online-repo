@@ -31,21 +31,6 @@ for version_dir in tinycorelinux/*.x; do
 		end=$(date +%s);
   		runtime=$((end-start))
   		providesTime=$((providesTime + runtime))
-
-    		start=$(date +%s);
-		echo "{" > "$output_directory/sizelist"
-		IFS=$'\n'; for line in $result; do
-		    if [[ "$line" == *"$version/$arch/tcz/"* ]]; then
-		        name=$(echo $line | awk '{print $5}' | cut -d '/' -f 4)
-		        size=$(echo $line | awk '{gsub(",", ""); print $2}')
-		        echo "\"$name\": \"$size\"," >> "$output_directory/sizelist"
-		    fi
-		done
-		echo "}" >> "$output_directory/sizelist"
-
-		end=$(date +%s);
-  		runtime=$((end-start))
-  		sizeTime=$((sizeTime + runtime))
     
     		start=$(date +%s);
 		echo "{" > "$output_directory/taglist"
@@ -73,6 +58,30 @@ for version in ./data/*/; do
     echo "]," >> "site-data/versions"
 done
 echo "}" >> "site-data/versions"
+
+#Sizelist json
+start=$(date +%s);
+rm -rf data/*/*/sizelist
+rm -rf data/*/*/sizelist.json
+for version_dir in tinycorelinux/*.x; do
+	version=$(basename "$version_dir")
+	for arch_dir in tinycorelinux/$version/*; do
+		arch=$(basename "$arch_dir")
+  		echo '[]' > "data/$version/$arch/sizelist.json"
+	done
+done
+ 
+IFS=$'\n'; for line in $result; do
+    version=$(echo "$line" | awk '{print $5}' | cut -d '/' -f 1)
+    arch=$(echo "$line" | awk '{print $5}' | cut -d '/' -f 2)
+    file=$(echo "$line" | awk '{print $5}' | cut -d '/' -f 4)
+    size=$(echo $line | awk '{gsub(",", ""); print $2}')
+    jq ". += [{\"$file\": $size}]" "data/$version/$arch/sizelist.json" > temp && mv -f temp "data/$version/$arch/sizelist.json"
+done
+
+end=$(date +%s);
+runtime=$((end-start))
+sizeTime=$((sizeTime + runtime))
 
 echo provides: $providesTime
 echo size: $sizeTime
