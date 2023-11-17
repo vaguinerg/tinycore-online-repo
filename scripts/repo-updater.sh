@@ -61,13 +61,11 @@ echo "}" >> "site-data/versions"
 
 #Sizelist json
 start=$(date +%s);
-rm -rf data/*/*/sizelist
-rm -rf data/*/*/sizelist.json
 for version_dir in tinycorelinux/*.x; do
 	version=$(basename "$version_dir")
 	for arch_dir in tinycorelinux/$version/*; do
 		arch=$(basename "$arch_dir")
-  		echo '[]' > "data/$version/$arch/sizelist.json"
+  		echo '{' > "data/$version/$arch/sizelist.json"
 	done
 done
  
@@ -76,7 +74,15 @@ IFS=$'\n'; for line in $result; do
     arch=$(echo "$line" | awk '{print $5}' | cut -d '/' -f 2)
     file=$(echo "$line" | awk '{print $5}' | cut -d '/' -f 4)
     size=$(echo $line | awk '{gsub(",", ""); print $2}')
-    jq ". += [{\"$file\": $size}]" "data/$version/$arch/sizelist.json" > temp && mv -f temp "data/$version/$arch/sizelist.json"
+    echo "\"$file\":$size," >> "data/$version/$arch/sizelist.json"
+done
+
+for version_dir in tinycorelinux/*.x; do
+	version=$(basename "$version_dir")
+	for arch_dir in tinycorelinux/$version/*; do
+		arch=$(basename "$arch_dir")
+  		echo '}' >> "data/$version/$arch/sizelist.json"
+	done
 done
 
 end=$(date +%s);
