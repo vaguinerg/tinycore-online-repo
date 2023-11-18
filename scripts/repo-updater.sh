@@ -1,6 +1,3 @@
-sudo apt-get update -y
-sudo apt-get install -y jq
-
 #need to manually map *.tcz.* files to skip *.tcz.zsync and md5
 rsync -av --size-only --delete --prune-empty-dirs --include="*/*/tcz/*.tcz.dep" --include="*/*/tcz/*.tcz.list" --include="*/*/tcz/*.tcz.info" --include="*/*/tcz/*.tcz.tree" --include="*/" --exclude="*" repo.tinycorelinux.net::tc ./tinycorelinux
 result=$(rsync -av --list-only --include="*/*/tcz/*.tcz" --include="*/" --exclude="*" repo.tinycorelinux.net::tc ./tinycorelinux | grep '\.tcz')
@@ -17,7 +14,6 @@ for version_dir in tinycorelinux/*.x; do
 		find tinycorelinux/$version/$arch/tcz/*.list -maxdepth 1 -type f -exec basename {} \; | sed 's/\.list//' > "$output_directory/tczlist"
 
   		start=$(date +%s);
-  		#I couldn't get JQ to work, so I'm going to use this aberration that is working.
 		echo "{" > "$output_directory/provides"
 		for file in tinycorelinux/$version/$arch/tcz/*.list; do
 		    name=$(basename "$file" .list)
