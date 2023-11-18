@@ -5,12 +5,12 @@
 <table>
     <tr>
         <td>
-            <select id="SelectVersion">
+            <select hidden id="SelectVersion">
                 <option disabled selected>Select a version</option>
             </select>
         </td>
         <td>
-            <select id="SearchType">
+            <select hidden id="SearchType">
                 <option>Search</option>
                 <option disabled>Provides</option>
                 <option disabled>Tags</option>
@@ -18,7 +18,7 @@
             </select>
         </td>
         <td>
-            <input id="InputSearchTerm"></input>
+            <input hidden id="InputSearchTerm"></input>
         </td>
     </tr>
 </table>
@@ -39,6 +39,9 @@
     
     $(document).ready(async function () {
         $('#SelectVersion').change(async function () {
+            $('#SearchType').prop("disabled", true);
+            $('#InputSearchTerm').prop("disabled", true);
+            $('#SelectVersion').prop("disabled", true);
             var selectedOption = $('#SelectVersion option:selected');
             selectedVersion = selectedOption.closest('optgroup').attr('label');
             selectedArch = selectedOption.val();
@@ -74,6 +77,9 @@
                 if (searchType === 'info') {
                     alert("All .info files will be searched. This search takes a long time.");
                     $('#TCZList').empty();
+                    $('#SearchType').prop("disabled", true);
+                    $('#InputSearchTerm').prop("disabled", true);
+                    $('#SelectVersion').prop("disabled", true);
                     await DeepInfoSearch(searchTerm);
                 }
             }
@@ -86,6 +92,11 @@
             data.split('\n').forEach(line => {
                 $('#TCZList').append($('<option>', { text: line }));
             });
+            $('#SearchType').show();
+            $('#InputSearchTerm').show();
+            $('#SearchType').prop("disabled", false);
+            $('#InputSearchTerm').prop("disabled", false);
+            $('#SelectVersion').prop("disabled", false);
         }
     
         async function DeepInfoSearch(searchTerm) {
@@ -100,6 +111,9 @@
                     $('#TCZList').append($('<option>', { text: fileName }));
                 }
             }
+            $('#SearchType').prop("disabled", false);
+            $('#InputSearchTerm').prop("disabled", false);
+            $('#SelectVersion').prop("disabled", false);
         }
     
         $.get('https://raw.githubusercontent.com/CardealRusso/tinycore-online-repo/main/site-data/versions', function (data) {
@@ -113,6 +127,7 @@
                     )
                 );
             });
+            $('#SelectVersion').show();
         });
     });
 </script>
