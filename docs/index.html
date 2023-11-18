@@ -18,7 +18,10 @@
             </select>
         </td>
         <td>
-            <input hidden id="InputSearchTerm"></input>
+            <input hidden id="InputSearchTerm"></input> <a id=StatusInfo></a>
+        </td>
+        <td>
+            <a id=StatusInfo></a>
         </td>
     </tr>
 </table>
@@ -51,6 +54,7 @@
     
         $('#TCZList').change(async function () {
             var selectedItem = $('#TCZList option:selected').text();
+            $('#StatusInfo').text(`Getting ${selectedItem}.info...`);
             var infoUrl = `https://raw.githubusercontent.com/CardealRusso/tinycore-online-repo/main/tinycorelinux/${selectedVersion}/${selectedArch}/tcz/${selectedItem}.info`;
     
             var infoData = await $.get(infoUrl);
@@ -58,6 +62,7 @@
     
             $('#InfoList').html(formattedInfo);
             $('#InfoList').show();
+            $('#StatusInfo').text("");
         });
     
         $('#InputSearchTerm').keypress(async function (event) {
@@ -75,7 +80,6 @@
                 }
     
                 if (searchType === 'info') {
-                    alert("All .info files will be searched. This search takes a long time.");
                     $('#TCZList').empty();
                     $('#SearchType').prop("disabled", true);
                     $('#InputSearchTerm').prop("disabled", true);
@@ -86,6 +90,7 @@
         });
     
         async function loadTczList() {
+            $('#StatusInfo').text(`Getting list of tcz for ${selectedVersion}/${selectedArch}...`);
             var data = await $.get(`https://raw.githubusercontent.com/CardealRusso/tinycore-online-repo/main/data/${selectedVersion}/${selectedArch}/tczlist`);
     
             $('#TCZList').empty();
@@ -97,14 +102,20 @@
             $('#SearchType').prop("disabled", false);
             $('#InputSearchTerm').prop("disabled", false);
             $('#SelectVersion').prop("disabled", false);
+            $('#StatusInfo').text("");
         }
     
         async function DeepInfoSearch(searchTerm) {
+            $('#StatusInfo').text(`Getting list of tcz for ${selectedVersion}/${selectedArch}...`);
             var data = await $.get(`https://raw.githubusercontent.com/CardealRusso/tinycore-online-repo/main/data/${selectedVersion}/${selectedArch}/tczlist`);
             var lines = data.split('\n');
-    
+            var totalItems = lines.length;
+            var i = 0;
+            
             for (const line of lines) {
                 var fileName = line.trim();
+                i++;
+                $('#StatusInfo').text(`${i + 1}/${totalItems}: ${fileName}.info`);
                 var infoData = await $.get(`https://raw.githubusercontent.com/CardealRusso/tinycore-online-repo/main/tinycorelinux/${selectedVersion}/${selectedArch}/tcz/${fileName}.info`);
     
                 if (infoData.toLowerCase().includes(searchTerm)) {
@@ -114,8 +125,10 @@
             $('#SearchType').prop("disabled", false);
             $('#InputSearchTerm').prop("disabled", false);
             $('#SelectVersion').prop("disabled", false);
+            $('#StatusInfo').text("");
         }
-    
+
+        $('#StatusInfo').text("Getting version list...");
         $.get('https://raw.githubusercontent.com/CardealRusso/tinycore-online-repo/main/site-data/versions', function (data) {
             var jsonString = data.replace(/,\s*([\]}])/g, '$1');
             var parsedData = JSON.parse(jsonString);
@@ -123,11 +136,12 @@
             Object.keys(parsedData).sort((a, b) => parseInt(b) - parseInt(a)).forEach(version => {
                 $('#SelectVersion').append(
                     $('<optgroup>', { label: version }).append(
-                        parsedData[version].map(value => $('<option>', { value: value, text: value }))
+                        parsedData[version].map(value => $('<option>', { text: value }))
                     )
                 );
             });
             $('#SelectVersion').show();
+            $('#StatusInfo').text("");
         });
     });
 </script>
