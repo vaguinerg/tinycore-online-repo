@@ -115,7 +115,7 @@
             for (const line of lines) {
                 var fileName = line.trim();
                 i++;
-                $('#StatusInfo').text(`${i + 1}/${totalItems}: ${fileName}.info`);
+                $('#StatusInfo').text(`${i}/${totalItems}: ${fileName}.info`);
                 var infoData = await $.get(`https://raw.githubusercontent.com/CardealRusso/tinycore-online-repo/main/tinycorelinux/${selectedVersion}/${selectedArch}/tcz/${fileName}.info`);
     
                 if (infoData.toLowerCase().includes(searchTerm)) {
