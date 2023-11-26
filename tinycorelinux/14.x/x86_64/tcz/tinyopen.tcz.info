@@ -1,10 +1,10 @@
 Title:          tinyopen.tcz
 Description:    manage filetype associations by editing a simple text file 
-Version:        5.0
+Version:        6.0
 Author:         Bruno "GNUser" Dantas
-Original-site:  https://gitlab.com/GNUser/tinyopen
+Original-site:  n/a
 Copying-policy: GPLv3
-Size:		20K
+Size:		24K
 Extension_by:   gnuser
 Tags:	        filetype associations mime xdg-open xdg-utils
 Comments:       - After loading this extension, well-behaved applications (i.e.,
@@ -14,9 +14,9 @@ Comments:       - After loading this extension, well-behaved applications (i.e.,
                   maintain their own list of filetype associations--larger 
                   applications such as web browsers and file managers usually
                   fall into this category) to also use tinyopen, you need to go
-                  into the application settings and associate every filetype 
-                  with /usr/local/bin/tinyopen; how to do this depends on the 
-                  application, but it usually goes something like this:
+                  into the application's settings and tell it to use tinyopen
+                  to open all filetypes; how to do this varies between
+                  applications, but it usually goes something like this:
                   Edit -> Preferences -> Filetype Associations
                 - The file that contains all your filetype associations and
                   controls tinyopen is ~/.config/tinyopen.conf
@@ -28,7 +28,8 @@ Comments:       - After loading this extension, well-behaved applications (i.e.,
                   loading xdg-utils.tcz
                 - To troubleshoot, run this command in a terminal and watch its
                   output as you open various files: $ tail -f /tmp/tinyopen.log
-Change-log:	2020/12/02 first version for tcl-11.x
-		2021/05/14 version bump 4.0 -> 5.0
-		2021/10/17 minor adjustments for better http/https link handling
-Current:	2022/03/15 miscellaneous additions to mimeapps.list
+Change-log:     2020/12/02 first version for tcl-11.x
+                2021/05/14 version bump 4.0 -> 5.0
+                2021/10/17 minor adjustments for better http/https link handling
+                2022/03/15 miscellaneous additions to mimeapps.list
+Current:        2023/11/15 updated 5.0 -> 6.0

@@ -1,6 +1,6 @@
 Title:          sfwbar.tcz
 Description:    flexible taskbar application for wayland compositors
-Version:        1.0_beta13
+Version:        git-22f089d (24Nov2023)
 Author:         see list of sites below
 Original-site:  see list of sites below
 Copying-policy: see list of sites below
@@ -14,12 +14,10 @@ Comments:       ----------
                 customize ~/.config/sfwbar/sfwbar.config if desired
                 $ sfwbar &
                 ----------
-                notes:
-                * I use sfwbar with labwc and they work perfectly together
-                * sfwbar works with any compositor that supports layer shell protocol
+                note: sfwbar works with any compositor that supports layer shell protocol (e.g., labwc)
                 ----------
                 This extension contains:
-                sfwbar-1.0_beta13 - GPLv3 - https://github.com/LBCrion/sfwbar/archive/refs/tags/v1.0_beta13.tar.gz
+                sfwbar - GPLv3 - https://github.com/LBCrion/sfwbar/archive/refs/heads/main.zip
                 ----------
-Change-log:     ----------
-Current:        2023/10/25 first version
+Change-log:     2023/10/25 first version
+Current:        2023/11/24 updated 1.0_beta13 -> git-22f089d
