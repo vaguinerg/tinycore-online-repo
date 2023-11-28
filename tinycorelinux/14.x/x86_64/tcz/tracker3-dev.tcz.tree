@@ -3,7 +3,7 @@ tracker3-dev.tcz
       json-glib.tcz
          glib2.tcz
             libffi.tcz
-            pcre.tcz
+            pcre21042.tcz
       icu70.tcz
       libstemmer.tcz
       libxml2.tcz
@@ -13,13 +13,13 @@ tracker3-dev.tcz
       json-glib.tcz
          glib2.tcz
             libffi.tcz
-            pcre.tcz
+            pcre21042.tcz
       glib2-dev.tcz
          glib2-python.tcz
             glib2.tcz
                libffi.tcz
-               pcre.tcz
-            python3.6.tcz
+               pcre21042.tcz
+            python3.9.tcz
                openssl-1.1.1.tcz
                sqlite3.tcz
                gdbm.tcz
@@ -28,8 +28,8 @@ tracker3-dev.tcz
                readline.tcz
                   ncursesw.tcz
                libffi.tcz
-         pcre-dev.tcz
-            pcre.tcz
+         pcre21042-dev.tcz
+            pcre21042.tcz
             bzip2-dev.tcz
                bzip2.tcz
                   bzip2-lib.tcz
@@ -40,9 +40,6 @@ tracker3-dev.tcz
                   ncursesw.tcz
          libffi-dev.tcz
             libffi.tcz
-   icu70-dev.tcz
-      icu70-bin.tcz
-         icu70.tcz
    libstemmer-dev.tcz
       libstemmer.tcz
    libxml2-dev.tcz
@@ -52,7 +49,7 @@ tracker3-dev.tcz
       libxml2-python.tcz
          libxml2.tcz
             liblzma.tcz
-         python3.6.tcz
+         python3.9.tcz
             openssl-1.1.1.tcz
             sqlite3.tcz
             gdbm.tcz

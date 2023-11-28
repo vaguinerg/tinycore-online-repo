@@ -2,7 +2,7 @@ gnome-system-monitor.tcz
    libgtop.tcz
       glib2.tcz
          libffi.tcz
-         pcre.tcz
+         pcre21042.tcz
    gtkmm.tcz
       gtk3.tcz
          libepoxy.tcz
@@ -17,7 +17,7 @@ gnome-system-monitor.tcz
                         attr.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
                libICE.tcz
                libSM.tcz
                libX11.tcz
@@ -27,7 +27,7 @@ gnome-system-monitor.tcz
             atk.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
          gdk-pixbuf2.tcz
             libtiff.tcz
                libjpeg-turbo.tcz
@@ -41,7 +41,7 @@ gnome-system-monitor.tcz
             shared-mime-info.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
                libxml2.tcz
                   liblzma.tcz
          libXcomposite.tcz
@@ -53,7 +53,7 @@ gnome-system-monitor.tcz
             cairo.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
                fontconfig.tcz
                   expat2.tcz
                   freetype.tcz
@@ -61,7 +61,7 @@ gnome-system-monitor.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                pixman.tcz
@@ -125,7 +125,7 @@ gnome-system-monitor.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                freetype.tcz
@@ -133,7 +133,7 @@ gnome-system-monitor.tcz
                   harfbuzz.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
+                        pcre21042.tcz
                      graphite.tcz
                   bzip2-lib.tcz
                libXrender.tcz
@@ -144,7 +144,7 @@ gnome-system-monitor.tcz
             fribidi.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
          libXcursor.tcz
             libXrender.tcz
                libX11.tcz
@@ -194,18 +194,18 @@ gnome-system-monitor.tcz
          atk.tcz
             glib2.tcz
                libffi.tcz
-               pcre.tcz
+               pcre21042.tcz
          glibmm.tcz
             libsigc++.tcz
             glib2.tcz
                libffi.tcz
-               pcre.tcz
+               pcre21042.tcz
       pangomm.tcz
          pango.tcz
             cairo.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
                fontconfig.tcz
                   expat2.tcz
                   freetype.tcz
@@ -213,7 +213,7 @@ gnome-system-monitor.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                pixman.tcz
@@ -277,7 +277,7 @@ gnome-system-monitor.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                freetype.tcz
@@ -285,7 +285,7 @@ gnome-system-monitor.tcz
                   harfbuzz.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
+                        pcre21042.tcz
                      graphite.tcz
                   bzip2-lib.tcz
                libXrender.tcz
@@ -296,12 +296,12 @@ gnome-system-monitor.tcz
             fribidi.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
          cairomm.tcz
             cairo.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
                fontconfig.tcz
                   expat2.tcz
                   freetype.tcz
@@ -309,7 +309,7 @@ gnome-system-monitor.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                pixman.tcz
@@ -370,7 +370,7 @@ gnome-system-monitor.tcz
             libsigc++.tcz
             glib2.tcz
                libffi.tcz
-               pcre.tcz
+               pcre21042.tcz
    adwaita-icon-theme.tcz
       gtk-update-icon-cache.tcz
          gdk-pixbuf2.tcz
@@ -386,7 +386,7 @@ gnome-system-monitor.tcz
             shared-mime-info.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
                libxml2.tcz
                   liblzma.tcz
          librsvg.tcz
@@ -394,7 +394,7 @@ gnome-system-monitor.tcz
                cairo.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
                   fontconfig.tcz
                      expat2.tcz
                      freetype.tcz
@@ -402,7 +402,7 @@ gnome-system-monitor.tcz
                         harfbuzz.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            graphite.tcz
                         bzip2-lib.tcz
                   pixman.tcz
@@ -466,7 +466,7 @@ gnome-system-monitor.tcz
                         harfbuzz.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            graphite.tcz
                         bzip2-lib.tcz
                   freetype.tcz
@@ -474,7 +474,7 @@ gnome-system-monitor.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                   libXrender.tcz
@@ -485,7 +485,7 @@ gnome-system-monitor.tcz
                fribidi.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
             gdk-pixbuf2.tcz
                libtiff.tcz
                   libjpeg-turbo.tcz
@@ -499,7 +499,7 @@ gnome-system-monitor.tcz
                shared-mime-info.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
                   libxml2.tcz
                      liblzma.tcz
          hicolor-icon-theme.tcz
@@ -508,7 +508,7 @@ gnome-system-monitor.tcz
          cairo.tcz
             glib2.tcz
                libffi.tcz
-               pcre.tcz
+               pcre21042.tcz
             fontconfig.tcz
                expat2.tcz
                freetype.tcz
@@ -516,7 +516,7 @@ gnome-system-monitor.tcz
                   harfbuzz.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
+                        pcre21042.tcz
                      graphite.tcz
                   bzip2-lib.tcz
             pixman.tcz
@@ -580,7 +580,7 @@ gnome-system-monitor.tcz
                   harfbuzz.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
+                        pcre21042.tcz
                      graphite.tcz
                   bzip2-lib.tcz
             freetype.tcz
@@ -588,7 +588,7 @@ gnome-system-monitor.tcz
                harfbuzz.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
                   graphite.tcz
                bzip2-lib.tcz
             libXrender.tcz
@@ -599,7 +599,7 @@ gnome-system-monitor.tcz
          fribidi.tcz
             glib2.tcz
                libffi.tcz
-               pcre.tcz
+               pcre21042.tcz
       gdk-pixbuf2.tcz
          libtiff.tcz
             libjpeg-turbo.tcz
@@ -613,7 +613,7 @@ gnome-system-monitor.tcz
          shared-mime-info.tcz
             glib2.tcz
                libffi.tcz
-               pcre.tcz
+               pcre21042.tcz
             libxml2.tcz
                liblzma.tcz
    dconf.tcz
@@ -630,7 +630,7 @@ gnome-system-monitor.tcz
                         attr.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
                libICE.tcz
                libSM.tcz
                libX11.tcz
@@ -640,7 +640,7 @@ gnome-system-monitor.tcz
             atk.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
          gdk-pixbuf2.tcz
             libtiff.tcz
                libjpeg-turbo.tcz
@@ -654,7 +654,7 @@ gnome-system-monitor.tcz
             shared-mime-info.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
                libxml2.tcz
                   liblzma.tcz
          libXcomposite.tcz
@@ -666,7 +666,7 @@ gnome-system-monitor.tcz
             cairo.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
                fontconfig.tcz
                   expat2.tcz
                   freetype.tcz
@@ -674,7 +674,7 @@ gnome-system-monitor.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                pixman.tcz
@@ -738,7 +738,7 @@ gnome-system-monitor.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                freetype.tcz
@@ -746,7 +746,7 @@ gnome-system-monitor.tcz
                   harfbuzz.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
+                        pcre21042.tcz
                      graphite.tcz
                   bzip2-lib.tcz
                libXrender.tcz
@@ -757,7 +757,7 @@ gnome-system-monitor.tcz
             fribidi.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
          libXcursor.tcz
             libXrender.tcz
                libX11.tcz
@@ -817,7 +817,7 @@ gnome-system-monitor.tcz
                         attr.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
                libICE.tcz
                libSM.tcz
                libX11.tcz
@@ -827,7 +827,7 @@ gnome-system-monitor.tcz
             atk.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
          gdk-pixbuf2.tcz
             libtiff.tcz
                libjpeg-turbo.tcz
@@ -841,7 +841,7 @@ gnome-system-monitor.tcz
             shared-mime-info.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
                libxml2.tcz
                   liblzma.tcz
          libXcomposite.tcz
@@ -853,7 +853,7 @@ gnome-system-monitor.tcz
             cairo.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
                fontconfig.tcz
                   expat2.tcz
                   freetype.tcz
@@ -861,7 +861,7 @@ gnome-system-monitor.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                pixman.tcz
@@ -925,7 +925,7 @@ gnome-system-monitor.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                freetype.tcz
@@ -933,7 +933,7 @@ gnome-system-monitor.tcz
                   harfbuzz.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
+                        pcre21042.tcz
                      graphite.tcz
                   bzip2-lib.tcz
                libXrender.tcz
@@ -944,7 +944,7 @@ gnome-system-monitor.tcz
             fribidi.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
          libXcursor.tcz
             libXrender.tcz
                libX11.tcz

@@ -14,7 +14,7 @@ deadbeef-dev.tcz
             attr.tcz
          glib2.tcz
             libffi.tcz
-            pcre.tcz
+            pcre21042.tcz
          libsndfile.tcz
             flac.tcz
                libogg.tcz
@@ -40,7 +40,7 @@ deadbeef-dev.tcz
             harfbuzz.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
                graphite.tcz
             bzip2-lib.tcz
          libjpeg-turbo.tcz
@@ -67,7 +67,7 @@ deadbeef-dev.tcz
                shared-mime-info.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
                   libxml2.tcz
                      liblzma.tcz
             librsvg.tcz
@@ -75,7 +75,7 @@ deadbeef-dev.tcz
                   cairo.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
+                        pcre21042.tcz
                      fontconfig.tcz
                         expat2.tcz
                         freetype.tcz
@@ -83,7 +83,7 @@ deadbeef-dev.tcz
                            harfbuzz.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
+                                 pcre21042.tcz
                               graphite.tcz
                            bzip2-lib.tcz
                      pixman.tcz
@@ -147,7 +147,7 @@ deadbeef-dev.tcz
                            harfbuzz.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
+                                 pcre21042.tcz
                               graphite.tcz
                            bzip2-lib.tcz
                      freetype.tcz
@@ -155,7 +155,7 @@ deadbeef-dev.tcz
                         harfbuzz.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            graphite.tcz
                         bzip2-lib.tcz
                      libXrender.tcz
@@ -166,7 +166,7 @@ deadbeef-dev.tcz
                   fribidi.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
+                        pcre21042.tcz
                gdk-pixbuf2.tcz
                   libtiff.tcz
                      libjpeg-turbo.tcz
@@ -180,7 +180,7 @@ deadbeef-dev.tcz
                   shared-mime-info.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
+                        pcre21042.tcz
                      libxml2.tcz
                         liblzma.tcz
             hicolor-icon-theme.tcz
@@ -199,7 +199,7 @@ deadbeef-dev.tcz
                         attr.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
                libICE.tcz
                libSM.tcz
                libX11.tcz
@@ -209,7 +209,7 @@ deadbeef-dev.tcz
             atk.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
          gdk-pixbuf2.tcz
             libtiff.tcz
                libjpeg-turbo.tcz
@@ -223,7 +223,7 @@ deadbeef-dev.tcz
             shared-mime-info.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
                libxml2.tcz
                   liblzma.tcz
          libXcomposite.tcz
@@ -235,7 +235,7 @@ deadbeef-dev.tcz
             cairo.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
                fontconfig.tcz
                   expat2.tcz
                   freetype.tcz
@@ -243,7 +243,7 @@ deadbeef-dev.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                pixman.tcz
@@ -307,7 +307,7 @@ deadbeef-dev.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                freetype.tcz
@@ -315,7 +315,7 @@ deadbeef-dev.tcz
                   harfbuzz.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
+                        pcre21042.tcz
                      graphite.tcz
                   bzip2-lib.tcz
                libXrender.tcz
@@ -326,7 +326,7 @@ deadbeef-dev.tcz
             fribidi.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
          libXcursor.tcz
             libXrender.tcz
                libX11.tcz
@@ -386,15 +386,15 @@ deadbeef-dev.tcz
             shared-mime-info.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
                libxml2.tcz
                   liblzma.tcz
          glib2-dev.tcz
             glib2-python.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
-               python3.6.tcz
+                  pcre21042.tcz
+               python3.9.tcz
                   openssl-1.1.1.tcz
                   sqlite3.tcz
                   gdbm.tcz
@@ -403,8 +403,8 @@ deadbeef-dev.tcz
                   readline.tcz
                      ncursesw.tcz
                   libffi.tcz
-            pcre-dev.tcz
-               pcre.tcz
+            pcre21042-dev.tcz
+               pcre21042.tcz
                bzip2-dev.tcz
                   bzip2.tcz
                      bzip2-lib.tcz
@@ -774,7 +774,7 @@ deadbeef-dev.tcz
                         attr.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
                libICE.tcz
                libSM.tcz
                libX11.tcz
@@ -784,7 +784,7 @@ deadbeef-dev.tcz
             atk.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
          at-spi2-core-dev.tcz
             at-spi2-core.tcz
                dbus.tcz
@@ -796,7 +796,7 @@ deadbeef-dev.tcz
                         attr.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
                libICE.tcz
                libSM.tcz
                libX11.tcz
@@ -1026,7 +1026,7 @@ deadbeef-dev.tcz
                            harfbuzz.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
+                                 pcre21042.tcz
                               graphite.tcz
                            bzip2-lib.tcz
                         libfontenc.tcz
@@ -1036,7 +1036,7 @@ deadbeef-dev.tcz
                            harfbuzz.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
+                                 pcre21042.tcz
                               graphite.tcz
                            bzip2-lib.tcz
                         libpng-dev.tcz
@@ -1047,14 +1047,14 @@ deadbeef-dev.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                            glib2-dev.tcz
                               glib2-python.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
-                                 python3.6.tcz
+                                    pcre21042.tcz
+                                 python3.9.tcz
                                     openssl-1.1.1.tcz
                                     sqlite3.tcz
                                     gdbm.tcz
@@ -1063,8 +1063,8 @@ deadbeef-dev.tcz
                                     readline.tcz
                                        ncursesw.tcz
                                     libffi.tcz
-                              pcre-dev.tcz
-                                 pcre.tcz
+                              pcre21042-dev.tcz
+                                 pcre21042.tcz
                                  bzip2-dev.tcz
                                     bzip2.tcz
                                        bzip2-lib.tcz
@@ -1091,7 +1091,7 @@ deadbeef-dev.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                               bzip2-lib.tcz
                         freetype.tcz
@@ -1099,7 +1099,7 @@ deadbeef-dev.tcz
                            harfbuzz.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
+                                 pcre21042.tcz
                               graphite.tcz
                            bzip2-lib.tcz
                         libXrender.tcz
@@ -1115,7 +1115,7 @@ deadbeef-dev.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                               bzip2-lib.tcz
                         expat2-dev.tcz
@@ -1126,7 +1126,7 @@ deadbeef-dev.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                               bzip2-lib.tcz
                            libpng-dev.tcz
@@ -1137,14 +1137,14 @@ deadbeef-dev.tcz
                                  harfbuzz.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
+                                       pcre21042.tcz
                                     graphite.tcz
                               glib2-dev.tcz
                                  glib2-python.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
-                                    python3.6.tcz
+                                       pcre21042.tcz
+                                    python3.9.tcz
                                        openssl-1.1.1.tcz
                                        sqlite3.tcz
                                        gdbm.tcz
@@ -1153,8 +1153,8 @@ deadbeef-dev.tcz
                                        readline.tcz
                                           ncursesw.tcz
                                        libffi.tcz
-                                 pcre-dev.tcz
-                                    pcre.tcz
+                                 pcre21042-dev.tcz
+                                    pcre21042.tcz
                                     bzip2-dev.tcz
                                        bzip2.tcz
                                           bzip2-lib.tcz
@@ -1176,7 +1176,7 @@ deadbeef-dev.tcz
                            harfbuzz.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
+                                 pcre21042.tcz
                               graphite.tcz
                            bzip2-lib.tcz
                         libpng-dev.tcz
@@ -1187,14 +1187,14 @@ deadbeef-dev.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                            glib2-dev.tcz
                               glib2-python.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
-                                 python3.6.tcz
+                                    pcre21042.tcz
+                                 python3.9.tcz
                                     openssl-1.1.1.tcz
                                     sqlite3.tcz
                                     gdbm.tcz
@@ -1203,8 +1203,8 @@ deadbeef-dev.tcz
                                     readline.tcz
                                        ncursesw.tcz
                                     libffi.tcz
-                              pcre-dev.tcz
-                                 pcre.tcz
+                              pcre21042-dev.tcz
+                                 pcre21042.tcz
                                  bzip2-dev.tcz
                                     bzip2.tcz
                                        bzip2-lib.tcz
@@ -1549,7 +1549,7 @@ deadbeef-dev.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                               bzip2-lib.tcz
                            libfontenc.tcz
@@ -1689,7 +1689,7 @@ deadbeef-dev.tcz
                               libxml2-python.tcz
                                  libxml2.tcz
                                     liblzma.tcz
-                                 python3.6.tcz
+                                 python3.9.tcz
                                     openssl-1.1.1.tcz
                                     sqlite3.tcz
                                     gdbm.tcz
@@ -1707,7 +1707,7 @@ deadbeef-dev.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                               bzip2-lib.tcz
                            libfontenc.tcz
@@ -1717,7 +1717,7 @@ deadbeef-dev.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                               bzip2-lib.tcz
                            libpng-dev.tcz
@@ -1728,14 +1728,14 @@ deadbeef-dev.tcz
                                  harfbuzz.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
+                                       pcre21042.tcz
                                     graphite.tcz
                               glib2-dev.tcz
                                  glib2-python.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
-                                    python3.6.tcz
+                                       pcre21042.tcz
+                                    python3.9.tcz
                                        openssl-1.1.1.tcz
                                        sqlite3.tcz
                                        gdbm.tcz
@@ -1744,8 +1744,8 @@ deadbeef-dev.tcz
                                        readline.tcz
                                           ncursesw.tcz
                                        libffi.tcz
-                                 pcre-dev.tcz
-                                    pcre.tcz
+                                 pcre21042-dev.tcz
+                                    pcre21042.tcz
                                     bzip2-dev.tcz
                                        bzip2.tcz
                                           bzip2-lib.tcz
@@ -1798,8 +1798,8 @@ deadbeef-dev.tcz
                glib2-python.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
-                  python3.6.tcz
+                     pcre21042.tcz
+                  python3.9.tcz
                      openssl-1.1.1.tcz
                      sqlite3.tcz
                      gdbm.tcz
@@ -1808,8 +1808,8 @@ deadbeef-dev.tcz
                      readline.tcz
                         ncursesw.tcz
                      libffi.tcz
-               pcre-dev.tcz
-                  pcre.tcz
+               pcre21042-dev.tcz
+                  pcre21042.tcz
                   bzip2-dev.tcz
                      bzip2.tcz
                         bzip2-lib.tcz
@@ -2035,7 +2035,7 @@ deadbeef-dev.tcz
                         harfbuzz.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            graphite.tcz
                         bzip2-lib.tcz
                      libfontenc.tcz
@@ -2045,7 +2045,7 @@ deadbeef-dev.tcz
                         harfbuzz.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            graphite.tcz
                         bzip2-lib.tcz
                      libpng-dev.tcz
@@ -2056,14 +2056,14 @@ deadbeef-dev.tcz
                            harfbuzz.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
+                                 pcre21042.tcz
                               graphite.tcz
                         glib2-dev.tcz
                            glib2-python.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
-                              python3.6.tcz
+                                 pcre21042.tcz
+                              python3.9.tcz
                                  openssl-1.1.1.tcz
                                  sqlite3.tcz
                                  gdbm.tcz
@@ -2072,8 +2072,8 @@ deadbeef-dev.tcz
                                  readline.tcz
                                     ncursesw.tcz
                                  libffi.tcz
-                           pcre-dev.tcz
-                              pcre.tcz
+                           pcre21042-dev.tcz
+                              pcre21042.tcz
                               bzip2-dev.tcz
                                  bzip2.tcz
                                     bzip2-lib.tcz
@@ -2100,7 +2100,7 @@ deadbeef-dev.tcz
                            harfbuzz.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
+                                 pcre21042.tcz
                               graphite.tcz
                            bzip2-lib.tcz
                      freetype.tcz
@@ -2108,7 +2108,7 @@ deadbeef-dev.tcz
                         harfbuzz.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            graphite.tcz
                         bzip2-lib.tcz
                      libXrender.tcz
@@ -2124,7 +2124,7 @@ deadbeef-dev.tcz
                            harfbuzz.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
+                                 pcre21042.tcz
                               graphite.tcz
                            bzip2-lib.tcz
                      expat2-dev.tcz
@@ -2135,7 +2135,7 @@ deadbeef-dev.tcz
                            harfbuzz.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
+                                 pcre21042.tcz
                               graphite.tcz
                            bzip2-lib.tcz
                         libpng-dev.tcz
@@ -2146,14 +2146,14 @@ deadbeef-dev.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                            glib2-dev.tcz
                               glib2-python.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
-                                 python3.6.tcz
+                                    pcre21042.tcz
+                                 python3.9.tcz
                                     openssl-1.1.1.tcz
                                     sqlite3.tcz
                                     gdbm.tcz
@@ -2162,8 +2162,8 @@ deadbeef-dev.tcz
                                     readline.tcz
                                        ncursesw.tcz
                                     libffi.tcz
-                              pcre-dev.tcz
-                                 pcre.tcz
+                              pcre21042-dev.tcz
+                                 pcre21042.tcz
                                  bzip2-dev.tcz
                                     bzip2.tcz
                                        bzip2-lib.tcz
@@ -2185,7 +2185,7 @@ deadbeef-dev.tcz
                         harfbuzz.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            graphite.tcz
                         bzip2-lib.tcz
                      libpng-dev.tcz
@@ -2196,14 +2196,14 @@ deadbeef-dev.tcz
                            harfbuzz.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
+                                 pcre21042.tcz
                               graphite.tcz
                         glib2-dev.tcz
                            glib2-python.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
-                              python3.6.tcz
+                                 pcre21042.tcz
+                              python3.9.tcz
                                  openssl-1.1.1.tcz
                                  sqlite3.tcz
                                  gdbm.tcz
@@ -2212,8 +2212,8 @@ deadbeef-dev.tcz
                                  readline.tcz
                                     ncursesw.tcz
                                  libffi.tcz
-                           pcre-dev.tcz
-                              pcre.tcz
+                           pcre21042-dev.tcz
+                              pcre21042.tcz
                               bzip2-dev.tcz
                                  bzip2.tcz
                                     bzip2-lib.tcz
@@ -2558,7 +2558,7 @@ deadbeef-dev.tcz
                            harfbuzz.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
+                                 pcre21042.tcz
                               graphite.tcz
                            bzip2-lib.tcz
                         libfontenc.tcz
@@ -2698,7 +2698,7 @@ deadbeef-dev.tcz
                            libxml2-python.tcz
                               libxml2.tcz
                                  liblzma.tcz
-                              python3.6.tcz
+                              python3.9.tcz
                                  openssl-1.1.1.tcz
                                  sqlite3.tcz
                                  gdbm.tcz
@@ -2716,7 +2716,7 @@ deadbeef-dev.tcz
                            harfbuzz.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
+                                 pcre21042.tcz
                               graphite.tcz
                            bzip2-lib.tcz
                         libfontenc.tcz
@@ -2726,7 +2726,7 @@ deadbeef-dev.tcz
                            harfbuzz.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
+                                 pcre21042.tcz
                               graphite.tcz
                            bzip2-lib.tcz
                         libpng-dev.tcz
@@ -2737,14 +2737,14 @@ deadbeef-dev.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                            glib2-dev.tcz
                               glib2-python.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
-                                 python3.6.tcz
+                                    pcre21042.tcz
+                                 python3.9.tcz
                                     openssl-1.1.1.tcz
                                     sqlite3.tcz
                                     gdbm.tcz
@@ -2753,8 +2753,8 @@ deadbeef-dev.tcz
                                     readline.tcz
                                        ncursesw.tcz
                                     libffi.tcz
-                              pcre-dev.tcz
-                                 pcre.tcz
+                              pcre21042-dev.tcz
+                                 pcre21042.tcz
                                  bzip2-dev.tcz
                                     bzip2.tcz
                                        bzip2-lib.tcz
@@ -2791,13 +2791,13 @@ deadbeef-dev.tcz
             atk.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
             glib2-dev.tcz
                glib2-python.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
-                  python3.6.tcz
+                     pcre21042.tcz
+                  python3.9.tcz
                      openssl-1.1.1.tcz
                      sqlite3.tcz
                      gdbm.tcz
@@ -2806,8 +2806,8 @@ deadbeef-dev.tcz
                      readline.tcz
                         ncursesw.tcz
                      libffi.tcz
-               pcre-dev.tcz
-                  pcre.tcz
+               pcre21042-dev.tcz
+                  pcre21042.tcz
                   bzip2-dev.tcz
                      bzip2.tcz
                         bzip2-lib.tcz
@@ -2823,7 +2823,7 @@ deadbeef-dev.tcz
             cairo.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
                fontconfig.tcz
                   expat2.tcz
                   freetype.tcz
@@ -2831,7 +2831,7 @@ deadbeef-dev.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                pixman.tcz
@@ -2895,7 +2895,7 @@ deadbeef-dev.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                freetype.tcz
@@ -2903,7 +2903,7 @@ deadbeef-dev.tcz
                   harfbuzz.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
+                        pcre21042.tcz
                      graphite.tcz
                   bzip2-lib.tcz
                libXrender.tcz
@@ -2914,12 +2914,12 @@ deadbeef-dev.tcz
             fribidi.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
          cairo-dev.tcz
             cairo.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
                fontconfig.tcz
                   expat2.tcz
                   freetype.tcz
@@ -2927,7 +2927,7 @@ deadbeef-dev.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                pixman.tcz
@@ -2987,8 +2987,8 @@ deadbeef-dev.tcz
                glib2-python.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
-                  python3.6.tcz
+                     pcre21042.tcz
+                  python3.9.tcz
                      openssl-1.1.1.tcz
                      sqlite3.tcz
                      gdbm.tcz
@@ -2997,8 +2997,8 @@ deadbeef-dev.tcz
                      readline.tcz
                         ncursesw.tcz
                      libffi.tcz
-               pcre-dev.tcz
-                  pcre.tcz
+               pcre21042-dev.tcz
+                  pcre21042.tcz
                   bzip2-dev.tcz
                      bzip2.tcz
                         bzip2-lib.tcz
@@ -3017,7 +3017,7 @@ deadbeef-dev.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                expat2-dev.tcz
@@ -3028,7 +3028,7 @@ deadbeef-dev.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                   libpng-dev.tcz
@@ -3039,14 +3039,14 @@ deadbeef-dev.tcz
                         harfbuzz.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            graphite.tcz
                      glib2-dev.tcz
                         glib2-python.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
-                           python3.6.tcz
+                              pcre21042.tcz
+                           python3.9.tcz
                               openssl-1.1.1.tcz
                               sqlite3.tcz
                               gdbm.tcz
@@ -3055,8 +3055,8 @@ deadbeef-dev.tcz
                               readline.tcz
                                  ncursesw.tcz
                               libffi.tcz
-                        pcre-dev.tcz
-                           pcre.tcz
+                        pcre21042-dev.tcz
+                           pcre21042.tcz
                            bzip2-dev.tcz
                               bzip2.tcz
                                  bzip2-lib.tcz
@@ -3088,7 +3088,7 @@ deadbeef-dev.tcz
                                  harfbuzz.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
+                                       pcre21042.tcz
                                     graphite.tcz
                                  bzip2-lib.tcz
                               libjpeg-turbo.tcz
@@ -3137,7 +3137,7 @@ deadbeef-dev.tcz
                                  harfbuzz.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
+                                       pcre21042.tcz
                                     graphite.tcz
                                  bzip2-lib.tcz
                               libjpeg-turbo.tcz
@@ -3208,7 +3208,7 @@ deadbeef-dev.tcz
                                  harfbuzz.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
+                                       pcre21042.tcz
                                     graphite.tcz
                                  bzip2-lib.tcz
                            freetype.tcz
@@ -3216,7 +3216,7 @@ deadbeef-dev.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                               bzip2-lib.tcz
                            libXrender.tcz
@@ -3308,7 +3308,7 @@ deadbeef-dev.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                               bzip2-lib.tcz
                            libfontenc.tcz
@@ -3320,7 +3320,7 @@ deadbeef-dev.tcz
                                  harfbuzz.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
+                                       pcre21042.tcz
                                     graphite.tcz
                                  bzip2-lib.tcz
                            freetype.tcz
@@ -3328,7 +3328,7 @@ deadbeef-dev.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                               bzip2-lib.tcz
                            libXrender.tcz
@@ -3407,7 +3407,7 @@ deadbeef-dev.tcz
                                  udev-lib.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                      xf86-video-fbdev.tcz
                      xf86-video-vesa.tcz
                      xkeyboard-config.tcz
@@ -3441,7 +3441,7 @@ deadbeef-dev.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                               bzip2-lib.tcz
                            libfontenc.tcz
@@ -3700,7 +3700,7 @@ deadbeef-dev.tcz
                            harfbuzz.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
+                                 pcre21042.tcz
                               graphite.tcz
                            bzip2-lib.tcz
                         libfontenc.tcz
@@ -3710,7 +3710,7 @@ deadbeef-dev.tcz
                            harfbuzz.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
+                                 pcre21042.tcz
                               graphite.tcz
                            bzip2-lib.tcz
                         libpng-dev.tcz
@@ -3721,14 +3721,14 @@ deadbeef-dev.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                            glib2-dev.tcz
                               glib2-python.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
-                                 python3.6.tcz
+                                    pcre21042.tcz
+                                 python3.9.tcz
                                     openssl-1.1.1.tcz
                                     sqlite3.tcz
                                     gdbm.tcz
@@ -3737,8 +3737,8 @@ deadbeef-dev.tcz
                                     readline.tcz
                                        ncursesw.tcz
                                     libffi.tcz
-                              pcre-dev.tcz
-                                 pcre.tcz
+                              pcre21042-dev.tcz
+                                 pcre21042.tcz
                                  bzip2-dev.tcz
                                     bzip2.tcz
                                        bzip2-lib.tcz
@@ -3765,7 +3765,7 @@ deadbeef-dev.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                               bzip2-lib.tcz
                         freetype.tcz
@@ -3773,7 +3773,7 @@ deadbeef-dev.tcz
                            harfbuzz.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
+                                 pcre21042.tcz
                               graphite.tcz
                            bzip2-lib.tcz
                         libXrender.tcz
@@ -3789,7 +3789,7 @@ deadbeef-dev.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                               bzip2-lib.tcz
                         expat2-dev.tcz
@@ -3800,7 +3800,7 @@ deadbeef-dev.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                               bzip2-lib.tcz
                            libpng-dev.tcz
@@ -3811,14 +3811,14 @@ deadbeef-dev.tcz
                                  harfbuzz.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
+                                       pcre21042.tcz
                                     graphite.tcz
                               glib2-dev.tcz
                                  glib2-python.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
-                                    python3.6.tcz
+                                       pcre21042.tcz
+                                    python3.9.tcz
                                        openssl-1.1.1.tcz
                                        sqlite3.tcz
                                        gdbm.tcz
@@ -3827,8 +3827,8 @@ deadbeef-dev.tcz
                                        readline.tcz
                                           ncursesw.tcz
                                        libffi.tcz
-                                 pcre-dev.tcz
-                                    pcre.tcz
+                                 pcre21042-dev.tcz
+                                    pcre21042.tcz
                                     bzip2-dev.tcz
                                        bzip2.tcz
                                           bzip2-lib.tcz
@@ -3850,7 +3850,7 @@ deadbeef-dev.tcz
                            harfbuzz.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
+                                 pcre21042.tcz
                               graphite.tcz
                            bzip2-lib.tcz
                         libpng-dev.tcz
@@ -3861,14 +3861,14 @@ deadbeef-dev.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                            glib2-dev.tcz
                               glib2-python.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
-                                 python3.6.tcz
+                                    pcre21042.tcz
+                                 python3.9.tcz
                                     openssl-1.1.1.tcz
                                     sqlite3.tcz
                                     gdbm.tcz
@@ -3877,8 +3877,8 @@ deadbeef-dev.tcz
                                     readline.tcz
                                        ncursesw.tcz
                                     libffi.tcz
-                              pcre-dev.tcz
-                                 pcre.tcz
+                              pcre21042-dev.tcz
+                                 pcre21042.tcz
                                  bzip2-dev.tcz
                                     bzip2.tcz
                                        bzip2-lib.tcz
@@ -4223,7 +4223,7 @@ deadbeef-dev.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                               bzip2-lib.tcz
                            libfontenc.tcz
@@ -4363,7 +4363,7 @@ deadbeef-dev.tcz
                               libxml2-python.tcz
                                  libxml2.tcz
                                     liblzma.tcz
-                                 python3.6.tcz
+                                 python3.9.tcz
                                     openssl-1.1.1.tcz
                                     sqlite3.tcz
                                     gdbm.tcz
@@ -4381,7 +4381,7 @@ deadbeef-dev.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                               bzip2-lib.tcz
                            libfontenc.tcz
@@ -4391,7 +4391,7 @@ deadbeef-dev.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                               bzip2-lib.tcz
                            libpng-dev.tcz
@@ -4402,14 +4402,14 @@ deadbeef-dev.tcz
                                  harfbuzz.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
+                                       pcre21042.tcz
                                     graphite.tcz
                               glib2-dev.tcz
                                  glib2-python.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
-                                    python3.6.tcz
+                                       pcre21042.tcz
+                                    python3.9.tcz
                                        openssl-1.1.1.tcz
                                        sqlite3.tcz
                                        gdbm.tcz
@@ -4418,8 +4418,8 @@ deadbeef-dev.tcz
                                        readline.tcz
                                           ncursesw.tcz
                                        libffi.tcz
-                                 pcre-dev.tcz
-                                    pcre.tcz
+                                 pcre21042-dev.tcz
+                                    pcre21042.tcz
                                     bzip2-dev.tcz
                                        bzip2.tcz
                                           bzip2-lib.tcz
@@ -4469,7 +4469,7 @@ deadbeef-dev.tcz
                      libxml2-python.tcz
                         libxml2.tcz
                            liblzma.tcz
-                        python3.6.tcz
+                        python3.9.tcz
                            openssl-1.1.1.tcz
                            sqlite3.tcz
                            gdbm.tcz
@@ -4651,13 +4651,13 @@ deadbeef-dev.tcz
             fribidi.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
             glib2-dev.tcz
                glib2-python.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
-                  python3.6.tcz
+                     pcre21042.tcz
+                  python3.9.tcz
                      openssl-1.1.1.tcz
                      sqlite3.tcz
                      gdbm.tcz
@@ -4666,8 +4666,8 @@ deadbeef-dev.tcz
                      readline.tcz
                         ncursesw.tcz
                      libffi.tcz
-               pcre-dev.tcz
-                  pcre.tcz
+               pcre21042-dev.tcz
+                  pcre21042.tcz
                   bzip2-dev.tcz
                      bzip2.tcz
                         bzip2-lib.tcz
@@ -4695,7 +4695,7 @@ deadbeef-dev.tcz
             libxml2-python.tcz
                libxml2.tcz
                   liblzma.tcz
-               python3.6.tcz
+               python3.9.tcz
                   openssl-1.1.1.tcz
                   sqlite3.tcz
                   gdbm.tcz
@@ -4712,7 +4712,7 @@ deadbeef-dev.tcz
                glib-networking.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
                   gnutls35.tcz
                      p11-kit.tcz
                         libffi.tcz
@@ -4734,7 +4734,7 @@ deadbeef-dev.tcz
                glib-networking.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
                   gnutls35.tcz
                      p11-kit.tcz
                         libffi.tcz
@@ -4758,7 +4758,7 @@ deadbeef-dev.tcz
                libxml2-python.tcz
                   libxml2.tcz
                      liblzma.tcz
-                  python3.6.tcz
+                  python3.9.tcz
                      openssl-1.1.1.tcz
                      sqlite3.tcz
                      gdbm.tcz
@@ -4800,7 +4800,7 @@ deadbeef-dev.tcz
                   udev-lib.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
             sqlite3.tcz
             libsane.tcz
                libusb.tcz
@@ -4817,7 +4817,7 @@ deadbeef-dev.tcz
                      gcc_libs.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
+                        pcre21042.tcz
                   gnutls35.tcz
                      p11-kit.tcz
                         libffi.tcz
@@ -4834,7 +4834,7 @@ deadbeef-dev.tcz
             polkit.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
                expat2.tcz
                js78.tcz
                   readline.tcz
@@ -5182,7 +5182,7 @@ deadbeef-dev.tcz
                   udev-lib.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
             libusb-dev.tcz
                libusb.tcz
                   udev-lib.tcz
@@ -5192,8 +5192,8 @@ deadbeef-dev.tcz
                glib2-python.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
-                  python3.6.tcz
+                     pcre21042.tcz
+                  python3.9.tcz
                      openssl-1.1.1.tcz
                      sqlite3.tcz
                      gdbm.tcz
@@ -5202,8 +5202,8 @@ deadbeef-dev.tcz
                      readline.tcz
                         ncursesw.tcz
                      libffi.tcz
-               pcre-dev.tcz
-                  pcre.tcz
+               pcre21042-dev.tcz
+                  pcre21042.tcz
                   bzip2-dev.tcz
                      bzip2.tcz
                         bzip2-lib.tcz
@@ -5240,7 +5240,7 @@ deadbeef-dev.tcz
                      gcc_libs.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
+                        pcre21042.tcz
                   gnutls35.tcz
                      p11-kit.tcz
                         libffi.tcz
@@ -5273,7 +5273,7 @@ deadbeef-dev.tcz
                         gcc_libs.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                      gnutls35.tcz
                         p11-kit.tcz
                            libffi.tcz
@@ -5296,7 +5296,7 @@ deadbeef-dev.tcz
                         cairo.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            fontconfig.tcz
                               expat2.tcz
                               freetype.tcz
@@ -5304,7 +5304,7 @@ deadbeef-dev.tcz
                                  harfbuzz.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
+                                       pcre21042.tcz
                                     graphite.tcz
                                  bzip2-lib.tcz
                            pixman.tcz
@@ -5396,7 +5396,7 @@ deadbeef-dev.tcz
                         gcc_libs.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                      nss-mdns.tcz
                      libdaemon.tcz
                   dbus-dev.tcz
@@ -5622,7 +5622,7 @@ deadbeef-dev.tcz
                                  harfbuzz.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
+                                       pcre21042.tcz
                                     graphite.tcz
                                  bzip2-lib.tcz
                               libfontenc.tcz
@@ -5632,7 +5632,7 @@ deadbeef-dev.tcz
                                  harfbuzz.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
+                                       pcre21042.tcz
                                     graphite.tcz
                                  bzip2-lib.tcz
                               libpng-dev.tcz
@@ -5643,14 +5643,14 @@ deadbeef-dev.tcz
                                     harfbuzz.tcz
                                        glib2.tcz
                                           libffi.tcz
-                                          pcre.tcz
+                                          pcre21042.tcz
                                        graphite.tcz
                                  glib2-dev.tcz
                                     glib2-python.tcz
                                        glib2.tcz
                                           libffi.tcz
-                                          pcre.tcz
-                                       python3.6.tcz
+                                          pcre21042.tcz
+                                       python3.9.tcz
                                           openssl-1.1.1.tcz
                                           sqlite3.tcz
                                           gdbm.tcz
@@ -5659,8 +5659,8 @@ deadbeef-dev.tcz
                                           readline.tcz
                                              ncursesw.tcz
                                           libffi.tcz
-                                    pcre-dev.tcz
-                                       pcre.tcz
+                                    pcre21042-dev.tcz
+                                       pcre21042.tcz
                                        bzip2-dev.tcz
                                           bzip2.tcz
                                              bzip2-lib.tcz
@@ -5687,7 +5687,7 @@ deadbeef-dev.tcz
                                     harfbuzz.tcz
                                        glib2.tcz
                                           libffi.tcz
-                                          pcre.tcz
+                                          pcre21042.tcz
                                        graphite.tcz
                                     bzip2-lib.tcz
                               freetype.tcz
@@ -5695,7 +5695,7 @@ deadbeef-dev.tcz
                                  harfbuzz.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
+                                       pcre21042.tcz
                                     graphite.tcz
                                  bzip2-lib.tcz
                               libXrender.tcz
@@ -5711,7 +5711,7 @@ deadbeef-dev.tcz
                                     harfbuzz.tcz
                                        glib2.tcz
                                           libffi.tcz
-                                          pcre.tcz
+                                          pcre21042.tcz
                                        graphite.tcz
                                     bzip2-lib.tcz
                               expat2-dev.tcz
@@ -5722,7 +5722,7 @@ deadbeef-dev.tcz
                                     harfbuzz.tcz
                                        glib2.tcz
                                           libffi.tcz
-                                          pcre.tcz
+                                          pcre21042.tcz
                                        graphite.tcz
                                     bzip2-lib.tcz
                                  libpng-dev.tcz
@@ -5733,14 +5733,14 @@ deadbeef-dev.tcz
                                        harfbuzz.tcz
                                           glib2.tcz
                                              libffi.tcz
-                                             pcre.tcz
+                                             pcre21042.tcz
                                           graphite.tcz
                                     glib2-dev.tcz
                                        glib2-python.tcz
                                           glib2.tcz
                                              libffi.tcz
-                                             pcre.tcz
-                                          python3.6.tcz
+                                             pcre21042.tcz
+                                          python3.9.tcz
                                              openssl-1.1.1.tcz
                                              sqlite3.tcz
                                              gdbm.tcz
@@ -5749,8 +5749,8 @@ deadbeef-dev.tcz
                                              readline.tcz
                                                 ncursesw.tcz
                                              libffi.tcz
-                                       pcre-dev.tcz
-                                          pcre.tcz
+                                       pcre21042-dev.tcz
+                                          pcre21042.tcz
                                           bzip2-dev.tcz
                                              bzip2.tcz
                                                 bzip2-lib.tcz
@@ -5772,7 +5772,7 @@ deadbeef-dev.tcz
                                  harfbuzz.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
+                                       pcre21042.tcz
                                     graphite.tcz
                                  bzip2-lib.tcz
                               libpng-dev.tcz
@@ -5783,14 +5783,14 @@ deadbeef-dev.tcz
                                     harfbuzz.tcz
                                        glib2.tcz
                                           libffi.tcz
-                                          pcre.tcz
+                                          pcre21042.tcz
                                        graphite.tcz
                                  glib2-dev.tcz
                                     glib2-python.tcz
                                        glib2.tcz
                                           libffi.tcz
-                                          pcre.tcz
-                                       python3.6.tcz
+                                          pcre21042.tcz
+                                       python3.9.tcz
                                           openssl-1.1.1.tcz
                                           sqlite3.tcz
                                           gdbm.tcz
@@ -5799,8 +5799,8 @@ deadbeef-dev.tcz
                                           readline.tcz
                                              ncursesw.tcz
                                           libffi.tcz
-                                    pcre-dev.tcz
-                                       pcre.tcz
+                                    pcre21042-dev.tcz
+                                       pcre21042.tcz
                                        bzip2-dev.tcz
                                           bzip2.tcz
                                              bzip2-lib.tcz
@@ -6145,7 +6145,7 @@ deadbeef-dev.tcz
                                     harfbuzz.tcz
                                        glib2.tcz
                                           libffi.tcz
-                                          pcre.tcz
+                                          pcre21042.tcz
                                        graphite.tcz
                                     bzip2-lib.tcz
                                  libfontenc.tcz
@@ -6285,7 +6285,7 @@ deadbeef-dev.tcz
                                     libxml2-python.tcz
                                        libxml2.tcz
                                           liblzma.tcz
-                                       python3.6.tcz
+                                       python3.9.tcz
                                           openssl-1.1.1.tcz
                                           sqlite3.tcz
                                           gdbm.tcz
@@ -6303,7 +6303,7 @@ deadbeef-dev.tcz
                                     harfbuzz.tcz
                                        glib2.tcz
                                           libffi.tcz
-                                          pcre.tcz
+                                          pcre21042.tcz
                                        graphite.tcz
                                     bzip2-lib.tcz
                                  libfontenc.tcz
@@ -6313,7 +6313,7 @@ deadbeef-dev.tcz
                                     harfbuzz.tcz
                                        glib2.tcz
                                           libffi.tcz
-                                          pcre.tcz
+                                          pcre21042.tcz
                                        graphite.tcz
                                     bzip2-lib.tcz
                                  libpng-dev.tcz
@@ -6324,14 +6324,14 @@ deadbeef-dev.tcz
                                        harfbuzz.tcz
                                           glib2.tcz
                                              libffi.tcz
-                                             pcre.tcz
+                                             pcre21042.tcz
                                           graphite.tcz
                                     glib2-dev.tcz
                                        glib2-python.tcz
                                           glib2.tcz
                                              libffi.tcz
-                                             pcre.tcz
-                                          python3.6.tcz
+                                             pcre21042.tcz
+                                          python3.9.tcz
                                              openssl-1.1.1.tcz
                                              sqlite3.tcz
                                              gdbm.tcz
@@ -6340,8 +6340,8 @@ deadbeef-dev.tcz
                                              readline.tcz
                                                 ncursesw.tcz
                                              libffi.tcz
-                                       pcre-dev.tcz
-                                          pcre.tcz
+                                       pcre21042-dev.tcz
+                                          pcre21042.tcz
                                           bzip2-dev.tcz
                                              bzip2.tcz
                                                 bzip2-lib.tcz
@@ -6396,8 +6396,8 @@ deadbeef-dev.tcz
                      glib2-python.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
-                        python3.6.tcz
+                           pcre21042.tcz
+                        python3.9.tcz
                            openssl-1.1.1.tcz
                            sqlite3.tcz
                            gdbm.tcz
@@ -6406,8 +6406,8 @@ deadbeef-dev.tcz
                            readline.tcz
                               ncursesw.tcz
                            libffi.tcz
-                     pcre-dev.tcz
-                        pcre.tcz
+                     pcre21042-dev.tcz
+                        pcre21042.tcz
                         bzip2-dev.tcz
                            bzip2.tcz
                               bzip2-lib.tcz
@@ -6781,7 +6781,7 @@ deadbeef-dev.tcz
             polkit.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
                expat2.tcz
                js78.tcz
                   readline.tcz
@@ -6799,8 +6799,8 @@ deadbeef-dev.tcz
                glib2-python.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
-                  python3.6.tcz
+                     pcre21042.tcz
+                  python3.9.tcz
                      openssl-1.1.1.tcz
                      sqlite3.tcz
                      gdbm.tcz
@@ -6809,8 +6809,8 @@ deadbeef-dev.tcz
                      readline.tcz
                         ncursesw.tcz
                      libffi.tcz
-               pcre-dev.tcz
-                  pcre.tcz
+               pcre21042-dev.tcz
+                  pcre21042.tcz
                   bzip2-dev.tcz
                      bzip2.tcz
                         bzip2-lib.tcz
@@ -6833,9 +6833,6 @@ deadbeef-dev.tcz
                      ncursesw.tcz
                   ncursesw-dev.tcz
                      ncursesw.tcz
-               icu67-dev.tcz
-                  icu67-bin.tcz
-                     icu67.tcz
             linux-pam-dev.tcz
                linux-pam.tcz
             elogind-dev.tcz
@@ -6858,13 +6855,13 @@ deadbeef-dev.tcz
          json-glib.tcz
             glib2.tcz
                libffi.tcz
-               pcre.tcz
+               pcre21042.tcz
          glib2-dev.tcz
             glib2-python.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
-               python3.6.tcz
+                  pcre21042.tcz
+               python3.9.tcz
                   openssl-1.1.1.tcz
                   sqlite3.tcz
                   gdbm.tcz
@@ -6873,8 +6870,8 @@ deadbeef-dev.tcz
                   readline.tcz
                      ncursesw.tcz
                   libffi.tcz
-            pcre-dev.tcz
-               pcre.tcz
+            pcre21042-dev.tcz
+               pcre21042.tcz
                bzip2-dev.tcz
                   bzip2.tcz
                      bzip2-lib.tcz
@@ -6919,7 +6916,7 @@ deadbeef-dev.tcz
                attr.tcz
             glib2.tcz
                libffi.tcz
-               pcre.tcz
+               pcre21042.tcz
             libsndfile.tcz
                flac.tcz
                   libogg.tcz
@@ -6955,7 +6952,7 @@ deadbeef-dev.tcz
             gcc_libs.tcz
             glib2.tcz
                libffi.tcz
-               pcre.tcz
+               pcre21042.tcz
       libcap-dev.tcz
          libcap.tcz
             attr.tcz
@@ -7014,7 +7011,7 @@ deadbeef-dev.tcz
                   icu70.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
                bluetooth-6.1.2-tinycore64.tcz
                sbc.tcz
                readline.tcz
@@ -7046,7 +7043,7 @@ deadbeef-dev.tcz
                            attr.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
                   libICE.tcz
                   libSM.tcz
                   libX11.tcz
@@ -7056,7 +7053,7 @@ deadbeef-dev.tcz
                atk.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
             gdk-pixbuf2.tcz
                libtiff.tcz
                   libjpeg-turbo.tcz
@@ -7070,7 +7067,7 @@ deadbeef-dev.tcz
                shared-mime-info.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
                   libxml2.tcz
                      liblzma.tcz
             libXcomposite.tcz
@@ -7082,7 +7079,7 @@ deadbeef-dev.tcz
                cairo.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
                   fontconfig.tcz
                      expat2.tcz
                      freetype.tcz
@@ -7090,7 +7087,7 @@ deadbeef-dev.tcz
                         harfbuzz.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            graphite.tcz
                         bzip2-lib.tcz
                   pixman.tcz
@@ -7154,7 +7151,7 @@ deadbeef-dev.tcz
                         harfbuzz.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            graphite.tcz
                         bzip2-lib.tcz
                   freetype.tcz
@@ -7162,7 +7159,7 @@ deadbeef-dev.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                   libXrender.tcz
@@ -7173,7 +7170,7 @@ deadbeef-dev.tcz
                fribidi.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
             libXcursor.tcz
                libXrender.tcz
                   libX11.tcz
@@ -7233,15 +7230,15 @@ deadbeef-dev.tcz
                shared-mime-info.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
                   libxml2.tcz
                      liblzma.tcz
             glib2-dev.tcz
                glib2-python.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
-                  python3.6.tcz
+                     pcre21042.tcz
+                  python3.9.tcz
                      openssl-1.1.1.tcz
                      sqlite3.tcz
                      gdbm.tcz
@@ -7250,8 +7247,8 @@ deadbeef-dev.tcz
                      readline.tcz
                         ncursesw.tcz
                      libffi.tcz
-               pcre-dev.tcz
-                  pcre.tcz
+               pcre21042-dev.tcz
+                  pcre21042.tcz
                   bzip2-dev.tcz
                      bzip2.tcz
                         bzip2-lib.tcz
@@ -7621,7 +7618,7 @@ deadbeef-dev.tcz
                            attr.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
                   libICE.tcz
                   libSM.tcz
                   libX11.tcz
@@ -7631,7 +7628,7 @@ deadbeef-dev.tcz
                atk.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
             at-spi2-core-dev.tcz
                at-spi2-core.tcz
                   dbus.tcz
@@ -7643,7 +7640,7 @@ deadbeef-dev.tcz
                            attr.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
                   libICE.tcz
                   libSM.tcz
                   libX11.tcz
@@ -7873,7 +7870,7 @@ deadbeef-dev.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                               bzip2-lib.tcz
                            libfontenc.tcz
@@ -7883,7 +7880,7 @@ deadbeef-dev.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                               bzip2-lib.tcz
                            libpng-dev.tcz
@@ -7894,14 +7891,14 @@ deadbeef-dev.tcz
                                  harfbuzz.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
+                                       pcre21042.tcz
                                     graphite.tcz
                               glib2-dev.tcz
                                  glib2-python.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
-                                    python3.6.tcz
+                                       pcre21042.tcz
+                                    python3.9.tcz
                                        openssl-1.1.1.tcz
                                        sqlite3.tcz
                                        gdbm.tcz
@@ -7910,8 +7907,8 @@ deadbeef-dev.tcz
                                        readline.tcz
                                           ncursesw.tcz
                                        libffi.tcz
-                                 pcre-dev.tcz
-                                    pcre.tcz
+                                 pcre21042-dev.tcz
+                                    pcre21042.tcz
                                     bzip2-dev.tcz
                                        bzip2.tcz
                                           bzip2-lib.tcz
@@ -7938,7 +7935,7 @@ deadbeef-dev.tcz
                                  harfbuzz.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
+                                       pcre21042.tcz
                                     graphite.tcz
                                  bzip2-lib.tcz
                            freetype.tcz
@@ -7946,7 +7943,7 @@ deadbeef-dev.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                               bzip2-lib.tcz
                            libXrender.tcz
@@ -7962,7 +7959,7 @@ deadbeef-dev.tcz
                                  harfbuzz.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
+                                       pcre21042.tcz
                                     graphite.tcz
                                  bzip2-lib.tcz
                            expat2-dev.tcz
@@ -7973,7 +7970,7 @@ deadbeef-dev.tcz
                                  harfbuzz.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
+                                       pcre21042.tcz
                                     graphite.tcz
                                  bzip2-lib.tcz
                               libpng-dev.tcz
@@ -7984,14 +7981,14 @@ deadbeef-dev.tcz
                                     harfbuzz.tcz
                                        glib2.tcz
                                           libffi.tcz
-                                          pcre.tcz
+                                          pcre21042.tcz
                                        graphite.tcz
                                  glib2-dev.tcz
                                     glib2-python.tcz
                                        glib2.tcz
                                           libffi.tcz
-                                          pcre.tcz
-                                       python3.6.tcz
+                                          pcre21042.tcz
+                                       python3.9.tcz
                                           openssl-1.1.1.tcz
                                           sqlite3.tcz
                                           gdbm.tcz
@@ -8000,8 +7997,8 @@ deadbeef-dev.tcz
                                           readline.tcz
                                              ncursesw.tcz
                                           libffi.tcz
-                                    pcre-dev.tcz
-                                       pcre.tcz
+                                    pcre21042-dev.tcz
+                                       pcre21042.tcz
                                        bzip2-dev.tcz
                                           bzip2.tcz
                                              bzip2-lib.tcz
@@ -8023,7 +8020,7 @@ deadbeef-dev.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                               bzip2-lib.tcz
                            libpng-dev.tcz
@@ -8034,14 +8031,14 @@ deadbeef-dev.tcz
                                  harfbuzz.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
+                                       pcre21042.tcz
                                     graphite.tcz
                               glib2-dev.tcz
                                  glib2-python.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
-                                    python3.6.tcz
+                                       pcre21042.tcz
+                                    python3.9.tcz
                                        openssl-1.1.1.tcz
                                        sqlite3.tcz
                                        gdbm.tcz
@@ -8050,8 +8047,8 @@ deadbeef-dev.tcz
                                        readline.tcz
                                           ncursesw.tcz
                                        libffi.tcz
-                                 pcre-dev.tcz
-                                    pcre.tcz
+                                 pcre21042-dev.tcz
+                                    pcre21042.tcz
                                     bzip2-dev.tcz
                                        bzip2.tcz
                                           bzip2-lib.tcz
@@ -8396,7 +8393,7 @@ deadbeef-dev.tcz
                                  harfbuzz.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
+                                       pcre21042.tcz
                                     graphite.tcz
                                  bzip2-lib.tcz
                               libfontenc.tcz
@@ -8536,7 +8533,7 @@ deadbeef-dev.tcz
                                  libxml2-python.tcz
                                     libxml2.tcz
                                        liblzma.tcz
-                                    python3.6.tcz
+                                    python3.9.tcz
                                        openssl-1.1.1.tcz
                                        sqlite3.tcz
                                        gdbm.tcz
@@ -8554,7 +8551,7 @@ deadbeef-dev.tcz
                                  harfbuzz.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
+                                       pcre21042.tcz
                                     graphite.tcz
                                  bzip2-lib.tcz
                               libfontenc.tcz
@@ -8564,7 +8561,7 @@ deadbeef-dev.tcz
                                  harfbuzz.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
+                                       pcre21042.tcz
                                     graphite.tcz
                                  bzip2-lib.tcz
                               libpng-dev.tcz
@@ -8575,14 +8572,14 @@ deadbeef-dev.tcz
                                     harfbuzz.tcz
                                        glib2.tcz
                                           libffi.tcz
-                                          pcre.tcz
+                                          pcre21042.tcz
                                        graphite.tcz
                                  glib2-dev.tcz
                                     glib2-python.tcz
                                        glib2.tcz
                                           libffi.tcz
-                                          pcre.tcz
-                                       python3.6.tcz
+                                          pcre21042.tcz
+                                       python3.9.tcz
                                           openssl-1.1.1.tcz
                                           sqlite3.tcz
                                           gdbm.tcz
@@ -8591,8 +8588,8 @@ deadbeef-dev.tcz
                                           readline.tcz
                                              ncursesw.tcz
                                           libffi.tcz
-                                    pcre-dev.tcz
-                                       pcre.tcz
+                                    pcre21042-dev.tcz
+                                       pcre21042.tcz
                                        bzip2-dev.tcz
                                           bzip2.tcz
                                              bzip2-lib.tcz
@@ -8645,8 +8642,8 @@ deadbeef-dev.tcz
                   glib2-python.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
-                     python3.6.tcz
+                        pcre21042.tcz
+                     python3.9.tcz
                         openssl-1.1.1.tcz
                         sqlite3.tcz
                         gdbm.tcz
@@ -8655,8 +8652,8 @@ deadbeef-dev.tcz
                         readline.tcz
                            ncursesw.tcz
                         libffi.tcz
-                  pcre-dev.tcz
-                     pcre.tcz
+                  pcre21042-dev.tcz
+                     pcre21042.tcz
                      bzip2-dev.tcz
                         bzip2.tcz
                            bzip2-lib.tcz
@@ -8882,7 +8879,7 @@ deadbeef-dev.tcz
                            harfbuzz.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
+                                 pcre21042.tcz
                               graphite.tcz
                            bzip2-lib.tcz
                         libfontenc.tcz
@@ -8892,7 +8889,7 @@ deadbeef-dev.tcz
                            harfbuzz.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
+                                 pcre21042.tcz
                               graphite.tcz
                            bzip2-lib.tcz
                         libpng-dev.tcz
@@ -8903,14 +8900,14 @@ deadbeef-dev.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                            glib2-dev.tcz
                               glib2-python.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
-                                 python3.6.tcz
+                                    pcre21042.tcz
+                                 python3.9.tcz
                                     openssl-1.1.1.tcz
                                     sqlite3.tcz
                                     gdbm.tcz
@@ -8919,8 +8916,8 @@ deadbeef-dev.tcz
                                     readline.tcz
                                        ncursesw.tcz
                                     libffi.tcz
-                              pcre-dev.tcz
-                                 pcre.tcz
+                              pcre21042-dev.tcz
+                                 pcre21042.tcz
                                  bzip2-dev.tcz
                                     bzip2.tcz
                                        bzip2-lib.tcz
@@ -8947,7 +8944,7 @@ deadbeef-dev.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                               bzip2-lib.tcz
                         freetype.tcz
@@ -8955,7 +8952,7 @@ deadbeef-dev.tcz
                            harfbuzz.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
+                                 pcre21042.tcz
                               graphite.tcz
                            bzip2-lib.tcz
                         libXrender.tcz
@@ -8971,7 +8968,7 @@ deadbeef-dev.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                               bzip2-lib.tcz
                         expat2-dev.tcz
@@ -8982,7 +8979,7 @@ deadbeef-dev.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                               bzip2-lib.tcz
                            libpng-dev.tcz
@@ -8993,14 +8990,14 @@ deadbeef-dev.tcz
                                  harfbuzz.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
+                                       pcre21042.tcz
                                     graphite.tcz
                               glib2-dev.tcz
                                  glib2-python.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
-                                    python3.6.tcz
+                                       pcre21042.tcz
+                                    python3.9.tcz
                                        openssl-1.1.1.tcz
                                        sqlite3.tcz
                                        gdbm.tcz
@@ -9009,8 +9006,8 @@ deadbeef-dev.tcz
                                        readline.tcz
                                           ncursesw.tcz
                                        libffi.tcz
-                                 pcre-dev.tcz
-                                    pcre.tcz
+                                 pcre21042-dev.tcz
+                                    pcre21042.tcz
                                     bzip2-dev.tcz
                                        bzip2.tcz
                                           bzip2-lib.tcz
@@ -9032,7 +9029,7 @@ deadbeef-dev.tcz
                            harfbuzz.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
+                                 pcre21042.tcz
                               graphite.tcz
                            bzip2-lib.tcz
                         libpng-dev.tcz
@@ -9043,14 +9040,14 @@ deadbeef-dev.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                            glib2-dev.tcz
                               glib2-python.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
-                                 python3.6.tcz
+                                    pcre21042.tcz
+                                 python3.9.tcz
                                     openssl-1.1.1.tcz
                                     sqlite3.tcz
                                     gdbm.tcz
@@ -9059,8 +9056,8 @@ deadbeef-dev.tcz
                                     readline.tcz
                                        ncursesw.tcz
                                     libffi.tcz
-                              pcre-dev.tcz
-                                 pcre.tcz
+                              pcre21042-dev.tcz
+                                 pcre21042.tcz
                                  bzip2-dev.tcz
                                     bzip2.tcz
                                        bzip2-lib.tcz
@@ -9405,7 +9402,7 @@ deadbeef-dev.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                               bzip2-lib.tcz
                            libfontenc.tcz
@@ -9545,7 +9542,7 @@ deadbeef-dev.tcz
                               libxml2-python.tcz
                                  libxml2.tcz
                                     liblzma.tcz
-                                 python3.6.tcz
+                                 python3.9.tcz
                                     openssl-1.1.1.tcz
                                     sqlite3.tcz
                                     gdbm.tcz
@@ -9563,7 +9560,7 @@ deadbeef-dev.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                               bzip2-lib.tcz
                            libfontenc.tcz
@@ -9573,7 +9570,7 @@ deadbeef-dev.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                               bzip2-lib.tcz
                            libpng-dev.tcz
@@ -9584,14 +9581,14 @@ deadbeef-dev.tcz
                                  harfbuzz.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
+                                       pcre21042.tcz
                                     graphite.tcz
                               glib2-dev.tcz
                                  glib2-python.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
-                                    python3.6.tcz
+                                       pcre21042.tcz
+                                    python3.9.tcz
                                        openssl-1.1.1.tcz
                                        sqlite3.tcz
                                        gdbm.tcz
@@ -9600,8 +9597,8 @@ deadbeef-dev.tcz
                                        readline.tcz
                                           ncursesw.tcz
                                        libffi.tcz
-                                 pcre-dev.tcz
-                                    pcre.tcz
+                                 pcre21042-dev.tcz
+                                    pcre21042.tcz
                                     bzip2-dev.tcz
                                        bzip2.tcz
                                           bzip2-lib.tcz
@@ -9638,13 +9635,13 @@ deadbeef-dev.tcz
                atk.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
                glib2-dev.tcz
                   glib2-python.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
-                     python3.6.tcz
+                        pcre21042.tcz
+                     python3.9.tcz
                         openssl-1.1.1.tcz
                         sqlite3.tcz
                         gdbm.tcz
@@ -9653,8 +9650,8 @@ deadbeef-dev.tcz
                         readline.tcz
                            ncursesw.tcz
                         libffi.tcz
-                  pcre-dev.tcz
-                     pcre.tcz
+                  pcre21042-dev.tcz
+                     pcre21042.tcz
                      bzip2-dev.tcz
                         bzip2.tcz
                            bzip2-lib.tcz
@@ -9670,7 +9667,7 @@ deadbeef-dev.tcz
                cairo.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
                   fontconfig.tcz
                      expat2.tcz
                      freetype.tcz
@@ -9678,7 +9675,7 @@ deadbeef-dev.tcz
                         harfbuzz.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            graphite.tcz
                         bzip2-lib.tcz
                   pixman.tcz
@@ -9742,7 +9739,7 @@ deadbeef-dev.tcz
                         harfbuzz.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            graphite.tcz
                         bzip2-lib.tcz
                   freetype.tcz
@@ -9750,7 +9747,7 @@ deadbeef-dev.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                   libXrender.tcz
@@ -9761,12 +9758,12 @@ deadbeef-dev.tcz
                fribidi.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
             cairo-dev.tcz
                cairo.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
                   fontconfig.tcz
                      expat2.tcz
                      freetype.tcz
@@ -9774,7 +9771,7 @@ deadbeef-dev.tcz
                         harfbuzz.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            graphite.tcz
                         bzip2-lib.tcz
                   pixman.tcz
@@ -9834,8 +9831,8 @@ deadbeef-dev.tcz
                   glib2-python.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
-                     python3.6.tcz
+                        pcre21042.tcz
+                     python3.9.tcz
                         openssl-1.1.1.tcz
                         sqlite3.tcz
                         gdbm.tcz
@@ -9844,8 +9841,8 @@ deadbeef-dev.tcz
                         readline.tcz
                            ncursesw.tcz
                         libffi.tcz
-                  pcre-dev.tcz
-                     pcre.tcz
+                  pcre21042-dev.tcz
+                     pcre21042.tcz
                      bzip2-dev.tcz
                         bzip2.tcz
                            bzip2-lib.tcz
@@ -9864,7 +9861,7 @@ deadbeef-dev.tcz
                         harfbuzz.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            graphite.tcz
                         bzip2-lib.tcz
                   expat2-dev.tcz
@@ -9875,7 +9872,7 @@ deadbeef-dev.tcz
                         harfbuzz.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            graphite.tcz
                         bzip2-lib.tcz
                      libpng-dev.tcz
@@ -9886,14 +9883,14 @@ deadbeef-dev.tcz
                            harfbuzz.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
+                                 pcre21042.tcz
                               graphite.tcz
                         glib2-dev.tcz
                            glib2-python.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
-                              python3.6.tcz
+                                 pcre21042.tcz
+                              python3.9.tcz
                                  openssl-1.1.1.tcz
                                  sqlite3.tcz
                                  gdbm.tcz
@@ -9902,8 +9899,8 @@ deadbeef-dev.tcz
                                  readline.tcz
                                     ncursesw.tcz
                                  libffi.tcz
-                           pcre-dev.tcz
-                              pcre.tcz
+                           pcre21042-dev.tcz
+                              pcre21042.tcz
                               bzip2-dev.tcz
                                  bzip2.tcz
                                     bzip2-lib.tcz
@@ -9935,7 +9932,7 @@ deadbeef-dev.tcz
                                     harfbuzz.tcz
                                        glib2.tcz
                                           libffi.tcz
-                                          pcre.tcz
+                                          pcre21042.tcz
                                        graphite.tcz
                                     bzip2-lib.tcz
                                  libjpeg-turbo.tcz
@@ -9984,7 +9981,7 @@ deadbeef-dev.tcz
                                     harfbuzz.tcz
                                        glib2.tcz
                                           libffi.tcz
-                                          pcre.tcz
+                                          pcre21042.tcz
                                        graphite.tcz
                                     bzip2-lib.tcz
                                  libjpeg-turbo.tcz
@@ -10055,7 +10052,7 @@ deadbeef-dev.tcz
                                     harfbuzz.tcz
                                        glib2.tcz
                                           libffi.tcz
-                                          pcre.tcz
+                                          pcre21042.tcz
                                        graphite.tcz
                                     bzip2-lib.tcz
                               freetype.tcz
@@ -10063,7 +10060,7 @@ deadbeef-dev.tcz
                                  harfbuzz.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
+                                       pcre21042.tcz
                                     graphite.tcz
                                  bzip2-lib.tcz
                               libXrender.tcz
@@ -10155,7 +10152,7 @@ deadbeef-dev.tcz
                                  harfbuzz.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
+                                       pcre21042.tcz
                                     graphite.tcz
                                  bzip2-lib.tcz
                               libfontenc.tcz
@@ -10167,7 +10164,7 @@ deadbeef-dev.tcz
                                     harfbuzz.tcz
                                        glib2.tcz
                                           libffi.tcz
-                                          pcre.tcz
+                                          pcre21042.tcz
                                        graphite.tcz
                                     bzip2-lib.tcz
                               freetype.tcz
@@ -10175,7 +10172,7 @@ deadbeef-dev.tcz
                                  harfbuzz.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
+                                       pcre21042.tcz
                                     graphite.tcz
                                  bzip2-lib.tcz
                               libXrender.tcz
@@ -10254,7 +10251,7 @@ deadbeef-dev.tcz
                                     udev-lib.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
+                                       pcre21042.tcz
                         xf86-video-fbdev.tcz
                         xf86-video-vesa.tcz
                         xkeyboard-config.tcz
@@ -10288,7 +10285,7 @@ deadbeef-dev.tcz
                                  harfbuzz.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
+                                       pcre21042.tcz
                                     graphite.tcz
                                  bzip2-lib.tcz
                               libfontenc.tcz
@@ -10547,7 +10544,7 @@ deadbeef-dev.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                               bzip2-lib.tcz
                            libfontenc.tcz
@@ -10557,7 +10554,7 @@ deadbeef-dev.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                               bzip2-lib.tcz
                            libpng-dev.tcz
@@ -10568,14 +10565,14 @@ deadbeef-dev.tcz
                                  harfbuzz.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
+                                       pcre21042.tcz
                                     graphite.tcz
                               glib2-dev.tcz
                                  glib2-python.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
-                                    python3.6.tcz
+                                       pcre21042.tcz
+                                    python3.9.tcz
                                        openssl-1.1.1.tcz
                                        sqlite3.tcz
                                        gdbm.tcz
@@ -10584,8 +10581,8 @@ deadbeef-dev.tcz
                                        readline.tcz
                                           ncursesw.tcz
                                        libffi.tcz
-                                 pcre-dev.tcz
-                                    pcre.tcz
+                                 pcre21042-dev.tcz
+                                    pcre21042.tcz
                                     bzip2-dev.tcz
                                        bzip2.tcz
                                           bzip2-lib.tcz
@@ -10612,7 +10609,7 @@ deadbeef-dev.tcz
                                  harfbuzz.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
+                                       pcre21042.tcz
                                     graphite.tcz
                                  bzip2-lib.tcz
                            freetype.tcz
@@ -10620,7 +10617,7 @@ deadbeef-dev.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                               bzip2-lib.tcz
                            libXrender.tcz
@@ -10636,7 +10633,7 @@ deadbeef-dev.tcz
                                  harfbuzz.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
+                                       pcre21042.tcz
                                     graphite.tcz
                                  bzip2-lib.tcz
                            expat2-dev.tcz
@@ -10647,7 +10644,7 @@ deadbeef-dev.tcz
                                  harfbuzz.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
+                                       pcre21042.tcz
                                     graphite.tcz
                                  bzip2-lib.tcz
                               libpng-dev.tcz
@@ -10658,14 +10655,14 @@ deadbeef-dev.tcz
                                     harfbuzz.tcz
                                        glib2.tcz
                                           libffi.tcz
-                                          pcre.tcz
+                                          pcre21042.tcz
                                        graphite.tcz
                                  glib2-dev.tcz
                                     glib2-python.tcz
                                        glib2.tcz
                                           libffi.tcz
-                                          pcre.tcz
-                                       python3.6.tcz
+                                          pcre21042.tcz
+                                       python3.9.tcz
                                           openssl-1.1.1.tcz
                                           sqlite3.tcz
                                           gdbm.tcz
@@ -10674,8 +10671,8 @@ deadbeef-dev.tcz
                                           readline.tcz
                                              ncursesw.tcz
                                           libffi.tcz
-                                    pcre-dev.tcz
-                                       pcre.tcz
+                                    pcre21042-dev.tcz
+                                       pcre21042.tcz
                                        bzip2-dev.tcz
                                           bzip2.tcz
                                              bzip2-lib.tcz
@@ -10697,7 +10694,7 @@ deadbeef-dev.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                               bzip2-lib.tcz
                            libpng-dev.tcz
@@ -10708,14 +10705,14 @@ deadbeef-dev.tcz
                                  harfbuzz.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
+                                       pcre21042.tcz
                                     graphite.tcz
                               glib2-dev.tcz
                                  glib2-python.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
-                                    python3.6.tcz
+                                       pcre21042.tcz
+                                    python3.9.tcz
                                        openssl-1.1.1.tcz
                                        sqlite3.tcz
                                        gdbm.tcz
@@ -10724,8 +10721,8 @@ deadbeef-dev.tcz
                                        readline.tcz
                                           ncursesw.tcz
                                        libffi.tcz
-                                 pcre-dev.tcz
-                                    pcre.tcz
+                                 pcre21042-dev.tcz
+                                    pcre21042.tcz
                                     bzip2-dev.tcz
                                        bzip2.tcz
                                           bzip2-lib.tcz
@@ -11070,7 +11067,7 @@ deadbeef-dev.tcz
                                  harfbuzz.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
+                                       pcre21042.tcz
                                     graphite.tcz
                                  bzip2-lib.tcz
                               libfontenc.tcz
@@ -11210,7 +11207,7 @@ deadbeef-dev.tcz
                                  libxml2-python.tcz
                                     libxml2.tcz
                                        liblzma.tcz
-                                    python3.6.tcz
+                                    python3.9.tcz
                                        openssl-1.1.1.tcz
                                        sqlite3.tcz
                                        gdbm.tcz
@@ -11228,7 +11225,7 @@ deadbeef-dev.tcz
                                  harfbuzz.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
+                                       pcre21042.tcz
                                     graphite.tcz
                                  bzip2-lib.tcz
                               libfontenc.tcz
@@ -11238,7 +11235,7 @@ deadbeef-dev.tcz
                                  harfbuzz.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
+                                       pcre21042.tcz
                                     graphite.tcz
                                  bzip2-lib.tcz
                               libpng-dev.tcz
@@ -11249,14 +11246,14 @@ deadbeef-dev.tcz
                                     harfbuzz.tcz
                                        glib2.tcz
                                           libffi.tcz
-                                          pcre.tcz
+                                          pcre21042.tcz
                                        graphite.tcz
                                  glib2-dev.tcz
                                     glib2-python.tcz
                                        glib2.tcz
                                           libffi.tcz
-                                          pcre.tcz
-                                       python3.6.tcz
+                                          pcre21042.tcz
+                                       python3.9.tcz
                                           openssl-1.1.1.tcz
                                           sqlite3.tcz
                                           gdbm.tcz
@@ -11265,8 +11262,8 @@ deadbeef-dev.tcz
                                           readline.tcz
                                              ncursesw.tcz
                                           libffi.tcz
-                                    pcre-dev.tcz
-                                       pcre.tcz
+                                    pcre21042-dev.tcz
+                                       pcre21042.tcz
                                        bzip2-dev.tcz
                                           bzip2.tcz
                                              bzip2-lib.tcz
@@ -11316,7 +11313,7 @@ deadbeef-dev.tcz
                         libxml2-python.tcz
                            libxml2.tcz
                               liblzma.tcz
-                           python3.6.tcz
+                           python3.9.tcz
                               openssl-1.1.1.tcz
                               sqlite3.tcz
                               gdbm.tcz
@@ -11498,13 +11495,13 @@ deadbeef-dev.tcz
                fribidi.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
                glib2-dev.tcz
                   glib2-python.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
-                     python3.6.tcz
+                        pcre21042.tcz
+                     python3.9.tcz
                         openssl-1.1.1.tcz
                         sqlite3.tcz
                         gdbm.tcz
@@ -11513,8 +11510,8 @@ deadbeef-dev.tcz
                         readline.tcz
                            ncursesw.tcz
                         libffi.tcz
-                  pcre-dev.tcz
-                     pcre.tcz
+                  pcre21042-dev.tcz
+                     pcre21042.tcz
                      bzip2-dev.tcz
                         bzip2.tcz
                            bzip2-lib.tcz
@@ -11542,7 +11539,7 @@ deadbeef-dev.tcz
                libxml2-python.tcz
                   libxml2.tcz
                      liblzma.tcz
-                  python3.6.tcz
+                  python3.9.tcz
                      openssl-1.1.1.tcz
                      sqlite3.tcz
                      gdbm.tcz
@@ -11559,7 +11556,7 @@ deadbeef-dev.tcz
                   glib-networking.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
+                        pcre21042.tcz
                      gnutls35.tcz
                         p11-kit.tcz
                            libffi.tcz
@@ -11581,7 +11578,7 @@ deadbeef-dev.tcz
                   glib-networking.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
+                        pcre21042.tcz
                      gnutls35.tcz
                         p11-kit.tcz
                            libffi.tcz
@@ -11605,7 +11602,7 @@ deadbeef-dev.tcz
                   libxml2-python.tcz
                      libxml2.tcz
                         liblzma.tcz
-                     python3.6.tcz
+                     python3.9.tcz
                         openssl-1.1.1.tcz
                         sqlite3.tcz
                         gdbm.tcz
@@ -11647,7 +11644,7 @@ deadbeef-dev.tcz
                      udev-lib.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
                sqlite3.tcz
                libsane.tcz
                   libusb.tcz
@@ -11664,7 +11661,7 @@ deadbeef-dev.tcz
                         gcc_libs.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                      gnutls35.tcz
                         p11-kit.tcz
                            libffi.tcz
@@ -11681,7 +11678,7 @@ deadbeef-dev.tcz
                polkit.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
                   expat2.tcz
                   js78.tcz
                      readline.tcz
@@ -12029,7 +12026,7 @@ deadbeef-dev.tcz
                      udev-lib.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
                libusb-dev.tcz
                   libusb.tcz
                      udev-lib.tcz
@@ -12039,8 +12036,8 @@ deadbeef-dev.tcz
                   glib2-python.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
-                     python3.6.tcz
+                        pcre21042.tcz
+                     python3.9.tcz
                         openssl-1.1.1.tcz
                         sqlite3.tcz
                         gdbm.tcz
@@ -12049,8 +12046,8 @@ deadbeef-dev.tcz
                         readline.tcz
                            ncursesw.tcz
                         libffi.tcz
-                  pcre-dev.tcz
-                     pcre.tcz
+                  pcre21042-dev.tcz
+                     pcre21042.tcz
                      bzip2-dev.tcz
                         bzip2.tcz
                            bzip2-lib.tcz
@@ -12087,7 +12084,7 @@ deadbeef-dev.tcz
                         gcc_libs.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                      gnutls35.tcz
                         p11-kit.tcz
                            libffi.tcz
@@ -12120,7 +12117,7 @@ deadbeef-dev.tcz
                            gcc_libs.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                         gnutls35.tcz
                            p11-kit.tcz
                               libffi.tcz
@@ -12143,7 +12140,7 @@ deadbeef-dev.tcz
                            cairo.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
+                                 pcre21042.tcz
                               fontconfig.tcz
                                  expat2.tcz
                                  freetype.tcz
@@ -12151,7 +12148,7 @@ deadbeef-dev.tcz
                                     harfbuzz.tcz
                                        glib2.tcz
                                           libffi.tcz
-                                          pcre.tcz
+                                          pcre21042.tcz
                                        graphite.tcz
                                     bzip2-lib.tcz
                               pixman.tcz
@@ -12243,7 +12240,7 @@ deadbeef-dev.tcz
                            gcc_libs.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                         nss-mdns.tcz
                         libdaemon.tcz
                      dbus-dev.tcz
@@ -12469,7 +12466,7 @@ deadbeef-dev.tcz
                                     harfbuzz.tcz
                                        glib2.tcz
                                           libffi.tcz
-                                          pcre.tcz
+                                          pcre21042.tcz
                                        graphite.tcz
                                     bzip2-lib.tcz
                                  libfontenc.tcz
@@ -12479,7 +12476,7 @@ deadbeef-dev.tcz
                                     harfbuzz.tcz
                                        glib2.tcz
                                           libffi.tcz
-                                          pcre.tcz
+                                          pcre21042.tcz
                                        graphite.tcz
                                     bzip2-lib.tcz
                                  libpng-dev.tcz
@@ -12490,14 +12487,14 @@ deadbeef-dev.tcz
                                        harfbuzz.tcz
                                           glib2.tcz
                                              libffi.tcz
-                                             pcre.tcz
+                                             pcre21042.tcz
                                           graphite.tcz
                                     glib2-dev.tcz
                                        glib2-python.tcz
                                           glib2.tcz
                                              libffi.tcz
-                                             pcre.tcz
-                                          python3.6.tcz
+                                             pcre21042.tcz
+                                          python3.9.tcz
                                              openssl-1.1.1.tcz
                                              sqlite3.tcz
                                              gdbm.tcz
@@ -12506,8 +12503,8 @@ deadbeef-dev.tcz
                                              readline.tcz
                                                 ncursesw.tcz
                                              libffi.tcz
-                                       pcre-dev.tcz
-                                          pcre.tcz
+                                       pcre21042-dev.tcz
+                                          pcre21042.tcz
                                           bzip2-dev.tcz
                                              bzip2.tcz
                                                 bzip2-lib.tcz
@@ -12534,7 +12531,7 @@ deadbeef-dev.tcz
                                        harfbuzz.tcz
                                           glib2.tcz
                                              libffi.tcz
-                                             pcre.tcz
+                                             pcre21042.tcz
                                           graphite.tcz
                                        bzip2-lib.tcz
                                  freetype.tcz
@@ -12542,7 +12539,7 @@ deadbeef-dev.tcz
                                     harfbuzz.tcz
                                        glib2.tcz
                                           libffi.tcz
-                                          pcre.tcz
+                                          pcre21042.tcz
                                        graphite.tcz
                                     bzip2-lib.tcz
                                  libXrender.tcz
@@ -12558,7 +12555,7 @@ deadbeef-dev.tcz
                                        harfbuzz.tcz
                                           glib2.tcz
                                              libffi.tcz
-                                             pcre.tcz
+                                             pcre21042.tcz
                                           graphite.tcz
                                        bzip2-lib.tcz
                                  expat2-dev.tcz
@@ -12569,7 +12566,7 @@ deadbeef-dev.tcz
                                        harfbuzz.tcz
                                           glib2.tcz
                                              libffi.tcz
-                                             pcre.tcz
+                                             pcre21042.tcz
                                           graphite.tcz
                                        bzip2-lib.tcz
                                     libpng-dev.tcz
@@ -12580,14 +12577,14 @@ deadbeef-dev.tcz
                                           harfbuzz.tcz
                                              glib2.tcz
                                                 libffi.tcz
-                                                pcre.tcz
+                                                pcre21042.tcz
                                              graphite.tcz
                                        glib2-dev.tcz
                                           glib2-python.tcz
                                              glib2.tcz
                                                 libffi.tcz
-                                                pcre.tcz
-                                             python3.6.tcz
+                                                pcre21042.tcz
+                                             python3.9.tcz
                                                 openssl-1.1.1.tcz
                                                 sqlite3.tcz
                                                 gdbm.tcz
@@ -12596,8 +12593,8 @@ deadbeef-dev.tcz
                                                 readline.tcz
                                                    ncursesw.tcz
                                                 libffi.tcz
-                                          pcre-dev.tcz
-                                             pcre.tcz
+                                          pcre21042-dev.tcz
+                                             pcre21042.tcz
                                              bzip2-dev.tcz
                                                 bzip2.tcz
                                                    bzip2-lib.tcz
@@ -12619,7 +12616,7 @@ deadbeef-dev.tcz
                                     harfbuzz.tcz
                                        glib2.tcz
                                           libffi.tcz
-                                          pcre.tcz
+                                          pcre21042.tcz
                                        graphite.tcz
                                     bzip2-lib.tcz
                                  libpng-dev.tcz
@@ -12630,14 +12627,14 @@ deadbeef-dev.tcz
                                        harfbuzz.tcz
                                           glib2.tcz
                                              libffi.tcz
-                                             pcre.tcz
+                                             pcre21042.tcz
                                           graphite.tcz
                                     glib2-dev.tcz
                                        glib2-python.tcz
                                           glib2.tcz
                                              libffi.tcz
-                                             pcre.tcz
-                                          python3.6.tcz
+                                             pcre21042.tcz
+                                          python3.9.tcz
                                              openssl-1.1.1.tcz
                                              sqlite3.tcz
                                              gdbm.tcz
@@ -12646,8 +12643,8 @@ deadbeef-dev.tcz
                                              readline.tcz
                                                 ncursesw.tcz
                                              libffi.tcz
-                                       pcre-dev.tcz
-                                          pcre.tcz
+                                       pcre21042-dev.tcz
+                                          pcre21042.tcz
                                           bzip2-dev.tcz
                                              bzip2.tcz
                                                 bzip2-lib.tcz
@@ -12992,7 +12989,7 @@ deadbeef-dev.tcz
                                        harfbuzz.tcz
                                           glib2.tcz
                                              libffi.tcz
-                                             pcre.tcz
+                                             pcre21042.tcz
                                           graphite.tcz
                                        bzip2-lib.tcz
                                     libfontenc.tcz
@@ -13132,7 +13129,7 @@ deadbeef-dev.tcz
                                        libxml2-python.tcz
                                           libxml2.tcz
                                              liblzma.tcz
-                                          python3.6.tcz
+                                          python3.9.tcz
                                              openssl-1.1.1.tcz
                                              sqlite3.tcz
                                              gdbm.tcz
@@ -13150,7 +13147,7 @@ deadbeef-dev.tcz
                                        harfbuzz.tcz
                                           glib2.tcz
                                              libffi.tcz
-                                             pcre.tcz
+                                             pcre21042.tcz
                                           graphite.tcz
                                        bzip2-lib.tcz
                                     libfontenc.tcz
@@ -13160,7 +13157,7 @@ deadbeef-dev.tcz
                                        harfbuzz.tcz
                                           glib2.tcz
                                              libffi.tcz
-                                             pcre.tcz
+                                             pcre21042.tcz
                                           graphite.tcz
                                        bzip2-lib.tcz
                                     libpng-dev.tcz
@@ -13171,14 +13168,14 @@ deadbeef-dev.tcz
                                           harfbuzz.tcz
                                              glib2.tcz
                                                 libffi.tcz
-                                                pcre.tcz
+                                                pcre21042.tcz
                                              graphite.tcz
                                        glib2-dev.tcz
                                           glib2-python.tcz
                                              glib2.tcz
                                                 libffi.tcz
-                                                pcre.tcz
-                                             python3.6.tcz
+                                                pcre21042.tcz
+                                             python3.9.tcz
                                                 openssl-1.1.1.tcz
                                                 sqlite3.tcz
                                                 gdbm.tcz
@@ -13187,8 +13184,8 @@ deadbeef-dev.tcz
                                                 readline.tcz
                                                    ncursesw.tcz
                                                 libffi.tcz
-                                          pcre-dev.tcz
-                                             pcre.tcz
+                                          pcre21042-dev.tcz
+                                             pcre21042.tcz
                                              bzip2-dev.tcz
                                                 bzip2.tcz
                                                    bzip2-lib.tcz
@@ -13243,8 +13240,8 @@ deadbeef-dev.tcz
                         glib2-python.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
-                           python3.6.tcz
+                              pcre21042.tcz
+                           python3.9.tcz
                               openssl-1.1.1.tcz
                               sqlite3.tcz
                               gdbm.tcz
@@ -13253,8 +13250,8 @@ deadbeef-dev.tcz
                               readline.tcz
                                  ncursesw.tcz
                               libffi.tcz
-                        pcre-dev.tcz
-                           pcre.tcz
+                        pcre21042-dev.tcz
+                           pcre21042.tcz
                            bzip2-dev.tcz
                               bzip2.tcz
                                  bzip2-lib.tcz
@@ -13628,7 +13625,7 @@ deadbeef-dev.tcz
                polkit.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
                   expat2.tcz
                   js78.tcz
                      readline.tcz
@@ -13646,8 +13643,8 @@ deadbeef-dev.tcz
                   glib2-python.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
-                     python3.6.tcz
+                        pcre21042.tcz
+                     python3.9.tcz
                         openssl-1.1.1.tcz
                         sqlite3.tcz
                         gdbm.tcz
@@ -13656,8 +13653,8 @@ deadbeef-dev.tcz
                         readline.tcz
                            ncursesw.tcz
                         libffi.tcz
-                  pcre-dev.tcz
-                     pcre.tcz
+                  pcre21042-dev.tcz
+                     pcre21042.tcz
                      bzip2-dev.tcz
                         bzip2.tcz
                            bzip2-lib.tcz
@@ -13680,9 +13677,6 @@ deadbeef-dev.tcz
                         ncursesw.tcz
                      ncursesw-dev.tcz
                         ncursesw.tcz
-                  icu67-dev.tcz
-                     icu67-bin.tcz
-                        icu67.tcz
                linux-pam-dev.tcz
                   linux-pam.tcz
                elogind-dev.tcz
@@ -13705,13 +13699,13 @@ deadbeef-dev.tcz
             json-glib.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
             glib2-dev.tcz
                glib2-python.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
-                  python3.6.tcz
+                     pcre21042.tcz
+                  python3.9.tcz
                      openssl-1.1.1.tcz
                      sqlite3.tcz
                      gdbm.tcz
@@ -13720,8 +13714,8 @@ deadbeef-dev.tcz
                      readline.tcz
                         ncursesw.tcz
                      libffi.tcz
-               pcre-dev.tcz
-                  pcre.tcz
+               pcre21042-dev.tcz
+                  pcre21042.tcz
                   bzip2-dev.tcz
                      bzip2.tcz
                         bzip2-lib.tcz
@@ -13768,7 +13762,7 @@ deadbeef-dev.tcz
                harfbuzz.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
                   graphite.tcz
                bzip2-lib.tcz
             libjpeg-turbo.tcz
@@ -13784,7 +13778,7 @@ deadbeef-dev.tcz
             harfbuzz.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
                graphite.tcz
             bzip2-lib.tcz
          libpng-dev.tcz
@@ -13795,14 +13789,14 @@ deadbeef-dev.tcz
                harfbuzz.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
                   graphite.tcz
             glib2-dev.tcz
                glib2-python.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
-                  python3.6.tcz
+                     pcre21042.tcz
+                  python3.9.tcz
                      openssl-1.1.1.tcz
                      sqlite3.tcz
                      gdbm.tcz
@@ -13811,8 +13805,8 @@ deadbeef-dev.tcz
                      readline.tcz
                         ncursesw.tcz
                      libffi.tcz
-               pcre-dev.tcz
-                  pcre.tcz
+               pcre21042-dev.tcz
+                  pcre21042.tcz
                   bzip2-dev.tcz
                      bzip2.tcz
                         bzip2-lib.tcz

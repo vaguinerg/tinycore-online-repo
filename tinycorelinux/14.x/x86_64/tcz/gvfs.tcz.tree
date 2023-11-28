@@ -2,7 +2,7 @@ gvfs.tcz
    gsettings-desktop-schemas.tcz
       glib2.tcz
          libffi.tcz
-         pcre.tcz
+         pcre21042.tcz
    dbus-glib.tcz
       dbus.tcz
          expat2.tcz
@@ -13,7 +13,7 @@ gvfs.tcz
                attr.tcz
       glib2.tcz
          libffi.tcz
-         pcre.tcz
+         pcre21042.tcz
    fuse3.tcz
    gnome-keyring.tcz
       gcr.tcz
@@ -30,7 +30,7 @@ gvfs.tcz
                            attr.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
                   libICE.tcz
                   libSM.tcz
                   libX11.tcz
@@ -40,7 +40,7 @@ gvfs.tcz
                atk.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
             gdk-pixbuf2.tcz
                libtiff.tcz
                   libjpeg-turbo.tcz
@@ -54,7 +54,7 @@ gvfs.tcz
                shared-mime-info.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
                   libxml2.tcz
                      liblzma.tcz
             libXcomposite.tcz
@@ -66,7 +66,7 @@ gvfs.tcz
                cairo.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
                   fontconfig.tcz
                      expat2.tcz
                      freetype.tcz
@@ -74,7 +74,7 @@ gvfs.tcz
                         harfbuzz.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            graphite.tcz
                         bzip2-lib.tcz
                   pixman.tcz
@@ -138,7 +138,7 @@ gvfs.tcz
                         harfbuzz.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            graphite.tcz
                         bzip2-lib.tcz
                   freetype.tcz
@@ -146,7 +146,7 @@ gvfs.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                   libXrender.tcz
@@ -157,7 +157,7 @@ gvfs.tcz
                fribidi.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
             libXcursor.tcz
                libXrender.tcz
                   libX11.tcz
@@ -240,7 +240,7 @@ gvfs.tcz
                shared-mime-info.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
                   libxml2.tcz
                      liblzma.tcz
             librsvg.tcz
@@ -248,7 +248,7 @@ gvfs.tcz
                   cairo.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
+                        pcre21042.tcz
                      fontconfig.tcz
                         expat2.tcz
                         freetype.tcz
@@ -256,7 +256,7 @@ gvfs.tcz
                            harfbuzz.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
+                                 pcre21042.tcz
                               graphite.tcz
                            bzip2-lib.tcz
                      pixman.tcz
@@ -320,7 +320,7 @@ gvfs.tcz
                            harfbuzz.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
+                                 pcre21042.tcz
                               graphite.tcz
                            bzip2-lib.tcz
                      freetype.tcz
@@ -328,7 +328,7 @@ gvfs.tcz
                         harfbuzz.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            graphite.tcz
                         bzip2-lib.tcz
                      libXrender.tcz
@@ -339,7 +339,7 @@ gvfs.tcz
                   fribidi.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
+                        pcre21042.tcz
                gdk-pixbuf2.tcz
                   libtiff.tcz
                      libjpeg-turbo.tcz
@@ -353,7 +353,7 @@ gvfs.tcz
                   shared-mime-info.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
+                        pcre21042.tcz
                      libxml2.tcz
                         liblzma.tcz
             hicolor-icon-theme.tcz
@@ -379,7 +379,7 @@ gvfs.tcz
          libgpg-error.tcz
       glib2.tcz
          libffi.tcz
-         pcre.tcz
+         pcre21042.tcz
    avahi.tcz
       libavahi.tcz
          dbus.tcz
@@ -392,7 +392,7 @@ gvfs.tcz
          gcc_libs.tcz
          glib2.tcz
             libffi.tcz
-            pcre.tcz
+            pcre21042.tcz
       nss-mdns.tcz
       libdaemon.tcz
    gnome-online-accounts.tcz
@@ -402,7 +402,7 @@ gvfs.tcz
                gstreamer.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
                libtheora.tcz
                   libogg.tcz
                libvorbis.tcz
@@ -435,16 +435,16 @@ gvfs.tcz
                libgpg-error.tcz
             glib2.tcz
                libffi.tcz
-               pcre.tcz
+               pcre21042.tcz
          gudev-lib.tcz
             udev-lib.tcz
             glib2.tcz
                libffi.tcz
-               pcre.tcz
+               pcre21042.tcz
          enchant2.tcz
             glib2.tcz
                libffi.tcz
-               pcre.tcz
+               pcre21042.tcz
             aspell.tcz
                aspell-en.tcz
                ncursesw.tcz
@@ -456,12 +456,12 @@ gvfs.tcz
             json-glib.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
             libsoup.tcz
                glib-networking.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
                   gnutls35.tcz
                      p11-kit.tcz
                         libffi.tcz
@@ -489,12 +489,12 @@ gvfs.tcz
                gcc_libs.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
             modemmanager.tcz
                polkit.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
                   expat2.tcz
                   js78.tcz
                      readline.tcz
@@ -514,7 +514,7 @@ gvfs.tcz
                         udev-lib.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
             libnotify.tcz
                notification-daemon.tcz
                   gtk3.tcz
@@ -530,7 +530,7 @@ gvfs.tcz
                                     attr.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            libICE.tcz
                            libSM.tcz
                            libX11.tcz
@@ -540,7 +540,7 @@ gvfs.tcz
                         atk.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                      gdk-pixbuf2.tcz
                         libtiff.tcz
                            libjpeg-turbo.tcz
@@ -554,7 +554,7 @@ gvfs.tcz
                         shared-mime-info.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            libxml2.tcz
                               liblzma.tcz
                      libXcomposite.tcz
@@ -566,7 +566,7 @@ gvfs.tcz
                         cairo.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            fontconfig.tcz
                               expat2.tcz
                               freetype.tcz
@@ -574,7 +574,7 @@ gvfs.tcz
                                  harfbuzz.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
+                                       pcre21042.tcz
                                     graphite.tcz
                                  bzip2-lib.tcz
                            pixman.tcz
@@ -638,7 +638,7 @@ gvfs.tcz
                                  harfbuzz.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
+                                       pcre21042.tcz
                                     graphite.tcz
                                  bzip2-lib.tcz
                            freetype.tcz
@@ -646,7 +646,7 @@ gvfs.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                               bzip2-lib.tcz
                            libXrender.tcz
@@ -657,7 +657,7 @@ gvfs.tcz
                         fribidi.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                      libXcursor.tcz
                         libXrender.tcz
                            libX11.tcz
@@ -720,7 +720,7 @@ gvfs.tcz
                                        attr.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
+                                 pcre21042.tcz
                               libICE.tcz
                               libSM.tcz
                               libX11.tcz
@@ -730,7 +730,7 @@ gvfs.tcz
                            atk.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
+                                 pcre21042.tcz
                         gdk-pixbuf2.tcz
                            libtiff.tcz
                               libjpeg-turbo.tcz
@@ -744,7 +744,7 @@ gvfs.tcz
                            shared-mime-info.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
+                                 pcre21042.tcz
                               libxml2.tcz
                                  liblzma.tcz
                         libXcomposite.tcz
@@ -756,7 +756,7 @@ gvfs.tcz
                            cairo.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
+                                 pcre21042.tcz
                               fontconfig.tcz
                                  expat2.tcz
                                  freetype.tcz
@@ -764,7 +764,7 @@ gvfs.tcz
                                     harfbuzz.tcz
                                        glib2.tcz
                                           libffi.tcz
-                                          pcre.tcz
+                                          pcre21042.tcz
                                        graphite.tcz
                                     bzip2-lib.tcz
                               pixman.tcz
@@ -828,7 +828,7 @@ gvfs.tcz
                                     harfbuzz.tcz
                                        glib2.tcz
                                           libffi.tcz
-                                          pcre.tcz
+                                          pcre21042.tcz
                                        graphite.tcz
                                     bzip2-lib.tcz
                               freetype.tcz
@@ -836,7 +836,7 @@ gvfs.tcz
                                  harfbuzz.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
+                                       pcre21042.tcz
                                     graphite.tcz
                                  bzip2-lib.tcz
                               libXrender.tcz
@@ -847,7 +847,7 @@ gvfs.tcz
                            fribidi.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
+                                 pcre21042.tcz
                         libXcursor.tcz
                            libXrender.tcz
                               libX11.tcz
@@ -900,14 +900,14 @@ gvfs.tcz
             harfbuzz.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
                graphite.tcz
             icu70.tcz
          openjpeg.tcz
          gsettings-desktop-schemas.tcz
             glib2.tcz
                libffi.tcz
-               pcre.tcz
+               pcre21042.tcz
          ca-certificates.tcz
             openssl-1.1.1.tcz
          liblcms2.tcz
@@ -916,7 +916,7 @@ gvfs.tcz
             glib-networking.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
                gnutls35.tcz
                   p11-kit.tcz
                      libffi.tcz
@@ -944,7 +944,7 @@ gvfs.tcz
                      attr.tcz
             glib2.tcz
                libffi.tcz
-               pcre.tcz
+               pcre21042.tcz
       gtk-update-icon-cache.tcz
          gdk-pixbuf2.tcz
             libtiff.tcz
@@ -959,7 +959,7 @@ gvfs.tcz
             shared-mime-info.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
                libxml2.tcz
                   liblzma.tcz
          librsvg.tcz
@@ -967,7 +967,7 @@ gvfs.tcz
                cairo.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
                   fontconfig.tcz
                      expat2.tcz
                      freetype.tcz
@@ -975,7 +975,7 @@ gvfs.tcz
                         harfbuzz.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            graphite.tcz
                         bzip2-lib.tcz
                   pixman.tcz
@@ -1039,7 +1039,7 @@ gvfs.tcz
                         harfbuzz.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            graphite.tcz
                         bzip2-lib.tcz
                   freetype.tcz
@@ -1047,7 +1047,7 @@ gvfs.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                   libXrender.tcz
@@ -1058,7 +1058,7 @@ gvfs.tcz
                fribidi.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
             gdk-pixbuf2.tcz
                libtiff.tcz
                   libjpeg-turbo.tcz
@@ -1072,7 +1072,7 @@ gvfs.tcz
                shared-mime-info.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
                   libxml2.tcz
                      liblzma.tcz
          hicolor-icon-theme.tcz
@@ -1081,11 +1081,11 @@ gvfs.tcz
          udev-lib.tcz
          glib2.tcz
             libffi.tcz
-            pcre.tcz
+            pcre21042.tcz
       polkit.tcz
          glib2.tcz
             libffi.tcz
-            pcre.tcz
+            pcre21042.tcz
          expat2.tcz
          js78.tcz
             readline.tcz
@@ -1111,7 +1111,7 @@ gvfs.tcz
          volume_key.tcz
             glib2.tcz
                libffi.tcz
-               pcre.tcz
+               pcre21042.tcz
             pcre.tcz
             gpgme.tcz
                libassuan.tcz
@@ -1171,7 +1171,7 @@ gvfs.tcz
             harfbuzz.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
                graphite.tcz
             bzip2-lib.tcz
    libmtp.tcz

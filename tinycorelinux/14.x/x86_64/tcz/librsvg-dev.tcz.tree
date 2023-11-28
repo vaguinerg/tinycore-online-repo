@@ -4,7 +4,7 @@ librsvg-dev.tcz
          cairo.tcz
             glib2.tcz
                libffi.tcz
-               pcre.tcz
+               pcre21042.tcz
             fontconfig.tcz
                expat2.tcz
                freetype.tcz
@@ -12,7 +12,7 @@ librsvg-dev.tcz
                   harfbuzz.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
+                        pcre21042.tcz
                      graphite.tcz
                   bzip2-lib.tcz
             pixman.tcz
@@ -76,7 +76,7 @@ librsvg-dev.tcz
                   harfbuzz.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
+                        pcre21042.tcz
                      graphite.tcz
                   bzip2-lib.tcz
             freetype.tcz
@@ -84,7 +84,7 @@ librsvg-dev.tcz
                harfbuzz.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
                   graphite.tcz
                bzip2-lib.tcz
             libXrender.tcz
@@ -95,7 +95,7 @@ librsvg-dev.tcz
          fribidi.tcz
             glib2.tcz
                libffi.tcz
-               pcre.tcz
+               pcre21042.tcz
       gdk-pixbuf2.tcz
          libtiff.tcz
             libjpeg-turbo.tcz
@@ -109,7 +109,7 @@ librsvg-dev.tcz
          shared-mime-info.tcz
             glib2.tcz
                libffi.tcz
-               pcre.tcz
+               pcre21042.tcz
             libxml2.tcz
                liblzma.tcz
    pango-dev.tcz
@@ -117,7 +117,7 @@ librsvg-dev.tcz
          cairo.tcz
             glib2.tcz
                libffi.tcz
-               pcre.tcz
+               pcre21042.tcz
             fontconfig.tcz
                expat2.tcz
                freetype.tcz
@@ -125,7 +125,7 @@ librsvg-dev.tcz
                   harfbuzz.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
+                        pcre21042.tcz
                      graphite.tcz
                   bzip2-lib.tcz
             pixman.tcz
@@ -189,7 +189,7 @@ librsvg-dev.tcz
                   harfbuzz.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
+                        pcre21042.tcz
                      graphite.tcz
                   bzip2-lib.tcz
             freetype.tcz
@@ -197,7 +197,7 @@ librsvg-dev.tcz
                harfbuzz.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
                   graphite.tcz
                bzip2-lib.tcz
             libXrender.tcz
@@ -208,12 +208,12 @@ librsvg-dev.tcz
          fribidi.tcz
             glib2.tcz
                libffi.tcz
-               pcre.tcz
+               pcre21042.tcz
       cairo-dev.tcz
          cairo.tcz
             glib2.tcz
                libffi.tcz
-               pcre.tcz
+               pcre21042.tcz
             fontconfig.tcz
                expat2.tcz
                freetype.tcz
@@ -221,7 +221,7 @@ librsvg-dev.tcz
                   harfbuzz.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
+                        pcre21042.tcz
                      graphite.tcz
                   bzip2-lib.tcz
             pixman.tcz
@@ -281,8 +281,8 @@ librsvg-dev.tcz
             glib2-python.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
-               python3.6.tcz
+                  pcre21042.tcz
+               python3.9.tcz
                   openssl-1.1.1.tcz
                   sqlite3.tcz
                   gdbm.tcz
@@ -291,8 +291,8 @@ librsvg-dev.tcz
                   readline.tcz
                      ncursesw.tcz
                   libffi.tcz
-            pcre-dev.tcz
-               pcre.tcz
+            pcre21042-dev.tcz
+               pcre21042.tcz
                bzip2-dev.tcz
                   bzip2.tcz
                      bzip2-lib.tcz
@@ -311,7 +311,7 @@ librsvg-dev.tcz
                   harfbuzz.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
+                        pcre21042.tcz
                      graphite.tcz
                   bzip2-lib.tcz
             expat2-dev.tcz
@@ -322,7 +322,7 @@ librsvg-dev.tcz
                   harfbuzz.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
+                        pcre21042.tcz
                      graphite.tcz
                   bzip2-lib.tcz
                libpng-dev.tcz
@@ -333,14 +333,14 @@ librsvg-dev.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                   glib2-dev.tcz
                      glib2-python.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
-                        python3.6.tcz
+                           pcre21042.tcz
+                        python3.9.tcz
                            openssl-1.1.1.tcz
                            sqlite3.tcz
                            gdbm.tcz
@@ -349,8 +349,8 @@ librsvg-dev.tcz
                            readline.tcz
                               ncursesw.tcz
                            libffi.tcz
-                     pcre-dev.tcz
-                        pcre.tcz
+                     pcre21042-dev.tcz
+                        pcre21042.tcz
                         bzip2-dev.tcz
                            bzip2.tcz
                               bzip2-lib.tcz
@@ -382,7 +382,7 @@ librsvg-dev.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                               bzip2-lib.tcz
                            libjpeg-turbo.tcz
@@ -431,7 +431,7 @@ librsvg-dev.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                               bzip2-lib.tcz
                            libjpeg-turbo.tcz
@@ -502,7 +502,7 @@ librsvg-dev.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                               bzip2-lib.tcz
                         freetype.tcz
@@ -510,7 +510,7 @@ librsvg-dev.tcz
                            harfbuzz.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
+                                 pcre21042.tcz
                               graphite.tcz
                            bzip2-lib.tcz
                         libXrender.tcz
@@ -602,7 +602,7 @@ librsvg-dev.tcz
                            harfbuzz.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
+                                 pcre21042.tcz
                               graphite.tcz
                            bzip2-lib.tcz
                         libfontenc.tcz
@@ -614,7 +614,7 @@ librsvg-dev.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                               bzip2-lib.tcz
                         freetype.tcz
@@ -622,7 +622,7 @@ librsvg-dev.tcz
                            harfbuzz.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
+                                 pcre21042.tcz
                               graphite.tcz
                            bzip2-lib.tcz
                         libXrender.tcz
@@ -701,7 +701,7 @@ librsvg-dev.tcz
                               udev-lib.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
+                                 pcre21042.tcz
                   xf86-video-fbdev.tcz
                   xf86-video-vesa.tcz
                   xkeyboard-config.tcz
@@ -735,7 +735,7 @@ librsvg-dev.tcz
                            harfbuzz.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
+                                 pcre21042.tcz
                               graphite.tcz
                            bzip2-lib.tcz
                         libfontenc.tcz
@@ -994,7 +994,7 @@ librsvg-dev.tcz
                         harfbuzz.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            graphite.tcz
                         bzip2-lib.tcz
                      libfontenc.tcz
@@ -1004,7 +1004,7 @@ librsvg-dev.tcz
                         harfbuzz.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            graphite.tcz
                         bzip2-lib.tcz
                      libpng-dev.tcz
@@ -1015,14 +1015,14 @@ librsvg-dev.tcz
                            harfbuzz.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
+                                 pcre21042.tcz
                               graphite.tcz
                         glib2-dev.tcz
                            glib2-python.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
-                              python3.6.tcz
+                                 pcre21042.tcz
+                              python3.9.tcz
                                  openssl-1.1.1.tcz
                                  sqlite3.tcz
                                  gdbm.tcz
@@ -1031,8 +1031,8 @@ librsvg-dev.tcz
                                  readline.tcz
                                     ncursesw.tcz
                                  libffi.tcz
-                           pcre-dev.tcz
-                              pcre.tcz
+                           pcre21042-dev.tcz
+                              pcre21042.tcz
                               bzip2-dev.tcz
                                  bzip2.tcz
                                     bzip2-lib.tcz
@@ -1059,7 +1059,7 @@ librsvg-dev.tcz
                            harfbuzz.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
+                                 pcre21042.tcz
                               graphite.tcz
                            bzip2-lib.tcz
                      freetype.tcz
@@ -1067,7 +1067,7 @@ librsvg-dev.tcz
                         harfbuzz.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            graphite.tcz
                         bzip2-lib.tcz
                      libXrender.tcz
@@ -1083,7 +1083,7 @@ librsvg-dev.tcz
                            harfbuzz.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
+                                 pcre21042.tcz
                               graphite.tcz
                            bzip2-lib.tcz
                      expat2-dev.tcz
@@ -1094,7 +1094,7 @@ librsvg-dev.tcz
                            harfbuzz.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
+                                 pcre21042.tcz
                               graphite.tcz
                            bzip2-lib.tcz
                         libpng-dev.tcz
@@ -1105,14 +1105,14 @@ librsvg-dev.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                            glib2-dev.tcz
                               glib2-python.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
-                                 python3.6.tcz
+                                    pcre21042.tcz
+                                 python3.9.tcz
                                     openssl-1.1.1.tcz
                                     sqlite3.tcz
                                     gdbm.tcz
@@ -1121,8 +1121,8 @@ librsvg-dev.tcz
                                     readline.tcz
                                        ncursesw.tcz
                                     libffi.tcz
-                              pcre-dev.tcz
-                                 pcre.tcz
+                              pcre21042-dev.tcz
+                                 pcre21042.tcz
                                  bzip2-dev.tcz
                                     bzip2.tcz
                                        bzip2-lib.tcz
@@ -1144,7 +1144,7 @@ librsvg-dev.tcz
                         harfbuzz.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            graphite.tcz
                         bzip2-lib.tcz
                      libpng-dev.tcz
@@ -1155,14 +1155,14 @@ librsvg-dev.tcz
                            harfbuzz.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
+                                 pcre21042.tcz
                               graphite.tcz
                         glib2-dev.tcz
                            glib2-python.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
-                              python3.6.tcz
+                                 pcre21042.tcz
+                              python3.9.tcz
                                  openssl-1.1.1.tcz
                                  sqlite3.tcz
                                  gdbm.tcz
@@ -1171,8 +1171,8 @@ librsvg-dev.tcz
                                  readline.tcz
                                     ncursesw.tcz
                                  libffi.tcz
-                           pcre-dev.tcz
-                              pcre.tcz
+                           pcre21042-dev.tcz
+                              pcre21042.tcz
                               bzip2-dev.tcz
                                  bzip2.tcz
                                     bzip2-lib.tcz
@@ -1517,7 +1517,7 @@ librsvg-dev.tcz
                            harfbuzz.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
+                                 pcre21042.tcz
                               graphite.tcz
                            bzip2-lib.tcz
                         libfontenc.tcz
@@ -1657,7 +1657,7 @@ librsvg-dev.tcz
                            libxml2-python.tcz
                               libxml2.tcz
                                  liblzma.tcz
-                              python3.6.tcz
+                              python3.9.tcz
                                  openssl-1.1.1.tcz
                                  sqlite3.tcz
                                  gdbm.tcz
@@ -1675,7 +1675,7 @@ librsvg-dev.tcz
                            harfbuzz.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
+                                 pcre21042.tcz
                               graphite.tcz
                            bzip2-lib.tcz
                         libfontenc.tcz
@@ -1685,7 +1685,7 @@ librsvg-dev.tcz
                            harfbuzz.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
+                                 pcre21042.tcz
                               graphite.tcz
                            bzip2-lib.tcz
                         libpng-dev.tcz
@@ -1696,14 +1696,14 @@ librsvg-dev.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                            glib2-dev.tcz
                               glib2-python.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
-                                 python3.6.tcz
+                                    pcre21042.tcz
+                                 python3.9.tcz
                                     openssl-1.1.1.tcz
                                     sqlite3.tcz
                                     gdbm.tcz
@@ -1712,8 +1712,8 @@ librsvg-dev.tcz
                                     readline.tcz
                                        ncursesw.tcz
                                     libffi.tcz
-                              pcre-dev.tcz
-                                 pcre.tcz
+                              pcre21042-dev.tcz
+                                 pcre21042.tcz
                                  bzip2-dev.tcz
                                     bzip2.tcz
                                        bzip2-lib.tcz
@@ -1763,7 +1763,7 @@ librsvg-dev.tcz
                   libxml2-python.tcz
                      libxml2.tcz
                         liblzma.tcz
-                     python3.6.tcz
+                     python3.9.tcz
                         openssl-1.1.1.tcz
                         sqlite3.tcz
                         gdbm.tcz
@@ -1945,13 +1945,13 @@ librsvg-dev.tcz
          fribidi.tcz
             glib2.tcz
                libffi.tcz
-               pcre.tcz
+               pcre21042.tcz
          glib2-dev.tcz
             glib2-python.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
-               python3.6.tcz
+                  pcre21042.tcz
+               python3.9.tcz
                   openssl-1.1.1.tcz
                   sqlite3.tcz
                   gdbm.tcz
@@ -1960,8 +1960,8 @@ librsvg-dev.tcz
                   readline.tcz
                      ncursesw.tcz
                   libffi.tcz
-            pcre-dev.tcz
-               pcre.tcz
+            pcre21042-dev.tcz
+               pcre21042.tcz
                bzip2-dev.tcz
                   bzip2.tcz
                      bzip2-lib.tcz
@@ -1986,15 +1986,15 @@ librsvg-dev.tcz
          shared-mime-info.tcz
             glib2.tcz
                libffi.tcz
-               pcre.tcz
+               pcre21042.tcz
             libxml2.tcz
                liblzma.tcz
       glib2-dev.tcz
          glib2-python.tcz
             glib2.tcz
                libffi.tcz
-               pcre.tcz
-            python3.6.tcz
+               pcre21042.tcz
+            python3.9.tcz
                openssl-1.1.1.tcz
                sqlite3.tcz
                gdbm.tcz
@@ -2003,8 +2003,8 @@ librsvg-dev.tcz
                readline.tcz
                   ncursesw.tcz
                libffi.tcz
-         pcre-dev.tcz
-            pcre.tcz
+         pcre21042-dev.tcz
+            pcre21042.tcz
             bzip2-dev.tcz
                bzip2.tcz
                   bzip2-lib.tcz

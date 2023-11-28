@@ -10,12 +10,12 @@ upower-dev.tcz
                   attr.tcz
          glib2.tcz
             libffi.tcz
-            pcre.tcz
+            pcre21042.tcz
       gudev-lib.tcz
          udev-lib.tcz
          glib2.tcz
             libffi.tcz
-            pcre.tcz
+            pcre21042.tcz
       libusb.tcz
          udev-lib.tcz
       libimobiledevice.tcz
@@ -35,7 +35,7 @@ upower-dev.tcz
                   attr.tcz
          glib2.tcz
             libffi.tcz
-            pcre.tcz
+            pcre21042.tcz
       dbus-dev.tcz
          dbus.tcz
             expat2.tcz
@@ -259,7 +259,7 @@ upower-dev.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                   libfontenc.tcz
@@ -269,7 +269,7 @@ upower-dev.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                   libpng-dev.tcz
@@ -280,14 +280,14 @@ upower-dev.tcz
                         harfbuzz.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            graphite.tcz
                      glib2-dev.tcz
                         glib2-python.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
-                           python3.6.tcz
+                              pcre21042.tcz
+                           python3.9.tcz
                               openssl-1.1.1.tcz
                               sqlite3.tcz
                               gdbm.tcz
@@ -296,8 +296,8 @@ upower-dev.tcz
                               readline.tcz
                                  ncursesw.tcz
                               libffi.tcz
-                        pcre-dev.tcz
-                           pcre.tcz
+                        pcre21042-dev.tcz
+                           pcre21042.tcz
                            bzip2-dev.tcz
                               bzip2.tcz
                                  bzip2-lib.tcz
@@ -324,7 +324,7 @@ upower-dev.tcz
                         harfbuzz.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            graphite.tcz
                         bzip2-lib.tcz
                   freetype.tcz
@@ -332,7 +332,7 @@ upower-dev.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                   libXrender.tcz
@@ -348,7 +348,7 @@ upower-dev.tcz
                         harfbuzz.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            graphite.tcz
                         bzip2-lib.tcz
                   expat2-dev.tcz
@@ -359,7 +359,7 @@ upower-dev.tcz
                         harfbuzz.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            graphite.tcz
                         bzip2-lib.tcz
                      libpng-dev.tcz
@@ -370,14 +370,14 @@ upower-dev.tcz
                            harfbuzz.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
+                                 pcre21042.tcz
                               graphite.tcz
                         glib2-dev.tcz
                            glib2-python.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
-                              python3.6.tcz
+                                 pcre21042.tcz
+                              python3.9.tcz
                                  openssl-1.1.1.tcz
                                  sqlite3.tcz
                                  gdbm.tcz
@@ -386,8 +386,8 @@ upower-dev.tcz
                                  readline.tcz
                                     ncursesw.tcz
                                  libffi.tcz
-                           pcre-dev.tcz
-                              pcre.tcz
+                           pcre21042-dev.tcz
+                              pcre21042.tcz
                               bzip2-dev.tcz
                                  bzip2.tcz
                                     bzip2-lib.tcz
@@ -409,7 +409,7 @@ upower-dev.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                   libpng-dev.tcz
@@ -420,14 +420,14 @@ upower-dev.tcz
                         harfbuzz.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            graphite.tcz
                      glib2-dev.tcz
                         glib2-python.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
-                           python3.6.tcz
+                              pcre21042.tcz
+                           python3.9.tcz
                               openssl-1.1.1.tcz
                               sqlite3.tcz
                               gdbm.tcz
@@ -436,8 +436,8 @@ upower-dev.tcz
                               readline.tcz
                                  ncursesw.tcz
                               libffi.tcz
-                        pcre-dev.tcz
-                           pcre.tcz
+                        pcre21042-dev.tcz
+                           pcre21042.tcz
                            bzip2-dev.tcz
                               bzip2.tcz
                                  bzip2-lib.tcz
@@ -782,7 +782,7 @@ upower-dev.tcz
                         harfbuzz.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            graphite.tcz
                         bzip2-lib.tcz
                      libfontenc.tcz
@@ -922,7 +922,7 @@ upower-dev.tcz
                         libxml2-python.tcz
                            libxml2.tcz
                               liblzma.tcz
-                           python3.6.tcz
+                           python3.9.tcz
                               openssl-1.1.1.tcz
                               sqlite3.tcz
                               gdbm.tcz
@@ -940,7 +940,7 @@ upower-dev.tcz
                         harfbuzz.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            graphite.tcz
                         bzip2-lib.tcz
                      libfontenc.tcz
@@ -950,7 +950,7 @@ upower-dev.tcz
                         harfbuzz.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            graphite.tcz
                         bzip2-lib.tcz
                      libpng-dev.tcz
@@ -961,14 +961,14 @@ upower-dev.tcz
                            harfbuzz.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
+                                 pcre21042.tcz
                               graphite.tcz
                         glib2-dev.tcz
                            glib2-python.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
-                              python3.6.tcz
+                                 pcre21042.tcz
+                              python3.9.tcz
                                  openssl-1.1.1.tcz
                                  sqlite3.tcz
                                  gdbm.tcz
@@ -977,8 +977,8 @@ upower-dev.tcz
                                  readline.tcz
                                     ncursesw.tcz
                                  libffi.tcz
-                           pcre-dev.tcz
-                              pcre.tcz
+                           pcre21042-dev.tcz
+                              pcre21042.tcz
                               bzip2-dev.tcz
                                  bzip2.tcz
                                     bzip2-lib.tcz
@@ -1031,8 +1031,8 @@ upower-dev.tcz
          glib2-python.tcz
             glib2.tcz
                libffi.tcz
-               pcre.tcz
-            python3.6.tcz
+               pcre21042.tcz
+            python3.9.tcz
                openssl-1.1.1.tcz
                sqlite3.tcz
                gdbm.tcz
@@ -1041,8 +1041,8 @@ upower-dev.tcz
                readline.tcz
                   ncursesw.tcz
                libffi.tcz
-         pcre-dev.tcz
-            pcre.tcz
+         pcre21042-dev.tcz
+            pcre21042.tcz
             bzip2-dev.tcz
                bzip2.tcz
                   bzip2-lib.tcz
@@ -1058,15 +1058,15 @@ upower-dev.tcz
          udev-lib.tcz
          glib2.tcz
             libffi.tcz
-            pcre.tcz
+            pcre21042.tcz
       udev-lib-dev.tcz
          udev-lib.tcz
       glib2-dev.tcz
          glib2-python.tcz
             glib2.tcz
                libffi.tcz
-               pcre.tcz
-            python3.6.tcz
+               pcre21042.tcz
+            python3.9.tcz
                openssl-1.1.1.tcz
                sqlite3.tcz
                gdbm.tcz
@@ -1075,8 +1075,8 @@ upower-dev.tcz
                readline.tcz
                   ncursesw.tcz
                libffi.tcz
-         pcre-dev.tcz
-            pcre.tcz
+         pcre21042-dev.tcz
+            pcre21042.tcz
             bzip2-dev.tcz
                bzip2.tcz
                   bzip2-lib.tcz
@@ -1091,7 +1091,7 @@ upower-dev.tcz
       polkit.tcz
          glib2.tcz
             libffi.tcz
-            pcre.tcz
+            pcre21042.tcz
          expat2.tcz
          js78.tcz
             readline.tcz
@@ -1109,8 +1109,8 @@ upower-dev.tcz
          glib2-python.tcz
             glib2.tcz
                libffi.tcz
-               pcre.tcz
-            python3.6.tcz
+               pcre21042.tcz
+            python3.9.tcz
                openssl-1.1.1.tcz
                sqlite3.tcz
                gdbm.tcz
@@ -1119,8 +1119,8 @@ upower-dev.tcz
                readline.tcz
                   ncursesw.tcz
                libffi.tcz
-         pcre-dev.tcz
-            pcre.tcz
+         pcre21042-dev.tcz
+            pcre21042.tcz
             bzip2-dev.tcz
                bzip2.tcz
                   bzip2-lib.tcz
@@ -1143,9 +1143,6 @@ upower-dev.tcz
                ncursesw.tcz
             ncursesw-dev.tcz
                ncursesw.tcz
-         icu67-dev.tcz
-            icu67-bin.tcz
-               icu67.tcz
       linux-pam-dev.tcz
          linux-pam.tcz
       elogind-dev.tcz
@@ -1192,7 +1189,7 @@ upower-dev.tcz
                libxml2-python.tcz
                   libxml2.tcz
                      liblzma.tcz
-                  python3.6.tcz
+                  python3.9.tcz
                      openssl-1.1.1.tcz
                      sqlite3.tcz
                      gdbm.tcz

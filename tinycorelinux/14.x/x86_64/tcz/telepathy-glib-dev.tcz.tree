@@ -10,7 +10,7 @@ telepathy-glib-dev.tcz
                   attr.tcz
          glib2.tcz
             libffi.tcz
-            pcre.tcz
+            pcre21042.tcz
    dbus-glib-dev.tcz
       dbus-glib.tcz
          dbus.tcz
@@ -22,7 +22,7 @@ telepathy-glib-dev.tcz
                   attr.tcz
          glib2.tcz
             libffi.tcz
-            pcre.tcz
+            pcre21042.tcz
       dbus-dev.tcz
          dbus.tcz
             expat2.tcz
@@ -246,7 +246,7 @@ telepathy-glib-dev.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                   libfontenc.tcz
@@ -256,7 +256,7 @@ telepathy-glib-dev.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                   libpng-dev.tcz
@@ -267,14 +267,14 @@ telepathy-glib-dev.tcz
                         harfbuzz.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            graphite.tcz
                      glib2-dev.tcz
                         glib2-python.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
-                           python3.6.tcz
+                              pcre21042.tcz
+                           python3.9.tcz
                               openssl-1.1.1.tcz
                               sqlite3.tcz
                               gdbm.tcz
@@ -283,8 +283,8 @@ telepathy-glib-dev.tcz
                               readline.tcz
                                  ncursesw.tcz
                               libffi.tcz
-                        pcre-dev.tcz
-                           pcre.tcz
+                        pcre21042-dev.tcz
+                           pcre21042.tcz
                            bzip2-dev.tcz
                               bzip2.tcz
                                  bzip2-lib.tcz
@@ -311,7 +311,7 @@ telepathy-glib-dev.tcz
                         harfbuzz.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            graphite.tcz
                         bzip2-lib.tcz
                   freetype.tcz
@@ -319,7 +319,7 @@ telepathy-glib-dev.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                   libXrender.tcz
@@ -335,7 +335,7 @@ telepathy-glib-dev.tcz
                         harfbuzz.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            graphite.tcz
                         bzip2-lib.tcz
                   expat2-dev.tcz
@@ -346,7 +346,7 @@ telepathy-glib-dev.tcz
                         harfbuzz.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            graphite.tcz
                         bzip2-lib.tcz
                      libpng-dev.tcz
@@ -357,14 +357,14 @@ telepathy-glib-dev.tcz
                            harfbuzz.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
+                                 pcre21042.tcz
                               graphite.tcz
                         glib2-dev.tcz
                            glib2-python.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
-                              python3.6.tcz
+                                 pcre21042.tcz
+                              python3.9.tcz
                                  openssl-1.1.1.tcz
                                  sqlite3.tcz
                                  gdbm.tcz
@@ -373,8 +373,8 @@ telepathy-glib-dev.tcz
                                  readline.tcz
                                     ncursesw.tcz
                                  libffi.tcz
-                           pcre-dev.tcz
-                              pcre.tcz
+                           pcre21042-dev.tcz
+                              pcre21042.tcz
                               bzip2-dev.tcz
                                  bzip2.tcz
                                     bzip2-lib.tcz
@@ -396,7 +396,7 @@ telepathy-glib-dev.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                   libpng-dev.tcz
@@ -407,14 +407,14 @@ telepathy-glib-dev.tcz
                         harfbuzz.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            graphite.tcz
                      glib2-dev.tcz
                         glib2-python.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
-                           python3.6.tcz
+                              pcre21042.tcz
+                           python3.9.tcz
                               openssl-1.1.1.tcz
                               sqlite3.tcz
                               gdbm.tcz
@@ -423,8 +423,8 @@ telepathy-glib-dev.tcz
                               readline.tcz
                                  ncursesw.tcz
                               libffi.tcz
-                        pcre-dev.tcz
-                           pcre.tcz
+                        pcre21042-dev.tcz
+                           pcre21042.tcz
                            bzip2-dev.tcz
                               bzip2.tcz
                                  bzip2-lib.tcz
@@ -769,7 +769,7 @@ telepathy-glib-dev.tcz
                         harfbuzz.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            graphite.tcz
                         bzip2-lib.tcz
                      libfontenc.tcz
@@ -909,7 +909,7 @@ telepathy-glib-dev.tcz
                         libxml2-python.tcz
                            libxml2.tcz
                               liblzma.tcz
-                           python3.6.tcz
+                           python3.9.tcz
                               openssl-1.1.1.tcz
                               sqlite3.tcz
                               gdbm.tcz
@@ -927,7 +927,7 @@ telepathy-glib-dev.tcz
                         harfbuzz.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            graphite.tcz
                         bzip2-lib.tcz
                      libfontenc.tcz
@@ -937,7 +937,7 @@ telepathy-glib-dev.tcz
                         harfbuzz.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            graphite.tcz
                         bzip2-lib.tcz
                      libpng-dev.tcz
@@ -948,14 +948,14 @@ telepathy-glib-dev.tcz
                            harfbuzz.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
+                                 pcre21042.tcz
                               graphite.tcz
                         glib2-dev.tcz
                            glib2-python.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
-                              python3.6.tcz
+                                 pcre21042.tcz
+                              python3.9.tcz
                                  openssl-1.1.1.tcz
                                  sqlite3.tcz
                                  gdbm.tcz
@@ -964,8 +964,8 @@ telepathy-glib-dev.tcz
                                  readline.tcz
                                     ncursesw.tcz
                                  libffi.tcz
-                           pcre-dev.tcz
-                              pcre.tcz
+                           pcre21042-dev.tcz
+                              pcre21042.tcz
                               bzip2-dev.tcz
                                  bzip2.tcz
                                     bzip2-lib.tcz
@@ -1018,8 +1018,8 @@ telepathy-glib-dev.tcz
          glib2-python.tcz
             glib2.tcz
                libffi.tcz
-               pcre.tcz
-            python3.6.tcz
+               pcre21042.tcz
+            python3.9.tcz
                openssl-1.1.1.tcz
                sqlite3.tcz
                gdbm.tcz
@@ -1028,8 +1028,8 @@ telepathy-glib-dev.tcz
                readline.tcz
                   ncursesw.tcz
                libffi.tcz
-         pcre-dev.tcz
-            pcre.tcz
+         pcre21042-dev.tcz
+            pcre21042.tcz
             bzip2-dev.tcz
                bzip2.tcz
                   bzip2-lib.tcz

@@ -5,7 +5,7 @@ gnome-network-displays.tcz
             gstreamer.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
             libtheora.tcz
                libogg.tcz
             libvorbis.tcz
@@ -47,11 +47,11 @@ gnome-network-displays.tcz
                   attr.tcz
          glib2.tcz
             libffi.tcz
-            pcre.tcz
+            pcre21042.tcz
       polkit.tcz
          glib2.tcz
             libffi.tcz
-            pcre.tcz
+            pcre21042.tcz
          expat2.tcz
          js78.tcz
             readline.tcz
@@ -69,7 +69,7 @@ gnome-network-displays.tcz
          glib-networking.tcz
             glib2.tcz
                libffi.tcz
-               pcre.tcz
+               pcre21042.tcz
             gnutls35.tcz
                p11-kit.tcz
                   libffi.tcz
@@ -106,7 +106,7 @@ gnome-network-displays.tcz
          polkit.tcz
             glib2.tcz
                libffi.tcz
-               pcre.tcz
+               pcre21042.tcz
             expat2.tcz
             js78.tcz
                readline.tcz
@@ -126,7 +126,7 @@ gnome-network-displays.tcz
                   udev-lib.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
       libndp.tcz
       libbluetooth.tcz
          bluez.tcz
@@ -142,7 +142,7 @@ gnome-network-displays.tcz
                icu70.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
             bluetooth-6.1.2-tinycore64.tcz
             sbc.tcz
             readline.tcz
@@ -164,12 +164,12 @@ gnome-network-displays.tcz
                      attr.tcz
             glib2.tcz
                libffi.tcz
-               pcre.tcz
+               pcre21042.tcz
          gudev-lib.tcz
             udev-lib.tcz
             glib2.tcz
                libffi.tcz
-               pcre.tcz
+               pcre21042.tcz
          libusb.tcz
             udev-lib.tcz
          libimobiledevice.tcz
@@ -191,7 +191,7 @@ gnome-network-displays.tcz
             attr.tcz
          glib2.tcz
             libffi.tcz
-            pcre.tcz
+            pcre21042.tcz
          libsndfile.tcz
             flac.tcz
                libogg.tcz
@@ -227,13 +227,13 @@ gnome-network-displays.tcz
          gcc_libs.tcz
          glib2.tcz
             libffi.tcz
-            pcre.tcz
+            pcre21042.tcz
    gst-plugins-ugly.tcz
       gst-plugins-base.tcz
          gstreamer.tcz
             glib2.tcz
                libffi.tcz
-               pcre.tcz
+               pcre21042.tcz
          libtheora.tcz
             libogg.tcz
          libvorbis.tcz
@@ -253,7 +253,7 @@ gnome-network-displays.tcz
          gstreamer.tcz
             glib2.tcz
                libffi.tcz
-               pcre.tcz
+               pcre21042.tcz
          libtheora.tcz
             libogg.tcz
          libvorbis.tcz
@@ -341,7 +341,7 @@ gnome-network-displays.tcz
                      cairo.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         fontconfig.tcz
                            expat2.tcz
                            freetype.tcz
@@ -349,7 +349,7 @@ gnome-network-displays.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                               bzip2-lib.tcz
                         pixman.tcz
@@ -413,7 +413,7 @@ gnome-network-displays.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                               bzip2-lib.tcz
                         freetype.tcz
@@ -421,7 +421,7 @@ gnome-network-displays.tcz
                            harfbuzz.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
+                                 pcre21042.tcz
                               graphite.tcz
                            bzip2-lib.tcz
                         libXrender.tcz
@@ -432,7 +432,7 @@ gnome-network-displays.tcz
                      fribidi.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                   gdk-pixbuf2.tcz
                      libtiff.tcz
                         libjpeg-turbo.tcz
@@ -446,13 +446,13 @@ gnome-network-displays.tcz
                      shared-mime-info.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         libxml2.tcz
                            liblzma.tcz
                cairo.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
                   fontconfig.tcz
                      expat2.tcz
                      freetype.tcz
@@ -460,7 +460,7 @@ gnome-network-displays.tcz
                         harfbuzz.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            graphite.tcz
                         bzip2-lib.tcz
                   pixman.tcz
@@ -527,7 +527,7 @@ gnome-network-displays.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
             gnutls35.tcz
@@ -636,11 +636,11 @@ gnome-network-displays.tcz
             fribidi.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
             harfbuzz.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
                graphite.tcz
             fontconfig.tcz
                expat2.tcz
@@ -649,7 +649,7 @@ gnome-network-displays.tcz
                   harfbuzz.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
+                        pcre21042.tcz
                      graphite.tcz
                   bzip2-lib.tcz
 

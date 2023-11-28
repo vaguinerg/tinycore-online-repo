@@ -2,8 +2,8 @@ gobject-introspection-dev.tcz
    gobject-introspection.tcz
       glib2.tcz
          libffi.tcz
-         pcre.tcz
-      python3.6.tcz
+         pcre21042.tcz
+      python3.9.tcz
          openssl-1.1.1.tcz
          sqlite3.tcz
          gdbm.tcz
@@ -16,8 +16,8 @@ gobject-introspection-dev.tcz
       glib2-python.tcz
          glib2.tcz
             libffi.tcz
-            pcre.tcz
-         python3.6.tcz
+            pcre21042.tcz
+         python3.9.tcz
             openssl-1.1.1.tcz
             sqlite3.tcz
             gdbm.tcz
@@ -26,8 +26,8 @@ gobject-introspection-dev.tcz
             readline.tcz
                ncursesw.tcz
             libffi.tcz
-      pcre-dev.tcz
-         pcre.tcz
+      pcre21042-dev.tcz
+         pcre21042.tcz
          bzip2-dev.tcz
             bzip2.tcz
                bzip2-lib.tcz
@@ -38,8 +38,8 @@ gobject-introspection-dev.tcz
                ncursesw.tcz
       libffi-dev.tcz
          libffi.tcz
-   python3.6-dev.tcz
-      python3.6.tcz
+   python3.9-dev.tcz
+      python3.9.tcz
          openssl-1.1.1.tcz
          sqlite3.tcz
          gdbm.tcz
@@ -68,7 +68,7 @@ gobject-introspection-dev.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                freetype.tcz
@@ -76,7 +76,7 @@ gobject-introspection-dev.tcz
                   harfbuzz.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
+                        pcre21042.tcz
                      graphite.tcz
                   bzip2-lib.tcz
                libXrender.tcz
@@ -312,7 +312,7 @@ gobject-introspection-dev.tcz
                   harfbuzz.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
+                        pcre21042.tcz
                      graphite.tcz
                   bzip2-lib.tcz
                libfontenc.tcz
@@ -322,7 +322,7 @@ gobject-introspection-dev.tcz
                   harfbuzz.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
+                        pcre21042.tcz
                      graphite.tcz
                   bzip2-lib.tcz
                libpng-dev.tcz
@@ -333,14 +333,14 @@ gobject-introspection-dev.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                   glib2-dev.tcz
                      glib2-python.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
-                        python3.6.tcz
+                           pcre21042.tcz
+                        python3.9.tcz
                            openssl-1.1.1.tcz
                            sqlite3.tcz
                            gdbm.tcz
@@ -349,8 +349,8 @@ gobject-introspection-dev.tcz
                            readline.tcz
                               ncursesw.tcz
                            libffi.tcz
-                     pcre-dev.tcz
-                        pcre.tcz
+                     pcre21042-dev.tcz
+                        pcre21042.tcz
                         bzip2-dev.tcz
                            bzip2.tcz
                               bzip2-lib.tcz
@@ -377,7 +377,7 @@ gobject-introspection-dev.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                freetype.tcz
@@ -385,7 +385,7 @@ gobject-introspection-dev.tcz
                   harfbuzz.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
+                        pcre21042.tcz
                      graphite.tcz
                   bzip2-lib.tcz
                libXrender.tcz
@@ -401,7 +401,7 @@ gobject-introspection-dev.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                expat2-dev.tcz
@@ -412,7 +412,7 @@ gobject-introspection-dev.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                   libpng-dev.tcz
@@ -423,14 +423,14 @@ gobject-introspection-dev.tcz
                         harfbuzz.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            graphite.tcz
                      glib2-dev.tcz
                         glib2-python.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
-                           python3.6.tcz
+                              pcre21042.tcz
+                           python3.9.tcz
                               openssl-1.1.1.tcz
                               sqlite3.tcz
                               gdbm.tcz
@@ -439,8 +439,8 @@ gobject-introspection-dev.tcz
                               readline.tcz
                                  ncursesw.tcz
                               libffi.tcz
-                        pcre-dev.tcz
-                           pcre.tcz
+                        pcre21042-dev.tcz
+                           pcre21042.tcz
                            bzip2-dev.tcz
                               bzip2.tcz
                                  bzip2-lib.tcz
@@ -462,7 +462,7 @@ gobject-introspection-dev.tcz
                   harfbuzz.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
+                        pcre21042.tcz
                      graphite.tcz
                   bzip2-lib.tcz
                libpng-dev.tcz
@@ -473,14 +473,14 @@ gobject-introspection-dev.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                   glib2-dev.tcz
                      glib2-python.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
-                        python3.6.tcz
+                           pcre21042.tcz
+                        python3.9.tcz
                            openssl-1.1.1.tcz
                            sqlite3.tcz
                            gdbm.tcz
@@ -489,8 +489,8 @@ gobject-introspection-dev.tcz
                            readline.tcz
                               ncursesw.tcz
                            libffi.tcz
-                     pcre-dev.tcz
-                        pcre.tcz
+                     pcre21042-dev.tcz
+                        pcre21042.tcz
                         bzip2-dev.tcz
                            bzip2.tcz
                               bzip2-lib.tcz
@@ -835,7 +835,7 @@ gobject-introspection-dev.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                   libfontenc.tcz
@@ -975,7 +975,7 @@ gobject-introspection-dev.tcz
                      libxml2-python.tcz
                         libxml2.tcz
                            liblzma.tcz
-                        python3.6.tcz
+                        python3.9.tcz
                            openssl-1.1.1.tcz
                            sqlite3.tcz
                            gdbm.tcz
@@ -993,7 +993,7 @@ gobject-introspection-dev.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                   libfontenc.tcz
@@ -1003,7 +1003,7 @@ gobject-introspection-dev.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                   libpng-dev.tcz
@@ -1014,14 +1014,14 @@ gobject-introspection-dev.tcz
                         harfbuzz.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            graphite.tcz
                      glib2-dev.tcz
                         glib2-python.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
-                           python3.6.tcz
+                              pcre21042.tcz
+                           python3.9.tcz
                               openssl-1.1.1.tcz
                               sqlite3.tcz
                               gdbm.tcz
@@ -1030,8 +1030,8 @@ gobject-introspection-dev.tcz
                               readline.tcz
                                  ncursesw.tcz
                               libffi.tcz
-                        pcre-dev.tcz
-                           pcre.tcz
+                        pcre21042-dev.tcz
+                           pcre21042.tcz
                            bzip2-dev.tcz
                               bzip2.tcz
                                  bzip2-lib.tcz

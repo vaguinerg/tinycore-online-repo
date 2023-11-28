@@ -2,8 +2,8 @@ gnome-boxes.tcz
    gobject-introspection.tcz
       glib2.tcz
          libffi.tcz
-         pcre.tcz
-      python3.6.tcz
+         pcre21042.tcz
+      python3.9.tcz
          openssl-1.1.1.tcz
          sqlite3.tcz
          gdbm.tcz
@@ -26,7 +26,7 @@ gnome-boxes.tcz
                         attr.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
                libICE.tcz
                libSM.tcz
                libX11.tcz
@@ -36,7 +36,7 @@ gnome-boxes.tcz
             atk.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
          gdk-pixbuf2.tcz
             libtiff.tcz
                libjpeg-turbo.tcz
@@ -50,7 +50,7 @@ gnome-boxes.tcz
             shared-mime-info.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
                libxml2.tcz
                   liblzma.tcz
          libXcomposite.tcz
@@ -62,7 +62,7 @@ gnome-boxes.tcz
             cairo.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
                fontconfig.tcz
                   expat2.tcz
                   freetype.tcz
@@ -70,7 +70,7 @@ gnome-boxes.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                pixman.tcz
@@ -134,7 +134,7 @@ gnome-boxes.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                freetype.tcz
@@ -142,7 +142,7 @@ gnome-boxes.tcz
                   harfbuzz.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
+                        pcre21042.tcz
                      graphite.tcz
                   bzip2-lib.tcz
                libXrender.tcz
@@ -153,7 +153,7 @@ gnome-boxes.tcz
             fribidi.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
          libXcursor.tcz
             libXrender.tcz
                libX11.tcz
@@ -215,7 +215,7 @@ gnome-boxes.tcz
             attr.tcz
          glib2.tcz
             libffi.tcz
-            pcre.tcz
+            pcre21042.tcz
          libsndfile.tcz
             flac.tcz
                libogg.tcz
@@ -255,7 +255,7 @@ gnome-boxes.tcz
             gcc_libs.tcz
             glib2.tcz
                libffi.tcz
-               pcre.tcz
+               pcre21042.tcz
          cyrus-sasl.tcz
             openssl-1.1.1.tcz
          libssh2.tcz
@@ -290,7 +290,7 @@ gnome-boxes.tcz
             gstreamer.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
             libtheora.tcz
                libogg.tcz
             libvorbis.tcz
@@ -314,7 +314,7 @@ gnome-boxes.tcz
                         attr.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
                libICE.tcz
                libSM.tcz
                libX11.tcz
@@ -324,7 +324,7 @@ gnome-boxes.tcz
             atk.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
          gdk-pixbuf2.tcz
             libtiff.tcz
                libjpeg-turbo.tcz
@@ -338,7 +338,7 @@ gnome-boxes.tcz
             shared-mime-info.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
                libxml2.tcz
                   liblzma.tcz
          libXcomposite.tcz
@@ -350,7 +350,7 @@ gnome-boxes.tcz
             cairo.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
                fontconfig.tcz
                   expat2.tcz
                   freetype.tcz
@@ -358,7 +358,7 @@ gnome-boxes.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                pixman.tcz
@@ -422,7 +422,7 @@ gnome-boxes.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                freetype.tcz
@@ -430,7 +430,7 @@ gnome-boxes.tcz
                   harfbuzz.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
+                        pcre21042.tcz
                      graphite.tcz
                   bzip2-lib.tcz
                libXrender.tcz
@@ -441,7 +441,7 @@ gnome-boxes.tcz
             fribidi.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
          libXcursor.tcz
             libXrender.tcz
                libX11.tcz
@@ -492,7 +492,7 @@ gnome-boxes.tcz
             gstreamer.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
             libtheora.tcz
                libogg.tcz
             libvorbis.tcz
@@ -524,7 +524,7 @@ gnome-boxes.tcz
       json-glib.tcz
          glib2.tcz
             libffi.tcz
-            pcre.tcz
+            pcre21042.tcz
       icu70.tcz
       libstemmer.tcz
       libxml2.tcz
@@ -559,7 +559,7 @@ gnome-boxes.tcz
             gstreamer.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
             libtheora.tcz
                libogg.tcz
             libvorbis.tcz
@@ -591,7 +591,7 @@ gnome-boxes.tcz
             attr.tcz
          glib2.tcz
             libffi.tcz
-            pcre.tcz
+            pcre21042.tcz
          libsndfile.tcz
             flac.tcz
                libogg.tcz
@@ -620,7 +620,7 @@ gnome-boxes.tcz
                icu70.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
             bluetooth-6.1.2-tinycore64.tcz
             sbc.tcz
             readline.tcz
@@ -669,7 +669,7 @@ gnome-boxes.tcz
                shared-mime-info.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
                   libxml2.tcz
                      liblzma.tcz
             librsvg.tcz
@@ -677,7 +677,7 @@ gnome-boxes.tcz
                   cairo.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
+                        pcre21042.tcz
                      fontconfig.tcz
                         expat2.tcz
                         freetype.tcz
@@ -685,7 +685,7 @@ gnome-boxes.tcz
                            harfbuzz.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
+                                 pcre21042.tcz
                               graphite.tcz
                            bzip2-lib.tcz
                      pixman.tcz
@@ -749,7 +749,7 @@ gnome-boxes.tcz
                            harfbuzz.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
+                                 pcre21042.tcz
                               graphite.tcz
                            bzip2-lib.tcz
                      freetype.tcz
@@ -757,7 +757,7 @@ gnome-boxes.tcz
                         harfbuzz.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            graphite.tcz
                         bzip2-lib.tcz
                      libXrender.tcz
@@ -768,7 +768,7 @@ gnome-boxes.tcz
                   fribidi.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
+                        pcre21042.tcz
                gdk-pixbuf2.tcz
                   libtiff.tcz
                      libjpeg-turbo.tcz
@@ -782,7 +782,7 @@ gnome-boxes.tcz
                   shared-mime-info.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
+                        pcre21042.tcz
                      libxml2.tcz
                         liblzma.tcz
             hicolor-icon-theme.tcz
@@ -807,7 +807,7 @@ gnome-boxes.tcz
             gstreamer.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
             libtheora.tcz
                libogg.tcz
             libvorbis.tcz
@@ -840,16 +840,16 @@ gnome-boxes.tcz
             libgpg-error.tcz
          glib2.tcz
             libffi.tcz
-            pcre.tcz
+            pcre21042.tcz
       gudev-lib.tcz
          udev-lib.tcz
          glib2.tcz
             libffi.tcz
-            pcre.tcz
+            pcre21042.tcz
       enchant2.tcz
          glib2.tcz
             libffi.tcz
-            pcre.tcz
+            pcre21042.tcz
          aspell.tcz
             aspell-en.tcz
             ncursesw.tcz
@@ -861,12 +861,12 @@ gnome-boxes.tcz
          json-glib.tcz
             glib2.tcz
                libffi.tcz
-               pcre.tcz
+               pcre21042.tcz
          libsoup.tcz
             glib-networking.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
                gnutls35.tcz
                   p11-kit.tcz
                      libffi.tcz
@@ -894,12 +894,12 @@ gnome-boxes.tcz
             gcc_libs.tcz
             glib2.tcz
                libffi.tcz
-               pcre.tcz
+               pcre21042.tcz
          modemmanager.tcz
             polkit.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
                expat2.tcz
                js78.tcz
                   readline.tcz
@@ -919,7 +919,7 @@ gnome-boxes.tcz
                      udev-lib.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
+                        pcre21042.tcz
          libnotify.tcz
             notification-daemon.tcz
                gtk3.tcz
@@ -935,7 +935,7 @@ gnome-boxes.tcz
                                  attr.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         libICE.tcz
                         libSM.tcz
                         libX11.tcz
@@ -945,7 +945,7 @@ gnome-boxes.tcz
                      atk.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                   gdk-pixbuf2.tcz
                      libtiff.tcz
                         libjpeg-turbo.tcz
@@ -959,7 +959,7 @@ gnome-boxes.tcz
                      shared-mime-info.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         libxml2.tcz
                            liblzma.tcz
                   libXcomposite.tcz
@@ -971,7 +971,7 @@ gnome-boxes.tcz
                      cairo.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         fontconfig.tcz
                            expat2.tcz
                            freetype.tcz
@@ -979,7 +979,7 @@ gnome-boxes.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                               bzip2-lib.tcz
                         pixman.tcz
@@ -1043,7 +1043,7 @@ gnome-boxes.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                               bzip2-lib.tcz
                         freetype.tcz
@@ -1051,7 +1051,7 @@ gnome-boxes.tcz
                            harfbuzz.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
+                                 pcre21042.tcz
                               graphite.tcz
                            bzip2-lib.tcz
                         libXrender.tcz
@@ -1062,7 +1062,7 @@ gnome-boxes.tcz
                      fribidi.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                   libXcursor.tcz
                      libXrender.tcz
                         libX11.tcz
@@ -1125,7 +1125,7 @@ gnome-boxes.tcz
                                     attr.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            libICE.tcz
                            libSM.tcz
                            libX11.tcz
@@ -1135,7 +1135,7 @@ gnome-boxes.tcz
                         atk.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                      gdk-pixbuf2.tcz
                         libtiff.tcz
                            libjpeg-turbo.tcz
@@ -1149,7 +1149,7 @@ gnome-boxes.tcz
                         shared-mime-info.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            libxml2.tcz
                               liblzma.tcz
                      libXcomposite.tcz
@@ -1161,7 +1161,7 @@ gnome-boxes.tcz
                         cairo.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            fontconfig.tcz
                               expat2.tcz
                               freetype.tcz
@@ -1169,7 +1169,7 @@ gnome-boxes.tcz
                                  harfbuzz.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
+                                       pcre21042.tcz
                                     graphite.tcz
                                  bzip2-lib.tcz
                            pixman.tcz
@@ -1233,7 +1233,7 @@ gnome-boxes.tcz
                                  harfbuzz.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
+                                       pcre21042.tcz
                                     graphite.tcz
                                  bzip2-lib.tcz
                            freetype.tcz
@@ -1241,7 +1241,7 @@ gnome-boxes.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                               bzip2-lib.tcz
                            libXrender.tcz
@@ -1252,7 +1252,7 @@ gnome-boxes.tcz
                         fribidi.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                      libXcursor.tcz
                         libXrender.tcz
                            libX11.tcz
@@ -1305,14 +1305,14 @@ gnome-boxes.tcz
          harfbuzz.tcz
             glib2.tcz
                libffi.tcz
-               pcre.tcz
+               pcre21042.tcz
             graphite.tcz
          icu70.tcz
       openjpeg.tcz
       gsettings-desktop-schemas.tcz
          glib2.tcz
             libffi.tcz
-            pcre.tcz
+            pcre21042.tcz
       ca-certificates.tcz
          openssl-1.1.1.tcz
       liblcms2.tcz
@@ -1331,7 +1331,7 @@ gnome-boxes.tcz
             shared-mime-info.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
                libxml2.tcz
                   liblzma.tcz
          librsvg.tcz
@@ -1339,7 +1339,7 @@ gnome-boxes.tcz
                cairo.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
                   fontconfig.tcz
                      expat2.tcz
                      freetype.tcz
@@ -1347,7 +1347,7 @@ gnome-boxes.tcz
                         harfbuzz.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            graphite.tcz
                         bzip2-lib.tcz
                   pixman.tcz
@@ -1411,7 +1411,7 @@ gnome-boxes.tcz
                         harfbuzz.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            graphite.tcz
                         bzip2-lib.tcz
                   freetype.tcz
@@ -1419,7 +1419,7 @@ gnome-boxes.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                   libXrender.tcz
@@ -1430,7 +1430,7 @@ gnome-boxes.tcz
                fribidi.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
             gdk-pixbuf2.tcz
                libtiff.tcz
                   libjpeg-turbo.tcz
@@ -1444,7 +1444,7 @@ gnome-boxes.tcz
                shared-mime-info.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
                   libxml2.tcz
                      liblzma.tcz
          hicolor-icon-theme.tcz
@@ -1462,7 +1462,7 @@ gnome-boxes.tcz
                         attr.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
                libICE.tcz
                libSM.tcz
                libX11.tcz
@@ -1472,7 +1472,7 @@ gnome-boxes.tcz
             atk.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
          gdk-pixbuf2.tcz
             libtiff.tcz
                libjpeg-turbo.tcz
@@ -1486,7 +1486,7 @@ gnome-boxes.tcz
             shared-mime-info.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
                libxml2.tcz
                   liblzma.tcz
          libXcomposite.tcz
@@ -1498,7 +1498,7 @@ gnome-boxes.tcz
             cairo.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
                fontconfig.tcz
                   expat2.tcz
                   freetype.tcz
@@ -1506,7 +1506,7 @@ gnome-boxes.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                pixman.tcz
@@ -1570,7 +1570,7 @@ gnome-boxes.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                freetype.tcz
@@ -1578,7 +1578,7 @@ gnome-boxes.tcz
                   harfbuzz.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
+                        pcre21042.tcz
                      graphite.tcz
                   bzip2-lib.tcz
                libXrender.tcz
@@ -1589,7 +1589,7 @@ gnome-boxes.tcz
             fribidi.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
          libXcursor.tcz
             libXrender.tcz
                libX11.tcz
@@ -1649,7 +1649,7 @@ gnome-boxes.tcz
                         attr.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
                libICE.tcz
                libSM.tcz
                libX11.tcz
@@ -1659,7 +1659,7 @@ gnome-boxes.tcz
             atk.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
          gdk-pixbuf2.tcz
             libtiff.tcz
                libjpeg-turbo.tcz
@@ -1673,7 +1673,7 @@ gnome-boxes.tcz
             shared-mime-info.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
                libxml2.tcz
                   liblzma.tcz
          libXcomposite.tcz
@@ -1685,7 +1685,7 @@ gnome-boxes.tcz
             cairo.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
                fontconfig.tcz
                   expat2.tcz
                   freetype.tcz
@@ -1693,7 +1693,7 @@ gnome-boxes.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                pixman.tcz
@@ -1757,7 +1757,7 @@ gnome-boxes.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                freetype.tcz
@@ -1765,7 +1765,7 @@ gnome-boxes.tcz
                   harfbuzz.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
+                        pcre21042.tcz
                      graphite.tcz
                   bzip2-lib.tcz
                libXrender.tcz
@@ -1776,7 +1776,7 @@ gnome-boxes.tcz
             fribidi.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
          libXcursor.tcz
             libXrender.tcz
                libX11.tcz

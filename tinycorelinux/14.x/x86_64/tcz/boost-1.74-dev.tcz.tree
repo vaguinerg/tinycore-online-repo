@@ -4,9 +4,9 @@ boost-1.74-dev.tcz
          libzstd.tcz
          liblzma.tcz
          liblz4.tcz
-   icu67-dev.tcz
-      icu67-bin.tcz
-         icu67.tcz
+   icu74-dev.tcz
+      icu74-bin.tcz
+         icu74.tcz
    python3.6-dev.tcz
       python3.6.tcz
          openssl-1.1.1.tcz
@@ -37,7 +37,7 @@ boost-1.74-dev.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                freetype.tcz
@@ -45,7 +45,7 @@ boost-1.74-dev.tcz
                   harfbuzz.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
+                        pcre21042.tcz
                      graphite.tcz
                   bzip2-lib.tcz
                libXrender.tcz
@@ -281,7 +281,7 @@ boost-1.74-dev.tcz
                   harfbuzz.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
+                        pcre21042.tcz
                      graphite.tcz
                   bzip2-lib.tcz
                libfontenc.tcz
@@ -291,7 +291,7 @@ boost-1.74-dev.tcz
                   harfbuzz.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
+                        pcre21042.tcz
                      graphite.tcz
                   bzip2-lib.tcz
                libpng-dev.tcz
@@ -302,14 +302,14 @@ boost-1.74-dev.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                   glib2-dev.tcz
                      glib2-python.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
-                        python3.6.tcz
+                           pcre21042.tcz
+                        python3.9.tcz
                            openssl-1.1.1.tcz
                            sqlite3.tcz
                            gdbm.tcz
@@ -318,8 +318,8 @@ boost-1.74-dev.tcz
                            readline.tcz
                               ncursesw.tcz
                            libffi.tcz
-                     pcre-dev.tcz
-                        pcre.tcz
+                     pcre21042-dev.tcz
+                        pcre21042.tcz
                         bzip2-dev.tcz
                            bzip2.tcz
                               bzip2-lib.tcz
@@ -346,7 +346,7 @@ boost-1.74-dev.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                freetype.tcz
@@ -354,7 +354,7 @@ boost-1.74-dev.tcz
                   harfbuzz.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
+                        pcre21042.tcz
                      graphite.tcz
                   bzip2-lib.tcz
                libXrender.tcz
@@ -370,7 +370,7 @@ boost-1.74-dev.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                expat2-dev.tcz
@@ -381,7 +381,7 @@ boost-1.74-dev.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                   libpng-dev.tcz
@@ -392,14 +392,14 @@ boost-1.74-dev.tcz
                         harfbuzz.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            graphite.tcz
                      glib2-dev.tcz
                         glib2-python.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
-                           python3.6.tcz
+                              pcre21042.tcz
+                           python3.9.tcz
                               openssl-1.1.1.tcz
                               sqlite3.tcz
                               gdbm.tcz
@@ -408,8 +408,8 @@ boost-1.74-dev.tcz
                               readline.tcz
                                  ncursesw.tcz
                               libffi.tcz
-                        pcre-dev.tcz
-                           pcre.tcz
+                        pcre21042-dev.tcz
+                           pcre21042.tcz
                            bzip2-dev.tcz
                               bzip2.tcz
                                  bzip2-lib.tcz
@@ -431,7 +431,7 @@ boost-1.74-dev.tcz
                   harfbuzz.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
+                        pcre21042.tcz
                      graphite.tcz
                   bzip2-lib.tcz
                libpng-dev.tcz
@@ -442,14 +442,14 @@ boost-1.74-dev.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                   glib2-dev.tcz
                      glib2-python.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
-                        python3.6.tcz
+                           pcre21042.tcz
+                        python3.9.tcz
                            openssl-1.1.1.tcz
                            sqlite3.tcz
                            gdbm.tcz
@@ -458,8 +458,8 @@ boost-1.74-dev.tcz
                            readline.tcz
                               ncursesw.tcz
                            libffi.tcz
-                     pcre-dev.tcz
-                        pcre.tcz
+                     pcre21042-dev.tcz
+                        pcre21042.tcz
                         bzip2-dev.tcz
                            bzip2.tcz
                               bzip2-lib.tcz
@@ -804,7 +804,7 @@ boost-1.74-dev.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                   libfontenc.tcz
@@ -944,7 +944,7 @@ boost-1.74-dev.tcz
                      libxml2-python.tcz
                         libxml2.tcz
                            liblzma.tcz
-                        python3.6.tcz
+                        python3.9.tcz
                            openssl-1.1.1.tcz
                            sqlite3.tcz
                            gdbm.tcz
@@ -962,7 +962,7 @@ boost-1.74-dev.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                   libfontenc.tcz
@@ -972,7 +972,7 @@ boost-1.74-dev.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                   libpng-dev.tcz
@@ -983,14 +983,14 @@ boost-1.74-dev.tcz
                         harfbuzz.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            graphite.tcz
                      glib2-dev.tcz
                         glib2-python.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
-                           python3.6.tcz
+                              pcre21042.tcz
+                           python3.9.tcz
                               openssl-1.1.1.tcz
                               sqlite3.tcz
                               gdbm.tcz
@@ -999,8 +999,8 @@ boost-1.74-dev.tcz
                               readline.tcz
                                  ncursesw.tcz
                               libffi.tcz
-                        pcre-dev.tcz
-                           pcre.tcz
+                        pcre21042-dev.tcz
+                           pcre21042.tcz
                            bzip2-dev.tcz
                               bzip2.tcz
                                  bzip2-lib.tcz

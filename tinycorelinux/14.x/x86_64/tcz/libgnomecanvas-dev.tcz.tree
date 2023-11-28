@@ -5,7 +5,7 @@ libgnomecanvas-dev.tcz
             atk.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
             gdk-pixbuf2.tcz
                libtiff.tcz
                   libjpeg-turbo.tcz
@@ -19,7 +19,7 @@ libgnomecanvas-dev.tcz
                shared-mime-info.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
                   libxml2.tcz
                      liblzma.tcz
             libXcomposite.tcz
@@ -59,7 +59,7 @@ libgnomecanvas-dev.tcz
                cairo.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
                   fontconfig.tcz
                      expat2.tcz
                      freetype.tcz
@@ -67,7 +67,7 @@ libgnomecanvas-dev.tcz
                         harfbuzz.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            graphite.tcz
                         bzip2-lib.tcz
                   pixman.tcz
@@ -131,7 +131,7 @@ libgnomecanvas-dev.tcz
                         harfbuzz.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            graphite.tcz
                         bzip2-lib.tcz
                   freetype.tcz
@@ -139,7 +139,7 @@ libgnomecanvas-dev.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                   libXrender.tcz
@@ -150,7 +150,7 @@ libgnomecanvas-dev.tcz
                fribidi.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
             Xorg-7.7-lib.tcz 
       libart.tcz
       libffi6.tcz
@@ -160,7 +160,7 @@ libgnomecanvas-dev.tcz
             atk.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
             gdk-pixbuf2.tcz
                libtiff.tcz
                   libjpeg-turbo.tcz
@@ -174,7 +174,7 @@ libgnomecanvas-dev.tcz
                shared-mime-info.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
                   libxml2.tcz
                      liblzma.tcz
             libXcomposite.tcz
@@ -214,7 +214,7 @@ libgnomecanvas-dev.tcz
                cairo.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
                   fontconfig.tcz
                      expat2.tcz
                      freetype.tcz
@@ -222,7 +222,7 @@ libgnomecanvas-dev.tcz
                         harfbuzz.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            graphite.tcz
                         bzip2-lib.tcz
                   pixman.tcz
@@ -286,7 +286,7 @@ libgnomecanvas-dev.tcz
                         harfbuzz.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            graphite.tcz
                         bzip2-lib.tcz
                   freetype.tcz
@@ -294,7 +294,7 @@ libgnomecanvas-dev.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                   libXrender.tcz
@@ -305,20 +305,20 @@ libgnomecanvas-dev.tcz
                fribidi.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
             Xorg-7.7-lib.tcz 
       gtk2-dev.tcz
          atk-dev.tcz
             atk.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
             glib2-dev.tcz
                glib2-python.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
-                  python3.6.tcz
+                     pcre21042.tcz
+                  python3.9.tcz
                      openssl-1.1.1.tcz
                      sqlite3.tcz
                      gdbm.tcz
@@ -327,8 +327,8 @@ libgnomecanvas-dev.tcz
                      readline.tcz
                         ncursesw.tcz
                      libffi.tcz
-               pcre-dev.tcz
-                  pcre.tcz
+               pcre21042-dev.tcz
+                  pcre21042.tcz
                   bzip2-dev.tcz
                      bzip2.tcz
                         bzip2-lib.tcz
@@ -353,7 +353,7 @@ libgnomecanvas-dev.tcz
                      gcc_libs.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
+                        pcre21042.tcz
                   gnutls35.tcz
                      p11-kit.tcz
                         libffi.tcz
@@ -376,7 +376,7 @@ libgnomecanvas-dev.tcz
                      cairo.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         fontconfig.tcz
                            expat2.tcz
                            freetype.tcz
@@ -384,7 +384,7 @@ libgnomecanvas-dev.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                               bzip2-lib.tcz
                         pixman.tcz
@@ -476,7 +476,7 @@ libgnomecanvas-dev.tcz
                      gcc_libs.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
+                        pcre21042.tcz
                   nss-mdns.tcz
                   libdaemon.tcz
                dbus-dev.tcz
@@ -702,7 +702,7 @@ libgnomecanvas-dev.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                               bzip2-lib.tcz
                            libfontenc.tcz
@@ -712,7 +712,7 @@ libgnomecanvas-dev.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                               bzip2-lib.tcz
                            libpng-dev.tcz
@@ -723,14 +723,14 @@ libgnomecanvas-dev.tcz
                                  harfbuzz.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
+                                       pcre21042.tcz
                                     graphite.tcz
                               glib2-dev.tcz
                                  glib2-python.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
-                                    python3.6.tcz
+                                       pcre21042.tcz
+                                    python3.9.tcz
                                        openssl-1.1.1.tcz
                                        sqlite3.tcz
                                        gdbm.tcz
@@ -739,8 +739,8 @@ libgnomecanvas-dev.tcz
                                        readline.tcz
                                           ncursesw.tcz
                                        libffi.tcz
-                                 pcre-dev.tcz
-                                    pcre.tcz
+                                 pcre21042-dev.tcz
+                                    pcre21042.tcz
                                     bzip2-dev.tcz
                                        bzip2.tcz
                                           bzip2-lib.tcz
@@ -767,7 +767,7 @@ libgnomecanvas-dev.tcz
                                  harfbuzz.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
+                                       pcre21042.tcz
                                     graphite.tcz
                                  bzip2-lib.tcz
                            freetype.tcz
@@ -775,7 +775,7 @@ libgnomecanvas-dev.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                               bzip2-lib.tcz
                            libXrender.tcz
@@ -791,7 +791,7 @@ libgnomecanvas-dev.tcz
                                  harfbuzz.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
+                                       pcre21042.tcz
                                     graphite.tcz
                                  bzip2-lib.tcz
                            expat2-dev.tcz
@@ -802,7 +802,7 @@ libgnomecanvas-dev.tcz
                                  harfbuzz.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
+                                       pcre21042.tcz
                                     graphite.tcz
                                  bzip2-lib.tcz
                               libpng-dev.tcz
@@ -813,14 +813,14 @@ libgnomecanvas-dev.tcz
                                     harfbuzz.tcz
                                        glib2.tcz
                                           libffi.tcz
-                                          pcre.tcz
+                                          pcre21042.tcz
                                        graphite.tcz
                                  glib2-dev.tcz
                                     glib2-python.tcz
                                        glib2.tcz
                                           libffi.tcz
-                                          pcre.tcz
-                                       python3.6.tcz
+                                          pcre21042.tcz
+                                       python3.9.tcz
                                           openssl-1.1.1.tcz
                                           sqlite3.tcz
                                           gdbm.tcz
@@ -829,8 +829,8 @@ libgnomecanvas-dev.tcz
                                           readline.tcz
                                              ncursesw.tcz
                                           libffi.tcz
-                                    pcre-dev.tcz
-                                       pcre.tcz
+                                    pcre21042-dev.tcz
+                                       pcre21042.tcz
                                        bzip2-dev.tcz
                                           bzip2.tcz
                                              bzip2-lib.tcz
@@ -852,7 +852,7 @@ libgnomecanvas-dev.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                               bzip2-lib.tcz
                            libpng-dev.tcz
@@ -863,14 +863,14 @@ libgnomecanvas-dev.tcz
                                  harfbuzz.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
+                                       pcre21042.tcz
                                     graphite.tcz
                               glib2-dev.tcz
                                  glib2-python.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
-                                    python3.6.tcz
+                                       pcre21042.tcz
+                                    python3.9.tcz
                                        openssl-1.1.1.tcz
                                        sqlite3.tcz
                                        gdbm.tcz
@@ -879,8 +879,8 @@ libgnomecanvas-dev.tcz
                                        readline.tcz
                                           ncursesw.tcz
                                        libffi.tcz
-                                 pcre-dev.tcz
-                                    pcre.tcz
+                                 pcre21042-dev.tcz
+                                    pcre21042.tcz
                                     bzip2-dev.tcz
                                        bzip2.tcz
                                           bzip2-lib.tcz
@@ -1225,7 +1225,7 @@ libgnomecanvas-dev.tcz
                                  harfbuzz.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
+                                       pcre21042.tcz
                                     graphite.tcz
                                  bzip2-lib.tcz
                               libfontenc.tcz
@@ -1365,7 +1365,7 @@ libgnomecanvas-dev.tcz
                                  libxml2-python.tcz
                                     libxml2.tcz
                                        liblzma.tcz
-                                    python3.6.tcz
+                                    python3.9.tcz
                                        openssl-1.1.1.tcz
                                        sqlite3.tcz
                                        gdbm.tcz
@@ -1383,7 +1383,7 @@ libgnomecanvas-dev.tcz
                                  harfbuzz.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
+                                       pcre21042.tcz
                                     graphite.tcz
                                  bzip2-lib.tcz
                               libfontenc.tcz
@@ -1393,7 +1393,7 @@ libgnomecanvas-dev.tcz
                                  harfbuzz.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
+                                       pcre21042.tcz
                                     graphite.tcz
                                  bzip2-lib.tcz
                               libpng-dev.tcz
@@ -1404,14 +1404,14 @@ libgnomecanvas-dev.tcz
                                     harfbuzz.tcz
                                        glib2.tcz
                                           libffi.tcz
-                                          pcre.tcz
+                                          pcre21042.tcz
                                        graphite.tcz
                                  glib2-dev.tcz
                                     glib2-python.tcz
                                        glib2.tcz
                                           libffi.tcz
-                                          pcre.tcz
-                                       python3.6.tcz
+                                          pcre21042.tcz
+                                       python3.9.tcz
                                           openssl-1.1.1.tcz
                                           sqlite3.tcz
                                           gdbm.tcz
@@ -1420,8 +1420,8 @@ libgnomecanvas-dev.tcz
                                           readline.tcz
                                              ncursesw.tcz
                                           libffi.tcz
-                                    pcre-dev.tcz
-                                       pcre.tcz
+                                    pcre21042-dev.tcz
+                                       pcre21042.tcz
                                        bzip2-dev.tcz
                                           bzip2.tcz
                                              bzip2-lib.tcz
@@ -1476,8 +1476,8 @@ libgnomecanvas-dev.tcz
                   glib2-python.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
-                     python3.6.tcz
+                        pcre21042.tcz
+                     python3.9.tcz
                         openssl-1.1.1.tcz
                         sqlite3.tcz
                         gdbm.tcz
@@ -1486,8 +1486,8 @@ libgnomecanvas-dev.tcz
                         readline.tcz
                            ncursesw.tcz
                         libffi.tcz
-                  pcre-dev.tcz
-                     pcre.tcz
+                  pcre21042-dev.tcz
+                     pcre21042.tcz
                      bzip2-dev.tcz
                         bzip2.tcz
                            bzip2-lib.tcz
@@ -1545,15 +1545,15 @@ libgnomecanvas-dev.tcz
                shared-mime-info.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
                   libxml2.tcz
                      liblzma.tcz
             glib2-dev.tcz
                glib2-python.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
-                  python3.6.tcz
+                     pcre21042.tcz
+                  python3.9.tcz
                      openssl-1.1.1.tcz
                      sqlite3.tcz
                      gdbm.tcz
@@ -1562,8 +1562,8 @@ libgnomecanvas-dev.tcz
                      readline.tcz
                         ncursesw.tcz
                      libffi.tcz
-               pcre-dev.tcz
-                  pcre.tcz
+               pcre21042-dev.tcz
+                  pcre21042.tcz
                   bzip2-dev.tcz
                      bzip2.tcz
                         bzip2-lib.tcz
@@ -1925,8 +1925,8 @@ libgnomecanvas-dev.tcz
             glib2-python.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
-               python3.6.tcz
+                  pcre21042.tcz
+               python3.9.tcz
                   openssl-1.1.1.tcz
                   sqlite3.tcz
                   gdbm.tcz
@@ -1935,8 +1935,8 @@ libgnomecanvas-dev.tcz
                   readline.tcz
                      ncursesw.tcz
                   libffi.tcz
-            pcre-dev.tcz
-               pcre.tcz
+            pcre21042-dev.tcz
+               pcre21042.tcz
                bzip2-dev.tcz
                   bzip2.tcz
                      bzip2-lib.tcz
@@ -1951,8 +1951,8 @@ libgnomecanvas-dev.tcz
             gobject-introspection.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
-               python3.6.tcz
+                  pcre21042.tcz
+               python3.9.tcz
                   openssl-1.1.1.tcz
                   sqlite3.tcz
                   gdbm.tcz
@@ -1965,8 +1965,8 @@ libgnomecanvas-dev.tcz
                glib2-python.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
-                  python3.6.tcz
+                     pcre21042.tcz
+                  python3.9.tcz
                      openssl-1.1.1.tcz
                      sqlite3.tcz
                      gdbm.tcz
@@ -1975,8 +1975,8 @@ libgnomecanvas-dev.tcz
                      readline.tcz
                         ncursesw.tcz
                      libffi.tcz
-               pcre-dev.tcz
-                  pcre.tcz
+               pcre21042-dev.tcz
+                  pcre21042.tcz
                   bzip2-dev.tcz
                      bzip2.tcz
                         bzip2-lib.tcz
@@ -1987,8 +1987,8 @@ libgnomecanvas-dev.tcz
                         ncursesw.tcz
                libffi-dev.tcz
                   libffi.tcz
-            python3.6-dev.tcz
-               python3.6.tcz
+            python3.9-dev.tcz
+               python3.9.tcz
                   openssl-1.1.1.tcz
                   sqlite3.tcz
                   gdbm.tcz
@@ -2017,7 +2017,7 @@ libgnomecanvas-dev.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                               bzip2-lib.tcz
                         freetype.tcz
@@ -2025,7 +2025,7 @@ libgnomecanvas-dev.tcz
                            harfbuzz.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
+                                 pcre21042.tcz
                               graphite.tcz
                            bzip2-lib.tcz
                         libXrender.tcz
@@ -2261,7 +2261,7 @@ libgnomecanvas-dev.tcz
                            harfbuzz.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
+                                 pcre21042.tcz
                               graphite.tcz
                            bzip2-lib.tcz
                         libfontenc.tcz
@@ -2271,7 +2271,7 @@ libgnomecanvas-dev.tcz
                            harfbuzz.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
+                                 pcre21042.tcz
                               graphite.tcz
                            bzip2-lib.tcz
                         libpng-dev.tcz
@@ -2282,14 +2282,14 @@ libgnomecanvas-dev.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                            glib2-dev.tcz
                               glib2-python.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
-                                 python3.6.tcz
+                                    pcre21042.tcz
+                                 python3.9.tcz
                                     openssl-1.1.1.tcz
                                     sqlite3.tcz
                                     gdbm.tcz
@@ -2298,8 +2298,8 @@ libgnomecanvas-dev.tcz
                                     readline.tcz
                                        ncursesw.tcz
                                     libffi.tcz
-                              pcre-dev.tcz
-                                 pcre.tcz
+                              pcre21042-dev.tcz
+                                 pcre21042.tcz
                                  bzip2-dev.tcz
                                     bzip2.tcz
                                        bzip2-lib.tcz
@@ -2326,7 +2326,7 @@ libgnomecanvas-dev.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                               bzip2-lib.tcz
                         freetype.tcz
@@ -2334,7 +2334,7 @@ libgnomecanvas-dev.tcz
                            harfbuzz.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
+                                 pcre21042.tcz
                               graphite.tcz
                            bzip2-lib.tcz
                         libXrender.tcz
@@ -2350,7 +2350,7 @@ libgnomecanvas-dev.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                               bzip2-lib.tcz
                         expat2-dev.tcz
@@ -2361,7 +2361,7 @@ libgnomecanvas-dev.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                               bzip2-lib.tcz
                            libpng-dev.tcz
@@ -2372,14 +2372,14 @@ libgnomecanvas-dev.tcz
                                  harfbuzz.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
+                                       pcre21042.tcz
                                     graphite.tcz
                               glib2-dev.tcz
                                  glib2-python.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
-                                    python3.6.tcz
+                                       pcre21042.tcz
+                                    python3.9.tcz
                                        openssl-1.1.1.tcz
                                        sqlite3.tcz
                                        gdbm.tcz
@@ -2388,8 +2388,8 @@ libgnomecanvas-dev.tcz
                                        readline.tcz
                                           ncursesw.tcz
                                        libffi.tcz
-                                 pcre-dev.tcz
-                                    pcre.tcz
+                                 pcre21042-dev.tcz
+                                    pcre21042.tcz
                                     bzip2-dev.tcz
                                        bzip2.tcz
                                           bzip2-lib.tcz
@@ -2411,7 +2411,7 @@ libgnomecanvas-dev.tcz
                            harfbuzz.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
+                                 pcre21042.tcz
                               graphite.tcz
                            bzip2-lib.tcz
                         libpng-dev.tcz
@@ -2422,14 +2422,14 @@ libgnomecanvas-dev.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                            glib2-dev.tcz
                               glib2-python.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
-                                 python3.6.tcz
+                                    pcre21042.tcz
+                                 python3.9.tcz
                                     openssl-1.1.1.tcz
                                     sqlite3.tcz
                                     gdbm.tcz
@@ -2438,8 +2438,8 @@ libgnomecanvas-dev.tcz
                                     readline.tcz
                                        ncursesw.tcz
                                     libffi.tcz
-                              pcre-dev.tcz
-                                 pcre.tcz
+                              pcre21042-dev.tcz
+                                 pcre21042.tcz
                                  bzip2-dev.tcz
                                     bzip2.tcz
                                        bzip2-lib.tcz
@@ -2784,7 +2784,7 @@ libgnomecanvas-dev.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                               bzip2-lib.tcz
                            libfontenc.tcz
@@ -2924,7 +2924,7 @@ libgnomecanvas-dev.tcz
                               libxml2-python.tcz
                                  libxml2.tcz
                                     liblzma.tcz
-                                 python3.6.tcz
+                                 python3.9.tcz
                                     openssl-1.1.1.tcz
                                     sqlite3.tcz
                                     gdbm.tcz
@@ -2942,7 +2942,7 @@ libgnomecanvas-dev.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                               bzip2-lib.tcz
                            libfontenc.tcz
@@ -2952,7 +2952,7 @@ libgnomecanvas-dev.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                               bzip2-lib.tcz
                            libpng-dev.tcz
@@ -2963,14 +2963,14 @@ libgnomecanvas-dev.tcz
                                  harfbuzz.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
+                                       pcre21042.tcz
                                     graphite.tcz
                               glib2-dev.tcz
                                  glib2-python.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
-                                    python3.6.tcz
+                                       pcre21042.tcz
+                                    python3.9.tcz
                                        openssl-1.1.1.tcz
                                        sqlite3.tcz
                                        gdbm.tcz
@@ -2979,8 +2979,8 @@ libgnomecanvas-dev.tcz
                                        readline.tcz
                                           ncursesw.tcz
                                        libffi.tcz
-                                 pcre-dev.tcz
-                                    pcre.tcz
+                                 pcre21042-dev.tcz
+                                    pcre21042.tcz
                                     bzip2-dev.tcz
                                        bzip2.tcz
                                           bzip2-lib.tcz
@@ -3017,7 +3017,7 @@ libgnomecanvas-dev.tcz
             atk.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
             gdk-pixbuf2.tcz
                libtiff.tcz
                   libjpeg-turbo.tcz
@@ -3031,7 +3031,7 @@ libgnomecanvas-dev.tcz
                shared-mime-info.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
                   libxml2.tcz
                      liblzma.tcz
             libXcomposite.tcz
@@ -3071,7 +3071,7 @@ libgnomecanvas-dev.tcz
                cairo.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
                   fontconfig.tcz
                      expat2.tcz
                      freetype.tcz
@@ -3079,7 +3079,7 @@ libgnomecanvas-dev.tcz
                         harfbuzz.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            graphite.tcz
                         bzip2-lib.tcz
                   pixman.tcz
@@ -3143,7 +3143,7 @@ libgnomecanvas-dev.tcz
                         harfbuzz.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            graphite.tcz
                         bzip2-lib.tcz
                   freetype.tcz
@@ -3151,7 +3151,7 @@ libgnomecanvas-dev.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                   libXrender.tcz
@@ -3162,7 +3162,7 @@ libgnomecanvas-dev.tcz
                fribidi.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
             Xorg-7.7-lib.tcz 
          libXcomposite-dev.tcz
             libXcomposite.tcz

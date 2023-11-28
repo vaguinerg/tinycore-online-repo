@@ -2,7 +2,7 @@ fwupd.tcz
    libxmlb.tcz
       glib2.tcz
          libffi.tcz
-         pcre.tcz
+         pcre21042.tcz
    libarchive.tcz
       nettle3.tcz
          gmp.tcz
@@ -19,7 +19,7 @@ fwupd.tcz
       json-glib.tcz
          glib2.tcz
             libffi.tcz
-            pcre.tcz
+            pcre21042.tcz
       gnutls35.tcz
          p11-kit.tcz
             libffi.tcz
@@ -38,7 +38,7 @@ fwupd.tcz
    polkit.tcz
       glib2.tcz
          libffi.tcz
-         pcre.tcz
+         pcre21042.tcz
       expat2.tcz
       js78.tcz
          readline.tcz
@@ -55,14 +55,14 @@ fwupd.tcz
    gcab.tcz
       glib2.tcz
          libffi.tcz
-         pcre.tcz
+         pcre21042.tcz
    efivar.tcz
    fwupd-efi.tcz
    libsmbios.tcz
       libxml2-python.tcz
          libxml2.tcz
             liblzma.tcz
-         python3.6.tcz
+         python3.9.tcz
             openssl-1.1.1.tcz
             sqlite3.tcz
             gdbm.tcz

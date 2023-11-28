@@ -8,7 +8,7 @@ farstream-gir.tcz
                      glib-networking.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         gnutls35.tcz
                            p11-kit.tcz
                               libffi.tcz
@@ -29,7 +29,7 @@ farstream-gir.tcz
             gstreamer.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
             libtheora.tcz
                libogg.tcz
             libvorbis.tcz
@@ -40,12 +40,12 @@ farstream-gir.tcz
       gstreamer.tcz
          glib2.tcz
             libffi.tcz
-            pcre.tcz
+            pcre21042.tcz
       gobject-introspection.tcz
          glib2.tcz
             libffi.tcz
-            pcre.tcz
-         python3.6.tcz
+            pcre21042.tcz
+         python3.9.tcz
             openssl-1.1.1.tcz
             sqlite3.tcz
             gdbm.tcz

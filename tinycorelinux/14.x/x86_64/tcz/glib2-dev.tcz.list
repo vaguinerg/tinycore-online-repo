@@ -1,13 +1,9 @@
 /usr/local/include/gio-unix-2.0/gio/gdesktopappinfo.h
 /usr/local/include/gio-unix-2.0/gio/gfiledescriptorbased.h
-/usr/local/include/gio-unix-2.0/gio/gunixconnection.h
-/usr/local/include/gio-unix-2.0/gio/gunixcredentialsmessage.h
-/usr/local/include/gio-unix-2.0/gio/gunixfdlist.h
 /usr/local/include/gio-unix-2.0/gio/gunixfdmessage.h
 /usr/local/include/gio-unix-2.0/gio/gunixinputstream.h
 /usr/local/include/gio-unix-2.0/gio/gunixmounts.h
 /usr/local/include/gio-unix-2.0/gio/gunixoutputstream.h
-/usr/local/include/gio-unix-2.0/gio/gunixsocketaddress.h
 /usr/local/include/glib-2.0/gio/gaction.h
 /usr/local/include/glib-2.0/gio/gactiongroup.h
 /usr/local/include/glib-2.0/gio/gactiongroupexporter.h
@@ -52,6 +48,8 @@
 /usr/local/include/glib-2.0/gio/gdbusproxy.h
 /usr/local/include/glib-2.0/gio/gdbusserver.h
 /usr/local/include/glib-2.0/gio/gdbusutils.h
+/usr/local/include/glib-2.0/gio/gdebugcontroller.h
+/usr/local/include/glib-2.0/gio/gdebugcontrollerdbus.h
 /usr/local/include/glib-2.0/gio/gdrive.h
 /usr/local/include/glib-2.0/gio/gdtlsclientconnection.h
 /usr/local/include/glib-2.0/gio/gdtlsconnection.h
@@ -77,6 +75,7 @@
 /usr/local/include/glib-2.0/gio/ginitable.h
 /usr/local/include/glib-2.0/gio/ginputstream.h
 /usr/local/include/glib-2.0/gio/gio-autocleanups.h
+/usr/local/include/glib-2.0/gio/gio-visibility.h
 /usr/local/include/glib-2.0/gio/gio.h
 /usr/local/include/glib-2.0/gio/gioenums.h
 /usr/local/include/glib-2.0/gio/gioenumtypes.h
@@ -154,6 +153,10 @@
 /usr/local/include/glib-2.0/gio/gtlsinteraction.h
 /usr/local/include/glib-2.0/gio/gtlspassword.h
 /usr/local/include/glib-2.0/gio/gtlsserverconnection.h
+/usr/local/include/glib-2.0/gio/gunixconnection.h
+/usr/local/include/glib-2.0/gio/gunixcredentialsmessage.h
+/usr/local/include/glib-2.0/gio/gunixfdlist.h
+/usr/local/include/glib-2.0/gio/gunixsocketaddress.h
 /usr/local/include/glib-2.0/gio/gvfs.h
 /usr/local/include/glib-2.0/gio/gvolume.h
 /usr/local/include/glib-2.0/gio/gvolumemonitor.h
@@ -195,6 +198,7 @@
 /usr/local/include/glib-2.0/glib/gkeyfile.h
 /usr/local/include/glib-2.0/glib/glib-autocleanups.h
 /usr/local/include/glib-2.0/glib/glib-typeof.h
+/usr/local/include/glib-2.0/glib/glib-visibility.h
 /usr/local/include/glib-2.0/glib/glist.h
 /usr/local/include/glib-2.0/glib/gmacros.h
 /usr/local/include/glib-2.0/glib/gmain.h
@@ -204,6 +208,7 @@
 /usr/local/include/glib-2.0/glib/gmessages.h
 /usr/local/include/glib-2.0/glib/gnode.h
 /usr/local/include/glib-2.0/glib/goption.h
+/usr/local/include/glib-2.0/glib/gpathbuf.h
 /usr/local/include/glib-2.0/glib/gpattern.h
 /usr/local/include/glib-2.0/glib/gpoll.h
 /usr/local/include/glib-2.0/glib/gprimes.h
@@ -247,8 +252,10 @@
 /usr/local/include/glib-2.0/glib-object.h
 /usr/local/include/glib-2.0/glib-unix.h
 /usr/local/include/glib-2.0/glib.h
+/usr/local/include/glib-2.0/gmodule/gmodule-visibility.h
 /usr/local/include/glib-2.0/gmodule.h
 /usr/local/include/glib-2.0/gobject/gbinding.h
+/usr/local/include/glib-2.0/gobject/gbindinggroup.h
 /usr/local/include/glib-2.0/gobject/gboxed.h
 /usr/local/include/glib-2.0/gobject/gclosure.h
 /usr/local/include/glib-2.0/gobject/genums.h
@@ -256,11 +263,13 @@
 /usr/local/include/glib-2.0/gobject/glib-types.h
 /usr/local/include/glib-2.0/gobject/gmarshal.h
 /usr/local/include/glib-2.0/gobject/gobject-autocleanups.h
+/usr/local/include/glib-2.0/gobject/gobject-visibility.h
 /usr/local/include/glib-2.0/gobject/gobject.h
 /usr/local/include/glib-2.0/gobject/gobjectnotifyqueue.c
 /usr/local/include/glib-2.0/gobject/gparam.h
 /usr/local/include/glib-2.0/gobject/gparamspecs.h
 /usr/local/include/glib-2.0/gobject/gsignal.h
+/usr/local/include/glib-2.0/gobject/gsignalgroup.h
 /usr/local/include/glib-2.0/gobject/gsourceclosure.h
 /usr/local/include/glib-2.0/gobject/gtype.h
 /usr/local/include/glib-2.0/gobject/gtypemodule.h
@@ -281,10 +290,5 @@
 /usr/local/share/aclocal/glib-2.0.m4
 /usr/local/share/aclocal/glib-gettext.m4
 /usr/local/share/aclocal/gsettings.m4
-/usr/local/share/bash-completion/completions/gapplication
-/usr/local/share/bash-completion/completions/gdbus
-/usr/local/share/bash-completion/completions/gio
-/usr/local/share/bash-completion/completions/gresource
-/usr/local/share/bash-completion/completions/gsettings
 /usr/local/share/glib-2.0/gettext/po/Makefile.in.in
 /usr/local/share/glib-2.0/valgrind/glib.supp

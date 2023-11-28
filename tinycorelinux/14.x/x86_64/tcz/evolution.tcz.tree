@@ -4,7 +4,7 @@ evolution.tcz
          icu70.tcz
          glib2.tcz
             libffi.tcz
-            pcre.tcz
+            pcre21042.tcz
       nss.tcz
          nspr.tcz
          sqlite3.tcz
@@ -14,7 +14,7 @@ evolution.tcz
                glib-networking.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
                   gnutls35.tcz
                      p11-kit.tcz
                         libffi.tcz
@@ -45,7 +45,7 @@ evolution.tcz
                               attr.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
+                        pcre21042.tcz
                      libICE.tcz
                      libSM.tcz
                      libX11.tcz
@@ -55,7 +55,7 @@ evolution.tcz
                   atk.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
+                        pcre21042.tcz
                gdk-pixbuf2.tcz
                   libtiff.tcz
                      libjpeg-turbo.tcz
@@ -69,7 +69,7 @@ evolution.tcz
                   shared-mime-info.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
+                        pcre21042.tcz
                      libxml2.tcz
                         liblzma.tcz
                libXcomposite.tcz
@@ -81,7 +81,7 @@ evolution.tcz
                   cairo.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
+                        pcre21042.tcz
                      fontconfig.tcz
                         expat2.tcz
                         freetype.tcz
@@ -89,7 +89,7 @@ evolution.tcz
                            harfbuzz.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
+                                 pcre21042.tcz
                               graphite.tcz
                            bzip2-lib.tcz
                      pixman.tcz
@@ -153,7 +153,7 @@ evolution.tcz
                            harfbuzz.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
+                                 pcre21042.tcz
                               graphite.tcz
                            bzip2-lib.tcz
                      freetype.tcz
@@ -161,7 +161,7 @@ evolution.tcz
                         harfbuzz.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            graphite.tcz
                         bzip2-lib.tcz
                      libXrender.tcz
@@ -172,7 +172,7 @@ evolution.tcz
                   fribidi.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
+                        pcre21042.tcz
                libXcursor.tcz
                   libXrender.tcz
                      libX11.tcz
@@ -255,7 +255,7 @@ evolution.tcz
                   shared-mime-info.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
+                        pcre21042.tcz
                      libxml2.tcz
                         liblzma.tcz
                librsvg.tcz
@@ -263,7 +263,7 @@ evolution.tcz
                      cairo.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         fontconfig.tcz
                            expat2.tcz
                            freetype.tcz
@@ -271,7 +271,7 @@ evolution.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                               bzip2-lib.tcz
                         pixman.tcz
@@ -335,7 +335,7 @@ evolution.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                               bzip2-lib.tcz
                         freetype.tcz
@@ -343,7 +343,7 @@ evolution.tcz
                            harfbuzz.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
+                                 pcre21042.tcz
                               graphite.tcz
                            bzip2-lib.tcz
                         libXrender.tcz
@@ -354,7 +354,7 @@ evolution.tcz
                      fribidi.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                   gdk-pixbuf2.tcz
                      libtiff.tcz
                         libjpeg-turbo.tcz
@@ -368,7 +368,7 @@ evolution.tcz
                      shared-mime-info.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         libxml2.tcz
                            liblzma.tcz
                hicolor-icon-theme.tcz
@@ -379,7 +379,7 @@ evolution.tcz
                      gstreamer.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                      libtheora.tcz
                         libogg.tcz
                      libvorbis.tcz
@@ -412,16 +412,16 @@ evolution.tcz
                      libgpg-error.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
                gudev-lib.tcz
                   udev-lib.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
                enchant2.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
                   aspell.tcz
                      aspell-en.tcz
                      ncursesw.tcz
@@ -433,12 +433,12 @@ evolution.tcz
                   json-glib.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
+                        pcre21042.tcz
                   libsoup.tcz
                      glib-networking.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         gnutls35.tcz
                            p11-kit.tcz
                               libffi.tcz
@@ -466,12 +466,12 @@ evolution.tcz
                      gcc_libs.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
+                        pcre21042.tcz
                   modemmanager.tcz
                      polkit.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         expat2.tcz
                         js78.tcz
                            readline.tcz
@@ -491,7 +491,7 @@ evolution.tcz
                               udev-lib.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
+                                 pcre21042.tcz
                   libnotify.tcz
                      notification-daemon.tcz
                         gtk3.tcz
@@ -507,7 +507,7 @@ evolution.tcz
                                           attr.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  libICE.tcz
                                  libSM.tcz
                                  libX11.tcz
@@ -517,7 +517,7 @@ evolution.tcz
                               atk.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                            gdk-pixbuf2.tcz
                               libtiff.tcz
                                  libjpeg-turbo.tcz
@@ -531,7 +531,7 @@ evolution.tcz
                               shared-mime-info.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  libxml2.tcz
                                     liblzma.tcz
                            libXcomposite.tcz
@@ -543,7 +543,7 @@ evolution.tcz
                               cairo.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  fontconfig.tcz
                                     expat2.tcz
                                     freetype.tcz
@@ -551,7 +551,7 @@ evolution.tcz
                                        harfbuzz.tcz
                                           glib2.tcz
                                              libffi.tcz
-                                             pcre.tcz
+                                             pcre21042.tcz
                                           graphite.tcz
                                        bzip2-lib.tcz
                                  pixman.tcz
@@ -615,7 +615,7 @@ evolution.tcz
                                        harfbuzz.tcz
                                           glib2.tcz
                                              libffi.tcz
-                                             pcre.tcz
+                                             pcre21042.tcz
                                           graphite.tcz
                                        bzip2-lib.tcz
                                  freetype.tcz
@@ -623,7 +623,7 @@ evolution.tcz
                                     harfbuzz.tcz
                                        glib2.tcz
                                           libffi.tcz
-                                          pcre.tcz
+                                          pcre21042.tcz
                                        graphite.tcz
                                     bzip2-lib.tcz
                                  libXrender.tcz
@@ -634,7 +634,7 @@ evolution.tcz
                               fribidi.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                            libXcursor.tcz
                               libXrender.tcz
                                  libX11.tcz
@@ -697,7 +697,7 @@ evolution.tcz
                                              attr.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
+                                       pcre21042.tcz
                                     libICE.tcz
                                     libSM.tcz
                                     libX11.tcz
@@ -707,7 +707,7 @@ evolution.tcz
                                  atk.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
+                                       pcre21042.tcz
                               gdk-pixbuf2.tcz
                                  libtiff.tcz
                                     libjpeg-turbo.tcz
@@ -721,7 +721,7 @@ evolution.tcz
                                  shared-mime-info.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
+                                       pcre21042.tcz
                                     libxml2.tcz
                                        liblzma.tcz
                               libXcomposite.tcz
@@ -733,7 +733,7 @@ evolution.tcz
                                  cairo.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
+                                       pcre21042.tcz
                                     fontconfig.tcz
                                        expat2.tcz
                                        freetype.tcz
@@ -741,7 +741,7 @@ evolution.tcz
                                           harfbuzz.tcz
                                              glib2.tcz
                                                 libffi.tcz
-                                                pcre.tcz
+                                                pcre21042.tcz
                                              graphite.tcz
                                           bzip2-lib.tcz
                                     pixman.tcz
@@ -805,7 +805,7 @@ evolution.tcz
                                           harfbuzz.tcz
                                              glib2.tcz
                                                 libffi.tcz
-                                                pcre.tcz
+                                                pcre21042.tcz
                                              graphite.tcz
                                           bzip2-lib.tcz
                                     freetype.tcz
@@ -813,7 +813,7 @@ evolution.tcz
                                        harfbuzz.tcz
                                           glib2.tcz
                                              libffi.tcz
-                                             pcre.tcz
+                                             pcre21042.tcz
                                           graphite.tcz
                                        bzip2-lib.tcz
                                     libXrender.tcz
@@ -824,7 +824,7 @@ evolution.tcz
                                  fribidi.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
+                                       pcre21042.tcz
                               libXcursor.tcz
                                  libXrender.tcz
                                     libX11.tcz
@@ -877,14 +877,14 @@ evolution.tcz
                   harfbuzz.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
+                        pcre21042.tcz
                      graphite.tcz
                   icu70.tcz
                openjpeg.tcz
                gsettings-desktop-schemas.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
                ca-certificates.tcz
                   openssl-1.1.1.tcz
                liblcms2.tcz
@@ -893,7 +893,7 @@ evolution.tcz
                   glib-networking.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
+                        pcre21042.tcz
                      gnutls35.tcz
                         p11-kit.tcz
                            libffi.tcz
@@ -921,7 +921,7 @@ evolution.tcz
                            attr.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
             gtk-update-icon-cache.tcz
                gdk-pixbuf2.tcz
                   libtiff.tcz
@@ -936,7 +936,7 @@ evolution.tcz
                   shared-mime-info.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
+                        pcre21042.tcz
                      libxml2.tcz
                         liblzma.tcz
                librsvg.tcz
@@ -944,7 +944,7 @@ evolution.tcz
                      cairo.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         fontconfig.tcz
                            expat2.tcz
                            freetype.tcz
@@ -952,7 +952,7 @@ evolution.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                               bzip2-lib.tcz
                         pixman.tcz
@@ -1016,7 +1016,7 @@ evolution.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                               bzip2-lib.tcz
                         freetype.tcz
@@ -1024,7 +1024,7 @@ evolution.tcz
                            harfbuzz.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
+                                 pcre21042.tcz
                               graphite.tcz
                            bzip2-lib.tcz
                         libXrender.tcz
@@ -1035,7 +1035,7 @@ evolution.tcz
                      fribidi.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                   gdk-pixbuf2.tcz
                      libtiff.tcz
                         libjpeg-turbo.tcz
@@ -1049,7 +1049,7 @@ evolution.tcz
                      shared-mime-info.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         libxml2.tcz
                            liblzma.tcz
                hicolor-icon-theme.tcz
@@ -1059,12 +1059,12 @@ evolution.tcz
             json-glib.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
             libsoup.tcz
                glib-networking.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
                   gnutls35.tcz
                      p11-kit.tcz
                         libffi.tcz
@@ -1094,7 +1094,7 @@ evolution.tcz
                            attr.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
                   libICE.tcz
                   libSM.tcz
                   libX11.tcz
@@ -1104,7 +1104,7 @@ evolution.tcz
                atk.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
             gdk-pixbuf2.tcz
                libtiff.tcz
                   libjpeg-turbo.tcz
@@ -1118,7 +1118,7 @@ evolution.tcz
                shared-mime-info.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
                   libxml2.tcz
                      liblzma.tcz
             libXcomposite.tcz
@@ -1130,7 +1130,7 @@ evolution.tcz
                cairo.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
                   fontconfig.tcz
                      expat2.tcz
                      freetype.tcz
@@ -1138,7 +1138,7 @@ evolution.tcz
                         harfbuzz.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            graphite.tcz
                         bzip2-lib.tcz
                   pixman.tcz
@@ -1202,7 +1202,7 @@ evolution.tcz
                         harfbuzz.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            graphite.tcz
                         bzip2-lib.tcz
                   freetype.tcz
@@ -1210,7 +1210,7 @@ evolution.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                   libXrender.tcz
@@ -1221,7 +1221,7 @@ evolution.tcz
                fribidi.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
             libXcursor.tcz
                libXrender.tcz
                   libX11.tcz
@@ -1290,7 +1290,7 @@ evolution.tcz
                         attr.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
                libICE.tcz
                libSM.tcz
                libX11.tcz
@@ -1300,7 +1300,7 @@ evolution.tcz
             atk.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
          gdk-pixbuf2.tcz
             libtiff.tcz
                libjpeg-turbo.tcz
@@ -1314,7 +1314,7 @@ evolution.tcz
             shared-mime-info.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
                libxml2.tcz
                   liblzma.tcz
          libXcomposite.tcz
@@ -1326,7 +1326,7 @@ evolution.tcz
             cairo.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
                fontconfig.tcz
                   expat2.tcz
                   freetype.tcz
@@ -1334,7 +1334,7 @@ evolution.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                pixman.tcz
@@ -1398,7 +1398,7 @@ evolution.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                freetype.tcz
@@ -1406,7 +1406,7 @@ evolution.tcz
                   harfbuzz.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
+                        pcre21042.tcz
                      graphite.tcz
                   bzip2-lib.tcz
                libXrender.tcz
@@ -1417,7 +1417,7 @@ evolution.tcz
             fribidi.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
          libXcursor.tcz
             libXrender.tcz
                libX11.tcz
@@ -1479,7 +1479,7 @@ evolution.tcz
       gsettings-desktop-schemas.tcz
          glib2.tcz
             libffi.tcz
-            pcre.tcz
+            pcre21042.tcz
       iso-codes.tcz
       gtk3.tcz
          libepoxy.tcz
@@ -1494,7 +1494,7 @@ evolution.tcz
                         attr.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
                libICE.tcz
                libSM.tcz
                libX11.tcz
@@ -1504,7 +1504,7 @@ evolution.tcz
             atk.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
          gdk-pixbuf2.tcz
             libtiff.tcz
                libjpeg-turbo.tcz
@@ -1518,7 +1518,7 @@ evolution.tcz
             shared-mime-info.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
                libxml2.tcz
                   liblzma.tcz
          libXcomposite.tcz
@@ -1530,7 +1530,7 @@ evolution.tcz
             cairo.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
                fontconfig.tcz
                   expat2.tcz
                   freetype.tcz
@@ -1538,7 +1538,7 @@ evolution.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                pixman.tcz
@@ -1602,7 +1602,7 @@ evolution.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                freetype.tcz
@@ -1610,7 +1610,7 @@ evolution.tcz
                   harfbuzz.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
+                        pcre21042.tcz
                      graphite.tcz
                   bzip2-lib.tcz
                libXrender.tcz
@@ -1621,7 +1621,7 @@ evolution.tcz
             fribidi.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
          libXcursor.tcz
             libXrender.tcz
                libX11.tcz
@@ -1683,7 +1683,7 @@ evolution.tcz
             shared-mime-info.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
                libxml2.tcz
                   liblzma.tcz
          librsvg.tcz
@@ -1691,7 +1691,7 @@ evolution.tcz
                cairo.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
                   fontconfig.tcz
                      expat2.tcz
                      freetype.tcz
@@ -1699,7 +1699,7 @@ evolution.tcz
                         harfbuzz.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            graphite.tcz
                         bzip2-lib.tcz
                   pixman.tcz
@@ -1763,7 +1763,7 @@ evolution.tcz
                         harfbuzz.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            graphite.tcz
                         bzip2-lib.tcz
                   freetype.tcz
@@ -1771,7 +1771,7 @@ evolution.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                   libXrender.tcz
@@ -1782,7 +1782,7 @@ evolution.tcz
                fribidi.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
             gdk-pixbuf2.tcz
                libtiff.tcz
                   libjpeg-turbo.tcz
@@ -1796,7 +1796,7 @@ evolution.tcz
                shared-mime-info.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
                   libxml2.tcz
                      liblzma.tcz
          hicolor-icon-theme.tcz
@@ -1814,7 +1814,7 @@ evolution.tcz
                         attr.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
                libICE.tcz
                libSM.tcz
                libX11.tcz
@@ -1824,7 +1824,7 @@ evolution.tcz
             atk.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
          gdk-pixbuf2.tcz
             libtiff.tcz
                libjpeg-turbo.tcz
@@ -1838,7 +1838,7 @@ evolution.tcz
             shared-mime-info.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
                libxml2.tcz
                   liblzma.tcz
          libXcomposite.tcz
@@ -1850,7 +1850,7 @@ evolution.tcz
             cairo.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
                fontconfig.tcz
                   expat2.tcz
                   freetype.tcz
@@ -1858,7 +1858,7 @@ evolution.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                pixman.tcz
@@ -1922,7 +1922,7 @@ evolution.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                freetype.tcz
@@ -1930,7 +1930,7 @@ evolution.tcz
                   harfbuzz.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
+                        pcre21042.tcz
                      graphite.tcz
                   bzip2-lib.tcz
                libXrender.tcz
@@ -1941,7 +1941,7 @@ evolution.tcz
             fribidi.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
          libXcursor.tcz
             libXrender.tcz
                libX11.tcz
@@ -2001,7 +2001,7 @@ evolution.tcz
                         attr.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
                libICE.tcz
                libSM.tcz
                libX11.tcz
@@ -2011,7 +2011,7 @@ evolution.tcz
             atk.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
          gdk-pixbuf2.tcz
             libtiff.tcz
                libjpeg-turbo.tcz
@@ -2025,7 +2025,7 @@ evolution.tcz
             shared-mime-info.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
                libxml2.tcz
                   liblzma.tcz
          libXcomposite.tcz
@@ -2037,7 +2037,7 @@ evolution.tcz
             cairo.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
                fontconfig.tcz
                   expat2.tcz
                   freetype.tcz
@@ -2045,7 +2045,7 @@ evolution.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                pixman.tcz
@@ -2109,7 +2109,7 @@ evolution.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                freetype.tcz
@@ -2117,7 +2117,7 @@ evolution.tcz
                   harfbuzz.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
+                        pcre21042.tcz
                      graphite.tcz
                   bzip2-lib.tcz
                libXrender.tcz
@@ -2128,7 +2128,7 @@ evolution.tcz
             fribidi.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
          libXcursor.tcz
             libXrender.tcz
                libX11.tcz
@@ -2177,7 +2177,7 @@ evolution.tcz
       enchant2.tcz
          glib2.tcz
             libffi.tcz
-            pcre.tcz
+            pcre21042.tcz
          aspell.tcz
             aspell-en.tcz
             ncursesw.tcz
@@ -2203,7 +2203,7 @@ evolution.tcz
                         attr.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
                libICE.tcz
                libSM.tcz
                libX11.tcz
@@ -2213,7 +2213,7 @@ evolution.tcz
             atk.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
          gdk-pixbuf2.tcz
             libtiff.tcz
                libjpeg-turbo.tcz
@@ -2227,7 +2227,7 @@ evolution.tcz
             shared-mime-info.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
                libxml2.tcz
                   liblzma.tcz
          libXcomposite.tcz
@@ -2239,7 +2239,7 @@ evolution.tcz
             cairo.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
                fontconfig.tcz
                   expat2.tcz
                   freetype.tcz
@@ -2247,7 +2247,7 @@ evolution.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                pixman.tcz
@@ -2311,7 +2311,7 @@ evolution.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                freetype.tcz
@@ -2319,7 +2319,7 @@ evolution.tcz
                   harfbuzz.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
+                        pcre21042.tcz
                      graphite.tcz
                   bzip2-lib.tcz
                libXrender.tcz
@@ -2330,7 +2330,7 @@ evolution.tcz
             fribidi.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
          libXcursor.tcz
             libXrender.tcz
                libX11.tcz

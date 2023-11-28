@@ -13,7 +13,7 @@ minigalaxy.tcz
          cairo.tcz
             glib2.tcz
                libffi.tcz
-               pcre.tcz
+               pcre21042.tcz
             fontconfig.tcz
                expat2.tcz
                freetype.tcz
@@ -21,7 +21,7 @@ minigalaxy.tcz
                   harfbuzz.tcz
                      glib2.tcz
                         libffi.tcz
-                        pcre.tcz
+                        pcre21042.tcz
                      graphite.tcz
                   bzip2-lib.tcz
             pixman.tcz
@@ -80,8 +80,8 @@ minigalaxy.tcz
       gobject-introspection.tcz
          glib2.tcz
             libffi.tcz
-            pcre.tcz
-         python3.6.tcz
+            pcre21042.tcz
+         python3.9.tcz
             openssl-1.1.1.tcz
             sqlite3.tcz
             gdbm.tcz
@@ -97,7 +97,7 @@ minigalaxy.tcz
                gstreamer.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
                libtheora.tcz
                   libogg.tcz
                libvorbis.tcz
@@ -130,16 +130,16 @@ minigalaxy.tcz
                libgpg-error.tcz
             glib2.tcz
                libffi.tcz
-               pcre.tcz
+               pcre21042.tcz
          gudev-lib.tcz
             udev-lib.tcz
             glib2.tcz
                libffi.tcz
-               pcre.tcz
+               pcre21042.tcz
          enchant2.tcz
             glib2.tcz
                libffi.tcz
-               pcre.tcz
+               pcre21042.tcz
             aspell.tcz
                aspell-en.tcz
                ncursesw.tcz
@@ -151,12 +151,12 @@ minigalaxy.tcz
             json-glib.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
             libsoup.tcz
                glib-networking.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
                   gnutls35.tcz
                      p11-kit.tcz
                         libffi.tcz
@@ -184,12 +184,12 @@ minigalaxy.tcz
                gcc_libs.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
             modemmanager.tcz
                polkit.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
                   expat2.tcz
                   js78.tcz
                      readline.tcz
@@ -209,7 +209,7 @@ minigalaxy.tcz
                         udev-lib.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
             libnotify.tcz
                notification-daemon.tcz
                   gtk3.tcz
@@ -225,7 +225,7 @@ minigalaxy.tcz
                                     attr.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            libICE.tcz
                            libSM.tcz
                            libX11.tcz
@@ -235,7 +235,7 @@ minigalaxy.tcz
                         atk.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                      gdk-pixbuf2.tcz
                         libtiff.tcz
                            libjpeg-turbo.tcz
@@ -249,7 +249,7 @@ minigalaxy.tcz
                         shared-mime-info.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            libxml2.tcz
                               liblzma.tcz
                      libXcomposite.tcz
@@ -261,7 +261,7 @@ minigalaxy.tcz
                         cairo.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            fontconfig.tcz
                               expat2.tcz
                               freetype.tcz
@@ -269,7 +269,7 @@ minigalaxy.tcz
                                  harfbuzz.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
+                                       pcre21042.tcz
                                     graphite.tcz
                                  bzip2-lib.tcz
                            pixman.tcz
@@ -333,7 +333,7 @@ minigalaxy.tcz
                                  harfbuzz.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
+                                       pcre21042.tcz
                                     graphite.tcz
                                  bzip2-lib.tcz
                            freetype.tcz
@@ -341,7 +341,7 @@ minigalaxy.tcz
                               harfbuzz.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                    pcre.tcz
+                                    pcre21042.tcz
                                  graphite.tcz
                               bzip2-lib.tcz
                            libXrender.tcz
@@ -352,7 +352,7 @@ minigalaxy.tcz
                         fribidi.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                      libXcursor.tcz
                         libXrender.tcz
                            libX11.tcz
@@ -415,7 +415,7 @@ minigalaxy.tcz
                                        attr.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
+                                 pcre21042.tcz
                               libICE.tcz
                               libSM.tcz
                               libX11.tcz
@@ -425,7 +425,7 @@ minigalaxy.tcz
                            atk.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
+                                 pcre21042.tcz
                         gdk-pixbuf2.tcz
                            libtiff.tcz
                               libjpeg-turbo.tcz
@@ -439,7 +439,7 @@ minigalaxy.tcz
                            shared-mime-info.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
+                                 pcre21042.tcz
                               libxml2.tcz
                                  liblzma.tcz
                         libXcomposite.tcz
@@ -451,7 +451,7 @@ minigalaxy.tcz
                            cairo.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
+                                 pcre21042.tcz
                               fontconfig.tcz
                                  expat2.tcz
                                  freetype.tcz
@@ -459,7 +459,7 @@ minigalaxy.tcz
                                     harfbuzz.tcz
                                        glib2.tcz
                                           libffi.tcz
-                                          pcre.tcz
+                                          pcre21042.tcz
                                        graphite.tcz
                                     bzip2-lib.tcz
                               pixman.tcz
@@ -523,7 +523,7 @@ minigalaxy.tcz
                                     harfbuzz.tcz
                                        glib2.tcz
                                           libffi.tcz
-                                          pcre.tcz
+                                          pcre21042.tcz
                                        graphite.tcz
                                     bzip2-lib.tcz
                               freetype.tcz
@@ -531,7 +531,7 @@ minigalaxy.tcz
                                  harfbuzz.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                       pcre.tcz
+                                       pcre21042.tcz
                                     graphite.tcz
                                  bzip2-lib.tcz
                               libXrender.tcz
@@ -542,7 +542,7 @@ minigalaxy.tcz
                            fribidi.tcz
                               glib2.tcz
                                  libffi.tcz
-                                 pcre.tcz
+                                 pcre21042.tcz
                         libXcursor.tcz
                            libXrender.tcz
                               libX11.tcz
@@ -595,14 +595,14 @@ minigalaxy.tcz
             harfbuzz.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
                graphite.tcz
             icu70.tcz
          openjpeg.tcz
          gsettings-desktop-schemas.tcz
             glib2.tcz
                libffi.tcz
-               pcre.tcz
+               pcre21042.tcz
          ca-certificates.tcz
             openssl-1.1.1.tcz
          liblcms2.tcz
@@ -620,7 +620,7 @@ minigalaxy.tcz
                            attr.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
                   libICE.tcz
                   libSM.tcz
                   libX11.tcz
@@ -630,7 +630,7 @@ minigalaxy.tcz
                atk.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
             gdk-pixbuf2.tcz
                libtiff.tcz
                   libjpeg-turbo.tcz
@@ -644,7 +644,7 @@ minigalaxy.tcz
                shared-mime-info.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
                   libxml2.tcz
                      liblzma.tcz
             libXcomposite.tcz
@@ -656,7 +656,7 @@ minigalaxy.tcz
                cairo.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
                   fontconfig.tcz
                      expat2.tcz
                      freetype.tcz
@@ -664,7 +664,7 @@ minigalaxy.tcz
                         harfbuzz.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            graphite.tcz
                         bzip2-lib.tcz
                   pixman.tcz
@@ -728,7 +728,7 @@ minigalaxy.tcz
                         harfbuzz.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            graphite.tcz
                         bzip2-lib.tcz
                   freetype.tcz
@@ -736,7 +736,7 @@ minigalaxy.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                   libXrender.tcz
@@ -747,7 +747,7 @@ minigalaxy.tcz
                fribidi.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
             libXcursor.tcz
                libXrender.tcz
                   libX11.tcz
@@ -807,14 +807,14 @@ minigalaxy.tcz
                shared-mime-info.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
                   libxml2.tcz
                      liblzma.tcz
             gobject-introspection.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
-               python3.6.tcz
+                  pcre21042.tcz
+               python3.9.tcz
                   openssl-1.1.1.tcz
                   sqlite3.tcz
                   gdbm.tcz
@@ -827,8 +827,8 @@ minigalaxy.tcz
             gobject-introspection.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
-               python3.6.tcz
+                  pcre21042.tcz
+               python3.9.tcz
                   openssl-1.1.1.tcz
                   sqlite3.tcz
                   gdbm.tcz
@@ -847,7 +847,7 @@ minigalaxy.tcz
                         attr.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
                libICE.tcz
                libSM.tcz
                libX11.tcz
@@ -858,8 +858,8 @@ minigalaxy.tcz
             gobject-introspection.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
-               python3.6.tcz
+                  pcre21042.tcz
+               python3.9.tcz
                   openssl-1.1.1.tcz
                   sqlite3.tcz
                   gdbm.tcz
@@ -871,13 +871,13 @@ minigalaxy.tcz
             atk.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
          pango-gir.tcz
             pango.tcz
                cairo.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
                   fontconfig.tcz
                      expat2.tcz
                      freetype.tcz
@@ -885,7 +885,7 @@ minigalaxy.tcz
                         harfbuzz.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            graphite.tcz
                         bzip2-lib.tcz
                   pixman.tcz
@@ -949,7 +949,7 @@ minigalaxy.tcz
                         harfbuzz.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            graphite.tcz
                         bzip2-lib.tcz
                   freetype.tcz
@@ -957,7 +957,7 @@ minigalaxy.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                   libXrender.tcz
@@ -968,18 +968,18 @@ minigalaxy.tcz
                fribidi.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
             harfbuzz-gir.tcz
                harfbuzz.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
                   graphite.tcz
                gobject-introspection.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
-                  python3.6.tcz
+                     pcre21042.tcz
+                  python3.9.tcz
                      openssl-1.1.1.tcz
                      sqlite3.tcz
                      gdbm.tcz
@@ -993,7 +993,7 @@ minigalaxy.tcz
             glib-networking.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
                gnutls35.tcz
                   p11-kit.tcz
                      libffi.tcz
@@ -1013,8 +1013,8 @@ minigalaxy.tcz
          gobject-introspection.tcz
             glib2.tcz
                libffi.tcz
-               pcre.tcz
-            python3.6.tcz
+               pcre21042.tcz
+            python3.9.tcz
                openssl-1.1.1.tcz
                sqlite3.tcz
                gdbm.tcz
@@ -1079,7 +1079,7 @@ minigalaxy.tcz
             shared-mime-info.tcz
                glib2.tcz
                   libffi.tcz
-                  pcre.tcz
+                  pcre21042.tcz
                libxml2.tcz
                   liblzma.tcz
          librsvg.tcz
@@ -1087,7 +1087,7 @@ minigalaxy.tcz
                cairo.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
                   fontconfig.tcz
                      expat2.tcz
                      freetype.tcz
@@ -1095,7 +1095,7 @@ minigalaxy.tcz
                         harfbuzz.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            graphite.tcz
                         bzip2-lib.tcz
                   pixman.tcz
@@ -1159,7 +1159,7 @@ minigalaxy.tcz
                         harfbuzz.tcz
                            glib2.tcz
                               libffi.tcz
-                              pcre.tcz
+                              pcre21042.tcz
                            graphite.tcz
                         bzip2-lib.tcz
                   freetype.tcz
@@ -1167,7 +1167,7 @@ minigalaxy.tcz
                      harfbuzz.tcz
                         glib2.tcz
                            libffi.tcz
-                           pcre.tcz
+                           pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
                   libXrender.tcz
@@ -1178,7 +1178,7 @@ minigalaxy.tcz
                fribidi.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
             gdk-pixbuf2.tcz
                libtiff.tcz
                   libjpeg-turbo.tcz
@@ -1192,7 +1192,7 @@ minigalaxy.tcz
                shared-mime-info.tcz
                   glib2.tcz
                      libffi.tcz
-                     pcre.tcz
+                     pcre21042.tcz
                   libxml2.tcz
                      liblzma.tcz
          hicolor-icon-theme.tcz

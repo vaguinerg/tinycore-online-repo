@@ -2,7 +2,7 @@ polkit-dev.tcz
    polkit.tcz
       glib2.tcz
          libffi.tcz
-         pcre.tcz
+         pcre21042.tcz
       expat2.tcz
       js78.tcz
          readline.tcz
@@ -20,8 +20,8 @@ polkit-dev.tcz
       glib2-python.tcz
          glib2.tcz
             libffi.tcz
-            pcre.tcz
-         python3.6.tcz
+            pcre21042.tcz
+         python3.9.tcz
             openssl-1.1.1.tcz
             sqlite3.tcz
             gdbm.tcz
@@ -30,8 +30,8 @@ polkit-dev.tcz
             readline.tcz
                ncursesw.tcz
             libffi.tcz
-      pcre-dev.tcz
-         pcre.tcz
+      pcre21042-dev.tcz
+         pcre21042.tcz
          bzip2-dev.tcz
             bzip2.tcz
                bzip2-lib.tcz
@@ -54,9 +54,6 @@ polkit-dev.tcz
             ncursesw.tcz
          ncursesw-dev.tcz
             ncursesw.tcz
-      icu67-dev.tcz
-         icu67-bin.tcz
-            icu67.tcz
    linux-pam-dev.tcz
       linux-pam.tcz
    elogind-dev.tcz
