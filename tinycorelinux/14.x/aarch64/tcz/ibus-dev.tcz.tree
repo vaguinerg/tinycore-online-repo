@@ -3248,17 +3248,28 @@ ibus-dev.tcz
                         bzip2-lib.tcz
                   libxml2.tcz
                      liblzma.tcz
-         py3.8gobject.tcz
-            py3.8cairo.tcz
-               python3.8.tcz
+         py3.11gobject.tcz
+            python3.11.tcz
+               bzip2-lib.tcz
+               readline.tcz
+                  ncurses.tcz
+               gdbm.tcz
+               liblzma.tcz
+               openssl.tcz
+                  ca-certificates.tcz
+               sqlite3.tcz
+               ncurses.tcz
+            py3.11cairo.tcz
+               python3.11.tcz
                   bzip2-lib.tcz
+                  readline.tcz
+                     ncurses.tcz
                   gdbm.tcz
                   liblzma.tcz
                   openssl.tcz
                      ca-certificates.tcz
-                  readline.tcz
-                     ncurses.tcz
                   sqlite3.tcz
+                  ncurses.tcz
                cairo.tcz
                   glib2.tcz
                      gamin.tcz
@@ -4152,17 +4163,28 @@ ibus-dev.tcz
                         bzip2-lib.tcz
                   libxml2.tcz
                      liblzma.tcz
-         py3.8gobject.tcz
-            py3.8cairo.tcz
-               python3.8.tcz
+         py3.11gobject.tcz
+            python3.11.tcz
+               bzip2-lib.tcz
+               readline.tcz
+                  ncurses.tcz
+               gdbm.tcz
+               liblzma.tcz
+               openssl.tcz
+                  ca-certificates.tcz
+               sqlite3.tcz
+               ncurses.tcz
+            py3.11cairo.tcz
+               python3.11.tcz
                   bzip2-lib.tcz
+                  readline.tcz
+                     ncurses.tcz
                   gdbm.tcz
                   liblzma.tcz
                   openssl.tcz
                      ca-certificates.tcz
-                  readline.tcz
-                     ncurses.tcz
                   sqlite3.tcz
+                  ncurses.tcz
                cairo.tcz
                   glib2.tcz
                      gamin.tcz
@@ -4666,17 +4688,28 @@ ibus-dev.tcz
                         bzip2-lib.tcz
                   libxml2.tcz
                      liblzma.tcz
-         py3.8gobject.tcz
-            py3.8cairo.tcz
-               python3.8.tcz
+         py3.11gobject.tcz
+            python3.11.tcz
+               bzip2-lib.tcz
+               readline.tcz
+                  ncurses.tcz
+               gdbm.tcz
+               liblzma.tcz
+               openssl.tcz
+                  ca-certificates.tcz
+               sqlite3.tcz
+               ncurses.tcz
+            py3.11cairo.tcz
+               python3.11.tcz
                   bzip2-lib.tcz
+                  readline.tcz
+                     ncurses.tcz
                   gdbm.tcz
                   liblzma.tcz
                   openssl.tcz
                      ca-certificates.tcz
-                  readline.tcz
-                     ncurses.tcz
                   sqlite3.tcz
+                  ncurses.tcz
                cairo.tcz
                   glib2.tcz
                      gamin.tcz
@@ -4785,110 +4818,47 @@ ibus-dev.tcz
                   pcre2.tcz
                      bzip2-lib.tcz
    iso-codes.tcz
-   py3.8gobject-dev.tcz
-      py3.8gobject.tcz
-         py3.8cairo.tcz
-            python3.8.tcz
+   py3.11gobject-dev.tcz
+      python3.11-dev.tcz
+         python3.11.tcz
+            bzip2-lib.tcz
+            readline.tcz
+               ncurses.tcz
+            gdbm.tcz
+            liblzma.tcz
+            openssl.tcz
+               ca-certificates.tcz
+            sqlite3.tcz
+            ncurses.tcz
+         bzip2-dev.tcz
+            bzip2.tcz
                bzip2-lib.tcz
-               gdbm.tcz
-               liblzma.tcz
-               openssl.tcz
-                  ca-certificates.tcz
+         gdbm-dev.tcz
+            gdbm.tcz
+         liblzma-dev.tcz
+            liblzma.tcz
+         openssl-dev.tcz
+            openssl.tcz
+               ca-certificates.tcz
+         readline-dev.tcz
+            readline.tcz
+               ncurses.tcz
+            ncurses-dev.tcz
+               ncurses.tcz
+         sqlite3-dev.tcz
+            sqlite3-bin.tcz
+               sqlite3.tcz
                readline.tcz
                   ncurses.tcz
-               sqlite3.tcz
-            cairo.tcz
-               glib2.tcz
-                  gamin.tcz
-                  libelf.tcz
-                  pcre2.tcz
-                     bzip2-lib.tcz
-               fontconfig.tcz
-                  expat2.tcz
-                  freetype.tcz
-                     libpng.tcz
-                     harfbuzz.tcz
-                        glib2.tcz
-                           gamin.tcz
-                           libelf.tcz
-                           pcre2.tcz
-                              bzip2-lib.tcz
-                        graphite2.tcz
-                     bzip2-lib.tcz
-               pixman.tcz
-               libpng.tcz
-               libEGL.tcz
-                  mesa.tcz
-                     libdrm.tcz
-                        libpciaccess.tcz
-                        udev-lib.tcz
-                     libXdamage.tcz
-                        libXfixes.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                     libXxf86vm.tcz
-                        libXext.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                     expat2.tcz
-                     libxshmfence.tcz
-                     llvm15-lib.tcz
-                        libxml2.tcz
-                           liblzma.tcz
-                        ncurses.tcz
-                        zstd.tcz
-                           libzstd.tcz
-                           liblzma.tcz
-                           liblz4.tcz
-                  wayland.tcz
-                     expat2.tcz
-                     libxml2.tcz
-                        liblzma.tcz
-               libGLES.tcz
-                  mesa.tcz
-                     libdrm.tcz
-                        libpciaccess.tcz
-                        udev-lib.tcz
-                     libXdamage.tcz
-                        libXfixes.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                     libXxf86vm.tcz
-                        libXext.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                     expat2.tcz
-                     libxshmfence.tcz
-                     llvm15-lib.tcz
-                        libxml2.tcz
-                           liblzma.tcz
-                        ncurses.tcz
-                        zstd.tcz
-                           libzstd.tcz
-                           liblzma.tcz
-                           liblz4.tcz
-                  libdrm.tcz
-                     libpciaccess.tcz
-                     udev-lib.tcz
-               libXext.tcz
-                  libX11.tcz
-                     libxcb.tcz
-                        libXau.tcz
-                        libXdmcp.tcz
-               libXrender.tcz
-                  libX11.tcz
-                     libxcb.tcz
-                        libXau.tcz
-                        libXdmcp.tcz
-         gobject-introspection.tcz
+            readline-dev.tcz
+               readline.tcz
+                  ncurses.tcz
+               ncurses-dev.tcz
+                  ncurses.tcz
+         ncurses-dev.tcz
+            ncurses.tcz
+      py3.11cairo-dev.tcz
+         py3.11cairo.tcz
             python3.11.tcz
                bzip2-lib.tcz
                readline.tcz
@@ -4899,22 +4869,6 @@ ibus-dev.tcz
                   ca-certificates.tcz
                sqlite3.tcz
                ncurses.tcz
-            glib2.tcz
-               gamin.tcz
-               libelf.tcz
-               pcre2.tcz
-                  bzip2-lib.tcz
-      py3.8cairo-dev.tcz
-         py3.8cairo.tcz
-            python3.8.tcz
-               bzip2-lib.tcz
-               gdbm.tcz
-               liblzma.tcz
-               openssl.tcz
-                  ca-certificates.tcz
-               readline.tcz
-                  ncurses.tcz
-               sqlite3.tcz
             cairo.tcz
                glib2.tcz
                   gamin.tcz
@@ -5006,16 +4960,17 @@ ibus-dev.tcz
                      libxcb.tcz
                         libXau.tcz
                         libXdmcp.tcz
-         python3.8-dev.tcz
-            python3.8.tcz
+         python3.11-dev.tcz
+            python3.11.tcz
                bzip2-lib.tcz
+               readline.tcz
+                  ncurses.tcz
                gdbm.tcz
                liblzma.tcz
                openssl.tcz
                   ca-certificates.tcz
-               readline.tcz
-                  ncurses.tcz
                sqlite3.tcz
+               ncurses.tcz
             bzip2-dev.tcz
                bzip2.tcz
                   bzip2-lib.tcz
@@ -5041,6 +4996,8 @@ ibus-dev.tcz
                      ncurses.tcz
                   ncurses-dev.tcz
                      ncurses.tcz
+            ncurses-dev.tcz
+               ncurses.tcz
          cairo-dev.tcz
             cairo.tcz
                glib2.tcz

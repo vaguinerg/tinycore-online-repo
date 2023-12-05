@@ -904,17 +904,28 @@ ibus-gir.tcz
                      bzip2-lib.tcz
                libxml2.tcz
                   liblzma.tcz
-      py3.8gobject.tcz
-         py3.8cairo.tcz
-            python3.8.tcz
+      py3.11gobject.tcz
+         python3.11.tcz
+            bzip2-lib.tcz
+            readline.tcz
+               ncurses.tcz
+            gdbm.tcz
+            liblzma.tcz
+            openssl.tcz
+               ca-certificates.tcz
+            sqlite3.tcz
+            ncurses.tcz
+         py3.11cairo.tcz
+            python3.11.tcz
                bzip2-lib.tcz
+               readline.tcz
+                  ncurses.tcz
                gdbm.tcz
                liblzma.tcz
                openssl.tcz
                   ca-certificates.tcz
-               readline.tcz
-                  ncurses.tcz
                sqlite3.tcz
+               ncurses.tcz
             cairo.tcz
                glib2.tcz
                   gamin.tcz
