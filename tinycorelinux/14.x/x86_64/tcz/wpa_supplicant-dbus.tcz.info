@@ -1,17 +1,16 @@
 Title:          wpa_supplicant-dbus.tcz
 Description:    wpa supplicant dbus
-Version:        2.9
+Version:        2.10
 Author:         see list of sites below
 Original-site:  see list of sites below
 Copying-policy: BSD
-Size:           764KB
+Size:           1.1MB
 Extension_by:   juanito, Yoshihiro Sato
 Tags:           wifi wpa ieee 802.1x dbus
 Comments:       wifi protected access (wpa) client and ieee 802.1x supplicant dbus version
                 ----------
                 This extension contains:
-                wpa_supplicant-2.6 - https://w1.fi/releases/wpa_supplicant-2.9.tar.gz
-                with security patches in https://w1.fi/security/
+                wpa_supplicant-2.10 - https://w1.fi/releases/wpa_supplicant-2.10.tar.gz
                 ----------
 Change-log:     2014/03/31 first version
                 2016/09/13 updated 2.1 -> 2.5
@@ -23,4 +22,5 @@ Change-log:     2014/03/31 first version
                 2019/12/18 updated 2.6 -> 2.9
                 2020/01/23 enabled 802.11r/ft, bgscan added security patch
                 2020/12/31 recompiled for updated readline
-Current:        2021/04/29 added wifi p2p for screencast
+                2021/04/29 added wifi p2p for screencast
+Current:        2023/12/03 updated 2.9 -> 2.10
