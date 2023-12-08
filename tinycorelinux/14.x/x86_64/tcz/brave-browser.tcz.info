@@ -1,10 +1,10 @@
 Title:          brave-browser.tcz
 Description:    open-source web browser based on chromium with focus on speed and privacy
-Version:        1.58.135
+Version:        1.60.125
 Author:         see list of sites below
 Original-site:  see list of sites below
 Copying-policy: see list of sites below
-Size:		176M
+Size:		174M
 Extension_by:   gnuser
 Tags:	        web browser chromium chrome firefox
 Comments:       ----------
@@ -13,16 +13,15 @@ Comments:       ----------
                 To disable "Can't update Brave" pop-up notification, use this flag:
                 --simulate-outdated-no-au='Tue, 31 Dec 2099 23:59:59 GMT'
                 ----------
-                If you use fluxbox and websites' drop-down menus disappear when you click on them, use this flag:
-                --disable-features=SendMouseLeaveEvents
+                To run in pure wayland mode, use these flags:
+                --enable-features=UseOzonePlatform --ozone-platform=wayland
                 ----------
                 This extension contains:
-                brave-browser-1.58.135 - MPL 2.0 - https://github.com/brave/brave-browser/releases/download/v1.58.135/brave-browser_1.58.135_amd64.deb
+                brave-browser-1.60.125 - MPL 2.0 - https://github.com/brave/brave-browser/releases/download/v1.60.125/brave-browser_1.60.125_amd64.deb
                 ----------
 Change-log:     2021/03/25 first version
                 ...
-                2023/03/01 updated 1.46.144 -> 1.48.171
-                2023/04/27 updated 1.48.171 -> 1.50.125
-                2023/06/15 updated 1.50.125 -> 1.52.126
-                2023/09/01 updated 1.52.126 -> 1.57.57
-Current:        2023/10/09 updated 1.57.57 -> 1.58.135
+                2023/03/01 1.48.171
+                2023/06/15 1.52.126
+                2023/09/01 1.57.57
+Current:        2023/12/01 1.60.125

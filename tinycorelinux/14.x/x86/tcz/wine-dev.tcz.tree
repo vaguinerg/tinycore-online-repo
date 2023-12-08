@@ -79,7 +79,8 @@ wine-dev.tcz
             liblzma.tcz
          curl.tcz
             ca-certificates.tcz
-               openssl-1.1.1.tcz
+               openssl.tcz
+                  gcc_libs.tcz
       mpg123.tcz
          libltdl.tcz
       glu.tcz
@@ -427,7 +428,8 @@ wine-dev.tcz
                         libfontenc.tcz
                      libepoxy.tcz
                      expat2.tcz
-                     openssl-1.1.1.tcz
+                     openssl.tcz
+                        gcc_libs.tcz
                      pixman.tcz
                      libxcvt.tcz
                llvm15-lib.tcz
@@ -812,7 +814,8 @@ wine-dev.tcz
                   libfontenc.tcz
                libepoxy.tcz
                expat2.tcz
-               openssl-1.1.1.tcz
+               openssl.tcz
+                  gcc_libs.tcz
                pixman.tcz
                libxcvt.tcz
          llvm15-lib.tcz
@@ -1496,7 +1499,8 @@ wine-dev.tcz
                   libfontenc.tcz
                libepoxy.tcz
                expat2.tcz
-               openssl-1.1.1.tcz
+               openssl.tcz
+                  gcc_libs.tcz
                pixman.tcz
                libxcvt.tcz
             libEGL-dev.tcz
@@ -1555,7 +1559,8 @@ wine-dev.tcz
                               glib2.tcz
                                  libffi.tcz
                               python3.6.tcz
-                                 openssl-1.1.1.tcz
+                                 openssl.tcz
+                                    gcc_libs.tcz
                                  sqlite3.tcz
                                  gdbm.tcz
                                  bzip2-lib.tcz
@@ -1583,8 +1588,9 @@ wine-dev.tcz
                libepoxy.tcz
             expat2-dev.tcz
                expat2.tcz
-            openssl-1.1.1-dev.tcz
-               openssl-1.1.1.tcz
+            openssl-dev.tcz
+               openssl.tcz
+                  gcc_libs.tcz
             pixman-dev.tcz
                pixman.tcz
             xorg-proto.tcz
@@ -1614,7 +1620,8 @@ wine-dev.tcz
                libxml2.tcz
                   liblzma.tcz
                python3.6.tcz
-                  openssl-1.1.1.tcz
+                  openssl.tcz
+                     gcc_libs.tcz
                   sqlite3.tcz
                   gdbm.tcz
                   bzip2-lib.tcz
@@ -1725,7 +1732,8 @@ wine-dev.tcz
                         glib2.tcz
                            libffi.tcz
                         python3.6.tcz
-                           openssl-1.1.1.tcz
+                           openssl.tcz
+                              gcc_libs.tcz
                            sqlite3.tcz
                            gdbm.tcz
                            bzip2-lib.tcz
@@ -1766,7 +1774,8 @@ wine-dev.tcz
                glib2.tcz
                   libffi.tcz
                python3.6.tcz
-                  openssl-1.1.1.tcz
+                  openssl.tcz
+                     gcc_libs.tcz
                   sqlite3.tcz
                   gdbm.tcz
                   bzip2-lib.tcz
@@ -2124,7 +2133,8 @@ wine-dev.tcz
                      libfontenc.tcz
                   libepoxy.tcz
                   expat2.tcz
-                  openssl-1.1.1.tcz
+                  openssl.tcz
+                     gcc_libs.tcz
                   pixman.tcz
                   libxcvt.tcz
             llvm15-lib.tcz
@@ -2808,7 +2818,8 @@ wine-dev.tcz
                      libfontenc.tcz
                   libepoxy.tcz
                   expat2.tcz
-                  openssl-1.1.1.tcz
+                  openssl.tcz
+                     gcc_libs.tcz
                   pixman.tcz
                   libxcvt.tcz
                libEGL-dev.tcz
@@ -2867,7 +2878,8 @@ wine-dev.tcz
                                  glib2.tcz
                                     libffi.tcz
                                  python3.6.tcz
-                                    openssl-1.1.1.tcz
+                                    openssl.tcz
+                                       gcc_libs.tcz
                                     sqlite3.tcz
                                     gdbm.tcz
                                     bzip2-lib.tcz
@@ -2895,8 +2907,9 @@ wine-dev.tcz
                   libepoxy.tcz
                expat2-dev.tcz
                   expat2.tcz
-               openssl-1.1.1-dev.tcz
-                  openssl-1.1.1.tcz
+               openssl-dev.tcz
+                  openssl.tcz
+                     gcc_libs.tcz
                pixman-dev.tcz
                   pixman.tcz
                xorg-proto.tcz
@@ -2926,7 +2939,8 @@ wine-dev.tcz
                   libxml2.tcz
                      liblzma.tcz
                   python3.6.tcz
-                     openssl-1.1.1.tcz
+                     openssl.tcz
+                        gcc_libs.tcz
                      sqlite3.tcz
                      gdbm.tcz
                      bzip2-lib.tcz
@@ -3037,7 +3051,8 @@ wine-dev.tcz
                            glib2.tcz
                               libffi.tcz
                            python3.6.tcz
-                              openssl-1.1.1.tcz
+                              openssl.tcz
+                                 gcc_libs.tcz
                               sqlite3.tcz
                               gdbm.tcz
                               bzip2-lib.tcz
@@ -3210,7 +3225,8 @@ wine-dev.tcz
                   glib2.tcz
                      libffi.tcz
                   python3.6.tcz
-                     openssl-1.1.1.tcz
+                     openssl.tcz
+                        gcc_libs.tcz
                      sqlite3.tcz
                      gdbm.tcz
                      bzip2-lib.tcz
@@ -3560,7 +3576,8 @@ wine-dev.tcz
                            libfontenc.tcz
                         libepoxy.tcz
                         expat2.tcz
-                        openssl-1.1.1.tcz
+                        openssl.tcz
+                           gcc_libs.tcz
                         pixman.tcz
                         libxcvt.tcz
                   llvm15-lib.tcz
@@ -4244,7 +4261,8 @@ wine-dev.tcz
                            libfontenc.tcz
                         libepoxy.tcz
                         expat2.tcz
-                        openssl-1.1.1.tcz
+                        openssl.tcz
+                           gcc_libs.tcz
                         pixman.tcz
                         libxcvt.tcz
                      libEGL-dev.tcz
@@ -4303,7 +4321,8 @@ wine-dev.tcz
                                        glib2.tcz
                                           libffi.tcz
                                        python3.6.tcz
-                                          openssl-1.1.1.tcz
+                                          openssl.tcz
+                                             gcc_libs.tcz
                                           sqlite3.tcz
                                           gdbm.tcz
                                           bzip2-lib.tcz
@@ -4331,8 +4350,9 @@ wine-dev.tcz
                         libepoxy.tcz
                      expat2-dev.tcz
                         expat2.tcz
-                     openssl-1.1.1-dev.tcz
-                        openssl-1.1.1.tcz
+                     openssl-dev.tcz
+                        openssl.tcz
+                           gcc_libs.tcz
                      pixman-dev.tcz
                         pixman.tcz
                      xorg-proto.tcz
@@ -4362,7 +4382,8 @@ wine-dev.tcz
                         libxml2.tcz
                            liblzma.tcz
                         python3.6.tcz
-                           openssl-1.1.1.tcz
+                           openssl.tcz
+                              gcc_libs.tcz
                            sqlite3.tcz
                            gdbm.tcz
                            bzip2-lib.tcz
@@ -4473,7 +4494,8 @@ wine-dev.tcz
                                  glib2.tcz
                                     libffi.tcz
                                  python3.6.tcz
-                                    openssl-1.1.1.tcz
+                                    openssl.tcz
+                                       gcc_libs.tcz
                                     sqlite3.tcz
                                     gdbm.tcz
                                     bzip2-lib.tcz
@@ -4507,7 +4529,8 @@ wine-dev.tcz
                   glib2.tcz
                      libffi.tcz
                   python3.6.tcz
-                     openssl-1.1.1.tcz
+                     openssl.tcz
+                        gcc_libs.tcz
                      sqlite3.tcz
                      gdbm.tcz
                      bzip2-lib.tcz
@@ -4852,7 +4875,8 @@ wine-dev.tcz
                   glib2.tcz
                      libffi.tcz
                   python3.6.tcz
-                     openssl-1.1.1.tcz
+                     openssl.tcz
+                        gcc_libs.tcz
                      sqlite3.tcz
                      gdbm.tcz
                      bzip2-lib.tcz
@@ -4939,7 +4963,8 @@ wine-dev.tcz
                      glib2.tcz
                         libffi.tcz
                      python3.6.tcz
-                        openssl-1.1.1.tcz
+                        openssl.tcz
+                           gcc_libs.tcz
                         sqlite3.tcz
                         gdbm.tcz
                         bzip2-lib.tcz
@@ -5594,7 +5619,8 @@ wine-dev.tcz
                            libfontenc.tcz
                         libepoxy.tcz
                         expat2.tcz
-                        openssl-1.1.1.tcz
+                        openssl.tcz
+                           gcc_libs.tcz
                         pixman.tcz
                         libxcvt.tcz
                      libEGL-dev.tcz
@@ -5653,7 +5679,8 @@ wine-dev.tcz
                                        glib2.tcz
                                           libffi.tcz
                                        python3.6.tcz
-                                          openssl-1.1.1.tcz
+                                          openssl.tcz
+                                             gcc_libs.tcz
                                           sqlite3.tcz
                                           gdbm.tcz
                                           bzip2-lib.tcz
@@ -5681,8 +5708,9 @@ wine-dev.tcz
                         libepoxy.tcz
                      expat2-dev.tcz
                         expat2.tcz
-                     openssl-1.1.1-dev.tcz
-                        openssl-1.1.1.tcz
+                     openssl-dev.tcz
+                        openssl.tcz
+                           gcc_libs.tcz
                      pixman-dev.tcz
                         pixman.tcz
                      xorg-proto.tcz
@@ -5701,7 +5729,8 @@ wine-dev.tcz
                      glib2.tcz
                         libffi.tcz
                      python3.6.tcz
-                        openssl-1.1.1.tcz
+                        openssl.tcz
+                           gcc_libs.tcz
                         sqlite3.tcz
                         gdbm.tcz
                         bzip2-lib.tcz
@@ -5858,7 +5887,8 @@ wine-dev.tcz
                      glib2.tcz
                         libffi.tcz
                      python3.6.tcz
-                        openssl-1.1.1.tcz
+                        openssl.tcz
+                           gcc_libs.tcz
                         sqlite3.tcz
                         gdbm.tcz
                         bzip2-lib.tcz
@@ -6208,7 +6238,8 @@ wine-dev.tcz
                               libfontenc.tcz
                            libepoxy.tcz
                            expat2.tcz
-                           openssl-1.1.1.tcz
+                           openssl.tcz
+                              gcc_libs.tcz
                            pixman.tcz
                            libxcvt.tcz
                      llvm15-lib.tcz
@@ -6892,7 +6923,8 @@ wine-dev.tcz
                               libfontenc.tcz
                            libepoxy.tcz
                            expat2.tcz
-                           openssl-1.1.1.tcz
+                           openssl.tcz
+                              gcc_libs.tcz
                            pixman.tcz
                            libxcvt.tcz
                         libEGL-dev.tcz
@@ -6951,7 +6983,8 @@ wine-dev.tcz
                                           glib2.tcz
                                              libffi.tcz
                                           python3.6.tcz
-                                             openssl-1.1.1.tcz
+                                             openssl.tcz
+                                                gcc_libs.tcz
                                              sqlite3.tcz
                                              gdbm.tcz
                                              bzip2-lib.tcz
@@ -6979,8 +7012,9 @@ wine-dev.tcz
                            libepoxy.tcz
                         expat2-dev.tcz
                            expat2.tcz
-                        openssl-1.1.1-dev.tcz
-                           openssl-1.1.1.tcz
+                        openssl-dev.tcz
+                           openssl.tcz
+                              gcc_libs.tcz
                         pixman-dev.tcz
                            pixman.tcz
                         xorg-proto.tcz
@@ -7010,7 +7044,8 @@ wine-dev.tcz
                            libxml2.tcz
                               liblzma.tcz
                            python3.6.tcz
-                              openssl-1.1.1.tcz
+                              openssl.tcz
+                                 gcc_libs.tcz
                               sqlite3.tcz
                               gdbm.tcz
                               bzip2-lib.tcz
@@ -7121,7 +7156,8 @@ wine-dev.tcz
                                     glib2.tcz
                                        libffi.tcz
                                     python3.6.tcz
-                                       openssl-1.1.1.tcz
+                                       openssl.tcz
+                                          gcc_libs.tcz
                                        sqlite3.tcz
                                        gdbm.tcz
                                        bzip2-lib.tcz
@@ -7155,7 +7191,8 @@ wine-dev.tcz
                      glib2.tcz
                         libffi.tcz
                      python3.6.tcz
-                        openssl-1.1.1.tcz
+                        openssl.tcz
+                           gcc_libs.tcz
                         sqlite3.tcz
                         gdbm.tcz
                         bzip2-lib.tcz
@@ -7325,7 +7362,8 @@ wine-dev.tcz
                      openjpeg2.tcz
                      curl.tcz
                         ca-certificates.tcz
-                           openssl-1.1.1.tcz
+                           openssl.tcz
+                              gcc_libs.tcz
                   qpdf.tcz
                      libjpeg-turbo.tcz
                      gnutls3.6.tcz
@@ -7359,7 +7397,8 @@ wine-dev.tcz
                      glib2.tcz
                         libffi.tcz
                      python3.6.tcz
-                        openssl-1.1.1.tcz
+                        openssl.tcz
+                           gcc_libs.tcz
                         sqlite3.tcz
                         gdbm.tcz
                         bzip2-lib.tcz
@@ -7409,7 +7448,8 @@ wine-dev.tcz
                   glib2.tcz
                      libffi.tcz
                   python3.6.tcz
-                     openssl-1.1.1.tcz
+                     openssl.tcz
+                        gcc_libs.tcz
                      sqlite3.tcz
                      gdbm.tcz
                      bzip2-lib.tcz
@@ -7450,7 +7490,8 @@ wine-dev.tcz
          libxml2.tcz
             liblzma.tcz
          python3.6.tcz
-            openssl-1.1.1.tcz
+            openssl.tcz
+               gcc_libs.tcz
             sqlite3.tcz
             gdbm.tcz
             bzip2-lib.tcz
@@ -7589,7 +7630,8 @@ wine-dev.tcz
                openjpeg2.tcz
                curl.tcz
                   ca-certificates.tcz
-                     openssl-1.1.1.tcz
+                     openssl.tcz
+                        gcc_libs.tcz
             qpdf.tcz
                libjpeg-turbo.tcz
                gnutls3.6.tcz
@@ -7623,7 +7665,8 @@ wine-dev.tcz
                glib2.tcz
                   libffi.tcz
                python3.6.tcz
-                  openssl-1.1.1.tcz
+                  openssl.tcz
+                     gcc_libs.tcz
                   sqlite3.tcz
                   gdbm.tcz
                   bzip2-lib.tcz
@@ -7718,7 +7761,8 @@ wine-dev.tcz
                   glib2.tcz
                      libffi.tcz
                   python3.6.tcz
-                     openssl-1.1.1.tcz
+                     openssl.tcz
+                        gcc_libs.tcz
                      sqlite3.tcz
                      gdbm.tcz
                      bzip2-lib.tcz
@@ -7776,7 +7820,8 @@ wine-dev.tcz
                   glib2.tcz
                      libffi.tcz
                   python3.6.tcz
-                     openssl-1.1.1.tcz
+                     openssl.tcz
+                        gcc_libs.tcz
                      sqlite3.tcz
                      gdbm.tcz
                      bzip2-lib.tcz
@@ -7836,7 +7881,8 @@ wine-dev.tcz
                   libxml2.tcz
                      liblzma.tcz
                   python3.6.tcz
-                     openssl-1.1.1.tcz
+                     openssl.tcz
+                        gcc_libs.tcz
                      sqlite3.tcz
                      gdbm.tcz
                      bzip2-lib.tcz
@@ -7896,7 +7942,8 @@ wine-dev.tcz
             libxml2.tcz
                liblzma.tcz
             python3.6.tcz
-               openssl-1.1.1.tcz
+               openssl.tcz
+                  gcc_libs.tcz
                sqlite3.tcz
                gdbm.tcz
                bzip2-lib.tcz
@@ -7932,7 +7979,8 @@ wine-dev.tcz
             liblzma.tcz
          curl.tcz
             ca-certificates.tcz
-               openssl-1.1.1.tcz
+               openssl.tcz
+                  gcc_libs.tcz
       libexif-dev.tcz
          libexif.tcz
       libtool-dev.tcz
@@ -7952,7 +8000,8 @@ wine-dev.tcz
                   glib2.tcz
                      libffi.tcz
                   python3.6.tcz
-                     openssl-1.1.1.tcz
+                     openssl.tcz
+                        gcc_libs.tcz
                      sqlite3.tcz
                      gdbm.tcz
                      bzip2-lib.tcz
@@ -7972,7 +8021,8 @@ wine-dev.tcz
             libxml2.tcz
                liblzma.tcz
             python3.6.tcz
-               openssl-1.1.1.tcz
+               openssl.tcz
+                  gcc_libs.tcz
                sqlite3.tcz
                gdbm.tcz
                bzip2-lib.tcz
@@ -7990,9 +8040,11 @@ wine-dev.tcz
       curl-dev.tcz
          curl.tcz
             ca-certificates.tcz
-               openssl-1.1.1.tcz
-         openssl-1.1.1-dev.tcz
-            openssl-1.1.1.tcz
+               openssl.tcz
+                  gcc_libs.tcz
+         openssl-dev.tcz
+            openssl.tcz
+               gcc_libs.tcz
    libopenal-dev.tcz
       libopenal.tcz
    libpng-dev.tcz
@@ -8053,7 +8105,8 @@ wine-dev.tcz
                      glib2.tcz
                         libffi.tcz
                      python3.6.tcz
-                        openssl-1.1.1.tcz
+                        openssl.tcz
+                           gcc_libs.tcz
                         sqlite3.tcz
                         gdbm.tcz
                         bzip2-lib.tcz
@@ -8079,7 +8132,8 @@ wine-dev.tcz
             libxml2.tcz
                liblzma.tcz
             python3.6.tcz
-               openssl-1.1.1.tcz
+               openssl.tcz
+                  gcc_libs.tcz
                sqlite3.tcz
                gdbm.tcz
                bzip2-lib.tcz
@@ -8420,7 +8474,8 @@ wine-dev.tcz
                         libfontenc.tcz
                      libepoxy.tcz
                      expat2.tcz
-                     openssl-1.1.1.tcz
+                     openssl.tcz
+                        gcc_libs.tcz
                      pixman.tcz
                      libxcvt.tcz
                llvm15-lib.tcz
@@ -8784,7 +8839,8 @@ wine-dev.tcz
                         libfontenc.tcz
                      libepoxy.tcz
                      expat2.tcz
-                     openssl-1.1.1.tcz
+                     openssl.tcz
+                        gcc_libs.tcz
                      pixman.tcz
                      libxcvt.tcz
                llvm15-lib.tcz
@@ -9147,7 +9203,8 @@ wine-dev.tcz
                         libfontenc.tcz
                      libepoxy.tcz
                      expat2.tcz
-                     openssl-1.1.1.tcz
+                     openssl.tcz
+                        gcc_libs.tcz
                      pixman.tcz
                      libxcvt.tcz
                llvm15-lib.tcz
@@ -9831,7 +9888,8 @@ wine-dev.tcz
                         libfontenc.tcz
                      libepoxy.tcz
                      expat2.tcz
-                     openssl-1.1.1.tcz
+                     openssl.tcz
+                        gcc_libs.tcz
                      pixman.tcz
                      libxcvt.tcz
                   libEGL-dev.tcz
@@ -9890,7 +9948,8 @@ wine-dev.tcz
                                     glib2.tcz
                                        libffi.tcz
                                     python3.6.tcz
-                                       openssl-1.1.1.tcz
+                                       openssl.tcz
+                                          gcc_libs.tcz
                                        sqlite3.tcz
                                        gdbm.tcz
                                        bzip2-lib.tcz
@@ -9918,8 +9977,9 @@ wine-dev.tcz
                      libepoxy.tcz
                   expat2-dev.tcz
                      expat2.tcz
-                  openssl-1.1.1-dev.tcz
-                     openssl-1.1.1.tcz
+                  openssl-dev.tcz
+                     openssl.tcz
+                        gcc_libs.tcz
                   pixman-dev.tcz
                      pixman.tcz
                   xorg-proto.tcz
@@ -9949,7 +10009,8 @@ wine-dev.tcz
                      libxml2.tcz
                         liblzma.tcz
                      python3.6.tcz
-                        openssl-1.1.1.tcz
+                        openssl.tcz
+                           gcc_libs.tcz
                         sqlite3.tcz
                         gdbm.tcz
                         bzip2-lib.tcz
@@ -10060,7 +10121,8 @@ wine-dev.tcz
                               glib2.tcz
                                  libffi.tcz
                               python3.6.tcz
-                                 openssl-1.1.1.tcz
+                                 openssl.tcz
+                                    gcc_libs.tcz
                                  sqlite3.tcz
                                  gdbm.tcz
                                  bzip2-lib.tcz

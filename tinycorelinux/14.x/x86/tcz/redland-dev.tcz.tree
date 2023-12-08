@@ -4,7 +4,8 @@ redland-dev.tcz
          raptor.tcz
             curl.tcz
                ca-certificates.tcz
-                  openssl-1.1.1.tcz
+                  openssl.tcz
+                     gcc_libs.tcz
             icu62.tcz
             libxslt.tcz
                libxml2.tcz
@@ -22,7 +23,8 @@ redland-dev.tcz
          raptor.tcz
             curl.tcz
                ca-certificates.tcz
-                  openssl-1.1.1.tcz
+                  openssl.tcz
+                     gcc_libs.tcz
             icu62.tcz
             libxslt.tcz
                libxml2.tcz
@@ -38,7 +40,8 @@ redland-dev.tcz
          raptor.tcz
             curl.tcz
                ca-certificates.tcz
-                  openssl-1.1.1.tcz
+                  openssl.tcz
+                     gcc_libs.tcz
             icu62.tcz
             libxslt.tcz
                libxml2.tcz
@@ -47,9 +50,11 @@ redland-dev.tcz
          curl-dev.tcz
             curl.tcz
                ca-certificates.tcz
-                  openssl-1.1.1.tcz
-            openssl-1.1.1-dev.tcz
-               openssl-1.1.1.tcz
+                  openssl.tcz
+                     gcc_libs.tcz
+            openssl-dev.tcz
+               openssl.tcz
+                  gcc_libs.tcz
          icu62-dev.tcz
             icu62.tcz
          libxslt-dev.tcz
@@ -66,7 +71,8 @@ redland-dev.tcz
                   libxml2.tcz
                      liblzma.tcz
                   python3.6.tcz
-                     openssl-1.1.1.tcz
+                     openssl.tcz
+                        gcc_libs.tcz
                      sqlite3.tcz
                      gdbm.tcz
                      bzip2-lib.tcz

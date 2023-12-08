@@ -2,7 +2,8 @@ libetpan-dev.tcz
    libetpan.tcz
       curl.tcz
          ca-certificates.tcz
-            openssl-1.1.1.tcz
+            openssl.tcz
+               gcc_libs.tcz
       gnutls3.6.tcz
          nettle3.tcz
             gmp.tcz
@@ -17,9 +18,11 @@ libetpan-dev.tcz
    curl-dev.tcz
       curl.tcz
          ca-certificates.tcz
-            openssl-1.1.1.tcz
-      openssl-1.1.1-dev.tcz
-         openssl-1.1.1.tcz
+            openssl.tcz
+               gcc_libs.tcz
+      openssl-dev.tcz
+         openssl.tcz
+            gcc_libs.tcz
    gnutls3.6-dev.tcz
       gnutls3.6.tcz
          nettle3.tcz

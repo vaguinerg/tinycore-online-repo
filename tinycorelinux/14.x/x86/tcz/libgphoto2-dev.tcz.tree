@@ -10,7 +10,8 @@ libgphoto2-dev.tcz
          liblzma.tcz
       curl.tcz
          ca-certificates.tcz
-            openssl-1.1.1.tcz
+            openssl.tcz
+               gcc_libs.tcz
    libexif-dev.tcz
       libexif.tcz
    libtool-dev.tcz
@@ -30,7 +31,8 @@ libgphoto2-dev.tcz
                glib2.tcz
                   libffi.tcz
                python3.6.tcz
-                  openssl-1.1.1.tcz
+                  openssl.tcz
+                     gcc_libs.tcz
                   sqlite3.tcz
                   gdbm.tcz
                   bzip2-lib.tcz
@@ -50,7 +52,8 @@ libgphoto2-dev.tcz
          libxml2.tcz
             liblzma.tcz
          python3.6.tcz
-            openssl-1.1.1.tcz
+            openssl.tcz
+               gcc_libs.tcz
             sqlite3.tcz
             gdbm.tcz
             bzip2-lib.tcz
@@ -68,7 +71,9 @@ libgphoto2-dev.tcz
    curl-dev.tcz
       curl.tcz
          ca-certificates.tcz
-            openssl-1.1.1.tcz
-      openssl-1.1.1-dev.tcz
-         openssl-1.1.1.tcz
+            openssl.tcz
+               gcc_libs.tcz
+      openssl-dev.tcz
+         openssl.tcz
+            gcc_libs.tcz
 

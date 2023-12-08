@@ -24,11 +24,13 @@ emotion-dev.tcz
                libzstd.tcz
          curl.tcz
             ca-certificates.tcz
-               openssl-1.1.1.tcz
+               openssl.tcz
+                  gcc_libs.tcz
          glib2.tcz
             libffi.tcz
          libssh2.tcz
-            openssl-1.1.1.tcz
+            openssl.tcz
+               gcc_libs.tcz
          libXcomposite.tcz
             libX11.tcz
                libxcb.tcz
@@ -102,11 +104,13 @@ emotion-dev.tcz
                   libzstd.tcz
             curl.tcz
                ca-certificates.tcz
-                  openssl-1.1.1.tcz
+                  openssl.tcz
+                     gcc_libs.tcz
             glib2.tcz
                libffi.tcz
             libssh2.tcz
-               openssl-1.1.1.tcz
+               openssl.tcz
+                  gcc_libs.tcz
             libXcomposite.tcz
                libX11.tcz
                   libxcb.tcz
@@ -205,11 +209,13 @@ emotion-dev.tcz
                   libzstd.tcz
             curl.tcz
                ca-certificates.tcz
-                  openssl-1.1.1.tcz
+                  openssl.tcz
+                     gcc_libs.tcz
             glib2.tcz
                libffi.tcz
             libssh2.tcz
-               openssl-1.1.1.tcz
+               openssl.tcz
+                  gcc_libs.tcz
             libXcomposite.tcz
                libX11.tcz
                   libxcb.tcz
@@ -616,7 +622,8 @@ emotion-dev.tcz
                            libfontenc.tcz
                         libepoxy.tcz
                         expat2.tcz
-                        openssl-1.1.1.tcz
+                        openssl.tcz
+                           gcc_libs.tcz
                         pixman.tcz
                         libxcvt.tcz
                   llvm15-lib.tcz
@@ -1300,7 +1307,8 @@ emotion-dev.tcz
                            libfontenc.tcz
                         libepoxy.tcz
                         expat2.tcz
-                        openssl-1.1.1.tcz
+                        openssl.tcz
+                           gcc_libs.tcz
                         pixman.tcz
                         libxcvt.tcz
                      libEGL-dev.tcz
@@ -1359,7 +1367,8 @@ emotion-dev.tcz
                                        glib2.tcz
                                           libffi.tcz
                                        python3.6.tcz
-                                          openssl-1.1.1.tcz
+                                          openssl.tcz
+                                             gcc_libs.tcz
                                           sqlite3.tcz
                                           gdbm.tcz
                                           bzip2-lib.tcz
@@ -1387,8 +1396,9 @@ emotion-dev.tcz
                         libepoxy.tcz
                      expat2-dev.tcz
                         expat2.tcz
-                     openssl-1.1.1-dev.tcz
-                        openssl-1.1.1.tcz
+                     openssl-dev.tcz
+                        openssl.tcz
+                           gcc_libs.tcz
                      pixman-dev.tcz
                         pixman.tcz
                      xorg-proto.tcz
@@ -1418,7 +1428,8 @@ emotion-dev.tcz
                         libxml2.tcz
                            liblzma.tcz
                         python3.6.tcz
-                           openssl-1.1.1.tcz
+                           openssl.tcz
+                              gcc_libs.tcz
                            sqlite3.tcz
                            gdbm.tcz
                            bzip2-lib.tcz
@@ -1529,7 +1540,8 @@ emotion-dev.tcz
                                  glib2.tcz
                                     libffi.tcz
                                  python3.6.tcz
-                                    openssl-1.1.1.tcz
+                                    openssl.tcz
+                                       gcc_libs.tcz
                                     sqlite3.tcz
                                     gdbm.tcz
                                     bzip2-lib.tcz
@@ -1563,7 +1575,8 @@ emotion-dev.tcz
                      glib2.tcz
                         libffi.tcz
                      python3.6.tcz
-                        openssl-1.1.1.tcz
+                        openssl.tcz
+                           gcc_libs.tcz
                         sqlite3.tcz
                         gdbm.tcz
                         bzip2-lib.tcz
@@ -1610,7 +1623,8 @@ emotion-dev.tcz
                glib2.tcz
                   libffi.tcz
                python3.6.tcz
-                  openssl-1.1.1.tcz
+                  openssl.tcz
+                     gcc_libs.tcz
                   sqlite3.tcz
                   gdbm.tcz
                   bzip2-lib.tcz
@@ -1623,9 +1637,11 @@ emotion-dev.tcz
          curl-dev.tcz
             curl.tcz
                ca-certificates.tcz
-                  openssl-1.1.1.tcz
-            openssl-1.1.1-dev.tcz
-               openssl-1.1.1.tcz
+                  openssl.tcz
+                     gcc_libs.tcz
+            openssl-dev.tcz
+               openssl.tcz
+                  gcc_libs.tcz
          libxp-dev.tcz
             libxp.tcz
          libXrandr-dev.tcz
@@ -1697,7 +1713,8 @@ emotion-dev.tcz
                glib2.tcz
                   libffi.tcz
                python3.6.tcz
-                  openssl-1.1.1.tcz
+                  openssl.tcz
+                     gcc_libs.tcz
                   sqlite3.tcz
                   gdbm.tcz
                   bzip2-lib.tcz
@@ -1728,7 +1745,8 @@ emotion-dev.tcz
                   glib2.tcz
                      libffi.tcz
                   python3.6.tcz
-                     openssl-1.1.1.tcz
+                     openssl.tcz
+                        gcc_libs.tcz
                      sqlite3.tcz
                      gdbm.tcz
                      bzip2-lib.tcz
@@ -1768,11 +1786,13 @@ emotion-dev.tcz
                      libzstd.tcz
                curl.tcz
                   ca-certificates.tcz
-                     openssl-1.1.1.tcz
+                     openssl.tcz
+                        gcc_libs.tcz
                glib2.tcz
                   libffi.tcz
                libssh2.tcz
-                  openssl-1.1.1.tcz
+                  openssl.tcz
+                     gcc_libs.tcz
                libXcomposite.tcz
                   libX11.tcz
                      libxcb.tcz
@@ -1863,11 +1883,13 @@ emotion-dev.tcz
                      libzstd.tcz
                curl.tcz
                   ca-certificates.tcz
-                     openssl-1.1.1.tcz
+                     openssl.tcz
+                        gcc_libs.tcz
                glib2.tcz
                   libffi.tcz
                libssh2.tcz
-                  openssl-1.1.1.tcz
+                  openssl.tcz
+                     gcc_libs.tcz
                libXcomposite.tcz
                   libX11.tcz
                      libxcb.tcz
@@ -1940,11 +1962,13 @@ emotion-dev.tcz
                      libzstd.tcz
                curl.tcz
                   ca-certificates.tcz
-                     openssl-1.1.1.tcz
+                     openssl.tcz
+                        gcc_libs.tcz
                glib2.tcz
                   libffi.tcz
                libssh2.tcz
-                  openssl-1.1.1.tcz
+                  openssl.tcz
+                     gcc_libs.tcz
                libXcomposite.tcz
                   libX11.tcz
                      libxcb.tcz
@@ -2351,7 +2375,8 @@ emotion-dev.tcz
                               libfontenc.tcz
                            libepoxy.tcz
                            expat2.tcz
-                           openssl-1.1.1.tcz
+                           openssl.tcz
+                              gcc_libs.tcz
                            pixman.tcz
                            libxcvt.tcz
                      llvm15-lib.tcz
@@ -3035,7 +3060,8 @@ emotion-dev.tcz
                               libfontenc.tcz
                            libepoxy.tcz
                            expat2.tcz
-                           openssl-1.1.1.tcz
+                           openssl.tcz
+                              gcc_libs.tcz
                            pixman.tcz
                            libxcvt.tcz
                         libEGL-dev.tcz
@@ -3094,7 +3120,8 @@ emotion-dev.tcz
                                           glib2.tcz
                                              libffi.tcz
                                           python3.6.tcz
-                                             openssl-1.1.1.tcz
+                                             openssl.tcz
+                                                gcc_libs.tcz
                                              sqlite3.tcz
                                              gdbm.tcz
                                              bzip2-lib.tcz
@@ -3122,8 +3149,9 @@ emotion-dev.tcz
                            libepoxy.tcz
                         expat2-dev.tcz
                            expat2.tcz
-                        openssl-1.1.1-dev.tcz
-                           openssl-1.1.1.tcz
+                        openssl-dev.tcz
+                           openssl.tcz
+                              gcc_libs.tcz
                         pixman-dev.tcz
                            pixman.tcz
                         xorg-proto.tcz
@@ -3153,7 +3181,8 @@ emotion-dev.tcz
                            libxml2.tcz
                               liblzma.tcz
                            python3.6.tcz
-                              openssl-1.1.1.tcz
+                              openssl.tcz
+                                 gcc_libs.tcz
                               sqlite3.tcz
                               gdbm.tcz
                               bzip2-lib.tcz
@@ -3264,7 +3293,8 @@ emotion-dev.tcz
                                     glib2.tcz
                                        libffi.tcz
                                     python3.6.tcz
-                                       openssl-1.1.1.tcz
+                                       openssl.tcz
+                                          gcc_libs.tcz
                                        sqlite3.tcz
                                        gdbm.tcz
                                        bzip2-lib.tcz
@@ -3298,7 +3328,8 @@ emotion-dev.tcz
                         glib2.tcz
                            libffi.tcz
                         python3.6.tcz
-                           openssl-1.1.1.tcz
+                           openssl.tcz
+                              gcc_libs.tcz
                            sqlite3.tcz
                            gdbm.tcz
                            bzip2-lib.tcz
@@ -3345,7 +3376,8 @@ emotion-dev.tcz
                   glib2.tcz
                      libffi.tcz
                   python3.6.tcz
-                     openssl-1.1.1.tcz
+                     openssl.tcz
+                        gcc_libs.tcz
                      sqlite3.tcz
                      gdbm.tcz
                      bzip2-lib.tcz
@@ -3358,9 +3390,11 @@ emotion-dev.tcz
             curl-dev.tcz
                curl.tcz
                   ca-certificates.tcz
-                     openssl-1.1.1.tcz
-               openssl-1.1.1-dev.tcz
-                  openssl-1.1.1.tcz
+                     openssl.tcz
+                        gcc_libs.tcz
+               openssl-dev.tcz
+                  openssl.tcz
+                     gcc_libs.tcz
             libxp-dev.tcz
                libxp.tcz
             libXrandr-dev.tcz

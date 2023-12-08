@@ -95,7 +95,8 @@ hplip-plugins.tcz
                openjpeg2.tcz
                curl.tcz
                   ca-certificates.tcz
-                     openssl-1.1.1.tcz
+                     openssl.tcz
+                        gcc_libs.tcz
             qpdf.tcz
                libjpeg-turbo.tcz
                gnutls3.6.tcz
@@ -139,7 +140,8 @@ hplip-plugins.tcz
          dbus.tcz
             expat2.tcz
          python3.6.tcz
-            openssl-1.1.1.tcz
+            openssl.tcz
+               gcc_libs.tcz
             sqlite3.tcz
             gdbm.tcz
             bzip2-lib.tcz

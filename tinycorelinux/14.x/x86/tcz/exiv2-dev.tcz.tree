@@ -3,13 +3,16 @@ exiv2-dev.tcz
       expat2.tcz
       curl.tcz
          ca-certificates.tcz
-            openssl-1.1.1.tcz
+            openssl.tcz
+               gcc_libs.tcz
    expat2-dev.tcz
       expat2.tcz
    curl-dev.tcz
       curl.tcz
          ca-certificates.tcz
-            openssl-1.1.1.tcz
-      openssl-1.1.1-dev.tcz
-         openssl-1.1.1.tcz
+            openssl.tcz
+               gcc_libs.tcz
+      openssl-dev.tcz
+         openssl.tcz
+            gcc_libs.tcz
 
