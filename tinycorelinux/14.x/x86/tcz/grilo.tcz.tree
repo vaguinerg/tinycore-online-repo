@@ -3,10 +3,12 @@ grilo.tcz
       gmime.tcz
          glib2.tcz
             libffi.tcz
+            pcre21042.tcz
       libsoup-gnome.tcz
          libsoup.tcz
             glib2.tcz
                libffi.tcz
+               pcre21042.tcz
             libxml2.tcz
                liblzma.tcz
             sqlite3.tcz
@@ -17,6 +19,7 @@ grilo.tcz
          glib-networking.tcz
             glib2.tcz
                libffi.tcz
+               pcre21042.tcz
             gnutls3.6.tcz
                nettle3.tcz
                   gmp.tcz

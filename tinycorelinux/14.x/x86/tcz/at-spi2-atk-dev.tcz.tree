@@ -5,6 +5,7 @@ at-spi2-atk-dev.tcz
             expat2.tcz
          glib2.tcz
             libffi.tcz
+            pcre21042.tcz
          libICE.tcz
          libSM.tcz
          libX11.tcz
@@ -14,12 +15,14 @@ at-spi2-atk-dev.tcz
       atk.tcz
          glib2.tcz
             libffi.tcz
+            pcre21042.tcz
    at-spi2-core-dev.tcz
       at-spi2-core.tcz
          dbus.tcz
             expat2.tcz
          glib2.tcz
             libffi.tcz
+            pcre21042.tcz
          libICE.tcz
          libSM.tcz
          libX11.tcz
@@ -35,7 +38,8 @@ at-spi2-atk-dev.tcz
          glib2-python.tcz
             glib2.tcz
                libffi.tcz
-            python3.6.tcz
+               pcre21042.tcz
+            python3.9.tcz
                openssl.tcz
                   gcc_libs.tcz
                sqlite3.tcz
@@ -45,6 +49,16 @@ at-spi2-atk-dev.tcz
                readline.tcz
                   ncursesw.tcz
                libffi.tcz
+         pcre21042-dev.tcz
+            pcre21042.tcz
+            bzip2-dev.tcz
+               bzip2.tcz
+                  bzip2-lib.tcz
+            readline-dev.tcz
+               readline.tcz
+                  ncursesw.tcz
+               ncursesw-dev.tcz
+                  ncursesw.tcz
          libffi-dev.tcz
             libffi.tcz
       Xorg-7.7-dev.tcz
@@ -685,6 +699,7 @@ at-spi2-atk-dev.tcz
                         udev-lib.tcz
                            glib2.tcz
                               libffi.tcz
+                              pcre21042.tcz
                      libxshmfence.tcz
                libXfont2.tcz
                   freetype.tcz
@@ -716,6 +731,7 @@ at-spi2-atk-dev.tcz
                         udev-lib.tcz
                            glib2.tcz
                               libffi.tcz
+                              pcre21042.tcz
                      libxshmfence.tcz
                libGL-dev.tcz
                   libGL.tcz
@@ -736,6 +752,7 @@ at-spi2-atk-dev.tcz
                         udev-lib.tcz
                            glib2.tcz
                               libffi.tcz
+                              pcre21042.tcz
                      libxshmfence.tcz
                   libdrm-dev.tcz
                      libdrm.tcz
@@ -743,15 +760,18 @@ at-spi2-atk-dev.tcz
                         udev-lib.tcz
                            glib2.tcz
                               libffi.tcz
+                              pcre21042.tcz
                      udev-dev.tcz
                         udev-lib.tcz
                            glib2.tcz
                               libffi.tcz
+                              pcre21042.tcz
                         glib2-dev.tcz
                            glib2-python.tcz
                               glib2.tcz
                                  libffi.tcz
-                              python3.6.tcz
+                                 pcre21042.tcz
+                              python3.9.tcz
                                  openssl.tcz
                                     gcc_libs.tcz
                                  sqlite3.tcz
@@ -761,6 +781,16 @@ at-spi2-atk-dev.tcz
                                  readline.tcz
                                     ncursesw.tcz
                                  libffi.tcz
+                           pcre21042-dev.tcz
+                              pcre21042.tcz
+                              bzip2-dev.tcz
+                                 bzip2.tcz
+                                    bzip2-lib.tcz
+                              readline-dev.tcz
+                                 readline.tcz
+                                    ncursesw.tcz
+                                 ncursesw-dev.tcz
+                                    ncursesw.tcz
                            libffi-dev.tcz
                               libffi.tcz
                   libxshmfence-dev.tcz
@@ -797,11 +827,13 @@ at-spi2-atk-dev.tcz
       atk.tcz
          glib2.tcz
             libffi.tcz
+            pcre21042.tcz
       glib2-dev.tcz
          glib2-python.tcz
             glib2.tcz
                libffi.tcz
-            python3.6.tcz
+               pcre21042.tcz
+            python3.9.tcz
                openssl.tcz
                   gcc_libs.tcz
                sqlite3.tcz
@@ -811,6 +843,16 @@ at-spi2-atk-dev.tcz
                readline.tcz
                   ncursesw.tcz
                libffi.tcz
+         pcre21042-dev.tcz
+            pcre21042.tcz
+            bzip2-dev.tcz
+               bzip2.tcz
+                  bzip2-lib.tcz
+            readline-dev.tcz
+               readline.tcz
+                  ncursesw.tcz
+               ncursesw-dev.tcz
+                  ncursesw.tcz
          libffi-dev.tcz
             libffi.tcz
 

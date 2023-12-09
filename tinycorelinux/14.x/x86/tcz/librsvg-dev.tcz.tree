@@ -4,6 +4,7 @@ librsvg-dev.tcz
          cairo.tcz
             glib2.tcz
                libffi.tcz
+               pcre21042.tcz
             fontconfig.tcz
                expat2.tcz
                freetype.tcz
@@ -39,6 +40,7 @@ librsvg-dev.tcz
                      udev-lib.tcz
                         glib2.tcz
                            libffi.tcz
+                           pcre21042.tcz
                   libxshmfence.tcz
             libGLESv2.tcz
                libGL.tcz
@@ -59,10 +61,12 @@ librsvg-dev.tcz
                      udev-lib.tcz
                         glib2.tcz
                            libffi.tcz
+                           pcre21042.tcz
                   libxshmfence.tcz
          harfbuzz.tcz
             glib2.tcz
                libffi.tcz
+               pcre21042.tcz
             graphite2.tcz
             pcre.tcz
                bzip2-lib.tcz
@@ -81,10 +85,12 @@ librsvg-dev.tcz
          fribidi.tcz
             glib2.tcz
                libffi.tcz
+               pcre21042.tcz
       gdk-pixbuf2.tcz
          shared-mime-info.tcz
             glib2.tcz
                libffi.tcz
+               pcre21042.tcz
             libxml2.tcz
                liblzma.tcz
          libpng.tcz
@@ -99,6 +105,7 @@ librsvg-dev.tcz
       libcroco.tcz
          glib2.tcz
             libffi.tcz
+            pcre21042.tcz
          libxml2.tcz
             liblzma.tcz
    pango-dev.tcz
@@ -106,6 +113,7 @@ librsvg-dev.tcz
          cairo.tcz
             glib2.tcz
                libffi.tcz
+               pcre21042.tcz
             fontconfig.tcz
                expat2.tcz
                freetype.tcz
@@ -141,6 +149,7 @@ librsvg-dev.tcz
                      udev-lib.tcz
                         glib2.tcz
                            libffi.tcz
+                           pcre21042.tcz
                   libxshmfence.tcz
             libGLESv2.tcz
                libGL.tcz
@@ -161,10 +170,12 @@ librsvg-dev.tcz
                      udev-lib.tcz
                         glib2.tcz
                            libffi.tcz
+                           pcre21042.tcz
                   libxshmfence.tcz
          harfbuzz.tcz
             glib2.tcz
                libffi.tcz
+               pcre21042.tcz
             graphite2.tcz
             pcre.tcz
                bzip2-lib.tcz
@@ -183,10 +194,12 @@ librsvg-dev.tcz
          fribidi.tcz
             glib2.tcz
                libffi.tcz
+               pcre21042.tcz
       cairo-dev.tcz
          cairo.tcz
             glib2.tcz
                libffi.tcz
+               pcre21042.tcz
             fontconfig.tcz
                expat2.tcz
                freetype.tcz
@@ -222,6 +235,7 @@ librsvg-dev.tcz
                      udev-lib.tcz
                         glib2.tcz
                            libffi.tcz
+                           pcre21042.tcz
                   libxshmfence.tcz
             libGLESv2.tcz
                libGL.tcz
@@ -242,12 +256,14 @@ librsvg-dev.tcz
                      udev-lib.tcz
                         glib2.tcz
                            libffi.tcz
+                           pcre21042.tcz
                   libxshmfence.tcz
          glib2-dev.tcz
             glib2-python.tcz
                glib2.tcz
                   libffi.tcz
-               python3.6.tcz
+                  pcre21042.tcz
+               python3.9.tcz
                   openssl.tcz
                      gcc_libs.tcz
                   sqlite3.tcz
@@ -257,6 +273,16 @@ librsvg-dev.tcz
                   readline.tcz
                      ncursesw.tcz
                   libffi.tcz
+            pcre21042-dev.tcz
+               pcre21042.tcz
+               bzip2-dev.tcz
+                  bzip2.tcz
+                     bzip2-lib.tcz
+               readline-dev.tcz
+                  readline.tcz
+                     ncursesw.tcz
+                  ncursesw-dev.tcz
+                     ncursesw.tcz
             libffi-dev.tcz
                libffi.tcz
          fontconfig-dev.tcz
@@ -354,6 +380,7 @@ librsvg-dev.tcz
                            udev-lib.tcz
                               glib2.tcz
                                  libffi.tcz
+                                 pcre21042.tcz
                         libxshmfence.tcz
                      libXaw.tcz
                         libXmu.tcz
@@ -565,10 +592,12 @@ librsvg-dev.tcz
                         udev-lib.tcz
                            glib2.tcz
                               libffi.tcz
+                              pcre21042.tcz
                         libwacom.tcz
                            udev-lib.tcz
                               glib2.tcz
                                  libffi.tcz
+                                 pcre21042.tcz
                   xf86-video-fbdev.tcz
                   xf86-video-vesa.tcz
                   xkeyboard-config.tcz
@@ -592,6 +621,7 @@ librsvg-dev.tcz
                               udev-lib.tcz
                                  glib2.tcz
                                     libffi.tcz
+                                    pcre21042.tcz
                            libxshmfence.tcz
                      libXfont2.tcz
                         freetype.tcz
@@ -634,6 +664,7 @@ librsvg-dev.tcz
                         udev-lib.tcz
                            glib2.tcz
                               libffi.tcz
+                              pcre21042.tcz
                      libxshmfence.tcz
                elfutils.tcz
                   bzip2-lib.tcz
@@ -1277,6 +1308,7 @@ librsvg-dev.tcz
                               udev-lib.tcz
                                  glib2.tcz
                                     libffi.tcz
+                                    pcre21042.tcz
                            libxshmfence.tcz
                      libXfont2.tcz
                         freetype.tcz
@@ -1308,6 +1340,7 @@ librsvg-dev.tcz
                               udev-lib.tcz
                                  glib2.tcz
                                     libffi.tcz
+                                    pcre21042.tcz
                            libxshmfence.tcz
                      libGL-dev.tcz
                         libGL.tcz
@@ -1328,6 +1361,7 @@ librsvg-dev.tcz
                               udev-lib.tcz
                                  glib2.tcz
                                     libffi.tcz
+                                    pcre21042.tcz
                            libxshmfence.tcz
                         libdrm-dev.tcz
                            libdrm.tcz
@@ -1335,15 +1369,18 @@ librsvg-dev.tcz
                               udev-lib.tcz
                                  glib2.tcz
                                     libffi.tcz
+                                    pcre21042.tcz
                            udev-dev.tcz
                               udev-lib.tcz
                                  glib2.tcz
                                     libffi.tcz
+                                    pcre21042.tcz
                               glib2-dev.tcz
                                  glib2-python.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                    python3.6.tcz
+                                       pcre21042.tcz
+                                    python3.9.tcz
                                        openssl.tcz
                                           gcc_libs.tcz
                                        sqlite3.tcz
@@ -1353,6 +1390,16 @@ librsvg-dev.tcz
                                        readline.tcz
                                           ncursesw.tcz
                                        libffi.tcz
+                                 pcre21042-dev.tcz
+                                    pcre21042.tcz
+                                    bzip2-dev.tcz
+                                       bzip2.tcz
+                                          bzip2-lib.tcz
+                                    readline-dev.tcz
+                                       readline.tcz
+                                          ncursesw.tcz
+                                       ncursesw-dev.tcz
+                                          ncursesw.tcz
                                  libffi-dev.tcz
                                     libffi.tcz
                         libxshmfence-dev.tcz
@@ -1481,6 +1528,7 @@ librsvg-dev.tcz
                         udev-lib.tcz
                            glib2.tcz
                               libffi.tcz
+                              pcre21042.tcz
                      libxshmfence.tcz
                libGL-dev.tcz
                   libGL.tcz
@@ -1501,6 +1549,7 @@ librsvg-dev.tcz
                         udev-lib.tcz
                            glib2.tcz
                               libffi.tcz
+                              pcre21042.tcz
                      libxshmfence.tcz
                   libdrm-dev.tcz
                      libdrm.tcz
@@ -1508,15 +1557,18 @@ librsvg-dev.tcz
                         udev-lib.tcz
                            glib2.tcz
                               libffi.tcz
+                              pcre21042.tcz
                      udev-dev.tcz
                         udev-lib.tcz
                            glib2.tcz
                               libffi.tcz
+                              pcre21042.tcz
                         glib2-dev.tcz
                            glib2-python.tcz
                               glib2.tcz
                                  libffi.tcz
-                              python3.6.tcz
+                                 pcre21042.tcz
+                              python3.9.tcz
                                  openssl.tcz
                                     gcc_libs.tcz
                                  sqlite3.tcz
@@ -1526,6 +1578,16 @@ librsvg-dev.tcz
                                  readline.tcz
                                     ncursesw.tcz
                                  libffi.tcz
+                           pcre21042-dev.tcz
+                              pcre21042.tcz
+                              bzip2-dev.tcz
+                                 bzip2.tcz
+                                    bzip2-lib.tcz
+                              readline-dev.tcz
+                                 readline.tcz
+                                    ncursesw.tcz
+                                 ncursesw-dev.tcz
+                                    ncursesw.tcz
                            libffi-dev.tcz
                               libffi.tcz
                   libxshmfence-dev.tcz
@@ -1544,6 +1606,7 @@ librsvg-dev.tcz
             harfbuzz.tcz
                glib2.tcz
                   libffi.tcz
+                  pcre21042.tcz
                graphite2.tcz
                pcre.tcz
                   bzip2-lib.tcz
@@ -1551,7 +1614,8 @@ librsvg-dev.tcz
             glib2-python.tcz
                glib2.tcz
                   libffi.tcz
-               python3.6.tcz
+                  pcre21042.tcz
+               python3.9.tcz
                   openssl.tcz
                      gcc_libs.tcz
                   sqlite3.tcz
@@ -1561,6 +1625,16 @@ librsvg-dev.tcz
                   readline.tcz
                      ncursesw.tcz
                   libffi.tcz
+            pcre21042-dev.tcz
+               pcre21042.tcz
+               bzip2-dev.tcz
+                  bzip2.tcz
+                     bzip2-lib.tcz
+               readline-dev.tcz
+                  readline.tcz
+                     ncursesw.tcz
+                  ncursesw-dev.tcz
+                     ncursesw.tcz
             libffi-dev.tcz
                libffi.tcz
          graphite2-dev.tcz
@@ -1632,6 +1706,7 @@ librsvg-dev.tcz
          shared-mime-info.tcz
             glib2.tcz
                libffi.tcz
+               pcre21042.tcz
             libxml2.tcz
                liblzma.tcz
          libpng.tcz
@@ -1647,7 +1722,8 @@ librsvg-dev.tcz
          glib2-python.tcz
             glib2.tcz
                libffi.tcz
-            python3.6.tcz
+               pcre21042.tcz
+            python3.9.tcz
                openssl.tcz
                   gcc_libs.tcz
                sqlite3.tcz
@@ -1657,6 +1733,16 @@ librsvg-dev.tcz
                readline.tcz
                   ncursesw.tcz
                libffi.tcz
+         pcre21042-dev.tcz
+            pcre21042.tcz
+            bzip2-dev.tcz
+               bzip2.tcz
+                  bzip2-lib.tcz
+            readline-dev.tcz
+               readline.tcz
+                  ncursesw.tcz
+               ncursesw-dev.tcz
+                  ncursesw.tcz
          libffi-dev.tcz
             libffi.tcz
       libpng-dev.tcz
@@ -1702,13 +1788,15 @@ librsvg-dev.tcz
       libcroco.tcz
          glib2.tcz
             libffi.tcz
+            pcre21042.tcz
          libxml2.tcz
             liblzma.tcz
       glib2-dev.tcz
          glib2-python.tcz
             glib2.tcz
                libffi.tcz
-            python3.6.tcz
+               pcre21042.tcz
+            python3.9.tcz
                openssl.tcz
                   gcc_libs.tcz
                sqlite3.tcz
@@ -1718,6 +1806,16 @@ librsvg-dev.tcz
                readline.tcz
                   ncursesw.tcz
                libffi.tcz
+         pcre21042-dev.tcz
+            pcre21042.tcz
+            bzip2-dev.tcz
+               bzip2.tcz
+                  bzip2-lib.tcz
+            readline-dev.tcz
+               readline.tcz
+                  ncursesw.tcz
+               ncursesw-dev.tcz
+                  ncursesw.tcz
          libffi-dev.tcz
             libffi.tcz
       libxml2-dev.tcz

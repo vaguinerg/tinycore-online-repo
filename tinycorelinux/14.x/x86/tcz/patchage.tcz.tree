@@ -4,16 +4,19 @@ patchage.tcz
          expat2.tcz
       glib2.tcz
          libffi.tcz
+         pcre21042.tcz
    ganv.tcz
       gtk2mm.tcz
          gtk2.tcz
             atk.tcz
                glib2.tcz
                   libffi.tcz
+                  pcre21042.tcz
             gdk-pixbuf2.tcz
                shared-mime-info.tcz
                   glib2.tcz
                      libffi.tcz
+                     pcre21042.tcz
                   libxml2.tcz
                      liblzma.tcz
                libpng.tcz
@@ -62,6 +65,7 @@ patchage.tcz
                cairo.tcz
                   glib2.tcz
                      libffi.tcz
+                     pcre21042.tcz
                   fontconfig.tcz
                      expat2.tcz
                      freetype.tcz
@@ -97,6 +101,7 @@ patchage.tcz
                            udev-lib.tcz
                               glib2.tcz
                                  libffi.tcz
+                                 pcre21042.tcz
                         libxshmfence.tcz
                   libGLESv2.tcz
                      libGL.tcz
@@ -117,10 +122,12 @@ patchage.tcz
                            udev-lib.tcz
                               glib2.tcz
                                  libffi.tcz
+                                 pcre21042.tcz
                         libxshmfence.tcz
                harfbuzz.tcz
                   glib2.tcz
                      libffi.tcz
+                     pcre21042.tcz
                   graphite2.tcz
                   pcre.tcz
                      bzip2-lib.tcz
@@ -139,21 +146,25 @@ patchage.tcz
                fribidi.tcz
                   glib2.tcz
                      libffi.tcz
+                     pcre21042.tcz
             pcre.tcz
                bzip2-lib.tcz
          atkmm.tcz
             atk.tcz
                glib2.tcz
                   libffi.tcz
+                  pcre21042.tcz
             glibmm.tcz
                glib2.tcz
                   libffi.tcz
+                  pcre21042.tcz
                libsigc++.tcz
          pangomm.tcz
             pango.tcz
                cairo.tcz
                   glib2.tcz
                      libffi.tcz
+                     pcre21042.tcz
                   fontconfig.tcz
                      expat2.tcz
                      freetype.tcz
@@ -189,6 +200,7 @@ patchage.tcz
                            udev-lib.tcz
                               glib2.tcz
                                  libffi.tcz
+                                 pcre21042.tcz
                         libxshmfence.tcz
                   libGLESv2.tcz
                      libGL.tcz
@@ -209,10 +221,12 @@ patchage.tcz
                            udev-lib.tcz
                               glib2.tcz
                                  libffi.tcz
+                                 pcre21042.tcz
                         libxshmfence.tcz
                harfbuzz.tcz
                   glib2.tcz
                      libffi.tcz
+                     pcre21042.tcz
                   graphite2.tcz
                   pcre.tcz
                      bzip2-lib.tcz
@@ -231,14 +245,17 @@ patchage.tcz
                fribidi.tcz
                   glib2.tcz
                      libffi.tcz
+                     pcre21042.tcz
             cairomm.tcz
                glibmm.tcz
                   glib2.tcz
                      libffi.tcz
+                     pcre21042.tcz
                   libsigc++.tcz
                cairo.tcz
                   glib2.tcz
                      libffi.tcz
+                     pcre21042.tcz
                   fontconfig.tcz
                      expat2.tcz
                      freetype.tcz
@@ -274,6 +291,7 @@ patchage.tcz
                            udev-lib.tcz
                               glib2.tcz
                                  libffi.tcz
+                                 pcre21042.tcz
                         libxshmfence.tcz
                   libGLESv2.tcz
                      libGL.tcz
@@ -294,6 +312,7 @@ patchage.tcz
                            udev-lib.tcz
                               glib2.tcz
                                  libffi.tcz
+                                 pcre21042.tcz
                         libxshmfence.tcz
    jack.tcz
       jack-lib.tcz
@@ -311,6 +330,7 @@ patchage.tcz
             glibmm.tcz
                glib2.tcz
                   libffi.tcz
+                  pcre21042.tcz
                libsigc++.tcz
       libsamplerate.tcz
          libsndfile.tcz

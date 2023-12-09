@@ -19,6 +19,7 @@ glew2-dev.tcz
                udev-lib.tcz
                   glib2.tcz
                      libffi.tcz
+                     pcre21042.tcz
             libxshmfence.tcz
    glu-dev.tcz
       glu.tcz
@@ -40,6 +41,7 @@ glew2-dev.tcz
                udev-lib.tcz
                   glib2.tcz
                      libffi.tcz
+                     pcre21042.tcz
             libxshmfence.tcz
       libGL-dev.tcz
          libGL.tcz
@@ -60,6 +62,7 @@ glew2-dev.tcz
                udev-lib.tcz
                   glib2.tcz
                      libffi.tcz
+                     pcre21042.tcz
             libxshmfence.tcz
          libdrm-dev.tcz
             libdrm.tcz
@@ -67,15 +70,18 @@ glew2-dev.tcz
                udev-lib.tcz
                   glib2.tcz
                      libffi.tcz
+                     pcre21042.tcz
             udev-dev.tcz
                udev-lib.tcz
                   glib2.tcz
                      libffi.tcz
+                     pcre21042.tcz
                glib2-dev.tcz
                   glib2-python.tcz
                      glib2.tcz
                         libffi.tcz
-                     python3.6.tcz
+                        pcre21042.tcz
+                     python3.9.tcz
                         openssl.tcz
                            gcc_libs.tcz
                         sqlite3.tcz
@@ -85,6 +91,16 @@ glew2-dev.tcz
                         readline.tcz
                            ncursesw.tcz
                         libffi.tcz
+                  pcre21042-dev.tcz
+                     pcre21042.tcz
+                     bzip2-dev.tcz
+                        bzip2.tcz
+                           bzip2-lib.tcz
+                     readline-dev.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        ncursesw-dev.tcz
+                           ncursesw.tcz
                   libffi-dev.tcz
                      libffi.tcz
          libxshmfence-dev.tcz

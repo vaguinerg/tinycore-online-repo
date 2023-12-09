@@ -3,6 +3,7 @@ frei0r-plugins-dev.tcz
       cairo.tcz
          glib2.tcz
             libffi.tcz
+            pcre21042.tcz
          fontconfig.tcz
             expat2.tcz
             freetype.tcz
@@ -38,6 +39,7 @@ frei0r-plugins-dev.tcz
                   udev-lib.tcz
                      glib2.tcz
                         libffi.tcz
+                        pcre21042.tcz
                libxshmfence.tcz
          libGLESv2.tcz
             libGL.tcz
@@ -58,11 +60,13 @@ frei0r-plugins-dev.tcz
                   udev-lib.tcz
                      glib2.tcz
                         libffi.tcz
+                        pcre21042.tcz
                libxshmfence.tcz
    cairo-dev.tcz
       cairo.tcz
          glib2.tcz
             libffi.tcz
+            pcre21042.tcz
          fontconfig.tcz
             expat2.tcz
             freetype.tcz
@@ -98,6 +102,7 @@ frei0r-plugins-dev.tcz
                   udev-lib.tcz
                      glib2.tcz
                         libffi.tcz
+                        pcre21042.tcz
                libxshmfence.tcz
          libGLESv2.tcz
             libGL.tcz
@@ -118,12 +123,14 @@ frei0r-plugins-dev.tcz
                   udev-lib.tcz
                      glib2.tcz
                         libffi.tcz
+                        pcre21042.tcz
                libxshmfence.tcz
       glib2-dev.tcz
          glib2-python.tcz
             glib2.tcz
                libffi.tcz
-            python3.6.tcz
+               pcre21042.tcz
+            python3.9.tcz
                openssl.tcz
                   gcc_libs.tcz
                sqlite3.tcz
@@ -133,6 +140,16 @@ frei0r-plugins-dev.tcz
                readline.tcz
                   ncursesw.tcz
                libffi.tcz
+         pcre21042-dev.tcz
+            pcre21042.tcz
+            bzip2-dev.tcz
+               bzip2.tcz
+                  bzip2-lib.tcz
+            readline-dev.tcz
+               readline.tcz
+                  ncursesw.tcz
+               ncursesw-dev.tcz
+                  ncursesw.tcz
          libffi-dev.tcz
             libffi.tcz
       fontconfig-dev.tcz
@@ -230,6 +247,7 @@ frei0r-plugins-dev.tcz
                         udev-lib.tcz
                            glib2.tcz
                               libffi.tcz
+                              pcre21042.tcz
                      libxshmfence.tcz
                   libXaw.tcz
                      libXmu.tcz
@@ -441,10 +459,12 @@ frei0r-plugins-dev.tcz
                      udev-lib.tcz
                         glib2.tcz
                            libffi.tcz
+                           pcre21042.tcz
                      libwacom.tcz
                         udev-lib.tcz
                            glib2.tcz
                               libffi.tcz
+                              pcre21042.tcz
                xf86-video-fbdev.tcz
                xf86-video-vesa.tcz
                xkeyboard-config.tcz
@@ -468,6 +488,7 @@ frei0r-plugins-dev.tcz
                            udev-lib.tcz
                               glib2.tcz
                                  libffi.tcz
+                                 pcre21042.tcz
                         libxshmfence.tcz
                   libXfont2.tcz
                      freetype.tcz
@@ -510,6 +531,7 @@ frei0r-plugins-dev.tcz
                      udev-lib.tcz
                         glib2.tcz
                            libffi.tcz
+                           pcre21042.tcz
                   libxshmfence.tcz
             elfutils.tcz
                bzip2-lib.tcz
@@ -1153,6 +1175,7 @@ frei0r-plugins-dev.tcz
                            udev-lib.tcz
                               glib2.tcz
                                  libffi.tcz
+                                 pcre21042.tcz
                         libxshmfence.tcz
                   libXfont2.tcz
                      freetype.tcz
@@ -1184,6 +1207,7 @@ frei0r-plugins-dev.tcz
                            udev-lib.tcz
                               glib2.tcz
                                  libffi.tcz
+                                 pcre21042.tcz
                         libxshmfence.tcz
                   libGL-dev.tcz
                      libGL.tcz
@@ -1204,6 +1228,7 @@ frei0r-plugins-dev.tcz
                            udev-lib.tcz
                               glib2.tcz
                                  libffi.tcz
+                                 pcre21042.tcz
                         libxshmfence.tcz
                      libdrm-dev.tcz
                         libdrm.tcz
@@ -1211,15 +1236,18 @@ frei0r-plugins-dev.tcz
                            udev-lib.tcz
                               glib2.tcz
                                  libffi.tcz
+                                 pcre21042.tcz
                         udev-dev.tcz
                            udev-lib.tcz
                               glib2.tcz
                                  libffi.tcz
+                                 pcre21042.tcz
                            glib2-dev.tcz
                               glib2-python.tcz
                                  glib2.tcz
                                     libffi.tcz
-                                 python3.6.tcz
+                                    pcre21042.tcz
+                                 python3.9.tcz
                                     openssl.tcz
                                        gcc_libs.tcz
                                     sqlite3.tcz
@@ -1229,6 +1257,16 @@ frei0r-plugins-dev.tcz
                                     readline.tcz
                                        ncursesw.tcz
                                     libffi.tcz
+                              pcre21042-dev.tcz
+                                 pcre21042.tcz
+                                 bzip2-dev.tcz
+                                    bzip2.tcz
+                                       bzip2-lib.tcz
+                                 readline-dev.tcz
+                                    readline.tcz
+                                       ncursesw.tcz
+                                    ncursesw-dev.tcz
+                                       ncursesw.tcz
                               libffi-dev.tcz
                                  libffi.tcz
                      libxshmfence-dev.tcz
@@ -1357,6 +1395,7 @@ frei0r-plugins-dev.tcz
                      udev-lib.tcz
                         glib2.tcz
                            libffi.tcz
+                           pcre21042.tcz
                   libxshmfence.tcz
             libGL-dev.tcz
                libGL.tcz
@@ -1377,6 +1416,7 @@ frei0r-plugins-dev.tcz
                      udev-lib.tcz
                         glib2.tcz
                            libffi.tcz
+                           pcre21042.tcz
                   libxshmfence.tcz
                libdrm-dev.tcz
                   libdrm.tcz
@@ -1384,15 +1424,18 @@ frei0r-plugins-dev.tcz
                      udev-lib.tcz
                         glib2.tcz
                            libffi.tcz
+                           pcre21042.tcz
                   udev-dev.tcz
                      udev-lib.tcz
                         glib2.tcz
                            libffi.tcz
+                           pcre21042.tcz
                      glib2-dev.tcz
                         glib2-python.tcz
                            glib2.tcz
                               libffi.tcz
-                           python3.6.tcz
+                              pcre21042.tcz
+                           python3.9.tcz
                               openssl.tcz
                                  gcc_libs.tcz
                               sqlite3.tcz
@@ -1402,6 +1445,16 @@ frei0r-plugins-dev.tcz
                               readline.tcz
                                  ncursesw.tcz
                               libffi.tcz
+                        pcre21042-dev.tcz
+                           pcre21042.tcz
+                           bzip2-dev.tcz
+                              bzip2.tcz
+                                 bzip2-lib.tcz
+                           readline-dev.tcz
+                              readline.tcz
+                                 ncursesw.tcz
+                              ncursesw-dev.tcz
+                                 ncursesw.tcz
                         libffi-dev.tcz
                            libffi.tcz
                libxshmfence-dev.tcz

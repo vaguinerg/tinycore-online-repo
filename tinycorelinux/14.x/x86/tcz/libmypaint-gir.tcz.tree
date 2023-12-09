@@ -2,13 +2,15 @@ libmypaint-gir.tcz
    libmypaint.tcz
       glib2.tcz
          libffi.tcz
+         pcre21042.tcz
       json-c.tcz
       gcc_libs.tcz
    gegl-gir.tcz
       gobject-introspection.tcz
          glib2.tcz
             libffi.tcz
-         python3.6.tcz
+            pcre21042.tcz
+         python3.9.tcz
             openssl.tcz
                gcc_libs.tcz
             sqlite3.tcz

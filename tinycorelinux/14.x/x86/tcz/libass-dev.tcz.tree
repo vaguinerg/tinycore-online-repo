@@ -3,9 +3,11 @@ libass-dev.tcz
       fribidi.tcz
          glib2.tcz
             libffi.tcz
+            pcre21042.tcz
       harfbuzz.tcz
          glib2.tcz
             libffi.tcz
+            pcre21042.tcz
          graphite2.tcz
          pcre.tcz
             bzip2-lib.tcz
@@ -18,6 +20,7 @@ libass-dev.tcz
          harfbuzz.tcz
             glib2.tcz
                libffi.tcz
+               pcre21042.tcz
             graphite2.tcz
             pcre.tcz
                bzip2-lib.tcz
@@ -25,7 +28,8 @@ libass-dev.tcz
          glib2-python.tcz
             glib2.tcz
                libffi.tcz
-            python3.6.tcz
+               pcre21042.tcz
+            python3.9.tcz
                openssl.tcz
                   gcc_libs.tcz
                sqlite3.tcz
@@ -35,6 +39,16 @@ libass-dev.tcz
                readline.tcz
                   ncursesw.tcz
                libffi.tcz
+         pcre21042-dev.tcz
+            pcre21042.tcz
+            bzip2-dev.tcz
+               bzip2.tcz
+                  bzip2-lib.tcz
+            readline-dev.tcz
+               readline.tcz
+                  ncursesw.tcz
+               ncursesw-dev.tcz
+                  ncursesw.tcz
          libffi-dev.tcz
             libffi.tcz
       graphite2-dev.tcz

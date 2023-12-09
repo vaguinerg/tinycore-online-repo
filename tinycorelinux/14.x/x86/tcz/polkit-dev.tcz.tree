@@ -2,6 +2,7 @@ polkit-dev.tcz
    polkit.tcz
       glib2.tcz
          libffi.tcz
+         pcre21042.tcz
       expat2.tcz
       js52.tcz
          nspr.tcz
@@ -17,7 +18,8 @@ polkit-dev.tcz
       glib2-python.tcz
          glib2.tcz
             libffi.tcz
-         python3.6.tcz
+            pcre21042.tcz
+         python3.9.tcz
             openssl.tcz
                gcc_libs.tcz
             sqlite3.tcz
@@ -27,6 +29,16 @@ polkit-dev.tcz
             readline.tcz
                ncursesw.tcz
             libffi.tcz
+      pcre21042-dev.tcz
+         pcre21042.tcz
+         bzip2-dev.tcz
+            bzip2.tcz
+               bzip2-lib.tcz
+         readline-dev.tcz
+            readline.tcz
+               ncursesw.tcz
+            ncursesw-dev.tcz
+               ncursesw.tcz
       libffi-dev.tcz
          libffi.tcz
    expat2-dev.tcz

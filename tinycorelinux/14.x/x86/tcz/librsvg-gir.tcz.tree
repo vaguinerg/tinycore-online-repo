@@ -4,6 +4,7 @@ librsvg-gir.tcz
          cairo.tcz
             glib2.tcz
                libffi.tcz
+               pcre21042.tcz
             fontconfig.tcz
                expat2.tcz
                freetype.tcz
@@ -39,6 +40,7 @@ librsvg-gir.tcz
                      udev-lib.tcz
                         glib2.tcz
                            libffi.tcz
+                           pcre21042.tcz
                   libxshmfence.tcz
             libGLESv2.tcz
                libGL.tcz
@@ -59,10 +61,12 @@ librsvg-gir.tcz
                      udev-lib.tcz
                         glib2.tcz
                            libffi.tcz
+                           pcre21042.tcz
                   libxshmfence.tcz
          harfbuzz.tcz
             glib2.tcz
                libffi.tcz
+               pcre21042.tcz
             graphite2.tcz
             pcre.tcz
                bzip2-lib.tcz
@@ -81,17 +85,20 @@ librsvg-gir.tcz
          fribidi.tcz
             glib2.tcz
                libffi.tcz
+               pcre21042.tcz
       harfbuzz-gir.tcz
          harfbuzz.tcz
             glib2.tcz
                libffi.tcz
+               pcre21042.tcz
             graphite2.tcz
             pcre.tcz
                bzip2-lib.tcz
          gobject-introspection.tcz
             glib2.tcz
                libffi.tcz
-            python3.6.tcz
+               pcre21042.tcz
+            python3.9.tcz
                openssl.tcz
                   gcc_libs.tcz
                sqlite3.tcz
@@ -106,6 +113,7 @@ librsvg-gir.tcz
          shared-mime-info.tcz
             glib2.tcz
                libffi.tcz
+               pcre21042.tcz
             libxml2.tcz
                liblzma.tcz
          libpng.tcz
@@ -120,7 +128,8 @@ librsvg-gir.tcz
       gobject-introspection.tcz
          glib2.tcz
             libffi.tcz
-         python3.6.tcz
+            pcre21042.tcz
+         python3.9.tcz
             openssl.tcz
                gcc_libs.tcz
             sqlite3.tcz

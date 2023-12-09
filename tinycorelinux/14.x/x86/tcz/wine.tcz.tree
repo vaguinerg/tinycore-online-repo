@@ -3,6 +3,7 @@ wine.tcz
       gstreamer.tcz
          glib2.tcz
             libffi.tcz
+            pcre21042.tcz
       libtheora.tcz
          libogg.tcz
       libvorbis.tcz
@@ -17,6 +18,7 @@ wine.tcz
          attr.tcz
       glib2.tcz
          libffi.tcz
+         pcre21042.tcz
       libsndfile.tcz
          flac.tcz
             libogg.tcz
@@ -53,6 +55,7 @@ wine.tcz
          udev-lib.tcz
             glib2.tcz
                libffi.tcz
+               pcre21042.tcz
       libnl.tcz
       dbus.tcz
          expat2.tcz
@@ -61,6 +64,7 @@ wine.tcz
          udev-lib.tcz
             glib2.tcz
                libffi.tcz
+               pcre21042.tcz
    libv4l2.tcz
       v4l-dvb-6.1.2-tinycore.tcz
          i2c-6.1.2-tinycore.tcz
@@ -74,6 +78,7 @@ wine.tcz
          udev-lib.tcz
             glib2.tcz
                libffi.tcz
+               pcre21042.tcz
       libxml2.tcz
          liblzma.tcz
       curl.tcz
@@ -101,6 +106,7 @@ wine.tcz
             udev-lib.tcz
                glib2.tcz
                   libffi.tcz
+                  pcre21042.tcz
          libxshmfence.tcz
    vkd3d.tcz
       libvulkan.tcz
@@ -182,6 +188,7 @@ wine.tcz
                         udev-lib.tcz
                            glib2.tcz
                               libffi.tcz
+                              pcre21042.tcz
                      libxshmfence.tcz
                   libXaw.tcz
                      libXmu.tcz
@@ -393,10 +400,12 @@ wine.tcz
                      udev-lib.tcz
                         glib2.tcz
                            libffi.tcz
+                           pcre21042.tcz
                      libwacom.tcz
                         udev-lib.tcz
                            glib2.tcz
                               libffi.tcz
+                              pcre21042.tcz
                xf86-video-fbdev.tcz
                xf86-video-vesa.tcz
                xkeyboard-config.tcz
@@ -420,6 +429,7 @@ wine.tcz
                            udev-lib.tcz
                               glib2.tcz
                                  libffi.tcz
+                                 pcre21042.tcz
                         libxshmfence.tcz
                   libXfont2.tcz
                      freetype.tcz
@@ -462,6 +472,7 @@ wine.tcz
                      udev-lib.tcz
                         glib2.tcz
                            libffi.tcz
+                           pcre21042.tcz
                   libxshmfence.tcz
             elfutils.tcz
                bzip2-lib.tcz
@@ -477,6 +488,7 @@ wine.tcz
             gcc_libs.tcz
             glib2.tcz
                libffi.tcz
+               pcre21042.tcz
          gnutls3.6.tcz
             nettle3.tcz
                gmp.tcz

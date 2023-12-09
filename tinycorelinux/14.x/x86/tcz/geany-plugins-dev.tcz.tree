@@ -5,10 +5,12 @@ geany-plugins-dev.tcz
             atk.tcz
                glib2.tcz
                   libffi.tcz
+                  pcre21042.tcz
             gdk-pixbuf2.tcz
                shared-mime-info.tcz
                   glib2.tcz
                      libffi.tcz
+                     pcre21042.tcz
                   libxml2.tcz
                      liblzma.tcz
                libpng.tcz
@@ -57,6 +59,7 @@ geany-plugins-dev.tcz
                cairo.tcz
                   glib2.tcz
                      libffi.tcz
+                     pcre21042.tcz
                   fontconfig.tcz
                      expat2.tcz
                      freetype.tcz
@@ -92,6 +95,7 @@ geany-plugins-dev.tcz
                            udev-lib.tcz
                               glib2.tcz
                                  libffi.tcz
+                                 pcre21042.tcz
                         libxshmfence.tcz
                   libGLESv2.tcz
                      libGL.tcz
@@ -112,10 +116,12 @@ geany-plugins-dev.tcz
                            udev-lib.tcz
                               glib2.tcz
                                  libffi.tcz
+                                 pcre21042.tcz
                         libxshmfence.tcz
                harfbuzz.tcz
                   glib2.tcz
                      libffi.tcz
+                     pcre21042.tcz
                   graphite2.tcz
                   pcre.tcz
                      bzip2-lib.tcz
@@ -134,6 +140,7 @@ geany-plugins-dev.tcz
                fribidi.tcz
                   glib2.tcz
                      libffi.tcz
+                     pcre21042.tcz
             pcre.tcz
                bzip2-lib.tcz
    geany-dev.tcz
@@ -142,10 +149,12 @@ geany-plugins-dev.tcz
             atk.tcz
                glib2.tcz
                   libffi.tcz
+                  pcre21042.tcz
             gdk-pixbuf2.tcz
                shared-mime-info.tcz
                   glib2.tcz
                      libffi.tcz
+                     pcre21042.tcz
                   libxml2.tcz
                      liblzma.tcz
                libpng.tcz
@@ -194,6 +203,7 @@ geany-plugins-dev.tcz
                cairo.tcz
                   glib2.tcz
                      libffi.tcz
+                     pcre21042.tcz
                   fontconfig.tcz
                      expat2.tcz
                      freetype.tcz
@@ -229,6 +239,7 @@ geany-plugins-dev.tcz
                            udev-lib.tcz
                               glib2.tcz
                                  libffi.tcz
+                                 pcre21042.tcz
                         libxshmfence.tcz
                   libGLESv2.tcz
                      libGL.tcz
@@ -249,10 +260,12 @@ geany-plugins-dev.tcz
                            udev-lib.tcz
                               glib2.tcz
                                  libffi.tcz
+                                 pcre21042.tcz
                         libxshmfence.tcz
                harfbuzz.tcz
                   glib2.tcz
                      libffi.tcz
+                     pcre21042.tcz
                   graphite2.tcz
                   pcre.tcz
                      bzip2-lib.tcz
@@ -271,6 +284,7 @@ geany-plugins-dev.tcz
                fribidi.tcz
                   glib2.tcz
                      libffi.tcz
+                     pcre21042.tcz
             pcre.tcz
                bzip2-lib.tcz
       gtk2-dev.tcz
@@ -278,10 +292,12 @@ geany-plugins-dev.tcz
             atk.tcz
                glib2.tcz
                   libffi.tcz
+                  pcre21042.tcz
             gdk-pixbuf2.tcz
                shared-mime-info.tcz
                   glib2.tcz
                      libffi.tcz
+                     pcre21042.tcz
                   libxml2.tcz
                      liblzma.tcz
                libpng.tcz
@@ -330,6 +346,7 @@ geany-plugins-dev.tcz
                cairo.tcz
                   glib2.tcz
                      libffi.tcz
+                     pcre21042.tcz
                   fontconfig.tcz
                      expat2.tcz
                      freetype.tcz
@@ -365,6 +382,7 @@ geany-plugins-dev.tcz
                            udev-lib.tcz
                               glib2.tcz
                                  libffi.tcz
+                                 pcre21042.tcz
                         libxshmfence.tcz
                   libGLESv2.tcz
                      libGL.tcz
@@ -385,10 +403,12 @@ geany-plugins-dev.tcz
                            udev-lib.tcz
                               glib2.tcz
                                  libffi.tcz
+                                 pcre21042.tcz
                         libxshmfence.tcz
                harfbuzz.tcz
                   glib2.tcz
                      libffi.tcz
+                     pcre21042.tcz
                   graphite2.tcz
                   pcre.tcz
                      bzip2-lib.tcz
@@ -407,17 +427,20 @@ geany-plugins-dev.tcz
                fribidi.tcz
                   glib2.tcz
                      libffi.tcz
+                     pcre21042.tcz
             pcre.tcz
                bzip2-lib.tcz
          atk-dev.tcz
             atk.tcz
                glib2.tcz
                   libffi.tcz
+                  pcre21042.tcz
             glib2-dev.tcz
                glib2-python.tcz
                   glib2.tcz
                      libffi.tcz
-                  python3.6.tcz
+                     pcre21042.tcz
+                  python3.9.tcz
                      openssl.tcz
                         gcc_libs.tcz
                      sqlite3.tcz
@@ -427,6 +450,16 @@ geany-plugins-dev.tcz
                      readline.tcz
                         ncursesw.tcz
                      libffi.tcz
+               pcre21042-dev.tcz
+                  pcre21042.tcz
+                  bzip2-dev.tcz
+                     bzip2.tcz
+                        bzip2-lib.tcz
+                  readline-dev.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     ncursesw-dev.tcz
+                        ncursesw.tcz
                libffi-dev.tcz
                   libffi.tcz
          gdk-pixbuf2-dev.tcz
@@ -434,6 +467,7 @@ geany-plugins-dev.tcz
                shared-mime-info.tcz
                   glib2.tcz
                      libffi.tcz
+                     pcre21042.tcz
                   libxml2.tcz
                      liblzma.tcz
                libpng.tcz
@@ -449,7 +483,8 @@ geany-plugins-dev.tcz
                glib2-python.tcz
                   glib2.tcz
                      libffi.tcz
-                  python3.6.tcz
+                     pcre21042.tcz
+                  python3.9.tcz
                      openssl.tcz
                         gcc_libs.tcz
                      sqlite3.tcz
@@ -459,6 +494,16 @@ geany-plugins-dev.tcz
                      readline.tcz
                         ncursesw.tcz
                      libffi.tcz
+               pcre21042-dev.tcz
+                  pcre21042.tcz
+                  bzip2-dev.tcz
+                     bzip2.tcz
+                        bzip2-lib.tcz
+                  readline-dev.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     ncursesw-dev.tcz
+                        ncursesw.tcz
                libffi-dev.tcz
                   libffi.tcz
             libpng-dev.tcz
@@ -565,6 +610,7 @@ geany-plugins-dev.tcz
                cairo.tcz
                   glib2.tcz
                      libffi.tcz
+                     pcre21042.tcz
                   fontconfig.tcz
                      expat2.tcz
                      freetype.tcz
@@ -600,6 +646,7 @@ geany-plugins-dev.tcz
                            udev-lib.tcz
                               glib2.tcz
                                  libffi.tcz
+                                 pcre21042.tcz
                         libxshmfence.tcz
                   libGLESv2.tcz
                      libGL.tcz
@@ -620,10 +667,12 @@ geany-plugins-dev.tcz
                            udev-lib.tcz
                               glib2.tcz
                                  libffi.tcz
+                                 pcre21042.tcz
                         libxshmfence.tcz
                harfbuzz.tcz
                   glib2.tcz
                      libffi.tcz
+                     pcre21042.tcz
                   graphite2.tcz
                   pcre.tcz
                      bzip2-lib.tcz
@@ -642,10 +691,12 @@ geany-plugins-dev.tcz
                fribidi.tcz
                   glib2.tcz
                      libffi.tcz
+                     pcre21042.tcz
             cairo-dev.tcz
                cairo.tcz
                   glib2.tcz
                      libffi.tcz
+                     pcre21042.tcz
                   fontconfig.tcz
                      expat2.tcz
                      freetype.tcz
@@ -681,6 +732,7 @@ geany-plugins-dev.tcz
                            udev-lib.tcz
                               glib2.tcz
                                  libffi.tcz
+                                 pcre21042.tcz
                         libxshmfence.tcz
                   libGLESv2.tcz
                      libGL.tcz
@@ -701,12 +753,14 @@ geany-plugins-dev.tcz
                            udev-lib.tcz
                               glib2.tcz
                                  libffi.tcz
+                                 pcre21042.tcz
                         libxshmfence.tcz
                glib2-dev.tcz
                   glib2-python.tcz
                      glib2.tcz
                         libffi.tcz
-                     python3.6.tcz
+                        pcre21042.tcz
+                     python3.9.tcz
                         openssl.tcz
                            gcc_libs.tcz
                         sqlite3.tcz
@@ -716,6 +770,16 @@ geany-plugins-dev.tcz
                         readline.tcz
                            ncursesw.tcz
                         libffi.tcz
+                  pcre21042-dev.tcz
+                     pcre21042.tcz
+                     bzip2-dev.tcz
+                        bzip2.tcz
+                           bzip2-lib.tcz
+                     readline-dev.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        ncursesw-dev.tcz
+                           ncursesw.tcz
                   libffi-dev.tcz
                      libffi.tcz
                fontconfig-dev.tcz
@@ -813,6 +877,7 @@ geany-plugins-dev.tcz
                                  udev-lib.tcz
                                     glib2.tcz
                                        libffi.tcz
+                                       pcre21042.tcz
                               libxshmfence.tcz
                            libXaw.tcz
                               libXmu.tcz
@@ -1024,10 +1089,12 @@ geany-plugins-dev.tcz
                               udev-lib.tcz
                                  glib2.tcz
                                     libffi.tcz
+                                    pcre21042.tcz
                               libwacom.tcz
                                  udev-lib.tcz
                                     glib2.tcz
                                        libffi.tcz
+                                       pcre21042.tcz
                         xf86-video-fbdev.tcz
                         xf86-video-vesa.tcz
                         xkeyboard-config.tcz
@@ -1051,6 +1118,7 @@ geany-plugins-dev.tcz
                                     udev-lib.tcz
                                        glib2.tcz
                                           libffi.tcz
+                                          pcre21042.tcz
                                  libxshmfence.tcz
                            libXfont2.tcz
                               freetype.tcz
@@ -1093,6 +1161,7 @@ geany-plugins-dev.tcz
                               udev-lib.tcz
                                  glib2.tcz
                                     libffi.tcz
+                                    pcre21042.tcz
                            libxshmfence.tcz
                      elfutils.tcz
                         bzip2-lib.tcz
@@ -1736,6 +1805,7 @@ geany-plugins-dev.tcz
                                     udev-lib.tcz
                                        glib2.tcz
                                           libffi.tcz
+                                          pcre21042.tcz
                                  libxshmfence.tcz
                            libXfont2.tcz
                               freetype.tcz
@@ -1767,6 +1837,7 @@ geany-plugins-dev.tcz
                                     udev-lib.tcz
                                        glib2.tcz
                                           libffi.tcz
+                                          pcre21042.tcz
                                  libxshmfence.tcz
                            libGL-dev.tcz
                               libGL.tcz
@@ -1787,6 +1858,7 @@ geany-plugins-dev.tcz
                                     udev-lib.tcz
                                        glib2.tcz
                                           libffi.tcz
+                                          pcre21042.tcz
                                  libxshmfence.tcz
                               libdrm-dev.tcz
                                  libdrm.tcz
@@ -1794,15 +1866,18 @@ geany-plugins-dev.tcz
                                     udev-lib.tcz
                                        glib2.tcz
                                           libffi.tcz
+                                          pcre21042.tcz
                                  udev-dev.tcz
                                     udev-lib.tcz
                                        glib2.tcz
                                           libffi.tcz
+                                          pcre21042.tcz
                                     glib2-dev.tcz
                                        glib2-python.tcz
                                           glib2.tcz
                                              libffi.tcz
-                                          python3.6.tcz
+                                             pcre21042.tcz
+                                          python3.9.tcz
                                              openssl.tcz
                                                 gcc_libs.tcz
                                              sqlite3.tcz
@@ -1812,6 +1887,16 @@ geany-plugins-dev.tcz
                                              readline.tcz
                                                 ncursesw.tcz
                                              libffi.tcz
+                                       pcre21042-dev.tcz
+                                          pcre21042.tcz
+                                          bzip2-dev.tcz
+                                             bzip2.tcz
+                                                bzip2-lib.tcz
+                                          readline-dev.tcz
+                                             readline.tcz
+                                                ncursesw.tcz
+                                             ncursesw-dev.tcz
+                                                ncursesw.tcz
                                        libffi-dev.tcz
                                           libffi.tcz
                               libxshmfence-dev.tcz
@@ -1940,6 +2025,7 @@ geany-plugins-dev.tcz
                               udev-lib.tcz
                                  glib2.tcz
                                     libffi.tcz
+                                    pcre21042.tcz
                            libxshmfence.tcz
                      libGL-dev.tcz
                         libGL.tcz
@@ -1960,6 +2046,7 @@ geany-plugins-dev.tcz
                               udev-lib.tcz
                                  glib2.tcz
                                     libffi.tcz
+                                    pcre21042.tcz
                            libxshmfence.tcz
                         libdrm-dev.tcz
                            libdrm.tcz
@@ -1967,15 +2054,18 @@ geany-plugins-dev.tcz
                               udev-lib.tcz
                                  glib2.tcz
                                     libffi.tcz
+                                    pcre21042.tcz
                            udev-dev.tcz
                               udev-lib.tcz
                                  glib2.tcz
                                     libffi.tcz
+                                    pcre21042.tcz
                               glib2-dev.tcz
                                  glib2-python.tcz
                                     glib2.tcz
                                        libffi.tcz
-                                    python3.6.tcz
+                                       pcre21042.tcz
+                                    python3.9.tcz
                                        openssl.tcz
                                           gcc_libs.tcz
                                        sqlite3.tcz
@@ -1985,6 +2075,16 @@ geany-plugins-dev.tcz
                                        readline.tcz
                                           ncursesw.tcz
                                        libffi.tcz
+                                 pcre21042-dev.tcz
+                                    pcre21042.tcz
+                                    bzip2-dev.tcz
+                                       bzip2.tcz
+                                          bzip2-lib.tcz
+                                    readline-dev.tcz
+                                       readline.tcz
+                                          ncursesw.tcz
+                                       ncursesw-dev.tcz
+                                          ncursesw.tcz
                                  libffi-dev.tcz
                                     libffi.tcz
                         libxshmfence-dev.tcz
@@ -2003,6 +2103,7 @@ geany-plugins-dev.tcz
                   harfbuzz.tcz
                      glib2.tcz
                         libffi.tcz
+                        pcre21042.tcz
                      graphite2.tcz
                      pcre.tcz
                         bzip2-lib.tcz
@@ -2010,7 +2111,8 @@ geany-plugins-dev.tcz
                   glib2-python.tcz
                      glib2.tcz
                         libffi.tcz
-                     python3.6.tcz
+                        pcre21042.tcz
+                     python3.9.tcz
                         openssl.tcz
                            gcc_libs.tcz
                         sqlite3.tcz
@@ -2020,6 +2122,16 @@ geany-plugins-dev.tcz
                         readline.tcz
                            ncursesw.tcz
                         libffi.tcz
+                  pcre21042-dev.tcz
+                     pcre21042.tcz
+                     bzip2-dev.tcz
+                        bzip2.tcz
+                           bzip2-lib.tcz
+                     readline-dev.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        ncursesw-dev.tcz
+                           ncursesw.tcz
                   libffi-dev.tcz
                      libffi.tcz
                graphite2-dev.tcz
@@ -2095,6 +2207,7 @@ geany-plugins-dev.tcz
                      gcc_libs.tcz
                      glib2.tcz
                         libffi.tcz
+                        pcre21042.tcz
                   gnutls3.6.tcz
                      nettle3.tcz
                         gmp.tcz
@@ -2116,6 +2229,7 @@ geany-plugins-dev.tcz
                      cairo.tcz
                         glib2.tcz
                            libffi.tcz
+                           pcre21042.tcz
                         fontconfig.tcz
                            expat2.tcz
                            freetype.tcz
@@ -2151,6 +2265,7 @@ geany-plugins-dev.tcz
                                  udev-lib.tcz
                                     glib2.tcz
                                        libffi.tcz
+                                       pcre21042.tcz
                               libxshmfence.tcz
                         libGLESv2.tcz
                            libGL.tcz
@@ -2171,6 +2286,7 @@ geany-plugins-dev.tcz
                                  udev-lib.tcz
                                     glib2.tcz
                                        libffi.tcz
+                                       pcre21042.tcz
                               libxshmfence.tcz
                      nss.tcz
                         nspr.tcz
@@ -2204,6 +2320,7 @@ geany-plugins-dev.tcz
                      gcc_libs.tcz
                      glib2.tcz
                         libffi.tcz
+                        pcre21042.tcz
                   libdaemon.tcz
                   nss-mdns.tcz
                   expat2.tcz
@@ -2216,7 +2333,8 @@ geany-plugins-dev.tcz
                   glib2-python.tcz
                      glib2.tcz
                         libffi.tcz
-                     python3.6.tcz
+                        pcre21042.tcz
+                     python3.9.tcz
                         openssl.tcz
                            gcc_libs.tcz
                         sqlite3.tcz
@@ -2226,6 +2344,16 @@ geany-plugins-dev.tcz
                         readline.tcz
                            ncursesw.tcz
                         libffi.tcz
+                  pcre21042-dev.tcz
+                     pcre21042.tcz
+                     bzip2-dev.tcz
+                        bzip2.tcz
+                           bzip2-lib.tcz
+                     readline-dev.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        ncursesw-dev.tcz
+                           ncursesw.tcz
                   libffi-dev.tcz
                      libffi.tcz
             gnutls3.6-dev.tcz

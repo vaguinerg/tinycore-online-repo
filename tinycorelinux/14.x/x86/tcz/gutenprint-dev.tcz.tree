@@ -8,6 +8,7 @@ gutenprint-dev.tcz
                gcc_libs.tcz
                glib2.tcz
                   libffi.tcz
+                  pcre21042.tcz
             gnutls3.6.tcz
                nettle3.tcz
                   gmp.tcz
@@ -29,6 +30,7 @@ gutenprint-dev.tcz
                cairo.tcz
                   glib2.tcz
                      libffi.tcz
+                     pcre21042.tcz
                   fontconfig.tcz
                      expat2.tcz
                      freetype.tcz
@@ -64,6 +66,7 @@ gutenprint-dev.tcz
                            udev-lib.tcz
                               glib2.tcz
                                  libffi.tcz
+                                 pcre21042.tcz
                         libxshmfence.tcz
                   libGLESv2.tcz
                      libGL.tcz
@@ -84,6 +87,7 @@ gutenprint-dev.tcz
                            udev-lib.tcz
                               glib2.tcz
                                  libffi.tcz
+                                 pcre21042.tcz
                         libxshmfence.tcz
                nss.tcz
                   nspr.tcz
@@ -118,6 +122,7 @@ gutenprint-dev.tcz
                gcc_libs.tcz
                glib2.tcz
                   libffi.tcz
+                  pcre21042.tcz
             gnutls3.6.tcz
                nettle3.tcz
                   gmp.tcz
@@ -139,6 +144,7 @@ gutenprint-dev.tcz
                cairo.tcz
                   glib2.tcz
                      libffi.tcz
+                     pcre21042.tcz
                   fontconfig.tcz
                      expat2.tcz
                      freetype.tcz
@@ -174,6 +180,7 @@ gutenprint-dev.tcz
                            udev-lib.tcz
                               glib2.tcz
                                  libffi.tcz
+                                 pcre21042.tcz
                         libxshmfence.tcz
                   libGLESv2.tcz
                      libGL.tcz
@@ -194,6 +201,7 @@ gutenprint-dev.tcz
                            udev-lib.tcz
                               glib2.tcz
                                  libffi.tcz
+                                 pcre21042.tcz
                         libxshmfence.tcz
                nss.tcz
                   nspr.tcz
@@ -227,6 +235,7 @@ gutenprint-dev.tcz
                gcc_libs.tcz
                glib2.tcz
                   libffi.tcz
+                  pcre21042.tcz
             libdaemon.tcz
             nss-mdns.tcz
             expat2.tcz
@@ -239,7 +248,8 @@ gutenprint-dev.tcz
             glib2-python.tcz
                glib2.tcz
                   libffi.tcz
-               python3.6.tcz
+                  pcre21042.tcz
+               python3.9.tcz
                   openssl.tcz
                      gcc_libs.tcz
                   sqlite3.tcz
@@ -249,6 +259,16 @@ gutenprint-dev.tcz
                   readline.tcz
                      ncursesw.tcz
                   libffi.tcz
+            pcre21042-dev.tcz
+               pcre21042.tcz
+               bzip2-dev.tcz
+                  bzip2.tcz
+                     bzip2-lib.tcz
+               readline-dev.tcz
+                  readline.tcz
+                     ncursesw.tcz
+                  ncursesw-dev.tcz
+                     ncursesw.tcz
             libffi-dev.tcz
                libffi.tcz
       gnutls3.6-dev.tcz

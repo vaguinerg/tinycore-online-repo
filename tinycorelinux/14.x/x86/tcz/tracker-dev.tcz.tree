@@ -4,6 +4,7 @@ tracker-dev.tcz
          libsoup.tcz
             glib2.tcz
                libffi.tcz
+               pcre21042.tcz
             libxml2.tcz
                liblzma.tcz
             sqlite3.tcz
@@ -14,6 +15,7 @@ tracker-dev.tcz
          glib-networking.tcz
             glib2.tcz
                libffi.tcz
+               pcre21042.tcz
             gnutls3.6.tcz
                nettle3.tcz
                   gmp.tcz
@@ -26,11 +28,13 @@ tracker-dev.tcz
       json-glib.tcz
          glib2.tcz
             libffi.tcz
+            pcre21042.tcz
    libsoup-gnome-dev.tcz
       libsoup-gnome.tcz
          libsoup.tcz
             glib2.tcz
                libffi.tcz
+               pcre21042.tcz
             libxml2.tcz
                liblzma.tcz
             sqlite3.tcz
@@ -41,6 +45,7 @@ tracker-dev.tcz
          glib-networking.tcz
             glib2.tcz
                libffi.tcz
+               pcre21042.tcz
             gnutls3.6.tcz
                nettle3.tcz
                   gmp.tcz
@@ -54,6 +59,7 @@ tracker-dev.tcz
          libsoup.tcz
             glib2.tcz
                libffi.tcz
+               pcre21042.tcz
             libxml2.tcz
                liblzma.tcz
             sqlite3.tcz
@@ -65,7 +71,8 @@ tracker-dev.tcz
             glib2-python.tcz
                glib2.tcz
                   libffi.tcz
-               python3.6.tcz
+                  pcre21042.tcz
+               python3.9.tcz
                   openssl.tcz
                      gcc_libs.tcz
                   sqlite3.tcz
@@ -75,6 +82,16 @@ tracker-dev.tcz
                   readline.tcz
                      ncursesw.tcz
                   libffi.tcz
+            pcre21042-dev.tcz
+               pcre21042.tcz
+               bzip2-dev.tcz
+                  bzip2.tcz
+                     bzip2-lib.tcz
+               readline-dev.tcz
+                  readline.tcz
+                     ncursesw.tcz
+                  ncursesw-dev.tcz
+                     ncursesw.tcz
             libffi-dev.tcz
                libffi.tcz
          libxml2-dev.tcz
@@ -130,11 +147,13 @@ tracker-dev.tcz
       json-glib.tcz
          glib2.tcz
             libffi.tcz
+            pcre21042.tcz
       glib2-dev.tcz
          glib2-python.tcz
             glib2.tcz
                libffi.tcz
-            python3.6.tcz
+               pcre21042.tcz
+            python3.9.tcz
                openssl.tcz
                   gcc_libs.tcz
                sqlite3.tcz
@@ -144,6 +163,16 @@ tracker-dev.tcz
                readline.tcz
                   ncursesw.tcz
                libffi.tcz
+         pcre21042-dev.tcz
+            pcre21042.tcz
+            bzip2-dev.tcz
+               bzip2.tcz
+                  bzip2-lib.tcz
+            readline-dev.tcz
+               readline.tcz
+                  ncursesw.tcz
+               ncursesw-dev.tcz
+                  ncursesw.tcz
          libffi-dev.tcz
             libffi.tcz
       perl5.tcz

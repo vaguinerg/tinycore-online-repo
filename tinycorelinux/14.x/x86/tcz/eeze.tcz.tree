@@ -9,12 +9,14 @@ eeze.tcz
          harfbuzz.tcz
             glib2.tcz
                libffi.tcz
+               pcre21042.tcz
             graphite2.tcz
             pcre.tcz
                bzip2-lib.tcz
          fribidi.tcz
             glib2.tcz
                libffi.tcz
+               pcre21042.tcz
          giflib.tcz
          libpng.tcz
          libtiff.tcz
@@ -27,6 +29,7 @@ eeze.tcz
                gcc_libs.tcz
       glib2.tcz
          libffi.tcz
+         pcre21042.tcz
       libssh2.tcz
          openssl.tcz
             gcc_libs.tcz
@@ -83,23 +86,28 @@ eeze.tcz
       udev-lib.tcz
          glib2.tcz
             libffi.tcz
+            pcre21042.tcz
    udev-extra.tcz
       udev-lib.tcz
          glib2.tcz
             libffi.tcz
+            pcre21042.tcz
       acl.tcz
          attr.tcz
       glib2.tcz
          libffi.tcz
+         pcre21042.tcz
       libusb.tcz
          udev-lib.tcz
             glib2.tcz
                libffi.tcz
+               pcre21042.tcz
       usbutils.tcz
          libusb.tcz
             udev-lib.tcz
                glib2.tcz
                   libffi.tcz
+                  pcre21042.tcz
       pci-utils.tcz
          libpci.tcz
    eject.tcz

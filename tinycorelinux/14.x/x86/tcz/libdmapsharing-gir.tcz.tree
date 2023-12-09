@@ -4,6 +4,7 @@ libdmapsharing-gir.tcz
          shared-mime-info.tcz
             glib2.tcz
                libffi.tcz
+               pcre21042.tcz
             libxml2.tcz
                liblzma.tcz
          libpng.tcz
@@ -21,10 +22,12 @@ libdmapsharing-gir.tcz
          gcc_libs.tcz
          glib2.tcz
             libffi.tcz
+            pcre21042.tcz
       gst-plugins-base.tcz
          gstreamer.tcz
             glib2.tcz
                libffi.tcz
+               pcre21042.tcz
          libtheora.tcz
             libogg.tcz
          libvorbis.tcz
@@ -34,6 +37,7 @@ libdmapsharing-gir.tcz
       libsoup.tcz
          glib2.tcz
             libffi.tcz
+            pcre21042.tcz
          libxml2.tcz
             liblzma.tcz
          sqlite3.tcz
@@ -47,10 +51,12 @@ libdmapsharing-gir.tcz
             libgpg-error.tcz
          glib2.tcz
             libffi.tcz
+            pcre21042.tcz
    gobject-introspection.tcz
       glib2.tcz
          libffi.tcz
-      python3.6.tcz
+         pcre21042.tcz
+      python3.9.tcz
          openssl.tcz
             gcc_libs.tcz
          sqlite3.tcz

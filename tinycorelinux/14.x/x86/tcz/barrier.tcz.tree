@@ -14,6 +14,7 @@ barrier.tcz
                      attr.tcz
                   glib2.tcz
                      libffi.tcz
+                     pcre21042.tcz
                   libsndfile.tcz
                      flac.tcz
                         libogg.tcz
@@ -34,10 +35,12 @@ barrier.tcz
                   udev-lib.tcz
                      glib2.tcz
                         libffi.tcz
+                        pcre21042.tcz
                   libwacom.tcz
                      udev-lib.tcz
                         glib2.tcz
                            libffi.tcz
+                           pcre21042.tcz
                libxkbcommon.tcz
                   libX11.tcz
                      libxcb.tcz
@@ -57,6 +60,7 @@ barrier.tcz
                harfbuzz.tcz
                   glib2.tcz
                      libffi.tcz
+                     pcre21042.tcz
                   graphite2.tcz
                   pcre.tcz
                      bzip2-lib.tcz
@@ -78,12 +82,14 @@ barrier.tcz
                      udev-lib.tcz
                         glib2.tcz
                            libffi.tcz
+                           pcre21042.tcz
                   libxshmfence.tcz
                double-conversion.tcz
       gst-plugins-base.tcz
          gstreamer.tcz
             glib2.tcz
                libffi.tcz
+               pcre21042.tcz
          libtheora.tcz
             libogg.tcz
          libvorbis.tcz
@@ -97,6 +103,7 @@ barrier.tcz
          gcc_libs.tcz
          glib2.tcz
             libffi.tcz
+            pcre21042.tcz
       libdaemon.tcz
       nss-mdns.tcz
       expat2.tcz

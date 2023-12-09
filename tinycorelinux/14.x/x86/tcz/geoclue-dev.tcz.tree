@@ -3,9 +3,11 @@ geoclue-dev.tcz
       json-glib.tcz
          glib2.tcz
             libffi.tcz
+            pcre21042.tcz
       libsoup.tcz
          glib2.tcz
             libffi.tcz
+            pcre21042.tcz
          libxml2.tcz
             liblzma.tcz
          sqlite3.tcz
@@ -19,11 +21,13 @@ geoclue-dev.tcz
          gcc_libs.tcz
          glib2.tcz
             libffi.tcz
+            pcre21042.tcz
       libnotify.tcz
          gdk-pixbuf2.tcz
             shared-mime-info.tcz
                glib2.tcz
                   libffi.tcz
+                  pcre21042.tcz
                libxml2.tcz
                   liblzma.tcz
             libpng.tcz
@@ -39,11 +43,13 @@ geoclue-dev.tcz
       json-glib.tcz
          glib2.tcz
             libffi.tcz
+            pcre21042.tcz
       glib2-dev.tcz
          glib2-python.tcz
             glib2.tcz
                libffi.tcz
-            python3.6.tcz
+               pcre21042.tcz
+            python3.9.tcz
                openssl.tcz
                   gcc_libs.tcz
                sqlite3.tcz
@@ -53,6 +59,16 @@ geoclue-dev.tcz
                readline.tcz
                   ncursesw.tcz
                libffi.tcz
+         pcre21042-dev.tcz
+            pcre21042.tcz
+            bzip2-dev.tcz
+               bzip2.tcz
+                  bzip2-lib.tcz
+            readline-dev.tcz
+               readline.tcz
+                  ncursesw.tcz
+               ncursesw-dev.tcz
+                  ncursesw.tcz
          libffi-dev.tcz
             libffi.tcz
       perl5.tcz
@@ -61,6 +77,7 @@ geoclue-dev.tcz
       libsoup.tcz
          glib2.tcz
             libffi.tcz
+            pcre21042.tcz
          libxml2.tcz
             liblzma.tcz
          sqlite3.tcz
@@ -72,7 +89,8 @@ geoclue-dev.tcz
          glib2-python.tcz
             glib2.tcz
                libffi.tcz
-            python3.6.tcz
+               pcre21042.tcz
+            python3.9.tcz
                openssl.tcz
                   gcc_libs.tcz
                sqlite3.tcz
@@ -82,6 +100,16 @@ geoclue-dev.tcz
                readline.tcz
                   ncursesw.tcz
                libffi.tcz
+         pcre21042-dev.tcz
+            pcre21042.tcz
+            bzip2-dev.tcz
+               bzip2.tcz
+                  bzip2-lib.tcz
+            readline-dev.tcz
+               readline.tcz
+                  ncursesw.tcz
+               ncursesw-dev.tcz
+                  ncursesw.tcz
          libffi-dev.tcz
             libffi.tcz
       libxml2-dev.tcz
@@ -141,6 +169,7 @@ geoclue-dev.tcz
             gcc_libs.tcz
             glib2.tcz
                libffi.tcz
+               pcre21042.tcz
          libdaemon.tcz
          nss-mdns.tcz
          expat2.tcz
@@ -153,7 +182,8 @@ geoclue-dev.tcz
          glib2-python.tcz
             glib2.tcz
                libffi.tcz
-            python3.6.tcz
+               pcre21042.tcz
+            python3.9.tcz
                openssl.tcz
                   gcc_libs.tcz
                sqlite3.tcz
@@ -163,6 +193,16 @@ geoclue-dev.tcz
                readline.tcz
                   ncursesw.tcz
                libffi.tcz
+         pcre21042-dev.tcz
+            pcre21042.tcz
+            bzip2-dev.tcz
+               bzip2.tcz
+                  bzip2-lib.tcz
+            readline-dev.tcz
+               readline.tcz
+                  ncursesw.tcz
+               ncursesw-dev.tcz
+                  ncursesw.tcz
          libffi-dev.tcz
             libffi.tcz
    libnotify-dev.tcz
@@ -171,6 +211,7 @@ geoclue-dev.tcz
             shared-mime-info.tcz
                glib2.tcz
                   libffi.tcz
+                  pcre21042.tcz
                libxml2.tcz
                   liblzma.tcz
             libpng.tcz
@@ -187,6 +228,7 @@ geoclue-dev.tcz
             shared-mime-info.tcz
                glib2.tcz
                   libffi.tcz
+                  pcre21042.tcz
                libxml2.tcz
                   liblzma.tcz
             libpng.tcz
@@ -202,7 +244,8 @@ geoclue-dev.tcz
             glib2-python.tcz
                glib2.tcz
                   libffi.tcz
-               python3.6.tcz
+                  pcre21042.tcz
+               python3.9.tcz
                   openssl.tcz
                      gcc_libs.tcz
                   sqlite3.tcz
@@ -212,6 +255,16 @@ geoclue-dev.tcz
                   readline.tcz
                      ncursesw.tcz
                   libffi.tcz
+            pcre21042-dev.tcz
+               pcre21042.tcz
+               bzip2-dev.tcz
+                  bzip2.tcz
+                     bzip2-lib.tcz
+               readline-dev.tcz
+                  readline.tcz
+                     ncursesw.tcz
+                  ncursesw-dev.tcz
+                     ncursesw.tcz
             libffi-dev.tcz
                libffi.tcz
          libpng-dev.tcz

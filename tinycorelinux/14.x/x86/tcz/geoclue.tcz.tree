@@ -2,9 +2,11 @@ geoclue.tcz
    json-glib.tcz
       glib2.tcz
          libffi.tcz
+         pcre21042.tcz
    libsoup.tcz
       glib2.tcz
          libffi.tcz
+         pcre21042.tcz
       libxml2.tcz
          liblzma.tcz
       sqlite3.tcz
@@ -18,11 +20,13 @@ geoclue.tcz
       gcc_libs.tcz
       glib2.tcz
          libffi.tcz
+         pcre21042.tcz
    libnotify.tcz
       gdk-pixbuf2.tcz
          shared-mime-info.tcz
             glib2.tcz
                libffi.tcz
+               pcre21042.tcz
             libxml2.tcz
                liblzma.tcz
          libpng.tcz
