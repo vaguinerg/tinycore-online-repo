@@ -1,4 +1,5 @@
 #need to manually map *.tcz.* files to skip *.tcz.zsync and md5
+wget -O- https://github.com/hjson/hjson-go/releases/download/v4.4.0/hjson_v4.4.0_linux_amd64.tar.gz | sudo tar -xz -C /usr/local/bin
 rsync -av --size-only --delete --prune-empty-dirs --include="*/*/tcz/*.tcz.dep" --include="*/*/tcz/*.tcz.list" --include="*/*/tcz/*.tcz.info" --include="*/*/tcz/*.tcz.tree" --include="*/" --exclude="*" repo.tinycorelinux.net::tc ./tinycorelinux
 result=$(rsync -av --list-only --include="*/*/tcz/*.tcz" --include="*/" --exclude="*" repo.tinycorelinux.net::tc ./tinycorelinux | grep '\.tcz')
 echo "Finished getting file list"
@@ -85,6 +86,19 @@ done
 end=$(date +%s);
 runtime=$((end-start))
 sizeTime=$((sizeTime + runtime))
+
+
+for version_dir in tinycorelinux/*.x; do
+	version=$(basename "$version_dir")
+	for arch_dir in tinycorelinux/$version/*; do
+		arch=$(basename "$arch_dir")
+  		mv "data/$version/$arch/sizelist.json" "data/$version/$arch/sizelist.json.old"
+  		hjson -j "data/$version/$arch/sizelist.jsonold" > "data/$version/$arch/sizelist.json"
+  		hjson -j "data/$version/$arch/taglist" > "data/$version/$arch/taglist.json"
+  		hjson -j "data/$version/$arch/provides" > "data/$version/$arch/provides.json"
+	done
+done
+hjson -j site-data/versions > site-data/versions.json
 
 echo provides: $providesTime
 echo size: $sizeTime
