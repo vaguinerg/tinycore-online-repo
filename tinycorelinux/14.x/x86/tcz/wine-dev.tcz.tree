@@ -8211,18 +8211,29 @@ wine-dev.tcz
             libjpeg-turbo.tcz
       net-snmp-dev.tcz
          net-snmp.tcz
-            openssl-1.1.1.tcz
+            openssl.tcz
+               gcc_libs.tcz
             libpci.tcz
             libnl.tcz
-         openssl-1.1.1-dev.tcz
-            openssl-1.1.1.tcz
+            pcre.tcz
+               bzip2-lib.tcz
+         openssl-dev.tcz
+            openssl.tcz
+               gcc_libs.tcz
+         pcre-dev.tcz
+            pcre.tcz
+               bzip2-lib.tcz
+            bzip2-dev.tcz
+               bzip2.tcz
+                  bzip2-lib.tcz
          libpci-dev.tcz
             libpci.tcz
-         mariadb-10.6-dev.tcz
-            mariadb-10.6.tcz
+         mariadb-11.2-dev.tcz
+            mariadb-11.2.tcz
                libaio.tcz
                bzip2-lib.tcz
-               openssl-1.1.1.tcz
+               openssl.tcz
+                  gcc_libs.tcz
                libxml2.tcz
                   liblzma.tcz
                unixODBC.tcz
@@ -8230,12 +8241,16 @@ wine-dev.tcz
                      ncursesw.tcz
                   libltdl.tcz
                ncursesw.tcz
-            pcre-dev.tcz
-               pcre.tcz
-                  bzip2-lib.tcz
+            pcre21042-dev.tcz
+               pcre21042.tcz
                bzip2-dev.tcz
                   bzip2.tcz
                      bzip2-lib.tcz
+               readline-dev.tcz
+                  readline.tcz
+                     ncursesw.tcz
+                  ncursesw-dev.tcz
+                     ncursesw.tcz
             libaio-dev.tcz
                libaio.tcz
             jemalloc-dev.tcz
@@ -8268,9 +8283,11 @@ wine-dev.tcz
                      ncursesw.tcz
             libevent-dev.tcz
                libevent.tcz
-                  openssl-1.1.1.tcz
-               openssl-1.1.1-dev.tcz
-                  openssl-1.1.1.tcz
+                  openssl.tcz
+                     gcc_libs.tcz
+               openssl-dev.tcz
+                  openssl.tcz
+                     gcc_libs.tcz
             openldap-dev.tcz
                openldap.tcz
                   libltdl.tcz
@@ -8279,8 +8296,10 @@ wine-dev.tcz
                         ncursesw.tcz
                      libltdl.tcz
                   cyrus-sasl.tcz
-                     openssl-1.1.1.tcz
-                  openssl-1.1.1.tcz
+                     openssl.tcz
+                        gcc_libs.tcz
+                  openssl.tcz
+                     gcc_libs.tcz
                unixODBC-dev.tcz
                   unixODBC.tcz
                      readline.tcz
@@ -8293,14 +8312,18 @@ wine-dev.tcz
                         ncursesw.tcz
                cyrus-sasl-dev.tcz
                   cyrus-sasl.tcz
-                     openssl-1.1.1.tcz
-                  openssl-1.1.1-dev.tcz
-                     openssl-1.1.1.tcz
-               openssl-1.1.1-dev.tcz
-                  openssl-1.1.1.tcz
+                     openssl.tcz
+                        gcc_libs.tcz
+                  openssl-dev.tcz
+                     openssl.tcz
+                        gcc_libs.tcz
+               openssl-dev.tcz
+                  openssl.tcz
+                     gcc_libs.tcz
                libltdl.tcz
-            openssl-1.1.1-dev.tcz
-               openssl-1.1.1.tcz
+            openssl-dev.tcz
+               openssl.tcz
+                  gcc_libs.tcz
       libxml2-dev.tcz
          libxml2-bin.tcz
             libxml2.tcz

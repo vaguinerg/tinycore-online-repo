@@ -2,44 +2,19 @@ bind-dev.tcz
    bind.tcz
       libcap.tcz
          attr.tcz
-      openssl-1.1.1.tcz
+      openssl.tcz
+         gcc_libs.tcz
       gcc_libs.tcz
       libuv.tcz
       libxml2.tcz
          liblzma.tcz
-   openssl-1.1.1-dev.tcz
-      openssl-1.1.1.tcz
+      libnghttp2.tcz
+   openssl-dev.tcz
+      openssl.tcz
+         gcc_libs.tcz
    libcap-dev.tcz
       libcap.tcz
          attr.tcz
       attr-dev.tcz
          attr.tcz
-   libuv-dev.tcz
-      libuv.tcz
-   libxml2-dev.tcz
-      libxml2-bin.tcz
-         libxml2.tcz
-            liblzma.tcz
-         readline.tcz
-            ncursesw.tcz
-      libxml2-python.tcz
-         libxml2.tcz
-            liblzma.tcz
-         python3.6.tcz
-            openssl.tcz
-               gcc_libs.tcz
-            sqlite3.tcz
-            gdbm.tcz
-            bzip2-lib.tcz
-            liblzma.tcz
-            readline.tcz
-               ncursesw.tcz
-            libffi.tcz
-      liblzma-dev.tcz
-         liblzma.tcz
-      readline-dev.tcz
-         readline.tcz
-            ncursesw.tcz
-         ncursesw-dev.tcz
-            ncursesw.tcz
 

@@ -4,7 +4,8 @@ svn.tcz
          apr.tcz
          expat2.tcz
    cyrus-sasl.tcz
-      openssl-1.1.1.tcz
+      openssl.tcz
+         gcc_libs.tcz
    sqlite3.tcz
    openldap.tcz
       libltdl.tcz
@@ -13,8 +14,10 @@ svn.tcz
             ncursesw.tcz
          libltdl.tcz
       cyrus-sasl.tcz
-         openssl-1.1.1.tcz
-      openssl-1.1.1.tcz
+         openssl.tcz
+            gcc_libs.tcz
+      openssl.tcz
+         gcc_libs.tcz
    gdbm.tcz
    liblz4.tcz
 

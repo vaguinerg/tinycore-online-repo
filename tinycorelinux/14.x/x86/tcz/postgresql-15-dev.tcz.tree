@@ -1,14 +1,16 @@
 postgresql-15-dev.tcz
    postgresql-15.tcz
-      openssl-1.1.1.tcz
+      openssl.tcz
+         gcc_libs.tcz
       readline.tcz
          ncursesw.tcz
       libxslt.tcz
          libxml2.tcz
             liblzma.tcz
       tzdata.tcz
-   openssl-1.1.1-dev.tcz
-      openssl-1.1.1.tcz
+   openssl-dev.tcz
+      openssl.tcz
+         gcc_libs.tcz
    readline-dev.tcz
       readline.tcz
          ncursesw.tcz

@@ -12,7 +12,8 @@ libcamera-dev.tcz
          alsa-modules-6.1.2-tinycore.tcz
             input-joystick-6.1.2-tinycore.tcz
       libevent.tcz
-         openssl-1.1.1.tcz
+         openssl.tcz
+            gcc_libs.tcz
       libtiff.tcz
          liblzma.tcz
          libjpeg-turbo.tcz
@@ -2988,9 +2989,11 @@ libcamera-dev.tcz
             fribidi.tcz   
    libevent-dev.tcz
       libevent.tcz
-         openssl-1.1.1.tcz
-      openssl-1.1.1-dev.tcz
-         openssl-1.1.1.tcz
+         openssl.tcz
+            gcc_libs.tcz
+      openssl-dev.tcz
+         openssl.tcz
+            gcc_libs.tcz
    libtiff-dev.tcz
       libtiff-bin.tcz
          libtiff.tcz
