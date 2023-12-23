@@ -1,4 +1,10 @@
 {
+  "advcomp.tcz": [
+    "/usr/local/bin/advdef",
+    "/usr/local/bin/advmng",
+    "/usr/local/bin/advpng",
+    "/usr/local/bin/advzip"
+  ],
   "autoconf.tcz": [
     "/usr/local/bin/autoconf",
     "/usr/local/bin/autoheader",
@@ -665,6 +671,81 @@
     "/usr/lib/pkgconfig/ext2fs.pc",
     "/usr/share/et/et_c.awk",
     "/usr/share/et/et_h.awk"
+  ],
+  "elfutils-dev.tcz": [
+    "/usr/local/include/dwarf.h",
+    "/usr/local/include/elfutils/elf-knowledge.h",
+    "/usr/local/include/elfutils/known-dwarf.h",
+    "/usr/local/include/elfutils/libasm.h",
+    "/usr/local/include/elfutils/libdw.h",
+    "/usr/local/include/elfutils/libdwelf.h",
+    "/usr/local/include/elfutils/libdwfl.h",
+    "/usr/local/include/elfutils/libebl.h",
+    "/usr/local/include/elfutils/version.h",
+    "/usr/local/include/gelf.h",
+    "/usr/local/include/libelf.h",
+    "/usr/local/include/nlist.h",
+    "/usr/local/lib/libasm.a",
+    "/usr/local/lib/libdw.a",
+    "/usr/local/lib/libebl.a",
+    "/usr/local/lib/libelf.a",
+    "/usr/local/lib/pkgconfig/libdw.pc",
+    "/usr/local/lib/pkgconfig/libelf.pc"
+  ],
+  "elfutils.tcz": [
+    "/usr/local/bin/eu-addr2line",
+    "/usr/local/bin/eu-ar",
+    "/usr/local/bin/eu-elfcmp",
+    "/usr/local/bin/eu-elfcompress",
+    "/usr/local/bin/eu-elflint",
+    "/usr/local/bin/eu-findtextrel",
+    "/usr/local/bin/eu-make-debug-archive",
+    "/usr/local/bin/eu-nm",
+    "/usr/local/bin/eu-objdump",
+    "/usr/local/bin/eu-ranlib",
+    "/usr/local/bin/eu-readelf",
+    "/usr/local/bin/eu-size",
+    "/usr/local/bin/eu-stack",
+    "/usr/local/bin/eu-strings",
+    "/usr/local/bin/eu-strip",
+    "/usr/local/bin/eu-unstrip",
+    "/usr/local/lib/elfutils/libebl_aarch64-0.170.so",
+    "/usr/local/lib/elfutils/libebl_aarch64.so",
+    "/usr/local/lib/elfutils/libebl_alpha-0.170.so",
+    "/usr/local/lib/elfutils/libebl_alpha.so",
+    "/usr/local/lib/elfutils/libebl_arm-0.170.so",
+    "/usr/local/lib/elfutils/libebl_arm.so",
+    "/usr/local/lib/elfutils/libebl_bpf-0.170.so",
+    "/usr/local/lib/elfutils/libebl_bpf.so",
+    "/usr/local/lib/elfutils/libebl_i386-0.170.so",
+    "/usr/local/lib/elfutils/libebl_i386.so",
+    "/usr/local/lib/elfutils/libebl_ia64-0.170.so",
+    "/usr/local/lib/elfutils/libebl_ia64.so",
+    "/usr/local/lib/elfutils/libebl_m68k-0.170.so",
+    "/usr/local/lib/elfutils/libebl_m68k.so",
+    "/usr/local/lib/elfutils/libebl_ppc-0.170.so",
+    "/usr/local/lib/elfutils/libebl_ppc.so",
+    "/usr/local/lib/elfutils/libebl_ppc64-0.170.so",
+    "/usr/local/lib/elfutils/libebl_ppc64.so",
+    "/usr/local/lib/elfutils/libebl_s390-0.170.so",
+    "/usr/local/lib/elfutils/libebl_s390.so",
+    "/usr/local/lib/elfutils/libebl_sh-0.170.so",
+    "/usr/local/lib/elfutils/libebl_sh.so",
+    "/usr/local/lib/elfutils/libebl_sparc-0.170.so",
+    "/usr/local/lib/elfutils/libebl_sparc.so",
+    "/usr/local/lib/elfutils/libebl_tilegx-0.170.so",
+    "/usr/local/lib/elfutils/libebl_tilegx.so",
+    "/usr/local/lib/elfutils/libebl_x86_64-0.170.so",
+    "/usr/local/lib/elfutils/libebl_x86_64.so",
+    "/usr/local/lib/libasm-0.170.so",
+    "/usr/local/lib/libasm.so",
+    "/usr/local/lib/libasm.so.1",
+    "/usr/local/lib/libdw-0.170.so",
+    "/usr/local/lib/libdw.so",
+    "/usr/local/lib/libdw.so.1",
+    "/usr/local/lib/libelf-0.170.so",
+    "/usr/local/lib/libelf.so",
+    "/usr/local/lib/libelf.so.1"
   ],
   "expat2-dev.tcz": [
     "/usr/local/include/expat.h",
@@ -6418,6 +6499,11 @@
     "/usr/include/xen/gntdev.h",
     "/usr/include/xen/privcmd.h"
   ],
+  "lzo.tcz": [
+    "/usr/local/lib/liblzo2.so",
+    "/usr/local/lib/liblzo2.so.2",
+    "/usr/local/lib/liblzo2.so.2.0.0"
+  ],
   "m4.tcz": [
     "/usr/local/bin/m4"
   ],
@@ -11095,6 +11181,15 @@
   ],
   "sed.tcz": [
     "/usr/local/bin/sed"
+  ],
+  "squashfs-tools.tcz": [
+    "/usr/local/bin/mksquashfs",
+    "/usr/local/bin/sqfscat",
+    "/usr/local/bin/sqfstar",
+    "/usr/local/bin/unsquashfs"
+  ],
+  "sstrip.tcz": [
+    "/usr/local/bin/sstrip"
   ],
   "tar.tcz": [
     "/usr/local/bin/tar",

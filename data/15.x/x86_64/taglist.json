@@ -1,4 +1,7 @@
 {
+  "advcomp.tcz": [
+    "compression utilities"
+  ],
   "autoconf.tcz": [
     "autoconf shells scripts"
   ],
@@ -46,6 +49,12 @@
   ],
   "e2fsprogs_base-dev.tcz": [
     "linux fs tools dev"
+  ],
+  "elfutils-dev.tcz": [
+    "elf utilities dev"
+  ],
+  "elfutils.tcz": [
+    "elf utilities"
   ],
   "expat2-dev.tcz": [
     "xml parser dev"
@@ -155,6 +164,9 @@
   "linux-6.6_api_headers.tcz": [
     "linux kernel api dev"
   ],
+  "lzo.tcz": [
+    "lzo data lossless compression"
+  ],
   "m4.tcz": [
     "m4 macro"
   ],
@@ -205,6 +217,12 @@
   ],
   "sed.tcz": [
     "sed"
+  ],
+  "squashfs-tools.tcz": [
+    "squash fs filesystem zlib lzma lzo zstd compression"
+  ],
+  "sstrip.tcz": [
+    "binary strip debug"
   ],
   "tar.tcz": [
     "GNU Tape ARchiver program"
