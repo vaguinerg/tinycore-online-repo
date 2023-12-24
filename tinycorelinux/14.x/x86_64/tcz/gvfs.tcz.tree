@@ -368,11 +368,11 @@ gvfs.tcz
       acl.tcz
          attr.tcz
       lzo.tcz
-      liblzma.tcz
       bzip2-lib.tcz
       libxml2.tcz
          liblzma.tcz
       libzstd.tcz
+      openssl.tcz
       liblz4.tcz
    libsecret.tcz
       libgcrypt.tcz
@@ -893,6 +893,7 @@ gvfs.tcz
                               expat2.tcz
                               libxml2.tcz
                                  liblzma.tcz
+                     pcre.tcz
          libxslt.tcz
             libxml2.tcz
                liblzma.tcz
@@ -945,6 +946,7 @@ gvfs.tcz
             glib2.tcz
                libffi.tcz
                pcre21042.tcz
+         pcre.tcz
       gtk-update-icon-cache.tcz
          gdk-pixbuf2.tcz
             libtiff.tcz

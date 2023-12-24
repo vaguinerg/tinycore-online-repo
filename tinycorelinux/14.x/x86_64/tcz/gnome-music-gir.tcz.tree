@@ -32,11 +32,11 @@ gnome-music-gir.tcz
                   acl.tcz
                      attr.tcz
                   lzo.tcz
-                  liblzma.tcz
                   bzip2-lib.tcz
                   libxml2.tcz
                      liblzma.tcz
                   libzstd.tcz
+                  openssl.tcz
                   liblz4.tcz
                uchardet.tcz
          gom.tcz
@@ -924,6 +924,7 @@ gnome-music-gir.tcz
                                        expat2.tcz
                                        libxml2.tcz
                                           liblzma.tcz
+                              pcre.tcz
                   libxslt.tcz
                      libxml2.tcz
                         liblzma.tcz
@@ -976,6 +977,7 @@ gnome-music-gir.tcz
                      glib2.tcz
                         libffi.tcz
                         pcre21042.tcz
+                  pcre.tcz
                gtk-update-icon-cache.tcz
                   gdk-pixbuf2.tcz
                      libtiff.tcz
@@ -1211,11 +1213,11 @@ gnome-music-gir.tcz
                acl.tcz
                   attr.tcz
                lzo.tcz
-               liblzma.tcz
                bzip2-lib.tcz
                libxml2.tcz
                   liblzma.tcz
                libzstd.tcz
+               openssl.tcz
                liblz4.tcz
             cairo.tcz
                glib2.tcz
@@ -1406,11 +1408,11 @@ gnome-music-gir.tcz
                acl.tcz
                   attr.tcz
                lzo.tcz
-               liblzma.tcz
                bzip2-lib.tcz
                libxml2.tcz
                   liblzma.tcz
                libzstd.tcz
+               openssl.tcz
                liblz4.tcz
             uchardet.tcz
          gupnp-dlna.tcz
@@ -2236,11 +2238,11 @@ gnome-music-gir.tcz
                acl.tcz
                   attr.tcz
                lzo.tcz
-               liblzma.tcz
                bzip2-lib.tcz
                libxml2.tcz
                   liblzma.tcz
                libzstd.tcz
+               openssl.tcz
                liblz4.tcz
             uchardet.tcz
       totem-pl-parser-gir.tcz
@@ -2274,11 +2276,11 @@ gnome-music-gir.tcz
                acl.tcz
                   attr.tcz
                lzo.tcz
-               liblzma.tcz
                bzip2-lib.tcz
                libxml2.tcz
                   liblzma.tcz
                libzstd.tcz
+               openssl.tcz
                liblz4.tcz
             uchardet.tcz
          gobject-introspection.tcz
@@ -2780,6 +2782,7 @@ gnome-music-gir.tcz
                         expat2.tcz
                         libxml2.tcz
                            liblzma.tcz
+               pcre.tcz
       gtk3-gir.tcz
          gtk3.tcz
             libepoxy.tcz
@@ -4261,6 +4264,7 @@ gnome-music-gir.tcz
                                  expat2.tcz
                                  libxml2.tcz
                                     liblzma.tcz
+                        pcre.tcz
             libxslt.tcz
                libxml2.tcz
                   liblzma.tcz
@@ -4313,6 +4317,7 @@ gnome-music-gir.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
+            pcre.tcz
          gtk-update-icon-cache.tcz
             gdk-pixbuf2.tcz
                libtiff.tcz
@@ -4942,6 +4947,7 @@ gnome-music-gir.tcz
                                  expat2.tcz
                                  libxml2.tcz
                                     liblzma.tcz
+                        pcre.tcz
             libxslt.tcz
                libxml2.tcz
                   liblzma.tcz
@@ -5448,6 +5454,7 @@ gnome-music-gir.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
+            pcre.tcz
          gobject-introspection.tcz
             glib2.tcz
                libffi.tcz

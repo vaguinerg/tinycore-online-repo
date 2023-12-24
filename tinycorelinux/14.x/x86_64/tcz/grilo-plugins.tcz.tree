@@ -30,11 +30,11 @@ grilo-plugins.tcz
             acl.tcz
                attr.tcz
             lzo.tcz
-            liblzma.tcz
             bzip2-lib.tcz
             libxml2.tcz
                liblzma.tcz
             libzstd.tcz
+            openssl.tcz
             liblz4.tcz
          uchardet.tcz
    gom.tcz
@@ -922,6 +922,7 @@ grilo-plugins.tcz
                                  expat2.tcz
                                  libxml2.tcz
                                     liblzma.tcz
+                        pcre.tcz
             libxslt.tcz
                libxml2.tcz
                   liblzma.tcz
@@ -974,6 +975,7 @@ grilo-plugins.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
+            pcre.tcz
          gtk-update-icon-cache.tcz
             gdk-pixbuf2.tcz
                libtiff.tcz
