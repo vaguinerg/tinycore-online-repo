@@ -288,7 +288,7 @@ sylpheed-dev.tcz
                      libXau.tcz
                      libXdmcp.tcz
          pcre.tcz
-      openssl-1.1.1.tcz
+      openssl.tcz
       dejavu-fonts-ttf.tcz
          fontconfig.tcz
             expat2.tcz
@@ -304,6 +304,9 @@ sylpheed-dev.tcz
       curl.tcz
          ca-certificates.tcz
             openssl.tcz
+      gpgme.tcz
+         libassuan.tcz
+            libgpg-error.tcz
    gtk2-dev.tcz
       atk-dev.tcz
          atk.tcz
