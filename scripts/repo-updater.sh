@@ -93,7 +93,8 @@ for version_dir in tinycorelinux/*.x; do
 	for arch_dir in tinycorelinux/$version/*; do
 		arch=$(basename "$arch_dir")
   		mv "data/$version/$arch/sizelist.json" "data/$version/$arch/sizelist.json.old"
-  		hjson -j "data/$version/$arch/sizelist.jsonold" > "data/$version/$arch/sizelist.json"
+  		hjson -j "data/$version/$arch/sizelist.json.old" > "data/$version/$arch/sizelist.json"
+    		rm -rf "data/$version/$arch/sizelist.json.old"
   		hjson -j "data/$version/$arch/taglist" > "data/$version/$arch/taglist.json"
   		hjson -j "data/$version/$arch/provides" > "data/$version/$arch/provides.json"
 	done
