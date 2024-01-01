@@ -1,0 +1,25 @@
+Title:          tbtadm.tcz
+Description:    Thunderbolt user-space components (CLI)
+Version:        v0.9.3, release 14-February-2018
+Author:         Yehezkel Bernat (see AUTHORS for email)
+Original-site:  https://github.com/intel/thunderbolt-software-user-space
+Copying-policy: https://github.com/intel/thunderbolt-software-user-space/blob/master/COPYING
+Size:		56K
+Extension_by:   rudock1
+Tags:           thunderbolt cli
+Comments:       Thunderbolt technology is a transformational high-speed,
+                dual protocol I/O that provides unmatched performance 
+                with up to 40Gbps bi-directional transfer speeds. It 
+                provides flexibility and simplicity by supporting both 
+                data (PCIe, USB3.1) and video (DisplayPort) on a single 
+                cable connection that can daisy-chain up to six 
+                devices.
+                ----------
+                The user-space components implement device approval support:
+                Easier interaction with the kernel module for approving 
+                connected devices.
+                ACL for auto-approving devices white-listed by the user.
+                ----------
+                Binaries, scripts and docs, compiled for 11.x x86_64
+Change-log:     first version 
+Current:        2020/04/25 v0.9.3

@@ -1,0 +1,23 @@
+Title:		firefox-nightly.tcz
+Description:	Mozilla web browser
+Version:	27.0b7
+Author:		various (Mozilla project: http://www.mozilla.org/credits)
+Original-site:	http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/27.0b7/source/firefox-27.0b7.source.tar.bz2
+Copying-policy:	Mozilla Public Licence, v2 (http://mozilla.org/MPL/2.0/)
+Size:		30M
+Extension-by:	dentonlt
+Tags:		mozilla browser firefox nightly
+Comments:	----------
+		This is a nightly build of the Mozilla (Firefox) web
+		browser.
+		For the complete list of build options, open the browser
+		and visit the URL "about:".
+		This build disables gstreamer, gio, and some other
+		features. Firefox requires versions of these (and other
+		libraries) that are not yet available in the x86_64
+		respository.
+		This browser works with the final Linux release of Adobe
+		Flash.
+		----------
+Change-log:	2014/01/25 first version for x86_64; v27.0b7 dentonlt
+Current:	2014/01/25 first version for x86_64; v27.0b7 dentonlt

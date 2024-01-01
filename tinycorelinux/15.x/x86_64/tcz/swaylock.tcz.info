@@ -1,0 +1,28 @@
+Title:          swaylock.tcz 
+Description:    screen locker for wayland 
+Version:        1.4
+Author:         Drew DeVault
+Original-site:  https://github.com/swaywm/swaylock
+Copying-policy: Accompanied 
+Size:           32K
+Extension_by:   aus9 
+Tags:           wayland swaylock
+Comments:       Before using you will need to create a password for 
+                local login. You may like to persist the password files 
+                over reboot? etc/passwd and etc/shadow 
+
+                To LOCK
+                $ swaylock -f
+                which daemonises the locker and locks screen
+
+                To UNLOCK
+                <type passwd> You will see a circle appear and a change in indicator
+                upon each press.......When you have typed full password, press Enter
+                https://imgur.com/gkEmvF7
+                green indicator shows correct input for each letter
+                red indicator at least one error in input of password
+                If you mistype ---you can try again
+                            
+Change-log:     2019/06/17 v 1.4 on 10x 
+                2020/06/29 v 1.5 on 11x  
+Current:        2023/04/22 v 1.7.2 on 14x add install script for SUID    

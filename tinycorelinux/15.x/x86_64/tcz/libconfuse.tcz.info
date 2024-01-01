@@ -1,0 +1,23 @@
+Title:          libconfuse.tcz
+Description:    libconfuse utility library
+Version:        3.3
+Author:         Martin Hedenfalk <martin@bzero.se>
+                Joachim Nilsson <troglobit@gmail.com> (maintainer)
+Original-site:  https://github.com/martinh/libconfuse
+Copying-policy: https://github.com/martinh/libconfuse/blob/master/LICENSE
+Size:           24K
+Extension_by:   rudock1
+Tags:           config parser
+Comments:       libConfuse is a configuration file parser library written
+                in C. It supports sections and (lists of) values, as well
+                as other features such as single/double quoted strings,
+                environment variable expansion, functions and nested include
+                statements. Values can be strings, integers, floats,
+                booleans, and sections.
+                ----------
+                This extension contains:
+                libconfuse-3.3 - ISC License
+                https://github.com/martinh/libconfuse/releases/download/v3.3/confuse-3.3.tar.gz
+                ----------
+Change-log:     first version
+Current:        2020/07/22 v3.3 released 2020-06-25

@@ -1,0 +1,18 @@
+Title:		libaio.tcz
+Description:	Asynchronous I/O Library
+Version:	0.3.111-2
+Author:		Red Hat, Inc.
+Original-site:	https://launchpad.net/ubuntu/+source/libaio
+Copying-policy:	LGPL 2.1
+Size:		4.0K
+Extension_by: 	andyj
+Tags:		asynchronous I/O library database
+Comments:	Library for asynchronous reads and writes for databases
+		----
+Change-log:	2016/04/06 First version, 0.3.110-2
+		2017/07/01 update to 0.3.110-3, recompiled for TC 8.x
+		2018/01/06 recompiled without LTO (silently breaks io_getevents)
+		2018/08/17 update to 0.3.111-1, recompiled for TC 9.x
+		2019/01/21 recompiled for TC 10.x
+		2021/01/23 recompiled for TC 12.x
+Current:	2023/04/06 recompiled for TC 14.x

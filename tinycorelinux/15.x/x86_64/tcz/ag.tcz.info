@@ -1,0 +1,24 @@
+Title:          ag.tcz
+Description:    ag - the Silver Searcher is a grep-like source code search tool
+Version:        2.2.0
+Author:         Copyright 2011-2018 Geoff Greer http://geoff.greer.fm/ag
+Original-site:  https://github.com/ggreer/the_silver_searcher
+Copying-policy: https://github.com/ggreer/the_silver_searcher/blob/master/LICENSE Apache-2.0
+Size:		36K
+Extension_by:   rudock1
+Tags:           grep search find cli
+Comments:       A code searching tool written in C and similar to ack
+                (perl), with a focus on speed. ag is designed as an
+                alternative to grep for programmers. ag searches the
+                named input FILEs or DIRECTORYs for lines containing a
+                match to the given PATTERN. By default, ag prints the
+                matching lines. If no FILE or DIRECTORY is given, the
+                current directory will be searched. ag searches
+                recursively by default, while ignoring .git, .svn, CVS
+                and other VCS directories.
+                ----------
+                This extension contains:
+                ag https://github.com/ggreer/the_silver_searcher/archive/2.2.0.zip
+                ----------
+Change-log:     first version
+Current:        2020/06/20 v2.2.0 released 2018/08/07

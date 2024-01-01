@@ -1,0 +1,18 @@
+libjcat.tcz
+   json-glib.tcz
+      glib2.tcz
+         libffi.tcz
+         pcre21042.tcz
+   gnutls35.tcz
+      p11-kit.tcz
+         libffi.tcz
+         libtasn1-4.tcz
+      nettle3.tcz
+         gmp.tcz
+      libidn2.tcz
+         libunistring.tcz
+         ncursesw.tcz
+   gpgme.tcz
+      libassuan.tcz
+         libgpg-error.tcz
+

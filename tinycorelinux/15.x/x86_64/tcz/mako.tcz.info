@@ -1,0 +1,22 @@
+Title:          mako.tcz
+Description:    lightweight wayland notification daemon
+Version:        1.8.0
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size:		48K
+Extension_by:   gnuser
+Tags:	        wayland notification daemon notify-send
+Comments:       ----------
+                starting mako (add this to your wm's startup applications):
+                $ mako >/dev/null 2>&1 &
+
+                example sending notification from terminal (mako must be running in background):
+                $ tce-load -wi libnotify
+                $ notify-send -t 3000 -i /path/to/icon.png "Example title" "example message"
+                ----------
+                This extension contains:
+                mako-1.8.0 - MIT - https://github.com/emersion/mako/archive/refs/tags/v1.8.0.tar.gz
+                ----------
+Change-log:     ----------
+Current:        2023/11/01 first version

@@ -1,0 +1,25 @@
+Title:		gpicview.tcz
+Description:	A Simple and Fast GTK2 based Image Viewer
+Version:	0.2.5 
+Author:		Hon Jen Yee (PCMan) and others
+Original-site:	http://lxde.sourceforge.net/gpicview/
+Copying-policy:	GPLv2
+Size:		52K
+Extension_by:	Rich
+Tags:		image picture viewer
+Comments:	Extremely lightweight and fast with low memory usage
+		Very suitable for default image viewer of desktop system
+		Simple and intuitive interface
+		Minimal lib dependency: Only pure GTK+ is used
+		Desktop independent: Doesn't require any specific desktop environment
+		
+		Built with:
+		CFLAGS= -flto -march=i486 -mtune=i686 -Os -pipe -fno-plt
+		CXXFLAGS=
+		LDFLAGS=-Wl,-T/usr/local/lib/ldscripts/elf_i386.xbn
+		PREFIX=/usr/local
+
+Source:		https://downloads.sourceforge.net/lxde/gpicview-0.2.5.tar.xz
+Change-log:	2020/03/28 Original release Version: 0.2.5
+Current:	2020/03/28 Original release Version: 0.2.5
+

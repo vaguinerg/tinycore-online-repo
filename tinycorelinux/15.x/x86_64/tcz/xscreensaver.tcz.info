@@ -1,0 +1,58 @@
+Title:          xscreensaver.tcz
+Description:    screensavers and lock
+Version:        6.06
+Author:         Jamie Zawinski 
+Original-site:  http://www.jwz.org/xscreensaver
+Copying-policy: accompanied
+Size:           4.3M
+Extension-by:   aus9
+Tags            screensavers screen lock 
+Comments:       Online manual
+                https://www.jwz.org/xscreensaver/man1.html
+                
+                System config is /usr/lib/X11/app-defaults/XScreenSaver
+                is over ridden by home config, when you make a preference change.
+                Most greyed out screensavers are opengl ones which have 
+                not been compiled or glitchy screensavers I have removed.
+                Ignore any terminal output about missing libGLU.so.1
+                as its a dep of deleted opengl savers please.
+                                    
+                Mode 1 without a password= screen savers 
+                
+                Mode 2 if password set allows screen, once locked,
+                to open only with correct password. Please make changes 
+                at mode 1 first, so you have a home config.
+                
+                It is normal (but can be changed) for the screen to fade 
+                to darkness. Before darkness you can click an input device 
+                to stop that process.
+                    
+                1) Mode 1 has no "login" password so no lock so you 
+                untick the lock box please. Run 
+                $ xscreensaver-demo
+                                
+                Popup will ask to start daemon -> select Yes. 
+                
+                Choose your preferences, file is saved to
+                ~/.xscreensaver Click on preview to see effects. 
+                Click any kb key or mouse to stop demo.
+                                        
+                If after test you like it, autostart it with
+                echo 'xscreensaver -nosplash &' > ~/.X.d/xscreensaver
+                                    
+                2) Mode 2 -> After setting screensaver preferences, 
+                run $ passwd  
+                to setup a password for local user. Consider persistence 
+                of your password by backing up /etc/shadow
+                Do not move mouse or kb clicks for the time you set to test.
+                Click mouse or kb -> password input box appears.
+                
+                3) Faster mode 2 lock -> run the command
+                $ lockx
+
+                SpeedMine & VFeedback about 10 seconds to display
+                                
+Change-log:     2014/01/29 v 5.26 (dentonlt)
+                2020/07/26 v 5.44 (aus9)
+                2020/07/31 fix desktop file 
+Current:        2023/04/10 v 6.0.6           

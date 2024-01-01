@@ -1,0 +1,28 @@
+Title:          feh.tcz
+Description:    libX image viewer 
+Version:        3.9.1
+Author:         feh - feh team 
+Original-site:  http://feh.finalrewind.org/
+Copying-policy: accompanied
+Size:           144K          
+Extension_by:   aus9
+Tags:           image viewer gif png jpeg tiff webp
+Comments:       x11 image viewer aimed mostly at terminal users
+                online help 
+                https://man.finalrewind.org/1/feh/
+
+                feh can view online images,  example
+                $  feh https://i.imgur.com/w5a44h6.jpeg
+
+                slideshow is the default mode so run feh in your
+                photo/pictures dir without any switch. $ feh
+
+                wbar feh icon will bork unless you have an image
+                in your home dir
+            
+Change-log:     2015/09/01 first version
+                2017/06/19 v 2.9.0  -> 2.13.1 (juanito)
+                2018/09/06 v 2.13.1 -> 2.27.1 (aus9) 
+                2020/04/19 v 3.4 + gtk2 dep for icon cache updates
+Current:        2023/03/13 v 3.9.1  on 14x add webp support
+ 

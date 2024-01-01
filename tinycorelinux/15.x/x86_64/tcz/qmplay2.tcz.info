@@ -1,0 +1,29 @@
+Title:          qmplay2.tcz
+Description:    QT5 alsa media player 
+Version:        23.02.05 
+Author:         https://github.com/zaps166/QMPlay2/blob/master/AUTHORS
+Original-site:  https://github.com/zaps166/QMPlay2
+Copying-policy: LGPL v3
+Size:           2.2M
+Extension_by:   aus9
+Tags:           audio video player alsa      
+Comments:       Pulseaudio/pipewire disabled by compile. ALSA, Xorg 
+                or Xorg 3d needs to be setup first.
+
+                dep file does not have Xorg or Xorg (3d) set.
+                alsa users may need more dependencies.
+                                                
+                Youtube needs python downloaded + installed.
+                TCE downloads and updates youtube-dl to 
+                ~/.qmplay2 where other files can be found, 
+                including log.
+
+                dejavu-fonts-ttf.tcz provides glyph 0x266a.
+                To play audio cd -> Playlist (or Alt + P)
+                Click + -> select audiocd
+
+                Vulkan users please read vulkan-tools.
+                This TCE can search youtube or internet radio.
+
+Change-log:     2020/07/01 Original 20.05.02 11x
+Current:        2023/03/21 v 23.02.05 on 14x   

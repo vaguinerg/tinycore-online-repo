@@ -1,0 +1,17 @@
+Title:          zsync.tcz
+Description:    zsync incremental file transfer program
+Version:        0.6.2
+Author:         Colin Phipps
+Original-site:  http://zsync.moria.org.uk/
+Copying-policy: Artistic License v2
+Size:		36KB
+Extension_by:   juanito
+Tags:	        zsync incremental file transfer
+Comments:       zsync client-side only rsync
+                contains zsyncmake not in tinycore base
+		Can be used to download a newer copy of a file, while 
+		only downloading the changed parts (just like rsync, 
+		except that it's over http and doesn't need server 
+		support).
+Change-log:     2012/11/09 first version
+Current:        2020/01/02 recompiled on tc-10.x

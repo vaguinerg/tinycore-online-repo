@@ -1,0 +1,29 @@
+Title:		mwm.tcz
+Description:	Motif Window Manager
+Version:	2.3.8
+Author:		The Open Group and Integrated Computer Solutions
+Original-site:	https://sourceforge.net/projects/motif/
+Copying-policy:	LGPL-2.1
+Size:		148K
+Extension_by:	CNK
+Tags:		wm window manager motif x
+Comments:	MWM is one of the earliest window managers for X.
+
+		Default configuration is in:
+		/usr/local/lib/X11/system.mwmrc
+		Copy to ~/.mwmrc and edit to add menu items etc.
+		Examples can be seen here:
+		http://www.xwinman.org/mwm.php
+
+		.desktop files installed with extensions are not
+		handled automatically to add new menu items.
+
+		Though originally proprietary software, Motif and
+		MWM were released under an open-source licence
+		in 2012.
+
+		----                 
+		Compiled for TC Pure64 12.x
+		----   
+Change-log:	2022/02/21 First packaged version, 2.3.8
+Current:	2022/02/21 First packaged version, 2.3.8

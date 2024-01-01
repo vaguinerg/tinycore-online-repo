@@ -1,0 +1,41 @@
+Title:		postgresql-9.6-client.tcz
+Project:	postgresql
+Description:	PostgreSQL Database Management System client
+Version:	9.6.24
+Author:		PostgreSQL Global Development Group
+Original-site:	http://www.postgresql.org
+Copying-policy:	PostgreSQL License
+Size:		320K
+Extension_by: 	andyj
+Tags:		postgresql database client
+Comments:	Advanced database which is ACID compliant, has strong ANSI-SQL:2008
+		compliance, full foreign key support, supports subqueries and subselects,
+		joins, views, triggers, and stored procedures.
+		Procedural languages supported:
+		PG SQL, Perl 5, Python 3.6, Tcl 8.6, C/C++
+		Compiled for support for 128 character object names for compatibility
+		----
+Change-log:	2016/10/09 First version, 9.6.0
+		2016/11/27 updated to 9.6.1, add support for libuuid
+		2017/02/11 updated to 9.6.2
+		2017/07/01 updated to 9.6.3, python version reverted to 2.7, recompiled for TC 8.x
+		2017/08/10 updated to 9.6.4
+		2017/09/07 updated to 9.6.5
+		2017/11/12 updated to 9.6.6
+		2018/01/12 recompiled for TC 9.x
+		2018/04/11 updated to 9.6.8
+		2018/05/29 updated to 9.6.9, use ncursesw library
+		2018/08/17 updated to 9.6.10
+		2018/11/10 updated to 9.6.11
+		2019/01/21 recompiled for TC 10.x
+		2019/02/15 updated to 9.6.12
+		2019/05/31 updated to 9.6.13
+		2019/07/06 updated to 9.6.14, use openssl-1.1.1 library
+		2019/10/09 updated to 9.6.15
+		2019/12/05 updated to 9.6.16
+		2020/02/04 updated to python3.6, recompiled for TC 11.x
+		2020/03/03 updated to 9.6.17
+		2020/06/09 updated to 9.6.18
+		2020/09/10 updated to 9.6.19
+		2021/01/23 updated to 9.6.20, recompiled for TC 12.x
+Current:	2023/04/06 updated to 9.6.24, recompiled for TC 14.x, End of life

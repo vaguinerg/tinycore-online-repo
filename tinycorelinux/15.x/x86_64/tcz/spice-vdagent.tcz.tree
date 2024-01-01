@@ -1,0 +1,36 @@
+spice-vdagent.tcz
+   libXfixes.tcz
+      libX11.tcz
+         libxcb.tcz
+            libXau.tcz
+            libXdmcp.tcz
+   libXrandr.tcz
+      libXext.tcz
+         libX11.tcz
+            libxcb.tcz
+               libXau.tcz
+               libXdmcp.tcz
+      libXrender.tcz
+         libX11.tcz
+            libxcb.tcz
+               libXau.tcz
+               libXdmcp.tcz
+   libXinerama.tcz
+      libXext.tcz
+         libX11.tcz
+            libxcb.tcz
+               libXau.tcz
+               libXdmcp.tcz
+   glib2.tcz
+      libffi.tcz
+      pcre21042.tcz
+   libasound.tcz
+   dbus.tcz
+      expat2.tcz
+      elogind.tcz
+         acl.tcz
+            attr.tcz
+         libcap.tcz
+            attr.tcz
+   libpciaccess.tcz
+

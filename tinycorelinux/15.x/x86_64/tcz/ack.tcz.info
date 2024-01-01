@@ -1,0 +1,24 @@
+Title:          ack.tcz
+Description:    ack is a grep-like source code search tool
+Version:        3.3.1
+Author:         Copyright 2005-2020 Andy Lester <andy at petdance.com>
+Original-site:  https://beyondgrep.com
+Copying-policy: https://www.perlfoundation.org/artistic-license-20.html
+Size:		56K
+Extension_by:   rudock1
+Tags:           grep search find cli perl
+Comments:       Designed for programmers with large heterogeneous trees of source
+                code, ack is written in portable Perl 5 and takes advantage of
+                the power of Perl's regular expressions. ack is designed as an
+                alternative to grep for programmers. ack searches the named input
+                FILEs or DIRECTORYs for lines containing a match to the given
+                PATTERN. By default, ack prints the matching lines. If no FILE or
+                DIRECTORY is given, the current directory will be searched.
+                ack searches recursively by default, while ignoring .git, .svn,
+                CVS and other VCS directories.
+                ----------
+                This extension contains:
+                ack- https://beyondgrep.com/ack-v3.3.1
+                ----------
+Change-log:     first version
+Current:        2020/06/19/23 v3.3.1 released 2020/01/13

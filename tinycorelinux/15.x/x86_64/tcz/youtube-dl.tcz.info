@@ -1,0 +1,33 @@
+Title:          youtube-dl.tcz  
+Description:    command tool to download youtubes 
+Version:        2020.06.06
+Author:         see AUTHORS
+Original-site:  https://youtube-dl.org/
+Copying-policy: see LICENSE
+Size:           1.7M
+Extension_by:   aus9 
+Tags:           youtube youtube-dl
+Comments:       Online manual=
+                https://github.com/ytdl-org/youtube-dl/blob/master/README.md#readme
+
+                How I use, no guarantee all work.
+                #########
+                Use web browser to find a youtube
+                Click the share link
+                Copy the shared link (=url) into your clipboard
+                $ youtube-dl --no-check-certificate url
+
+                I play resultant mp4 in VLC YMMV
+
+                on xbase.lst ignore this error 
+                ###############################
+                WARNING: Assuming --restrict-filenames 
+                since file system encoding cannot encode 
+                all characters #########################
+
+                If you use ca-certificates then you can
+                drop the "--no-check-certificate" 
+
+Change-log:     2018/04/24  Original 20180416 on 9x 
+Current:        2020/06/14 -> 2020.06.06 on 11x 
+ 

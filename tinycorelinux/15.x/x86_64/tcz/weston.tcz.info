@@ -1,0 +1,35 @@
+Title:          weston.tcz
+Description:    reference wayland compositor
+Version:        12.0.2
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 1.1MB
+Extension_by:   juanito
+Tags:	        wayland compositor wm
+Comments:       weston is the reference implementation of a wayland compositor
+                ----------
+                howto: (from the console prompt)
+                $ sudo -- seatd -g staff -n /run/seatd.sock & XDG_RUNTIME_DIR=/run/user/$(id -u) weston
+                or for dconf with gtk3:
+                $ sudo -- seatd -g staff -n /run/seatd.sock & XDG_SESSION_TYPE=wayland XDG_RUNTIME_DIR=/run/user/$(id -u) dbus-run-session weston
+                ----------
+                can optionally use the freerdp, gst-plugins*, pipewire03
+                and xwayland extensions
+                ----------
+                This extension contains:
+                weston-12.0.2 - MIT - https://gitlab.freedesktop.org/wayland/weston/-/releases/12.0.2/downloads/weston-12.0.2.tar.xz
+                ----------
+Change-log:     2016/12/31 first version
+                2017/05/24 updated 1.12.0 -> 2.0.0
+                2017/09/12 updated 2.0.0 -> 3.0.0
+                2018/04/11 updated 3.0.0 -> 4.0.0
+                2018/04/11 updated 4.0.0 -> 5.0.0
+                2019/04/03 updated 5.0.0 -> 6.0.0
+                2019/10/14 updated 6.0.0 -> 7.0.0
+                2020/01/30 recompiled for libva2
+                2020/02/16 updated 7.0.0 -> 8.0.0
+                2021/04/10 updated 8.0.0 -> 9.0.0
+                2022/02/19 updated 9.0.0 -> 10.0.0
+                2023/04/16 updated 10.0.0 -> 10.0.3
+Current:        2023/10/22 updated 10.0.3 -> 12.0.2

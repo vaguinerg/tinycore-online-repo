@@ -1,0 +1,24 @@
+Title:          windowshot.tcz
+Description:    WindowShot - capture single window or take a screenshot
+Version:        1.0
+Author:         Richard Rost
+Original-site:  forum.tinycorelinux.net/index.php/topic,15086.msg86458.html#msg86458
+Copying-policy: GPL
+Size:		4.0K
+Extension_by:   nitram
+Tags:           windowshot capture window screenshot png
+Comments:       Based heavily on Tiny Core screenshot.sh, this script
+                captures a single window rather than the entire screen.
+                When run, the cursor changes to a crosshair. Click on
+                a window to save a .png of it in your home directory.
+                Richard Rost 3-19-2013
+                -----
+                - Select desktop free space to take a screenshot of the
+                  entire desktop, including taskbar and open windows
+                - Can run from terminal, example 'sleep 10 && windowshot'
+                  allows time to manipulate windows before crosshair
+                  cursor appears
+Change-log:     ---
+Current:        2015/11/04 First version (nitram)
+                - minor script changes with approval to improve useability
+                  and filename save format, custom desktop icon

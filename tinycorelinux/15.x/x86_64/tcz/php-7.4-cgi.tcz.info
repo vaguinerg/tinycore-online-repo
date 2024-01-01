@@ -1,0 +1,30 @@
+Title:\t\tphp-7.4-cgi.tcz
+Title:\t\tphp-7.4-cgi.tcz
+itle:		php-7.4-cgi.tcz
+Project:	php
+Description:	PHP Hypertext Processor CGI utility
+Version:	7.4.33
+Author:		PHP Group
+Original-site:	http://php.net
+Copying-policy:	PHP License 3.01
+Size:		1.9M
+Extension_by: 	andyj
+Tags:		php cgi
+Comments:	PHP CGI utility, requires php-ext.tcz for extentions
+		extensions may have additional dependency requirements
+		----
+Change-log:	2016/04/06 First version, 7.4.0
+                        extension hash is now required to be compiled in
+				remove extension=hash from php.ini
+                        extensions recode and wddx are deprecated (dropped)
+                        extension ffi (foreign function interface) is new
+                        extension mbstring requires libonig.tcz (no longer bundled)
+		2020/02/04 updated to 7.4.2, recompiled for TC 11.x
+		2020/03/03 updated to 7.4.3
+		2020/04/15 updated to 7.4.5
+		2020/06/12 updated to 7.4.7
+		2020/09/10 updated to 7.4.10
+		2020/11/06 updated to 7.4.12
+		2021/01/23 updated to 7.4.14, compiled for TC 12.x
+		2023/04/06 updated to 7.4.30, compiled for TC 14.x
+Current:	2023/09/09 updated to 7.4.33, End of Life

@@ -1,0 +1,22 @@
+Title:		apr-util.tcz
+Project:	apr-util
+Description:	Apache Portable Runtime Project Library Utilities
+Version:	1.6.3
+Author:		Apache Software Foundation
+Original-site:	http://apr.apache.org
+Copying-policy:	Apache License 2.0
+Size:		152K
+Extension_by: 	andyj
+Tags:		apache library utility
+Comments:	Utilities for Apache APR library
+		----
+Change-log:	2016/04/06 First version, 1.5.4
+		2016/12/17 recompiled to change path to /usr/local
+		2017/07/01 drop support for Berkeley DB, recompiled for TC 8.x
+		2018/01/12 recompiled for TC 9.x
+		2018/04/11 updated to version 1.6.1
+		2019/01/21 compiled for TC 10.x
+		2019/03/18 recompiled against mariadb 10.3
+		2021/01/23 compiled for TC 12.x, compiled against mariadb 10.5
+		2023/04/05 compiled for TC 14.x, compiled against mariadb 10.6
+Current:	2023/12/12 compiled against openssl 3 and mariadb 11.2

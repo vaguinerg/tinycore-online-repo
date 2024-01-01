@@ -1,0 +1,23 @@
+Title:          sfwbar.tcz
+Description:    flexible taskbar application for wayland compositors
+Version:        git-22f089d (24Nov2023)
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size:		340K
+Extension_by:   gnuser
+Tags:	        wayland systemtray taskbar iconbar panel bar
+Comments:       ----------
+                howto:
+                $ mkdir -p ~/.config/sfwbar
+                $ cp /usr/local/share/sfwbar/t2.config ~/.config/sfwbar/sfwbar.config
+                customize ~/.config/sfwbar/sfwbar.config if desired
+                $ sfwbar &
+                ----------
+                note: sfwbar works with any compositor that supports layer shell protocol (e.g., labwc)
+                ----------
+                This extension contains:
+                sfwbar - GPLv3 - https://github.com/LBCrion/sfwbar/archive/refs/heads/main.zip
+                ----------
+Change-log:     2023/10/25 first version
+Current:        2023/11/24 updated 1.0_beta13 -> git-22f089d
