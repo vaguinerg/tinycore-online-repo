@@ -1,9 +1,29 @@
 gtkimageview.tcz
    gtk2.tcz
-      atk.tcz
+      at-spi2-core.tcz
+         dbus.tcz
+            expat2.tcz
+            elogind.tcz
+               acl.tcz
+                  attr.tcz
+               libcap.tcz
+                  attr.tcz
          glib2.tcz
             libffi.tcz
             pcre21042.tcz
+         libXi.tcz
+            libXext.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
+         libXtst.tcz
+            libXi.tcz
+               libXext.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
       gdk-pixbuf2.tcz
          libtiff.tcz
             libjpeg-turbo.tcz

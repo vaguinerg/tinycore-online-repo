@@ -1,8 +1,23 @@
 atkmm.tcz
-   atk.tcz
+   at-spi2-core.tcz
+      dbus.tcz
+         expat2.tcz
       glib2.tcz
          libffi.tcz
          pcre21042.tcz
+      libXi.tcz
+         libXext.tcz
+            libX11.tcz
+               libxcb.tcz
+                  libXau.tcz
+                  libXdmcp.tcz
+      libXtst.tcz
+         libXi.tcz
+            libXext.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
    glibmm.tcz
       glib2.tcz
          libffi.tcz

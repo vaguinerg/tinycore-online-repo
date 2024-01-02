@@ -6,39 +6,41 @@ gnome-system-monitor.tcz
    libwnck.tcz
       gtk3.tcz
          libepoxy.tcz
-         at-spi2-atk.tcz
-            at-spi2-core.tcz
-               dbus.tcz
-                  expat2.tcz
-               glib2.tcz
-                  libffi.tcz
-                  pcre21042.tcz
-               libICE.tcz
-               libSM.tcz
-               libX11.tcz
-                  libxcb.tcz
-                     libXau.tcz
-                     libXdmcp.tcz
-            atk.tcz
-               glib2.tcz
-                  libffi.tcz
-                  pcre21042.tcz
+         at-spi2-core.tcz
+            dbus.tcz
+               expat2.tcz
+            glib2.tcz
+               libffi.tcz
+               pcre21042.tcz
+            libXi.tcz
+               libXext.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
+            libXtst.tcz
+               libXi.tcz
+                  libXext.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
          gdk-pixbuf2.tcz
+            libtiff.tcz
+               liblzma.tcz
+               libjpeg-turbo.tcz
+               libzstd.tcz
+            libpng.tcz
+            libX11.tcz
+               libxcb.tcz
+                  libXau.tcz
+                  libXdmcp.tcz
             shared-mime-info.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
                libxml2.tcz
                   liblzma.tcz
-            libpng.tcz
-            libtiff.tcz
-               liblzma.tcz
-               libjpeg-turbo.tcz
-               libzstd.tcz
-            libX11.tcz
-               libxcb.tcz
-                  libXau.tcz
-                  libXdmcp.tcz
          libXcomposite.tcz
             libX11.tcz
                libxcb.tcz
@@ -116,8 +118,11 @@ gnome-system-monitor.tcz
                   libxcb.tcz
                      libXau.tcz
                      libXdmcp.tcz
-         pcre.tcz
-            bzip2-lib.tcz
+         libxkbcommon.tcz
+            libX11.tcz
+               libxcb.tcz
+                  libXau.tcz
+                  libXdmcp.tcz
       libstartup-notification.tcz
          libX11.tcz
             libxcb.tcz
@@ -126,39 +131,41 @@ gnome-system-monitor.tcz
    gtkmm.tcz
       gtk3.tcz
          libepoxy.tcz
-         at-spi2-atk.tcz
-            at-spi2-core.tcz
-               dbus.tcz
-                  expat2.tcz
-               glib2.tcz
-                  libffi.tcz
-                  pcre21042.tcz
-               libICE.tcz
-               libSM.tcz
-               libX11.tcz
-                  libxcb.tcz
-                     libXau.tcz
-                     libXdmcp.tcz
-            atk.tcz
-               glib2.tcz
-                  libffi.tcz
-                  pcre21042.tcz
+         at-spi2-core.tcz
+            dbus.tcz
+               expat2.tcz
+            glib2.tcz
+               libffi.tcz
+               pcre21042.tcz
+            libXi.tcz
+               libXext.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
+            libXtst.tcz
+               libXi.tcz
+                  libXext.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
          gdk-pixbuf2.tcz
+            libtiff.tcz
+               liblzma.tcz
+               libjpeg-turbo.tcz
+               libzstd.tcz
+            libpng.tcz
+            libX11.tcz
+               libxcb.tcz
+                  libXau.tcz
+                  libXdmcp.tcz
             shared-mime-info.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
                libxml2.tcz
                   liblzma.tcz
-            libpng.tcz
-            libtiff.tcz
-               liblzma.tcz
-               libjpeg-turbo.tcz
-               libzstd.tcz
-            libX11.tcz
-               libxcb.tcz
-                  libXau.tcz
-                  libXdmcp.tcz
          libXcomposite.tcz
             libX11.tcz
                libxcb.tcz
@@ -236,13 +243,31 @@ gnome-system-monitor.tcz
                   libxcb.tcz
                      libXau.tcz
                      libXdmcp.tcz
-         pcre.tcz
-            bzip2-lib.tcz
+         libxkbcommon.tcz
+            libX11.tcz
+               libxcb.tcz
+                  libXau.tcz
+                  libXdmcp.tcz
       atkmm.tcz
-         atk.tcz
+         at-spi2-core.tcz
+            dbus.tcz
+               expat2.tcz
             glib2.tcz
                libffi.tcz
                pcre21042.tcz
+            libXi.tcz
+               libXext.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
+            libXtst.tcz
+               libXi.tcz
+                  libXext.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
          glibmm.tcz
             glib2.tcz
                libffi.tcz
@@ -310,21 +335,21 @@ gnome-system-monitor.tcz
    adwaita-icon-theme.tcz
       gtk-update-icon-cache.tcz
          gdk-pixbuf2.tcz
+            libtiff.tcz
+               liblzma.tcz
+               libjpeg-turbo.tcz
+               libzstd.tcz
+            libpng.tcz
+            libX11.tcz
+               libxcb.tcz
+                  libXau.tcz
+                  libXdmcp.tcz
             shared-mime-info.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
                libxml2.tcz
                   liblzma.tcz
-            libpng.tcz
-            libtiff.tcz
-               liblzma.tcz
-               libjpeg-turbo.tcz
-               libzstd.tcz
-            libX11.tcz
-               libxcb.tcz
-                  libXau.tcz
-                  libXdmcp.tcz
          librsvg.tcz
             pango.tcz
                cairo.tcz
@@ -365,21 +390,21 @@ gnome-system-monitor.tcz
                      libffi.tcz
                      pcre21042.tcz
             gdk-pixbuf2.tcz
+               libtiff.tcz
+                  liblzma.tcz
+                  libjpeg-turbo.tcz
+                  libzstd.tcz
+               libpng.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
                shared-mime-info.tcz
                   glib2.tcz
                      libffi.tcz
                      pcre21042.tcz
                   libxml2.tcz
                      liblzma.tcz
-               libpng.tcz
-               libtiff.tcz
-                  liblzma.tcz
-                  libjpeg-turbo.tcz
-                  libzstd.tcz
-               libX11.tcz
-                  libxcb.tcz
-                     libXau.tcz
-                     libXdmcp.tcz
             libcroco.tcz
                glib2.tcz
                   libffi.tcz
@@ -427,21 +452,21 @@ gnome-system-monitor.tcz
                libffi.tcz
                pcre21042.tcz
       gdk-pixbuf2.tcz
+         libtiff.tcz
+            liblzma.tcz
+            libjpeg-turbo.tcz
+            libzstd.tcz
+         libpng.tcz
+         libX11.tcz
+            libxcb.tcz
+               libXau.tcz
+               libXdmcp.tcz
          shared-mime-info.tcz
             glib2.tcz
                libffi.tcz
                pcre21042.tcz
             libxml2.tcz
                liblzma.tcz
-         libpng.tcz
-         libtiff.tcz
-            liblzma.tcz
-            libjpeg-turbo.tcz
-            libzstd.tcz
-         libX11.tcz
-            libxcb.tcz
-               libXau.tcz
-               libXdmcp.tcz
       libcroco.tcz
          glib2.tcz
             libffi.tcz
@@ -451,39 +476,41 @@ gnome-system-monitor.tcz
    dconf.tcz
       gtk3.tcz
          libepoxy.tcz
-         at-spi2-atk.tcz
-            at-spi2-core.tcz
-               dbus.tcz
-                  expat2.tcz
-               glib2.tcz
-                  libffi.tcz
-                  pcre21042.tcz
-               libICE.tcz
-               libSM.tcz
-               libX11.tcz
-                  libxcb.tcz
-                     libXau.tcz
-                     libXdmcp.tcz
-            atk.tcz
-               glib2.tcz
-                  libffi.tcz
-                  pcre21042.tcz
+         at-spi2-core.tcz
+            dbus.tcz
+               expat2.tcz
+            glib2.tcz
+               libffi.tcz
+               pcre21042.tcz
+            libXi.tcz
+               libXext.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
+            libXtst.tcz
+               libXi.tcz
+                  libXext.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
          gdk-pixbuf2.tcz
+            libtiff.tcz
+               liblzma.tcz
+               libjpeg-turbo.tcz
+               libzstd.tcz
+            libpng.tcz
+            libX11.tcz
+               libxcb.tcz
+                  libXau.tcz
+                  libXdmcp.tcz
             shared-mime-info.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
                libxml2.tcz
                   liblzma.tcz
-            libpng.tcz
-            libtiff.tcz
-               liblzma.tcz
-               libjpeg-turbo.tcz
-               libzstd.tcz
-            libX11.tcz
-               libxcb.tcz
-                  libXau.tcz
-                  libXdmcp.tcz
          libXcomposite.tcz
             libX11.tcz
                libxcb.tcz
@@ -561,6 +588,9 @@ gnome-system-monitor.tcz
                   libxcb.tcz
                      libXau.tcz
                      libXdmcp.tcz
-         pcre.tcz
-            bzip2-lib.tcz
+         libxkbcommon.tcz
+            libX11.tcz
+               libxcb.tcz
+                  libXau.tcz
+                  libXdmcp.tcz
 

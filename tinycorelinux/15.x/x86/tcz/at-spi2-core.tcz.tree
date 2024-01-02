@@ -4,10 +4,17 @@ at-spi2-core.tcz
    glib2.tcz
       libffi.tcz
       pcre21042.tcz
-   libICE.tcz
-   libSM.tcz
-   libX11.tcz
-      libxcb.tcz
-         libXau.tcz
-         libXdmcp.tcz
+   libXi.tcz
+      libXext.tcz
+         libX11.tcz
+            libxcb.tcz
+               libXau.tcz
+               libXdmcp.tcz
+   libXtst.tcz
+      libXi.tcz
+         libXext.tcz
+            libX11.tcz
+               libxcb.tcz
+                  libXau.tcz
+                  libXdmcp.tcz
 

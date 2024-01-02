@@ -1,5 +1,5 @@
 gtk2-gir.tcz
-   atk-gir.tcz
+   at-spi2-core-gir.tcz
       gobject-introspection.tcz
          glib2.tcz
             libffi.tcz
@@ -14,27 +14,42 @@ gtk2-gir.tcz
             readline.tcz
                ncursesw.tcz
             libffi.tcz
-      atk.tcz
+      at-spi2-core.tcz
+         dbus.tcz
+            expat2.tcz
          glib2.tcz
             libffi.tcz
             pcre21042.tcz
+         libXi.tcz
+            libXext.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
+         libXtst.tcz
+            libXi.tcz
+               libXext.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
    gdk-pixbuf2-gir.tcz
       gdk-pixbuf2.tcz
+         libtiff.tcz
+            liblzma.tcz
+            libjpeg-turbo.tcz
+            libzstd.tcz
+         libpng.tcz
+         libX11.tcz
+            libxcb.tcz
+               libXau.tcz
+               libXdmcp.tcz
          shared-mime-info.tcz
             glib2.tcz
                libffi.tcz
                pcre21042.tcz
             libxml2.tcz
                liblzma.tcz
-         libpng.tcz
-         libtiff.tcz
-            liblzma.tcz
-            libjpeg-turbo.tcz
-            libzstd.tcz
-         libX11.tcz
-            libxcb.tcz
-               libXau.tcz
-               libXdmcp.tcz
       gobject-introspection.tcz
          glib2.tcz
             libffi.tcz

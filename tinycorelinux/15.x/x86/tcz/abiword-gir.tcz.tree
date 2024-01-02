@@ -19,39 +19,41 @@ abiword-gir.tcz
       goffice.tcz
          gtk3.tcz
             libepoxy.tcz
-            at-spi2-atk.tcz
-               at-spi2-core.tcz
-                  dbus.tcz
-                     expat2.tcz
-                  glib2.tcz
-                     libffi.tcz
-                     pcre21042.tcz
-                  libICE.tcz
-                  libSM.tcz
-                  libX11.tcz
-                     libxcb.tcz
-                        libXau.tcz
-                        libXdmcp.tcz
-               atk.tcz
-                  glib2.tcz
-                     libffi.tcz
-                     pcre21042.tcz
+            at-spi2-core.tcz
+               dbus.tcz
+                  expat2.tcz
+               glib2.tcz
+                  libffi.tcz
+                  pcre21042.tcz
+               libXi.tcz
+                  libXext.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+               libXtst.tcz
+                  libXi.tcz
+                     libXext.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
             gdk-pixbuf2.tcz
+               libtiff.tcz
+                  liblzma.tcz
+                  libjpeg-turbo.tcz
+                  libzstd.tcz
+               libpng.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
                shared-mime-info.tcz
                   glib2.tcz
                      libffi.tcz
                      pcre21042.tcz
                   libxml2.tcz
                      liblzma.tcz
-               libpng.tcz
-               libtiff.tcz
-                  liblzma.tcz
-                  libjpeg-turbo.tcz
-                  libzstd.tcz
-               libX11.tcz
-                  libxcb.tcz
-                     libXau.tcz
-                     libXdmcp.tcz
             libXcomposite.tcz
                libX11.tcz
                   libxcb.tcz
@@ -129,8 +131,11 @@ abiword-gir.tcz
                      libxcb.tcz
                         libXau.tcz
                         libXdmcp.tcz
-            pcre.tcz
-               bzip2-lib.tcz
+            libxkbcommon.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
          libgsf.tcz
             libxml2.tcz
                liblzma.tcz
@@ -178,21 +183,21 @@ abiword-gir.tcz
                      libffi.tcz
                      pcre21042.tcz
             gdk-pixbuf2.tcz
+               libtiff.tcz
+                  liblzma.tcz
+                  libjpeg-turbo.tcz
+                  libzstd.tcz
+               libpng.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
                shared-mime-info.tcz
                   glib2.tcz
                      libffi.tcz
                      pcre21042.tcz
                   libxml2.tcz
                      liblzma.tcz
-               libpng.tcz
-               libtiff.tcz
-                  liblzma.tcz
-                  libjpeg-turbo.tcz
-                  libzstd.tcz
-               libX11.tcz
-                  libxcb.tcz
-                     libXau.tcz
-                     libXdmcp.tcz
             libcroco.tcz
                glib2.tcz
                   libffi.tcz
@@ -331,21 +336,21 @@ abiword-gir.tcz
       adwaita-icon-theme.tcz
          gtk-update-icon-cache.tcz
             gdk-pixbuf2.tcz
+               libtiff.tcz
+                  liblzma.tcz
+                  libjpeg-turbo.tcz
+                  libzstd.tcz
+               libpng.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
                shared-mime-info.tcz
                   glib2.tcz
                      libffi.tcz
                      pcre21042.tcz
                   libxml2.tcz
                      liblzma.tcz
-               libpng.tcz
-               libtiff.tcz
-                  liblzma.tcz
-                  libjpeg-turbo.tcz
-                  libzstd.tcz
-               libX11.tcz
-                  libxcb.tcz
-                     libXau.tcz
-                     libXdmcp.tcz
             librsvg.tcz
                pango.tcz
                   cairo.tcz
@@ -386,21 +391,21 @@ abiword-gir.tcz
                         libffi.tcz
                         pcre21042.tcz
                gdk-pixbuf2.tcz
+                  libtiff.tcz
+                     liblzma.tcz
+                     libjpeg-turbo.tcz
+                     libzstd.tcz
+                  libpng.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
                   shared-mime-info.tcz
                      glib2.tcz
                         libffi.tcz
                         pcre21042.tcz
                      libxml2.tcz
                         liblzma.tcz
-                  libpng.tcz
-                  libtiff.tcz
-                     liblzma.tcz
-                     libjpeg-turbo.tcz
-                     libzstd.tcz
-                  libX11.tcz
-                     libxcb.tcz
-                        libXau.tcz
-                        libXdmcp.tcz
                libcroco.tcz
                   glib2.tcz
                      libffi.tcz
@@ -444,39 +449,41 @@ abiword-gir.tcz
    gtk3-gir.tcz
       gtk3.tcz
          libepoxy.tcz
-         at-spi2-atk.tcz
-            at-spi2-core.tcz
-               dbus.tcz
-                  expat2.tcz
-               glib2.tcz
-                  libffi.tcz
-                  pcre21042.tcz
-               libICE.tcz
-               libSM.tcz
-               libX11.tcz
-                  libxcb.tcz
-                     libXau.tcz
-                     libXdmcp.tcz
-            atk.tcz
-               glib2.tcz
-                  libffi.tcz
-                  pcre21042.tcz
+         at-spi2-core.tcz
+            dbus.tcz
+               expat2.tcz
+            glib2.tcz
+               libffi.tcz
+               pcre21042.tcz
+            libXi.tcz
+               libXext.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
+            libXtst.tcz
+               libXi.tcz
+                  libXext.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
          gdk-pixbuf2.tcz
+            libtiff.tcz
+               liblzma.tcz
+               libjpeg-turbo.tcz
+               libzstd.tcz
+            libpng.tcz
+            libX11.tcz
+               libxcb.tcz
+                  libXau.tcz
+                  libXdmcp.tcz
             shared-mime-info.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
                libxml2.tcz
                   liblzma.tcz
-            libpng.tcz
-            libtiff.tcz
-               liblzma.tcz
-               libjpeg-turbo.tcz
-               libzstd.tcz
-            libX11.tcz
-               libxcb.tcz
-                  libXau.tcz
-                  libXdmcp.tcz
          libXcomposite.tcz
             libX11.tcz
                libxcb.tcz
@@ -554,25 +561,28 @@ abiword-gir.tcz
                   libxcb.tcz
                      libXau.tcz
                      libXdmcp.tcz
-         pcre.tcz
-            bzip2-lib.tcz
+         libxkbcommon.tcz
+            libX11.tcz
+               libxcb.tcz
+                  libXau.tcz
+                  libXdmcp.tcz
       gdk-pixbuf2-gir.tcz
          gdk-pixbuf2.tcz
+            libtiff.tcz
+               liblzma.tcz
+               libjpeg-turbo.tcz
+               libzstd.tcz
+            libpng.tcz
+            libX11.tcz
+               libxcb.tcz
+                  libXau.tcz
+                  libXdmcp.tcz
             shared-mime-info.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
                libxml2.tcz
                   liblzma.tcz
-            libpng.tcz
-            libtiff.tcz
-               liblzma.tcz
-               libjpeg-turbo.tcz
-               libzstd.tcz
-            libX11.tcz
-               libxcb.tcz
-                  libXau.tcz
-                  libXdmcp.tcz
          gobject-introspection.tcz
             glib2.tcz
                libffi.tcz
@@ -608,31 +618,19 @@ abiword-gir.tcz
             glib2.tcz
                libffi.tcz
                pcre21042.tcz
-            libICE.tcz
-            libSM.tcz
-            libX11.tcz
-               libxcb.tcz
-                  libXau.tcz
-                  libXdmcp.tcz
-      atk-gir.tcz
-         gobject-introspection.tcz
-            glib2.tcz
-               libffi.tcz
-               pcre21042.tcz
-            python3.9.tcz
-               openssl.tcz
-                  gcc_libs.tcz
-               sqlite3.tcz
-               gdbm.tcz
-               bzip2-lib.tcz
-               liblzma.tcz
-               readline.tcz
-                  ncursesw.tcz
-               libffi.tcz
-         atk.tcz
-            glib2.tcz
-               libffi.tcz
-               pcre21042.tcz
+            libXi.tcz
+               libXext.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
+            libXtst.tcz
+               libXi.tcz
+                  libXext.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
       pango-gir.tcz
          pango.tcz
             cairo.tcz
@@ -694,20 +692,6 @@ abiword-gir.tcz
                   readline.tcz
                      ncursesw.tcz
                   libffi.tcz
-      gobject-introspection.tcz
-         glib2.tcz
-            libffi.tcz
-            pcre21042.tcz
-         python3.9.tcz
-            openssl.tcz
-               gcc_libs.tcz
-            sqlite3.tcz
-            gdbm.tcz
-            bzip2-lib.tcz
-            liblzma.tcz
-            readline.tcz
-               ncursesw.tcz
-            libffi.tcz
    libgsf-gir.tcz
       libgsf.tcz
          libxml2.tcz

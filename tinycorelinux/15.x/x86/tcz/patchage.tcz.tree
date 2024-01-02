@@ -8,26 +8,41 @@ patchage.tcz
    ganv.tcz
       gtk2mm.tcz
          gtk2.tcz
-            atk.tcz
+            at-spi2-core.tcz
+               dbus.tcz
+                  expat2.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
+               libXi.tcz
+                  libXext.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+               libXtst.tcz
+                  libXi.tcz
+                     libXext.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
             gdk-pixbuf2.tcz
+               libtiff.tcz
+                  liblzma.tcz
+                  libjpeg-turbo.tcz
+                  libzstd.tcz
+               libpng.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
                shared-mime-info.tcz
                   glib2.tcz
                      libffi.tcz
                      pcre21042.tcz
                   libxml2.tcz
                      liblzma.tcz
-               libpng.tcz
-               libtiff.tcz
-                  liblzma.tcz
-                  libjpeg-turbo.tcz
-                  libzstd.tcz
-               libX11.tcz
-                  libxcb.tcz
-                     libXau.tcz
-                     libXdmcp.tcz
             libXcomposite.tcz
                libX11.tcz
                   libxcb.tcz
@@ -72,58 +87,10 @@ patchage.tcz
                         libpng.tcz
                   pixman.tcz
                   libpng.tcz
-                  libXrender.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-                  libXext.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-                  libEGL.tcz
-                     libGL.tcz
-                        libXdamage.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        libXxf86vm.tcz
-                           libXext.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                              glib2.tcz
-                                 libffi.tcz
-                                 pcre21042.tcz
-                        libxshmfence.tcz
-                  libGLESv2.tcz
-                     libGL.tcz
-                        libXdamage.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        libXxf86vm.tcz
-                           libXext.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                              glib2.tcz
-                                 libffi.tcz
-                                 pcre21042.tcz
-                        libxshmfence.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
                harfbuzz.tcz
                   glib2.tcz
                      libffi.tcz
@@ -150,10 +117,25 @@ patchage.tcz
             pcre.tcz
                bzip2-lib.tcz
          atkmm.tcz
-            atk.tcz
+            at-spi2-core.tcz
+               dbus.tcz
+                  expat2.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
+               libXi.tcz
+                  libXext.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+               libXtst.tcz
+                  libXi.tcz
+                     libXext.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
             glibmm.tcz
                glib2.tcz
                   libffi.tcz
@@ -171,58 +153,10 @@ patchage.tcz
                         libpng.tcz
                   pixman.tcz
                   libpng.tcz
-                  libXrender.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-                  libXext.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-                  libEGL.tcz
-                     libGL.tcz
-                        libXdamage.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        libXxf86vm.tcz
-                           libXext.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                              glib2.tcz
-                                 libffi.tcz
-                                 pcre21042.tcz
-                        libxshmfence.tcz
-                  libGLESv2.tcz
-                     libGL.tcz
-                        libXdamage.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        libXxf86vm.tcz
-                           libXext.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                              glib2.tcz
-                                 libffi.tcz
-                                 pcre21042.tcz
-                        libxshmfence.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
                harfbuzz.tcz
                   glib2.tcz
                      libffi.tcz
@@ -262,58 +196,10 @@ patchage.tcz
                         libpng.tcz
                   pixman.tcz
                   libpng.tcz
-                  libXrender.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-                  libXext.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-                  libEGL.tcz
-                     libGL.tcz
-                        libXdamage.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        libXxf86vm.tcz
-                           libXext.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                              glib2.tcz
-                                 libffi.tcz
-                                 pcre21042.tcz
-                        libxshmfence.tcz
-                  libGLESv2.tcz
-                     libGL.tcz
-                        libXdamage.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        libXxf86vm.tcz
-                           libXext.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                              glib2.tcz
-                                 libffi.tcz
-                                 pcre21042.tcz
-                        libxshmfence.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
    jack.tcz
       jack-lib.tcz
       celt.tcz
@@ -342,7 +228,6 @@ patchage.tcz
    jack-lib.tcz
    alsa.tcz
       alsa-modules-6.1.2-tinycore.tcz
-         input-joystick-6.1.2-tinycore.tcz
       libasound.tcz
       ncursesw.tcz
 
