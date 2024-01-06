@@ -496,76 +496,6 @@ sway.tcz
             libffi.tcz
             pcre21042.tcz
    wlroots.tcz
-      xwayland.tcz
-         wayland-protocols.tcz
-            wayland.tcz
-               libffi.tcz
-               expat2.tcz
-               libxml2.tcz
-                  liblzma.tcz
-         pixman.tcz
-         libXfont2.tcz
-            freetype.tcz
-               libpng.tcz
-               harfbuzz.tcz
-                  glib2.tcz
-                     libffi.tcz
-                     pcre21042.tcz
-                  graphite.tcz
-               bzip2-lib.tcz
-            libfontenc.tcz
-         libepoxy.tcz
-         openssl.tcz
-         libEGL.tcz
-            libGL.tcz
-               libXdamage.tcz
-                  libXfixes.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-               libXxf86vm.tcz
-                  libXext.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-               libdrm.tcz
-                  libpciaccess.tcz
-                  udev-lib.tcz
-               libxshmfence.tcz
-            wayland.tcz
-               libffi.tcz
-               expat2.tcz
-               libxml2.tcz
-                  liblzma.tcz
-      libdrm.tcz
-         libpciaccess.tcz
-         udev-lib.tcz
-      libxkbcommon.tcz
-         xkeyboard-config.tcz
-         libxcb.tcz
-            libXau.tcz
-            libXdmcp.tcz
-      udev-lib.tcz
-      libGLESv2.tcz
-         libGL.tcz
-            libXdamage.tcz
-               libXfixes.tcz
-                  libX11.tcz
-                     libxcb.tcz
-                        libXau.tcz
-                        libXdmcp.tcz
-            libXxf86vm.tcz
-               libXext.tcz
-                  libX11.tcz
-                     libxcb.tcz
-                        libXau.tcz
-                        libXdmcp.tcz
-            libdrm.tcz
-               libpciaccess.tcz
-               udev-lib.tcz
-            libxshmfence.tcz
       libvulkan.tcz
          Xorg-7.7-3d.tcz
             Xorg-7.7.tcz
@@ -974,16 +904,56 @@ sway.tcz
                bzip2-lib.tcz
             libzstd.tcz
             gcc_libs.tcz
-      libinput.tcz
-         mtdev.tcz
-         libevdev.tcz
-         libwacom.tcz
-            gudev-lib.tcz
-               udev-lib.tcz
-               glib2.tcz
-                  libffi.tcz
-                  pcre21042.tcz
-      seatd.tcz 
+      libxkbcommon.tcz
+         xkeyboard-config.tcz
+         libxcb.tcz
+            libXau.tcz
+            libXdmcp.tcz
+      seatd.tcz
+      libdisplay-info.tcz
+      xwayland.tcz
+         wayland-protocols.tcz
+            wayland.tcz
+               libffi.tcz
+               expat2.tcz
+               libxml2.tcz
+                  liblzma.tcz
+         pixman.tcz
+         libXfont2.tcz
+            freetype.tcz
+               libpng.tcz
+               harfbuzz.tcz
+                  glib2.tcz
+                     libffi.tcz
+                     pcre21042.tcz
+                  graphite.tcz
+               bzip2-lib.tcz
+            libfontenc.tcz
+         libepoxy.tcz
+         openssl.tcz
+         libEGL.tcz
+            libGL.tcz
+               libXdamage.tcz
+                  libXfixes.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+               libXxf86vm.tcz
+                  libXext.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+               libdrm.tcz
+                  libpciaccess.tcz
+                  udev-lib.tcz
+               libxshmfence.tcz
+            wayland.tcz
+               libffi.tcz
+               expat2.tcz
+               libxml2.tcz
+                  liblzma.tcz
    libva2.tcz
       libGL.tcz
          libXdamage.tcz
