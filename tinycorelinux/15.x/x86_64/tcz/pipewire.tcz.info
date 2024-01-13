@@ -1,16 +1,29 @@
 Title:          pipewire.tcz
 Description:    multimedia pipeline api
-Version:        0.2.7
+Version:        1.0.1
 Author:         see list of sites below
 Original-site:  see list of sites below
 Copying-policy: see list of sites below
-Size: 464KB
+Size:		3.6M
 Extension_by:   juanito
 Tags:	        audio video av multimedia
 Comments:       server and user space api to deal with multimedia pipelines
                 ----------
+                howto:
+                1. make sure alsa is properly configured (see https://wiki.tinycorelinux.net/doku.php?id=wiki:setting_up_sound)
+                2. make sure pulseaudio is not running
+                3. run these commands manually or via a startup script:
+                    sudo /usr/local/etc/init.d/dbus start
+                    pipewire &
+                    sleep 1
+                    wireplumber &
+                    pipewire-pulse &
+                4. you're all set! Volume can be controlled with pactl (part of pulseaudio.tcz),
+                   changing input/output devices can be done via pavucontrol (part of pavucontrol.tcz)
+                ----------
                 This extension contains:
-                pipewire-0.2.7 - lGPLv2.1 - https://github.com/PipeWire/pipewire/archive/0.2.7.tar.gz
+                pipewire-1.0.1 - lGPLv2.1 - https://gitlab.freedesktop.org/pipewire/pipewire/-/archive/1.0.1/pipewire-1.0.1.tar.bz2
                 ----------
 Change-log:     2018/12/30 first version
-Current:        2020/01/30 updated 0.2.5 -> 0.2.7
+                2020/01/30 updated 0.2.5 -> 0.2.7
+Current:        2024/01/11 updated 0.2.7 -> 1.0.1 (gnuser)
