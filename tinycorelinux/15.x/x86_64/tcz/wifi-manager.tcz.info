@@ -1,12 +1,12 @@
 Title:          wifi-manager.tcz
 Description:    minimalistic wifi manager
-Version:        2.6
+Version:        3.0
 Author:         Bruno "GNUser" Dantas
 Original-site:  n/a
 Copying-policy: GPLv3
 Size:		32K
 Extension_by:   gnuser
-Tags:	        wireless wifi manager
+Tags:           wireless wifi manager
 Comments: ----------
   ----- Prerequisite -----
   The iw utility must be able to detect your wireless interface.
@@ -35,10 +35,7 @@ Comments: ----------
   View last scan's results:
     $ cat /tmp/APs
 ----------
-Change-log:     2022/12/22 first version
-                2023/01/02 updated 1.6 -> 1.7
-                2023/03/06 updated 1.7 -> 1.8
-                2023/03/16 updated 1.8 -> 2.0
-                2023/08/30 updated 2.0 -> 2.2
-                2023/09/03 updated 2.2 -> 2.5
-Current:        2023/10/24 updated 2.5 -> 2.6
+Change-log:     2022/12/22 1.0
+                2023/03/16 2.0
+                2023/10/24 2.6
+Current:        2024/01/24 3.0
