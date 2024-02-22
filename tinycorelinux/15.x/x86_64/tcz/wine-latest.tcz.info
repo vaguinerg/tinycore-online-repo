@@ -1,16 +1,17 @@
 Title:          wine-latest.tcz
 Description:    Unstable version of wine
-Version:        9.0-rc5
+Version:        9.1
 Author:         Bob Amstadt, Eric Youngdale
 Original-site:  https://www.winehq.org/
 Copying-policy: LGPL2
-Size:		104M
+Size:		107M
 Extension_by:   CardealRusso
 Tags:	        windows emulator
 Comments:       ----------
 		Experimental 32bit support enabled
                 
-		! Doesn't work on TinyX or GUIless. You need Xorg or Wayland !
+		! Doesn't work on Xvesa or headless. You need Xorg or Wayland !
+		This seems to be an unknow bug on recent versions. https://forum.winehq.org/viewtopic.php?p=142883
 
 		Optional tcz's:
 		For General use: freetype.tcz
@@ -25,11 +26,18 @@ Comments:       ----------
 
 		Winetricks:
 		mkdir -p $HOME/.local/bin
-		wget --no-check-certificate -O $HOME/.local/bin/winetricks /
+		wget --no-check-certificate -O $HOME/.local/bin/winetricks \
 		https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks
 		chmod u+x $HOME/.local/bin/winetricks
-		tce-load -lwi cabextract aria2 zenity busybox_extras (only needed to run winetricks)
-		winetricks -q corefonts vcrun6		
+		tce-load -lwi cabextract aria2 zenity busybox_extras p7zip (only needed to run winetricks)
+		winetricks -q corefonts vcrun6 (run wine at least once before winetricks)
+
+
+		Staging:
+		The following patches were skipped because they caused errors during compilation
+		eventfd_synchronization ntdll_reg_flush ntdll-Junction_Points server-File_Permissions server-Stored_ACLs
+		ntdll-NtDevicePath Compiler_Warnings user32-rawinput-mouse user32-rawinput-mouse-experimental user32-Mouse_Message_Hwnd
 		----------
 Change-log:     2024/01/07 9.0-rc4
-Current:        2024/01/14 Updated 9.0-rc4 -> 9.0-rc5 (Fixed ca-certificates location, buildscript, deps, info)
+                2024/01/14 Updated 9.0-rc4 -> 9.0-rc5 (Fixed ca-certificates location, buildscript, deps, info)
+Current:        2024/02/04 Updated 9.0-rc5 -> 9.1 (Compiled with wine-staging patchset)

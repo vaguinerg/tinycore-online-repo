@@ -1,0 +1,19 @@
+Title:          python3.9-pytz.tcz
+Description:    pytz - World Timezone Definitions for Python
+Version:        2021.3
+Author:         Stuart Bishop
+Original-site:  https://pythonhosted.org/pytz/
+Copying-policy: MIT
+Size:		300K
+Extension_by:   juanito
+Tags:           python python3 pytz timezone definitions tzdata
+Comments:       pytz brings the Olson tz database into Python.
+                This library allows accurate and cross platform timezone calculations
+                using Python 2.4 or higher. It also solves the issue of ambiguous times
+                at the end of daylight saving time, which you can read more about in the
+                Python Library Reference (datetime.tzinfo).
+                
+Change-log:     2016/08/14 first version 2016.4 (juanito)
+                2022/03/25 python3.6 update to later version, 2021.3 (rhermsen)
+                2024/02/02 first python3.9 version, 2021.3 (rhermsen)
+Current:        2024/02/02 first python3.9 version, 2021.3 (rhermsen)

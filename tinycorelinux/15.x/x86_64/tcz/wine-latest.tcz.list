@@ -375,6 +375,7 @@
 /usr/local/lib/wine/i386-windows/libdxva2.a
 /usr/local/lib/wine/i386-windows/libevr.a
 /usr/local/lib/wine/i386-windows/libfaultrep.a
+/usr/local/lib/wine/i386-windows/libfltmgr.a
 /usr/local/lib/wine/i386-windows/libgdi32.a
 /usr/local/lib/wine/i386-windows/libgdiplus.a
 /usr/local/lib/wine/i386-windows/libglu32.a
@@ -509,6 +510,7 @@
 /usr/local/lib/wine/i386-windows/libwined3d.a
 /usr/local/lib/wine/i386-windows/libwinegstreamer.a
 /usr/local/lib/wine/i386-windows/libwinevulkan.a
+/usr/local/lib/wine/i386-windows/libwing32.a
 /usr/local/lib/wine/i386-windows/libwinhttp.a
 /usr/local/lib/wine/i386-windows/libwininet.a
 /usr/local/lib/wine/i386-windows/libwinmm.a
@@ -528,6 +530,7 @@
 /usr/local/lib/wine/i386-windows/libwsnmp32.a
 /usr/local/lib/wine/i386-windows/libwsock32.a
 /usr/local/lib/wine/i386-windows/libwtsapi32.a
+/usr/local/lib/wine/i386-windows/libx3daudio1_7.a
 /usr/local/lib/wine/i386-windows/libxaudio2_8.a
 /usr/local/lib/wine/i386-windows/libxinput.a
 /usr/local/lib/wine/i386-windows/libxmllite.a
@@ -1120,6 +1123,7 @@
 /usr/local/lib/wine/x86_64-unix/libdxva2.a
 /usr/local/lib/wine/x86_64-unix/libevr.a
 /usr/local/lib/wine/x86_64-unix/libfaultrep.a
+/usr/local/lib/wine/x86_64-unix/libfltmgr.a
 /usr/local/lib/wine/x86_64-unix/libgdi32.a
 /usr/local/lib/wine/x86_64-unix/libgdiplus.a
 /usr/local/lib/wine/x86_64-unix/libglu32.a
@@ -1253,6 +1257,7 @@
 /usr/local/lib/wine/x86_64-unix/libwined3d.a
 /usr/local/lib/wine/x86_64-unix/libwinegstreamer.a
 /usr/local/lib/wine/x86_64-unix/libwinevulkan.a
+/usr/local/lib/wine/x86_64-unix/libwing32.a
 /usr/local/lib/wine/x86_64-unix/libwinhttp.a
 /usr/local/lib/wine/x86_64-unix/libwininet.a
 /usr/local/lib/wine/x86_64-unix/libwinmm.a
@@ -1272,6 +1277,7 @@
 /usr/local/lib/wine/x86_64-unix/libwsnmp32.a
 /usr/local/lib/wine/x86_64-unix/libwsock32.a
 /usr/local/lib/wine/x86_64-unix/libwtsapi32.a
+/usr/local/lib/wine/x86_64-unix/libx3daudio1_7.a
 /usr/local/lib/wine/x86_64-unix/libxaudio2_8.a
 /usr/local/lib/wine/x86_64-unix/libxinput.a
 /usr/local/lib/wine/x86_64-unix/libxmllite.a
@@ -1642,6 +1648,7 @@
 /usr/local/lib/wine/x86_64-windows/libdxva2.a
 /usr/local/lib/wine/x86_64-windows/libevr.a
 /usr/local/lib/wine/x86_64-windows/libfaultrep.a
+/usr/local/lib/wine/x86_64-windows/libfltmgr.a
 /usr/local/lib/wine/x86_64-windows/libgdi32.a
 /usr/local/lib/wine/x86_64-windows/libgdiplus.a
 /usr/local/lib/wine/x86_64-windows/libglu32.a
@@ -1775,6 +1782,7 @@
 /usr/local/lib/wine/x86_64-windows/libwined3d.a
 /usr/local/lib/wine/x86_64-windows/libwinegstreamer.a
 /usr/local/lib/wine/x86_64-windows/libwinevulkan.a
+/usr/local/lib/wine/x86_64-windows/libwing32.a
 /usr/local/lib/wine/x86_64-windows/libwinhttp.a
 /usr/local/lib/wine/x86_64-windows/libwininet.a
 /usr/local/lib/wine/x86_64-windows/libwinmm.a
@@ -1794,6 +1802,7 @@
 /usr/local/lib/wine/x86_64-windows/libwsnmp32.a
 /usr/local/lib/wine/x86_64-windows/libwsock32.a
 /usr/local/lib/wine/x86_64-windows/libwtsapi32.a
+/usr/local/lib/wine/x86_64-windows/libx3daudio1_7.a
 /usr/local/lib/wine/x86_64-windows/libxaudio2_8.a
 /usr/local/lib/wine/x86_64-windows/libxinput.a
 /usr/local/lib/wine/x86_64-windows/libxmllite.a
@@ -2257,9 +2266,11 @@
 /usr/local/lib/wine/x86_64-windows/xpsprint.dll
 /usr/local/lib/wine/x86_64-windows/xpssvcs.dll
 /usr/local/share/applications/wine.desktop
+/usr/local/share/wine/fonts/arial.ttf
 /usr/local/share/wine/fonts/coue1255.fon
 /usr/local/share/wine/fonts/coue1256.fon
 /usr/local/share/wine/fonts/coue1257.fon
+/usr/local/share/wine/fonts/cour.ttf
 /usr/local/share/wine/fonts/coure.fon
 /usr/local/share/wine/fonts/couree.fon
 /usr/local/share/wine/fonts/coureg.fon
@@ -2271,6 +2282,7 @@
 /usr/local/share/wine/fonts/jvgafix.fon
 /usr/local/share/wine/fonts/jvgasys.fon
 /usr/local/share/wine/fonts/marlett.ttf
+/usr/local/share/wine/fonts/msyh.ttf
 /usr/local/share/wine/fonts/smae1255.fon
 /usr/local/share/wine/fonts/smae1256.fon
 /usr/local/share/wine/fonts/smae1257.fon
@@ -2301,6 +2313,7 @@
 /usr/local/share/wine/fonts/symbol.ttf
 /usr/local/share/wine/fonts/tahoma.ttf
 /usr/local/share/wine/fonts/tahomabd.ttf
+/usr/local/share/wine/fonts/times.ttf
 /usr/local/share/wine/fonts/vgafix.fon
 /usr/local/share/wine/fonts/vgas1255.fon
 /usr/local/share/wine/fonts/vgas1256.fon
