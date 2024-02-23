@@ -20,6 +20,7 @@
 /usr/local/etc/grub.d/00_header
 /usr/local/etc/grub.d/10_linux
 /usr/local/etc/grub.d/20_linux_xen
+/usr/local/etc/grub.d/25_bli
 /usr/local/etc/grub.d/30_os-prober
 /usr/local/etc/grub.d/30_uefi-firmware
 /usr/local/etc/grub.d/40_custom
@@ -57,6 +58,8 @@
 /usr/local/lib/grub/i386-efi/bitmap.module
 /usr/local/lib/grub/i386-efi/bitmap_scale.mod
 /usr/local/lib/grub/i386-efi/bitmap_scale.module
+/usr/local/lib/grub/i386-efi/bli.mod
+/usr/local/lib/grub/i386-efi/bli.module
 /usr/local/lib/grub/i386-efi/blocklist.mod
 /usr/local/lib/grub/i386-efi/blocklist.module
 /usr/local/lib/grub/i386-efi/boot.mod
@@ -136,6 +139,8 @@
 /usr/local/lib/grub/i386-efi/efifwsetup.module
 /usr/local/lib/grub/i386-efi/efinet.mod
 /usr/local/lib/grub/i386-efi/efinet.module
+/usr/local/lib/grub/i386-efi/efitextmode.mod
+/usr/local/lib/grub/i386-efi/efitextmode.module
 /usr/local/lib/grub/i386-efi/ehci.mod
 /usr/local/lib/grub/i386-efi/ehci.module
 /usr/local/lib/grub/i386-efi/elf.mod
@@ -213,6 +218,7 @@
 /usr/local/lib/grub/i386-efi/gdb.mod
 /usr/local/lib/grub/i386-efi/gdb.module
 /usr/local/lib/grub/i386-efi/gdb_grub
+/usr/local/lib/grub/i386-efi/gdb_helper.py
 /usr/local/lib/grub/i386-efi/geli.mod
 /usr/local/lib/grub/i386-efi/geli.module
 /usr/local/lib/grub/i386-efi/gettext.mod
@@ -225,7 +231,6 @@
 /usr/local/lib/grub/i386-efi/gfxterm_background.module
 /usr/local/lib/grub/i386-efi/gfxterm_menu.mod
 /usr/local/lib/grub/i386-efi/gfxterm_menu.module
-/usr/local/lib/grub/i386-efi/gmodule.pl
 /usr/local/lib/grub/i386-efi/gptsync.mod
 /usr/local/lib/grub/i386-efi/gptsync.module
 /usr/local/lib/grub/i386-efi/gzio.mod
@@ -410,6 +415,8 @@
 /usr/local/lib/grub/i386-efi/pcidump.module
 /usr/local/lib/grub/i386-efi/pgp.mod
 /usr/local/lib/grub/i386-efi/pgp.module
+/usr/local/lib/grub/i386-efi/plainmount.mod
+/usr/local/lib/grub/i386-efi/plainmount.module
 /usr/local/lib/grub/i386-efi/play.mod
 /usr/local/lib/grub/i386-efi/play.module
 /usr/local/lib/grub/i386-efi/png.mod
@@ -768,6 +775,7 @@
 /usr/local/lib/grub/i386-pc/gdb.mod
 /usr/local/lib/grub/i386-pc/gdb.module
 /usr/local/lib/grub/i386-pc/gdb_grub
+/usr/local/lib/grub/i386-pc/gdb_helper.py
 /usr/local/lib/grub/i386-pc/geli.mod
 /usr/local/lib/grub/i386-pc/geli.module
 /usr/local/lib/grub/i386-pc/gettext.mod
@@ -780,7 +788,6 @@
 /usr/local/lib/grub/i386-pc/gfxterm_background.module
 /usr/local/lib/grub/i386-pc/gfxterm_menu.mod
 /usr/local/lib/grub/i386-pc/gfxterm_menu.module
-/usr/local/lib/grub/i386-pc/gmodule.pl
 /usr/local/lib/grub/i386-pc/gptsync.mod
 /usr/local/lib/grub/i386-pc/gptsync.module
 /usr/local/lib/grub/i386-pc/gzio.mod
@@ -967,6 +974,8 @@
 /usr/local/lib/grub/i386-pc/pcidump.module
 /usr/local/lib/grub/i386-pc/pgp.mod
 /usr/local/lib/grub/i386-pc/pgp.module
+/usr/local/lib/grub/i386-pc/plainmount.mod
+/usr/local/lib/grub/i386-pc/plainmount.module
 /usr/local/lib/grub/i386-pc/plan9.mod
 /usr/local/lib/grub/i386-pc/plan9.module
 /usr/local/lib/grub/i386-pc/play.mod
