@@ -1,4 +1,4 @@
-Title:		acpi.tcz
+Title: acpi.tcz
 Description: Displays information on ACPI devices 
 Version: 1.7
 Author: meskes
@@ -9,5 +9,9 @@ Extension_by: jason123santa
 Tags: power acpi 
 Comments: Attempts to replicate the functionality of the 'old' apm command on ACPI systems, including battery and thermal information. 
 	  Does not support ACPI suspending, only displays information about ACPI devices.
-Change-log: ----
-Current:    2024/02/17 First version, 1.7
+	  ----
+	  Compiled for TC 14.x
+	  ----
+Change-log: 2024/02/17 First version, 1.7
+Current:    2024/02/24 Changed compile flags 
+
