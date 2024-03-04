@@ -8,6 +8,10 @@ upower-gir.tcz
                   attr.tcz
                libcap.tcz
                   attr.tcz
+               util-linux.tcz
+                  readline.tcz
+                     ncursesw.tcz
+                  udev-lib.tcz
          glib2.tcz
             libffi.tcz
             pcre21042.tcz
@@ -24,6 +28,13 @@ upower-gir.tcz
                libxml2.tcz
                   liblzma.tcz
          openssl-1.1.1.tcz
+      gudev238-lib.tcz
+         udev254-lib.tcz
+            libcap.tcz
+               attr.tcz
+         glib2.tcz
+            libffi.tcz
+            pcre21042.tcz
    gobject-introspection.tcz
       glib2.tcz
          libffi.tcz

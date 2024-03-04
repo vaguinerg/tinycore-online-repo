@@ -45,6 +45,10 @@ gnome-network-displays.tcz
                   attr.tcz
                libcap.tcz
                   attr.tcz
+               util-linux.tcz
+                  readline.tcz
+                     ncursesw.tcz
+                  udev-lib.tcz
          glib2.tcz
             libffi.tcz
             pcre21042.tcz
@@ -64,21 +68,27 @@ gnome-network-displays.tcz
                   attr.tcz
                libcap.tcz
                   attr.tcz
+               util-linux.tcz
+                  readline.tcz
+                     ncursesw.tcz
+                  udev-lib.tcz
          linux-pam.tcz
       libsoup.tcz
          glib-networking.tcz
             glib2.tcz
                libffi.tcz
                pcre21042.tcz
-            gnutls35.tcz
+            openssl.tcz
+            gnutls38.tcz
                p11-kit.tcz
                   libffi.tcz
                   libtasn1-4.tcz
-               nettle3.tcz
+               nettle39.tcz
                   gmp.tcz
                libidn2.tcz
                   libunistring.tcz
                   ncursesw.tcz
+               libzstd.tcz
          libxml2.tcz
             liblzma.tcz
          sqlite3.tcz
@@ -95,6 +105,10 @@ gnome-network-displays.tcz
                   attr.tcz
                libcap.tcz
                   attr.tcz
+               util-linux.tcz
+                  readline.tcz
+                     ncursesw.tcz
+                  udev-lib.tcz
          openssl.tcz
          readline.tcz
             ncursesw.tcz
@@ -119,14 +133,16 @@ gnome-network-displays.tcz
                      attr.tcz
                   libcap.tcz
                      attr.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
             linux-pam.tcz
          libqmi.tcz
             libmbim.tcz
-               gudev-lib.tcz
-                  udev-lib.tcz
-                  glib2.tcz
-                     libffi.tcz
-                     pcre21042.tcz
+               glib2.tcz
+                  libffi.tcz
+                  pcre21042.tcz
       libndp.tcz
       libbluetooth.tcz
          bluez.tcz
@@ -137,6 +153,10 @@ gnome-network-displays.tcz
                      attr.tcz
                   libcap.tcz
                      attr.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
             udev-lib.tcz
             libical3.tcz
                icu70.tcz
@@ -162,6 +182,10 @@ gnome-network-displays.tcz
                      attr.tcz
                   libcap.tcz
                      attr.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
             glib2.tcz
                libffi.tcz
                pcre21042.tcz
@@ -178,6 +202,22 @@ gnome-network-displays.tcz
                   libxml2.tcz
                      liblzma.tcz
             openssl-1.1.1.tcz
+         gudev238-lib.tcz
+            udev254-lib.tcz
+               libcap.tcz
+                  attr.tcz
+            glib2.tcz
+               libffi.tcz
+               pcre21042.tcz
+      gnutls35.tcz
+         p11-kit.tcz
+            libffi.tcz
+            libtasn1-4.tcz
+         nettle3.tcz
+            gmp.tcz
+         libidn2.tcz
+            libunistring.tcz
+            ncursesw.tcz
    pulseaudio.tcz
       libpulseaudio.tcz
          dbus.tcz
@@ -187,6 +227,10 @@ gnome-network-displays.tcz
                   attr.tcz
                libcap.tcz
                   attr.tcz
+               util-linux.tcz
+                  readline.tcz
+                     ncursesw.tcz
+                  udev-lib.tcz
          libcap.tcz
             attr.tcz
          glib2.tcz
@@ -223,6 +267,10 @@ gnome-network-displays.tcz
                   attr.tcz
                libcap.tcz
                   attr.tcz
+               util-linux.tcz
+                  readline.tcz
+                     ncursesw.tcz
+                  udev-lib.tcz
          gcc_libs.tcz
          glib2.tcz
             libffi.tcz

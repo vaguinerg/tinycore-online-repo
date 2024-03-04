@@ -16,14 +16,16 @@ modemmanager-gir.tcz
                   attr.tcz
                libcap.tcz
                   attr.tcz
+               util-linux.tcz
+                  readline.tcz
+                     ncursesw.tcz
+                  udev-lib.tcz
          linux-pam.tcz
       libqmi.tcz
          libmbim.tcz
-            gudev-lib.tcz
-               udev-lib.tcz
-               glib2.tcz
-                  libffi.tcz
-                  pcre21042.tcz
+            glib2.tcz
+               libffi.tcz
+               pcre21042.tcz
    gudev-gir.tcz
       gudev-lib.tcz
          udev-lib.tcz
@@ -60,6 +62,10 @@ modemmanager-gir.tcz
                   attr.tcz
                libcap.tcz
                   attr.tcz
+               util-linux.tcz
+                  readline.tcz
+                     ncursesw.tcz
+                  udev-lib.tcz
          linux-pam.tcz
       gobject-introspection.tcz
          glib2.tcz

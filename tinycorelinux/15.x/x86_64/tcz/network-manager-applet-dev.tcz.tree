@@ -1,552 +1,6 @@
 network-manager-applet-dev.tcz
    network-manager-applet.tcz
-      gtk3.tcz
-         libepoxy.tcz
-         at-spi2-core.tcz
-            dbus.tcz
-               expat2.tcz
-               elogind.tcz
-                  acl.tcz
-                     attr.tcz
-                  libcap.tcz
-                     attr.tcz
-            glib2.tcz
-               libffi.tcz
-               pcre21042.tcz
-            libXi.tcz
-               libXext.tcz
-                  libX11.tcz
-                     libxcb.tcz
-                        libXau.tcz
-                        libXdmcp.tcz
-            libXtst.tcz
-               libXi.tcz
-                  libXext.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-         gdk-pixbuf2.tcz
-            libtiff.tcz
-               libjpeg-turbo.tcz
-               liblzma.tcz
-               libzstd.tcz
-            libpng.tcz
-            libX11.tcz
-               libxcb.tcz
-                  libXau.tcz
-                  libXdmcp.tcz
-            shared-mime-info.tcz
-               glib2.tcz
-                  libffi.tcz
-                  pcre21042.tcz
-               libxml2.tcz
-                  liblzma.tcz
-            gdk-pixbuf2-xlib.tcz
-         libXcomposite.tcz
-            libX11.tcz
-               libxcb.tcz
-                  libXau.tcz
-                  libXdmcp.tcz
-         pango.tcz
-            cairo.tcz
-               glib2.tcz
-                  libffi.tcz
-                  pcre21042.tcz
-               fontconfig.tcz
-                  expat2.tcz
-                  freetype.tcz
-                     libpng.tcz
-                     harfbuzz.tcz
-                        glib2.tcz
-                           libffi.tcz
-                           pcre21042.tcz
-                        graphite.tcz
-                     bzip2-lib.tcz
-               pixman.tcz
-               libpng.tcz
-               libX11.tcz
-                  libxcb.tcz
-                     libXau.tcz
-                     libXdmcp.tcz
-            libXft.tcz
-               fontconfig.tcz
-                  expat2.tcz
-                  freetype.tcz
-                     libpng.tcz
-                     harfbuzz.tcz
-                        glib2.tcz
-                           libffi.tcz
-                           pcre21042.tcz
-                        graphite.tcz
-                     bzip2-lib.tcz
-               freetype.tcz
-                  libpng.tcz
-                  harfbuzz.tcz
-                     glib2.tcz
-                        libffi.tcz
-                        pcre21042.tcz
-                     graphite.tcz
-                  bzip2-lib.tcz
-               libXrender.tcz
-                  libX11.tcz
-                     libxcb.tcz
-                        libXau.tcz
-                        libXdmcp.tcz
-            fribidi.tcz
-               glib2.tcz
-                  libffi.tcz
-                  pcre21042.tcz
-         libXcursor.tcz
-            libXrender.tcz
-               libX11.tcz
-                  libxcb.tcz
-                     libXau.tcz
-                     libXdmcp.tcz
-            libXfixes.tcz
-               libX11.tcz
-                  libxcb.tcz
-                     libXau.tcz
-                     libXdmcp.tcz
-         libXinerama.tcz
-            libXext.tcz
-               libX11.tcz
-                  libxcb.tcz
-                     libXau.tcz
-                     libXdmcp.tcz
-         libXrandr.tcz
-            libXext.tcz
-               libX11.tcz
-                  libxcb.tcz
-                     libXau.tcz
-                     libXdmcp.tcz
-            libXrender.tcz
-               libX11.tcz
-                  libxcb.tcz
-                     libXau.tcz
-                     libXdmcp.tcz
-         libXi.tcz
-            libXext.tcz
-               libX11.tcz
-                  libxcb.tcz
-                     libXau.tcz
-                     libXdmcp.tcz
-         libxkbcommon.tcz
-            xkeyboard-config.tcz
-            libxcb.tcz
-               libXau.tcz
-               libXdmcp.tcz
-         wayland-protocols.tcz
-            wayland.tcz
-               libffi.tcz
-               expat2.tcz
-               libxml2.tcz
-                  liblzma.tcz
-      gnome-keyring.tcz
-         gcr.tcz
-            gtk3.tcz
-               libepoxy.tcz
-               at-spi2-core.tcz
-                  dbus.tcz
-                     expat2.tcz
-                     elogind.tcz
-                        acl.tcz
-                           attr.tcz
-                        libcap.tcz
-                           attr.tcz
-                  glib2.tcz
-                     libffi.tcz
-                     pcre21042.tcz
-                  libXi.tcz
-                     libXext.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                  libXtst.tcz
-                     libXi.tcz
-                        libXext.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-               gdk-pixbuf2.tcz
-                  libtiff.tcz
-                     libjpeg-turbo.tcz
-                     liblzma.tcz
-                     libzstd.tcz
-                  libpng.tcz
-                  libX11.tcz
-                     libxcb.tcz
-                        libXau.tcz
-                        libXdmcp.tcz
-                  shared-mime-info.tcz
-                     glib2.tcz
-                        libffi.tcz
-                        pcre21042.tcz
-                     libxml2.tcz
-                        liblzma.tcz
-                  gdk-pixbuf2-xlib.tcz
-               libXcomposite.tcz
-                  libX11.tcz
-                     libxcb.tcz
-                        libXau.tcz
-                        libXdmcp.tcz
-               pango.tcz
-                  cairo.tcz
-                     glib2.tcz
-                        libffi.tcz
-                        pcre21042.tcz
-                     fontconfig.tcz
-                        expat2.tcz
-                        freetype.tcz
-                           libpng.tcz
-                           harfbuzz.tcz
-                              glib2.tcz
-                                 libffi.tcz
-                                 pcre21042.tcz
-                              graphite.tcz
-                           bzip2-lib.tcz
-                     pixman.tcz
-                     libpng.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-                  libXft.tcz
-                     fontconfig.tcz
-                        expat2.tcz
-                        freetype.tcz
-                           libpng.tcz
-                           harfbuzz.tcz
-                              glib2.tcz
-                                 libffi.tcz
-                                 pcre21042.tcz
-                              graphite.tcz
-                           bzip2-lib.tcz
-                     freetype.tcz
-                        libpng.tcz
-                        harfbuzz.tcz
-                           glib2.tcz
-                              libffi.tcz
-                              pcre21042.tcz
-                           graphite.tcz
-                        bzip2-lib.tcz
-                     libXrender.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                  fribidi.tcz
-                     glib2.tcz
-                        libffi.tcz
-                        pcre21042.tcz
-               libXcursor.tcz
-                  libXrender.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-                  libXfixes.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-               libXinerama.tcz
-                  libXext.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-               libXrandr.tcz
-                  libXext.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-                  libXrender.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-               libXi.tcz
-                  libXext.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-               libxkbcommon.tcz
-                  xkeyboard-config.tcz
-                  libxcb.tcz
-                     libXau.tcz
-                     libXdmcp.tcz
-               wayland-protocols.tcz
-                  wayland.tcz
-                     libffi.tcz
-                     expat2.tcz
-                     libxml2.tcz
-                        liblzma.tcz
-            p11-kit.tcz
-               libffi.tcz
-               libtasn1-4.tcz
-            gnupg.tcz
-               libassuan.tcz
-                  libgpg-error.tcz
-               libgcrypt.tcz
-                  libgpg-error.tcz
-               libksba.tcz
-                  libgpg-error.tcz
-               libusb.tcz
-                  udev-lib.tcz
-               gnutls35.tcz
-                  p11-kit.tcz
-                     libffi.tcz
-                     libtasn1-4.tcz
-                  nettle3.tcz
-                     gmp.tcz
-                  libidn2.tcz
-                     libunistring.tcz
-                     ncursesw.tcz
-               npth.tcz
-               sqlite3.tcz
-            gtk-update-icon-cache.tcz
-               gdk-pixbuf2.tcz
-                  libtiff.tcz
-                     libjpeg-turbo.tcz
-                     liblzma.tcz
-                     libzstd.tcz
-                  libpng.tcz
-                  libX11.tcz
-                     libxcb.tcz
-                        libXau.tcz
-                        libXdmcp.tcz
-                  shared-mime-info.tcz
-                     glib2.tcz
-                        libffi.tcz
-                        pcre21042.tcz
-                     libxml2.tcz
-                        liblzma.tcz
-                  gdk-pixbuf2-xlib.tcz
-               librsvg.tcz
-                  pango.tcz
-                     cairo.tcz
-                        glib2.tcz
-                           libffi.tcz
-                           pcre21042.tcz
-                        fontconfig.tcz
-                           expat2.tcz
-                           freetype.tcz
-                              libpng.tcz
-                              harfbuzz.tcz
-                                 glib2.tcz
-                                    libffi.tcz
-                                    pcre21042.tcz
-                                 graphite.tcz
-                              bzip2-lib.tcz
-                        pixman.tcz
-                        libpng.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                     libXft.tcz
-                        fontconfig.tcz
-                           expat2.tcz
-                           freetype.tcz
-                              libpng.tcz
-                              harfbuzz.tcz
-                                 glib2.tcz
-                                    libffi.tcz
-                                    pcre21042.tcz
-                                 graphite.tcz
-                              bzip2-lib.tcz
-                        freetype.tcz
-                           libpng.tcz
-                           harfbuzz.tcz
-                              glib2.tcz
-                                 libffi.tcz
-                                 pcre21042.tcz
-                              graphite.tcz
-                           bzip2-lib.tcz
-                        libXrender.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                     fribidi.tcz
-                        glib2.tcz
-                           libffi.tcz
-                           pcre21042.tcz
-                  gdk-pixbuf2.tcz
-                     libtiff.tcz
-                        libjpeg-turbo.tcz
-                        liblzma.tcz
-                        libzstd.tcz
-                     libpng.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-                     shared-mime-info.tcz
-                        glib2.tcz
-                           libffi.tcz
-                           pcre21042.tcz
-                        libxml2.tcz
-                           liblzma.tcz
-                     gdk-pixbuf2-xlib.tcz
-               hicolor-icon-theme.tcz
-         linux-pam.tcz
-         openssh.tcz
-            openssl.tcz
       libnma.tcz
-         gtk3.tcz
-            libepoxy.tcz
-            at-spi2-core.tcz
-               dbus.tcz
-                  expat2.tcz
-                  elogind.tcz
-                     acl.tcz
-                        attr.tcz
-                     libcap.tcz
-                        attr.tcz
-               glib2.tcz
-                  libffi.tcz
-                  pcre21042.tcz
-               libXi.tcz
-                  libXext.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-               libXtst.tcz
-                  libXi.tcz
-                     libXext.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-            gdk-pixbuf2.tcz
-               libtiff.tcz
-                  libjpeg-turbo.tcz
-                  liblzma.tcz
-                  libzstd.tcz
-               libpng.tcz
-               libX11.tcz
-                  libxcb.tcz
-                     libXau.tcz
-                     libXdmcp.tcz
-               shared-mime-info.tcz
-                  glib2.tcz
-                     libffi.tcz
-                     pcre21042.tcz
-                  libxml2.tcz
-                     liblzma.tcz
-               gdk-pixbuf2-xlib.tcz
-            libXcomposite.tcz
-               libX11.tcz
-                  libxcb.tcz
-                     libXau.tcz
-                     libXdmcp.tcz
-            pango.tcz
-               cairo.tcz
-                  glib2.tcz
-                     libffi.tcz
-                     pcre21042.tcz
-                  fontconfig.tcz
-                     expat2.tcz
-                     freetype.tcz
-                        libpng.tcz
-                        harfbuzz.tcz
-                           glib2.tcz
-                              libffi.tcz
-                              pcre21042.tcz
-                           graphite.tcz
-                        bzip2-lib.tcz
-                  pixman.tcz
-                  libpng.tcz
-                  libX11.tcz
-                     libxcb.tcz
-                        libXau.tcz
-                        libXdmcp.tcz
-               libXft.tcz
-                  fontconfig.tcz
-                     expat2.tcz
-                     freetype.tcz
-                        libpng.tcz
-                        harfbuzz.tcz
-                           glib2.tcz
-                              libffi.tcz
-                              pcre21042.tcz
-                           graphite.tcz
-                        bzip2-lib.tcz
-                  freetype.tcz
-                     libpng.tcz
-                     harfbuzz.tcz
-                        glib2.tcz
-                           libffi.tcz
-                           pcre21042.tcz
-                        graphite.tcz
-                     bzip2-lib.tcz
-                  libXrender.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-               fribidi.tcz
-                  glib2.tcz
-                     libffi.tcz
-                     pcre21042.tcz
-            libXcursor.tcz
-               libXrender.tcz
-                  libX11.tcz
-                     libxcb.tcz
-                        libXau.tcz
-                        libXdmcp.tcz
-               libXfixes.tcz
-                  libX11.tcz
-                     libxcb.tcz
-                        libXau.tcz
-                        libXdmcp.tcz
-            libXinerama.tcz
-               libXext.tcz
-                  libX11.tcz
-                     libxcb.tcz
-                        libXau.tcz
-                        libXdmcp.tcz
-            libXrandr.tcz
-               libXext.tcz
-                  libX11.tcz
-                     libxcb.tcz
-                        libXau.tcz
-                        libXdmcp.tcz
-               libXrender.tcz
-                  libX11.tcz
-                     libxcb.tcz
-                        libXau.tcz
-                        libXdmcp.tcz
-            libXi.tcz
-               libXext.tcz
-                  libX11.tcz
-                     libxcb.tcz
-                        libXau.tcz
-                        libXdmcp.tcz
-            libxkbcommon.tcz
-               xkeyboard-config.tcz
-               libxcb.tcz
-                  libXau.tcz
-                  libXdmcp.tcz
-            wayland-protocols.tcz
-               wayland.tcz
-                  libffi.tcz
-                  expat2.tcz
-                  libxml2.tcz
-                     liblzma.tcz
-         libsecret.tcz
-            libgcrypt.tcz
-               libgpg-error.tcz
-            glib2.tcz
-               libffi.tcz
-               pcre21042.tcz
          networkmanager.tcz
             nss.tcz
                nspr.tcz
@@ -559,6 +13,10 @@ network-manager-applet-dev.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
@@ -578,21 +36,27 @@ network-manager-applet-dev.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                linux-pam.tcz
             libsoup.tcz
                glib-networking.tcz
                   glib2.tcz
                      libffi.tcz
                      pcre21042.tcz
-                  gnutls35.tcz
+                  openssl.tcz
+                  gnutls38.tcz
                      p11-kit.tcz
                         libffi.tcz
                         libtasn1-4.tcz
-                     nettle3.tcz
+                     nettle39.tcz
                         gmp.tcz
                      libidn2.tcz
                         libunistring.tcz
                         ncursesw.tcz
+                     libzstd.tcz
                libxml2.tcz
                   liblzma.tcz
                sqlite3.tcz
@@ -609,6 +73,10 @@ network-manager-applet-dev.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                openssl.tcz
                readline.tcz
                   ncursesw.tcz
@@ -633,14 +101,16 @@ network-manager-applet-dev.tcz
                            attr.tcz
                         libcap.tcz
                            attr.tcz
+                        util-linux.tcz
+                           readline.tcz
+                              ncursesw.tcz
+                           udev-lib.tcz
                   linux-pam.tcz
                libqmi.tcz
                   libmbim.tcz
-                     gudev-lib.tcz
-                        udev-lib.tcz
-                        glib2.tcz
-                           libffi.tcz
-                           pcre21042.tcz
+                     glib2.tcz
+                        libffi.tcz
+                        pcre21042.tcz
             libndp.tcz
             libbluetooth.tcz
                bluez.tcz
@@ -651,6 +121,10 @@ network-manager-applet-dev.tcz
                            attr.tcz
                         libcap.tcz
                            attr.tcz
+                        util-linux.tcz
+                           readline.tcz
+                              ncursesw.tcz
+                           udev-lib.tcz
                   udev-lib.tcz
                   libical3.tcz
                      icu70.tcz
@@ -676,6 +150,10 @@ network-manager-applet-dev.tcz
                            attr.tcz
                         libcap.tcz
                            attr.tcz
+                        util-linux.tcz
+                           readline.tcz
+                              ncursesw.tcz
+                           udev-lib.tcz
                   glib2.tcz
                      libffi.tcz
                      pcre21042.tcz
@@ -692,297 +170,22 @@ network-manager-applet-dev.tcz
                         libxml2.tcz
                            liblzma.tcz
                   openssl-1.1.1.tcz
-         libnotify.tcz
-            notification-daemon.tcz
-               gtk3.tcz
-                  libepoxy.tcz
-                  at-spi2-core.tcz
-                     dbus.tcz
-                        expat2.tcz
-                        elogind.tcz
-                           acl.tcz
-                              attr.tcz
-                           libcap.tcz
-                              attr.tcz
-                     glib2.tcz
-                        libffi.tcz
-                        pcre21042.tcz
-                     libXi.tcz
-                        libXext.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                     libXtst.tcz
-                        libXi.tcz
-                           libXext.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                  gdk-pixbuf2.tcz
-                     libtiff.tcz
-                        libjpeg-turbo.tcz
-                        liblzma.tcz
-                        libzstd.tcz
-                     libpng.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-                     shared-mime-info.tcz
-                        glib2.tcz
-                           libffi.tcz
-                           pcre21042.tcz
-                        libxml2.tcz
-                           liblzma.tcz
-                     gdk-pixbuf2-xlib.tcz
-                  libXcomposite.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-                  pango.tcz
-                     cairo.tcz
-                        glib2.tcz
-                           libffi.tcz
-                           pcre21042.tcz
-                        fontconfig.tcz
-                           expat2.tcz
-                           freetype.tcz
-                              libpng.tcz
-                              harfbuzz.tcz
-                                 glib2.tcz
-                                    libffi.tcz
-                                    pcre21042.tcz
-                                 graphite.tcz
-                              bzip2-lib.tcz
-                        pixman.tcz
-                        libpng.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                     libXft.tcz
-                        fontconfig.tcz
-                           expat2.tcz
-                           freetype.tcz
-                              libpng.tcz
-                              harfbuzz.tcz
-                                 glib2.tcz
-                                    libffi.tcz
-                                    pcre21042.tcz
-                                 graphite.tcz
-                              bzip2-lib.tcz
-                        freetype.tcz
-                           libpng.tcz
-                           harfbuzz.tcz
-                              glib2.tcz
-                                 libffi.tcz
-                                 pcre21042.tcz
-                              graphite.tcz
-                           bzip2-lib.tcz
-                        libXrender.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                     fribidi.tcz
-                        glib2.tcz
-                           libffi.tcz
-                           pcre21042.tcz
-                  libXcursor.tcz
-                     libXrender.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                     libXfixes.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                  libXinerama.tcz
-                     libXext.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                  libXrandr.tcz
-                     libXext.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                     libXrender.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                  libXi.tcz
-                     libXext.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                  libxkbcommon.tcz
-                     xkeyboard-config.tcz
-                     libxcb.tcz
-                        libXau.tcz
-                        libXdmcp.tcz
-                  wayland-protocols.tcz
-                     wayland.tcz
-                        libffi.tcz
-                        expat2.tcz
-                        libxml2.tcz
-                           liblzma.tcz
-               libcanberra.tcz
-                  libltdl.tcz
-                  libvorbis.tcz
-                     libogg.tcz
-                  gtk3.tcz
-                     libepoxy.tcz
-                     at-spi2-core.tcz
-                        dbus.tcz
-                           expat2.tcz
-                           elogind.tcz
-                              acl.tcz
-                                 attr.tcz
-                              libcap.tcz
-                                 attr.tcz
-                        glib2.tcz
-                           libffi.tcz
-                           pcre21042.tcz
-                        libXi.tcz
-                           libXext.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        libXtst.tcz
-                           libXi.tcz
-                              libXext.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
-                     gdk-pixbuf2.tcz
-                        libtiff.tcz
-                           libjpeg-turbo.tcz
-                           liblzma.tcz
-                           libzstd.tcz
-                        libpng.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                        shared-mime-info.tcz
-                           glib2.tcz
-                              libffi.tcz
-                              pcre21042.tcz
-                           libxml2.tcz
-                              liblzma.tcz
-                        gdk-pixbuf2-xlib.tcz
-                     libXcomposite.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                     pango.tcz
-                        cairo.tcz
-                           glib2.tcz
-                              libffi.tcz
-                              pcre21042.tcz
-                           fontconfig.tcz
-                              expat2.tcz
-                              freetype.tcz
-                                 libpng.tcz
-                                 harfbuzz.tcz
-                                    glib2.tcz
-                                       libffi.tcz
-                                       pcre21042.tcz
-                                    graphite.tcz
-                                 bzip2-lib.tcz
-                           pixman.tcz
-                           libpng.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                        libXft.tcz
-                           fontconfig.tcz
-                              expat2.tcz
-                              freetype.tcz
-                                 libpng.tcz
-                                 harfbuzz.tcz
-                                    glib2.tcz
-                                       libffi.tcz
-                                       pcre21042.tcz
-                                    graphite.tcz
-                                 bzip2-lib.tcz
-                           freetype.tcz
-                              libpng.tcz
-                              harfbuzz.tcz
-                                 glib2.tcz
-                                    libffi.tcz
-                                    pcre21042.tcz
-                                 graphite.tcz
-                              bzip2-lib.tcz
-                           libXrender.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        fribidi.tcz
-                           glib2.tcz
-                              libffi.tcz
-                              pcre21042.tcz
-                     libXcursor.tcz
-                        libXrender.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                        libXfixes.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                     libXinerama.tcz
-                        libXext.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                     libXrandr.tcz
-                        libXext.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                        libXrender.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                     libXi.tcz
-                        libXext.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                     libxkbcommon.tcz
-                        xkeyboard-config.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-                     wayland-protocols.tcz
-                        wayland.tcz
-                           libffi.tcz
-                           expat2.tcz
-                           libxml2.tcz
-                              liblzma.tcz
-                  pcre.tcz
+               gudev238-lib.tcz
+                  udev254-lib.tcz
+                     libcap.tcz
+                        attr.tcz
+                  glib2.tcz
+                     libffi.tcz
+                     pcre21042.tcz
+            gnutls35.tcz
+               p11-kit.tcz
+                  libffi.tcz
+                  libtasn1-4.tcz
+               nettle3.tcz
+                  gmp.tcz
+               libidn2.tcz
+                  libunistring.tcz
+                  ncursesw.tcz
          gcr.tcz
             gtk3.tcz
                libepoxy.tcz
@@ -994,6 +197,10 @@ network-manager-applet-dev.tcz
                            attr.tcz
                         libcap.tcz
                            attr.tcz
+                        util-linux.tcz
+                           readline.tcz
+                              ncursesw.tcz
+                           udev-lib.tcz
                   glib2.tcz
                      libffi.tcz
                      pcre21042.tcz
@@ -1235,6 +442,692 @@ network-manager-applet-dev.tcz
                            liblzma.tcz
                      gdk-pixbuf2-xlib.tcz
                hicolor-icon-theme.tcz
+         gcr4.tcz
+            gtk4.tcz
+               libepoxy.tcz
+               at-spi2-core.tcz
+                  dbus.tcz
+                     expat2.tcz
+                     elogind.tcz
+                        acl.tcz
+                           attr.tcz
+                        libcap.tcz
+                           attr.tcz
+                        util-linux.tcz
+                           readline.tcz
+                              ncursesw.tcz
+                           udev-lib.tcz
+                  glib2.tcz
+                     libffi.tcz
+                     pcre21042.tcz
+                  libXi.tcz
+                     libXext.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                  libXtst.tcz
+                     libXi.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+               gdk-pixbuf2.tcz
+                  libtiff.tcz
+                     libjpeg-turbo.tcz
+                     liblzma.tcz
+                     libzstd.tcz
+                  libpng.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
+                  shared-mime-info.tcz
+                     glib2.tcz
+                        libffi.tcz
+                        pcre21042.tcz
+                     libxml2.tcz
+                        liblzma.tcz
+                  gdk-pixbuf2-xlib.tcz
+               libXcomposite.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
+               pango.tcz
+                  cairo.tcz
+                     glib2.tcz
+                        libffi.tcz
+                        pcre21042.tcz
+                     fontconfig.tcz
+                        expat2.tcz
+                        freetype.tcz
+                           libpng.tcz
+                           harfbuzz.tcz
+                              glib2.tcz
+                                 libffi.tcz
+                                 pcre21042.tcz
+                              graphite.tcz
+                           bzip2-lib.tcz
+                     pixman.tcz
+                     libpng.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+                  libXft.tcz
+                     fontconfig.tcz
+                        expat2.tcz
+                        freetype.tcz
+                           libpng.tcz
+                           harfbuzz.tcz
+                              glib2.tcz
+                                 libffi.tcz
+                                 pcre21042.tcz
+                              graphite.tcz
+                           bzip2-lib.tcz
+                     freetype.tcz
+                        libpng.tcz
+                        harfbuzz.tcz
+                           glib2.tcz
+                              libffi.tcz
+                              pcre21042.tcz
+                           graphite.tcz
+                        bzip2-lib.tcz
+                     libXrender.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                  fribidi.tcz
+                     glib2.tcz
+                        libffi.tcz
+                        pcre21042.tcz
+               libXcursor.tcz
+                  libXrender.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+                  libXfixes.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+               libXinerama.tcz
+                  libXext.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+               libXrandr.tcz
+                  libXext.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+                  libXrender.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+               libXi.tcz
+                  libXext.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+               libxkbcommon.tcz
+                  xkeyboard-config.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
+               wayland-protocols.tcz
+                  wayland.tcz
+                     libffi.tcz
+                     expat2.tcz
+                     libxml2.tcz
+                        liblzma.tcz
+               graphene.tcz
+                  glib2.tcz
+                     libffi.tcz
+                     pcre21042.tcz
+               libvulkan.tcz
+                  Xorg-7.7-3d.tcz
+                     Xorg-7.7.tcz
+                        Xprogs.tcz
+                           Xlibs.tcz
+                              imlib2.tcz
+                                 freetype.tcz
+                                    libpng.tcz
+                                    harfbuzz.tcz
+                                       glib2.tcz
+                                          libffi.tcz
+                                          pcre21042.tcz
+                                       graphite.tcz
+                                    bzip2-lib.tcz
+                                 libjpeg-turbo.tcz
+                                 libpng.tcz
+                                 libXext.tcz
+                                    libX11.tcz
+                                       libxcb.tcz
+                                          libXau.tcz
+                                          libXdmcp.tcz
+                              libXmu.tcz
+                                 libXext.tcz
+                                    libX11.tcz
+                                       libxcb.tcz
+                                          libXau.tcz
+                                          libXdmcp.tcz
+                                 libXt.tcz
+                                    libICE.tcz
+                                    libSM.tcz
+                                    libX11.tcz
+                                       libxcb.tcz
+                                          libXau.tcz
+                                          libXdmcp.tcz
+                           fltk-1.3.tcz
+                              libXext.tcz
+                                 libX11.tcz
+                                    libxcb.tcz
+                                       libXau.tcz
+                                       libXdmcp.tcz
+                              libjpeg-turbo.tcz
+                              libpng.tcz
+                              libXcursor.tcz
+                                 libXrender.tcz
+                                    libX11.tcz
+                                       libxcb.tcz
+                                          libXau.tcz
+                                          libXdmcp.tcz
+                                 libXfixes.tcz
+                                    libX11.tcz
+                                       libxcb.tcz
+                                          libXau.tcz
+                                          libXdmcp.tcz
+                           imlib2-bin.tcz
+                              imlib2.tcz
+                                 freetype.tcz
+                                    libpng.tcz
+                                    harfbuzz.tcz
+                                       glib2.tcz
+                                          libffi.tcz
+                                          pcre21042.tcz
+                                       graphite.tcz
+                                    bzip2-lib.tcz
+                                 libjpeg-turbo.tcz
+                                 libpng.tcz
+                                 libXext.tcz
+                                    libX11.tcz
+                                       libxcb.tcz
+                                          libXau.tcz
+                                          libXdmcp.tcz
+                        Xorg-7.7-bin.tcz
+                           libGL.tcz
+                              libXdamage.tcz
+                                 libXfixes.tcz
+                                    libX11.tcz
+                                       libxcb.tcz
+                                          libXau.tcz
+                                          libXdmcp.tcz
+                              libXxf86vm.tcz
+                                 libXext.tcz
+                                    libX11.tcz
+                                       libxcb.tcz
+                                          libXau.tcz
+                                          libXdmcp.tcz
+                              libdrm.tcz
+                                 libpciaccess.tcz
+                                 udev-lib.tcz
+                              libxshmfence.tcz
+                           libXaw.tcz
+                              libXmu.tcz
+                                 libXext.tcz
+                                    libX11.tcz
+                                       libxcb.tcz
+                                          libXau.tcz
+                                          libXdmcp.tcz
+                                 libXt.tcz
+                                    libICE.tcz
+                                    libSM.tcz
+                                    libX11.tcz
+                                       libxcb.tcz
+                                          libXau.tcz
+                                          libXdmcp.tcz
+                              libXpm.tcz
+                                 libX11.tcz
+                                    libxcb.tcz
+                                       libXau.tcz
+                                       libXdmcp.tcz
+                           libXcomposite.tcz
+                              libX11.tcz
+                                 libxcb.tcz
+                                    libXau.tcz
+                                    libXdmcp.tcz
+                           libXcursor.tcz
+                              libXrender.tcz
+                                 libX11.tcz
+                                    libxcb.tcz
+                                       libXau.tcz
+                                       libXdmcp.tcz
+                              libXfixes.tcz
+                                 libX11.tcz
+                                    libxcb.tcz
+                                       libXau.tcz
+                                       libXdmcp.tcz
+                           libXft.tcz
+                              fontconfig.tcz
+                                 expat2.tcz
+                                 freetype.tcz
+                                    libpng.tcz
+                                    harfbuzz.tcz
+                                       glib2.tcz
+                                          libffi.tcz
+                                          pcre21042.tcz
+                                       graphite.tcz
+                                    bzip2-lib.tcz
+                              freetype.tcz
+                                 libpng.tcz
+                                 harfbuzz.tcz
+                                    glib2.tcz
+                                       libffi.tcz
+                                       pcre21042.tcz
+                                    graphite.tcz
+                                 bzip2-lib.tcz
+                              libXrender.tcz
+                                 libX11.tcz
+                                    libxcb.tcz
+                                       libXau.tcz
+                                       libXdmcp.tcz
+                           libXinerama.tcz
+                              libXext.tcz
+                                 libX11.tcz
+                                    libxcb.tcz
+                                       libXau.tcz
+                                       libXdmcp.tcz
+                           libXrandr.tcz
+                              libXext.tcz
+                                 libX11.tcz
+                                    libxcb.tcz
+                                       libXau.tcz
+                                       libXdmcp.tcz
+                              libXrender.tcz
+                                 libX11.tcz
+                                    libxcb.tcz
+                                       libXau.tcz
+                                       libXdmcp.tcz
+                           libXtst.tcz
+                              libXi.tcz
+                                 libXext.tcz
+                                    libX11.tcz
+                                       libxcb.tcz
+                                          libXau.tcz
+                                          libXdmcp.tcz
+                           libXxf86dga.tcz
+                              libXext.tcz
+                                 libX11.tcz
+                                    libxcb.tcz
+                                       libXau.tcz
+                                       libXdmcp.tcz
+                           libxkbfile.tcz
+                              libX11.tcz
+                                 libxcb.tcz
+                                    libXau.tcz
+                                    libXdmcp.tcz
+                        Xorg-7.7-lib.tcz
+                           libFS.tcz
+                           libXaw.tcz
+                              libXmu.tcz
+                                 libXext.tcz
+                                    libX11.tcz
+                                       libxcb.tcz
+                                          libXau.tcz
+                                          libXdmcp.tcz
+                                 libXt.tcz
+                                    libICE.tcz
+                                    libSM.tcz
+                                    libX11.tcz
+                                       libxcb.tcz
+                                          libXau.tcz
+                                          libXdmcp.tcz
+                              libXpm.tcz
+                                 libX11.tcz
+                                    libxcb.tcz
+                                       libXau.tcz
+                                       libXdmcp.tcz
+                           libXcomposite.tcz
+                              libX11.tcz
+                                 libxcb.tcz
+                                    libXau.tcz
+                                    libXdmcp.tcz
+                           libXcursor.tcz
+                              libXrender.tcz
+                                 libX11.tcz
+                                    libxcb.tcz
+                                       libXau.tcz
+                                       libXdmcp.tcz
+                              libXfixes.tcz
+                                 libX11.tcz
+                                    libxcb.tcz
+                                       libXau.tcz
+                                       libXdmcp.tcz
+                           libXdamage.tcz
+                              libXfixes.tcz
+                                 libX11.tcz
+                                    libxcb.tcz
+                                       libXau.tcz
+                                       libXdmcp.tcz
+                           libXfont2.tcz
+                              freetype.tcz
+                                 libpng.tcz
+                                 harfbuzz.tcz
+                                    glib2.tcz
+                                       libffi.tcz
+                                       pcre21042.tcz
+                                    graphite.tcz
+                                 bzip2-lib.tcz
+                              libfontenc.tcz
+                           libXft.tcz
+                              fontconfig.tcz
+                                 expat2.tcz
+                                 freetype.tcz
+                                    libpng.tcz
+                                    harfbuzz.tcz
+                                       glib2.tcz
+                                          libffi.tcz
+                                          pcre21042.tcz
+                                       graphite.tcz
+                                    bzip2-lib.tcz
+                              freetype.tcz
+                                 libpng.tcz
+                                 harfbuzz.tcz
+                                    glib2.tcz
+                                       libffi.tcz
+                                       pcre21042.tcz
+                                    graphite.tcz
+                                 bzip2-lib.tcz
+                              libXrender.tcz
+                                 libX11.tcz
+                                    libxcb.tcz
+                                       libXau.tcz
+                                       libXdmcp.tcz
+                           libXinerama.tcz
+                              libXext.tcz
+                                 libX11.tcz
+                                    libxcb.tcz
+                                       libXau.tcz
+                                       libXdmcp.tcz
+                           libXrandr.tcz
+                              libXext.tcz
+                                 libX11.tcz
+                                    libxcb.tcz
+                                       libXau.tcz
+                                       libXdmcp.tcz
+                              libXrender.tcz
+                                 libX11.tcz
+                                    libxcb.tcz
+                                       libXau.tcz
+                                       libXdmcp.tcz
+                           libXres.tcz
+                              libXext.tcz
+                                 libX11.tcz
+                                    libxcb.tcz
+                                       libXau.tcz
+                                       libXdmcp.tcz
+                           libXss.tcz
+                              libXext.tcz
+                                 libX11.tcz
+                                    libxcb.tcz
+                                       libXau.tcz
+                                       libXdmcp.tcz
+                           libXtst.tcz
+                              libXi.tcz
+                                 libXext.tcz
+                                    libX11.tcz
+                                       libxcb.tcz
+                                          libXau.tcz
+                                          libXdmcp.tcz
+                           libXvmc.tcz
+                              libXv.tcz
+                                 libXext.tcz
+                                    libX11.tcz
+                                       libxcb.tcz
+                                          libXau.tcz
+                                          libXdmcp.tcz
+                           libXxf86dga.tcz
+                              libXext.tcz
+                                 libX11.tcz
+                                    libxcb.tcz
+                                       libXau.tcz
+                                       libXdmcp.tcz
+                           libXxf86vm.tcz
+                              libXext.tcz
+                                 libX11.tcz
+                                    libxcb.tcz
+                                       libXau.tcz
+                                       libXdmcp.tcz
+                           libxkbfile.tcz
+                              libX11.tcz
+                                 libxcb.tcz
+                                    libXau.tcz
+                                    libXdmcp.tcz
+                        Xorg-fonts.tcz
+                        xcursor-themes.tcz
+                        xf86-input-libinput.tcz
+                           libinput.tcz
+                              mtdev.tcz
+                              libevdev.tcz
+                              libwacom.tcz
+                                 gudev-lib.tcz
+                                    udev-lib.tcz
+                                    glib2.tcz
+                                       libffi.tcz
+                                       pcre21042.tcz
+                        xf86-video-fbdev.tcz
+                        xf86-video-vesa.tcz
+                        xkeyboard-config.tcz
+                        xorg-server.tcz
+                           libEGL.tcz
+                              libGL.tcz
+                                 libXdamage.tcz
+                                    libXfixes.tcz
+                                       libX11.tcz
+                                          libxcb.tcz
+                                             libXau.tcz
+                                             libXdmcp.tcz
+                                 libXxf86vm.tcz
+                                    libXext.tcz
+                                       libX11.tcz
+                                          libxcb.tcz
+                                             libXau.tcz
+                                             libXdmcp.tcz
+                                 libdrm.tcz
+                                    libpciaccess.tcz
+                                    udev-lib.tcz
+                                 libxshmfence.tcz
+                              wayland.tcz
+                                 libffi.tcz
+                                 expat2.tcz
+                                 libxml2.tcz
+                                    liblzma.tcz
+                           libXfont2.tcz
+                              freetype.tcz
+                                 libpng.tcz
+                                 harfbuzz.tcz
+                                    glib2.tcz
+                                       libffi.tcz
+                                       pcre21042.tcz
+                                    graphite.tcz
+                                 bzip2-lib.tcz
+                              libfontenc.tcz
+                           libepoxy.tcz
+                           expat2.tcz
+                           openssl.tcz
+                           pixman.tcz
+                           libxcvt.tcz
+                     llvm15-lib.tcz
+                        libffi.tcz
+                        libxml2.tcz
+                           liblzma.tcz
+                        libzstd.tcz
+                        ncursesw.tcz
+                     libvdpau.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                     libGLESv2.tcz
+                        libGL.tcz
+                           libXdamage.tcz
+                              libXfixes.tcz
+                                 libX11.tcz
+                                    libxcb.tcz
+                                       libXau.tcz
+                                       libXdmcp.tcz
+                           libXxf86vm.tcz
+                              libXext.tcz
+                                 libX11.tcz
+                                    libxcb.tcz
+                                       libXau.tcz
+                                       libXdmcp.tcz
+                           libdrm.tcz
+                              libpciaccess.tcz
+                              udev-lib.tcz
+                           libxshmfence.tcz
+                     elfutils.tcz
+                        liblzma.tcz
+                        bzip2-lib.tcz
+                     libzstd.tcz
+                     gcc_libs.tcz
+               tracker3.tcz
+                  json-glib.tcz
+                     glib2.tcz
+                        libffi.tcz
+                        pcre21042.tcz
+                  icu70.tcz
+                  libstemmer.tcz
+                  libxml2.tcz
+                     liblzma.tcz
+                  sqlite3.tcz
+            p11-kit.tcz
+               libffi.tcz
+               libtasn1-4.tcz
+            gnupg.tcz
+               libassuan.tcz
+                  libgpg-error.tcz
+               libgcrypt.tcz
+                  libgpg-error.tcz
+               libksba.tcz
+                  libgpg-error.tcz
+               libusb.tcz
+                  udev-lib.tcz
+               gnutls35.tcz
+                  p11-kit.tcz
+                     libffi.tcz
+                     libtasn1-4.tcz
+                  nettle3.tcz
+                     gmp.tcz
+                  libidn2.tcz
+                     libunistring.tcz
+                     ncursesw.tcz
+               npth.tcz
+               sqlite3.tcz
+            gtk-update-icon-cache.tcz
+               gdk-pixbuf2.tcz
+                  libtiff.tcz
+                     libjpeg-turbo.tcz
+                     liblzma.tcz
+                     libzstd.tcz
+                  libpng.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
+                  shared-mime-info.tcz
+                     glib2.tcz
+                        libffi.tcz
+                        pcre21042.tcz
+                     libxml2.tcz
+                        liblzma.tcz
+                  gdk-pixbuf2-xlib.tcz
+               librsvg.tcz
+                  pango.tcz
+                     cairo.tcz
+                        glib2.tcz
+                           libffi.tcz
+                           pcre21042.tcz
+                        fontconfig.tcz
+                           expat2.tcz
+                           freetype.tcz
+                              libpng.tcz
+                              harfbuzz.tcz
+                                 glib2.tcz
+                                    libffi.tcz
+                                    pcre21042.tcz
+                                 graphite.tcz
+                              bzip2-lib.tcz
+                        pixman.tcz
+                        libpng.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                     libXft.tcz
+                        fontconfig.tcz
+                           expat2.tcz
+                           freetype.tcz
+                              libpng.tcz
+                              harfbuzz.tcz
+                                 glib2.tcz
+                                    libffi.tcz
+                                    pcre21042.tcz
+                                 graphite.tcz
+                              bzip2-lib.tcz
+                        freetype.tcz
+                           libpng.tcz
+                           harfbuzz.tcz
+                              glib2.tcz
+                                 libffi.tcz
+                                 pcre21042.tcz
+                              graphite.tcz
+                           bzip2-lib.tcz
+                        libXrender.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                     fribidi.tcz
+                        glib2.tcz
+                           libffi.tcz
+                           pcre21042.tcz
+                  gdk-pixbuf2.tcz
+                     libtiff.tcz
+                        libjpeg-turbo.tcz
+                        liblzma.tcz
+                        libzstd.tcz
+                     libpng.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+                     shared-mime-info.tcz
+                        glib2.tcz
+                           libffi.tcz
+                           pcre21042.tcz
+                        libxml2.tcz
+                           liblzma.tcz
+                     gdk-pixbuf2-xlib.tcz
+               hicolor-icon-theme.tcz
+            libsecret.tcz
+               libgcrypt.tcz
+                  libgpg-error.tcz
+               glib2.tcz
+                  libffi.tcz
+                  pcre21042.tcz
+            openssh.tcz
+               openssl.tcz
       gtk-update-icon-cache.tcz
          gdk-pixbuf2.tcz
             libtiff.tcz
@@ -1332,6 +1225,10 @@ network-manager-applet-dev.tcz
                      attr.tcz
                   libcap.tcz
                      attr.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
             glib2.tcz
                libffi.tcz
                pcre21042.tcz
@@ -1866,6 +1763,10 @@ network-manager-applet-dev.tcz
                      attr.tcz
                   libcap.tcz
                      attr.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
             glib2.tcz
                libffi.tcz
                pcre21042.tcz
@@ -1890,6 +1791,10 @@ network-manager-applet-dev.tcz
                      attr.tcz
                   libcap.tcz
                      attr.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
             Xorg-7.7-dev.tcz
                makedepend.tcz
                libFS-dev.tcz
@@ -2863,6 +2768,10 @@ network-manager-applet-dev.tcz
                      attr.tcz
                   libcap.tcz
                      attr.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
                acl-dev.tcz
                   acl.tcz
                      attr.tcz
@@ -2873,6 +2782,18 @@ network-manager-applet-dev.tcz
                      attr.tcz
                   attr-dev.tcz
                      attr.tcz
+               util-linux-dev.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
+                  readline-dev.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     ncursesw-dev.tcz
+                        ncursesw.tcz
+                  udev-lib-dev.tcz
+                     udev-lib.tcz
          glib2-dev.tcz
             glib2-python.tcz
                glib2.tcz
@@ -3357,15 +3278,17 @@ network-manager-applet-dev.tcz
                   glib2.tcz
                      libffi.tcz
                      pcre21042.tcz
-                  gnutls35.tcz
+                  openssl.tcz
+                  gnutls38.tcz
                      p11-kit.tcz
                         libffi.tcz
                         libtasn1-4.tcz
-                     nettle3.tcz
+                     nettle39.tcz
                         gmp.tcz
                      libidn2.tcz
                         libunistring.tcz
                         ncursesw.tcz
+                     libzstd.tcz
                libxml2.tcz
                   liblzma.tcz
                sqlite3.tcz
@@ -3379,15 +3302,17 @@ network-manager-applet-dev.tcz
                   glib2.tcz
                      libffi.tcz
                      pcre21042.tcz
-                  gnutls35.tcz
+                  openssl.tcz
+                  gnutls38.tcz
                      p11-kit.tcz
                         libffi.tcz
                         libtasn1-4.tcz
-                     nettle3.tcz
+                     nettle39.tcz
                         gmp.tcz
                      libidn2.tcz
                         libunistring.tcz
                         ncursesw.tcz
+                     libzstd.tcz
                libxml2.tcz
                   liblzma.tcz
                sqlite3.tcz
@@ -3458,6 +3383,10 @@ network-manager-applet-dev.tcz
                               attr.tcz
                            libcap.tcz
                               attr.tcz
+                           util-linux.tcz
+                              readline.tcz
+                                 ncursesw.tcz
+                              udev-lib.tcz
                      gcc_libs.tcz
                      glib2.tcz
                         libffi.tcz
@@ -3491,6 +3420,10 @@ network-manager-applet-dev.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                linux-pam.tcz
          lcms2-dev.tcz
             liblcms2.tcz
@@ -3881,6 +3814,10 @@ network-manager-applet-dev.tcz
                               attr.tcz
                            libcap.tcz
                               attr.tcz
+                           util-linux.tcz
+                              readline.tcz
+                                 ncursesw.tcz
+                              udev-lib.tcz
                      gcc_libs.tcz
                      glib2.tcz
                         libffi.tcz
@@ -3914,6 +3851,10 @@ network-manager-applet-dev.tcz
                                  attr.tcz
                               libcap.tcz
                                  attr.tcz
+                              util-linux.tcz
+                                 readline.tcz
+                                    ncursesw.tcz
+                                 udev-lib.tcz
                         gcc_libs.tcz
                         glib2.tcz
                            libffi.tcz
@@ -3934,6 +3875,10 @@ network-manager-applet-dev.tcz
                            attr.tcz
                         libcap.tcz
                            attr.tcz
+                        util-linux.tcz
+                           readline.tcz
+                              ncursesw.tcz
+                           udev-lib.tcz
                   cups-filters.tcz
                      libpoppler07.tcz
                         liblcms2.tcz
@@ -3990,6 +3935,10 @@ network-manager-applet-dev.tcz
                                  attr.tcz
                               libcap.tcz
                                  attr.tcz
+                              util-linux.tcz
+                                 readline.tcz
+                                    ncursesw.tcz
+                                 udev-lib.tcz
                         gcc_libs.tcz
                         glib2.tcz
                            libffi.tcz
@@ -4004,6 +3953,10 @@ network-manager-applet-dev.tcz
                               attr.tcz
                            libcap.tcz
                               attr.tcz
+                           util-linux.tcz
+                              readline.tcz
+                                 ncursesw.tcz
+                              udev-lib.tcz
                      Xorg-7.7-dev.tcz
                         makedepend.tcz
                         libFS-dev.tcz
@@ -4977,6 +4930,10 @@ network-manager-applet-dev.tcz
                               attr.tcz
                            libcap.tcz
                               attr.tcz
+                           util-linux.tcz
+                              readline.tcz
+                                 ncursesw.tcz
+                              udev-lib.tcz
                         acl-dev.tcz
                            acl.tcz
                               attr.tcz
@@ -4987,6 +4944,18 @@ network-manager-applet-dev.tcz
                               attr.tcz
                            attr-dev.tcz
                               attr.tcz
+                        util-linux-dev.tcz
+                           util-linux.tcz
+                              readline.tcz
+                                 ncursesw.tcz
+                              udev-lib.tcz
+                           readline-dev.tcz
+                              readline.tcz
+                                 ncursesw.tcz
+                              ncursesw-dev.tcz
+                                 ncursesw.tcz
+                           udev-lib-dev.tcz
+                              udev-lib.tcz
                   gcc_libs-dev.tcz
                      gcc_libs.tcz
                   glib2-dev.tcz
@@ -5391,6 +5360,10 @@ network-manager-applet-dev.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                linux-pam.tcz
             glib2-dev.tcz
                glib2-python.tcz
@@ -5438,6 +5411,10 @@ network-manager-applet-dev.tcz
                      attr.tcz
                   libcap.tcz
                      attr.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
                acl-dev.tcz
                   acl.tcz
                      attr.tcz
@@ -5448,6 +5425,18 @@ network-manager-applet-dev.tcz
                      attr.tcz
                   attr-dev.tcz
                      attr.tcz
+               util-linux-dev.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
+                  readline-dev.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     ncursesw-dev.tcz
+                        ncursesw.tcz
+                  udev-lib-dev.tcz
+                     udev-lib.tcz
       json-glib-dev.tcz
          json-glib.tcz
             glib2.tcz
@@ -5510,6 +5499,10 @@ network-manager-applet-dev.tcz
                      attr.tcz
                   libcap.tcz
                      attr.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
             glib2.tcz
                libffi.tcz
                pcre21042.tcz
@@ -5529,21 +5522,27 @@ network-manager-applet-dev.tcz
                      attr.tcz
                   libcap.tcz
                      attr.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
             linux-pam.tcz
          libsoup.tcz
             glib-networking.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
-               gnutls35.tcz
+               openssl.tcz
+               gnutls38.tcz
                   p11-kit.tcz
                      libffi.tcz
                      libtasn1-4.tcz
-                  nettle3.tcz
+                  nettle39.tcz
                      gmp.tcz
                   libidn2.tcz
                      libunistring.tcz
                      ncursesw.tcz
+                  libzstd.tcz
             libxml2.tcz
                liblzma.tcz
             sqlite3.tcz
@@ -5560,6 +5559,10 @@ network-manager-applet-dev.tcz
                      attr.tcz
                   libcap.tcz
                      attr.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
             openssl.tcz
             readline.tcz
                ncursesw.tcz
@@ -5584,14 +5587,16 @@ network-manager-applet-dev.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                linux-pam.tcz
             libqmi.tcz
                libmbim.tcz
-                  gudev-lib.tcz
-                     udev-lib.tcz
-                     glib2.tcz
-                        libffi.tcz
-                        pcre21042.tcz
+                  glib2.tcz
+                     libffi.tcz
+                     pcre21042.tcz
          libndp.tcz
          libbluetooth.tcz
             bluez.tcz
@@ -5602,6 +5607,10 @@ network-manager-applet-dev.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                udev-lib.tcz
                libical3.tcz
                   icu70.tcz
@@ -5627,6 +5636,10 @@ network-manager-applet-dev.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
@@ -5643,6 +5656,22 @@ network-manager-applet-dev.tcz
                      libxml2.tcz
                         liblzma.tcz
                openssl-1.1.1.tcz
+            gudev238-lib.tcz
+               udev254-lib.tcz
+                  libcap.tcz
+                     attr.tcz
+               glib2.tcz
+                  libffi.tcz
+                  pcre21042.tcz
+         gnutls35.tcz
+            p11-kit.tcz
+               libffi.tcz
+               libtasn1-4.tcz
+            nettle3.tcz
+               gmp.tcz
+            libidn2.tcz
+               libunistring.tcz
+               ncursesw.tcz
       nss-dev.tcz
          nss.tcz
             nspr.tcz
@@ -5668,6 +5697,10 @@ network-manager-applet-dev.tcz
                      attr.tcz
                   libcap.tcz
                      attr.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
             glib2.tcz
                libffi.tcz
                pcre21042.tcz
@@ -5679,6 +5712,10 @@ network-manager-applet-dev.tcz
                      attr.tcz
                   libcap.tcz
                      attr.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
             Xorg-7.7-dev.tcz
                makedepend.tcz
                libFS-dev.tcz
@@ -6652,6 +6689,10 @@ network-manager-applet-dev.tcz
                      attr.tcz
                   libcap.tcz
                      attr.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
                acl-dev.tcz
                   acl.tcz
                      attr.tcz
@@ -6662,6 +6703,18 @@ network-manager-applet-dev.tcz
                      attr.tcz
                   attr-dev.tcz
                      attr.tcz
+               util-linux-dev.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
+                  readline-dev.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     ncursesw-dev.tcz
+                        ncursesw.tcz
+                  udev-lib-dev.tcz
+                     udev-lib.tcz
          glib2-dev.tcz
             glib2-python.tcz
                glib2.tcz
@@ -6707,6 +6760,10 @@ network-manager-applet-dev.tcz
                      attr.tcz
                   libcap.tcz
                      attr.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
             linux-pam.tcz
          glib2-dev.tcz
             glib2-python.tcz
@@ -6754,6 +6811,10 @@ network-manager-applet-dev.tcz
                   attr.tcz
                libcap.tcz
                   attr.tcz
+               util-linux.tcz
+                  readline.tcz
+                     ncursesw.tcz
+                  udev-lib.tcz
             acl-dev.tcz
                acl.tcz
                   attr.tcz
@@ -6764,21 +6825,35 @@ network-manager-applet-dev.tcz
                   attr.tcz
                attr-dev.tcz
                   attr.tcz
+            util-linux-dev.tcz
+               util-linux.tcz
+                  readline.tcz
+                     ncursesw.tcz
+                  udev-lib.tcz
+               readline-dev.tcz
+                  readline.tcz
+                     ncursesw.tcz
+                  ncursesw-dev.tcz
+                     ncursesw.tcz
+               udev-lib-dev.tcz
+                  udev-lib.tcz
       libsoup-dev.tcz
          libsoup.tcz
             glib-networking.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
-               gnutls35.tcz
+               openssl.tcz
+               gnutls38.tcz
                   p11-kit.tcz
                      libffi.tcz
                      libtasn1-4.tcz
-                  nettle3.tcz
+                  nettle39.tcz
                      gmp.tcz
                   libidn2.tcz
                      libunistring.tcz
                      ncursesw.tcz
+                  libzstd.tcz
             libxml2.tcz
                liblzma.tcz
             sqlite3.tcz
@@ -6845,14 +6920,16 @@ network-manager-applet-dev.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                linux-pam.tcz
             libqmi.tcz
                libmbim.tcz
-                  gudev-lib.tcz
-                     udev-lib.tcz
-                     glib2.tcz
-                        libffi.tcz
-                        pcre21042.tcz
+                  glib2.tcz
+                     libffi.tcz
+                     pcre21042.tcz
          polkit-dev.tcz
             polkit.tcz
                glib2.tcz
@@ -6870,6 +6947,10 @@ network-manager-applet-dev.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                linux-pam.tcz
             glib2-dev.tcz
                glib2-python.tcz
@@ -6917,6 +6998,10 @@ network-manager-applet-dev.tcz
                      attr.tcz
                   libcap.tcz
                      attr.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
                acl-dev.tcz
                   acl.tcz
                      attr.tcz
@@ -6927,55 +7012,55 @@ network-manager-applet-dev.tcz
                      attr.tcz
                   attr-dev.tcz
                      attr.tcz
+               util-linux-dev.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
+                  readline-dev.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     ncursesw-dev.tcz
+                        ncursesw.tcz
+                  udev-lib-dev.tcz
+                     udev-lib.tcz
          libqmi-dev.tcz
             libqmi.tcz
                libmbim.tcz
-                  gudev-lib.tcz
-                     udev-lib.tcz
-                     glib2.tcz
-                        libffi.tcz
-                        pcre21042.tcz
+                  glib2.tcz
+                     libffi.tcz
+                     pcre21042.tcz
             libmbim-dev.tcz
                libmbim.tcz
-                  gudev-lib.tcz
-                     udev-lib.tcz
+                  glib2.tcz
+                     libffi.tcz
+                     pcre21042.tcz
+               glib2-dev.tcz
+                  glib2-python.tcz
                      glib2.tcz
                         libffi.tcz
                         pcre21042.tcz
-               gudev-lib-dev.tcz
-                  gudev-lib.tcz
-                     udev-lib.tcz
-                     glib2.tcz
+                     python3.9.tcz
+                        openssl.tcz
+                        sqlite3.tcz
+                        gdbm.tcz
+                        bzip2-lib.tcz
+                        liblzma.tcz
+                        readline.tcz
+                           ncursesw.tcz
                         libffi.tcz
-                        pcre21042.tcz
-                  udev-lib-dev.tcz
-                     udev-lib.tcz
-                  glib2-dev.tcz
-                     glib2-python.tcz
-                        glib2.tcz
-                           libffi.tcz
-                           pcre21042.tcz
-                        python3.9.tcz
-                           openssl.tcz
-                           sqlite3.tcz
-                           gdbm.tcz
+                  pcre21042-dev.tcz
+                     pcre21042.tcz
+                     bzip2-dev.tcz
+                        bzip2.tcz
                            bzip2-lib.tcz
-                           liblzma.tcz
-                           readline.tcz
-                              ncursesw.tcz
-                           libffi.tcz
-                     pcre21042-dev.tcz
-                        pcre21042.tcz
-                        bzip2-dev.tcz
-                           bzip2.tcz
-                              bzip2-lib.tcz
-                        readline-dev.tcz
-                           readline.tcz
-                              ncursesw.tcz
-                           ncursesw-dev.tcz
-                              ncursesw.tcz
-                     libffi-dev.tcz
-                        libffi.tcz
+                     readline-dev.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        ncursesw-dev.tcz
+                           ncursesw.tcz
+                  libffi-dev.tcz
+                     libffi.tcz
       libbluetooth-dev.tcz
          libbluetooth.tcz
             bluez.tcz
@@ -6986,6 +7071,10 @@ network-manager-applet-dev.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                udev-lib.tcz
                libical3.tcz
                   icu70.tcz
@@ -7030,6 +7119,10 @@ network-manager-applet-dev.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
@@ -7046,6 +7139,13 @@ network-manager-applet-dev.tcz
                      libxml2.tcz
                         liblzma.tcz
                openssl-1.1.1.tcz
+            gudev238-lib.tcz
+               udev254-lib.tcz
+                  libcap.tcz
+                     attr.tcz
+               glib2.tcz
+                  libffi.tcz
+                  pcre21042.tcz
          dbus-glib-dev.tcz
             dbus-glib.tcz
                dbus.tcz
@@ -7055,6 +7155,10 @@ network-manager-applet-dev.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
@@ -7066,6 +7170,10 @@ network-manager-applet-dev.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                Xorg-7.7-dev.tcz
                   makedepend.tcz
                   libFS-dev.tcz
@@ -8039,6 +8147,10 @@ network-manager-applet-dev.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                   acl-dev.tcz
                      acl.tcz
                         attr.tcz
@@ -8049,6 +8161,18 @@ network-manager-applet-dev.tcz
                         attr.tcz
                      attr-dev.tcz
                         attr.tcz
+                  util-linux-dev.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
+                     readline-dev.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        ncursesw-dev.tcz
+                           ncursesw.tcz
+                     udev-lib-dev.tcz
+                        udev-lib.tcz
             glib2-dev.tcz
                glib2-python.tcz
                   glib2.tcz
@@ -8126,6 +8250,10 @@ network-manager-applet-dev.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                linux-pam.tcz
             glib2-dev.tcz
                glib2-python.tcz
@@ -8173,6 +8301,10 @@ network-manager-applet-dev.tcz
                      attr.tcz
                   libcap.tcz
                      attr.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
                acl-dev.tcz
                   acl.tcz
                      attr.tcz
@@ -8183,6 +8315,18 @@ network-manager-applet-dev.tcz
                      attr.tcz
                   attr-dev.tcz
                      attr.tcz
+               util-linux-dev.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
+                  readline-dev.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     ncursesw-dev.tcz
+                        ncursesw.tcz
+                  udev-lib-dev.tcz
+                     udev-lib.tcz
          libusb-dev.tcz
             libusb.tcz
                udev-lib.tcz
@@ -8224,6 +8368,37 @@ network-manager-applet-dev.tcz
                         liblzma.tcz
             openssl-1.1.1-dev.tcz
                openssl-1.1.1.tcz
+      gnutls35-dev.tcz
+         gnutls35.tcz
+            p11-kit.tcz
+               libffi.tcz
+               libtasn1-4.tcz
+            nettle3.tcz
+               gmp.tcz
+            libidn2.tcz
+               libunistring.tcz
+               ncursesw.tcz
+         p11-kit-dev.tcz
+            p11-kit.tcz
+               libffi.tcz
+               libtasn1-4.tcz
+            libffi-dev.tcz
+               libffi.tcz
+            libtasn1-4-dev.tcz
+               libtasn1-4.tcz
+         nettle3-dev.tcz
+            nettle3.tcz
+               gmp.tcz
+            gmp-dev.tcz
+               gmp.tcz
+         libidn2-dev.tcz
+            libidn2.tcz
+               libunistring.tcz
+               ncursesw.tcz
+            libunistring-dev.tcz
+               libunistring.tcz
+            ncursesw-dev.tcz
+               ncursesw.tcz
    libsecret-dev.tcz
       libsecret.tcz
          libgcrypt.tcz
@@ -8275,6 +8450,10 @@ network-manager-applet-dev.tcz
                            attr.tcz
                         libcap.tcz
                            attr.tcz
+                        util-linux.tcz
+                           readline.tcz
+                              ncursesw.tcz
+                           udev-lib.tcz
                   glib2.tcz
                      libffi.tcz
                      pcre21042.tcz
@@ -8421,6 +8600,10 @@ network-manager-applet-dev.tcz
                               attr.tcz
                            libcap.tcz
                               attr.tcz
+                           util-linux.tcz
+                              readline.tcz
+                                 ncursesw.tcz
+                              udev-lib.tcz
                      glib2.tcz
                         libffi.tcz
                         pcre21042.tcz
@@ -8565,6 +8748,10 @@ network-manager-applet-dev.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
@@ -9099,6 +9286,10 @@ network-manager-applet-dev.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
@@ -9123,6 +9314,10 @@ network-manager-applet-dev.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                Xorg-7.7-dev.tcz
                   makedepend.tcz
                   libFS-dev.tcz
@@ -10096,6 +10291,10 @@ network-manager-applet-dev.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                   acl-dev.tcz
                      acl.tcz
                         attr.tcz
@@ -10106,6 +10305,18 @@ network-manager-applet-dev.tcz
                         attr.tcz
                      attr-dev.tcz
                         attr.tcz
+                  util-linux-dev.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
+                     readline-dev.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        ncursesw-dev.tcz
+                           ncursesw.tcz
+                     udev-lib-dev.tcz
+                        udev-lib.tcz
             glib2-dev.tcz
                glib2-python.tcz
                   glib2.tcz
@@ -10590,15 +10801,17 @@ network-manager-applet-dev.tcz
                      glib2.tcz
                         libffi.tcz
                         pcre21042.tcz
-                     gnutls35.tcz
+                     openssl.tcz
+                     gnutls38.tcz
                         p11-kit.tcz
                            libffi.tcz
                            libtasn1-4.tcz
-                        nettle3.tcz
+                        nettle39.tcz
                            gmp.tcz
                         libidn2.tcz
                            libunistring.tcz
                            ncursesw.tcz
+                        libzstd.tcz
                   libxml2.tcz
                      liblzma.tcz
                   sqlite3.tcz
@@ -10612,15 +10825,17 @@ network-manager-applet-dev.tcz
                      glib2.tcz
                         libffi.tcz
                         pcre21042.tcz
-                     gnutls35.tcz
+                     openssl.tcz
+                     gnutls38.tcz
                         p11-kit.tcz
                            libffi.tcz
                            libtasn1-4.tcz
-                        nettle3.tcz
+                        nettle39.tcz
                            gmp.tcz
                         libidn2.tcz
                            libunistring.tcz
                            ncursesw.tcz
+                        libzstd.tcz
                   libxml2.tcz
                      liblzma.tcz
                   sqlite3.tcz
@@ -10691,6 +10906,10 @@ network-manager-applet-dev.tcz
                                  attr.tcz
                               libcap.tcz
                                  attr.tcz
+                              util-linux.tcz
+                                 readline.tcz
+                                    ncursesw.tcz
+                                 udev-lib.tcz
                         gcc_libs.tcz
                         glib2.tcz
                            libffi.tcz
@@ -10724,6 +10943,10 @@ network-manager-applet-dev.tcz
                            attr.tcz
                         libcap.tcz
                            attr.tcz
+                        util-linux.tcz
+                           readline.tcz
+                              ncursesw.tcz
+                           udev-lib.tcz
                   linux-pam.tcz
             lcms2-dev.tcz
                liblcms2.tcz
@@ -11114,6 +11337,10 @@ network-manager-applet-dev.tcz
                                  attr.tcz
                               libcap.tcz
                                  attr.tcz
+                              util-linux.tcz
+                                 readline.tcz
+                                    ncursesw.tcz
+                                 udev-lib.tcz
                         gcc_libs.tcz
                         glib2.tcz
                            libffi.tcz
@@ -11147,6 +11374,10 @@ network-manager-applet-dev.tcz
                                     attr.tcz
                                  libcap.tcz
                                     attr.tcz
+                                 util-linux.tcz
+                                    readline.tcz
+                                       ncursesw.tcz
+                                    udev-lib.tcz
                            gcc_libs.tcz
                            glib2.tcz
                               libffi.tcz
@@ -11167,6 +11398,10 @@ network-manager-applet-dev.tcz
                               attr.tcz
                            libcap.tcz
                               attr.tcz
+                           util-linux.tcz
+                              readline.tcz
+                                 ncursesw.tcz
+                              udev-lib.tcz
                      cups-filters.tcz
                         libpoppler07.tcz
                            liblcms2.tcz
@@ -11223,6 +11458,10 @@ network-manager-applet-dev.tcz
                                     attr.tcz
                                  libcap.tcz
                                     attr.tcz
+                                 util-linux.tcz
+                                    readline.tcz
+                                       ncursesw.tcz
+                                    udev-lib.tcz
                            gcc_libs.tcz
                            glib2.tcz
                               libffi.tcz
@@ -11237,6 +11476,10 @@ network-manager-applet-dev.tcz
                                  attr.tcz
                               libcap.tcz
                                  attr.tcz
+                              util-linux.tcz
+                                 readline.tcz
+                                    ncursesw.tcz
+                                 udev-lib.tcz
                         Xorg-7.7-dev.tcz
                            makedepend.tcz
                            libFS-dev.tcz
@@ -12210,6 +12453,10 @@ network-manager-applet-dev.tcz
                                  attr.tcz
                               libcap.tcz
                                  attr.tcz
+                              util-linux.tcz
+                                 readline.tcz
+                                    ncursesw.tcz
+                                 udev-lib.tcz
                            acl-dev.tcz
                               acl.tcz
                                  attr.tcz
@@ -12220,6 +12467,18 @@ network-manager-applet-dev.tcz
                                  attr.tcz
                               attr-dev.tcz
                                  attr.tcz
+                           util-linux-dev.tcz
+                              util-linux.tcz
+                                 readline.tcz
+                                    ncursesw.tcz
+                                 udev-lib.tcz
+                              readline-dev.tcz
+                                 readline.tcz
+                                    ncursesw.tcz
+                                 ncursesw-dev.tcz
+                                    ncursesw.tcz
+                              udev-lib-dev.tcz
+                                 udev-lib.tcz
                      gcc_libs-dev.tcz
                         gcc_libs.tcz
                      glib2-dev.tcz
@@ -12624,6 +12883,10 @@ network-manager-applet-dev.tcz
                            attr.tcz
                         libcap.tcz
                            attr.tcz
+                        util-linux.tcz
+                           readline.tcz
+                              ncursesw.tcz
+                           udev-lib.tcz
                   linux-pam.tcz
                glib2-dev.tcz
                   glib2-python.tcz
@@ -12671,6 +12934,10 @@ network-manager-applet-dev.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                   acl-dev.tcz
                      acl.tcz
                         attr.tcz
@@ -12681,6 +12948,18 @@ network-manager-applet-dev.tcz
                         attr.tcz
                      attr-dev.tcz
                         attr.tcz
+                  util-linux-dev.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
+                     readline-dev.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        ncursesw-dev.tcz
+                           ncursesw.tcz
+                     udev-lib-dev.tcz
+                        udev-lib.tcz
          json-glib-dev.tcz
             json-glib.tcz
                glib2.tcz
@@ -12742,6 +13021,10 @@ network-manager-applet-dev.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
@@ -12994,6 +13277,10 @@ network-manager-applet-dev.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
@@ -13528,6 +13815,10 @@ network-manager-applet-dev.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
@@ -13552,6 +13843,10 @@ network-manager-applet-dev.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                Xorg-7.7-dev.tcz
                   makedepend.tcz
                   libFS-dev.tcz
@@ -14525,6 +14820,10 @@ network-manager-applet-dev.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                   acl-dev.tcz
                      acl.tcz
                         attr.tcz
@@ -14535,6 +14834,18 @@ network-manager-applet-dev.tcz
                         attr.tcz
                      attr-dev.tcz
                         attr.tcz
+                  util-linux-dev.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
+                     readline-dev.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        ncursesw-dev.tcz
+                           ncursesw.tcz
+                     udev-lib-dev.tcz
+                        udev-lib.tcz
             glib2-dev.tcz
                glib2-python.tcz
                   glib2.tcz
@@ -15019,15 +15330,17 @@ network-manager-applet-dev.tcz
                      glib2.tcz
                         libffi.tcz
                         pcre21042.tcz
-                     gnutls35.tcz
+                     openssl.tcz
+                     gnutls38.tcz
                         p11-kit.tcz
                            libffi.tcz
                            libtasn1-4.tcz
-                        nettle3.tcz
+                        nettle39.tcz
                            gmp.tcz
                         libidn2.tcz
                            libunistring.tcz
                            ncursesw.tcz
+                        libzstd.tcz
                   libxml2.tcz
                      liblzma.tcz
                   sqlite3.tcz
@@ -15041,15 +15354,17 @@ network-manager-applet-dev.tcz
                      glib2.tcz
                         libffi.tcz
                         pcre21042.tcz
-                     gnutls35.tcz
+                     openssl.tcz
+                     gnutls38.tcz
                         p11-kit.tcz
                            libffi.tcz
                            libtasn1-4.tcz
-                        nettle3.tcz
+                        nettle39.tcz
                            gmp.tcz
                         libidn2.tcz
                            libunistring.tcz
                            ncursesw.tcz
+                        libzstd.tcz
                   libxml2.tcz
                      liblzma.tcz
                   sqlite3.tcz
@@ -15120,6 +15435,10 @@ network-manager-applet-dev.tcz
                                  attr.tcz
                               libcap.tcz
                                  attr.tcz
+                              util-linux.tcz
+                                 readline.tcz
+                                    ncursesw.tcz
+                                 udev-lib.tcz
                         gcc_libs.tcz
                         glib2.tcz
                            libffi.tcz
@@ -15153,6 +15472,10 @@ network-manager-applet-dev.tcz
                            attr.tcz
                         libcap.tcz
                            attr.tcz
+                        util-linux.tcz
+                           readline.tcz
+                              ncursesw.tcz
+                           udev-lib.tcz
                   linux-pam.tcz
             lcms2-dev.tcz
                liblcms2.tcz
@@ -15543,6 +15866,10 @@ network-manager-applet-dev.tcz
                                  attr.tcz
                               libcap.tcz
                                  attr.tcz
+                              util-linux.tcz
+                                 readline.tcz
+                                    ncursesw.tcz
+                                 udev-lib.tcz
                         gcc_libs.tcz
                         glib2.tcz
                            libffi.tcz
@@ -15576,6 +15903,10 @@ network-manager-applet-dev.tcz
                                     attr.tcz
                                  libcap.tcz
                                     attr.tcz
+                                 util-linux.tcz
+                                    readline.tcz
+                                       ncursesw.tcz
+                                    udev-lib.tcz
                            gcc_libs.tcz
                            glib2.tcz
                               libffi.tcz
@@ -15596,6 +15927,10 @@ network-manager-applet-dev.tcz
                               attr.tcz
                            libcap.tcz
                               attr.tcz
+                           util-linux.tcz
+                              readline.tcz
+                                 ncursesw.tcz
+                              udev-lib.tcz
                      cups-filters.tcz
                         libpoppler07.tcz
                            liblcms2.tcz
@@ -15652,6 +15987,10 @@ network-manager-applet-dev.tcz
                                     attr.tcz
                                  libcap.tcz
                                     attr.tcz
+                                 util-linux.tcz
+                                    readline.tcz
+                                       ncursesw.tcz
+                                    udev-lib.tcz
                            gcc_libs.tcz
                            glib2.tcz
                               libffi.tcz
@@ -15666,6 +16005,10 @@ network-manager-applet-dev.tcz
                                  attr.tcz
                               libcap.tcz
                                  attr.tcz
+                              util-linux.tcz
+                                 readline.tcz
+                                    ncursesw.tcz
+                                 udev-lib.tcz
                         Xorg-7.7-dev.tcz
                            makedepend.tcz
                            libFS-dev.tcz
@@ -16639,6 +16982,10 @@ network-manager-applet-dev.tcz
                                  attr.tcz
                               libcap.tcz
                                  attr.tcz
+                              util-linux.tcz
+                                 readline.tcz
+                                    ncursesw.tcz
+                                 udev-lib.tcz
                            acl-dev.tcz
                               acl.tcz
                                  attr.tcz
@@ -16649,6 +16996,18 @@ network-manager-applet-dev.tcz
                                  attr.tcz
                               attr-dev.tcz
                                  attr.tcz
+                           util-linux-dev.tcz
+                              util-linux.tcz
+                                 readline.tcz
+                                    ncursesw.tcz
+                                 udev-lib.tcz
+                              readline-dev.tcz
+                                 readline.tcz
+                                    ncursesw.tcz
+                                 ncursesw-dev.tcz
+                                    ncursesw.tcz
+                              udev-lib-dev.tcz
+                                 udev-lib.tcz
                      gcc_libs-dev.tcz
                         gcc_libs.tcz
                      glib2-dev.tcz
@@ -17053,6 +17412,10 @@ network-manager-applet-dev.tcz
                            attr.tcz
                         libcap.tcz
                            attr.tcz
+                        util-linux.tcz
+                           readline.tcz
+                              ncursesw.tcz
+                           udev-lib.tcz
                   linux-pam.tcz
                glib2-dev.tcz
                   glib2-python.tcz
@@ -17100,6 +17463,10 @@ network-manager-applet-dev.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                   acl-dev.tcz
                      acl.tcz
                         attr.tcz
@@ -17110,6 +17477,18 @@ network-manager-applet-dev.tcz
                         attr.tcz
                      attr-dev.tcz
                         attr.tcz
+                  util-linux-dev.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
+                     readline-dev.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        ncursesw-dev.tcz
+                           ncursesw.tcz
+                     udev-lib-dev.tcz
+                        udev-lib.tcz
          json-glib-dev.tcz
             json-glib.tcz
                glib2.tcz

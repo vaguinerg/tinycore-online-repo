@@ -1,0 +1,17 @@
+Title:          sshguard.tcz
+Description:    SSHGuard protects hosts from brute-force attacks
+Version:        2.4.3
+Author:         https://www.sshguard.net/
+Original-site:  https://sourceforge.net/projects/sshguard/files/sshguard/2.4.3/
+Copying-policy: GPL license version 2
+Size:           688K 
+Extension_by:   ovacikar
+Tags:           ssh openssh sshguard
+Comments:       Built on picore 14.1 armv6 with iptables dependency.
+		Enable syslog with shared memory buffer in bootlocal.sh (sudo syslogd -C32 -S -t -D &)
+		Confirm openssh send logs to syslog (logread -F)
+		Add iptables chain to bootlocal.sh (sudo iptables -N sshguard)
+		Create the /usr/local/etc/sshgoard.conf file to contain:
+			BACKEND="/usr/local/libexec/sshg-fw-iptables"
+			LOGREADER="/sbin/logread -f"		
+Current:	2024/03/03      Initial Version (ovacikar)

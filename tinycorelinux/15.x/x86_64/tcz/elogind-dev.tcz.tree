@@ -4,6 +4,10 @@ elogind-dev.tcz
          attr.tcz
       libcap.tcz
          attr.tcz
+      util-linux.tcz
+         readline.tcz
+            ncursesw.tcz
+         udev-lib.tcz
    acl-dev.tcz
       acl.tcz
          attr.tcz
@@ -14,4 +18,16 @@ elogind-dev.tcz
          attr.tcz
       attr-dev.tcz
          attr.tcz
+   util-linux-dev.tcz
+      util-linux.tcz
+         readline.tcz
+            ncursesw.tcz
+         udev-lib.tcz
+      readline-dev.tcz
+         readline.tcz
+            ncursesw.tcz
+         ncursesw-dev.tcz
+            ncursesw.tcz
+      udev-lib-dev.tcz
+         udev-lib.tcz
 

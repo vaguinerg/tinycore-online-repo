@@ -4,20 +4,22 @@ geocode-glib-gir.tcz
          glib2.tcz
             libffi.tcz
             pcre21042.tcz
-      libsoup.tcz
+      libsoup3.tcz
          glib-networking.tcz
             glib2.tcz
                libffi.tcz
                pcre21042.tcz
-            gnutls35.tcz
+            openssl.tcz
+            gnutls38.tcz
                p11-kit.tcz
                   libffi.tcz
                   libtasn1-4.tcz
-               nettle3.tcz
+               nettle39.tcz
                   gmp.tcz
                libidn2.tcz
                   libunistring.tcz
                   ncursesw.tcz
+               libzstd.tcz
          libxml2.tcz
             liblzma.tcz
          sqlite3.tcz
@@ -25,6 +27,7 @@ geocode-glib-gir.tcz
             libidn2.tcz
                libunistring.tcz
                ncursesw.tcz
+         libnghttp2.tcz
    json-glib-gir.tcz
       json-glib.tcz
          glib2.tcz
@@ -43,21 +46,23 @@ geocode-glib-gir.tcz
             readline.tcz
                ncursesw.tcz
             libffi.tcz
-   libsoup-gir.tcz
-      libsoup.tcz
+   libsoup3-gir.tcz
+      libsoup3.tcz
          glib-networking.tcz
             glib2.tcz
                libffi.tcz
                pcre21042.tcz
-            gnutls35.tcz
+            openssl.tcz
+            gnutls38.tcz
                p11-kit.tcz
                   libffi.tcz
                   libtasn1-4.tcz
-               nettle3.tcz
+               nettle39.tcz
                   gmp.tcz
                libidn2.tcz
                   libunistring.tcz
                   ncursesw.tcz
+               libzstd.tcz
          libxml2.tcz
             liblzma.tcz
          sqlite3.tcz
@@ -65,6 +70,7 @@ geocode-glib-gir.tcz
             libidn2.tcz
                libunistring.tcz
                ncursesw.tcz
+         libnghttp2.tcz
       gobject-introspection.tcz
          glib2.tcz
             libffi.tcz

@@ -7,6 +7,10 @@ dbus-python3.6-dev.tcz
                attr.tcz
             libcap.tcz
                attr.tcz
+            util-linux.tcz
+               readline.tcz
+                  ncursesw.tcz
+               udev-lib.tcz
       python3.6.tcz
          openssl.tcz
          sqlite3.tcz
@@ -24,6 +28,10 @@ dbus-python3.6-dev.tcz
                attr.tcz
             libcap.tcz
                attr.tcz
+            util-linux.tcz
+               readline.tcz
+                  ncursesw.tcz
+               udev-lib.tcz
       Xorg-7.7-dev.tcz
          makedepend.tcz
          libFS-dev.tcz
@@ -997,6 +1005,10 @@ dbus-python3.6-dev.tcz
                attr.tcz
             libcap.tcz
                attr.tcz
+            util-linux.tcz
+               readline.tcz
+                  ncursesw.tcz
+               udev-lib.tcz
          acl-dev.tcz
             acl.tcz
                attr.tcz
@@ -1007,6 +1019,18 @@ dbus-python3.6-dev.tcz
                attr.tcz
             attr-dev.tcz
                attr.tcz
+         util-linux-dev.tcz
+            util-linux.tcz
+               readline.tcz
+                  ncursesw.tcz
+               udev-lib.tcz
+            readline-dev.tcz
+               readline.tcz
+                  ncursesw.tcz
+               ncursesw-dev.tcz
+                  ncursesw.tcz
+            udev-lib-dev.tcz
+               udev-lib.tcz
    python3.6-dev.tcz
       python3.6.tcz
          openssl.tcz

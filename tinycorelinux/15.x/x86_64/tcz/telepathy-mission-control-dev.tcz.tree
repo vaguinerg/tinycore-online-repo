@@ -9,6 +9,10 @@ telepathy-mission-control-dev.tcz
                      attr.tcz
                   libcap.tcz
                      attr.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
             glib2.tcz
                libffi.tcz
                pcre21042.tcz
@@ -25,6 +29,10 @@ telepathy-mission-control-dev.tcz
                      attr.tcz
                   libcap.tcz
                      attr.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
             glib2.tcz
                libffi.tcz
                pcre21042.tcz
@@ -44,21 +52,27 @@ telepathy-mission-control-dev.tcz
                      attr.tcz
                   libcap.tcz
                      attr.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
             linux-pam.tcz
          libsoup.tcz
             glib-networking.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
-               gnutls35.tcz
+               openssl.tcz
+               gnutls38.tcz
                   p11-kit.tcz
                      libffi.tcz
                      libtasn1-4.tcz
-                  nettle3.tcz
+                  nettle39.tcz
                      gmp.tcz
                   libidn2.tcz
                      libunistring.tcz
                      ncursesw.tcz
+                  libzstd.tcz
             libxml2.tcz
                liblzma.tcz
             sqlite3.tcz
@@ -75,6 +89,10 @@ telepathy-mission-control-dev.tcz
                      attr.tcz
                   libcap.tcz
                      attr.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
             openssl.tcz
             readline.tcz
                ncursesw.tcz
@@ -99,14 +117,16 @@ telepathy-mission-control-dev.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                linux-pam.tcz
             libqmi.tcz
                libmbim.tcz
-                  gudev-lib.tcz
-                     udev-lib.tcz
-                     glib2.tcz
-                        libffi.tcz
-                        pcre21042.tcz
+                  glib2.tcz
+                     libffi.tcz
+                     pcre21042.tcz
          libndp.tcz
          libbluetooth.tcz
             bluez.tcz
@@ -117,6 +137,10 @@ telepathy-mission-control-dev.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                udev-lib.tcz
                libical3.tcz
                   icu70.tcz
@@ -142,6 +166,10 @@ telepathy-mission-control-dev.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
@@ -158,6 +186,22 @@ telepathy-mission-control-dev.tcz
                      libxml2.tcz
                         liblzma.tcz
                openssl-1.1.1.tcz
+            gudev238-lib.tcz
+               udev254-lib.tcz
+                  libcap.tcz
+                     attr.tcz
+               glib2.tcz
+                  libffi.tcz
+                  pcre21042.tcz
+         gnutls35.tcz
+            p11-kit.tcz
+               libffi.tcz
+               libtasn1-4.tcz
+            nettle3.tcz
+               gmp.tcz
+            libidn2.tcz
+               libunistring.tcz
+               ncursesw.tcz
       upower.tcz
          dbus-glib.tcz
             dbus.tcz
@@ -167,6 +211,10 @@ telepathy-mission-control-dev.tcz
                      attr.tcz
                   libcap.tcz
                      attr.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
             glib2.tcz
                libffi.tcz
                pcre21042.tcz
@@ -183,6 +231,13 @@ telepathy-mission-control-dev.tcz
                   libxml2.tcz
                      liblzma.tcz
             openssl-1.1.1.tcz
+         gudev238-lib.tcz
+            udev254-lib.tcz
+               libcap.tcz
+                  attr.tcz
+            glib2.tcz
+               libffi.tcz
+               pcre21042.tcz
    telepathy-glib-dev.tcz
       telepathy-glib.tcz
          dbus-glib.tcz
@@ -193,6 +248,10 @@ telepathy-mission-control-dev.tcz
                      attr.tcz
                   libcap.tcz
                      attr.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
             glib2.tcz
                libffi.tcz
                pcre21042.tcz
@@ -206,6 +265,10 @@ telepathy-mission-control-dev.tcz
                      attr.tcz
                   libcap.tcz
                      attr.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
             glib2.tcz
                libffi.tcz
                pcre21042.tcz
@@ -217,6 +280,10 @@ telepathy-mission-control-dev.tcz
                      attr.tcz
                   libcap.tcz
                      attr.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
             Xorg-7.7-dev.tcz
                makedepend.tcz
                libFS-dev.tcz
@@ -1190,6 +1257,10 @@ telepathy-mission-control-dev.tcz
                      attr.tcz
                   libcap.tcz
                      attr.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
                acl-dev.tcz
                   acl.tcz
                      attr.tcz
@@ -1200,6 +1271,18 @@ telepathy-mission-control-dev.tcz
                      attr.tcz
                   attr-dev.tcz
                      attr.tcz
+               util-linux-dev.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
+                  readline-dev.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     ncursesw-dev.tcz
+                        ncursesw.tcz
+                  udev-lib-dev.tcz
+                     udev-lib.tcz
          glib2-dev.tcz
             glib2-python.tcz
                glib2.tcz
@@ -1239,6 +1322,10 @@ telepathy-mission-control-dev.tcz
                      attr.tcz
                   libcap.tcz
                      attr.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
             glib2.tcz
                libffi.tcz
                pcre21042.tcz
@@ -1258,21 +1345,27 @@ telepathy-mission-control-dev.tcz
                      attr.tcz
                   libcap.tcz
                      attr.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
             linux-pam.tcz
          libsoup.tcz
             glib-networking.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
-               gnutls35.tcz
+               openssl.tcz
+               gnutls38.tcz
                   p11-kit.tcz
                      libffi.tcz
                      libtasn1-4.tcz
-                  nettle3.tcz
+                  nettle39.tcz
                      gmp.tcz
                   libidn2.tcz
                      libunistring.tcz
                      ncursesw.tcz
+                  libzstd.tcz
             libxml2.tcz
                liblzma.tcz
             sqlite3.tcz
@@ -1289,6 +1382,10 @@ telepathy-mission-control-dev.tcz
                      attr.tcz
                   libcap.tcz
                      attr.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
             openssl.tcz
             readline.tcz
                ncursesw.tcz
@@ -1313,14 +1410,16 @@ telepathy-mission-control-dev.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                linux-pam.tcz
             libqmi.tcz
                libmbim.tcz
-                  gudev-lib.tcz
-                     udev-lib.tcz
-                     glib2.tcz
-                        libffi.tcz
-                        pcre21042.tcz
+                  glib2.tcz
+                     libffi.tcz
+                     pcre21042.tcz
          libndp.tcz
          libbluetooth.tcz
             bluez.tcz
@@ -1331,6 +1430,10 @@ telepathy-mission-control-dev.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                udev-lib.tcz
                libical3.tcz
                   icu70.tcz
@@ -1356,6 +1459,10 @@ telepathy-mission-control-dev.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
@@ -1372,6 +1479,22 @@ telepathy-mission-control-dev.tcz
                      libxml2.tcz
                         liblzma.tcz
                openssl-1.1.1.tcz
+            gudev238-lib.tcz
+               udev254-lib.tcz
+                  libcap.tcz
+                     attr.tcz
+               glib2.tcz
+                  libffi.tcz
+                  pcre21042.tcz
+         gnutls35.tcz
+            p11-kit.tcz
+               libffi.tcz
+               libtasn1-4.tcz
+            nettle3.tcz
+               gmp.tcz
+            libidn2.tcz
+               libunistring.tcz
+               ncursesw.tcz
       nss-dev.tcz
          nss.tcz
             nspr.tcz
@@ -1397,6 +1520,10 @@ telepathy-mission-control-dev.tcz
                      attr.tcz
                   libcap.tcz
                      attr.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
             glib2.tcz
                libffi.tcz
                pcre21042.tcz
@@ -1408,6 +1535,10 @@ telepathy-mission-control-dev.tcz
                      attr.tcz
                   libcap.tcz
                      attr.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
             Xorg-7.7-dev.tcz
                makedepend.tcz
                libFS-dev.tcz
@@ -2381,6 +2512,10 @@ telepathy-mission-control-dev.tcz
                      attr.tcz
                   libcap.tcz
                      attr.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
                acl-dev.tcz
                   acl.tcz
                      attr.tcz
@@ -2391,6 +2526,18 @@ telepathy-mission-control-dev.tcz
                      attr.tcz
                   attr-dev.tcz
                      attr.tcz
+               util-linux-dev.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
+                  readline-dev.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     ncursesw-dev.tcz
+                        ncursesw.tcz
+                  udev-lib-dev.tcz
+                     udev-lib.tcz
          glib2-dev.tcz
             glib2-python.tcz
                glib2.tcz
@@ -2436,6 +2583,10 @@ telepathy-mission-control-dev.tcz
                      attr.tcz
                   libcap.tcz
                      attr.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
             linux-pam.tcz
          glib2-dev.tcz
             glib2-python.tcz
@@ -2483,6 +2634,10 @@ telepathy-mission-control-dev.tcz
                   attr.tcz
                libcap.tcz
                   attr.tcz
+               util-linux.tcz
+                  readline.tcz
+                     ncursesw.tcz
+                  udev-lib.tcz
             acl-dev.tcz
                acl.tcz
                   attr.tcz
@@ -2493,21 +2648,35 @@ telepathy-mission-control-dev.tcz
                   attr.tcz
                attr-dev.tcz
                   attr.tcz
+            util-linux-dev.tcz
+               util-linux.tcz
+                  readline.tcz
+                     ncursesw.tcz
+                  udev-lib.tcz
+               readline-dev.tcz
+                  readline.tcz
+                     ncursesw.tcz
+                  ncursesw-dev.tcz
+                     ncursesw.tcz
+               udev-lib-dev.tcz
+                  udev-lib.tcz
       libsoup-dev.tcz
          libsoup.tcz
             glib-networking.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
-               gnutls35.tcz
+               openssl.tcz
+               gnutls38.tcz
                   p11-kit.tcz
                      libffi.tcz
                      libtasn1-4.tcz
-                  nettle3.tcz
+                  nettle39.tcz
                      gmp.tcz
                   libidn2.tcz
                      libunistring.tcz
                      ncursesw.tcz
+                  libzstd.tcz
             libxml2.tcz
                liblzma.tcz
             sqlite3.tcz
@@ -2574,14 +2743,16 @@ telepathy-mission-control-dev.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                linux-pam.tcz
             libqmi.tcz
                libmbim.tcz
-                  gudev-lib.tcz
-                     udev-lib.tcz
-                     glib2.tcz
-                        libffi.tcz
-                        pcre21042.tcz
+                  glib2.tcz
+                     libffi.tcz
+                     pcre21042.tcz
          polkit-dev.tcz
             polkit.tcz
                glib2.tcz
@@ -2599,6 +2770,10 @@ telepathy-mission-control-dev.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                linux-pam.tcz
             glib2-dev.tcz
                glib2-python.tcz
@@ -2646,6 +2821,10 @@ telepathy-mission-control-dev.tcz
                      attr.tcz
                   libcap.tcz
                      attr.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
                acl-dev.tcz
                   acl.tcz
                      attr.tcz
@@ -2656,55 +2835,55 @@ telepathy-mission-control-dev.tcz
                      attr.tcz
                   attr-dev.tcz
                      attr.tcz
+               util-linux-dev.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
+                  readline-dev.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     ncursesw-dev.tcz
+                        ncursesw.tcz
+                  udev-lib-dev.tcz
+                     udev-lib.tcz
          libqmi-dev.tcz
             libqmi.tcz
                libmbim.tcz
-                  gudev-lib.tcz
-                     udev-lib.tcz
-                     glib2.tcz
-                        libffi.tcz
-                        pcre21042.tcz
+                  glib2.tcz
+                     libffi.tcz
+                     pcre21042.tcz
             libmbim-dev.tcz
                libmbim.tcz
-                  gudev-lib.tcz
-                     udev-lib.tcz
+                  glib2.tcz
+                     libffi.tcz
+                     pcre21042.tcz
+               glib2-dev.tcz
+                  glib2-python.tcz
                      glib2.tcz
                         libffi.tcz
                         pcre21042.tcz
-               gudev-lib-dev.tcz
-                  gudev-lib.tcz
-                     udev-lib.tcz
-                     glib2.tcz
+                     python3.9.tcz
+                        openssl.tcz
+                        sqlite3.tcz
+                        gdbm.tcz
+                        bzip2-lib.tcz
+                        liblzma.tcz
+                        readline.tcz
+                           ncursesw.tcz
                         libffi.tcz
-                        pcre21042.tcz
-                  udev-lib-dev.tcz
-                     udev-lib.tcz
-                  glib2-dev.tcz
-                     glib2-python.tcz
-                        glib2.tcz
-                           libffi.tcz
-                           pcre21042.tcz
-                        python3.9.tcz
-                           openssl.tcz
-                           sqlite3.tcz
-                           gdbm.tcz
+                  pcre21042-dev.tcz
+                     pcre21042.tcz
+                     bzip2-dev.tcz
+                        bzip2.tcz
                            bzip2-lib.tcz
-                           liblzma.tcz
-                           readline.tcz
-                              ncursesw.tcz
-                           libffi.tcz
-                     pcre21042-dev.tcz
-                        pcre21042.tcz
-                        bzip2-dev.tcz
-                           bzip2.tcz
-                              bzip2-lib.tcz
-                        readline-dev.tcz
-                           readline.tcz
-                              ncursesw.tcz
-                           ncursesw-dev.tcz
-                              ncursesw.tcz
-                     libffi-dev.tcz
-                        libffi.tcz
+                     readline-dev.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        ncursesw-dev.tcz
+                           ncursesw.tcz
+                  libffi-dev.tcz
+                     libffi.tcz
       libbluetooth-dev.tcz
          libbluetooth.tcz
             bluez.tcz
@@ -2715,6 +2894,10 @@ telepathy-mission-control-dev.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                udev-lib.tcz
                libical3.tcz
                   icu70.tcz
@@ -2759,6 +2942,10 @@ telepathy-mission-control-dev.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
@@ -2775,6 +2962,13 @@ telepathy-mission-control-dev.tcz
                      libxml2.tcz
                         liblzma.tcz
                openssl-1.1.1.tcz
+            gudev238-lib.tcz
+               udev254-lib.tcz
+                  libcap.tcz
+                     attr.tcz
+               glib2.tcz
+                  libffi.tcz
+                  pcre21042.tcz
          dbus-glib-dev.tcz
             dbus-glib.tcz
                dbus.tcz
@@ -2784,6 +2978,10 @@ telepathy-mission-control-dev.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
@@ -2795,6 +2993,10 @@ telepathy-mission-control-dev.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                Xorg-7.7-dev.tcz
                   makedepend.tcz
                   libFS-dev.tcz
@@ -3768,6 +3970,10 @@ telepathy-mission-control-dev.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                   acl-dev.tcz
                      acl.tcz
                         attr.tcz
@@ -3778,6 +3984,18 @@ telepathy-mission-control-dev.tcz
                         attr.tcz
                      attr-dev.tcz
                         attr.tcz
+                  util-linux-dev.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
+                     readline-dev.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        ncursesw-dev.tcz
+                           ncursesw.tcz
+                     udev-lib-dev.tcz
+                        udev-lib.tcz
             glib2-dev.tcz
                glib2-python.tcz
                   glib2.tcz
@@ -3855,6 +4073,10 @@ telepathy-mission-control-dev.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                linux-pam.tcz
             glib2-dev.tcz
                glib2-python.tcz
@@ -3902,6 +4124,10 @@ telepathy-mission-control-dev.tcz
                      attr.tcz
                   libcap.tcz
                      attr.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
                acl-dev.tcz
                   acl.tcz
                      attr.tcz
@@ -3912,6 +4138,18 @@ telepathy-mission-control-dev.tcz
                      attr.tcz
                   attr-dev.tcz
                      attr.tcz
+               util-linux-dev.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
+                  readline-dev.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     ncursesw-dev.tcz
+                        ncursesw.tcz
+                  udev-lib-dev.tcz
+                     udev-lib.tcz
          libusb-dev.tcz
             libusb.tcz
                udev-lib.tcz
@@ -3953,6 +4191,37 @@ telepathy-mission-control-dev.tcz
                         liblzma.tcz
             openssl-1.1.1-dev.tcz
                openssl-1.1.1.tcz
+      gnutls35-dev.tcz
+         gnutls35.tcz
+            p11-kit.tcz
+               libffi.tcz
+               libtasn1-4.tcz
+            nettle3.tcz
+               gmp.tcz
+            libidn2.tcz
+               libunistring.tcz
+               ncursesw.tcz
+         p11-kit-dev.tcz
+            p11-kit.tcz
+               libffi.tcz
+               libtasn1-4.tcz
+            libffi-dev.tcz
+               libffi.tcz
+            libtasn1-4-dev.tcz
+               libtasn1-4.tcz
+         nettle3-dev.tcz
+            nettle3.tcz
+               gmp.tcz
+            gmp-dev.tcz
+               gmp.tcz
+         libidn2-dev.tcz
+            libidn2.tcz
+               libunistring.tcz
+               ncursesw.tcz
+            libunistring-dev.tcz
+               libunistring.tcz
+            ncursesw-dev.tcz
+               ncursesw.tcz
    upower-dev.tcz
       upower.tcz
          dbus-glib.tcz
@@ -3963,6 +4232,10 @@ telepathy-mission-control-dev.tcz
                      attr.tcz
                   libcap.tcz
                      attr.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
             glib2.tcz
                libffi.tcz
                pcre21042.tcz
@@ -3979,6 +4252,13 @@ telepathy-mission-control-dev.tcz
                   libxml2.tcz
                      liblzma.tcz
             openssl-1.1.1.tcz
+         gudev238-lib.tcz
+            udev254-lib.tcz
+               libcap.tcz
+                  attr.tcz
+            glib2.tcz
+               libffi.tcz
+               pcre21042.tcz
       dbus-glib-dev.tcz
          dbus-glib.tcz
             dbus.tcz
@@ -3988,6 +4268,10 @@ telepathy-mission-control-dev.tcz
                      attr.tcz
                   libcap.tcz
                      attr.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
             glib2.tcz
                libffi.tcz
                pcre21042.tcz
@@ -3999,6 +4283,10 @@ telepathy-mission-control-dev.tcz
                      attr.tcz
                   libcap.tcz
                      attr.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
             Xorg-7.7-dev.tcz
                makedepend.tcz
                libFS-dev.tcz
@@ -4972,6 +5260,10 @@ telepathy-mission-control-dev.tcz
                      attr.tcz
                   libcap.tcz
                      attr.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
                acl-dev.tcz
                   acl.tcz
                      attr.tcz
@@ -4982,6 +5274,18 @@ telepathy-mission-control-dev.tcz
                      attr.tcz
                   attr-dev.tcz
                      attr.tcz
+               util-linux-dev.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
+                  readline-dev.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     ncursesw-dev.tcz
+                        ncursesw.tcz
+                  udev-lib-dev.tcz
+                     udev-lib.tcz
          glib2-dev.tcz
             glib2-python.tcz
                glib2.tcz
@@ -5059,6 +5363,10 @@ telepathy-mission-control-dev.tcz
                      attr.tcz
                   libcap.tcz
                      attr.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
             linux-pam.tcz
          glib2-dev.tcz
             glib2-python.tcz
@@ -5106,6 +5414,10 @@ telepathy-mission-control-dev.tcz
                   attr.tcz
                libcap.tcz
                   attr.tcz
+               util-linux.tcz
+                  readline.tcz
+                     ncursesw.tcz
+                  udev-lib.tcz
             acl-dev.tcz
                acl.tcz
                   attr.tcz
@@ -5116,6 +5428,18 @@ telepathy-mission-control-dev.tcz
                   attr.tcz
                attr-dev.tcz
                   attr.tcz
+            util-linux-dev.tcz
+               util-linux.tcz
+                  readline.tcz
+                     ncursesw.tcz
+                  udev-lib.tcz
+               readline-dev.tcz
+                  readline.tcz
+                     ncursesw.tcz
+                  ncursesw-dev.tcz
+                     ncursesw.tcz
+               udev-lib-dev.tcz
+                  udev-lib.tcz
       libusb-dev.tcz
          libusb.tcz
             udev-lib.tcz

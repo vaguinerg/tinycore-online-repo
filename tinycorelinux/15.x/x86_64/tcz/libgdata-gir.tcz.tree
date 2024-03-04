@@ -6,15 +6,17 @@ libgdata-gir.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
-               gnutls35.tcz
+               openssl.tcz
+               gnutls38.tcz
                   p11-kit.tcz
                      libffi.tcz
                      libtasn1-4.tcz
-                  nettle3.tcz
+                  nettle39.tcz
                      gmp.tcz
                   libidn2.tcz
                      libunistring.tcz
                      ncursesw.tcz
+                  libzstd.tcz
             libxml2.tcz
                liblzma.tcz
             sqlite3.tcz
@@ -33,6 +35,10 @@ libgdata-gir.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
@@ -275,7 +281,7 @@ libgdata-gir.tcz
                   gdk-pixbuf2-xlib.tcz
             hicolor-icon-theme.tcz
       gnome-online-accounts.tcz
-         webkitgtk4.tcz
+         webkitgtk-gtk3.tcz
             gst-plugins-bad.tcz
                gst-plugins-base.tcz
                   gstreamer.tcz
@@ -341,15 +347,17 @@ libgdata-gir.tcz
                      glib2.tcz
                         libffi.tcz
                         pcre21042.tcz
-                     gnutls35.tcz
+                     openssl.tcz
+                     gnutls38.tcz
                         p11-kit.tcz
                            libffi.tcz
                            libtasn1-4.tcz
-                        nettle3.tcz
+                        nettle39.tcz
                            gmp.tcz
                         libidn2.tcz
                            libunistring.tcz
                            ncursesw.tcz
+                        libzstd.tcz
                   libxml2.tcz
                      liblzma.tcz
                   sqlite3.tcz
@@ -365,6 +373,10 @@ libgdata-gir.tcz
                            attr.tcz
                         libcap.tcz
                            attr.tcz
+                        util-linux.tcz
+                           readline.tcz
+                              ncursesw.tcz
+                           udev-lib.tcz
                   gcc_libs.tcz
                   glib2.tcz
                      libffi.tcz
@@ -386,14 +398,16 @@ libgdata-gir.tcz
                               attr.tcz
                            libcap.tcz
                               attr.tcz
+                           util-linux.tcz
+                              readline.tcz
+                                 ncursesw.tcz
+                              udev-lib.tcz
                      linux-pam.tcz
                   libqmi.tcz
                      libmbim.tcz
-                        gudev-lib.tcz
-                           udev-lib.tcz
-                           glib2.tcz
-                              libffi.tcz
-                              pcre21042.tcz
+                        glib2.tcz
+                           libffi.tcz
+                           pcre21042.tcz
                libnotify.tcz
                   notification-daemon.tcz
                      gtk3.tcz
@@ -406,6 +420,10 @@ libgdata-gir.tcz
                                     attr.tcz
                                  libcap.tcz
                                     attr.tcz
+                                 util-linux.tcz
+                                    readline.tcz
+                                       ncursesw.tcz
+                                    udev-lib.tcz
                            glib2.tcz
                               libffi.tcz
                               pcre21042.tcz
@@ -552,6 +570,10 @@ libgdata-gir.tcz
                                        attr.tcz
                                     libcap.tcz
                                        attr.tcz
+                                    util-linux.tcz
+                                       readline.tcz
+                                          ncursesw.tcz
+                                       udev-lib.tcz
                               glib2.tcz
                                  libffi.tcz
                                  pcre21042.tcz
@@ -694,7 +716,7 @@ libgdata-gir.tcz
                      libffi.tcz
                      pcre21042.tcz
                   graphite.tcz
-               icu70.tcz
+               icu74.tcz
             openjpeg.tcz
             gsettings-desktop-schemas.tcz
                glib2.tcz
@@ -703,21 +725,22 @@ libgdata-gir.tcz
             ca-certificates.tcz
                openssl.tcz
             liblcms2.tcz
-         rest.tcz
-            libsoup.tcz
+            libsoup3.tcz
                glib-networking.tcz
                   glib2.tcz
                      libffi.tcz
                      pcre21042.tcz
-                  gnutls35.tcz
+                  openssl.tcz
+                  gnutls38.tcz
                      p11-kit.tcz
                         libffi.tcz
                         libtasn1-4.tcz
-                     nettle3.tcz
+                     nettle39.tcz
                         gmp.tcz
                      libidn2.tcz
                         libunistring.tcz
                         ncursesw.tcz
+                     libzstd.tcz
                libxml2.tcz
                   liblzma.tcz
                sqlite3.tcz
@@ -725,6 +748,61 @@ libgdata-gir.tcz
                   libidn2.tcz
                      libunistring.tcz
                      ncursesw.tcz
+               libnghttp2.tcz
+            wpebackend.tcz
+               libepoxy.tcz
+               glib2.tcz
+                  libffi.tcz
+                  pcre21042.tcz
+               libwpe.tcz
+                  libxkbcommon.tcz
+                     xkeyboard-config.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
+               wayland-protocols.tcz
+                  wayland.tcz
+                     libffi.tcz
+                     expat2.tcz
+                     libxml2.tcz
+                        liblzma.tcz
+            libavif.tcz
+               libaom.tcz
+            libseccomp.tcz
+            gnutls35.tcz
+               p11-kit.tcz
+                  libffi.tcz
+                  libtasn1-4.tcz
+               nettle3.tcz
+                  gmp.tcz
+               libidn2.tcz
+                  libunistring.tcz
+                  ncursesw.tcz
+         rest1.tcz
+            libsoup3.tcz
+               glib-networking.tcz
+                  glib2.tcz
+                     libffi.tcz
+                     pcre21042.tcz
+                  openssl.tcz
+                  gnutls38.tcz
+                     p11-kit.tcz
+                        libffi.tcz
+                        libtasn1-4.tcz
+                     nettle39.tcz
+                        gmp.tcz
+                     libidn2.tcz
+                        libunistring.tcz
+                        ncursesw.tcz
+                     libzstd.tcz
+               libxml2.tcz
+                  liblzma.tcz
+               sqlite3.tcz
+               libpsl.tcz
+                  libidn2.tcz
+                     libunistring.tcz
+                     ncursesw.tcz
+               libnghttp2.tcz
          telepathy-glib.tcz
             dbus-glib.tcz
                dbus.tcz
@@ -734,6 +812,10 @@ libgdata-gir.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
@@ -831,15 +913,17 @@ libgdata-gir.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
-               gnutls35.tcz
+               openssl.tcz
+               gnutls38.tcz
                   p11-kit.tcz
                      libffi.tcz
                      libtasn1-4.tcz
-                  nettle3.tcz
+                  nettle39.tcz
                      gmp.tcz
                   libidn2.tcz
                      libunistring.tcz
                      ncursesw.tcz
+                  libzstd.tcz
             libxml2.tcz
                liblzma.tcz
             sqlite3.tcz
@@ -853,15 +937,17 @@ libgdata-gir.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
-               gnutls35.tcz
+               openssl.tcz
+               gnutls38.tcz
                   p11-kit.tcz
                      libffi.tcz
                      libtasn1-4.tcz
-                  nettle3.tcz
+                  nettle39.tcz
                      gmp.tcz
                   libidn2.tcz
                      libunistring.tcz
                      ncursesw.tcz
+                  libzstd.tcz
             libxml2.tcz
                liblzma.tcz
             sqlite3.tcz
@@ -894,6 +980,10 @@ libgdata-gir.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
@@ -1146,6 +1236,10 @@ libgdata-gir.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
@@ -1331,6 +1425,10 @@ libgdata-gir.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
@@ -1418,7 +1516,7 @@ libgdata-gir.tcz
                      libffi.tcz
    gnome-online-accounts-gir.tcz
       gnome-online-accounts.tcz
-         webkitgtk4.tcz
+         webkitgtk-gtk3.tcz
             gst-plugins-bad.tcz
                gst-plugins-base.tcz
                   gstreamer.tcz
@@ -1484,15 +1582,17 @@ libgdata-gir.tcz
                      glib2.tcz
                         libffi.tcz
                         pcre21042.tcz
-                     gnutls35.tcz
+                     openssl.tcz
+                     gnutls38.tcz
                         p11-kit.tcz
                            libffi.tcz
                            libtasn1-4.tcz
-                        nettle3.tcz
+                        nettle39.tcz
                            gmp.tcz
                         libidn2.tcz
                            libunistring.tcz
                            ncursesw.tcz
+                        libzstd.tcz
                   libxml2.tcz
                      liblzma.tcz
                   sqlite3.tcz
@@ -1508,6 +1608,10 @@ libgdata-gir.tcz
                            attr.tcz
                         libcap.tcz
                            attr.tcz
+                        util-linux.tcz
+                           readline.tcz
+                              ncursesw.tcz
+                           udev-lib.tcz
                   gcc_libs.tcz
                   glib2.tcz
                      libffi.tcz
@@ -1529,14 +1633,16 @@ libgdata-gir.tcz
                               attr.tcz
                            libcap.tcz
                               attr.tcz
+                           util-linux.tcz
+                              readline.tcz
+                                 ncursesw.tcz
+                              udev-lib.tcz
                      linux-pam.tcz
                   libqmi.tcz
                      libmbim.tcz
-                        gudev-lib.tcz
-                           udev-lib.tcz
-                           glib2.tcz
-                              libffi.tcz
-                              pcre21042.tcz
+                        glib2.tcz
+                           libffi.tcz
+                           pcre21042.tcz
                libnotify.tcz
                   notification-daemon.tcz
                      gtk3.tcz
@@ -1549,6 +1655,10 @@ libgdata-gir.tcz
                                     attr.tcz
                                  libcap.tcz
                                     attr.tcz
+                                 util-linux.tcz
+                                    readline.tcz
+                                       ncursesw.tcz
+                                    udev-lib.tcz
                            glib2.tcz
                               libffi.tcz
                               pcre21042.tcz
@@ -1695,6 +1805,10 @@ libgdata-gir.tcz
                                        attr.tcz
                                     libcap.tcz
                                        attr.tcz
+                                    util-linux.tcz
+                                       readline.tcz
+                                          ncursesw.tcz
+                                       udev-lib.tcz
                               glib2.tcz
                                  libffi.tcz
                                  pcre21042.tcz
@@ -1837,7 +1951,7 @@ libgdata-gir.tcz
                      libffi.tcz
                      pcre21042.tcz
                   graphite.tcz
-               icu70.tcz
+               icu74.tcz
             openjpeg.tcz
             gsettings-desktop-schemas.tcz
                glib2.tcz
@@ -1846,21 +1960,22 @@ libgdata-gir.tcz
             ca-certificates.tcz
                openssl.tcz
             liblcms2.tcz
-         rest.tcz
-            libsoup.tcz
+            libsoup3.tcz
                glib-networking.tcz
                   glib2.tcz
                      libffi.tcz
                      pcre21042.tcz
-                  gnutls35.tcz
+                  openssl.tcz
+                  gnutls38.tcz
                      p11-kit.tcz
                         libffi.tcz
                         libtasn1-4.tcz
-                     nettle3.tcz
+                     nettle39.tcz
                         gmp.tcz
                      libidn2.tcz
                         libunistring.tcz
                         ncursesw.tcz
+                     libzstd.tcz
                libxml2.tcz
                   liblzma.tcz
                sqlite3.tcz
@@ -1868,6 +1983,61 @@ libgdata-gir.tcz
                   libidn2.tcz
                      libunistring.tcz
                      ncursesw.tcz
+               libnghttp2.tcz
+            wpebackend.tcz
+               libepoxy.tcz
+               glib2.tcz
+                  libffi.tcz
+                  pcre21042.tcz
+               libwpe.tcz
+                  libxkbcommon.tcz
+                     xkeyboard-config.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
+               wayland-protocols.tcz
+                  wayland.tcz
+                     libffi.tcz
+                     expat2.tcz
+                     libxml2.tcz
+                        liblzma.tcz
+            libavif.tcz
+               libaom.tcz
+            libseccomp.tcz
+            gnutls35.tcz
+               p11-kit.tcz
+                  libffi.tcz
+                  libtasn1-4.tcz
+               nettle3.tcz
+                  gmp.tcz
+               libidn2.tcz
+                  libunistring.tcz
+                  ncursesw.tcz
+         rest1.tcz
+            libsoup3.tcz
+               glib-networking.tcz
+                  glib2.tcz
+                     libffi.tcz
+                     pcre21042.tcz
+                  openssl.tcz
+                  gnutls38.tcz
+                     p11-kit.tcz
+                        libffi.tcz
+                        libtasn1-4.tcz
+                     nettle39.tcz
+                        gmp.tcz
+                     libidn2.tcz
+                        libunistring.tcz
+                        ncursesw.tcz
+                     libzstd.tcz
+               libxml2.tcz
+                  liblzma.tcz
+               sqlite3.tcz
+               libpsl.tcz
+                  libidn2.tcz
+                     libunistring.tcz
+                     ncursesw.tcz
+               libnghttp2.tcz
          telepathy-glib.tcz
             dbus-glib.tcz
                dbus.tcz
@@ -1877,6 +2047,10 @@ libgdata-gir.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
@@ -1967,8 +2141,8 @@ libgdata-gir.tcz
                         liblzma.tcz
                   gdk-pixbuf2-xlib.tcz
             hicolor-icon-theme.tcz
-      webkitgtk4-gir.tcz
-         webkitgtk4.tcz
+      webkitgtk-gtk3-gir.tcz
+         webkitgtk-gtk3.tcz
             gst-plugins-bad.tcz
                gst-plugins-base.tcz
                   gstreamer.tcz
@@ -2034,15 +2208,17 @@ libgdata-gir.tcz
                      glib2.tcz
                         libffi.tcz
                         pcre21042.tcz
-                     gnutls35.tcz
+                     openssl.tcz
+                     gnutls38.tcz
                         p11-kit.tcz
                            libffi.tcz
                            libtasn1-4.tcz
-                        nettle3.tcz
+                        nettle39.tcz
                            gmp.tcz
                         libidn2.tcz
                            libunistring.tcz
                            ncursesw.tcz
+                        libzstd.tcz
                   libxml2.tcz
                      liblzma.tcz
                   sqlite3.tcz
@@ -2058,6 +2234,10 @@ libgdata-gir.tcz
                            attr.tcz
                         libcap.tcz
                            attr.tcz
+                        util-linux.tcz
+                           readline.tcz
+                              ncursesw.tcz
+                           udev-lib.tcz
                   gcc_libs.tcz
                   glib2.tcz
                      libffi.tcz
@@ -2079,14 +2259,16 @@ libgdata-gir.tcz
                               attr.tcz
                            libcap.tcz
                               attr.tcz
+                           util-linux.tcz
+                              readline.tcz
+                                 ncursesw.tcz
+                              udev-lib.tcz
                      linux-pam.tcz
                   libqmi.tcz
                      libmbim.tcz
-                        gudev-lib.tcz
-                           udev-lib.tcz
-                           glib2.tcz
-                              libffi.tcz
-                              pcre21042.tcz
+                        glib2.tcz
+                           libffi.tcz
+                           pcre21042.tcz
                libnotify.tcz
                   notification-daemon.tcz
                      gtk3.tcz
@@ -2099,6 +2281,10 @@ libgdata-gir.tcz
                                     attr.tcz
                                  libcap.tcz
                                     attr.tcz
+                                 util-linux.tcz
+                                    readline.tcz
+                                       ncursesw.tcz
+                                    udev-lib.tcz
                            glib2.tcz
                               libffi.tcz
                               pcre21042.tcz
@@ -2245,6 +2431,10 @@ libgdata-gir.tcz
                                        attr.tcz
                                     libcap.tcz
                                        attr.tcz
+                                    util-linux.tcz
+                                       readline.tcz
+                                          ncursesw.tcz
+                                       udev-lib.tcz
                               glib2.tcz
                                  libffi.tcz
                                  pcre21042.tcz
@@ -2387,7 +2577,7 @@ libgdata-gir.tcz
                      libffi.tcz
                      pcre21042.tcz
                   graphite.tcz
-               icu70.tcz
+               icu74.tcz
             openjpeg.tcz
             gsettings-desktop-schemas.tcz
                glib2.tcz
@@ -2396,6 +2586,59 @@ libgdata-gir.tcz
             ca-certificates.tcz
                openssl.tcz
             liblcms2.tcz
+            libsoup3.tcz
+               glib-networking.tcz
+                  glib2.tcz
+                     libffi.tcz
+                     pcre21042.tcz
+                  openssl.tcz
+                  gnutls38.tcz
+                     p11-kit.tcz
+                        libffi.tcz
+                        libtasn1-4.tcz
+                     nettle39.tcz
+                        gmp.tcz
+                     libidn2.tcz
+                        libunistring.tcz
+                        ncursesw.tcz
+                     libzstd.tcz
+               libxml2.tcz
+                  liblzma.tcz
+               sqlite3.tcz
+               libpsl.tcz
+                  libidn2.tcz
+                     libunistring.tcz
+                     ncursesw.tcz
+               libnghttp2.tcz
+            wpebackend.tcz
+               libepoxy.tcz
+               glib2.tcz
+                  libffi.tcz
+                  pcre21042.tcz
+               libwpe.tcz
+                  libxkbcommon.tcz
+                     xkeyboard-config.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
+               wayland-protocols.tcz
+                  wayland.tcz
+                     libffi.tcz
+                     expat2.tcz
+                     libxml2.tcz
+                        liblzma.tcz
+            libavif.tcz
+               libaom.tcz
+            libseccomp.tcz
+            gnutls35.tcz
+               p11-kit.tcz
+                  libffi.tcz
+                  libtasn1-4.tcz
+               nettle3.tcz
+                  gmp.tcz
+               libidn2.tcz
+                  libunistring.tcz
+                  ncursesw.tcz
          gtk3-gir.tcz
             gtk3.tcz
                libepoxy.tcz
@@ -2407,6 +2650,10 @@ libgdata-gir.tcz
                            attr.tcz
                         libcap.tcz
                            attr.tcz
+                        util-linux.tcz
+                           readline.tcz
+                              ncursesw.tcz
+                           udev-lib.tcz
                   glib2.tcz
                      libffi.tcz
                      pcre21042.tcz
@@ -2592,6 +2839,10 @@ libgdata-gir.tcz
                            attr.tcz
                         libcap.tcz
                            attr.tcz
+                        util-linux.tcz
+                           readline.tcz
+                              ncursesw.tcz
+                           udev-lib.tcz
                   glib2.tcz
                      libffi.tcz
                      pcre21042.tcz
@@ -2677,21 +2928,23 @@ libgdata-gir.tcz
                         readline.tcz
                            ncursesw.tcz
                         libffi.tcz
-         libsoup-gir.tcz
-            libsoup.tcz
+         libsoup3-gir.tcz
+            libsoup3.tcz
                glib-networking.tcz
                   glib2.tcz
                      libffi.tcz
                      pcre21042.tcz
-                  gnutls35.tcz
+                  openssl.tcz
+                  gnutls38.tcz
                      p11-kit.tcz
                         libffi.tcz
                         libtasn1-4.tcz
-                     nettle3.tcz
+                     nettle39.tcz
                         gmp.tcz
                      libidn2.tcz
                         libunistring.tcz
                         ncursesw.tcz
+                     libzstd.tcz
                libxml2.tcz
                   liblzma.tcz
                sqlite3.tcz
@@ -2699,6 +2952,7 @@ libgdata-gir.tcz
                   libidn2.tcz
                      libunistring.tcz
                      ncursesw.tcz
+               libnghttp2.tcz
             gobject-introspection.tcz
                glib2.tcz
                   libffi.tcz
@@ -2712,22 +2966,24 @@ libgdata-gir.tcz
                   readline.tcz
                      ncursesw.tcz
                   libffi.tcz
-      rest-gir.tcz
-         rest.tcz
-            libsoup.tcz
+      rest1-gir.tcz
+         rest1.tcz
+            libsoup3.tcz
                glib-networking.tcz
                   glib2.tcz
                      libffi.tcz
                      pcre21042.tcz
-                  gnutls35.tcz
+                  openssl.tcz
+                  gnutls38.tcz
                      p11-kit.tcz
                         libffi.tcz
                         libtasn1-4.tcz
-                     nettle3.tcz
+                     nettle39.tcz
                         gmp.tcz
                      libidn2.tcz
                         libunistring.tcz
                         ncursesw.tcz
+                     libzstd.tcz
                libxml2.tcz
                   liblzma.tcz
                sqlite3.tcz
@@ -2735,21 +2991,24 @@ libgdata-gir.tcz
                   libidn2.tcz
                      libunistring.tcz
                      ncursesw.tcz
-         libsoup-gir.tcz
-            libsoup.tcz
+               libnghttp2.tcz
+         libsoup3-gir.tcz
+            libsoup3.tcz
                glib-networking.tcz
                   glib2.tcz
                      libffi.tcz
                      pcre21042.tcz
-                  gnutls35.tcz
+                  openssl.tcz
+                  gnutls38.tcz
                      p11-kit.tcz
                         libffi.tcz
                         libtasn1-4.tcz
-                     nettle3.tcz
+                     nettle39.tcz
                         gmp.tcz
                      libidn2.tcz
                         libunistring.tcz
                         ncursesw.tcz
+                     libzstd.tcz
                libxml2.tcz
                   liblzma.tcz
                sqlite3.tcz
@@ -2757,6 +3016,7 @@ libgdata-gir.tcz
                   libidn2.tcz
                      libunistring.tcz
                      ncursesw.tcz
+               libnghttp2.tcz
             gobject-introspection.tcz
                glib2.tcz
                   libffi.tcz
@@ -2780,6 +3040,10 @@ libgdata-gir.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz

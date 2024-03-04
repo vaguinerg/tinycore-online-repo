@@ -7,6 +7,10 @@ gnome-remote-desktop.tcz
                attr.tcz
             libcap.tcz
                attr.tcz
+            util-linux.tcz
+               readline.tcz
+                  ncursesw.tcz
+               udev-lib.tcz
       gst-plugins-base.tcz
          gstreamer.tcz
             glib2.tcz
@@ -469,6 +473,10 @@ gnome-remote-desktop.tcz
                      attr.tcz
                   libcap.tcz
                      attr.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
             udev-lib.tcz
             libical3.tcz
                icu70.tcz
@@ -510,6 +518,10 @@ gnome-remote-desktop.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
@@ -656,6 +668,10 @@ gnome-remote-desktop.tcz
                            attr.tcz
                         libcap.tcz
                            attr.tcz
+                        util-linux.tcz
+                           readline.tcz
+                              ncursesw.tcz
+                           udev-lib.tcz
                   glib2.tcz
                      libffi.tcz
                      pcre21042.tcz
@@ -803,6 +819,10 @@ gnome-remote-desktop.tcz
                      attr.tcz
                   libcap.tcz
                      attr.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
             gst-plugins-base.tcz
                gstreamer.tcz
                   glib2.tcz
@@ -1265,6 +1285,10 @@ gnome-remote-desktop.tcz
                            attr.tcz
                         libcap.tcz
                            attr.tcz
+                        util-linux.tcz
+                           readline.tcz
+                              ncursesw.tcz
+                           udev-lib.tcz
                   udev-lib.tcz
                   libical3.tcz
                      icu70.tcz
@@ -1299,15 +1323,17 @@ gnome-remote-desktop.tcz
                   glib2.tcz
                      libffi.tcz
                      pcre21042.tcz
-                  gnutls35.tcz
+                  openssl.tcz
+                  gnutls38.tcz
                      p11-kit.tcz
                         libffi.tcz
                         libtasn1-4.tcz
-                     nettle3.tcz
+                     nettle39.tcz
                         gmp.tcz
                      libidn2.tcz
                         libunistring.tcz
                         ncursesw.tcz
+                     libzstd.tcz
                libxml2.tcz
                   liblzma.tcz
                sqlite3.tcz
@@ -1323,6 +1349,10 @@ gnome-remote-desktop.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                gcc_libs.tcz
                glib2.tcz
                   libffi.tcz
@@ -1344,14 +1374,16 @@ gnome-remote-desktop.tcz
                            attr.tcz
                         libcap.tcz
                            attr.tcz
+                        util-linux.tcz
+                           readline.tcz
+                              ncursesw.tcz
+                           udev-lib.tcz
                   linux-pam.tcz
                libqmi.tcz
                   libmbim.tcz
-                     gudev-lib.tcz
-                        udev-lib.tcz
-                        glib2.tcz
-                           libffi.tcz
-                           pcre21042.tcz
+                     glib2.tcz
+                        libffi.tcz
+                        pcre21042.tcz
             libnotify.tcz
                notification-daemon.tcz
                   gtk3.tcz
@@ -1364,6 +1396,10 @@ gnome-remote-desktop.tcz
                                  attr.tcz
                               libcap.tcz
                                  attr.tcz
+                              util-linux.tcz
+                                 readline.tcz
+                                    ncursesw.tcz
+                                 udev-lib.tcz
                         glib2.tcz
                            libffi.tcz
                            pcre21042.tcz
@@ -1510,6 +1546,10 @@ gnome-remote-desktop.tcz
                                     attr.tcz
                                  libcap.tcz
                                     attr.tcz
+                                 util-linux.tcz
+                                    readline.tcz
+                                       ncursesw.tcz
+                                    udev-lib.tcz
                            glib2.tcz
                               libffi.tcz
                               pcre21042.tcz
@@ -1666,6 +1706,10 @@ gnome-remote-desktop.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz

@@ -57,6 +57,10 @@ virt-manager.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                gcc_libs.tcz
                glib2.tcz
                   libffi.tcz
@@ -143,6 +147,10 @@ virt-manager.tcz
                      attr.tcz
                   libcap.tcz
                      attr.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
             gcc_libs.tcz
             glib2.tcz
                libffi.tcz
@@ -223,6 +231,10 @@ virt-manager.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
@@ -377,6 +389,10 @@ virt-manager.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
@@ -562,6 +578,10 @@ virt-manager.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
@@ -675,6 +695,10 @@ virt-manager.tcz
                attr.tcz
             libcap.tcz
                attr.tcz
+            util-linux.tcz
+               readline.tcz
+                  ncursesw.tcz
+               udev-lib.tcz
       linux-pam.tcz
    gtksourceview4-gir.tcz
       gtksourceview4.tcz
@@ -688,6 +712,10 @@ virt-manager.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
@@ -833,6 +861,10 @@ virt-manager.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
@@ -1018,6 +1050,10 @@ virt-manager.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
@@ -1108,15 +1144,17 @@ virt-manager.tcz
          glib2.tcz
             libffi.tcz
             pcre21042.tcz
-         gnutls35.tcz
+         openssl.tcz
+         gnutls38.tcz
             p11-kit.tcz
                libffi.tcz
                libtasn1-4.tcz
-            nettle3.tcz
+            nettle39.tcz
                gmp.tcz
             libidn2.tcz
                libunistring.tcz
                ncursesw.tcz
+            libzstd.tcz
       libxml2.tcz
          liblzma.tcz
       sqlite3.tcz
@@ -1181,6 +1219,10 @@ virt-manager.tcz
                   attr.tcz
                libcap.tcz
                   attr.tcz
+               util-linux.tcz
+                  readline.tcz
+                     ncursesw.tcz
+                  udev-lib.tcz
          libcap.tcz
             attr.tcz
          glib2.tcz
@@ -1209,6 +1251,10 @@ virt-manager.tcz
                      attr.tcz
                   libcap.tcz
                      attr.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
             udev-lib.tcz
             libical3.tcz
                icu70.tcz
@@ -1350,6 +1396,10 @@ virt-manager.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
@@ -1494,6 +1544,10 @@ virt-manager.tcz
                      attr.tcz
                   libcap.tcz
                      attr.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
             libcap.tcz
                attr.tcz
             glib2.tcz
@@ -1533,6 +1587,10 @@ virt-manager.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
@@ -1718,6 +1776,10 @@ virt-manager.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
@@ -1836,6 +1898,10 @@ virt-manager.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
@@ -1980,7 +2046,7 @@ virt-manager.tcz
                   libogg.tcz
                libasound.tcz
                opus.tcz
-            libvpx18.tcz
+            libvpx113.tcz
          libcacard.tcz
             nss.tcz
                nspr.tcz
@@ -2002,6 +2068,10 @@ virt-manager.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
@@ -2187,6 +2257,10 @@ virt-manager.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz

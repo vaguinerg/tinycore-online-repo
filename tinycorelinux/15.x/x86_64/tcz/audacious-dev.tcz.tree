@@ -330,6 +330,10 @@ audacious-dev.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                libcap.tcz
                   attr.tcz
                glib2.tcz
@@ -360,6 +364,10 @@ audacious-dev.tcz
                   attr.tcz
                libcap.tcz
                   attr.tcz
+               util-linux.tcz
+                  readline.tcz
+                     ncursesw.tcz
+                  udev-lib.tcz
          glib2.tcz
             libffi.tcz
             pcre21042.tcz
@@ -374,6 +382,10 @@ audacious-dev.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
@@ -604,6 +616,10 @@ audacious-dev.tcz
                      attr.tcz
                   libcap.tcz
                      attr.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
             glib2.tcz
                libffi.tcz
                pcre21042.tcz
@@ -1138,6 +1154,10 @@ audacious-dev.tcz
                      attr.tcz
                   libcap.tcz
                      attr.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
             glib2.tcz
                libffi.tcz
                pcre21042.tcz
@@ -1162,6 +1182,10 @@ audacious-dev.tcz
                      attr.tcz
                   libcap.tcz
                      attr.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
             Xorg-7.7-dev.tcz
                makedepend.tcz
                libFS-dev.tcz
@@ -2135,6 +2159,10 @@ audacious-dev.tcz
                      attr.tcz
                   libcap.tcz
                      attr.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
                acl-dev.tcz
                   acl.tcz
                      attr.tcz
@@ -2145,6 +2173,18 @@ audacious-dev.tcz
                      attr.tcz
                   attr-dev.tcz
                      attr.tcz
+               util-linux-dev.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
+                  readline-dev.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     ncursesw-dev.tcz
+                        ncursesw.tcz
+                  udev-lib-dev.tcz
+                     udev-lib.tcz
          glib2-dev.tcz
             glib2-python.tcz
                glib2.tcz
@@ -2629,15 +2669,17 @@ audacious-dev.tcz
                   glib2.tcz
                      libffi.tcz
                      pcre21042.tcz
-                  gnutls35.tcz
+                  openssl.tcz
+                  gnutls38.tcz
                      p11-kit.tcz
                         libffi.tcz
                         libtasn1-4.tcz
-                     nettle3.tcz
+                     nettle39.tcz
                         gmp.tcz
                      libidn2.tcz
                         libunistring.tcz
                         ncursesw.tcz
+                     libzstd.tcz
                libxml2.tcz
                   liblzma.tcz
                sqlite3.tcz
@@ -2651,15 +2693,17 @@ audacious-dev.tcz
                   glib2.tcz
                      libffi.tcz
                      pcre21042.tcz
-                  gnutls35.tcz
+                  openssl.tcz
+                  gnutls38.tcz
                      p11-kit.tcz
                         libffi.tcz
                         libtasn1-4.tcz
-                     nettle3.tcz
+                     nettle39.tcz
                         gmp.tcz
                      libidn2.tcz
                         libunistring.tcz
                         ncursesw.tcz
+                     libzstd.tcz
                libxml2.tcz
                   liblzma.tcz
                sqlite3.tcz
@@ -2730,6 +2774,10 @@ audacious-dev.tcz
                               attr.tcz
                            libcap.tcz
                               attr.tcz
+                           util-linux.tcz
+                              readline.tcz
+                                 ncursesw.tcz
+                              udev-lib.tcz
                      gcc_libs.tcz
                      glib2.tcz
                         libffi.tcz
@@ -2763,6 +2811,10 @@ audacious-dev.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                linux-pam.tcz
          lcms2-dev.tcz
             liblcms2.tcz
@@ -3153,6 +3205,10 @@ audacious-dev.tcz
                               attr.tcz
                            libcap.tcz
                               attr.tcz
+                           util-linux.tcz
+                              readline.tcz
+                                 ncursesw.tcz
+                              udev-lib.tcz
                      gcc_libs.tcz
                      glib2.tcz
                         libffi.tcz
@@ -3186,6 +3242,10 @@ audacious-dev.tcz
                                  attr.tcz
                               libcap.tcz
                                  attr.tcz
+                              util-linux.tcz
+                                 readline.tcz
+                                    ncursesw.tcz
+                                 udev-lib.tcz
                         gcc_libs.tcz
                         glib2.tcz
                            libffi.tcz
@@ -3206,6 +3266,10 @@ audacious-dev.tcz
                            attr.tcz
                         libcap.tcz
                            attr.tcz
+                        util-linux.tcz
+                           readline.tcz
+                              ncursesw.tcz
+                           udev-lib.tcz
                   cups-filters.tcz
                      libpoppler07.tcz
                         liblcms2.tcz
@@ -3262,6 +3326,10 @@ audacious-dev.tcz
                                  attr.tcz
                               libcap.tcz
                                  attr.tcz
+                              util-linux.tcz
+                                 readline.tcz
+                                    ncursesw.tcz
+                                 udev-lib.tcz
                         gcc_libs.tcz
                         glib2.tcz
                            libffi.tcz
@@ -3276,6 +3344,10 @@ audacious-dev.tcz
                               attr.tcz
                            libcap.tcz
                               attr.tcz
+                           util-linux.tcz
+                              readline.tcz
+                                 ncursesw.tcz
+                              udev-lib.tcz
                      Xorg-7.7-dev.tcz
                         makedepend.tcz
                         libFS-dev.tcz
@@ -4249,6 +4321,10 @@ audacious-dev.tcz
                               attr.tcz
                            libcap.tcz
                               attr.tcz
+                           util-linux.tcz
+                              readline.tcz
+                                 ncursesw.tcz
+                              udev-lib.tcz
                         acl-dev.tcz
                            acl.tcz
                               attr.tcz
@@ -4259,6 +4335,18 @@ audacious-dev.tcz
                               attr.tcz
                            attr-dev.tcz
                               attr.tcz
+                        util-linux-dev.tcz
+                           util-linux.tcz
+                              readline.tcz
+                                 ncursesw.tcz
+                              udev-lib.tcz
+                           readline-dev.tcz
+                              readline.tcz
+                                 ncursesw.tcz
+                              ncursesw-dev.tcz
+                                 ncursesw.tcz
+                           udev-lib-dev.tcz
+                              udev-lib.tcz
                   gcc_libs-dev.tcz
                      gcc_libs.tcz
                   glib2-dev.tcz
@@ -4663,6 +4751,10 @@ audacious-dev.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                linux-pam.tcz
             glib2-dev.tcz
                glib2-python.tcz
@@ -4710,6 +4802,10 @@ audacious-dev.tcz
                      attr.tcz
                   libcap.tcz
                      attr.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
                acl-dev.tcz
                   acl.tcz
                      attr.tcz
@@ -4720,6 +4816,18 @@ audacious-dev.tcz
                      attr.tcz
                   attr-dev.tcz
                      attr.tcz
+               util-linux-dev.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
+                  readline-dev.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     ncursesw-dev.tcz
+                        ncursesw.tcz
+                  udev-lib-dev.tcz
+                     udev-lib.tcz
       json-glib-dev.tcz
          json-glib.tcz
             glib2.tcz

@@ -4,6 +4,7 @@
 /usr/local/include/libnm/nm-autoptr.h
 /usr/local/include/libnm/nm-checkpoint.h
 /usr/local/include/libnm/nm-client.h
+/usr/local/include/libnm/nm-conn-utils.h
 /usr/local/include/libnm/nm-connection.h
 /usr/local/include/libnm/nm-core-enum-types.h
 /usr/local/include/libnm/nm-core-types.h
@@ -18,6 +19,7 @@
 /usr/local/include/libnm/nm-device-generic.h
 /usr/local/include/libnm/nm-device-infiniband.h
 /usr/local/include/libnm/nm-device-ip-tunnel.h
+/usr/local/include/libnm/nm-device-loopback.h
 /usr/local/include/libnm/nm-device-macsec.h
 /usr/local/include/libnm/nm-device-macvlan.h
 /usr/local/include/libnm/nm-device-modem.h
@@ -28,6 +30,7 @@
 /usr/local/include/libnm/nm-device-ppp.h
 /usr/local/include/libnm/nm-device-team.h
 /usr/local/include/libnm/nm-device-tun.h
+/usr/local/include/libnm/nm-device-veth.h
 /usr/local/include/libnm/nm-device-vlan.h
 /usr/local/include/libnm/nm-device-vrf.h
 /usr/local/include/libnm/nm-device-vxlan.h
@@ -40,7 +43,9 @@
 /usr/local/include/libnm/nm-dhcp-config.h
 /usr/local/include/libnm/nm-enum-types.h
 /usr/local/include/libnm/nm-errors.h
+/usr/local/include/libnm/nm-ethtool-utils.h
 /usr/local/include/libnm/nm-ip-config.h
+/usr/local/include/libnm/nm-keyfile.h
 /usr/local/include/libnm/nm-object.h
 /usr/local/include/libnm/nm-remote-connection.h
 /usr/local/include/libnm/nm-secret-agent-old.h
@@ -48,6 +53,7 @@
 /usr/local/include/libnm/nm-setting-8021x.h
 /usr/local/include/libnm/nm-setting-adsl.h
 /usr/local/include/libnm/nm-setting-bluetooth.h
+/usr/local/include/libnm/nm-setting-bond-port.h
 /usr/local/include/libnm/nm-setting-bond.h
 /usr/local/include/libnm/nm-setting-bridge-port.h
 /usr/local/include/libnm/nm-setting-bridge.h
@@ -58,18 +64,23 @@
 /usr/local/include/libnm/nm-setting-ethtool.h
 /usr/local/include/libnm/nm-setting-generic.h
 /usr/local/include/libnm/nm-setting-gsm.h
+/usr/local/include/libnm/nm-setting-hostname.h
 /usr/local/include/libnm/nm-setting-infiniband.h
 /usr/local/include/libnm/nm-setting-ip-config.h
 /usr/local/include/libnm/nm-setting-ip-tunnel.h
 /usr/local/include/libnm/nm-setting-ip4-config.h
 /usr/local/include/libnm/nm-setting-ip6-config.h
+/usr/local/include/libnm/nm-setting-link.h
+/usr/local/include/libnm/nm-setting-loopback.h
 /usr/local/include/libnm/nm-setting-macsec.h
 /usr/local/include/libnm/nm-setting-macvlan.h
 /usr/local/include/libnm/nm-setting-match.h
 /usr/local/include/libnm/nm-setting-olpc-mesh.h
 /usr/local/include/libnm/nm-setting-ovs-bridge.h
 /usr/local/include/libnm/nm-setting-ovs-dpdk.h
+/usr/local/include/libnm/nm-setting-ovs-external-ids.h
 /usr/local/include/libnm/nm-setting-ovs-interface.h
+/usr/local/include/libnm/nm-setting-ovs-other-config.h
 /usr/local/include/libnm/nm-setting-ovs-patch.h
 /usr/local/include/libnm/nm-setting-ovs-port.h
 /usr/local/include/libnm/nm-setting-ppp.h
@@ -82,6 +93,7 @@
 /usr/local/include/libnm/nm-setting-team.h
 /usr/local/include/libnm/nm-setting-tun.h
 /usr/local/include/libnm/nm-setting-user.h
+/usr/local/include/libnm/nm-setting-veth.h
 /usr/local/include/libnm/nm-setting-vlan.h
 /usr/local/include/libnm/nm-setting-vpn.h
 /usr/local/include/libnm/nm-setting-vrf.h
@@ -95,7 +107,6 @@
 /usr/local/include/libnm/nm-setting-wpan.h
 /usr/local/include/libnm/nm-setting.h
 /usr/local/include/libnm/nm-simple-connection.h
-/usr/local/include/libnm/nm-types.h
 /usr/local/include/libnm/nm-utils.h
 /usr/local/include/libnm/nm-version-macros.h
 /usr/local/include/libnm/nm-version.h

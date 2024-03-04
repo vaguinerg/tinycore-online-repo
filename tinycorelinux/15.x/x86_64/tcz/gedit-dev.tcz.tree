@@ -1,7 +1,7 @@
 gedit-dev.tcz
    gedit.tcz
       tepl6.tcz
-         gtksourceview4.tcz
+         libgedit-gtksourceview.tcz
             gtk3.tcz
                libepoxy.tcz
                at-spi2-core.tcz
@@ -12,6 +12,10 @@ gedit-dev.tcz
                            attr.tcz
                         libcap.tcz
                            attr.tcz
+                        util-linux.tcz
+                           readline.tcz
+                              ncursesw.tcz
+                           udev-lib.tcz
                   glib2.tcz
                      libffi.tcz
                      pcre21042.tcz
@@ -144,8 +148,6 @@ gedit-dev.tcz
                      expat2.tcz
                      libxml2.tcz
                         liblzma.tcz
-            libxml2.tcz
-               liblzma.tcz
          amtk.tcz
             gtk3.tcz
                libepoxy.tcz
@@ -157,6 +159,10 @@ gedit-dev.tcz
                            attr.tcz
                         libcap.tcz
                            attr.tcz
+                        util-linux.tcz
+                           readline.tcz
+                              ncursesw.tcz
+                           udev-lib.tcz
                   glib2.tcz
                      libffi.tcz
                      pcre21042.tcz
@@ -289,6 +295,7 @@ gedit-dev.tcz
                      expat2.tcz
                      libxml2.tcz
                         liblzma.tcz
+         icu74.tcz
       libpeas.tcz
          gtk3.tcz
             libepoxy.tcz
@@ -300,6 +307,10 @@ gedit-dev.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
@@ -456,6 +467,10 @@ gedit-dev.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
@@ -616,6 +631,10 @@ gedit-dev.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
@@ -835,10 +854,9 @@ gedit-dev.tcz
                         liblzma.tcz
                   gdk-pixbuf2-xlib.tcz
             hicolor-icon-theme.tcz
-      icu67.tcz
    tepl6-dev.tcz
       tepl6.tcz
-         gtksourceview4.tcz
+         libgedit-gtksourceview.tcz
             gtk3.tcz
                libepoxy.tcz
                at-spi2-core.tcz
@@ -849,6 +867,10 @@ gedit-dev.tcz
                            attr.tcz
                         libcap.tcz
                            attr.tcz
+                        util-linux.tcz
+                           readline.tcz
+                              ncursesw.tcz
+                           udev-lib.tcz
                   glib2.tcz
                      libffi.tcz
                      pcre21042.tcz
@@ -981,8 +1003,6 @@ gedit-dev.tcz
                      expat2.tcz
                      libxml2.tcz
                         liblzma.tcz
-            libxml2.tcz
-               liblzma.tcz
          amtk.tcz
             gtk3.tcz
                libepoxy.tcz
@@ -994,6 +1014,10 @@ gedit-dev.tcz
                            attr.tcz
                         libcap.tcz
                            attr.tcz
+                        util-linux.tcz
+                           readline.tcz
+                              ncursesw.tcz
+                           udev-lib.tcz
                   glib2.tcz
                      libffi.tcz
                      pcre21042.tcz
@@ -1126,152 +1150,9 @@ gedit-dev.tcz
                      expat2.tcz
                      libxml2.tcz
                         liblzma.tcz
-      gtksourceview4-dev.tcz
-         gtksourceview4.tcz
-            gtk3.tcz
-               libepoxy.tcz
-               at-spi2-core.tcz
-                  dbus.tcz
-                     expat2.tcz
-                     elogind.tcz
-                        acl.tcz
-                           attr.tcz
-                        libcap.tcz
-                           attr.tcz
-                  glib2.tcz
-                     libffi.tcz
-                     pcre21042.tcz
-                  libXi.tcz
-                     libXext.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                  libXtst.tcz
-                     libXi.tcz
-                        libXext.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-               gdk-pixbuf2.tcz
-                  libtiff.tcz
-                     libjpeg-turbo.tcz
-                     liblzma.tcz
-                     libzstd.tcz
-                  libpng.tcz
-                  libX11.tcz
-                     libxcb.tcz
-                        libXau.tcz
-                        libXdmcp.tcz
-                  shared-mime-info.tcz
-                     glib2.tcz
-                        libffi.tcz
-                        pcre21042.tcz
-                     libxml2.tcz
-                        liblzma.tcz
-                  gdk-pixbuf2-xlib.tcz
-               libXcomposite.tcz
-                  libX11.tcz
-                     libxcb.tcz
-                        libXau.tcz
-                        libXdmcp.tcz
-               pango.tcz
-                  cairo.tcz
-                     glib2.tcz
-                        libffi.tcz
-                        pcre21042.tcz
-                     fontconfig.tcz
-                        expat2.tcz
-                        freetype.tcz
-                           libpng.tcz
-                           harfbuzz.tcz
-                              glib2.tcz
-                                 libffi.tcz
-                                 pcre21042.tcz
-                              graphite.tcz
-                           bzip2-lib.tcz
-                     pixman.tcz
-                     libpng.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-                  libXft.tcz
-                     fontconfig.tcz
-                        expat2.tcz
-                        freetype.tcz
-                           libpng.tcz
-                           harfbuzz.tcz
-                              glib2.tcz
-                                 libffi.tcz
-                                 pcre21042.tcz
-                              graphite.tcz
-                           bzip2-lib.tcz
-                     freetype.tcz
-                        libpng.tcz
-                        harfbuzz.tcz
-                           glib2.tcz
-                              libffi.tcz
-                              pcre21042.tcz
-                           graphite.tcz
-                        bzip2-lib.tcz
-                     libXrender.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                  fribidi.tcz
-                     glib2.tcz
-                        libffi.tcz
-                        pcre21042.tcz
-               libXcursor.tcz
-                  libXrender.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-                  libXfixes.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-               libXinerama.tcz
-                  libXext.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-               libXrandr.tcz
-                  libXext.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-                  libXrender.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-               libXi.tcz
-                  libXext.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-               libxkbcommon.tcz
-                  xkeyboard-config.tcz
-                  libxcb.tcz
-                     libXau.tcz
-                     libXdmcp.tcz
-               wayland-protocols.tcz
-                  wayland.tcz
-                     libffi.tcz
-                     expat2.tcz
-                     libxml2.tcz
-                        liblzma.tcz
-            libxml2.tcz
-               liblzma.tcz
+         icu74.tcz
+      libgedit-gtksourceview-dev.tcz
+         libgedit-gtksourceviewtcz
          gtk3-dev.tcz
             gtk3.tcz
                libepoxy.tcz
@@ -1283,6 +1164,10 @@ gedit-dev.tcz
                            attr.tcz
                         libcap.tcz
                            attr.tcz
+                        util-linux.tcz
+                           readline.tcz
+                              ncursesw.tcz
+                           udev-lib.tcz
                   glib2.tcz
                      libffi.tcz
                      pcre21042.tcz
@@ -1817,6 +1702,10 @@ gedit-dev.tcz
                            attr.tcz
                         libcap.tcz
                            attr.tcz
+                        util-linux.tcz
+                           readline.tcz
+                              ncursesw.tcz
+                           udev-lib.tcz
                   glib2.tcz
                      libffi.tcz
                      pcre21042.tcz
@@ -1841,6 +1730,10 @@ gedit-dev.tcz
                            attr.tcz
                         libcap.tcz
                            attr.tcz
+                        util-linux.tcz
+                           readline.tcz
+                              ncursesw.tcz
+                           udev-lib.tcz
                   Xorg-7.7-dev.tcz
                      makedepend.tcz
                      libFS-dev.tcz
@@ -2814,6 +2707,10 @@ gedit-dev.tcz
                            attr.tcz
                         libcap.tcz
                            attr.tcz
+                        util-linux.tcz
+                           readline.tcz
+                              ncursesw.tcz
+                           udev-lib.tcz
                      acl-dev.tcz
                         acl.tcz
                            attr.tcz
@@ -2824,6 +2721,18 @@ gedit-dev.tcz
                            attr.tcz
                         attr-dev.tcz
                            attr.tcz
+                     util-linux-dev.tcz
+                        util-linux.tcz
+                           readline.tcz
+                              ncursesw.tcz
+                           udev-lib.tcz
+                        readline-dev.tcz
+                           readline.tcz
+                              ncursesw.tcz
+                           ncursesw-dev.tcz
+                              ncursesw.tcz
+                        udev-lib-dev.tcz
+                           udev-lib.tcz
                glib2-dev.tcz
                   glib2-python.tcz
                      glib2.tcz
@@ -3308,15 +3217,17 @@ gedit-dev.tcz
                         glib2.tcz
                            libffi.tcz
                            pcre21042.tcz
-                        gnutls35.tcz
+                        openssl.tcz
+                        gnutls38.tcz
                            p11-kit.tcz
                               libffi.tcz
                               libtasn1-4.tcz
-                           nettle3.tcz
+                           nettle39.tcz
                               gmp.tcz
                            libidn2.tcz
                               libunistring.tcz
                               ncursesw.tcz
+                           libzstd.tcz
                      libxml2.tcz
                         liblzma.tcz
                      sqlite3.tcz
@@ -3330,15 +3241,17 @@ gedit-dev.tcz
                         glib2.tcz
                            libffi.tcz
                            pcre21042.tcz
-                        gnutls35.tcz
+                        openssl.tcz
+                        gnutls38.tcz
                            p11-kit.tcz
                               libffi.tcz
                               libtasn1-4.tcz
-                           nettle3.tcz
+                           nettle39.tcz
                               gmp.tcz
                            libidn2.tcz
                               libunistring.tcz
                               ncursesw.tcz
+                           libzstd.tcz
                      libxml2.tcz
                         liblzma.tcz
                      sqlite3.tcz
@@ -3409,6 +3322,10 @@ gedit-dev.tcz
                                     attr.tcz
                                  libcap.tcz
                                     attr.tcz
+                                 util-linux.tcz
+                                    readline.tcz
+                                       ncursesw.tcz
+                                    udev-lib.tcz
                            gcc_libs.tcz
                            glib2.tcz
                               libffi.tcz
@@ -3442,6 +3359,10 @@ gedit-dev.tcz
                               attr.tcz
                            libcap.tcz
                               attr.tcz
+                           util-linux.tcz
+                              readline.tcz
+                                 ncursesw.tcz
+                              udev-lib.tcz
                      linux-pam.tcz
                lcms2-dev.tcz
                   liblcms2.tcz
@@ -3832,6 +3753,10 @@ gedit-dev.tcz
                                     attr.tcz
                                  libcap.tcz
                                     attr.tcz
+                                 util-linux.tcz
+                                    readline.tcz
+                                       ncursesw.tcz
+                                    udev-lib.tcz
                            gcc_libs.tcz
                            glib2.tcz
                               libffi.tcz
@@ -3865,6 +3790,10 @@ gedit-dev.tcz
                                        attr.tcz
                                     libcap.tcz
                                        attr.tcz
+                                    util-linux.tcz
+                                       readline.tcz
+                                          ncursesw.tcz
+                                       udev-lib.tcz
                               gcc_libs.tcz
                               glib2.tcz
                                  libffi.tcz
@@ -3885,6 +3814,10 @@ gedit-dev.tcz
                                  attr.tcz
                               libcap.tcz
                                  attr.tcz
+                              util-linux.tcz
+                                 readline.tcz
+                                    ncursesw.tcz
+                                 udev-lib.tcz
                         cups-filters.tcz
                            libpoppler07.tcz
                               liblcms2.tcz
@@ -3941,6 +3874,10 @@ gedit-dev.tcz
                                        attr.tcz
                                     libcap.tcz
                                        attr.tcz
+                                    util-linux.tcz
+                                       readline.tcz
+                                          ncursesw.tcz
+                                       udev-lib.tcz
                               gcc_libs.tcz
                               glib2.tcz
                                  libffi.tcz
@@ -3955,6 +3892,10 @@ gedit-dev.tcz
                                     attr.tcz
                                  libcap.tcz
                                     attr.tcz
+                                 util-linux.tcz
+                                    readline.tcz
+                                       ncursesw.tcz
+                                    udev-lib.tcz
                            Xorg-7.7-dev.tcz
                               makedepend.tcz
                               libFS-dev.tcz
@@ -4928,6 +4869,10 @@ gedit-dev.tcz
                                     attr.tcz
                                  libcap.tcz
                                     attr.tcz
+                                 util-linux.tcz
+                                    readline.tcz
+                                       ncursesw.tcz
+                                    udev-lib.tcz
                               acl-dev.tcz
                                  acl.tcz
                                     attr.tcz
@@ -4938,6 +4883,18 @@ gedit-dev.tcz
                                     attr.tcz
                                  attr-dev.tcz
                                     attr.tcz
+                              util-linux-dev.tcz
+                                 util-linux.tcz
+                                    readline.tcz
+                                       ncursesw.tcz
+                                    udev-lib.tcz
+                                 readline-dev.tcz
+                                    readline.tcz
+                                       ncursesw.tcz
+                                    ncursesw-dev.tcz
+                                       ncursesw.tcz
+                                 udev-lib-dev.tcz
+                                    udev-lib.tcz
                         gcc_libs-dev.tcz
                            gcc_libs.tcz
                         glib2-dev.tcz
@@ -5342,6 +5299,10 @@ gedit-dev.tcz
                               attr.tcz
                            libcap.tcz
                               attr.tcz
+                           util-linux.tcz
+                              readline.tcz
+                                 ncursesw.tcz
+                              udev-lib.tcz
                      linux-pam.tcz
                   glib2-dev.tcz
                      glib2-python.tcz
@@ -5389,6 +5350,10 @@ gedit-dev.tcz
                            attr.tcz
                         libcap.tcz
                            attr.tcz
+                        util-linux.tcz
+                           readline.tcz
+                              ncursesw.tcz
+                           udev-lib.tcz
                      acl-dev.tcz
                         acl.tcz
                            attr.tcz
@@ -5399,6 +5364,18 @@ gedit-dev.tcz
                            attr.tcz
                         attr-dev.tcz
                            attr.tcz
+                     util-linux-dev.tcz
+                        util-linux.tcz
+                           readline.tcz
+                              ncursesw.tcz
+                           udev-lib.tcz
+                        readline-dev.tcz
+                           readline.tcz
+                              ncursesw.tcz
+                           ncursesw-dev.tcz
+                              ncursesw.tcz
+                        udev-lib-dev.tcz
+                           udev-lib.tcz
             json-glib-dev.tcz
                json-glib.tcz
                   glib2.tcz
@@ -5448,24 +5425,6 @@ gedit-dev.tcz
                      xorg-proto.tcz
                         util-macros.tcz
                            m4.tcz
-         libxml2-dev.tcz
-            libxml2-bin.tcz
-               libxml2.tcz
-                  liblzma.tcz
-            libxml2-python.tcz
-               libxml2.tcz
-                  liblzma.tcz
-               python3.9.tcz
-                  openssl.tcz
-                  sqlite3.tcz
-                  gdbm.tcz
-                  bzip2-lib.tcz
-                  liblzma.tcz
-                  readline.tcz
-                     ncursesw.tcz
-                  libffi.tcz
-            liblzma-dev.tcz
-               liblzma.tcz
       amtk-dev.tcz
          amtk.tcz
             gtk3.tcz
@@ -5478,6 +5437,10 @@ gedit-dev.tcz
                            attr.tcz
                         libcap.tcz
                            attr.tcz
+                        util-linux.tcz
+                           readline.tcz
+                              ncursesw.tcz
+                           udev-lib.tcz
                   glib2.tcz
                      libffi.tcz
                      pcre21042.tcz
@@ -5621,6 +5584,10 @@ gedit-dev.tcz
                            attr.tcz
                         libcap.tcz
                            attr.tcz
+                        util-linux.tcz
+                           readline.tcz
+                              ncursesw.tcz
+                           udev-lib.tcz
                   glib2.tcz
                      libffi.tcz
                      pcre21042.tcz
@@ -6155,6 +6122,10 @@ gedit-dev.tcz
                            attr.tcz
                         libcap.tcz
                            attr.tcz
+                        util-linux.tcz
+                           readline.tcz
+                              ncursesw.tcz
+                           udev-lib.tcz
                   glib2.tcz
                      libffi.tcz
                      pcre21042.tcz
@@ -6179,6 +6150,10 @@ gedit-dev.tcz
                            attr.tcz
                         libcap.tcz
                            attr.tcz
+                        util-linux.tcz
+                           readline.tcz
+                              ncursesw.tcz
+                           udev-lib.tcz
                   Xorg-7.7-dev.tcz
                      makedepend.tcz
                      libFS-dev.tcz
@@ -7152,6 +7127,10 @@ gedit-dev.tcz
                            attr.tcz
                         libcap.tcz
                            attr.tcz
+                        util-linux.tcz
+                           readline.tcz
+                              ncursesw.tcz
+                           udev-lib.tcz
                      acl-dev.tcz
                         acl.tcz
                            attr.tcz
@@ -7162,6 +7141,18 @@ gedit-dev.tcz
                            attr.tcz
                         attr-dev.tcz
                            attr.tcz
+                     util-linux-dev.tcz
+                        util-linux.tcz
+                           readline.tcz
+                              ncursesw.tcz
+                           udev-lib.tcz
+                        readline-dev.tcz
+                           readline.tcz
+                              ncursesw.tcz
+                           ncursesw-dev.tcz
+                              ncursesw.tcz
+                        udev-lib-dev.tcz
+                           udev-lib.tcz
                glib2-dev.tcz
                   glib2-python.tcz
                      glib2.tcz
@@ -7646,15 +7637,17 @@ gedit-dev.tcz
                         glib2.tcz
                            libffi.tcz
                            pcre21042.tcz
-                        gnutls35.tcz
+                        openssl.tcz
+                        gnutls38.tcz
                            p11-kit.tcz
                               libffi.tcz
                               libtasn1-4.tcz
-                           nettle3.tcz
+                           nettle39.tcz
                               gmp.tcz
                            libidn2.tcz
                               libunistring.tcz
                               ncursesw.tcz
+                           libzstd.tcz
                      libxml2.tcz
                         liblzma.tcz
                      sqlite3.tcz
@@ -7668,15 +7661,17 @@ gedit-dev.tcz
                         glib2.tcz
                            libffi.tcz
                            pcre21042.tcz
-                        gnutls35.tcz
+                        openssl.tcz
+                        gnutls38.tcz
                            p11-kit.tcz
                               libffi.tcz
                               libtasn1-4.tcz
-                           nettle3.tcz
+                           nettle39.tcz
                               gmp.tcz
                            libidn2.tcz
                               libunistring.tcz
                               ncursesw.tcz
+                           libzstd.tcz
                      libxml2.tcz
                         liblzma.tcz
                      sqlite3.tcz
@@ -7747,6 +7742,10 @@ gedit-dev.tcz
                                     attr.tcz
                                  libcap.tcz
                                     attr.tcz
+                                 util-linux.tcz
+                                    readline.tcz
+                                       ncursesw.tcz
+                                    udev-lib.tcz
                            gcc_libs.tcz
                            glib2.tcz
                               libffi.tcz
@@ -7780,6 +7779,10 @@ gedit-dev.tcz
                               attr.tcz
                            libcap.tcz
                               attr.tcz
+                           util-linux.tcz
+                              readline.tcz
+                                 ncursesw.tcz
+                              udev-lib.tcz
                      linux-pam.tcz
                lcms2-dev.tcz
                   liblcms2.tcz
@@ -8170,6 +8173,10 @@ gedit-dev.tcz
                                     attr.tcz
                                  libcap.tcz
                                     attr.tcz
+                                 util-linux.tcz
+                                    readline.tcz
+                                       ncursesw.tcz
+                                    udev-lib.tcz
                            gcc_libs.tcz
                            glib2.tcz
                               libffi.tcz
@@ -8203,6 +8210,10 @@ gedit-dev.tcz
                                        attr.tcz
                                     libcap.tcz
                                        attr.tcz
+                                    util-linux.tcz
+                                       readline.tcz
+                                          ncursesw.tcz
+                                       udev-lib.tcz
                               gcc_libs.tcz
                               glib2.tcz
                                  libffi.tcz
@@ -8223,6 +8234,10 @@ gedit-dev.tcz
                                  attr.tcz
                               libcap.tcz
                                  attr.tcz
+                              util-linux.tcz
+                                 readline.tcz
+                                    ncursesw.tcz
+                                 udev-lib.tcz
                         cups-filters.tcz
                            libpoppler07.tcz
                               liblcms2.tcz
@@ -8279,6 +8294,10 @@ gedit-dev.tcz
                                        attr.tcz
                                     libcap.tcz
                                        attr.tcz
+                                    util-linux.tcz
+                                       readline.tcz
+                                          ncursesw.tcz
+                                       udev-lib.tcz
                               gcc_libs.tcz
                               glib2.tcz
                                  libffi.tcz
@@ -8293,6 +8312,10 @@ gedit-dev.tcz
                                     attr.tcz
                                  libcap.tcz
                                     attr.tcz
+                                 util-linux.tcz
+                                    readline.tcz
+                                       ncursesw.tcz
+                                    udev-lib.tcz
                            Xorg-7.7-dev.tcz
                               makedepend.tcz
                               libFS-dev.tcz
@@ -9266,6 +9289,10 @@ gedit-dev.tcz
                                     attr.tcz
                                  libcap.tcz
                                     attr.tcz
+                                 util-linux.tcz
+                                    readline.tcz
+                                       ncursesw.tcz
+                                    udev-lib.tcz
                               acl-dev.tcz
                                  acl.tcz
                                     attr.tcz
@@ -9276,6 +9303,18 @@ gedit-dev.tcz
                                     attr.tcz
                                  attr-dev.tcz
                                     attr.tcz
+                              util-linux-dev.tcz
+                                 util-linux.tcz
+                                    readline.tcz
+                                       ncursesw.tcz
+                                    udev-lib.tcz
+                                 readline-dev.tcz
+                                    readline.tcz
+                                       ncursesw.tcz
+                                    ncursesw-dev.tcz
+                                       ncursesw.tcz
+                                 udev-lib-dev.tcz
+                                    udev-lib.tcz
                         gcc_libs-dev.tcz
                            gcc_libs.tcz
                         glib2-dev.tcz
@@ -9680,6 +9719,10 @@ gedit-dev.tcz
                               attr.tcz
                            libcap.tcz
                               attr.tcz
+                           util-linux.tcz
+                              readline.tcz
+                                 ncursesw.tcz
+                              udev-lib.tcz
                      linux-pam.tcz
                   glib2-dev.tcz
                      glib2-python.tcz
@@ -9727,6 +9770,10 @@ gedit-dev.tcz
                            attr.tcz
                         libcap.tcz
                            attr.tcz
+                        util-linux.tcz
+                           readline.tcz
+                              ncursesw.tcz
+                           udev-lib.tcz
                      acl-dev.tcz
                         acl.tcz
                            attr.tcz
@@ -9737,6 +9784,18 @@ gedit-dev.tcz
                            attr.tcz
                         attr-dev.tcz
                            attr.tcz
+                     util-linux-dev.tcz
+                        util-linux.tcz
+                           readline.tcz
+                              ncursesw.tcz
+                           udev-lib.tcz
+                        readline-dev.tcz
+                           readline.tcz
+                              ncursesw.tcz
+                           ncursesw-dev.tcz
+                              ncursesw.tcz
+                        udev-lib-dev.tcz
+                           udev-lib.tcz
             json-glib-dev.tcz
                json-glib.tcz
                   glib2.tcz
@@ -9786,6 +9845,9 @@ gedit-dev.tcz
                      xorg-proto.tcz
                         util-macros.tcz
                            m4.tcz
+      icu74-dev.tcz
+         icu74-bin.tcz
+            icu74.tcz
    libpeas-dev.tcz
       libpeas.tcz
          gtk3.tcz
@@ -9798,6 +9860,10 @@ gedit-dev.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
@@ -9954,6 +10020,10 @@ gedit-dev.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
@@ -10488,6 +10558,10 @@ gedit-dev.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
@@ -10512,6 +10586,10 @@ gedit-dev.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                Xorg-7.7-dev.tcz
                   makedepend.tcz
                   libFS-dev.tcz
@@ -11485,6 +11563,10 @@ gedit-dev.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                   acl-dev.tcz
                      acl.tcz
                         attr.tcz
@@ -11495,6 +11577,18 @@ gedit-dev.tcz
                         attr.tcz
                      attr-dev.tcz
                         attr.tcz
+                  util-linux-dev.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
+                     readline-dev.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        ncursesw-dev.tcz
+                           ncursesw.tcz
+                     udev-lib-dev.tcz
+                        udev-lib.tcz
             glib2-dev.tcz
                glib2-python.tcz
                   glib2.tcz
@@ -11979,15 +12073,17 @@ gedit-dev.tcz
                      glib2.tcz
                         libffi.tcz
                         pcre21042.tcz
-                     gnutls35.tcz
+                     openssl.tcz
+                     gnutls38.tcz
                         p11-kit.tcz
                            libffi.tcz
                            libtasn1-4.tcz
-                        nettle3.tcz
+                        nettle39.tcz
                            gmp.tcz
                         libidn2.tcz
                            libunistring.tcz
                            ncursesw.tcz
+                        libzstd.tcz
                   libxml2.tcz
                      liblzma.tcz
                   sqlite3.tcz
@@ -12001,15 +12097,17 @@ gedit-dev.tcz
                      glib2.tcz
                         libffi.tcz
                         pcre21042.tcz
-                     gnutls35.tcz
+                     openssl.tcz
+                     gnutls38.tcz
                         p11-kit.tcz
                            libffi.tcz
                            libtasn1-4.tcz
-                        nettle3.tcz
+                        nettle39.tcz
                            gmp.tcz
                         libidn2.tcz
                            libunistring.tcz
                            ncursesw.tcz
+                        libzstd.tcz
                   libxml2.tcz
                      liblzma.tcz
                   sqlite3.tcz
@@ -12080,6 +12178,10 @@ gedit-dev.tcz
                                  attr.tcz
                               libcap.tcz
                                  attr.tcz
+                              util-linux.tcz
+                                 readline.tcz
+                                    ncursesw.tcz
+                                 udev-lib.tcz
                         gcc_libs.tcz
                         glib2.tcz
                            libffi.tcz
@@ -12113,6 +12215,10 @@ gedit-dev.tcz
                            attr.tcz
                         libcap.tcz
                            attr.tcz
+                        util-linux.tcz
+                           readline.tcz
+                              ncursesw.tcz
+                           udev-lib.tcz
                   linux-pam.tcz
             lcms2-dev.tcz
                liblcms2.tcz
@@ -12503,6 +12609,10 @@ gedit-dev.tcz
                                  attr.tcz
                               libcap.tcz
                                  attr.tcz
+                              util-linux.tcz
+                                 readline.tcz
+                                    ncursesw.tcz
+                                 udev-lib.tcz
                         gcc_libs.tcz
                         glib2.tcz
                            libffi.tcz
@@ -12536,6 +12646,10 @@ gedit-dev.tcz
                                     attr.tcz
                                  libcap.tcz
                                     attr.tcz
+                                 util-linux.tcz
+                                    readline.tcz
+                                       ncursesw.tcz
+                                    udev-lib.tcz
                            gcc_libs.tcz
                            glib2.tcz
                               libffi.tcz
@@ -12556,6 +12670,10 @@ gedit-dev.tcz
                               attr.tcz
                            libcap.tcz
                               attr.tcz
+                           util-linux.tcz
+                              readline.tcz
+                                 ncursesw.tcz
+                              udev-lib.tcz
                      cups-filters.tcz
                         libpoppler07.tcz
                            liblcms2.tcz
@@ -12612,6 +12730,10 @@ gedit-dev.tcz
                                     attr.tcz
                                  libcap.tcz
                                     attr.tcz
+                                 util-linux.tcz
+                                    readline.tcz
+                                       ncursesw.tcz
+                                    udev-lib.tcz
                            gcc_libs.tcz
                            glib2.tcz
                               libffi.tcz
@@ -12626,6 +12748,10 @@ gedit-dev.tcz
                                  attr.tcz
                               libcap.tcz
                                  attr.tcz
+                              util-linux.tcz
+                                 readline.tcz
+                                    ncursesw.tcz
+                                 udev-lib.tcz
                         Xorg-7.7-dev.tcz
                            makedepend.tcz
                            libFS-dev.tcz
@@ -13599,6 +13725,10 @@ gedit-dev.tcz
                                  attr.tcz
                               libcap.tcz
                                  attr.tcz
+                              util-linux.tcz
+                                 readline.tcz
+                                    ncursesw.tcz
+                                 udev-lib.tcz
                            acl-dev.tcz
                               acl.tcz
                                  attr.tcz
@@ -13609,6 +13739,18 @@ gedit-dev.tcz
                                  attr.tcz
                               attr-dev.tcz
                                  attr.tcz
+                           util-linux-dev.tcz
+                              util-linux.tcz
+                                 readline.tcz
+                                    ncursesw.tcz
+                                 udev-lib.tcz
+                              readline-dev.tcz
+                                 readline.tcz
+                                    ncursesw.tcz
+                                 ncursesw-dev.tcz
+                                    ncursesw.tcz
+                              udev-lib-dev.tcz
+                                 udev-lib.tcz
                      gcc_libs-dev.tcz
                         gcc_libs.tcz
                      glib2-dev.tcz
@@ -14013,6 +14155,10 @@ gedit-dev.tcz
                            attr.tcz
                         libcap.tcz
                            attr.tcz
+                        util-linux.tcz
+                           readline.tcz
+                              ncursesw.tcz
+                           udev-lib.tcz
                   linux-pam.tcz
                glib2-dev.tcz
                   glib2-python.tcz
@@ -14060,6 +14206,10 @@ gedit-dev.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                   acl-dev.tcz
                      acl.tcz
                         attr.tcz
@@ -14070,6 +14220,18 @@ gedit-dev.tcz
                         attr.tcz
                      attr-dev.tcz
                         attr.tcz
+                  util-linux-dev.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
+                     readline-dev.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        ncursesw-dev.tcz
+                           ncursesw.tcz
+                     udev-lib-dev.tcz
+                        udev-lib.tcz
          json-glib-dev.tcz
             json-glib.tcz
                glib2.tcz
@@ -14131,6 +14293,10 @@ gedit-dev.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
@@ -14287,6 +14453,10 @@ gedit-dev.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
@@ -14821,6 +14991,10 @@ gedit-dev.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
@@ -14845,6 +15019,10 @@ gedit-dev.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                Xorg-7.7-dev.tcz
                   makedepend.tcz
                   libFS-dev.tcz
@@ -15818,6 +15996,10 @@ gedit-dev.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                   acl-dev.tcz
                      acl.tcz
                         attr.tcz
@@ -15828,6 +16010,18 @@ gedit-dev.tcz
                         attr.tcz
                      attr-dev.tcz
                         attr.tcz
+                  util-linux-dev.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
+                     readline-dev.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        ncursesw-dev.tcz
+                           ncursesw.tcz
+                     udev-lib-dev.tcz
+                        udev-lib.tcz
             glib2-dev.tcz
                glib2-python.tcz
                   glib2.tcz
@@ -16312,15 +16506,17 @@ gedit-dev.tcz
                      glib2.tcz
                         libffi.tcz
                         pcre21042.tcz
-                     gnutls35.tcz
+                     openssl.tcz
+                     gnutls38.tcz
                         p11-kit.tcz
                            libffi.tcz
                            libtasn1-4.tcz
-                        nettle3.tcz
+                        nettle39.tcz
                            gmp.tcz
                         libidn2.tcz
                            libunistring.tcz
                            ncursesw.tcz
+                        libzstd.tcz
                   libxml2.tcz
                      liblzma.tcz
                   sqlite3.tcz
@@ -16334,15 +16530,17 @@ gedit-dev.tcz
                      glib2.tcz
                         libffi.tcz
                         pcre21042.tcz
-                     gnutls35.tcz
+                     openssl.tcz
+                     gnutls38.tcz
                         p11-kit.tcz
                            libffi.tcz
                            libtasn1-4.tcz
-                        nettle3.tcz
+                        nettle39.tcz
                            gmp.tcz
                         libidn2.tcz
                            libunistring.tcz
                            ncursesw.tcz
+                        libzstd.tcz
                   libxml2.tcz
                      liblzma.tcz
                   sqlite3.tcz
@@ -16413,6 +16611,10 @@ gedit-dev.tcz
                                  attr.tcz
                               libcap.tcz
                                  attr.tcz
+                              util-linux.tcz
+                                 readline.tcz
+                                    ncursesw.tcz
+                                 udev-lib.tcz
                         gcc_libs.tcz
                         glib2.tcz
                            libffi.tcz
@@ -16446,6 +16648,10 @@ gedit-dev.tcz
                            attr.tcz
                         libcap.tcz
                            attr.tcz
+                        util-linux.tcz
+                           readline.tcz
+                              ncursesw.tcz
+                           udev-lib.tcz
                   linux-pam.tcz
             lcms2-dev.tcz
                liblcms2.tcz
@@ -16836,6 +17042,10 @@ gedit-dev.tcz
                                  attr.tcz
                               libcap.tcz
                                  attr.tcz
+                              util-linux.tcz
+                                 readline.tcz
+                                    ncursesw.tcz
+                                 udev-lib.tcz
                         gcc_libs.tcz
                         glib2.tcz
                            libffi.tcz
@@ -16869,6 +17079,10 @@ gedit-dev.tcz
                                     attr.tcz
                                  libcap.tcz
                                     attr.tcz
+                                 util-linux.tcz
+                                    readline.tcz
+                                       ncursesw.tcz
+                                    udev-lib.tcz
                            gcc_libs.tcz
                            glib2.tcz
                               libffi.tcz
@@ -16889,6 +17103,10 @@ gedit-dev.tcz
                               attr.tcz
                            libcap.tcz
                               attr.tcz
+                           util-linux.tcz
+                              readline.tcz
+                                 ncursesw.tcz
+                              udev-lib.tcz
                      cups-filters.tcz
                         libpoppler07.tcz
                            liblcms2.tcz
@@ -16945,6 +17163,10 @@ gedit-dev.tcz
                                     attr.tcz
                                  libcap.tcz
                                     attr.tcz
+                                 util-linux.tcz
+                                    readline.tcz
+                                       ncursesw.tcz
+                                    udev-lib.tcz
                            gcc_libs.tcz
                            glib2.tcz
                               libffi.tcz
@@ -16959,6 +17181,10 @@ gedit-dev.tcz
                                  attr.tcz
                               libcap.tcz
                                  attr.tcz
+                              util-linux.tcz
+                                 readline.tcz
+                                    ncursesw.tcz
+                                 udev-lib.tcz
                         Xorg-7.7-dev.tcz
                            makedepend.tcz
                            libFS-dev.tcz
@@ -17932,6 +18158,10 @@ gedit-dev.tcz
                                  attr.tcz
                               libcap.tcz
                                  attr.tcz
+                              util-linux.tcz
+                                 readline.tcz
+                                    ncursesw.tcz
+                                 udev-lib.tcz
                            acl-dev.tcz
                               acl.tcz
                                  attr.tcz
@@ -17942,6 +18172,18 @@ gedit-dev.tcz
                                  attr.tcz
                               attr-dev.tcz
                                  attr.tcz
+                           util-linux-dev.tcz
+                              util-linux.tcz
+                                 readline.tcz
+                                    ncursesw.tcz
+                                 udev-lib.tcz
+                              readline-dev.tcz
+                                 readline.tcz
+                                    ncursesw.tcz
+                                 ncursesw-dev.tcz
+                                    ncursesw.tcz
+                              udev-lib-dev.tcz
+                                 udev-lib.tcz
                      gcc_libs-dev.tcz
                         gcc_libs.tcz
                      glib2-dev.tcz
@@ -18346,6 +18588,10 @@ gedit-dev.tcz
                            attr.tcz
                         libcap.tcz
                            attr.tcz
+                        util-linux.tcz
+                           readline.tcz
+                              ncursesw.tcz
+                           udev-lib.tcz
                   linux-pam.tcz
                glib2-dev.tcz
                   glib2-python.tcz
@@ -18393,6 +18639,10 @@ gedit-dev.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                   acl-dev.tcz
                      acl.tcz
                         attr.tcz
@@ -18403,6 +18653,18 @@ gedit-dev.tcz
                         attr.tcz
                      attr-dev.tcz
                         attr.tcz
+                  util-linux-dev.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
+                     readline-dev.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        ncursesw-dev.tcz
+                           ncursesw.tcz
+                     udev-lib-dev.tcz
+                        udev-lib.tcz
          json-glib-dev.tcz
             json-glib.tcz
                glib2.tcz

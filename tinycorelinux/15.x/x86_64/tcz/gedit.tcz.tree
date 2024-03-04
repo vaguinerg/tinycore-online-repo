@@ -1,6 +1,6 @@
 gedit.tcz
    tepl6.tcz
-      gtksourceview4.tcz
+      libgedit-gtksourceview.tcz
          gtk3.tcz
             libepoxy.tcz
             at-spi2-core.tcz
@@ -11,6 +11,10 @@ gedit.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
@@ -143,8 +147,6 @@ gedit.tcz
                   expat2.tcz
                   libxml2.tcz
                      liblzma.tcz
-         libxml2.tcz
-            liblzma.tcz
       amtk.tcz
          gtk3.tcz
             libepoxy.tcz
@@ -156,6 +158,10 @@ gedit.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
@@ -288,6 +294,7 @@ gedit.tcz
                   expat2.tcz
                   libxml2.tcz
                      liblzma.tcz
+      icu74.tcz
    libpeas.tcz
       gtk3.tcz
          libepoxy.tcz
@@ -299,6 +306,10 @@ gedit.tcz
                      attr.tcz
                   libcap.tcz
                      attr.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
             glib2.tcz
                libffi.tcz
                pcre21042.tcz
@@ -455,6 +466,10 @@ gedit.tcz
                      attr.tcz
                   libcap.tcz
                      attr.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
             glib2.tcz
                libffi.tcz
                pcre21042.tcz
@@ -615,6 +630,10 @@ gedit.tcz
                      attr.tcz
                   libcap.tcz
                      attr.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
             glib2.tcz
                libffi.tcz
                pcre21042.tcz
@@ -834,5 +853,4 @@ gedit.tcz
                      liblzma.tcz
                gdk-pixbuf2-xlib.tcz
          hicolor-icon-theme.tcz
-   icu67.tcz
 

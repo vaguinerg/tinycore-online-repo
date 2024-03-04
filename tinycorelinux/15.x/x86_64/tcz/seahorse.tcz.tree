@@ -10,6 +10,10 @@ seahorse.tcz
                      attr.tcz
                   libcap.tcz
                      attr.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
             glib2.tcz
                libffi.tcz
                pcre21042.tcz
@@ -241,6 +245,10 @@ seahorse.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
@@ -488,20 +496,22 @@ seahorse.tcz
    gpgme.tcz
       libassuan.tcz
          libgpg-error.tcz
-   libsoup.tcz
+   libsoup3.tcz
       glib-networking.tcz
          glib2.tcz
             libffi.tcz
             pcre21042.tcz
-         gnutls35.tcz
+         openssl.tcz
+         gnutls38.tcz
             p11-kit.tcz
                libffi.tcz
                libtasn1-4.tcz
-            nettle3.tcz
+            nettle39.tcz
                gmp.tcz
             libidn2.tcz
                libunistring.tcz
                ncursesw.tcz
+            libzstd.tcz
       libxml2.tcz
          liblzma.tcz
       sqlite3.tcz
@@ -509,6 +519,7 @@ seahorse.tcz
          libidn2.tcz
             libunistring.tcz
             ncursesw.tcz
+      libnghttp2.tcz
    libsecret.tcz
       libgcrypt.tcz
          libgpg-error.tcz
@@ -523,6 +534,10 @@ seahorse.tcz
                attr.tcz
             libcap.tcz
                attr.tcz
+            util-linux.tcz
+               readline.tcz
+                  ncursesw.tcz
+               udev-lib.tcz
       gcc_libs.tcz
       glib2.tcz
          libffi.tcz
@@ -538,6 +553,10 @@ seahorse.tcz
                      attr.tcz
                   libcap.tcz
                      attr.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
             glib2.tcz
                libffi.tcz
                pcre21042.tcz

@@ -15,6 +15,10 @@ gnome-clocks.tcz
                      attr.tcz
                   libcap.tcz
                      attr.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
             glib2.tcz
                libffi.tcz
                pcre21042.tcz
@@ -154,20 +158,22 @@ gnome-clocks.tcz
             glib2.tcz
                libffi.tcz
                pcre21042.tcz
-         libsoup.tcz
+         libsoup3.tcz
             glib-networking.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
-               gnutls35.tcz
+               openssl.tcz
+               gnutls38.tcz
                   p11-kit.tcz
                      libffi.tcz
                      libtasn1-4.tcz
-                  nettle3.tcz
+                  nettle39.tcz
                      gmp.tcz
                   libidn2.tcz
                      libunistring.tcz
                      ncursesw.tcz
+                  libzstd.tcz
             libxml2.tcz
                liblzma.tcz
             sqlite3.tcz
@@ -175,6 +181,7 @@ gnome-clocks.tcz
                libidn2.tcz
                   libunistring.tcz
                   ncursesw.tcz
+            libnghttp2.tcz
       gtk3.tcz
          libepoxy.tcz
          at-spi2-core.tcz
@@ -185,6 +192,10 @@ gnome-clocks.tcz
                      attr.tcz
                   libcap.tcz
                      attr.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
             glib2.tcz
                libffi.tcz
                pcre21042.tcz
@@ -327,15 +338,17 @@ gnome-clocks.tcz
             glib2.tcz
                libffi.tcz
                pcre21042.tcz
-            gnutls35.tcz
+            openssl.tcz
+            gnutls38.tcz
                p11-kit.tcz
                   libffi.tcz
                   libtasn1-4.tcz
-               nettle3.tcz
+               nettle39.tcz
                   gmp.tcz
                libidn2.tcz
                   libunistring.tcz
                   ncursesw.tcz
+               libzstd.tcz
          libxml2.tcz
             liblzma.tcz
          sqlite3.tcz
@@ -351,6 +364,10 @@ gnome-clocks.tcz
                   attr.tcz
                libcap.tcz
                   attr.tcz
+               util-linux.tcz
+                  readline.tcz
+                     ncursesw.tcz
+                  udev-lib.tcz
          gcc_libs.tcz
          glib2.tcz
             libffi.tcz
@@ -372,14 +389,16 @@ gnome-clocks.tcz
                      attr.tcz
                   libcap.tcz
                      attr.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
             linux-pam.tcz
          libqmi.tcz
             libmbim.tcz
-               gudev-lib.tcz
-                  udev-lib.tcz
-                  glib2.tcz
-                     libffi.tcz
-                     pcre21042.tcz
+               glib2.tcz
+                  libffi.tcz
+                  pcre21042.tcz
       libnotify.tcz
          notification-daemon.tcz
             gtk3.tcz
@@ -392,6 +411,10 @@ gnome-clocks.tcz
                            attr.tcz
                         libcap.tcz
                            attr.tcz
+                        util-linux.tcz
+                           readline.tcz
+                              ncursesw.tcz
+                           udev-lib.tcz
                   glib2.tcz
                      libffi.tcz
                      pcre21042.tcz
@@ -538,6 +561,10 @@ gnome-clocks.tcz
                               attr.tcz
                            libcap.tcz
                               attr.tcz
+                           util-linux.tcz
+                              readline.tcz
+                                 ncursesw.tcz
+                              udev-lib.tcz
                      glib2.tcz
                         libffi.tcz
                         pcre21042.tcz
@@ -686,6 +713,10 @@ gnome-clocks.tcz
                         attr.tcz
                      libcap.tcz
                         attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
@@ -830,6 +861,10 @@ gnome-clocks.tcz
                      attr.tcz
                   libcap.tcz
                      attr.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
             glib2.tcz
                libffi.tcz
                pcre21042.tcz
