@@ -1,17 +1,18 @@
 Title:          fuse3.tcz
 Description:    filesystem in userspace
-Version:        3.9.2
+Version:        3.16.2
 Author:         see list of sites below
 Original-site:  see list of sites below
 Copying-policy: see list of sites below
-Size:		88KB
+Size:		92KB
 Extension_by:   juanito
 Tags:	        file system user
 Comments:       interface for userspace programs to export a virtual filesystem to the kernel
                 ----------
                 This extension contains:
-                fuse-3.9.2 - GPLv2 - https://github.com/libfuse/libfuse/releases/download/fuse-3.9.2/fuse-3.9.2.tar.xz
+                fuse-3.16.2 - GPLv2 - https://github.com/libfuse/libfuse/releases/download/fuse-3.16.2/fuse-3.16.2.tar.gz
                 ----------
 Change-log:     2013/12/15 first version
                 2016/01/23 Updated startup script (Curaga)
-Current:        2020/08/07 updated 2.9.3 -> 3.9.2, renamed
+                2020/08/07 updated 2.9.3 -> 3.9.2, renamed
+Current:        2024/03/09 updated 2.9.3 -> 3.16.2
