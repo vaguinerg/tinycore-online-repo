@@ -850,15 +850,6 @@ gnome-session.tcz
          libavif.tcz
             libaom.tcz
          libseccomp.tcz
-         gnutls35.tcz
-            p11-kit.tcz
-               libffi.tcz
-               libtasn1-4.tcz
-            nettle3.tcz
-               gmp.tcz
-            libidn2.tcz
-               libunistring.tcz
-               ncursesw.tcz
          gtk4.tcz
             libepoxy.tcz
             at-spi2-core.tcz
@@ -4655,7 +4646,8 @@ gnome-session.tcz
                         libICE.tcz
                         libSM.tcz
                      alsa.tcz
-                        alsa-modules-6.1.2-tinycore64.tcz
+                        alsa-modules-6.6.8-tinycore64.tcz
+                           input-joystick-6.6.8-tinycore64.tcz
                         libasound.tcz
                         ncursesw.tcz
                      udev-lib.tcz
@@ -5593,7 +5585,7 @@ gnome-session.tcz
                         readline.tcz
                            ncursesw.tcz
                         wireless_tools.tcz
-                           wireless-6.1.2-tinycore64.tcz
+                           wireless-6.6.8-tinycore64.tcz
                            libiw.tcz
                      dhcpcd.tcz
                      modemmanager.tcz
@@ -5643,7 +5635,7 @@ gnome-session.tcz
                               glib2.tcz
                                  libffi.tcz
                                  pcre21042.tcz
-                           bluetooth-6.1.2-tinycore64.tcz
+                           bluetooth-6.6.8-tinycore64.tcz
                            sbc.tcz
                            readline.tcz
                               ncursesw.tcz
@@ -5689,15 +5681,16 @@ gnome-session.tcz
                            glib2.tcz
                               libffi.tcz
                               pcre21042.tcz
-                     gnutls35.tcz
+                     gnutls38.tcz
                         p11-kit.tcz
                            libffi.tcz
                            libtasn1-4.tcz
-                        nettle3.tcz
+                        nettle39.tcz
                            gmp.tcz
                         libidn2.tcz
                            libunistring.tcz
                            ncursesw.tcz
+                        libzstd.tcz
                   gcr4.tcz
                      gtk4.tcz
                         libepoxy.tcz
@@ -6418,7 +6411,8 @@ gnome-session.tcz
                         libICE.tcz
                         libSM.tcz
                      alsa.tcz
-                        alsa-modules-6.1.2-tinycore64.tcz
+                        alsa-modules-6.6.8-tinycore64.tcz
+                           input-joystick-6.6.8-tinycore64.tcz
                         libasound.tcz
                         ncursesw.tcz
                      udev-lib.tcz
@@ -9156,15 +9150,6 @@ gnome-session.tcz
                      libavif.tcz
                         libaom.tcz
                      libseccomp.tcz
-                     gnutls35.tcz
-                        p11-kit.tcz
-                           libffi.tcz
-                           libtasn1-4.tcz
-                        nettle3.tcz
-                           gmp.tcz
-                        libidn2.tcz
-                           libunistring.tcz
-                           ncursesw.tcz
                   rest1.tcz
                      libsoup3.tcz
                         glib-networking.tcz
@@ -9329,7 +9314,8 @@ gnome-session.tcz
                      libICE.tcz
                      libSM.tcz
                   alsa.tcz
-                     alsa-modules-6.1.2-tinycore64.tcz
+                     alsa-modules-6.6.8-tinycore64.tcz
+                        input-joystick-6.6.8-tinycore64.tcz
                      libasound.tcz
                      ncursesw.tcz
                   udev-lib.tcz
@@ -9841,7 +9827,8 @@ gnome-session.tcz
                         libICE.tcz
                         libSM.tcz
                      alsa.tcz
-                        alsa-modules-6.1.2-tinycore64.tcz
+                        alsa-modules-6.6.8-tinycore64.tcz
+                           input-joystick-6.6.8-tinycore64.tcz
                         libasound.tcz
                         ncursesw.tcz
                      udev-lib.tcz
@@ -10779,7 +10766,7 @@ gnome-session.tcz
                         readline.tcz
                            ncursesw.tcz
                         wireless_tools.tcz
-                           wireless-6.1.2-tinycore64.tcz
+                           wireless-6.6.8-tinycore64.tcz
                            libiw.tcz
                      dhcpcd.tcz
                      modemmanager.tcz
@@ -10829,7 +10816,7 @@ gnome-session.tcz
                               glib2.tcz
                                  libffi.tcz
                                  pcre21042.tcz
-                           bluetooth-6.1.2-tinycore64.tcz
+                           bluetooth-6.6.8-tinycore64.tcz
                            sbc.tcz
                            readline.tcz
                               ncursesw.tcz
@@ -10875,15 +10862,16 @@ gnome-session.tcz
                            glib2.tcz
                               libffi.tcz
                               pcre21042.tcz
-                     gnutls35.tcz
+                     gnutls38.tcz
                         p11-kit.tcz
                            libffi.tcz
                            libtasn1-4.tcz
-                        nettle3.tcz
+                        nettle39.tcz
                            gmp.tcz
                         libidn2.tcz
                            libunistring.tcz
                            ncursesw.tcz
+                        libzstd.tcz
                   gcr4.tcz
                      gtk4.tcz
                         libepoxy.tcz
@@ -11690,7 +11678,7 @@ gnome-session.tcz
                            readline.tcz
                               ncursesw.tcz
                            wireless_tools.tcz
-                              wireless-6.1.2-tinycore64.tcz
+                              wireless-6.6.8-tinycore64.tcz
                               libiw.tcz
                         dhcpcd.tcz
                         modemmanager.tcz
@@ -11740,7 +11728,7 @@ gnome-session.tcz
                                  glib2.tcz
                                     libffi.tcz
                                     pcre21042.tcz
-                              bluetooth-6.1.2-tinycore64.tcz
+                              bluetooth-6.6.8-tinycore64.tcz
                               sbc.tcz
                               readline.tcz
                                  ncursesw.tcz
@@ -11786,15 +11774,16 @@ gnome-session.tcz
                               glib2.tcz
                                  libffi.tcz
                                  pcre21042.tcz
-                        gnutls35.tcz
+                        gnutls38.tcz
                            p11-kit.tcz
                               libffi.tcz
                               libtasn1-4.tcz
-                           nettle3.tcz
+                           nettle39.tcz
                               gmp.tcz
                            libidn2.tcz
                               libunistring.tcz
                               ncursesw.tcz
+                           libzstd.tcz
                      gcr.tcz
                         gtk3.tcz
                            libepoxy.tcz
@@ -13107,7 +13096,7 @@ gnome-session.tcz
                            readline.tcz
                               ncursesw.tcz
                            wireless_tools.tcz
-                              wireless-6.1.2-tinycore64.tcz
+                              wireless-6.6.8-tinycore64.tcz
                               libiw.tcz
                         dhcpcd.tcz
                         modemmanager.tcz
@@ -13157,7 +13146,7 @@ gnome-session.tcz
                                  glib2.tcz
                                     libffi.tcz
                                     pcre21042.tcz
-                              bluetooth-6.1.2-tinycore64.tcz
+                              bluetooth-6.6.8-tinycore64.tcz
                               sbc.tcz
                               readline.tcz
                                  ncursesw.tcz
@@ -13203,15 +13192,16 @@ gnome-session.tcz
                               glib2.tcz
                                  libffi.tcz
                                  pcre21042.tcz
-                        gnutls35.tcz
+                        gnutls38.tcz
                            p11-kit.tcz
                               libffi.tcz
                               libtasn1-4.tcz
-                           nettle3.tcz
+                           nettle39.tcz
                               gmp.tcz
                            libidn2.tcz
                               libunistring.tcz
                               ncursesw.tcz
+                           libzstd.tcz
                      libsoup-gir.tcz
                         libsoup.tcz
                            glib-networking.tcz
@@ -14398,7 +14388,7 @@ gnome-session.tcz
                         readline.tcz
                            ncursesw.tcz
                         wireless_tools.tcz
-                           wireless-6.1.2-tinycore64.tcz
+                           wireless-6.6.8-tinycore64.tcz
                            libiw.tcz
                      dhcpcd.tcz
                      modemmanager.tcz
@@ -14448,7 +14438,7 @@ gnome-session.tcz
                               glib2.tcz
                                  libffi.tcz
                                  pcre21042.tcz
-                           bluetooth-6.1.2-tinycore64.tcz
+                           bluetooth-6.6.8-tinycore64.tcz
                            sbc.tcz
                            readline.tcz
                               ncursesw.tcz
@@ -14494,15 +14484,16 @@ gnome-session.tcz
                            glib2.tcz
                               libffi.tcz
                               pcre21042.tcz
-                     gnutls35.tcz
+                     gnutls38.tcz
                         p11-kit.tcz
                            libffi.tcz
                            libtasn1-4.tcz
-                        nettle3.tcz
+                        nettle39.tcz
                            gmp.tcz
                         libidn2.tcz
                            libunistring.tcz
                            ncursesw.tcz
+                        libzstd.tcz
                   gcr.tcz
                      gtk3.tcz
                         libepoxy.tcz
@@ -15497,7 +15488,7 @@ gnome-session.tcz
                            nspr.tcz
                            sqlite3.tcz
                      mdadm.tcz
-                        raid-dm-6.1.2-tinycore64.tcz
+                        raid-dm-6.6.8-tinycore64.tcz
                      parted.tcz
                         liblvm2.tcz
                            udev-lib.tcz
@@ -15510,7 +15501,8 @@ gnome-session.tcz
                      btrfs-progs.tcz
                         lzo.tcz
                         libzstd.tcz
-                        filesystems-6.1.2-tinycore64.tcz
+                        filesystems-6.6.8-tinycore64.tcz
+                           mtd-6.6.8-tinycore64.tcz
                      ndctl.tcz
                         kmod.tcz
                            liblzma.tcz
@@ -16829,7 +16821,7 @@ gnome-session.tcz
                         glib2.tcz
                            libffi.tcz
                            pcre21042.tcz
-                     bluetooth-6.1.2-tinycore64.tcz
+                     bluetooth-6.6.8-tinycore64.tcz
                      sbc.tcz
                      readline.tcz
                         ncursesw.tcz
@@ -17129,7 +17121,10 @@ gnome-session.tcz
                   openal.tcz
                   libv4l2.tcz
                      libjpeg-turbo.tcz
-                     v4l-dvb-6.1.2-tinycore64.tcz
+                     v4l-dvb-6.6.8-tinycore64.tcz
+                        i2c-6.6.8-tinycore64.tcz
+                        alsa-modules-6.6.8-tinycore64.tcz
+                           input-joystick-6.6.8-tinycore64.tcz
                   libpulseaudio.tcz
                      dbus.tcz
                         expat2.tcz
@@ -17977,15 +17972,6 @@ gnome-session.tcz
                   libavif.tcz
                      libaom.tcz
                   libseccomp.tcz
-                  gnutls35.tcz
-                     p11-kit.tcz
-                        libffi.tcz
-                        libtasn1-4.tcz
-                     nettle3.tcz
-                        gmp.tcz
-                     libidn2.tcz
-                        libunistring.tcz
-                        ncursesw.tcz
                webkitgtk-gtk4.tcz
                   gst-plugins-bad.tcz
                      gst-plugins-base.tcz
@@ -18474,15 +18460,6 @@ gnome-session.tcz
                   libavif.tcz
                      libaom.tcz
                   libseccomp.tcz
-                  gnutls35.tcz
-                     p11-kit.tcz
-                        libffi.tcz
-                        libtasn1-4.tcz
-                     nettle3.tcz
-                        gmp.tcz
-                     libidn2.tcz
-                        libunistring.tcz
-                        ncursesw.tcz
                   gtk4.tcz
                      libepoxy.tcz
                      at-spi2-core.tcz
@@ -21469,7 +21446,8 @@ gnome-session.tcz
                         libICE.tcz
                         libSM.tcz
                      alsa.tcz
-                        alsa-modules-6.1.2-tinycore64.tcz
+                        alsa-modules-6.6.8-tinycore64.tcz
+                           input-joystick-6.6.8-tinycore64.tcz
                         libasound.tcz
                         ncursesw.tcz
                      udev-lib.tcz
@@ -22407,7 +22385,7 @@ gnome-session.tcz
                         readline.tcz
                            ncursesw.tcz
                         wireless_tools.tcz
-                           wireless-6.1.2-tinycore64.tcz
+                           wireless-6.6.8-tinycore64.tcz
                            libiw.tcz
                      dhcpcd.tcz
                      modemmanager.tcz
@@ -22457,7 +22435,7 @@ gnome-session.tcz
                               glib2.tcz
                                  libffi.tcz
                                  pcre21042.tcz
-                           bluetooth-6.1.2-tinycore64.tcz
+                           bluetooth-6.6.8-tinycore64.tcz
                            sbc.tcz
                            readline.tcz
                               ncursesw.tcz
@@ -22503,15 +22481,16 @@ gnome-session.tcz
                            glib2.tcz
                               libffi.tcz
                               pcre21042.tcz
-                     gnutls35.tcz
+                     gnutls38.tcz
                         p11-kit.tcz
                            libffi.tcz
                            libtasn1-4.tcz
-                        nettle3.tcz
+                        nettle39.tcz
                            gmp.tcz
                         libidn2.tcz
                            libunistring.tcz
                            ncursesw.tcz
+                        libzstd.tcz
                   gcr4.tcz
                      gtk4.tcz
                         libepoxy.tcz
@@ -23232,7 +23211,8 @@ gnome-session.tcz
                         libICE.tcz
                         libSM.tcz
                      alsa.tcz
-                        alsa-modules-6.1.2-tinycore64.tcz
+                        alsa-modules-6.6.8-tinycore64.tcz
+                           input-joystick-6.6.8-tinycore64.tcz
                         libasound.tcz
                         ncursesw.tcz
                      udev-lib.tcz
@@ -25970,15 +25950,6 @@ gnome-session.tcz
                      libavif.tcz
                         libaom.tcz
                      libseccomp.tcz
-                     gnutls35.tcz
-                        p11-kit.tcz
-                           libffi.tcz
-                           libtasn1-4.tcz
-                        nettle3.tcz
-                           gmp.tcz
-                        libidn2.tcz
-                           libunistring.tcz
-                           ncursesw.tcz
                   rest1.tcz
                      libsoup3.tcz
                         glib-networking.tcz
@@ -26143,7 +26114,8 @@ gnome-session.tcz
                      libICE.tcz
                      libSM.tcz
                   alsa.tcz
-                     alsa-modules-6.1.2-tinycore64.tcz
+                     alsa-modules-6.6.8-tinycore64.tcz
+                        input-joystick-6.6.8-tinycore64.tcz
                      libasound.tcz
                      ncursesw.tcz
                   udev-lib.tcz
@@ -26655,7 +26627,8 @@ gnome-session.tcz
                         libICE.tcz
                         libSM.tcz
                      alsa.tcz
-                        alsa-modules-6.1.2-tinycore64.tcz
+                        alsa-modules-6.6.8-tinycore64.tcz
+                           input-joystick-6.6.8-tinycore64.tcz
                         libasound.tcz
                         ncursesw.tcz
                      udev-lib.tcz
@@ -27593,7 +27566,7 @@ gnome-session.tcz
                         readline.tcz
                            ncursesw.tcz
                         wireless_tools.tcz
-                           wireless-6.1.2-tinycore64.tcz
+                           wireless-6.6.8-tinycore64.tcz
                            libiw.tcz
                      dhcpcd.tcz
                      modemmanager.tcz
@@ -27643,7 +27616,7 @@ gnome-session.tcz
                               glib2.tcz
                                  libffi.tcz
                                  pcre21042.tcz
-                           bluetooth-6.1.2-tinycore64.tcz
+                           bluetooth-6.6.8-tinycore64.tcz
                            sbc.tcz
                            readline.tcz
                               ncursesw.tcz
@@ -27689,15 +27662,16 @@ gnome-session.tcz
                            glib2.tcz
                               libffi.tcz
                               pcre21042.tcz
-                     gnutls35.tcz
+                     gnutls38.tcz
                         p11-kit.tcz
                            libffi.tcz
                            libtasn1-4.tcz
-                        nettle3.tcz
+                        nettle39.tcz
                            gmp.tcz
                         libidn2.tcz
                            libunistring.tcz
                            ncursesw.tcz
+                        libzstd.tcz
                   gcr4.tcz
                      gtk4.tcz
                         libepoxy.tcz
@@ -28504,7 +28478,7 @@ gnome-session.tcz
                            readline.tcz
                               ncursesw.tcz
                            wireless_tools.tcz
-                              wireless-6.1.2-tinycore64.tcz
+                              wireless-6.6.8-tinycore64.tcz
                               libiw.tcz
                         dhcpcd.tcz
                         modemmanager.tcz
@@ -28554,7 +28528,7 @@ gnome-session.tcz
                                  glib2.tcz
                                     libffi.tcz
                                     pcre21042.tcz
-                              bluetooth-6.1.2-tinycore64.tcz
+                              bluetooth-6.6.8-tinycore64.tcz
                               sbc.tcz
                               readline.tcz
                                  ncursesw.tcz
@@ -28600,15 +28574,16 @@ gnome-session.tcz
                               glib2.tcz
                                  libffi.tcz
                                  pcre21042.tcz
-                        gnutls35.tcz
+                        gnutls38.tcz
                            p11-kit.tcz
                               libffi.tcz
                               libtasn1-4.tcz
-                           nettle3.tcz
+                           nettle39.tcz
                               gmp.tcz
                            libidn2.tcz
                               libunistring.tcz
                               ncursesw.tcz
+                           libzstd.tcz
                      gcr.tcz
                         gtk3.tcz
                            libepoxy.tcz
@@ -29921,7 +29896,7 @@ gnome-session.tcz
                            readline.tcz
                               ncursesw.tcz
                            wireless_tools.tcz
-                              wireless-6.1.2-tinycore64.tcz
+                              wireless-6.6.8-tinycore64.tcz
                               libiw.tcz
                         dhcpcd.tcz
                         modemmanager.tcz
@@ -29971,7 +29946,7 @@ gnome-session.tcz
                                  glib2.tcz
                                     libffi.tcz
                                     pcre21042.tcz
-                              bluetooth-6.1.2-tinycore64.tcz
+                              bluetooth-6.6.8-tinycore64.tcz
                               sbc.tcz
                               readline.tcz
                                  ncursesw.tcz
@@ -30017,15 +29992,16 @@ gnome-session.tcz
                               glib2.tcz
                                  libffi.tcz
                                  pcre21042.tcz
-                        gnutls35.tcz
+                        gnutls38.tcz
                            p11-kit.tcz
                               libffi.tcz
                               libtasn1-4.tcz
-                           nettle3.tcz
+                           nettle39.tcz
                               gmp.tcz
                            libidn2.tcz
                               libunistring.tcz
                               ncursesw.tcz
+                           libzstd.tcz
                      libsoup-gir.tcz
                         libsoup.tcz
                            glib-networking.tcz
@@ -31212,7 +31188,7 @@ gnome-session.tcz
                         readline.tcz
                            ncursesw.tcz
                         wireless_tools.tcz
-                           wireless-6.1.2-tinycore64.tcz
+                           wireless-6.6.8-tinycore64.tcz
                            libiw.tcz
                      dhcpcd.tcz
                      modemmanager.tcz
@@ -31262,7 +31238,7 @@ gnome-session.tcz
                               glib2.tcz
                                  libffi.tcz
                                  pcre21042.tcz
-                           bluetooth-6.1.2-tinycore64.tcz
+                           bluetooth-6.6.8-tinycore64.tcz
                            sbc.tcz
                            readline.tcz
                               ncursesw.tcz
@@ -31308,15 +31284,16 @@ gnome-session.tcz
                            glib2.tcz
                               libffi.tcz
                               pcre21042.tcz
-                     gnutls35.tcz
+                     gnutls38.tcz
                         p11-kit.tcz
                            libffi.tcz
                            libtasn1-4.tcz
-                        nettle3.tcz
+                        nettle39.tcz
                            gmp.tcz
                         libidn2.tcz
                            libunistring.tcz
                            ncursesw.tcz
+                        libzstd.tcz
                   gcr.tcz
                      gtk3.tcz
                         libepoxy.tcz
@@ -32311,7 +32288,7 @@ gnome-session.tcz
                            nspr.tcz
                            sqlite3.tcz
                      mdadm.tcz
-                        raid-dm-6.1.2-tinycore64.tcz
+                        raid-dm-6.6.8-tinycore64.tcz
                      parted.tcz
                         liblvm2.tcz
                            udev-lib.tcz
@@ -32324,7 +32301,8 @@ gnome-session.tcz
                      btrfs-progs.tcz
                         lzo.tcz
                         libzstd.tcz
-                        filesystems-6.1.2-tinycore64.tcz
+                        filesystems-6.6.8-tinycore64.tcz
+                           mtd-6.6.8-tinycore64.tcz
                      ndctl.tcz
                         kmod.tcz
                            liblzma.tcz
@@ -33643,7 +33621,7 @@ gnome-session.tcz
                         glib2.tcz
                            libffi.tcz
                            pcre21042.tcz
-                     bluetooth-6.1.2-tinycore64.tcz
+                     bluetooth-6.6.8-tinycore64.tcz
                      sbc.tcz
                      readline.tcz
                         ncursesw.tcz
@@ -33943,7 +33921,10 @@ gnome-session.tcz
                   openal.tcz
                   libv4l2.tcz
                      libjpeg-turbo.tcz
-                     v4l-dvb-6.1.2-tinycore64.tcz
+                     v4l-dvb-6.6.8-tinycore64.tcz
+                        i2c-6.6.8-tinycore64.tcz
+                        alsa-modules-6.6.8-tinycore64.tcz
+                           input-joystick-6.6.8-tinycore64.tcz
                   libpulseaudio.tcz
                      dbus.tcz
                         expat2.tcz
@@ -34791,15 +34772,6 @@ gnome-session.tcz
                   libavif.tcz
                      libaom.tcz
                   libseccomp.tcz
-                  gnutls35.tcz
-                     p11-kit.tcz
-                        libffi.tcz
-                        libtasn1-4.tcz
-                     nettle3.tcz
-                        gmp.tcz
-                     libidn2.tcz
-                        libunistring.tcz
-                        ncursesw.tcz
                webkitgtk-gtk4.tcz
                   gst-plugins-bad.tcz
                      gst-plugins-base.tcz
@@ -35288,15 +35260,6 @@ gnome-session.tcz
                   libavif.tcz
                      libaom.tcz
                   libseccomp.tcz
-                  gnutls35.tcz
-                     p11-kit.tcz
-                        libffi.tcz
-                        libtasn1-4.tcz
-                     nettle3.tcz
-                        gmp.tcz
-                     libidn2.tcz
-                        libunistring.tcz
-                        ncursesw.tcz
                   gtk4.tcz
                      libepoxy.tcz
                      at-spi2-core.tcz
@@ -38282,7 +38245,8 @@ gnome-session.tcz
                         libICE.tcz
                         libSM.tcz
                      alsa.tcz
-                        alsa-modules-6.1.2-tinycore64.tcz
+                        alsa-modules-6.6.8-tinycore64.tcz
+                           input-joystick-6.6.8-tinycore64.tcz
                         libasound.tcz
                         ncursesw.tcz
                      udev-lib.tcz
@@ -39220,7 +39184,7 @@ gnome-session.tcz
                         readline.tcz
                            ncursesw.tcz
                         wireless_tools.tcz
-                           wireless-6.1.2-tinycore64.tcz
+                           wireless-6.6.8-tinycore64.tcz
                            libiw.tcz
                      dhcpcd.tcz
                      modemmanager.tcz
@@ -39270,7 +39234,7 @@ gnome-session.tcz
                               glib2.tcz
                                  libffi.tcz
                                  pcre21042.tcz
-                           bluetooth-6.1.2-tinycore64.tcz
+                           bluetooth-6.6.8-tinycore64.tcz
                            sbc.tcz
                            readline.tcz
                               ncursesw.tcz
@@ -39316,15 +39280,16 @@ gnome-session.tcz
                            glib2.tcz
                               libffi.tcz
                               pcre21042.tcz
-                     gnutls35.tcz
+                     gnutls38.tcz
                         p11-kit.tcz
                            libffi.tcz
                            libtasn1-4.tcz
-                        nettle3.tcz
+                        nettle39.tcz
                            gmp.tcz
                         libidn2.tcz
                            libunistring.tcz
                            ncursesw.tcz
+                        libzstd.tcz
                   gcr4.tcz
                      gtk4.tcz
                         libepoxy.tcz
@@ -40045,7 +40010,8 @@ gnome-session.tcz
                         libICE.tcz
                         libSM.tcz
                      alsa.tcz
-                        alsa-modules-6.1.2-tinycore64.tcz
+                        alsa-modules-6.6.8-tinycore64.tcz
+                           input-joystick-6.6.8-tinycore64.tcz
                         libasound.tcz
                         ncursesw.tcz
                      udev-lib.tcz
@@ -45661,15 +45627,6 @@ gnome-session.tcz
                   libavif.tcz
                      libaom.tcz
                   libseccomp.tcz
-                  gnutls35.tcz
-                     p11-kit.tcz
-                        libffi.tcz
-                        libtasn1-4.tcz
-                     nettle3.tcz
-                        gmp.tcz
-                     libidn2.tcz
-                        libunistring.tcz
-                        ncursesw.tcz
                webkitgtk-gtk4.tcz
                   gst-plugins-bad.tcz
                      gst-plugins-base.tcz
@@ -46158,15 +46115,6 @@ gnome-session.tcz
                   libavif.tcz
                      libaom.tcz
                   libseccomp.tcz
-                  gnutls35.tcz
-                     p11-kit.tcz
-                        libffi.tcz
-                        libtasn1-4.tcz
-                     nettle3.tcz
-                        gmp.tcz
-                     libidn2.tcz
-                        libunistring.tcz
-                        ncursesw.tcz
                   gtk4.tcz
                      libepoxy.tcz
                      at-spi2-core.tcz
@@ -52193,15 +52141,16 @@ gnome-session.tcz
                   liblzma.tcz
                sqlite3.tcz
          icu74.tcz
-         gnutls35.tcz
+         gnutls38.tcz
             p11-kit.tcz
                libffi.tcz
                libtasn1-4.tcz
-            nettle3.tcz
+            nettle39.tcz
                gmp.tcz
             libidn2.tcz
                libunistring.tcz
                ncursesw.tcz
+            libzstd.tcz
       libhandy1.tcz
          gtk3.tcz
             libepoxy.tcz
@@ -53158,15 +53107,6 @@ gnome-session.tcz
             libavif.tcz
                libaom.tcz
             libseccomp.tcz
-            gnutls35.tcz
-               p11-kit.tcz
-                  libffi.tcz
-                  libtasn1-4.tcz
-               nettle3.tcz
-                  gmp.tcz
-               libidn2.tcz
-                  libunistring.tcz
-                  ncursesw.tcz
          rest1.tcz
             libsoup3.tcz
                glib-networking.tcz
@@ -53347,7 +53287,7 @@ gnome-session.tcz
                   nspr.tcz
                   sqlite3.tcz
             mdadm.tcz
-               raid-dm-6.1.2-tinycore64.tcz
+               raid-dm-6.6.8-tinycore64.tcz
             parted.tcz
                liblvm2.tcz
                   udev-lib.tcz
@@ -53360,7 +53300,8 @@ gnome-session.tcz
             btrfs-progs.tcz
                lzo.tcz
                libzstd.tcz
-               filesystems-6.1.2-tinycore64.tcz
+               filesystems-6.6.8-tinycore64.tcz
+                  mtd-6.6.8-tinycore64.tcz
             ndctl.tcz
                kmod.tcz
                   liblzma.tcz
@@ -55525,7 +55466,7 @@ gnome-session.tcz
             readline.tcz
                ncursesw.tcz
             wireless_tools.tcz
-               wireless-6.1.2-tinycore64.tcz
+               wireless-6.6.8-tinycore64.tcz
                libiw.tcz
          dhcpcd.tcz
          modemmanager.tcz
@@ -55575,7 +55516,7 @@ gnome-session.tcz
                   glib2.tcz
                      libffi.tcz
                      pcre21042.tcz
-               bluetooth-6.1.2-tinycore64.tcz
+               bluetooth-6.6.8-tinycore64.tcz
                sbc.tcz
                readline.tcz
                   ncursesw.tcz
@@ -55621,15 +55562,16 @@ gnome-session.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
-         gnutls35.tcz
+         gnutls38.tcz
             p11-kit.tcz
                libffi.tcz
                libtasn1-4.tcz
-            nettle3.tcz
+            nettle39.tcz
                gmp.tcz
             libidn2.tcz
                libunistring.tcz
                ncursesw.tcz
+            libzstd.tcz
       upower.tcz
          dbus-glib.tcz
             dbus.tcz
@@ -55725,7 +55667,7 @@ gnome-session.tcz
                   nspr.tcz
                   sqlite3.tcz
             mdadm.tcz
-               raid-dm-6.1.2-tinycore64.tcz
+               raid-dm-6.6.8-tinycore64.tcz
             parted.tcz
                liblvm2.tcz
                   udev-lib.tcz
@@ -55738,7 +55680,8 @@ gnome-session.tcz
             btrfs-progs.tcz
                lzo.tcz
                libzstd.tcz
-               filesystems-6.1.2-tinycore64.tcz
+               filesystems-6.6.8-tinycore64.tcz
+                  mtd-6.6.8-tinycore64.tcz
             ndctl.tcz
                kmod.tcz
                   liblzma.tcz
@@ -55766,7 +55709,7 @@ gnome-session.tcz
                   nspr.tcz
                   sqlite3.tcz
             mdadm.tcz
-               raid-dm-6.1.2-tinycore64.tcz
+               raid-dm-6.6.8-tinycore64.tcz
             parted.tcz
                liblvm2.tcz
                   udev-lib.tcz
@@ -55779,7 +55722,8 @@ gnome-session.tcz
             btrfs-progs.tcz
                lzo.tcz
                libzstd.tcz
-               filesystems-6.1.2-tinycore64.tcz
+               filesystems-6.6.8-tinycore64.tcz
+                  mtd-6.6.8-tinycore64.tcz
             ndctl.tcz
                kmod.tcz
                   liblzma.tcz
@@ -56735,15 +56679,6 @@ gnome-session.tcz
          libavif.tcz
             libaom.tcz
          libseccomp.tcz
-         gnutls35.tcz
-            p11-kit.tcz
-               libffi.tcz
-               libtasn1-4.tcz
-            nettle3.tcz
-               gmp.tcz
-            libidn2.tcz
-               libunistring.tcz
-               ncursesw.tcz
       yelp-xsl.tcz
          libxslt.tcz
             libxml2.tcz
@@ -57296,7 +57231,7 @@ gnome-session.tcz
             readline.tcz
                ncursesw.tcz
             wireless_tools.tcz
-               wireless-6.1.2-tinycore64.tcz
+               wireless-6.6.8-tinycore64.tcz
                libiw.tcz
          dhcpcd.tcz
          modemmanager.tcz
@@ -57346,7 +57281,7 @@ gnome-session.tcz
                   glib2.tcz
                      libffi.tcz
                      pcre21042.tcz
-               bluetooth-6.1.2-tinycore64.tcz
+               bluetooth-6.6.8-tinycore64.tcz
                sbc.tcz
                readline.tcz
                   ncursesw.tcz
@@ -57392,15 +57327,16 @@ gnome-session.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
-         gnutls35.tcz
+         gnutls38.tcz
             p11-kit.tcz
                libffi.tcz
                libtasn1-4.tcz
-            nettle3.tcz
+            nettle39.tcz
                gmp.tcz
             libidn2.tcz
                libunistring.tcz
                ncursesw.tcz
+            libzstd.tcz
    libgweather4-gir.tcz
       libgweather4.tcz
          geocode-glib.tcz

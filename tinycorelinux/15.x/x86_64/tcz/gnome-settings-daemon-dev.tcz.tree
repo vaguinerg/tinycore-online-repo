@@ -486,7 +486,8 @@ gnome-settings-daemon-dev.tcz
             libICE.tcz
             libSM.tcz
          alsa.tcz
-            alsa-modules-6.1.2-tinycore64.tcz
+            alsa-modules-6.6.8-tinycore64.tcz
+               input-joystick-6.6.8-tinycore64.tcz
             libasound.tcz
             ncursesw.tcz
          udev-lib.tcz
@@ -1424,7 +1425,7 @@ gnome-settings-daemon-dev.tcz
             readline.tcz
                ncursesw.tcz
             wireless_tools.tcz
-               wireless-6.1.2-tinycore64.tcz
+               wireless-6.6.8-tinycore64.tcz
                libiw.tcz
          dhcpcd.tcz
          modemmanager.tcz
@@ -1474,7 +1475,7 @@ gnome-settings-daemon-dev.tcz
                   glib2.tcz
                      libffi.tcz
                      pcre21042.tcz
-               bluetooth-6.1.2-tinycore64.tcz
+               bluetooth-6.6.8-tinycore64.tcz
                sbc.tcz
                readline.tcz
                   ncursesw.tcz
@@ -1520,15 +1521,16 @@ gnome-settings-daemon-dev.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
-         gnutls35.tcz
+         gnutls38.tcz
             p11-kit.tcz
                libffi.tcz
                libtasn1-4.tcz
-            nettle3.tcz
+            nettle39.tcz
                gmp.tcz
             libidn2.tcz
                libunistring.tcz
                ncursesw.tcz
+            libzstd.tcz
       gcr4.tcz
          gtk4.tcz
             libepoxy.tcz
@@ -15732,7 +15734,8 @@ gnome-settings-daemon-dev.tcz
                libogg.tcz
          alsa-dev.tcz
             alsa.tcz
-               alsa-modules-6.1.2-tinycore64.tcz
+               alsa-modules-6.6.8-tinycore64.tcz
+                  input-joystick-6.6.8-tinycore64.tcz
                libasound.tcz
                ncursesw.tcz
             ncursesw-dev.tcz
@@ -22040,7 +22043,8 @@ gnome-settings-daemon-dev.tcz
                libICE.tcz
                libSM.tcz
             alsa.tcz
-               alsa-modules-6.1.2-tinycore64.tcz
+               alsa-modules-6.6.8-tinycore64.tcz
+                  input-joystick-6.6.8-tinycore64.tcz
                libasound.tcz
                ncursesw.tcz
             udev-lib.tcz
@@ -22071,7 +22075,8 @@ gnome-settings-daemon-dev.tcz
                attr.tcz
          alsa-dev.tcz
             alsa.tcz
-               alsa-modules-6.1.2-tinycore64.tcz
+               alsa-modules-6.6.8-tinycore64.tcz
+                  input-joystick-6.6.8-tinycore64.tcz
                libasound.tcz
                ncursesw.tcz
             ncursesw-dev.tcz
@@ -22126,7 +22131,7 @@ gnome-settings-daemon-dev.tcz
                      glib2.tcz
                         libffi.tcz
                         pcre21042.tcz
-                  bluetooth-6.1.2-tinycore64.tcz
+                  bluetooth-6.6.8-tinycore64.tcz
                   sbc.tcz
                   readline.tcz
                      ncursesw.tcz
@@ -22135,7 +22140,8 @@ gnome-settings-daemon-dev.tcz
                sbc.tcz
             alsa-dev.tcz
                alsa.tcz
-                  alsa-modules-6.1.2-tinycore64.tcz
+                  alsa-modules-6.6.8-tinycore64.tcz
+                     input-joystick-6.6.8-tinycore64.tcz
                   libasound.tcz
                   ncursesw.tcz
                ncursesw-dev.tcz
@@ -33769,7 +33775,7 @@ gnome-settings-daemon-dev.tcz
             readline.tcz
                ncursesw.tcz
             wireless_tools.tcz
-               wireless-6.1.2-tinycore64.tcz
+               wireless-6.6.8-tinycore64.tcz
                libiw.tcz
          dhcpcd.tcz
          modemmanager.tcz
@@ -33819,7 +33825,7 @@ gnome-settings-daemon-dev.tcz
                   glib2.tcz
                      libffi.tcz
                      pcre21042.tcz
-               bluetooth-6.1.2-tinycore64.tcz
+               bluetooth-6.6.8-tinycore64.tcz
                sbc.tcz
                readline.tcz
                   ncursesw.tcz
@@ -33865,15 +33871,16 @@ gnome-settings-daemon-dev.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
-         gnutls35.tcz
+         gnutls38.tcz
             p11-kit.tcz
                libffi.tcz
                libtasn1-4.tcz
-            nettle3.tcz
+            nettle39.tcz
                gmp.tcz
             libidn2.tcz
                libunistring.tcz
                ncursesw.tcz
+            libzstd.tcz
       nss-dev.tcz
          nss.tcz
             nspr.tcz
@@ -35283,7 +35290,7 @@ gnome-settings-daemon-dev.tcz
                   glib2.tcz
                      libffi.tcz
                      pcre21042.tcz
-               bluetooth-6.1.2-tinycore64.tcz
+               bluetooth-6.6.8-tinycore64.tcz
                sbc.tcz
                readline.tcz
                   ncursesw.tcz
@@ -35292,7 +35299,8 @@ gnome-settings-daemon-dev.tcz
             sbc.tcz
          alsa-dev.tcz
             alsa.tcz
-               alsa-modules-6.1.2-tinycore64.tcz
+               alsa-modules-6.6.8-tinycore64.tcz
+                  input-joystick-6.6.8-tinycore64.tcz
                libasound.tcz
                ncursesw.tcz
             ncursesw-dev.tcz
@@ -36570,16 +36578,17 @@ gnome-settings-daemon-dev.tcz
                         liblzma.tcz
             openssl-1.1.1-dev.tcz
                openssl-1.1.1.tcz
-      gnutls35-dev.tcz
-         gnutls35.tcz
+      gnutls38-dev.tcz
+         gnutls38.tcz
             p11-kit.tcz
                libffi.tcz
                libtasn1-4.tcz
-            nettle3.tcz
+            nettle39.tcz
                gmp.tcz
             libidn2.tcz
                libunistring.tcz
                ncursesw.tcz
+            libzstd.tcz
          p11-kit-dev.tcz
             p11-kit.tcz
                libffi.tcz
@@ -36588,8 +36597,8 @@ gnome-settings-daemon-dev.tcz
                libffi.tcz
             libtasn1-4-dev.tcz
                libtasn1-4.tcz
-         nettle3-dev.tcz
-            nettle3.tcz
+         nettle39-dev.tcz
+            nettle39.tcz
                gmp.tcz
             gmp-dev.tcz
                gmp.tcz
@@ -36601,6 +36610,15 @@ gnome-settings-daemon-dev.tcz
                libunistring.tcz
             ncursesw-dev.tcz
                ncursesw.tcz
+         zstd-dev.tcz
+            zstd.tcz
+               libzstd.tcz
+               liblzma.tcz
+               liblz4.tcz
+            liblzma-dev.tcz
+               liblzma.tcz
+            liblz4-dev.tcz
+               liblz4.tcz
    gcr4-dev.tcz
       gcr4.tcz
          gtk4.tcz
@@ -39961,7 +39979,8 @@ gnome-settings-daemon-dev.tcz
                      libogg.tcz
                alsa-dev.tcz
                   alsa.tcz
-                     alsa-modules-6.1.2-tinycore64.tcz
+                     alsa-modules-6.6.8-tinycore64.tcz
+                        input-joystick-6.6.8-tinycore64.tcz
                      libasound.tcz
                      ncursesw.tcz
                   ncursesw-dev.tcz
@@ -47965,7 +47984,7 @@ gnome-settings-daemon-dev.tcz
                         glib2.tcz
                            libffi.tcz
                            pcre21042.tcz
-                     bluetooth-6.1.2-tinycore64.tcz
+                     bluetooth-6.6.8-tinycore64.tcz
                      sbc.tcz
                      readline.tcz
                         ncursesw.tcz
@@ -47974,7 +47993,8 @@ gnome-settings-daemon-dev.tcz
                   sbc.tcz
                alsa-dev.tcz
                   alsa.tcz
-                     alsa-modules-6.1.2-tinycore64.tcz
+                     alsa-modules-6.6.8-tinycore64.tcz
+                        input-joystick-6.6.8-tinycore64.tcz
                      libasound.tcz
                      ncursesw.tcz
                   ncursesw-dev.tcz
@@ -50613,7 +50633,8 @@ gnome-settings-daemon-dev.tcz
                         libogg.tcz
                   alsa-dev.tcz
                      alsa.tcz
-                        alsa-modules-6.1.2-tinycore64.tcz
+                        alsa-modules-6.6.8-tinycore64.tcz
+                           input-joystick-6.6.8-tinycore64.tcz
                         libasound.tcz
                         ncursesw.tcz
                      ncursesw-dev.tcz
@@ -57283,7 +57304,10 @@ gnome-settings-daemon-dev.tcz
                   openal.tcz
                   libv4l2.tcz
                      libjpeg-turbo.tcz
-                     v4l-dvb-6.1.2-tinycore64.tcz
+                     v4l-dvb-6.6.8-tinycore64.tcz
+                        i2c-6.6.8-tinycore64.tcz
+                        alsa-modules-6.6.8-tinycore64.tcz
+                           input-joystick-6.6.8-tinycore64.tcz
                   libpulseaudio.tcz
                      dbus.tcz
                         expat2.tcz
@@ -57539,7 +57563,8 @@ gnome-settings-daemon-dev.tcz
                      libICE.tcz
                      libSM.tcz
                   alsa.tcz
-                     alsa-modules-6.1.2-tinycore64.tcz
+                     alsa-modules-6.6.8-tinycore64.tcz
+                        input-joystick-6.6.8-tinycore64.tcz
                      libasound.tcz
                      ncursesw.tcz
                   udev-lib.tcz
@@ -57570,7 +57595,8 @@ gnome-settings-daemon-dev.tcz
                      attr.tcz
                alsa-dev.tcz
                   alsa.tcz
-                     alsa-modules-6.1.2-tinycore64.tcz
+                     alsa-modules-6.6.8-tinycore64.tcz
+                        input-joystick-6.6.8-tinycore64.tcz
                      libasound.tcz
                      ncursesw.tcz
                   ncursesw-dev.tcz
@@ -57625,7 +57651,7 @@ gnome-settings-daemon-dev.tcz
                            glib2.tcz
                               libffi.tcz
                               pcre21042.tcz
-                        bluetooth-6.1.2-tinycore64.tcz
+                        bluetooth-6.6.8-tinycore64.tcz
                         sbc.tcz
                         readline.tcz
                            ncursesw.tcz
@@ -57634,7 +57660,8 @@ gnome-settings-daemon-dev.tcz
                      sbc.tcz
                   alsa-dev.tcz
                      alsa.tcz
-                        alsa-modules-6.1.2-tinycore64.tcz
+                        alsa-modules-6.6.8-tinycore64.tcz
+                           input-joystick-6.6.8-tinycore64.tcz
                         libasound.tcz
                         ncursesw.tcz
                      ncursesw-dev.tcz
@@ -62635,7 +62662,10 @@ gnome-settings-daemon-dev.tcz
             libv4l2-dev.tcz
                libv4l2.tcz
                   libjpeg-turbo.tcz
-                  v4l-dvb-6.1.2-tinycore64.tcz
+                  v4l-dvb-6.6.8-tinycore64.tcz
+                     i2c-6.6.8-tinycore64.tcz
+                     alsa-modules-6.6.8-tinycore64.tcz
+                        input-joystick-6.6.8-tinycore64.tcz
                libjpeg-turbo-dev.tcz
                   libjpeg-turbo-bin.tcz
                      libjpeg-turbo.tcz

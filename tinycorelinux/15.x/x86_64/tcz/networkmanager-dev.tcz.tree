@@ -79,7 +79,7 @@ networkmanager-dev.tcz
          readline.tcz
             ncursesw.tcz
          wireless_tools.tcz
-            wireless-6.1.2-tinycore64.tcz
+            wireless-6.6.8-tinycore64.tcz
             libiw.tcz
       dhcpcd.tcz
       modemmanager.tcz
@@ -129,7 +129,7 @@ networkmanager-dev.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
-            bluetooth-6.1.2-tinycore64.tcz
+            bluetooth-6.6.8-tinycore64.tcz
             sbc.tcz
             readline.tcz
                ncursesw.tcz
@@ -175,15 +175,16 @@ networkmanager-dev.tcz
             glib2.tcz
                libffi.tcz
                pcre21042.tcz
-      gnutls35.tcz
+      gnutls38.tcz
          p11-kit.tcz
             libffi.tcz
             libtasn1-4.tcz
-         nettle3.tcz
+         nettle39.tcz
             gmp.tcz
          libidn2.tcz
             libunistring.tcz
             ncursesw.tcz
+         libzstd.tcz
    nss-dev.tcz
       nss.tcz
          nspr.tcz
@@ -1593,7 +1594,7 @@ networkmanager-dev.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
-            bluetooth-6.1.2-tinycore64.tcz
+            bluetooth-6.6.8-tinycore64.tcz
             sbc.tcz
             readline.tcz
                ncursesw.tcz
@@ -1602,7 +1603,8 @@ networkmanager-dev.tcz
          sbc.tcz
       alsa-dev.tcz
          alsa.tcz
-            alsa-modules-6.1.2-tinycore64.tcz
+            alsa-modules-6.6.8-tinycore64.tcz
+               input-joystick-6.6.8-tinycore64.tcz
             libasound.tcz
             ncursesw.tcz
          ncursesw-dev.tcz
@@ -2880,16 +2882,17 @@ networkmanager-dev.tcz
                      liblzma.tcz
          openssl-1.1.1-dev.tcz
             openssl-1.1.1.tcz
-   gnutls35-dev.tcz
-      gnutls35.tcz
+   gnutls38-dev.tcz
+      gnutls38.tcz
          p11-kit.tcz
             libffi.tcz
             libtasn1-4.tcz
-         nettle3.tcz
+         nettle39.tcz
             gmp.tcz
          libidn2.tcz
             libunistring.tcz
             ncursesw.tcz
+         libzstd.tcz
       p11-kit-dev.tcz
          p11-kit.tcz
             libffi.tcz
@@ -2898,8 +2901,8 @@ networkmanager-dev.tcz
             libffi.tcz
          libtasn1-4-dev.tcz
             libtasn1-4.tcz
-      nettle3-dev.tcz
-         nettle3.tcz
+      nettle39-dev.tcz
+         nettle39.tcz
             gmp.tcz
          gmp-dev.tcz
             gmp.tcz
@@ -2911,4 +2914,13 @@ networkmanager-dev.tcz
             libunistring.tcz
          ncursesw-dev.tcz
             ncursesw.tcz
+      zstd-dev.tcz
+         zstd.tcz
+            libzstd.tcz
+            liblzma.tcz
+            liblz4.tcz
+         liblzma-dev.tcz
+            liblzma.tcz
+         liblz4-dev.tcz
+            liblz4.tcz
 

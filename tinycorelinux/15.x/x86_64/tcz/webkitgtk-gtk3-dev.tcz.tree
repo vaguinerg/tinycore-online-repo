@@ -487,15 +487,6 @@ webkitgtk-gtk3-dev.tcz
       libavif.tcz
          libaom.tcz
       libseccomp.tcz
-      gnutls35.tcz
-         p11-kit.tcz
-            libffi.tcz
-            libtasn1-4.tcz
-         nettle3.tcz
-            gmp.tcz
-         libidn2.tcz
-            libunistring.tcz
-            ncursesw.tcz
    gst-plugins-bad-dev.tcz
       gst-plugins-bad.tcz
          gst-plugins-base.tcz
@@ -589,7 +580,8 @@ webkitgtk-gtk3-dev.tcz
                libogg.tcz
          alsa-dev.tcz
             alsa.tcz
-               alsa-modules-6.1.2-tinycore64.tcz
+               alsa-modules-6.6.8-tinycore64.tcz
+                  input-joystick-6.6.8-tinycore64.tcz
                libasound.tcz
                ncursesw.tcz
             ncursesw-dev.tcz
@@ -8593,7 +8585,7 @@ webkitgtk-gtk3-dev.tcz
                   glib2.tcz
                      libffi.tcz
                      pcre21042.tcz
-               bluetooth-6.1.2-tinycore64.tcz
+               bluetooth-6.6.8-tinycore64.tcz
                sbc.tcz
                readline.tcz
                   ncursesw.tcz
@@ -8602,7 +8594,8 @@ webkitgtk-gtk3-dev.tcz
             sbc.tcz
          alsa-dev.tcz
             alsa.tcz
-               alsa-modules-6.1.2-tinycore64.tcz
+               alsa-modules-6.6.8-tinycore64.tcz
+                  input-joystick-6.6.8-tinycore64.tcz
                libasound.tcz
                ncursesw.tcz
             ncursesw-dev.tcz
@@ -11241,7 +11234,8 @@ webkitgtk-gtk3-dev.tcz
                   libogg.tcz
             alsa-dev.tcz
                alsa.tcz
-                  alsa-modules-6.1.2-tinycore64.tcz
+                  alsa-modules-6.6.8-tinycore64.tcz
+                     input-joystick-6.6.8-tinycore64.tcz
                   libasound.tcz
                   ncursesw.tcz
                ncursesw-dev.tcz

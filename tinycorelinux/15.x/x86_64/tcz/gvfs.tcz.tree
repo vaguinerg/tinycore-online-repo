@@ -807,15 +807,6 @@ gvfs.tcz
          libavif.tcz
             libaom.tcz
          libseccomp.tcz
-         gnutls35.tcz
-            p11-kit.tcz
-               libffi.tcz
-               libtasn1-4.tcz
-            nettle3.tcz
-               gmp.tcz
-            libidn2.tcz
-               libunistring.tcz
-               ncursesw.tcz
       rest1.tcz
          libsoup3.tcz
             glib-networking.tcz
@@ -996,7 +987,7 @@ gvfs.tcz
                nspr.tcz
                sqlite3.tcz
          mdadm.tcz
-            raid-dm-6.1.2-tinycore64.tcz
+            raid-dm-6.6.8-tinycore64.tcz
          parted.tcz
             liblvm2.tcz
                udev-lib.tcz
@@ -1009,7 +1000,8 @@ gvfs.tcz
          btrfs-progs.tcz
             lzo.tcz
             libzstd.tcz
-            filesystems-6.1.2-tinycore64.tcz
+            filesystems-6.6.8-tinycore64.tcz
+               mtd-6.6.8-tinycore64.tcz
          ndctl.tcz
             kmod.tcz
                liblzma.tcz

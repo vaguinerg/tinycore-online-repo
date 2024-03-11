@@ -80,7 +80,7 @@ tracker2-dev.tcz
             readline.tcz
                ncursesw.tcz
             wireless_tools.tcz
-               wireless-6.1.2-tinycore64.tcz
+               wireless-6.6.8-tinycore64.tcz
                libiw.tcz
          dhcpcd.tcz
          modemmanager.tcz
@@ -130,7 +130,7 @@ tracker2-dev.tcz
                   glib2.tcz
                      libffi.tcz
                      pcre21042.tcz
-               bluetooth-6.1.2-tinycore64.tcz
+               bluetooth-6.6.8-tinycore64.tcz
                sbc.tcz
                readline.tcz
                   ncursesw.tcz
@@ -176,15 +176,16 @@ tracker2-dev.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
-         gnutls35.tcz
+         gnutls38.tcz
             p11-kit.tcz
                libffi.tcz
                libtasn1-4.tcz
-            nettle3.tcz
+            nettle39.tcz
                gmp.tcz
             libidn2.tcz
                libunistring.tcz
                ncursesw.tcz
+            libzstd.tcz
       upower.tcz
          dbus-glib.tcz
             dbus.tcz
@@ -306,7 +307,7 @@ tracker2-dev.tcz
             readline.tcz
                ncursesw.tcz
             wireless_tools.tcz
-               wireless-6.1.2-tinycore64.tcz
+               wireless-6.6.8-tinycore64.tcz
                libiw.tcz
          dhcpcd.tcz
          modemmanager.tcz
@@ -356,7 +357,7 @@ tracker2-dev.tcz
                   glib2.tcz
                      libffi.tcz
                      pcre21042.tcz
-               bluetooth-6.1.2-tinycore64.tcz
+               bluetooth-6.6.8-tinycore64.tcz
                sbc.tcz
                readline.tcz
                   ncursesw.tcz
@@ -402,15 +403,16 @@ tracker2-dev.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
-         gnutls35.tcz
+         gnutls38.tcz
             p11-kit.tcz
                libffi.tcz
                libtasn1-4.tcz
-            nettle3.tcz
+            nettle39.tcz
                gmp.tcz
             libidn2.tcz
                libunistring.tcz
                ncursesw.tcz
+            libzstd.tcz
       nss-dev.tcz
          nss.tcz
             nspr.tcz
@@ -1820,7 +1822,7 @@ tracker2-dev.tcz
                   glib2.tcz
                      libffi.tcz
                      pcre21042.tcz
-               bluetooth-6.1.2-tinycore64.tcz
+               bluetooth-6.6.8-tinycore64.tcz
                sbc.tcz
                readline.tcz
                   ncursesw.tcz
@@ -1829,7 +1831,8 @@ tracker2-dev.tcz
             sbc.tcz
          alsa-dev.tcz
             alsa.tcz
-               alsa-modules-6.1.2-tinycore64.tcz
+               alsa-modules-6.6.8-tinycore64.tcz
+                  input-joystick-6.6.8-tinycore64.tcz
                libasound.tcz
                ncursesw.tcz
             ncursesw-dev.tcz
@@ -3107,16 +3110,17 @@ tracker2-dev.tcz
                         liblzma.tcz
             openssl-1.1.1-dev.tcz
                openssl-1.1.1.tcz
-      gnutls35-dev.tcz
-         gnutls35.tcz
+      gnutls38-dev.tcz
+         gnutls38.tcz
             p11-kit.tcz
                libffi.tcz
                libtasn1-4.tcz
-            nettle3.tcz
+            nettle39.tcz
                gmp.tcz
             libidn2.tcz
                libunistring.tcz
                ncursesw.tcz
+            libzstd.tcz
          p11-kit-dev.tcz
             p11-kit.tcz
                libffi.tcz
@@ -3125,8 +3129,8 @@ tracker2-dev.tcz
                libffi.tcz
             libtasn1-4-dev.tcz
                libtasn1-4.tcz
-         nettle3-dev.tcz
-            nettle3.tcz
+         nettle39-dev.tcz
+            nettle39.tcz
                gmp.tcz
             gmp-dev.tcz
                gmp.tcz
@@ -3138,6 +3142,15 @@ tracker2-dev.tcz
                libunistring.tcz
             ncursesw-dev.tcz
                ncursesw.tcz
+         zstd-dev.tcz
+            zstd.tcz
+               libzstd.tcz
+               liblzma.tcz
+               liblz4.tcz
+            liblzma-dev.tcz
+               liblzma.tcz
+            liblz4-dev.tcz
+               liblz4.tcz
    upower-dev.tcz
       upower.tcz
          dbus-glib.tcz

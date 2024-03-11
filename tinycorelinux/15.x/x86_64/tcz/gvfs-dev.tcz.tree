@@ -808,15 +808,6 @@ gvfs-dev.tcz
             libavif.tcz
                libaom.tcz
             libseccomp.tcz
-            gnutls35.tcz
-               p11-kit.tcz
-                  libffi.tcz
-                  libtasn1-4.tcz
-               nettle3.tcz
-                  gmp.tcz
-               libidn2.tcz
-                  libunistring.tcz
-                  ncursesw.tcz
          rest1.tcz
             libsoup3.tcz
                glib-networking.tcz
@@ -997,7 +988,7 @@ gvfs-dev.tcz
                   nspr.tcz
                   sqlite3.tcz
             mdadm.tcz
-               raid-dm-6.1.2-tinycore64.tcz
+               raid-dm-6.6.8-tinycore64.tcz
             parted.tcz
                liblvm2.tcz
                   udev-lib.tcz
@@ -1010,7 +1001,8 @@ gvfs-dev.tcz
             btrfs-progs.tcz
                lzo.tcz
                libzstd.tcz
-               filesystems-6.1.2-tinycore64.tcz
+               filesystems-6.6.8-tinycore64.tcz
+                  mtd-6.6.8-tinycore64.tcz
             ndctl.tcz
                kmod.tcz
                   liblzma.tcz
@@ -8652,15 +8644,6 @@ gvfs-dev.tcz
             libavif.tcz
                libaom.tcz
             libseccomp.tcz
-            gnutls35.tcz
-               p11-kit.tcz
-                  libffi.tcz
-                  libtasn1-4.tcz
-               nettle3.tcz
-                  gmp.tcz
-               libidn2.tcz
-                  libunistring.tcz
-                  ncursesw.tcz
          rest1.tcz
             libsoup3.tcz
                glib-networking.tcz
@@ -9278,15 +9261,6 @@ gvfs-dev.tcz
             libavif.tcz
                libaom.tcz
             libseccomp.tcz
-            gnutls35.tcz
-               p11-kit.tcz
-                  libffi.tcz
-                  libtasn1-4.tcz
-               nettle3.tcz
-                  gmp.tcz
-               libidn2.tcz
-                  libunistring.tcz
-                  ncursesw.tcz
          gst-plugins-bad-dev.tcz
             gst-plugins-bad.tcz
                gst-plugins-base.tcz
@@ -9380,7 +9354,8 @@ gvfs-dev.tcz
                      libogg.tcz
                alsa-dev.tcz
                   alsa.tcz
-                     alsa-modules-6.1.2-tinycore64.tcz
+                     alsa-modules-6.6.8-tinycore64.tcz
+                        input-joystick-6.6.8-tinycore64.tcz
                      libasound.tcz
                      ncursesw.tcz
                   ncursesw-dev.tcz
@@ -17384,7 +17359,7 @@ gvfs-dev.tcz
                         glib2.tcz
                            libffi.tcz
                            pcre21042.tcz
-                     bluetooth-6.1.2-tinycore64.tcz
+                     bluetooth-6.6.8-tinycore64.tcz
                      sbc.tcz
                      readline.tcz
                         ncursesw.tcz
@@ -17393,7 +17368,8 @@ gvfs-dev.tcz
                   sbc.tcz
                alsa-dev.tcz
                   alsa.tcz
-                     alsa-modules-6.1.2-tinycore64.tcz
+                     alsa-modules-6.6.8-tinycore64.tcz
+                        input-joystick-6.6.8-tinycore64.tcz
                      libasound.tcz
                      ncursesw.tcz
                   ncursesw-dev.tcz
@@ -20032,7 +20008,8 @@ gvfs-dev.tcz
                         libogg.tcz
                   alsa-dev.tcz
                      alsa.tcz
-                        alsa-modules-6.1.2-tinycore64.tcz
+                        alsa-modules-6.6.8-tinycore64.tcz
+                           input-joystick-6.6.8-tinycore64.tcz
                         libasound.tcz
                         ncursesw.tcz
                      ncursesw-dev.tcz
@@ -38886,7 +38863,7 @@ gvfs-dev.tcz
                   nspr.tcz
                   sqlite3.tcz
             mdadm.tcz
-               raid-dm-6.1.2-tinycore64.tcz
+               raid-dm-6.6.8-tinycore64.tcz
             parted.tcz
                liblvm2.tcz
                   udev-lib.tcz
@@ -38899,7 +38876,8 @@ gvfs-dev.tcz
             btrfs-progs.tcz
                lzo.tcz
                libzstd.tcz
-               filesystems-6.1.2-tinycore64.tcz
+               filesystems-6.6.8-tinycore64.tcz
+                  mtd-6.6.8-tinycore64.tcz
             ndctl.tcz
                kmod.tcz
                   liblzma.tcz
@@ -39065,7 +39043,7 @@ gvfs-dev.tcz
                   nspr.tcz
                   sqlite3.tcz
             mdadm.tcz
-               raid-dm-6.1.2-tinycore64.tcz
+               raid-dm-6.6.8-tinycore64.tcz
             parted.tcz
                liblvm2.tcz
                   udev-lib.tcz
@@ -39078,7 +39056,8 @@ gvfs-dev.tcz
             btrfs-progs.tcz
                lzo.tcz
                libzstd.tcz
-               filesystems-6.1.2-tinycore64.tcz
+               filesystems-6.6.8-tinycore64.tcz
+                  mtd-6.6.8-tinycore64.tcz
             ndctl.tcz
                kmod.tcz
                   liblzma.tcz
@@ -39230,7 +39209,8 @@ gvfs-dev.tcz
             btrfs-progs.tcz
                lzo.tcz
                libzstd.tcz
-               filesystems-6.1.2-tinycore64.tcz
+               filesystems-6.6.8-tinycore64.tcz
+                  mtd-6.6.8-tinycore64.tcz
             lzo-dev.tcz
                lzo.tcz
             zstd-dev.tcz

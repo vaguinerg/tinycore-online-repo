@@ -715,15 +715,16 @@ vte-2.91-dev.tcz
                liblzma.tcz
             sqlite3.tcz
       icu74.tcz
-      gnutls35.tcz
+      gnutls38.tcz
          p11-kit.tcz
             libffi.tcz
             libtasn1-4.tcz
-         nettle3.tcz
+         nettle39.tcz
             gmp.tcz
          libidn2.tcz
             libunistring.tcz
             ncursesw.tcz
+         libzstd.tcz
    gtk3-dev.tcz
       gtk3.tcz
          libepoxy.tcz
@@ -7669,7 +7670,8 @@ vte-2.91-dev.tcz
                   libogg.tcz
             alsa-dev.tcz
                alsa.tcz
-                  alsa-modules-6.1.2-tinycore64.tcz
+                  alsa-modules-6.6.8-tinycore64.tcz
+                     input-joystick-6.6.8-tinycore64.tcz
                   libasound.tcz
                   ncursesw.tcz
                ncursesw-dev.tcz
@@ -15673,7 +15675,7 @@ vte-2.91-dev.tcz
                      glib2.tcz
                         libffi.tcz
                         pcre21042.tcz
-                  bluetooth-6.1.2-tinycore64.tcz
+                  bluetooth-6.6.8-tinycore64.tcz
                   sbc.tcz
                   readline.tcz
                      ncursesw.tcz
@@ -15682,7 +15684,8 @@ vte-2.91-dev.tcz
                sbc.tcz
             alsa-dev.tcz
                alsa.tcz
-                  alsa-modules-6.1.2-tinycore64.tcz
+                  alsa-modules-6.6.8-tinycore64.tcz
+                     input-joystick-6.6.8-tinycore64.tcz
                   libasound.tcz
                   ncursesw.tcz
                ncursesw-dev.tcz
@@ -18321,7 +18324,8 @@ vte-2.91-dev.tcz
                      libogg.tcz
                alsa-dev.tcz
                   alsa.tcz
-                     alsa-modules-6.1.2-tinycore64.tcz
+                     alsa-modules-6.6.8-tinycore64.tcz
+                        input-joystick-6.6.8-tinycore64.tcz
                      libasound.tcz
                      ncursesw.tcz
                   ncursesw-dev.tcz
@@ -24991,7 +24995,10 @@ vte-2.91-dev.tcz
                openal.tcz
                libv4l2.tcz
                   libjpeg-turbo.tcz
-                  v4l-dvb-6.1.2-tinycore64.tcz
+                  v4l-dvb-6.6.8-tinycore64.tcz
+                     i2c-6.6.8-tinycore64.tcz
+                     alsa-modules-6.6.8-tinycore64.tcz
+                        input-joystick-6.6.8-tinycore64.tcz
                libpulseaudio.tcz
                   dbus.tcz
                      expat2.tcz
@@ -25247,7 +25254,8 @@ vte-2.91-dev.tcz
                   libICE.tcz
                   libSM.tcz
                alsa.tcz
-                  alsa-modules-6.1.2-tinycore64.tcz
+                  alsa-modules-6.6.8-tinycore64.tcz
+                     input-joystick-6.6.8-tinycore64.tcz
                   libasound.tcz
                   ncursesw.tcz
                udev-lib.tcz
@@ -25278,7 +25286,8 @@ vte-2.91-dev.tcz
                   attr.tcz
             alsa-dev.tcz
                alsa.tcz
-                  alsa-modules-6.1.2-tinycore64.tcz
+                  alsa-modules-6.6.8-tinycore64.tcz
+                     input-joystick-6.6.8-tinycore64.tcz
                   libasound.tcz
                   ncursesw.tcz
                ncursesw-dev.tcz
@@ -25333,7 +25342,7 @@ vte-2.91-dev.tcz
                         glib2.tcz
                            libffi.tcz
                            pcre21042.tcz
-                     bluetooth-6.1.2-tinycore64.tcz
+                     bluetooth-6.6.8-tinycore64.tcz
                      sbc.tcz
                      readline.tcz
                         ncursesw.tcz
@@ -25342,7 +25351,8 @@ vte-2.91-dev.tcz
                   sbc.tcz
                alsa-dev.tcz
                   alsa.tcz
-                     alsa-modules-6.1.2-tinycore64.tcz
+                     alsa-modules-6.6.8-tinycore64.tcz
+                        input-joystick-6.6.8-tinycore64.tcz
                      libasound.tcz
                      ncursesw.tcz
                   ncursesw-dev.tcz
@@ -30343,7 +30353,10 @@ vte-2.91-dev.tcz
          libv4l2-dev.tcz
             libv4l2.tcz
                libjpeg-turbo.tcz
-               v4l-dvb-6.1.2-tinycore64.tcz
+               v4l-dvb-6.6.8-tinycore64.tcz
+                  i2c-6.6.8-tinycore64.tcz
+                  alsa-modules-6.6.8-tinycore64.tcz
+                     input-joystick-6.6.8-tinycore64.tcz
             libjpeg-turbo-dev.tcz
                libjpeg-turbo-bin.tcz
                   libjpeg-turbo.tcz
@@ -32564,16 +32577,17 @@ vte-2.91-dev.tcz
    icu74-dev.tcz
       icu74-bin.tcz
          icu74.tcz
-   gnutls35-dev.tcz
-      gnutls35.tcz
+   gnutls38-dev.tcz
+      gnutls38.tcz
          p11-kit.tcz
             libffi.tcz
             libtasn1-4.tcz
-         nettle3.tcz
+         nettle39.tcz
             gmp.tcz
          libidn2.tcz
             libunistring.tcz
             ncursesw.tcz
+         libzstd.tcz
       p11-kit-dev.tcz
          p11-kit.tcz
             libffi.tcz
@@ -32582,8 +32596,8 @@ vte-2.91-dev.tcz
             libffi.tcz
          libtasn1-4-dev.tcz
             libtasn1-4.tcz
-      nettle3-dev.tcz
-         nettle3.tcz
+      nettle39-dev.tcz
+         nettle39.tcz
             gmp.tcz
          gmp-dev.tcz
             gmp.tcz
@@ -32595,4 +32609,13 @@ vte-2.91-dev.tcz
             libunistring.tcz
          ncursesw-dev.tcz
             ncursesw.tcz
+      zstd-dev.tcz
+         zstd.tcz
+            libzstd.tcz
+            liblzma.tcz
+            liblz4.tcz
+         liblzma-dev.tcz
+            liblzma.tcz
+         liblz4-dev.tcz
+            liblz4.tcz
 

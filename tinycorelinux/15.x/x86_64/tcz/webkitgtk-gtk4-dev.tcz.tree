@@ -487,15 +487,6 @@ webkitgtk-gtk4-dev.tcz
       libavif.tcz
          libaom.tcz
       libseccomp.tcz
-      gnutls35.tcz
-         p11-kit.tcz
-            libffi.tcz
-            libtasn1-4.tcz
-         nettle3.tcz
-            gmp.tcz
-         libidn2.tcz
-            libunistring.tcz
-            ncursesw.tcz
       gtk4.tcz
          libepoxy.tcz
          at-spi2-core.tcz
@@ -1157,7 +1148,8 @@ webkitgtk-gtk4-dev.tcz
                libogg.tcz
          alsa-dev.tcz
             alsa.tcz
-               alsa-modules-6.1.2-tinycore64.tcz
+               alsa-modules-6.6.8-tinycore64.tcz
+                  input-joystick-6.6.8-tinycore64.tcz
                libasound.tcz
                ncursesw.tcz
             ncursesw-dev.tcz
@@ -9161,7 +9153,7 @@ webkitgtk-gtk4-dev.tcz
                   glib2.tcz
                      libffi.tcz
                      pcre21042.tcz
-               bluetooth-6.1.2-tinycore64.tcz
+               bluetooth-6.6.8-tinycore64.tcz
                sbc.tcz
                readline.tcz
                   ncursesw.tcz
@@ -9170,7 +9162,8 @@ webkitgtk-gtk4-dev.tcz
             sbc.tcz
          alsa-dev.tcz
             alsa.tcz
-               alsa-modules-6.1.2-tinycore64.tcz
+               alsa-modules-6.6.8-tinycore64.tcz
+                  input-joystick-6.6.8-tinycore64.tcz
                libasound.tcz
                ncursesw.tcz
             ncursesw-dev.tcz
@@ -11809,7 +11802,8 @@ webkitgtk-gtk4-dev.tcz
                   libogg.tcz
             alsa-dev.tcz
                alsa.tcz
-                  alsa-modules-6.1.2-tinycore64.tcz
+                  alsa-modules-6.6.8-tinycore64.tcz
+                     input-joystick-6.6.8-tinycore64.tcz
                   libasound.tcz
                   ncursesw.tcz
                ncursesw-dev.tcz
@@ -20855,7 +20849,8 @@ webkitgtk-gtk4-dev.tcz
                   libogg.tcz
             alsa-dev.tcz
                alsa.tcz
-                  alsa-modules-6.1.2-tinycore64.tcz
+                  alsa-modules-6.6.8-tinycore64.tcz
+                     input-joystick-6.6.8-tinycore64.tcz
                   libasound.tcz
                   ncursesw.tcz
                ncursesw-dev.tcz
@@ -28859,7 +28854,7 @@ webkitgtk-gtk4-dev.tcz
                      glib2.tcz
                         libffi.tcz
                         pcre21042.tcz
-                  bluetooth-6.1.2-tinycore64.tcz
+                  bluetooth-6.6.8-tinycore64.tcz
                   sbc.tcz
                   readline.tcz
                      ncursesw.tcz
@@ -28868,7 +28863,8 @@ webkitgtk-gtk4-dev.tcz
                sbc.tcz
             alsa-dev.tcz
                alsa.tcz
-                  alsa-modules-6.1.2-tinycore64.tcz
+                  alsa-modules-6.6.8-tinycore64.tcz
+                     input-joystick-6.6.8-tinycore64.tcz
                   libasound.tcz
                   ncursesw.tcz
                ncursesw-dev.tcz
@@ -31507,7 +31503,8 @@ webkitgtk-gtk4-dev.tcz
                      libogg.tcz
                alsa-dev.tcz
                   alsa.tcz
-                     alsa-modules-6.1.2-tinycore64.tcz
+                     alsa-modules-6.6.8-tinycore64.tcz
+                        input-joystick-6.6.8-tinycore64.tcz
                      libasound.tcz
                      ncursesw.tcz
                   ncursesw-dev.tcz
@@ -38177,7 +38174,10 @@ webkitgtk-gtk4-dev.tcz
                openal.tcz
                libv4l2.tcz
                   libjpeg-turbo.tcz
-                  v4l-dvb-6.1.2-tinycore64.tcz
+                  v4l-dvb-6.6.8-tinycore64.tcz
+                     i2c-6.6.8-tinycore64.tcz
+                     alsa-modules-6.6.8-tinycore64.tcz
+                        input-joystick-6.6.8-tinycore64.tcz
                libpulseaudio.tcz
                   dbus.tcz
                      expat2.tcz
@@ -38433,7 +38433,8 @@ webkitgtk-gtk4-dev.tcz
                   libICE.tcz
                   libSM.tcz
                alsa.tcz
-                  alsa-modules-6.1.2-tinycore64.tcz
+                  alsa-modules-6.6.8-tinycore64.tcz
+                     input-joystick-6.6.8-tinycore64.tcz
                   libasound.tcz
                   ncursesw.tcz
                udev-lib.tcz
@@ -38464,7 +38465,8 @@ webkitgtk-gtk4-dev.tcz
                   attr.tcz
             alsa-dev.tcz
                alsa.tcz
-                  alsa-modules-6.1.2-tinycore64.tcz
+                  alsa-modules-6.6.8-tinycore64.tcz
+                     input-joystick-6.6.8-tinycore64.tcz
                   libasound.tcz
                   ncursesw.tcz
                ncursesw-dev.tcz
@@ -38519,7 +38521,7 @@ webkitgtk-gtk4-dev.tcz
                         glib2.tcz
                            libffi.tcz
                            pcre21042.tcz
-                     bluetooth-6.1.2-tinycore64.tcz
+                     bluetooth-6.6.8-tinycore64.tcz
                      sbc.tcz
                      readline.tcz
                         ncursesw.tcz
@@ -38528,7 +38530,8 @@ webkitgtk-gtk4-dev.tcz
                   sbc.tcz
                alsa-dev.tcz
                   alsa.tcz
-                     alsa-modules-6.1.2-tinycore64.tcz
+                     alsa-modules-6.6.8-tinycore64.tcz
+                        input-joystick-6.6.8-tinycore64.tcz
                      libasound.tcz
                      ncursesw.tcz
                   ncursesw-dev.tcz
@@ -43529,7 +43532,10 @@ webkitgtk-gtk4-dev.tcz
          libv4l2-dev.tcz
             libv4l2.tcz
                libjpeg-turbo.tcz
-               v4l-dvb-6.1.2-tinycore64.tcz
+               v4l-dvb-6.6.8-tinycore64.tcz
+                  i2c-6.6.8-tinycore64.tcz
+                  alsa-modules-6.6.8-tinycore64.tcz
+                     input-joystick-6.6.8-tinycore64.tcz
             libjpeg-turbo-dev.tcz
                libjpeg-turbo-bin.tcz
                   libjpeg-turbo.tcz
@@ -52707,16 +52713,17 @@ webkitgtk-gtk4-dev.tcz
                liblzma.tcz
    libseccomp-dev.tcz
       libseccomp.tcz
-   gnutls35-dev.tcz
-      gnutls35.tcz
+   gnutls38-dev.tcz
+      gnutls38.tcz
          p11-kit.tcz
             libffi.tcz
             libtasn1-4.tcz
-         nettle3.tcz
+         nettle39.tcz
             gmp.tcz
          libidn2.tcz
             libunistring.tcz
             ncursesw.tcz
+         libzstd.tcz
       p11-kit-dev.tcz
          p11-kit.tcz
             libffi.tcz
@@ -52725,8 +52732,8 @@ webkitgtk-gtk4-dev.tcz
             libffi.tcz
          libtasn1-4-dev.tcz
             libtasn1-4.tcz
-      nettle3-dev.tcz
-         nettle3.tcz
+      nettle39-dev.tcz
+         nettle39.tcz
             gmp.tcz
          gmp-dev.tcz
             gmp.tcz
@@ -52738,4 +52745,13 @@ webkitgtk-gtk4-dev.tcz
             libunistring.tcz
          ncursesw-dev.tcz
             ncursesw.tcz
+      zstd-dev.tcz
+         zstd.tcz
+            libzstd.tcz
+            liblzma.tcz
+            liblz4.tcz
+         liblzma-dev.tcz
+            liblzma.tcz
+         liblz4-dev.tcz
+            liblz4.tcz
 
