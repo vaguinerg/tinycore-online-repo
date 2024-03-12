@@ -18,6 +18,7 @@
 /usr/local/include/evolution/calendar/gui/e-cal-ops.h
 /usr/local/include/evolution/calendar/gui/e-calendar-view.h
 /usr/local/include/evolution/calendar/gui/e-cell-date-edit-text.h
+/usr/local/include/evolution/calendar/gui/e-cell-estimated-duration.h
 /usr/local/include/evolution/calendar/gui/e-comp-editor-event.h
 /usr/local/include/evolution/calendar/gui/e-comp-editor-memo.h
 /usr/local/include/evolution/calendar/gui/e-comp-editor-page-attachments.h
@@ -36,6 +37,7 @@
 /usr/local/include/evolution/calendar/gui/e-day-view-time-item.h
 /usr/local/include/evolution/calendar/gui/e-day-view-top-item.h
 /usr/local/include/evolution/calendar/gui/e-day-view.h
+/usr/local/include/evolution/calendar/gui/e-estimated-duration-entry.h
 /usr/local/include/evolution/calendar/gui/e-meeting-attendee.h
 /usr/local/include/evolution/calendar/gui/e-meeting-list-view.h
 /usr/local/include/evolution/calendar/gui/e-meeting-store.h
@@ -57,6 +59,7 @@
 /usr/local/include/evolution/calendar/gui/e-week-view-titles-item.h
 /usr/local/include/evolution/calendar/gui/e-week-view.h
 /usr/local/include/evolution/calendar/gui/e-weekday-chooser.h
+/usr/local/include/evolution/calendar/gui/e-year-view.h
 /usr/local/include/evolution/calendar/gui/ea-cal-view-event.h
 /usr/local/include/evolution/calendar/gui/ea-cal-view.h
 /usr/local/include/evolution/calendar/gui/ea-calendar-helpers.h
@@ -144,6 +147,7 @@
 /usr/local/include/evolution/e-util/e-collection-account-wizard.h
 /usr/local/include/evolution/e-util/e-color-chooser-widget.h
 /usr/local/include/evolution/e-util/e-color-combo.h
+/usr/local/include/evolution/e-util/e-color-scheme-watcher.h
 /usr/local/include/evolution/e-util/e-config-lookup-result-simple.h
 /usr/local/include/evolution/e-util/e-config-lookup-result.h
 /usr/local/include/evolution/e-util/e-config-lookup-worker.h
@@ -175,10 +179,13 @@
 /usr/local/include/evolution/e-util/e-filter-file.h
 /usr/local/include/evolution/e-util/e-filter-input.h
 /usr/local/include/evolution/e-util/e-filter-int.h
+/usr/local/include/evolution/e-util/e-filter-label.h
 /usr/local/include/evolution/e-util/e-filter-option.h
 /usr/local/include/evolution/e-util/e-filter-part.h
 /usr/local/include/evolution/e-util/e-filter-rule.h
 /usr/local/include/evolution/e-util/e-focus-tracker.h
+/usr/local/include/evolution/e-util/e-headerbar-button.h
+/usr/local/include/evolution/e-util/e-headerbar.h
 /usr/local/include/evolution/e-util/e-html-editor-actions.h
 /usr/local/include/evolution/e-util/e-html-editor-cell-dialog.h
 /usr/local/include/evolution/e-util/e-html-editor-dialog.h
@@ -208,11 +215,15 @@
 /usr/local/include/evolution/e-util/e-mail-signature-script-dialog.h
 /usr/local/include/evolution/e-util/e-mail-signature-tree-view.h
 /usr/local/include/evolution/e-util/e-map.h
+/usr/local/include/evolution/e-util/e-markdown-editor.h
+/usr/local/include/evolution/e-util/e-markdown-utils.h
 /usr/local/include/evolution/e-util/e-marshal.h
+/usr/local/include/evolution/e-util/e-menu-bar.h
 /usr/local/include/evolution/e-util/e-menu-tool-action.h
 /usr/local/include/evolution/e-util/e-menu-tool-button.h
 /usr/local/include/evolution/e-util/e-misc-utils.h
 /usr/local/include/evolution/e-util/e-mktemp.h
+/usr/local/include/evolution/e-util/e-month-widget.h
 /usr/local/include/evolution/e-util/e-name-selector-dialog.h
 /usr/local/include/evolution/e-util/e-name-selector-entry.h
 /usr/local/include/evolution/e-util/e-name-selector-list.h
@@ -480,6 +491,7 @@
 /usr/local/include/evolution/mail/em-filter-context.h
 /usr/local/include/evolution/mail/em-filter-editor-folder-element.h
 /usr/local/include/evolution/mail/em-filter-editor.h
+/usr/local/include/evolution/mail/em-filter-mail-identity-element.h
 /usr/local/include/evolution/mail/em-filter-rule.h
 /usr/local/include/evolution/mail/em-filter-source-element.h
 /usr/local/include/evolution/mail/em-folder-properties.h
@@ -502,6 +514,7 @@
 /usr/local/include/evolution/shell/e-shell-common.h
 /usr/local/include/evolution/shell/e-shell-content.h
 /usr/local/include/evolution/shell/e-shell-enumtypes.h
+/usr/local/include/evolution/shell/e-shell-headerbar.h
 /usr/local/include/evolution/shell/e-shell-searchbar.h
 /usr/local/include/evolution/shell/e-shell-sidebar.h
 /usr/local/include/evolution/shell/e-shell-switcher.h
