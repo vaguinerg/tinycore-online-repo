@@ -1,25 +1,27 @@
 Title:          firmware-intel.tcz
 Description:    firmware for Intel Bluetooth, Bay Trail audio 
                 and Broadwell SST DSP 
-Version:        20230117
+Version:        20240220
 Author:         Various
 Original-site:  https://git.kernel.org/pub/scm/linux/\
                 kernel/git/firmware/linux-firmware.git
 Copying-policy: Distributable
-Size:           13M
-Extension_by:   aus9
+Size:           19.9M
+Extension_by:   aus9 @linuxquestions.org
 Tags:           firmware intel bluetooth audio usb
 Comments:       firmware 
-
-                (update) one deletion=ice-1.3.4.0.pkg
-                so use old TCE if needed
+                update WARNING deletions: IntcSST2.bin ice-1.3.30.0.pkg
+                ice_comms-1.3.31.0.pkg ice_wireless_edge-1.3.7.0.pkg
+                irci_irci_ecr-master_20161208_0213_20170112_1500.bin
+                run $ modinfo | grep firmware 
+                If FW still needed delete md5 file and do not update!
    
 Change-log:     2015/06/02 Original (coreplayer2)
-                2016/01/10 updated (coreplayer2)
-                2017/03/17 updated (coreplayer2)
-                2018/02/25 updated (coreplayer2)
-                2018/12/24 updated (coreplayer2)
+                2016/01/10 updated      "
+                2017/03/17 updated      "
+                2018/02/25 updated      "
+                2018/12/24 updated      "
                 2020/01/13 updated (juanito)
                 2020/06/20 updated (aus9)
-Current:        2023/02/04 updated (aus9) one deletion
-
+                2023/02/04 updated one deletion
+Current:        2024/03/12 updated remove install script - 5 deletions      

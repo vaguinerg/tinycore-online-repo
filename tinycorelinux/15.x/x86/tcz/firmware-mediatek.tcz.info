@@ -1,17 +1,22 @@
 Title:          firmware-mediatek.tcz
 Description:    firmware for some Mediatek devices
-Version:        20230117
+Version:        20240220
 Author:         Various
 Original-site:  https://git.kernel.org/pub/scm/linux/\
                 kernel/git/firmware/linux-firmware.git
 Copying-policy: Distributable
-Size:           9.3M
-Extension_by:   aus9
+Size:           15.2M
+Extension_by:   aus9 @linuxquestions.org
 Tags:           firmware wifi VPU
 Comments:       firmware mainly WLAN devices but includes 
-                some video processing units (VPU)  
+                some video processing units (VPU)
+
+                update WARNING deletions: mt7601u.bin
+                mt7650.bin mt7662.bin mt7662_rom_patch.bin  
+                run $ modinfo | grep firmware 
+                If FW still needed delete md5 file and do not update!
   
 Change-log:     2020/06/20 split from firmware.tcz and updated
                 2020/06/20 updated (aus9)
-Current:        2023/02/04 updated (aus9)
-
+                2023/02/04 updated  
+Current:        2024/03/12 updated remove install script - 3 deletions       

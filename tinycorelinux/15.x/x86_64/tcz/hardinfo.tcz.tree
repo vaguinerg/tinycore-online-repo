@@ -283,6 +283,29 @@ hardinfo.tcz
                libpciaccess.tcz
                udev-lib.tcz
             libxshmfence.tcz
+      libEGL.tcz
+         libGL.tcz
+            libXdamage.tcz
+               libXfixes.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
+            libXxf86vm.tcz
+               libXext.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
+            libdrm.tcz
+               libpciaccess.tcz
+               udev-lib.tcz
+            libxshmfence.tcz
+         wayland.tcz
+            libffi.tcz
+            expat2.tcz
+            libxml2.tcz
+               liblzma.tcz
    json-glib.tcz
       glib2.tcz
          libffi.tcz
@@ -311,5 +334,5 @@ hardinfo.tcz
             libunistring.tcz
             ncursesw.tcz
    lm-sensors.tcz
-      hwmon-6.1.2-tinycore64.tcz
+      hwmon-6.6.8-tinycore64.tcz
 

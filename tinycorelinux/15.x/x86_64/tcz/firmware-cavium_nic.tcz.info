@@ -1,18 +1,20 @@
 Title:          firmware-cavium_nic.tcz
 Description:    firmware for Cavium Smart Ethernet adapters
-Version:        20230117
+Version:        20240220
 Author:         Various
 Original-site:  https://git.kernel.org/pub/scm/linux/\
                 kernel/git/firmware/linux-firmware.git
 Copying-policy: Distributable
-Size:           18M
-Extension_by:   aus9
+Size:           2.2M
+Extension_by:   aus9 @linuxquestions.org
 Tags:           firmware cavium liquidio ethernet
-Comments:       firmware
+Comments:       update WARNING lio_23xx_vsw.bin deleted
+                run $ modinfo | grep firmware 
+                If FW still needed delete md5 file and do not update!
    
 Change-log:     2018/02/25 Original (coreplayer2)
-                2018/12/24 updated (coreplayer2)
+                2018/12/24 updated      "
                 2020/01/13 updated (juanito)
                 2020/06/20 updated (aus9)
-Current:        2023/02/04 updated (aus9)
-
+                2023/02/04 updated  
+Current:        2024/03/12 updated remove install script -1 deletion    

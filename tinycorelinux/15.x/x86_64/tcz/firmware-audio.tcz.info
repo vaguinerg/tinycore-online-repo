@@ -1,17 +1,16 @@
 Title:          firmware-audio.tcz
 Description:    firmware for some audio devices
-Version:        20230117
+Version:        20240220
 Author:         Various
 Original-site:  https://git.kernel.org/pub/scm/linux/\
                 kernel/git/firmware/linux-firmware.git
 Copying-policy: Distributable
-Size:           1.1M
-Extension_by:   aus9
+Size:           1.7M
+Extension_by:   aus9 @linuxquestions.org
 Tags:           firmware audio
 Comments:       firmware 
-
-                (update) 2xTDA deleted so use old TCE if needed
-     
+                no deletions this update
+                     
 Change-log:     2020/06/20 split from firmware.tcz and updated (aus9)
-Current:        2023/02/04 updated (aus9) two deletions
-
+                2023/02/04 updated two deletions
+Current:        2024/03/12 updated remove install script - 0 deletions   

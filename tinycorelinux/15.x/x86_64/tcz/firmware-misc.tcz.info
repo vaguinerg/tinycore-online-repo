@@ -1,21 +1,19 @@
 Title:          firmware-misc.tcz
 Description:    firmware for miscellaneous devices
-Version:        20230117
+Version:        20240220
 Author:         Various
 Original-site:  https://git.kernel.org/pub/scm/linux/\
                 kernel/git/firmware/linux-firmware.git
 Copying-policy: Distributable
-Size:           2.1M
-Extension_by:   aus9
+Size:           2.9M
+Extension_by:   aus9 @linuxquestions.org
 Tags:           firmware
 Comments:       Leftovers from the linux-firmware not large 
                 enough to have their own TCE. TCE created in 
                 2011 and split by coreplayer2 into various TCEs 
                 at later dates. This is another split.
-
-                (update) deletions: 3C359 intelliport2 tr_smctr
+                No deletions this update
 
 Change-log:     2020/06/20 split from firmware.tcz and updated
-                2020/06/20 updated (aus9)
-Current:        2023/02/04 updated (aus9) has deletions
-
+                2023/02/04 updated has deletions
+Current:        2024/03/12 updated remove install script - 0 deletions    

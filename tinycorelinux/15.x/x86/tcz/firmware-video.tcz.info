@@ -1,17 +1,17 @@
 Title:          firmware-video.tcz
 Description:    firmware for some video en/decoders or v4l
-Version:        20230117
+Version:        20240220
 Author:         Various
 Original-site:  https://git.kernel.org/pub/scm/linux/\
                 kernel/git/firmware/linux-firmware.git
 Copying-policy: Distributable
-Size:           1.4M
-Extension_by:   aus9
+Size:           2.1M
+Extension_by:   aus9 @linuxquestions.org
 Tags:           firmware video
 Comments:       Includes some Audiovisual devices
 
                 (update) deletion tlg2300 so use old TCE if needed
     
 Change-log:     2020/06/20 split from firmware.tcz and updated (aus9)
-Current:        2023/02/04 updated (aus9) one deletion 
-
+                2023/02/04 updated has 1 deletion
+Current:        2024/03/12 updated remove install script     

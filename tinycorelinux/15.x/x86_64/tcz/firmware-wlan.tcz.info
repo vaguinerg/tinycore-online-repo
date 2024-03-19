@@ -1,16 +1,16 @@
 Title:          firmware-wlan.tcz
 Description:    firmware for some wireless network devices
-Version:        20230117
+Version:        20240220
 Author:         Various
 Original-site:  https://git.kernel.org/pub/scm/linux/\
                 kernel/git/firmware/linux-firmware.git
 Copying-policy: Distributable
-Size:           8.5M
-Extension_by:   aus9
+Size:           10.6M
+Extension_by:   aus9 @linuxquestions.org
 Tags:           firmware wifi wireless 
 Comments:       firmware contains Realtek (rtw89) 8852AE as this conflicts
                 with normal kernel modules      
  
 Change-log:     2020/06/20 split from firmware.tcz and updated (aus9)
-Current:        2023/02/04 updated (aus9)  
-
+                2023/02/04 updated  
+Current:        2024/03/12 updated remove install script  

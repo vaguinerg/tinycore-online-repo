@@ -1,17 +1,30 @@
-Title:          mc.tcz
-Description:    User shell with text-mode full-screen interface
-Version:        4.8.13
-Author:         Various
-Original-site:  http://www.midnight-commander.org
-Copying-policy: GPL v2
-Size:           1.3M
-Extension_by:   bmarkus
-Tags:           FILEUTILITY FTP CLI
-Comments:       Binaries only
-                ----
-                Soft dependencies:
-                perl5.tcz (misc. functions)
-                ----
-                Compiled for Pure64
-Change-log:     2014/01/18 First version, 4.8.11
-Current:        2014/06/16 Updated to 4.12
+Title:           mc.tcz
+Description:     Console or Virtual Terminal File Manager
+Version:         4.8.31
+Author:          see TCE doc 
+Original-site:   http://midnight-commander.org/
+Copying-policy:  GPL v3
+Size:            868K
+Extension_by:    aus9 @ linuxquestions.org
+Tags:            terminal file manager
+Comments:        If you launch by wbar or desktop icon, load/onboot list - an xterm friendly VT 
+                 such as aterm or lxterminal, dependency not set AND
+                 aterm, lxterminal, sakura, tilda--- wheel mouse & SELECT mouse button work
+                 as does page up/down. Only aterm arrow up/down work for me. Other VTs not tested
+                                
+                 Optional deps:  perl5 for misc. functions
+                 No support for trash can
+                 
+                 mc allows live config changes, mc-> Options -> Configuration 
+
+                 mc has read-write file association files under extension dir=
+                 /usr/local/libexec/mc/ext.d
+                 Any you change and want over reboot, add to your backup please
+                 eg usr/local/libexec/mc/ext.d/doc.sh (we drop leading /)                 
+                 Also--examining doc.sh for example reveals that we could use
+                 xpdf-tools or poppler23-bin internal view of PDF (pdftotext)
+                 and so on.
+      
+Change-log:     2014/01/18 v 4.8.11 (bmarkus)
+                2014/06/16 v 4.8.12
+Current:        2024/03/15 v 4.8.31 on 15x (aus9) split some files to doc (non-EN) & rw file associations   

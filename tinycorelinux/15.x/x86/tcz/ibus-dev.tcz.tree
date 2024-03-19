@@ -1127,6 +1127,27 @@ ibus-dev.tcz
                         libffi.tcz
                         pcre21042.tcz
                libxshmfence.tcz
+         libEGL.tcz
+            libGL.tcz
+               libXdamage.tcz
+                  libXfixes.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+               libXxf86vm.tcz
+                  libXext.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+               libdrm.tcz
+                  libpciaccess.tcz
+                  udev-lib.tcz
+                     glib2.tcz
+                        libffi.tcz
+                        pcre21042.tcz
+               libxshmfence.tcz
       at-spi2-core-dev.tcz
          at-spi2-core.tcz
             dbus.tcz
@@ -2906,7 +2927,7 @@ ibus-dev.tcz
                         pcre21042.tcz
                   libical3.tcz
                      icu70.tcz
-                  bluetooth-6.1.2-tinycore.tcz
+                  bluetooth-6.6.8-tinycore.tcz
                   sbc.tcz
                   readline.tcz
                      ncursesw.tcz
@@ -3326,7 +3347,8 @@ ibus-dev.tcz
                libogg.tcz
          alsa-dev.tcz
             alsa.tcz
-               alsa-modules-6.1.2-tinycore.tcz
+               alsa-modules-6.6.8-tinycore.tcz
+                  input-joystick-6.6.8-tinycore.tcz
                libasound.tcz
                ncursesw.tcz
             ncursesw-dev.tcz
@@ -4880,7 +4902,8 @@ ibus-dev.tcz
                libICE.tcz
                libSM.tcz
             alsa.tcz
-               alsa-modules-6.1.2-tinycore.tcz
+               alsa-modules-6.6.8-tinycore.tcz
+                  input-joystick-6.6.8-tinycore.tcz
                libasound.tcz
                ncursesw.tcz
             udev-lib.tcz
@@ -4904,7 +4927,8 @@ ibus-dev.tcz
                attr.tcz
          alsa-dev.tcz
             alsa.tcz
-               alsa-modules-6.1.2-tinycore.tcz
+               alsa-modules-6.6.8-tinycore.tcz
+                  input-joystick-6.6.8-tinycore.tcz
                libasound.tcz
                ncursesw.tcz
             ncursesw-dev.tcz
@@ -4946,7 +4970,7 @@ ibus-dev.tcz
                         pcre21042.tcz
                   libical3.tcz
                      icu70.tcz
-                  bluetooth-6.1.2-tinycore.tcz
+                  bluetooth-6.6.8-tinycore.tcz
                   sbc.tcz
                   readline.tcz
                      ncursesw.tcz

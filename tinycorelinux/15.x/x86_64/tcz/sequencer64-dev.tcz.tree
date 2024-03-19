@@ -285,6 +285,29 @@ sequencer64-dev.tcz
                      libpciaccess.tcz
                      udev-lib.tcz
                   libxshmfence.tcz
+            libEGL.tcz
+               libGL.tcz
+                  libXdamage.tcz
+                     libXfixes.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                  libXxf86vm.tcz
+                     libXext.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                  libdrm.tcz
+                     libpciaccess.tcz
+                     udev-lib.tcz
+                  libxshmfence.tcz
+               wayland.tcz
+                  libffi.tcz
+                  expat2.tcz
+                  libxml2.tcz
+                     liblzma.tcz
          atkmm.tcz
             at-spi2-core.tcz
                dbus.tcz
@@ -685,6 +708,29 @@ sequencer64-dev.tcz
                      libpciaccess.tcz
                      udev-lib.tcz
                   libxshmfence.tcz
+            libEGL.tcz
+               libGL.tcz
+                  libXdamage.tcz
+                     libXfixes.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                  libXxf86vm.tcz
+                     libXext.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                  libdrm.tcz
+                     libpciaccess.tcz
+                     udev-lib.tcz
+                  libxshmfence.tcz
+               wayland.tcz
+                  libffi.tcz
+                  expat2.tcz
+                  libxml2.tcz
+                     liblzma.tcz
          atkmm.tcz
             at-spi2-core.tcz
                dbus.tcz
@@ -4880,6 +4926,29 @@ sequencer64-dev.tcz
                      libpciaccess.tcz
                      udev-lib.tcz
                   libxshmfence.tcz
+            libEGL.tcz
+               libGL.tcz
+                  libXdamage.tcz
+                     libXfixes.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                  libXxf86vm.tcz
+                     libXext.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                  libdrm.tcz
+                     libpciaccess.tcz
+                     udev-lib.tcz
+                  libxshmfence.tcz
+               wayland.tcz
+                  libffi.tcz
+                  expat2.tcz
+                  libxml2.tcz
+                     liblzma.tcz
          libXcomposite-dev.tcz
             libXcomposite.tcz
                libX11.tcz
@@ -6840,7 +6909,8 @@ sequencer64-dev.tcz
                   libffi.tcz
    alsa-dev.tcz
       alsa.tcz
-         alsa-modules-6.1.2-tinycore64.tcz
+         alsa-modules-6.6.8-tinycore64.tcz
+            input-joystick-6.6.8-tinycore64.tcz
          libasound.tcz
          ncursesw.tcz
       ncursesw-dev.tcz

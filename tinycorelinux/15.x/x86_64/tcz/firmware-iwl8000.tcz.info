@@ -1,25 +1,27 @@
 Title:          firmware-iwl8000.tcz
 Description:    firmware for Intel Wireless 8000 series
-Version:        20230117
+Version:        20240220
 Author:         Various
 Original-site:  https://git.kernel.org/pub/scm/linux/\
                 kernel/git/firmware/linux-firmware.git
 Copying-policy: Distributable
-Size:           9.3M
-Extension_by:   aus9
+Size:           3.9M
+Extension_by:   aus9 @linuxquestions.org
 Tags:           firmware intel wifi 
-Comments:       firmware 
-
-                (update) deletions: 8000C-13 8000C-16 
-                8000C-21 8265-21 so use old TCE if needed
+Comments:       update WARNING deletions:
+                iwlwifi-8000C-22.ucode & -27 -31
+                iwlwifi-8265-22.ucode & -27 -31
+                run $ modinfo | grep firmware 
+                If FW still needed delete md5 file and do not update!    
       
 Change-log:     2011/08/06 Original (curaga)
                 2013/07/01 updated (coreplayer2)
-                2015/06/02 updated (coreplayer2)
-                2016/01/10 updated (coreplayer2)
-                2017/03/17 updated (coreplayer2)
-                2018/02/25 updated (coreplayer2)
-                2018/12/24 updated (coreplayer2)
+                2015/06/02 updated     "
+                2016/01/10 updated     "
+                2017/03/17 updated     "
+                2018/02/25 updated     "
+                2018/12/24 updated     "
+                2020/01/13 updated (juanito)
                 2020/06/20 updated (aus9)
-Current:        2023/02/04 updated (aus9) has deletions
-
+                2023/02/04 updated has deletions
+Current:        2024/03/12 updated remove install script - 6 deletions      
