@@ -1539,6 +1539,30 @@ gnome-books-gir.tcz
             usb-utils.tcz
                libusb.tcz
                   udev-lib.tcz
+            libsoup3.tcz
+               glib-networking.tcz
+                  glib2.tcz
+                     libffi.tcz
+                     pcre21042.tcz
+                  openssl.tcz
+                  gnutls38.tcz
+                     p11-kit.tcz
+                        libffi.tcz
+                        libtasn1-4.tcz
+                     nettle39.tcz
+                        gmp.tcz
+                     libidn2.tcz
+                        libunistring.tcz
+                        ncursesw.tcz
+                     libzstd.tcz
+               libxml2.tcz
+                  liblzma.tcz
+               sqlite3.tcz
+               libpsl.tcz
+                  libidn2.tcz
+                     libunistring.tcz
+                     ncursesw.tcz
+               libnghttp2.tcz
          libseccomp.tcz
          libpoppler21.tcz
             liblcms2.tcz
