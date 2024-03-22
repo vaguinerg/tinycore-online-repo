@@ -1,8 +1,8 @@
 Title:          gtk2.tcz
 Description:    Gimp Tool Kit
-Version:        2.24.32
+Version:        2.24.33
 Author:         see -doc/AUTHORS
-Original-site:  http://www.gtk.org
+Original-site:  https://download.gnome.org/sources/gtk+/2.24/
 Copying-policy: LGPL v2
 Size:           2.2M
 Extension_by:   aus9 
@@ -12,16 +12,20 @@ Comments:       Gimp Tool Kit
                 The cache update generates
                 /usr/local/lib/gtk-2.0/2.10.0/immodules.cache
 
-                Optional dependency lxappearance to modify config
+                Optional:lxappearance to modify config
+                -libcups for printbackends (likely more TCEs)
                 
                 If you would like to input using multipress method, you need
                 a keypad keyboard, numlock on and open a gtk2 app eg leafpad/netsurf
                 Right hand click an input area and choose input methods -> multipress
                 pressing the same numlock number key quickly displays different characters
                 see /usr/local/etc/gtk-2.0/im-multipress.conf
+
+                2 rarely used exes moved to doc TCE
  
 Change-log:     2014/01/18 First v 2.24.20 (bmarkus)
-                2018/06/14 v -> 2.24.32 add cups backend (aus9) on 9x 
+                2018/06/14 v 2.24.32 add cups backend (aus9) on 9x 
                 2020/04/19 recompiled for 11x add .gtkrc-2.0
                 2020/04/25 add locale, fix pc files on 11x
-Current:        2023/03/16 factored out gtk-update-icon-cache (juanito)
+                2023/03/16 factored out gtk-update-icon-cache (juanito)
+Current:        2024/03/08 v 2.24.33 on 15x, 2 exes moved    
