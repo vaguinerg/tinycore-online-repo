@@ -181,15 +181,16 @@ gtk-vnc-dev.tcz
                         libXdmcp.tcz
          libICE.tcz
          libSM.tcz
-      gnutls35.tcz
+      gnutls38.tcz
          p11-kit.tcz
             libffi.tcz
             libtasn1-4.tcz
-         nettle3.tcz
+         nettle39.tcz
             gmp.tcz
          libidn2.tcz
             libunistring.tcz
             ncursesw.tcz
+         libzstd.tcz
    gtk3-dev.tcz
       gtk3.tcz
          libepoxy.tcz
@@ -4506,7 +4507,8 @@ gtk-vnc-dev.tcz
             libICE.tcz
             libSM.tcz
          alsa.tcz
-            alsa-modules-6.1.2-tinycore64.tcz
+            alsa-modules-6.6.8-tinycore64.tcz
+               input-joystick-6.6.8-tinycore64.tcz
             libasound.tcz
             ncursesw.tcz
          udev-lib.tcz
@@ -4537,7 +4539,8 @@ gtk-vnc-dev.tcz
             attr.tcz
       alsa-dev.tcz
          alsa.tcz
-            alsa-modules-6.1.2-tinycore64.tcz
+            alsa-modules-6.6.8-tinycore64.tcz
+               input-joystick-6.6.8-tinycore64.tcz
             libasound.tcz
             ncursesw.tcz
          ncursesw-dev.tcz
@@ -4592,7 +4595,7 @@ gtk-vnc-dev.tcz
                   glib2.tcz
                      libffi.tcz
                      pcre21042.tcz
-               bluetooth-6.1.2-tinycore64.tcz
+               bluetooth-6.6.8-tinycore64.tcz
                sbc.tcz
                readline.tcz
                   ncursesw.tcz
@@ -4601,7 +4604,8 @@ gtk-vnc-dev.tcz
             sbc.tcz
          alsa-dev.tcz
             alsa.tcz
-               alsa-modules-6.1.2-tinycore64.tcz
+               alsa-modules-6.6.8-tinycore64.tcz
+                  input-joystick-6.6.8-tinycore64.tcz
                libasound.tcz
                ncursesw.tcz
             ncursesw-dev.tcz
@@ -8880,16 +8884,17 @@ gtk-vnc-dev.tcz
                   xorg-proto.tcz
                      util-macros.tcz
                         m4.tcz
-   gnutls35-dev.tcz
-      gnutls35.tcz
+   gnutls38-dev.tcz
+      gnutls38.tcz
          p11-kit.tcz
             libffi.tcz
             libtasn1-4.tcz
-         nettle3.tcz
+         nettle39.tcz
             gmp.tcz
          libidn2.tcz
             libunistring.tcz
             ncursesw.tcz
+         libzstd.tcz
       p11-kit-dev.tcz
          p11-kit.tcz
             libffi.tcz
@@ -8898,8 +8903,8 @@ gtk-vnc-dev.tcz
             libffi.tcz
          libtasn1-4-dev.tcz
             libtasn1-4.tcz
-      nettle3-dev.tcz
-         nettle3.tcz
+      nettle39-dev.tcz
+         nettle39.tcz
             gmp.tcz
          gmp-dev.tcz
             gmp.tcz
@@ -8911,4 +8916,13 @@ gtk-vnc-dev.tcz
             libunistring.tcz
          ncursesw-dev.tcz
             ncursesw.tcz
+      zstd-dev.tcz
+         zstd.tcz
+            libzstd.tcz
+            liblzma.tcz
+            liblz4.tcz
+         liblzma-dev.tcz
+            liblzma.tcz
+         liblz4-dev.tcz
+            liblz4.tcz
 
