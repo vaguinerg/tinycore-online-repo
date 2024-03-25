@@ -1,16 +1,28 @@
 Title:          firmware-rtlwifi.tcz
-Description:    Redistributable firmware for Realtek Wireless LAN
-Version:        2020-01-19
+Description:    firmware for Realtek Wireless LAN
+Version:        20240324
 Author:         Various
-Original-site:  https://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git/
+Original-site:  https://git.kernel.org/pub/scm/linux/\
+                kernel/git/firmware/linux-firmware.git
 Copying-policy: Distributable
-Size:           208k
-Extension_by:   coreplayer2, ralphy
-Tags:           FIRMWARE RTL WIFI WIRELESS
-Comments:       Binaries only
-Change-log:     2013/07/01 Original firmware for tc5.x
-                2014/03/04 Updated for piCore-5.2
+Size:           944K
+Extension_by:   aus9 @linuxquestions.org 
+Tags:           firmware realtek wifi
+Comments:       firmware 
+                update WARNING fw for RTL8192E deleted ( 3 images)
+                run $ modinfo | grep firmware 
+                If FW still needed delete md5 file and do not update!
+
+Change-log:     2013/07/01 Original for tc5.x (bmarkus)
+                2014/03/04 updated for piCore-5.2
                 2014/04/25 Added rtl8188eufw.bin
                 2014/10/17 Added rtl8192cufw_TMSC.bin
-                2016/02/07 Updated rtl8712u.bin to 2011 version
-Current:        2020/01/19 Added rtl8188fufw.bin
+                2015/06/02 updated (coreplayer2)
+                2017/03/17 updated     "
+                2018/02/25 updated     "
+                2018/12/24 updated     "
+                2020/01/13 updated (juanito)
+                2020/06/20 updated (aus9)
+                2023/02/04 updated has 4 deletions
+                2024/03/12 updated remove install script - 1 (effectively) deleted     
+Current:        2024/03/24 Changed firmware path to /lib for rpi kernels.     
