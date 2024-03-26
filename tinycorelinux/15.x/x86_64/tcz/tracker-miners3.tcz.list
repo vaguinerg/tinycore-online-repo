@@ -36,7 +36,6 @@
 /usr/local/lib/tracker-miners-3.0/extract-modules/libextract-tiff.so
 /usr/local/lib/tracker-miners-3.0/extract-modules/libextract-xps.so
 /usr/local/lib/tracker-miners-3.0/libtracker-extract.so
-/usr/local/lib/tracker-miners-3.0/libtracker-miner-3.0.so
 /usr/local/lib/tracker-miners-3.0/writeback-modules/libwriteback-gstreamer.so
 /usr/local/lib/tracker-miners-3.0/writeback-modules/libwriteback-xmp.so
 /usr/local/share/dbus-1/interfaces/org.freedesktop.Tracker3.Miner.Files.Index.xml
@@ -56,6 +55,7 @@
 /usr/local/share/tracker3-miners/extract-rules/10-desktop.rule
 /usr/local/share/tracker3-miners/extract-rules/10-ebooks.rule
 /usr/local/share/tracker3-miners/extract-rules/10-epub.rule
+/usr/local/share/tracker3-miners/extract-rules/10-folder.rule
 /usr/local/share/tracker3-miners/extract-rules/10-gif.rule
 /usr/local/share/tracker3-miners/extract-rules/10-html.rule
 /usr/local/share/tracker3-miners/extract-rules/10-ico.rule
@@ -80,5 +80,5 @@
 /usr/local/share/tracker3-miners/extract-rules/90-disc-generic.rule
 /usr/local/share/tracker3-miners/extract-rules/90-gstreamer-audio-generic.rule
 /usr/local/share/tracker3-miners/extract-rules/90-gstreamer-video-generic.rule
-/usr/local/share/dbus-1/services/org.freedesktop.Tracker3.Miner.Files.service
+/usr/local/share/tracker3-miners/miners/org.freedesktop.Tracker3.Miner.Files.service
 /usr/local/tce.installed/tracker-miners3
