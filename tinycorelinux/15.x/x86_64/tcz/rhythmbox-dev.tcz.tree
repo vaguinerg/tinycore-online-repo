@@ -755,11 +755,30 @@ rhythmbox-dev.tcz
                   openssl.tcz
                   liblz4.tcz
                uchardet.tcz
-         gom.tcz
-            glib2.tcz
-               libffi.tcz
-               pcre21042.tcz
-            sqlite3.tcz
+            libsoup3.tcz
+               glib-networking.tcz
+                  glib2.tcz
+                     libffi.tcz
+                     pcre21042.tcz
+                  openssl.tcz
+                  gnutls38.tcz
+                     p11-kit.tcz
+                        libffi.tcz
+                        libtasn1-4.tcz
+                     nettle39.tcz
+                        gmp.tcz
+                     libidn2.tcz
+                        libunistring.tcz
+                        ncursesw.tcz
+                     libzstd.tcz
+               libxml2.tcz
+                  liblzma.tcz
+               sqlite3.tcz
+               libpsl.tcz
+                  libidn2.tcz
+                     libunistring.tcz
+                     ncursesw.tcz
+               libnghttp2.tcz
          libmediaart.tcz
             gdk-pixbuf2.tcz
                libtiff.tcz
@@ -778,7 +797,7 @@ rhythmbox-dev.tcz
                   libxml2.tcz
                      liblzma.tcz
                gdk-pixbuf2-xlib.tcz
-         lua-5.3-lib.tcz
+         lua-5.4-lib.tcz
          libgdata.tcz
             uhttpmock.tcz
                libsoup.tcz
@@ -1677,7 +1696,7 @@ rhythmbox-dev.tcz
                               liblzma.tcz
                         gdk-pixbuf2-xlib.tcz
                   hicolor-icon-theme.tcz
-         libdmapsharing.tcz
+         libdmapsharing4.tcz
             gdk-pixbuf2.tcz
                libtiff.tcz
                   libjpeg-turbo.tcz
@@ -1722,7 +1741,7 @@ rhythmbox-dev.tcz
                   libogg.tcz
                libasound.tcz
                opus.tcz
-            libsoup.tcz
+            libsoup3.tcz
                glib-networking.tcz
                   glib2.tcz
                      libffi.tcz
@@ -1745,11 +1764,16 @@ rhythmbox-dev.tcz
                   libidn2.tcz
                      libunistring.tcz
                      ncursesw.tcz
-            libpng.tcz
+               libnghttp2.tcz
          liboauth.tcz
             curl.tcz
                ca-certificates.tcz
                   openssl.tcz
+         gom.tcz
+            glib2.tcz
+               libffi.tcz
+               pcre21042.tcz
+            sqlite3.tcz
       dconf.tcz
          gtk3.tcz
             libepoxy.tcz
@@ -31936,11 +31960,30 @@ rhythmbox-dev.tcz
                   openssl.tcz
                   liblz4.tcz
                uchardet.tcz
-         gom.tcz
-            glib2.tcz
-               libffi.tcz
-               pcre21042.tcz
-            sqlite3.tcz
+            libsoup3.tcz
+               glib-networking.tcz
+                  glib2.tcz
+                     libffi.tcz
+                     pcre21042.tcz
+                  openssl.tcz
+                  gnutls38.tcz
+                     p11-kit.tcz
+                        libffi.tcz
+                        libtasn1-4.tcz
+                     nettle39.tcz
+                        gmp.tcz
+                     libidn2.tcz
+                        libunistring.tcz
+                        ncursesw.tcz
+                     libzstd.tcz
+               libxml2.tcz
+                  liblzma.tcz
+               sqlite3.tcz
+               libpsl.tcz
+                  libidn2.tcz
+                     libunistring.tcz
+                     ncursesw.tcz
+               libnghttp2.tcz
          libmediaart.tcz
             gdk-pixbuf2.tcz
                libtiff.tcz
@@ -31959,7 +32002,7 @@ rhythmbox-dev.tcz
                   libxml2.tcz
                      liblzma.tcz
                gdk-pixbuf2-xlib.tcz
-         lua-5.3-lib.tcz
+         lua-5.4-lib.tcz
          libgdata.tcz
             uhttpmock.tcz
                libsoup.tcz
@@ -32858,7 +32901,7 @@ rhythmbox-dev.tcz
                               liblzma.tcz
                         gdk-pixbuf2-xlib.tcz
                   hicolor-icon-theme.tcz
-         libdmapsharing.tcz
+         libdmapsharing4.tcz
             gdk-pixbuf2.tcz
                libtiff.tcz
                   libjpeg-turbo.tcz
@@ -32903,7 +32946,7 @@ rhythmbox-dev.tcz
                   libogg.tcz
                libasound.tcz
                opus.tcz
-            libsoup.tcz
+            libsoup3.tcz
                glib-networking.tcz
                   glib2.tcz
                      libffi.tcz
@@ -32926,11 +32969,16 @@ rhythmbox-dev.tcz
                   libidn2.tcz
                      libunistring.tcz
                      ncursesw.tcz
-            libpng.tcz
+               libnghttp2.tcz
          liboauth.tcz
             curl.tcz
                ca-certificates.tcz
                   openssl.tcz
+         gom.tcz
+            glib2.tcz
+               libffi.tcz
+               pcre21042.tcz
+            sqlite3.tcz
       grilo-dev.tcz
          grilo.tcz
             totem-pl-parser.tcz
@@ -32972,6 +33020,30 @@ rhythmbox-dev.tcz
                   openssl.tcz
                   liblz4.tcz
                uchardet.tcz
+            libsoup3.tcz
+               glib-networking.tcz
+                  glib2.tcz
+                     libffi.tcz
+                     pcre21042.tcz
+                  openssl.tcz
+                  gnutls38.tcz
+                     p11-kit.tcz
+                        libffi.tcz
+                        libtasn1-4.tcz
+                     nettle39.tcz
+                        gmp.tcz
+                     libidn2.tcz
+                        libunistring.tcz
+                        ncursesw.tcz
+                     libzstd.tcz
+               libxml2.tcz
+                  liblzma.tcz
+               sqlite3.tcz
+               libpsl.tcz
+                  libidn2.tcz
+                     libunistring.tcz
+                     ncursesw.tcz
+               libnghttp2.tcz
          totem-pl-parser-dev.tcz
             totem-pl-parser.tcz
                libsoup.tcz
@@ -33141,8 +33213,76 @@ rhythmbox-dev.tcz
                   openssl.tcz
             uchardet-dev.tcz
                uchardet.tcz
-      libdmapsharing-dev.tcz
-         libdmapsharing.tcz
+         libsoup3-dev.tcz
+            libsoup3.tcz
+               glib-networking.tcz
+                  glib2.tcz
+                     libffi.tcz
+                     pcre21042.tcz
+                  openssl.tcz
+                  gnutls38.tcz
+                     p11-kit.tcz
+                        libffi.tcz
+                        libtasn1-4.tcz
+                     nettle39.tcz
+                        gmp.tcz
+                     libidn2.tcz
+                        libunistring.tcz
+                        ncursesw.tcz
+                     libzstd.tcz
+               libxml2.tcz
+                  liblzma.tcz
+               sqlite3.tcz
+               libpsl.tcz
+                  libidn2.tcz
+                     libunistring.tcz
+                     ncursesw.tcz
+               libnghttp2.tcz
+            libxml2-dev.tcz
+               libxml2-bin.tcz
+                  libxml2.tcz
+                     liblzma.tcz
+               libxml2-python.tcz
+                  libxml2.tcz
+                     liblzma.tcz
+                  python3.9.tcz
+                     openssl.tcz
+                     sqlite3.tcz
+                     gdbm.tcz
+                     bzip2-lib.tcz
+                     liblzma.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     libffi.tcz
+               liblzma-dev.tcz
+                  liblzma.tcz
+            sqlite3-dev.tcz
+               sqlite3-bin.tcz
+                  sqlite3.tcz
+                  readline.tcz
+                     ncursesw.tcz
+               readline-dev.tcz
+                  readline.tcz
+                     ncursesw.tcz
+                  ncursesw-dev.tcz
+                     ncursesw.tcz
+            libpsl-dev.tcz
+               libpsl.tcz
+                  libidn2.tcz
+                     libunistring.tcz
+                     ncursesw.tcz
+               libidn2-dev.tcz
+                  libidn2.tcz
+                     libunistring.tcz
+                     ncursesw.tcz
+                  libunistring-dev.tcz
+                     libunistring.tcz
+                  ncursesw-dev.tcz
+                     ncursesw.tcz
+            libnghttp2-dev.tcz
+               libnghttp2.tcz
+      libdmapsharing4-dev.tcz
+         libdmapsharing4.tcz
             gdk-pixbuf2.tcz
                libtiff.tcz
                   libjpeg-turbo.tcz
@@ -33187,7 +33327,7 @@ rhythmbox-dev.tcz
                   libogg.tcz
                libasound.tcz
                opus.tcz
-            libsoup.tcz
+            libsoup3.tcz
                glib-networking.tcz
                   glib2.tcz
                      libffi.tcz
@@ -33210,7 +33350,7 @@ rhythmbox-dev.tcz
                   libidn2.tcz
                      libunistring.tcz
                      ncursesw.tcz
-            libpng.tcz
+               libnghttp2.tcz
          gdk-pixbuf2-dev.tcz
             gdk-pixbuf2.tcz
                libtiff.tcz
@@ -40999,8 +41139,8 @@ rhythmbox-dev.tcz
                      libffi.tcz
             sdl2-dev.tcz
                sdl2.tcz
-         libsoup-dev.tcz
-            libsoup.tcz
+         libsoup3-dev.tcz
+            libsoup3.tcz
                glib-networking.tcz
                   glib2.tcz
                      libffi.tcz
@@ -41023,6 +41163,7 @@ rhythmbox-dev.tcz
                   libidn2.tcz
                      libunistring.tcz
                      ncursesw.tcz
+               libnghttp2.tcz
             libxml2-dev.tcz
                libxml2-bin.tcz
                   libxml2.tcz
@@ -41064,9 +41205,8 @@ rhythmbox-dev.tcz
                      libunistring.tcz
                   ncursesw-dev.tcz
                      ncursesw.tcz
-         libpng-dev.tcz
-            libpng-bin.tcz
-               libpng.tcz
+            libnghttp2-dev.tcz
+               libnghttp2.tcz
       tracker3-dev.tcz
          tracker3.tcz
             json-glib.tcz
@@ -78902,7 +79042,24 @@ rhythmbox-dev.tcz
                xtrans.tcz
             gdk-pixbuf2-xlib-dev.tcz
                gdk-pixbuf2-xlib.tcz
-      lua-5.3-dev.tcz
+      lua-5.4-dev.tcz
+         lua-5.4-lib.tcz
+         readline-dev.tcz
+            readline.tcz
+               ncursesw.tcz
+            ncursesw-dev.tcz
+               ncursesw.tcz
+      liboauth-dev.tcz
+         liboauth.tcz
+            curl.tcz
+               ca-certificates.tcz
+                  openssl.tcz
+         curl-dev.tcz
+            curl.tcz
+               ca-certificates.tcz
+                  openssl.tcz
+            openssl-dev.tcz
+               openssl.tcz
       gom-dev.tcz
          gom.tcz
             glib2.tcz
@@ -78945,17 +79102,6 @@ rhythmbox-dev.tcz
                   ncursesw.tcz
                ncursesw-dev.tcz
                   ncursesw.tcz
-      liboauth-dev.tcz
-         liboauth.tcz
-            curl.tcz
-               ca-certificates.tcz
-                  openssl.tcz
-         curl-dev.tcz
-            curl.tcz
-               ca-certificates.tcz
-                  openssl.tcz
-            openssl-dev.tcz
-               openssl.tcz
    libmtp-dev.tcz
       libmtp.tcz
          libusb.tcz

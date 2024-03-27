@@ -1575,11 +1575,30 @@ totem-gir.tcz
                   openssl.tcz
                   liblz4.tcz
                uchardet.tcz
-         gom.tcz
-            glib2.tcz
-               libffi.tcz
-               pcre21042.tcz
-            sqlite3.tcz
+            libsoup3.tcz
+               glib-networking.tcz
+                  glib2.tcz
+                     libffi.tcz
+                     pcre21042.tcz
+                  openssl.tcz
+                  gnutls38.tcz
+                     p11-kit.tcz
+                        libffi.tcz
+                        libtasn1-4.tcz
+                     nettle39.tcz
+                        gmp.tcz
+                     libidn2.tcz
+                        libunistring.tcz
+                        ncursesw.tcz
+                     libzstd.tcz
+               libxml2.tcz
+                  liblzma.tcz
+               sqlite3.tcz
+               libpsl.tcz
+                  libidn2.tcz
+                     libunistring.tcz
+                     ncursesw.tcz
+               libnghttp2.tcz
          libmediaart.tcz
             gdk-pixbuf2.tcz
                libtiff.tcz
@@ -1598,7 +1617,7 @@ totem-gir.tcz
                   libxml2.tcz
                      liblzma.tcz
                gdk-pixbuf2-xlib.tcz
-         lua-5.3-lib.tcz
+         lua-5.4-lib.tcz
          libgdata.tcz
             uhttpmock.tcz
                libsoup.tcz
@@ -2497,7 +2516,7 @@ totem-gir.tcz
                               liblzma.tcz
                         gdk-pixbuf2-xlib.tcz
                   hicolor-icon-theme.tcz
-         libdmapsharing.tcz
+         libdmapsharing4.tcz
             gdk-pixbuf2.tcz
                libtiff.tcz
                   libjpeg-turbo.tcz
@@ -2542,7 +2561,7 @@ totem-gir.tcz
                   libogg.tcz
                libasound.tcz
                opus.tcz
-            libsoup.tcz
+            libsoup3.tcz
                glib-networking.tcz
                   glib2.tcz
                      libffi.tcz
@@ -2565,11 +2584,16 @@ totem-gir.tcz
                   libidn2.tcz
                      libunistring.tcz
                      ncursesw.tcz
-            libpng.tcz
+               libnghttp2.tcz
          liboauth.tcz
             curl.tcz
                ca-certificates.tcz
                   openssl.tcz
+         gom.tcz
+            glib2.tcz
+               libffi.tcz
+               pcre21042.tcz
+            sqlite3.tcz
       gnome-desktop.tcz
          gsettings-desktop-schemas.tcz
             glib2.tcz
