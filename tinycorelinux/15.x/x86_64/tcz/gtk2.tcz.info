@@ -5,7 +5,7 @@ Author:         see -doc/AUTHORS
 Original-site:  https://download.gnome.org/sources/gtk+/2.24/
 Copying-policy: LGPL v2
 Size:           2.2M
-Extension_by:   aus9 
+Extension_by:   aus9 @ linuxquestions.org
 Tags:           gtk2 
 Comments:       Gimp Tool Kit
                 Your config file is ~/.gtkrc-2.0 contains pathway /home/tc
@@ -28,4 +28,6 @@ Change-log:     2014/01/18 First v 2.24.20 (bmarkus)
                 2020/04/19 recompiled for 11x add .gtkrc-2.0
                 2020/04/25 add locale, fix pc files on 11x
                 2023/03/16 factored out gtk-update-icon-cache (juanito)
-Current:        2024/03/08 v 2.24.33 on 15x, 2 exes moved    
+                2024/03/20 v 2.24.33 on 15x, 2 exes moved (aus9)
+Current:        2024/03/21 remove libtool from install script 
+  
