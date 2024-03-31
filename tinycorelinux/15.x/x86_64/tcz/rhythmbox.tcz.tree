@@ -150,45 +150,6 @@ rhythmbox.tcz
          ncursesw.tcz
       libdvdread.tcz
       liba52.tcz
-   totem-pl-parser.tcz
-      libsoup.tcz
-         glib-networking.tcz
-            glib2.tcz
-               libffi.tcz
-               pcre21042.tcz
-            openssl.tcz
-            gnutls38.tcz
-               p11-kit.tcz
-                  libffi.tcz
-                  libtasn1-4.tcz
-               nettle39.tcz
-                  gmp.tcz
-               libidn2.tcz
-                  libunistring.tcz
-                  ncursesw.tcz
-               libzstd.tcz
-         libxml2.tcz
-            liblzma.tcz
-         sqlite3.tcz
-         libpsl.tcz
-            libidn2.tcz
-               libunistring.tcz
-               ncursesw.tcz
-      libgcrypt.tcz
-         libgpg-error.tcz
-      libarchive.tcz
-         nettle3.tcz
-            gmp.tcz
-         acl.tcz
-            attr.tcz
-         lzo.tcz
-         bzip2-lib.tcz
-         libxml2.tcz
-            liblzma.tcz
-         libzstd.tcz
-         openssl.tcz
-         liblz4.tcz
-      uchardet.tcz
    libpeas-gir.tcz
       libpeas.tcz
          gtk3.tcz
@@ -644,75 +605,6 @@ rhythmbox.tcz
       glib2.tcz
          libffi.tcz
          pcre21042.tcz
-   libdmapsharing.tcz
-      gdk-pixbuf2.tcz
-         libtiff.tcz
-            libjpeg-turbo.tcz
-            liblzma.tcz
-            libzstd.tcz
-         libpng.tcz
-         libX11.tcz
-            libxcb.tcz
-               libXau.tcz
-               libXdmcp.tcz
-         shared-mime-info.tcz
-            glib2.tcz
-               libffi.tcz
-               pcre21042.tcz
-            libxml2.tcz
-               liblzma.tcz
-         gdk-pixbuf2-xlib.tcz
-      libavahi.tcz
-         dbus.tcz
-            expat2.tcz
-            elogind.tcz
-               acl.tcz
-                  attr.tcz
-               libcap.tcz
-                  attr.tcz
-               util-linux.tcz
-                  readline.tcz
-                     ncursesw.tcz
-                  udev-lib.tcz
-         gcc_libs.tcz
-         glib2.tcz
-            libffi.tcz
-            pcre21042.tcz
-      gst-plugins-base.tcz
-         gstreamer.tcz
-            glib2.tcz
-               libffi.tcz
-               pcre21042.tcz
-         libtheora.tcz
-            libogg.tcz
-         libvorbis.tcz
-            libogg.tcz
-         libasound.tcz
-         opus.tcz
-      libsoup.tcz
-         glib-networking.tcz
-            glib2.tcz
-               libffi.tcz
-               pcre21042.tcz
-            openssl.tcz
-            gnutls38.tcz
-               p11-kit.tcz
-                  libffi.tcz
-                  libtasn1-4.tcz
-               nettle39.tcz
-                  gmp.tcz
-               libidn2.tcz
-                  libunistring.tcz
-                  ncursesw.tcz
-               libzstd.tcz
-         libxml2.tcz
-            liblzma.tcz
-         sqlite3.tcz
-         libpsl.tcz
-            libidn2.tcz
-               libunistring.tcz
-               ncursesw.tcz
-      libpng.tcz
    grilo-plugins.tcz
       grilo.tcz
          totem-pl-parser.tcz
@@ -1925,8 +1817,6 @@ rhythmbox.tcz
          udev-lib.tcz
       libgcrypt.tcz
          libgpg-error.tcz
-   nettle3.tcz
-      gmp.tcz
    libnotify.tcz
       notification-daemon.tcz
          gtk3.tcz
