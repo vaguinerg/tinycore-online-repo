@@ -309,9 +309,9 @@ gnome-network-displays.tcz
             libogg.tcz
          libasound.tcz
          opus.tcz
-      libavfilter4.tcz
-         libswresample4.tcz
-            libavutil4.tcz
+      libavfilter5.tcz
+         libswresample5.tcz
+            libavutil5.tcz
                libva2.tcz
                   libGL.tcz
                      libXdamage.tcz
@@ -341,10 +341,10 @@ gnome-network-displays.tcz
                         libxcb.tcz
                            libXau.tcz
                            libXdmcp.tcz
-         libavformat4.tcz
-            libavcodec4.tcz
-               libswresample4.tcz
-                  libavutil4.tcz
+         libavformat5.tcz
+            libavcodec5.tcz
+               libswresample5.tcz
+                  libavutil5.tcz
                      libva2.tcz
                         libGL.tcz
                            libXdamage.tcz
@@ -374,11 +374,17 @@ gnome-network-displays.tcz
                               libxcb.tcz
                                  libXau.tcz
                                  libXdmcp.tcz
+               libjxl.tcz
+                  brotli.tcz
+                  libhwy.tcz
+               svt-av1.tcz
+               libaom.tcz
+               dav1d.tcz
                xvid.tcz
                x265.tcz
                x264_148.tcz
                libwebp1.tcz
-               libvpx18.tcz
+               libvpx113.tcz
                libtheora.tcz
                   libogg.tcz
                speex.tcz
@@ -495,8 +501,8 @@ gnome-network-displays.tcz
                libidn2.tcz
                   libunistring.tcz
                   ncursesw.tcz
-         libavresample4.tcz
-            libavutil4.tcz
+         libpostproc5.tcz
+            libavutil5.tcz
                libva2.tcz
                   libGL.tcz
                      libXdamage.tcz
@@ -526,39 +532,8 @@ gnome-network-displays.tcz
                         libxcb.tcz
                            libXau.tcz
                            libXdmcp.tcz
-         libpostproc4.tcz
-            libavutil4.tcz
-               libva2.tcz
-                  libGL.tcz
-                     libXdamage.tcz
-                        libXfixes.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                     libXxf86vm.tcz
-                        libXext.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                     libdrm.tcz
-                        libpciaccess.tcz
-                        udev-lib.tcz
-                     libxshmfence.tcz
-                  wayland.tcz
-                     libffi.tcz
-                     expat2.tcz
-                     libxml2.tcz
-                        liblzma.tcz
-               libvdpau.tcz
-                  libXext.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-         libswscale4.tcz
-            libavutil4.tcz
+         libswscale5.tcz
+            libavutil5.tcz
                libva2.tcz
                   libGL.tcz
                      libXdamage.tcz
