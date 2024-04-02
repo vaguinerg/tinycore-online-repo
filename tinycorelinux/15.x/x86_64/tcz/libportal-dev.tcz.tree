@@ -1,5 +1,9 @@
 libportal-dev.tcz
-   libportal.tcz
+   libportal-gtk3.tcz
+      libportal-common.tcz
+         glib2.tcz
+            libffi.tcz
+            pcre21042.tcz
       gtk3.tcz
          libepoxy.tcz
          at-spi2-core.tcz
@@ -146,6 +150,11 @@ libportal-dev.tcz
                expat2.tcz
                libxml2.tcz
                   liblzma.tcz
+   libportal-gtk4.tcz
+      libportal-common.tcz
+         glib2.tcz
+            libffi.tcz
+            pcre21042.tcz
       gtk4.tcz
          libepoxy.tcz
          at-spi2-core.tcz

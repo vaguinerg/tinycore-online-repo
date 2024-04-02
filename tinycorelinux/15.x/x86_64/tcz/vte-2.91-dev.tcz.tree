@@ -1,5 +1,17 @@
 vte-2.91-dev.tcz
-   vte-2.91.tcz
+   vte-2.91-gtk3.tcz
+      vte-2.91-common.tcz
+         icu74.tcz
+         gnutls38.tcz
+            p11-kit.tcz
+               libffi.tcz
+               libtasn1-4.tcz
+            nettle39.tcz
+               gmp.tcz
+            libidn2.tcz
+               libunistring.tcz
+               ncursesw.tcz
+            libzstd.tcz
       gtk3.tcz
          libepoxy.tcz
          at-spi2-core.tcz
@@ -146,6 +158,19 @@ vte-2.91-dev.tcz
                expat2.tcz
                libxml2.tcz
                   liblzma.tcz
+   vte-2.91-gtk4.tcz
+      vte-2.91-common.tcz
+         icu74.tcz
+         gnutls38.tcz
+            p11-kit.tcz
+               libffi.tcz
+               libtasn1-4.tcz
+            nettle39.tcz
+               gmp.tcz
+            libidn2.tcz
+               libunistring.tcz
+               ncursesw.tcz
+            libzstd.tcz
       gtk4.tcz
          libepoxy.tcz
          at-spi2-core.tcz
@@ -749,17 +774,6 @@ vte-2.91-dev.tcz
                      readline.tcz
                         ncursesw.tcz
                      udev-lib.tcz
-      icu74.tcz
-      gnutls38.tcz
-         p11-kit.tcz
-            libffi.tcz
-            libtasn1-4.tcz
-         nettle39.tcz
-            gmp.tcz
-         libidn2.tcz
-            libunistring.tcz
-            ncursesw.tcz
-         libzstd.tcz
    gtk3-dev.tcz
       gtk3.tcz
          libepoxy.tcz
