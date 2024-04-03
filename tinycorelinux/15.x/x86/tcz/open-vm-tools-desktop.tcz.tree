@@ -1,5 +1,6 @@
 open-vm-tools-desktop.tcz
-   graphics-6.1.2-tinycore.tcz
+   graphics-6.6.8-tinycore.tcz
+      i2c-6.6.8-tinycore.tcz
    xf86-input-vmmouse.tcz
    xf86-video-vmware.tcz
       Xorg-7.7-3d.tcz
@@ -776,6 +777,7 @@ open-vm-tools-desktop.tcz
                   pcre21042.tcz
                libxml2.tcz
                   liblzma.tcz
+            gdk-pixbuf2-xlib.tcz
          libXcomposite.tcz
             libX11.tcz
                libxcb.tcz

@@ -65,6 +65,7 @@ deadbeef-dev.tcz
                      pcre21042.tcz
                   libxml2.tcz
                      liblzma.tcz
+               gdk-pixbuf2-xlib.tcz
             librsvg.tcz
                pango.tcz
                   cairo.tcz
@@ -120,12 +121,55 @@ deadbeef-dev.tcz
                         pcre21042.tcz
                      libxml2.tcz
                         liblzma.tcz
+                  gdk-pixbuf2-xlib.tcz
                libcroco.tcz
                   glib2.tcz
                      libffi.tcz
                      pcre21042.tcz
                   libxml2.tcz
                      liblzma.tcz
+               libEGL.tcz
+                  libGL.tcz
+                     libXdamage.tcz
+                        libXfixes.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                     libXxf86vm.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                     libdrm.tcz
+                        libpciaccess.tcz
+                        udev-lib.tcz
+                           glib2.tcz
+                              libffi.tcz
+                              pcre21042.tcz
+                     libxshmfence.tcz
+               libGLESv2.tcz
+                  libGL.tcz
+                     libXdamage.tcz
+                        libXfixes.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                     libXxf86vm.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                     libdrm.tcz
+                        libpciaccess.tcz
+                        udev-lib.tcz
+                           glib2.tcz
+                              libffi.tcz
+                              pcre21042.tcz
+                     libxshmfence.tcz
             hicolor-icon-theme.tcz
       hicolor-icon-theme.tcz
       libffi6.tcz
@@ -167,6 +211,7 @@ deadbeef-dev.tcz
                   pcre21042.tcz
                libxml2.tcz
                   liblzma.tcz
+            gdk-pixbuf2-xlib.tcz
          libXcomposite.tcz
             libX11.tcz
                libxcb.tcz
@@ -266,6 +311,7 @@ deadbeef-dev.tcz
                   pcre21042.tcz
                libxml2.tcz
                   liblzma.tcz
+            gdk-pixbuf2-xlib.tcz
          glib2-dev.tcz
             glib2-python.tcz
                glib2.tcz
@@ -332,6 +378,8 @@ deadbeef-dev.tcz
                      util-macros.tcz
                         m4.tcz
             xtrans.tcz
+         gdk-pixbuf2-xlib-dev.tcz
+            gdk-pixbuf2-xlib.tcz
       at-spi2-core-dev.tcz
          at-spi2-core.tcz
             dbus.tcz
@@ -932,6 +980,7 @@ deadbeef-dev.tcz
             libSM.tcz
          alsa.tcz
             alsa-modules-6.6.8-tinycore.tcz
+               input-joystick-6.6.8-tinycore.tcz
             libasound.tcz
             ncursesw.tcz
          udev-lib.tcz
@@ -956,6 +1005,7 @@ deadbeef-dev.tcz
       alsa-dev.tcz
          alsa.tcz
             alsa-modules-6.6.8-tinycore.tcz
+               input-joystick-6.6.8-tinycore.tcz
             libasound.tcz
             ncursesw.tcz
          ncursesw-dev.tcz
@@ -1041,6 +1091,7 @@ deadbeef-dev.tcz
                      pcre21042.tcz
                   libxml2.tcz
                      liblzma.tcz
+               gdk-pixbuf2-xlib.tcz
             libXcomposite.tcz
                libX11.tcz
                   libxcb.tcz
@@ -1140,6 +1191,7 @@ deadbeef-dev.tcz
                      pcre21042.tcz
                   libxml2.tcz
                      liblzma.tcz
+               gdk-pixbuf2-xlib.tcz
             glib2-dev.tcz
                glib2-python.tcz
                   glib2.tcz
@@ -1206,6 +1258,8 @@ deadbeef-dev.tcz
                         util-macros.tcz
                            m4.tcz
                xtrans.tcz
+            gdk-pixbuf2-xlib-dev.tcz
+               gdk-pixbuf2-xlib.tcz
          at-spi2-core-dev.tcz
             at-spi2-core.tcz
                dbus.tcz

@@ -37,6 +37,7 @@ wireshark-dev.tcz
                   pcre21042.tcz
                libxml2.tcz
                   liblzma.tcz
+            gdk-pixbuf2-xlib.tcz
          libXcomposite.tcz
             libX11.tcz
                libxcb.tcz
@@ -161,6 +162,7 @@ wireshark-dev.tcz
                   pcre21042.tcz
                libxml2.tcz
                   liblzma.tcz
+            gdk-pixbuf2-xlib.tcz
          librsvg.tcz
             pango.tcz
                cairo.tcz
@@ -216,12 +218,55 @@ wireshark-dev.tcz
                      pcre21042.tcz
                   libxml2.tcz
                      liblzma.tcz
+               gdk-pixbuf2-xlib.tcz
             libcroco.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
                libxml2.tcz
                   liblzma.tcz
+            libEGL.tcz
+               libGL.tcz
+                  libXdamage.tcz
+                     libXfixes.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                  libXxf86vm.tcz
+                     libXext.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                  libdrm.tcz
+                     libpciaccess.tcz
+                     udev-lib.tcz
+                        glib2.tcz
+                           libffi.tcz
+                           pcre21042.tcz
+                  libxshmfence.tcz
+            libGLESv2.tcz
+               libGL.tcz
+                  libXdamage.tcz
+                     libXfixes.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                  libXxf86vm.tcz
+                     libXext.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                  libdrm.tcz
+                     libpciaccess.tcz
+                     udev-lib.tcz
+                        glib2.tcz
+                           libffi.tcz
+                           pcre21042.tcz
+                  libxshmfence.tcz
          hicolor-icon-theme.tcz
    gtk3-dev.tcz
       gtk3.tcz
@@ -261,6 +306,7 @@ wireshark-dev.tcz
                   pcre21042.tcz
                libxml2.tcz
                   liblzma.tcz
+            gdk-pixbuf2-xlib.tcz
          libXcomposite.tcz
             libX11.tcz
                libxcb.tcz
@@ -360,6 +406,7 @@ wireshark-dev.tcz
                   pcre21042.tcz
                libxml2.tcz
                   liblzma.tcz
+            gdk-pixbuf2-xlib.tcz
          glib2-dev.tcz
             glib2-python.tcz
                glib2.tcz
@@ -426,6 +473,8 @@ wireshark-dev.tcz
                      util-macros.tcz
                         m4.tcz
             xtrans.tcz
+         gdk-pixbuf2-xlib-dev.tcz
+            gdk-pixbuf2-xlib.tcz
       at-spi2-core-dev.tcz
          at-spi2-core.tcz
             dbus.tcz

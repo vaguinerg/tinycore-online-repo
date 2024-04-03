@@ -1,6 +1,6 @@
 firewalld.tcz
    nftables.tcz
-      ipv6-netfilter-6.1.2-tinycore64.tcz
+      ipv6-netfilter-6.6.8-tinycore64.tcz
       libnftnl.tcz
          libmnl.tcz
       gmp.tcz
@@ -10,7 +10,7 @@ firewalld.tcz
    ebtables.tcz
    ipset.tcz
       libmnl.tcz
-      ipv6-netfilter-6.1.2-tinycore64.tcz
+      ipv6-netfilter-6.6.8-tinycore64.tcz
    py3.6gobject.tcz
       py3.6cairo.tcz
          python3.6.tcz
@@ -471,5 +471,46 @@ firewalld.tcz
                libxml2.tcz
                   liblzma.tcz
             gdk-pixbuf2-xlib.tcz
+         libEGL.tcz
+            libGL.tcz
+               libXdamage.tcz
+                  libXfixes.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+               libXxf86vm.tcz
+                  libXext.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+               libdrm.tcz
+                  libpciaccess.tcz
+                  udev-lib.tcz
+               libxshmfence.tcz
+            wayland.tcz
+               libffi.tcz
+               expat2.tcz
+               libxml2.tcz
+                  liblzma.tcz
+         libGLESv2.tcz
+            libGL.tcz
+               libXdamage.tcz
+                  libXfixes.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+               libXxf86vm.tcz
+                  libXext.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+               libdrm.tcz
+                  libpciaccess.tcz
+                  udev-lib.tcz
+               libxshmfence.tcz
       hicolor-icon-theme.tcz
 

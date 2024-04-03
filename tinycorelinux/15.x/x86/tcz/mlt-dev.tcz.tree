@@ -108,12 +108,55 @@ mlt-dev.tcz
                         pcre21042.tcz
                      libxml2.tcz
                         liblzma.tcz
+                  gdk-pixbuf2-xlib.tcz
                libcroco.tcz
                   glib2.tcz
                      libffi.tcz
                      pcre21042.tcz
                   libxml2.tcz
                      liblzma.tcz
+               libEGL.tcz
+                  libGL.tcz
+                     libXdamage.tcz
+                        libXfixes.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                     libXxf86vm.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                     libdrm.tcz
+                        libpciaccess.tcz
+                        udev-lib.tcz
+                           glib2.tcz
+                              libffi.tcz
+                              pcre21042.tcz
+                     libxshmfence.tcz
+               libGLESv2.tcz
+                  libGL.tcz
+                     libXdamage.tcz
+                        libXfixes.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                     libXxf86vm.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                     libdrm.tcz
+                        libpciaccess.tcz
+                        udev-lib.tcz
+                           glib2.tcz
+                              libffi.tcz
+                              pcre21042.tcz
+                     libxshmfence.tcz
             cairo.tcz
                glib2.tcz
                   libffi.tcz
@@ -1149,12 +1192,55 @@ mlt-dev.tcz
                                  pcre21042.tcz
                               libxml2.tcz
                                  liblzma.tcz
+                           gdk-pixbuf2-xlib.tcz
                         libcroco.tcz
                            glib2.tcz
                               libffi.tcz
                               pcre21042.tcz
                            libxml2.tcz
                               liblzma.tcz
+                        libEGL.tcz
+                           libGL.tcz
+                              libXdamage.tcz
+                                 libXfixes.tcz
+                                    libX11.tcz
+                                       libxcb.tcz
+                                          libXau.tcz
+                                          libXdmcp.tcz
+                              libXxf86vm.tcz
+                                 libXext.tcz
+                                    libX11.tcz
+                                       libxcb.tcz
+                                          libXau.tcz
+                                          libXdmcp.tcz
+                              libdrm.tcz
+                                 libpciaccess.tcz
+                                 udev-lib.tcz
+                                    glib2.tcz
+                                       libffi.tcz
+                                       pcre21042.tcz
+                              libxshmfence.tcz
+                        libGLESv2.tcz
+                           libGL.tcz
+                              libXdamage.tcz
+                                 libXfixes.tcz
+                                    libX11.tcz
+                                       libxcb.tcz
+                                          libXau.tcz
+                                          libXdmcp.tcz
+                              libXxf86vm.tcz
+                                 libXext.tcz
+                                    libX11.tcz
+                                       libxcb.tcz
+                                          libXau.tcz
+                                          libXdmcp.tcz
+                              libdrm.tcz
+                                 libpciaccess.tcz
+                                 udev-lib.tcz
+                                    glib2.tcz
+                                       libffi.tcz
+                                       pcre21042.tcz
+                              libxshmfence.tcz
                      cairo.tcz
                         glib2.tcz
                            libffi.tcz
@@ -1303,6 +1389,9 @@ mlt-dev.tcz
             libopenal.tcz
             libv4l2.tcz
                v4l-dvb-6.6.8-tinycore.tcz
+                  i2c-6.6.8-tinycore.tcz
+                  alsa-modules-6.6.8-tinycore.tcz
+                     input-joystick-6.6.8-tinycore.tcz
                libjpeg-turbo.tcz
             libpulseaudio.tcz
                dbus.tcz
@@ -1476,6 +1565,7 @@ mlt-dev.tcz
                libSM.tcz
             alsa.tcz
                alsa-modules-6.6.8-tinycore.tcz
+                  input-joystick-6.6.8-tinycore.tcz
                libasound.tcz
                ncursesw.tcz
             udev-lib.tcz
@@ -1500,6 +1590,7 @@ mlt-dev.tcz
          alsa-dev.tcz
             alsa.tcz
                alsa-modules-6.6.8-tinycore.tcz
+                  input-joystick-6.6.8-tinycore.tcz
                libasound.tcz
                ncursesw.tcz
             ncursesw-dev.tcz
@@ -1585,6 +1676,7 @@ mlt-dev.tcz
                         pcre21042.tcz
                      libxml2.tcz
                         liblzma.tcz
+                  gdk-pixbuf2-xlib.tcz
                libXcomposite.tcz
                   libX11.tcz
                      libxcb.tcz
@@ -1684,6 +1776,7 @@ mlt-dev.tcz
                         pcre21042.tcz
                      libxml2.tcz
                         liblzma.tcz
+                  gdk-pixbuf2-xlib.tcz
                glib2-dev.tcz
                   glib2-python.tcz
                      glib2.tcz
@@ -1750,6 +1843,8 @@ mlt-dev.tcz
                            util-macros.tcz
                               m4.tcz
                   xtrans.tcz
+               gdk-pixbuf2-xlib-dev.tcz
+                  gdk-pixbuf2-xlib.tcz
             at-spi2-core-dev.tcz
                at-spi2-core.tcz
                   dbus.tcz
@@ -2712,6 +2807,9 @@ mlt-dev.tcz
       libv4l2-dev.tcz
          libv4l2.tcz
             v4l-dvb-6.6.8-tinycore.tcz
+               i2c-6.6.8-tinycore.tcz
+               alsa-modules-6.6.8-tinycore.tcz
+                  input-joystick-6.6.8-tinycore.tcz
             libjpeg-turbo.tcz
          libjpeg-turbo-dev.tcz
             libjpeg-turbo.tcz
@@ -2888,12 +2986,55 @@ mlt-dev.tcz
                      pcre21042.tcz
                   libxml2.tcz
                      liblzma.tcz
+               gdk-pixbuf2-xlib.tcz
             libcroco.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
                libxml2.tcz
                   liblzma.tcz
+            libEGL.tcz
+               libGL.tcz
+                  libXdamage.tcz
+                     libXfixes.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                  libXxf86vm.tcz
+                     libXext.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                  libdrm.tcz
+                     libpciaccess.tcz
+                     udev-lib.tcz
+                        glib2.tcz
+                           libffi.tcz
+                           pcre21042.tcz
+                  libxshmfence.tcz
+            libGLESv2.tcz
+               libGL.tcz
+                  libXdamage.tcz
+                     libXfixes.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                  libXxf86vm.tcz
+                     libXext.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                  libdrm.tcz
+                     libpciaccess.tcz
+                     udev-lib.tcz
+                        glib2.tcz
+                           libffi.tcz
+                           pcre21042.tcz
+                  libxshmfence.tcz
          pango-dev.tcz
             pango.tcz
                cairo.tcz
@@ -3126,6 +3267,7 @@ mlt-dev.tcz
                      pcre21042.tcz
                   libxml2.tcz
                      liblzma.tcz
+               gdk-pixbuf2-xlib.tcz
             glib2-dev.tcz
                glib2-python.tcz
                   glib2.tcz
@@ -3192,6 +3334,8 @@ mlt-dev.tcz
                         util-macros.tcz
                            m4.tcz
                xtrans.tcz
+            gdk-pixbuf2-xlib-dev.tcz
+               gdk-pixbuf2-xlib.tcz
          libcroco-dev.tcz
             libcroco.tcz
                glib2.tcz
@@ -3252,6 +3396,174 @@ mlt-dev.tcz
                      ncursesw.tcz
                   ncursesw-dev.tcz
                      ncursesw.tcz
+         libEGL-dev.tcz
+            libEGL.tcz
+               libGL.tcz
+                  libXdamage.tcz
+                     libXfixes.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                  libXxf86vm.tcz
+                     libXext.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                  libdrm.tcz
+                     libpciaccess.tcz
+                     udev-lib.tcz
+                        glib2.tcz
+                           libffi.tcz
+                           pcre21042.tcz
+                  libxshmfence.tcz
+            libGL-dev.tcz
+               libGL.tcz
+                  libXdamage.tcz
+                     libXfixes.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                  libXxf86vm.tcz
+                     libXext.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                  libdrm.tcz
+                     libpciaccess.tcz
+                     udev-lib.tcz
+                        glib2.tcz
+                           libffi.tcz
+                           pcre21042.tcz
+                  libxshmfence.tcz
+               libdrm-dev.tcz
+                  libdrm.tcz
+                     libpciaccess.tcz
+                     udev-lib.tcz
+                        glib2.tcz
+                           libffi.tcz
+                           pcre21042.tcz
+                  udev-dev.tcz
+                     udev-lib.tcz
+                        glib2.tcz
+                           libffi.tcz
+                           pcre21042.tcz
+                     glib2-dev.tcz
+                        glib2-python.tcz
+                           glib2.tcz
+                              libffi.tcz
+                              pcre21042.tcz
+                           python3.9.tcz
+                              openssl.tcz
+                                 gcc_libs.tcz
+                              sqlite3.tcz
+                              gdbm.tcz
+                              bzip2-lib.tcz
+                              liblzma.tcz
+                              readline.tcz
+                                 ncursesw.tcz
+                              libffi.tcz
+                        pcre21042-dev.tcz
+                           pcre21042.tcz
+                           bzip2-dev.tcz
+                              bzip2.tcz
+                                 bzip2-lib.tcz
+                           readline-dev.tcz
+                              readline.tcz
+                                 ncursesw.tcz
+                              ncursesw-dev.tcz
+                                 ncursesw.tcz
+                        libffi-dev.tcz
+                           libffi.tcz
+               libxshmfence-dev.tcz
+                  libxshmfence.tcz
+         libGLESv2-dev.tcz
+            libGLESv2.tcz
+               libGL.tcz
+                  libXdamage.tcz
+                     libXfixes.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                  libXxf86vm.tcz
+                     libXext.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                  libdrm.tcz
+                     libpciaccess.tcz
+                     udev-lib.tcz
+                        glib2.tcz
+                           libffi.tcz
+                           pcre21042.tcz
+                  libxshmfence.tcz
+            libGL-dev.tcz
+               libGL.tcz
+                  libXdamage.tcz
+                     libXfixes.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                  libXxf86vm.tcz
+                     libXext.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                  libdrm.tcz
+                     libpciaccess.tcz
+                     udev-lib.tcz
+                        glib2.tcz
+                           libffi.tcz
+                           pcre21042.tcz
+                  libxshmfence.tcz
+               libdrm-dev.tcz
+                  libdrm.tcz
+                     libpciaccess.tcz
+                     udev-lib.tcz
+                        glib2.tcz
+                           libffi.tcz
+                           pcre21042.tcz
+                  udev-dev.tcz
+                     udev-lib.tcz
+                        glib2.tcz
+                           libffi.tcz
+                           pcre21042.tcz
+                     glib2-dev.tcz
+                        glib2-python.tcz
+                           glib2.tcz
+                              libffi.tcz
+                              pcre21042.tcz
+                           python3.9.tcz
+                              openssl.tcz
+                                 gcc_libs.tcz
+                              sqlite3.tcz
+                              gdbm.tcz
+                              bzip2-lib.tcz
+                              liblzma.tcz
+                              readline.tcz
+                                 ncursesw.tcz
+                              libffi.tcz
+                        pcre21042-dev.tcz
+                           pcre21042.tcz
+                           bzip2-dev.tcz
+                              bzip2.tcz
+                                 bzip2-lib.tcz
+                           readline-dev.tcz
+                              readline.tcz
+                                 ncursesw.tcz
+                              ncursesw-dev.tcz
+                                 ncursesw.tcz
+                        libffi-dev.tcz
+                           libffi.tcz
+               libxshmfence-dev.tcz
+                  libxshmfence.tcz
       gnutls3.6-dev.tcz
          gnutls3.6.tcz
             nettle3.tcz

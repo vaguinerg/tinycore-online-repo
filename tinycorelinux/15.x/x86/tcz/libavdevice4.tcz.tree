@@ -112,27 +112,70 @@ libavdevice4.tcz
                         libffi.tcz
                         pcre21042.tcz
                gdk-pixbuf2.tcz
+                  libtiff.tcz
+                     liblzma.tcz
+                     libjpeg-turbo.tcz
+                     libzstd.tcz
+                  libpng.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
                   shared-mime-info.tcz
                      glib2.tcz
                         libffi.tcz
                         pcre21042.tcz
                      libxml2.tcz
                         liblzma.tcz
-                  libpng.tcz
-                  libtiff.tcz
-                     liblzma.tcz
-                     libjpeg-turbo.tcz
-                     libzstd.tcz
-                  libX11.tcz
-                     libxcb.tcz
-                        libXau.tcz
-                        libXdmcp.tcz
+                  gdk-pixbuf2-xlib.tcz
                libcroco.tcz
                   glib2.tcz
                      libffi.tcz
                      pcre21042.tcz
                   libxml2.tcz
                      liblzma.tcz
+               libEGL.tcz
+                  libGL.tcz
+                     libXdamage.tcz
+                        libXfixes.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                     libXxf86vm.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                     libdrm.tcz
+                        libpciaccess.tcz
+                        udev-lib.tcz
+                           glib2.tcz
+                              libffi.tcz
+                              pcre21042.tcz
+                     libxshmfence.tcz
+               libGLESv2.tcz
+                  libGL.tcz
+                     libXdamage.tcz
+                        libXfixes.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                     libXxf86vm.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                     libdrm.tcz
+                        libpciaccess.tcz
+                        udev-lib.tcz
+                           glib2.tcz
+                              libffi.tcz
+                              pcre21042.tcz
+                     libxshmfence.tcz
             cairo.tcz
                glib2.tcz
                   libffi.tcz
@@ -280,7 +323,10 @@ libavdevice4.tcz
    SDL2.tcz
    libopenal.tcz
    libv4l2.tcz
-      v4l-dvb-6.1.2-tinycore.tcz
+      v4l-dvb-6.6.8-tinycore.tcz
+         i2c-6.6.8-tinycore.tcz
+         alsa-modules-6.6.8-tinycore.tcz
+            input-joystick-6.6.8-tinycore.tcz
       libjpeg-turbo.tcz
    libpulseaudio.tcz
       dbus.tcz
