@@ -1,15 +1,16 @@
 Title:          grim.tcz 
-Description:    GRab IMages from sway 
-Version:        1.4.0
+Description:    GRab IMages on wayland desktops 
+Version:        1.4.1
 Author:         emersion
 Original-site:  https://sr.ht/~emersion/grim/
 Copying-policy: Accompanied 
 Size:           16K
-Extension_by:   aus9 
-Tags:           sway screen capture
+Extension_by:   aus9 @linuxquestions.org
+Tags:           wayland screen capture
 Comments:       screenshot app limited to its current terminal and 
-                can only be used on sway/wayland
-                see slurp to capture outside current App
+                can only be used on wayland desktops 
+                Better still see TCE=slurp 
+                grim is a dep of slurp
 
                 Usage: grim -h
                 default images go to $HOME/Pictures
@@ -19,4 +20,5 @@ Comments:       screenshot app limited to its current terminal and
                                                
 Change-log:     2019/06/16 v 1.2.0 on 10x 
                 2020/07/02 v 1.3.0 on 11x
-Current:        2023/04/22 v 1.4.0 on 14x   
+                2023/04/22 v 1.4.0 on 14x
+Current:        2024/03/31 v 1.4.1 on 15x      

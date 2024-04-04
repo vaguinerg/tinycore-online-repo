@@ -1,23 +1,18 @@
 Title:          icewm.tcz
 Description:    Stacking Window Manager 
-Version:        3.2.2
+Version:        3.4.7
 Author:         https://github.com/bbidulock/icewm/blob/icewm-1-4-BRANCH/AUTHORS
 Original-site:  https://github.com/ice-wm/icewm
 Copying-policy: LGPL v2 
-Size:           1.1M
-Extension_by:   you
+Size:           1.3M
+Extension_by:   aus9 @ linuxquestions.org
 Tags:           window manager wm
 Comments:       manual https://tinyurl.com/4tpya6f5
-                
-                Do NOT choose OnBoot in Apps please. If you like this 
-                WM then download and run icewm-list to get a icewm boot 
-                list you can use with your boot loader. Then add TCEs
-                This means if you change your mind onboot.lst is unpolluted!
                 
                 Most preferences can change via menu button or context menu. 
                 Please read configs under ~/icewm. TCEs named in keyboard 
                 shortcuts have no deps set except lxterminal. I am unable to 
-                test on basic X so forced Xorg-7.7 (2d) as a dep. Be aware 
+                test on basic X so am using  Xorg-7.7 (2d) as a dep. Be aware 
                 that IceWM uses this order: prefoverride over theme over preferences
                 
                 icewmbg can control background or wallpaper(s) Or use pcmanfm 
@@ -25,19 +20,21 @@ Comments:       manual https://tinyurl.com/4tpya6f5
 
                 For all changes to a config file, or any TCE added after boot,
                 that has a kb combo set.....needs WM refresh with kb combo of
-                logo+r      logo = Super key
-                Please input logo+r in an empty workspace for maximum safety
+                logo+z      logo = Super key
+                Please input logo+z in an empty workspace for maximum safety
 
-                optional TCEs not already mentioned include: icewm-themes
-                icewm-locale..xscreensaver and read info please
+                optional TCEs not already mentioned include: 
+                icewm-themes only nanoblue theme in this TCE
+                icewm-locale..xscreensaver and read infos please
                 menumaker (for menu generation each time you load a new TCE) 
                 I prefer it over icewm-menu-fdo              
                 
-                lxterminal allows apps GUI to display downloads so you do
-                not need aterm in your boot list if you wish. If you wish to 
-                keep wbar, recommend you edit ~/icewm/preferences 
-                remove # so it reads "TaskBarAtTop=1 # 0/1"
+                To allow you to keep wbar, ~/icewm/preferences 
+                now reads TaskBarAtTop=1 # 0/1
+
+                On my AMD APU, I needed Xorg-7.7 too....YMMV
                 
-Change-log:     2020/07/22 Original 1.7.0 on 11x
+Change-log:     2020/07/22 v 1.7.0 on 11x
                 2020/11/29 Removed /tmp/tcloop/... from path in tce.installed script. (Rich)
-Current:        2023/03/20 v 3.2.2 on 14x nanoblue lxterminal delete icehelp*   
+                2023/03/20 v 3.2.2 on 14x nanoblue lxterminal delete icehelp*   
+Current:        2023/03/28 v 3.4.7 on 15x icehelp back in, icon caching ignored, aterm is back in 

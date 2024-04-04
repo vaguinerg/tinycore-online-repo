@@ -1,14 +1,15 @@
 Title:          slurp.tcz 
-Description:    Select a region in a sway for screenshots 
-Version:        1.4.0
+Description:    Select a region in wayland for screenshots 
+Version:        1.5.0
 Author:         emersion
 Original-site:  https://github.com/emersion/slurp
 Copying-policy: Accompanied 
-Size:           16K
-Extension_by:   aus9 
-Tags:           sway screen capture
+Size:           20K
+Extension_by:   aus9 @linuxquestions.org 
+Tags:           wayland screen capture
 Comments:       slurp is a command-line app to select a region 
-                inside sway and used with grim to take a screenshot.
+                inside wayland desktop eg sway and 
+                used with grim to take a screenshot.
                 grim can not escape its current window, but slurp can.
 
                 $ slurp | grim 1.png
@@ -21,4 +22,5 @@ Comments:       slurp is a command-line app to select a region
 
 Change-log:     2019/06/16 v 1.2.0 on 10x 
                 2020/07/02 v git 20200702 on 11x 
-Current:        2023/04/22 v 1.4.0 on 14x   
+                2023/04/22 v 1.4.0 on 14x  
+Current:        2024/03/31 v 1.5.0 on 15x 
