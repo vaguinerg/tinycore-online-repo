@@ -23,7 +23,10 @@ pipewire03.tcz
       opus.tcz
    libv4l2.tcz
       libjpeg-turbo.tcz
-      v4l-dvb-6.1.2-tinycore64.tcz
+      v4l-dvb-6.6.8-tinycore64.tcz
+         i2c-6.6.8-tinycore64.tcz
+         alsa-modules-6.6.8-tinycore64.tcz
+            input-joystick-6.6.8-tinycore64.tcz
    sdl2.tcz
    libva2.tcz
       libGL.tcz
@@ -478,11 +481,11 @@ pipewire03.tcz
                   udev-lib.tcz
          udev-lib.tcz
          libical3.tcz
-            icu70.tcz
+            icu74.tcz
             glib2.tcz
                libffi.tcz
                pcre21042.tcz
-         bluetooth-6.1.2-tinycore64.tcz
+         bluetooth-6.6.8-tinycore64.tcz
          sbc.tcz
          readline.tcz
             ncursesw.tcz
