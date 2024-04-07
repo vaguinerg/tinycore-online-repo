@@ -1,0 +1,27 @@
+Title:          gmp.tcz
+Description:    arbitrary precision arithmetic library
+Version:        4.3.2
+Author:         various (http://gmplib.org/manual/Contributors.html#Contributors)
+Original-site:  http://gmplib.org/
+Copying-policy: LGPL
+Size:	176KB
+Extension_by:   robc/juanito
+Comments:       gnu mp is a library for arbitrary precision arithmetic, operating on
+                signed integers, rational numbers, and floating point numbers
+		
+		  126/126 tests passed, 100% pass rate
+		
+		  Library and header files.
+		
+		  This extension is PPI compatible.
+		
+Change-log:     2009/5/6  Original
+		  2009/6/3  Updated to 4.3.1, rebuilt for TC 2.X
+                2009/06/03
+                re-compiled to add libgmpxx and used gcc-4.4.0 so that
+                ..all gmpxx tests pass.
+                2009/07/24
+                recompiled for tc3 and updated -> 4.3.2
+                2010/03/05
+                split out devs
+Current:	2011/08/18

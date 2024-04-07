@@ -1,0 +1,17 @@
+Title:          expat2.tcz
+Description:    The expat XML parser.
+Version:        2.0.1
+Author:         James Clark
+Original-site:  http://expat.sourceforge.net
+Copying-policy: OpenSource
+Size: 		65K
+Extension_by:   Jason W
+Comments:       This is the main expat extension.  For compiling apps dependent
+		on expat, you also need the expat-devs extension.
+                ----------
+Change-log:     2008/07/27 First version
+                2008/11/10 Optimized for i486 and for small size, removed
+		version number from name.
+	        2008/12/17 Added symlink libexpat.so.0 to support more apps.
+	 	2010/02/21 Patched for bug 1990430.
+Current:	2010/02/21 Patched for CVE-2009-3560.

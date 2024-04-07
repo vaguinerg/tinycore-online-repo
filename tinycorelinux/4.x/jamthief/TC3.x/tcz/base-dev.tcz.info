@@ -1,0 +1,53 @@
+Title:          base-dev.tcz
+Description:    dev files for tc_3.X
+Version:        2.11.1
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 5.4MB
+Extension_by:   juanito
+Comments:       base tinycore_3.x headers and static libs
+                ----------
+                This extension contains:
+                e2fsprogs-1.41.11 - GPL/BSD - http://www.kernel.org/pub/linux/kernel/people/tytso/e2fsprogs/e2fsprogs-1.41.11.tar.gz [headers, static libs]
+                fltk-1.1.10 - FLTK/LGPL - http://distro.ibiblio.org/pub/linux/distributions/tinycorelinux/2.x/release/src/fltk-1.1.10.tgz [headers, static libs]
+                freetype-2.4.4 - GPLv2 - http://sourceforge.net/projects/freetype/files/freetype2/2.4.4/freetype-2.4.4.tar.bz2 [headers, static libs]
+                gcc-4.4.3 - GPLv2 - http://ftp.gnu.org/gnu/gcc/gcc-4.4.3/gcc-ada-4.4.3.tar.bz2 [libstdc++.a/.la]
+                glibc-2.11.1 - GPLv2 - http://ftp.gnu.org/gnu/glibc/glibc-2.11.1.tar.bz2 [headers, static libs]
+                imlib2-1.4.4 - free - http://downloads.sourceforge.net/enlightenment/imlib2-1.4.4.tar.bz2 [headers, static libs]
+                jpeg-6.2b - Free - ftp://ftp.uu.net/graphics/jpeg/jpegsrc.v6b.tar.gz [headers, static libs]
+                libpng-1.2.44 - GPLv2 - ftp://ftp.simplesystems.org/pub/libpng/png/src/libpng-1.2.44.tar.gz [headers, static libs]
+                linux-2.6.33.3 - GPLv2 - http://www.kernel.org/pub/linux/kernel/v2.6/linux-2.6.33.3.tar.bz2 [sanitised headers]
+                sysfsutils-2.1.0 - GPLv2 - http://downloads.sourceforge.net/project/linux-diag/sysfsutils/2.1.0/sysfsutils-2.1.0.tar.gz [headers, static libs]
+                util-linux-ng-2.17.2 - GPLv2 - http://www.kernel.org/pub/linux/utils/util-linux-ng/v2.17/util-linux-ng-2.17.2.tar.bz2 [dev files for blkid/uuid]
+                zlib-1.2.5 - Free - http://www.zlib.net/zlib-1.2.5.tar.bz2 [headers, static libs]
+                ----------
+Change-log:     2009/04/17
+                Added /usr/lib/libstdc++.a/.la
+                Re-packed using squashfs
+                2009/06/01
+                removed symlinks moved to glibc_add-libs, removed libmad devs
+                removed libpng.so -> libpng12.so
+                2009/11/10
+                adjusted dev files for new libblkid/libuuid in base
+                2009/11/27
+                removed popt headers following removal from base
+                2010/01/02
+                removed some /usr/lib/*.so symlinks duplicated with base
+                2010/01/16
+                replaced recompiled glibc and libstdc++ dev files
+                2010/02/28
+                rebuilt for tc_3
+                2010/05/01
+                adjusted dev files for new fltk, freetype, Imlib, libpng, ncurses, blkid/uuid, zlib in base
+                2010/05/24
+                removed libss.a - corresponding shared lib no longer in the base
+                2010/06/10
+                updated fltk & zlib devs
+                2010/07/11
+                updated libpng devs
+                2010/07/19
+                removed ncurses headers following removal from base
+                2010/08/27
+                updated freetype devs to match those in tc >= 3.7
+Current:        2011/06/25

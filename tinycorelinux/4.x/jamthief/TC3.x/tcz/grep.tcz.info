@@ -1,0 +1,21 @@
+Title:          grep.tcz
+Description:    grep
+Version:        2.7
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 132KB
+Extension_by:   juanito
+Comments:       grep is based on a fast lazy-state deterministic matcher hybridized
+                with a Boyer-Moore-Gosper search for a fixed string that eliminates
+                impossible text from being considered by the full regexp matcher
+                without necessarily having to look at every character.
+                ----------
+                This extension contains:
+                gperf-2.7 - GPLv3 - http://ftp.gnu.org/gnu/grep/grep-2.7.tar.xz
+                ----------
+Change-log:     2009/04/17
+                updated 2.5.4 -> 2.6.2
+                2010/05/01
+                updated 2.6.2 -> 2.7
+Current:        2011/02/22
