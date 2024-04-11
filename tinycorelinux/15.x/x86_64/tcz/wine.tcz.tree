@@ -92,7 +92,10 @@ wine.tcz
          libzstd.tcz
    libv4l2.tcz
       libjpeg-turbo.tcz
-      v4l-dvb-6.1.2-tinycore64.tcz
+      v4l-dvb-6.6.8-tinycore64.tcz
+         i2c-6.6.8-tinycore64.tcz
+         alsa-modules-6.6.8-tinycore64.tcz
+            input-joystick-6.6.8-tinycore64.tcz
    libgphoto2.tcz
       libexif.tcz
       libltdl.tcz
@@ -103,6 +106,7 @@ wine.tcz
       curl.tcz
          ca-certificates.tcz
             openssl.tcz
+         libzstd.tcz
    mpg123.tcz
       libltdl.tcz
       libsyn123.tcz

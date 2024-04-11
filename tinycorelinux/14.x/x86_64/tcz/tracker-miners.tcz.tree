@@ -120,6 +120,7 @@ tracker-miners.tcz
          curl.tcz
             ca-certificates.tcz
                openssl.tcz
+            libzstd.tcz
          upower.tcz
             dbus-glib.tcz
                dbus.tcz
@@ -183,6 +184,7 @@ tracker-miners.tcz
          curl.tcz
             ca-certificates.tcz
                openssl.tcz
+            libzstd.tcz
       glib2.tcz
          libffi.tcz
          pcre21042.tcz
@@ -201,11 +203,11 @@ tracker-miners.tcz
          acl.tcz
             attr.tcz
          lzo.tcz
-         liblzma.tcz
          bzip2-lib.tcz
          libxml2.tcz
             liblzma.tcz
          libzstd.tcz
+         openssl.tcz
          liblz4.tcz
       cairo.tcz
          glib2.tcz
@@ -362,6 +364,7 @@ tracker-miners.tcz
       curl.tcz
          ca-certificates.tcz
             openssl.tcz
+         libzstd.tcz
       openjpeg.tcz
       nss.tcz
          nspr.tcz
@@ -397,11 +400,11 @@ tracker-miners.tcz
          acl.tcz
             attr.tcz
          lzo.tcz
-         liblzma.tcz
          bzip2-lib.tcz
          libxml2.tcz
             liblzma.tcz
          libzstd.tcz
+         openssl.tcz
          liblz4.tcz
       uchardet.tcz
    giflib7.tcz

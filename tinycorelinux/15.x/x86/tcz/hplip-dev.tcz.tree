@@ -53,6 +53,7 @@ hplip-dev.tcz
                   ca-certificates.tcz
                      openssl.tcz
                         gcc_libs.tcz
+                  libzstd.tcz
             qpdf.tcz
                libjpeg-turbo.tcz
                gnutls3.6.tcz
@@ -171,6 +172,7 @@ hplip-dev.tcz
                   ca-certificates.tcz
                      openssl.tcz
                         gcc_libs.tcz
+                  libzstd.tcz
             qpdf.tcz
                libjpeg-turbo.tcz
                gnutls3.6.tcz
@@ -437,7 +439,10 @@ hplip-dev.tcz
                   libffi.tcz
       libv4l2-dev.tcz
          libv4l2.tcz
-            v4l-dvb-6.1.2-tinycore.tcz
+            v4l-dvb-6.6.8-tinycore.tcz
+               i2c-6.6.8-tinycore.tcz
+               alsa-modules-6.6.8-tinycore.tcz
+                  input-joystick-6.6.8-tinycore.tcz
             libjpeg-turbo.tcz
          libjpeg-turbo-dev.tcz
             libjpeg-turbo.tcz

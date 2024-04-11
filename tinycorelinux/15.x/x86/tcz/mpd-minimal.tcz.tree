@@ -1,6 +1,7 @@
 mpd-minimal.tcz
    alsa.tcz
-      alsa-modules-6.1.2-tinycore.tcz
+      alsa-modules-6.6.8-tinycore.tcz
+         input-joystick-6.6.8-tinycore.tcz
       libasound.tcz
       ncursesw.tcz
    audiofile.tcz
@@ -10,6 +11,7 @@ mpd-minimal.tcz
       ca-certificates.tcz
          openssl.tcz
             gcc_libs.tcz
+      libzstd.tcz
    dbus.tcz
       expat2.tcz
    faad.tcz

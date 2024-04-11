@@ -527,11 +527,11 @@ nautilus.tcz
          acl.tcz
             attr.tcz
          lzo.tcz
-         liblzma.tcz
          bzip2-lib.tcz
          libxml2.tcz
             liblzma.tcz
          libzstd.tcz
+         openssl.tcz
          liblz4.tcz
    gexiv2.tcz
       exiv227.tcz
@@ -539,6 +539,7 @@ nautilus.tcz
          curl.tcz
             ca-certificates.tcz
                openssl.tcz
+            libzstd.tcz
       glib2.tcz
          libffi.tcz
          pcre21042.tcz

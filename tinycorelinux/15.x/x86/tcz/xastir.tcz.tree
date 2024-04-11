@@ -3,6 +3,7 @@ xastir.tcz
       ca-certificates.tcz
          openssl.tcz
             gcc_libs.tcz
+      libzstd.tcz
    openmotif-lib.tcz
       Xorg-7.7-lib.tcz
          libFS.tcz
@@ -282,12 +283,13 @@ xastir.tcz
       proj.4.tcz
    db.tcz
    libax25.tcz
-      ax25-6.1.2-tinycore.tcz
+      ax25-6.6.8-tinycore.tcz
    gdal.tcz
       curl.tcz
          ca-certificates.tcz
             openssl.tcz
                gcc_libs.tcz
+         libzstd.tcz
       libgeotiff.tcz
          libtiff.tcz
             liblzma.tcz

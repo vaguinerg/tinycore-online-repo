@@ -74,6 +74,7 @@ virt-manager.tcz
             curl.tcz
                ca-certificates.tcz
                   openssl.tcz
+               libzstd.tcz
             libyajl.tcz
             libxml2.tcz
                liblzma.tcz
@@ -188,6 +189,7 @@ virt-manager.tcz
          curl.tcz
             ca-certificates.tcz
                openssl.tcz
+            libzstd.tcz
          libyajl.tcz
          libxml2.tcz
             liblzma.tcz
@@ -1191,6 +1193,7 @@ virt-manager.tcz
       curl.tcz
          ca-certificates.tcz
             openssl.tcz
+         libzstd.tcz
       bzip2-lib.tcz
       libnfs.tcz
       gnutls35.tcz
@@ -1281,7 +1284,7 @@ virt-manager.tcz
                      udev-lib.tcz
             udev-lib.tcz
             libical3.tcz
-               icu70.tcz
+               icu74.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz

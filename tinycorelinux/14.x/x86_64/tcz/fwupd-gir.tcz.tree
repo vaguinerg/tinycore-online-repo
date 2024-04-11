@@ -10,11 +10,11 @@ fwupd-gir.tcz
          acl.tcz
             attr.tcz
          lzo.tcz
-         liblzma.tcz
          bzip2-lib.tcz
          libxml2.tcz
             liblzma.tcz
          libzstd.tcz
+         openssl.tcz
          liblz4.tcz
       libjcat.tcz
          json-glib.tcz
@@ -36,6 +36,7 @@ fwupd-gir.tcz
       curl.tcz
          ca-certificates.tcz
             openssl.tcz
+         libzstd.tcz
       polkit.tcz
          glib2.tcz
             libffi.tcz

@@ -66,7 +66,10 @@ wine.tcz
                libffi.tcz
                pcre21042.tcz
    libv4l2.tcz
-      v4l-dvb-6.1.2-tinycore.tcz
+      v4l-dvb-6.6.8-tinycore.tcz
+         i2c-6.6.8-tinycore.tcz
+         alsa-modules-6.6.8-tinycore.tcz
+            input-joystick-6.6.8-tinycore.tcz
       libjpeg-turbo.tcz
    libgphoto2.tcz
       libexif.tcz
@@ -82,6 +85,7 @@ wine.tcz
          ca-certificates.tcz
             openssl.tcz
                gcc_libs.tcz
+         libzstd.tcz
    mpg123.tcz
       libltdl.tcz
    glu.tcz
