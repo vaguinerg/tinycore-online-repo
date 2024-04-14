@@ -1,0 +1,25 @@
+Title:           lxterminal.tcz
+Description:     gtk3 terminal 
+Version:         0.4.0
+Author:          lxterminal team
+Original-site:   http://sourceforge.net/projects/lxde/files
+Copying-policy:  GPL v2
+Size:            48K
+Extension_by:    aus9
+Tags:            terminal utf8
+Comments:        This is a gtk3 terminal capable of UTF-8 display.
+                 Allows multiple tabs. Online man page is here
+                 https://linuxcommandlibrary.com/man/lxterminal
+
+                 Instead of Edit->Preferences you can edit
+                 $HOME/.config/lxterminal/lxterminal.conf
+
+                 Optional deps:  More font TCEs, load fontconfig
+                 then load lxterminal please.
+
+                 apps (GUI) can work with lxterminal due to xterm setup
+                 To use mc edit preferences to disable F10 so F10 will exit mc
+                 manual edit would be "disablef10=true"
+
+Change-log:     2023/05/25 v 0.4.0 14x aarch64
+Current:        2023/05/25

@@ -1,0 +1,29 @@
+Title:          blueman.tcz
+Description:    bluetooth manager
+Version:        2.1.4
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 568KB
+Extension_by:   juanito
+Tags:           bluetooth utility gtk+ gtk3
+Comments:       gtk3 bluetooth manager
+                ----------
+                Howto:
+                $ sudo /usr/local/etc/init.d/bluez start
+                $ startx
+                use blueman to manage bluetooth connections
+                ----------
+                whilst audio might work with alsa, it is much easier to configure with pulseaudio/pavucontrol
+                ----------
+                no longer requires obexd or obex-data-server for file transfer
+                requires locale set to en_US.UTF-8 or similar to receive files
+                ----------
+                receive file location, the use of networkmanager and/or notification-daemon
+                can be set with view plugins/system settings menu or dconf-editor/gsettings
+                ----------
+                This extension contains:
+                blueman-2.1.4 - GPLv3 - https://github.com/blueman-project/blueman/releases/download/2.1.4/blueman-2.1.4.tar.xz
+                ----------
+Change-log:     first version
+Current:        2020/11/04

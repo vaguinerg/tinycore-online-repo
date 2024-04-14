@@ -1,0 +1,20 @@
+Title:		gnome-keyring.tcz
+Description:	program that keeps password and other secrets for users
+Version:	3.36.0
+Author:		Alexander Larsson, Stef Walter, Fernando Herrera
+Original-site:	http://live.gnome.org/GnomeKeyring
+Copying-policy:	GPL-2/LGPL-2
+Size:		1.2MB
+Extension_by:	juanito
+Tags:	        password secrets daemon gtk+ gtk3 gnome
+Comments:	This extension is PPI compatible
+                ----------
+                Howto:
+                $ cat ~/.X.d/gnome-keyring
+                /usr/local/bin/gnome-keyring-daemon --start --components=gpg
+                /usr/local/bin/gnome-keyring-daemon --start --components=pkcs11
+                /usr/local/bin/gnome-keyring-daemon --start --components=secrets
+                /usr/local/bin/gnome-keyring-daemon --start --components=ssh
+                ----------
+Change-log:	first version
+Current:	2020/04/28

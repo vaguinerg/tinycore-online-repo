@@ -1,0 +1,22 @@
+Title:          libcups.tcz
+Description:    cups library files 
+Version:        2.4.4
+Author:         OpenPrinting group
+Original-site:  https://openprinting.github.io/cups/
+Copying-policy: accompanied
+Size:           264K
+Extension_by:   aus9
+Tags:           printing printer
+Comments:       Howto print from a cups client to cups server
+                create a file of the form:
+                $ cat /usr/local/etc/cups/client.conf
+                ServerName 192.168.1.200
+                replace 192.168.1.200 with the ip address of your cups server
+                and modify hosts as follows:
+                $ cat /etc/hosts
+                127.0.0.1 cups_client localhost localhost.local
+                192.168.1.200 cups_server cups_server.local
+                replace cups_client and cups_server with the hostnames from your client/server
+
+Change-log:     2020/09/26 v 2.3.3 on 12.x 
+Current:        2023/06/17 v 2.4.4 on 14.x    

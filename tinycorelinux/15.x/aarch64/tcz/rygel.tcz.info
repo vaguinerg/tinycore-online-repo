@@ -1,0 +1,28 @@
+Title:          rygel.tcz
+Description:    dnla services
+Version:        0.40.0
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 932KB
+Extension_by:   juanito
+Tags:           av upnp dlna streaming media
+Comments:       a collection of DLNA (UPnP AV) services, implemented through a plug-in mechanism
+                ----------
+                Howto:
+                $ xdg-user-dirs-update
+                $ sudo /usr/local/etc/init.d/dbus start
+                $ /usr/local/lib/tracker-2.0/tracker-extract &
+                $ /usr/local/lib/tracker-2.0/tracker-miner-fs &
+                $ gdbus call -e -d org.freedesktop.DBus -o /org/freedesktop/DBus -m org.freedesktop.DBus.StartServiceByName org.freedesktop.Tracker1 0
+                $ rygel & [to stream av files]
+                add ~/.config/rygel.conf to your backup
+                ----------
+                To play images, music or video, some or all of gst-* are required
+                gupnp-av-cp from gupnp-tools can be used for this
+                ----------
+                This extension contains:
+                rygel-0.40.0 - GPLv2 - wget https://ftp.acc.umu.se/pub/GNOME/sources/rygel/0.40/rygel-0.40.0.tar.xz
+                ----------
+Change-log:     first version
+Current:        2020/11/01

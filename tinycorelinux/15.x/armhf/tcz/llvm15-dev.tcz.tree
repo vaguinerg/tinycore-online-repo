@@ -1,0 +1,27 @@
+llvm15-dev.tcz
+   llvm15-bin.tcz
+      llvm15-lib.tcz
+         gcc_libs.tcz
+         libxml2.tcz
+            liblzma.tcz
+         ncurses.tcz
+         zstd.tcz
+            libzstd.tcz
+            liblzma.tcz
+            liblz4.tcz
+   gcc_libs-dev.tcz
+      gcc_libs.tcz
+   libxml2-dev.tcz
+      libxml2.tcz
+         liblzma.tcz
+   libffi_base-dev.tcz
+   zstd-dev.tcz
+      zstd.tcz
+         libzstd.tcz
+         liblzma.tcz
+         liblz4.tcz
+      liblzma-dev.tcz
+         liblzma.tcz
+      liblz4-dev.tcz
+         liblz4.tcz
+

@@ -1,0 +1,37 @@
+Title:          distcc.tcz
+Description:    Distributed C Compiler
+Version:        3.4
+Author:         see sites below
+Original-site:  https://distcc.github.io/index.html
+Copying-policy: GPLv2
+Size:           320K
+Extension_by:   polikuo
+Tags:           multithreading distribute compiler
+Comments:       a fast, free distributed C/C++ compiler
+                Getting started:
+                  Prepare 2 or more machine
+                On Volunteer:
+                  Load this extension,
+                  the daemon will start automatically.
+                  To fine tune the behavior,
+                  create ~/.distcc/tc.sh
+                  The example file is in
+                  /usr/local/share/doc/distcc/tc.sh
+                On Worker:
+                  Edit ~/.distcc/hosts
+                  In terminal
+                  $ export PATH="/usr/lib/distcc:${PATH}"
+                  $ ./configure ...
+                  $ pump make -j10
+                IMPORTANT:
+                If LTO is enabled, most parts will not be distributed.
+                For more information, see the forum.
+                http://forum.tinycorelinux.net/index.php/topic,25511.0.html
+                ----------
+                This package contains:
+                distcc-3.4.tar.gz - GPLv2 - https://github.com/distcc/distcc/releases/download/v3.4/distcc-3.4.tar.gz
+                ----------
+                Compiled for 13.x aarch64
+                ----------
+Change-log:     2022/02/01 First Version
+Current:        2022/02/01 First Version
