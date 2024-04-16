@@ -35,22 +35,16 @@ udisks.tcz
             gmp.tcz
          pcre.tcz
       volume_key.tcz
-         glib2.tcz
-            libffi.tcz
-            pcre21042.tcz
-         pcre.tcz
          gpgme.tcz
             libassuan.tcz
                libgpg-error.tcz
-         cryptsetup.tcz
-            liblvm2.tcz
-               udev-lib.tcz
-            openssl-1.1.1.tcz
-         nss.tcz
-            nspr.tcz
-            sqlite3.tcz
+         cryptsetup.tcz 
+         glib2.tcz
+            libffi.tcz
+            pcre21042.tcz
+         nss.tcz    
       mdadm.tcz
-         raid-dm-6.1.2-tinycore64.tcz
+         raid-dm-6.6.8-tinycore64.tcz
       parted.tcz
          liblvm2.tcz
             udev-lib.tcz
@@ -63,7 +57,8 @@ udisks.tcz
       btrfs-progs.tcz
          lzo.tcz
          libzstd.tcz
-         filesystems-6.1.2-tinycore64.tcz
+         filesystems-6.6.8-tinycore64.tcz
+            mtd-6.6.8-tinycore64.tcz
       ndctl.tcz
          kmod.tcz
             liblzma.tcz

@@ -1,14 +1,16 @@
 Title:          libfm-extra-dev.tcz
-Description:    building dep for menu-cache  
+Description:    a Make dep for menu-cache  
 Version:        1.3.2
 Author:         https://github.com/lxde/libfm/blob/master/AUTHORS
 Original-site:  https://downloads.sourceforge.net/pcmanfm
 Copying-policy: GPL v2
 Size:           16K          
-Extension_by:   aus9
+Extension_by:   aus9 @linuxquestions.org
 Tags:           pcmanfm    
-Comments:       Building dep for menu-cache 
+Comments:       First build in pcmanfm build chain
+                This TCE is not to be added to your boot list please 
  
 Change-log:     2019/02/11 v 1.3.1 for 10x (aus9)
                 2020/07/19 modify install script 
-Current:        2023/03/20 v 1.3.2 on 14x 
+                2023/03/20 v 1.3.2 on 14x
+Current:        2024/04/03 remove la file on 15x, fix dep file 

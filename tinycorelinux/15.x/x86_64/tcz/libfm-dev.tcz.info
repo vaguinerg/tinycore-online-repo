@@ -4,13 +4,16 @@ Version:        1.3.2
 Author:         https://github.com/lxde/libfm/blob/master/AUTHORS
 Original-site:  tps://downloads.sourceforge.net/pcmanfm
 Copying-policy: GPL v2
-Size:           88K
-Extension_by:   aus9
+Size:           84K
+Extension_by:   aus9 @linuxquestions.org 
 Tags:           pcmanfm     
 Comments:       Dev files
+                install script will delete if found,
+                libfm-extra-dev files
                 
 Change-log:     2014/01/18 First version, 1.1.2.2 (bmarkus)
                 2015/08/20 v1.2.3 (gordon64)
-                2019/02/11 v1.2.5 (aus9) for 10x
+                2019/02/11 v1.2.5 on 10x (aus9)
                 2020/07/19 v1.3.1 for 11x modify install script
-Current:        2023/03/26 -> 1.3.2 on 14x   
+                2023/03/26 v 1.3.2 on 14x  
+Current:        2024/04/04 remove la files, change modules dir on 15x    

@@ -1,28 +1,38 @@
 Title:          weston.ini.tcz  
-Description:    Create a weston.ini 
-Version:        1.0
+Description:    Create weston.ini file
+Version:        2
 Author:         aus9 
-Original-site:  TC
+Original-site:  Cheating off     https://www.mankier.com/5/weston.ini
+                and modes mainly https://www.mankier.com/7/weston-drm
 Copying-policy: Open source
 Size:           4.0K
-Extension_by:   aus9 at gmx dot com
+Extension_by:   aus9 @linuxquestions.org
 Tags:           weston
-Comments:       The current weston TCE has no weston.ini
-                This install script attempts to create one
-                with mainly gnome apps. Do not have this in your 
-                onboot list please. Designed to be run once.
-                $ tce-load -i weston.ini
+Comments:       (UPGRADERS) Move your current ini file somewhere safe 
+                if you plan to load this one please, as install script
+                will over write existing ini under ~/.config but not other paths
 
-                After loading, edit .config/weston.ini to suit what apps you
-                prefer to run instead.
-
-                Be aware that you will get an icon that looks like
-                X 
-                if you have not loaded that app for a particular boot.
-
-                fltk or gtk1/2 apps will neeed xwayland loaded to run them.
-                The last icon is for exittc so likely to appear as X as its FLTK based.
+                You will get an toolbar icon - looks like  X if you have 
+                not loaded its app. Not loaded toolbar apps do not 
+                bork weston but bork is high if missing autolaunch TCEs....YMMV
+                I am on AMD APU and did limited testing on x11 and drm
+                drm is default console backend. I was unable to test wayland BE
+                x11 is default libX/Xorg* desktop -yes 2 desktops at once
+                wayland BE may be able to use TCE=wlr-randr YMMV
                 
-                Compiled for 64 9.x
-Change-log:     2018/11/27  First version 
-Current:        2018/11/27 
+                Do not include SVG icons as they are not currently supported.
+                Other than links above also run $ weston -h
+
+                There are different ways to set modes as there are backends of
+                drm headless rdp pipewire vnc wayland x11. see 2nd link
+                I have set yours to off to attempt to use monitor preferred mode.
+
+                If renderer=gl TCE=vulkan-tools $ vkcube-wayland may result in spinning cube 
+                Other TCEs to consider are fonts
+
+                If xwayland is working, GUI=exittc should work but if you find its not....try
+                $ /usr/bin/exittc  # will take you back to console and if that fails press
+                Ctrl + Alt + backspaces keys
+
+Change-log:     2018/11/27  v 1 
+Current:        2024/04/05  v 2

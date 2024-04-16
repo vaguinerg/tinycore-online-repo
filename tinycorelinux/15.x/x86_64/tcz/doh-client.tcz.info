@@ -1,0 +1,28 @@
+Title:          doh-client.tcz
+Description:    DNS over HTTPS (DoH) client
+Version:        3.1.2
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size:		1.8M
+Extension_by:   gnuser
+Tags:           dns privacy tls dns-over-tls dns-over-https DoT DoH
+Comments:       ----------
+                Howto: (once you have a working internet connection)
+                $ sudo sh -c 'echo "nameserver 127.0.0.1" >/etc/resolv.conf'
+                $ sudo doh-client --domain <domain> --remote-host <ipaddress>:<port> &
+
+                Usage example:
+                $ sudo sh -c 'echo "nameserver 127.0.0.1" >/etc/resolv.conf'
+                $ sudo doh-client --domain family.dns.mullvad.net --remote-host 194.242.2.6:443 &
+                ----------
+                Notes:
+                * doh-client has a built-in cache for prior lookups
+                * To prevent udhcpc from changing /etc/resolv.conf, do this:
+                  $ sudo sed -i 's_/etc/resolv\.conf_/dev/null_' /usr/share/udhcpc/default.script
+                ----------
+                This extension contains:
+                doh-client-3.1.2 - BSD-3-Clause - https://github.com/LinkTed/doh-client/archive/refs/tags/v3.1.2.tar.gz
+                ----------
+Change-log:     first version
+Current:        2024/04/05

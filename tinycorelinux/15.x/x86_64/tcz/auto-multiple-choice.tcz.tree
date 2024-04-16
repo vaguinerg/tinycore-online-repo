@@ -796,20 +796,34 @@ auto-multiple-choice.tcz
                   graphite.tcz
                bzip2-lib.tcz
       libwmf.tcz
-         freetype.tcz
-            libpng.tcz
-            harfbuzz.tcz
-               glib2.tcz
-                  libffi.tcz
-                  pcre21042.tcz
-               graphite.tcz
-            bzip2-lib.tcz
-         expat2.tcz
-         libjpeg-turbo.tcz
+         freetype.tcz  
          libX11.tcz
             libxcb.tcz
                libXau.tcz
                libXdmcp.tcz
+         expat2.tcz
+         libjpeg-turbo.tcz
+         gdk-pixbuf2.tcz
+            libtiff.tcz
+               libjpeg-turbo.tcz
+               liblzma.tcz
+               libzstd.tcz
+            libpng.tcz
+            libX11.tcz
+               libxcb.tcz
+                  libXau.tcz
+                  libXdmcp.tcz
+            shared-mime-info.tcz
+               glib2.tcz
+                  libffi.tcz
+                  pcre21042.tcz
+               libxml2.tcz
+                  liblzma.tcz
+            gdk-pixbuf2-xlib.tcz
+         glib2.tcz
+            libffi.tcz
+            pcre21042.tcz
+         fontconfig.tcz        
       libraw.tcz
          liblcms2.tcz
          gcc_libs.tcz
@@ -965,35 +979,64 @@ auto-multiple-choice.tcz
       openjpeg.tcz
       pcre.tcz
    graphicsmagick.tcz
-      libwebp1.tcz
-      liblcms2.tcz
+      jasper2.tcz
+         libjpeg-turbo.tcz
       libwmf.tcz
-         freetype.tcz
+         freetype.tcz  
+         libX11.tcz
+            libxcb.tcz
+               libXau.tcz
+               libXdmcp.tcz
+         expat2.tcz
+         libjpeg-turbo.tcz
+         gdk-pixbuf2.tcz
+            libtiff.tcz
+               libjpeg-turbo.tcz
+               liblzma.tcz
+               libzstd.tcz
             libpng.tcz
-            harfbuzz.tcz
+            libX11.tcz
+               libxcb.tcz
+                  libXau.tcz
+                  libXdmcp.tcz
+            shared-mime-info.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
-               graphite.tcz
-            bzip2-lib.tcz
-         expat2.tcz
+               libxml2.tcz
+                  liblzma.tcz
+            gdk-pixbuf2-xlib.tcz
+         glib2.tcz
+            libffi.tcz
+            pcre21042.tcz
+         fontconfig.tcz        
+      libjxl.tcz
+         brotli.tcz
+         libhwy.tcz
+      libtiff.tcz
          libjpeg-turbo.tcz
+         liblzma.tcz
+         libzstd.tcz
+      libwebp1.tcz
+      freetype.tcz
+         libpng.tcz
+         harfbuzz.tcz
+            glib2.tcz
+               libffi.tcz
+               pcre21042.tcz
+            graphite.tcz
+         bzip2-lib.tcz
+      liblcms2.tcz
+      libXext.tcz
          libX11.tcz
             libxcb.tcz
                libXau.tcz
                libXdmcp.tcz
       libSM.tcz
       libICE.tcz
-      liblzma.tcz
       libxml2.tcz
          liblzma.tcz
-      gcc_libs.tcz
-      jasper2.tcz
-         libjpeg-turbo.tcz
-      zstd.tcz
-         libzstd.tcz
-         liblzma.tcz
-         liblz4.tcz
+      gcc_libs.tcz    
    adwaita-icon-theme.tcz
       gtk-update-icon-cache.tcz
          gdk-pixbuf2.tcz

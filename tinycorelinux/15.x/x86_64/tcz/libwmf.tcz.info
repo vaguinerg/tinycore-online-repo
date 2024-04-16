@@ -1,16 +1,22 @@
-Title:          libwmf.tcz
-Description:    wmf vector image library
-Version:        0.2.8.4
-Author:         see list of sites below
-Original-site:  see list of sites below
-Copying-policy: see list of sites below
-Size: 820KB
-Extension_by:   juanito
-Tags:	        wmf vector image metafile
-Comments:       library for reading vector images in native windøows metafile format, wmf
-                ----------
-                This extension contains:
-                libwmf-0.2.8.4 - GPLv2 - http://sourceforge.net/projects/wvware/files/libwmf/0.2.8.4/libwmf-0.2.8.4.tar.gz/download
-                ----------
-Change-log:     first version
-Current:        2015/02/02
+Title:           libwmf.tcz
+Description:     see below + fonts
+Version:         0.2.13
+Author:          https://github.com/caolanm/libwmf/blob/master/CREDITS
+Original-site:   https://github.com/caolanm/libwmf
+Copying-policy:  main GPL v 2
+                 fonts GNU License and Aladdin Free Public License
+Size:            2.0M
+Extension_by:    aus9 @ linuxquestions.org
+Tags:            wmf vector image metafile fonts 
+Comments:        Library for interpreting native windows metafile 
+                 and either displaying them using X or 
+                 converting them to other image formats such as 
+                 PNG, JPEG, PS, EPS and SVG 
+                 $ wmf2gd -o output.png input.wmf
+                 $ wmf2gd -t jpeg -o output.jpg input.wmf
+                 $ wmf2svg -o output.svg input.wmf etc
+
+                 (Update) fonts now differ from 6x            
+
+Change-log:     2015/02/02 v 0.2.8.4 upstream sourceforge on 6x (Juanito)
+Current:        2024/04/12 v 0.2.13  upstream as above on 15x (aus9) 

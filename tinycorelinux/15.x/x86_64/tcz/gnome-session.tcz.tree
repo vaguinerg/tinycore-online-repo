@@ -16353,20 +16353,14 @@ gnome-session.tcz
                            gmp.tcz
                         pcre.tcz
                      volume_key.tcz
-                        glib2.tcz
-                           libffi.tcz
-                           pcre21042.tcz
-                        pcre.tcz
                         gpgme.tcz
                            libassuan.tcz
                               libgpg-error.tcz
-                        cryptsetup.tcz
-                           liblvm2.tcz
-                              udev-lib.tcz
-                           openssl-1.1.1.tcz
-                        nss.tcz
-                           nspr.tcz
-                           sqlite3.tcz
+                        cryptsetup.tcz 
+                        glib2.tcz
+                           libffi.tcz
+                           pcre21042.tcz
+                        nss.tcz    
                      mdadm.tcz
                         raid-dm-6.6.8-tinycore64.tcz
                      parted.tcz
@@ -34214,20 +34208,14 @@ gnome-session.tcz
                            gmp.tcz
                         pcre.tcz
                      volume_key.tcz
-                        glib2.tcz
-                           libffi.tcz
-                           pcre21042.tcz
-                        pcre.tcz
                         gpgme.tcz
                            libassuan.tcz
                               libgpg-error.tcz
-                        cryptsetup.tcz
-                           liblvm2.tcz
-                              udev-lib.tcz
-                           openssl-1.1.1.tcz
-                        nss.tcz
-                           nspr.tcz
-                           sqlite3.tcz
+                        cryptsetup.tcz 
+                        glib2.tcz
+                           libffi.tcz
+                           pcre21042.tcz
+                        nss.tcz    
                      mdadm.tcz
                         raid-dm-6.6.8-tinycore64.tcz
                      parted.tcz
@@ -55611,20 +55599,14 @@ gnome-session.tcz
                   gmp.tcz
                pcre.tcz
             volume_key.tcz
-               glib2.tcz
-                  libffi.tcz
-                  pcre21042.tcz
-               pcre.tcz
                gpgme.tcz
                   libassuan.tcz
                      libgpg-error.tcz
-               cryptsetup.tcz
-                  liblvm2.tcz
-                     udev-lib.tcz
-                  openssl-1.1.1.tcz
-               nss.tcz
-                  nspr.tcz
-                  sqlite3.tcz
+               cryptsetup.tcz 
+               glib2.tcz
+                  libffi.tcz
+                  pcre21042.tcz
+               nss.tcz    
             mdadm.tcz
                raid-dm-6.6.8-tinycore64.tcz
             parted.tcz
@@ -58011,20 +57993,14 @@ gnome-session.tcz
                   gmp.tcz
                pcre.tcz
             volume_key.tcz
-               glib2.tcz
-                  libffi.tcz
-                  pcre21042.tcz
-               pcre.tcz
                gpgme.tcz
                   libassuan.tcz
                      libgpg-error.tcz
-               cryptsetup.tcz
-                  liblvm2.tcz
-                     udev-lib.tcz
-                  openssl-1.1.1.tcz
-               nss.tcz
-                  nspr.tcz
-                  sqlite3.tcz
+               cryptsetup.tcz 
+               glib2.tcz
+                  libffi.tcz
+                  pcre21042.tcz
+               nss.tcz    
             mdadm.tcz
                raid-dm-6.6.8-tinycore64.tcz
             parted.tcz
@@ -58053,20 +58029,14 @@ gnome-session.tcz
                   gmp.tcz
                pcre.tcz
             volume_key.tcz
-               glib2.tcz
-                  libffi.tcz
-                  pcre21042.tcz
-               pcre.tcz
                gpgme.tcz
                   libassuan.tcz
                      libgpg-error.tcz
-               cryptsetup.tcz
-                  liblvm2.tcz
-                     udev-lib.tcz
-                  openssl-1.1.1.tcz
-               nss.tcz
-                  nspr.tcz
-                  sqlite3.tcz
+               cryptsetup.tcz 
+               glib2.tcz
+                  libffi.tcz
+                  pcre21042.tcz
+               nss.tcz    
             mdadm.tcz
                raid-dm-6.6.8-tinycore64.tcz
             parted.tcz
@@ -58101,165 +58071,19 @@ gnome-session.tcz
                readline.tcz
                   ncursesw.tcz
                libffi.tcz
-   vte-gir.tcz
-      vte.tcz
-         gtk3.tcz
-            libepoxy.tcz
-            at-spi2-core.tcz
-               dbus.tcz
-                  expat2.tcz
-                  elogind.tcz
-                     acl.tcz
-                        attr.tcz
-                     libcap.tcz
-                        attr.tcz
-                     util-linux.tcz
-                        readline.tcz
-                           ncursesw.tcz
-                        udev-lib.tcz
-               glib2.tcz
-                  libffi.tcz
-                  pcre21042.tcz
-               libXi.tcz
-                  libXext.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-               libXtst.tcz
-                  libXi.tcz
-                     libXext.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-            gdk-pixbuf2.tcz
-               libtiff.tcz
-                  libjpeg-turbo.tcz
-                  liblzma.tcz
-                  libzstd.tcz
-               libpng.tcz
-               libX11.tcz
-                  libxcb.tcz
-                     libXau.tcz
-                     libXdmcp.tcz
-               shared-mime-info.tcz
-                  glib2.tcz
-                     libffi.tcz
-                     pcre21042.tcz
-                  libxml2.tcz
-                     liblzma.tcz
-               gdk-pixbuf2-xlib.tcz
-            libXcomposite.tcz
-               libX11.tcz
-                  libxcb.tcz
-                     libXau.tcz
-                     libXdmcp.tcz
-            pango.tcz
-               cairo.tcz
-                  glib2.tcz
-                     libffi.tcz
-                     pcre21042.tcz
-                  fontconfig.tcz
-                     expat2.tcz
-                     freetype.tcz
-                        libpng.tcz
-                        harfbuzz.tcz
-                           glib2.tcz
-                              libffi.tcz
-                              pcre21042.tcz
-                           graphite.tcz
-                        bzip2-lib.tcz
-                  pixman.tcz
-                  libpng.tcz
-                  libX11.tcz
-                     libxcb.tcz
-                        libXau.tcz
-                        libXdmcp.tcz
-               libXft.tcz
-                  fontconfig.tcz
-                     expat2.tcz
-                     freetype.tcz
-                        libpng.tcz
-                        harfbuzz.tcz
-                           glib2.tcz
-                              libffi.tcz
-                              pcre21042.tcz
-                           graphite.tcz
-                        bzip2-lib.tcz
-                  freetype.tcz
-                     libpng.tcz
-                     harfbuzz.tcz
-                        glib2.tcz
-                           libffi.tcz
-                           pcre21042.tcz
-                        graphite.tcz
-                     bzip2-lib.tcz
-                  libXrender.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-               fribidi.tcz
-                  glib2.tcz
-                     libffi.tcz
-                     pcre21042.tcz
-            libXcursor.tcz
-               libXrender.tcz
-                  libX11.tcz
-                     libxcb.tcz
-                        libXau.tcz
-                        libXdmcp.tcz
-               libXfixes.tcz
-                  libX11.tcz
-                     libxcb.tcz
-                        libXau.tcz
-                        libXdmcp.tcz
-            libXinerama.tcz
-               libXext.tcz
-                  libX11.tcz
-                     libxcb.tcz
-                        libXau.tcz
-                        libXdmcp.tcz
-            libXrandr.tcz
-               libXext.tcz
-                  libX11.tcz
-                     libxcb.tcz
-                        libXau.tcz
-                        libXdmcp.tcz
-               libXrender.tcz
-                  libX11.tcz
-                     libxcb.tcz
-                        libXau.tcz
-                        libXdmcp.tcz
-            libXi.tcz
-               libXext.tcz
-                  libX11.tcz
-                     libxcb.tcz
-                        libXau.tcz
-                        libXdmcp.tcz
-            libxkbcommon.tcz
-               xkeyboard-config.tcz
-               libxcb.tcz
-                  libXau.tcz
-                  libXdmcp.tcz
-            wayland-protocols.tcz
-               wayland.tcz
-                  libffi.tcz
-                  expat2.tcz
-                  libxml2.tcz
-                     liblzma.tcz
-         gnutls35.tcz
+   vte-2.91-gtk3-gir.tcz
+      vte-2.91-common.tcz
+         icu74.tcz
+         gnutls38.tcz
             p11-kit.tcz
                libffi.tcz
                libtasn1-4.tcz
-            nettle3.tcz
+            nettle39.tcz
                gmp.tcz
             libidn2.tcz
                libunistring.tcz
                ncursesw.tcz
-         pcre2.tcz
-         icu67.tcz
+            libzstd.tcz
       gtk3-gir.tcz
          gtk3.tcz
             libepoxy.tcz

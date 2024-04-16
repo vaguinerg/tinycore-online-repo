@@ -1,12 +1,20 @@
-Title:          varnish.tcz
-Description:    Varnish HTTP Cache
-Version:        5.0.0
-Author:         Poul-Henning Kamp
-Original-site:  varnish-cache.org
-Copying-policy: 2-clause BSD style
-Size:		964K
-Extension_by:   chiguireitor
-Tags:	    	HTTP Caching 
-Comments:       Varnish cache for Core Pure64.
-Change-log:     01/09/17 Initial build
-Current:        01/09/17 Initial build
+Title:           varnish.tcz
+Description:     caching HTTP reverse proxy.
+Version:         7.5.0
+Author:          varnish team
+Original-site:   https://varnish-cache.org
+Copying-policy:  accompanied
+Size:            1.2M
+Extension_by:    aus9 @ linuxquestions.org
+Tags:            server http cache  
+Comments:        Untested by me. Has had vulnerabily reports
+                 so watch https://varnish-cache.org/security/index.html
+                 and consider subscribing at above link
+                 see varnish-doc please
+
+                 Please read /usr/local/share/doc/varnish/builtin.vcl
+                 see https://varnish-cache.org/docs/index.html
+                 for manuals tutorials etc
+
+Change-log:     2017/09/17 v 5.0.0 (chiguireitor)
+Current:        2024/04/08 v 7.5.0 remove pre dep on 15x (aus9) 
