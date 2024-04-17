@@ -27,8 +27,8 @@ appstream-glib.tcz
          glib2.tcz
             libffi.tcz
             pcre21042.tcz
-         gnutls3.6.tcz
-            nettle3.tcz
+         gnutls38.tcz
+            nettle39.tcz
                gmp.tcz
             p11-kit.tcz
                libffi.tcz
@@ -36,6 +36,9 @@ appstream-glib.tcz
             libidn2.tcz
                libunistring.tcz
                ncursesw.tcz
+            libzstd.tcz
+         openssl.tcz
+            gcc_libs.tcz
    gtk3.tcz
       libepoxy.tcz
       at-spi2-core.tcz
