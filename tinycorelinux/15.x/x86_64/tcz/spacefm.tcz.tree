@@ -147,7 +147,11 @@ spacefm.tcz
                liblzma.tcz
    acl.tcz
       attr.tcz
-   libstartup-notification.tcz
+   startup-notification.tcz
+      libX11.tcz
+         libxcb.tcz
+            libXau.tcz
+            libXdmcp.tcz
    desktop-file-utils.tcz
       glib2.tcz
          libffi.tcz
