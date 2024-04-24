@@ -1,17 +1,17 @@
 Title:          aqualung.tcz
 Description:    gtk2 graphical audio media player/ripper 
-Version:        1.0
-Author:         Tom Szilagyi
+Version:        1.2
+Author:         Tom Szilagyi,Peter Szilagyi,Tomasz Maka,Jeremy Evans & Jamie Heilman
 Original-site:  http://aqualung.jeremyevans.net/
 Copying-policy: GPL v2 
-Size:           496K          
-Extension_by:   aus9  
-Tags:           gtk2 audio player
+Size:           488K          
+Extension_by:   aus9 @linuxquestions.org  
+Tags:           gtk2 audio player mp3 ogg wav
 Comments:       Ensure sound works for Alsa as no pulseaudio built in.
                 To keep size smallish, only wav, ogg and mp3 supported.
 
                 Manual 
-                https://aqualung.jeremyevans.net/manual/aqualung-doc.html
+                http://aqualung.jeremyevans.net/manual/index.html
 
                 There is about 5 second delay before play button works. YMMV
                 If you try to add a file and it does not appear in your list,
@@ -44,6 +44,5 @@ Comments:       Ensure sound works for Alsa as no pulseaudio built in.
                 "Output Tab" choose output formats of wav,ogg or mp3
                  --if you choose ogg or mp3 Variable Bit Rates can be changed. 
                      
-Change-log:     2020/05/16 first version 1.0 on 11x
-Current:        2020/05/16  
-
+Change-log:     2020/05/16 v 1.0 on 11x
+Current:        2024/04/22 v 1.2 on 15x    

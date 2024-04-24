@@ -1,28 +1,27 @@
 Title:          sway-dot.tcz 
 Description:    z launches sway and see below
-Version:        2
-Author:         aus9
+Version:        3
+Author:         aus9 
 Original-site:  Tinycore
 Copying-policy: open source 
-Size:           4.0K	
-Extension_by:   aus9 
-Tags:           sway
-Comments:       /home/$USER/.local/bin/z will load and launch sway
-                assumes you have downloaded/updated sway
-                
-                /home/$USER/.config/sway/help.txt will autostart with sway
-               
-                /home/$USER/.local/bin/resetenv attempts to reset environment 
-                values, if you choose to go from sway back to your libX
-                desktop without a full reboot. Best run once back in libX/Xorg
+Size:           4.0K
+Extension_by:   aus9 @linuxquestions.org
+Tags:           sway 
+Comments:       This TCE is a DownloadOnly so not to be added to 
+                your boot list file. It is run once by  
+                $ tce-load -i sway-dot
+                or load again if any of your changes causes a bork.
+                Script destroys Z, help & resetenv 
 
-                This TCE is a DownloadOnly and not to be added to 
-                your boot list file. It is run by ... $ tce-load -i sway-dot
-                or load again if any of your changes causes a bork
-
-                If you are not login-name = tc please edit z to replace 
-                tc with your "login-name"
- 
+                exe=z will load and launch sway (separate download)
+                       
+                exe=resetenv attempts to reset environment values, 
+                     if you choose to go from sway to your X desktop
+                     without a full reboot. Run it when you are in X
+              
+                sway should not be launched on X please
+            
 Change-log:     2019/05/17 v 1.0 on 10.x  
                 2020/07/11 v 1.1 takes over all sway script functions
-Current:        2023/05/02 v 2 on 14x      
+                2023/05/02 v 2 on 14x  
+Current:        2024/04/18 v 3 on 15x 

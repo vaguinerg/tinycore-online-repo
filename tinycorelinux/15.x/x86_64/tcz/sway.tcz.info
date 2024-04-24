@@ -1,88 +1,74 @@
 Title:          sway.tcz 
 Description:    Tiling desktop for Wayland
-Version:        1.8.1
+Version:        1.9
 Author:         Drew DeVault
 Original-site:  https://github.com/swaywm/sway
 Copying-policy: Accompanied 
-Size:           5.2M
-Extension_by:   aus9 
+Size:           332K
+Extension_by:   aus9 @linuxquestions.org  
 Tags:           wayland sway
-Comments:       Online wikis 
+Comments:       UPGRADERS please read sway-wallpapers TCE and see     
                 https://github.com/swaywm/sway/wiki
-                https://wiki.archlinux.org/title/Sway
-                Your config is $HOME/.config/sway/config
-                
-                This TCE may suit members who do not mind reading the config and 
-                using keyboard shortcuts/combinations to launch their fav apps. 
-                You can still use a mouse to shift focus, or click into an already
-                opened workspace or for web browsing.
+                                                
+                Your active App is the last loaded app on your current workspace.
+                OR its the one with the blue titlebar. 
 
-                Know your active App is the last loaded app on your current workspace.
-                OR its the one with the blue titlebar, while inactive Apps are black titlebar.
+                If you change ~/.config/sway/config, run from within sway 
+                (Windows logo key) + z (see config ) --and check for  
+                errors appearing at top of monitor.
 
-                If you change ~/.config/sway/config, run from within sway
-                logo + z (see config ) --and check for no errors appearing at top of
-                monitor.
-
-                FIRST TIME USE
-                ###############
+                First use
+                ##########
                 Download this App and sway-dot, then load sway-dot
                 $ tce-load -i sway-dot
-                If you make changes to z and z crashes, delete it
-                and reload sway-dot. 
-
-                VIDEO DRIVERS
-                #############
-                Closed source drivers are not supported by sway. 
-                 
-                How to start Sway
-                ###########
-                Exit to prompt and run as non-root user please
-                $  z                 
-
-                Running Sway
-                ############
-                Read the auto started help.txt file in sway.
-
-                Exit Sway for shutdown/reboot/exit to prompt 
+                Exit to prompt and run 
+                $  z  
+                Later Uses, no need to load sway-dot 
+                                             
+                Exit Sway 
                 #########
-                press logo + e
+                press logo + e  -> will launch exittc
 
-                Optional dependencies
+                Conflicting TCE=wbar, after testing, if you like sway,
+                remove wbar as it interferes with sway please
+
+                Optional dependencies 
                 ##################
-                leafpad can be removed from dep file if you prefer something else.
-                lxterminal but make sure you modify and test config please,
-                as you need a terminal set.
-
-                grim and slurp (take screenshots)
-                dmenu  (a launcher. Must have xwayland loaded and enabled)
-                wl-clipboard (terminal clipboard manager if not using a 
+                - Changeable or removeable- leafpad.
+                - Changeable - lxterminal but make sure you modify and test config please,
+                  as you need a terminal set.
+                - grim and slurp (take screenshots)
+                - dmenu  (a launcher. Must have xwayland loaded and enabled)
+                - wl-clipboard (terminal clipboard manager if not using a 
                               terminal with copy and paste support)
-                swaylock (lock screen read info please)
- 
-                ########
-                xwayland allows most apps to run on wayland.
-                I recommend you remove wbar, from boot list, if you like sway.
+                - swaylock (lock screen read its info please)
+                - swayidle ( with settings in config)
+                - Removeable dep = sway-wallpapers but read its info on how to 
+                   change to your own please
+                - xwayland allows most apps to run on wayland.
+                
 
                 You can not use logo + l (or) r as these interfere with 
                 shortcuts with logo + left (<- arrow) to shift focus to
                 App left of current active app. Ditto right (-> arrow)
                 Which is why leafpad can not use logo + l
                 
-                caplock is set to off---numlock to on...see config if interested
-
-                2 gremlins 
-                ##########
+                Known gremlins 
+                ###############
                 1) in sway for sudo su users,
-                 command echo $PATH gives a reduced set of pathways to executables
-                 run 
-                 PATH=$PATH:/usr/local/bin:/usr/local/sbin
+                   command echo $PATH gives a reduced set of pathways 
+                   to executables---so run
+                   $ PATH=$PATH:/usr/local/bin:/usr/local/sbin
 
                 2) Going from sway -> prompt -> startx
-                local user loses full pathway too! same fix as above
-                PATH=$PATH:/usr/local/bin:/usr/local/sbin
-                Note I do not use ondemand
+                   local user loses full pathway too! same fix as above
+                   $ PATH=$PATH:/usr/local/bin:/usr/local/sbin
+                   Note I do not use ondemand
+
+                3) If you launch an app that would normally appear in wbar, and wbar is loaded
+                   wbar interferes with sway -> $ pkill wbar before loading them
                   
-Change-log:     2019/05/30 Original 1.0 on 10x 
-                2020/07/11 -> 1.4 on 11x install script moved to sway-dot 
-Current:        2023/05/02 -> 1.8.1 on 14x now depends on seatd TCE      
+Change-log:     2019/05/30 v 1.0 on 10x 
+                2020/07/11 v 1.4 on 11x install script moved to sway-dot 
+                2023/05/02 v 1.8.1 on 14x now depends on seatd TCE
+Current:        2024/04/22 v 1.9 Split wallpapers to separate TCE, its a removable dep 
