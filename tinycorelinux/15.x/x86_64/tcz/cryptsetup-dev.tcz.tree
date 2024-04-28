@@ -2,7 +2,8 @@ cryptsetup-dev.tcz
    cryptsetup.tcz
       liblvm2.tcz
          udev-lib.tcz
-      openssl-1.1.1.tcz
+      openssl.tcz
+      json-c.tcz
    lvm2-dev.tcz
       liblvm2.tcz
          udev-lib.tcz
@@ -13,6 +14,8 @@ cryptsetup-dev.tcz
             ncursesw.tcz
          ncursesw-dev.tcz
             ncursesw.tcz
-   openssl-1.1.1-dev.tcz
-      openssl-1.1.1.tcz
+   openssl-dev.tcz
+      openssl.tcz
+   json-c-dev.tcz
+      json-c.tcz
 
