@@ -12,7 +12,8 @@ jack-dev.tcz
       opus.tcz
    alsa-dev.tcz
       alsa.tcz
-         alsa-modules-6.1.2-tinycore64.tcz
+         alsa-modules-6.6.8-tinycore64.tcz
+            input-joystick-6.6.8-tinycore64.tcz
          libasound.tcz
          ncursesw.tcz
       ncursesw-dev.tcz
@@ -45,15 +46,7 @@ jack-dev.tcz
    portaudio-dev.tcz
       portaudio.tcz
          libasound.tcz
-      alsa-dev.tcz
-         alsa.tcz
-            alsa-modules-6.1.2-tinycore64.tcz
-            libasound.tcz
-            ncursesw.tcz
-         ncursesw-dev.tcz
-            ncursesw.tcz
-         fftw-dev.tcz
-            fftw.tcz
+      alsa-dev.tcz                                      
    opus-dev.tcz
       opus.tcz
 
