@@ -1,21 +1,33 @@
 Title:          nano.tcz
-Description:    A terminal editor
-Version:        5.2
-Author:         see doc
+Description:    terminal editor
+Version:        8.0
+Author:         nano Team
 Original-site:  http://www.nano-editor.org
 Copying-policy: GPL v3
 Size:           148K
-Extension_by:   aus9
+Extension_by:   aus9 @linuxquestions.org
 Tags:           nano terminal text editor
-Comments:       Editor for terminal
-
-                For those who need to run nano as root, read your
+Comments:       For those who need to run nano as root, read your
                 .nanorc and if you like to, copy your .nanorc to
-                /root/.nanorc  and edit as per suggestions inside file. line  ~202
+                /root/.nanorc  and edit as per suggestions inside file starts line 230
                 To persist over reboot, add that to your backup please
                 
-                online manual
-                https://www.nano-editor.org/dist/latest/nano.html
+                New keyboard bindings (also affects nanorc)
+                #####################
+                ^ manual symbol = Ctrl key
+                M manual symbol = is the Meta key = Alt key   
+
+                $ nano --modernbindings <pathway2/file> 
+                Ctrl + (x/c/v/z) cuts/copies/pastes/undo <at cursor postion>
+                Ctrl + (q/w/o/r) quits/writes/opens/replace
+              
+                Many more as per https://www.nano-editor.org/dist/latest/nano.html
+                Plus doc TCE has lots of new stuff. Due to these changes I suggest you 
+                read the new doc TCE please
+
+                Watch out for delete, it deletes entire line at cursor position!
+                Paste does not paste external buffer only internal copy to nano
+                Your window manager keybindings may also affect nano
 
 Change-log:     2015/08/01 first version
                 2017/05/05 v 2.8.1 (juanito)
@@ -26,4 +38,5 @@ Change-log:     2015/08/01 first version
                 2019/03/30 v 4.0 UTF8 support not compiled, $ info nano will display OK in aterm
                 2020/04/17 v 4.9.2 on 11x
                 2020/08/28 v 5.2 
-Current:        2023/03/13 v 7.2 on 14x 
+                2023/03/13 v 7.2 on 14x 
+Current:        2024/05/04 v 8.0 on 15x new kb bindings
