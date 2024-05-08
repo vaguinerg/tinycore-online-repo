@@ -37,8 +37,10 @@
 /usr/local/mysql/lib/plugin/metadata_lock_info.so
 /usr/local/mysql/lib/plugin/hashicorp_key_management.so
 /usr/local/mysql/lib/plugin/locales.so
+/usr/local/mysql/lib/plugin/provider_snappy.so
 /usr/local/mysql/lib/plugin/auth_pam.so
 /usr/local/mysql/lib/plugin/provider_lzo.so
+/usr/local/mysql/lib/plugin/ha_oqgraph.so
 /usr/local/mysql/lib/plugin/ha_federatedx.so
 /usr/local/mysql/lib/plugin/daemon_example.ini
 /usr/local/mysql/lib/plugin/server_audit.so
@@ -239,6 +241,7 @@
 /usr/local/etc/mysql/conf.d/provider_lzma.cnf
 /usr/local/etc/mysql/conf.d/server.cnf
 /usr/local/etc/mysql/conf.d/provider_bzip2.cnf
+/usr/local/etc/mysql/conf.d/provider_snappy.cnf
 /usr/local/etc/mysql/conf.d/enable_encryption.preset
 /usr/local/etc/mysql/conf.d/client.cnf
 /usr/local/etc/mysql/conf.d/s3.cnf

@@ -1,7 +1,7 @@
 Title:		postgresql-12-dev.tcz
 Project:	postgresql
 Description:	PostgreSQL Database Management System development
-Version:	12.17
+Version:	12.18
 Author:		PostgreSQL Global Development Group
 Original-site:	http://www.postgresql.org
 Copying-policy:	PostgreSQL License
@@ -24,4 +24,5 @@ Change-log:	2019/10/19 First version, 12.0
 		2021/01/23 updated to version 12.5, compiled for TC 12.x
 		2023/04/06 updated to version 12.14, compiled for TC 14.x
 		2023/09/09 updated to version 12.16
-Current:	2023/12/12 updated to version 12.17 and openssl 3.2
+		2023/12/12 updated to version 12.17 (openssl 3.2 support broken)
+Current:	2024/04/16 updated to version 12.18 with openssl 3.2 working

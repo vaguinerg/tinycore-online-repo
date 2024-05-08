@@ -7,6 +7,7 @@
 /usr/local/mysql/lib/plugin/dialog_examples.so
 /usr/local/mysql/lib/plugin/type_mysql_timestamp.so
 /usr/local/mysql/lib/plugin/simple_password_check.so
+/usr/local/mysql/lib/plugin/ha_s3.so
 /usr/local/mysql/lib/plugin/provider_lz4.so
 /usr/local/mysql/lib/plugin/provider_lzma.so
 /usr/local/mysql/lib/plugin/test_sql_service.so
@@ -36,8 +37,10 @@
 /usr/local/mysql/lib/plugin/metadata_lock_info.so
 /usr/local/mysql/lib/plugin/hashicorp_key_management.so
 /usr/local/mysql/lib/plugin/locales.so
+/usr/local/mysql/lib/plugin/provider_snappy.so
 /usr/local/mysql/lib/plugin/auth_pam.so
 /usr/local/mysql/lib/plugin/provider_lzo.so
+/usr/local/mysql/lib/plugin/ha_oqgraph.so
 /usr/local/mysql/lib/plugin/ha_federatedx.so
 /usr/local/mysql/lib/plugin/daemon_example.ini
 /usr/local/mysql/lib/plugin/server_audit.so
@@ -100,6 +103,7 @@
 /usr/local/mysql/bin/mysql_convert_table_format
 /usr/local/mysql/bin/mariadbd
 /usr/local/mysql/bin/mariadb_config
+/usr/local/mysql/bin/aria_s3_copy
 /usr/local/mysql/bin/mariadb-hotcopy
 /usr/local/mysql/bin/mariadb-convert-table-format
 /usr/local/mysql/bin/mysqlimport
@@ -232,8 +236,10 @@
 /usr/local/etc/mysql/conf.d/provider_lzma.cnf
 /usr/local/etc/mysql/conf.d/server.cnf
 /usr/local/etc/mysql/conf.d/provider_bzip2.cnf
+/usr/local/etc/mysql/conf.d/provider_snappy.cnf
 /usr/local/etc/mysql/conf.d/enable_encryption.preset
 /usr/local/etc/mysql/conf.d/client.cnf
+/usr/local/etc/mysql/conf.d/s3.cnf
 /usr/local/etc/mysql/conf.d/provider_lz4.cnf
 /usr/local/etc/mysql/conf.d/provider_lzo.cnf
 /usr/local/etc/mysql/conf.d/hashicorp_key_management.cnf

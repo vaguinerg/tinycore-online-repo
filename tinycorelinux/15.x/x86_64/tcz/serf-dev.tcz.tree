@@ -11,7 +11,6 @@ serf-dev.tcz
             libltdl.tcz
          cyrus-sasl.tcz
             openssl.tcz
-         openssl.tcz
       gdbm.tcz
    apr-util-dev.tcz
       apr-util.tcz
@@ -28,7 +27,6 @@ serf-dev.tcz
                libltdl.tcz
             cyrus-sasl.tcz
                openssl.tcz
-            openssl.tcz
          unixODBC-dev.tcz
             unixODBC.tcz
                readline.tcz
@@ -44,8 +42,6 @@ serf-dev.tcz
                openssl.tcz
             openssl-dev.tcz
                openssl.tcz
-         openssl-dev.tcz
-            openssl.tcz
          libltdl.tcz
       postgresql-16-dev.tcz
          postgresql-16.tcz
@@ -1329,11 +1325,11 @@ serf-dev.tcz
                      Xorg-fonts.tcz
          perl5.tcz
             bzip2-lib.tcz
-      mariadb-10.6-dev.tcz
-         mariadb-10.6.tcz
+      mariadb-11.2-dev.tcz
+         mariadb-11.2.tcz
             libaio.tcz
             bzip2-lib.tcz
-            openssl-1.1.1.tcz
+            openssl.tcz
             libxml2.tcz
                liblzma.tcz
             unixODBC.tcz
@@ -1341,8 +1337,9 @@ serf-dev.tcz
                   ncursesw.tcz
                libltdl.tcz
             ncursesw.tcz
-         pcre-dev.tcz
-            pcre.tcz
+            tcp_wrappers.tcz
+         pcre21042-dev.tcz
+            pcre21042.tcz
             bzip2-dev.tcz
                bzip2.tcz
                   bzip2-lib.tcz
@@ -1387,7 +1384,6 @@ serf-dev.tcz
                   libltdl.tcz
                cyrus-sasl.tcz
                   openssl.tcz
-               openssl.tcz
             unixODBC-dev.tcz
                unixODBC.tcz
                   readline.tcz
@@ -1403,11 +1399,11 @@ serf-dev.tcz
                   openssl.tcz
                openssl-dev.tcz
                   openssl.tcz
-            openssl-dev.tcz
-               openssl.tcz
             libltdl.tcz
-         openssl-1.1.1-dev.tcz
-            openssl-1.1.1.tcz
+         openssl-dev.tcz
+            openssl.tcz
+         tcp_wrappers-dev.tcz
+            tcp_wrappers.tcz
       unixODBC-dev.tcz
          unixODBC.tcz
             readline.tcz
