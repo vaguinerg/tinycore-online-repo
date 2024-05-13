@@ -7367,15 +7367,16 @@ mash-dev.tcz
                               glib2.tcz
                                  libffi.tcz
                                  pcre21042.tcz
-                           gnutls35.tcz
+                           gnutls38.tcz
                               p11-kit.tcz
                                  libffi.tcz
                                  libtasn1-4.tcz
-                              nettle3.tcz
+                              nettle39.tcz
                                  gmp.tcz
                               libidn2.tcz
                                  libunistring.tcz
                                  ncursesw.tcz
+                              libzstd.tcz
                         libtiff.tcz
                            libjpeg-turbo.tcz
                            liblzma.tcz
@@ -7821,15 +7822,16 @@ mash-dev.tcz
                               glib2.tcz
                                  libffi.tcz
                                  pcre21042.tcz
-                           gnutls35.tcz
+                           gnutls38.tcz
                               p11-kit.tcz
                                  libffi.tcz
                                  libtasn1-4.tcz
-                              nettle3.tcz
+                              nettle39.tcz
                                  gmp.tcz
                               libidn2.tcz
                                  libunistring.tcz
                                  ncursesw.tcz
+                              libzstd.tcz
                         libtiff.tcz
                            libjpeg-turbo.tcz
                            liblzma.tcz
@@ -7858,15 +7860,16 @@ mash-dev.tcz
                                  glib2.tcz
                                     libffi.tcz
                                     pcre21042.tcz
-                              gnutls35.tcz
+                              gnutls38.tcz
                                  p11-kit.tcz
                                     libffi.tcz
                                     libtasn1-4.tcz
-                                 nettle3.tcz
+                                 nettle39.tcz
                                     gmp.tcz
                                  libidn2.tcz
                                     libunistring.tcz
                                     ncursesw.tcz
+                                 libzstd.tcz
                            dbus.tcz
                               expat2.tcz
                               elogind.tcz
@@ -7915,15 +7918,16 @@ mash-dev.tcz
                                     sqlite3.tcz
                               qpdf.tcz
                                  libjpeg-turbo.tcz
-                                 gnutls35.tcz
+                                 gnutls38.tcz
                                     p11-kit.tcz
                                        libffi.tcz
                                        libtasn1-4.tcz
-                                    nettle3.tcz
+                                    nettle39.tcz
                                        gmp.tcz
                                     libidn2.tcz
                                        libunistring.tcz
                                        ncursesw.tcz
+                                    libzstd.tcz
                               Xorg-fonts.tcz
                         avahi-dev.tcz
                            avahi.tcz
@@ -9197,16 +9201,17 @@ mash-dev.tcz
                                  libffi.tcz
                            libdaemon-dev.tcz
                               libdaemon.tcz
-                        gnutls35-dev.tcz
-                           gnutls35.tcz
+                        gnutls38-dev.tcz
+                           gnutls38.tcz
                               p11-kit.tcz
                                  libffi.tcz
                                  libtasn1-4.tcz
-                              nettle3.tcz
+                              nettle39.tcz
                                  gmp.tcz
                               libidn2.tcz
                                  libunistring.tcz
                                  ncursesw.tcz
+                              libzstd.tcz
                            p11-kit-dev.tcz
                               p11-kit.tcz
                                  libffi.tcz
@@ -9215,8 +9220,8 @@ mash-dev.tcz
                                  libffi.tcz
                               libtasn1-4-dev.tcz
                                  libtasn1-4.tcz
-                           nettle3-dev.tcz
-                              nettle3.tcz
+                           nettle39-dev.tcz
+                              nettle39.tcz
                                  gmp.tcz
                               gmp-dev.tcz
                                  gmp.tcz
@@ -9228,6 +9233,15 @@ mash-dev.tcz
                                  libunistring.tcz
                               ncursesw-dev.tcz
                                  ncursesw.tcz
+                           zstd-dev.tcz
+                              zstd.tcz
+                                 libzstd.tcz
+                                 liblzma.tcz
+                                 liblz4.tcz
+                              liblzma-dev.tcz
+                                 liblzma.tcz
+                              liblz4-dev.tcz
+                                 liblz4.tcz
                      tiff-dev.tcz
                         tiff-bin.tcz
                            libtiff.tcz
@@ -14029,15 +14043,16 @@ mash-dev.tcz
                         glib2.tcz
                            libffi.tcz
                            pcre21042.tcz
-                     gnutls35.tcz
+                     gnutls38.tcz
                         p11-kit.tcz
                            libffi.tcz
                            libtasn1-4.tcz
-                        nettle3.tcz
+                        nettle39.tcz
                            gmp.tcz
                         libidn2.tcz
                            libunistring.tcz
                            ncursesw.tcz
+                        libzstd.tcz
                   libtiff.tcz
                      libjpeg-turbo.tcz
                      liblzma.tcz
@@ -14483,15 +14498,16 @@ mash-dev.tcz
                         glib2.tcz
                            libffi.tcz
                            pcre21042.tcz
-                     gnutls35.tcz
+                     gnutls38.tcz
                         p11-kit.tcz
                            libffi.tcz
                            libtasn1-4.tcz
-                        nettle3.tcz
+                        nettle39.tcz
                            gmp.tcz
                         libidn2.tcz
                            libunistring.tcz
                            ncursesw.tcz
+                        libzstd.tcz
                   libtiff.tcz
                      libjpeg-turbo.tcz
                      liblzma.tcz
@@ -14520,15 +14536,16 @@ mash-dev.tcz
                            glib2.tcz
                               libffi.tcz
                               pcre21042.tcz
-                        gnutls35.tcz
+                        gnutls38.tcz
                            p11-kit.tcz
                               libffi.tcz
                               libtasn1-4.tcz
-                           nettle3.tcz
+                           nettle39.tcz
                               gmp.tcz
                            libidn2.tcz
                               libunistring.tcz
                               ncursesw.tcz
+                           libzstd.tcz
                      dbus.tcz
                         expat2.tcz
                         elogind.tcz
@@ -14577,15 +14594,16 @@ mash-dev.tcz
                               sqlite3.tcz
                         qpdf.tcz
                            libjpeg-turbo.tcz
-                           gnutls35.tcz
+                           gnutls38.tcz
                               p11-kit.tcz
                                  libffi.tcz
                                  libtasn1-4.tcz
-                              nettle3.tcz
+                              nettle39.tcz
                                  gmp.tcz
                               libidn2.tcz
                                  libunistring.tcz
                                  ncursesw.tcz
+                              libzstd.tcz
                         Xorg-fonts.tcz
                   avahi-dev.tcz
                      avahi.tcz
@@ -15859,16 +15877,17 @@ mash-dev.tcz
                            libffi.tcz
                      libdaemon-dev.tcz
                         libdaemon.tcz
-                  gnutls35-dev.tcz
-                     gnutls35.tcz
+                  gnutls38-dev.tcz
+                     gnutls38.tcz
                         p11-kit.tcz
                            libffi.tcz
                            libtasn1-4.tcz
-                        nettle3.tcz
+                        nettle39.tcz
                            gmp.tcz
                         libidn2.tcz
                            libunistring.tcz
                            ncursesw.tcz
+                        libzstd.tcz
                      p11-kit-dev.tcz
                         p11-kit.tcz
                            libffi.tcz
@@ -15877,8 +15896,8 @@ mash-dev.tcz
                            libffi.tcz
                         libtasn1-4-dev.tcz
                            libtasn1-4.tcz
-                     nettle3-dev.tcz
-                        nettle3.tcz
+                     nettle39-dev.tcz
+                        nettle39.tcz
                            gmp.tcz
                         gmp-dev.tcz
                            gmp.tcz
@@ -15890,6 +15909,15 @@ mash-dev.tcz
                            libunistring.tcz
                         ncursesw-dev.tcz
                            ncursesw.tcz
+                     zstd-dev.tcz
+                        zstd.tcz
+                           libzstd.tcz
+                           liblzma.tcz
+                           liblz4.tcz
+                        liblzma-dev.tcz
+                           liblzma.tcz
+                        liblz4-dev.tcz
+                           liblz4.tcz
                tiff-dev.tcz
                   tiff-bin.tcz
                      libtiff.tcz
@@ -18901,15 +18929,16 @@ mash-dev.tcz
                            glib2.tcz
                               libffi.tcz
                               pcre21042.tcz
-                        gnutls35.tcz
+                        gnutls38.tcz
                            p11-kit.tcz
                               libffi.tcz
                               libtasn1-4.tcz
-                           nettle3.tcz
+                           nettle39.tcz
                               gmp.tcz
                            libidn2.tcz
                               libunistring.tcz
                               ncursesw.tcz
+                           libzstd.tcz
                      libtiff.tcz
                         libjpeg-turbo.tcz
                         liblzma.tcz
@@ -19355,15 +19384,16 @@ mash-dev.tcz
                            glib2.tcz
                               libffi.tcz
                               pcre21042.tcz
-                        gnutls35.tcz
+                        gnutls38.tcz
                            p11-kit.tcz
                               libffi.tcz
                               libtasn1-4.tcz
-                           nettle3.tcz
+                           nettle39.tcz
                               gmp.tcz
                            libidn2.tcz
                               libunistring.tcz
                               ncursesw.tcz
+                           libzstd.tcz
                      libtiff.tcz
                         libjpeg-turbo.tcz
                         liblzma.tcz
@@ -19392,15 +19422,16 @@ mash-dev.tcz
                               glib2.tcz
                                  libffi.tcz
                                  pcre21042.tcz
-                           gnutls35.tcz
+                           gnutls38.tcz
                               p11-kit.tcz
                                  libffi.tcz
                                  libtasn1-4.tcz
-                              nettle3.tcz
+                              nettle39.tcz
                                  gmp.tcz
                               libidn2.tcz
                                  libunistring.tcz
                                  ncursesw.tcz
+                              libzstd.tcz
                         dbus.tcz
                            expat2.tcz
                            elogind.tcz
@@ -19449,15 +19480,16 @@ mash-dev.tcz
                                  sqlite3.tcz
                            qpdf.tcz
                               libjpeg-turbo.tcz
-                              gnutls35.tcz
+                              gnutls38.tcz
                                  p11-kit.tcz
                                     libffi.tcz
                                     libtasn1-4.tcz
-                                 nettle3.tcz
+                                 nettle39.tcz
                                     gmp.tcz
                                  libidn2.tcz
                                     libunistring.tcz
                                     ncursesw.tcz
+                                 libzstd.tcz
                            Xorg-fonts.tcz
                      avahi-dev.tcz
                         avahi.tcz
@@ -20731,16 +20763,17 @@ mash-dev.tcz
                               libffi.tcz
                         libdaemon-dev.tcz
                            libdaemon.tcz
-                     gnutls35-dev.tcz
-                        gnutls35.tcz
+                     gnutls38-dev.tcz
+                        gnutls38.tcz
                            p11-kit.tcz
                               libffi.tcz
                               libtasn1-4.tcz
-                           nettle3.tcz
+                           nettle39.tcz
                               gmp.tcz
                            libidn2.tcz
                               libunistring.tcz
                               ncursesw.tcz
+                           libzstd.tcz
                         p11-kit-dev.tcz
                            p11-kit.tcz
                               libffi.tcz
@@ -20749,8 +20782,8 @@ mash-dev.tcz
                               libffi.tcz
                            libtasn1-4-dev.tcz
                               libtasn1-4.tcz
-                        nettle3-dev.tcz
-                           nettle3.tcz
+                        nettle39-dev.tcz
+                           nettle39.tcz
                               gmp.tcz
                            gmp-dev.tcz
                               gmp.tcz
@@ -20762,6 +20795,15 @@ mash-dev.tcz
                               libunistring.tcz
                            ncursesw-dev.tcz
                               ncursesw.tcz
+                        zstd-dev.tcz
+                           zstd.tcz
+                              libzstd.tcz
+                              liblzma.tcz
+                              liblz4.tcz
+                           liblzma-dev.tcz
+                              liblzma.tcz
+                           liblz4-dev.tcz
+                              liblz4.tcz
                   tiff-dev.tcz
                      tiff-bin.tcz
                         libtiff.tcz

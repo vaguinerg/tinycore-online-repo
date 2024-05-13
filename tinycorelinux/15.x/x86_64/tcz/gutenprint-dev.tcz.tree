@@ -248,15 +248,16 @@ gutenprint-dev.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
-            gnutls35.tcz
+            gnutls38.tcz
                p11-kit.tcz
                   libffi.tcz
                   libtasn1-4.tcz
-               nettle3.tcz
+               nettle39.tcz
                   gmp.tcz
                libidn2.tcz
                   libunistring.tcz
                   ncursesw.tcz
+               libzstd.tcz
          dbus.tcz
             expat2.tcz
             elogind.tcz
@@ -305,28 +306,30 @@ gutenprint-dev.tcz
                   sqlite3.tcz
             qpdf.tcz
                libjpeg-turbo.tcz
-               gnutls35.tcz
+               gnutls38.tcz
                   p11-kit.tcz
                      libffi.tcz
                      libtasn1-4.tcz
-                  nettle3.tcz
+                  nettle39.tcz
                      gmp.tcz
                   libidn2.tcz
                      libunistring.tcz
                      ncursesw.tcz
+                  libzstd.tcz
             Xorg-fonts.tcz
       libusb.tcz
          udev-lib.tcz
       ijs.tcz
-      gnutls35.tcz
+      gnutls38.tcz
          p11-kit.tcz
             libffi.tcz
             libtasn1-4.tcz
-         nettle3.tcz
+         nettle39.tcz
             gmp.tcz
          libidn2.tcz
             libunistring.tcz
             ncursesw.tcz
+         libzstd.tcz
    cups-dev.tcz
       cups.tcz
          libcups.tcz
@@ -346,15 +349,16 @@ gutenprint-dev.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
-            gnutls35.tcz
+            gnutls38.tcz
                p11-kit.tcz
                   libffi.tcz
                   libtasn1-4.tcz
-               nettle3.tcz
+               nettle39.tcz
                   gmp.tcz
                libidn2.tcz
                   libunistring.tcz
                   ncursesw.tcz
+               libzstd.tcz
          dbus.tcz
             expat2.tcz
             elogind.tcz
@@ -403,15 +407,16 @@ gutenprint-dev.tcz
                   sqlite3.tcz
             qpdf.tcz
                libjpeg-turbo.tcz
-               gnutls35.tcz
+               gnutls38.tcz
                   p11-kit.tcz
                      libffi.tcz
                      libtasn1-4.tcz
-                  nettle3.tcz
+                  nettle39.tcz
                      gmp.tcz
                   libidn2.tcz
                      libunistring.tcz
                      ncursesw.tcz
+                  libzstd.tcz
             Xorg-fonts.tcz
       avahi-dev.tcz
          avahi.tcz
@@ -1685,16 +1690,17 @@ gutenprint-dev.tcz
                libffi.tcz
          libdaemon-dev.tcz
             libdaemon.tcz
-      gnutls35-dev.tcz
-         gnutls35.tcz
+      gnutls38-dev.tcz
+         gnutls38.tcz
             p11-kit.tcz
                libffi.tcz
                libtasn1-4.tcz
-            nettle3.tcz
+            nettle39.tcz
                gmp.tcz
             libidn2.tcz
                libunistring.tcz
                ncursesw.tcz
+            libzstd.tcz
          p11-kit-dev.tcz
             p11-kit.tcz
                libffi.tcz
@@ -1703,8 +1709,8 @@ gutenprint-dev.tcz
                libffi.tcz
             libtasn1-4-dev.tcz
                libtasn1-4.tcz
-         nettle3-dev.tcz
-            nettle3.tcz
+         nettle39-dev.tcz
+            nettle39.tcz
                gmp.tcz
             gmp-dev.tcz
                gmp.tcz
@@ -1716,6 +1722,15 @@ gutenprint-dev.tcz
                libunistring.tcz
             ncursesw-dev.tcz
                ncursesw.tcz
+         zstd-dev.tcz
+            zstd.tcz
+               libzstd.tcz
+               liblzma.tcz
+               liblz4.tcz
+            liblzma-dev.tcz
+               liblzma.tcz
+            liblz4-dev.tcz
+               liblz4.tcz
    ijs-dev.tcz 
    libusb-dev.tcz
       libusb.tcz
