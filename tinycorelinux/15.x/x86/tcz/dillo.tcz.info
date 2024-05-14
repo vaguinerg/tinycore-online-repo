@@ -1,0 +1,39 @@
+Title:          dillo.tcz
+Description:    Dillo web browser
+Version:        3.1.0
+Author:         https://dillo-browser.github.io/old/D_authors.html
+Original-site:  https://dillo-browser.github.io/
+Copying-policy: GPLv3
+Size:		508K
+Extension_by:   Colin Jones, hiro, nitram, CNK
+Tags:           FLTK light internet web browser
+Comments:       Dillo is a multi-platform graphical web browser known
+                for speed and small footprint, written in C and C++,
+                based on FLTK (Fast Light Toolkit).
+                Project objectives:
+                - The democratization of internet information access
+                - Personal security and privacy
+                - High software efficiency
+                Note:
+                - First run creates /home/tc/.dillo directory
+                - Copy /usr/local/etc/dillo/dillorc to /home/tc/.dillo
+                  and modify as desired
+                - Click ? top right corner of browser for usage help
+                - Minimalistic, best suited for slow hardware
+                - Supports only plain HTML/XHTML with CSS rendering
+                  and images over HTTP, scripting is ignored
+                - Load wget.tcz to download files through browser
+Change-log:     2009/01/14 Original (Colin Jones/xentalion)
+                2009/09/15 v2.1.1 without xft (Colin Jones/xentalion)
+                2011/08/23 Pre-3.0 (hiro)
+                2011/09/11 v3.0 (hiro)
+                2011/12/06 v3.0.2 (hiro)
+		2015/10/04 v3.0.5 (nitram)
+                - Compiled with ssl support (https websites)
+                - Compiled without ipv6 support
+                - Tested in both Xorg and Xvesa
+                - Updated dependencies
+                - New desktop icon
+		2019/10/14 fixed https support (neonix)
+		2020/02/20 fixed openssl-1.1.1 dependency (neonix) TC11.x
+Current:	2024/05/06 v3.1 (20181005) -> v3.1.0, use mbedTLS (CNK) TC15.x
