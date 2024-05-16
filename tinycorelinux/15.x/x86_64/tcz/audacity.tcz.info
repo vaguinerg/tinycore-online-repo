@@ -1,20 +1,37 @@
 Title:          audacity.tcz
-Description:    audio editor
-Version:        2.4.2
-Author:         see list of sites below
-Original-site:  see list of sites below
-Copying-policy: see list of sites below
-Size: 5.2B
-Extension_by:   juanito
-Tags:	        audio editor gtk+ gtk3
+Description:    gtk3 alsa audio editor  
+Version:        3.4.2
+Author:         audacity Team         
+Original-site:  https://github.com/audacity/audacity
+Copying-policy: GPL v3
+Size:           13M           
+Extension_by:   aus9 @linuxquestions.org
+Tags:           audio editor gtk+ gtk3
 Comments:       multi-track audio editor and recorder
-                ----------
-                requires alsa sound
-                ----------
-                This extension contains:
-                audacity-2.4.2 - GPLv2 - https://www.fosshub.com/Audacity.html?dwl=audacity-minsrc-2.4.2.tar.xz
-                ----------
-Change-log:     2019/05/03 first version
-                2019/10/03 updated 2.3.1 -> 2.3.2
+                Alsa sound needs to be setup first.
+                Clicking the Audio setup may work for 
+                some members for output/input choices but does
+                not change volume settings
+
+                To mute or unmute sound in alsamixer
+                use arrow key to get to relevant control
+                Press m key to toggle off or on each control
+
+                Press page up or arrow up to raise volumes etc 
+                Some controls that do not use m, use up/down arrows
+
+                To activate mic in alsamixer, Press F4 & use arrow key 
+                to get to relevant Capture (mic) control
+                Press space bar to toggle on or off each mic control as a tower
+                often has front and rear inputs. Laptops should be simple.
+                Raise volumes similar to outputs
+
+                Read alsa info on saving settings over reboot
+
+                mic image may be useful for some https://i.postimg.cc/hG45jCSH/mic1.png                  
+                
+Change-log:     2019/05/03 v 2.3.1 (Juanito)
+                2019/10/03 v 2.3.2
                 2020/07/28 adjusted desktop file
-Current:        2021/02/21 updated 2.3.2 -> 2.4.2
+                2021/02/21 v 2.4.2
+Current:        2024/05/12 v 3.4.2 on 15x (aus9)                  
