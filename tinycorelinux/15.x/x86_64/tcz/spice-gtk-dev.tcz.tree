@@ -1,11 +1,8 @@
 spice-gtk-dev.tcz
    spice-gtk.tcz
       spice.tcz
-         celt.tcz
-            libogg.tcz
          cyrus-sasl.tcz
             openssl.tcz
-         opus.tcz
          gst-plugins-base.tcz
             gstreamer.tcz
                glib2.tcz
@@ -181,6 +178,9 @@ spice-gtk-dev.tcz
             opus.tcz
          libvpx113.tcz
       libcacard.tcz
+         glib2.tcz
+            libffi.tcz
+            pcre21042.tcz
          nss.tcz
             nspr.tcz
             sqlite3.tcz
@@ -192,11 +192,8 @@ spice-gtk-dev.tcz
       libcap-ng.tcz
    spice-dev.tcz
       spice.tcz
-         celt.tcz
-            libogg.tcz
          cyrus-sasl.tcz
             openssl.tcz
-         opus.tcz
          gst-plugins-base.tcz
             gstreamer.tcz
                glib2.tcz
@@ -213,18 +210,11 @@ spice-gtk-dev.tcz
          pixman.tcz
          liblz4.tcz
       spice-protocol.tcz
-      celt-dev.tcz
-         celt.tcz
-            libogg.tcz
-         libogg-dev.tcz
-            libogg.tcz
       cyrus-sasl-dev.tcz
          cyrus-sasl.tcz
             openssl.tcz
          openssl-dev.tcz
             openssl.tcz
-      opus-dev.tcz
-         opus.tcz
       gst-plugins-base-dev.tcz
          gst-plugins-base.tcz
             gstreamer.tcz
@@ -19381,11 +19371,40 @@ spice-gtk-dev.tcz
          sdl2.tcz
    libcacard-dev.tcz
       libcacard.tcz
+         glib2.tcz
+            libffi.tcz
+            pcre21042.tcz
          nss.tcz
             nspr.tcz
             sqlite3.tcz
          pcsc-lite.tcz
             udev-lib.tcz
+      glib2-dev.tcz
+         glib2-python.tcz
+            glib2.tcz
+               libffi.tcz
+               pcre21042.tcz
+            python3.9.tcz
+               openssl.tcz
+               sqlite3.tcz
+               gdbm.tcz
+               bzip2-lib.tcz
+               liblzma.tcz
+               readline.tcz
+                  ncursesw.tcz
+               libffi.tcz
+         pcre21042-dev.tcz
+            pcre21042.tcz
+            bzip2-dev.tcz
+               bzip2.tcz
+                  bzip2-lib.tcz
+            readline-dev.tcz
+               readline.tcz
+                  ncursesw.tcz
+               ncursesw-dev.tcz
+                  ncursesw.tcz
+         libffi-dev.tcz
+            libffi.tcz
       nss-dev.tcz
          nss.tcz
             nspr.tcz

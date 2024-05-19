@@ -1,11 +1,8 @@
 spice-gtk-gir.tcz
    spice-gtk.tcz
       spice.tcz
-         celt.tcz
-            libogg.tcz
          cyrus-sasl.tcz
             openssl.tcz
-         opus.tcz
          gst-plugins-base.tcz
             gstreamer.tcz
                glib2.tcz
@@ -181,6 +178,9 @@ spice-gtk-gir.tcz
             opus.tcz
          libvpx113.tcz
       libcacard.tcz
+         glib2.tcz
+            libffi.tcz
+            pcre21042.tcz
          nss.tcz
             nspr.tcz
             sqlite3.tcz
