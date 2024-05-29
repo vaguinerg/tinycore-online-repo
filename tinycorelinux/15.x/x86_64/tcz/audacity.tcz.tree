@@ -1046,8 +1046,41 @@ audacity.tcz
    libid3tag.tcz
    lame.tcz
    mpg123.tcz
-      libltdl.tcz
-      libsyn123.tcz
+      libasound.tcz
+      portaudio.tcz
+         libasound.tcz
+      libpulseaudio.tcz
+         dbus.tcz
+            expat2.tcz
+            elogind.tcz
+               acl.tcz
+                  attr.tcz
+               libcap.tcz
+                  attr.tcz
+               util-linux.tcz
+                  readline.tcz
+                     ncursesw.tcz
+                  udev-lib.tcz
+         libcap.tcz
+            attr.tcz
+         glib2.tcz
+            libffi.tcz
+            pcre21042.tcz
+         libsndfile.tcz
+            flac.tcz
+               libogg.tcz
+            libvorbis.tcz
+               libogg.tcz
+         libXtst.tcz
+            libXi.tcz
+               libXext.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
+         libICE.tcz
+         libSM.tcz
+      sdl2.tcz 
    opusfile.tcz
       opus.tcz
       libogg.tcz

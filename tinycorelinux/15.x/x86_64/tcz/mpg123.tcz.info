@@ -1,19 +1,27 @@
 Title:          mpg123.tcz
-Description:    console audio player
-Version:        1.26.3
-Author:         see list of sites below
-Original-site:  see list of sites below
-Copying-policy: see list of sites below
-Size:		212K
-Extension_by:   juanito
-Tags:	        audio player mpeg mp3
-Comments:       console based mpeg-1.0/2.0/2.5 audio player
-                ----------
-                requires alsa or pulseaudio
-                ----------
-                This extension contains:
-		mpg123 -  -  lGPLv2.1  - https://sourceforge.net/projects/mpg123/files/mpg123/1.26.3/mpg123-1.26.3.tar.bz2/download
-                ----------
-Change-log:     2016/02/07 first version
-		2016/11/20 recompiled for updated pulseaudio
-Current:        2020/07/21 updated v1.23.0 -> v1.26.3 (Sashank999)
+Description:    console or terminal mp3 player
+Version:        1.32.6
+Author:         https://github.com/madebr/mpg123/blob/master-with-github-ci/AUTHORS
+Original-site:  http://mpg123.org/
+Copying-policy: multiple see COPYING
+Size:           336K
+Extension_by:   aus9 @linuxquestions.org
+Tags:           audio player mpeg mp3
+Comments:       supports alsa, portaudio,pulseaudio or sdl2
+                Which needs to be setup first please.
+
+                First use try  $ mpg123 Dir-name/*
+                (then input h) to see navigation keybindings
+                eg q to quit, space to pause/unpause
+                f to forward to next track,
+                - to reduce volume, + to increase 
+
+                You can change output device by reading 
+                $ man mpg123 or mpg123 --longhelp
+                $ mpg123 --list-devices
+                (eg) $ mpg123 -a surround41 <path2file.mp3>
+                
+Change-log:     2016/02/07 v 1.23.0 (Juanito)
+                2016/11/20 recompiled for updated pulseaudio
+                2020/07/21 v 1.26.3 (Sashank999)
+Current:        2024/05/26 v 1.32.6 + sdl2, portaudio support (aus9)    
