@@ -432,4 +432,35 @@ xfce4-power-manager.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
+   upower.tcz
+      dbus-glib.tcz
+         dbus.tcz
+            expat2.tcz
+         glib2.tcz
+            libffi.tcz
+            pcre21042.tcz
+      udev-lib.tcz
+         glib2.tcz
+            libffi.tcz
+            pcre21042.tcz
+      libusb.tcz
+         udev-lib.tcz
+            glib2.tcz
+               libffi.tcz
+               pcre21042.tcz
+   polkit.tcz
+      glib2.tcz
+         libffi.tcz
+         pcre21042.tcz
+      expat2.tcz
+      js52.tcz
+         nspr.tcz
+         readline.tcz
+            ncursesw.tcz
+         icu62.tcz
+      dbus.tcz
+         expat2.tcz
+      Linux-PAM.tcz
+         cracklib.tcz
+         db.tcz
 

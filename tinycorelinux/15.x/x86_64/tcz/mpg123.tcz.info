@@ -20,6 +20,9 @@ Comments:       supports alsa, portaudio,pulseaudio or sdl2
                 $ man mpg123 or mpg123 --longhelp
                 $ mpg123 --list-devices
                 (eg) $ mpg123 -a surround41 <path2file.mp3>
+
+                TCE can stream by $ tce-load curl (then eg url)
+$ mpg123 --network curl http://stream.zeno.fm/2ptupyw61fxvv
                 
 Change-log:     2016/02/07 v 1.23.0 (Juanito)
                 2016/11/20 recompiled for updated pulseaudio

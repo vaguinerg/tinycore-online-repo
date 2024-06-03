@@ -1,20 +1,25 @@
 Title:          audacious-plugins.tcz
 Description:    plugins for audacious
-Version:        3.9
-Author:         see list of sites below
-Original-site:  see list of sites below
-Copying-policy: see list of sites below
-Size: 1.1MB
-Extension_by:   juanito
-Tags:	        audio player gtk+ gtk3 plugins
-Comments:       gtk+ based audio player plugins
-                ----------
-                can optionally use the curl, faad, flac, libnotify, neon, sdl and
-                wavpack extensions
-                ----------
-                This extension contains:
-                audacious-plugins-3.9-gtk3 - (c) audacious - http://distfiles.audacious-media-player.org/audacious-plugins-3.9-gtk3.tar.bz2
-                ----------
-Change-log:     2014/02/11 first version
-                2016/02/07 updated 3.4.3 -> 3.7.1
-Current:        2019/04/19 updated 3.7.1 -> 3.9
+Version:        4.3.1
+Author:         plugin framework = audacious developers
+                specific plugins  see below        
+Original-site:  https://distfiles.audacious-plugins-media-player.org/
+Copying-policy: accompanied
+Size:           1008K                     
+Extension_by:   aus9 @linuxquestions.org
+Tags:           audio player 
+Comments:       Optional TCES 
+                curl & neon for streaming
+                faad for aac file formats
+                libnotify if you need notifications
+                Most other audio files supported
+                
+                plugin authors are not easy to find.
+                Instead they are named in the *.h or *.cc files found here
+                https://github.com/audacious-media-player/audacious-plugins/tree/master/src
+eg https://github.com/audacious-media-player/audacious-plugins/blob/master/src/alsa/alsa.cc
+                
+Change-log:     2014/02/11 v 3.4.3 (Juanito)
+                2016/02/07 v 3.7.1
+                2019/04/19 v 3.9
+Current:        2024/05/30 v 4.3.1 on 15x (aus9) 

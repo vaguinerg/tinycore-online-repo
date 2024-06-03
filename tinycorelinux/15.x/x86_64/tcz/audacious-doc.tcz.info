@@ -1,0 +1,41 @@
+Title:          audacious-doc.tcz
+Description:    man page
+Version:        4.3.1
+Author:         https://github.com/audacious-media-player/audacious/blob/master/AUTHORS         
+Original-site:  https://distfiles.audacious-media-player.org/
+Copying-policy: multiple see main TCE, COPYING
+Size:           8.0K           
+Extension_by:   aus9 @linuxquestions.org
+Tags:           audio media player gtk2
+Comments:       man page contains keybindings info
+                KEYBINDINGS
+       Control + Return        Play
+       Space, Control + ,      Pause
+       Control + .             Stop
+       Alt + Up                Previous song
+       Alt + Down              Next song
+       Right arrow             Seek forward (by default 5 seconds)
+       Left arrow              Seek backward (by default 5 seconds)
+       Escape                  Scroll to current song
+       Control + a             Select all songs in playlist
+       Shift + Control + a     Cancel selection
+       Control + + (plus)      Increase volume 5 percent
+       Control + - (minus)     Decrease volume 5 percent
+       Control + s             Toggle shuffle
+       Control + r             Toggle repeat
+       Control + n             Toggle advancing in playlist
+       Control + m             Toggle stopping after current song
+       Control + e             Display Equalizer
+       Control + y             Display Search Tool
+       Control + i             Display Song Information dialog
+       Control + k             Display Jump to Time dialog
+       Control + j             Display Jump to Song dialog
+       Control + p             Display Playlist Manager dialog
+       Control + u             Display Queue Manager dialog
+       Control + o             Display Open Files dialog
+       Shift + Control + o     Display Add Files dialog
+       Control + l             Display Open URL dialog
+       Shift + Control + l     Display Add URL dialog
+                
+Change-log:     2024/05/30 v 4.3.1 on 15x
+Current:        2024/05/30 v 4.3.1 on 15x, gtk3->2 (aus9) 
