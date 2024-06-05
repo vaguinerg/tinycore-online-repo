@@ -2,6 +2,7 @@
 /usr/local/include/giomm-2.68/giomm/actiongroup.h
 /usr/local/include/giomm-2.68/giomm/actionmap.h
 /usr/local/include/giomm-2.68/giomm/appinfo.h
+/usr/local/include/giomm-2.68/giomm/appinfomonitor.h
 /usr/local/include/giomm-2.68/giomm/applaunchcontext.h
 /usr/local/include/giomm-2.68/giomm/application.h
 /usr/local/include/giomm-2.68/giomm/applicationcommandline.h
@@ -9,6 +10,7 @@
 /usr/local/include/giomm-2.68/giomm/asyncresult.h
 /usr/local/include/giomm-2.68/giomm/bufferedinputstream.h
 /usr/local/include/giomm-2.68/giomm/bufferedoutputstream.h
+/usr/local/include/giomm-2.68/giomm/bytesicon.h
 /usr/local/include/giomm-2.68/giomm/cancellable.h
 /usr/local/include/giomm-2.68/giomm/charsetconverter.h
 /usr/local/include/giomm-2.68/giomm/contenttype.h
@@ -94,6 +96,7 @@
 /usr/local/include/giomm-2.68/giomm/private/actiongroup_p.h
 /usr/local/include/giomm-2.68/giomm/private/actionmap_p.h
 /usr/local/include/giomm-2.68/giomm/private/appinfo_p.h
+/usr/local/include/giomm-2.68/giomm/private/appinfomonitor_p.h
 /usr/local/include/giomm-2.68/giomm/private/applaunchcontext_p.h
 /usr/local/include/giomm-2.68/giomm/private/application_p.h
 /usr/local/include/giomm-2.68/giomm/private/applicationcommandline_p.h
@@ -101,6 +104,7 @@
 /usr/local/include/giomm-2.68/giomm/private/asyncresult_p.h
 /usr/local/include/giomm-2.68/giomm/private/bufferedinputstream_p.h
 /usr/local/include/giomm-2.68/giomm/private/bufferedoutputstream_p.h
+/usr/local/include/giomm-2.68/giomm/private/bytesicon_p.h
 /usr/local/include/giomm-2.68/giomm/private/cancellable_p.h
 /usr/local/include/giomm-2.68/giomm/private/charsetconverter_p.h
 /usr/local/include/giomm-2.68/giomm/private/converter_p.h
@@ -206,6 +210,8 @@
 /usr/local/include/giomm-2.68/giomm/private/socketlistener_p.h
 /usr/local/include/giomm-2.68/giomm/private/socketservice_p.h
 /usr/local/include/giomm-2.68/giomm/private/srvtarget_p.h
+/usr/local/include/giomm-2.68/giomm/private/subprocess_p.h
+/usr/local/include/giomm-2.68/giomm/private/subprocesslauncher_p.h
 /usr/local/include/giomm-2.68/giomm/private/tcpconnection_p.h
 /usr/local/include/giomm-2.68/giomm/private/tcpwrapperconnection_p.h
 /usr/local/include/giomm-2.68/giomm/private/themedicon_p.h
@@ -256,6 +262,8 @@
 /usr/local/include/giomm-2.68/giomm/socketservice.h
 /usr/local/include/giomm-2.68/giomm/socketsource.h
 /usr/local/include/giomm-2.68/giomm/srvtarget.h
+/usr/local/include/giomm-2.68/giomm/subprocess.h
+/usr/local/include/giomm-2.68/giomm/subprocesslauncher.h
 /usr/local/include/giomm-2.68/giomm/tcpconnection.h
 /usr/local/include/giomm-2.68/giomm/tcpwrapperconnection.h
 /usr/local/include/giomm-2.68/giomm/themedicon.h
@@ -295,6 +303,7 @@
 /usr/local/include/glibmm-2.68/glibmm/debug.h
 /usr/local/include/glibmm-2.68/glibmm/dispatcher.h
 /usr/local/include/glibmm-2.68/glibmm/enums.h
+/usr/local/include/glibmm-2.68/glibmm/environ.h
 /usr/local/include/glibmm-2.68/glibmm/error.h
 /usr/local/include/glibmm-2.68/glibmm/exceptionhandler.h
 /usr/local/include/glibmm-2.68/glibmm/extraclassinit.h
@@ -364,6 +373,7 @@
 /usr/local/include/glibmm-2.68/glibmm/unicode.h
 /usr/local/include/glibmm-2.68/glibmm/uriutils.h
 /usr/local/include/glibmm-2.68/glibmm/ustring.h
+/usr/local/include/glibmm-2.68/glibmm/ustring_hash.h
 /usr/local/include/glibmm-2.68/glibmm/utility.h
 /usr/local/include/glibmm-2.68/glibmm/value.h
 /usr/local/include/glibmm-2.68/glibmm/value_basictypes.h
@@ -375,6 +385,7 @@
 /usr/local/include/glibmm-2.68/glibmm/variantiter.h
 /usr/local/include/glibmm-2.68/glibmm/varianttype.h
 /usr/local/include/glibmm-2.68/glibmm/vectorutils.h
+/usr/local/include/glibmm-2.68/glibmm/version.h
 /usr/local/include/glibmm-2.68/glibmm/wrap.h
 /usr/local/include/glibmm-2.68/glibmm/wrap_init.h
 /usr/local/include/glibmm-2.68/glibmm.h
