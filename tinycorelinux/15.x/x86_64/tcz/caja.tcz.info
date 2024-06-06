@@ -1,32 +1,21 @@
 Title:          caja.tcz
-Description:    MATE Desktop Environment's file manager
-Version:        1.24.0
-Author:         MATE developers
-Original-site:  https://github.com/mate-desktop/caja
-Copying-policy: GPLv2+
-Size:		2.1M
+Description:    the MATE file manager
+Version:        1.28.0
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size:		2.0M
 Extension_by:   gnuser
-Tags:	        mate file manager caja nautilus gtk3
+Tags:           mate file manager
 Comments:       ----------
- BASIC USAGE:
-  - You can use this file manager with any desktop environment or window manager
-  - Icon theme goes in ~/.config/gtk-3.0/settings.ini (default is Adwaita) 
-    For example:
-    [Settings]
-    gtk-icon-theme-name = Humanity
-  - "Open in Terminal" looks for xterm--see
-    /usr/local/share/glib-2.0/schemas/org.mate.applications-terminal.gschema.xml
-    If you don't use xterm, create a symlink to your preferred terminal emulator
-    For example: 
-    $ sudo ln -s /usr/local/bin/aterm /usr/local/bin/xterm
-  - To set keyboard shortcut for "Open in Terminal" (e.g., F9), append this line:
-    (gtk_accel_path "<Actions>/ExtensionsMenuGroup/CajaOpenTerminal::open_terminal" "F9")
-    to ~/.config/caja/accels
- ENABLING EXTRA FUNCTIONALITY:
-  - For "Extract Here" when right-clicking on archive files, load engrampa.tcz
-  - For video file thumbnails, load ffmpegthumbnailer.tcz
-  - For pdf file thumbnails, load atril-thumbnailer.tcz
-  - For audio file previews (when hovering over them with cursor), load gst-plugins-good.tcz and gst-libav.tcz
-Change-log:     2020/12/29 first version for tcl-11.x
-                2021/01/02 version bump 1.16.6 -> 1.24.0
-Current:        2023/11/24 updated .info file
+                Typical usage:
+                $ tce-load -wi caja caja-extensions engrampa
+                $ sudo ln -s /usr/local/bin/<your_preferred_terminal_emulator> /usr/local/bin/mate-terminal
+                $ caja
+                ----------
+                This extension contains:
+                caja-1.28.0 - GPLv2 - https://github.com/mate-desktop/caja/releases/download/v1.28.0/caja-1.28.0.tar.xz
+                ----------
+Change-log:     2020/12/29 first version
+                2021/01/02 updated 1.16.6 -> 1.24.0
+Current:        2024/06/04 updated 1.24.0 -> 1.28.0
