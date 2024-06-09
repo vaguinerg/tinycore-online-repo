@@ -10,6 +10,8 @@ Tags:	        alsa sound audio
 Comments:       Advanced Linux Sound Architecture config and test files,
                 which may only be required for legacy/exotic hardware
                 ----------
+                can optionally use the fftw extension
+                ----------
 		If adding this command to bootlocal.sh, you may need
 		to precede it with the sleep command for it to be effective.
                 ----------
