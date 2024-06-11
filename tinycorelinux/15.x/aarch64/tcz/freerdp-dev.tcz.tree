@@ -40,7 +40,7 @@ freerdp-dev.tcz
             flac.tcz
                libogg.tcz
             libasound.tcz
-               alsa-modules-6.6.26-piCore-v8.tcz
+               alsa-modules-6.6.28-piCore-v8.tcz
             libvorbis.tcz
                libogg.tcz
             sqlite3.tcz
@@ -653,9 +653,12 @@ freerdp-dev.tcz
                      libXau.tcz
                      libXdmcp.tcz
             libasound.tcz
-               alsa-modules-6.6.26-piCore-v8.tcz
+               alsa-modules-6.6.28-piCore-v8.tcz
             libv4l2.tcz
-               v4l-dvb-6.6.26-piCore-v8.tcz
+               v4l-dvb-6.6.28-piCore-v8.tcz
+                  alsa-modules-6.6.28-piCore-v8.tcz
+                  graphics-6.6.28-piCore-v8.tcz
+                     alsa-modules-6.6.28-piCore-v8.tcz
                libjpeg-turbo.tcz
                udev-lib.tcz
             libpulseaudio.tcz
@@ -680,7 +683,7 @@ freerdp-dev.tcz
                   flac.tcz
                      libogg.tcz
                   libasound.tcz
-                     alsa-modules-6.6.26-piCore-v8.tcz
+                     alsa-modules-6.6.28-piCore-v8.tcz
                   libvorbis.tcz
                      libogg.tcz
                   sqlite3.tcz
@@ -729,7 +732,7 @@ freerdp-dev.tcz
                   flac.tcz
                      libogg.tcz
                   libasound.tcz
-                     alsa-modules-6.6.26-piCore-v8.tcz
+                     alsa-modules-6.6.28-piCore-v8.tcz
                   libvorbis.tcz
                      libogg.tcz
                   sqlite3.tcz
@@ -743,7 +746,7 @@ freerdp-dev.tcz
                      libogg.tcz
             alsa.tcz
                libasound.tcz
-                  alsa-modules-6.6.26-piCore-v8.tcz
+                  alsa-modules-6.6.28-piCore-v8.tcz
             udev-lib.tcz
             libltdl.tcz
             libavahi.tcz
@@ -764,7 +767,7 @@ freerdp-dev.tcz
             libcap.tcz
          libasound-dev.tcz
             libasound.tcz
-               alsa-modules-6.6.26-piCore-v8.tcz
+               alsa-modules-6.6.28-piCore-v8.tcz
          libtool-dev.tcz
             libtool.tcz
                libltdl.tcz
@@ -784,7 +787,7 @@ freerdp-dev.tcz
                flac.tcz
                   libogg.tcz
                libasound.tcz
-                  alsa-modules-6.6.26-piCore-v8.tcz
+                  alsa-modules-6.6.28-piCore-v8.tcz
                libvorbis.tcz
                   libogg.tcz
                sqlite3.tcz
@@ -795,7 +798,7 @@ freerdp-dev.tcz
                   libogg.tcz
             libasound-dev.tcz
                libasound.tcz
-                  alsa-modules-6.6.26-piCore-v8.tcz
+                  alsa-modules-6.6.28-piCore-v8.tcz
             libvorbis-dev.tcz
                libvorbis.tcz
                   libogg.tcz
@@ -827,27 +830,28 @@ freerdp-dev.tcz
                      pcre2.tcz
                         bzip2-lib.tcz
                   libasound.tcz
-                     alsa-modules-6.6.26-piCore-v8.tcz
+                     alsa-modules-6.6.28-piCore-v8.tcz
                   udev-lib.tcz
                   libical.tcz
                      icu73.tcz
                   pcre2.tcz
                      bzip2-lib.tcz
-                  bluetooth-6.6.26-piCore-v8.tcz
+                  bluetooth-6.6.28-piCore-v8.tcz
+                     firmware-rpi-bt.tcz
                   readline.tcz
                      ncurses.tcz
                   sbc.tcz
                      libasound.tcz
-                        alsa-modules-6.6.26-piCore-v8.tcz
+                        alsa-modules-6.6.28-piCore-v8.tcz
             ncurses-dev.tcz
                ncurses.tcz
          sbc-dev.tcz
             sbc.tcz
                libasound.tcz
-                  alsa-modules-6.6.26-piCore-v8.tcz
+                  alsa-modules-6.6.28-piCore-v8.tcz
             libasound-dev.tcz
                libasound.tcz
-                  alsa-modules-6.6.26-piCore-v8.tcz
+                  alsa-modules-6.6.28-piCore-v8.tcz
          gtk3-dev.tcz
             gtk3.tcz
                libepoxy.tcz
@@ -2858,7 +2862,10 @@ freerdp-dev.tcz
             ncurses.tcz
       libv4l2-dev.tcz
          libv4l2.tcz
-            v4l-dvb-6.6.26-piCore-v8.tcz
+            v4l-dvb-6.6.28-piCore-v8.tcz
+               alsa-modules-6.6.28-piCore-v8.tcz
+               graphics-6.6.28-piCore-v8.tcz
+                  alsa-modules-6.6.28-piCore-v8.tcz
             libjpeg-turbo.tcz
             udev-lib.tcz
          libjpeg-turbo-dev.tcz
@@ -2866,7 +2873,7 @@ freerdp-dev.tcz
                libjpeg-turbo.tcz
          libasound-dev.tcz
             libasound.tcz
-               alsa-modules-6.6.26-piCore-v8.tcz
+               alsa-modules-6.6.28-piCore-v8.tcz
          mesa-dev.tcz
             mesa.tcz
                libdrm.tcz
@@ -4326,7 +4333,7 @@ freerdp-dev.tcz
                      flac.tcz
                         libogg.tcz
                      libasound.tcz
-                        alsa-modules-6.6.26-piCore-v8.tcz
+                        alsa-modules-6.6.28-piCore-v8.tcz
                      libvorbis.tcz
                         libogg.tcz
                      sqlite3.tcz
@@ -4340,7 +4347,7 @@ freerdp-dev.tcz
                         libogg.tcz
                alsa.tcz
                   libasound.tcz
-                     alsa-modules-6.6.26-piCore-v8.tcz
+                     alsa-modules-6.6.28-piCore-v8.tcz
                udev-lib.tcz
                libltdl.tcz
                libavahi.tcz
@@ -4361,7 +4368,7 @@ freerdp-dev.tcz
                libcap.tcz
             libasound-dev.tcz
                libasound.tcz
-                  alsa-modules-6.6.26-piCore-v8.tcz
+                  alsa-modules-6.6.28-piCore-v8.tcz
             libtool-dev.tcz
                libtool.tcz
                   libltdl.tcz
@@ -4381,7 +4388,7 @@ freerdp-dev.tcz
                   flac.tcz
                      libogg.tcz
                   libasound.tcz
-                     alsa-modules-6.6.26-piCore-v8.tcz
+                     alsa-modules-6.6.28-piCore-v8.tcz
                   libvorbis.tcz
                      libogg.tcz
                   sqlite3.tcz
@@ -4392,7 +4399,7 @@ freerdp-dev.tcz
                      libogg.tcz
                libasound-dev.tcz
                   libasound.tcz
-                     alsa-modules-6.6.26-piCore-v8.tcz
+                     alsa-modules-6.6.28-piCore-v8.tcz
                libvorbis-dev.tcz
                   libvorbis.tcz
                      libogg.tcz
@@ -4424,27 +4431,28 @@ freerdp-dev.tcz
                         pcre2.tcz
                            bzip2-lib.tcz
                      libasound.tcz
-                        alsa-modules-6.6.26-piCore-v8.tcz
+                        alsa-modules-6.6.28-piCore-v8.tcz
                      udev-lib.tcz
                      libical.tcz
                         icu73.tcz
                      pcre2.tcz
                         bzip2-lib.tcz
-                     bluetooth-6.6.26-piCore-v8.tcz
+                     bluetooth-6.6.28-piCore-v8.tcz
+                        firmware-rpi-bt.tcz
                      readline.tcz
                         ncurses.tcz
                      sbc.tcz
                         libasound.tcz
-                           alsa-modules-6.6.26-piCore-v8.tcz
+                           alsa-modules-6.6.28-piCore-v8.tcz
                ncurses-dev.tcz
                   ncurses.tcz
             sbc-dev.tcz
                sbc.tcz
                   libasound.tcz
-                     alsa-modules-6.6.26-piCore-v8.tcz
+                     alsa-modules-6.6.28-piCore-v8.tcz
                libasound-dev.tcz
                   libasound.tcz
-                     alsa-modules-6.6.26-piCore-v8.tcz
+                     alsa-modules-6.6.28-piCore-v8.tcz
             gtk3-dev.tcz
                gtk3.tcz
                   libepoxy.tcz
