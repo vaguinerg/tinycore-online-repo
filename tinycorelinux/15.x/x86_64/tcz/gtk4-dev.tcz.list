@@ -21,6 +21,9 @@
 /usr/local/include/gtk-4.0/gdk/gdkdevicetool.h
 /usr/local/include/gtk-4.0/gdk/gdkdisplay.h
 /usr/local/include/gtk-4.0/gdk/gdkdisplaymanager.h
+/usr/local/include/gtk-4.0/gdk/gdkdmabufformats.h
+/usr/local/include/gtk-4.0/gdk/gdkdmabuftexture.h
+/usr/local/include/gtk-4.0/gdk/gdkdmabuftexturebuilder.h
 /usr/local/include/gtk-4.0/gdk/gdkdrag.h
 /usr/local/include/gtk-4.0/gdk/gdkdragsurface.h
 /usr/local/include/gtk-4.0/gdk/gdkdragsurfacesize.h
@@ -83,17 +86,24 @@
 /usr/local/include/gtk-4.0/gdk/x11/gdkx11utils.h
 /usr/local/include/gtk-4.0/gsk/broadway/gskbroadwayrenderer.h
 /usr/local/include/gtk-4.0/gsk/gl/gskglrenderer.h
+/usr/local/include/gtk-4.0/gsk/gpu/gskvulkanrenderer.h
 /usr/local/include/gtk-4.0/gsk/gsk.h
 /usr/local/include/gtk-4.0/gsk/gskcairorenderer.h
 /usr/local/include/gtk-4.0/gsk/gskenums.h
 /usr/local/include/gtk-4.0/gsk/gskenumtypes.h
 /usr/local/include/gtk-4.0/gsk/gskglshader.h
+/usr/local/include/gtk-4.0/gsk/gskpath.h
+/usr/local/include/gtk-4.0/gsk/gskpathbuilder.h
+/usr/local/include/gtk-4.0/gsk/gskpathmeasure.h
+/usr/local/include/gtk-4.0/gsk/gskpathpoint.h
 /usr/local/include/gtk-4.0/gsk/gskrenderer.h
 /usr/local/include/gtk-4.0/gsk/gskrendernode.h
 /usr/local/include/gtk-4.0/gsk/gskroundedrect.h
+/usr/local/include/gtk-4.0/gsk/gskstroke.h
 /usr/local/include/gtk-4.0/gsk/gsktransform.h
 /usr/local/include/gtk-4.0/gsk/gsktypes.h
-/usr/local/include/gtk-4.0/gsk/vulkan/gskvulkanrenderer.h
+/usr/local/include/gtk-4.0/gtk/a11y/gtkatspi.h
+/usr/local/include/gtk-4.0/gtk/a11y/gtkatspisocket.h
 /usr/local/include/gtk-4.0/gtk/css/gtkcss.h
 /usr/local/include/gtk-4.0/gtk/css/gtkcssenums.h
 /usr/local/include/gtk-4.0/gtk/css/gtkcssenumtypes.h
@@ -160,6 +170,7 @@
 /usr/local/include/gtk-4.0/gtk/gtkaccelgroup.h
 /usr/local/include/gtk-4.0/gtk/gtkaccessible.h
 /usr/local/include/gtk-4.0/gtk/gtkaccessiblerange.h
+/usr/local/include/gtk-4.0/gtk/gtkaccessibletext.h
 /usr/local/include/gtk-4.0/gtk/gtkactionable.h
 /usr/local/include/gtk-4.0/gtk/gtkactionbar.h
 /usr/local/include/gtk-4.0/gtk/gtkadjustment.h
@@ -192,6 +203,7 @@
 /usr/local/include/gtk-4.0/gtk/gtkcolumnviewcolumn.h
 /usr/local/include/gtk-4.0/gtk/gtkcolumnviewrow.h
 /usr/local/include/gtk-4.0/gtk/gtkcolumnviewsorter.h
+/usr/local/include/gtk-4.0/gtk/gtkconfig.h
 /usr/local/include/gtk-4.0/gtk/gtkconstraint.h
 /usr/local/include/gtk-4.0/gtk/gtkconstraintguide.h
 /usr/local/include/gtk-4.0/gtk/gtkconstraintlayout.h
@@ -246,6 +258,7 @@
 /usr/local/include/gtk-4.0/gtk/gtkgestureswipe.h
 /usr/local/include/gtk-4.0/gtk/gtkgesturezoom.h
 /usr/local/include/gtk-4.0/gtk/gtkglarea.h
+/usr/local/include/gtk-4.0/gtk/gtkgraphicsoffload.h
 /usr/local/include/gtk-4.0/gtk/gtkgrid.h
 /usr/local/include/gtk-4.0/gtk/gtkgridlayout.h
 /usr/local/include/gtk-4.0/gtk/gtkgridview.h
@@ -294,6 +307,7 @@
 /usr/local/include/gtk-4.0/gtk/gtkpopover.h
 /usr/local/include/gtk-4.0/gtk/gtkpopovermenu.h
 /usr/local/include/gtk-4.0/gtk/gtkpopovermenubar.h
+/usr/local/include/gtk-4.0/gtk/gtkprintdialog.h
 /usr/local/include/gtk-4.0/gtk/gtkprogressbar.h
 /usr/local/include/gtk-4.0/gtk/gtkrange.h
 /usr/local/include/gtk-4.0/gtk/gtkrecentmanager.h
@@ -379,6 +393,7 @@
 /usr/local/include/gtk-4.0/unix-print/gtk/print/gtkprinter.h
 /usr/local/include/gtk-4.0/unix-print/gtk/print/gtkprintjob.h
 /usr/local/include/gtk-4.0/unix-print/gtk/print/gtkprintunixdialog.h
+/usr/local/lib/pkgconfig/gtk4-atspi.pc
 /usr/local/lib/pkgconfig/gtk4-broadway.pc
 /usr/local/lib/pkgconfig/gtk4-unix-print.pc
 /usr/local/lib/pkgconfig/gtk4-wayland.pc
