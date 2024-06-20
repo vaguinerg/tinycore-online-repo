@@ -1,22 +1,28 @@
 Title:          inxi.tcz
 Description:    Universal, portable system information tool
-Version:        3.3.30
+Version:        3.3.35
 Author:         Harald Hope
 Original-site:  https://smxi.org/docs/inxi.htm
 Copying-policy: GPLv3
-Size:           440K
+Size:           464K
 Extension_by:   h2 (smxi.org/site/contact.php)
 Tags:           CLI inxi IRC sysinfo system information hardware report.
 Comments:       Commonly used in IRC, CLI (sys admin), and for forum support.
                 inxi -h will show switches to use for different outputs.
                 ---------
-                Depends: perl5, coreutils, dmidecode (non ARM), and pci-utils.
+                Depends: perl5, coreutils, dmidecode (non ARM), pci-utils,
+                ca-certificates.
                 Suggests: bind (for dig/WAN IP), hddtemp (for older HDD), 
                 lm_sensors, usbutils (optional, enhanced model/vendor info).
                 ---------
                 This extension uses recursive deps
                 This extension is PPI compatible
-Change-log:     Current: 2023-09-26 Updated to 3.3.30 (h2)
+Change-log:     Current: 2024-06-18 Updated to 3.3.35 (h2)
+                2024-06-18 Updated to 3.3.35 (h2)
+                2024-04-13 Updated to 3.3.34 (h2)
+                2024-02-06 Updated to 3.3.33 (h2)
+                2024-01-30 Updated to 3.3.32 (h2)
+                2023-11-01 Updated to 3.3.31 (h2)
                 2023-09-25 Updated to 3.3.30 (h2)
                 2023-08-16 Updated to 3.3.29 (h2)
                 2023-07-11 Updated to 3.3.28 (h2)

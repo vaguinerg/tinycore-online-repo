@@ -503,7 +503,7 @@ freerdp2-dev.tcz
                               libxcb.tcz
                                  libXau.tcz
                                  libXdmcp.tcz
-               libass.tcz
+               libass4.tcz
                   fribidi.tcz
                      glib2.tcz
                         libffi.tcz
@@ -2475,8 +2475,10 @@ freerdp2-dev.tcz
                graphite2.tcz
                pcre.tcz
                   bzip2-lib.tcz
-            enca.tcz
-               recode.tcz
+            fontconfig.tcz
+               expat2.tcz
+               freetype.tcz
+                  libpng.tcz
          fribidi-dev.tcz
             fribidi.tcz   
          harfbuzz-dev.tcz
@@ -2523,11 +2525,18 @@ freerdp2-dev.tcz
                bzip2-dev.tcz
                   bzip2.tcz
                      bzip2-lib.tcz
-         enca-dev.tcz
-            enca.tcz
-               recode.tcz
-            recode-dev.tcz
-               recode.tcz
+         fontconfig-dev.tcz
+            fontconfig.tcz
+               expat2.tcz
+               freetype.tcz
+                  libpng.tcz
+            expat2-dev.tcz
+               expat2.tcz
+            freetype-dev.tcz
+               freetype.tcz
+                  libpng.tcz
+               libpng-dev.tcz
+                  libpng.tcz
       libbluray-dev.tcz
          libbluray.tcz
             libxml2.tcz
