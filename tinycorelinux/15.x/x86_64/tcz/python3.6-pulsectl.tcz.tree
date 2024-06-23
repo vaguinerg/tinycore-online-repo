@@ -29,8 +29,7 @@ python3.6-pulsectl.tcz
          libsndfile.tcz
             flac.tcz
                libogg.tcz
-            libvorbis.tcz
-               libogg.tcz
+            libvorbis.tcz 
          libXtst.tcz
             libXi.tcz
                libXext.tcz
@@ -41,7 +40,8 @@ python3.6-pulsectl.tcz
          libICE.tcz
          libSM.tcz
       alsa.tcz
-         alsa-modules-6.1.2-tinycore64.tcz
+         alsa-modules-6.6.8-tinycore64.tcz
+            input-joystick-6.6.8-tinycore64.tcz
          libasound.tcz
          ncursesw.tcz
       udev-lib.tcz
