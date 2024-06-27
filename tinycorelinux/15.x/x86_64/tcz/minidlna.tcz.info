@@ -1,25 +1,21 @@
 Title:          minidlna.tcz
 Description:    simple media server compliant with DLNA/UPnP-AV clients
-Version:        1.3.2
+Version:        1.3.3
 Author:         see list of sites below
 Original-site:  see list of sites below
 Copying-policy: see list of sites below
 Size:		144K
 Extension_by:   gnuser
-Tags:	        CLI DLNA media server ReadyMedia
+Tags:           CLI DLNA media server ReadyMedia
 Comments:       ----------
-                Setup and usage in 3 easy steps:
-
-                1. $ mkdir -p $HOME/.config/minidlna
-
-                2. Create $HOME/.config/minidlna/minidlna.conf, like this example:
-                media_dir=/mnt/usb/Media
-                friendly_name=My DLNA Server
-
-                3. $ minidlnad -f $HOME/.config/minidlna/minidlna.conf
+                howto:
+                1. create /etc/minidlna.conf, for example:
+                media_dir=/mnt/usb/media
+                friendly_name=Tux Media Server
+                2. $ sudo minidlnad
                 ----------
                 This extension contains:
-                minidlna-1.3.2 - GPLv2 - https://sourceforge.net/projects/minidlna/files/minidlna/1.3.2/minidlna-1.3.2.tar.gz
+                minidlna-1.3.3 - GPLv2 - https://sourceforge.net/projects/minidlna/files/minidlna/1.3.3/minidlna-1.3.3.tar.gz
                 ----------
-Change-log:     first version
-Current:        2023/04/12
+Change-log:     2023/04/12 first version
+Current:        2024/06/22 updated 1.3.2 -> 1.3.3
