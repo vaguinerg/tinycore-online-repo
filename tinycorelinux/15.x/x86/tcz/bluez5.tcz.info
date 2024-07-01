@@ -1,10 +1,10 @@
 Title:          bluez5.tcz
 Description:    bluetooth stack
-Version:        5.63
+Version:        5.72
 Author:         see list of sites below
 Original-site:  see list of sites below
 Copying-policy: see list of sites below
-Size: 1.3MB
+Size: 1.6MB
 Extension_by:   juanito
 Tags:           bluetooth bluez
 Comments:       Official Linux Bluetooth protocol stack
@@ -16,7 +16,7 @@ Comments:       Official Linux Bluetooth protocol stack
                 Optionally can use the blueman extension to pair
                 ----------
                 This extension contains:
-                bluez-5.63 - GPLv2 - https://www.kernel.org/pub/linux/bluetooth/bluez-5.63.tar.xz
+                bluez-5.72 - GPLv2 - https://www.kernel.org/pub/linux/bluetooth/bluez-5.72.tar.xz
                 ----------
                 Howto:
                 $ sudo /usr/local/etc/init.d/bluez [start|stop|restart|status]
@@ -45,4 +45,5 @@ Change-log:     2009/05/01 first version
                 2019/06/25 updated 4.101 -> 5.50, renamed
                 2021/01/19 updated 5.50 -> 5.55
                 2022/03/09 updated 5.55 -> 5.63
-Current:        2022/06/20 added obex dbus service file
+                2022/06/20 added obex dbus service file
+Current:        2024/06/30 updated 5.63 -> 5.72
