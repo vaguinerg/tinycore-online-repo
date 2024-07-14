@@ -1932,6 +1932,31 @@ cheese-dev.tcz
          i2c-6.6.8-tinycore64.tcz
          alsa-modules-6.6.8-tinycore64.tcz
             input-joystick-6.6.8-tinycore64.tcz
+      libva2-utils.tcz
+         libva2.tcz
+            libGL.tcz
+               libXdamage.tcz
+                  libXfixes.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+               libXxf86vm.tcz
+                  libXext.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+               libdrm.tcz
+                  libpciaccess.tcz
+                  udev-lib.tcz
+               libxshmfence.tcz
+            wayland.tcz
+               libffi.tcz
+               expat2.tcz
+               libxml2.tcz
+                  liblzma.tcz
+      udev_extras_v4l.tcz
    clutter-gst-dev.tcz
       clutter-gst.tcz
          clutter.tcz
@@ -86281,20 +86306,4 @@ cheese-dev.tcz
                      xorg-proto.tcz
                         util-macros.tcz
                            m4.tcz
-   gst-plugins-good.tcz
-      gst-plugins-base.tcz
-         gstreamer.tcz
-            glib2.tcz
-               libffi.tcz
-               pcre21042.tcz
-         libtheora.tcz
-            libogg.tcz
-         libvorbis.tcz
-            libogg.tcz
-         libasound.tcz
-         opus.tcz
-      libvpx113.tcz
-   libvpx18-dev.tcz
-      libvpx18-bin.tcz
-         libvpx18.tcz
 

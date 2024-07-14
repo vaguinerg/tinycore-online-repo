@@ -1931,4 +1931,29 @@ cheese.tcz
       i2c-6.6.8-tinycore64.tcz
       alsa-modules-6.6.8-tinycore64.tcz
          input-joystick-6.6.8-tinycore64.tcz
+   libva2-utils.tcz
+      libva2.tcz
+         libGL.tcz
+            libXdamage.tcz
+               libXfixes.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
+            libXxf86vm.tcz
+               libXext.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
+            libdrm.tcz
+               libpciaccess.tcz
+               udev-lib.tcz
+            libxshmfence.tcz
+         wayland.tcz
+            libffi.tcz
+            expat2.tcz
+            libxml2.tcz
+               liblzma.tcz
+   udev_extras_v4l.tcz
 
