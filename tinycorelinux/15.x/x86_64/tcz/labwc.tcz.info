@@ -1,29 +1,30 @@
 Title:          labwc.tcz
 Description:    lab wayland compositor
-Version:        0.7.2
+Version:        0.7.3
 Author:         see list of sites below
 Original-site:  see list of sites below
 Copying-policy: see list of sites below
-Size:		160K
+Size:		168K
 Extension_by:   gnuser
 Tags:           wayland compositor wm
-Comments:       a wlroots-based window-stacking compositor for wayland, inspired by openbox
+Comments:       wlroots-based, window-stacking, openbox-like compositor for wayland
                 ----------
                 manual start (from console prompt):
                 $ sudo -- seatd -g staff -n /run/seatd.sock & XDG_RUNTIME_DIR=/run/user/$(id -u) labwc
-
+                ----------
                 automatic start:
                 - use "text" boot code (to prevent X from starting)
                 - add the above manual start command to the bottom of ~/.profile
-
+                ----------
                 see also:
                 https://labwc.github.io/getting-started.html
                 ----------
                 This extension contains:
-                labwc-0.7.2 - GPLv2 - https://github.com/labwc/labwc/archive/refs/tags/0.7.2.tar.gz
+                labwc-0.7.3 - GPLv2 - https://github.com/labwc/labwc/archive/refs/tags/0.7.3.tar.gz
                 ----------
 Change-log:     2023/10/23 first version
                 2023/10/24 updated 0.6.4 -> 0.6.5
                 2023/11/27 updated 0.6.5 -> 0.6.6
                 2024/01/04 updated 0.6.6 -> 0.7.0
-Current:        2024/05/10 updated 0.7.0 -> 0.7.2
+                2024/05/10 updated 0.7.0 -> 0.7.2
+Current:        2024/07/15 updated 0.7.2 -> 0.7.3
