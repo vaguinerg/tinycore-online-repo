@@ -3,20 +3,6 @@ xorg-server.tcz
       libdrm.tcz
          libpciaccess.tcz
          udev-lib.tcz
-      libXdamage.tcz
-         libXfixes.tcz
-            libX11.tcz
-               libxcb.tcz
-                  libXau.tcz
-                  libXdmcp.tcz
-      libXxf86vm.tcz
-         libXext.tcz
-            libX11.tcz
-               libxcb.tcz
-                  libXau.tcz
-                  libXdmcp.tcz
-      expat2.tcz
-      libxshmfence.tcz
       llvm15-lib.tcz
          gcc_libs.tcz
          libxml2.tcz
@@ -26,6 +12,20 @@ xorg-server.tcz
             libzstd.tcz
             liblzma.tcz
             liblz4.tcz
+      expat2.tcz
+      libzstd.tcz
+      libXfixes.tcz
+         libX11.tcz
+            libxcb.tcz
+               libXau.tcz
+               libXdmcp.tcz
+      libXxf86vm.tcz
+         libXext.tcz
+            libX11.tcz
+               libxcb.tcz
+                  libXau.tcz
+                  libXdmcp.tcz
+      libxshmfence.tcz
    openssl.tcz
       ca-certificates.tcz
    pixman.tcz

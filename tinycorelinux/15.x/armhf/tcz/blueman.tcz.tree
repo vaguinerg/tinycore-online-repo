@@ -93,20 +93,6 @@ blueman.tcz
                      libdrm.tcz
                         libpciaccess.tcz
                         udev-lib.tcz
-                     libXdamage.tcz
-                        libXfixes.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                     libXxf86vm.tcz
-                        libXext.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                     expat2.tcz
-                     libxshmfence.tcz
                      llvm15-lib.tcz
                         gcc_libs.tcz
                         libxml2.tcz
@@ -116,30 +102,29 @@ blueman.tcz
                            libzstd.tcz
                            liblzma.tcz
                            liblz4.tcz
+                     expat2.tcz
+                     libzstd.tcz
+                     libXfixes.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                     libXxf86vm.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                     libxshmfence.tcz
                   wayland.tcz
                      expat2.tcz
                      libxml2.tcz
                         liblzma.tcz
-                     libffi6.tcz
                libGLES.tcz
                   mesa.tcz
                      libdrm.tcz
                         libpciaccess.tcz
                         udev-lib.tcz
-                     libXdamage.tcz
-                        libXfixes.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                     libXxf86vm.tcz
-                        libXext.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                     expat2.tcz
-                     libxshmfence.tcz
                      llvm15-lib.tcz
                         gcc_libs.tcz
                         libxml2.tcz
@@ -149,6 +134,20 @@ blueman.tcz
                            libzstd.tcz
                            liblzma.tcz
                            liblz4.tcz
+                     expat2.tcz
+                     libzstd.tcz
+                     libXfixes.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                     libXxf86vm.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                     libxshmfence.tcz
                   libdrm.tcz
                      libpciaccess.tcz
                      udev-lib.tcz
@@ -244,7 +243,6 @@ blueman.tcz
                expat2.tcz
                libxml2.tcz
                   liblzma.tcz
-               libffi6.tcz
       gdk-pixbuf-gir.tcz
          gdk-pixbuf.tcz
             glib2.tcz
@@ -350,20 +348,6 @@ blueman.tcz
                      libdrm.tcz
                         libpciaccess.tcz
                         udev-lib.tcz
-                     libXdamage.tcz
-                        libXfixes.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                     libXxf86vm.tcz
-                        libXext.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                     expat2.tcz
-                     libxshmfence.tcz
                      llvm15-lib.tcz
                         gcc_libs.tcz
                         libxml2.tcz
@@ -373,30 +357,29 @@ blueman.tcz
                            libzstd.tcz
                            liblzma.tcz
                            liblz4.tcz
+                     expat2.tcz
+                     libzstd.tcz
+                     libXfixes.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                     libXxf86vm.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                     libxshmfence.tcz
                   wayland.tcz
                      expat2.tcz
                      libxml2.tcz
                         liblzma.tcz
-                     libffi6.tcz
                libGLES.tcz
                   mesa.tcz
                      libdrm.tcz
                         libpciaccess.tcz
                         udev-lib.tcz
-                     libXdamage.tcz
-                        libXfixes.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                     libXxf86vm.tcz
-                        libXext.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                     expat2.tcz
-                     libxshmfence.tcz
                      llvm15-lib.tcz
                         gcc_libs.tcz
                         libxml2.tcz
@@ -406,6 +389,20 @@ blueman.tcz
                            libzstd.tcz
                            liblzma.tcz
                            liblz4.tcz
+                     expat2.tcz
+                     libzstd.tcz
+                     libXfixes.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                     libXxf86vm.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                     libxshmfence.tcz
                   libdrm.tcz
                      libpciaccess.tcz
                      udev-lib.tcz
@@ -507,7 +504,8 @@ blueman.tcz
             readline.tcz
                ncurses.tcz
             wireless_tools.tcz
-               wireless-6.6.26-piCore-v7.tcz
+               wireless-6.6.34-piCore-v7.tcz
+                  regdb.tcz
          dhcpcd.tcz
          modemmanager.tcz
             libqmi.tcz
@@ -535,12 +533,13 @@ blueman.tcz
                udev-lib.tcz
                libical.tcz
                   icu.tcz
-               bluetooth-6.6.26-piCore-v7.tcz
+               bluetooth-6.6.34-piCore-v7.tcz
+                  firmware-rpi-bt.tcz
                sbc.tcz
                readline.tcz
                   ncurses.tcz
          ppp.tcz
-            ppp-modules-6.6.26-piCore-v7.tcz
+            ppp-modules-6.6.34-piCore-v7.tcz
          curl.tcz
             openssl.tcz
                ca-certificates.tcz
@@ -646,20 +645,6 @@ blueman.tcz
                      libdrm.tcz
                         libpciaccess.tcz
                         udev-lib.tcz
-                     libXdamage.tcz
-                        libXfixes.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                     libXxf86vm.tcz
-                        libXext.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                     expat2.tcz
-                     libxshmfence.tcz
                      llvm15-lib.tcz
                         gcc_libs.tcz
                         libxml2.tcz
@@ -669,30 +654,29 @@ blueman.tcz
                            libzstd.tcz
                            liblzma.tcz
                            liblz4.tcz
+                     expat2.tcz
+                     libzstd.tcz
+                     libXfixes.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                     libXxf86vm.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                     libxshmfence.tcz
                   wayland.tcz
                      expat2.tcz
                      libxml2.tcz
                         liblzma.tcz
-                     libffi6.tcz
                libGLES.tcz
                   mesa.tcz
                      libdrm.tcz
                         libpciaccess.tcz
                         udev-lib.tcz
-                     libXdamage.tcz
-                        libXfixes.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                     libXxf86vm.tcz
-                        libXext.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                     expat2.tcz
-                     libxshmfence.tcz
                      llvm15-lib.tcz
                         gcc_libs.tcz
                         libxml2.tcz
@@ -702,6 +686,20 @@ blueman.tcz
                            libzstd.tcz
                            liblzma.tcz
                            liblz4.tcz
+                     expat2.tcz
+                     libzstd.tcz
+                     libXfixes.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                     libXxf86vm.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                     libxshmfence.tcz
                   libdrm.tcz
                      libpciaccess.tcz
                      udev-lib.tcz
@@ -797,7 +795,6 @@ blueman.tcz
                expat2.tcz
                libxml2.tcz
                   liblzma.tcz
-               libffi6.tcz
       librsvg.tcz
          pango.tcz
             cairo.tcz
@@ -823,20 +820,6 @@ blueman.tcz
                      libdrm.tcz
                         libpciaccess.tcz
                         udev-lib.tcz
-                     libXdamage.tcz
-                        libXfixes.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                     libXxf86vm.tcz
-                        libXext.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                     expat2.tcz
-                     libxshmfence.tcz
                      llvm15-lib.tcz
                         gcc_libs.tcz
                         libxml2.tcz
@@ -846,30 +829,29 @@ blueman.tcz
                            libzstd.tcz
                            liblzma.tcz
                            liblz4.tcz
+                     expat2.tcz
+                     libzstd.tcz
+                     libXfixes.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                     libXxf86vm.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                     libxshmfence.tcz
                   wayland.tcz
                      expat2.tcz
                      libxml2.tcz
                         liblzma.tcz
-                     libffi6.tcz
                libGLES.tcz
                   mesa.tcz
                      libdrm.tcz
                         libpciaccess.tcz
                         udev-lib.tcz
-                     libXdamage.tcz
-                        libXfixes.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                     libXxf86vm.tcz
-                        libXext.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                     expat2.tcz
-                     libxshmfence.tcz
                      llvm15-lib.tcz
                         gcc_libs.tcz
                         libxml2.tcz
@@ -879,6 +861,20 @@ blueman.tcz
                            libzstd.tcz
                            liblzma.tcz
                            liblz4.tcz
+                     expat2.tcz
+                     libzstd.tcz
+                     libXfixes.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                     libXxf86vm.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                     libxshmfence.tcz
                   libdrm.tcz
                      libpciaccess.tcz
                      udev-lib.tcz
@@ -964,20 +960,6 @@ blueman.tcz
                   libdrm.tcz
                      libpciaccess.tcz
                      udev-lib.tcz
-                  libXdamage.tcz
-                     libXfixes.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                  libXxf86vm.tcz
-                     libXext.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                  expat2.tcz
-                  libxshmfence.tcz
                   llvm15-lib.tcz
                      gcc_libs.tcz
                      libxml2.tcz
@@ -987,30 +969,29 @@ blueman.tcz
                         libzstd.tcz
                         liblzma.tcz
                         liblz4.tcz
+                  expat2.tcz
+                  libzstd.tcz
+                  libXfixes.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+                  libXxf86vm.tcz
+                     libXext.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                  libxshmfence.tcz
                wayland.tcz
                   expat2.tcz
                   libxml2.tcz
                      liblzma.tcz
-                  libffi6.tcz
             libGLES.tcz
                mesa.tcz
                   libdrm.tcz
                      libpciaccess.tcz
                      udev-lib.tcz
-                  libXdamage.tcz
-                     libXfixes.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                  libXxf86vm.tcz
-                     libXext.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                  expat2.tcz
-                  libxshmfence.tcz
                   llvm15-lib.tcz
                      gcc_libs.tcz
                      libxml2.tcz
@@ -1020,6 +1001,20 @@ blueman.tcz
                         libzstd.tcz
                         liblzma.tcz
                         liblz4.tcz
+                  expat2.tcz
+                  libzstd.tcz
+                  libXfixes.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+                  libXxf86vm.tcz
+                     libXext.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                  libxshmfence.tcz
                libdrm.tcz
                   libpciaccess.tcz
                   udev-lib.tcz
@@ -1129,20 +1124,6 @@ blueman.tcz
                         libdrm.tcz
                            libpciaccess.tcz
                            udev-lib.tcz
-                        libXdamage.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        libXxf86vm.tcz
-                           libXext.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        expat2.tcz
-                        libxshmfence.tcz
                         llvm15-lib.tcz
                            gcc_libs.tcz
                            libxml2.tcz
@@ -1152,30 +1133,29 @@ blueman.tcz
                               libzstd.tcz
                               liblzma.tcz
                               liblz4.tcz
+                        expat2.tcz
+                        libzstd.tcz
+                        libXfixes.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                        libXxf86vm.tcz
+                           libXext.tcz
+                              libX11.tcz
+                                 libxcb.tcz
+                                    libXau.tcz
+                                    libXdmcp.tcz
+                        libxshmfence.tcz
                      wayland.tcz
                         expat2.tcz
                         libxml2.tcz
                            liblzma.tcz
-                        libffi6.tcz
                   libGLES.tcz
                      mesa.tcz
                         libdrm.tcz
                            libpciaccess.tcz
                            udev-lib.tcz
-                        libXdamage.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        libXxf86vm.tcz
-                           libXext.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        expat2.tcz
-                        libxshmfence.tcz
                         llvm15-lib.tcz
                            gcc_libs.tcz
                            libxml2.tcz
@@ -1185,6 +1165,20 @@ blueman.tcz
                               libzstd.tcz
                               liblzma.tcz
                               liblz4.tcz
+                        expat2.tcz
+                        libzstd.tcz
+                        libXfixes.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                        libXxf86vm.tcz
+                           libXext.tcz
+                              libX11.tcz
+                                 libxcb.tcz
+                                    libXau.tcz
+                                    libXdmcp.tcz
+                        libxshmfence.tcz
                      libdrm.tcz
                         libpciaccess.tcz
                         udev-lib.tcz
@@ -1280,7 +1274,6 @@ blueman.tcz
                   expat2.tcz
                   libxml2.tcz
                      liblzma.tcz
-                  libffi6.tcz
          gdk-pixbuf-gir.tcz
             gdk-pixbuf.tcz
                glib2.tcz
@@ -1386,20 +1379,6 @@ blueman.tcz
                         libdrm.tcz
                            libpciaccess.tcz
                            udev-lib.tcz
-                        libXdamage.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        libXxf86vm.tcz
-                           libXext.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        expat2.tcz
-                        libxshmfence.tcz
                         llvm15-lib.tcz
                            gcc_libs.tcz
                            libxml2.tcz
@@ -1409,30 +1388,29 @@ blueman.tcz
                               libzstd.tcz
                               liblzma.tcz
                               liblz4.tcz
+                        expat2.tcz
+                        libzstd.tcz
+                        libXfixes.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                        libXxf86vm.tcz
+                           libXext.tcz
+                              libX11.tcz
+                                 libxcb.tcz
+                                    libXau.tcz
+                                    libXdmcp.tcz
+                        libxshmfence.tcz
                      wayland.tcz
                         expat2.tcz
                         libxml2.tcz
                            liblzma.tcz
-                        libffi6.tcz
                   libGLES.tcz
                      mesa.tcz
                         libdrm.tcz
                            libpciaccess.tcz
                            udev-lib.tcz
-                        libXdamage.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        libXxf86vm.tcz
-                           libXext.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        expat2.tcz
-                        libxshmfence.tcz
                         llvm15-lib.tcz
                            gcc_libs.tcz
                            libxml2.tcz
@@ -1442,6 +1420,20 @@ blueman.tcz
                               libzstd.tcz
                               liblzma.tcz
                               liblz4.tcz
+                        expat2.tcz
+                        libzstd.tcz
+                        libXfixes.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                        libXxf86vm.tcz
+                           libXext.tcz
+                              libX11.tcz
+                                 libxcb.tcz
+                                    libXau.tcz
+                                    libXdmcp.tcz
+                        libxshmfence.tcz
                      libdrm.tcz
                         libpciaccess.tcz
                         udev-lib.tcz
@@ -1514,7 +1506,8 @@ blueman.tcz
          udev-lib.tcz
          libical.tcz
             icu.tcz
-         bluetooth-6.6.26-piCore-v7.tcz
+         bluetooth-6.6.34-piCore-v7.tcz
+            firmware-rpi-bt.tcz
          sbc.tcz
          readline.tcz
             ncurses.tcz
@@ -1590,20 +1583,6 @@ blueman.tcz
                      libdrm.tcz
                         libpciaccess.tcz
                         udev-lib.tcz
-                     libXdamage.tcz
-                        libXfixes.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                     libXxf86vm.tcz
-                        libXext.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                     expat2.tcz
-                     libxshmfence.tcz
                      llvm15-lib.tcz
                         gcc_libs.tcz
                         libxml2.tcz
@@ -1613,30 +1592,29 @@ blueman.tcz
                            libzstd.tcz
                            liblzma.tcz
                            liblz4.tcz
+                     expat2.tcz
+                     libzstd.tcz
+                     libXfixes.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                     libXxf86vm.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                     libxshmfence.tcz
                   wayland.tcz
                      expat2.tcz
                      libxml2.tcz
                         liblzma.tcz
-                     libffi6.tcz
                libGLES.tcz
                   mesa.tcz
                      libdrm.tcz
                         libpciaccess.tcz
                         udev-lib.tcz
-                     libXdamage.tcz
-                        libXfixes.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                     libXxf86vm.tcz
-                        libXext.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                     expat2.tcz
-                     libxshmfence.tcz
                      llvm15-lib.tcz
                         gcc_libs.tcz
                         libxml2.tcz
@@ -1646,6 +1624,20 @@ blueman.tcz
                            libzstd.tcz
                            liblzma.tcz
                            liblz4.tcz
+                     expat2.tcz
+                     libzstd.tcz
+                     libXfixes.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                     libXxf86vm.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                     libxshmfence.tcz
                   libdrm.tcz
                      libpciaccess.tcz
                      udev-lib.tcz
@@ -1741,5 +1733,4 @@ blueman.tcz
                expat2.tcz
                libxml2.tcz
                   liblzma.tcz
-               libffi6.tcz
 

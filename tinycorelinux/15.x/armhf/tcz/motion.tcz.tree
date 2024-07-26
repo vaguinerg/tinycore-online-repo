@@ -64,20 +64,6 @@ motion.tcz
                               libdrm.tcz
                                  libpciaccess.tcz
                                  udev-lib.tcz
-                              libXdamage.tcz
-                                 libXfixes.tcz
-                                    libX11.tcz
-                                       libxcb.tcz
-                                          libXau.tcz
-                                          libXdmcp.tcz
-                              libXxf86vm.tcz
-                                 libXext.tcz
-                                    libX11.tcz
-                                       libxcb.tcz
-                                          libXau.tcz
-                                          libXdmcp.tcz
-                              expat2.tcz
-                              libxshmfence.tcz
                               llvm15-lib.tcz
                                  gcc_libs.tcz
                                  libxml2.tcz
@@ -87,30 +73,29 @@ motion.tcz
                                     libzstd.tcz
                                     liblzma.tcz
                                     liblz4.tcz
+                              expat2.tcz
+                              libzstd.tcz
+                              libXfixes.tcz
+                                 libX11.tcz
+                                    libxcb.tcz
+                                       libXau.tcz
+                                       libXdmcp.tcz
+                              libXxf86vm.tcz
+                                 libXext.tcz
+                                    libX11.tcz
+                                       libxcb.tcz
+                                          libXau.tcz
+                                          libXdmcp.tcz
+                              libxshmfence.tcz
                            wayland.tcz
                               expat2.tcz
                               libxml2.tcz
                                  liblzma.tcz
-                              libffi6.tcz
                         libGLES.tcz
                            mesa.tcz
                               libdrm.tcz
                                  libpciaccess.tcz
                                  udev-lib.tcz
-                              libXdamage.tcz
-                                 libXfixes.tcz
-                                    libX11.tcz
-                                       libxcb.tcz
-                                          libXau.tcz
-                                          libXdmcp.tcz
-                              libXxf86vm.tcz
-                                 libXext.tcz
-                                    libX11.tcz
-                                       libxcb.tcz
-                                          libXau.tcz
-                                          libXdmcp.tcz
-                              expat2.tcz
-                              libxshmfence.tcz
                               llvm15-lib.tcz
                                  gcc_libs.tcz
                                  libxml2.tcz
@@ -120,6 +105,20 @@ motion.tcz
                                     libzstd.tcz
                                     liblzma.tcz
                                     liblz4.tcz
+                              expat2.tcz
+                              libzstd.tcz
+                              libXfixes.tcz
+                                 libX11.tcz
+                                    libxcb.tcz
+                                       libXau.tcz
+                                       libXdmcp.tcz
+                              libXxf86vm.tcz
+                                 libXext.tcz
+                                    libX11.tcz
+                                       libxcb.tcz
+                                          libXau.tcz
+                                          libXdmcp.tcz
+                              libxshmfence.tcz
                            libdrm.tcz
                               libpciaccess.tcz
                               udev-lib.tcz
@@ -194,20 +193,6 @@ motion.tcz
                         libdrm.tcz
                            libpciaccess.tcz
                            udev-lib.tcz
-                        libXdamage.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        libXxf86vm.tcz
-                           libXext.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        expat2.tcz
-                        libxshmfence.tcz
                         llvm15-lib.tcz
                            gcc_libs.tcz
                            libxml2.tcz
@@ -217,30 +202,29 @@ motion.tcz
                               libzstd.tcz
                               liblzma.tcz
                               liblz4.tcz
+                        expat2.tcz
+                        libzstd.tcz
+                        libXfixes.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                        libXxf86vm.tcz
+                           libXext.tcz
+                              libX11.tcz
+                                 libxcb.tcz
+                                    libXau.tcz
+                                    libXdmcp.tcz
+                        libxshmfence.tcz
                      wayland.tcz
                         expat2.tcz
                         libxml2.tcz
                            liblzma.tcz
-                        libffi6.tcz
                   libGLES.tcz
                      mesa.tcz
                         libdrm.tcz
                            libpciaccess.tcz
                            udev-lib.tcz
-                        libXdamage.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        libXxf86vm.tcz
-                           libXext.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        expat2.tcz
-                        libxshmfence.tcz
                         llvm15-lib.tcz
                            gcc_libs.tcz
                            libxml2.tcz
@@ -250,6 +234,20 @@ motion.tcz
                               libzstd.tcz
                               liblzma.tcz
                               liblz4.tcz
+                        expat2.tcz
+                        libzstd.tcz
+                        libXfixes.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                        libXxf86vm.tcz
+                           libXext.tcz
+                              libX11.tcz
+                                 libxcb.tcz
+                                    libXau.tcz
+                                    libXdmcp.tcz
+                        libxshmfence.tcz
                      libdrm.tcz
                         libpciaccess.tcz
                         udev-lib.tcz
@@ -310,9 +308,12 @@ motion.tcz
                libXau.tcz
                libXdmcp.tcz
       libasound.tcz
-         alsa-modules-6.6.26-piCore-v7.tcz
+         alsa-modules-6.6.34-piCore-v7.tcz
       libv4l2.tcz
-         v4l-dvb-6.6.26-piCore-v7.tcz
+         v4l-dvb-6.6.34-piCore-v7.tcz
+            alsa-modules-6.6.34-piCore-v7.tcz
+            graphics-6.6.34-piCore-v7.tcz
+               alsa-modules-6.6.34-piCore-v7.tcz
          libjpeg-turbo.tcz
          udev-lib.tcz
       libpulseaudio.tcz
@@ -339,7 +340,7 @@ motion.tcz
             flac.tcz
                libogg.tcz
             libasound.tcz
-               alsa-modules-6.6.26-piCore-v7.tcz
+               alsa-modules-6.6.34-piCore-v7.tcz
             libvorbis.tcz
                libogg.tcz
             sqlite3.tcz
