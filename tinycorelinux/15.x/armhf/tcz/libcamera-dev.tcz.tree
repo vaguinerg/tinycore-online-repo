@@ -1,12 +1,20 @@
 libcamera-dev.tcz
    libcamera.tcz
-      openssl-1.1.1.tcz
+      libpisp.tcz
+      openssl.tcz
+         ca-certificates.tcz
       udev-lib.tcz
       libyaml.tcz
       v4l-dvb-6.6.34-piCore-v7.tcz
          alsa-modules-6.6.34-piCore-v7.tcz
          graphics-6.6.34-piCore-v7.tcz
             alsa-modules-6.6.34-piCore-v7.tcz
+      libevent.tcz
+         openssl.tcz
+            ca-certificates.tcz
+      SDL2.tcz
+   libpisp-dev.tcz
+      libpisp.tcz
    openssl-dev.tcz
       openssl.tcz
          ca-certificates.tcz
@@ -1739,4 +1747,31 @@ libcamera-dev.tcz
             libjpeg-turbo.tcz 
          libpng-dev.tcz 
          libtiff-dev.tcz 
+   libevent-dev.tcz
+      libevent.tcz
+         openssl.tcz
+            ca-certificates.tcz
+      openssl-dev.tcz
+         openssl.tcz
+            ca-certificates.tcz
+   SDL2-dev.tcz
+      SDL2.tcz
+   libtiff-dev.tcz
+      libtiff.tcz
+         libjpeg-turbo.tcz
+         liblzma.tcz  
+      liblzma-dev.tcz
+         liblzma.tcz
+      libjpeg-turbo-dev.tcz
+         libjpeg-turbo.tcz
+   libdrm-dev.tcz
+      libdrm.tcz
+         libpciaccess.tcz
+         udev-lib.tcz
+      xorg-proto.tcz
+         util-macros.tcz
+      libpciaccess-dev.tcz
+         libpciaccess.tcz
+      udev-lib-dev.tcz
+         udev-lib.tcz
 

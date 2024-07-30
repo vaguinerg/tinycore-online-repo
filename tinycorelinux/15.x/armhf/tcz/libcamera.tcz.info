@@ -1,21 +1,23 @@
 Title:          libcamera.tcz
 Description:    camera support
-Version:        0.0.1
+Version:        0.3.0
 Author:         see list of sites below
 Original-site:  see list of sites below
 Copying-policy: see list of sites below
-Size: 672KB
+Size: 1.7MB
 Extension_by:   juanito
 Tags:	        camera
 Comments:       camera support library
                 ----------
+                camera_auto_detect=0
+                dtoverlay=imx219 [for example]
                 for the moment, after loading:
                 sudo chown tc:staff /dev/media*
                 sudo chown tc:staff /dev/dma_heap/*
-                can optionally use gst-plugins-base
+                cam --camera 1 --capture=1 --file
                 ----------
                 This extension contains:
-                libcamera-0.0.1 - lGPLv2.1 - https://git.libcamera.org/libcamera/libcamera.git
+                libcamera-0.3.0 - lGPLv2.1 - https://github.com/raspberrypi/libcamera/releases/download/v0.3.0%2Brpt20240617/libcamera-0.3.0+rpt20240617.tar.xz
                 ----------
-Change-log:     first version
-Current:        2022/10/17
+Change-log:     2022/10/17 first version
+Current:        2024/07/18 updated 0.0.1 -> 0.3.0
