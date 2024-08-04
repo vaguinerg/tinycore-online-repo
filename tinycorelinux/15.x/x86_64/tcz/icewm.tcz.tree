@@ -127,23 +127,6 @@ icewm.tcz
          libxcb.tcz
             libXau.tcz
             libXdmcp.tcz
-   gdk-pixbuf2.tcz
-      libtiff.tcz
-         libjpeg-turbo.tcz
-         liblzma.tcz
-         libzstd.tcz
-      libpng.tcz
-      libX11.tcz
-         libxcb.tcz
-            libXau.tcz
-            libXdmcp.tcz
-      shared-mime-info.tcz
-         glib2.tcz
-            libffi.tcz
-            pcre21042.tcz
-         libxml2.tcz
-            liblzma.tcz
-      gdk-pixbuf2-xlib.tcz
    imlib2.tcz
       freetype.tcz
          libpng.tcz
@@ -165,8 +148,6 @@ icewm.tcz
          libxcb.tcz
             libXau.tcz
             libXdmcp.tcz
-   libSM.tcz
-   libICE.tcz
    fribidi.tcz
       glib2.tcz
          libffi.tcz
@@ -228,11 +209,14 @@ icewm.tcz
          libxcb.tcz
             libXau.tcz
             libXdmcp.tcz
-   libXext.tcz
-      libX11.tcz
-         libxcb.tcz
-            libXau.tcz
-            libXdmcp.tcz
+   aterm.tcz
+      libXext.tcz
+         libX11.tcz
+            libxcb.tcz
+               libXau.tcz
+               libXdmcp.tcz
+      libSM.tcz
+      libICE.tcz
    dejavu-fonts-ttf.tcz
       fontconfig.tcz
          expat2.tcz
@@ -244,12 +228,4 @@ icewm.tcz
                   pcre21042.tcz
                graphite.tcz
             bzip2-lib.tcz
-   aterm.tcz
-      libXext.tcz
-         libX11.tcz
-            libxcb.tcz
-               libXau.tcz
-               libXdmcp.tcz
-      libSM.tcz
-      libICE.tcz
 
