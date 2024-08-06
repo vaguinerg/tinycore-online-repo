@@ -15,10 +15,6 @@ totem-gir.tcz
                   shared-mime-info.tcz 
                pango.tcz
                   cairo.tcz
-                     glib2.tcz
-                        gamin.tcz
-                        libelf.tcz
-                        pcre2.tcz
                      fontconfig.tcz
                         expat2.tcz
                         freetype.tcz
@@ -30,81 +26,15 @@ totem-gir.tcz
                                  pcre2.tcz
                               graphite2.tcz
                            bzip2-lib.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
                      pixman.tcz
-                     libpng.tcz
-                     libEGL.tcz
-                        mesa.tcz
-                           libdrm.tcz
-                              libpciaccess.tcz
-                              udev-lib.tcz
-                           llvm15-lib.tcz
-                              gcc_libs.tcz
-                              libxml2.tcz
-                                 liblzma.tcz
-                              ncurses.tcz
-                              zstd.tcz
-                                 libzstd.tcz
-                                 liblzma.tcz
-                                 liblz4.tcz
-                           expat2.tcz
-                           libzstd.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                           libXxf86vm.tcz
-                              libXext.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
-                           libxshmfence.tcz
-                        wayland.tcz
-                           expat2.tcz
-                           libxml2.tcz
-                              liblzma.tcz
-                     libGLES.tcz
-                        mesa.tcz
-                           libdrm.tcz
-                              libpciaccess.tcz
-                              udev-lib.tcz
-                           llvm15-lib.tcz
-                              gcc_libs.tcz
-                              libxml2.tcz
-                                 liblzma.tcz
-                              ncurses.tcz
-                              zstd.tcz
-                                 libzstd.tcz
-                                 liblzma.tcz
-                                 liblz4.tcz
-                           expat2.tcz
-                           libzstd.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                           libXxf86vm.tcz
-                              libXext.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
-                           libxshmfence.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                     libXext.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                     libXrender.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
+                     glib2.tcz
+                        gamin.tcz
+                        libelf.tcz
+                        pcre2.tcz
                   libXft.tcz
                      fontconfig.tcz
                         expat2.tcz
@@ -373,40 +303,27 @@ totem-gir.tcz
                   libelf.tcz
                   pcre2.tcz
             gtk3.tcz
-               shared-mime-info.tcz
-                  glib2.tcz
-                     gamin.tcz
-                     libelf.tcz
-                     pcre2.tcz
-                  libxml2.tcz
-                     liblzma.tcz
                libepoxy.tcz
-               at-spi2-atk.tcz
-                  at-spi2-core.tcz
-                     dbus.tcz
-                        expat2.tcz
-                        libSM.tcz
-                           libICE.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                     glib2.tcz
-                        gamin.tcz
-                        libelf.tcz
-                        pcre2.tcz
-                     libICE.tcz
+               at-spi2-core.tcz
+                  dbus.tcz
+                     expat2.tcz
                      libSM.tcz
                         libICE.tcz
                      libX11.tcz
                         libxcb.tcz
                            libXau.tcz
                            libXdmcp.tcz
-                  atk.tcz
-                     glib2.tcz
-                        gamin.tcz
-                        libelf.tcz
-                        pcre2.tcz
+                  glib2.tcz
+                     gamin.tcz
+                     libelf.tcz
+                     pcre2.tcz
+                  libXtst.tcz
+                     libXi.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
                gdk-pixbuf.tcz
                   glib2.tcz
                      gamin.tcz
@@ -417,17 +334,8 @@ totem-gir.tcz
                      libjpeg-turbo.tcz
                      liblzma.tcz  
                   shared-mime-info.tcz 
-               libXcomposite.tcz
-                  libX11.tcz
-                     libxcb.tcz
-                        libXau.tcz
-                        libXdmcp.tcz
                pango.tcz
                   cairo.tcz
-                     glib2.tcz
-                        gamin.tcz
-                        libelf.tcz
-                        pcre2.tcz
                      fontconfig.tcz
                         expat2.tcz
                         freetype.tcz
@@ -439,81 +347,15 @@ totem-gir.tcz
                                  pcre2.tcz
                               graphite2.tcz
                            bzip2-lib.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
                      pixman.tcz
-                     libpng.tcz
-                     libEGL.tcz
-                        mesa.tcz
-                           libdrm.tcz
-                              libpciaccess.tcz
-                              udev-lib.tcz
-                           llvm15-lib.tcz
-                              gcc_libs.tcz
-                              libxml2.tcz
-                                 liblzma.tcz
-                              ncurses.tcz
-                              zstd.tcz
-                                 libzstd.tcz
-                                 liblzma.tcz
-                                 liblz4.tcz
-                           expat2.tcz
-                           libzstd.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                           libXxf86vm.tcz
-                              libXext.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
-                           libxshmfence.tcz
-                        wayland.tcz
-                           expat2.tcz
-                           libxml2.tcz
-                              liblzma.tcz
-                     libGLES.tcz
-                        mesa.tcz
-                           libdrm.tcz
-                              libpciaccess.tcz
-                              udev-lib.tcz
-                           llvm15-lib.tcz
-                              gcc_libs.tcz
-                              libxml2.tcz
-                                 liblzma.tcz
-                              ncurses.tcz
-                              zstd.tcz
-                                 libzstd.tcz
-                                 liblzma.tcz
-                                 liblz4.tcz
-                           expat2.tcz
-                           libzstd.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                           libXxf86vm.tcz
-                              libXext.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
-                           libxshmfence.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                     libXext.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                     libXrender.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
+                     glib2.tcz
+                        gamin.tcz
+                        libelf.tcz
+                        pcre2.tcz
                   libXft.tcz
                      fontconfig.tcz
                         expat2.tcz
@@ -545,6 +387,11 @@ totem-gir.tcz
                         gamin.tcz
                         libelf.tcz
                         pcre2.tcz
+               libXcomposite.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
                libXcursor.tcz
                   libXrender.tcz
                      libX11.tcz
@@ -569,12 +416,6 @@ totem-gir.tcz
                            libXau.tcz
                            libXdmcp.tcz
                   libXrender.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-               libXi.tcz
-                  libXext.tcz
                      libX11.tcz
                         libxcb.tcz
                            libXau.tcz
@@ -673,10 +514,6 @@ totem-gir.tcz
                   shared-mime-info.tcz 
                pango.tcz
                   cairo.tcz
-                     glib2.tcz
-                        gamin.tcz
-                        libelf.tcz
-                        pcre2.tcz
                      fontconfig.tcz
                         expat2.tcz
                         freetype.tcz
@@ -688,81 +525,15 @@ totem-gir.tcz
                                  pcre2.tcz
                               graphite2.tcz
                            bzip2-lib.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
                      pixman.tcz
-                     libpng.tcz
-                     libEGL.tcz
-                        mesa.tcz
-                           libdrm.tcz
-                              libpciaccess.tcz
-                              udev-lib.tcz
-                           llvm15-lib.tcz
-                              gcc_libs.tcz
-                              libxml2.tcz
-                                 liblzma.tcz
-                              ncurses.tcz
-                              zstd.tcz
-                                 libzstd.tcz
-                                 liblzma.tcz
-                                 liblz4.tcz
-                           expat2.tcz
-                           libzstd.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                           libXxf86vm.tcz
-                              libXext.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
-                           libxshmfence.tcz
-                        wayland.tcz
-                           expat2.tcz
-                           libxml2.tcz
-                              liblzma.tcz
-                     libGLES.tcz
-                        mesa.tcz
-                           libdrm.tcz
-                              libpciaccess.tcz
-                              udev-lib.tcz
-                           llvm15-lib.tcz
-                              gcc_libs.tcz
-                              libxml2.tcz
-                                 liblzma.tcz
-                              ncurses.tcz
-                              zstd.tcz
-                                 libzstd.tcz
-                                 liblzma.tcz
-                                 liblz4.tcz
-                           expat2.tcz
-                           libzstd.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                           libXxf86vm.tcz
-                              libXext.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
-                           libxshmfence.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                     libXext.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                     libXrender.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
+                     glib2.tcz
+                        gamin.tcz
+                        libelf.tcz
+                        pcre2.tcz
                   libXft.tcz
                      fontconfig.tcz
                         expat2.tcz
@@ -1031,40 +802,27 @@ totem-gir.tcz
                   libelf.tcz
                   pcre2.tcz
             gtk3.tcz
-               shared-mime-info.tcz
-                  glib2.tcz
-                     gamin.tcz
-                     libelf.tcz
-                     pcre2.tcz
-                  libxml2.tcz
-                     liblzma.tcz
                libepoxy.tcz
-               at-spi2-atk.tcz
-                  at-spi2-core.tcz
-                     dbus.tcz
-                        expat2.tcz
-                        libSM.tcz
-                           libICE.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                     glib2.tcz
-                        gamin.tcz
-                        libelf.tcz
-                        pcre2.tcz
-                     libICE.tcz
+               at-spi2-core.tcz
+                  dbus.tcz
+                     expat2.tcz
                      libSM.tcz
                         libICE.tcz
                      libX11.tcz
                         libxcb.tcz
                            libXau.tcz
                            libXdmcp.tcz
-                  atk.tcz
-                     glib2.tcz
-                        gamin.tcz
-                        libelf.tcz
-                        pcre2.tcz
+                  glib2.tcz
+                     gamin.tcz
+                     libelf.tcz
+                     pcre2.tcz
+                  libXtst.tcz
+                     libXi.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
                gdk-pixbuf.tcz
                   glib2.tcz
                      gamin.tcz
@@ -1075,17 +833,8 @@ totem-gir.tcz
                      libjpeg-turbo.tcz
                      liblzma.tcz  
                   shared-mime-info.tcz 
-               libXcomposite.tcz
-                  libX11.tcz
-                     libxcb.tcz
-                        libXau.tcz
-                        libXdmcp.tcz
                pango.tcz
                   cairo.tcz
-                     glib2.tcz
-                        gamin.tcz
-                        libelf.tcz
-                        pcre2.tcz
                      fontconfig.tcz
                         expat2.tcz
                         freetype.tcz
@@ -1097,81 +846,15 @@ totem-gir.tcz
                                  pcre2.tcz
                               graphite2.tcz
                            bzip2-lib.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
                      pixman.tcz
-                     libpng.tcz
-                     libEGL.tcz
-                        mesa.tcz
-                           libdrm.tcz
-                              libpciaccess.tcz
-                              udev-lib.tcz
-                           llvm15-lib.tcz
-                              gcc_libs.tcz
-                              libxml2.tcz
-                                 liblzma.tcz
-                              ncurses.tcz
-                              zstd.tcz
-                                 libzstd.tcz
-                                 liblzma.tcz
-                                 liblz4.tcz
-                           expat2.tcz
-                           libzstd.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                           libXxf86vm.tcz
-                              libXext.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
-                           libxshmfence.tcz
-                        wayland.tcz
-                           expat2.tcz
-                           libxml2.tcz
-                              liblzma.tcz
-                     libGLES.tcz
-                        mesa.tcz
-                           libdrm.tcz
-                              libpciaccess.tcz
-                              udev-lib.tcz
-                           llvm15-lib.tcz
-                              gcc_libs.tcz
-                              libxml2.tcz
-                                 liblzma.tcz
-                              ncurses.tcz
-                              zstd.tcz
-                                 libzstd.tcz
-                                 liblzma.tcz
-                                 liblz4.tcz
-                           expat2.tcz
-                           libzstd.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                           libXxf86vm.tcz
-                              libXext.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
-                           libxshmfence.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                     libXext.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                     libXrender.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
+                     glib2.tcz
+                        gamin.tcz
+                        libelf.tcz
+                        pcre2.tcz
                   libXft.tcz
                      fontconfig.tcz
                         expat2.tcz
@@ -1203,6 +886,11 @@ totem-gir.tcz
                         gamin.tcz
                         libelf.tcz
                         pcre2.tcz
+               libXcomposite.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
                libXcursor.tcz
                   libXrender.tcz
                      libX11.tcz
@@ -1227,12 +915,6 @@ totem-gir.tcz
                            libXau.tcz
                            libXdmcp.tcz
                   libXrender.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-               libXi.tcz
-                  libXext.tcz
                      libX11.tcz
                         libxcb.tcz
                            libXau.tcz
@@ -1282,40 +964,27 @@ totem-gir.tcz
                liblzma.tcz
       libpeas.tcz
          gtk3.tcz
-            shared-mime-info.tcz
-               glib2.tcz
-                  gamin.tcz
-                  libelf.tcz
-                  pcre2.tcz
-               libxml2.tcz
-                  liblzma.tcz
             libepoxy.tcz
-            at-spi2-atk.tcz
-               at-spi2-core.tcz
-                  dbus.tcz
-                     expat2.tcz
-                     libSM.tcz
-                        libICE.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-                  glib2.tcz
-                     gamin.tcz
-                     libelf.tcz
-                     pcre2.tcz
-                  libICE.tcz
+            at-spi2-core.tcz
+               dbus.tcz
+                  expat2.tcz
                   libSM.tcz
                      libICE.tcz
                   libX11.tcz
                      libxcb.tcz
                         libXau.tcz
                         libXdmcp.tcz
-               atk.tcz
-                  glib2.tcz
-                     gamin.tcz
-                     libelf.tcz
-                     pcre2.tcz
+               glib2.tcz
+                  gamin.tcz
+                  libelf.tcz
+                  pcre2.tcz
+               libXtst.tcz
+                  libXi.tcz
+                     libXext.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
             gdk-pixbuf.tcz
                glib2.tcz
                   gamin.tcz
@@ -1326,17 +995,8 @@ totem-gir.tcz
                   libjpeg-turbo.tcz
                   liblzma.tcz  
                shared-mime-info.tcz 
-            libXcomposite.tcz
-               libX11.tcz
-                  libxcb.tcz
-                     libXau.tcz
-                     libXdmcp.tcz
             pango.tcz
                cairo.tcz
-                  glib2.tcz
-                     gamin.tcz
-                     libelf.tcz
-                     pcre2.tcz
                   fontconfig.tcz
                      expat2.tcz
                      freetype.tcz
@@ -1348,81 +1008,15 @@ totem-gir.tcz
                               pcre2.tcz
                            graphite2.tcz
                         bzip2-lib.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
                   pixman.tcz
-                  libpng.tcz
-                  libEGL.tcz
-                     mesa.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                        llvm15-lib.tcz
-                           gcc_libs.tcz
-                           libxml2.tcz
-                              liblzma.tcz
-                           ncurses.tcz
-                           zstd.tcz
-                              libzstd.tcz
-                              liblzma.tcz
-                              liblz4.tcz
-                        expat2.tcz
-                        libzstd.tcz
-                        libXfixes.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                        libXxf86vm.tcz
-                           libXext.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        libxshmfence.tcz
-                     wayland.tcz
-                        expat2.tcz
-                        libxml2.tcz
-                           liblzma.tcz
-                  libGLES.tcz
-                     mesa.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                        llvm15-lib.tcz
-                           gcc_libs.tcz
-                           libxml2.tcz
-                              liblzma.tcz
-                           ncurses.tcz
-                           zstd.tcz
-                              libzstd.tcz
-                              liblzma.tcz
-                              liblz4.tcz
-                        expat2.tcz
-                        libzstd.tcz
-                        libXfixes.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                        libXxf86vm.tcz
-                           libXext.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        libxshmfence.tcz
-                     libdrm.tcz
-                        libpciaccess.tcz
-                        udev-lib.tcz
-                  libXext.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-                  libXrender.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
+                  glib2.tcz
+                     gamin.tcz
+                     libelf.tcz
+                     pcre2.tcz
                libXft.tcz
                   fontconfig.tcz
                      expat2.tcz
@@ -1454,6 +1048,11 @@ totem-gir.tcz
                      gamin.tcz
                      libelf.tcz
                      pcre2.tcz
+            libXcomposite.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
             libXcursor.tcz
                libXrender.tcz
                   libX11.tcz
@@ -1478,12 +1077,6 @@ totem-gir.tcz
                         libXau.tcz
                         libXdmcp.tcz
                libXrender.tcz
-                  libX11.tcz
-                     libxcb.tcz
-                        libXau.tcz
-                        libXdmcp.tcz
-            libXi.tcz
-               libXext.tcz
                   libX11.tcz
                      libxcb.tcz
                         libXau.tcz
@@ -1641,40 +1234,27 @@ totem-gir.tcz
                      ca-certificates.tcz
             gcr.tcz
                gtk3.tcz
-                  shared-mime-info.tcz
-                     glib2.tcz
-                        gamin.tcz
-                        libelf.tcz
-                        pcre2.tcz
-                     libxml2.tcz
-                        liblzma.tcz
                   libepoxy.tcz
-                  at-spi2-atk.tcz
-                     at-spi2-core.tcz
-                        dbus.tcz
-                           expat2.tcz
-                           libSM.tcz
-                              libICE.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                        glib2.tcz
-                           gamin.tcz
-                           libelf.tcz
-                           pcre2.tcz
-                        libICE.tcz
+                  at-spi2-core.tcz
+                     dbus.tcz
+                        expat2.tcz
                         libSM.tcz
                            libICE.tcz
                         libX11.tcz
                            libxcb.tcz
                               libXau.tcz
                               libXdmcp.tcz
-                     atk.tcz
-                        glib2.tcz
-                           gamin.tcz
-                           libelf.tcz
-                           pcre2.tcz
+                     glib2.tcz
+                        gamin.tcz
+                        libelf.tcz
+                        pcre2.tcz
+                     libXtst.tcz
+                        libXi.tcz
+                           libXext.tcz
+                              libX11.tcz
+                                 libxcb.tcz
+                                    libXau.tcz
+                                    libXdmcp.tcz
                   gdk-pixbuf.tcz
                      glib2.tcz
                         gamin.tcz
@@ -1685,17 +1265,8 @@ totem-gir.tcz
                         libjpeg-turbo.tcz
                         liblzma.tcz  
                      shared-mime-info.tcz 
-                  libXcomposite.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
                   pango.tcz
                      cairo.tcz
-                        glib2.tcz
-                           gamin.tcz
-                           libelf.tcz
-                           pcre2.tcz
                         fontconfig.tcz
                            expat2.tcz
                            freetype.tcz
@@ -1707,81 +1278,15 @@ totem-gir.tcz
                                     pcre2.tcz
                                  graphite2.tcz
                               bzip2-lib.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
                         pixman.tcz
-                        libpng.tcz
-                        libEGL.tcz
-                           mesa.tcz
-                              libdrm.tcz
-                                 libpciaccess.tcz
-                                 udev-lib.tcz
-                              llvm15-lib.tcz
-                                 gcc_libs.tcz
-                                 libxml2.tcz
-                                    liblzma.tcz
-                                 ncurses.tcz
-                                 zstd.tcz
-                                    libzstd.tcz
-                                    liblzma.tcz
-                                    liblz4.tcz
-                              expat2.tcz
-                              libzstd.tcz
-                              libXfixes.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
-                              libXxf86vm.tcz
-                                 libXext.tcz
-                                    libX11.tcz
-                                       libxcb.tcz
-                                          libXau.tcz
-                                          libXdmcp.tcz
-                              libxshmfence.tcz
-                           wayland.tcz
-                              expat2.tcz
-                              libxml2.tcz
-                                 liblzma.tcz
-                        libGLES.tcz
-                           mesa.tcz
-                              libdrm.tcz
-                                 libpciaccess.tcz
-                                 udev-lib.tcz
-                              llvm15-lib.tcz
-                                 gcc_libs.tcz
-                                 libxml2.tcz
-                                    liblzma.tcz
-                                 ncurses.tcz
-                                 zstd.tcz
-                                    libzstd.tcz
-                                    liblzma.tcz
-                                    liblz4.tcz
-                              expat2.tcz
-                              libzstd.tcz
-                              libXfixes.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
-                              libXxf86vm.tcz
-                                 libXext.tcz
-                                    libX11.tcz
-                                       libxcb.tcz
-                                          libXau.tcz
-                                          libXdmcp.tcz
-                              libxshmfence.tcz
-                           libdrm.tcz
-                              libpciaccess.tcz
-                              udev-lib.tcz
-                        libXext.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                        libXrender.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
+                        glib2.tcz
+                           gamin.tcz
+                           libelf.tcz
+                           pcre2.tcz
                      libXft.tcz
                         fontconfig.tcz
                            expat2.tcz
@@ -1813,6 +1318,11 @@ totem-gir.tcz
                            gamin.tcz
                            libelf.tcz
                            pcre2.tcz
+                  libXcomposite.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
                   libXcursor.tcz
                      libXrender.tcz
                         libX11.tcz
@@ -1837,12 +1347,6 @@ totem-gir.tcz
                               libXau.tcz
                               libXdmcp.tcz
                      libXrender.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                  libXi.tcz
-                     libXext.tcz
                         libX11.tcz
                            libxcb.tcz
                               libXau.tcz
@@ -1944,40 +1448,27 @@ totem-gir.tcz
                         libpng.tcz
                         giflib.tcz 
                   gtk3.tcz
-                     shared-mime-info.tcz
-                        glib2.tcz
-                           gamin.tcz
-                           libelf.tcz
-                           pcre2.tcz
-                        libxml2.tcz
-                           liblzma.tcz
                      libepoxy.tcz
-                     at-spi2-atk.tcz
-                        at-spi2-core.tcz
-                           dbus.tcz
-                              expat2.tcz
-                              libSM.tcz
-                                 libICE.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                           glib2.tcz
-                              gamin.tcz
-                              libelf.tcz
-                              pcre2.tcz
-                           libICE.tcz
+                     at-spi2-core.tcz
+                        dbus.tcz
+                           expat2.tcz
                            libSM.tcz
                               libICE.tcz
                            libX11.tcz
                               libxcb.tcz
                                  libXau.tcz
                                  libXdmcp.tcz
-                        atk.tcz
-                           glib2.tcz
-                              gamin.tcz
-                              libelf.tcz
-                              pcre2.tcz
+                        glib2.tcz
+                           gamin.tcz
+                           libelf.tcz
+                           pcre2.tcz
+                        libXtst.tcz
+                           libXi.tcz
+                              libXext.tcz
+                                 libX11.tcz
+                                    libxcb.tcz
+                                       libXau.tcz
+                                       libXdmcp.tcz
                      gdk-pixbuf.tcz
                         glib2.tcz
                            gamin.tcz
@@ -1988,17 +1479,8 @@ totem-gir.tcz
                            libjpeg-turbo.tcz
                            liblzma.tcz  
                         shared-mime-info.tcz 
-                     libXcomposite.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
                      pango.tcz
                         cairo.tcz
-                           glib2.tcz
-                              gamin.tcz
-                              libelf.tcz
-                              pcre2.tcz
                            fontconfig.tcz
                               expat2.tcz
                               freetype.tcz
@@ -2010,81 +1492,15 @@ totem-gir.tcz
                                        pcre2.tcz
                                     graphite2.tcz
                                  bzip2-lib.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
                            pixman.tcz
-                           libpng.tcz
-                           libEGL.tcz
-                              mesa.tcz
-                                 libdrm.tcz
-                                    libpciaccess.tcz
-                                    udev-lib.tcz
-                                 llvm15-lib.tcz
-                                    gcc_libs.tcz
-                                    libxml2.tcz
-                                       liblzma.tcz
-                                    ncurses.tcz
-                                    zstd.tcz
-                                       libzstd.tcz
-                                       liblzma.tcz
-                                       liblz4.tcz
-                                 expat2.tcz
-                                 libzstd.tcz
-                                 libXfixes.tcz
-                                    libX11.tcz
-                                       libxcb.tcz
-                                          libXau.tcz
-                                          libXdmcp.tcz
-                                 libXxf86vm.tcz
-                                    libXext.tcz
-                                       libX11.tcz
-                                          libxcb.tcz
-                                             libXau.tcz
-                                             libXdmcp.tcz
-                                 libxshmfence.tcz
-                              wayland.tcz
-                                 expat2.tcz
-                                 libxml2.tcz
-                                    liblzma.tcz
-                           libGLES.tcz
-                              mesa.tcz
-                                 libdrm.tcz
-                                    libpciaccess.tcz
-                                    udev-lib.tcz
-                                 llvm15-lib.tcz
-                                    gcc_libs.tcz
-                                    libxml2.tcz
-                                       liblzma.tcz
-                                    ncurses.tcz
-                                    zstd.tcz
-                                       libzstd.tcz
-                                       liblzma.tcz
-                                       liblz4.tcz
-                                 expat2.tcz
-                                 libzstd.tcz
-                                 libXfixes.tcz
-                                    libX11.tcz
-                                       libxcb.tcz
-                                          libXau.tcz
-                                          libXdmcp.tcz
-                                 libXxf86vm.tcz
-                                    libXext.tcz
-                                       libX11.tcz
-                                          libxcb.tcz
-                                             libXau.tcz
-                                             libXdmcp.tcz
-                                 libxshmfence.tcz
-                              libdrm.tcz
-                                 libpciaccess.tcz
-                                 udev-lib.tcz
-                           libXext.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                           libXrender.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
+                           glib2.tcz
+                              gamin.tcz
+                              libelf.tcz
+                              pcre2.tcz
                         libXft.tcz
                            fontconfig.tcz
                               expat2.tcz
@@ -2116,6 +1532,11 @@ totem-gir.tcz
                               gamin.tcz
                               libelf.tcz
                               pcre2.tcz
+                     libXcomposite.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
                      libXcursor.tcz
                         libXrender.tcz
                            libX11.tcz
@@ -2140,12 +1561,6 @@ totem-gir.tcz
                                  libXau.tcz
                                  libXdmcp.tcz
                         libXrender.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                     libXi.tcz
-                        libXext.tcz
                            libX11.tcz
                               libxcb.tcz
                                  libXau.tcz
@@ -2372,40 +1787,27 @@ totem-gir.tcz
                pcre2.tcz
          iso-codes.tcz
          gtk3.tcz
-            shared-mime-info.tcz
-               glib2.tcz
-                  gamin.tcz
-                  libelf.tcz
-                  pcre2.tcz
-               libxml2.tcz
-                  liblzma.tcz
             libepoxy.tcz
-            at-spi2-atk.tcz
-               at-spi2-core.tcz
-                  dbus.tcz
-                     expat2.tcz
-                     libSM.tcz
-                        libICE.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-                  glib2.tcz
-                     gamin.tcz
-                     libelf.tcz
-                     pcre2.tcz
-                  libICE.tcz
+            at-spi2-core.tcz
+               dbus.tcz
+                  expat2.tcz
                   libSM.tcz
                      libICE.tcz
                   libX11.tcz
                      libxcb.tcz
                         libXau.tcz
                         libXdmcp.tcz
-               atk.tcz
-                  glib2.tcz
-                     gamin.tcz
-                     libelf.tcz
-                     pcre2.tcz
+               glib2.tcz
+                  gamin.tcz
+                  libelf.tcz
+                  pcre2.tcz
+               libXtst.tcz
+                  libXi.tcz
+                     libXext.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
             gdk-pixbuf.tcz
                glib2.tcz
                   gamin.tcz
@@ -2416,17 +1818,8 @@ totem-gir.tcz
                   libjpeg-turbo.tcz
                   liblzma.tcz  
                shared-mime-info.tcz 
-            libXcomposite.tcz
-               libX11.tcz
-                  libxcb.tcz
-                     libXau.tcz
-                     libXdmcp.tcz
             pango.tcz
                cairo.tcz
-                  glib2.tcz
-                     gamin.tcz
-                     libelf.tcz
-                     pcre2.tcz
                   fontconfig.tcz
                      expat2.tcz
                      freetype.tcz
@@ -2438,81 +1831,15 @@ totem-gir.tcz
                               pcre2.tcz
                            graphite2.tcz
                         bzip2-lib.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
                   pixman.tcz
-                  libpng.tcz
-                  libEGL.tcz
-                     mesa.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                        llvm15-lib.tcz
-                           gcc_libs.tcz
-                           libxml2.tcz
-                              liblzma.tcz
-                           ncurses.tcz
-                           zstd.tcz
-                              libzstd.tcz
-                              liblzma.tcz
-                              liblz4.tcz
-                        expat2.tcz
-                        libzstd.tcz
-                        libXfixes.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                        libXxf86vm.tcz
-                           libXext.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        libxshmfence.tcz
-                     wayland.tcz
-                        expat2.tcz
-                        libxml2.tcz
-                           liblzma.tcz
-                  libGLES.tcz
-                     mesa.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                        llvm15-lib.tcz
-                           gcc_libs.tcz
-                           libxml2.tcz
-                              liblzma.tcz
-                           ncurses.tcz
-                           zstd.tcz
-                              libzstd.tcz
-                              liblzma.tcz
-                              liblz4.tcz
-                        expat2.tcz
-                        libzstd.tcz
-                        libXfixes.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                        libXxf86vm.tcz
-                           libXext.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        libxshmfence.tcz
-                     libdrm.tcz
-                        libpciaccess.tcz
-                        udev-lib.tcz
-                  libXext.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-                  libXrender.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
+                  glib2.tcz
+                     gamin.tcz
+                     libelf.tcz
+                     pcre2.tcz
                libXft.tcz
                   fontconfig.tcz
                      expat2.tcz
@@ -2544,6 +1871,11 @@ totem-gir.tcz
                      gamin.tcz
                      libelf.tcz
                      pcre2.tcz
+            libXcomposite.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
             libXcursor.tcz
                libXrender.tcz
                   libX11.tcz
@@ -2568,12 +1900,6 @@ totem-gir.tcz
                         libXau.tcz
                         libXdmcp.tcz
                libXrender.tcz
-                  libX11.tcz
-                     libxcb.tcz
-                        libXau.tcz
-                        libXdmcp.tcz
-            libXi.tcz
-               libXext.tcz
                   libX11.tcz
                      libxcb.tcz
                         libXau.tcz
@@ -2598,40 +1924,27 @@ totem-gir.tcz
          libseccomp.tcz
       adwaita-icon-theme.tcz
          gtk3.tcz
-            shared-mime-info.tcz
-               glib2.tcz
-                  gamin.tcz
-                  libelf.tcz
-                  pcre2.tcz
-               libxml2.tcz
-                  liblzma.tcz
             libepoxy.tcz
-            at-spi2-atk.tcz
-               at-spi2-core.tcz
-                  dbus.tcz
-                     expat2.tcz
-                     libSM.tcz
-                        libICE.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-                  glib2.tcz
-                     gamin.tcz
-                     libelf.tcz
-                     pcre2.tcz
-                  libICE.tcz
+            at-spi2-core.tcz
+               dbus.tcz
+                  expat2.tcz
                   libSM.tcz
                      libICE.tcz
                   libX11.tcz
                      libxcb.tcz
                         libXau.tcz
                         libXdmcp.tcz
-               atk.tcz
-                  glib2.tcz
-                     gamin.tcz
-                     libelf.tcz
-                     pcre2.tcz
+               glib2.tcz
+                  gamin.tcz
+                  libelf.tcz
+                  pcre2.tcz
+               libXtst.tcz
+                  libXi.tcz
+                     libXext.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
             gdk-pixbuf.tcz
                glib2.tcz
                   gamin.tcz
@@ -2642,17 +1955,8 @@ totem-gir.tcz
                   libjpeg-turbo.tcz
                   liblzma.tcz  
                shared-mime-info.tcz 
-            libXcomposite.tcz
-               libX11.tcz
-                  libxcb.tcz
-                     libXau.tcz
-                     libXdmcp.tcz
             pango.tcz
                cairo.tcz
-                  glib2.tcz
-                     gamin.tcz
-                     libelf.tcz
-                     pcre2.tcz
                   fontconfig.tcz
                      expat2.tcz
                      freetype.tcz
@@ -2664,81 +1968,15 @@ totem-gir.tcz
                               pcre2.tcz
                            graphite2.tcz
                         bzip2-lib.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
                   pixman.tcz
-                  libpng.tcz
-                  libEGL.tcz
-                     mesa.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                        llvm15-lib.tcz
-                           gcc_libs.tcz
-                           libxml2.tcz
-                              liblzma.tcz
-                           ncurses.tcz
-                           zstd.tcz
-                              libzstd.tcz
-                              liblzma.tcz
-                              liblz4.tcz
-                        expat2.tcz
-                        libzstd.tcz
-                        libXfixes.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                        libXxf86vm.tcz
-                           libXext.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        libxshmfence.tcz
-                     wayland.tcz
-                        expat2.tcz
-                        libxml2.tcz
-                           liblzma.tcz
-                  libGLES.tcz
-                     mesa.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                        llvm15-lib.tcz
-                           gcc_libs.tcz
-                           libxml2.tcz
-                              liblzma.tcz
-                           ncurses.tcz
-                           zstd.tcz
-                              libzstd.tcz
-                              liblzma.tcz
-                              liblz4.tcz
-                        expat2.tcz
-                        libzstd.tcz
-                        libXfixes.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                        libXxf86vm.tcz
-                           libXext.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        libxshmfence.tcz
-                     libdrm.tcz
-                        libpciaccess.tcz
-                        udev-lib.tcz
-                  libXext.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-                  libXrender.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
+                  glib2.tcz
+                     gamin.tcz
+                     libelf.tcz
+                     pcre2.tcz
                libXft.tcz
                   fontconfig.tcz
                      expat2.tcz
@@ -2770,6 +2008,11 @@ totem-gir.tcz
                      gamin.tcz
                      libelf.tcz
                      pcre2.tcz
+            libXcomposite.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
             libXcursor.tcz
                libXrender.tcz
                   libX11.tcz
@@ -2798,12 +2041,6 @@ totem-gir.tcz
                      libxcb.tcz
                         libXau.tcz
                         libXdmcp.tcz
-            libXi.tcz
-               libXext.tcz
-                  libX11.tcz
-                     libxcb.tcz
-                        libXau.tcz
-                        libXdmcp.tcz
             libXdamage.tcz
                libXfixes.tcz
                   libX11.tcz
@@ -2824,10 +2061,6 @@ totem-gir.tcz
          librsvg.tcz
             pango.tcz
                cairo.tcz
-                  glib2.tcz
-                     gamin.tcz
-                     libelf.tcz
-                     pcre2.tcz
                   fontconfig.tcz
                      expat2.tcz
                      freetype.tcz
@@ -2839,81 +2072,15 @@ totem-gir.tcz
                               pcre2.tcz
                            graphite2.tcz
                         bzip2-lib.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
                   pixman.tcz
-                  libpng.tcz
-                  libEGL.tcz
-                     mesa.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                        llvm15-lib.tcz
-                           gcc_libs.tcz
-                           libxml2.tcz
-                              liblzma.tcz
-                           ncurses.tcz
-                           zstd.tcz
-                              libzstd.tcz
-                              liblzma.tcz
-                              liblz4.tcz
-                        expat2.tcz
-                        libzstd.tcz
-                        libXfixes.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                        libXxf86vm.tcz
-                           libXext.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        libxshmfence.tcz
-                     wayland.tcz
-                        expat2.tcz
-                        libxml2.tcz
-                           liblzma.tcz
-                  libGLES.tcz
-                     mesa.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                        llvm15-lib.tcz
-                           gcc_libs.tcz
-                           libxml2.tcz
-                              liblzma.tcz
-                           ncurses.tcz
-                           zstd.tcz
-                              libzstd.tcz
-                              liblzma.tcz
-                              liblz4.tcz
-                        expat2.tcz
-                        libzstd.tcz
-                        libXfixes.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                        libXxf86vm.tcz
-                           libXext.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        libxshmfence.tcz
-                     libdrm.tcz
-                        libpciaccess.tcz
-                        udev-lib.tcz
-                  libXext.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-                  libXrender.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
+                  glib2.tcz
+                     gamin.tcz
+                     libelf.tcz
+                     pcre2.tcz
                libXft.tcz
                   fontconfig.tcz
                      expat2.tcz
@@ -2955,40 +2122,27 @@ totem-gir.tcz
          hicolor-icon-theme.tcz
       dconf.tcz
          gtk3.tcz
-            shared-mime-info.tcz
-               glib2.tcz
-                  gamin.tcz
-                  libelf.tcz
-                  pcre2.tcz
-               libxml2.tcz
-                  liblzma.tcz
             libepoxy.tcz
-            at-spi2-atk.tcz
-               at-spi2-core.tcz
-                  dbus.tcz
-                     expat2.tcz
-                     libSM.tcz
-                        libICE.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-                  glib2.tcz
-                     gamin.tcz
-                     libelf.tcz
-                     pcre2.tcz
-                  libICE.tcz
+            at-spi2-core.tcz
+               dbus.tcz
+                  expat2.tcz
                   libSM.tcz
                      libICE.tcz
                   libX11.tcz
                      libxcb.tcz
                         libXau.tcz
                         libXdmcp.tcz
-               atk.tcz
-                  glib2.tcz
-                     gamin.tcz
-                     libelf.tcz
-                     pcre2.tcz
+               glib2.tcz
+                  gamin.tcz
+                  libelf.tcz
+                  pcre2.tcz
+               libXtst.tcz
+                  libXi.tcz
+                     libXext.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
             gdk-pixbuf.tcz
                glib2.tcz
                   gamin.tcz
@@ -2999,17 +2153,8 @@ totem-gir.tcz
                   libjpeg-turbo.tcz
                   liblzma.tcz  
                shared-mime-info.tcz 
-            libXcomposite.tcz
-               libX11.tcz
-                  libxcb.tcz
-                     libXau.tcz
-                     libXdmcp.tcz
             pango.tcz
                cairo.tcz
-                  glib2.tcz
-                     gamin.tcz
-                     libelf.tcz
-                     pcre2.tcz
                   fontconfig.tcz
                      expat2.tcz
                      freetype.tcz
@@ -3021,81 +2166,15 @@ totem-gir.tcz
                               pcre2.tcz
                            graphite2.tcz
                         bzip2-lib.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
                   pixman.tcz
-                  libpng.tcz
-                  libEGL.tcz
-                     mesa.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                        llvm15-lib.tcz
-                           gcc_libs.tcz
-                           libxml2.tcz
-                              liblzma.tcz
-                           ncurses.tcz
-                           zstd.tcz
-                              libzstd.tcz
-                              liblzma.tcz
-                              liblz4.tcz
-                        expat2.tcz
-                        libzstd.tcz
-                        libXfixes.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                        libXxf86vm.tcz
-                           libXext.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        libxshmfence.tcz
-                     wayland.tcz
-                        expat2.tcz
-                        libxml2.tcz
-                           liblzma.tcz
-                  libGLES.tcz
-                     mesa.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                        llvm15-lib.tcz
-                           gcc_libs.tcz
-                           libxml2.tcz
-                              liblzma.tcz
-                           ncurses.tcz
-                           zstd.tcz
-                              libzstd.tcz
-                              liblzma.tcz
-                              liblz4.tcz
-                        expat2.tcz
-                        libzstd.tcz
-                        libXfixes.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                        libXxf86vm.tcz
-                           libXext.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        libxshmfence.tcz
-                     libdrm.tcz
-                        libpciaccess.tcz
-                        udev-lib.tcz
-                  libXext.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-                  libXrender.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
+                  glib2.tcz
+                     gamin.tcz
+                     libelf.tcz
+                     pcre2.tcz
                libXft.tcz
                   fontconfig.tcz
                      expat2.tcz
@@ -3127,6 +2206,11 @@ totem-gir.tcz
                      gamin.tcz
                      libelf.tcz
                      pcre2.tcz
+            libXcomposite.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
             libXcursor.tcz
                libXrender.tcz
                   libX11.tcz
@@ -3151,12 +2235,6 @@ totem-gir.tcz
                         libXau.tcz
                         libXdmcp.tcz
                libXrender.tcz
-                  libX11.tcz
-                     libxcb.tcz
-                        libXau.tcz
-                        libXdmcp.tcz
-            libXi.tcz
-               libXext.tcz
                   libX11.tcz
                      libxcb.tcz
                         libXau.tcz
@@ -3287,10 +2365,6 @@ totem-gir.tcz
                   librsvg.tcz
                      pango.tcz
                         cairo.tcz
-                           glib2.tcz
-                              gamin.tcz
-                              libelf.tcz
-                              pcre2.tcz
                            fontconfig.tcz
                               expat2.tcz
                               freetype.tcz
@@ -3302,81 +2376,15 @@ totem-gir.tcz
                                        pcre2.tcz
                                     graphite2.tcz
                                  bzip2-lib.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
                            pixman.tcz
-                           libpng.tcz
-                           libEGL.tcz
-                              mesa.tcz
-                                 libdrm.tcz
-                                    libpciaccess.tcz
-                                    udev-lib.tcz
-                                 llvm15-lib.tcz
-                                    gcc_libs.tcz
-                                    libxml2.tcz
-                                       liblzma.tcz
-                                    ncurses.tcz
-                                    zstd.tcz
-                                       libzstd.tcz
-                                       liblzma.tcz
-                                       liblz4.tcz
-                                 expat2.tcz
-                                 libzstd.tcz
-                                 libXfixes.tcz
-                                    libX11.tcz
-                                       libxcb.tcz
-                                          libXau.tcz
-                                          libXdmcp.tcz
-                                 libXxf86vm.tcz
-                                    libXext.tcz
-                                       libX11.tcz
-                                          libxcb.tcz
-                                             libXau.tcz
-                                             libXdmcp.tcz
-                                 libxshmfence.tcz
-                              wayland.tcz
-                                 expat2.tcz
-                                 libxml2.tcz
-                                    liblzma.tcz
-                           libGLES.tcz
-                              mesa.tcz
-                                 libdrm.tcz
-                                    libpciaccess.tcz
-                                    udev-lib.tcz
-                                 llvm15-lib.tcz
-                                    gcc_libs.tcz
-                                    libxml2.tcz
-                                       liblzma.tcz
-                                    ncurses.tcz
-                                    zstd.tcz
-                                       libzstd.tcz
-                                       liblzma.tcz
-                                       liblz4.tcz
-                                 expat2.tcz
-                                 libzstd.tcz
-                                 libXfixes.tcz
-                                    libX11.tcz
-                                       libxcb.tcz
-                                          libXau.tcz
-                                          libXdmcp.tcz
-                                 libXxf86vm.tcz
-                                    libXext.tcz
-                                       libX11.tcz
-                                          libxcb.tcz
-                                             libXau.tcz
-                                             libXdmcp.tcz
-                                 libxshmfence.tcz
-                              libdrm.tcz
-                                 libpciaccess.tcz
-                                 udev-lib.tcz
-                           libXext.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                           libXrender.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
+                           glib2.tcz
+                              gamin.tcz
+                              libelf.tcz
+                              pcre2.tcz
                         libXft.tcz
                            fontconfig.tcz
                               expat2.tcz
@@ -3416,10 +2424,6 @@ totem-gir.tcz
                         libxml2.tcz 
                      gdk-pixbuf.tcz 
                   cairo.tcz
-                     glib2.tcz
-                        gamin.tcz
-                        libelf.tcz
-                        pcre2.tcz
                      fontconfig.tcz
                         expat2.tcz
                         freetype.tcz
@@ -3431,81 +2435,15 @@ totem-gir.tcz
                                  pcre2.tcz
                               graphite2.tcz
                            bzip2-lib.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
                      pixman.tcz
-                     libpng.tcz
-                     libEGL.tcz
-                        mesa.tcz
-                           libdrm.tcz
-                              libpciaccess.tcz
-                              udev-lib.tcz
-                           llvm15-lib.tcz
-                              gcc_libs.tcz
-                              libxml2.tcz
-                                 liblzma.tcz
-                              ncurses.tcz
-                              zstd.tcz
-                                 libzstd.tcz
-                                 liblzma.tcz
-                                 liblz4.tcz
-                           expat2.tcz
-                           libzstd.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                           libXxf86vm.tcz
-                              libXext.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
-                           libxshmfence.tcz
-                        wayland.tcz
-                           expat2.tcz
-                           libxml2.tcz
-                              liblzma.tcz
-                     libGLES.tcz
-                        mesa.tcz
-                           libdrm.tcz
-                              libpciaccess.tcz
-                              udev-lib.tcz
-                           llvm15-lib.tcz
-                              gcc_libs.tcz
-                              libxml2.tcz
-                                 liblzma.tcz
-                              ncurses.tcz
-                              zstd.tcz
-                                 libzstd.tcz
-                                 liblzma.tcz
-                                 liblz4.tcz
-                           expat2.tcz
-                           libzstd.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                           libXxf86vm.tcz
-                              libXext.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
-                           libxshmfence.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                     libXext.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                     libXrender.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
+                     glib2.tcz
+                        gamin.tcz
+                        libelf.tcz
+                        pcre2.tcz
                bzip2-lib.tcz
                gnutls.tcz
                   libidn2.tcz
@@ -3557,10 +2495,6 @@ totem-gir.tcz
                   shared-mime-info.tcz 
                pango.tcz
                   cairo.tcz
-                     glib2.tcz
-                        gamin.tcz
-                        libelf.tcz
-                        pcre2.tcz
                      fontconfig.tcz
                         expat2.tcz
                         freetype.tcz
@@ -3572,81 +2506,15 @@ totem-gir.tcz
                                  pcre2.tcz
                               graphite2.tcz
                            bzip2-lib.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
                      pixman.tcz
-                     libpng.tcz
-                     libEGL.tcz
-                        mesa.tcz
-                           libdrm.tcz
-                              libpciaccess.tcz
-                              udev-lib.tcz
-                           llvm15-lib.tcz
-                              gcc_libs.tcz
-                              libxml2.tcz
-                                 liblzma.tcz
-                              ncurses.tcz
-                              zstd.tcz
-                                 libzstd.tcz
-                                 liblzma.tcz
-                                 liblz4.tcz
-                           expat2.tcz
-                           libzstd.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                           libXxf86vm.tcz
-                              libXext.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
-                           libxshmfence.tcz
-                        wayland.tcz
-                           expat2.tcz
-                           libxml2.tcz
-                              liblzma.tcz
-                     libGLES.tcz
-                        mesa.tcz
-                           libdrm.tcz
-                              libpciaccess.tcz
-                              udev-lib.tcz
-                           llvm15-lib.tcz
-                              gcc_libs.tcz
-                              libxml2.tcz
-                                 liblzma.tcz
-                              ncurses.tcz
-                              zstd.tcz
-                                 libzstd.tcz
-                                 liblzma.tcz
-                                 liblz4.tcz
-                           expat2.tcz
-                           libzstd.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                           libXxf86vm.tcz
-                              libXext.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
-                           libxshmfence.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                     libXext.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                     libXrender.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
+                     glib2.tcz
+                        gamin.tcz
+                        libelf.tcz
+                        pcre2.tcz
                   libXft.tcz
                      fontconfig.tcz
                         expat2.tcz
@@ -3915,40 +2783,27 @@ totem-gir.tcz
                   libelf.tcz
                   pcre2.tcz
             gtk3.tcz
-               shared-mime-info.tcz
-                  glib2.tcz
-                     gamin.tcz
-                     libelf.tcz
-                     pcre2.tcz
-                  libxml2.tcz
-                     liblzma.tcz
                libepoxy.tcz
-               at-spi2-atk.tcz
-                  at-spi2-core.tcz
-                     dbus.tcz
-                        expat2.tcz
-                        libSM.tcz
-                           libICE.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                     glib2.tcz
-                        gamin.tcz
-                        libelf.tcz
-                        pcre2.tcz
-                     libICE.tcz
+               at-spi2-core.tcz
+                  dbus.tcz
+                     expat2.tcz
                      libSM.tcz
                         libICE.tcz
                      libX11.tcz
                         libxcb.tcz
                            libXau.tcz
                            libXdmcp.tcz
-                  atk.tcz
-                     glib2.tcz
-                        gamin.tcz
-                        libelf.tcz
-                        pcre2.tcz
+                  glib2.tcz
+                     gamin.tcz
+                     libelf.tcz
+                     pcre2.tcz
+                  libXtst.tcz
+                     libXi.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
                gdk-pixbuf.tcz
                   glib2.tcz
                      gamin.tcz
@@ -3959,17 +2814,8 @@ totem-gir.tcz
                      libjpeg-turbo.tcz
                      liblzma.tcz  
                   shared-mime-info.tcz 
-               libXcomposite.tcz
-                  libX11.tcz
-                     libxcb.tcz
-                        libXau.tcz
-                        libXdmcp.tcz
                pango.tcz
                   cairo.tcz
-                     glib2.tcz
-                        gamin.tcz
-                        libelf.tcz
-                        pcre2.tcz
                      fontconfig.tcz
                         expat2.tcz
                         freetype.tcz
@@ -3981,81 +2827,15 @@ totem-gir.tcz
                                  pcre2.tcz
                               graphite2.tcz
                            bzip2-lib.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
                      pixman.tcz
-                     libpng.tcz
-                     libEGL.tcz
-                        mesa.tcz
-                           libdrm.tcz
-                              libpciaccess.tcz
-                              udev-lib.tcz
-                           llvm15-lib.tcz
-                              gcc_libs.tcz
-                              libxml2.tcz
-                                 liblzma.tcz
-                              ncurses.tcz
-                              zstd.tcz
-                                 libzstd.tcz
-                                 liblzma.tcz
-                                 liblz4.tcz
-                           expat2.tcz
-                           libzstd.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                           libXxf86vm.tcz
-                              libXext.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
-                           libxshmfence.tcz
-                        wayland.tcz
-                           expat2.tcz
-                           libxml2.tcz
-                              liblzma.tcz
-                     libGLES.tcz
-                        mesa.tcz
-                           libdrm.tcz
-                              libpciaccess.tcz
-                              udev-lib.tcz
-                           llvm15-lib.tcz
-                              gcc_libs.tcz
-                              libxml2.tcz
-                                 liblzma.tcz
-                              ncurses.tcz
-                              zstd.tcz
-                                 libzstd.tcz
-                                 liblzma.tcz
-                                 liblz4.tcz
-                           expat2.tcz
-                           libzstd.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                           libXxf86vm.tcz
-                              libXext.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
-                           libxshmfence.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                     libXext.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                     libXrender.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
+                     glib2.tcz
+                        gamin.tcz
+                        libelf.tcz
+                        pcre2.tcz
                   libXft.tcz
                      fontconfig.tcz
                         expat2.tcz
@@ -4087,6 +2867,11 @@ totem-gir.tcz
                         gamin.tcz
                         libelf.tcz
                         pcre2.tcz
+               libXcomposite.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
                libXcursor.tcz
                   libXrender.tcz
                      libX11.tcz
@@ -4111,12 +2896,6 @@ totem-gir.tcz
                            libXau.tcz
                            libXdmcp.tcz
                   libXrender.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-               libXi.tcz
-                  libXext.tcz
                      libX11.tcz
                         libxcb.tcz
                            libXau.tcz
@@ -4163,10 +2942,6 @@ totem-gir.tcz
                   shared-mime-info.tcz 
                pango.tcz
                   cairo.tcz
-                     glib2.tcz
-                        gamin.tcz
-                        libelf.tcz
-                        pcre2.tcz
                      fontconfig.tcz
                         expat2.tcz
                         freetype.tcz
@@ -4178,81 +2953,15 @@ totem-gir.tcz
                                  pcre2.tcz
                               graphite2.tcz
                            bzip2-lib.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
                      pixman.tcz
-                     libpng.tcz
-                     libEGL.tcz
-                        mesa.tcz
-                           libdrm.tcz
-                              libpciaccess.tcz
-                              udev-lib.tcz
-                           llvm15-lib.tcz
-                              gcc_libs.tcz
-                              libxml2.tcz
-                                 liblzma.tcz
-                              ncurses.tcz
-                              zstd.tcz
-                                 libzstd.tcz
-                                 liblzma.tcz
-                                 liblz4.tcz
-                           expat2.tcz
-                           libzstd.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                           libXxf86vm.tcz
-                              libXext.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
-                           libxshmfence.tcz
-                        wayland.tcz
-                           expat2.tcz
-                           libxml2.tcz
-                              liblzma.tcz
-                     libGLES.tcz
-                        mesa.tcz
-                           libdrm.tcz
-                              libpciaccess.tcz
-                              udev-lib.tcz
-                           llvm15-lib.tcz
-                              gcc_libs.tcz
-                              libxml2.tcz
-                                 liblzma.tcz
-                              ncurses.tcz
-                              zstd.tcz
-                                 libzstd.tcz
-                                 liblzma.tcz
-                                 liblz4.tcz
-                           expat2.tcz
-                           libzstd.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                           libXxf86vm.tcz
-                              libXext.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
-                           libxshmfence.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                     libXext.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                     libXrender.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
+                     glib2.tcz
+                        gamin.tcz
+                        libelf.tcz
+                        pcre2.tcz
                   libXft.tcz
                      fontconfig.tcz
                         expat2.tcz
@@ -4521,40 +3230,27 @@ totem-gir.tcz
                   libelf.tcz
                   pcre2.tcz
             gtk3.tcz
-               shared-mime-info.tcz
-                  glib2.tcz
-                     gamin.tcz
-                     libelf.tcz
-                     pcre2.tcz
-                  libxml2.tcz
-                     liblzma.tcz
                libepoxy.tcz
-               at-spi2-atk.tcz
-                  at-spi2-core.tcz
-                     dbus.tcz
-                        expat2.tcz
-                        libSM.tcz
-                           libICE.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                     glib2.tcz
-                        gamin.tcz
-                        libelf.tcz
-                        pcre2.tcz
-                     libICE.tcz
+               at-spi2-core.tcz
+                  dbus.tcz
+                     expat2.tcz
                      libSM.tcz
                         libICE.tcz
                      libX11.tcz
                         libxcb.tcz
                            libXau.tcz
                            libXdmcp.tcz
-                  atk.tcz
-                     glib2.tcz
-                        gamin.tcz
-                        libelf.tcz
-                        pcre2.tcz
+                  glib2.tcz
+                     gamin.tcz
+                     libelf.tcz
+                     pcre2.tcz
+                  libXtst.tcz
+                     libXi.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
                gdk-pixbuf.tcz
                   glib2.tcz
                      gamin.tcz
@@ -4565,17 +3261,8 @@ totem-gir.tcz
                      libjpeg-turbo.tcz
                      liblzma.tcz  
                   shared-mime-info.tcz 
-               libXcomposite.tcz
-                  libX11.tcz
-                     libxcb.tcz
-                        libXau.tcz
-                        libXdmcp.tcz
                pango.tcz
                   cairo.tcz
-                     glib2.tcz
-                        gamin.tcz
-                        libelf.tcz
-                        pcre2.tcz
                      fontconfig.tcz
                         expat2.tcz
                         freetype.tcz
@@ -4587,81 +3274,15 @@ totem-gir.tcz
                                  pcre2.tcz
                               graphite2.tcz
                            bzip2-lib.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
                      pixman.tcz
-                     libpng.tcz
-                     libEGL.tcz
-                        mesa.tcz
-                           libdrm.tcz
-                              libpciaccess.tcz
-                              udev-lib.tcz
-                           llvm15-lib.tcz
-                              gcc_libs.tcz
-                              libxml2.tcz
-                                 liblzma.tcz
-                              ncurses.tcz
-                              zstd.tcz
-                                 libzstd.tcz
-                                 liblzma.tcz
-                                 liblz4.tcz
-                           expat2.tcz
-                           libzstd.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                           libXxf86vm.tcz
-                              libXext.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
-                           libxshmfence.tcz
-                        wayland.tcz
-                           expat2.tcz
-                           libxml2.tcz
-                              liblzma.tcz
-                     libGLES.tcz
-                        mesa.tcz
-                           libdrm.tcz
-                              libpciaccess.tcz
-                              udev-lib.tcz
-                           llvm15-lib.tcz
-                              gcc_libs.tcz
-                              libxml2.tcz
-                                 liblzma.tcz
-                              ncurses.tcz
-                              zstd.tcz
-                                 libzstd.tcz
-                                 liblzma.tcz
-                                 liblz4.tcz
-                           expat2.tcz
-                           libzstd.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                           libXxf86vm.tcz
-                              libXext.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
-                           libxshmfence.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                     libXext.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                     libXrender.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
+                     glib2.tcz
+                        gamin.tcz
+                        libelf.tcz
+                        pcre2.tcz
                   libXft.tcz
                      fontconfig.tcz
                         expat2.tcz
@@ -4693,6 +3314,11 @@ totem-gir.tcz
                         gamin.tcz
                         libelf.tcz
                         pcre2.tcz
+               libXcomposite.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
                libXcursor.tcz
                   libXrender.tcz
                      libX11.tcz
@@ -4717,12 +3343,6 @@ totem-gir.tcz
                            libXau.tcz
                            libXdmcp.tcz
                   libXrender.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-               libXi.tcz
-                  libXext.tcz
                      libX11.tcz
                         libxcb.tcz
                            libXau.tcz
@@ -4768,10 +3388,6 @@ totem-gir.tcz
                   shared-mime-info.tcz 
                pango.tcz
                   cairo.tcz
-                     glib2.tcz
-                        gamin.tcz
-                        libelf.tcz
-                        pcre2.tcz
                      fontconfig.tcz
                         expat2.tcz
                         freetype.tcz
@@ -4783,81 +3399,15 @@ totem-gir.tcz
                                  pcre2.tcz
                               graphite2.tcz
                            bzip2-lib.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
                      pixman.tcz
-                     libpng.tcz
-                     libEGL.tcz
-                        mesa.tcz
-                           libdrm.tcz
-                              libpciaccess.tcz
-                              udev-lib.tcz
-                           llvm15-lib.tcz
-                              gcc_libs.tcz
-                              libxml2.tcz
-                                 liblzma.tcz
-                              ncurses.tcz
-                              zstd.tcz
-                                 libzstd.tcz
-                                 liblzma.tcz
-                                 liblz4.tcz
-                           expat2.tcz
-                           libzstd.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                           libXxf86vm.tcz
-                              libXext.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
-                           libxshmfence.tcz
-                        wayland.tcz
-                           expat2.tcz
-                           libxml2.tcz
-                              liblzma.tcz
-                     libGLES.tcz
-                        mesa.tcz
-                           libdrm.tcz
-                              libpciaccess.tcz
-                              udev-lib.tcz
-                           llvm15-lib.tcz
-                              gcc_libs.tcz
-                              libxml2.tcz
-                                 liblzma.tcz
-                              ncurses.tcz
-                              zstd.tcz
-                                 libzstd.tcz
-                                 liblzma.tcz
-                                 liblz4.tcz
-                           expat2.tcz
-                           libzstd.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                           libXxf86vm.tcz
-                              libXext.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
-                           libxshmfence.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                     libXext.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                     libXrender.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
+                     glib2.tcz
+                        gamin.tcz
+                        libelf.tcz
+                        pcre2.tcz
                   libXft.tcz
                      fontconfig.tcz
                         expat2.tcz
@@ -5123,10 +3673,6 @@ totem-gir.tcz
             pango-gir.tcz
                pango.tcz
                   cairo.tcz
-                     glib2.tcz
-                        gamin.tcz
-                        libelf.tcz
-                        pcre2.tcz
                      fontconfig.tcz
                         expat2.tcz
                         freetype.tcz
@@ -5138,81 +3684,15 @@ totem-gir.tcz
                                  pcre2.tcz
                               graphite2.tcz
                            bzip2-lib.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
                      pixman.tcz
-                     libpng.tcz
-                     libEGL.tcz
-                        mesa.tcz
-                           libdrm.tcz
-                              libpciaccess.tcz
-                              udev-lib.tcz
-                           llvm15-lib.tcz
-                              gcc_libs.tcz
-                              libxml2.tcz
-                                 liblzma.tcz
-                              ncurses.tcz
-                              zstd.tcz
-                                 libzstd.tcz
-                                 liblzma.tcz
-                                 liblz4.tcz
-                           expat2.tcz
-                           libzstd.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                           libXxf86vm.tcz
-                              libXext.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
-                           libxshmfence.tcz
-                        wayland.tcz
-                           expat2.tcz
-                           libxml2.tcz
-                              liblzma.tcz
-                     libGLES.tcz
-                        mesa.tcz
-                           libdrm.tcz
-                              libpciaccess.tcz
-                              udev-lib.tcz
-                           llvm15-lib.tcz
-                              gcc_libs.tcz
-                              libxml2.tcz
-                                 liblzma.tcz
-                              ncurses.tcz
-                              zstd.tcz
-                                 libzstd.tcz
-                                 liblzma.tcz
-                                 liblz4.tcz
-                           expat2.tcz
-                           libzstd.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                           libXxf86vm.tcz
-                              libXext.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
-                           libxshmfence.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                     libXext.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                     libXrender.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
+                     glib2.tcz
+                        gamin.tcz
+                        libelf.tcz
+                        pcre2.tcz
                   libXft.tcz
                      fontconfig.tcz
                         expat2.tcz
@@ -5244,21 +3724,28 @@ totem-gir.tcz
                         gamin.tcz
                         libelf.tcz
                         pcre2.tcz
-               gobject-introspection.tcz
-                  python3.11.tcz
-                     bzip2-lib.tcz
-                     readline.tcz
+               harfbuzz-gir.tcz
+                  harfbuzz.tcz
+                     glib2.tcz
+                        gamin.tcz
+                        libelf.tcz
+                        pcre2.tcz
+                     graphite2.tcz
+                  gobject-introspection.tcz
+                     python3.11.tcz
+                        bzip2-lib.tcz
+                        readline.tcz
+                           ncurses.tcz
+                        gdbm.tcz
+                        liblzma.tcz
+                        openssl.tcz
+                           ca-certificates.tcz
+                        sqlite3.tcz
                         ncurses.tcz
-                     gdbm.tcz
-                     liblzma.tcz
-                     openssl.tcz
-                        ca-certificates.tcz
-                     sqlite3.tcz
-                     ncurses.tcz
-                  glib2.tcz
-                     gamin.tcz
-                     libelf.tcz
-                     pcre2.tcz
+                     glib2.tcz
+                        gamin.tcz
+                        libelf.tcz
+                        pcre2.tcz
             gdk-pixbuf-gir.tcz
                gdk-pixbuf.tcz
                   glib2.tcz
@@ -5345,40 +3832,27 @@ totem-gir.tcz
                   pcre2.tcz
          gtk3-gir.tcz
             gtk3.tcz
-               shared-mime-info.tcz
-                  glib2.tcz
-                     gamin.tcz
-                     libelf.tcz
-                     pcre2.tcz
-                  libxml2.tcz
-                     liblzma.tcz
                libepoxy.tcz
-               at-spi2-atk.tcz
-                  at-spi2-core.tcz
-                     dbus.tcz
-                        expat2.tcz
-                        libSM.tcz
-                           libICE.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                     glib2.tcz
-                        gamin.tcz
-                        libelf.tcz
-                        pcre2.tcz
-                     libICE.tcz
+               at-spi2-core.tcz
+                  dbus.tcz
+                     expat2.tcz
                      libSM.tcz
                         libICE.tcz
                      libX11.tcz
                         libxcb.tcz
                            libXau.tcz
                            libXdmcp.tcz
-                  atk.tcz
-                     glib2.tcz
-                        gamin.tcz
-                        libelf.tcz
-                        pcre2.tcz
+                  glib2.tcz
+                     gamin.tcz
+                     libelf.tcz
+                     pcre2.tcz
+                  libXtst.tcz
+                     libXi.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
                gdk-pixbuf.tcz
                   glib2.tcz
                      gamin.tcz
@@ -5389,17 +3863,8 @@ totem-gir.tcz
                      libjpeg-turbo.tcz
                      liblzma.tcz  
                   shared-mime-info.tcz 
-               libXcomposite.tcz
-                  libX11.tcz
-                     libxcb.tcz
-                        libXau.tcz
-                        libXdmcp.tcz
                pango.tcz
                   cairo.tcz
-                     glib2.tcz
-                        gamin.tcz
-                        libelf.tcz
-                        pcre2.tcz
                      fontconfig.tcz
                         expat2.tcz
                         freetype.tcz
@@ -5411,81 +3876,15 @@ totem-gir.tcz
                                  pcre2.tcz
                               graphite2.tcz
                            bzip2-lib.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
                      pixman.tcz
-                     libpng.tcz
-                     libEGL.tcz
-                        mesa.tcz
-                           libdrm.tcz
-                              libpciaccess.tcz
-                              udev-lib.tcz
-                           llvm15-lib.tcz
-                              gcc_libs.tcz
-                              libxml2.tcz
-                                 liblzma.tcz
-                              ncurses.tcz
-                              zstd.tcz
-                                 libzstd.tcz
-                                 liblzma.tcz
-                                 liblz4.tcz
-                           expat2.tcz
-                           libzstd.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                           libXxf86vm.tcz
-                              libXext.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
-                           libxshmfence.tcz
-                        wayland.tcz
-                           expat2.tcz
-                           libxml2.tcz
-                              liblzma.tcz
-                     libGLES.tcz
-                        mesa.tcz
-                           libdrm.tcz
-                              libpciaccess.tcz
-                              udev-lib.tcz
-                           llvm15-lib.tcz
-                              gcc_libs.tcz
-                              libxml2.tcz
-                                 liblzma.tcz
-                              ncurses.tcz
-                              zstd.tcz
-                                 libzstd.tcz
-                                 liblzma.tcz
-                                 liblz4.tcz
-                           expat2.tcz
-                           libzstd.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                           libXxf86vm.tcz
-                              libXext.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
-                           libxshmfence.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                     libXext.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                     libXrender.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
+                     glib2.tcz
+                        gamin.tcz
+                        libelf.tcz
+                        pcre2.tcz
                   libXft.tcz
                      fontconfig.tcz
                         expat2.tcz
@@ -5517,6 +3916,11 @@ totem-gir.tcz
                         gamin.tcz
                         libelf.tcz
                         pcre2.tcz
+               libXcomposite.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
                libXcursor.tcz
                   libXrender.tcz
                      libX11.tcz
@@ -5541,12 +3945,6 @@ totem-gir.tcz
                            libXau.tcz
                            libXdmcp.tcz
                   libXrender.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-               libXi.tcz
-                  libXext.tcz
                      libX11.tcz
                         libxcb.tcz
                            libXau.tcz
@@ -5595,6 +3993,21 @@ totem-gir.tcz
                      libelf.tcz
                      pcre2.tcz
             at-spi2-core-gir.tcz
+               gobject-introspection.tcz
+                  python3.11.tcz
+                     bzip2-lib.tcz
+                     readline.tcz
+                        ncurses.tcz
+                     gdbm.tcz
+                     liblzma.tcz
+                     openssl.tcz
+                        ca-certificates.tcz
+                     sqlite3.tcz
+                     ncurses.tcz
+                  glib2.tcz
+                     gamin.tcz
+                     libelf.tcz
+                     pcre2.tcz
                at-spi2-core.tcz
                   dbus.tcz
                      expat2.tcz
@@ -5608,56 +4021,16 @@ totem-gir.tcz
                      gamin.tcz
                      libelf.tcz
                      pcre2.tcz
-                  libICE.tcz
-                  libSM.tcz
-                     libICE.tcz
-                  libX11.tcz
-                     libxcb.tcz
-                        libXau.tcz
-                        libXdmcp.tcz
-               gobject-introspection.tcz
-                  python3.11.tcz
-                     bzip2-lib.tcz
-                     readline.tcz
-                        ncurses.tcz
-                     gdbm.tcz
-                     liblzma.tcz
-                     openssl.tcz
-                        ca-certificates.tcz
-                     sqlite3.tcz
-                     ncurses.tcz
-                  glib2.tcz
-                     gamin.tcz
-                     libelf.tcz
-                     pcre2.tcz
-            atk-gir.tcz
-               atk.tcz
-                  glib2.tcz
-                     gamin.tcz
-                     libelf.tcz
-                     pcre2.tcz
-               gobject-introspection.tcz
-                  python3.11.tcz
-                     bzip2-lib.tcz
-                     readline.tcz
-                        ncurses.tcz
-                     gdbm.tcz
-                     liblzma.tcz
-                     openssl.tcz
-                        ca-certificates.tcz
-                     sqlite3.tcz
-                     ncurses.tcz
-                  glib2.tcz
-                     gamin.tcz
-                     libelf.tcz
-                     pcre2.tcz
+                  libXtst.tcz
+                     libXi.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
             pango-gir.tcz
                pango.tcz
                   cairo.tcz
-                     glib2.tcz
-                        gamin.tcz
-                        libelf.tcz
-                        pcre2.tcz
                      fontconfig.tcz
                         expat2.tcz
                         freetype.tcz
@@ -5669,81 +4042,15 @@ totem-gir.tcz
                                  pcre2.tcz
                               graphite2.tcz
                            bzip2-lib.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
                      pixman.tcz
-                     libpng.tcz
-                     libEGL.tcz
-                        mesa.tcz
-                           libdrm.tcz
-                              libpciaccess.tcz
-                              udev-lib.tcz
-                           llvm15-lib.tcz
-                              gcc_libs.tcz
-                              libxml2.tcz
-                                 liblzma.tcz
-                              ncurses.tcz
-                              zstd.tcz
-                                 libzstd.tcz
-                                 liblzma.tcz
-                                 liblz4.tcz
-                           expat2.tcz
-                           libzstd.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                           libXxf86vm.tcz
-                              libXext.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
-                           libxshmfence.tcz
-                        wayland.tcz
-                           expat2.tcz
-                           libxml2.tcz
-                              liblzma.tcz
-                     libGLES.tcz
-                        mesa.tcz
-                           libdrm.tcz
-                              libpciaccess.tcz
-                              udev-lib.tcz
-                           llvm15-lib.tcz
-                              gcc_libs.tcz
-                              libxml2.tcz
-                                 liblzma.tcz
-                              ncurses.tcz
-                              zstd.tcz
-                                 libzstd.tcz
-                                 liblzma.tcz
-                                 liblz4.tcz
-                           expat2.tcz
-                           libzstd.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                           libXxf86vm.tcz
-                              libXext.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
-                           libxshmfence.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                     libXext.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                     libXrender.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
+                     glib2.tcz
+                        gamin.tcz
+                        libelf.tcz
+                        pcre2.tcz
                   libXft.tcz
                      fontconfig.tcz
                         expat2.tcz
@@ -5775,21 +4082,28 @@ totem-gir.tcz
                         gamin.tcz
                         libelf.tcz
                         pcre2.tcz
-               gobject-introspection.tcz
-                  python3.11.tcz
-                     bzip2-lib.tcz
-                     readline.tcz
+               harfbuzz-gir.tcz
+                  harfbuzz.tcz
+                     glib2.tcz
+                        gamin.tcz
+                        libelf.tcz
+                        pcre2.tcz
+                     graphite2.tcz
+                  gobject-introspection.tcz
+                     python3.11.tcz
+                        bzip2-lib.tcz
+                        readline.tcz
+                           ncurses.tcz
+                        gdbm.tcz
+                        liblzma.tcz
+                        openssl.tcz
+                           ca-certificates.tcz
+                        sqlite3.tcz
                         ncurses.tcz
-                     gdbm.tcz
-                     liblzma.tcz
-                     openssl.tcz
-                        ca-certificates.tcz
-                     sqlite3.tcz
-                     ncurses.tcz
-                  glib2.tcz
-                     gamin.tcz
-                     libelf.tcz
-                     pcre2.tcz
+                     glib2.tcz
+                        gamin.tcz
+                        libelf.tcz
+                        pcre2.tcz
    clutter-gst-gir.tcz
       clutter-gst.tcz
          clutter.tcz
@@ -5806,10 +4120,6 @@ totem-gir.tcz
                   shared-mime-info.tcz 
                pango.tcz
                   cairo.tcz
-                     glib2.tcz
-                        gamin.tcz
-                        libelf.tcz
-                        pcre2.tcz
                      fontconfig.tcz
                         expat2.tcz
                         freetype.tcz
@@ -5821,81 +4131,15 @@ totem-gir.tcz
                                  pcre2.tcz
                               graphite2.tcz
                            bzip2-lib.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
                      pixman.tcz
-                     libpng.tcz
-                     libEGL.tcz
-                        mesa.tcz
-                           libdrm.tcz
-                              libpciaccess.tcz
-                              udev-lib.tcz
-                           llvm15-lib.tcz
-                              gcc_libs.tcz
-                              libxml2.tcz
-                                 liblzma.tcz
-                              ncurses.tcz
-                              zstd.tcz
-                                 libzstd.tcz
-                                 liblzma.tcz
-                                 liblz4.tcz
-                           expat2.tcz
-                           libzstd.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                           libXxf86vm.tcz
-                              libXext.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
-                           libxshmfence.tcz
-                        wayland.tcz
-                           expat2.tcz
-                           libxml2.tcz
-                              liblzma.tcz
-                     libGLES.tcz
-                        mesa.tcz
-                           libdrm.tcz
-                              libpciaccess.tcz
-                              udev-lib.tcz
-                           llvm15-lib.tcz
-                              gcc_libs.tcz
-                              libxml2.tcz
-                                 liblzma.tcz
-                              ncurses.tcz
-                              zstd.tcz
-                                 libzstd.tcz
-                                 liblzma.tcz
-                                 liblz4.tcz
-                           expat2.tcz
-                           libzstd.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                           libXxf86vm.tcz
-                              libXext.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
-                           libxshmfence.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                     libXext.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                     libXrender.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
+                     glib2.tcz
+                        gamin.tcz
+                        libelf.tcz
+                        pcre2.tcz
                   libXft.tcz
                      fontconfig.tcz
                         expat2.tcz
@@ -6164,40 +4408,27 @@ totem-gir.tcz
                   libelf.tcz
                   pcre2.tcz
             gtk3.tcz
-               shared-mime-info.tcz
-                  glib2.tcz
-                     gamin.tcz
-                     libelf.tcz
-                     pcre2.tcz
-                  libxml2.tcz
-                     liblzma.tcz
                libepoxy.tcz
-               at-spi2-atk.tcz
-                  at-spi2-core.tcz
-                     dbus.tcz
-                        expat2.tcz
-                        libSM.tcz
-                           libICE.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                     glib2.tcz
-                        gamin.tcz
-                        libelf.tcz
-                        pcre2.tcz
-                     libICE.tcz
+               at-spi2-core.tcz
+                  dbus.tcz
+                     expat2.tcz
                      libSM.tcz
                         libICE.tcz
                      libX11.tcz
                         libxcb.tcz
                            libXau.tcz
                            libXdmcp.tcz
-                  atk.tcz
-                     glib2.tcz
-                        gamin.tcz
-                        libelf.tcz
-                        pcre2.tcz
+                  glib2.tcz
+                     gamin.tcz
+                     libelf.tcz
+                     pcre2.tcz
+                  libXtst.tcz
+                     libXi.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
                gdk-pixbuf.tcz
                   glib2.tcz
                      gamin.tcz
@@ -6208,17 +4439,8 @@ totem-gir.tcz
                      libjpeg-turbo.tcz
                      liblzma.tcz  
                   shared-mime-info.tcz 
-               libXcomposite.tcz
-                  libX11.tcz
-                     libxcb.tcz
-                        libXau.tcz
-                        libXdmcp.tcz
                pango.tcz
                   cairo.tcz
-                     glib2.tcz
-                        gamin.tcz
-                        libelf.tcz
-                        pcre2.tcz
                      fontconfig.tcz
                         expat2.tcz
                         freetype.tcz
@@ -6230,81 +4452,15 @@ totem-gir.tcz
                                  pcre2.tcz
                               graphite2.tcz
                            bzip2-lib.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
                      pixman.tcz
-                     libpng.tcz
-                     libEGL.tcz
-                        mesa.tcz
-                           libdrm.tcz
-                              libpciaccess.tcz
-                              udev-lib.tcz
-                           llvm15-lib.tcz
-                              gcc_libs.tcz
-                              libxml2.tcz
-                                 liblzma.tcz
-                              ncurses.tcz
-                              zstd.tcz
-                                 libzstd.tcz
-                                 liblzma.tcz
-                                 liblz4.tcz
-                           expat2.tcz
-                           libzstd.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                           libXxf86vm.tcz
-                              libXext.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
-                           libxshmfence.tcz
-                        wayland.tcz
-                           expat2.tcz
-                           libxml2.tcz
-                              liblzma.tcz
-                     libGLES.tcz
-                        mesa.tcz
-                           libdrm.tcz
-                              libpciaccess.tcz
-                              udev-lib.tcz
-                           llvm15-lib.tcz
-                              gcc_libs.tcz
-                              libxml2.tcz
-                                 liblzma.tcz
-                              ncurses.tcz
-                              zstd.tcz
-                                 libzstd.tcz
-                                 liblzma.tcz
-                                 liblz4.tcz
-                           expat2.tcz
-                           libzstd.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                           libXxf86vm.tcz
-                              libXext.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
-                           libxshmfence.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                     libXext.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                     libXrender.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
+                     glib2.tcz
+                        gamin.tcz
+                        libelf.tcz
+                        pcre2.tcz
                   libXft.tcz
                      fontconfig.tcz
                         expat2.tcz
@@ -6336,6 +4492,11 @@ totem-gir.tcz
                         gamin.tcz
                         libelf.tcz
                         pcre2.tcz
+               libXcomposite.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
                libXcursor.tcz
                   libXrender.tcz
                      libX11.tcz
@@ -6360,12 +4521,6 @@ totem-gir.tcz
                            libXau.tcz
                            libXdmcp.tcz
                   libXrender.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-               libXi.tcz
-                  libXext.tcz
                      libX11.tcz
                         libxcb.tcz
                            libXau.tcz
@@ -6464,10 +4619,6 @@ totem-gir.tcz
                   shared-mime-info.tcz 
                pango.tcz
                   cairo.tcz
-                     glib2.tcz
-                        gamin.tcz
-                        libelf.tcz
-                        pcre2.tcz
                      fontconfig.tcz
                         expat2.tcz
                         freetype.tcz
@@ -6479,81 +4630,15 @@ totem-gir.tcz
                                  pcre2.tcz
                               graphite2.tcz
                            bzip2-lib.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
                      pixman.tcz
-                     libpng.tcz
-                     libEGL.tcz
-                        mesa.tcz
-                           libdrm.tcz
-                              libpciaccess.tcz
-                              udev-lib.tcz
-                           llvm15-lib.tcz
-                              gcc_libs.tcz
-                              libxml2.tcz
-                                 liblzma.tcz
-                              ncurses.tcz
-                              zstd.tcz
-                                 libzstd.tcz
-                                 liblzma.tcz
-                                 liblz4.tcz
-                           expat2.tcz
-                           libzstd.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                           libXxf86vm.tcz
-                              libXext.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
-                           libxshmfence.tcz
-                        wayland.tcz
-                           expat2.tcz
-                           libxml2.tcz
-                              liblzma.tcz
-                     libGLES.tcz
-                        mesa.tcz
-                           libdrm.tcz
-                              libpciaccess.tcz
-                              udev-lib.tcz
-                           llvm15-lib.tcz
-                              gcc_libs.tcz
-                              libxml2.tcz
-                                 liblzma.tcz
-                              ncurses.tcz
-                              zstd.tcz
-                                 libzstd.tcz
-                                 liblzma.tcz
-                                 liblz4.tcz
-                           expat2.tcz
-                           libzstd.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                           libXxf86vm.tcz
-                              libXext.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
-                           libxshmfence.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                     libXext.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                     libXrender.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
+                     glib2.tcz
+                        gamin.tcz
+                        libelf.tcz
+                        pcre2.tcz
                   libXft.tcz
                      fontconfig.tcz
                         expat2.tcz
@@ -6822,40 +4907,27 @@ totem-gir.tcz
                   libelf.tcz
                   pcre2.tcz
             gtk3.tcz
-               shared-mime-info.tcz
-                  glib2.tcz
-                     gamin.tcz
-                     libelf.tcz
-                     pcre2.tcz
-                  libxml2.tcz
-                     liblzma.tcz
                libepoxy.tcz
-               at-spi2-atk.tcz
-                  at-spi2-core.tcz
-                     dbus.tcz
-                        expat2.tcz
-                        libSM.tcz
-                           libICE.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                     glib2.tcz
-                        gamin.tcz
-                        libelf.tcz
-                        pcre2.tcz
-                     libICE.tcz
+               at-spi2-core.tcz
+                  dbus.tcz
+                     expat2.tcz
                      libSM.tcz
                         libICE.tcz
                      libX11.tcz
                         libxcb.tcz
                            libXau.tcz
                            libXdmcp.tcz
-                  atk.tcz
-                     glib2.tcz
-                        gamin.tcz
-                        libelf.tcz
-                        pcre2.tcz
+                  glib2.tcz
+                     gamin.tcz
+                     libelf.tcz
+                     pcre2.tcz
+                  libXtst.tcz
+                     libXi.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
                gdk-pixbuf.tcz
                   glib2.tcz
                      gamin.tcz
@@ -6866,17 +4938,8 @@ totem-gir.tcz
                      libjpeg-turbo.tcz
                      liblzma.tcz  
                   shared-mime-info.tcz 
-               libXcomposite.tcz
-                  libX11.tcz
-                     libxcb.tcz
-                        libXau.tcz
-                        libXdmcp.tcz
                pango.tcz
                   cairo.tcz
-                     glib2.tcz
-                        gamin.tcz
-                        libelf.tcz
-                        pcre2.tcz
                      fontconfig.tcz
                         expat2.tcz
                         freetype.tcz
@@ -6888,81 +4951,15 @@ totem-gir.tcz
                                  pcre2.tcz
                               graphite2.tcz
                            bzip2-lib.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
                      pixman.tcz
-                     libpng.tcz
-                     libEGL.tcz
-                        mesa.tcz
-                           libdrm.tcz
-                              libpciaccess.tcz
-                              udev-lib.tcz
-                           llvm15-lib.tcz
-                              gcc_libs.tcz
-                              libxml2.tcz
-                                 liblzma.tcz
-                              ncurses.tcz
-                              zstd.tcz
-                                 libzstd.tcz
-                                 liblzma.tcz
-                                 liblz4.tcz
-                           expat2.tcz
-                           libzstd.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                           libXxf86vm.tcz
-                              libXext.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
-                           libxshmfence.tcz
-                        wayland.tcz
-                           expat2.tcz
-                           libxml2.tcz
-                              liblzma.tcz
-                     libGLES.tcz
-                        mesa.tcz
-                           libdrm.tcz
-                              libpciaccess.tcz
-                              udev-lib.tcz
-                           llvm15-lib.tcz
-                              gcc_libs.tcz
-                              libxml2.tcz
-                                 liblzma.tcz
-                              ncurses.tcz
-                              zstd.tcz
-                                 libzstd.tcz
-                                 liblzma.tcz
-                                 liblz4.tcz
-                           expat2.tcz
-                           libzstd.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                           libXxf86vm.tcz
-                              libXext.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
-                           libxshmfence.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                     libXext.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                     libXrender.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
+                     glib2.tcz
+                        gamin.tcz
+                        libelf.tcz
+                        pcre2.tcz
                   libXft.tcz
                      fontconfig.tcz
                         expat2.tcz
@@ -6994,6 +4991,11 @@ totem-gir.tcz
                         gamin.tcz
                         libelf.tcz
                         pcre2.tcz
+               libXcomposite.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
                libXcursor.tcz
                   libXrender.tcz
                      libX11.tcz
@@ -7018,12 +5020,6 @@ totem-gir.tcz
                            libXau.tcz
                            libXdmcp.tcz
                   libXrender.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-               libXi.tcz
-                  libXext.tcz
                      libX11.tcz
                         libxcb.tcz
                            libXau.tcz
@@ -7069,10 +5065,6 @@ totem-gir.tcz
                   shared-mime-info.tcz 
                pango.tcz
                   cairo.tcz
-                     glib2.tcz
-                        gamin.tcz
-                        libelf.tcz
-                        pcre2.tcz
                      fontconfig.tcz
                         expat2.tcz
                         freetype.tcz
@@ -7084,81 +5076,15 @@ totem-gir.tcz
                                  pcre2.tcz
                               graphite2.tcz
                            bzip2-lib.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
                      pixman.tcz
-                     libpng.tcz
-                     libEGL.tcz
-                        mesa.tcz
-                           libdrm.tcz
-                              libpciaccess.tcz
-                              udev-lib.tcz
-                           llvm15-lib.tcz
-                              gcc_libs.tcz
-                              libxml2.tcz
-                                 liblzma.tcz
-                              ncurses.tcz
-                              zstd.tcz
-                                 libzstd.tcz
-                                 liblzma.tcz
-                                 liblz4.tcz
-                           expat2.tcz
-                           libzstd.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                           libXxf86vm.tcz
-                              libXext.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
-                           libxshmfence.tcz
-                        wayland.tcz
-                           expat2.tcz
-                           libxml2.tcz
-                              liblzma.tcz
-                     libGLES.tcz
-                        mesa.tcz
-                           libdrm.tcz
-                              libpciaccess.tcz
-                              udev-lib.tcz
-                           llvm15-lib.tcz
-                              gcc_libs.tcz
-                              libxml2.tcz
-                                 liblzma.tcz
-                              ncurses.tcz
-                              zstd.tcz
-                                 libzstd.tcz
-                                 liblzma.tcz
-                                 liblz4.tcz
-                           expat2.tcz
-                           libzstd.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                           libXxf86vm.tcz
-                              libXext.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
-                           libxshmfence.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                     libXext.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                     libXrender.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
+                     glib2.tcz
+                        gamin.tcz
+                        libelf.tcz
+                        pcre2.tcz
                   libXft.tcz
                      fontconfig.tcz
                         expat2.tcz
@@ -7424,10 +5350,6 @@ totem-gir.tcz
             pango-gir.tcz
                pango.tcz
                   cairo.tcz
-                     glib2.tcz
-                        gamin.tcz
-                        libelf.tcz
-                        pcre2.tcz
                      fontconfig.tcz
                         expat2.tcz
                         freetype.tcz
@@ -7439,81 +5361,15 @@ totem-gir.tcz
                                  pcre2.tcz
                               graphite2.tcz
                            bzip2-lib.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
                      pixman.tcz
-                     libpng.tcz
-                     libEGL.tcz
-                        mesa.tcz
-                           libdrm.tcz
-                              libpciaccess.tcz
-                              udev-lib.tcz
-                           llvm15-lib.tcz
-                              gcc_libs.tcz
-                              libxml2.tcz
-                                 liblzma.tcz
-                              ncurses.tcz
-                              zstd.tcz
-                                 libzstd.tcz
-                                 liblzma.tcz
-                                 liblz4.tcz
-                           expat2.tcz
-                           libzstd.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                           libXxf86vm.tcz
-                              libXext.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
-                           libxshmfence.tcz
-                        wayland.tcz
-                           expat2.tcz
-                           libxml2.tcz
-                              liblzma.tcz
-                     libGLES.tcz
-                        mesa.tcz
-                           libdrm.tcz
-                              libpciaccess.tcz
-                              udev-lib.tcz
-                           llvm15-lib.tcz
-                              gcc_libs.tcz
-                              libxml2.tcz
-                                 liblzma.tcz
-                              ncurses.tcz
-                              zstd.tcz
-                                 libzstd.tcz
-                                 liblzma.tcz
-                                 liblz4.tcz
-                           expat2.tcz
-                           libzstd.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                           libXxf86vm.tcz
-                              libXext.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
-                           libxshmfence.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                     libXext.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                     libXrender.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
+                     glib2.tcz
+                        gamin.tcz
+                        libelf.tcz
+                        pcre2.tcz
                   libXft.tcz
                      fontconfig.tcz
                         expat2.tcz
@@ -7545,21 +5401,28 @@ totem-gir.tcz
                         gamin.tcz
                         libelf.tcz
                         pcre2.tcz
-               gobject-introspection.tcz
-                  python3.11.tcz
-                     bzip2-lib.tcz
-                     readline.tcz
+               harfbuzz-gir.tcz
+                  harfbuzz.tcz
+                     glib2.tcz
+                        gamin.tcz
+                        libelf.tcz
+                        pcre2.tcz
+                     graphite2.tcz
+                  gobject-introspection.tcz
+                     python3.11.tcz
+                        bzip2-lib.tcz
+                        readline.tcz
+                           ncurses.tcz
+                        gdbm.tcz
+                        liblzma.tcz
+                        openssl.tcz
+                           ca-certificates.tcz
+                        sqlite3.tcz
                         ncurses.tcz
-                     gdbm.tcz
-                     liblzma.tcz
-                     openssl.tcz
-                        ca-certificates.tcz
-                     sqlite3.tcz
-                     ncurses.tcz
-                  glib2.tcz
-                     gamin.tcz
-                     libelf.tcz
-                     pcre2.tcz
+                     glib2.tcz
+                        gamin.tcz
+                        libelf.tcz
+                        pcre2.tcz
             gdk-pixbuf-gir.tcz
                gdk-pixbuf.tcz
                   glib2.tcz
@@ -7646,40 +5509,27 @@ totem-gir.tcz
                   pcre2.tcz
          gtk3-gir.tcz
             gtk3.tcz
-               shared-mime-info.tcz
-                  glib2.tcz
-                     gamin.tcz
-                     libelf.tcz
-                     pcre2.tcz
-                  libxml2.tcz
-                     liblzma.tcz
                libepoxy.tcz
-               at-spi2-atk.tcz
-                  at-spi2-core.tcz
-                     dbus.tcz
-                        expat2.tcz
-                        libSM.tcz
-                           libICE.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                     glib2.tcz
-                        gamin.tcz
-                        libelf.tcz
-                        pcre2.tcz
-                     libICE.tcz
+               at-spi2-core.tcz
+                  dbus.tcz
+                     expat2.tcz
                      libSM.tcz
                         libICE.tcz
                      libX11.tcz
                         libxcb.tcz
                            libXau.tcz
                            libXdmcp.tcz
-                  atk.tcz
-                     glib2.tcz
-                        gamin.tcz
-                        libelf.tcz
-                        pcre2.tcz
+                  glib2.tcz
+                     gamin.tcz
+                     libelf.tcz
+                     pcre2.tcz
+                  libXtst.tcz
+                     libXi.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
                gdk-pixbuf.tcz
                   glib2.tcz
                      gamin.tcz
@@ -7690,17 +5540,8 @@ totem-gir.tcz
                      libjpeg-turbo.tcz
                      liblzma.tcz  
                   shared-mime-info.tcz 
-               libXcomposite.tcz
-                  libX11.tcz
-                     libxcb.tcz
-                        libXau.tcz
-                        libXdmcp.tcz
                pango.tcz
                   cairo.tcz
-                     glib2.tcz
-                        gamin.tcz
-                        libelf.tcz
-                        pcre2.tcz
                      fontconfig.tcz
                         expat2.tcz
                         freetype.tcz
@@ -7712,81 +5553,15 @@ totem-gir.tcz
                                  pcre2.tcz
                               graphite2.tcz
                            bzip2-lib.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
                      pixman.tcz
-                     libpng.tcz
-                     libEGL.tcz
-                        mesa.tcz
-                           libdrm.tcz
-                              libpciaccess.tcz
-                              udev-lib.tcz
-                           llvm15-lib.tcz
-                              gcc_libs.tcz
-                              libxml2.tcz
-                                 liblzma.tcz
-                              ncurses.tcz
-                              zstd.tcz
-                                 libzstd.tcz
-                                 liblzma.tcz
-                                 liblz4.tcz
-                           expat2.tcz
-                           libzstd.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                           libXxf86vm.tcz
-                              libXext.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
-                           libxshmfence.tcz
-                        wayland.tcz
-                           expat2.tcz
-                           libxml2.tcz
-                              liblzma.tcz
-                     libGLES.tcz
-                        mesa.tcz
-                           libdrm.tcz
-                              libpciaccess.tcz
-                              udev-lib.tcz
-                           llvm15-lib.tcz
-                              gcc_libs.tcz
-                              libxml2.tcz
-                                 liblzma.tcz
-                              ncurses.tcz
-                              zstd.tcz
-                                 libzstd.tcz
-                                 liblzma.tcz
-                                 liblz4.tcz
-                           expat2.tcz
-                           libzstd.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                           libXxf86vm.tcz
-                              libXext.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
-                           libxshmfence.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                     libXext.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                     libXrender.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
+                     glib2.tcz
+                        gamin.tcz
+                        libelf.tcz
+                        pcre2.tcz
                   libXft.tcz
                      fontconfig.tcz
                         expat2.tcz
@@ -7818,6 +5593,11 @@ totem-gir.tcz
                         gamin.tcz
                         libelf.tcz
                         pcre2.tcz
+               libXcomposite.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
                libXcursor.tcz
                   libXrender.tcz
                      libX11.tcz
@@ -7842,12 +5622,6 @@ totem-gir.tcz
                            libXau.tcz
                            libXdmcp.tcz
                   libXrender.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-               libXi.tcz
-                  libXext.tcz
                      libX11.tcz
                         libxcb.tcz
                            libXau.tcz
@@ -7896,6 +5670,21 @@ totem-gir.tcz
                      libelf.tcz
                      pcre2.tcz
             at-spi2-core-gir.tcz
+               gobject-introspection.tcz
+                  python3.11.tcz
+                     bzip2-lib.tcz
+                     readline.tcz
+                        ncurses.tcz
+                     gdbm.tcz
+                     liblzma.tcz
+                     openssl.tcz
+                        ca-certificates.tcz
+                     sqlite3.tcz
+                     ncurses.tcz
+                  glib2.tcz
+                     gamin.tcz
+                     libelf.tcz
+                     pcre2.tcz
                at-spi2-core.tcz
                   dbus.tcz
                      expat2.tcz
@@ -7909,56 +5698,16 @@ totem-gir.tcz
                      gamin.tcz
                      libelf.tcz
                      pcre2.tcz
-                  libICE.tcz
-                  libSM.tcz
-                     libICE.tcz
-                  libX11.tcz
-                     libxcb.tcz
-                        libXau.tcz
-                        libXdmcp.tcz
-               gobject-introspection.tcz
-                  python3.11.tcz
-                     bzip2-lib.tcz
-                     readline.tcz
-                        ncurses.tcz
-                     gdbm.tcz
-                     liblzma.tcz
-                     openssl.tcz
-                        ca-certificates.tcz
-                     sqlite3.tcz
-                     ncurses.tcz
-                  glib2.tcz
-                     gamin.tcz
-                     libelf.tcz
-                     pcre2.tcz
-            atk-gir.tcz
-               atk.tcz
-                  glib2.tcz
-                     gamin.tcz
-                     libelf.tcz
-                     pcre2.tcz
-               gobject-introspection.tcz
-                  python3.11.tcz
-                     bzip2-lib.tcz
-                     readline.tcz
-                        ncurses.tcz
-                     gdbm.tcz
-                     liblzma.tcz
-                     openssl.tcz
-                        ca-certificates.tcz
-                     sqlite3.tcz
-                     ncurses.tcz
-                  glib2.tcz
-                     gamin.tcz
-                     libelf.tcz
-                     pcre2.tcz
+                  libXtst.tcz
+                     libXi.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
             pango-gir.tcz
                pango.tcz
                   cairo.tcz
-                     glib2.tcz
-                        gamin.tcz
-                        libelf.tcz
-                        pcre2.tcz
                      fontconfig.tcz
                         expat2.tcz
                         freetype.tcz
@@ -7970,81 +5719,15 @@ totem-gir.tcz
                                  pcre2.tcz
                               graphite2.tcz
                            bzip2-lib.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
                      pixman.tcz
-                     libpng.tcz
-                     libEGL.tcz
-                        mesa.tcz
-                           libdrm.tcz
-                              libpciaccess.tcz
-                              udev-lib.tcz
-                           llvm15-lib.tcz
-                              gcc_libs.tcz
-                              libxml2.tcz
-                                 liblzma.tcz
-                              ncurses.tcz
-                              zstd.tcz
-                                 libzstd.tcz
-                                 liblzma.tcz
-                                 liblz4.tcz
-                           expat2.tcz
-                           libzstd.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                           libXxf86vm.tcz
-                              libXext.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
-                           libxshmfence.tcz
-                        wayland.tcz
-                           expat2.tcz
-                           libxml2.tcz
-                              liblzma.tcz
-                     libGLES.tcz
-                        mesa.tcz
-                           libdrm.tcz
-                              libpciaccess.tcz
-                              udev-lib.tcz
-                           llvm15-lib.tcz
-                              gcc_libs.tcz
-                              libxml2.tcz
-                                 liblzma.tcz
-                              ncurses.tcz
-                              zstd.tcz
-                                 libzstd.tcz
-                                 liblzma.tcz
-                                 liblz4.tcz
-                           expat2.tcz
-                           libzstd.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                           libXxf86vm.tcz
-                              libXext.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
-                           libxshmfence.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                     libXext.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                     libXrender.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
+                     glib2.tcz
+                        gamin.tcz
+                        libelf.tcz
+                        pcre2.tcz
                   libXft.tcz
                      fontconfig.tcz
                         expat2.tcz
@@ -8076,21 +5759,28 @@ totem-gir.tcz
                         gamin.tcz
                         libelf.tcz
                         pcre2.tcz
-               gobject-introspection.tcz
-                  python3.11.tcz
-                     bzip2-lib.tcz
-                     readline.tcz
+               harfbuzz-gir.tcz
+                  harfbuzz.tcz
+                     glib2.tcz
+                        gamin.tcz
+                        libelf.tcz
+                        pcre2.tcz
+                     graphite2.tcz
+                  gobject-introspection.tcz
+                     python3.11.tcz
+                        bzip2-lib.tcz
+                        readline.tcz
+                           ncurses.tcz
+                        gdbm.tcz
+                        liblzma.tcz
+                        openssl.tcz
+                           ca-certificates.tcz
+                        sqlite3.tcz
                         ncurses.tcz
-                     gdbm.tcz
-                     liblzma.tcz
-                     openssl.tcz
-                        ca-certificates.tcz
-                     sqlite3.tcz
-                     ncurses.tcz
-                  glib2.tcz
-                     gamin.tcz
-                     libelf.tcz
-                     pcre2.tcz
+                     glib2.tcz
+                        gamin.tcz
+                        libelf.tcz
+                        pcre2.tcz
       gst-plugins-bad-gir.tcz
          gst-plugins-bad.tcz
             gst-plugins-base.tcz
@@ -8184,40 +5874,27 @@ totem-gir.tcz
    libpeas-gir.tcz
       libpeas.tcz
          gtk3.tcz
-            shared-mime-info.tcz
-               glib2.tcz
-                  gamin.tcz
-                  libelf.tcz
-                  pcre2.tcz
-               libxml2.tcz
-                  liblzma.tcz
             libepoxy.tcz
-            at-spi2-atk.tcz
-               at-spi2-core.tcz
-                  dbus.tcz
-                     expat2.tcz
-                     libSM.tcz
-                        libICE.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-                  glib2.tcz
-                     gamin.tcz
-                     libelf.tcz
-                     pcre2.tcz
-                  libICE.tcz
+            at-spi2-core.tcz
+               dbus.tcz
+                  expat2.tcz
                   libSM.tcz
                      libICE.tcz
                   libX11.tcz
                      libxcb.tcz
                         libXau.tcz
                         libXdmcp.tcz
-               atk.tcz
-                  glib2.tcz
-                     gamin.tcz
-                     libelf.tcz
-                     pcre2.tcz
+               glib2.tcz
+                  gamin.tcz
+                  libelf.tcz
+                  pcre2.tcz
+               libXtst.tcz
+                  libXi.tcz
+                     libXext.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
             gdk-pixbuf.tcz
                glib2.tcz
                   gamin.tcz
@@ -8228,17 +5905,8 @@ totem-gir.tcz
                   libjpeg-turbo.tcz
                   liblzma.tcz  
                shared-mime-info.tcz 
-            libXcomposite.tcz
-               libX11.tcz
-                  libxcb.tcz
-                     libXau.tcz
-                     libXdmcp.tcz
             pango.tcz
                cairo.tcz
-                  glib2.tcz
-                     gamin.tcz
-                     libelf.tcz
-                     pcre2.tcz
                   fontconfig.tcz
                      expat2.tcz
                      freetype.tcz
@@ -8250,81 +5918,15 @@ totem-gir.tcz
                               pcre2.tcz
                            graphite2.tcz
                         bzip2-lib.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
                   pixman.tcz
-                  libpng.tcz
-                  libEGL.tcz
-                     mesa.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                        llvm15-lib.tcz
-                           gcc_libs.tcz
-                           libxml2.tcz
-                              liblzma.tcz
-                           ncurses.tcz
-                           zstd.tcz
-                              libzstd.tcz
-                              liblzma.tcz
-                              liblz4.tcz
-                        expat2.tcz
-                        libzstd.tcz
-                        libXfixes.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                        libXxf86vm.tcz
-                           libXext.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        libxshmfence.tcz
-                     wayland.tcz
-                        expat2.tcz
-                        libxml2.tcz
-                           liblzma.tcz
-                  libGLES.tcz
-                     mesa.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                        llvm15-lib.tcz
-                           gcc_libs.tcz
-                           libxml2.tcz
-                              liblzma.tcz
-                           ncurses.tcz
-                           zstd.tcz
-                              libzstd.tcz
-                              liblzma.tcz
-                              liblz4.tcz
-                        expat2.tcz
-                        libzstd.tcz
-                        libXfixes.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                        libXxf86vm.tcz
-                           libXext.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        libxshmfence.tcz
-                     libdrm.tcz
-                        libpciaccess.tcz
-                        udev-lib.tcz
-                  libXext.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-                  libXrender.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
+                  glib2.tcz
+                     gamin.tcz
+                     libelf.tcz
+                     pcre2.tcz
                libXft.tcz
                   fontconfig.tcz
                      expat2.tcz
@@ -8356,6 +5958,11 @@ totem-gir.tcz
                      gamin.tcz
                      libelf.tcz
                      pcre2.tcz
+            libXcomposite.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
             libXcursor.tcz
                libXrender.tcz
                   libX11.tcz
@@ -8380,12 +5987,6 @@ totem-gir.tcz
                         libXau.tcz
                         libXdmcp.tcz
                libXrender.tcz
-                  libX11.tcz
-                     libxcb.tcz
-                        libXau.tcz
-                        libXdmcp.tcz
-            libXi.tcz
-               libXext.tcz
                   libX11.tcz
                      libxcb.tcz
                         libXau.tcz
@@ -8424,40 +6025,27 @@ totem-gir.tcz
                pcre2.tcz
       gtk3-gir.tcz
          gtk3.tcz
-            shared-mime-info.tcz
-               glib2.tcz
-                  gamin.tcz
-                  libelf.tcz
-                  pcre2.tcz
-               libxml2.tcz
-                  liblzma.tcz
             libepoxy.tcz
-            at-spi2-atk.tcz
-               at-spi2-core.tcz
-                  dbus.tcz
-                     expat2.tcz
-                     libSM.tcz
-                        libICE.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-                  glib2.tcz
-                     gamin.tcz
-                     libelf.tcz
-                     pcre2.tcz
-                  libICE.tcz
+            at-spi2-core.tcz
+               dbus.tcz
+                  expat2.tcz
                   libSM.tcz
                      libICE.tcz
                   libX11.tcz
                      libxcb.tcz
                         libXau.tcz
                         libXdmcp.tcz
-               atk.tcz
-                  glib2.tcz
-                     gamin.tcz
-                     libelf.tcz
-                     pcre2.tcz
+               glib2.tcz
+                  gamin.tcz
+                  libelf.tcz
+                  pcre2.tcz
+               libXtst.tcz
+                  libXi.tcz
+                     libXext.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
             gdk-pixbuf.tcz
                glib2.tcz
                   gamin.tcz
@@ -8468,17 +6056,8 @@ totem-gir.tcz
                   libjpeg-turbo.tcz
                   liblzma.tcz  
                shared-mime-info.tcz 
-            libXcomposite.tcz
-               libX11.tcz
-                  libxcb.tcz
-                     libXau.tcz
-                     libXdmcp.tcz
             pango.tcz
                cairo.tcz
-                  glib2.tcz
-                     gamin.tcz
-                     libelf.tcz
-                     pcre2.tcz
                   fontconfig.tcz
                      expat2.tcz
                      freetype.tcz
@@ -8490,81 +6069,15 @@ totem-gir.tcz
                               pcre2.tcz
                            graphite2.tcz
                         bzip2-lib.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
                   pixman.tcz
-                  libpng.tcz
-                  libEGL.tcz
-                     mesa.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                        llvm15-lib.tcz
-                           gcc_libs.tcz
-                           libxml2.tcz
-                              liblzma.tcz
-                           ncurses.tcz
-                           zstd.tcz
-                              libzstd.tcz
-                              liblzma.tcz
-                              liblz4.tcz
-                        expat2.tcz
-                        libzstd.tcz
-                        libXfixes.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                        libXxf86vm.tcz
-                           libXext.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        libxshmfence.tcz
-                     wayland.tcz
-                        expat2.tcz
-                        libxml2.tcz
-                           liblzma.tcz
-                  libGLES.tcz
-                     mesa.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                        llvm15-lib.tcz
-                           gcc_libs.tcz
-                           libxml2.tcz
-                              liblzma.tcz
-                           ncurses.tcz
-                           zstd.tcz
-                              libzstd.tcz
-                              liblzma.tcz
-                              liblz4.tcz
-                        expat2.tcz
-                        libzstd.tcz
-                        libXfixes.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                        libXxf86vm.tcz
-                           libXext.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        libxshmfence.tcz
-                     libdrm.tcz
-                        libpciaccess.tcz
-                        udev-lib.tcz
-                  libXext.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-                  libXrender.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
+                  glib2.tcz
+                     gamin.tcz
+                     libelf.tcz
+                     pcre2.tcz
                libXft.tcz
                   fontconfig.tcz
                      expat2.tcz
@@ -8596,6 +6109,11 @@ totem-gir.tcz
                      gamin.tcz
                      libelf.tcz
                      pcre2.tcz
+            libXcomposite.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
             libXcursor.tcz
                libXrender.tcz
                   libX11.tcz
@@ -8620,12 +6138,6 @@ totem-gir.tcz
                         libXau.tcz
                         libXdmcp.tcz
                libXrender.tcz
-                  libX11.tcz
-                     libxcb.tcz
-                        libXau.tcz
-                        libXdmcp.tcz
-            libXi.tcz
-               libXext.tcz
                   libX11.tcz
                      libxcb.tcz
                         libXau.tcz
@@ -8674,6 +6186,21 @@ totem-gir.tcz
                   libelf.tcz
                   pcre2.tcz
          at-spi2-core-gir.tcz
+            gobject-introspection.tcz
+               python3.11.tcz
+                  bzip2-lib.tcz
+                  readline.tcz
+                     ncurses.tcz
+                  gdbm.tcz
+                  liblzma.tcz
+                  openssl.tcz
+                     ca-certificates.tcz
+                  sqlite3.tcz
+                  ncurses.tcz
+               glib2.tcz
+                  gamin.tcz
+                  libelf.tcz
+                  pcre2.tcz
             at-spi2-core.tcz
                dbus.tcz
                   expat2.tcz
@@ -8687,56 +6214,16 @@ totem-gir.tcz
                   gamin.tcz
                   libelf.tcz
                   pcre2.tcz
-               libICE.tcz
-               libSM.tcz
-                  libICE.tcz
-               libX11.tcz
-                  libxcb.tcz
-                     libXau.tcz
-                     libXdmcp.tcz
-            gobject-introspection.tcz
-               python3.11.tcz
-                  bzip2-lib.tcz
-                  readline.tcz
-                     ncurses.tcz
-                  gdbm.tcz
-                  liblzma.tcz
-                  openssl.tcz
-                     ca-certificates.tcz
-                  sqlite3.tcz
-                  ncurses.tcz
-               glib2.tcz
-                  gamin.tcz
-                  libelf.tcz
-                  pcre2.tcz
-         atk-gir.tcz
-            atk.tcz
-               glib2.tcz
-                  gamin.tcz
-                  libelf.tcz
-                  pcre2.tcz
-            gobject-introspection.tcz
-               python3.11.tcz
-                  bzip2-lib.tcz
-                  readline.tcz
-                     ncurses.tcz
-                  gdbm.tcz
-                  liblzma.tcz
-                  openssl.tcz
-                     ca-certificates.tcz
-                  sqlite3.tcz
-                  ncurses.tcz
-               glib2.tcz
-                  gamin.tcz
-                  libelf.tcz
-                  pcre2.tcz
+               libXtst.tcz
+                  libXi.tcz
+                     libXext.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
          pango-gir.tcz
             pango.tcz
                cairo.tcz
-                  glib2.tcz
-                     gamin.tcz
-                     libelf.tcz
-                     pcre2.tcz
                   fontconfig.tcz
                      expat2.tcz
                      freetype.tcz
@@ -8748,81 +6235,15 @@ totem-gir.tcz
                               pcre2.tcz
                            graphite2.tcz
                         bzip2-lib.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
                   pixman.tcz
-                  libpng.tcz
-                  libEGL.tcz
-                     mesa.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                        llvm15-lib.tcz
-                           gcc_libs.tcz
-                           libxml2.tcz
-                              liblzma.tcz
-                           ncurses.tcz
-                           zstd.tcz
-                              libzstd.tcz
-                              liblzma.tcz
-                              liblz4.tcz
-                        expat2.tcz
-                        libzstd.tcz
-                        libXfixes.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                        libXxf86vm.tcz
-                           libXext.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        libxshmfence.tcz
-                     wayland.tcz
-                        expat2.tcz
-                        libxml2.tcz
-                           liblzma.tcz
-                  libGLES.tcz
-                     mesa.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                        llvm15-lib.tcz
-                           gcc_libs.tcz
-                           libxml2.tcz
-                              liblzma.tcz
-                           ncurses.tcz
-                           zstd.tcz
-                              libzstd.tcz
-                              liblzma.tcz
-                              liblz4.tcz
-                        expat2.tcz
-                        libzstd.tcz
-                        libXfixes.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                        libXxf86vm.tcz
-                           libXext.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        libxshmfence.tcz
-                     libdrm.tcz
-                        libpciaccess.tcz
-                        udev-lib.tcz
-                  libXext.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-                  libXrender.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
+                  glib2.tcz
+                     gamin.tcz
+                     libelf.tcz
+                     pcre2.tcz
                libXft.tcz
                   fontconfig.tcz
                      expat2.tcz
@@ -8854,21 +6275,28 @@ totem-gir.tcz
                      gamin.tcz
                      libelf.tcz
                      pcre2.tcz
-            gobject-introspection.tcz
-               python3.11.tcz
-                  bzip2-lib.tcz
-                  readline.tcz
+            harfbuzz-gir.tcz
+               harfbuzz.tcz
+                  glib2.tcz
+                     gamin.tcz
+                     libelf.tcz
+                     pcre2.tcz
+                  graphite2.tcz
+               gobject-introspection.tcz
+                  python3.11.tcz
+                     bzip2-lib.tcz
+                     readline.tcz
+                        ncurses.tcz
+                     gdbm.tcz
+                     liblzma.tcz
+                     openssl.tcz
+                        ca-certificates.tcz
+                     sqlite3.tcz
                      ncurses.tcz
-                  gdbm.tcz
-                  liblzma.tcz
-                  openssl.tcz
-                     ca-certificates.tcz
-                  sqlite3.tcz
-                  ncurses.tcz
-               glib2.tcz
-                  gamin.tcz
-                  libelf.tcz
-                  pcre2.tcz
+                  glib2.tcz
+                     gamin.tcz
+                     libelf.tcz
+                     pcre2.tcz
    totem-pl-parser-gir.tcz
       totem-pl-parser.tcz
          glib2.tcz
