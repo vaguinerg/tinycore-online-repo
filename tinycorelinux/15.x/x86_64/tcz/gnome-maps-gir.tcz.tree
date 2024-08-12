@@ -7619,7 +7619,10 @@ gnome-maps-gir.tcz
                libffi.tcz
    libportal-gtk4-gir.tcz
       libportal-common-gir.tcz
-         libportal.tcz
+         libportal-common.tcz
+            glib2.tcz
+               libffi.tcz
+               pcre21042.tcz
          gobject-introspection.tcz
             glib2.tcz
                libffi.tcz

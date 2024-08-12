@@ -1004,6 +1004,8 @@ apr-util-dev.tcz
                ncursesw.tcz
       libaio-dev.tcz
          libaio.tcz
+      jemalloc-dev.tcz
+         jemalloc.tcz
       libxml2-dev.tcz
          libxml2-bin.tcz
             libxml2.tcz
@@ -1030,46 +1032,46 @@ apr-util-dev.tcz
                ncursesw.tcz
             ncursesw-dev.tcz
                ncursesw.tcz
-      openssl-dev.tcz
-         openssl.tcz
-            gcc_libs.tcz
-      bzip2-dev.tcz
-         bzip2.tcz
-            bzip2-lib.tcz
-      unixODBC-dev.tcz
-         unixODBC.tcz
-            readline.tcz
-               ncursesw.tcz
-            libltdl.tcz
-         readline-dev.tcz
-            readline.tcz
-               ncursesw.tcz
-            ncursesw-dev.tcz
-               ncursesw.tcz
-      ncursesw-dev.tcz
-         ncursesw.tcz
-      libjudy-dev.tcz
-         libjudy.tcz
-      curl-dev.tcz
-         curl.tcz
-            ca-certificates.tcz
-               openssl.tcz
-                  gcc_libs.tcz
-            libzstd.tcz
+      libevent-dev.tcz
+         libevent.tcz
+            openssl.tcz
+               gcc_libs.tcz
          openssl-dev.tcz
             openssl.tcz
                gcc_libs.tcz
-      libltdl-dev.tcz
-      liblz4-dev.tcz
-         liblz4.tcz
-      liblzma-dev.tcz
-         liblzma.tcz
-      libsnappy-dev.tcz
-         libsnappy.tcz
+      openldap-dev.tcz
+         openldap.tcz
+            libltdl.tcz
+            unixODBC.tcz
+               readline.tcz
+                  ncursesw.tcz
+               libltdl.tcz
+            cyrus-sasl.tcz
+               openssl.tcz
+                  gcc_libs.tcz
+         unixODBC-dev.tcz
+            unixODBC.tcz
+               readline.tcz
+                  ncursesw.tcz
+               libltdl.tcz
+            readline-dev.tcz
+               readline.tcz
+                  ncursesw.tcz
+               ncursesw-dev.tcz
+                  ncursesw.tcz
+         cyrus-sasl-dev.tcz
+            cyrus-sasl.tcz
+               openssl.tcz
+                  gcc_libs.tcz
+            openssl-dev.tcz
+               openssl.tcz
+                  gcc_libs.tcz
+         libltdl.tcz
+      openssl-dev.tcz
+         openssl.tcz
+            gcc_libs.tcz
       tcp_wrappers-dev.tcz
          tcp_wrappers.tcz
-      lzo-dev.tcz
-         lzo.tcz
    unixODBC-dev.tcz
       unixODBC.tcz
          readline.tcz

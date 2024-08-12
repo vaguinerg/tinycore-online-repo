@@ -1,10 +1,10 @@
 Title:		gparted.tcz
 Description:	Gnome Partition Editor
-Version:	1.0.0
+Version:	1.6.0
 Author:		Bart Hakvoort, Curtis Gedak, et al
 Original-site:	http://downloads.sourceforge.net/gparted/gparted-1.0.0.tar.gz
 Copying-policy:	GPLv2
-Size:		380KB
+Size:		420KB
 Extension-by:	dentonlt
 Tags:		disk drive partition tool gtk+ gtk3
 Comments:       partition editor for creating, reorganizing, and deleting disk partitions
@@ -21,5 +21,6 @@ Comments:       partition editor for creating, reorganizing, and deleting disk p
 		----------
 Change-log:	2014/01/22 first version
                 2016/03/08 updated 0.17.0 -> 0.25.0 (juanito)
-                2016/12/17 adjusted sbin/gparted to add "grep -v grep" to ps tests (juanito)
-Current:	2019/07/21 updated 0.25.0 -> 1.0.0 (juanito)
+                2016/12/17 added "grep -v grep" to gparted ps tests (juanito)
+                2019/07/21 updated 0.25.0 -> 1.0.0 (juanito)
+Current:	2024/08/11 updated 1.0.0 -> 1.6.0 (juanito)

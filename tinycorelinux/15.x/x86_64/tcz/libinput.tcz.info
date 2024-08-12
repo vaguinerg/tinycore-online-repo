@@ -1,16 +1,16 @@
 Title:          libinput.tcz
 Description:    xorg input library
-Version:        1.23.0
+Version:        1.26.1
 Author:         see list of sites below
 Original-site:  see list of sites below
 Copying-policy: see list of sites below
-Size: 272KB
+Size: 284KB
 Extension_by:   juanito
 Tags:	        x xorg input
 Comments:       library to handle input devices in compositors and to provide a generic xorg input driver
                 ----------
                 This extension contains:
-                libinput-1.23.0 - (c) red hat - https://gitlab.freedesktop.org/libinput/libinput/-/archive/1.23.0/libinput-1.23.0.tar.gz
+                libinput-1.26.1 - (c) red hat - https://gitlab.freedesktop.org/libinput/libinput/-/archive/1.26.1/libinput-1.26.1.tar.gz
                 ----------
 Change-log:     2014/12/09 first version
                 2015/07/09 updated 0.7.0 -> 0.13.0
@@ -23,4 +23,5 @@ Change-log:     2014/12/09 first version
                 2021/04/29 adjust location of libinput-device-group
                 2022/01/22 updated 1.16.5 -> 1.19.3
                 2022/02/17 Fixed "unknown key RUN{program}" error in 90-libinput-fuzz-override.rules. Rich
-Current:        2023/04/19 updated 1.19.3 -> 1.23.0
+                2023/04/19 updated 1.19.3 -> 1.23.0
+Current:        2024/08/11 updated 1.23.0 -> 1.26.1
