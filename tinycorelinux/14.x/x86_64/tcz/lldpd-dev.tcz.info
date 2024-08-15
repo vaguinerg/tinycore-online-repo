@@ -1,0 +1,24 @@
+Title:		lldpd-dev.tcz
+Description:	Link Layer Discovery Protocol reception and sending.
+Version:	1.0.18
+Author:		Vincent Bernat, Pierre-Yves Ritschard
+Original-site:	https://lldpd.github.io
+Copying-policy:	ISC license
+Size:		704K
+Extension_by:	CentralWare, Rich
+Tags:		Link Layer Discovery Protocol CDP FDP SONMP EDP
+Comments:	LLDP is an industry standard protocol designed to supplant
+		proprietary Link-Layer protocols such as EDP or CDP. The
+		goal of LLDP is to provide an inter-vendor compatible
+		mechanism to deliver Link-Layer notifications to adjacent
+		network devices.
+
+		lldpd supports bridge, vlan and bonding.
+
+		Built with:
+		CFLAGS=-flto -fuse-linker-plugin -mtune=generic -Os -g  -pipe -Wall -Wextra -fno-plt
+		LDFLAGS=-Wl,-T/usr/local/lib/ldscripts/elf_x86_64.xbn
+
+Change-log:	2024/08/14 Original release 1.0.18
+Current:	2024/08/14 Original release 1.0.18
+
