@@ -190,8 +190,7 @@ nautilus-gir.tcz
          libexif.tcz
          libseccomp.tcz
          giflib.tcz
-         flac.tcz
-            libogg.tcz
+         flac13.tcz
          icu.tcz
       adwaita-icon-theme.tcz
          gtk3.tcz
@@ -383,12 +382,6 @@ nautilus-gir.tcz
                      gamin.tcz
                      libelf.tcz
                      pcre2.tcz
-            libcroco.tcz
-               glib2.tcz
-                  gamin.tcz
-                  libelf.tcz
-                  pcre2.tcz
-               libxml2.tcz 
             gdk-pixbuf.tcz 
          hicolor-icon-theme.tcz
       gnome-autoar.tcz
@@ -696,6 +689,12 @@ nautilus-gir.tcz
             libogg.tcz
          libvorbis.tcz
             libogg.tcz
+         gudev-lib.tcz
+            udev-lib.tcz
+            glib2.tcz
+               gamin.tcz
+               libelf.tcz
+               pcre2.tcz
    gnome-desktop-gir.tcz
       gnome-desktop.tcz
          gsettings-desktop-schemas.tcz
@@ -1311,6 +1310,12 @@ nautilus-gir.tcz
             libogg.tcz
          libvorbis.tcz
             libogg.tcz
+         gudev-lib.tcz
+            udev-lib.tcz
+            glib2.tcz
+               gamin.tcz
+               libelf.tcz
+               pcre2.tcz
       gstreamer-gir.tcz
          gstreamer.tcz
             glib2.tcz

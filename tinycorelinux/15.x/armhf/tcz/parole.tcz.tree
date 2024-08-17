@@ -305,6 +305,12 @@ parole.tcz
             libogg.tcz
          libvorbis.tcz
             libogg.tcz
+         gudev-lib.tcz
+            udev-lib.tcz
+            glib2.tcz
+               gamin.tcz
+               libelf.tcz
+               pcre2.tcz
       libvpx.tcz
    gst-plugins-bad.tcz
       gst-plugins-base.tcz
@@ -321,6 +327,44 @@ parole.tcz
             libogg.tcz
          libvorbis.tcz
             libogg.tcz
+         gudev-lib.tcz
+            udev-lib.tcz
+            glib2.tcz
+               gamin.tcz
+               libelf.tcz
+               pcre2.tcz
+      libEGL.tcz
+         mesa.tcz
+            libdrm.tcz
+               libpciaccess.tcz
+               udev-lib.tcz
+            llvm15-lib.tcz
+               gcc_libs.tcz
+               libxml2.tcz
+                  liblzma.tcz
+               ncurses.tcz
+               zstd.tcz
+                  libzstd.tcz
+                  liblzma.tcz
+                  liblz4.tcz
+            expat2.tcz
+            libzstd.tcz
+            libXfixes.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
+            libXxf86vm.tcz
+               libXext.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
+            libxshmfence.tcz
+         wayland.tcz
+            expat2.tcz
+            libxml2.tcz
+               liblzma.tcz
       libGLES.tcz
          mesa.tcz
             libdrm.tcz
@@ -358,6 +402,7 @@ parole.tcz
             liblzma.tcz  
          libpng.tcz
          giflib.tcz 
+      x265.tcz
    gst-plugins-ugly.tcz 
    gst-libav.tcz
       gst-plugins-base.tcz
@@ -374,6 +419,12 @@ parole.tcz
             libogg.tcz
          libvorbis.tcz
             libogg.tcz
+         gudev-lib.tcz
+            udev-lib.tcz
+            glib2.tcz
+               gamin.tcz
+               libelf.tcz
+               pcre2.tcz
       libavfilter.tcz
          libswresample.tcz
             libavutil.tcz
@@ -451,12 +502,6 @@ parole.tcz
                            gamin.tcz
                            libelf.tcz
                            pcre2.tcz
-                  libcroco.tcz
-                     glib2.tcz
-                        gamin.tcz
-                        libelf.tcz
-                        pcre2.tcz
-                     libxml2.tcz 
                   gdk-pixbuf.tcz 
                cairo.tcz
                   fontconfig.tcz

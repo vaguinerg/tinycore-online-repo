@@ -783,12 +783,15 @@
     "firmware Texas Instruments"
   ],
   "flac-dev.tcz": [
-    "LIBRARY FLAC AUDIO CODEC"
+    "LIBRARY FLAC AUDIO CODEC dev"
   ],
   "flac-doc.tcz": [
     "LIBRARY FLAC AUDIO CODEC"
   ],
   "flac.tcz": [
+    "LIBRARY FLAC AUDIO CODEC"
+  ],
+  "flac13.tcz": [
     "LIBRARY FLAC AUDIO CODEC"
   ],
   "flashrom-dev.tcz": [
@@ -1668,7 +1671,7 @@
     "ladspa ACDf"
   ],
   "lame-dev.tcz": [
-    "LIBRARY AUDIO CODEC MP3"
+    "LIBRARY AUDIO CODEC MP3 dev"
   ],
   "lame-doc.tcz": [
     "LIBRARY AUDIO CODEC MP3"
@@ -2217,7 +2220,7 @@
     "CLI"
   ],
   "libidn2-dev.tcz": [
-    "CLI LIBRARY"
+    "CLI LIBRARY dev"
   ],
   "libidn2-doc.tcz": [
     "CLI LIBRARY"
@@ -2424,7 +2427,7 @@
     "BLUETOOTH AUDIO"
   ],
   "libopus-dev.tcz": [
-    "SOUND AUDIO CODEC LIBRARY"
+    "SOUND AUDIO CODEC LIBRARY dev"
   ],
   "libopus.tcz": [
     "SOUND AUDIO CODEC LIBRARY"
@@ -2502,13 +2505,13 @@
     "broadband modem wwan qmi"
   ],
   "librsvg-dev.tcz": [
-    "svg"
+    "svg dev"
   ],
   "librsvg-doc.tcz": [
     "LIBRARY CLI"
   ],
   "librsvg-gir.tcz": [
-    "svg"
+    "svg gir"
   ],
   "librsvg.tcz": [
     "svg"
@@ -2568,6 +2571,15 @@
     "LIBRARY HTTP NETWORK gir"
   ],
   "libsoup.tcz": [
+    "LIBRARY HTTP NETWORK"
+  ],
+  "libsoup3-dev.tcz": [
+    "LIBRARY HTTP NETWORK dev"
+  ],
+  "libsoup3-gir.tcz": [
+    "LIBRARY HTTP NETWORK gir"
+  ],
+  "libsoup3.tcz": [
     "LIBRARY HTTP NETWORK"
   ],
   "libssh2-dev.tcz": [
@@ -2643,7 +2655,7 @@
     "LIBRARY"
   ],
   "libunistring-dev.tcz": [
-    "LIBRARY GNU UNICODE"
+    "LIBRARY GNU UNICODE dev"
   ],
   "libunistring-doc.tcz": [
     "LIBRARY GNU UNICODE"
@@ -3864,7 +3876,7 @@
     "LIBRARY SQL DATABASE"
   ],
   "sqlite3-dev.tcz": [
-    "LIBRARY SQL DATABASE"
+    "LIBRARY SQL DATABASE dev"
   ],
   "sqlite3-doc.tcz": [
     "LIBRARY SQL DATABASE"
