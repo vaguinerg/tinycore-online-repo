@@ -1,10 +1,10 @@
 Title:          wifi.tcz
 Description:    Tiny Wifi Scanning Tool
-Version:        1.5
+Version:        1.7
 Author:         Robert Shingledecker
 Original-site:  www.tinycorelinux.com
 Copying-policy: GPL
-Size:           8k
+Size:           8.0K
 Extension_by:   roberts, bmarkus
 Tags:           CLI WIFI WIRELESS
 Comments:       A console based tiny wifi scan access point tool.
@@ -15,7 +15,7 @@ Comments:       A console based tiny wifi scan access point tool.
                 Add above to bootlocal or bootsync for quick auto connect.
                 When mobile, use menu for select list of APs.
                 wpa_supplicant driver is defined by /etc/sysconfig/wifi-wpadrv
-                default is wext. Add it to backup if changed.
+                default is nl80211. Add it to backup if changed.
                 Available drivers wext,nl80211
 Change-log:     2011/06/15 v0.1 Original Awk Program
                 2011/07/02 v0.2 Major rewrite to Ash/Awk
@@ -33,4 +33,6 @@ Change-log:     2011/06/15 v0.1 Original Awk Program
                 2012/11/15 v1.2 Added loops to try to accomodate slow devices.
                 2013/11/09 v1.3 Mods for open wifi storage and auto connect by Randy McEuen
                 2013/11/15 v1.4 Mods for wait for connection and display hostname on router by Gerrelt
-Current:        2014/03/16 v1.5 Mods for configure wpa_supplicant driver
+                2014/03/16 v1.5 Mods for configure wpa_supplicant driver
+                2019/01/12 v1.6 Change default driver to nl80211
+Current:        2024/08/21 v1.7 Added &!?$ to allowable chars for ESSID. Rich
