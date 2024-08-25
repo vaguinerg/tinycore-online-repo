@@ -10,8 +10,7 @@ Tags:           X
 Comments:       Meta extension to load X 3d runtime environment
                 ----
                 load from the console or onboot
-                needs dtoverlay=vc4-kms-v3d[-pi4]
-                sudo rm /usr/local/share/X11/xorg.conf.d/fbturbo.conf
+                needs dtoverlay=vc4-kms-v3d
                 ----
-Change-log:     first version
-Current:        2020/01/05
+Change-log:     2020/01/05 first version
+Current:        2024/08/21 added configs for RPi3 3d
