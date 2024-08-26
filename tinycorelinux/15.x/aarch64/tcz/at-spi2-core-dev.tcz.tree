@@ -12,12 +12,13 @@ at-spi2-core-dev.tcz
          libelf.tcz
          pcre2.tcz
             bzip2-lib.tcz
-      libICE.tcz
-      libSM.tcz
-      libX11.tcz
-         libxcb.tcz
-            libXau.tcz
-            libXdmcp.tcz
+      libXtst.tcz
+         libXi.tcz
+            libXext.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
    dbus-dev.tcz
       dbus.tcz
          expat2.tcz
@@ -117,28 +118,28 @@ at-spi2-core-dev.tcz
                         util-macros.tcz
                            m4.tcz
                xtrans.tcz
-   libXfixes-dev.tcz
-      libXfixes.tcz
-         libX11.tcz
-            libxcb.tcz
-               libXau.tcz
-               libXdmcp.tcz
-      libX11-dev.tcz
-         libX11.tcz
-            libxcb.tcz
-               libXau.tcz
-               libXdmcp.tcz
-         libxcb-dev.tcz
-            libxcb.tcz
-               libXau.tcz
-               libXdmcp.tcz
-            libXau-dev.tcz
-               libXau.tcz
-            libXdmcp-dev.tcz
-               libXdmcp.tcz
-            xcb-proto.tcz
-               xorg-proto.tcz
-                  util-macros.tcz
-                     m4.tcz
-         xtrans.tcz
+         libXfixes-dev.tcz
+            libXfixes.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
+            libX11-dev.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
+               libxcb-dev.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
+                  libXau-dev.tcz
+                     libXau.tcz
+                  libXdmcp-dev.tcz
+                     libXdmcp.tcz
+                  xcb-proto.tcz
+                     xorg-proto.tcz
+                        util-macros.tcz
+                           m4.tcz
+               xtrans.tcz
 

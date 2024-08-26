@@ -11,10 +11,11 @@ at-spi2-core.tcz
       libelf.tcz
       pcre2.tcz
          bzip2-lib.tcz
-   libICE.tcz
-   libSM.tcz
-   libX11.tcz
-      libxcb.tcz
-         libXau.tcz
-         libXdmcp.tcz
+   libXtst.tcz
+      libXi.tcz
+         libXext.tcz
+            libX11.tcz
+               libxcb.tcz
+                  libXau.tcz
+                  libXdmcp.tcz
 

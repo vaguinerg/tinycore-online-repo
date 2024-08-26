@@ -38,68 +38,6 @@ libavdevice.tcz
                               graphite2.tcz
                            bzip2-lib.tcz
                      pixman.tcz
-                     libpng.tcz
-                     libEGL.tcz
-                        mesa.tcz
-                           libdrm.tcz
-                              libpciaccess.tcz
-                              udev-lib.tcz
-                           libXdamage.tcz
-                              libXfixes.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
-                           libXxf86vm.tcz
-                              libXext.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
-                           expat2.tcz
-                           libxshmfence.tcz
-                           llvm15-lib.tcz
-                              libxml2.tcz
-                                 liblzma.tcz
-                              ncurses.tcz
-                              zstd.tcz
-                                 libzstd.tcz
-                                 liblzma.tcz
-                                 liblz4.tcz
-                        wayland.tcz
-                           expat2.tcz
-                           libxml2.tcz
-                              liblzma.tcz
-                     libGLES.tcz
-                        mesa.tcz
-                           libdrm.tcz
-                              libpciaccess.tcz
-                              udev-lib.tcz
-                           libXdamage.tcz
-                              libXfixes.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
-                           libXxf86vm.tcz
-                              libXext.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
-                           expat2.tcz
-                           libxshmfence.tcz
-                           llvm15-lib.tcz
-                              libxml2.tcz
-                                 liblzma.tcz
-                              ncurses.tcz
-                              zstd.tcz
-                                 libzstd.tcz
-                                 liblzma.tcz
-                                 liblz4.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
                      libXext.tcz
                         libX11.tcz
                            libxcb.tcz
@@ -185,68 +123,6 @@ libavdevice.tcz
                         graphite2.tcz
                      bzip2-lib.tcz
                pixman.tcz
-               libpng.tcz
-               libEGL.tcz
-                  mesa.tcz
-                     libdrm.tcz
-                        libpciaccess.tcz
-                        udev-lib.tcz
-                     libXdamage.tcz
-                        libXfixes.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                     libXxf86vm.tcz
-                        libXext.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                     expat2.tcz
-                     libxshmfence.tcz
-                     llvm15-lib.tcz
-                        libxml2.tcz
-                           liblzma.tcz
-                        ncurses.tcz
-                        zstd.tcz
-                           libzstd.tcz
-                           liblzma.tcz
-                           liblz4.tcz
-                  wayland.tcz
-                     expat2.tcz
-                     libxml2.tcz
-                        liblzma.tcz
-               libGLES.tcz
-                  mesa.tcz
-                     libdrm.tcz
-                        libpciaccess.tcz
-                        udev-lib.tcz
-                     libXdamage.tcz
-                        libXfixes.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                     libXxf86vm.tcz
-                        libXext.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                     expat2.tcz
-                     libxshmfence.tcz
-                     llvm15-lib.tcz
-                        libxml2.tcz
-                           liblzma.tcz
-                        ncurses.tcz
-                        zstd.tcz
-                           libzstd.tcz
-                           liblzma.tcz
-                           liblz4.tcz
-                  libdrm.tcz
-                     libpciaccess.tcz
-                     udev-lib.tcz
                libXext.tcz
                   libX11.tcz
                      libxcb.tcz
@@ -294,9 +170,12 @@ libavdevice.tcz
             libXau.tcz
             libXdmcp.tcz
    libasound.tcz
-      alsa-modules-6.6.26-piCore-v8.tcz
+      alsa-modules-6.6.34-piCore-v8.tcz
    libv4l2.tcz
-      v4l-dvb-6.6.26-piCore-v8.tcz
+      v4l-dvb-6.6.34-piCore-v8.tcz
+         alsa-modules-6.6.34-piCore-v8.tcz
+         graphics-6.6.34-piCore-v8.tcz
+            alsa-modules-6.6.34-piCore-v8.tcz
       libjpeg-turbo.tcz
       udev-lib.tcz
    libpulseaudio.tcz
@@ -321,7 +200,7 @@ libavdevice.tcz
          flac.tcz
             libogg.tcz
          libasound.tcz
-            alsa-modules-6.6.26-piCore-v8.tcz
+            alsa-modules-6.6.34-piCore-v8.tcz
          libvorbis.tcz
             libogg.tcz
          sqlite3.tcz

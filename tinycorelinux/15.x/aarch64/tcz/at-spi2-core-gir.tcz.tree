@@ -1,23 +1,4 @@
 at-spi2-core-gir.tcz
-   at-spi2-core.tcz
-      dbus.tcz
-         expat2.tcz
-         libSM.tcz
-         libX11.tcz
-            libxcb.tcz
-               libXau.tcz
-               libXdmcp.tcz
-      glib2.tcz
-         gamin.tcz
-         libelf.tcz
-         pcre2.tcz
-            bzip2-lib.tcz
-      libICE.tcz
-      libSM.tcz
-      libX11.tcz
-         libxcb.tcz
-            libXau.tcz
-            libXdmcp.tcz
    gobject-introspection.tcz
       python3.11.tcz
          bzip2-lib.tcz
@@ -34,4 +15,24 @@ at-spi2-core-gir.tcz
          libelf.tcz
          pcre2.tcz
             bzip2-lib.tcz
+   at-spi2-core.tcz
+      dbus.tcz
+         expat2.tcz
+         libSM.tcz
+         libX11.tcz
+            libxcb.tcz
+               libXau.tcz
+               libXdmcp.tcz
+      glib2.tcz
+         gamin.tcz
+         libelf.tcz
+         pcre2.tcz
+            bzip2-lib.tcz
+      libXtst.tcz
+         libXi.tcz
+            libXext.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
 
