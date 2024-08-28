@@ -8,12 +8,50 @@ gst-plugins-bad.tcz
                bzip2-lib.tcz
          gmp.tcz
       libasound.tcz
-         alsa-modules-6.6.26-piCore-v8.tcz
+         alsa-modules-6.6.34-piCore-v8.tcz
       opus.tcz
       libtheora.tcz
          libogg.tcz
       libvorbis.tcz
          libogg.tcz
+      gudev-lib.tcz
+         udev-lib.tcz
+         glib2.tcz
+            gamin.tcz
+            libelf.tcz
+            pcre2.tcz
+               bzip2-lib.tcz
+   libEGL.tcz
+      mesa.tcz
+         libdrm.tcz
+            libpciaccess.tcz
+            udev-lib.tcz
+         libXdamage.tcz
+            libXfixes.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
+         libXxf86vm.tcz
+            libXext.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
+         expat2.tcz
+         libxshmfence.tcz
+         llvm15-lib.tcz
+            libxml2.tcz
+               liblzma.tcz
+            ncurses.tcz
+            zstd.tcz
+               libzstd.tcz
+               liblzma.tcz
+               liblz4.tcz
+      wayland.tcz
+         expat2.tcz
+         libxml2.tcz
+            liblzma.tcz
    libGLES.tcz
       mesa.tcz
          libdrm.tcz
@@ -45,4 +83,5 @@ gst-plugins-bad.tcz
          libpciaccess.tcz
          udev-lib.tcz
    libwebp.tcz
+   x265.tcz
 

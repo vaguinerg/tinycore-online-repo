@@ -104,6 +104,13 @@ totem-dev.tcz
                      libogg.tcz
                   libvorbis.tcz
                      libogg.tcz
+                  gudev-lib.tcz
+                     udev-lib.tcz
+                     glib2.tcz
+                        gamin.tcz
+                        libelf.tcz
+                        pcre2.tcz
+                           bzip2-lib.tcz
                Xorg-3d.tcz
                   Xorg.tcz
                      Xprogs.tcz
@@ -494,6 +501,44 @@ totem-dev.tcz
                   libogg.tcz
                libvorbis.tcz
                   libogg.tcz
+               gudev-lib.tcz
+                  udev-lib.tcz
+                  glib2.tcz
+                     gamin.tcz
+                     libelf.tcz
+                     pcre2.tcz
+                        bzip2-lib.tcz
+            libEGL.tcz
+               mesa.tcz
+                  libdrm.tcz
+                     libpciaccess.tcz
+                     udev-lib.tcz
+                  libXdamage.tcz
+                     libXfixes.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                  libXxf86vm.tcz
+                     libXext.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                  expat2.tcz
+                  libxshmfence.tcz
+                  llvm15-lib.tcz
+                     libxml2.tcz
+                        liblzma.tcz
+                     ncurses.tcz
+                     zstd.tcz
+                        libzstd.tcz
+                        liblzma.tcz
+                        liblz4.tcz
+               wayland.tcz
+                  expat2.tcz
+                  libxml2.tcz
+                     liblzma.tcz
             libGLES.tcz
                mesa.tcz
                   libdrm.tcz
@@ -525,6 +570,7 @@ totem-dev.tcz
                   libpciaccess.tcz
                   udev-lib.tcz
             libwebp.tcz
+            x265.tcz
       clutter-gtk.tcz
          clutter.tcz
             cogl.tcz
@@ -629,6 +675,13 @@ totem-dev.tcz
                      libogg.tcz
                   libvorbis.tcz
                      libogg.tcz
+                  gudev-lib.tcz
+                     udev-lib.tcz
+                     glib2.tcz
+                        gamin.tcz
+                        libelf.tcz
+                        pcre2.tcz
+                           bzip2-lib.tcz
                Xorg-3d.tcz
                   Xorg.tcz
                      Xprogs.tcz
@@ -1532,6 +1585,44 @@ totem-dev.tcz
                            libogg.tcz
                         libvorbis.tcz
                            libogg.tcz
+                        gudev-lib.tcz
+                           udev-lib.tcz
+                           glib2.tcz
+                              gamin.tcz
+                              libelf.tcz
+                              pcre2.tcz
+                                 bzip2-lib.tcz
+                     libEGL.tcz
+                        mesa.tcz
+                           libdrm.tcz
+                              libpciaccess.tcz
+                              udev-lib.tcz
+                           libXdamage.tcz
+                              libXfixes.tcz
+                                 libX11.tcz
+                                    libxcb.tcz
+                                       libXau.tcz
+                                       libXdmcp.tcz
+                           libXxf86vm.tcz
+                              libXext.tcz
+                                 libX11.tcz
+                                    libxcb.tcz
+                                       libXau.tcz
+                                       libXdmcp.tcz
+                           expat2.tcz
+                           libxshmfence.tcz
+                           llvm15-lib.tcz
+                              libxml2.tcz
+                                 liblzma.tcz
+                              ncurses.tcz
+                              zstd.tcz
+                                 libzstd.tcz
+                                 liblzma.tcz
+                                 liblz4.tcz
+                        wayland.tcz
+                           expat2.tcz
+                           libxml2.tcz
+                              liblzma.tcz
                      libGLES.tcz
                         mesa.tcz
                            libdrm.tcz
@@ -1563,6 +1654,7 @@ totem-dev.tcz
                            libpciaccess.tcz
                            udev-lib.tcz
                      libwebp.tcz
+                     x265.tcz
                   gtk3.tcz
                      libepoxy.tcz
                      at-spi2-core.tcz
@@ -2010,6 +2102,13 @@ totem-dev.tcz
                   libogg.tcz
                libvorbis.tcz
                   libogg.tcz
+               gudev-lib.tcz
+                  udev-lib.tcz
+                  glib2.tcz
+                     gamin.tcz
+                     libelf.tcz
+                     pcre2.tcz
+                        bzip2-lib.tcz
             libsoup.tcz
                glib-networking.tcz
                   glib2.tcz
@@ -2661,6 +2760,13 @@ totem-dev.tcz
                libogg.tcz
             libvorbis.tcz
                libogg.tcz
+            gudev-lib.tcz
+               udev-lib.tcz
+               glib2.tcz
+                  gamin.tcz
+                  libelf.tcz
+                  pcre2.tcz
+                     bzip2-lib.tcz
          libvpx.tcz
       gst-plugins-bad.tcz
          gst-plugins-base.tcz
@@ -2678,6 +2784,44 @@ totem-dev.tcz
                libogg.tcz
             libvorbis.tcz
                libogg.tcz
+            gudev-lib.tcz
+               udev-lib.tcz
+               glib2.tcz
+                  gamin.tcz
+                  libelf.tcz
+                  pcre2.tcz
+                     bzip2-lib.tcz
+         libEGL.tcz
+            mesa.tcz
+               libdrm.tcz
+                  libpciaccess.tcz
+                  udev-lib.tcz
+               libXdamage.tcz
+                  libXfixes.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+               libXxf86vm.tcz
+                  libXext.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+               expat2.tcz
+               libxshmfence.tcz
+               llvm15-lib.tcz
+                  libxml2.tcz
+                     liblzma.tcz
+                  ncurses.tcz
+                  zstd.tcz
+                     libzstd.tcz
+                     liblzma.tcz
+                     liblz4.tcz
+            wayland.tcz
+               expat2.tcz
+               libxml2.tcz
+                  liblzma.tcz
          libGLES.tcz
             mesa.tcz
                libdrm.tcz
@@ -2709,6 +2853,7 @@ totem-dev.tcz
                libpciaccess.tcz
                udev-lib.tcz
          libwebp.tcz
+         x265.tcz
       gst-libav.tcz
          gst-plugins-base.tcz
             gstreamer.tcz
@@ -2725,6 +2870,13 @@ totem-dev.tcz
                libogg.tcz
             libvorbis.tcz
                libogg.tcz
+            gudev-lib.tcz
+               udev-lib.tcz
+               glib2.tcz
+                  gamin.tcz
+                  libelf.tcz
+                  pcre2.tcz
+                     bzip2-lib.tcz
          libavfilter.tcz
             libswresample.tcz
                libavutil.tcz
@@ -2995,6 +3147,13 @@ totem-dev.tcz
                      libogg.tcz
                   libvorbis.tcz
                      libogg.tcz
+                  gudev-lib.tcz
+                     udev-lib.tcz
+                     glib2.tcz
+                        gamin.tcz
+                        libelf.tcz
+                        pcre2.tcz
+                           bzip2-lib.tcz
                Xorg-3d.tcz
                   Xorg.tcz
                      Xprogs.tcz
@@ -3385,6 +3544,44 @@ totem-dev.tcz
                   libogg.tcz
                libvorbis.tcz
                   libogg.tcz
+               gudev-lib.tcz
+                  udev-lib.tcz
+                  glib2.tcz
+                     gamin.tcz
+                     libelf.tcz
+                     pcre2.tcz
+                        bzip2-lib.tcz
+            libEGL.tcz
+               mesa.tcz
+                  libdrm.tcz
+                     libpciaccess.tcz
+                     udev-lib.tcz
+                  libXdamage.tcz
+                     libXfixes.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                  libXxf86vm.tcz
+                     libXext.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                  expat2.tcz
+                  libxshmfence.tcz
+                  llvm15-lib.tcz
+                     libxml2.tcz
+                        liblzma.tcz
+                     ncurses.tcz
+                     zstd.tcz
+                        libzstd.tcz
+                        liblzma.tcz
+                        liblz4.tcz
+               wayland.tcz
+                  expat2.tcz
+                  libxml2.tcz
+                     liblzma.tcz
             libGLES.tcz
                mesa.tcz
                   libdrm.tcz
@@ -3416,6 +3613,7 @@ totem-dev.tcz
                   libpciaccess.tcz
                   udev-lib.tcz
             libwebp.tcz
+            x265.tcz
       clutter-dev.tcz
          clutter.tcz
             cogl.tcz
@@ -3520,6 +3718,13 @@ totem-dev.tcz
                      libogg.tcz
                   libvorbis.tcz
                      libogg.tcz
+                  gudev-lib.tcz
+                     udev-lib.tcz
+                     glib2.tcz
+                        gamin.tcz
+                        libelf.tcz
+                        pcre2.tcz
+                           bzip2-lib.tcz
                Xorg-3d.tcz
                   Xorg.tcz
                      Xprogs.tcz
@@ -3997,6 +4202,13 @@ totem-dev.tcz
                      libogg.tcz
                   libvorbis.tcz
                      libogg.tcz
+                  gudev-lib.tcz
+                     udev-lib.tcz
+                     glib2.tcz
+                        gamin.tcz
+                        libelf.tcz
+                        pcre2.tcz
+                           bzip2-lib.tcz
                Xorg-3d.tcz
                   Xorg.tcz
                      Xprogs.tcz
@@ -4681,6 +4893,13 @@ totem-dev.tcz
                      libogg.tcz
                   libvorbis.tcz
                      libogg.tcz
+                  gudev-lib.tcz
+                     udev-lib.tcz
+                     glib2.tcz
+                        gamin.tcz
+                        libelf.tcz
+                        pcre2.tcz
+                           bzip2-lib.tcz
                gstreamer-dev.tcz
                   gstreamer.tcz
                      glib2.tcz
@@ -4726,6 +4945,43 @@ totem-dev.tcz
                      alsa-modules-6.6.34-piCore-v8.tcz
                opus-dev.tcz
                   opus.tcz
+               graphene-dev.tcz
+                  graphene.tcz
+                     glib2.tcz
+                        gamin.tcz
+                        libelf.tcz
+                        pcre2.tcz
+                           bzip2-lib.tcz
+                  glib2-dev.tcz
+                     glib2-python.tcz
+                        glib2.tcz
+                           gamin.tcz
+                           libelf.tcz
+                           pcre2.tcz
+                              bzip2-lib.tcz
+                        pcre2.tcz
+                           bzip2-lib.tcz
+                        python3.11.tcz
+                           bzip2-lib.tcz
+                           readline.tcz
+                              ncurses.tcz
+                           gdbm.tcz
+                           liblzma.tcz
+                           openssl.tcz
+                              ca-certificates.tcz
+                           sqlite3.tcz
+                           ncurses.tcz
+                     gamin-dev.tcz
+                        gamin.tcz
+                     libelf-dev.tcz
+                        libelf.tcz
+                     pcre2-dev.tcz
+                        pcre2.tcz
+                           bzip2-lib.tcz
+                        bzip2-dev.tcz
+                           bzip2.tcz
+                              bzip2-lib.tcz
+                        zlib_base-dev.tcz
                libvorbis-dev.tcz
                   libvorbis.tcz
                      libogg.tcz
@@ -5518,33 +5774,71 @@ totem-dev.tcz
                libjpeg-turbo-dev.tcz
                   libjpeg-turbo-bin.tcz
                      libjpeg-turbo.tcz
-               gdk-pixbuf-dev.tcz
-                  gdk-pixbuf.tcz
+               libXi-dev.tcz
+                  libXi.tcz
+                     libXext.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                  libXext-dev.tcz
+                     libXext.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                     libX11-dev.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                        libxcb-dev.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                           libXau-dev.tcz
+                              libXau.tcz
+                           libXdmcp-dev.tcz
+                              libXdmcp.tcz
+                           xcb-proto.tcz
+                              xorg-proto.tcz
+                                 util-macros.tcz
+                                    m4.tcz
+                        xtrans.tcz
+                  libXfixes-dev.tcz
+                     libXfixes.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                     libX11-dev.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                        libxcb-dev.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                           libXau-dev.tcz
+                              libXau.tcz
+                           libXdmcp-dev.tcz
+                              libXdmcp.tcz
+                           xcb-proto.tcz
+                              xorg-proto.tcz
+                                 util-macros.tcz
+                                    m4.tcz
+                        xtrans.tcz
+               gudev-lib-dev.tcz
+                  gudev-lib.tcz
+                     udev-lib.tcz
                      glib2.tcz
                         gamin.tcz
                         libelf.tcz
                         pcre2.tcz
                            bzip2-lib.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-                     libpng.tcz
-                     libtiff.tcz
-                        liblzma.tcz
-                        libjpeg-turbo.tcz
-                        zstd.tcz
-                           libzstd.tcz
-                           liblzma.tcz
-                           liblz4.tcz
-                     shared-mime-info.tcz
-                        glib2.tcz
-                           gamin.tcz
-                           libelf.tcz
-                           pcre2.tcz
-                              bzip2-lib.tcz
-                        libxml2.tcz
-                           liblzma.tcz
+                  udev-lib-dev.tcz
+                     udev-lib.tcz
                   glib2-dev.tcz
                      glib2-python.tcz
                         glib2.tcz
@@ -5575,49 +5869,37 @@ totem-dev.tcz
                            bzip2.tcz
                               bzip2-lib.tcz
                         zlib_base-dev.tcz
-                  libX11-dev.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-                     libxcb-dev.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-                        libXau-dev.tcz
-                           libXau.tcz
-                        libXdmcp-dev.tcz
-                           libXdmcp.tcz
-                        xcb-proto.tcz
-                           xorg-proto.tcz
-                              util-macros.tcz
-                                 m4.tcz
-                     xtrans.tcz
-                  libpng-dev.tcz
-                     libpng.tcz
-                  tiff-dev.tcz
-                     tiff-bin.tcz
-                        libtiff.tcz
-                           liblzma.tcz
-                           libjpeg-turbo.tcz
-                           zstd.tcz
-                              libzstd.tcz
-                              liblzma.tcz
-                              liblz4.tcz
-                     liblzma-dev.tcz
-                        liblzma.tcz
-                     zstd-dev.tcz
-                        zstd.tcz
-                           libzstd.tcz
-                           liblzma.tcz
-                           liblz4.tcz
-                        liblzma-dev.tcz
-                           liblzma.tcz
-                        liblz4-dev.tcz
-                           liblz4.tcz
-                     libjpeg-turbo-dev.tcz
-                        libjpeg-turbo-bin.tcz
-                           libjpeg-turbo.tcz
+               libXv-dev.tcz
+                  libXv.tcz
+                     libXext.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                  libXext-dev.tcz
+                     libXext.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                     libX11-dev.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                        libxcb-dev.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                           libXau-dev.tcz
+                              libXau.tcz
+                           libXdmcp-dev.tcz
+                              libXdmcp.tcz
+                           xcb-proto.tcz
+                              xorg-proto.tcz
+                                 util-macros.tcz
+                                    m4.tcz
+                        xtrans.tcz
             libXcomposite-dev.tcz
                libXcomposite.tcz
                   libX11.tcz
@@ -7054,6 +7336,44 @@ totem-dev.tcz
                   libogg.tcz
                libvorbis.tcz
                   libogg.tcz
+               gudev-lib.tcz
+                  udev-lib.tcz
+                  glib2.tcz
+                     gamin.tcz
+                     libelf.tcz
+                     pcre2.tcz
+                        bzip2-lib.tcz
+            libEGL.tcz
+               mesa.tcz
+                  libdrm.tcz
+                     libpciaccess.tcz
+                     udev-lib.tcz
+                  libXdamage.tcz
+                     libXfixes.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                  libXxf86vm.tcz
+                     libXext.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                  expat2.tcz
+                  libxshmfence.tcz
+                  llvm15-lib.tcz
+                     libxml2.tcz
+                        liblzma.tcz
+                     ncurses.tcz
+                     zstd.tcz
+                        libzstd.tcz
+                        liblzma.tcz
+                        liblz4.tcz
+               wayland.tcz
+                  expat2.tcz
+                  libxml2.tcz
+                     liblzma.tcz
             libGLES.tcz
                mesa.tcz
                   libdrm.tcz
@@ -7085,6 +7405,7 @@ totem-dev.tcz
                   libpciaccess.tcz
                   udev-lib.tcz
             libwebp.tcz
+            x265.tcz
          gst-plugins-base-dev.tcz
             gst-plugins-base.tcz
                gstreamer.tcz
@@ -7101,6 +7422,13 @@ totem-dev.tcz
                   libogg.tcz
                libvorbis.tcz
                   libogg.tcz
+               gudev-lib.tcz
+                  udev-lib.tcz
+                  glib2.tcz
+                     gamin.tcz
+                     libelf.tcz
+                     pcre2.tcz
+                        bzip2-lib.tcz
             gstreamer-dev.tcz
                gstreamer.tcz
                   glib2.tcz
@@ -7146,6 +7474,43 @@ totem-dev.tcz
                   alsa-modules-6.6.34-piCore-v8.tcz
             opus-dev.tcz
                opus.tcz
+            graphene-dev.tcz
+               graphene.tcz
+                  glib2.tcz
+                     gamin.tcz
+                     libelf.tcz
+                     pcre2.tcz
+                        bzip2-lib.tcz
+               glib2-dev.tcz
+                  glib2-python.tcz
+                     glib2.tcz
+                        gamin.tcz
+                        libelf.tcz
+                        pcre2.tcz
+                           bzip2-lib.tcz
+                     pcre2.tcz
+                        bzip2-lib.tcz
+                     python3.11.tcz
+                        bzip2-lib.tcz
+                        readline.tcz
+                           ncurses.tcz
+                        gdbm.tcz
+                        liblzma.tcz
+                        openssl.tcz
+                           ca-certificates.tcz
+                        sqlite3.tcz
+                        ncurses.tcz
+                  gamin-dev.tcz
+                     gamin.tcz
+                  libelf-dev.tcz
+                     libelf.tcz
+                  pcre2-dev.tcz
+                     pcre2.tcz
+                        bzip2-lib.tcz
+                     bzip2-dev.tcz
+                        bzip2.tcz
+                           bzip2-lib.tcz
+                     zlib_base-dev.tcz
             libvorbis-dev.tcz
                libvorbis.tcz
                   libogg.tcz
@@ -7938,33 +8303,71 @@ totem-dev.tcz
             libjpeg-turbo-dev.tcz
                libjpeg-turbo-bin.tcz
                   libjpeg-turbo.tcz
-            gdk-pixbuf-dev.tcz
-               gdk-pixbuf.tcz
+            libXi-dev.tcz
+               libXi.tcz
+                  libXext.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+               libXext-dev.tcz
+                  libXext.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+                  libX11-dev.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+                     libxcb-dev.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+                        libXau-dev.tcz
+                           libXau.tcz
+                        libXdmcp-dev.tcz
+                           libXdmcp.tcz
+                        xcb-proto.tcz
+                           xorg-proto.tcz
+                              util-macros.tcz
+                                 m4.tcz
+                     xtrans.tcz
+               libXfixes-dev.tcz
+                  libXfixes.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+                  libX11-dev.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+                     libxcb-dev.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+                        libXau-dev.tcz
+                           libXau.tcz
+                        libXdmcp-dev.tcz
+                           libXdmcp.tcz
+                        xcb-proto.tcz
+                           xorg-proto.tcz
+                              util-macros.tcz
+                                 m4.tcz
+                     xtrans.tcz
+            gudev-lib-dev.tcz
+               gudev-lib.tcz
+                  udev-lib.tcz
                   glib2.tcz
                      gamin.tcz
                      libelf.tcz
                      pcre2.tcz
                         bzip2-lib.tcz
-                  libX11.tcz
-                     libxcb.tcz
-                        libXau.tcz
-                        libXdmcp.tcz
-                  libpng.tcz
-                  libtiff.tcz
-                     liblzma.tcz
-                     libjpeg-turbo.tcz
-                     zstd.tcz
-                        libzstd.tcz
-                        liblzma.tcz
-                        liblz4.tcz
-                  shared-mime-info.tcz
-                     glib2.tcz
-                        gamin.tcz
-                        libelf.tcz
-                        pcre2.tcz
-                           bzip2-lib.tcz
-                     libxml2.tcz
-                        liblzma.tcz
+               udev-lib-dev.tcz
+                  udev-lib.tcz
                glib2-dev.tcz
                   glib2-python.tcz
                      glib2.tcz
@@ -7995,49 +8398,37 @@ totem-dev.tcz
                         bzip2.tcz
                            bzip2-lib.tcz
                      zlib_base-dev.tcz
-               libX11-dev.tcz
-                  libX11.tcz
-                     libxcb.tcz
-                        libXau.tcz
-                        libXdmcp.tcz
-                  libxcb-dev.tcz
-                     libxcb.tcz
-                        libXau.tcz
-                        libXdmcp.tcz
-                     libXau-dev.tcz
-                        libXau.tcz
-                     libXdmcp-dev.tcz
-                        libXdmcp.tcz
-                     xcb-proto.tcz
-                        xorg-proto.tcz
-                           util-macros.tcz
-                              m4.tcz
-                  xtrans.tcz
-               libpng-dev.tcz
-                  libpng.tcz
-               tiff-dev.tcz
-                  tiff-bin.tcz
-                     libtiff.tcz
-                        liblzma.tcz
-                        libjpeg-turbo.tcz
-                        zstd.tcz
-                           libzstd.tcz
-                           liblzma.tcz
-                           liblz4.tcz
-                  liblzma-dev.tcz
-                     liblzma.tcz
-                  zstd-dev.tcz
-                     zstd.tcz
-                        libzstd.tcz
-                        liblzma.tcz
-                        liblz4.tcz
-                     liblzma-dev.tcz
-                        liblzma.tcz
-                     liblz4-dev.tcz
-                        liblz4.tcz
-                  libjpeg-turbo-dev.tcz
-                     libjpeg-turbo-bin.tcz
-                        libjpeg-turbo.tcz
+            libXv-dev.tcz
+               libXv.tcz
+                  libXext.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+               libXext-dev.tcz
+                  libXext.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+                  libX11-dev.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+                     libxcb-dev.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+                        libXau-dev.tcz
+                           libXau.tcz
+                        libXdmcp-dev.tcz
+                           libXdmcp.tcz
+                        xcb-proto.tcz
+                           xorg-proto.tcz
+                              util-macros.tcz
+                                 m4.tcz
+                     xtrans.tcz
          curl-dev.tcz
             curl.tcz
                openssl.tcz
@@ -10098,8 +10489,260 @@ totem-dev.tcz
             lcms2-dev.tcz 
             libpng-dev.tcz 
             tiff-dev.tcz  
+         libass-dev.tcz
+            libass.tcz
+               fribidi.tcz
+                  glib2.tcz 
+               fontconfig.tcz
+                  expat2.tcz
+                  freetype.tcz
+                     libpng.tcz
+                     harfbuzz.tcz
+                        glib2.tcz
+                           gamin.tcz
+                           libelf.tcz
+                           pcre2.tcz
+                              bzip2-lib.tcz
+                        graphite2.tcz
+                     bzip2-lib.tcz
+            fribidi-dev.tcz
+               fribidi.tcz 
+               glib2-dev.tcz 
+            fontconfig-dev.tcz
+               fontconfig.tcz
+                  expat2.tcz
+                  freetype.tcz
+                     libpng.tcz
+                     harfbuzz.tcz
+                        glib2.tcz
+                           gamin.tcz
+                           libelf.tcz
+                           pcre2.tcz
+                              bzip2-lib.tcz
+                        graphite2.tcz
+                     bzip2-lib.tcz
+               expat2-dev.tcz
+                  expat2.tcz
+               freetype-dev.tcz
+                  freetype.tcz
+                     libpng.tcz
+                     harfbuzz.tcz
+                        glib2.tcz
+                           gamin.tcz
+                           libelf.tcz
+                           pcre2.tcz
+                              bzip2-lib.tcz
+                        graphite2.tcz
+                     bzip2-lib.tcz
+                  libpng-dev.tcz
+                     libpng.tcz
+                  harfbuzz-dev.tcz
+                     harfbuzz.tcz
+                        glib2.tcz
+                           gamin.tcz
+                           libelf.tcz
+                           pcre2.tcz
+                              bzip2-lib.tcz
+                        graphite2.tcz
+                     glib2-dev.tcz
+                        glib2-python.tcz
+                           glib2.tcz
+                              gamin.tcz
+                              libelf.tcz
+                              pcre2.tcz
+                                 bzip2-lib.tcz
+                           pcre2.tcz
+                              bzip2-lib.tcz
+                           python3.11.tcz
+                              bzip2-lib.tcz
+                              readline.tcz
+                                 ncurses.tcz
+                              gdbm.tcz
+                              liblzma.tcz
+                              openssl.tcz
+                                 ca-certificates.tcz
+                              sqlite3.tcz
+                              ncurses.tcz
+                        gamin-dev.tcz
+                           gamin.tcz
+                        libelf-dev.tcz
+                           libelf.tcz
+                        pcre2-dev.tcz
+                           pcre2.tcz
+                              bzip2-lib.tcz
+                           bzip2-dev.tcz
+                              bzip2.tcz
+                                 bzip2-lib.tcz
+                           zlib_base-dev.tcz
+                     graphite2-dev.tcz
+                        graphite2.tcz
+                  bzip2-dev.tcz
+                     bzip2.tcz
+                        bzip2-lib.tcz
          x265-dev.tcz
             x265.tcz
+         json-glib-dev.tcz
+            json-glib.tcz
+               glib2.tcz
+                  gamin.tcz
+                  libelf.tcz
+                  pcre2.tcz
+                     bzip2-lib.tcz
+            glib2-dev.tcz
+               glib2-python.tcz
+                  glib2.tcz
+                     gamin.tcz
+                     libelf.tcz
+                     pcre2.tcz
+                        bzip2-lib.tcz
+                  pcre2.tcz
+                     bzip2-lib.tcz
+                  python3.11.tcz
+                     bzip2-lib.tcz
+                     readline.tcz
+                        ncurses.tcz
+                     gdbm.tcz
+                     liblzma.tcz
+                     openssl.tcz
+                        ca-certificates.tcz
+                     sqlite3.tcz
+                     ncurses.tcz
+               gamin-dev.tcz
+                  gamin.tcz
+               libelf-dev.tcz
+                  libelf.tcz
+               pcre2-dev.tcz
+                  pcre2.tcz
+                     bzip2-lib.tcz
+                  bzip2-dev.tcz
+                     bzip2.tcz
+                        bzip2-lib.tcz
+                  zlib_base-dev.tcz
+         libsndfile-dev.tcz
+            libsndfile.tcz
+               flac.tcz
+                  libogg.tcz
+               libasound.tcz
+                  alsa-modules-6.6.34-piCore-v8.tcz
+               libvorbis.tcz
+                  libogg.tcz
+               sqlite3.tcz
+            flac-dev.tcz
+               flac.tcz
+                  libogg.tcz
+               libogg-dev.tcz
+                  libogg.tcz
+            libasound-dev.tcz
+               libasound.tcz
+                  alsa-modules-6.6.34-piCore-v8.tcz
+            libvorbis-dev.tcz
+               libvorbis.tcz
+                  libogg.tcz
+               libogg-dev.tcz
+                  libogg.tcz
+            sqlite3-dev.tcz
+               sqlite3-bin.tcz
+                  sqlite3.tcz
+                  readline.tcz
+                     ncurses.tcz
+               readline-dev.tcz
+                  readline.tcz
+                     ncurses.tcz
+                  ncurses-dev.tcz
+                     ncurses.tcz
+         libssh2-dev.tcz
+            libssh2.tcz
+               openssl.tcz
+                  ca-certificates.tcz
+            openssl-dev.tcz
+               openssl.tcz
+                  ca-certificates.tcz
+         libxkbcommon-dev.tcz
+            libxkbcommon.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
+               xkeyboard-config.tcz
+            libX11-dev.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
+               libxcb-dev.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
+                  libXau-dev.tcz
+                     libXau.tcz
+                  libXdmcp-dev.tcz
+                     libXdmcp.tcz
+                  xcb-proto.tcz
+                     xorg-proto.tcz
+                        util-macros.tcz
+                           m4.tcz
+               xtrans.tcz
+         neon-dev.tcz
+            neon.tcz
+               expat2.tcz
+               openssl.tcz
+                  ca-certificates.tcz
+            expat2-dev.tcz
+               expat2.tcz
+            openssl-dev.tcz
+               openssl.tcz
+                  ca-certificates.tcz
+         libvulkan-dev.tcz
+            libvulkan.tcz
+         libsoup-dev.tcz
+            libsoup.tcz
+               glib-networking.tcz
+                  glib2.tcz
+                     gamin.tcz
+                     libelf.tcz
+                     pcre2.tcz
+                        bzip2-lib.tcz
+                  gnutls.tcz
+                     libidn2.tcz
+                        libunistring.tcz
+                     unbound.tcz
+                        expat2.tcz
+                        openssl.tcz
+                           ca-certificates.tcz
+                     nettle.tcz
+                        gmp.tcz
+                     p11-kit.tcz
+                        libtasn1.tcz
+                  openssl.tcz
+                     ca-certificates.tcz
+               libxml2.tcz
+                  liblzma.tcz
+               sqlite3.tcz
+               libpsl.tcz
+                  libidn2.tcz
+                     libunistring.tcz
+            libxml2-dev.tcz
+               libxml2.tcz
+                  liblzma.tcz
+            sqlite3-dev.tcz
+               sqlite3-bin.tcz
+                  sqlite3.tcz
+                  readline.tcz
+                     ncurses.tcz
+               readline-dev.tcz
+                  readline.tcz
+                     ncurses.tcz
+                  ncurses-dev.tcz
+                     ncurses.tcz
+            libpsl-dev.tcz
+               libpsl.tcz
+                  libidn2.tcz
+                     libunistring.tcz
+               libidn2-dev.tcz
+                  libidn2.tcz
+                     libunistring.tcz
+                  libunistring-dev.tcz
+                     libunistring.tcz
    clutter-gtk-dev.tcz
       clutter-gtk.tcz
          clutter.tcz
@@ -10205,6 +10848,13 @@ totem-dev.tcz
                      libogg.tcz
                   libvorbis.tcz
                      libogg.tcz
+                  gudev-lib.tcz
+                     udev-lib.tcz
+                     glib2.tcz
+                        gamin.tcz
+                        libelf.tcz
+                        pcre2.tcz
+                           bzip2-lib.tcz
                Xorg-3d.tcz
                   Xorg.tcz
                      Xprogs.tcz
@@ -10683,6 +11333,13 @@ totem-dev.tcz
                      libogg.tcz
                   libvorbis.tcz
                      libogg.tcz
+                  gudev-lib.tcz
+                     udev-lib.tcz
+                     glib2.tcz
+                        gamin.tcz
+                        libelf.tcz
+                        pcre2.tcz
+                           bzip2-lib.tcz
                Xorg-3d.tcz
                   Xorg.tcz
                      Xprogs.tcz
@@ -11160,6 +11817,13 @@ totem-dev.tcz
                      libogg.tcz
                   libvorbis.tcz
                      libogg.tcz
+                  gudev-lib.tcz
+                     udev-lib.tcz
+                     glib2.tcz
+                        gamin.tcz
+                        libelf.tcz
+                        pcre2.tcz
+                           bzip2-lib.tcz
                Xorg-3d.tcz
                   Xorg.tcz
                      Xprogs.tcz
@@ -11844,6 +12508,13 @@ totem-dev.tcz
                      libogg.tcz
                   libvorbis.tcz
                      libogg.tcz
+                  gudev-lib.tcz
+                     udev-lib.tcz
+                     glib2.tcz
+                        gamin.tcz
+                        libelf.tcz
+                        pcre2.tcz
+                           bzip2-lib.tcz
                gstreamer-dev.tcz
                   gstreamer.tcz
                      glib2.tcz
@@ -11889,6 +12560,43 @@ totem-dev.tcz
                      alsa-modules-6.6.34-piCore-v8.tcz
                opus-dev.tcz
                   opus.tcz
+               graphene-dev.tcz
+                  graphene.tcz
+                     glib2.tcz
+                        gamin.tcz
+                        libelf.tcz
+                        pcre2.tcz
+                           bzip2-lib.tcz
+                  glib2-dev.tcz
+                     glib2-python.tcz
+                        glib2.tcz
+                           gamin.tcz
+                           libelf.tcz
+                           pcre2.tcz
+                              bzip2-lib.tcz
+                        pcre2.tcz
+                           bzip2-lib.tcz
+                        python3.11.tcz
+                           bzip2-lib.tcz
+                           readline.tcz
+                              ncurses.tcz
+                           gdbm.tcz
+                           liblzma.tcz
+                           openssl.tcz
+                              ca-certificates.tcz
+                           sqlite3.tcz
+                           ncurses.tcz
+                     gamin-dev.tcz
+                        gamin.tcz
+                     libelf-dev.tcz
+                        libelf.tcz
+                     pcre2-dev.tcz
+                        pcre2.tcz
+                           bzip2-lib.tcz
+                        bzip2-dev.tcz
+                           bzip2.tcz
+                              bzip2-lib.tcz
+                        zlib_base-dev.tcz
                libvorbis-dev.tcz
                   libvorbis.tcz
                      libogg.tcz
@@ -12681,33 +13389,71 @@ totem-dev.tcz
                libjpeg-turbo-dev.tcz
                   libjpeg-turbo-bin.tcz
                      libjpeg-turbo.tcz
-               gdk-pixbuf-dev.tcz
-                  gdk-pixbuf.tcz
+               libXi-dev.tcz
+                  libXi.tcz
+                     libXext.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                  libXext-dev.tcz
+                     libXext.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                     libX11-dev.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                        libxcb-dev.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                           libXau-dev.tcz
+                              libXau.tcz
+                           libXdmcp-dev.tcz
+                              libXdmcp.tcz
+                           xcb-proto.tcz
+                              xorg-proto.tcz
+                                 util-macros.tcz
+                                    m4.tcz
+                        xtrans.tcz
+                  libXfixes-dev.tcz
+                     libXfixes.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                     libX11-dev.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                        libxcb-dev.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                           libXau-dev.tcz
+                              libXau.tcz
+                           libXdmcp-dev.tcz
+                              libXdmcp.tcz
+                           xcb-proto.tcz
+                              xorg-proto.tcz
+                                 util-macros.tcz
+                                    m4.tcz
+                        xtrans.tcz
+               gudev-lib-dev.tcz
+                  gudev-lib.tcz
+                     udev-lib.tcz
                      glib2.tcz
                         gamin.tcz
                         libelf.tcz
                         pcre2.tcz
                            bzip2-lib.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-                     libpng.tcz
-                     libtiff.tcz
-                        liblzma.tcz
-                        libjpeg-turbo.tcz
-                        zstd.tcz
-                           libzstd.tcz
-                           liblzma.tcz
-                           liblz4.tcz
-                     shared-mime-info.tcz
-                        glib2.tcz
-                           gamin.tcz
-                           libelf.tcz
-                           pcre2.tcz
-                              bzip2-lib.tcz
-                        libxml2.tcz
-                           liblzma.tcz
+                  udev-lib-dev.tcz
+                     udev-lib.tcz
                   glib2-dev.tcz
                      glib2-python.tcz
                         glib2.tcz
@@ -12738,49 +13484,37 @@ totem-dev.tcz
                            bzip2.tcz
                               bzip2-lib.tcz
                         zlib_base-dev.tcz
-                  libX11-dev.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-                     libxcb-dev.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-                        libXau-dev.tcz
-                           libXau.tcz
-                        libXdmcp-dev.tcz
-                           libXdmcp.tcz
-                        xcb-proto.tcz
-                           xorg-proto.tcz
-                              util-macros.tcz
-                                 m4.tcz
-                     xtrans.tcz
-                  libpng-dev.tcz
-                     libpng.tcz
-                  tiff-dev.tcz
-                     tiff-bin.tcz
-                        libtiff.tcz
-                           liblzma.tcz
-                           libjpeg-turbo.tcz
-                           zstd.tcz
-                              libzstd.tcz
-                              liblzma.tcz
-                              liblz4.tcz
-                     liblzma-dev.tcz
-                        liblzma.tcz
-                     zstd-dev.tcz
-                        zstd.tcz
-                           libzstd.tcz
-                           liblzma.tcz
-                           liblz4.tcz
-                        liblzma-dev.tcz
-                           liblzma.tcz
-                        liblz4-dev.tcz
-                           liblz4.tcz
-                     libjpeg-turbo-dev.tcz
-                        libjpeg-turbo-bin.tcz
-                           libjpeg-turbo.tcz
+               libXv-dev.tcz
+                  libXv.tcz
+                     libXext.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                  libXext-dev.tcz
+                     libXext.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                     libX11-dev.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                        libxcb-dev.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                           libXau-dev.tcz
+                              libXau.tcz
+                           libXdmcp-dev.tcz
+                              libXdmcp.tcz
+                           xcb-proto.tcz
+                              xorg-proto.tcz
+                                 util-macros.tcz
+                                    m4.tcz
+                        xtrans.tcz
             libXcomposite-dev.tcz
                libXcomposite.tcz
                   libX11.tcz
@@ -15810,6 +16544,44 @@ totem-dev.tcz
                libogg.tcz
             libvorbis.tcz
                libogg.tcz
+            gudev-lib.tcz
+               udev-lib.tcz
+               glib2.tcz
+                  gamin.tcz
+                  libelf.tcz
+                  pcre2.tcz
+                     bzip2-lib.tcz
+         libEGL.tcz
+            mesa.tcz
+               libdrm.tcz
+                  libpciaccess.tcz
+                  udev-lib.tcz
+               libXdamage.tcz
+                  libXfixes.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+               libXxf86vm.tcz
+                  libXext.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+               expat2.tcz
+               libxshmfence.tcz
+               llvm15-lib.tcz
+                  libxml2.tcz
+                     liblzma.tcz
+                  ncurses.tcz
+                  zstd.tcz
+                     libzstd.tcz
+                     liblzma.tcz
+                     liblz4.tcz
+            wayland.tcz
+               expat2.tcz
+               libxml2.tcz
+                  liblzma.tcz
          libGLES.tcz
             mesa.tcz
                libdrm.tcz
@@ -15841,6 +16613,7 @@ totem-dev.tcz
                libpciaccess.tcz
                udev-lib.tcz
          libwebp.tcz
+         x265.tcz
       gst-plugins-base-dev.tcz
          gst-plugins-base.tcz
             gstreamer.tcz
@@ -15857,6 +16630,13 @@ totem-dev.tcz
                libogg.tcz
             libvorbis.tcz
                libogg.tcz
+            gudev-lib.tcz
+               udev-lib.tcz
+               glib2.tcz
+                  gamin.tcz
+                  libelf.tcz
+                  pcre2.tcz
+                     bzip2-lib.tcz
          gstreamer-dev.tcz
             gstreamer.tcz
                glib2.tcz
@@ -15902,6 +16682,43 @@ totem-dev.tcz
                alsa-modules-6.6.34-piCore-v8.tcz
          opus-dev.tcz
             opus.tcz
+         graphene-dev.tcz
+            graphene.tcz
+               glib2.tcz
+                  gamin.tcz
+                  libelf.tcz
+                  pcre2.tcz
+                     bzip2-lib.tcz
+            glib2-dev.tcz
+               glib2-python.tcz
+                  glib2.tcz
+                     gamin.tcz
+                     libelf.tcz
+                     pcre2.tcz
+                        bzip2-lib.tcz
+                  pcre2.tcz
+                     bzip2-lib.tcz
+                  python3.11.tcz
+                     bzip2-lib.tcz
+                     readline.tcz
+                        ncurses.tcz
+                     gdbm.tcz
+                     liblzma.tcz
+                     openssl.tcz
+                        ca-certificates.tcz
+                     sqlite3.tcz
+                     ncurses.tcz
+               gamin-dev.tcz
+                  gamin.tcz
+               libelf-dev.tcz
+                  libelf.tcz
+               pcre2-dev.tcz
+                  pcre2.tcz
+                     bzip2-lib.tcz
+                  bzip2-dev.tcz
+                     bzip2.tcz
+                        bzip2-lib.tcz
+                  zlib_base-dev.tcz
          libvorbis-dev.tcz
             libvorbis.tcz
                libogg.tcz
@@ -16694,33 +17511,71 @@ totem-dev.tcz
          libjpeg-turbo-dev.tcz
             libjpeg-turbo-bin.tcz
                libjpeg-turbo.tcz
-         gdk-pixbuf-dev.tcz
-            gdk-pixbuf.tcz
+         libXi-dev.tcz
+            libXi.tcz
+               libXext.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
+            libXext-dev.tcz
+               libXext.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
+               libX11-dev.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
+                  libxcb-dev.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
+                     libXau-dev.tcz
+                        libXau.tcz
+                     libXdmcp-dev.tcz
+                        libXdmcp.tcz
+                     xcb-proto.tcz
+                        xorg-proto.tcz
+                           util-macros.tcz
+                              m4.tcz
+                  xtrans.tcz
+            libXfixes-dev.tcz
+               libXfixes.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
+               libX11-dev.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
+                  libxcb-dev.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
+                     libXau-dev.tcz
+                        libXau.tcz
+                     libXdmcp-dev.tcz
+                        libXdmcp.tcz
+                     xcb-proto.tcz
+                        xorg-proto.tcz
+                           util-macros.tcz
+                              m4.tcz
+                  xtrans.tcz
+         gudev-lib-dev.tcz
+            gudev-lib.tcz
+               udev-lib.tcz
                glib2.tcz
                   gamin.tcz
                   libelf.tcz
                   pcre2.tcz
                      bzip2-lib.tcz
-               libX11.tcz
-                  libxcb.tcz
-                     libXau.tcz
-                     libXdmcp.tcz
-               libpng.tcz
-               libtiff.tcz
-                  liblzma.tcz
-                  libjpeg-turbo.tcz
-                  zstd.tcz
-                     libzstd.tcz
-                     liblzma.tcz
-                     liblz4.tcz
-               shared-mime-info.tcz
-                  glib2.tcz
-                     gamin.tcz
-                     libelf.tcz
-                     pcre2.tcz
-                        bzip2-lib.tcz
-                  libxml2.tcz
-                     liblzma.tcz
+            udev-lib-dev.tcz
+               udev-lib.tcz
             glib2-dev.tcz
                glib2-python.tcz
                   glib2.tcz
@@ -16751,49 +17606,37 @@ totem-dev.tcz
                      bzip2.tcz
                         bzip2-lib.tcz
                   zlib_base-dev.tcz
-            libX11-dev.tcz
-               libX11.tcz
-                  libxcb.tcz
-                     libXau.tcz
-                     libXdmcp.tcz
-               libxcb-dev.tcz
-                  libxcb.tcz
-                     libXau.tcz
-                     libXdmcp.tcz
-                  libXau-dev.tcz
-                     libXau.tcz
-                  libXdmcp-dev.tcz
-                     libXdmcp.tcz
-                  xcb-proto.tcz
-                     xorg-proto.tcz
-                        util-macros.tcz
-                           m4.tcz
-               xtrans.tcz
-            libpng-dev.tcz
-               libpng.tcz
-            tiff-dev.tcz
-               tiff-bin.tcz
-                  libtiff.tcz
-                     liblzma.tcz
-                     libjpeg-turbo.tcz
-                     zstd.tcz
-                        libzstd.tcz
-                        liblzma.tcz
-                        liblz4.tcz
-               liblzma-dev.tcz
-                  liblzma.tcz
-               zstd-dev.tcz
-                  zstd.tcz
-                     libzstd.tcz
-                     liblzma.tcz
-                     liblz4.tcz
-                  liblzma-dev.tcz
-                     liblzma.tcz
-                  liblz4-dev.tcz
-                     liblz4.tcz
-               libjpeg-turbo-dev.tcz
-                  libjpeg-turbo-bin.tcz
-                     libjpeg-turbo.tcz
+         libXv-dev.tcz
+            libXv.tcz
+               libXext.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
+            libXext-dev.tcz
+               libXext.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
+               libX11-dev.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
+                  libxcb-dev.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
+                     libXau-dev.tcz
+                        libXau.tcz
+                     libXdmcp-dev.tcz
+                        libXdmcp.tcz
+                     xcb-proto.tcz
+                        xorg-proto.tcz
+                           util-macros.tcz
+                              m4.tcz
+                  xtrans.tcz
       curl-dev.tcz
          curl.tcz
             openssl.tcz
@@ -18854,6 +19697,258 @@ totem-dev.tcz
          lcms2-dev.tcz 
          libpng-dev.tcz 
          tiff-dev.tcz  
+      libass-dev.tcz
+         libass.tcz
+            fribidi.tcz
+               glib2.tcz 
+            fontconfig.tcz
+               expat2.tcz
+               freetype.tcz
+                  libpng.tcz
+                  harfbuzz.tcz
+                     glib2.tcz
+                        gamin.tcz
+                        libelf.tcz
+                        pcre2.tcz
+                           bzip2-lib.tcz
+                     graphite2.tcz
+                  bzip2-lib.tcz
+         fribidi-dev.tcz
+            fribidi.tcz 
+            glib2-dev.tcz 
+         fontconfig-dev.tcz
+            fontconfig.tcz
+               expat2.tcz
+               freetype.tcz
+                  libpng.tcz
+                  harfbuzz.tcz
+                     glib2.tcz
+                        gamin.tcz
+                        libelf.tcz
+                        pcre2.tcz
+                           bzip2-lib.tcz
+                     graphite2.tcz
+                  bzip2-lib.tcz
+            expat2-dev.tcz
+               expat2.tcz
+            freetype-dev.tcz
+               freetype.tcz
+                  libpng.tcz
+                  harfbuzz.tcz
+                     glib2.tcz
+                        gamin.tcz
+                        libelf.tcz
+                        pcre2.tcz
+                           bzip2-lib.tcz
+                     graphite2.tcz
+                  bzip2-lib.tcz
+               libpng-dev.tcz
+                  libpng.tcz
+               harfbuzz-dev.tcz
+                  harfbuzz.tcz
+                     glib2.tcz
+                        gamin.tcz
+                        libelf.tcz
+                        pcre2.tcz
+                           bzip2-lib.tcz
+                     graphite2.tcz
+                  glib2-dev.tcz
+                     glib2-python.tcz
+                        glib2.tcz
+                           gamin.tcz
+                           libelf.tcz
+                           pcre2.tcz
+                              bzip2-lib.tcz
+                        pcre2.tcz
+                           bzip2-lib.tcz
+                        python3.11.tcz
+                           bzip2-lib.tcz
+                           readline.tcz
+                              ncurses.tcz
+                           gdbm.tcz
+                           liblzma.tcz
+                           openssl.tcz
+                              ca-certificates.tcz
+                           sqlite3.tcz
+                           ncurses.tcz
+                     gamin-dev.tcz
+                        gamin.tcz
+                     libelf-dev.tcz
+                        libelf.tcz
+                     pcre2-dev.tcz
+                        pcre2.tcz
+                           bzip2-lib.tcz
+                        bzip2-dev.tcz
+                           bzip2.tcz
+                              bzip2-lib.tcz
+                        zlib_base-dev.tcz
+                  graphite2-dev.tcz
+                     graphite2.tcz
+               bzip2-dev.tcz
+                  bzip2.tcz
+                     bzip2-lib.tcz
       x265-dev.tcz
          x265.tcz
+      json-glib-dev.tcz
+         json-glib.tcz
+            glib2.tcz
+               gamin.tcz
+               libelf.tcz
+               pcre2.tcz
+                  bzip2-lib.tcz
+         glib2-dev.tcz
+            glib2-python.tcz
+               glib2.tcz
+                  gamin.tcz
+                  libelf.tcz
+                  pcre2.tcz
+                     bzip2-lib.tcz
+               pcre2.tcz
+                  bzip2-lib.tcz
+               python3.11.tcz
+                  bzip2-lib.tcz
+                  readline.tcz
+                     ncurses.tcz
+                  gdbm.tcz
+                  liblzma.tcz
+                  openssl.tcz
+                     ca-certificates.tcz
+                  sqlite3.tcz
+                  ncurses.tcz
+            gamin-dev.tcz
+               gamin.tcz
+            libelf-dev.tcz
+               libelf.tcz
+            pcre2-dev.tcz
+               pcre2.tcz
+                  bzip2-lib.tcz
+               bzip2-dev.tcz
+                  bzip2.tcz
+                     bzip2-lib.tcz
+               zlib_base-dev.tcz
+      libsndfile-dev.tcz
+         libsndfile.tcz
+            flac.tcz
+               libogg.tcz
+            libasound.tcz
+               alsa-modules-6.6.34-piCore-v8.tcz
+            libvorbis.tcz
+               libogg.tcz
+            sqlite3.tcz
+         flac-dev.tcz
+            flac.tcz
+               libogg.tcz
+            libogg-dev.tcz
+               libogg.tcz
+         libasound-dev.tcz
+            libasound.tcz
+               alsa-modules-6.6.34-piCore-v8.tcz
+         libvorbis-dev.tcz
+            libvorbis.tcz
+               libogg.tcz
+            libogg-dev.tcz
+               libogg.tcz
+         sqlite3-dev.tcz
+            sqlite3-bin.tcz
+               sqlite3.tcz
+               readline.tcz
+                  ncurses.tcz
+            readline-dev.tcz
+               readline.tcz
+                  ncurses.tcz
+               ncurses-dev.tcz
+                  ncurses.tcz
+      libssh2-dev.tcz
+         libssh2.tcz
+            openssl.tcz
+               ca-certificates.tcz
+         openssl-dev.tcz
+            openssl.tcz
+               ca-certificates.tcz
+      libxkbcommon-dev.tcz
+         libxkbcommon.tcz
+            libX11.tcz
+               libxcb.tcz
+                  libXau.tcz
+                  libXdmcp.tcz
+            xkeyboard-config.tcz
+         libX11-dev.tcz
+            libX11.tcz
+               libxcb.tcz
+                  libXau.tcz
+                  libXdmcp.tcz
+            libxcb-dev.tcz
+               libxcb.tcz
+                  libXau.tcz
+                  libXdmcp.tcz
+               libXau-dev.tcz
+                  libXau.tcz
+               libXdmcp-dev.tcz
+                  libXdmcp.tcz
+               xcb-proto.tcz
+                  xorg-proto.tcz
+                     util-macros.tcz
+                        m4.tcz
+            xtrans.tcz
+      neon-dev.tcz
+         neon.tcz
+            expat2.tcz
+            openssl.tcz
+               ca-certificates.tcz
+         expat2-dev.tcz
+            expat2.tcz
+         openssl-dev.tcz
+            openssl.tcz
+               ca-certificates.tcz
+      libvulkan-dev.tcz
+         libvulkan.tcz
+      libsoup-dev.tcz
+         libsoup.tcz
+            glib-networking.tcz
+               glib2.tcz
+                  gamin.tcz
+                  libelf.tcz
+                  pcre2.tcz
+                     bzip2-lib.tcz
+               gnutls.tcz
+                  libidn2.tcz
+                     libunistring.tcz
+                  unbound.tcz
+                     expat2.tcz
+                     openssl.tcz
+                        ca-certificates.tcz
+                  nettle.tcz
+                     gmp.tcz
+                  p11-kit.tcz
+                     libtasn1.tcz
+               openssl.tcz
+                  ca-certificates.tcz
+            libxml2.tcz
+               liblzma.tcz
+            sqlite3.tcz
+            libpsl.tcz
+               libidn2.tcz
+                  libunistring.tcz
+         libxml2-dev.tcz
+            libxml2.tcz
+               liblzma.tcz
+         sqlite3-dev.tcz
+            sqlite3-bin.tcz
+               sqlite3.tcz
+               readline.tcz
+                  ncurses.tcz
+            readline-dev.tcz
+               readline.tcz
+                  ncurses.tcz
+               ncurses-dev.tcz
+                  ncurses.tcz
+         libpsl-dev.tcz
+            libpsl.tcz
+               libidn2.tcz
+                  libunistring.tcz
+            libidn2-dev.tcz
+               libidn2.tcz
+                  libunistring.tcz
+               libunistring-dev.tcz
+                  libunistring.tcz
 

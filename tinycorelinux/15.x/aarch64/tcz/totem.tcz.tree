@@ -103,6 +103,13 @@ totem.tcz
                   libogg.tcz
                libvorbis.tcz
                   libogg.tcz
+               gudev-lib.tcz
+                  udev-lib.tcz
+                  glib2.tcz
+                     gamin.tcz
+                     libelf.tcz
+                     pcre2.tcz
+                        bzip2-lib.tcz
             Xorg-3d.tcz
                Xorg.tcz
                   Xprogs.tcz
@@ -493,6 +500,44 @@ totem.tcz
                libogg.tcz
             libvorbis.tcz
                libogg.tcz
+            gudev-lib.tcz
+               udev-lib.tcz
+               glib2.tcz
+                  gamin.tcz
+                  libelf.tcz
+                  pcre2.tcz
+                     bzip2-lib.tcz
+         libEGL.tcz
+            mesa.tcz
+               libdrm.tcz
+                  libpciaccess.tcz
+                  udev-lib.tcz
+               libXdamage.tcz
+                  libXfixes.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+               libXxf86vm.tcz
+                  libXext.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+               expat2.tcz
+               libxshmfence.tcz
+               llvm15-lib.tcz
+                  libxml2.tcz
+                     liblzma.tcz
+                  ncurses.tcz
+                  zstd.tcz
+                     libzstd.tcz
+                     liblzma.tcz
+                     liblz4.tcz
+            wayland.tcz
+               expat2.tcz
+               libxml2.tcz
+                  liblzma.tcz
          libGLES.tcz
             mesa.tcz
                libdrm.tcz
@@ -524,6 +569,7 @@ totem.tcz
                libpciaccess.tcz
                udev-lib.tcz
          libwebp.tcz
+         x265.tcz
    clutter-gtk.tcz
       clutter.tcz
          cogl.tcz
@@ -628,6 +674,13 @@ totem.tcz
                   libogg.tcz
                libvorbis.tcz
                   libogg.tcz
+               gudev-lib.tcz
+                  udev-lib.tcz
+                  glib2.tcz
+                     gamin.tcz
+                     libelf.tcz
+                     pcre2.tcz
+                        bzip2-lib.tcz
             Xorg-3d.tcz
                Xorg.tcz
                   Xprogs.tcz
@@ -1531,6 +1584,44 @@ totem.tcz
                         libogg.tcz
                      libvorbis.tcz
                         libogg.tcz
+                     gudev-lib.tcz
+                        udev-lib.tcz
+                        glib2.tcz
+                           gamin.tcz
+                           libelf.tcz
+                           pcre2.tcz
+                              bzip2-lib.tcz
+                  libEGL.tcz
+                     mesa.tcz
+                        libdrm.tcz
+                           libpciaccess.tcz
+                           udev-lib.tcz
+                        libXdamage.tcz
+                           libXfixes.tcz
+                              libX11.tcz
+                                 libxcb.tcz
+                                    libXau.tcz
+                                    libXdmcp.tcz
+                        libXxf86vm.tcz
+                           libXext.tcz
+                              libX11.tcz
+                                 libxcb.tcz
+                                    libXau.tcz
+                                    libXdmcp.tcz
+                        expat2.tcz
+                        libxshmfence.tcz
+                        llvm15-lib.tcz
+                           libxml2.tcz
+                              liblzma.tcz
+                           ncurses.tcz
+                           zstd.tcz
+                              libzstd.tcz
+                              liblzma.tcz
+                              liblz4.tcz
+                     wayland.tcz
+                        expat2.tcz
+                        libxml2.tcz
+                           liblzma.tcz
                   libGLES.tcz
                      mesa.tcz
                         libdrm.tcz
@@ -1562,6 +1653,7 @@ totem.tcz
                         libpciaccess.tcz
                         udev-lib.tcz
                   libwebp.tcz
+                  x265.tcz
                gtk3.tcz
                   libepoxy.tcz
                   at-spi2-core.tcz
@@ -2009,6 +2101,13 @@ totem.tcz
                libogg.tcz
             libvorbis.tcz
                libogg.tcz
+            gudev-lib.tcz
+               udev-lib.tcz
+               glib2.tcz
+                  gamin.tcz
+                  libelf.tcz
+                  pcre2.tcz
+                     bzip2-lib.tcz
          libsoup.tcz
             glib-networking.tcz
                glib2.tcz
@@ -2660,6 +2759,13 @@ totem.tcz
             libogg.tcz
          libvorbis.tcz
             libogg.tcz
+         gudev-lib.tcz
+            udev-lib.tcz
+            glib2.tcz
+               gamin.tcz
+               libelf.tcz
+               pcre2.tcz
+                  bzip2-lib.tcz
       libvpx.tcz
    gst-plugins-bad.tcz
       gst-plugins-base.tcz
@@ -2677,6 +2783,44 @@ totem.tcz
             libogg.tcz
          libvorbis.tcz
             libogg.tcz
+         gudev-lib.tcz
+            udev-lib.tcz
+            glib2.tcz
+               gamin.tcz
+               libelf.tcz
+               pcre2.tcz
+                  bzip2-lib.tcz
+      libEGL.tcz
+         mesa.tcz
+            libdrm.tcz
+               libpciaccess.tcz
+               udev-lib.tcz
+            libXdamage.tcz
+               libXfixes.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
+            libXxf86vm.tcz
+               libXext.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
+            expat2.tcz
+            libxshmfence.tcz
+            llvm15-lib.tcz
+               libxml2.tcz
+                  liblzma.tcz
+               ncurses.tcz
+               zstd.tcz
+                  libzstd.tcz
+                  liblzma.tcz
+                  liblz4.tcz
+         wayland.tcz
+            expat2.tcz
+            libxml2.tcz
+               liblzma.tcz
       libGLES.tcz
          mesa.tcz
             libdrm.tcz
@@ -2708,6 +2852,7 @@ totem.tcz
             libpciaccess.tcz
             udev-lib.tcz
       libwebp.tcz
+      x265.tcz
    gst-libav.tcz
       gst-plugins-base.tcz
          gstreamer.tcz
@@ -2724,6 +2869,13 @@ totem.tcz
             libogg.tcz
          libvorbis.tcz
             libogg.tcz
+         gudev-lib.tcz
+            udev-lib.tcz
+            glib2.tcz
+               gamin.tcz
+               libelf.tcz
+               pcre2.tcz
+                  bzip2-lib.tcz
       libavfilter.tcz
          libswresample.tcz
             libavutil.tcz
