@@ -1,0 +1,39 @@
+Title:          rofi-theme-selector.tcz 
+Description:    GUI theme selector for rofi
+Version:        1.7.5+wayland3
+Author:         https://github.com/lbonn/rofi/blob/wayland/AUTHORS
+Original-site:  https://github.com/lbonn/rofi
+Copying-policy: Accompanied 
+Size:           32K
+Extension_by:   aus9 @linuxquestions.org
+Tags:           launcher 
+Comments:       This TCE uses same icon as main TCE
+                rofi defaults to fancy theme.  
+
+                If you like to view others, load this TCE and 
+                press enter against each theme, except dmenu.
+                Once you are happy with a theme, press Alt + a to accept
+                new selection. Or press Escape to keep current theme.
+                Use wbar or run 
+                $ rofi-theme-selector
+
+                Alt + a edits config to usr/share/* pathway So...
+                Copy any new theme from tcloop/TCE/usr/local/share/rofi/themes/
+                -> $HOME/.config/rofi/themes
+
+                Independent themes can also be used see
+                https://github.com/newmanls/rofi-themes-collection
+                and other like minded sites 
+                TC has a man-page for this TCE too 
+
+                Be aware the following have font settings which over rule config
+                arthur, c64, dmenu & docu
+                
+                The last line of your config should read as <change name of theme>
+                and pathway
+                @theme "/home/tc/.config/rofi/themes/<new theme>.rasi"
+                If you lack confidence to do this, keep this TCE loading which has
+                a dep of rofi                             
+                
+Change-log:     2024/08/27 v 1.7.5+wayland3 on 15x -1xlarge theme & desktop file removed
+Current:        2024/08/27     

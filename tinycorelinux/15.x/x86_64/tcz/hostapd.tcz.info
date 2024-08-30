@@ -1,16 +1,16 @@
 Title:          hostapd.tcz
 Description:    wlan ap mode daemon
-Version:        2.10
+Version:        2.11
 Author:         see list of sites below
 Original-site:  see list of sites below
 Copying-policy: see list of sites below
-Size:		616K
+Size:		672K
 Extension_by:   gnuser
 Tags:           wlan wifi access point ap
 Comments:       wireless lan access point mode daemon
                 ----------
                 This extension contains:
-                hostapd-2.10 - bsd - http://w1.fi/releases/hostapd-2.10.tar.gz
+                hostapd-2.11 - BSD - http://w1.fi/releases/hostapd-2.11.tar.gz
                 ----------
 Change-log:     2017/08/09 first version 2.6 (bonbob)
                 2020/05/07 updated 2.6 -> 2.9
@@ -18,4 +18,5 @@ Change-log:     2017/08/09 first version 2.6 (bonbob)
                 2022/06/22 updated 2.9 -> 2.10
                 2022/07/12 added support for 802.11ac and 802.11ax
                 2023/01/17 recompiled for TCL14.x
-Current:        2023/12/19 recompiled against updated openssl
+                2023/12/19 recompiled against updated openssl
+Current:        2024/08/24 updated 2.10 -> 2.11
