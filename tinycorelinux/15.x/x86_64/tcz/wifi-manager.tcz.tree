@@ -4,6 +4,23 @@ wifi-manager.tcz
          libdb.tcz
    iw.tcz
       libnl.tcz
-   eiwd.tcz
-      wireless-6.1.2-tinycore64.tcz
+   wpa_supplicant-dbus.tcz
+      libnl.tcz
+      dbus.tcz
+         expat2.tcz
+         elogind.tcz
+            acl.tcz
+               attr.tcz
+            libcap.tcz
+               attr.tcz
+            util-linux.tcz
+               readline.tcz
+                  ncursesw.tcz
+               udev-lib.tcz
+      openssl.tcz
+      readline.tcz
+         ncursesw.tcz
+      wireless_tools.tcz
+         wireless-6.6.8-tinycore64.tcz
+         libiw.tcz
 

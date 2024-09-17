@@ -5,18 +5,18 @@ Author:         Various
 Original-site:  https://git.kernel.org/pub/scm/linux/\
                 kernel/git/firmware/linux-firmware.git
 Copying-policy: Distributable
-Size:           15.2M
+Size:           16M
 Extension_by:   aus9 @linuxquestions.org
 Tags:           firmware wifi VPU
 Comments:       firmware mainly WLAN devices but includes 
                 some video processing units (VPU)
 
-                update WARNING deletions: mt7601u.bin
-                mt7650.bin mt7662.bin mt7662_rom_patch.bin  
+                update WARNING deletions: mt7650.bin   
                 run $ modinfo | grep firmware 
                 If FW still needed delete md5 file and do not update!
   
 Change-log:     2020/06/20 split from firmware.tcz and updated
                 2020/06/20 updated (aus9)
                 2023/02/04 updated  
-Current:        2024/03/12 updated remove install script - 3 deletions       
+                2024/03/12 updated remove 14x install script - 1 deletion (corrected)
+Current:        2024/08/31 add new install script, add lib/firmware for 2xFW credit Gnuser 

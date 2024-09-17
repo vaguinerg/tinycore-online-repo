@@ -1,10 +1,10 @@
 Title:		mailutils.tcz
 Description:	Email tools
-Version:	3.15
+Version:	3.17
 Author:		Various authors
 Original-site:	https://mailutils.org/
 Copying-policy:	GPL v3 (libraries LGPL v3)
-Size:		2.6M
+Size:		1.4M
 Extension_by:	CNK
 Tags:		mail email utility pop imap smtp lmtp mda mua mra server
 Comments:	GNU Mailutils provides a wide range of utilities and
@@ -21,7 +21,7 @@ Comments:	GNU Mailutils provides a wide range of utilities and
 		/etc/mailutils.conf
 
 		----                 
-		Compiled for TC Pure64 13.x
+		Compiled for TC Pure64 15.x
 		----   
 Change-log:	2022/06/14 First packaged version, 3.15
-Current:	2022/06/14 First packaged version, 3.15
+Current:	2024/09/02 3.15 -> 3.17, enabled libgsasl
