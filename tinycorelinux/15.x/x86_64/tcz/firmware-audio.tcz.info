@@ -8,9 +8,12 @@ Copying-policy: Distributable
 Size:           1.7M
 Extension_by:   aus9 @linuxquestions.org
 Tags:           firmware audio
-Comments:       firmware 
+Comments:       lefover audio firmware not in other TCES
                 no deletions this update
+                Most modules in alsa-modules-KERNEL
+                module imx-sdma not found for sdma-imx*bin
                      
 Change-log:     2020/06/20 split from firmware.tcz and updated (aus9)
                 2023/02/04 updated two deletions
-Current:        2024/03/12 updated remove install script - 0 deletions   
+                2024/03/12 updated remove install script - 0 deletions 
+Current:        2024/09/23 corrected info file only  

@@ -5,18 +5,21 @@ Author:         Various
 Original-site:  https://git.kernel.org/pub/scm/linux/\
                 kernel/git/firmware/linux-firmware.git
 Copying-policy: Distributable
-Size:           16M
+Size:           15.2M
 Extension_by:   aus9 @linuxquestions.org
 Tags:           firmware wifi VPU
 Comments:       firmware mainly WLAN devices but includes 
-                some video processing units (VPU)
+                some video processing units (VPU) & bluetooth
 
-                update WARNING deletions: mt7650.bin   
-                run $ modinfo | grep firmware 
-                If FW still needed delete md5 file and do not update!
+                Other modules are not shown here. Some modinfo commands need 
+                understems - counter-intuitive to Apps listing eg $ modinfo mt76_connac_lib
+                WIFI FW modules: mt76e mt76x0e mt76x0u mt76x2e mt76x2u mt7601u mt7615e
+                                 mt7663s mt7663u mt7915e mt7921e mt7921s mt7921u mt7996e  
+                BT: btmtk
+                VPU: may need Kconfig CONFIG_VIDEO_MEDIATEK_VPU 
   
 Change-log:     2020/06/20 split from firmware.tcz and updated
                 2020/06/20 updated (aus9)
                 2023/02/04 updated  
-                2024/03/12 updated remove 14x install script - 1 deletion (corrected)
-Current:        2024/08/31 add new install script, add lib/firmware for 2xFW credit Gnuser 
+                2024/03/12 updated remove install script - 0 deletions 
+Current:        2024/09/23 corrected info file only      

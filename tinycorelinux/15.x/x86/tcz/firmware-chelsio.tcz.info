@@ -8,18 +8,15 @@ Copying-policy: Distributable
 Size:           3.3M
 Extension_by:   aus9 @linuxquestions.org
 Tags:           firmware chelsio ethernet
-Comments:       firmware 
-                update WARNING deletions: t4fw-1.27.1.0.bin
-                t5fw-1.27.1.0.bin t6fw-1.27.1.0.bin
-                run $ modinfo | grep firmware 
-                If FW still needed delete md5 file and do not update!                
+Comments:       modules cxgb3 or cxgb4              
    
 Change-log:     2013/07/01 Original (curaga)
                 2016/01/10 updated (coreplayer2)
                 2017/03/17 updated     "
                 2018/02/25 updated     "
                 2018/12/24 updated     "
-                2020/01/13 updated (juanito)
+                2020/01/13 updated (Juanito)
                 2020/06/20 updated (aus9)
                 2023/02/04 updated has deletions
-Current:        2024/03/12 updated remove install script - 3 deletions    
+                2024/03/12 updated remove install script - 0 deletions 
+Current:        2024/09/23 corrected info file only   

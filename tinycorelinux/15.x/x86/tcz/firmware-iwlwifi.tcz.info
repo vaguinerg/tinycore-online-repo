@@ -8,8 +8,9 @@ Copying-policy: Distributable
 Size:           38.8M
 Extension_by:   aus9 @linuxquestions.org
 Tags:           firmware intel wifi
-Comments:       update WARNING 28 deletions
-                run $ modinfo | grep firmware 
+Comments:       update WARNING about 10 deletions 
+                run $ dmesg | grep firmware
+                $ modinfo <module-name>  | grep firmware
                 If FW still needed delete md5 file and do not update!
     
 Change-log:     2011/08/06 Original (curaga)
@@ -21,7 +22,8 @@ Change-log:     2011/08/06 Original (curaga)
                            for tc-7 repo compatibility  "  
                 2018/02/25 updated     "
                 2018/12/24 updated     "
-                2020/01/13 updated (juanito)
+                2020/01/13 updated (Juanito)
                 2020/06/20 updated (aus9)
                 2023/02/04 updated has deletions
-Current:        2024/03/12 updated remove install script -28 deletions     
+                2024/03/12 updated remove install script - about 10 deletions 
+Current:        2024/09/23 corrected info file only    

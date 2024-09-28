@@ -8,11 +8,7 @@ Copying-policy: Distributable
 Size:           3.9M
 Extension_by:   aus9 @linuxquestions.org
 Tags:           firmware intel wifi 
-Comments:       update WARNING deletions:
-                iwlwifi-8000C-22.ucode & -27 -31
-                iwlwifi-8265-22.ucode & -27 -31
-                run $ modinfo | grep firmware 
-                If FW still needed delete md5 file and do not update!    
+Comments:       module iwlwifi  
       
 Change-log:     2011/08/06 Original (curaga)
                 2013/07/01 updated (coreplayer2)
@@ -21,7 +17,8 @@ Change-log:     2011/08/06 Original (curaga)
                 2017/03/17 updated     "
                 2018/02/25 updated     "
                 2018/12/24 updated     "
-                2020/01/13 updated (juanito)
+                2020/01/13 updated (Juanito)
                 2020/06/20 updated (aus9)
                 2023/02/04 updated has deletions
-Current:        2024/03/12 updated remove install script - 6 deletions      
+                2024/03/12 updated remove install script - 0 deletions  
+Current:        2024/09/23 corrected info file only    

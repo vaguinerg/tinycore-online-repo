@@ -8,15 +8,12 @@ Copying-policy: Distributable
 Size:           5.6M
 Extension_by:   aus9 @linuxquestions.org
 Tags:           firmware intel wifi 
-Comments:       update WARNING deletions:
-                iwlwifi-9000-pu-b0-jf-b0-33.ucode & -41 -43
-                iwlwifi-9260-th-b0-jf-b0-33.ucode & -41 -43
-                run $ modinfo | grep firmware 
-                If FW still needed delete md5 file and do not update!
+Comments:       module iwlwifi
       
 Change-log:     2018/02/25 Original (coreplayer2)
                 2018/12/24 updated     "
-                2020/01/13 updated (juanito)
+                2020/01/13 updated (Juanito)
                 2020/06/20 updated (aus9)
                 2023/02/04 updated many deletions
-Current:        2024/03/12 updated remove install script - 6 deletions    
+                2024/03/12 updated remove install script - 0 deletions
+Current:        2024/09/23 corrected info file only    

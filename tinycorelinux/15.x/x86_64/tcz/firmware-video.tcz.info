@@ -8,10 +8,12 @@ Copying-policy: Distributable
 Size:           2.1M
 Extension_by:   aus9 @linuxquestions.org
 Tags:           firmware video
-Comments:       Includes some Audiovisual devices
+Comments:       leftover firmware not in other TCEs
+                Includes some Audiovisual devices
 
-                (update) deletion tlg2300 so use old TCE if needed
+                modules include: cx231xx cx23885
     
 Change-log:     2020/06/20 split from firmware.tcz and updated (aus9)
                 2023/02/04 updated has 1 deletion
-Current:        2024/03/12 updated remove install script     
+                2024/03/12 updated remove install script - 0 deletions 
+Current:        2024/09/23 corrected info file only   
