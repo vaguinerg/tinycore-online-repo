@@ -1,11 +1,12 @@
 cbindgen.tcz
    rust.tcz
-      llvm15-lib.tcz
+      llvm19-lib.tcz
          libffi.tcz
          libxml2.tcz
             liblzma.tcz
          libzstd.tcz
          ncursesw.tcz
+         gcc_libs.tcz
       curl.tcz
          ca-certificates.tcz
             openssl.tcz

@@ -1,10 +1,50 @@
 clang.tcz
-   llvm15-lib.tcz
-      libffi.tcz
-      libxml2.tcz
-         liblzma.tcz
-      libzstd.tcz
-      ncursesw.tcz
+   llvm19-dev.tcz
+      llvm19-bin.tcz
+         llvm19-lib.tcz
+            libffi.tcz
+            libxml2.tcz
+               liblzma.tcz
+            libzstd.tcz
+            ncursesw.tcz
+            gcc_libs.tcz
+      libffi-dev.tcz
+         libffi.tcz
+      libxml2-dev.tcz
+         libxml2-bin.tcz
+            libxml2.tcz
+               liblzma.tcz
+            readline.tcz
+               ncursesw.tcz
+         libxml2-python.tcz
+            libxml2.tcz
+               liblzma.tcz
+            python3.6.tcz
+               openssl.tcz
+                  gcc_libs.tcz
+               sqlite3.tcz
+               gdbm.tcz
+               bzip2-lib.tcz
+               liblzma.tcz
+               readline.tcz
+                  ncursesw.tcz
+               libffi.tcz
+         liblzma-dev.tcz
+            liblzma.tcz
+         readline-dev.tcz
+            readline.tcz
+               ncursesw.tcz
+            ncursesw-dev.tcz
+               ncursesw.tcz
+      zstd-dev.tcz
+         zstd.tcz
+            libzstd.tcz
+            liblzma.tcz
+            liblz4.tcz
+         liblzma-dev.tcz
+            liblzma.tcz
+         liblz4-dev.tcz
+            liblz4.tcz
    compiletc.tcz
       bison.tcz
          gettext.tcz
