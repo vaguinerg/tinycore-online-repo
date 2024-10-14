@@ -1,0 +1,35 @@
+Title:          wofi.tcz 
+Description:    wlroots based launcher
+Version:        git-20241010
+Author:         scoopta
+Original-site:  https://hg.sr.ht/~scoopta/wofi
+Copying-policy: GPL v 3
+Size:           44K
+Extension_by:   aus9 @linuxquestions.org 
+Tags:           wayland launcher wlroots
+Comments:       For labwc or sway  - 3 built in modes
+
+                run  - searches $PATH for executables and allows them 
+                       to be run by selecting them.
+                drun - searches $XDG_DATA_HOME/applications and 
+                       $XDG_DATA_DIRS/applications for desktop files and 
+                       allows them to be run by selecting them.
+                dmenu - reads from stdin and displays options which when selected 
+                        will be output to stdout.
+                        Unable to get third mode working YMMV
+
+                $ wofi -S run   -> displays a list of executables without needing dmenu
+                $ wofi -S drun  -> displays desktop file executables without showing icons  
+                $ wofi -S drun  -I  -> displays desktop executables and their icons # that I for India 
+
+                While wofi (popup) is open, keyboard locked to wofi until you 
+                press Escape key to exit wofi OR arrow down to a selection and 
+                press enter to launch your selection OR type in search box, a 
+                command which reduces display of results, press enter against that selection.
+
+                Normal search are case sensitive even if -M=fuzzy used.
+                eg input le, results include leafpad, less, filetool.sh
+                eg input LE -> no results even if fuzzy used
+              
+Change-log:     2024/10/10 v git-20241010 on 15x
+Current:        2024/10/10  

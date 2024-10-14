@@ -1,5 +1,7 @@
 /usr/local/bin/sfwbar
+/usr/local/lib/sfwbar/wifi-nm.so
 /usr/local/lib/sfwbar/network.so
+/usr/local/lib/sfwbar/libsfwbar.so
 /usr/local/lib/sfwbar/alsactl.so
 /usr/local/lib/sfwbar/pulsectl.so
 /usr/local/lib/sfwbar/bluez.so
@@ -7,17 +9,15 @@
 /usr/local/lib/sfwbar/xkbmap.so
 /usr/local/lib/sfwbar/mpd.so
 /usr/local/lib/sfwbar/idleinhibit.so
-/usr/local/lib/libsfwbar.so
 /usr/local/share/sfwbar/cpu.source
 /usr/local/share/sfwbar/rfkill-wifi.widget
 /usr/local/share/sfwbar/w10.config
-/usr/local/share/sfwbar/wifi-iwd.widget
 /usr/local/share/sfwbar/sfwbar.config
-/usr/local/share/sfwbar/pulse-module.widget
 /usr/local/share/sfwbar/wbar-memory.widget
 /usr/local/share/sfwbar/startmenu.widget
 /usr/local/share/sfwbar/test2.config
 /usr/local/share/sfwbar/memory.source
+/usr/local/share/sfwbar/wifi.widget
 /usr/local/share/sfwbar/weather.widget
 /usr/local/share/sfwbar/wbar-net.widget
 /usr/local/share/sfwbar/twoline.config
@@ -143,6 +143,7 @@
 /usr/local/share/sfwbar/mpd.source
 /usr/local/share/sfwbar/wbar-mpd.widget
 /usr/local/share/sfwbar/winops.widget
+/usr/local/share/sfwbar/switcher.config
 /usr/local/share/sfwbar/cpu-temp.widget
 /usr/local/share/sfwbar/cpu.widget
 /usr/local/share/sfwbar/alsa.widget
@@ -153,6 +154,7 @@
 /usr/local/share/sfwbar/clock.widget
 /usr/local/share/sfwbar/sway-lang.widget
 /usr/local/share/sfwbar/bluez.widget
+/usr/local/share/sfwbar/volume.widget
 /usr/local/share/sfwbar/rfkill-bt.widget
 /usr/local/share/sfwbar/wbar-backlight.widget
 /usr/local/share/sfwbar/memory.widget
