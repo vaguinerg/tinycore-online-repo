@@ -1,34 +1,34 @@
 v4l2-utils.tcz
    libv4l2.tcz
-      v4l-dvb-6.6.26-piCore-v8.tcz
+      v4l-dvb-6.6.47-piCore-v8.tcz
+         alsa-modules-6.6.47-piCore-v8.tcz
+         graphics-6.6.47-piCore-v8.tcz
+            alsa-modules-6.6.47-piCore-v8.tcz
       libjpeg-turbo.tcz
       udev-lib.tcz
    libasound.tcz
-      alsa-modules-6.6.26-piCore-v8.tcz
+      alsa-modules-6.6.47-piCore-v8.tcz
    mesa.tcz
       libdrm.tcz
          libpciaccess.tcz
          udev-lib.tcz
-      libXdamage.tcz
-         libXfixes.tcz
-            libX11.tcz
-               libxcb.tcz
-                  libXau.tcz
-                  libXdmcp.tcz
+      llvm19-lib.tcz
+         libxml2.tcz
+            liblzma.tcz
+         libzstd.tcz
+         ncurses.tcz
+      expat2.tcz
+      libzstd.tcz
+      libXfixes.tcz
+         libX11.tcz
+            libxcb.tcz
+               libXau.tcz
+               libXdmcp.tcz
       libXxf86vm.tcz
          libXext.tcz
             libX11.tcz
                libxcb.tcz
                   libXau.tcz
                   libXdmcp.tcz
-      expat2.tcz
       libxshmfence.tcz
-      llvm15-lib.tcz
-         libxml2.tcz
-            liblzma.tcz
-         ncurses.tcz
-         zstd.tcz
-            libzstd.tcz
-            liblzma.tcz
-            liblz4.tcz
 
