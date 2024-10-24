@@ -93,12 +93,10 @@ mpv-dev.tcz
                               libXdmcp.tcz
                         libpng.tcz
                         libtiff.tcz
-                           liblzma.tcz
                            libjpeg-turbo.tcz
-                           zstd.tcz
-                              libzstd.tcz
-                              liblzma.tcz
-                              liblz4.tcz
+                           libwebp.tcz
+                           liblzma.tcz
+                           libzstd.tcz
                         shared-mime-info.tcz
                            glib2.tcz
                               gamin.tcz
@@ -217,13 +215,6 @@ mpv-dev.tcz
                   libogg.tcz
          sdl2.tcz
       liblcms2.tcz
-         libtiff.tcz
-            liblzma.tcz
-            libjpeg-turbo.tcz
-            zstd.tcz
-               libzstd.tcz
-               liblzma.tcz
-               liblz4.tcz
       libarchive.tcz
          openssl.tcz
             ca-certificates.tcz
@@ -367,12 +358,10 @@ mpv-dev.tcz
                                  libXdmcp.tcz
                            libpng.tcz
                            libtiff.tcz
-                              liblzma.tcz
                               libjpeg-turbo.tcz
-                              zstd.tcz
-                                 libzstd.tcz
-                                 liblzma.tcz
-                                 liblz4.tcz
+                              libwebp.tcz
+                              liblzma.tcz
+                              libzstd.tcz
                            shared-mime-info.tcz
                               glib2.tcz
                                  gamin.tcz
@@ -681,12 +670,10 @@ mpv-dev.tcz
                         libXdmcp.tcz
                   libpng.tcz
                   libtiff.tcz
-                     liblzma.tcz
                      libjpeg-turbo.tcz
-                     zstd.tcz
-                        libzstd.tcz
-                        liblzma.tcz
-                        liblz4.tcz
+                     libwebp.tcz
+                     liblzma.tcz
+                     libzstd.tcz
                   shared-mime-info.tcz
                      glib2.tcz
                         gamin.tcz
@@ -829,12 +816,10 @@ mpv-dev.tcz
                         libXdmcp.tcz
                   libpng.tcz
                   libtiff.tcz
-                     liblzma.tcz
                      libjpeg-turbo.tcz
-                     zstd.tcz
-                        libzstd.tcz
-                        liblzma.tcz
-                        liblz4.tcz
+                     libwebp.tcz
+                     liblzma.tcz
+                     libzstd.tcz
                   shared-mime-info.tcz
                      glib2.tcz
                         gamin.tcz
@@ -896,14 +881,13 @@ mpv-dev.tcz
                tiff-dev.tcz
                   tiff-bin.tcz
                      libtiff.tcz
-                        liblzma.tcz
                         libjpeg-turbo.tcz
-                        zstd.tcz
-                           libzstd.tcz
-                           liblzma.tcz
-                           liblz4.tcz
-                  liblzma-dev.tcz
-                     liblzma.tcz
+                        libwebp.tcz
+                        liblzma.tcz
+                        libzstd.tcz
+                  libjpeg-turbo-dev.tcz
+                     libjpeg-turbo-bin.tcz
+                        libjpeg-turbo.tcz
                   zstd-dev.tcz
                      zstd.tcz
                         libzstd.tcz
@@ -913,9 +897,6 @@ mpv-dev.tcz
                         liblzma.tcz
                      liblz4-dev.tcz
                         liblz4.tcz
-                  libjpeg-turbo-dev.tcz
-                     libjpeg-turbo-bin.tcz
-                        libjpeg-turbo.tcz
             at-spi2-core-dev.tcz
                at-spi2-core.tcz
                   dbus.tcz
@@ -2039,14 +2020,13 @@ mpv-dev.tcz
          tiff-dev.tcz
             tiff-bin.tcz
                libtiff.tcz
-                  liblzma.tcz
                   libjpeg-turbo.tcz
-                  zstd.tcz
-                     libzstd.tcz
-                     liblzma.tcz
-                     liblz4.tcz
-            liblzma-dev.tcz
-               liblzma.tcz
+                  libwebp.tcz
+                  liblzma.tcz
+                  libzstd.tcz
+            libjpeg-turbo-dev.tcz
+               libjpeg-turbo-bin.tcz
+                  libjpeg-turbo.tcz
             zstd-dev.tcz
                zstd.tcz
                   libzstd.tcz
@@ -2056,11 +2036,11 @@ mpv-dev.tcz
                   liblzma.tcz
                liblz4-dev.tcz
                   liblz4.tcz
-            libjpeg-turbo-dev.tcz
-               libjpeg-turbo-bin.tcz
-                  libjpeg-turbo.tcz
          libpng-dev.tcz
             libpng.tcz
+         giflib-dev.tcz
+            giflib-bin.tcz
+               giflib.tcz
       lame-dev.tcz
          lame.tcz
             ncurses.tcz
@@ -2467,12 +2447,10 @@ mpv-dev.tcz
                      libXdmcp.tcz
                libpng.tcz
                libtiff.tcz
-                  liblzma.tcz
                   libjpeg-turbo.tcz
-                  zstd.tcz
-                     libzstd.tcz
-                     liblzma.tcz
-                     liblz4.tcz
+                  libwebp.tcz
+                  liblzma.tcz
+                  libzstd.tcz
                shared-mime-info.tcz
                   glib2.tcz
                      gamin.tcz
@@ -2873,12 +2851,10 @@ mpv-dev.tcz
                      libXdmcp.tcz
                libpng.tcz
                libtiff.tcz
-                  liblzma.tcz
                   libjpeg-turbo.tcz
-                  zstd.tcz
-                     libzstd.tcz
-                     liblzma.tcz
-                     liblz4.tcz
+                  libwebp.tcz
+                  liblzma.tcz
+                  libzstd.tcz
                shared-mime-info.tcz
                   glib2.tcz
                      gamin.tcz
@@ -2940,14 +2916,13 @@ mpv-dev.tcz
             tiff-dev.tcz
                tiff-bin.tcz
                   libtiff.tcz
-                     liblzma.tcz
                      libjpeg-turbo.tcz
-                     zstd.tcz
-                        libzstd.tcz
-                        liblzma.tcz
-                        liblz4.tcz
-               liblzma-dev.tcz
-                  liblzma.tcz
+                     libwebp.tcz
+                     liblzma.tcz
+                     libzstd.tcz
+               libjpeg-turbo-dev.tcz
+                  libjpeg-turbo-bin.tcz
+                     libjpeg-turbo.tcz
                zstd-dev.tcz
                   zstd.tcz
                      libzstd.tcz
@@ -2957,9 +2932,6 @@ mpv-dev.tcz
                      liblzma.tcz
                   liblz4-dev.tcz
                      liblz4.tcz
-               libjpeg-turbo-dev.tcz
-                  libjpeg-turbo-bin.tcz
-                     libjpeg-turbo.tcz
       gnutls-dev.tcz
          gnutls.tcz
             libidn2.tcz
@@ -3178,12 +3150,10 @@ mpv-dev.tcz
                            libXdmcp.tcz
                      libpng.tcz
                      libtiff.tcz
-                        liblzma.tcz
                         libjpeg-turbo.tcz
-                        zstd.tcz
-                           libzstd.tcz
-                           liblzma.tcz
-                           liblz4.tcz
+                        libwebp.tcz
+                        liblzma.tcz
+                        libzstd.tcz
                      shared-mime-info.tcz
                         glib2.tcz
                            gamin.tcz
@@ -3326,12 +3296,10 @@ mpv-dev.tcz
                            libXdmcp.tcz
                      libpng.tcz
                      libtiff.tcz
-                        liblzma.tcz
                         libjpeg-turbo.tcz
-                        zstd.tcz
-                           libzstd.tcz
-                           liblzma.tcz
-                           liblz4.tcz
+                        libwebp.tcz
+                        liblzma.tcz
+                        libzstd.tcz
                      shared-mime-info.tcz
                         glib2.tcz
                            gamin.tcz
@@ -3393,14 +3361,13 @@ mpv-dev.tcz
                   tiff-dev.tcz
                      tiff-bin.tcz
                         libtiff.tcz
-                           liblzma.tcz
                            libjpeg-turbo.tcz
-                           zstd.tcz
-                              libzstd.tcz
-                              liblzma.tcz
-                              liblz4.tcz
-                     liblzma-dev.tcz
-                        liblzma.tcz
+                           libwebp.tcz
+                           liblzma.tcz
+                           libzstd.tcz
+                     libjpeg-turbo-dev.tcz
+                        libjpeg-turbo-bin.tcz
+                           libjpeg-turbo.tcz
                      zstd-dev.tcz
                         zstd.tcz
                            libzstd.tcz
@@ -3410,9 +3377,6 @@ mpv-dev.tcz
                            liblzma.tcz
                         liblz4-dev.tcz
                            liblz4.tcz
-                     libjpeg-turbo-dev.tcz
-                        libjpeg-turbo-bin.tcz
-                           libjpeg-turbo.tcz
                at-spi2-core-dev.tcz
                   at-spi2-core.tcz
                      dbus.tcz
@@ -4791,24 +4755,21 @@ mpv-dev.tcz
    lcms2-dev.tcz
       lcms2-bin.tcz
          liblcms2.tcz
-            libtiff.tcz
-               liblzma.tcz
-               libjpeg-turbo.tcz
-               zstd.tcz
-                  libzstd.tcz
-                  liblzma.tcz
-                  liblz4.tcz
+         libtiff.tcz
+            libjpeg-turbo.tcz
+            libwebp.tcz
+            liblzma.tcz
+            libzstd.tcz
       tiff-dev.tcz
          tiff-bin.tcz
             libtiff.tcz
-               liblzma.tcz
                libjpeg-turbo.tcz
-               zstd.tcz
-                  libzstd.tcz
-                  liblzma.tcz
-                  liblz4.tcz
-         liblzma-dev.tcz
-            liblzma.tcz
+               libwebp.tcz
+               liblzma.tcz
+               libzstd.tcz
+         libjpeg-turbo-dev.tcz
+            libjpeg-turbo-bin.tcz
+               libjpeg-turbo.tcz
          zstd-dev.tcz
             zstd.tcz
                libzstd.tcz
@@ -4818,9 +4779,6 @@ mpv-dev.tcz
                liblzma.tcz
             liblz4-dev.tcz
                liblz4.tcz
-         libjpeg-turbo-dev.tcz
-            libjpeg-turbo-bin.tcz
-               libjpeg-turbo.tcz
    libarchive-dev.tcz
       libarchive.tcz
          openssl.tcz
