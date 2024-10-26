@@ -402,7 +402,7 @@ gnome-online-accounts-dev.tcz
                   pcre2.tcz
                      bzip2-lib.tcz
                graphite2.tcz
-            icu70.tcz
+            icu73.tcz
          openjpeg.tcz
             liblcms2.tcz
             libpng.tcz
@@ -856,7 +856,7 @@ gnome-online-accounts-dev.tcz
                   pcre2.tcz
                      bzip2-lib.tcz
                graphite2.tcz
-            icu70.tcz
+            icu73.tcz
          openjpeg.tcz
             liblcms2.tcz
             libpng.tcz
@@ -1657,13 +1657,14 @@ gnome-online-accounts-dev.tcz
                      libpng-dev.tcz
                         libpng.tcz
                      harfbuzz-dev.tcz
-                        harfbuzz.tcz
-                           glib2.tcz
-                              gamin.tcz
-                              libelf.tcz
-                              pcre2.tcz
-                                 bzip2-lib.tcz
-                           graphite2.tcz
+                        harfbuzz-bin.tcz
+                           harfbuzz.tcz
+                              glib2.tcz
+                                 gamin.tcz
+                                 libelf.tcz
+                                 pcre2.tcz
+                                    bzip2-lib.tcz
+                              graphite2.tcz
                         glib2-dev.tcz
                            glib2-python.tcz
                               glib2.tcz
@@ -1784,13 +1785,14 @@ gnome-online-accounts-dev.tcz
                      libpng-dev.tcz
                         libpng.tcz
                      harfbuzz-dev.tcz
-                        harfbuzz.tcz
-                           glib2.tcz
-                              gamin.tcz
-                              libelf.tcz
-                              pcre2.tcz
-                                 bzip2-lib.tcz
-                           graphite2.tcz
+                        harfbuzz-bin.tcz
+                           harfbuzz.tcz
+                              glib2.tcz
+                                 gamin.tcz
+                                 libelf.tcz
+                                 pcre2.tcz
+                                    bzip2-lib.tcz
+                              graphite2.tcz
                         glib2-dev.tcz
                            glib2-python.tcz
                               glib2.tcz
@@ -1840,13 +1842,14 @@ gnome-online-accounts-dev.tcz
                   libpng-dev.tcz
                      libpng.tcz
                   harfbuzz-dev.tcz
-                     harfbuzz.tcz
-                        glib2.tcz
-                           gamin.tcz
-                           libelf.tcz
-                           pcre2.tcz
-                              bzip2-lib.tcz
-                        graphite2.tcz
+                     harfbuzz-bin.tcz
+                        harfbuzz.tcz
+                           glib2.tcz
+                              gamin.tcz
+                              libelf.tcz
+                              pcre2.tcz
+                                 bzip2-lib.tcz
+                           graphite2.tcz
                      glib2-dev.tcz
                         glib2-python.tcz
                            glib2.tcz
@@ -2571,13 +2574,14 @@ gnome-online-accounts-dev.tcz
                      libpng-dev.tcz
                         libpng.tcz
                      harfbuzz-dev.tcz
-                        harfbuzz.tcz
-                           glib2.tcz
-                              gamin.tcz
-                              libelf.tcz
-                              pcre2.tcz
-                                 bzip2-lib.tcz
-                           graphite2.tcz
+                        harfbuzz-bin.tcz
+                           harfbuzz.tcz
+                              glib2.tcz
+                                 gamin.tcz
+                                 libelf.tcz
+                                 pcre2.tcz
+                                    bzip2-lib.tcz
+                              graphite2.tcz
                         glib2-dev.tcz
                            glib2-python.tcz
                               glib2.tcz
@@ -2698,13 +2702,14 @@ gnome-online-accounts-dev.tcz
                      libpng-dev.tcz
                         libpng.tcz
                      harfbuzz-dev.tcz
-                        harfbuzz.tcz
-                           glib2.tcz
-                              gamin.tcz
-                              libelf.tcz
-                              pcre2.tcz
-                                 bzip2-lib.tcz
-                           graphite2.tcz
+                        harfbuzz-bin.tcz
+                           harfbuzz.tcz
+                              glib2.tcz
+                                 gamin.tcz
+                                 libelf.tcz
+                                 pcre2.tcz
+                                    bzip2-lib.tcz
+                              graphite2.tcz
                         glib2-dev.tcz
                            glib2-python.tcz
                               glib2.tcz
@@ -2754,13 +2759,14 @@ gnome-online-accounts-dev.tcz
                   libpng-dev.tcz
                      libpng.tcz
                   harfbuzz-dev.tcz
-                     harfbuzz.tcz
-                        glib2.tcz
-                           gamin.tcz
-                           libelf.tcz
-                           pcre2.tcz
-                              bzip2-lib.tcz
-                        graphite2.tcz
+                     harfbuzz-bin.tcz
+                        harfbuzz.tcz
+                           glib2.tcz
+                              gamin.tcz
+                              libelf.tcz
+                              pcre2.tcz
+                                 bzip2-lib.tcz
+                           graphite2.tcz
                      glib2-dev.tcz
                         glib2-python.tcz
                            glib2.tcz
@@ -4064,15 +4070,16 @@ gnome-online-accounts-dev.tcz
                   pcre2.tcz
                      bzip2-lib.tcz
                graphite2.tcz
-            icu70.tcz
+            icu73.tcz
          harfbuzz-dev.tcz
-            harfbuzz.tcz
-               glib2.tcz
-                  gamin.tcz
-                  libelf.tcz
-                  pcre2.tcz
-                     bzip2-lib.tcz
-               graphite2.tcz
+            harfbuzz-bin.tcz
+               harfbuzz.tcz
+                  glib2.tcz
+                     gamin.tcz
+                     libelf.tcz
+                     pcre2.tcz
+                        bzip2-lib.tcz
+                  graphite2.tcz
             glib2-dev.tcz
                glib2-python.tcz
                   glib2.tcz
@@ -4105,9 +4112,9 @@ gnome-online-accounts-dev.tcz
                   zlib_base-dev.tcz
             graphite2-dev.tcz
                graphite2.tcz
-         icu70-dev.tcz
-            icu70-bin.tcz
-               icu70.tcz
+         icu73-dev.tcz
+            icu73-bin.tcz
+               icu73.tcz
       openjpeg-dev.tcz
          openjpeg.tcz
             liblcms2.tcz
