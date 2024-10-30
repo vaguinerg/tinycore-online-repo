@@ -1,25 +1,22 @@
 Title:          gutenprint.tcz
 Description:    printer drivers for most printers
-Version:        5.3.4
+Version:        5.3.5-pre1
 Author:         https://github.com/echiu64/gutenprint/blob/master/AUTHORS
 Original-site:  https://sourceforge.net/projects/gimp-print/
 Copying-policy: GPL v2
-Size:           5.8M
-Extension_by:   aus9
+Size:           5.9M
+Extension_by:   aus9 @linuxquestions.org 
 Tags:           cups printer ppd 
 Comments:       Not for scanning. To know if gutenprint is suitable see
                 http://gimp-print.sourceforge.net/p_Supported_Printers.php
-                above is for 5.3.3 so likely to be more and 5.2 manual 
-                https://gimp-print.sourceforge.net/gutenprint-users-manual.pdf
-
-                Optional dependencies
-                ##################
+                
+                Optional TCEs
+                #############
                 colord.tcz reduce log warnings or if printing colour images
-                evince.tcz for print preview
-                readline.tcz for Epson ink levels
-                librest.tcz for reduced errors for gimp2
- 
-                gimp2, I recommend you use print preview to resize images please.
+                mupdf.tcz (Very tiny relative to total for evince)
+                for print preview 
+                1) choose print to file and choose pathway2/output.pdf
+                2) $ mupdf /pathway2/output.pdf # output.pdf is default
 
                 Wireless (WL) Printing
                 #############
@@ -29,7 +26,7 @@ Comments:       Not for scanning. To know if gutenprint is suitable see
                 eg url= 192.168.1.7  -- once the printer IP is set.
 
                 Epson ink levels, once printer is set up
-                ##    tested in the past on TX100, I no longer have it 
+                # tested in the past on TX100, I no longer have it 
                 $ tce-load -wi readline
                 $ escputil --raw-device=/dev/usb/lp0 --ink-level
                  ^ if that fails....repeat...if fails try as root.
@@ -103,7 +100,8 @@ Comments:       Not for scanning. To know if gutenprint is suitable see
                 necessary to do this if you wish to update PPD files manually; if you use 
                 cups-genppdupdate, you do not need to do this
                 
-Change-log:     2018/06/17 first version 
-                2019/01/04 v 5.2.14 -> 5.3.1 add simplified PPD option for 10x
-                2020/04/21 v 5.3.3 for 11x
-Current:        2023/03/28 v 5.3.4 for 14x    
+Change-log:     2018/06/17 v 5.2.14 
+                2019/01/04 v 5.3.1 add simplified PPD option on 10x
+                2020/04/21 v 5.3.3 on 11x
+                2023/03/28 v 5.3.4 on 14x 
+Current:        2024/10/25 v 5.3.5-pre1 on 15x     
