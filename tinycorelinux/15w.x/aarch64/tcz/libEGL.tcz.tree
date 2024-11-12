@@ -1,0 +1,16 @@
+libEGL.tcz
+   mesa.tcz
+      libdrm.tcz
+         libpciaccess.tcz
+         udev-lib.tcz
+      expat2.tcz
+      wayland.tcz
+         expat2.tcz
+         libxml2.tcz
+            liblzma.tcz
+      libelf.tcz
+   wayland.tcz
+      expat2.tcz
+      libxml2.tcz
+         liblzma.tcz
+

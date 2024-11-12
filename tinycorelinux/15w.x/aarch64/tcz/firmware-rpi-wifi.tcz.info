@@ -1,0 +1,35 @@
+Title:          firmware-rpi-wifi.tcz
+Description:    Firmware for RPi onboard WiFi adapter
+Version:        commit e7a3454
+Author:         Cypress
+Original-site:  https://github.com/RPi-Distro/firmware-nonfree
+Copying-policy: See LICENCE
+Size:           2.0M
+Extension_by:   paul-123
+Tags:           FIRMWARE RPI4 RPI3 RPI0W RPI02 WIFI WIRELESS
+Comments:       Binaries only
+                ----
+                Packed for piCore 10.x / RPi3 and RPi0W
+Change-log:     2016/06/28 First version 7.45.41.26
+                CVE-2017-9417: Broadpwn issue fix
+                Add CY string in the version string.
+                AMPDU sequence number deadlock fix (potential fix for this issue)
+                CLM version upgrade
+                CVE-2017-0572: memory corruption fix
+                2017/08/08 version 7.45.41.46 (r666254 CY) FWID 01-f8a78378
+                2018/01/24 version 7.45.98.38 (r674442 CY) FWID 01-e58d219f
+                2018/03/17 Add RPi3B+ Firmware brcm43455 version: 7.45.154
+                2018/08/19 Add NVRAM parameters for BT COEXIST
+                2019/07/01 Update brcm43455 firmware for RPi4, v7.45.154
+                2020/11/29 Update brcm43455 clm_blob for 80mhz channels
+                2020/11/29 Add Firmware for BCM43456 - RPI400
+                2021/01/25 Update firmware for BCM43455
+                2021/10/30 Add firmware for BCM43436(s)
+                2021/11/23 Add 43438 Cypress firmware 7.45.98.118
+                           Add 43455 Cypress firmware 7.45.241
+                2022/04/15 Update SYN43436P top version 9.88.4.77 CRC: 143f9f15
+                           Resolve 4way handshake unloading
+                2024/06/28 Update CYW43455 to a generic version 7.45.234 (4ca95bb CY) CRC: 212e223d
+                           Add CYW43439 firmware
+Current:        2024/07/28 Update CYW43455 to 7.45.265 (28bca26 CY) CRC: 68bafb8c
+                           43455 update for wpa3 offload

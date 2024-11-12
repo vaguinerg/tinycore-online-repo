@@ -1,0 +1,24 @@
+Title:          dillo.tcz
+Description:    Dillo web browser
+Version:        3.1.0
+Author:         https://dillo-browser.github.io/old/D_authors.html
+Original-site:  https://github.com/dillo-browser/dillo
+Copying-policy: GPLv3
+Size:		840KB
+Extension_by:   juanito
+Tags:           FLTK light internet web browser
+Comments:       Dillo is a multi-platform graphical web browser known
+                for speed and small footprint, written in C and C++,
+                based on FLTK (Fast Light Toolkit).
+                Note:
+                - First run creates /home/tc/.dillo directory
+                - Copy /usr/local/etc/dillo/dillorc to /home/tc/.dillo
+                  and modify as desired
+                - Click ? top right corner of browser for usage help
+                - Minimalistic, best suited for slow hardware
+                - Supports only plain HTML/XHTML with CSS rendering
+                  and images over HTTP, scripting is ignored
+                - Load wget.tcz to download files through browser
+                ----
+Change-log:     first version
+Current:	2024/11/11
