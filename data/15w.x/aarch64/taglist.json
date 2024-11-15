@@ -17,6 +17,15 @@
   "at-spi2-core.tcz": [
     "LIBRARY"
   ],
+  "atkmm-dev.tcz": [
+    "LIBRARY dev"
+  ],
+  "atkmm.tcz": [
+    "LIBRARY"
+  ],
+  "awesome-font.tcz": [
+    "font otf"
+  ],
   "bash.tcz": [
     "CLI SHELL"
   ],
@@ -43,6 +52,12 @@
   ],
   "cairo.tcz": [
     "LIBRARY GRAPHICS"
+  ],
+  "cairomm-dev.tcz": [
+    "LIBRARY dev"
+  ],
+  "cairomm.tcz": [
+    "LIBRARY"
   ],
   "cdrom-6.6.47-piCore-v8.tcz": [
     "KERNEL MODULES"
@@ -200,6 +215,12 @@
   "glibc_gconv.tcz": [
     "LIBRARY"
   ],
+  "glibmm-dev.tcz": [
+    "LIBRARY dev"
+  ],
+  "glibmm.tcz": [
+    "LIBRARY"
+  ],
   "gmp.tcz": [
     "LIBRARY"
   ],
@@ -215,11 +236,23 @@
   "grep.tcz": [
     "CLI"
   ],
+  "gtk-layer-shell-dev.tcz": [
+    "wayland panel desktop gtk3 dev"
+  ],
+  "gtk-layer-shell.tcz": [
+    "wayland panel desktop gtk3"
+  ],
   "gtk3-dev.tcz": [
     "GTK GUI TOOLKIT dev"
   ],
   "gtk3.tcz": [
     "GTK GUI TOOLKIT"
+  ],
+  "gtkmm-dev.tcz": [
+    "c++ bindings gtk+ gtk3 dev"
+  ],
+  "gtkmm.tcz": [
+    "c++ bindings gtk+ gtk3"
   ],
   "harfbuzz-bin.tcz": [
     "opentype text"
@@ -236,11 +269,23 @@
   "hicolor-icon-theme.tcz": [
     "default icon fallback theme"
   ],
+  "intltool-dev.tcz": [
+    "CLI DEVELOPMENT"
+  ],
+  "intltool.tcz": [
+    "CLI DEVELOPMENT"
+  ],
   "isl.tcz": [
     "LIBRARY"
   ],
   "iso-codes.tcz": [
     "LIBRARY"
+  ],
+  "jsoncpp-dev.tcz": [
+    "json c++ cpp dev"
+  ],
+  "jsoncpp.tcz": [
+    "json c++ cpp"
   ],
   "l3afpad.tcz": [
     "gtk+ gtk3 text editor"
@@ -290,6 +335,9 @@
   "libepoxy.tcz": [
     "opengl x xorg"
   ],
+  "libevdev-dev.tcz": [
+    "driver x xorg dev"
+  ],
   "libevdev.tcz": [
     "driver x xorg"
   ],
@@ -299,11 +347,20 @@
   "libffi_base-dev.tcz": [
     "LIBRARY"
   ],
+  "libfmt-dev.tcz": [
+    "formatting library libfmt"
+  ],
+  "libfmt.tcz": [
+    "formatting library libfmt"
+  ],
   "libgcrypt.tcz": [
     "CLI CRYPTO"
   ],
   "libgpg-error.tcz": [
     "LIBRARY"
+  ],
+  "libinput-dev.tcz": [
+    "x xorg input dev"
   ],
   "libinput.tcz": [
     "x xorg input"
@@ -358,6 +415,12 @@
   ],
   "libsfdo.tcz": [
     "freedesktop"
+  ],
+  "libsigc++-dev.tcz": [
+    "LIBRARY dev"
+  ],
+  "libsigc++.tcz": [
+    "LIBRARY"
   ],
   "libtiff.tcz": [
     "IMAGE LIBRARY TIFF"
@@ -437,6 +500,9 @@
   "mpfr.tcz": [
     "LIBRARY"
   ],
+  "mtdev-dev.tcz": [
+    "x xorg driver multitouch dev"
+  ],
   "mtdev.tcz": [
     "x xorg driver multitouch"
   ],
@@ -445,6 +511,9 @@
   ],
   "ncurses.tcz": [
     "LIBRARY"
+  ],
+  "nerd-font.tcz": [
+    "font ttf"
   ],
   "ninja.tcz": [
     "build"
@@ -469,6 +538,12 @@
   ],
   "pango.tcz": [
     "LIBRARY GRAPHICS"
+  ],
+  "pangomm-dev.tcz": [
+    "LIBRARY dev"
+  ],
+  "pangomm.tcz": [
+    "LIBRARY"
   ],
   "patch.tcz": [
     "SYSTEM CLI"
@@ -521,6 +596,12 @@
   "shared-mime-info.tcz": [
     "MIME DATABASE"
   ],
+  "spdlog-dev.tcz": [
+    "c++ log dev"
+  ],
+  "spdlog.tcz": [
+    "c++ log"
+  ],
   "sqlite3-bin.tcz": [
     "LIBRARY SQL DATABASE"
   ],
@@ -562,6 +643,9 @@
   ],
   "util-macros.tcz": [
     "x xorg macros dev"
+  ],
+  "waybar.tcz": [
+    "wayland iconbar"
   ],
   "wayland-dev.tcz": [
     "compositor protocol dev"

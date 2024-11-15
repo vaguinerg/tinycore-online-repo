@@ -1,10 +1,10 @@
 /usr/local/bin/meson
-/usr/local/lib/python3.9/site-packages/meson-1.0.1-py3.9.egg-info/PKG-INFO
-/usr/local/lib/python3.9/site-packages/meson-1.0.1-py3.9.egg-info/SOURCES.txt
-/usr/local/lib/python3.9/site-packages/meson-1.0.1-py3.9.egg-info/dependency_links.txt
-/usr/local/lib/python3.9/site-packages/meson-1.0.1-py3.9.egg-info/entry_points.txt
-/usr/local/lib/python3.9/site-packages/meson-1.0.1-py3.9.egg-info/requires.txt
-/usr/local/lib/python3.9/site-packages/meson-1.0.1-py3.9.egg-info/top_level.txt
+/usr/local/lib/python3.9/site-packages/meson-1.6.0-py3.9.egg-info/PKG-INFO
+/usr/local/lib/python3.9/site-packages/meson-1.6.0-py3.9.egg-info/SOURCES.txt
+/usr/local/lib/python3.9/site-packages/meson-1.6.0-py3.9.egg-info/dependency_links.txt
+/usr/local/lib/python3.9/site-packages/meson-1.6.0-py3.9.egg-info/entry_points.txt
+/usr/local/lib/python3.9/site-packages/meson-1.6.0-py3.9.egg-info/requires.txt
+/usr/local/lib/python3.9/site-packages/meson-1.6.0-py3.9.egg-info/top_level.txt
 /usr/local/lib/python3.9/site-packages/mesonbuild/__init__.py
 /usr/local/lib/python3.9/site-packages/mesonbuild/_pathlib.py
 /usr/local/lib/python3.9/site-packages/mesonbuild/_typing.py
@@ -18,6 +18,7 @@
 /usr/local/lib/python3.9/site-packages/mesonbuild/backend/__init__.py
 /usr/local/lib/python3.9/site-packages/mesonbuild/backend/backends.py
 /usr/local/lib/python3.9/site-packages/mesonbuild/backend/ninjabackend.py
+/usr/local/lib/python3.9/site-packages/mesonbuild/backend/nonebackend.py
 /usr/local/lib/python3.9/site-packages/mesonbuild/backend/vs2010backend.py
 /usr/local/lib/python3.9/site-packages/mesonbuild/backend/vs2012backend.py
 /usr/local/lib/python3.9/site-packages/mesonbuild/backend/vs2013backend.py
@@ -27,6 +28,12 @@
 /usr/local/lib/python3.9/site-packages/mesonbuild/backend/vs2022backend.py
 /usr/local/lib/python3.9/site-packages/mesonbuild/backend/xcodebackend.py
 /usr/local/lib/python3.9/site-packages/mesonbuild/build.py
+/usr/local/lib/python3.9/site-packages/mesonbuild/cargo/__init__.py
+/usr/local/lib/python3.9/site-packages/mesonbuild/cargo/builder.py
+/usr/local/lib/python3.9/site-packages/mesonbuild/cargo/cfg.py
+/usr/local/lib/python3.9/site-packages/mesonbuild/cargo/interpreter.py
+/usr/local/lib/python3.9/site-packages/mesonbuild/cargo/manifest.py
+/usr/local/lib/python3.9/site-packages/mesonbuild/cargo/version.py
 /usr/local/lib/python3.9/site-packages/mesonbuild/cmake/__init__.py
 /usr/local/lib/python3.9/site-packages/mesonbuild/cmake/common.py
 /usr/local/lib/python3.9/site-packages/mesonbuild/cmake/data/__init__.py
@@ -52,6 +59,7 @@
 /usr/local/lib/python3.9/site-packages/mesonbuild/compilers/fortran.py
 /usr/local/lib/python3.9/site-packages/mesonbuild/compilers/java.py
 /usr/local/lib/python3.9/site-packages/mesonbuild/compilers/mixins/__init__.py
+/usr/local/lib/python3.9/site-packages/mesonbuild/compilers/mixins/apple.py
 /usr/local/lib/python3.9/site-packages/mesonbuild/compilers/mixins/arm.py
 /usr/local/lib/python3.9/site-packages/mesonbuild/compilers/mixins/ccrx.py
 /usr/local/lib/python3.9/site-packages/mesonbuild/compilers/mixins/clang.py
@@ -62,6 +70,7 @@
 /usr/local/lib/python3.9/site-packages/mesonbuild/compilers/mixins/gnu.py
 /usr/local/lib/python3.9/site-packages/mesonbuild/compilers/mixins/intel.py
 /usr/local/lib/python3.9/site-packages/mesonbuild/compilers/mixins/islinker.py
+/usr/local/lib/python3.9/site-packages/mesonbuild/compilers/mixins/metrowerks.py
 /usr/local/lib/python3.9/site-packages/mesonbuild/compilers/mixins/pgi.py
 /usr/local/lib/python3.9/site-packages/mesonbuild/compilers/mixins/ti.py
 /usr/local/lib/python3.9/site-packages/mesonbuild/compilers/mixins/visualstudio.py
@@ -93,6 +102,7 @@
 /usr/local/lib/python3.9/site-packages/mesonbuild/dependencies/mpi.py
 /usr/local/lib/python3.9/site-packages/mesonbuild/dependencies/pkgconfig.py
 /usr/local/lib/python3.9/site-packages/mesonbuild/dependencies/platform.py
+/usr/local/lib/python3.9/site-packages/mesonbuild/dependencies/python.py
 /usr/local/lib/python3.9/site-packages/mesonbuild/dependencies/qt.py
 /usr/local/lib/python3.9/site-packages/mesonbuild/dependencies/scalapack.py
 /usr/local/lib/python3.9/site-packages/mesonbuild/dependencies/ui.py
@@ -124,8 +134,10 @@
 /usr/local/lib/python3.9/site-packages/mesonbuild/interpreterbase/interpreterbase.py
 /usr/local/lib/python3.9/site-packages/mesonbuild/interpreterbase/operator.py
 /usr/local/lib/python3.9/site-packages/mesonbuild/linkers/__init__.py
+/usr/local/lib/python3.9/site-packages/mesonbuild/linkers/base.py
 /usr/local/lib/python3.9/site-packages/mesonbuild/linkers/detect.py
 /usr/local/lib/python3.9/site-packages/mesonbuild/linkers/linkers.py
+/usr/local/lib/python3.9/site-packages/mesonbuild/machinefile.py
 /usr/local/lib/python3.9/site-packages/mesonbuild/mcompile.py
 /usr/local/lib/python3.9/site-packages/mesonbuild/mconf.py
 /usr/local/lib/python3.9/site-packages/mesonbuild/mdevenv.py
@@ -133,11 +145,13 @@
 /usr/local/lib/python3.9/site-packages/mesonbuild/mesondata.py
 /usr/local/lib/python3.9/site-packages/mesonbuild/mesonlib.py
 /usr/local/lib/python3.9/site-packages/mesonbuild/mesonmain.py
+/usr/local/lib/python3.9/site-packages/mesonbuild/mformat.py
 /usr/local/lib/python3.9/site-packages/mesonbuild/minit.py
 /usr/local/lib/python3.9/site-packages/mesonbuild/minstall.py
 /usr/local/lib/python3.9/site-packages/mesonbuild/mintro.py
 /usr/local/lib/python3.9/site-packages/mesonbuild/mlog.py
 /usr/local/lib/python3.9/site-packages/mesonbuild/modules/__init__.py
+/usr/local/lib/python3.9/site-packages/mesonbuild/modules/_qt.py
 /usr/local/lib/python3.9/site-packages/mesonbuild/modules/cmake.py
 /usr/local/lib/python3.9/site-packages/mesonbuild/modules/cuda.py
 /usr/local/lib/python3.9/site-packages/mesonbuild/modules/dlang.py
@@ -153,7 +167,6 @@
 /usr/local/lib/python3.9/site-packages/mesonbuild/modules/pkgconfig.py
 /usr/local/lib/python3.9/site-packages/mesonbuild/modules/python.py
 /usr/local/lib/python3.9/site-packages/mesonbuild/modules/python3.py
-/usr/local/lib/python3.9/site-packages/mesonbuild/modules/qt.py
 /usr/local/lib/python3.9/site-packages/mesonbuild/modules/qt4.py
 /usr/local/lib/python3.9/site-packages/mesonbuild/modules/qt5.py
 /usr/local/lib/python3.9/site-packages/mesonbuild/modules/qt6.py
@@ -168,6 +181,7 @@
 /usr/local/lib/python3.9/site-packages/mesonbuild/mtest.py
 /usr/local/lib/python3.9/site-packages/mesonbuild/munstable_coredata.py
 /usr/local/lib/python3.9/site-packages/mesonbuild/optinterpreter.py
+/usr/local/lib/python3.9/site-packages/mesonbuild/options.py
 /usr/local/lib/python3.9/site-packages/mesonbuild/programs.py
 /usr/local/lib/python3.9/site-packages/mesonbuild/rewriter.py
 /usr/local/lib/python3.9/site-packages/mesonbuild/scripts/__init__.py
@@ -190,7 +204,10 @@
 /usr/local/lib/python3.9/site-packages/mesonbuild/scripts/itstool.py
 /usr/local/lib/python3.9/site-packages/mesonbuild/scripts/meson_exe.py
 /usr/local/lib/python3.9/site-packages/mesonbuild/scripts/msgfmthelper.py
+/usr/local/lib/python3.9/site-packages/mesonbuild/scripts/pycompile.py
+/usr/local/lib/python3.9/site-packages/mesonbuild/scripts/python_info.py
 /usr/local/lib/python3.9/site-packages/mesonbuild/scripts/regen_checker.py
+/usr/local/lib/python3.9/site-packages/mesonbuild/scripts/reprotest.py
 /usr/local/lib/python3.9/site-packages/mesonbuild/scripts/run_tool.py
 /usr/local/lib/python3.9/site-packages/mesonbuild/scripts/scanbuild.py
 /usr/local/lib/python3.9/site-packages/mesonbuild/scripts/symbolextractor.py
@@ -224,5 +241,4 @@
 /usr/local/lib/python3.9/site-packages/mesonbuild/wrap/__init__.py
 /usr/local/lib/python3.9/site-packages/mesonbuild/wrap/wrap.py
 /usr/local/lib/python3.9/site-packages/mesonbuild/wrap/wraptool.py
-/usr/local/share/man/man1/meson.1
 /usr/local/share/polkit-1/actions/com.mesonbuild.install.policy
