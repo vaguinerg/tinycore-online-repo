@@ -1,0 +1,28 @@
+Title:          wpa_supplicant-dbus.tcz
+Description:    wpa supplicant dbus
+Version:        2.11
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: BSD
+Size:		1.2M
+Extension_by:   juanito, gnuser
+Tags:           wifi wpa ieee 802.1x dbus
+Comments:       wifi protected access (wpa) client and ieee 802.1x supplicant dbus version
+                ----------
+                This extension contains:
+                wpa_supplicant-2.11 - https://w1.fi/releases/wpa_supplicant-2.11.tar.gz
+                ----------
+Change-log:     2014/03/31 first version
+                2016/09/13 updated 2.1 -> 2.5
+                2016/10/23 recompiled for updated ncurses and readline
+                2017/04/10 updated 2.5 -> 2.6, patched snr to favour higher throughput
+                2017/12/18 patched for KRACKattack (CERT case ID: VU#228519)
+                2018/11/28 patched for EAPOL-Key data handling (CVE-2018-14526)
+                2018/11/28 recompiled with 802.11r (FT) and bgscan support, updated license info
+                2019/12/18 updated 2.6 -> 2.9
+                2020/01/23 enabled 802.11r/ft, bgscan added security patch
+                2020/12/31 recompiled for updated readline
+                2021/04/29 added wifi p2p for screencast
+                2023/12/03 updated 2.9 -> 2.10
+                2024/09/12 updated 2.10 -> 2.11, added WPA3-SAE support (gnuser)
+Current:        2024/09/28 recompiled with backward-compatibility patches (gnuser)
