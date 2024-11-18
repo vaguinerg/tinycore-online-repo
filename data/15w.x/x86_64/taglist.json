@@ -14,6 +14,12 @@
   "at-spi2-core.tcz": [
     "at-spi2 core"
   ],
+  "atkmm.tcz": [
+    "c++ bindings atk"
+  ],
+  "awesome-font.tcz": [
+    "font otf"
+  ],
   "binutils.tcz": [
     "binutils"
   ],
@@ -38,6 +44,12 @@
   "cairo.tcz": [
     "2d graphics library"
   ],
+  "cairomm-dev.tcz": [
+    "c++ bindings cairo dev"
+  ],
+  "cairomm.tcz": [
+    "c++ bindings cairo"
+  ],
   "compiletc.tcz": [
     "compiletc metapackage"
   ],
@@ -47,6 +59,9 @@
   "dbus-dev.tcz": [
     "dbus message system dev"
   ],
+  "dbus-glib.tcz": [
+    "dbus glib bindings"
+  ],
   "dbus.tcz": [
     "dbus message bus"
   ],
@@ -55,6 +70,9 @@
   ],
   "diffutils.tcz": [
     "diff utilities"
+  ],
+  "dillo.tcz": [
+    "FLTK light internet web browser"
   ],
   "e2fsprogs_base-dev.tcz": [
     "linux fs tools dev"
@@ -79,6 +97,9 @@
   ],
   "findutils.tcz": [
     "findutils"
+  ],
+  "firefox-ESR.tcz": [
+    "web browser mozilla firefox ESR"
   ],
   "flex.tcz": [
     "lexical analyzer generator"
@@ -161,6 +182,9 @@
   "glibc_base-dev.tcz": [
     "glibc devs"
   ],
+  "glibmm.tcz": [
+    "c++ bindings glib"
+  ],
   "gmp.tcz": [
     "arbitrary precision arithmetic"
   ],
@@ -181,6 +205,12 @@
   ],
   "gtk3.tcz": [
     "gtk+ gtk3 interface"
+  ],
+  "gtkmm-dev.tcz": [
+    "c++ bindings gtk dev"
+  ],
+  "gtkmm.tcz": [
+    "c++ bindings gtk"
   ],
   "gudev-lib-dev.tcz": [
     "gobject udev wrapper dev"
@@ -212,6 +242,12 @@
   "isl.tcz": [
     "integer point set"
   ],
+  "jsoncpp-dev.tcz": [
+    "json c++ cpp dev"
+  ],
+  "jsoncpp.tcz": [
+    "json c++ cpp"
+  ],
   "labwc.tcz": [
     "wayland compositor wm"
   ],
@@ -233,11 +269,20 @@
   "libGLESv2.tcz": [
     "openGL ES"
   ],
+  "libasound.tcz": [
+    "alsa sound audio"
+  ],
   "libclc-dev.tcz": [
     "opencl gpu amd radeon dev"
   ],
   "libclc.tcz": [
     "opencl gpu amd radeon"
+  ],
+  "libdbusmenu-dev.tcz": [
+    "menu gtk+ gtk3"
+  ],
+  "libdbusmenu.tcz": [
+    "menu gtk+ gtk3"
   ],
   "libdisplay-info-dev.tcz": [
     "display info dev"
@@ -263,11 +308,20 @@
   "libevdev.tcz": [
     "driver x xorg"
   ],
+  "libevent.tcz": [
+    "event notification library"
+  ],
   "libffi-dev.tcz": [
     "foreign function interface dev"
   ],
   "libffi.tcz": [
     "foreign function interface"
+  ],
+  "libfmt-dev.tcz": [
+    "formatting library libfmt"
+  ],
+  "libfmt.tcz": [
+    "formatting library libfmt"
   ],
   "libinput-dev.tcz": [
     "x xorg input dev"
@@ -332,8 +386,14 @@
   "libsfdo.tcz": [
     "freedesktop"
   ],
+  "libsigc++.tcz": [
+    "c++ callback"
+  ],
   "libtiff.tcz": [
     "tiff image"
+  ],
+  "libvpx113.tcz": [
+    "audio video av codec vp8 vp9 html5"
   ],
   "libvulkan-dev.tcz": [
     "graphics vulkan icd dev"
@@ -401,6 +461,9 @@
   "make.tcz": [
     "gnu make"
   ],
+  "mbedtls-lib.tcz": [
+    "HTTPS SSL TLS mbedtls PolarSSL"
+  ],
   "mesa-dev.tcz": [
     "3d graphics driver wayland dev"
   ],
@@ -431,6 +494,15 @@
   "ncursesw.tcz": [
     "terminal character wide"
   ],
+  "nerd-font.tcz": [
+    "font ttf"
+  ],
+  "nspr.tcz": [
+    "netscape portable runtime"
+  ],
+  "nss.tcz": [
+    "network security services"
+  ],
   "openssl.tcz": [
     "cryptography tls ssl"
   ],
@@ -439,6 +511,9 @@
   ],
   "pango.tcz": [
     "layout render internationalize text"
+  ],
+  "pangomm.tcz": [
+    "c++ bindings pango"
   ],
   "patch.tcz": [
     "patch"
@@ -478,6 +553,12 @@
   ],
   "shared-mime-info.tcz": [
     "mime database"
+  ],
+  "spdlog-dev.tcz": [
+    "c++ log dev"
+  ],
+  "spdlog.tcz": [
+    "c++ log"
   ],
   "spirv-headers.tcz": [
     "khronos spirv dev"
@@ -526,6 +607,9 @@
   ],
   "util-linux_base-dev.tcz": [
     "util-linux devs"
+  ],
+  "waybar.tcz": [
+    "wayland iconbar"
   ],
   "wayland-dev.tcz": [
     "compositor protocol dev"
