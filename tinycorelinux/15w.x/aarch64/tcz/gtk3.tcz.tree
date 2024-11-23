@@ -1,7 +1,33 @@
 gtk3.tcz
    libepoxy.tcz
-   at-spi2-atk.tcz
-   gdk-pixbuf2.tcz
+   at-spi2-core.tcz
+      dbus.tcz
+         expat2.tcz
+      glib2.tcz
+         gamin.tcz
+         libelf.tcz
+         pcre2.tcz
+            bzip2-lib.tcz
+   gdk-pixbuf.tcz
+      glib2.tcz
+         gamin.tcz
+         libelf.tcz
+         pcre2.tcz
+            bzip2-lib.tcz
+      libtiff.tcz
+         libjpeg-turbo.tcz
+         libwebp.tcz
+         liblzma.tcz
+         libzstd.tcz
+      libpng.tcz
+      shared-mime-info.tcz
+         glib2.tcz
+            gamin.tcz
+            libelf.tcz
+            pcre2.tcz
+               bzip2-lib.tcz
+         libxml2.tcz
+            liblzma.tcz
    pango.tcz
       cairo.tcz
          glib2.tcz

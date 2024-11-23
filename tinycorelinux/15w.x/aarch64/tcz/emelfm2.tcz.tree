@@ -1,42 +1,70 @@
 emelfm2.tcz
-   gtk3.tcz
-      libepoxy.tcz
-      at-spi2-atk.tcz
-      gdk-pixbuf2.tcz
-      pango.tcz
-         cairo.tcz
+   gnome-icon-theme.tcz
+      gtk3.tcz
+         libepoxy.tcz
+         at-spi2-core.tcz
+            dbus.tcz
+               expat2.tcz
             glib2.tcz
                gamin.tcz
                libelf.tcz
                pcre2.tcz
                   bzip2-lib.tcz
-            fontconfig.tcz
-               expat2.tcz
-               freetype.tcz
-                  libpng.tcz
-                  harfbuzz.tcz
-                     glib2.tcz
-                        gamin.tcz
-                        libelf.tcz
-                        pcre2.tcz
-                           bzip2-lib.tcz
-                     graphite2.tcz
+         gdk-pixbuf.tcz
+            glib2.tcz
+               gamin.tcz
+               libelf.tcz
+               pcre2.tcz
                   bzip2-lib.tcz
-            pixman.tcz
+            libtiff.tcz
+               libjpeg-turbo.tcz
+               libwebp.tcz
+               liblzma.tcz
+               libzstd.tcz
             libpng.tcz
-         fribidi.tcz
-            glib2.tcz 
-      libxkbcommon.tcz
-         xkeyboard-config.tcz
-         wayland.tcz
-            expat2.tcz
-            libxml2.tcz
-               liblzma.tcz
-      wayland-protocols.tcz
-         wayland.tcz
-            expat2.tcz
-            libxml2.tcz
-               liblzma.tcz
+            shared-mime-info.tcz
+               glib2.tcz
+                  gamin.tcz
+                  libelf.tcz
+                  pcre2.tcz
+                     bzip2-lib.tcz
+               libxml2.tcz
+                  liblzma.tcz
+         pango.tcz
+            cairo.tcz
+               glib2.tcz
+                  gamin.tcz
+                  libelf.tcz
+                  pcre2.tcz
+                     bzip2-lib.tcz
+               fontconfig.tcz
+                  expat2.tcz
+                  freetype.tcz
+                     libpng.tcz
+                     harfbuzz.tcz
+                        glib2.tcz
+                           gamin.tcz
+                           libelf.tcz
+                           pcre2.tcz
+                              bzip2-lib.tcz
+                        graphite2.tcz
+                     bzip2-lib.tcz
+               pixman.tcz
+               libpng.tcz
+            fribidi.tcz
+               glib2.tcz 
+         libxkbcommon.tcz
+            xkeyboard-config.tcz
+            wayland.tcz
+               expat2.tcz
+               libxml2.tcz
+                  liblzma.tcz
+         wayland-protocols.tcz
+            wayland.tcz
+               expat2.tcz
+               libxml2.tcz
+                  liblzma.tcz
+      hicolor-icon-theme.tcz
    file.tcz
       liblzma.tcz
       bzip2-lib.tcz
