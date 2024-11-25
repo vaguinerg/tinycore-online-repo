@@ -1,19 +1,21 @@
 Title:          swaylock.tcz 
 Description:    screen locker for wayland 
-Version:        1.7.2
+Version:        1.8.0
 Author:         Drew DeVault
 Original-site:  https://github.com/swaywm/swaylock
 Copying-policy: Accompanied 
-Size:           32K		
-Extension_by:   aus9 @ linuxquestions.org
+Size:           28K
+Extension_by:   aus9 @linuxquestions.org
 Tags:           wayland swaylock
 Comments:       Before using you will need to create a password for 
                 local login. You may like to persist the password files 
                 over reboot? etc/passwd and etc/shadow 
 
                 To LOCK
-                $ swaylock -f
+                $ swaylock -fl # l for lima 1
                 which daemonises the locker and locks screen
+                And prompts if you have caps lock on. It will not prompt 
+                if you are using Shift key to input one or more letters in caps
 
                 To UNLOCK
                 <type passwd> You will see a circle appear and a change in indicator
@@ -22,7 +24,12 @@ Comments:       Before using you will need to create a password for
                 green indicator shows correct input for each letter
                 red indicator at least one error in input of password
                 If you mistype ---you can try again
+
+                TCE=sway has z file which uses shadow for password 
+                management. Other Wayland desktops may not use shadow? 
+                TCE=swaylock-doc has loads of options if interested           
                             
 Change-log:     2019/06/17 v 1.4 on 10x 
                 2020/06/29 v 1.5 on 11x  
-Current:        2023/04/22 v 1.7.2 on 14x add install script for SUID
+                2023/04/22 v 1.7.2 on 14x add install script for SUID
+Current:        2024/11/23 v 1.8.0 on 15x    
