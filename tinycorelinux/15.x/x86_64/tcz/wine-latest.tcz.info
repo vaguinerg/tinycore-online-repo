@@ -1,10 +1,10 @@
 Title:          wine-latest.tcz
 Description:    Unstable version of wine
-Version:        9.12
+Version:        9.21
 Author:         Bob Amstadt, Eric Youngdale
 Original-site:  https://www.winehq.org/
 Copying-policy: LGPL2
-Size:		95M
+Size:		100M
 Extension_by:   CardealRusso
 Tags:	        windows emulator
 Comments:       ----------
@@ -31,7 +31,7 @@ Comments:       ----------
 		wget --no-check-certificate -O $HOME/.local/bin/winetricks \
 		https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks
 		chmod u+x $HOME/.local/bin/winetricks
-		tce-load -lwi cabextract aria2 zenity busybox_extras p7zip (only needed to run winetricks)
+		tce-load -lwi cabextract aria2 zenity binutils coreutils p7zip (only needed to run winetricks)
 		winetricks -q corefonts vcrun6 (run wine at least once before winetricks)
 
 		Staging:
@@ -43,4 +43,5 @@ Change-log:     2024/01/07 9.0-rc4
                 2024/01/14 Updated 9.0-rc4 -> 9.0-rc5 (Fixed ca-certificates location, buildscript, deps, info)
                 2024/02/04 Updated 9.0-rc5 -> 9.1 (Compiled with wine-staging patchset)
                 2024/05/20 Updated 9.1 -> 9.9
-Current:        2024/06/30 Updated 9.9 -> 9.12
+                2024/06/30 Updated 9.9 -> 9.12
+Current:        2024/11/21 Updated 9.12 -> 9.21

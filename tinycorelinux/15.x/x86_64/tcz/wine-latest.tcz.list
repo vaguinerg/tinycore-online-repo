@@ -67,6 +67,7 @@
 /usr/local/lib/wine/i386-windows/clusapi.dll
 /usr/local/lib/wine/i386-windows/cmd.exe
 /usr/local/lib/wine/i386-windows/cng.sys
+/usr/local/lib/wine/i386-windows/colorcnv.dll
 /usr/local/lib/wine/i386-windows/combase.dll
 /usr/local/lib/wine/i386-windows/comcat.dll
 /usr/local/lib/wine/i386-windows/comctl32.dll
@@ -157,6 +158,7 @@
 /usr/local/lib/wine/i386-windows/d3dx9_42.dll
 /usr/local/lib/wine/i386-windows/d3dx9_43.dll
 /usr/local/lib/wine/i386-windows/d3dxof.dll
+/usr/local/lib/wine/i386-windows/dataexchange.dll
 /usr/local/lib/wine/i386-windows/davclnt.dll
 /usr/local/lib/wine/i386-windows/dbgeng.dll
 /usr/local/lib/wine/i386-windows/dbghelp.dll
@@ -165,6 +167,7 @@
 /usr/local/lib/wine/i386-windows/ddeml.dll16
 /usr/local/lib/wine/i386-windows/ddraw.dll
 /usr/local/lib/wine/i386-windows/ddrawex.dll
+/usr/local/lib/wine/i386-windows/desk.cpl
 /usr/local/lib/wine/i386-windows/devenum.dll
 /usr/local/lib/wine/i386-windows/dhcpcsvc.dll
 /usr/local/lib/wine/i386-windows/dhcpcsvc6.dll
@@ -266,6 +269,7 @@
 /usr/local/lib/wine/i386-windows/icmp.dll
 /usr/local/lib/wine/i386-windows/ieframe.dll
 /usr/local/lib/wine/i386-windows/ieproxy.dll
+/usr/local/lib/wine/i386-windows/iertutil.dll
 /usr/local/lib/wine/i386-windows/iexplore.exe
 /usr/local/lib/wine/i386-windows/ifsmgr.vxd
 /usr/local/lib/wine/i386-windows/imaadp32.acm
@@ -300,6 +304,7 @@
 /usr/local/lib/wine/i386-windows/ksuser.dll
 /usr/local/lib/wine/i386-windows/ktmw32.dll
 /usr/local/lib/wine/i386-windows/l3codeca.acm
+/usr/local/lib/wine/i386-windows/l3codecx.ax
 /usr/local/lib/wine/i386-windows/light.msstyles
 /usr/local/lib/wine/i386-windows/loadperf.dll
 /usr/local/lib/wine/i386-windows/localspl.dll
@@ -317,8 +322,11 @@
 /usr/local/lib/wine/i386-windows/mciwave.dll
 /usr/local/lib/wine/i386-windows/mf.dll
 /usr/local/lib/wine/i386-windows/mf3216.dll
+/usr/local/lib/wine/i386-windows/mfasfsrcsnk.dll
 /usr/local/lib/wine/i386-windows/mferror.dll
+/usr/local/lib/wine/i386-windows/mfh264enc.dll
 /usr/local/lib/wine/i386-windows/mfmediaengine.dll
+/usr/local/lib/wine/i386-windows/mfmp4srcsnk.dll
 /usr/local/lib/wine/i386-windows/mfplat.dll
 /usr/local/lib/wine/i386-windows/mfplay.dll
 /usr/local/lib/wine/i386-windows/mfreadwrite.dll
@@ -418,6 +426,7 @@
 /usr/local/lib/wine/i386-windows/msvfw32.dll
 /usr/local/lib/wine/i386-windows/msvidc32.dll
 /usr/local/lib/wine/i386-windows/msvideo.dll16
+/usr/local/lib/wine/i386-windows/msvproc.dll
 /usr/local/lib/wine/i386-windows/mswsock.dll
 /usr/local/lib/wine/i386-windows/msxml.dll
 /usr/local/lib/wine/i386-windows/msxml2.dll
@@ -512,6 +521,7 @@
 /usr/local/lib/wine/i386-windows/regini.exe
 /usr/local/lib/wine/i386-windows/regsvcs.exe
 /usr/local/lib/wine/i386-windows/regsvr32.exe
+/usr/local/lib/wine/i386-windows/resampledmo.dll
 /usr/local/lib/wine/i386-windows/resutils.dll
 /usr/local/lib/wine/i386-windows/riched20.dll
 /usr/local/lib/wine/i386-windows/riched32.dll
@@ -566,6 +576,7 @@
 /usr/local/lib/wine/i386-windows/slc.dll
 /usr/local/lib/wine/i386-windows/snmpapi.dll
 /usr/local/lib/wine/i386-windows/softpub.dll
+/usr/local/lib/wine/i386-windows/sort.exe
 /usr/local/lib/wine/i386-windows/sound.drv16
 /usr/local/lib/wine/i386-windows/spoolss.dll
 /usr/local/lib/wine/i386-windows/spoolsv.exe
@@ -683,6 +694,7 @@
 /usr/local/lib/wine/i386-windows/windows.storage.applicationdata.dll
 /usr/local/lib/wine/i386-windows/windows.system.profile.systemmanufacturers.dll
 /usr/local/lib/wine/i386-windows/windows.ui.dll
+/usr/local/lib/wine/i386-windows/windows.web.dll
 /usr/local/lib/wine/i386-windows/windowscodecs.dll
 /usr/local/lib/wine/i386-windows/windowscodecsext.dll
 /usr/local/lib/wine/i386-windows/winealsa.drv
@@ -694,6 +706,7 @@
 /usr/local/lib/wine/i386-windows/wined3d.dll
 /usr/local/lib/wine/i386-windows/winedbg.exe
 /usr/local/lib/wine/i386-windows/winedevice.exe
+/usr/local/lib/wine/i386-windows/winedmo.dll
 /usr/local/lib/wine/i386-windows/winefile.exe
 /usr/local/lib/wine/i386-windows/winegstreamer.dll
 /usr/local/lib/wine/i386-windows/winehid.sys
@@ -736,14 +749,17 @@
 /usr/local/lib/wine/i386-windows/wlanui.dll
 /usr/local/lib/wine/i386-windows/wldap32.dll
 /usr/local/lib/wine/i386-windows/wldp.dll
+/usr/local/lib/wine/i386-windows/wmadmod.dll
 /usr/local/lib/wine/i386-windows/wmasf.dll
 /usr/local/lib/wine/i386-windows/wmi.dll
 /usr/local/lib/wine/i386-windows/wmic.exe
+/usr/local/lib/wine/i386-windows/wmilib.sys
 /usr/local/lib/wine/i386-windows/wmiutils.dll
 /usr/local/lib/wine/i386-windows/wmp.dll
 /usr/local/lib/wine/i386-windows/wmphoto.dll
 /usr/local/lib/wine/i386-windows/wmplayer.exe
 /usr/local/lib/wine/i386-windows/wmvcore.dll
+/usr/local/lib/wine/i386-windows/wmvdecod.dll
 /usr/local/lib/wine/i386-windows/wnaspi32.dll
 /usr/local/lib/wine/i386-windows/wofutil.dll
 /usr/local/lib/wine/i386-windows/wordpad.exe
@@ -822,6 +838,7 @@
 /usr/local/lib/wine/x86_64-unix/netapi32.so
 /usr/local/lib/wine/x86_64-unix/nsiproxy.so
 /usr/local/lib/wine/x86_64-unix/ntdll.so
+/usr/local/lib/wine/x86_64-unix/odbc32.so
 /usr/local/lib/wine/x86_64-unix/opencl.so
 /usr/local/lib/wine/x86_64-unix/opengl32.so
 /usr/local/lib/wine/x86_64-unix/qcap.so
@@ -830,6 +847,7 @@
 /usr/local/lib/wine/x86_64-unix/win32u.so
 /usr/local/lib/wine/x86_64-unix/winealsa.so
 /usr/local/lib/wine/x86_64-unix/winebus.so
+/usr/local/lib/wine/x86_64-unix/winedmo.so
 /usr/local/lib/wine/x86_64-unix/winegstreamer.so
 /usr/local/lib/wine/x86_64-unix/wineps.so
 /usr/local/lib/wine/x86_64-unix/wineusb.so
@@ -887,6 +905,7 @@
 /usr/local/lib/wine/x86_64-windows/clusapi.dll
 /usr/local/lib/wine/x86_64-windows/cmd.exe
 /usr/local/lib/wine/x86_64-windows/cng.sys
+/usr/local/lib/wine/x86_64-windows/colorcnv.dll
 /usr/local/lib/wine/x86_64-windows/combase.dll
 /usr/local/lib/wine/x86_64-windows/comcat.dll
 /usr/local/lib/wine/x86_64-windows/comctl32.dll
@@ -972,6 +991,7 @@
 /usr/local/lib/wine/x86_64-windows/d3dx9_42.dll
 /usr/local/lib/wine/x86_64-windows/d3dx9_43.dll
 /usr/local/lib/wine/x86_64-windows/d3dxof.dll
+/usr/local/lib/wine/x86_64-windows/dataexchange.dll
 /usr/local/lib/wine/x86_64-windows/davclnt.dll
 /usr/local/lib/wine/x86_64-windows/dbgeng.dll
 /usr/local/lib/wine/x86_64-windows/dbghelp.dll
@@ -979,6 +999,7 @@
 /usr/local/lib/wine/x86_64-windows/dcomp.dll
 /usr/local/lib/wine/x86_64-windows/ddraw.dll
 /usr/local/lib/wine/x86_64-windows/ddrawex.dll
+/usr/local/lib/wine/x86_64-windows/desk.cpl
 /usr/local/lib/wine/x86_64-windows/devenum.dll
 /usr/local/lib/wine/x86_64-windows/dhcpcsvc.dll
 /usr/local/lib/wine/x86_64-windows/dhcpcsvc6.dll
@@ -1077,6 +1098,7 @@
 /usr/local/lib/wine/x86_64-windows/icmp.dll
 /usr/local/lib/wine/x86_64-windows/ieframe.dll
 /usr/local/lib/wine/x86_64-windows/ieproxy.dll
+/usr/local/lib/wine/x86_64-windows/iertutil.dll
 /usr/local/lib/wine/x86_64-windows/iexplore.exe
 /usr/local/lib/wine/x86_64-windows/imaadp32.acm
 /usr/local/lib/wine/x86_64-windows/imagehlp.dll
@@ -1107,6 +1129,7 @@
 /usr/local/lib/wine/x86_64-windows/ksuser.dll
 /usr/local/lib/wine/x86_64-windows/ktmw32.dll
 /usr/local/lib/wine/x86_64-windows/l3codeca.acm
+/usr/local/lib/wine/x86_64-windows/l3codecx.ax
 /usr/local/lib/wine/x86_64-windows/light.msstyles
 /usr/local/lib/wine/x86_64-windows/loadperf.dll
 /usr/local/lib/wine/x86_64-windows/localspl.dll
@@ -1123,8 +1146,11 @@
 /usr/local/lib/wine/x86_64-windows/mciwave.dll
 /usr/local/lib/wine/x86_64-windows/mf.dll
 /usr/local/lib/wine/x86_64-windows/mf3216.dll
+/usr/local/lib/wine/x86_64-windows/mfasfsrcsnk.dll
 /usr/local/lib/wine/x86_64-windows/mferror.dll
+/usr/local/lib/wine/x86_64-windows/mfh264enc.dll
 /usr/local/lib/wine/x86_64-windows/mfmediaengine.dll
+/usr/local/lib/wine/x86_64-windows/mfmp4srcsnk.dll
 /usr/local/lib/wine/x86_64-windows/mfplat.dll
 /usr/local/lib/wine/x86_64-windows/mfplay.dll
 /usr/local/lib/wine/x86_64-windows/mfreadwrite.dll
@@ -1218,6 +1244,7 @@
 /usr/local/lib/wine/x86_64-windows/msvcrtd.dll
 /usr/local/lib/wine/x86_64-windows/msvfw32.dll
 /usr/local/lib/wine/x86_64-windows/msvidc32.dll
+/usr/local/lib/wine/x86_64-windows/msvproc.dll
 /usr/local/lib/wine/x86_64-windows/mswsock.dll
 /usr/local/lib/wine/x86_64-windows/msxml.dll
 /usr/local/lib/wine/x86_64-windows/msxml2.dll
@@ -1303,6 +1330,7 @@
 /usr/local/lib/wine/x86_64-windows/regini.exe
 /usr/local/lib/wine/x86_64-windows/regsvcs.exe
 /usr/local/lib/wine/x86_64-windows/regsvr32.exe
+/usr/local/lib/wine/x86_64-windows/resampledmo.dll
 /usr/local/lib/wine/x86_64-windows/resutils.dll
 /usr/local/lib/wine/x86_64-windows/riched20.dll
 /usr/local/lib/wine/x86_64-windows/riched32.dll
@@ -1354,6 +1382,7 @@
 /usr/local/lib/wine/x86_64-windows/slc.dll
 /usr/local/lib/wine/x86_64-windows/snmpapi.dll
 /usr/local/lib/wine/x86_64-windows/softpub.dll
+/usr/local/lib/wine/x86_64-windows/sort.exe
 /usr/local/lib/wine/x86_64-windows/spoolss.dll
 /usr/local/lib/wine/x86_64-windows/spoolsv.exe
 /usr/local/lib/wine/x86_64-windows/sppc.dll
@@ -1451,6 +1480,7 @@
 /usr/local/lib/wine/x86_64-windows/windows.storage.applicationdata.dll
 /usr/local/lib/wine/x86_64-windows/windows.system.profile.systemmanufacturers.dll
 /usr/local/lib/wine/x86_64-windows/windows.ui.dll
+/usr/local/lib/wine/x86_64-windows/windows.web.dll
 /usr/local/lib/wine/x86_64-windows/windowscodecs.dll
 /usr/local/lib/wine/x86_64-windows/windowscodecsext.dll
 /usr/local/lib/wine/x86_64-windows/winealsa.drv
@@ -1462,6 +1492,7 @@
 /usr/local/lib/wine/x86_64-windows/wined3d.dll
 /usr/local/lib/wine/x86_64-windows/winedbg.exe
 /usr/local/lib/wine/x86_64-windows/winedevice.exe
+/usr/local/lib/wine/x86_64-windows/winedmo.dll
 /usr/local/lib/wine/x86_64-windows/winefile.exe
 /usr/local/lib/wine/x86_64-windows/winegstreamer.dll
 /usr/local/lib/wine/x86_64-windows/winehid.sys
@@ -1496,14 +1527,17 @@
 /usr/local/lib/wine/x86_64-windows/wlanui.dll
 /usr/local/lib/wine/x86_64-windows/wldap32.dll
 /usr/local/lib/wine/x86_64-windows/wldp.dll
+/usr/local/lib/wine/x86_64-windows/wmadmod.dll
 /usr/local/lib/wine/x86_64-windows/wmasf.dll
 /usr/local/lib/wine/x86_64-windows/wmi.dll
 /usr/local/lib/wine/x86_64-windows/wmic.exe
+/usr/local/lib/wine/x86_64-windows/wmilib.sys
 /usr/local/lib/wine/x86_64-windows/wmiutils.dll
 /usr/local/lib/wine/x86_64-windows/wmp.dll
 /usr/local/lib/wine/x86_64-windows/wmphoto.dll
 /usr/local/lib/wine/x86_64-windows/wmplayer.exe
 /usr/local/lib/wine/x86_64-windows/wmvcore.dll
+/usr/local/lib/wine/x86_64-windows/wmvdecod.dll
 /usr/local/lib/wine/x86_64-windows/wnaspi32.dll
 /usr/local/lib/wine/x86_64-windows/wofutil.dll
 /usr/local/lib/wine/x86_64-windows/wordpad.exe
