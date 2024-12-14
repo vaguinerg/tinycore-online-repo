@@ -1,14 +1,24 @@
 Title:          lxappearance.tcz
-Description:    Desktop-independent theme switcher for GTK+
-Version:        0.5.5
-Author:         Hong Yen Jee (PCMan), Ying-Chun Liu (PaulLiu)
-Original-site:  http://lxde.org
-Copying-policy: GPL v3
-Size:           33k
-Extension_by:   bmarkus
-Tags:           GUI GTK
-Comments:       Binaries only
-                ----
-                Compiled for Pure64
-Change-log:     ----
-Current:        2014/01/19 First version, 0.5.5
+Description:    GUI gtk theme switcher
+Version:        0.6.3
+Author:         Hong Jen Yee, Ying-Chun Liu & Martin Bagge
+Original-site:  https://sourceforge.net/projects/lxde/files/LXAppearance/
+Copying-policy: GPL v 2
+Size:           40K
+Extension_by:   aus9 @linuxquestions.org
+Tags:           gtk2 gtk3 gtk4 theme
+Comments:       GUI way of changing values for 
+                $HOME/.gtkrc-2.0
+                $HOME/.config/gtk-3.0/settings.ini
+                gtk4 not tested
+
+                Will fail on weston.
+                Will segfault on wlroots, unless you run
+                $ lxwl 
+                Which is wrapper script that executes
+                $ GDK_BACKEND=x11 lxappearance
+
+                Optional TCE= skeuos-gtk-themes.tcz
+                
+Change-log:     2014/01/19 v 0.5.5 on 5x (bmarkus)
+Current:        2024/12/03 v 0.6.3 on 15x (aus9) 
