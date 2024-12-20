@@ -1,22 +1,37 @@
 Title:          recordmydesktop.tcz
-Description:    Desktop Session Recorder
-Version:        0.3.8.1
-Author:         John Varouhakis
-Original-site:  http://recordmydesktop.sourceforge.net/about.php
-Copying-policy: GPLv2
-Size:		48KB
-Extension_by:   patham9
-Tags:	        desktop session recorder
-Comments:       recordmydesktop --v_bitrate 2000000 --no-sound
-		
-		----------------------------------------------
-		
-		Please see the man page for additional 
-		information. 
-		
-		Also see http://recordmydesktop.sourceforge.net/about.php
-		for more information.
-		
-		----------------------------------------------
-Change-log:
-Current:	2019/1/26 Original
+Description:    CLI screen and/or audio recorder
+Version:        0.4.0
+Author:         John Varouhakis(now inactive)
+                Martin Nordholts (current)
+Original-site:  https://github.com/Enselic/recordmydesktop
+Copying-policy: GPL v 2
+Size:           44K
+Extension_by:   aus9 @linuxquestions.org
+Tags:           record screen 
+Comments:       Normal output is out.ogv which can be played back
+                in qmplay2 or vlc etc
+                To quit recording press Ctrl + c 
+                Highly recommend you read man page in doc TCE
+
+                Pulseaudio snd_hda_intel users, if you have an error 
+                "Couldn't open PCM device hw:0,0"
+                Implies HDMI is device=0 not analog, suggest fix by
+                adding to grub.cfg
+                blacklist=snd_hda_intel 
+                and creating an executable $HOME/.local/bin/sound contents=
+                #!/bin/sh
+                sudo modprobe snd_hda_intel enable=0
+                
+                Plus create a normal file under $HOME/.X.d/sound with contents=
+                /home/tc/.local/bin/sound & 
+                Change to suit localusername.
+
+                Full reboot please to test
+
+                # If mic capture is needed, please test first.
+                Press the space bar to activate mic input under the correct control
+                in alsamixer. Record 5 sec test $ arecord -d 5 test.wav
+                Playback by $ aplay test.wav 
+                
+Change-log:     2014/01/19 v 0.3.8.1 on 9x (patham9)
+Current:        2024/12/15 v 0.4.0 on 15x (aus9) 

@@ -1,0 +1,21 @@
+Title:		brightnessctl.tcz
+Project:	brightnessctl
+Description:	Brightness controller
+Version:	0.5
+Author:		Mykyta Holuakha
+Original-site:	https://github.com/Hummer12007/brightnessctl
+Copying-policy:	MIT
+Size:		12K
+Extension_by:   Sashank999
+Tags:		brightness ctrl
+Comments:	Simply control your monitor's brightness.
+		Usage:
+		To list devices:
+		$ brightnessctl -l
+                To set first device's brightness:
+                $ brightnessctl s 50%
+                To set a device's brightness (as percentage):
+                $ brightnessctl -d <device name> s 50%
+		----
+Change-log:	2024/12/15 First build.
+Current:        2024/12/15 First build.

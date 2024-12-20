@@ -1,16 +1,20 @@
 Title:          dosfstools.tcz
-Description:    dos file system tools
-Version:        4.2
-Author:         see list of sites below
-Original-site:  see list of sites below
-Copying-policy: see list of sites below
-Size: 64KB
-Extension_by:   juanito
+Description:    dos disk utilities
+Version:        git-2024/08/08
+Author:         Pali Rohár 
+Original-site:  https://github.com/dosfstools/dosfstools
+Copying-policy: GPL v3 
+Size:           76K 
+Extension_by:   aus9 @linuxquestions.org
 Tags:           dos fs tools
 Comments:       dos file system tools
-                ----------
-                This extension contains:
-                dosfstools-4.2 - GPLv3 - https://github.com/dosfstools/dosfstools/releases/download/v4.2/dosfstools-4.2.tar.gz
-                ----------
-Change-log:     2015/01/04 first version
-Current:        2021/05/26 updated 3.0.26 -> 4.2
+                Highly recommended that you load
+                glibc_gconv, dosfstools & mtools before
+                launching $ sudo gparted
+
+                On an 8G usb 2.0, a move and resize may
+                take 15 minutes YMMV
+           
+Change-log:     2015/01/04 v 3.0.26 (Juanito)
+                2021/05/26 v 4.2
+Current:        2024/08/07 v git 2024/08/08 (aus9)        
