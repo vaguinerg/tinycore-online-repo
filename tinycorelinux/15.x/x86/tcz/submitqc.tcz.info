@@ -1,10 +1,10 @@
 Title:          submitqc.tcz
 Description:    Extension audit tool for the TC (cross-repo)
-Version:        2024/11/25
+Version:        2024/12/19
 Author:         Jason W and others
 Original-site:  www.tinycorelinux.net
 Copying-policy: GPLv2
-Size:           24K
+Size:		28K
 Extension_by:   dentonlt polikuo and others
 Tags:           audit tool repo submit quality check submitqc
 Comments:       submitqc is used to audit extensions before submission.
@@ -39,4 +39,5 @@ Change-log:     2010/12/06 First version as extensio
                 2016/03/17 bugfix (andyj), begin ARM support, self-pkg; dentonlt
                 2019/02/18 bugfix (Rich) at lines 657, 834 (juanito)
                 2022/01/21 patched for aarch64 (polikuo)
-Current:        2024/11/25 adjusted for wayland repo (polikuo)
+                2024/11/25 adjusted for wayland repo (polikuo)
+Current:        2024/12/19 tgz checking, deps resolving, .info fetch (Sashank999)
