@@ -1,19 +1,16 @@
 Title:          bash-completion.tcz
-Description:    Complete arguments to commands
-Version:        2.1
+Description:    Autocompletion to commands in bash shell.
+Version:        2.15
 Author:         David Paleino (Debian)<d.paleino@gmail.com> and others
-Original-site:  https://bash-completion.alioth.debian.org/
-Copying-policy: GPL
-Size:		212K
+Original-site:  https://github.com/scop/bash-completion
+Copying-policy: GPLv2
+Size:		324K
 Extension_by:   brezular
-Tags:	    	Complete arguments to commands                         
-Comments:       The programmable completion feature in Bash permits typing
-		a partial command, then pressing the [Tab] key to auto-complete
-		the command sequence            
-Change-log:     - 
-Current:        2015/08/05 first version
-
-
-
- 
-
+Tags:           autocomplete bash tab 
+Comments:       bash-completion is a collection of command line command 
+                completions for the Bash shell, collection of helper functions 
+                to assist in creating new completions, and set of facilities
+                for loading completions automatically on demand, as well as
+                installing them.
+Change-log:     2015/08/05 first version
+Current:        2024/12/25 2.1 -> 2.15 (Sashank999)
