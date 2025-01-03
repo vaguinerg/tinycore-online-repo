@@ -1,6 +1,6 @@
 Title:          wireless-regdb.tcz  
 Description:    regulatory.db firmware
-Version:        $V
+Version:        2023/09/01
 Author:         Chen-Yu Tsai
 Original-site:  https://git.kernel.org/pub/scm/linux/kernel/git/sforshee/wireless-regdb.git
 Copying-policy: accompanied
@@ -15,4 +15,5 @@ Comments:       wireless firmware. Read-writeable config is
                 as module cfg80211 depends on this TCE firmware 
                 
 Change-log:     2023/05/06 any arch v 2023-05-03 creators  Luis R. Rodriguez, Johannes Berg & Michael Gree
-Current:        2024/09/11 any arch v 2023/09/01 upstream change of maintainer, but no change to LICENSE
+                2024/09/11 any arch v 2023/09/01 upstream change of maintainer, but no change to LICENSE
+Current:        2025/01/01 correct info file only

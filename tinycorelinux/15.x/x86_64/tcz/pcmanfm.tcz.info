@@ -1,12 +1,12 @@
 Title:          pcmanfm.tcz
-Description:    Graphical File Manager 
+Description:    gtk3 File Manager 
 Version:        1.3.2
 Author:         Hong Jen Yee
 Original-site:  https://downloads.sourceforge.net/pcmanfm
-Copying-policy: GPL v2
+Copying-policy: GPL v 2
 Size:           128K
 Extension_by:   aus9 @linuxquestions.org
-Tags:           file manager gtk2 fm    
+Tags:           file manager gtk3 fm    
 Comments:       online manual https://man.archlinux.org/man/pcmanfm.1.en
                 Config will auto-create at ~/.config/pcmanfm/default/pcmanfm.conf
                 Original /etc/xdg/pcmanfm/pcmanfm.conf
@@ -18,7 +18,7 @@ Comments:       online manual https://man.archlinux.org/man/pcmanfm.1.en
                 of volumes on startup. 
                 FM preferences can also change libfm (dependency) config.
                             
-                FM Bookmarks at ~/.gtk-bookmarks 
+                FM Bookmarks at ~/.config/gtk-3.0/bookmarks 
                 FM can integrate with some archive TCEs but no dependencies set
                 See /usr/local/share/libfm/archivers.list
                 load one then run $ update-desktops
@@ -26,11 +26,18 @@ Comments:       online manual https://man.archlinux.org/man/pcmanfm.1.en
                 This build has no support for:
                 pulldown Edit -> move to trash but context menu on a file/dir will offer delete
                 pulldown Go -> Trash can, devices, Network or server 
-                     
+
+                Optional TCES - search for theme in Apps & lxappearance
+                Download and load your preferred theme and run $ lxappearance 
+                ->  creates  ~/.config/gtk-3.0/settings.ini
+                Desktop themes might interfere, you be the judge.
+                I like skeuos-gtk-themes.tcz mainly supports gtk2 & 3
+                      
 Change-log:     2014/01/18 First version, 1.1.2.2 (bmarkus)
                 2015/08/20 v1.2.3 (gordon64)
                 2019/02/10 v1.3.0  for 10x(aus9)
                 2020/07/19 v 1.3.1 for 11x change install script
                 2020/08/04 add update-desktops to dep and info  
                 2023/03/26 v 1.3.2 on 14x 
-Current:        2024/04/04 rebuild for changed deps on 15x    
+                2024/04/04 rebuild for changed deps on 15x  
+Current:        2025/01/02 rebuilt on gtk3   
