@@ -9,33 +9,41 @@ Extension_by:   polikuo
 Tags:           multithreading distribute compiler
 Comments:       a fast, free distributed C/C++ compiler
                 ----------
+                This example uses pump mode, which usually produces more consistant result
+                ----------
                 Getting started:
-                  Prepare 2 or more machine
-                On Volunteer: (Server, Helper)
-                  Load this extension,
-                  the daemon will start automatically.
-                  To fine tune the behavior,
-                  create ~/.distcc/tc.sh
-                  The example file is in
-                    /usr/local/share/doc/distcc/tc.sh
-                On Worker: (Client, You compile here)
-                  Create ~/.distcc/tc.sh but keep it empty,
-                  the daemon will not start, which it shouldn't.
-                    $ touch ~/.distcc/tc.sh
-                    $ filetool.sh -b
+                  Prepare 2 or more machines
+                On Volunteer(s) - Server(s), Helper(s), IP: 192.168.0.3(, 192.168.0.4, ...)
+                  Load this extension, the daemon will start automatically.
+                  To fine tune the behavior, create /etc/sysconfig/tcedir/.distcc.sh
+                  The example file is in /usr/local/share/doc/distcc/tc.sh
+                    $ cp /usr/local/share/doc/distcc/tc.sh /etc/sysconfig/tcedir/.distcc.sh
+                    $ vi /etc/sysconfig/tcedir/.distcc.sh
+                On Worker - Client, You compile here, IP: 192.168.0.2
+                  Create /etc/sysconfig/tcedir/.distcc.sh but keep it empty.
+                  The daemon will not start, which it shouldn't.
+                    $ touch /etc/sysconfig/tcedir/.distcc.sh
                   Edit ~/.distcc/hosts
                     localhost
-                    192.168.0.30,lzo,cpp
+                    192.168.0.3,lzo,cpp
                   In terminal
-                    $ export PATH="/usr/lib/distcc:${PATH}"
+                    $ export PATH="/usr/local/lib/distcc:${PATH}"
                     $ ./configure ...
-                    $ pump make -j8
+                    $ pump make -j8 (most programs)
+                    $ pump ninja -j8 (Ninja)
+                  Alternative (sometimes works better)
+                    $ ./configure CC=/usr/local/lib/distcc/gcc ...
+                    $ eval `pump --startup`
+                    $ make -j8 (most programs)
+                    $ ninja -j8 (Ninja)
+                    $ ./mach build -j8 ... (firefox mach)
+                    $ pump --shutdown
                 ----------
                 IMPORTANT:
                   LTO compilations is now able to be distributed.
                     https://github.com/distcc/distcc/pull/429
                   For more information, check out the forum.
-                    https://forum.tinycorelinux.net/index.php/topic,25511.msg163434.html#msg163434
+                    https://forum.tinycorelinux.net/index.php/topic,27433.msg176654.html
                 ----------
                 This package contains:
                   https://github.com/distcc/distcc.git
@@ -43,4 +51,5 @@ Comments:       a fast, free distributed C/C++ compiler
                 Compiled for 15.x armhf
                 ----------
 Change-log:     2024/12/12 First Version
-Current:        2024/12/12 First Version
+                2025/01/06 LTO enabled, config relocated to fix onboot behavior ('~/.distcc/tc.sh' -> '/etc/sysconfig/tcedir/.distcc.sh')
+Current:        2025/01/06 LTO enabled, config relocated to fix onboot behavior

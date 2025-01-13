@@ -2129,6 +2129,12 @@
   "libdazzle.tcz": [
     "gobject gtk+ gtk3 gnome"
   ],
+  "libdecor-dev.tcz": [
+    "decorations Wayland devel"
+  ],
+  "libdecor.tcz": [
+    "decorations library Wayland"
+  ],
   "libdmx-dev.tcz": [
     "libdmx dev"
   ],
@@ -3566,11 +3572,17 @@
   "pigpio.tcz": [
     "LIBRARY CLI GPIO"
   ],
+  "pigz.tcz": [
+    "parallel gzip pigz"
+  ],
   "pixman-dev.tcz": [
     "LIBRARY dev"
   ],
   "pixman.tcz": [
     "LIBRARY"
+  ],
+  "pixz.tcz": [
+    "parallel gzip pigz"
   ],
   "pkg-config.tcz": [
     "CLI DEVELOPMENT"
