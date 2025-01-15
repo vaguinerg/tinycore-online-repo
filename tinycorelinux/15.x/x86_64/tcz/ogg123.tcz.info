@@ -1,0 +1,18 @@
+Title:          ogg123.tcz
+Description:    CLI ogg player
+Version:        1.4.2
+Author:         see doc TCE/AUTHORS
+Original-site:  https://github.com/xiph/vorbis-tools
+Copying-policy: GPL v 2
+Size:           40K
+Extension_by:   aus9 @linuxquestions.org
+Tags:           audio player ogg
+Comments:       split from vorbis-tools
+                Optional dep for locales= vorbis-tools-locale
+                man page in vorbis-tools-doc TCE
+
+                It is safe to ignore any terminal output  of: 
+Failed to load plugin /usr/local/lib/ao/plugins-4/libpulse.so => dlopen() failed
+
+Change-log:     2025/01/12  v 1.4.2 
+Current:        2025/01/12   

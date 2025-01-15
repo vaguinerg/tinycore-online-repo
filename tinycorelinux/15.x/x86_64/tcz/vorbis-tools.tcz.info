@@ -1,16 +1,14 @@
 Title:          vorbis-tools.tcz
-Description:    tools for ogg codec
-Version:        1.4.0
-Author:         see list of sites below
-Original-site:  see list of sites below
-Copying-policy: see list of sites below
-Size: 96KB
-Extension_by:   juanito
-Tags:	        audio compression codec tools
-Comments:       cli tools for encoding, playing or editing files using the ogg codec
-                ----------
-                This extension contains:
-                vorbis-tools-1.4.0 - (c) Xiph.org Foundation - https://downloads.xiph.org/releases/vorbis/vorbis-tools-1.4.0.tar.gz
-                ----------
-Change-log:     first version
-Current:        2018/01/29
+Description:    tools for ogg codec 
+Version:        1.4.2
+Author:         see doc TCE/AUTHORS
+Original-site:  https://github.com/xiph/vorbis-tools
+Copying-policy: GPL v 2
+Size:           76K
+Extension_by:   aus9 @linuxquestions.org
+Tags:           ogg audio 
+Comments:       CLI tools for ogg codec but 
+                ogg123 split into separate TCE
+                
+Change-log:     2018/01/29 v 1.4.0  (Juanito)
+Current:        2025/01/12  v 1.4.2  split ogg123 out (aus9)    
