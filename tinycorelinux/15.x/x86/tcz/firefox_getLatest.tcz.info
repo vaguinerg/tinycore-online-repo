@@ -1,10 +1,10 @@
 Title:			firefox_getLatest.tcz
-Description:		Firefox latest download and installer
-Version:		2.10
-Author:			coreplayer2
-Original-site:  	http://forum.tinycorelinux.net/index.php/topic,17879.msg107764.html#msg107764
+Description:		Download and install Firefox
+Version:		2.11
+Author:			coreplayer2, CNK
+Original-site:  	http://forum.tinycorelinux.net/index.php/topic,17879.0.html
 Copying-policy:		GPL
-Size:			12.0K
+Size:			8.0K
 Extension_by:   	coreplayer2, CNK
 Tags:			firefox get latest web browser
 Comments:		This script detects the latest available Firefox Browser, downloads the  
@@ -22,8 +22,11 @@ Comments:		This script detects the latest available Firefox Browser, downloads t
 			                             -g    (verify download with GnuPG keyring)
 
 			Will create latest Firefox extension for:
-			tc-14 x86
-			tc-14 x86_64
+			x86
+			x86_64
+
+			PulseAudio is required for sound (Mozilla disable ALSA support in
+			these builds). Libavcodec is required for audio/video streaming.
 
 			Note: The newly created extension is a replacement for the deprecated 
 			firefox-official extension. If found during an onboot check, this old 
@@ -52,4 +55,5 @@ Change-log:		---
 			2021/05/03 Improved version number extraction (CNK)
 			2022/02/08 Added libXtst to dep list. Also added -d option (CNK)
 			2022/11/17 Updated download URL. Exit if download fails (CNK)
-Current:		2023/07/06 Fix deleting temp. files when not tc user. Add -g option (CNK)
+			2023/07/06 Fix deleting temp. files when not tc user. Add -g option (CNK)
+Current:		2025/01/20 Support XZ compression. Can auto-detect download URL (CNK)
