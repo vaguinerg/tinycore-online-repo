@@ -8,12 +8,14 @@ firewalld.tcz
          ncursesw.tcz
       jansson.tcz
    ebtables.tcz
+   iptables.tcz
+      ipv6-netfilter-6.6.8-tinycore64.tcz
    ipset.tcz
       libmnl.tcz
       ipv6-netfilter-6.6.8-tinycore64.tcz
-   py3.6gobject.tcz
-      py3.6cairo.tcz
-         python3.6.tcz
+   py3.9gobject.tcz
+      py3.9cairo.tcz
+         python3.9.tcz
             openssl.tcz
             sqlite3.tcz
             gdbm.tcz
@@ -346,41 +348,20 @@ firewalld.tcz
                   readline.tcz
                      ncursesw.tcz
                   libffi.tcz
-   python3.6-slip.tcz
-      dbus-python3.6.tcz
-         dbus.tcz
-            expat2.tcz
-            elogind.tcz
-               acl.tcz
-                  attr.tcz
-               libcap.tcz
-                  attr.tcz
-               util-linux.tcz
-                  readline.tcz
-                     ncursesw.tcz
-                  udev-lib.tcz
-               linux-pam.tcz
-         python3.6.tcz
-            openssl.tcz
-            sqlite3.tcz
-            gdbm.tcz
-            bzip2-lib.tcz
-            liblzma.tcz
-            readline.tcz
-               ncursesw.tcz
-            libffi.tcz
-   python3.6-six.tcz
-      python3.6.tcz
-         openssl.tcz
-         sqlite3.tcz
-         gdbm.tcz
-         bzip2-lib.tcz
-         liblzma.tcz
-         readline.tcz
-            ncursesw.tcz
-         libffi.tcz
-   python3.6-decorator.tcz
-      python3.6.tcz
+   dbus-python3.9.tcz
+      dbus.tcz
+         expat2.tcz
+         elogind.tcz
+            acl.tcz
+               attr.tcz
+            libcap.tcz
+               attr.tcz
+            util-linux.tcz
+               readline.tcz
+                  ncursesw.tcz
+               udev-lib.tcz
+            linux-pam.tcz
+      python3.9.tcz
          openssl.tcz
          sqlite3.tcz
          gdbm.tcz
