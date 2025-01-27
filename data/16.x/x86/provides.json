@@ -4468,6 +4468,18 @@
     "/usr/local/lib/libltdl.so.7",
     "/usr/local/lib/libltdl.so.7.3.3"
   ],
+  "liblz4-dev.tcz": [
+    "/usr/local/include/lz4.h",
+    "/usr/local/include/lz4frame.h",
+    "/usr/local/include/lz4frame_static.h",
+    "/usr/local/include/lz4hc.h",
+    "/usr/local/lib/pkgconfig/liblz4.pc"
+  ],
+  "liblz4.tcz": [
+    "/usr/local/lib/liblz4.so",
+    "/usr/local/lib/liblz4.so.1",
+    "/usr/local/lib/liblz4.so.1.9.4"
+  ],
   "liblzma-dev.tcz": [
     "/usr/local/include/lzma/base.h",
     "/usr/local/include/lzma/bcj.h",
@@ -6565,6 +6577,27 @@
     "/usr/include/xen/gntalloc.h",
     "/usr/include/xen/gntdev.h",
     "/usr/include/xen/privcmd.h"
+  ],
+  "lzo-dev.tcz": [
+    "/usr/local/include/lzo/lzo1.h",
+    "/usr/local/include/lzo/lzo1a.h",
+    "/usr/local/include/lzo/lzo1b.h",
+    "/usr/local/include/lzo/lzo1c.h",
+    "/usr/local/include/lzo/lzo1f.h",
+    "/usr/local/include/lzo/lzo1x.h",
+    "/usr/local/include/lzo/lzo1y.h",
+    "/usr/local/include/lzo/lzo1z.h",
+    "/usr/local/include/lzo/lzo2a.h",
+    "/usr/local/include/lzo/lzo_asm.h",
+    "/usr/local/include/lzo/lzoconf.h",
+    "/usr/local/include/lzo/lzodefs.h",
+    "/usr/local/include/lzo/lzoutil.h",
+    "/usr/local/lib/pkgconfig/lzo2.pc"
+  ],
+  "lzo.tcz": [
+    "/usr/local/lib/liblzo2.so",
+    "/usr/local/lib/liblzo2.so.2",
+    "/usr/local/lib/liblzo2.so.2.0.0"
   ],
   "m4.tcz": [
     "/usr/local/bin/m4"
