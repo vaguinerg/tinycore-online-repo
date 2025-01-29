@@ -2,11 +2,17 @@
   "advcomp.tcz": [
     "compression utilities"
   ],
+  "alsa-modules-6.12.11-tinycore64.tcz": [
+    "alsa sound support"
+  ],
   "autoconf.tcz": [
     "autoconf shells scripts"
   ],
   "automake.tcz": [
     "automatic makefile source"
+  ],
+  "ax25-6.12.11-tinycore64.tcz": [
+    "Hamradio support"
   ],
   "bash-dev.tcz": [
     "shell dev"
@@ -22,6 +28,9 @@
   ],
   "bison.tcz": [
     "parser generator"
+  ],
+  "bluetooth-6.12.11-tinycore64.tcz": [
+    "bluetooth driver"
   ],
   "bzip2-dev.tcz": [
     "compression utility dev"
@@ -62,8 +71,14 @@
   "file.tcz": [
     "file"
   ],
+  "filesystems-6.12.11-tinycore64.tcz": [
+    "Additional file systems support"
+  ],
   "findutils.tcz": [
     "findutils"
+  ],
+  "firewire-6.12.11-tinycore64.tcz": [
+    "Firewire support"
   ],
   "flex-dev.tcz": [
     "lexical analyzer generator dev"
@@ -116,6 +131,9 @@
   "gperf.tcz": [
     "hash function"
   ],
+  "graphics-6.12.11-tinycore64.tcz": [
+    "Accelerated graphics support"
+  ],
   "grep.tcz": [
     "grep"
   ],
@@ -125,14 +143,38 @@
   "gzip.tcz": [
     "compression utility"
   ],
+  "hwmon-6.12.11-tinycore64.tcz": [
+    "HW monitoring support"
+  ],
+  "i2c-6.12.11-tinycore64.tcz": [
+    "i2c support"
+  ],
+  "input-joystick-6.12.11-tinycore64.tcz": [
+    "Joysticks support"
+  ],
+  "input-tablet-touchscreen-6.12.11-tinycore64.tcz": [
+    "Tablet touchscreen input support"
+  ],
   "intltool.tcz": [
     "internationalization utility"
+  ],
+  "ipv6-netfilter-6.12.11-tinycore64.tcz": [
+    "ipv6 firewall support"
   ],
   "isl-dev.tcz": [
     "integer point set dev"
   ],
   "isl.tcz": [
     "integer point set"
+  ],
+  "kvm-6.12.11-tinycore64.tcz": [
+    "KVM virtualization host support"
+  ],
+  "l2tp-6.12.11-tinycore64.tcz": [
+    "l2tp support"
+  ],
+  "leds-6.12.11-tinycore64.tcz": [
+    "Led support"
   ],
   "libltdl.tcz": [
     "library script library"
@@ -188,6 +230,9 @@
   "mpfr.tcz": [
     "multiple precision floating point"
   ],
+  "mtd-6.12.11-tinycore64.tcz": [
+    "MTD support"
+  ],
   "ncursesw-dev.tcz": [
     "terminal character wide dev"
   ],
@@ -200,8 +245,23 @@
   "ncursesw.tcz": [
     "terminal character wide"
   ],
+  "net-bridging-6.12.11-tinycore64.tcz": [
+    "Bridging support"
+  ],
+  "net-sched-6.12.11-tinycore64.tcz": [
+    "IP traffic control support"
+  ],
+  "nouveau-6.12.11-tinycore64.tcz": [
+    "nouveau"
+  ],
+  "original-modules-6.12.11-tinycore64.tcz": [
+    "Meta-extension depending original modules"
+  ],
   "patch.tcz": [
     "patch"
+  ],
+  "pci-hotplug-6.12.11-tinycore64.tcz": [
+    "PCI hotplug support"
   ],
   "perl5.tcz": [
     "Practical Extraction Report Language"
@@ -212,11 +272,20 @@
   "pkg-config.tcz": [
     "pkg-config compiling helper"
   ],
+  "raid-dm-6.12.11-tinycore64.tcz": [
+    "Raid support"
+  ],
   "readline-dev.tcz": [
     "readline dev"
   ],
   "readline.tcz": [
     "readline"
+  ],
+  "scsi-6.12.11-tinycore64.tcz": [
+    "SCSI support"
+  ],
+  "sctp-6.12.11-tinycore64.tcz": [
+    "sctp support"
   ],
   "sed.tcz": [
     "sed"
@@ -233,6 +302,12 @@
   "texinfo.tcz": [
     "output formats both online printed dvi html info pdf xml etc"
   ],
+  "thinkpad-acpi-6.12.11-tinycore64.tcz": [
+    "Thinkpad acpi support"
+  ],
+  "usb-serial-6.12.11-tinycore64.tcz": [
+    "USB serial 3g modem support"
+  ],
   "util-linux-dev.tcz": [
     "utility dev"
   ],
@@ -241,6 +316,15 @@
   ],
   "util-linux_base-dev.tcz": [
     "util-linux devs"
+  ],
+  "v4l-dvb-6.12.11-tinycore64.tcz": [
+    "v4l dvb webcam support"
+  ],
+  "watchdog-6.12.11-tinycore64.tcz": [
+    "Watchdog support"
+  ],
+  "wireless-6.12.11-tinycore64.tcz": [
+    "Wireless support"
   ],
   "xz.tcz": [
     "compression cli"

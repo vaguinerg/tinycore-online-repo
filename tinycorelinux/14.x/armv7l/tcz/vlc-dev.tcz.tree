@@ -16,7 +16,7 @@ vlc-dev.tcz
                         liblzma.tcz  
                      libpng.tcz
                      giflib.tcz 
-                  libvpx.tcz
+                  libvpx6.tcz
                   libtheora.tcz
                      libogg.tcz
                   speex.tcz
@@ -295,12 +295,12 @@ vlc-dev.tcz
                   libXau.tcz
                   libXdmcp.tcz
          libasound.tcz
-            alsa-modules-6.1.25-piCore-v7l.tcz
+            alsa-modules-6.1.68-piCore-v7l.tcz
          libv4l2.tcz
-            v4l-dvb-6.1.25-piCore-v7l.tcz
-               alsa-modules-6.1.25-piCore-v7l.tcz
-               graphics-6.1.25-piCore-v7l.tcz
-                  alsa-modules-6.1.25-piCore-v7l.tcz
+            v4l-dvb-6.1.68-piCore-v7l.tcz
+               alsa-modules-6.1.68-piCore-v7l.tcz
+               graphics-6.1.68-piCore-v7l.tcz
+                  alsa-modules-6.1.68-piCore-v7l.tcz
             libjpeg-turbo.tcz
             udev-lib.tcz
          libpulseaudio.tcz
@@ -327,7 +327,7 @@ vlc-dev.tcz
                flac.tcz
                   libogg.tcz
                libasound.tcz
-                  alsa-modules-6.1.25-piCore-v7l.tcz
+                  alsa-modules-6.1.68-piCore-v7l.tcz
                libvorbis.tcz
                   libogg.tcz
                sqlite3.tcz
@@ -357,7 +357,7 @@ vlc-dev.tcz
                            liblzma.tcz  
                         libpng.tcz
                         giflib.tcz 
-                     libvpx.tcz
+                     libvpx6.tcz
                      libtheora.tcz
                         libogg.tcz
                      speex.tcz
@@ -636,12 +636,12 @@ vlc-dev.tcz
                      libXau.tcz
                      libXdmcp.tcz
             libasound.tcz
-               alsa-modules-6.1.25-piCore-v7l.tcz
+               alsa-modules-6.1.68-piCore-v7l.tcz
             libv4l2.tcz
-               v4l-dvb-6.1.25-piCore-v7l.tcz
-                  alsa-modules-6.1.25-piCore-v7l.tcz
-                  graphics-6.1.25-piCore-v7l.tcz
-                     alsa-modules-6.1.25-piCore-v7l.tcz
+               v4l-dvb-6.1.68-piCore-v7l.tcz
+                  alsa-modules-6.1.68-piCore-v7l.tcz
+                  graphics-6.1.68-piCore-v7l.tcz
+                     alsa-modules-6.1.68-piCore-v7l.tcz
                libjpeg-turbo.tcz
                udev-lib.tcz
             libpulseaudio.tcz
@@ -668,7 +668,7 @@ vlc-dev.tcz
                   flac.tcz
                      libogg.tcz
                   libasound.tcz
-                     alsa-modules-6.1.25-piCore-v7l.tcz
+                     alsa-modules-6.1.68-piCore-v7l.tcz
                   libvorbis.tcz
                      libogg.tcz
                   sqlite3.tcz
@@ -717,7 +717,7 @@ vlc-dev.tcz
                   flac.tcz
                      libogg.tcz
                   libasound.tcz
-                     alsa-modules-6.1.25-piCore-v7l.tcz
+                     alsa-modules-6.1.68-piCore-v7l.tcz
                   libvorbis.tcz
                      libogg.tcz
                   sqlite3.tcz
@@ -730,7 +730,7 @@ vlc-dev.tcz
                      libogg.tcz
             alsa.tcz
                libasound.tcz
-                  alsa-modules-6.1.25-piCore-v7l.tcz
+                  alsa-modules-6.1.68-piCore-v7l.tcz
             udev-lib.tcz
             libltdl.tcz
             libavahi.tcz
@@ -751,7 +751,7 @@ vlc-dev.tcz
             libcap.tcz
          libasound-dev.tcz
             libasound.tcz
-               alsa-modules-6.1.25-piCore-v7l.tcz
+               alsa-modules-6.1.68-piCore-v7l.tcz
          libtool-dev.tcz
             libtool.tcz
                libltdl.tcz
@@ -771,7 +771,7 @@ vlc-dev.tcz
                flac.tcz
                   libogg.tcz
                libasound.tcz
-                  alsa-modules-6.1.25-piCore-v7l.tcz
+                  alsa-modules-6.1.68-piCore-v7l.tcz
                libvorbis.tcz
                   libogg.tcz
                sqlite3.tcz
@@ -782,7 +782,7 @@ vlc-dev.tcz
                   libogg.tcz
             libasound-dev.tcz
                libasound.tcz
-                  alsa-modules-6.1.25-piCore-v7l.tcz
+                  alsa-modules-6.1.68-piCore-v7l.tcz
             libvorbis-dev.tcz
                libvorbis.tcz
                   libogg.tcz
@@ -804,7 +804,7 @@ vlc-dev.tcz
                   udev-lib.tcz
                   libical.tcz
                      icu.tcz
-                  bluetooth-6.1.25-piCore-v7l.tcz
+                  bluetooth-6.1.68-piCore-v7l.tcz
                      firmware-rpi-bt.tcz
                   sbc.tcz
                   readline.tcz
@@ -2588,17 +2588,17 @@ vlc-dev.tcz
             ncurses.tcz
       libv4l2-dev.tcz
          libv4l2.tcz
-            v4l-dvb-6.1.25-piCore-v7l.tcz
-               alsa-modules-6.1.25-piCore-v7l.tcz
-               graphics-6.1.25-piCore-v7l.tcz
-                  alsa-modules-6.1.25-piCore-v7l.tcz
+            v4l-dvb-6.1.68-piCore-v7l.tcz
+               alsa-modules-6.1.68-piCore-v7l.tcz
+               graphics-6.1.68-piCore-v7l.tcz
+                  alsa-modules-6.1.68-piCore-v7l.tcz
             libjpeg-turbo.tcz
             udev-lib.tcz
          libjpeg-turbo-dev.tcz
             libjpeg-turbo.tcz
          libasound-dev.tcz
             libasound.tcz
-               alsa-modules-6.1.25-piCore-v7l.tcz
+               alsa-modules-6.1.68-piCore-v7l.tcz
          mesa-dev.tcz
             mesa.tcz
                libdrm.tcz
@@ -3172,10 +3172,10 @@ vlc-dev.tcz
    mpg123-dev.tcz
       mpg123.tcz
          libasound.tcz
-            alsa-modules-6.1.25-piCore-v7l.tcz
+            alsa-modules-6.1.68-piCore-v7l.tcz
       libasound-dev.tcz
          libasound.tcz
-            alsa-modules-6.1.25-piCore-v7l.tcz
+            alsa-modules-6.1.68-piCore-v7l.tcz
    libmad-dev.tcz
       libmad.tcz
    libsamplerate-dev.tcz
@@ -3184,7 +3184,7 @@ vlc-dev.tcz
             flac.tcz
                libogg.tcz
             libasound.tcz
-               alsa-modules-6.1.25-piCore-v7l.tcz
+               alsa-modules-6.1.68-piCore-v7l.tcz
             libvorbis.tcz
                libogg.tcz
             sqlite3.tcz
@@ -3193,7 +3193,7 @@ vlc-dev.tcz
             flac.tcz
                libogg.tcz
             libasound.tcz
-               alsa-modules-6.1.25-piCore-v7l.tcz
+               alsa-modules-6.1.68-piCore-v7l.tcz
             libvorbis.tcz
                libogg.tcz
             sqlite3.tcz
@@ -3204,7 +3204,7 @@ vlc-dev.tcz
                libogg.tcz
          libasound-dev.tcz
             libasound.tcz
-               alsa-modules-6.1.25-piCore-v7l.tcz
+               alsa-modules-6.1.68-piCore-v7l.tcz
          libvorbis-dev.tcz
             libvorbis.tcz
                libogg.tcz
