@@ -1,0 +1,30 @@
+Title:          weston.ini.tcz  
+Description:    Create read-write weston.ini file
+Version:        2
+Author:         aus9 
+Original-site:  Cheating off     https://www.mankier.com/5/weston.ini
+                and modes mainly https://www.mankier.com/7/weston-drm
+Copying-policy: Open source
+Size:           4.0K
+Extension_by:   aus9 @linuxquestions.org
+Tags:           weston
+Comments:       Read Write file= ~/.config/weston.ini
+                Install script does not overwrite any existing ini file
+
+                At time of posting, there is a broken pipe issue if you run
+                $ tce-load <TCEs> in weston-terminal so I have changed the ini
+                to show sakura but its not a dep!
+                sakura is gtk3 so can run on pure wayland. 
+
+                After downloading this TCE, load it and edit it to your preferences using links above.
+
+                weston does not have xwayland as a dep. Its needed if you intend to run
+                any of the fltk GUIs eg exittc, mntttol, apps. I have disabled xwayland in 
+                2 settings in case you prefer not to use xwayland.
+
+                Without xwayland run $ exitcheck.sh reboot (to reboot) or drop reboot to poweroff
+
+Change-log:     2018/11/27  v 1 
+                2024/04/05  v 2
+Current:        2024/04/22 fix xwayland & mention sakura terminal for broken pipe issue
+

@@ -1,0 +1,37 @@
+Title:          dmenu.tcz
+Description:    DMenu 4.0 - A dynamic menu for X, originally 
+                designed for dwm.
+Version:        5.0
+Authors         Anselm R. Garbe and others, see LICENSE (dmenu-doc.tcz)
+Original-site:	http://tools.suckless.org/dmenu/
+Copying-policy:	MIT License
+Size:           16.0K
+Extension_by:   Althalus, jazzbiker
+Tags:           dynamic menu 
+Comments:       The quickest way to get up and running with dmenu is to 
+                create a keyboard shortcut to dmenu_run
+                
+                If you use openbox, and want to specify custom options,
+                create a wrapper script for the keyboard shortcut to 
+                execute.
+
+                For example:
+                $ cat - > /home/tc/.dmenu
+                exec dmenu_run -h 150 -ni -p "$" -rs -w 200 -x 540 -y 325 \
+                -nb "#000" -nf "#bbb" -sb "#666" -sf "#fff" -i
+                ^D
+                $ chmod +x /home/tc/.dmenu
+                Edit /home/tc/.config/openbox/rc.xml
+                Find the keyboard section, and add:
+                  <keybind key="W-space">
+                    <action name="Execute">
+                      <execute>/home/tc/.dmenu</execute>
+                    </action>
+                  </keybind>
+                
+                Then restart openbox. Now the super+space key combo will
+                start up dmenu.
+
+Change-log:     version 4.0 2009/11/07 (Althalus)
+Current:        version 5.0 2020/11/07 (jazzbiker)
+

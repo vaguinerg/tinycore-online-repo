@@ -1,0 +1,52 @@
+Title:           mc.tcz
+Description:     Console or Virtual Terminal File Manager
+Version:         4.8.31
+Author:          see TCE doc 
+Original-site:   http://midnight-commander.org/
+Copying-policy:  GPL v3
+Size:            868K
+Extension_by:    aus9 @ linuxquestions.org
+Tags:            terminal file manager
+Comments:        (UPGRADERS pls note) menu, wbar or desktop icon changes from aterm to xterm 
+                 If $ xterm does not launch your terminal and you prefer it over aterm..... 
+                 1) Remove aterm from your boot list, add your preferred terminal to bootlist
+                    Hint lxterminal has a full xterm function
+                 2) Create a sym link as below
+                    $ sudo ln -s /usr/local/bin/<name-of-terminal> /usr/local/bin/xterm
+                    Add new file to your backup or do it manually each time
+                 3) For those using GUI Apps, and xterm fails for your term, load aterm
+
+                 My AMD APU did not allow me to use mc in console mode. This TCE worked in 
+                 console mode correctly on a intel gfx so YMMV. If console does not work 
+                 please try vifm which works for me both console and VT 
+
+                 If your terminal does not allow arrow up/down navigation. Choose A or B
+                 (A) $ export TERM=xterm && mc 
+                     aterm, lxterminal, sakura, tilda and urxvt arrow down/up work by default
+                     Other terms not tested by me
+                 (B) For lazy people like me, run as non-root
+                     $ echo export export TERM=xterm >> $HOME/.ashrc
+                       This allows allows arrow navigation in all tabs compared to (A)
+                 
+                 TCE=vt-color-test will prove you will not lose 256 color
+                                
+                 Optional deps:  perl5 for misc. functions
+                 No support for trash can
+                 On first launch configs at ~/.config/mc
+                 mc allows live config changes, mc-> Options -> Configuration 
+
+                 mc now has read-write file association files under extension dir=
+                 /usr/local/libexec/mc/ext.d
+                 Any you change and need over reboot, add to your backup please.
+                 eg usr/local/libexec/mc/ext.d/doc.sh (we drop leading /)                 
+                 Also--examining doc.sh for example reveals that we could use
+                 xpdf-tools or poppler23-bin internal view of PDF (pdftotext)
+                 and so on. 
+
+                 Please read -doc and -locale TCEs 
+                 mouse is supported this build               
+      
+Change-log:     2014/01/18 v 4.8.11 (bmarkus)
+                2014/06/16 v 4.8.12
+Current:        2024/04/05 v 4.8.31 on 15x + mouse doc/locale, rw file associations, remove aterm dep (aus9)
+

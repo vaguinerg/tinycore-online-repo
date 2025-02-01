@@ -1,0 +1,13 @@
+Title:          fuse-zip.tcz
+Description:    FUSE filesystem to mount ZIP archives with write support
+Version:        0.7.2
+Author:         Alexander Galanin
+Original-site:  https://bitbucket.org/agalanin/fuse-zip/src
+Copying-policy: LGPLv3
+Size:		36K
+Extension_by:   Cardeal_Russo
+Tags:           file system compression
+Comments:       Changes to archives are made only after umount (in background, exit code dont means finished)
+                ----
+Change-log:     2023/07/16 first version
+Current:        2023/07/16 first version

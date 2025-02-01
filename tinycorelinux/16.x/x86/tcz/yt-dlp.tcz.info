@@ -1,0 +1,33 @@
+Title:          yt-dlp.tcz  
+Description:    command line tool a fork of youtube-dl 
+Version:        2023.03.04
+Author:         https://github.com/yt-dlp/yt-dlp/blob/master/CONTRIBUTORS 
+Original-site:  https://github.com/yt-dlp/yt-dlp
+Copying-policy: https://github.com/yt-dlp/yt-dlp/blob/master/LICENSE 
+Size:           2.6M
+Extension_by:   aus9 
+Tags:           youtube downloader
+Comments:       command line tool to download youtubes. 
+
+                If you wish to avoid using the certificate
+                string below load ca-certificates
+                If your media player can not play resultant
+                file, load ffmeg4 and convert file to your
+                players supported formats
+    
+                Basic use example
+                $ yt-dlp --no-check-certificate <url>
+                
+                Finding formats available for your target tube
+                $ yt-dlp --no-check-certificate --list-formats <url>
+                
+                example of getting audio only
+                yt-dlp --no-check-certificate -x <url>
+                
+                help
+                $ yt-dlp -h
+
+                Online usage examples- see original site
+                
+Change-log:     2023/05/04 v 2023.03.04 on 14x anyarch
+Current:        2023/05/04 

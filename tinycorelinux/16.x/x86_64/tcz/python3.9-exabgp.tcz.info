@@ -1,0 +1,21 @@
+Title:          python3.9-exabgp.tcz
+Description:    The BGP swiss army knife of networking
+Version:        4.2.21
+Author:         Thomas Mangin
+Original-site:  https://github.com/Exa-Networks/exabgp
+Copying-policy: https://github.com/Exa-Networks/exabgp/blob/main/LICENCE.txt
+Size:		564K
+Extension_by:   rhermsen
+Tags:           python python3.9 exabgp bgp
+Comments:       ExaBGP, Python BGP route injector
+                ExaBGP provides a convenient way to implement
+                Software Defined Networking by transforming BGP
+                messages into friendly plain text or JSON, which can
+                then be easily handled by simple scripts or your BSS/OSS.
+                
+                Add paramter '--env /usr/local/etc/exabgp/exabgp.env' to use the default environment values.
+
+                For example configuration see the python3.9-exabgp-doc.tcz extension.
+                
+Change-log:     2024/01/29 first verion, 4.2.21
+Current:        2024/01/29 first verion, 4.2.21

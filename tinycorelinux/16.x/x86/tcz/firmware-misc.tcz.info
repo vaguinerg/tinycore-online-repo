@@ -1,0 +1,22 @@
+Title:          firmware-misc.tcz
+Description:    firmware for miscellaneous devices
+Version:        20240220
+Author:         Various
+Original-site:  https://git.kernel.org/pub/scm/linux/\
+                kernel/git/firmware/linux-firmware.git
+Copying-policy: Distributable
+Size:           2.9M
+Extension_by:   aus9 @linuxquestions.org
+Tags:           firmware
+Comments:       Leftovers from the linux-firmware not large 
+                enough to have their own TCE. TCE created in 
+                2011 and split by coreplayer2 into various TCEs 
+                at later dates. This is another split.
+                No deletions this update
+
+                modules include: advansys bfa typhoon 
+
+Change-log:     2020/06/20 split from firmware.tcz and updated
+                2023/02/04 updated has deletions
+                2024/03/12 updated remove install script - 0 deletions 
+Current:        2024/09/23 corrected info file only   

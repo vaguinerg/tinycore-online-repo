@@ -1,0 +1,45 @@
+Title:          vimb.tcz
+Description:    vim like web browser as below
+Version:        git-20241028
+Author:         Daniel Carl 
+Original-site:  https://github.com/fanglingsu/vimb
+Copying-policy: GPL v 3
+Size:           84K
+Extension_by:   aus9 @linuxquestions.org
+Tags:           web browser 
+Comments:       gtk3/gst/webkit web browser that has
+                vim like key bindings and modes and
+                supports mouse too.
+                * Normal Mode -The default mode. 
+                Pressing Escape always enter normal mode.
+                * Input Mode
+                Used for editing text elements in a webpage.
+                * Command Mode
+                Execute "ex" commands from the builtin inputbox (commandline).
+                * Pass Through Mode
+                Only the Esc and <C-[) keybindings are interpreted by Vimb, 
+                all other keystrokes are given to the webview to handle them. This 
+                allows the use of a website's configured keybindings, that
+                might otherwise be swallowed by Vimb.   
+                
+                If you are mouse adverse you must read man page
+                on Hinting. 
+
+                I have made a home page and we start in input 
+                mode at duckduckgo. 
+
+                For new web address -> normal mode then input 
+                shift+o <URL> 
+                = capital Oh web address
+                                
+                Recommend you read the man page in vimb-doc. 
+                Please change any setting you want at 
+                $HOME/.config/vimb/config (and style.css)
+                If you want sound, setup independently and 
+                it should work when you launch vimb
+ 
+                Altho 84K size looks good compare against
+                totals for your other web browser due to deps              
+
+Change-log:     2024/10/30 v git-20241028
+Current:        2024/10/30       ' > $P.tcz.info

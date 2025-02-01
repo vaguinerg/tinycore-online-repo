@@ -1,0 +1,27 @@
+Title:          sway-wallpapers.tcz 
+Description:    Official wallpapers for sway
+Version:        1.9
+Author:         Drew DeVault
+Original-site:  https://github.com/swaywm/sway
+Copying-policy: see sway TCE 
+Size:           4.8M
+Extension_by:   aus9 @linuxquestions.org  
+Tags:           wayland wallpaper
+Comments:       Splits out wallpapers to make sway TCE smaller.
+                This is TCE is a removeable dep once you edit your config as below
+                --- changing the pathway and filenames of course
+
+                Your current config =
+                output * bg /usr/local/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
+                Edit to something like
+                output * bg /home/tc/2wallpaper/cat-lick.jpeg fill
+
+                Save the config change and test it within sway by 
+                logo + z
+                If your wallpaper appears, delete this TCE from sway.tcz.dep
+
+                You are free to have no wallpaper too by deleting this TCE and no config to 
+                any image.
+
+Change-log:     2024/04/22 v 1.9 on 15x split from main TCE
+Current:        2024/04/22                                    

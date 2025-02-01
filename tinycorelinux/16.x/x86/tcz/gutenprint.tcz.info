@@ -1,0 +1,32 @@
+Title:          gutenprint.tcz
+Description:    Gutenprint printer drivers for CUPS
+Version:        5.2.13
+Author:         see gutenprint-doc/AUTHORS
+Original-site:  https://downloads.sourceforge.net/gimp-print/gutenprint-5.2.13.tar.bz2
+Copying-policy: GPL v2
+Size:		2.7MB
+Extension_by:   gordonselfish
+Tags:	    	gutenprint printer cups PPD
+Comments:       Start printer, load cups and gutenprint. If you have no root passwd
+		persistence then -----------$ sudo passwd  (then all users do next)
+		$ sudo /usr/local/etc/init.d/cups start
+		Open web browser to localhost:631. Click on Admin. then click on
+		add printer
+		--as we need to input root password to edit the cups config files.
+		Next either, continue from here, or click admin. and click find new printers
+		Either way should eventually take you to a list of possible printer drivers
+		Follow the prompts to complete the process.
+		To persist across boots, add to /opt/.filetool.lst
+		##################################################
+		usr/local/etc/cups/ppd/filename.ppd (Change filename to your PPD file)
+		usr/local/etc/cups/printers.conf
+		usr/local/etc/cups/cupsd.conf (only if you changed it)
+		etc/shadow (if you like to keep root password)
+		Epson ink levels can be found with
+		$ escputil --ink-level --raw-device /dev/usb/lp0
+Change-log:     2009/08/30 - first version
+                2009/10/07 - updated for CUPS 1.3.11 (perthie)
+	        2011/10/09 - adjusted permissions (Juanito)
+		2013/03/12 - updated to 5.2.9 (aus9)
+                2013/09/12 - rebuilt for 5.x series (gordonselfish)
+Current:	2018/03/05 updated 5.2.9 -> 5.2.13 (juanito)

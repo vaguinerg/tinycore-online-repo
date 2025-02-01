@@ -1,0 +1,27 @@
+node-dev.tcz
+   node.tcz
+      libnghttp2.tcz
+      openssl.tcz
+         gcc_libs.tcz
+      icu70.tcz
+      gcc_libs.tcz
+      libcares.tcz
+      libuv.tcz
+      brotli.tcz
+   libnghttp2-dev.tcz
+      libnghttp2.tcz
+   openssl-dev.tcz
+      openssl.tcz
+         gcc_libs.tcz
+   icu70-dev.tcz
+      icu70-bin.tcz
+         icu70.tcz
+   gcc_libs-dev.tcz
+      gcc_libs.tcz
+   libcares-dev.tcz
+      libcares.tcz
+   libuv-dev.tcz
+      libuv.tcz
+   brotli-dev.tcz
+      brotli.tcz
+

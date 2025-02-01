@@ -1,0 +1,23 @@
+Title:          cdrkit.tcz
+Description:    command line burning tools
+Version:        1.1.11-3.5
+Author:         see doc TCE/ABOUT        
+Original-site:  https://packages.debian.org/source/bookworm/cdrkit
+Copying-policy: GPL v2
+Size:           1.1M           
+Extension_by:   aus9 @ linuxquestions.org
+Tags:           audio burn isofs
+Comments:       This is a debian fork of and CONFLICTS with
+                cdrtools as discussed in doc TCE ABOUT 
+
+                genisoimage (mkisofs) Generate ISO images
+                icedax(cdda2wav) InCrEDible Audio eXtractor
+                librols: lib Remains Of LibSchily
+                libusal: lib Unified/Universal Scsi Access Layer
+                netscsid: net SCSI Daemon
+                readom(recordcd) read optical media 
+                wodim(cdrecord) writes optical media tool
+                see install script  
+                
+Change-log:     2024/05/08 v 1.11.1-3.5
+Current:        2024/05/08  

@@ -1,0 +1,49 @@
+Title:          prosody.tcz
+Description:    cross-platform xmpp server
+Version:        0.12.4
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size:		624K
+Extension_by:   gnuser
+Tags:           xmpp server lxmppd jabber lua messaging
+Comments:       ----------
+                howto:
+                1. open tcp ports 5222 and 5269 in your firewall (how to do this depends on your setup)
+
+                2. use a directory with persistence for prosody's data files. for example, if your /opt is persistent:
+                   $ mkdir /opt/prosody
+                   # cd /usr/local/etc/prosody
+                   # cp prosody.cfg.lua ./
+                   # echo 'data_path = "/opt/prosody"' >> prosody.cfg.lua
+
+                3. set your domain name and its ssl certificate in /usr/local/etc/prosody/prosody.cfg.lua. for example:
+                VirtualHost "penguins.ddns.org"
+                ssl = {
+                    key = "/usr/local/etc/nginx/ssl/penguins.key";
+                    certificate = "/usr/local/etc/nginx/ssl/penguins.crt";
+                }
+
+                4. check that config file is error-free (note that from here to end all commands are run as regular user):
+                   $ prosodyctl check config
+
+                5. backup the config file:
+                   $ echo "usr/local/etc/prosody/prosody.cfg.lua" >> /opt/.filetool.lst
+                   $ filetool.sh -b
+
+                6. add a user (you will be prompted to set the user's password):
+                   $ prosodyctl adduser johnny@penguins.ddns.org
+
+                7. start the server:
+                   $ prosody &
+                ----------
+                notes: 
+                   * prosody supports text messages out of the box. for audio/video calls, you also need coturn.tcz
+                   * I have thoroughly tested the "Conversations" xmpp client on Android and am happy with it 
+                     (FOSS, available on F-Droid, everything works, beautiful UI)
+                ----------
+                This extension contains:
+                prosody-0.12.4 - MIT - https://prosody.im/downloads/source/prosody-0.12.4.tar.gz
+                ----------
+Change-log:     ----------
+Current:        2024/07/31 first version

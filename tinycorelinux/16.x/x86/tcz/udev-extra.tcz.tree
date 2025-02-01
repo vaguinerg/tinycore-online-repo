@@ -1,0 +1,26 @@
+udev-extra.tcz
+   udev-lib.tcz
+      glib2.tcz
+         libffi.tcz
+         pcre21042.tcz
+   acl.tcz
+      attr.tcz
+   glib2.tcz
+      libffi.tcz
+      pcre21042.tcz
+   libusb.tcz
+      udev-lib.tcz
+         glib2.tcz
+            libffi.tcz
+            pcre21042.tcz
+   usbutils.tcz
+      libusb.tcz
+         udev-lib.tcz
+            glib2.tcz
+               libffi.tcz
+               pcre21042.tcz
+      hwdata.tcz
+   pci-utils.tcz
+      libpci.tcz
+      hwdata.tcz
+

@@ -1,0 +1,59 @@
+Title:			firefox_getLatest.tcz
+Description:		Download and install Firefox
+Version:		2.11
+Author:			coreplayer2, CNK
+Original-site:  	http://forum.tinycorelinux.net/index.php/topic,17879.0.html
+Copying-policy:		GPL
+Size:			8.0K
+Extension_by:   	coreplayer2, CNK
+Tags:			firefox get latest web browser
+Comments:		This script detects the latest available Firefox Browser, downloads the  
+			update and creates an extension.  The new or updated Firefox extension
+			is then installed using tce-audit or scheduled for update during the 
+			next reboot.
+			
+			There are alternative options available,  for more help type at the 
+			command-line: 
+				firefox-getLatest.sh -h    (for more info)
+				                     -m    (for manual version entry)
+				                     -e    (for latest ESR release)
+			                             -b    (for latest Beta release)
+			                             -d    (don't regenerate .dep file)
+			                             -g    (verify download with GnuPG keyring)
+
+			Will create latest Firefox extension for:
+			x86
+			x86_64
+
+			PulseAudio is required for sound (Mozilla disable ALSA support in
+			these builds). Libavcodec is required for audio/video streaming.
+
+			Note: The newly created extension is a replacement for the deprecated 
+			firefox-official extension. If found during an onboot check, this old 
+			extension will be scheduled for removal by tce-auit during the next
+			reboot. The firefox-ESR extension will also be removed if it's found.
+Change-log:		---
+			2014/12/20 Original
+			2015/01/17 Updated to support cloud mode install and Firefox major update
+			2015/10/03 Support for command-line options
+			2015/10/04 Name change and permissions update
+			2015/10/11 fix for wget used in tc-4.x
+			2015/10/14 onboot improvements and some cosmetic changes
+			2015/10/31 Updated language detection
+			2015/11/16 Updated cleanup function
+			2015/11/22 firefox get version fixes
+			2015/11/22 Added additional firefox desktop menus
+			2015/11/23 Minor changes/fixes in wget arguments and menu inconsistencies
+			2015/11/24 Name change to accommodate new menu items and WM's
+			2016/01/09 Improved detection of arch. and squashfs-tools versions in tc4 & tc5
+			2016/05/28 Fixed lib64 (corepure64) and added GTK3 to dep lists
+			2017/05/19 added ca-certificates to dep list
+			2017/05/19 updated to comply with busybox changes
+			2018/12/15 updated dep lists (added gcc_libs & gdk-pixbuf2)
+			2020/11/10 Added libXt to dep list. Also options -e and -b (CNK)
+			2020/12/25 Fixed script file not owned by root in last extension (CNK)
+			2021/05/03 Improved version number extraction (CNK)
+			2022/02/08 Added libXtst to dep list. Also added -d option (CNK)
+			2022/11/17 Updated download URL. Exit if download fails (CNK)
+			2023/07/06 Fix deleting temp. files when not tc user. Add -g option (CNK)
+Current:		2025/01/20 Support XZ compression. Can auto-detect download URL (CNK)

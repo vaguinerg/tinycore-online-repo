@@ -1,0 +1,29 @@
+Title:		libonig-dev.tcz
+Project:	oniguruma
+Description:	Regex library for wide character sets
+Version:	6.9.9
+Author:		K. Kosako <kkosako0@gmail.com>
+Original-site:	https://github.com/kkos/oniguruma
+Copying-policy:	Oniguruma LICENSE
+Size:		16K
+Extension_by: 	andyj
+Tags:		regex regular expression development
+Comments:	Oniguruma is a modern and flexible regular expressions library.
+		It encompasses features from different regular expression
+		implementations that traditionally exist in different languages.
+
+		Character encoding can be specified per regular expression object.
+
+		Supported character encodings:
+
+		ASCII, UTF-8, UTF-16BE, UTF-16LE, UTF-32BE, UTF-32LE, EUC-JP,
+		EUC-TW, EUC-KR, EUC-CN, Shift_JIS, Big5, GB18030, KOI8-R, CP1251,
+		ISO-8859-1, ISO-8859-2, ISO-8859-3, ISO-8859-4, ISO-8859-5,
+		ISO-8859-6, ISO-8859-7, ISO-8859-8, ISO-8859-9, ISO-8859-10,
+		ISO-8859-11, ISO-8859-13, ISO-8859-14, ISO-8859-15, ISO-8859-16
+		----
+Change-log:	2019/12/07 First version, 6.9.4
+		2020/06/09 updated to version 6.9.5-rev1
+		2020/11/06 updated to version 6.9.6
+		2023/04/06 updated to version 6.9.8
+Current:        2023/12/12 updated to version 6.9.9

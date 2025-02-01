@@ -1,0 +1,21 @@
+cryptsetup-doc.tcz
+   cryptsetup.tcz
+      libgcrypt.tcz
+         libgpg-error.tcz
+      popt.tcz
+      lvm2.tcz
+         raid-dm-6.6.8-tinycore.tcz
+         liblvm2.tcz
+            udev-lib.tcz
+               glib2.tcz
+                  libffi.tcz
+                  pcre21042.tcz
+         readline7.tcz
+            ncursesw.tcz
+   man.tcz
+      less.tcz
+         ncursesw.tcz
+      groff.tcz
+         perl5.tcz
+            bzip2-lib.tcz
+

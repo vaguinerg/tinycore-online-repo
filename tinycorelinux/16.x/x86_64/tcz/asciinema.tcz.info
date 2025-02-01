@@ -1,0 +1,50 @@
+Title:          asciinema.tcz
+Description:    terminal video recorder and player as below
+Version:        2.4.0
+Author:         Marcin Kulik
+Original-site:  https://github.com/asciinema/asciinema/
+Copying-policy: GPL v 3
+Size:           116K 
+Extension_by:   aus9 @linuxquestions.org
+Tags:           terminal video recorder player
+Comments:       Normal recorders output format=.mp4 etc. This TCE  
+                records your terminal outputs (not keys pressed)
+                eg inxi -Gxxx (not Ctrl + c ) and format=.cast
+                
+                This is a simple recorder that lacks transcoding
+                which affects terminal dimensions. I suggest
+                use maximised terminal OR terminal playback 
+                resolution LARGER than recorded dimension. That way, 
+                you will always be able to playback. Ignore if you have 
+                a web browser link, as below.
+
+                Local recording 
+                ###############
+                $ asciinema rec demo.cast
+                To End type "exit" without quotes & press enter
+                               
+                Local playback 
+                ##############
+                $ asciinema play -i 2 demo.cast
+                The idle time of 2 seconds is important, otherwise
+                playback occurs after 10 seconds. Patience is a virtue
+
+                Public uploading, playback and shared links
+                ###########################################
+
+                $ tce-load -i ca-certificates # if not already loaded
+                $ asciinema upload demo.cast
+
+                Upon completion, server prints a secret link you can 
+                use to watch your recording in a web browser.
+                You can share that link subject to Terms
+                https://asciinema.org/tos 
+                If you have no account, recording is deleted in 7 days.               
+
+                Additional help see
+                https://docs.asciinema.org/getting-started/
+                or run (to see most options) $ asciinema 
+                or see TCE-doc man page
+                
+Change-log:     2024/08/28 v 2.4.0 any arch 
+Current:        2024/08/28     

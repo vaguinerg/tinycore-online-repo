@@ -1,0 +1,30 @@
+Title:          mpg123.tcz
+Description:    console or terminal mp3 player
+Version:        1.32.6
+Author:         https://github.com/madebr/mpg123/blob/master-with-github-ci/AUTHORS
+Original-site:  http://mpg123.org/
+Copying-policy: multiple see COPYING
+Size:           336K
+Extension_by:   aus9 @linuxquestions.org
+Tags:           audio player mpeg mp3
+Comments:       supports alsa, portaudio,pulseaudio or sdl2
+                Which needs to be setup first please.
+
+                First use try  $ mpg123 Dir-name/*
+                (then input h) to see navigation keybindings
+                eg q to quit, space to pause/unpause
+                f to forward to next track,
+                - to reduce volume, + to increase 
+
+                You can change output device by reading 
+                $ man mpg123 or mpg123 --longhelp
+                $ mpg123 --list-devices
+                (eg) $ mpg123 -a surround41 <path2file.mp3>
+
+                TCE can stream by $ tce-load curl (then eg url)
+$ mpg123 --network curl http://stream.zeno.fm/2ptupyw61fxvv
+                
+Change-log:     2016/02/07 v 1.23.0 (Juanito)
+                2016/11/20 recompiled for updated pulseaudio
+                2020/07/21 v 1.26.3 (Sashank999)
+Current:        2024/05/26 v 1.32.6 + sdl2, portaudio support (aus9)    

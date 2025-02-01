@@ -1,0 +1,32 @@
+frr-dev.tcz
+   ipv6-netfilter-6.6.8-tinycore.tcz
+   frr.tcz
+      json-c.tcz
+      libcares.tcz
+      bash.tcz
+         readline.tcz
+            ncursesw.tcz
+      python3.6.tcz
+         openssl.tcz
+            gcc_libs.tcz
+         sqlite3.tcz
+         gdbm.tcz
+         bzip2-lib.tcz
+         liblzma.tcz
+         readline.tcz
+            ncursesw.tcz
+         libffi.tcz
+      libyang.tcz
+         pcre2.tcz
+      libcap.tcz
+         attr.tcz
+   json-c-dev.tcz
+      json-c.tcz
+   readline-dev.tcz
+      readline.tcz
+         ncursesw.tcz
+      ncursesw-dev.tcz
+         ncursesw.tcz
+   libcares-dev.tcz
+      libcares.tcz
+

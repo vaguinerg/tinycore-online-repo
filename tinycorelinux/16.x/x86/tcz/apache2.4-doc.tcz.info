@@ -1,0 +1,39 @@
+Title:          apache2.4-doc.tcz
+Description:    Apache HTTP WEB server
+Version:        2.4.59
+Author:         Apache Software Foundation
+Original-site:	http://httpd.apache.org
+Copying-policy:	Apache License 2.0
+Size:		8.8M
+Extension_by:	andyj (bmarkus)
+Tags:		apache httpd web server documentation
+Comments:	httpd server, associated modules, and supporting files
+                ----
+                Start with '/usr/local/etc/init.d/httpd start'
+                ----
+                Config directory: /usr/local/etc/httpd
+                Document root: /usr/local/apache2/htdocs
+                ----
+                Compiled for Core 7.x
+Change-log:     2016/06/06 first version, 2.4.20
+		2016/07/24 updated to 2.4.23
+		2017/07/01 updated to 2.4.26, compiled for TC 8.x
+			drop support for Berkeley DB
+		2017/07/26 updated to 2.4.27
+		2017/10/30 updated to 2.4.29
+		2018/04/11 updated to 2.4.33, compiled for TC 9.x
+		2018/08/17 updated to 2.4.34
+		2018/09/23 updated to 2.4.35
+		2018/10/31 updated to 2.4.37
+		2019/01/21 recompiled for TC 10.x
+		2019/02/09 updated to 2.4.38
+		2019/04/05 updated to 2.4.39
+		2019/05/05 recompiled for support files >2GB
+		2019/07/06 recompiled with openssl-1.1.1
+		2019/10/19 updated to 2.4.41
+		2020/04/15 updated to 2.4.43
+		2020/09/11 updated to 2.4.46
+		2023/04/06 updated to 2.4.56
+		2023/09/09 updated to 2.4.57
+		2023/12/12 updated to 2.4.58 and openssl 3.2
+Current:	2024/04/16 updated to 2.4.59

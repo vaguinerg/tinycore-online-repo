@@ -1,0 +1,19 @@
+libportal-common-gir.tcz
+   libportal-common.tcz
+      glib2.tcz
+         libffi.tcz
+         pcre21042.tcz
+   gobject-introspection.tcz
+      glib2.tcz
+         libffi.tcz
+         pcre21042.tcz
+      python3.9.tcz
+         openssl.tcz
+         sqlite3.tcz
+         gdbm.tcz
+         bzip2-lib.tcz
+         liblzma.tcz
+         readline.tcz
+            ncursesw.tcz
+         libffi.tcz
+

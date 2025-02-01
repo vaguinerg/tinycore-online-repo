@@ -1,0 +1,19 @@
+Title:		libdb.tcz
+Description:    Berkeley DB 12c Release 1 from Oracle
+Version:        6.0.19
+Author:         Various
+Original-site:  http://www.oracle.com
+Copying-policy: Free to redistribute
+Size:		2.0M
+Extension_by:   andyj
+Tags:           berkeley database oracle
+Comments:       library used by many other applications for database related functions
+		Binaries only
+		Reverted to DB version 6.0.19 because beginning with 6.0.20 and up the
+		license was amended to require that anyone using the software must also
+		allow free access to the software it touches, i.e. web applications, etc.
+		OpenLDAP specifically calls out versions 6.0.20+ as incompatible with their license
+                ----
+                Compiled for Core 7.x 64-bit
+Change-log:	2014/03/09 version 6.0.30 (juanito)
+Current:        2016/04/24 revert to version 6.0.19

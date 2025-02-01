@@ -1,0 +1,20 @@
+Title:          gnutls38.tcz
+Description:    secure transport layer
+Version:        3.8.3
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 1.2MB
+Extension_by:   juanito
+Tags:	        secure layer transport
+Comments:       libraries and tools providing a secure layer over a reliable transport layer
+                ----------
+                This extension contains:
+                gnutls-3.8.3 - GPLv3 - https://www.gnupg.org/ftp/gcrypt/gnutls/v3.8/gnutls-3.8.3.tar.xz
+                ----------
+Change-log:     2018/05/11 first version
+                2018/11/07 updated 3.5.18 -> 3.5.19
+                2020/03/22 updated 3.5.19 -> 3.6.12
+                2022/10/08 recompiled for updated libffi
+                2024/02/29 updated 3.6.12 -> 3.8.3
+Current:        2024/05/12 added libgnutlsxx.so.28/28.1.0 from gnutls35. Rich

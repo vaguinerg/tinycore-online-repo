@@ -1,0 +1,24 @@
+Title:		net-snmp35.tcz
+Project:	net-snmp
+Description:	Simple Network Management Protocol
+Version:	5.8
+Author:		see list of sites below
+Original-site:	http://www.net-snmp.org
+Copying-policy:	BSD like
+Size:		1.0M
+Extension_by:	andyj
+Tags:		Simple Network Management Protocol
+Comments:	Simple Network Management Protocol (SNMP) is a protocol for monitoring
+		the health and welfare of network equipment. Net-SNMP is a suite of
+		applications used to implement this protocol
+		----------
+Change-log:	2013/12/09 first version 5.7.2 (juanito)
+		2016/04/06 version 5.7.3
+		2017/07/01 added bindings for python2.7 and perl5, recompiled for TC 8.x
+		2018/01/12 recompiled for TC 9.x
+		2018/05/29 recompiled for ncursesw library
+		2018/07/19 updated to version 5.8
+		2019/01/21 compiled for TC 10.x
+		2019/03/18 recompiled against mariadb 10.3
+                2019/07/06 recompiled for openssl-1.1.1
+Current:	2021/02/28 edited and renamed for hplip compatibility (juanito)

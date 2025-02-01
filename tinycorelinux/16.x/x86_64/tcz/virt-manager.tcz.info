@@ -1,0 +1,23 @@
+Title:          virt-manager.tcz
+Description:    vm manager
+Version:        2.2.1
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 740KB
+Extension_by:   juanito
+Tags:	        vm remote gtk+ gtk3 python python3.9
+Comments:       graphical tool for managing virtual machines
+                ----------
+                Howto:
+                $ sudo modprobe kvm-intel
+                $ sudo /usr/local/etc/init.d/dbus start
+                $ sudo libvirtd -d
+                $ sudo virtlogd -d
+                ..then start virt-manager
+                ----------
+                This extension contains:
+                virt-manager-2.2.1 - GPLv2 - https://virt-manager.org/download/sources/virt-manager/virt-manager-2.2.1.tar.gz
+                ----------
+Change-log:     2020/04/05 first version
+Current:        2025/01/23 recompiled against python3.9

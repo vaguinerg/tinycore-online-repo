@@ -1,0 +1,23 @@
+Title:		cyrus-sasl-lite-dev.tcz
+Project:	cyrus-sasl
+Description:	Cyrus Simple Authentication and Security Layer development tools
+Version:	2.1.28
+Author:		Cyrus Team
+Original-site:	http://cyrusimap.org
+Copying-policy:	free "Carnegie Mellon University"
+Size:		92K
+Extension_by: 	andyj
+Tags:		cyrus authentication security connection development
+Comments:	simple authentication and security layer, a method for adding
+                authentication support to connection-based protocols
+		using locally maintained databases
+		NO LDAP SUPPORT
+		----
+Change-log:	2016/03/29 (juanito)
+		2016/04/06 added LDAP support
+		2016/09/25 updated to -git version
+		2017/07/01 drop support for Berkeley DB
+	        2017/07/01 recompiled for TC 8.x
+		2019/07/06 recompiled with openssl-1.1.1
+		2023/04/06 updated to 2.1.28, recompiled for TC 14.x
+Current:	2023/12/12 recompiled with openssl 3.2

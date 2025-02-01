@@ -1,0 +1,28 @@
+Title:          mpg123.tcz
+Description:    mp3 player & decoder
+Version:        1.31.3
+Author:         Thomas Orgis & Nicholas J. Humfrey
+                Original Michael Hipp        
+Original-site:  https://sourceforge.net/projects/mpg123
+Copying-policy: accompanied
+Size:           488K
+Extension_by:   aus9
+Tags:           mp3 player decoder alsa pulseaudio sdl
+Comments:       Default alsa, setup alsa first
+                $ mpg123 file.mp3
+                Or pulseaudio, setup first
+                $ mpg123 -o pulse file.mp3
+                Or SDL2, load it no setup needed
+                $ mpg123 -o sdl file.mp3
+                
+                NO audio dependencies set.
+                
+Changelog:      2008/11/05 First version (i486 compatible) (Jason W)
+                2008/12/04 needs *.la & libltdl.so files 
+                2009/02/18 Fixed broken symlink found by mikshaw.
+                2009/03/28 v 1.7.0
+                2009/03/30 needs *.la files (Curaga)
+                2009/06/19 v 1.8.1 and ALSA output module
+                2010/03/06 v 1.10.1 and put in /usr/local
+                2013/09/17 v 1.15.4 (juanito)
+Current:        2023/08/27 v 1.31.3 on 14x no oss support, no *.la files (aus9)

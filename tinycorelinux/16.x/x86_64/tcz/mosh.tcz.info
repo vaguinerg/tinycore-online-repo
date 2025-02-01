@@ -1,0 +1,28 @@
+Title:		mosh.tcz 
+Description:	Mosh: the mobile shell
+Version:	1.4.0
+Author:		Keith Winstein, Anders Kaseorg, Quentin Smith, Richard Tibbetts, Keegan McAllister, John Hood
+Original-site:	https://mosh.org
+Copying-policy:	GPL v3 
+Size:		264K
+Extension_by:	CNK
+Tags:		ssh mobile terminal shell internet udp
+Comments:	Mosh is a remote terminal application that supports
+		intermittent connectivity, allows roaming, and
+		provides speculative local echo and line editing of
+		user keystrokes.
+
+		Requires an ssh and/or sshd for client and/or server
+		usage.
+
+		Mosh 1.4.0 is backwards-compatible with mosh-clients
+		back to 0.96 and mosh-servers back to 1.0.9.
+
+		Requires a UTF-8 locale setting (see getlocale.tcz).
+		----
+		Compiled for TC Pure64 14.x
+		----
+Change-log:	2022/06/17 First packaged version, 1.3.2
+		2023/09/08 Updated 1.3.2 -> 1.4.0
+		2023/12/22 1.4.0 rebuilt for OpenSSL 3.2
+Current:	2023/12/22 1.4.0 rebuilt for OpenSSL 3.2

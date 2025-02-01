@@ -1,0 +1,49 @@
+Title:          rtl8188eu.tcz
+Description:    wifi kernel module (8188eu) for below devices
+Version:        git-20240305
+Author:         Ivan Ovborislav
+Original-site:  https://github.com/ivanovborislav/rtl8188eu
+Copying-policy: GPL v2
+Size:           764K
+Extension_by:   aus9
+Tags:           wifi wlan wireless
+Comments:       Supported class N USB wireless devices
+                TP-Link TL-WN722N V2/V3 High Gain 
+                TP-Link TL-WN727N V5.20 
+                TP-Link TL-WN725N V3 Nano 
+                EDIMAX EW-7811Un V2 4 Nano 
+                ASUS USB-N10 Nano B1 
+                D-Link DWA-125 (rev.D)
+                D-Link DWA-123 (rev.D)
+                D-Link GO-USB-N150 Easy (rev.B)
+                D-Link DWA-121 (rev.B)
+                Realtek RTL8188EU 
+                Realtek RTL8188ETV 
+                802.11bgn Mini 
+                ELECOM WDC-150SU2M 
+                Sitecom WLA-1100 V2  
+                MERCUSYS MW150US V2 Nano 
+                Rosewill RNX-N150NUB Nano 
+
+                simple instructions 
+                Optional dependency- wireless-db read its info please
+
+                $ sudo ifconfig eth0 down # cable can remain connected
+                $ tce-load -i wifi rtl8188eu
+                $ sudo wifi.sh # and follow prompts
+
+                If you need power, managed mode etc
+                see README.txt in /usr/local/share/doc/8188eu dir
+                Those commands will need more TCEs downloaded and installed
+                                
+                dmesg now outputs a lot more info.
+
+Change-log:    2018/05/17 first version, 8188, used a restart daemon script
+                          source was https://github.com/lwfinger/rtl8188eu
+               2018/05/29 daemons were started by install script 
+               2018/07/04 start daemons removed from install script 
+               2018/07/08 TCE name 8188eu  
+               2019/01/29 10x kernel and modify build as no kernel headers 
+               2020/05/26 11x kernel with git-2020may25, last lwfinger source
+               2023/05/04 14x kernel, new upstream src, make FW a dep 
+Current:       2024/03/06 15x kernel & TCE name rtl8188eu           

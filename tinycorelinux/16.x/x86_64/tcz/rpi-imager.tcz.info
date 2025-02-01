@@ -1,0 +1,20 @@
+Title:          rpi-imager.tcz
+Description:    rpi imaging utility
+Version:        1.6.2
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 536KB
+Extension_by:   juanito
+Tags:	        rpi image sd usb qt-5.x
+Comments:       tool to write rpi images to sd card or usb stick
+                ----------
+                qt-5.x-all needs to be copy2fs
+                $ sudo rpi-imager
+                choose "misc utilty images" to make eprom update sd
+                ----------
+                This extension contains:
+                rpi-imager-1.6.2 - apache - https://github.com/raspberrypi/rpi-imager/archive/refs/tags/v1.6.2.tar.gz
+                ----------
+Change-log:     first version
+Current:        2021/06/07

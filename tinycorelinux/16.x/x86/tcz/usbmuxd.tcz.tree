@@ -1,0 +1,14 @@
+usbmuxd.tcz
+   libusb.tcz
+      udev-lib.tcz
+         glib2.tcz
+            libffi.tcz
+            pcre21042.tcz
+   libimobiledevice.tcz
+      libusbmuxd.tcz
+         libplist.tcz
+            libxml2.tcz
+               liblzma.tcz
+      openssl.tcz
+         gcc_libs.tcz
+

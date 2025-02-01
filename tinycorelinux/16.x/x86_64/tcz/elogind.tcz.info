@@ -1,0 +1,25 @@
+Title:          elogind.tcz
+Description:    standalone login daemon
+Version:        252.9
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size:		1.2MB
+Extension_by:   juanito
+Tags:	        systemd login
+Comments:       systemd project's "logind", extracted out to be a standalone daemon
+                ----------
+                $ tce-load -i shadow
+                $ sudo /usr/local/etc/init.d/dbus start
+                $ sudo /usr/local/lib/elogind/elogind --daemon
+                $ su - tc
+                ----------
+                This extension contains:
+                elogind-252.9 - GPLv3 - https://github.com/elogind/elogind/archive/v252.9/elogind-252.9.tar.gz
+                ----------
+Change-log:     2018/05/11 first version
+                2018/06/10 recompiled in legacy mode
+	        2019/04/30 updated 235.3 -> 241.3
+                2020/11/23 Fixed "unknown key RUN{program}" error in 73-seat-late.rules. Rich
+                2021/03/08 updated 241.3 -> 246.10
+Current:        2024/02/06 updated 246.10 -> 252.9

@@ -1,0 +1,32 @@
+Title:          iptables-nft.tcz
+Description:    command line firewall tool as below
+Version:        1.8.11
+Author:         Netfilter Team
+Original-site:  https://www.netfilter.org/projects/iptables/index.html 
+Copying-policy: GPL v3 
+Size:           568K 
+Extension_by:   aus9 @linuxquestions.org
+Tags:           firewall
+Comments:       Likely to  conflict with iptables.tcz                
+                Install script restores /etc/iptables/iptables.rules
+                Which until you change it, is a copy of 
+                /usr/local/share/iptables/rules/iptables.rules and not the
+                empty ip6tables.rules. If you need to change it, you delete the 
+                /etc file and make a file with the exact same path and name
+                /etc/iptables/iptables.rules and then add that file to your backup
+                (Dropping the leading /) Even tho I am not an expert I believe most
+                members will get by just fine with this ip v4 ruleset
+
+                Check current ruleset with $ sudo iptables -L
+
+                Test any changed ruleset by running 
+                $ sudo iptables-restore /etc/iptables/iptables.rules
+                $ sudo iptables -L
+
+                I recommend you test online testers EXAMPLE ONLY
+                https://www.grc.com/x/ne.dll?rh1dkyd2
+                Bear in mind you may already have a router firewall and some
+                network providers may block some ports
+                              
+Change-log:     2024/11/20 v 1.8.11
+Current:        2024/11/20

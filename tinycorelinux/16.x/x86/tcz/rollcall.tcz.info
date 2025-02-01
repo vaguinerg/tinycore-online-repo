@@ -1,0 +1,29 @@
+Title:		rollcall.tcz
+Description:	Scans local network for PCs and services.
+Version:	0.9
+Author:		Richard Rost
+Original-site:	None
+Copying-policy:	See /usr/local/share/doc/License/rollcall-License.txt
+Size:		12K
+Extension_by:	Rich
+Tags:		scan local network services
+Comments:	This program scans all configured network interfaces
+		and attempts to identify services running on this and any
+		remote computers. Any duplicate IP and MAC addresses will
+		be displayed in red. This program must be run as root.
+
+		Usage:  rollcall [-v | Services]
+
+		Options:
+		        -v      Show verbose output for all found sevices
+				listed below
+		Services:
+			DHCP NFS SMB SSH FTP PING TELNET HTTP TFTP DNS NTP TSTAMP
+			Only show verbose output for any of the above services
+			Services are not case sensitive.
+
+		Example: sudo rollcall tstamp http telnet
+
+		This extension is PPI compatible.
+Change-log:	2019/3/16  Original release
+Current:	2019/3/16  Original release

@@ -1,0 +1,41 @@
+Title:          fsarchiver.tcz 
+Description:    partition image tool similar to partimage
+Version:        0.8.8
+Author:         Francois Dupoux
+Original-site:  https://github.com/fdupoux/fsarchiver/
+Copying-policy: GPL v 2
+Size:           108K
+Extension_by:   aus9 @linuxquestions.org
+Tags:           partition imager image compression
+Comments:       Compares fsarchiver to partimage
+                https://www.fsarchiver.org/partimage/
+                I have enabled only lzma & zstd compressors
+                To save OR restore partition(s), target partition(s)
+                --- best  be unmounted. Considered safe for  
+                EXT4, XFS unstable for NTFS.  Below I use the -a switch which 
+                ignores support for xattr and acl.
+
+                fsarchiver counts partitions in image files from zero.
+                Leading # indicates root command
+
+                My way differs somewhat  to man pages.  $ sudo su
+                Use mount tool to mount sda4 (where I write image to)
+                Use mount tool to unmount partitions to image/restore
+                $ sudo su 
+                # cd /mnt/sda4
+                 
+                To save current partition image for one patition, second line for 2xpartititons
+                # fsarchiver savefs 1.fsa /dev/sda1 -a   
+                # fsarchiver savefs 2.fsa /dev/sda1 /dev/sda3 -a   
+ 
+                To restore a saved image to an existing partition - over writes all data
+                Top line single restore, bottom 2 lines to restore 2 partitions
+                # fsarchiver restfs /z/1.fsa id=0,dest=/dev/sda1
+               
+                # fsarchiver restfs /z/2.fsa id=0,dest=/dev/sda1
+                # fsarchiver restfs /z/2.fsa id=1,dest=/dev/sda3
+
+                Please see the man page for examples including splitting, encrypting etc
+
+Change-log:     2025/01/16 v 0.8.8 on 15x
+Current:        2025/01/16      

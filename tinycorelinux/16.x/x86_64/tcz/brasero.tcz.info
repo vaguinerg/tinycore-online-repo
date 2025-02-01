@@ -1,0 +1,29 @@
+Title:          brasero.tcz
+Description:    gtk3 GUI cd/dvd burner
+Version:        3.12.3
+Author:         Philippe Rouquier         
+Original-site:  https://download.gnome.org/sources/brasero 
+Copying-policy: GPL v2
+Size:           1.2M 
+Extension_by:   aus9 @ linuxquestions.org
+Tags:           audio burn isofs cd dvd gtk3 
+Comments:       Audio cds depend on your player support. 
+                wav mp3 ogg opus supported. While adding files
+                to audio project, ensure the type remains audio disc.
+                Burnt audio discs do not get mounted, open with a 
+                media player eg qmplay2 vlc etc
+                If you can mount it, its a data cd.
+ 
+                Basically any file can be added to a data disc.
+                Mount issues are similar to disc images below.
+
+                TC isohybrid images and other images need to be
+                set manually, they are iso9660 types.
+                Disc images, data discs need mounting after
+                burn with $ mnttool                 
+
+                A blank disc will never mount.
+                                
+Change-log:     2013/12/15 v 3.10.0 (Juanito)
+                2015/01/20 v 3.12.0
+Current:        2024/05/16 v 3.12.13 on 15x (aus9) 

@@ -1,0 +1,44 @@
+Title:          jwm-full.tcz
+Description:    Joe's Window Manager 
+Version:        2.4.5
+Author:         Joe Wingbermuehle
+Original-site:  http://joewing.net/projects/jwm
+Copying-policy: accompanied
+Documentation:  http://joewing.net/projects/jwm/config.shtml
+Size:           128K
+Extension_by:   aus9 @linuxquestions.org   
+Tags:           window manager 
+Comments:       JWM is a floating desktop. Includes some scripts 
+                (c) Robert Shingledecker. I am unable to test on libX  
+
+                (UPDATERS) Delete all your $HOME/.jwm* files 
+                Too many changes to list reasons/preferences/research in 
+                changelog see build script under
+                http://tinycorelinux.net/15.x/x86_64/tcz/src/jwm-full
+                Main changes:
+                (keys) launch keys CA become Alt only
+                (keys) aterm becomes xterm to allow lxterminal execute too.
+                (theme) helvetica -> sans font
+                (theme) popup enabled for mouse hover over icons 
+                (tray) understem now V to show desktops
+                (tray) height made 20 so I could see the icons on 22" monitor
+                (tray) add blue JWM icon for clickable menu  
+                (tray) add most fltk clickable icons 
+                (rc) stop showing coordinates in moving floating app
+                (rc) add more icon pathways to support icon launchers
+                (rc) delete support for ondemand due to error for $ jwm -p
+                (rc) add auto startup exe for example if not using ~/.X.d
+                
+                If you add new tray icon launchers, you may need either lxde-icon-theme 
+                or humanity-icon-theme as this update no longer has svg support.
+                
+                Before making changes, backup target file...make changes then run $ jwm -p 
+                Fix -> restart jwm from menu -> retest command.  
+
+                BONUS if you use volumeicon it can appear and work as expected in your tray
+                but it may disappear if changing theme/settings see info for that TCE
+                    
+                Optional TCE=jwm-themes
+
+Change-log:     2014/12/01 v 2.2.2 on 5x (maluvia)
+Current:        2024/11/08 v 2.4.5 on 15x too many to list here (aus9)

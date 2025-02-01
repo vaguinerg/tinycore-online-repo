@@ -1,0 +1,78 @@
+Title:          rtl88x2bu.tcz
+Description:    wifi kernel module (88x2bu) for below usb devices
+Version:        git-20241019
+Author:         Realtek Corporation
+Original-site:  https://github.com/morrownr/88x2bu-20210702
+Copying-policy: GPL v2
+Size:           1.2M
+Extension_by:   aus9 @linuxquestions.org
+Tags:           wifi wlan wireless usb
+Comments:       Supported ids load usb-utils for $ lsusb 
+                0BDA:B812 - Default for USB Single-function, WiFi only
+                0BDA:B81A - Default ID
+                0BDA:B82C - Default for USB multi-function (such as WiFi plus bluetooth)
+                04CA:8602   LiteOn 
+                056E:4011   Elecom 
+                0846:9055   Netgear A6150 
+                0B05:1841   ASUS AC1300 USB-AC55 B1 
+                0B05:184C   ASUS U2 
+                0B05:1870   ASUS 
+                0B05:1874   ASUS 
+                0B05:19AA   ASUS - USB-AC58 rev A1 
+                0BDA:2102   CCNC 
+                0E66:0025   Hawking HW12ACU 
+                13B1:0043   Alpha - Linksys 
+                13B1:0045   Linksys WUSB3600 v2 
+                2001:331E   Dlink - DWA-182 - D1 
+                2001:331C   Dlink - DWA-181 
+                2001:331F   Dlink - DWA-183 - D 
+                20F4:805A   TRENDnet TEW-805UBH 
+                20F4:808A   TRENDnet TEW-808UBM 
+                2357:0115   TP-Link Archer T4U V3 
+                2357:0116   TP-LINK 
+                2357:0117   TP-LINK 
+                2357:012D   TP-Link Archer T3U v1 
+                2357:012E   TP-LINK 
+                2357:0138   TP-Link Archer T3U Plus v1 
+                2C4E:0107   Mercusys MA30H 
+                7392:B822   Edimax 
+                7392:C822   Edimax 
+                7392:D822   Edimax 
+                7392:E822   Edimax 
+                7392:F822   Edimax 
+
+                I have a problematic dongle such that $ dmesg reported
+                rtw_8822bu 1-7:1.0: failed to load firmware.....resolved by loading 
+                firmware-rtlwifi and dmesg finished device settle with  
+                "rtw_8822bu 1-7:1.0: Firmware version 27.2.0, H2C version 13"
+                So please check dmesg to see if you need firmware-rtlwifi.
+
+                It may be possible to remove wireless-regdb but not wireless-KERNEL. Find your 
+                country code here http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
+                Add the following line to your bootlocal.sh (we drop sudo as its root powered)
+                ###########
+                modprobe -r 88x2bu && modprobe 88x2bu rtw_country_code=AU
+                ###########
+                Change AU to your country code. If you prefer wireless-regdb read its info please!
+
+                USB ports default is already 0, 2 is usb2 and 1 is usb3...so bootlocal.sh for usb3 only
+                ###########
+                modprobe -r 88x2bu &&  modprobe 88x2bu rtw_switch_usb_mode=1
+                ..........but if you need country code as well  -> bootlocal.sh becomes
+                modprobe -r 88x2bu &&  modprobe 88x2bu rtw_switch_usb_mode=1 rtw_country_code=AU
+                ############
+                FULL REBOOT required if you are using bootlocal.sh settings please.
+
+                Recommended TCE=rfkill  -> $ rfkill list # to check if software or hardware blocked
+                If hardware blocked look for a switch/button on the device
+                If software blocked, run $ rfkill unblock <device-number > # eg rfkill unblock 0
+               
+                If you prefer other wifi tools do a tag search=wifi in Apps for hits like wifi-manager etc
+                simple instructions 
+                $ sudo ifconfig eth0 down # cable can remain connected
+                $ tce-load -i wifi rtl88x2bu
+                $ sudo wifi.sh # and follow prompts
+
+Change-log:     2023/08/30 for 14.x kernel TCEname=88x2bu (GNUser)
+                2024/08/15 rebuilt for 15.x kernel
+Current:        2024/10/19 renamed rtl88x2bu, recent-git + dependencies (aus9)

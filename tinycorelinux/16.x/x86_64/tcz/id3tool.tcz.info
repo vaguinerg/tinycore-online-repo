@@ -1,0 +1,23 @@
+Title:          id3tool.tcz
+Description:    command line music tag editor
+Version:        1.2a
+Author:         Chris Collins
+Original-site:  http://nekohako.xware.cx/id3tool/
+Copying-policy: https://github.com/yuanshanxiaoni/id3tool/blob/master/COPYING
+Size:           8.0K          
+Extension_by:   aus9 @ linuxquestions.org
+Tags:           music tag editor mp3 ogg
+Comments:       $ id3tool filename -> displays current tags
+                $ id3tool -h  -> displays usage
+
+                eg $ id3tool sample.ogg
+                     Filename: sample.ogg
+                     No ID3 Tag
+                   $ id3tool -t test2 sample.ogg
+                   $ id3tool sample.ogg
+                     Filename: sample.ogg
+                     Song Title: Test2
+                  Source Copying file was corrupt so used above link (mirror)
+
+Change-log:     2024/04/26 v 1.2a on 15x 
+Current:        2024/04/26                     

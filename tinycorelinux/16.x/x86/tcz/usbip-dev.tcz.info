@@ -1,0 +1,17 @@
+Title:		usbip-dev.tcz
+Description:		usbip devs
+Version:		2.0 for kernel 5.10.3 i386
+Author :		Takahiro Hirofuchi, Robert Leibl, Matt Mooney
+Original-site:		https://kernel.org linux-usb.org usbip.sf.net
+Copying-policy:		GPL v2
+Size:		32K
+Extension_by:		OeAi
+Tags:			usb network device dev
+			***
+Comments:		dev files for usbip
+			***
+Change-log:		added usb.ids into /usr/local/share/hwdata 
+			latest sources taken from 
+			kernel/tools/usb/usbip compiled for TC12 i386
+			***
+Current:		2021/10/27 update for usbip 1.1

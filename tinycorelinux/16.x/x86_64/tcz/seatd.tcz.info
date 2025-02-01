@@ -1,0 +1,22 @@
+Title:          seatd.tcz 
+Description:    seat management daemon
+Version:        0.8.0
+Author:         Kenny Levinsen
+Original-site:  https://git.sr.ht/~kennylevinsen/seatd/refs
+Copying-policy: Accompanied 
+Size:           36K
+Extension_by:   aus9 @linuxquestions.org
+Tags:           seat sway
+Comments:       minimal seat management daemon, and a universal 
+                seat management library
+
+                Socket will be created at /run/seatd.sock
+                Any old socket from past session will be deleted
+                Both seatd & seatd-launch are now SUID
+
+                Examples
+                seatd -g staff /run/seatd.sock & XDG_RUNTIME_DIR=/run/user/$(id -u) weston
+                seatd -g staff /run/seatd.sock & XDG_RUNTIME_DIR=/run/user/$(id -u) labwc
+               
+Change-log:     2023/04/21 v 0.7.0 on 14x
+Current:        2024/04/18 v 0.8.0 suid for both exes on 15x

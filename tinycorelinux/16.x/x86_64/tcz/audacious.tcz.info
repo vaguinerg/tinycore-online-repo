@@ -1,0 +1,32 @@
+Title:          audacious.tcz
+Description:    gtk2 GUI audio player
+Version:        4.3.1
+Author:         https://github.com/audacious-media-player/audacious/blob/master/AUTHORS         
+Original-site:  https://distfiles.audacious-media-player.org/
+Copying-policy: multiple see COPYING
+Size:           376K           
+Extension_by:   aus9 @linuxquestions.org
+Tags:           audio media player gtk2
+Comments:       Assumes alsa or pulseaudio setup. 
+                To play cd -> Services -> play cd
+                See doc info for keybindings 
+                
+                Some common issues discussed here
+                https://audacious-media-player.org/problems
+
+                Optional TCES 
+                curl, libnotify & neon for streaming
+                faad for aac file formats
+                Most other audio files supported
+
+                Without libnotify play stream stutters with
+                ALSA lib pcm.c:8740:(snd_pcm_recover) underrun occurred
+                test URL was http://stream.zeno.fm/2ptupyw61fxvv
+                
+                QUIRK, dbus is a make dependency but 
+                not a run dependency. 
+                
+Change-log:     2014/02/11 v 3.4.3 (Juanito)
+                2016/02/07 v 3.7.1
+                2019/04/19 v 3.9
+Current:        2024/05/30 v 4.3.1 on 15x, gtk3->2 (aus9) 

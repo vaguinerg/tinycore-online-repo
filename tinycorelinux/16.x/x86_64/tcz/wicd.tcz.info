@@ -1,0 +1,64 @@
+Title:          wicd.tcz
+Description:    gtk python2 wifi manager
+Version:        1.7.4
+Author:         Tom Van Braeckel, Adam Blackburn, Dan O'Reilly, Andrew Psaltis & David Paleino 
+Original-site:  http://tinycorelinux.net/7.x/x86_64/tcz/src/wicd
+Copying-policy: GPL v2
+Size:           248K
+Extension_by:   aus9 @linuxquestions.org
+Tags:           network manager python python2
+Comments:       Load any required wifi device firmware, usb modules (if usb)
+                before wicd. Recommend you load wireless-regdb too + see its info.
+                GUI fails to disconnect/connect ethernet instead
+                $ sudo ifconfig eth0 down 
+                $ sudo ifconfig eth0 up 
+                $ sudo udhcpc -i eth0
+              
+                Please restart dbus irrespective of current state. (Unless automating 
+                below). If not, expect dbus connection errors.  Software that depends 
+                on dbus eg large web browser may also need restart (not reboot). YMMV
+
+                $ sudo /usr/local/etc/init.d/dbus restart
+                $ sudo /usr/local/etc/init.d/wicd start
+
+                Ways to open GUI:
+                -- menu -> Network (or System)  -> Wicd 
+                -- click icon in file manager for /usr/share/applications/Wicd*
+                -- $ wicd-gtk --tray (or --no-tray)
+                -- Assign keybindings if your desktop supports them.
+                Note no harm in using --tray on desktops that have no panel support.
+                eg hackedbox fvwm etc
+
+                These methods attempt to put a tray into your panel, if you are
+                running a DE/WM that supports gtk2 applets eg icewm
+                I assume right handed mouse user: (reverse for lefties please)
+                -- left click opens GUI
+                -- mouse hover -> should show the connection and LAN address
+                -- right click -> connection info -> shows speed and data 
+                -- right click -> connect... may attempt to autoconnect to your
+                   neighbour if you are not paying attention.
+
+                For menu or left click applet -> gtk2 GUI should open.
+                Against router name, click on properties -> pulldown encryption method 
+                and choose method, likely WPA 1/2 passphrase
+                Input passsphrase in box below
+                Click on connect & wait -> must say "connected" at bottom of GUI
+                
+                If you wish to backup over reboot 
+                add these to /opt/.filetool.lst
+                usr/local/etc/wicd
+                var/lib/wicd/configurations
+               
+                If you wish to automate over reboot add these to /opt/bootlocal.sh (tested)
+                /usr/local/etc/init.d/dbus start
+                /usr/local/etc/init.d/wicd start
+                Note here dbus does not need a restart.
+                
+                TCE=python-urwid is broken due to a ncursesw issue
+                so wicd-curses has been removed from this TCE
+                TCE for wicd-doc offers things like 
+                $ man wicd-wireless-settings.conf
+                
+Change-log:     2016/03/13 v 1.7.4 (Juanito)
+                2017/03/01 patched for wicd-curses errors
+Current:        2024/10/23 rebuilt on 15x - changed initid script - no install script (aus9) 

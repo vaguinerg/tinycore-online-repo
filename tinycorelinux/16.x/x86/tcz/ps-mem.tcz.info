@@ -1,0 +1,38 @@
+Title:          ps-mem.tcz
+Description:    show memory for program(s)
+Version:        3.14
+Author:         Pádraig Brady
+Original-site:  https://github.com/pixelb/ps_mem
+Copying-policy: LGPL v2.1 
+Size:           20K 
+Extension_by:   aus9 @linuxquestions.org
+Tags:           ram mem 
+Comments:       A utility to accurately report the in core 
+                memory usage for a program 
+                see man page how to use but basic
+                $ sudo ps-mem -S (or) sudo ps_mem -S
+
+Private  +   Shared  =  RAM used   Swap used	Program
+
+120.0 KiB + 113.5 KiB = 233.5 KiB     0.0 KiB	init
+420.0 KiB + 114.5 KiB = 534.5 KiB     0.0 KiB	dbus-launch
+492.0 KiB + 115.5 KiB = 607.5 KiB     0.0 KiB	less
+620.0 KiB + 113.5 KiB = 733.5 KiB     0.0 KiB	man
+576.0 KiB + 343.0 KiB = 919.0 KiB     0.0 KiB	dbus-daemon (2)
+592.0 KiB + 393.5 KiB = 985.5 KiB     0.0 KiB	at-spi-bus-launcher
+672.0 KiB + 366.5 KiB =   1.0 MiB     0.0 KiB	busybox (3)
+812.0 KiB + 458.5 KiB =   1.2 MiB     0.0 KiB	sh (3)
+  2.7 MiB + 434.5 KiB =   3.2 MiB     0.0 KiB	at-spi2-registryd
+  6.0 MiB + 355.5 KiB =   6.4 MiB     0.0 KiB	udevd (3)
+  6.0 MiB +   1.1 MiB =   7.1 MiB     0.0 KiB	icewm
+  4.8 MiB +   2.6 MiB =   7.4 MiB     0.0 KiB	volumeicon
+  4.9 MiB +   4.1 MiB =   8.9 MiB     0.0 KiB	leafpad
+ 14.5 MiB +   5.6 MiB =  20.1 MiB     0.0 KiB	lxterminal
+ 16.8 MiB +   4.1 MiB =  20.9 MiB     0.0 KiB	pcmanfm
+ 82.8 MiB +  24.5 MiB = 107.3 MiB     0.0 KiB	Xorg
+440.3 MiB + 125.1 MiB = 565.4 MiB     0.0 KiB	firefox-bin (9)
+---------------------------------------------
+                        752.8 MiB     0.0 KiB
+                
+Change-log:     2024/08/24 v 3.14 any arch 
+Current:        2024/08/24     

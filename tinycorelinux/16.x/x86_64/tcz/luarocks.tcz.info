@@ -1,0 +1,39 @@
+Title:          luarocks.tcz
+Description:    package manager for lua modules
+Version:        3.11.1
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size:		240K
+Extension_by:   gnuser
+Tags:           lua modules rocks
+Comments:       ----------
+                How to compile, install, and use a module:
+
+                1. Load necessary extensions:
+                 $ tce-load -wi luarocks compiletc
+
+                2. Decide where to install the module--2 options:
+                 A. To system directories:
+                  $ sudo luarocks install luasocket
+                  $ echo "usr/local/lib/lua" >> /opt/.filetool.lst
+                  $ echo "usr/local/share/lua" >> /opt/.filetool.lst
+                  $ filetool.sh -b
+                  Note: If your module also installs files to /usr/local/bin, add those to .filetool.lst
+                 B. To ~/.luarocks:
+                  $ luarocks --local install luasocket
+                  $ export LUA_PATH="$HOME/.luarocks/share/lua/5.4/?.lua;$HOME/.luarocks/share/lua/5.4/?/init.lua;;"
+                  $ export LUA_CPATH="$HOME/.luarocks/lib/lua/5.4/?.so;;"
+                  $ export PATH="$HOME/.luarocks/bin:$PATH"
+                  Note: You can also set these paths using $ eval $(luarocks path) -or- $ luarocks path >> ~/.ashrc
+ 
+                3. Use the module:
+                 $ lua
+                 Lua 5.4.6  Copyright (C) 1994-2023 Lua.org, PUC-Rio
+                 > require "socket"
+                ----------
+                This extension contains:
+                luarocks-3.11.1 - MIT - https://luarocks.org/releases/luarocks-3.11.1.tar.gz
+                ----------
+Change-log:     ----------
+Current:        2024/08/02 first version

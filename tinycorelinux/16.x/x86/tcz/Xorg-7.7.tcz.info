@@ -1,0 +1,23 @@
+Title:          Xorg-7.7.tcz
+Description:    Xorg-7.7
+Version:        7.7
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 4KB
+Extension_by:   juanito
+Tags:	        x xorg
+Comments:       meta extension for 2d Xorg implememtation
+                ----------
+                This should work without a conf file, but if not, create /etc/X11/xorg.conf to suit.
+                evdev, vesa and fbdev drivers provide as default, load others as required.
+                Load Xorg-7.7-3d for hardware or software acceleration.
+                ----------
+                Note: the graphics-KERNEL extension may be required for intel hardware or the
+                modesetting driver included with xorg-server
+                ----------
+                This extension contains:
+                see individual extensions
+                ----------
+Change-log:     first version
+Current:        2013/07/05

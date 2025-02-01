@@ -1,0 +1,57 @@
+Title:          inxi.tcz
+Description:    Universal, portable system information tool
+Version:        3.3.37
+Author:         Harald Hope
+Original-site:  https://smxi.org/docs/inxi.htm
+Copying-policy: GPLv3
+Size:           472K
+Extension_by:   h2 (smxi.org/site/contact.php)
+Tags:           CLI inxi IRC sysinfo system information hardware report.
+Comments:       Commonly used in IRC, CLI (sys admin), and for forum support.
+                inxi -h will show switches to use for different outputs.
+                ---------
+                Depends: perl5, coreutils, dmidecode (non ARM), pci-utils,
+                ca-certificates.
+                Suggests: bind (for dig/WAN IP), hddtemp (for older HDD), 
+                lm_sensors, usbutils (optional, enhanced model/vendor info).
+                ---------
+                This extension uses recursive deps
+                This extension is PPI compatible
+Change-log:     Current: 2025-01-06 Updated to 3.3.37 (h2)
+                2025-01-06 Updated to 3.3.37 (h2)
+                2024-09-04 Updated to 3.3.36 (h2)
+                2024-06-18 Updated to 3.3.35 (h2)
+                2024-04-13 Updated to 3.3.34 (h2)
+                2024-02-06 Updated to 3.3.33 (h2)
+                2024-01-30 Updated to 3.3.32 (h2)
+                2023-11-01 Updated to 3.3.31 (h2)
+                2023-09-25 Updated to 3.3.30 (h2)
+                2023-08-16 Updated to 3.3.29 (h2)
+                2023-07-11 Updated to 3.3.28 (h2)
+                2023-05-08 Updated to 3.3.27 (h2)
+                2023-03-28 Updated to 3.3.26 (h2)
+                2023-02-18 Updated to 3.3.25 (h2)
+                2022-10-31 Updated to 3.3.23 (h2)
+                2022-07-29 Updated to 3.3.20 (h2)
+                2022-06-13 Updated to 3.3.18 (h2)
+                2022-05-19 Updated to 3.3.16 (h2)
+                2022-04-08 Updated to 3.3.15 (h2)
+                2022-03-25 Updated to 3.3.14 (h2)
+                2022-01-19 Updated to 3.3.12 (h2)
+                2021-12-17 Updated to 3.3.11 (h2)
+                2021-04-17 Updated to 3.3.04 (h2)
+                2020-04-24 Updated to 3.1.00 (h2)
+                2019-05-02 Updated to 3.0.34 (h2)
+                2019-02-08 Updated to 3.0.32 (h2)
+                2018-10-14 Updated to 3.0.27 (h2)
+                2018-10-05 Updated to 3.0.26 (h2)
+                2012-09-20 Updated to 1.8.17 (aus9)
+                2010-06-22 Updated to 1.4.10 (kingdomcome)
+                2010-04-04 Updated to 1.4.8 (kingdomcome)
+                2010-02-22 Updated to 1.4.6 (kingdomcome)
+                2010-02-15 Updated to 1.4.4 (kingdomcome)
+                2010-01-04 Updated to 1.2.8 (kingdomcome)
+                2009-11-29 Updated to 1.2.7 (kingdomcome)
+                2009-10-12 Updated to 1.1.14 (kingdomcome)
+                2009-08-22 Updated to 1.1.13 (kingdomcome)
+                First: 2009-07-21 Start at 1.0.17 (kingdomcome)

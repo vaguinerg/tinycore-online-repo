@@ -1,0 +1,26 @@
+Title:          bandwhich.tcz
+Description:    Terminal bandwidth utilization tool  
+Version:        v0.17.0
+Author:         Aram Drevekenin  https://www.poor.dev/
+Original-site:  https://github.com/imsnif/bandwhich
+Copying-policy: https://github.com/imsnif/bandwhich/blob/main/LICENSE.md
+Size:           1.6M
+Extension_by:   rudock1
+Tags:           network networking bandwidth dashboard command line cli rust
+Comments:       This is a CLI utility for displaying current network
+                utilization by process, connection and remote IP/hostname.
+                bandwhich sniffs a given network interface and records IP
+                packet size, cross referencing it with the /proc
+                filesystem on linux. It is responsive to the terminal
+                window size, displaying less info if there is no room
+                for it. It will also attempt to resolve IPs to their
+                host name in the background using reverse DNS on a best
+                effort basis.
+                ----------
+                This extension contains:
+`               bandwhich-0.17.0 - MIT license
+                git clone https://github.com/imsnif/bandwhich.git
+                ----------
+                Compiled for 11.x x86_64
+Change-log:     first version
+Current:        2020/09/05 bandwhich v0.17.0 (released 2020-09-04)

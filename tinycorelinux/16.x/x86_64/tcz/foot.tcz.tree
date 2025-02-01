@@ -1,0 +1,23 @@
+foot.tcz
+   pixman.tcz
+   wayland.tcz
+      libffi.tcz
+      expat2.tcz
+      libxml2.tcz
+         liblzma.tcz
+   libxkbcommon.tcz
+      xkeyboard-config.tcz
+      libxcb.tcz
+         libXau.tcz
+         libXdmcp.tcz
+   fontconfig.tcz
+      expat2.tcz
+      freetype.tcz
+         libpng.tcz
+         harfbuzz.tcz
+            glib2.tcz
+               libffi.tcz
+               pcre21042.tcz
+            graphite.tcz
+         bzip2-lib.tcz
+

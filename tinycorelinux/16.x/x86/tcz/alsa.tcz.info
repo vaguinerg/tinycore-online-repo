@@ -1,0 +1,56 @@
+Title:          alsa.tcz
+Description:    alsa sound
+Version:        1.2.11
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size:		288KB
+Extension_by:   juanito/jasonw
+Tags:	        alsa sound audio
+Comments:       Advanced Linux Sound Architecture
+                ----------
+                From tc-5.x onwards, it appears that loading the alsa extension is
+                sufficient to initialise sound.
+                You will need to use alsamixer to un-mute the master volume control.
+                if this doesn't work, try loading alsa-config before loading the alsa extension
+                ----------
+                The graphics-KERNEL extension might be required if your hardware provides hdmi
+                ----------
+		If you want your alsa settings to persist across reboots, use the
+		command "sudo alsactl store" after alsa has been set up and
+                add /usr/local/etc/alsa/asound.state to your backup
+                if alsa is loaded onboot you may need "sudo alsactl restore"
+                ----------
+                alsaloop requires the libsamplerate extension.
+                ----------
+                This extension contains:
+                alsa-lib-1.2.11 - LGPLv2.1 - https://www.alsa-project.org/files/pub/lib/alsa-lib-1.2.11.tar.bz2
+                alsa-utils-1.2.11 - GPLv2 - https://www.alsa-project.org/files/pub/utils/alsa-utils-1.2.11.tar.bz2
+		----------
+Change-log:     2008/11/03 first version
+                2008/11/05 Added udev alsa.rules, modified alsa.conf, removed snddevices [thanks curaga]
+                2009/02/09 Modified to be PPI compliant and to load oss modules
+ 		2009/04/22 Added /usr/local/etc/init.d/alsasound script for TC 2.x
+	        2009/04/28 Fixes to alsasound and alsaconf
+		2009/06/13 Updated to alsa-lib/alsa-utils 1.0.20
+		2009/08/22 Replaced user.tar.gz with scripting.
+		2009/09/29 Removed libs to the libasound extension and made it a dep.
+		2009/10/15 Updated alsaconf to recognize lspci in /usr/local/(s)bin.
+		2010/01/25 Seperated config files into own extension.
+		2010/02/08 Edited startup script to reload udev rules (Curaga)
+                2010/02/09 Re-edit startup script (Curaga)
+		2010/05/27 updated 1.0.20 -> 1.0.23
+		2010/10/17 Added ISA detection to alsasound routine and better use of alsaconf setup.
+		2010/12/20 Separated out alsaconf.
+		2011/11/14 Separated out alsa-config config files.
+                2012/01/17 Updated to alsa-lib-1.0.24.1/alsa-util-1.0.24.2
+                2013/06/21 Updated to alsa-lib-1.0.27.1/alsa-utils-1.0.27.1
+                2013/08/30 modified start-up script to create /var/lib/alsa
+                2014/04/07 recompiled asound.state -> /usr/local/etc
+                2014/10_09 updated 1.0.27.1 -> 1.0.28
+                2015/12/14 updated 1.0.28 -> 1.1.0
+                2017/03/13 updated 1.1.0 -> 1.1.3
+                2018/01/03 updated 1.1.3 -> 1.1.5
+                2018/03/22 recompiled against ncursesw
+                2020/01/09 updated 1.1.5 -> 1.2.1
+Current:	2024/02/28 updated 1.2.1 -> 1.2.11
