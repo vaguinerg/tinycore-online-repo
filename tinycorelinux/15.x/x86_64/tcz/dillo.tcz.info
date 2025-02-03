@@ -1,10 +1,10 @@
 Title:          dillo.tcz
 Description:    Dillo web browser
-Version:        3.1.0
+Version:        3.2.0
 Author:         https://dillo-browser.github.io/old/D_authors.html
 Original-site:  https://dillo-browser.github.io/
 Copying-policy: GPLv3
-Size:		544K
+Size:		572K
 Extension_by:   Colin Jones, hiro, nitram, CNK
 Tags:           FLTK light internet web browser
 Comments:       Dillo is a multi-platform graphical web browser known
@@ -37,4 +37,5 @@ Change-log:     2009/01/14 Original (Colin Jones/xentalion)
 		2019/10/14 fixed https support (neonix)
 		2020/02/20 fixed openssl-1.1.1 dependency (neonix) TC11.x
 		2024/04/02 Use OpenSSL 3.2 & patched for SNI support (CNK) TC14.x
-Current:	2024/05/05 v3.0.5 -> v3.1.0, use mbedTLS (CNK) TC15.x
+		2024/05/05 v3.0.5 -> v3.1.0, use mbedTLS (CNK) TC15.x
+Current:	2025/01/30 v3.1.0 -> v3.2.0, add WebP (CNK) TC15.x
