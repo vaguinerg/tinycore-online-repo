@@ -3,11 +3,15 @@ jack1-dev.tcz
       libasound.tcz
       libsamplerate.tcz
          libsndfile.tcz
+            flac.tcz
+               libogg.tcz
+            libvorbis.tcz 
       db.tcz
          libdb.tcz
    alsa-dev.tcz
       alsa.tcz
-         alsa-modules-6.6.8-tinycore64.tcz
+         alsa-modules-6.12.11-tinycore64.tcz
+            input-joystick-6.12.11-tinycore64.tcz
          libasound.tcz
          ncursesw.tcz
       ncursesw-dev.tcz
@@ -17,7 +21,24 @@ jack1-dev.tcz
    libsamplerate-dev.tcz
       libsamplerate.tcz
          libsndfile.tcz
+            flac.tcz
+               libogg.tcz
+            libvorbis.tcz 
       libsndfile-dev.tcz
+         libsndfile.tcz
+            flac.tcz
+               libogg.tcz
+            libvorbis.tcz 
+         flac-dev.tcz
+            flac.tcz
+               libogg.tcz
+            libogg-dev.tcz
+               libogg.tcz
+         libvorbis-dev.tcz
+            libvorbis.tcz
+               libogg.tcz
+            libogg-dev.tcz
+               libogg.tcz
    db-dev.tcz
       db.tcz
          libdb.tcz

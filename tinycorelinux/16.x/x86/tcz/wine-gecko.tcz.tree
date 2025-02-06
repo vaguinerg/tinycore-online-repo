@@ -21,6 +21,10 @@ wine-gecko.tcz
             libffi.tcz
             pcre21042.tcz
          libsndfile.tcz
+            flac.tcz
+               libogg.tcz
+            libvorbis.tcz
+               libogg.tcz
          libXtst.tcz
             libXi.tcz
                libXext.tcz
@@ -63,7 +67,10 @@ wine-gecko.tcz
                   libffi.tcz
                   pcre21042.tcz
       libv4l2.tcz
-         v4l-dvb-6.6.8-tinycore.tcz
+         v4l-dvb-6.12.11-tinycore.tcz
+            i2c-6.12.11-tinycore.tcz
+            alsa-modules-6.12.11-tinycore.tcz
+               input-joystick-6.12.11-tinycore.tcz
          libjpeg-turbo.tcz
       libgphoto2.tcz
          libexif.tcz
@@ -263,6 +270,10 @@ wine-gecko.tcz
                                  libXau.tcz
                                  libXdmcp.tcz
                      libxkbfile.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
                   Xorg-7.7-lib.tcz
                      libFS.tcz
                      libXaw.tcz
@@ -378,6 +389,10 @@ wine-gecko.tcz
                                  libXau.tcz
                                  libXdmcp.tcz
                      libxkbfile.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
                   Xorg-fonts.tcz
                   xcursor-themes.tcz
                   xf86-input-libinput.tcz

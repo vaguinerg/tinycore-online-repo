@@ -304,7 +304,10 @@ ffmpeg4-dev.tcz
          SDL2.tcz
          libopenal.tcz
          libv4l2.tcz
-            v4l-dvb-6.6.8-tinycore.tcz
+            v4l-dvb-6.12.11-tinycore.tcz
+               i2c-6.12.11-tinycore.tcz
+               alsa-modules-6.12.11-tinycore.tcz
+                  input-joystick-6.12.11-tinycore.tcz
             libjpeg-turbo.tcz
          libpulseaudio.tcz
             dbus.tcz
@@ -315,6 +318,10 @@ ffmpeg4-dev.tcz
                libffi.tcz
                pcre21042.tcz
             libsndfile.tcz
+               flac.tcz
+                  libogg.tcz
+               libvorbis.tcz
+                  libogg.tcz
             libXtst.tcz
                libXi.tcz
                   libXext.tcz
@@ -490,6 +497,10 @@ ffmpeg4-dev.tcz
                libffi.tcz
                pcre21042.tcz
             libsndfile.tcz
+               flac.tcz
+                  libogg.tcz
+               libvorbis.tcz
+                  libogg.tcz
             libXtst.tcz
                libXi.tcz
                   libXext.tcz
@@ -500,7 +511,8 @@ ffmpeg4-dev.tcz
             libICE.tcz
             libSM.tcz
          alsa.tcz
-            alsa-modules-6.6.8-tinycore.tcz
+            alsa-modules-6.12.11-tinycore.tcz
+               input-joystick-6.12.11-tinycore.tcz
             libasound.tcz
             ncursesw.tcz
          udev-lib.tcz
@@ -524,7 +536,8 @@ ffmpeg4-dev.tcz
             attr.tcz
       alsa-dev.tcz
          alsa.tcz
-            alsa-modules-6.6.8-tinycore.tcz
+            alsa-modules-6.12.11-tinycore.tcz
+               input-joystick-6.12.11-tinycore.tcz
             libasound.tcz
             ncursesw.tcz
          ncursesw-dev.tcz
@@ -540,6 +553,21 @@ ffmpeg4-dev.tcz
          libogg-dev.tcz
             libogg.tcz
       libsndfile-dev.tcz
+         libsndfile.tcz
+            flac.tcz
+               libogg.tcz
+            libvorbis.tcz
+               libogg.tcz
+         flac-dev.tcz
+            flac.tcz
+               libogg.tcz
+            libogg-dev.tcz
+               libogg.tcz
+         libvorbis-dev.tcz
+            libvorbis.tcz
+               libogg.tcz
+            libogg-dev.tcz
+               libogg.tcz
       libbluetooth5-dev.tcz
          libbluetooth5.tcz
             bluez5.tcz
@@ -551,7 +579,7 @@ ffmpeg4-dev.tcz
                      pcre21042.tcz
                libical3.tcz
                   icu70.tcz
-               bluetooth-6.6.8-tinycore.tcz
+               bluetooth-6.12.11-tinycore.tcz
                sbc.tcz
                readline.tcz
                   ncursesw.tcz
@@ -2156,6 +2184,21 @@ ffmpeg4-dev.tcz
    lame-dev.tcz
       lame.tcz
       libsndfile-dev.tcz
+         libsndfile.tcz
+            flac.tcz
+               libogg.tcz
+            libvorbis.tcz
+               libogg.tcz
+         flac-dev.tcz
+            flac.tcz
+               libogg.tcz
+            libogg-dev.tcz
+               libogg.tcz
+         libvorbis-dev.tcz
+            libvorbis.tcz
+               libogg.tcz
+            libogg-dev.tcz
+               libogg.tcz
       ncursesw-dev.tcz
          ncursesw.tcz
    libcdio-paranoia-dev.tcz
@@ -2173,7 +2216,10 @@ ffmpeg4-dev.tcz
             ncursesw.tcz
    libv4l2-dev.tcz
       libv4l2.tcz
-         v4l-dvb-6.6.8-tinycore.tcz
+         v4l-dvb-6.12.11-tinycore.tcz
+            i2c-6.12.11-tinycore.tcz
+            alsa-modules-6.12.11-tinycore.tcz
+               input-joystick-6.12.11-tinycore.tcz
          libjpeg-turbo.tcz
       libjpeg-turbo-dev.tcz
          libjpeg-turbo.tcz

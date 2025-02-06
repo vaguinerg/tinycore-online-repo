@@ -252,7 +252,7 @@ patchage.tcz
          expat2.tcz
          libiec61883.tcz
          libraw1394.tcz
-            firewire-6.6.8-tinycore.tcz
+            firewire-6.12.11-tinycore.tcz
          libxml++.tcz
             libxml2.tcz
                liblzma.tcz
@@ -263,10 +263,15 @@ patchage.tcz
                libsigc++.tcz
       libsamplerate.tcz
          libsndfile.tcz
+            flac.tcz
+               libogg.tcz
+            libvorbis.tcz
+               libogg.tcz
          fftw.tcz
    jack-lib.tcz
    alsa.tcz
-      alsa-modules-6.6.8-tinycore.tcz
+      alsa-modules-6.12.11-tinycore.tcz
+         input-joystick-6.12.11-tinycore.tcz
       libasound.tcz
       ncursesw.tcz
 

@@ -19,7 +19,7 @@ libbluetooth-dev.tcz
             glib2.tcz
                libffi.tcz
                pcre21042.tcz
-         bluetooth-6.6.8-tinycore64.tcz
+         bluetooth-6.12.11-tinycore64.tcz
          sbc.tcz
          readline.tcz
             ncursesw.tcz
@@ -27,9 +27,24 @@ libbluetooth-dev.tcz
    sbc-dev.tcz
       sbc.tcz
       libsndfile-dev.tcz
+         libsndfile.tcz
+            flac.tcz
+               libogg.tcz
+            libvorbis.tcz 
+         flac-dev.tcz
+            flac.tcz
+               libogg.tcz
+            libogg-dev.tcz
+               libogg.tcz
+         libvorbis-dev.tcz
+            libvorbis.tcz
+               libogg.tcz
+            libogg-dev.tcz
+               libogg.tcz
    alsa-dev.tcz
       alsa.tcz
-         alsa-modules-6.6.8-tinycore64.tcz
+         alsa-modules-6.12.11-tinycore64.tcz
+            input-joystick-6.12.11-tinycore64.tcz
          libasound.tcz
          ncursesw.tcz
       ncursesw-dev.tcz

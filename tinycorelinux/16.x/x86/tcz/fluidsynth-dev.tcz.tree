@@ -9,6 +9,10 @@ fluidsynth-dev.tcz
             libffi.tcz
             pcre21042.tcz
          libsndfile.tcz
+            flac.tcz
+               libogg.tcz
+            libvorbis.tcz
+               libogg.tcz
          libXtst.tcz
             libXi.tcz
                libXext.tcz
@@ -33,6 +37,10 @@ fluidsynth-dev.tcz
                libffi.tcz
                pcre21042.tcz
             libsndfile.tcz
+               flac.tcz
+                  libogg.tcz
+               libvorbis.tcz
+                  libogg.tcz
             libXtst.tcz
                libXi.tcz
                   libXext.tcz
@@ -43,7 +51,8 @@ fluidsynth-dev.tcz
             libICE.tcz
             libSM.tcz
          alsa.tcz
-            alsa-modules-6.6.8-tinycore.tcz
+            alsa-modules-6.12.11-tinycore.tcz
+               input-joystick-6.12.11-tinycore.tcz
             libasound.tcz
             ncursesw.tcz
          udev-lib.tcz
@@ -67,7 +76,8 @@ fluidsynth-dev.tcz
             attr.tcz
       alsa-dev.tcz
          alsa.tcz
-            alsa-modules-6.6.8-tinycore.tcz
+            alsa-modules-6.12.11-tinycore.tcz
+               input-joystick-6.12.11-tinycore.tcz
             libasound.tcz
             ncursesw.tcz
          ncursesw-dev.tcz
@@ -83,6 +93,21 @@ fluidsynth-dev.tcz
          libogg-dev.tcz
             libogg.tcz
       libsndfile-dev.tcz
+         libsndfile.tcz
+            flac.tcz
+               libogg.tcz
+            libvorbis.tcz
+               libogg.tcz
+         flac-dev.tcz
+            flac.tcz
+               libogg.tcz
+            libogg-dev.tcz
+               libogg.tcz
+         libvorbis-dev.tcz
+            libvorbis.tcz
+               libogg.tcz
+            libogg-dev.tcz
+               libogg.tcz
       libbluetooth5-dev.tcz
          libbluetooth5.tcz
             bluez5.tcz
@@ -94,7 +119,7 @@ fluidsynth-dev.tcz
                      pcre21042.tcz
                libical3.tcz
                   icu70.tcz
-               bluetooth-6.6.8-tinycore.tcz
+               bluetooth-6.12.11-tinycore.tcz
                sbc.tcz
                readline.tcz
                   ncursesw.tcz
@@ -1266,7 +1291,7 @@ fluidsynth-dev.tcz
             expat2.tcz
             libiec61883.tcz
             libraw1394.tcz
-               firewire-6.6.8-tinycore.tcz
+               firewire-6.12.11-tinycore.tcz
             libxml++.tcz
                libxml2.tcz
                   liblzma.tcz
@@ -1277,6 +1302,10 @@ fluidsynth-dev.tcz
                   libsigc++.tcz
          libsamplerate.tcz
             libsndfile.tcz
+               flac.tcz
+                  libogg.tcz
+               libvorbis.tcz
+                  libogg.tcz
             fftw.tcz
       celt-dev.tcz
          celt.tcz
@@ -1285,7 +1314,8 @@ fluidsynth-dev.tcz
             libogg.tcz
       alsa-dev.tcz
          alsa.tcz
-            alsa-modules-6.6.8-tinycore.tcz
+            alsa-modules-6.12.11-tinycore.tcz
+               input-joystick-6.12.11-tinycore.tcz
             libasound.tcz
             ncursesw.tcz
          ncursesw-dev.tcz
@@ -1296,8 +1326,27 @@ fluidsynth-dev.tcz
       libsamplerate-dev.tcz
          libsamplerate.tcz
             libsndfile.tcz
+               flac.tcz
+                  libogg.tcz
+               libvorbis.tcz
+                  libogg.tcz
             fftw.tcz
          libsndfile-dev.tcz
+            libsndfile.tcz
+               flac.tcz
+                  libogg.tcz
+               libvorbis.tcz
+                  libogg.tcz
+            flac-dev.tcz
+               flac.tcz
+                  libogg.tcz
+               libogg-dev.tcz
+                  libogg.tcz
+            libvorbis-dev.tcz
+               libvorbis.tcz
+                  libogg.tcz
+               libogg-dev.tcz
+                  libogg.tcz
          fftw-dev.tcz
             fftw.tcz
    SDL2-dev.tcz

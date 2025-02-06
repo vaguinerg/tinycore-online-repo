@@ -542,6 +542,10 @@ gnome-control-center.tcz
                                  libXau.tcz
                                  libXdmcp.tcz
                      libxkbfile.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
                   Xorg-7.7-lib.tcz
                      libFS.tcz
                      libXaw.tcz
@@ -675,6 +679,10 @@ gnome-control-center.tcz
                                  libXau.tcz
                                  libXdmcp.tcz
                      libxkbfile.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
                   Xorg-fonts.tcz
                   xcursor-themes.tcz
                   xf86-input-libinput.tcz
@@ -1499,6 +1507,9 @@ gnome-control-center.tcz
             libffi.tcz
             pcre21042.tcz
          libsndfile.tcz
+            flac.tcz
+               libogg.tcz
+            libvorbis.tcz 
          libXtst.tcz
             libXi.tcz
                libXext.tcz
@@ -1509,7 +1520,8 @@ gnome-control-center.tcz
          libICE.tcz
          libSM.tcz
       alsa.tcz
-         alsa-modules-6.6.8-tinycore64.tcz
+         alsa-modules-6.12.11-tinycore64.tcz
+            input-joystick-6.12.11-tinycore64.tcz
          libasound.tcz
          ncursesw.tcz
       udev-lib.tcz
@@ -2013,6 +2025,9 @@ gnome-control-center.tcz
                libffi.tcz
                pcre21042.tcz
             libsndfile.tcz
+               flac.tcz
+                  libogg.tcz
+               libvorbis.tcz 
             libXtst.tcz
                libXi.tcz
                   libXext.tcz
@@ -2023,7 +2038,8 @@ gnome-control-center.tcz
             libICE.tcz
             libSM.tcz
          alsa.tcz
-            alsa-modules-6.6.8-tinycore64.tcz
+            alsa-modules-6.12.11-tinycore64.tcz
+               input-joystick-6.12.11-tinycore64.tcz
             libasound.tcz
             ncursesw.tcz
          udev-lib.tcz
@@ -3015,7 +3031,7 @@ gnome-control-center.tcz
             readline.tcz
                ncursesw.tcz
             wireless_tools.tcz
-               wireless-6.6.8-tinycore64.tcz
+               wireless-6.12.11-tinycore64.tcz
                libiw.tcz
          dhcpcd.tcz
          modemmanager.tcz
@@ -3067,7 +3083,7 @@ gnome-control-center.tcz
                   glib2.tcz
                      libffi.tcz
                      pcre21042.tcz
-               bluetooth-6.6.8-tinycore64.tcz
+               bluetooth-6.12.11-tinycore64.tcz
                sbc.tcz
                readline.tcz
                   ncursesw.tcz
@@ -3455,6 +3471,10 @@ gnome-control-center.tcz
                                     libXau.tcz
                                     libXdmcp.tcz
                         libxkbfile.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
                      Xorg-7.7-lib.tcz
                         libFS.tcz
                         libXaw.tcz
@@ -3588,6 +3608,10 @@ gnome-control-center.tcz
                                     libXau.tcz
                                     libXdmcp.tcz
                         libxkbfile.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
                      Xorg-fonts.tcz
                      xcursor-themes.tcz
                      xf86-input-libinput.tcz
@@ -4007,7 +4031,7 @@ gnome-control-center.tcz
                readline.tcz
                   ncursesw.tcz
                wireless_tools.tcz
-                  wireless-6.6.8-tinycore64.tcz
+                  wireless-6.12.11-tinycore64.tcz
                   libiw.tcz
             dhcpcd.tcz
             modemmanager.tcz
@@ -4059,7 +4083,7 @@ gnome-control-center.tcz
                      glib2.tcz
                         libffi.tcz
                         pcre21042.tcz
-                  bluetooth-6.6.8-tinycore64.tcz
+                  bluetooth-6.12.11-tinycore64.tcz
                   sbc.tcz
                   readline.tcz
                      ncursesw.tcz
@@ -4746,6 +4770,10 @@ gnome-control-center.tcz
                                        libXau.tcz
                                        libXdmcp.tcz
                            libxkbfile.tcz
+                              libX11.tcz
+                                 libxcb.tcz
+                                    libXau.tcz
+                                    libXdmcp.tcz
                         Xorg-7.7-lib.tcz
                            libFS.tcz
                            libXaw.tcz
@@ -4879,6 +4907,10 @@ gnome-control-center.tcz
                                        libXau.tcz
                                        libXdmcp.tcz
                            libxkbfile.tcz
+                              libX11.tcz
+                                 libxcb.tcz
+                                    libXau.tcz
+                                    libXdmcp.tcz
                         Xorg-fonts.tcz
                         xcursor-themes.tcz
                         xf86-input-libinput.tcz
@@ -5548,7 +5580,7 @@ gnome-control-center.tcz
                readline.tcz
                   ncursesw.tcz
                wireless_tools.tcz
-                  wireless-6.6.8-tinycore64.tcz
+                  wireless-6.12.11-tinycore64.tcz
                   libiw.tcz
             dhcpcd.tcz
             modemmanager.tcz
@@ -5600,7 +5632,7 @@ gnome-control-center.tcz
                      glib2.tcz
                         libffi.tcz
                         pcre21042.tcz
-                  bluetooth-6.6.8-tinycore64.tcz
+                  bluetooth-6.12.11-tinycore64.tcz
                   sbc.tcz
                   readline.tcz
                      ncursesw.tcz
@@ -6109,6 +6141,10 @@ gnome-control-center.tcz
                                     libXau.tcz
                                     libXdmcp.tcz
                         libxkbfile.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
                      Xorg-7.7-lib.tcz
                         libFS.tcz
                         libXaw.tcz
@@ -6242,6 +6278,10 @@ gnome-control-center.tcz
                                     libXau.tcz
                                     libXdmcp.tcz
                         libxkbfile.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
                      Xorg-fonts.tcz
                      xcursor-themes.tcz
                      xf86-input-libinput.tcz
@@ -6923,7 +6963,7 @@ gnome-control-center.tcz
             readline.tcz
                ncursesw.tcz
             wireless_tools.tcz
-               wireless-6.6.8-tinycore64.tcz
+               wireless-6.12.11-tinycore64.tcz
                libiw.tcz
          dhcpcd.tcz
          modemmanager.tcz
@@ -6975,7 +7015,7 @@ gnome-control-center.tcz
                   glib2.tcz
                      libffi.tcz
                      pcre21042.tcz
-               bluetooth-6.6.8-tinycore64.tcz
+               bluetooth-6.12.11-tinycore64.tcz
                sbc.tcz
                readline.tcz
                   ncursesw.tcz
@@ -7662,6 +7702,10 @@ gnome-control-center.tcz
                                     libXau.tcz
                                     libXdmcp.tcz
                         libxkbfile.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
                      Xorg-7.7-lib.tcz
                         libFS.tcz
                         libXaw.tcz
@@ -7795,6 +7839,10 @@ gnome-control-center.tcz
                                     libXau.tcz
                                     libXdmcp.tcz
                         libxkbfile.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
                      Xorg-fonts.tcz
                      xcursor-themes.tcz
                      xf86-input-libinput.tcz
@@ -8136,7 +8184,7 @@ gnome-control-center.tcz
                pcre21042.tcz
             nss.tcz    
          mdadm.tcz
-            raid-dm-6.6.8-tinycore64.tcz
+            raid-dm-6.12.11-tinycore64.tcz
          parted.tcz
             liblvm2.tcz
                udev-lib.tcz
@@ -8149,7 +8197,8 @@ gnome-control-center.tcz
          btrfs-progs.tcz
             lzo.tcz
             libzstd.tcz
-            filesystems-6.6.8-tinycore64.tcz
+            filesystems-6.12.11-tinycore64.tcz
+               mtd-6.12.11-tinycore64.tcz
          ndctl.tcz
             kmod.tcz
                liblzma.tcz
@@ -8766,6 +8815,10 @@ gnome-control-center.tcz
                                     libXau.tcz
                                     libXdmcp.tcz
                         libxkbfile.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
                      Xorg-7.7-lib.tcz
                         libFS.tcz
                         libXaw.tcz
@@ -8899,6 +8952,10 @@ gnome-control-center.tcz
                                     libXau.tcz
                                     libXdmcp.tcz
                         libxkbfile.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
                      Xorg-fonts.tcz
                      xcursor-themes.tcz
                      xf86-input-libinput.tcz
@@ -9557,7 +9614,7 @@ gnome-control-center.tcz
             glib2.tcz
                libffi.tcz
                pcre21042.tcz
-         bluetooth-6.6.8-tinycore64.tcz
+         bluetooth-6.12.11-tinycore64.tcz
          sbc.tcz
          readline.tcz
             ncursesw.tcz
@@ -9899,7 +9956,10 @@ gnome-control-center.tcz
       openal.tcz
       libv4l2.tcz
          libjpeg-turbo.tcz
-         v4l-dvb-6.6.8-tinycore64.tcz
+         v4l-dvb-6.12.11-tinycore64.tcz
+            i2c-6.12.11-tinycore64.tcz
+            alsa-modules-6.12.11-tinycore64.tcz
+               input-joystick-6.12.11-tinycore64.tcz
       libpulseaudio.tcz
          dbus.tcz
             expat2.tcz
@@ -9919,6 +9979,9 @@ gnome-control-center.tcz
             libffi.tcz
             pcre21042.tcz
          libsndfile.tcz
+            flac.tcz
+               libogg.tcz
+            libvorbis.tcz 
          libXtst.tcz
             libXi.tcz
                libXext.tcz

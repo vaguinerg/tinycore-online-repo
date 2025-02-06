@@ -83,7 +83,7 @@ network-manager-applet.tcz
             readline.tcz
                ncursesw.tcz
             wireless_tools.tcz
-               wireless-6.6.8-tinycore64.tcz
+               wireless-6.12.11-tinycore64.tcz
                libiw.tcz
          dhcpcd.tcz
          modemmanager.tcz
@@ -135,7 +135,7 @@ network-manager-applet.tcz
                   glib2.tcz
                      libffi.tcz
                      pcre21042.tcz
-               bluetooth-6.6.8-tinycore64.tcz
+               bluetooth-6.12.11-tinycore64.tcz
                sbc.tcz
                readline.tcz
                   ncursesw.tcz
@@ -822,6 +822,10 @@ network-manager-applet.tcz
                                     libXau.tcz
                                     libXdmcp.tcz
                         libxkbfile.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
                      Xorg-7.7-lib.tcz
                         libFS.tcz
                         libXaw.tcz
@@ -955,6 +959,10 @@ network-manager-applet.tcz
                                     libXau.tcz
                                     libXdmcp.tcz
                         libxkbfile.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
                      Xorg-fonts.tcz
                      xcursor-themes.tcz
                      xf86-input-libinput.tcz

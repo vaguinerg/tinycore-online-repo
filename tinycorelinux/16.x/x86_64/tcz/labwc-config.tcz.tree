@@ -1,6 +1,7 @@
 labwc-config.tcz
    labwc.tcz
-      graphics-6.6.8-tinycore64.tcz
+      graphics-6.12.11-tinycore64.tcz
+         i2c-6.12.11-tinycore64.tcz
       pango.tcz
          cairo.tcz
             glib2.tcz
@@ -241,6 +242,10 @@ labwc-config.tcz
                                  libXau.tcz
                                  libXdmcp.tcz
                      libxkbfile.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
                   Xorg-7.7-lib.tcz
                      libFS.tcz
                      libXaw.tcz
@@ -374,6 +379,10 @@ labwc-config.tcz
                                  libXau.tcz
                                  libXdmcp.tcz
                      libxkbfile.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
                   Xorg-fonts.tcz
                   xcursor-themes.tcz
                   xf86-input-libinput.tcz

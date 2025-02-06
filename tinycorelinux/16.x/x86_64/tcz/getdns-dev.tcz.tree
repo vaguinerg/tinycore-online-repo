@@ -1,8 +1,9 @@
 getdns-dev.tcz
    getdns.tcz
       unbound.tcz
-         openssl.tcz
          expat2.tcz
+         libevent.tcz
+            openssl.tcz
       libidn2.tcz
          libunistring.tcz
          ncursesw.tcz
@@ -16,10 +17,14 @@ getdns-dev.tcz
          ncursesw.tcz
    unbound-dev.tcz
       unbound.tcz
-         openssl.tcz
          expat2.tcz
-      openssl-dev.tcz
-         openssl.tcz
+         libevent.tcz
+            openssl.tcz
+      libevent-dev.tcz
+         libevent.tcz
+            openssl.tcz
+         openssl-dev.tcz
+            openssl.tcz
       expat2-dev.tcz
          expat2.tcz
 

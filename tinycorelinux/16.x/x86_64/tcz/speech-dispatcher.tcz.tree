@@ -2,6 +2,9 @@ speech-dispatcher.tcz
    dotconf.tcz
    libltdl.tcz
    libsndfile.tcz
+      flac.tcz
+         libogg.tcz
+      libvorbis.tcz 
    libao.tcz
    espeak-ng.tcz
       pcaudiolib.tcz
@@ -25,6 +28,9 @@ speech-dispatcher.tcz
                libffi.tcz
                pcre21042.tcz
             libsndfile.tcz
+               flac.tcz
+                  libogg.tcz
+               libvorbis.tcz 
             libXtst.tcz
                libXi.tcz
                   libXext.tcz

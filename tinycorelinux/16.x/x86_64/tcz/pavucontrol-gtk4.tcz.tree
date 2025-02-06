@@ -19,6 +19,9 @@ pavucontrol-gtk4.tcz
             libffi.tcz
             pcre21042.tcz
          libsndfile.tcz
+            flac.tcz
+               libogg.tcz
+            libvorbis.tcz 
          libXtst.tcz
             libXi.tcz
                libXext.tcz
@@ -29,7 +32,8 @@ pavucontrol-gtk4.tcz
          libICE.tcz
          libSM.tcz
       alsa.tcz
-         alsa-modules-6.6.8-tinycore64.tcz
+         alsa-modules-6.12.11-tinycore64.tcz
+            input-joystick-6.12.11-tinycore64.tcz
          libasound.tcz
          ncursesw.tcz
       udev-lib.tcz
@@ -384,6 +388,10 @@ pavucontrol-gtk4.tcz
                                  libXau.tcz
                                  libXdmcp.tcz
                      libxkbfile.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
                   Xorg-7.7-lib.tcz
                      libFS.tcz
                      libXaw.tcz
@@ -517,6 +525,10 @@ pavucontrol-gtk4.tcz
                                  libXau.tcz
                                  libXdmcp.tcz
                      libxkbfile.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
                   Xorg-fonts.tcz
                   xcursor-themes.tcz
                   xf86-input-libinput.tcz

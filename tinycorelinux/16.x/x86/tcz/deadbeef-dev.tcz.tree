@@ -11,6 +11,10 @@ deadbeef-dev.tcz
             libffi.tcz
             pcre21042.tcz
          libsndfile.tcz
+            flac.tcz
+               libogg.tcz
+            libvorbis.tcz
+               libogg.tcz
          libXtst.tcz
             libXi.tcz
                libXext.tcz
@@ -1318,6 +1322,10 @@ deadbeef-dev.tcz
                libffi.tcz
                pcre21042.tcz
             libsndfile.tcz
+               flac.tcz
+                  libogg.tcz
+               libvorbis.tcz
+                  libogg.tcz
             libXtst.tcz
                libXi.tcz
                   libXext.tcz
@@ -1328,7 +1336,8 @@ deadbeef-dev.tcz
             libICE.tcz
             libSM.tcz
          alsa.tcz
-            alsa-modules-6.6.8-tinycore.tcz
+            alsa-modules-6.12.11-tinycore.tcz
+               input-joystick-6.12.11-tinycore.tcz
             libasound.tcz
             ncursesw.tcz
          udev-lib.tcz
@@ -1352,7 +1361,8 @@ deadbeef-dev.tcz
             attr.tcz
       alsa-dev.tcz
          alsa.tcz
-            alsa-modules-6.6.8-tinycore.tcz
+            alsa-modules-6.12.11-tinycore.tcz
+               input-joystick-6.12.11-tinycore.tcz
             libasound.tcz
             ncursesw.tcz
          ncursesw-dev.tcz
@@ -1368,6 +1378,21 @@ deadbeef-dev.tcz
          libogg-dev.tcz
             libogg.tcz
       libsndfile-dev.tcz
+         libsndfile.tcz
+            flac.tcz
+               libogg.tcz
+            libvorbis.tcz
+               libogg.tcz
+         flac-dev.tcz
+            flac.tcz
+               libogg.tcz
+            libogg-dev.tcz
+               libogg.tcz
+         libvorbis-dev.tcz
+            libvorbis.tcz
+               libogg.tcz
+            libogg-dev.tcz
+               libogg.tcz
       libbluetooth5-dev.tcz
          libbluetooth5.tcz
             bluez5.tcz
@@ -1379,7 +1404,7 @@ deadbeef-dev.tcz
                      pcre21042.tcz
                libical3.tcz
                   icu70.tcz
-               bluetooth-6.6.8-tinycore.tcz
+               bluetooth-6.12.11-tinycore.tcz
                sbc.tcz
                readline.tcz
                   ncursesw.tcz

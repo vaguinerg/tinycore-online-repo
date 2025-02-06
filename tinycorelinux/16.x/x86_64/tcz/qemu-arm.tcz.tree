@@ -1,6 +1,6 @@
 qemu-arm.tcz
    qemu.tcz
-      kvm-6.6.8-tinycore64.tcz
+      kvm-6.12.11-tinycore64.tcz
       gtk3.tcz
          libepoxy.tcz
          at-spi2-core.tcz
@@ -184,6 +184,9 @@ qemu-arm.tcz
                   libffi.tcz
                   pcre21042.tcz
                libsndfile.tcz
+                  flac.tcz
+                     libogg.tcz
+                  libvorbis.tcz 
                libXtst.tcz
                   libXi.tcz
                      libXext.tcz
@@ -194,7 +197,8 @@ qemu-arm.tcz
                libICE.tcz
                libSM.tcz
             alsa.tcz
-               alsa-modules-6.6.8-tinycore64.tcz
+               alsa-modules-6.12.11-tinycore64.tcz
+                  input-joystick-6.12.11-tinycore64.tcz
                libasound.tcz
                ncursesw.tcz
             udev-lib.tcz
@@ -271,7 +275,7 @@ qemu-arm.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
-            bluetooth-6.6.8-tinycore64.tcz
+            bluetooth-6.12.11-tinycore64.tcz
             sbc.tcz
             readline.tcz
                ncursesw.tcz

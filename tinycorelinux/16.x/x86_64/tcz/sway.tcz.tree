@@ -243,6 +243,10 @@ sway.tcz
                               libXau.tcz
                               libXdmcp.tcz
                   libxkbfile.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
                Xorg-7.7-lib.tcz
                   libFS.tcz
                   libXaw.tcz
@@ -376,6 +380,10 @@ sway.tcz
                               libXau.tcz
                               libXdmcp.tcz
                   libxkbfile.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
                Xorg-fonts.tcz
                xcursor-themes.tcz
                xf86-input-libinput.tcz
@@ -560,7 +568,8 @@ sway.tcz
          libffi.tcz
          pcre21042.tcz
       wlroots.tcz       
-   graphics-6.6.8-tinycore64.tcz
+   graphics-6.12.11-tinycore64.tcz
+      i2c-6.12.11-tinycore64.tcz
    leafpad.tcz
       gtk2.tcz
          libXcursor.tcz 

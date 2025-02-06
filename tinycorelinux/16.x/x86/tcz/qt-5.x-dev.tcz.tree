@@ -17,6 +17,10 @@ qt-5.x-dev.tcz
                         libffi.tcz
                         pcre21042.tcz
                      libsndfile.tcz
+                        flac.tcz
+                           libogg.tcz
+                        libvorbis.tcz
+                           libogg.tcz
                      libXtst.tcz
                         libXi.tcz
                            libXext.tcz
@@ -98,6 +102,10 @@ qt-5.x-dev.tcz
                      libffi.tcz
                      pcre21042.tcz
                   libsndfile.tcz
+                     flac.tcz
+                        libogg.tcz
+                     libvorbis.tcz
+                        libogg.tcz
                   libXtst.tcz
                      libXi.tcz
                         libXext.tcz
@@ -195,6 +203,10 @@ qt-5.x-dev.tcz
                      libffi.tcz
                      pcre21042.tcz
                   libsndfile.tcz
+                     flac.tcz
+                        libogg.tcz
+                     libvorbis.tcz
+                        libogg.tcz
                   libXtst.tcz
                      libXi.tcz
                         libXext.tcz
@@ -270,7 +282,7 @@ qt-5.x-dev.tcz
                      pcre21042.tcz
                libical3.tcz
                   icu70.tcz
-               bluetooth-6.6.8-tinycore.tcz
+               bluetooth-6.12.11-tinycore.tcz
                sbc.tcz
                readline.tcz
                   ncursesw.tcz
@@ -289,6 +301,10 @@ qt-5.x-dev.tcz
                   libffi.tcz
                   pcre21042.tcz
                libsndfile.tcz
+                  flac.tcz
+                     libogg.tcz
+                  libvorbis.tcz
+                     libogg.tcz
                libXtst.tcz
                   libXi.tcz
                      libXext.tcz
@@ -371,6 +387,10 @@ qt-5.x-dev.tcz
                         libffi.tcz
                         pcre21042.tcz
                      libsndfile.tcz
+                        flac.tcz
+                           libogg.tcz
+                        libvorbis.tcz
+                           libogg.tcz
                      libXtst.tcz
                         libXi.tcz
                            libXext.tcz
@@ -683,7 +703,8 @@ qt-5.x-dev.tcz
             libogg.tcz
       alsa-dev.tcz
          alsa.tcz
-            alsa-modules-6.6.8-tinycore.tcz
+            alsa-modules-6.12.11-tinycore.tcz
+               input-joystick-6.12.11-tinycore.tcz
             libasound.tcz
             ncursesw.tcz
          ncursesw-dev.tcz
@@ -849,6 +870,10 @@ qt-5.x-dev.tcz
                               libXau.tcz
                               libXdmcp.tcz
                   libxkbfile.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
                Xorg-7.7-lib.tcz
                   libFS.tcz
                   libXaw.tcz
@@ -964,6 +989,10 @@ qt-5.x-dev.tcz
                               libXau.tcz
                               libXdmcp.tcz
                   libxkbfile.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
                Xorg-fonts.tcz
                xcursor-themes.tcz
                xf86-input-libinput.tcz
@@ -1668,6 +1697,29 @@ qt-5.x-dev.tcz
             libpciaccess-dev.tcz
                libpciaccess.tcz
             libxkbfile-dev.tcz
+               libxkbfile.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
+               libX11-dev.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
+                  libxcb-dev.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
+                     libXau-dev.tcz
+                        libXau.tcz
+                     libXdmcp-dev.tcz
+                        libXdmcp.tcz
+                     xcb-proto.tcz
+                        xorg-proto.tcz
+                           util-macros.tcz
+                              m4.tcz
+                  xtrans.tcz
             xbitmaps.tcz
             xorg-server-dev.tcz
                xorg-server.tcz
@@ -2278,6 +2330,10 @@ qt-5.x-dev.tcz
                libffi.tcz
                pcre21042.tcz
             libsndfile.tcz
+               flac.tcz
+                  libogg.tcz
+               libvorbis.tcz
+                  libogg.tcz
             libXtst.tcz
                libXi.tcz
                   libXext.tcz
@@ -2288,7 +2344,8 @@ qt-5.x-dev.tcz
             libICE.tcz
             libSM.tcz
          alsa.tcz
-            alsa-modules-6.6.8-tinycore.tcz
+            alsa-modules-6.12.11-tinycore.tcz
+               input-joystick-6.12.11-tinycore.tcz
             libasound.tcz
             ncursesw.tcz
          udev-lib.tcz
@@ -2312,7 +2369,8 @@ qt-5.x-dev.tcz
             attr.tcz
       alsa-dev.tcz
          alsa.tcz
-            alsa-modules-6.6.8-tinycore.tcz
+            alsa-modules-6.12.11-tinycore.tcz
+               input-joystick-6.12.11-tinycore.tcz
             libasound.tcz
             ncursesw.tcz
          ncursesw-dev.tcz
@@ -2328,6 +2386,21 @@ qt-5.x-dev.tcz
          libogg-dev.tcz
             libogg.tcz
       libsndfile-dev.tcz
+         libsndfile.tcz
+            flac.tcz
+               libogg.tcz
+            libvorbis.tcz
+               libogg.tcz
+         flac-dev.tcz
+            flac.tcz
+               libogg.tcz
+            libogg-dev.tcz
+               libogg.tcz
+         libvorbis-dev.tcz
+            libvorbis.tcz
+               libogg.tcz
+            libogg-dev.tcz
+               libogg.tcz
       libbluetooth5-dev.tcz
          libbluetooth5.tcz
             bluez5.tcz
@@ -2339,7 +2412,7 @@ qt-5.x-dev.tcz
                      pcre21042.tcz
                libical3.tcz
                   icu70.tcz
-               bluetooth-6.6.8-tinycore.tcz
+               bluetooth-6.12.11-tinycore.tcz
                sbc.tcz
                readline.tcz
                   ncursesw.tcz
@@ -3660,6 +3733,10 @@ qt-5.x-dev.tcz
                            libXau.tcz
                            libXdmcp.tcz
                libxkbfile.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
             Xorg-7.7-lib.tcz
                libFS.tcz
                libXaw.tcz
@@ -3775,6 +3852,10 @@ qt-5.x-dev.tcz
                            libXau.tcz
                            libXdmcp.tcz
                libxkbfile.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
             Xorg-fonts.tcz
             xcursor-themes.tcz
             xf86-input-libinput.tcz
@@ -4479,6 +4560,29 @@ qt-5.x-dev.tcz
          libpciaccess-dev.tcz
             libpciaccess.tcz
          libxkbfile-dev.tcz
+            libxkbfile.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
+            libX11-dev.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
+               libxcb-dev.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
+                  libXau-dev.tcz
+                     libXau.tcz
+                  libXdmcp-dev.tcz
+                     libXdmcp.tcz
+                  xcb-proto.tcz
+                     xorg-proto.tcz
+                        util-macros.tcz
+                           m4.tcz
+               xtrans.tcz
          xbitmaps.tcz
          xorg-server-dev.tcz
             xorg-server.tcz

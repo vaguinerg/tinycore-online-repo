@@ -153,6 +153,10 @@ audacity.tcz
             libunistring.tcz
             ncursesw.tcz
    libsndfile.tcz
+      flac.tcz
+         libogg.tcz
+      libvorbis.tcz
+         libogg.tcz
    flac.tcz
       libogg.tcz
    liboggz.tcz
@@ -317,7 +321,8 @@ audacity.tcz
    libatomic_ops.tcz
    gcc_libs.tcz
    alsa.tcz
-      alsa-modules-6.6.8-tinycore.tcz
+      alsa-modules-6.12.11-tinycore.tcz
+         input-joystick-6.12.11-tinycore.tcz
       libasound.tcz
       ncursesw.tcz
 

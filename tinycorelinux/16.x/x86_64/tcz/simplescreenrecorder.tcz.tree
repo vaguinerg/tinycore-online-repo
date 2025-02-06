@@ -252,6 +252,9 @@ simplescreenrecorder.tcz
                      libffi.tcz
                      pcre21042.tcz
                   libsndfile.tcz
+                     flac.tcz
+                        libogg.tcz
+                     libvorbis.tcz 
                   libXtst.tcz
                      libXi.tcz
                         libXext.tcz
@@ -329,11 +332,17 @@ simplescreenrecorder.tcz
                libXdmcp.tcz
    libv4l2.tcz
       libjpeg-turbo.tcz
-      v4l-dvb-6.6.8-tinycore64.tcz
+      v4l-dvb-6.12.11-tinycore64.tcz
+         i2c-6.12.11-tinycore64.tcz
+         alsa-modules-6.12.11-tinycore64.tcz
+            input-joystick-6.12.11-tinycore64.tcz
    jack.tcz
       libasound.tcz
       libsamplerate.tcz
          libsndfile.tcz
+            flac.tcz
+               libogg.tcz
+            libvorbis.tcz 
       portaudio.tcz
          libasound.tcz
       opus.tcz

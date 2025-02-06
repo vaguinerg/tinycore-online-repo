@@ -2872,7 +2872,10 @@ gimp2-dev.tcz
          luajit.tcz
       libv4l2-dev.tcz
          libv4l2.tcz
-            v4l-dvb-6.6.8-tinycore.tcz
+            v4l-dvb-6.12.11-tinycore.tcz
+               i2c-6.12.11-tinycore.tcz
+               alsa-modules-6.12.11-tinycore.tcz
+                  input-joystick-6.12.11-tinycore.tcz
             libjpeg-turbo.tcz
          libjpeg-turbo-dev.tcz
             libjpeg-turbo.tcz
@@ -3209,6 +3212,10 @@ gimp2-dev.tcz
                         libXau.tcz
                         libXdmcp.tcz
             libxkbfile.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
       libjpeg-turbo-dev.tcz
          libjpeg-turbo.tcz
       libpng-dev.tcz
@@ -3840,6 +3847,29 @@ gimp2-dev.tcz
          libpciaccess-dev.tcz
             libpciaccess.tcz
          libxkbfile-dev.tcz
+            libxkbfile.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
+            libX11-dev.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
+               libxcb-dev.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
+                  libXau-dev.tcz
+                     libXau.tcz
+                  libXdmcp-dev.tcz
+                     libXdmcp.tcz
+                  xcb-proto.tcz
+                     xorg-proto.tcz
+                        util-macros.tcz
+                           m4.tcz
+               xtrans.tcz
          xbitmaps.tcz
          xorg-server-dev.tcz
             xorg-server.tcz
@@ -4019,7 +4049,8 @@ gimp2-dev.tcz
                Xorg-fonts.tcz
    alsa-dev.tcz
       alsa.tcz
-         alsa-modules-6.6.8-tinycore.tcz
+         alsa-modules-6.12.11-tinycore.tcz
+            input-joystick-6.12.11-tinycore.tcz
          libasound.tcz
          ncursesw.tcz
       ncursesw-dev.tcz

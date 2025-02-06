@@ -1,6 +1,7 @@
 open-vm-tools-dev.tcz
    open-vm-tools-desktop.tcz
-      graphics-6.6.8-tinycore.tcz
+      graphics-6.12.11-tinycore.tcz
+         i2c-6.12.11-tinycore.tcz
       xf86-input-vmmouse.tcz
       xf86-video-vmware.tcz
          Xorg-7.7-3d.tcz
@@ -161,6 +162,10 @@ open-vm-tools-dev.tcz
                               libXau.tcz
                               libXdmcp.tcz
                   libxkbfile.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
                Xorg-7.7-lib.tcz
                   libFS.tcz
                   libXaw.tcz
@@ -276,6 +281,10 @@ open-vm-tools-dev.tcz
                               libXau.tcz
                               libXdmcp.tcz
                   libxkbfile.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
                Xorg-fonts.tcz
                xcursor-themes.tcz
                xf86-input-libinput.tcz
@@ -521,6 +530,10 @@ open-vm-tools-dev.tcz
                            libXau.tcz
                            libXdmcp.tcz
                libxkbfile.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
             Xorg-7.7-lib.tcz
                libFS.tcz
                libXaw.tcz
@@ -636,6 +649,10 @@ open-vm-tools-dev.tcz
                            libXau.tcz
                            libXdmcp.tcz
                libxkbfile.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
             Xorg-fonts.tcz
             xcursor-themes.tcz
             xf86-input-libinput.tcz
