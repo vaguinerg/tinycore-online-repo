@@ -71,6 +71,12 @@ fltk-1.4-dev.tcz
                   libXau.tcz
                   libXdmcp.tcz
       libjpeg-turbo.tcz
+      libXinerama.tcz
+         libXext.tcz
+            libX11.tcz
+               libxcb.tcz
+                  libXau.tcz
+                  libXdmcp.tcz
    wayland-protocols-dev.tcz
       wayland-protocols.tcz
          wayland.tcz
@@ -593,4 +599,35 @@ fltk-1.4-dev.tcz
    libjpeg-turbo-dev.tcz
       libjpeg-turbo-bin.tcz
          libjpeg-turbo.tcz
+   libXinerama-dev.tcz
+      libXinerama.tcz
+         libXext.tcz
+            libX11.tcz
+               libxcb.tcz
+                  libXau.tcz
+                  libXdmcp.tcz
+      libXext-dev.tcz
+         libXext.tcz
+            libX11.tcz
+               libxcb.tcz
+                  libXau.tcz
+                  libXdmcp.tcz
+         libX11-dev.tcz
+            libX11.tcz
+               libxcb.tcz
+                  libXau.tcz
+                  libXdmcp.tcz
+            libxcb-dev.tcz
+               libxcb.tcz
+                  libXau.tcz
+                  libXdmcp.tcz
+               libXau-dev.tcz
+                  libXau.tcz
+               libXdmcp-dev.tcz
+                  libXdmcp.tcz
+               xcb-proto.tcz
+                  xorg-proto.tcz
+                     util-macros.tcz
+                        m4.tcz
+            xtrans.tcz
 
