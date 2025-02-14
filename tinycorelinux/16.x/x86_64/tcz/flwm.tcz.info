@@ -4,7 +4,7 @@ Version:        1.20
 Author:         Bill Spitzak
 Original-site:  http://flwm.sourceforge.net
 Copying-policy: GPL
-Size:		32K
+Size:		28KB
 Extension_by:   juanito
 Tags:		fltk window manager X
 Comments:       For microcore, as found in tinycore v2.4
@@ -30,4 +30,5 @@ Change-log:     2012/11/09 first version
                 2016/05/01 compiled from git to link dynamically
                 2016/05/09 compiled from git for latest updates
 	        2019/02/05 updated 1.12 -> 1.20
-Current:	2020/09/13 Fixed exec= parsing issue in _menu_common script. (Rich)
+                2020/09/13 Fixed exec= parsing issue in _menu_common script (Rich)
+Current:	2025/02/13 rebuilt against fltk-1.4.1

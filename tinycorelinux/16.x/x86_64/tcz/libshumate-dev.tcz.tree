@@ -185,14 +185,66 @@ libshumate-dev.tcz
                                  libxcb.tcz
                                     libXau.tcz
                                     libXdmcp.tcz
-                     fltk-1.3.tcz
-                        libXext.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                        libjpeg-turbo.tcz
-                        libpng.tcz
+                     fltk-1.4.tcz
+                        wayland.tcz
+                           libffi.tcz
+                           expat2.tcz
+                           libxml2.tcz
+                              liblzma.tcz
+                        libxkbcommon.tcz
+                           xkeyboard-config.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                        pango.tcz
+                           cairo.tcz
+                              glib2.tcz
+                                 libffi.tcz
+                                 pcre21042.tcz
+                              fontconfig.tcz
+                                 expat2.tcz
+                                 freetype.tcz
+                                    libpng.tcz
+                                    harfbuzz.tcz
+                                       glib2.tcz
+                                          libffi.tcz
+                                          pcre21042.tcz
+                                       graphite.tcz
+                                    bzip2-lib.tcz
+                              pixman.tcz
+                              libpng.tcz
+                              libX11.tcz
+                                 libxcb.tcz
+                                    libXau.tcz
+                                    libXdmcp.tcz
+                           libXft.tcz
+                              fontconfig.tcz
+                                 expat2.tcz
+                                 freetype.tcz
+                                    libpng.tcz
+                                    harfbuzz.tcz
+                                       glib2.tcz
+                                          libffi.tcz
+                                          pcre21042.tcz
+                                       graphite.tcz
+                                    bzip2-lib.tcz
+                              freetype.tcz
+                                 libpng.tcz
+                                 harfbuzz.tcz
+                                    glib2.tcz
+                                       libffi.tcz
+                                       pcre21042.tcz
+                                    graphite.tcz
+                                 bzip2-lib.tcz
+                              libXrender.tcz
+                                 libX11.tcz
+                                    libxcb.tcz
+                                       libXau.tcz
+                                       libXdmcp.tcz
+                           fribidi.tcz
+                              glib2.tcz
+                                 libffi.tcz
+                                 pcre21042.tcz
                         libXcursor.tcz
                            libXrender.tcz
                               libX11.tcz
@@ -200,6 +252,37 @@ libshumate-dev.tcz
                                     libXau.tcz
                                     libXdmcp.tcz
                            libXfixes.tcz
+                              libX11.tcz
+                                 libxcb.tcz
+                                    libXau.tcz
+                                    libXdmcp.tcz
+                        libjpeg-turbo.tcz
+                        libXinerama.tcz
+                           libXext.tcz
+                              libX11.tcz
+                                 libxcb.tcz
+                                    libXau.tcz
+                                    libXdmcp.tcz
+                        libXft.tcz
+                           fontconfig.tcz
+                              expat2.tcz
+                              freetype.tcz
+                                 libpng.tcz
+                                 harfbuzz.tcz
+                                    glib2.tcz
+                                       libffi.tcz
+                                       pcre21042.tcz
+                                    graphite.tcz
+                                 bzip2-lib.tcz
+                           freetype.tcz
+                              libpng.tcz
+                              harfbuzz.tcz
+                                 glib2.tcz
+                                    libffi.tcz
+                                    pcre21042.tcz
+                                 graphite.tcz
+                              bzip2-lib.tcz
+                           libXrender.tcz
                               libX11.tcz
                                  libxcb.tcz
                                     libXau.tcz
@@ -815,14 +898,66 @@ libshumate-dev.tcz
                                  libxcb.tcz
                                     libXau.tcz
                                     libXdmcp.tcz
-                     fltk-1.3.tcz
-                        libXext.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                        libjpeg-turbo.tcz
-                        libpng.tcz
+                     fltk-1.4.tcz
+                        wayland.tcz
+                           libffi.tcz
+                           expat2.tcz
+                           libxml2.tcz
+                              liblzma.tcz
+                        libxkbcommon.tcz
+                           xkeyboard-config.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                        pango.tcz
+                           cairo.tcz
+                              glib2.tcz
+                                 libffi.tcz
+                                 pcre21042.tcz
+                              fontconfig.tcz
+                                 expat2.tcz
+                                 freetype.tcz
+                                    libpng.tcz
+                                    harfbuzz.tcz
+                                       glib2.tcz
+                                          libffi.tcz
+                                          pcre21042.tcz
+                                       graphite.tcz
+                                    bzip2-lib.tcz
+                              pixman.tcz
+                              libpng.tcz
+                              libX11.tcz
+                                 libxcb.tcz
+                                    libXau.tcz
+                                    libXdmcp.tcz
+                           libXft.tcz
+                              fontconfig.tcz
+                                 expat2.tcz
+                                 freetype.tcz
+                                    libpng.tcz
+                                    harfbuzz.tcz
+                                       glib2.tcz
+                                          libffi.tcz
+                                          pcre21042.tcz
+                                       graphite.tcz
+                                    bzip2-lib.tcz
+                              freetype.tcz
+                                 libpng.tcz
+                                 harfbuzz.tcz
+                                    glib2.tcz
+                                       libffi.tcz
+                                       pcre21042.tcz
+                                    graphite.tcz
+                                 bzip2-lib.tcz
+                              libXrender.tcz
+                                 libX11.tcz
+                                    libxcb.tcz
+                                       libXau.tcz
+                                       libXdmcp.tcz
+                           fribidi.tcz
+                              glib2.tcz
+                                 libffi.tcz
+                                 pcre21042.tcz
                         libXcursor.tcz
                            libXrender.tcz
                               libX11.tcz
@@ -830,6 +965,37 @@ libshumate-dev.tcz
                                     libXau.tcz
                                     libXdmcp.tcz
                            libXfixes.tcz
+                              libX11.tcz
+                                 libxcb.tcz
+                                    libXau.tcz
+                                    libXdmcp.tcz
+                        libjpeg-turbo.tcz
+                        libXinerama.tcz
+                           libXext.tcz
+                              libX11.tcz
+                                 libxcb.tcz
+                                    libXau.tcz
+                                    libXdmcp.tcz
+                        libXft.tcz
+                           fontconfig.tcz
+                              expat2.tcz
+                              freetype.tcz
+                                 libpng.tcz
+                                 harfbuzz.tcz
+                                    glib2.tcz
+                                       libffi.tcz
+                                       pcre21042.tcz
+                                    graphite.tcz
+                                 bzip2-lib.tcz
+                           freetype.tcz
+                              libpng.tcz
+                              harfbuzz.tcz
+                                 glib2.tcz
+                                    libffi.tcz
+                                    pcre21042.tcz
+                                 graphite.tcz
+                              bzip2-lib.tcz
+                           libXrender.tcz
                               libX11.tcz
                                  libxcb.tcz
                                     libXau.tcz
@@ -1270,14 +1436,66 @@ libshumate-dev.tcz
                                  libxcb.tcz
                                     libXau.tcz
                                     libXdmcp.tcz
-                     fltk-1.3.tcz
-                        libXext.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                        libjpeg-turbo.tcz
-                        libpng.tcz
+                     fltk-1.4.tcz
+                        wayland.tcz
+                           libffi.tcz
+                           expat2.tcz
+                           libxml2.tcz
+                              liblzma.tcz
+                        libxkbcommon.tcz
+                           xkeyboard-config.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                        pango.tcz
+                           cairo.tcz
+                              glib2.tcz
+                                 libffi.tcz
+                                 pcre21042.tcz
+                              fontconfig.tcz
+                                 expat2.tcz
+                                 freetype.tcz
+                                    libpng.tcz
+                                    harfbuzz.tcz
+                                       glib2.tcz
+                                          libffi.tcz
+                                          pcre21042.tcz
+                                       graphite.tcz
+                                    bzip2-lib.tcz
+                              pixman.tcz
+                              libpng.tcz
+                              libX11.tcz
+                                 libxcb.tcz
+                                    libXau.tcz
+                                    libXdmcp.tcz
+                           libXft.tcz
+                              fontconfig.tcz
+                                 expat2.tcz
+                                 freetype.tcz
+                                    libpng.tcz
+                                    harfbuzz.tcz
+                                       glib2.tcz
+                                          libffi.tcz
+                                          pcre21042.tcz
+                                       graphite.tcz
+                                    bzip2-lib.tcz
+                              freetype.tcz
+                                 libpng.tcz
+                                 harfbuzz.tcz
+                                    glib2.tcz
+                                       libffi.tcz
+                                       pcre21042.tcz
+                                    graphite.tcz
+                                 bzip2-lib.tcz
+                              libXrender.tcz
+                                 libX11.tcz
+                                    libxcb.tcz
+                                       libXau.tcz
+                                       libXdmcp.tcz
+                           fribidi.tcz
+                              glib2.tcz
+                                 libffi.tcz
+                                 pcre21042.tcz
                         libXcursor.tcz
                            libXrender.tcz
                               libX11.tcz
@@ -1285,6 +1503,37 @@ libshumate-dev.tcz
                                     libXau.tcz
                                     libXdmcp.tcz
                            libXfixes.tcz
+                              libX11.tcz
+                                 libxcb.tcz
+                                    libXau.tcz
+                                    libXdmcp.tcz
+                        libjpeg-turbo.tcz
+                        libXinerama.tcz
+                           libXext.tcz
+                              libX11.tcz
+                                 libxcb.tcz
+                                    libXau.tcz
+                                    libXdmcp.tcz
+                        libXft.tcz
+                           fontconfig.tcz
+                              expat2.tcz
+                              freetype.tcz
+                                 libpng.tcz
+                                 harfbuzz.tcz
+                                    glib2.tcz
+                                       libffi.tcz
+                                       pcre21042.tcz
+                                    graphite.tcz
+                                 bzip2-lib.tcz
+                           freetype.tcz
+                              libpng.tcz
+                              harfbuzz.tcz
+                                 glib2.tcz
+                                    libffi.tcz
+                                    pcre21042.tcz
+                                 graphite.tcz
+                              bzip2-lib.tcz
+                           libXrender.tcz
                               libX11.tcz
                                  libxcb.tcz
                                     libXau.tcz
@@ -1678,14 +1927,66 @@ libshumate-dev.tcz
                                  libxcb.tcz
                                     libXau.tcz
                                     libXdmcp.tcz
-                     fltk-1.3.tcz
-                        libXext.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                        libjpeg-turbo.tcz
-                        libpng.tcz
+                     fltk-1.4.tcz
+                        wayland.tcz
+                           libffi.tcz
+                           expat2.tcz
+                           libxml2.tcz
+                              liblzma.tcz
+                        libxkbcommon.tcz
+                           xkeyboard-config.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                        pango.tcz
+                           cairo.tcz
+                              glib2.tcz
+                                 libffi.tcz
+                                 pcre21042.tcz
+                              fontconfig.tcz
+                                 expat2.tcz
+                                 freetype.tcz
+                                    libpng.tcz
+                                    harfbuzz.tcz
+                                       glib2.tcz
+                                          libffi.tcz
+                                          pcre21042.tcz
+                                       graphite.tcz
+                                    bzip2-lib.tcz
+                              pixman.tcz
+                              libpng.tcz
+                              libX11.tcz
+                                 libxcb.tcz
+                                    libXau.tcz
+                                    libXdmcp.tcz
+                           libXft.tcz
+                              fontconfig.tcz
+                                 expat2.tcz
+                                 freetype.tcz
+                                    libpng.tcz
+                                    harfbuzz.tcz
+                                       glib2.tcz
+                                          libffi.tcz
+                                          pcre21042.tcz
+                                       graphite.tcz
+                                    bzip2-lib.tcz
+                              freetype.tcz
+                                 libpng.tcz
+                                 harfbuzz.tcz
+                                    glib2.tcz
+                                       libffi.tcz
+                                       pcre21042.tcz
+                                    graphite.tcz
+                                 bzip2-lib.tcz
+                              libXrender.tcz
+                                 libX11.tcz
+                                    libxcb.tcz
+                                       libXau.tcz
+                                       libXdmcp.tcz
+                           fribidi.tcz
+                              glib2.tcz
+                                 libffi.tcz
+                                 pcre21042.tcz
                         libXcursor.tcz
                            libXrender.tcz
                               libX11.tcz
@@ -1693,6 +1994,37 @@ libshumate-dev.tcz
                                     libXau.tcz
                                     libXdmcp.tcz
                            libXfixes.tcz
+                              libX11.tcz
+                                 libxcb.tcz
+                                    libXau.tcz
+                                    libXdmcp.tcz
+                        libjpeg-turbo.tcz
+                        libXinerama.tcz
+                           libXext.tcz
+                              libX11.tcz
+                                 libxcb.tcz
+                                    libXau.tcz
+                                    libXdmcp.tcz
+                        libXft.tcz
+                           fontconfig.tcz
+                              expat2.tcz
+                              freetype.tcz
+                                 libpng.tcz
+                                 harfbuzz.tcz
+                                    glib2.tcz
+                                       libffi.tcz
+                                       pcre21042.tcz
+                                    graphite.tcz
+                                 bzip2-lib.tcz
+                           freetype.tcz
+                              libpng.tcz
+                              harfbuzz.tcz
+                                 glib2.tcz
+                                    libffi.tcz
+                                    pcre21042.tcz
+                                 graphite.tcz
+                              bzip2-lib.tcz
+                           libXrender.tcz
                               libX11.tcz
                                  libxcb.tcz
                                     libXau.tcz
@@ -3592,14 +3924,66 @@ libshumate-dev.tcz
                                     libxcb.tcz
                                        libXau.tcz
                                        libXdmcp.tcz
-                        fltk-1.3.tcz
-                           libXext.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                           libjpeg-turbo.tcz
-                           libpng.tcz
+                        fltk-1.4.tcz
+                           wayland.tcz
+                              libffi.tcz
+                              expat2.tcz
+                              libxml2.tcz
+                                 liblzma.tcz
+                           libxkbcommon.tcz
+                              xkeyboard-config.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                           pango.tcz
+                              cairo.tcz
+                                 glib2.tcz
+                                    libffi.tcz
+                                    pcre21042.tcz
+                                 fontconfig.tcz
+                                    expat2.tcz
+                                    freetype.tcz
+                                       libpng.tcz
+                                       harfbuzz.tcz
+                                          glib2.tcz
+                                             libffi.tcz
+                                             pcre21042.tcz
+                                          graphite.tcz
+                                       bzip2-lib.tcz
+                                 pixman.tcz
+                                 libpng.tcz
+                                 libX11.tcz
+                                    libxcb.tcz
+                                       libXau.tcz
+                                       libXdmcp.tcz
+                              libXft.tcz
+                                 fontconfig.tcz
+                                    expat2.tcz
+                                    freetype.tcz
+                                       libpng.tcz
+                                       harfbuzz.tcz
+                                          glib2.tcz
+                                             libffi.tcz
+                                             pcre21042.tcz
+                                          graphite.tcz
+                                       bzip2-lib.tcz
+                                 freetype.tcz
+                                    libpng.tcz
+                                    harfbuzz.tcz
+                                       glib2.tcz
+                                          libffi.tcz
+                                          pcre21042.tcz
+                                       graphite.tcz
+                                    bzip2-lib.tcz
+                                 libXrender.tcz
+                                    libX11.tcz
+                                       libxcb.tcz
+                                          libXau.tcz
+                                          libXdmcp.tcz
+                              fribidi.tcz
+                                 glib2.tcz
+                                    libffi.tcz
+                                    pcre21042.tcz
                            libXcursor.tcz
                               libXrender.tcz
                                  libX11.tcz
@@ -3607,6 +3991,37 @@ libshumate-dev.tcz
                                        libXau.tcz
                                        libXdmcp.tcz
                               libXfixes.tcz
+                                 libX11.tcz
+                                    libxcb.tcz
+                                       libXau.tcz
+                                       libXdmcp.tcz
+                           libjpeg-turbo.tcz
+                           libXinerama.tcz
+                              libXext.tcz
+                                 libX11.tcz
+                                    libxcb.tcz
+                                       libXau.tcz
+                                       libXdmcp.tcz
+                           libXft.tcz
+                              fontconfig.tcz
+                                 expat2.tcz
+                                 freetype.tcz
+                                    libpng.tcz
+                                    harfbuzz.tcz
+                                       glib2.tcz
+                                          libffi.tcz
+                                          pcre21042.tcz
+                                       graphite.tcz
+                                    bzip2-lib.tcz
+                              freetype.tcz
+                                 libpng.tcz
+                                 harfbuzz.tcz
+                                    glib2.tcz
+                                       libffi.tcz
+                                       pcre21042.tcz
+                                    graphite.tcz
+                                 bzip2-lib.tcz
+                              libXrender.tcz
                                  libX11.tcz
                                     libxcb.tcz
                                        libXau.tcz
@@ -12853,14 +13268,66 @@ libshumate-dev.tcz
                                     libxcb.tcz
                                        libXau.tcz
                                        libXdmcp.tcz
-                        fltk-1.3.tcz
-                           libXext.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                           libjpeg-turbo.tcz
-                           libpng.tcz
+                        fltk-1.4.tcz
+                           wayland.tcz
+                              libffi.tcz
+                              expat2.tcz
+                              libxml2.tcz
+                                 liblzma.tcz
+                           libxkbcommon.tcz
+                              xkeyboard-config.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                           pango.tcz
+                              cairo.tcz
+                                 glib2.tcz
+                                    libffi.tcz
+                                    pcre21042.tcz
+                                 fontconfig.tcz
+                                    expat2.tcz
+                                    freetype.tcz
+                                       libpng.tcz
+                                       harfbuzz.tcz
+                                          glib2.tcz
+                                             libffi.tcz
+                                             pcre21042.tcz
+                                          graphite.tcz
+                                       bzip2-lib.tcz
+                                 pixman.tcz
+                                 libpng.tcz
+                                 libX11.tcz
+                                    libxcb.tcz
+                                       libXau.tcz
+                                       libXdmcp.tcz
+                              libXft.tcz
+                                 fontconfig.tcz
+                                    expat2.tcz
+                                    freetype.tcz
+                                       libpng.tcz
+                                       harfbuzz.tcz
+                                          glib2.tcz
+                                             libffi.tcz
+                                             pcre21042.tcz
+                                          graphite.tcz
+                                       bzip2-lib.tcz
+                                 freetype.tcz
+                                    libpng.tcz
+                                    harfbuzz.tcz
+                                       glib2.tcz
+                                          libffi.tcz
+                                          pcre21042.tcz
+                                       graphite.tcz
+                                    bzip2-lib.tcz
+                                 libXrender.tcz
+                                    libX11.tcz
+                                       libxcb.tcz
+                                          libXau.tcz
+                                          libXdmcp.tcz
+                              fribidi.tcz
+                                 glib2.tcz
+                                    libffi.tcz
+                                    pcre21042.tcz
                            libXcursor.tcz
                               libXrender.tcz
                                  libX11.tcz
@@ -12868,6 +13335,37 @@ libshumate-dev.tcz
                                        libXau.tcz
                                        libXdmcp.tcz
                               libXfixes.tcz
+                                 libX11.tcz
+                                    libxcb.tcz
+                                       libXau.tcz
+                                       libXdmcp.tcz
+                           libjpeg-turbo.tcz
+                           libXinerama.tcz
+                              libXext.tcz
+                                 libX11.tcz
+                                    libxcb.tcz
+                                       libXau.tcz
+                                       libXdmcp.tcz
+                           libXft.tcz
+                              fontconfig.tcz
+                                 expat2.tcz
+                                 freetype.tcz
+                                    libpng.tcz
+                                    harfbuzz.tcz
+                                       glib2.tcz
+                                          libffi.tcz
+                                          pcre21042.tcz
+                                       graphite.tcz
+                                    bzip2-lib.tcz
+                              freetype.tcz
+                                 libpng.tcz
+                                 harfbuzz.tcz
+                                    glib2.tcz
+                                       libffi.tcz
+                                       pcre21042.tcz
+                                    graphite.tcz
+                                 bzip2-lib.tcz
+                              libXrender.tcz
                                  libX11.tcz
                                     libxcb.tcz
                                        libXau.tcz
@@ -13261,14 +13759,66 @@ libshumate-dev.tcz
                                     libxcb.tcz
                                        libXau.tcz
                                        libXdmcp.tcz
-                        fltk-1.3.tcz
-                           libXext.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                           libjpeg-turbo.tcz
-                           libpng.tcz
+                        fltk-1.4.tcz
+                           wayland.tcz
+                              libffi.tcz
+                              expat2.tcz
+                              libxml2.tcz
+                                 liblzma.tcz
+                           libxkbcommon.tcz
+                              xkeyboard-config.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                           pango.tcz
+                              cairo.tcz
+                                 glib2.tcz
+                                    libffi.tcz
+                                    pcre21042.tcz
+                                 fontconfig.tcz
+                                    expat2.tcz
+                                    freetype.tcz
+                                       libpng.tcz
+                                       harfbuzz.tcz
+                                          glib2.tcz
+                                             libffi.tcz
+                                             pcre21042.tcz
+                                          graphite.tcz
+                                       bzip2-lib.tcz
+                                 pixman.tcz
+                                 libpng.tcz
+                                 libX11.tcz
+                                    libxcb.tcz
+                                       libXau.tcz
+                                       libXdmcp.tcz
+                              libXft.tcz
+                                 fontconfig.tcz
+                                    expat2.tcz
+                                    freetype.tcz
+                                       libpng.tcz
+                                       harfbuzz.tcz
+                                          glib2.tcz
+                                             libffi.tcz
+                                             pcre21042.tcz
+                                          graphite.tcz
+                                       bzip2-lib.tcz
+                                 freetype.tcz
+                                    libpng.tcz
+                                    harfbuzz.tcz
+                                       glib2.tcz
+                                          libffi.tcz
+                                          pcre21042.tcz
+                                       graphite.tcz
+                                    bzip2-lib.tcz
+                                 libXrender.tcz
+                                    libX11.tcz
+                                       libxcb.tcz
+                                          libXau.tcz
+                                          libXdmcp.tcz
+                              fribidi.tcz
+                                 glib2.tcz
+                                    libffi.tcz
+                                    pcre21042.tcz
                            libXcursor.tcz
                               libXrender.tcz
                                  libX11.tcz
@@ -13276,6 +13826,37 @@ libshumate-dev.tcz
                                        libXau.tcz
                                        libXdmcp.tcz
                               libXfixes.tcz
+                                 libX11.tcz
+                                    libxcb.tcz
+                                       libXau.tcz
+                                       libXdmcp.tcz
+                           libjpeg-turbo.tcz
+                           libXinerama.tcz
+                              libXext.tcz
+                                 libX11.tcz
+                                    libxcb.tcz
+                                       libXau.tcz
+                                       libXdmcp.tcz
+                           libXft.tcz
+                              fontconfig.tcz
+                                 expat2.tcz
+                                 freetype.tcz
+                                    libpng.tcz
+                                    harfbuzz.tcz
+                                       glib2.tcz
+                                          libffi.tcz
+                                          pcre21042.tcz
+                                       graphite.tcz
+                                    bzip2-lib.tcz
+                              freetype.tcz
+                                 libpng.tcz
+                                 harfbuzz.tcz
+                                    glib2.tcz
+                                       libffi.tcz
+                                       pcre21042.tcz
+                                    graphite.tcz
+                                 bzip2-lib.tcz
+                              libXrender.tcz
                                  libX11.tcz
                                     libxcb.tcz
                                        libXau.tcz
@@ -15717,14 +16298,66 @@ libshumate-dev.tcz
                                        libxcb.tcz
                                           libXau.tcz
                                           libXdmcp.tcz
-                           fltk-1.3.tcz
-                              libXext.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
-                              libjpeg-turbo.tcz
-                              libpng.tcz
+                           fltk-1.4.tcz
+                              wayland.tcz
+                                 libffi.tcz
+                                 expat2.tcz
+                                 libxml2.tcz
+                                    liblzma.tcz
+                              libxkbcommon.tcz
+                                 xkeyboard-config.tcz
+                                 libxcb.tcz
+                                    libXau.tcz
+                                    libXdmcp.tcz
+                              pango.tcz
+                                 cairo.tcz
+                                    glib2.tcz
+                                       libffi.tcz
+                                       pcre21042.tcz
+                                    fontconfig.tcz
+                                       expat2.tcz
+                                       freetype.tcz
+                                          libpng.tcz
+                                          harfbuzz.tcz
+                                             glib2.tcz
+                                                libffi.tcz
+                                                pcre21042.tcz
+                                             graphite.tcz
+                                          bzip2-lib.tcz
+                                    pixman.tcz
+                                    libpng.tcz
+                                    libX11.tcz
+                                       libxcb.tcz
+                                          libXau.tcz
+                                          libXdmcp.tcz
+                                 libXft.tcz
+                                    fontconfig.tcz
+                                       expat2.tcz
+                                       freetype.tcz
+                                          libpng.tcz
+                                          harfbuzz.tcz
+                                             glib2.tcz
+                                                libffi.tcz
+                                                pcre21042.tcz
+                                             graphite.tcz
+                                          bzip2-lib.tcz
+                                    freetype.tcz
+                                       libpng.tcz
+                                       harfbuzz.tcz
+                                          glib2.tcz
+                                             libffi.tcz
+                                             pcre21042.tcz
+                                          graphite.tcz
+                                       bzip2-lib.tcz
+                                    libXrender.tcz
+                                       libX11.tcz
+                                          libxcb.tcz
+                                             libXau.tcz
+                                             libXdmcp.tcz
+                                 fribidi.tcz
+                                    glib2.tcz
+                                       libffi.tcz
+                                       pcre21042.tcz
                               libXcursor.tcz
                                  libXrender.tcz
                                     libX11.tcz
@@ -15732,6 +16365,37 @@ libshumate-dev.tcz
                                           libXau.tcz
                                           libXdmcp.tcz
                                  libXfixes.tcz
+                                    libX11.tcz
+                                       libxcb.tcz
+                                          libXau.tcz
+                                          libXdmcp.tcz
+                              libjpeg-turbo.tcz
+                              libXinerama.tcz
+                                 libXext.tcz
+                                    libX11.tcz
+                                       libxcb.tcz
+                                          libXau.tcz
+                                          libXdmcp.tcz
+                              libXft.tcz
+                                 fontconfig.tcz
+                                    expat2.tcz
+                                    freetype.tcz
+                                       libpng.tcz
+                                       harfbuzz.tcz
+                                          glib2.tcz
+                                             libffi.tcz
+                                             pcre21042.tcz
+                                          graphite.tcz
+                                       bzip2-lib.tcz
+                                 freetype.tcz
+                                    libpng.tcz
+                                    harfbuzz.tcz
+                                       glib2.tcz
+                                          libffi.tcz
+                                          pcre21042.tcz
+                                       graphite.tcz
+                                    bzip2-lib.tcz
+                                 libXrender.tcz
                                     libX11.tcz
                                        libxcb.tcz
                                           libXau.tcz
