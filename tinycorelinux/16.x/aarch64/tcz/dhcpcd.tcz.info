@@ -1,0 +1,24 @@
+Title:          dhcpcd.tcz
+Description:    DHCP Client Daemon
+Version:        10.1.0
+Author:         Roy Salisbury Marples
+Original-site:  https://roy.marples.name/projects/dhcpcd/
+Copying-policy: BSD
+Size:           156K
+Extension_by:   polikuo
+Tags:           dhcp client daemon
+Comments:       An alternative DHCP client in case busybox doesn't work.
+                Compiled with privsep disabled
+                To connect to the internet:
+                  $ sudo su
+                  # pkill udhcpc
+                  # dhcpcd
+                The service should background itself and return to prompt.
+                ----------
+                This extension contains:
+                dhcpcd-10.1.0 - BSD - https://github.com/NetworkConfiguration/dhcpcd/releases/download/v10.1.0/dhcpcd-10.1.0.tar.xz                ----------
+                Compiled for 15.x aarch64
+                ----------
+Change-log:     2020/10/27 First Version
+                2025/02/04 9.3.1 --> 10.1.0
+Current:        2025/02/04 9.3.1 --> 10.1.0

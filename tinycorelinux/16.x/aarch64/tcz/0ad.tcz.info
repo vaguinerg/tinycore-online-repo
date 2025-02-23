@@ -1,0 +1,40 @@
+Title:          0ad.tcz
+Description:    0 A.D.
+Version:        0.0.25b-alpha
+Author:         see site below
+Original-site:  https://play0ad.com/
+Copying-policy: GPLv2, LGPLv2.1, MIT
+Size:           13M
+Extension_by:   polikuo
+Tags:           RTS game historical Real Time Strategy
+Comments:       A free, open-source game of ancient warfare
+                It's recommended to load graphics-KERNEL.tcz
+                ----------
+                Hardware:
+                I'm using Raspberry pi 4 4G with default setting
+                The game is fairly playable, but could be glitchy
+                from time to time.
+                ----------
+                Data:
+                Download the official data file and extract
+                in your local disk and create links to the system.
+                The data directory is configured to:
+                /usr/local/games/0ad/
+                ----------
+                Sound:
+                The game is able to run with alsa only.
+                If you have pulseaudio in your system,
+                the game will use that instead of alsa.
+                0ad actually use openal to handle sound.
+                Make sure you've pick the right outputting sound card,
+                it took me a while to realize my pulseaudio is
+                set to HDMI output rather than 3.5 audio jack.
+                ----------
+                This extension contains:
+                https://releases.wildfiregames.com/0ad-0.0.25b-alpha-unix-build.tar.xz
+                https://releases.wildfiregames.com/0ad-0.0.25b-alpha-unix-data.tar.xz
+                ----------
+                Compiled for 13.x aarch64
+                ----------
+Change-log:     2022/03/24 First version
+Current:        2022/03/24 First version

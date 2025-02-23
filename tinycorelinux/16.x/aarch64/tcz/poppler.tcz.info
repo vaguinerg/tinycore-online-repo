@@ -1,0 +1,29 @@
+Title:          poppler.tcz
+Description:    library for rendering PDF files
+Version:        23.06.0
+Author:         Albert Astals Cid (forked from Derek Noonburg xpdf)
+Original-site:  https://poppler.freedesktop.org/
+Copying-policy: GPL v2
+Size:           1.6M
+Extension_by:   aus9
+Tags:           pdf
+Comments:       library for rendering PDF files, and examining or
+                modifying their structure.  
+                poppler is a fork of xpdf-3.00
+                
+                pdfattach - add new PDF as an attachment to some PDF
+                pdfdetach - lists or extracts embedded files 
+                pdffonts - font analyzer
+                pdfimages - image extractor
+                pdfinfo - document information
+                pdfseparate - page extraction tool
+                pdftocairo - PDF to PNG/JPEG/PDF/PS/EPS/SVG converter using Cairo
+                pdftohtml - PDF to HTML converter
+                pdftoppm - PDF to PPM/PNG/JPEG image converter
+                pdftops - PDF to PostScript converter
+                pdftotext - text extraction
+                pdfunite - document merging tool
+
+Change-log:     2020/09/25 v 20.09.0 on 12.x 
+                2020/11/09 rebuilt for glib2 for sane support
+Current:        2023/06/13 v 23.06.0 on 14.x    

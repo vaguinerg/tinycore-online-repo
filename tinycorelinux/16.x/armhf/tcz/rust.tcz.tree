@@ -1,0 +1,17 @@
+rust.tcz
+   llvm19-lib.tcz
+      gcc_libs.tcz
+      libxml2.tcz
+         liblzma.tcz
+      ncurses.tcz
+      zstd.tcz
+         libzstd.tcz
+         liblzma.tcz
+         liblz4.tcz
+   curl.tcz
+      openssl.tcz
+         ca-certificates.tcz
+   libssh2.tcz
+      openssl.tcz
+         ca-certificates.tcz
+

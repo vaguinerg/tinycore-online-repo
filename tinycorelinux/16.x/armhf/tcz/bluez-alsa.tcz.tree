@@ -1,0 +1,32 @@
+bluez-alsa.tcz
+   glibc_add_lib.tcz
+   glib2.tcz
+      gamin.tcz
+      libelf.tcz
+      pcre2.tcz
+   ncurses.tcz
+   libbluetooth.tcz
+      bluez.tcz
+         dbus.tcz
+            expat2.tcz
+            libSM.tcz
+               libICE.tcz
+            libX11.tcz
+               libxcb.tcz
+                  libXau.tcz
+                  libXdmcp.tcz
+         udev-lib.tcz
+         libical.tcz
+            icu.tcz
+         bluetooth-6.12.15-piCore-v7.tcz
+            firmware-rpi-bt.tcz
+         sbc.tcz
+         readline.tcz
+            ncurses.tcz
+   sbc.tcz
+   libasound.tcz
+      alsa-modules-6.12.15-piCore-v7.tcz
+   libopenaptx.tcz
+   libfdk-aac.tcz
+   libldac.tcz
+

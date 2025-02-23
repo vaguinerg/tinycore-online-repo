@@ -1,0 +1,20 @@
+Title:          lld.tcz
+Description:    The LLVM Linker
+Version:        19.1.0
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size:           23M
+Extension_by:   polikuo
+Tags:           low level virtual machine llvm linker
+Comments:       LLD is a linker from the LLVM project that is a
+                drop-in replacement for system linkers and runs much faster than them.
+                It also provides features that are useful for toolchain developers.
+                ----------
+                This extension contains:
+                lld-19.1.0 - (c) University of Illinois - https://github.com/llvm/llvm-project/releases/download/llvmorg-19.1.0/lld-19.1.0.src.tar.xz
+                libunwind-19.1.0 - (c) University of Illinois - https://github.com/llvm/llvm-project/releases/download/llvmorg-19.1.0/libunwind-19.1.0.src.tar.xz
+                ----------
+Change-log:     2023/08/15 First version
+                2024/12/12 15.0.7 --> 19.1.0
+Current:        2024/12/12 15.0.7 --> 19.1.0

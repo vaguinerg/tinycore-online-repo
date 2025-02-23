@@ -1,0 +1,18 @@
+Title:          man-db.tcz
+Description:    man page viewer 
+Version:        2.11.2
+Author:         Colin Watson 
+Original-site:  http://savannah.nongnu.org/projects/man-db
+Copying-policy: GPL v3
+Size:           324K
+Extension_by:   aus9 
+Tags:           man-db man pages
+Comments:       terminal software to read man pages 
+                $ man <man-page-name>
+ 
+                WARNING setting setuid for user=man has not been compiled so 
+                $ mandb -t (and some others) will fail. Most people will only
+                want to read man pages and not create them here. IMHO
+               
+Change-log:     2023/06/23 v 2.11.2 on 14.x 
+Current:        2023/06/23  

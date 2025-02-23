@@ -1,0 +1,19 @@
+Title:          squashfs-tools.tcz
+Description:    Compressed read-only file filesystem tools
+Version:        4.6.1
+Author:         Many, see source tarball for list
+Original-site:  http://squashfs.sourceforge.net
+Copying-policy: GPL v2
+Size:           176KB
+Extension_by:   paul-123
+Tags:           CLI
+Comments:       Binaries only
+                ----
+                default gzip 16k block size (needed for pi5)
+                ----                
+Change-log:     2020/07/22 First version 4.4
+                2020/10/05 Rebuilt with blocksize patch
+                2020/11/25 Removed list file that made it into .tcz
+                2023/04/08 Update to version, 4.6.1
+                2024/04/06 Rebuilt with default blocksize 16384 under 15.x
+Current:        2024/04/13 Recompiled with new 16k blocksize
