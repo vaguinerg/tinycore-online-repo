@@ -1,0 +1,15 @@
+rust-bindgen.tcz
+   rust.tcz
+      llvm19-lib.tcz
+         libffi.tcz
+         libxml2.tcz
+            liblzma.tcz
+         libzstd.tcz
+         ncursesw.tcz
+      curl.tcz
+         ca-certificates.tcz
+            openssl.tcz
+         libzstd.tcz
+      libssh2.tcz
+         openssl.tcz
+
