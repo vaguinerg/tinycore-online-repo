@@ -1,17 +1,20 @@
 Title:          mesa-demos.tcz
 Description:    3d graphics demos/info
-Version:        8.4.0
+Version:        9.0.0
 Author:         see list of sites below
 Original-site:  see list of sites below
 Copying-policy: see list of sites below
-Size: 2.7MB
+Size: 7.6MB
 Extension_by:   juanito
-Tags:	        3d graphics demo info
-Comments:       3d graphics demos and info (glxgears glxinfo)
+Tags:	        3d graphics demo info x11 wayland vulkan
+Comments:       3d graphics demos and info (gears glinfo vkgears)
+                ----------
+                can opitonally use wayland/libdecor or Xorg-7.7-3d-vulkan
                 ----------
                 This extension contains:
-                mesa-demos-8.4.0 - GPLv2 -  ftp://ftp.freedesktop.org/pub/mesa/demos/mesa-demos-8.4.0.tar.bz2
+                mesa-demos-9.0.0 - GPLv2 - https://archive.mesa3d.org/demos/mesa-demos-9.0.0.tar.xz
                 ----------
 Change-log:     2018/03/30 first version
                 2019/04/04 recompiled against mesa-19.0.1
-Current:        2019/11/11 recompiled against mesa-19.2.3
+                2019/11/11 recompiled against mesa-19.2.3
+Current:        2025/03/07 updated 8.4.0 -> 9.0.0
