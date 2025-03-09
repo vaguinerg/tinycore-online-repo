@@ -1,30 +1,38 @@
 Title:          weston.ini.tcz  
-Description:    Create read-write weston.ini file
-Version:        2
+Description:    an read-write config for weston 
+Version:        3
 Author:         aus9 
 Original-site:  Cheating off     https://www.mankier.com/5/weston.ini
                 and modes mainly https://www.mankier.com/7/weston-drm
 Copying-policy: Open source
 Size:           4.0K
 Extension_by:   aus9 @linuxquestions.org
-Tags:           weston
-Comments:       Read Write file= ~/.config/weston.ini
-                Install script does not overwrite any existing ini file
+Tags:           weston compositor wayland
+Comments:       config file will create at   ~/.config/weston.ini
+                
+                (Upgrade) install script will destroy exiting config file
+                so move your current out of ~/.config. This TCE is therefore 
+                designed to be run only once, then you make changes to config file
+                So do NOT have this in your boot list please.
 
-                At time of posting, there is a broken pipe issue if you run
-                $ tce-load <TCEs> in weston-terminal so I have changed the ini
-                to show sakura but its not a dep!
-                sakura is gtk3 so can run on pure wayland. 
+                There are independent keybindings showing here
+                https://wiki.archlinux.org/title/Weston#Shortcuts
 
-                After downloading this TCE, load it and edit it to your preferences using links above.
-
-                weston does not have xwayland as a dep. Its needed if you intend to run
-                any of the fltk GUIs eg exittc, mntttol, apps. I have disabled xwayland in 
-                2 settings in case you prefer not to use xwayland.
-
-                Without xwayland run $ exitcheck.sh reboot (to reboot) or drop reboot to poweroff
+                Without xwayland loaded, run $ exitcheck.sh reboot (to reboot) 
+                or drop reboot to poweroff. All fltk GUIs work without xwayland
+                EXCEPT exittc.
+                
+                Optional TCEs/commands depend on what you need to config
+                TCE=xwayland a dep of this TCE but not yet a dep of weston
+                TCE=Xorg-7.7-bin allows $ xrandr -q for output settings
+                TCE=colord provides files like Bluish.icc
+                TCE=sakura reduces broken pipe errors vs weston-terminal YMMV
+                
+                No sound is setup so TCEs will vary depending on whether you prefer
+                alsa (with optional apulse), pulseaudio/pavucontrol*, pipewire and naturally
+                read the relevant info files please
 
 Change-log:     2018/11/27  v 1 
                 2024/04/05  v 2
-Current:        2024/04/22 fix xwayland & mention sakura terminal for broken pipe issue
-
+                2024/04/22 fix xwayland & mention sakura terminal for broken pipe issue (had install script)
+Current:        2025/03/05 v 3 script - enable xwayland  

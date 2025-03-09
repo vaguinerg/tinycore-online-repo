@@ -54,34 +54,35 @@ system-config-printer.tcz
             ncursesw.tcz
          libffi.tcz
       cups.tcz
-         libcups.tcz
-            libavahi.tcz
-               dbus.tcz
-                  expat2.tcz
-                  elogind.tcz
-                     acl.tcz
-                        attr.tcz
-                     libcap.tcz
-                        attr.tcz
-                     util-linux.tcz
-                        readline.tcz
-                           ncursesw.tcz
-                        udev-lib.tcz
-                     linux-pam.tcz
-               gcc_libs.tcz
-               glib2.tcz
-                  libffi.tcz
-                  pcre21042.tcz
-            gnutls38.tcz
-               p11-kit.tcz
-                  libffi.tcz
-                  libtasn1-4.tcz
-               nettle39.tcz
-                  gmp.tcz
-               libidn2.tcz
-                  libunistring.tcz
-                  ncursesw.tcz
-               libzstd.tcz
+         ipptool.tcz
+            libcups.tcz
+               libavahi.tcz
+                  dbus.tcz
+                     expat2.tcz
+                     elogind.tcz
+                        acl.tcz
+                           attr.tcz
+                        libcap.tcz
+                           attr.tcz
+                        util-linux.tcz
+                           readline.tcz
+                              ncursesw.tcz
+                           udev-lib.tcz
+                        linux-pam.tcz
+                  gcc_libs.tcz
+                  glib2.tcz
+                     libffi.tcz
+                     pcre21042.tcz
+               gnutls38.tcz
+                  p11-kit.tcz
+                     libffi.tcz
+                     libtasn1-4.tcz
+                  nettle39.tcz
+                     gmp.tcz
+                  libidn2.tcz
+                     libunistring.tcz
+                     ncursesw.tcz
+                  libzstd.tcz
          dbus.tcz
             expat2.tcz
             elogind.tcz
