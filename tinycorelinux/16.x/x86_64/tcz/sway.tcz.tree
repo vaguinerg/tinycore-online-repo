@@ -521,7 +521,7 @@ sway.tcz
                   openssl.tcz
                   pixman.tcz
                   libxcvt.tcz
-            llvm15-lib.tcz
+            llvm19-lib.tcz
                libffi.tcz
                libxml2.tcz
                   liblzma.tcz
@@ -647,10 +647,7 @@ sway.tcz
             libxml2.tcz
                liblzma.tcz
          gdk-pixbuf2-xlib.tcz
-      glib2.tcz
-         libffi.tcz
-         pcre21042.tcz
-      wlroots.tcz       
+      wayland.tcz       
    graphics-6.12.11-tinycore64.tcz
       i2c-6.12.11-tinycore64.tcz
    leafpad.tcz

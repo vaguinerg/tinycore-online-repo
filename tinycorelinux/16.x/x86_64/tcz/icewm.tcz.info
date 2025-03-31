@@ -1,6 +1,6 @@
 Title:          icewm.tcz
 Description:    Stacking Window Manager 
-Version:        3.6.0
+Version:        3.7.2
 Author:         https://github.com/bbidulock/icewm/blob/icewm-1-4-BRANCH/AUTHORS
 Original-site:  https://github.com/ice-wm/icewm
 Copying-policy: LGPL v2 
@@ -10,46 +10,41 @@ Tags:           window manager wm
 Comments:       manual https://tinyurl.com/4tpya6f5
                 
                 Most preferences can change via menu button or context menu. 
+                For a RH mouse user context=RH mouse aka button 2
                 Please read configs under ~/icewm. TCEs named in keyboard 
-                shortcuts have no deps set except lxterminal. I am unable to 
-                test on basic X so am using  Xorg-7.7 (2d) as a dep. Be aware 
-                that IceWM uses this order: prefoverride over theme over preferences
+                shortcuts have no deps set. On my AMD APU I needed Xorg-7.7 
+                (2d or 3d) as a dep. Be aware that IceWM uses this order: 
+                prefoverride over theme over preferences
                 
                 icewmbg can control background or wallpaper(s) Or use pcmanfm 
                 for another wallpaper method  https://tinyurl.com/y3ouvb94
 
                 For all changes to a config file, or any TCE added after boot,
                 that has a kb combo set.....needs WM refresh with kb combo of
-                logo+z      logo = Super key
-                Please input logo+z in an empty workspace for maximum safety
+                Alt +z ...Input Alt+z in an empty workspace for maximum safety
 
-                optional TCEs not already mentioned include: 
-                icewm-themes only nanoblue theme in this TCE
-                icewm-locale..xscreensaver and read infos please
-                menumaker (for menu generation each time you load a new TCE) 
-                I prefer it over icewm-menu-fdo              
+                optional TCEs 
+                icewm-themes as icewm TCE has only nanoblue 
+                icewm-locale & xscreensaver and read their infos please
+                menumaker but icewm menu now seems better
+                volumeicon  - due to dark panel mouse hover left of net applet RH corner
+                ............context menu -> RH mouse for RH mouse users, 
+                ............change status icon to white gnome YMMV 
+                ............or change theme
+                arandr seems better than inbuilt icewm-menu-xrandr     
                 
                 To allow you to keep wbar, ~/icewm/preferences 
                 now reads TaskBarAtTop=1 # 0/1
-
-                On my AMD APU, I needed Xorg-7.7 too....YMMV
-
+                
                 If you see a locale error in your terminal by running 
                 $ icewm -V 
-                Paste the following into your .ashrc ( change lang to suit)
-                export LC_ALL="en_US.UTF-8" && export LC_CTYPE="en_US.UTF-8"
-                (and I have no mention of G_FILENAME_ENCODING=@locale
-                or any other locale setting in .ashrc .bashrc .profile)
-
-New Features
-Double-click anywhere in titlebar maximizes App
-Double-click edge (when pointer changes to resize) -> maximizes that side
-Double-click corners to maximize that corner. 
-
-Double-click to reverse above options.
-                
+                Paste the following into your .ashrc (change lang to suit)
+                export LANG="en_US.UTF-8"  and full reboot.  
+                If you use gtk apps read getlocale info please
+               
 Change-log:     2020/07/22 v 1.7.0 on 11x
                 2020/11/29 Removed /tmp/tcloop/... from path in tce.installed script. (Rich)
                 2023/03/20 v 3.2.2 on 14x nanoblue lxterminal delete icehelp*   
                 2023/03/28 v 3.4.7 on 15x icehelp back in, icon caching ignored, aterm is back in 
-Current:        2024/08/02 v 3.6.0 
+                2024/08/02 v 3.6.0 on 15x modifier key was Windows TM logo key
+Current:        2025/03/11 v 3.7.2 on 16x, change modifier key to Alt  for Apps launchers

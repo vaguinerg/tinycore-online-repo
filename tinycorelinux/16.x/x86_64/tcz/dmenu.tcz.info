@@ -1,17 +1,64 @@
-Title:          dmenu.tcz
-Description:    dynamic menu for X
-Version:        5.2
-Author:         see list of sites below
-Original-site:  see list of sites below
-Copying-policy: see list of sites below
-Size:		20K
-Extension_by:   gnuser
-Tags:	        dynamic menu suckless
-Comments:       ----------
-                This extension contains:
-                dmenu-5.2 - MIT/X - https://dl.suckless.org/tools/dmenu-5.2.tar.gz
-                ----------
-Change-log:     2018/07/27 first version (aus9)
-                2020/06/28 updated 4.8 -> 4.9 (aus9)
-                2023/03/15 updated 4.9 -> 5.2 (aus9)
-Current:        2023/11/01 recompiled with center patch for -c option
+Title:          dmenu.tcz   
+Description:    Dynamic Menu Launcher for X or wayland
+Version:        5.3
+Author:         Hiltjo Posthuma
+Original-site:  https://tools.suckless.org/dmenu/
+Copying-policy: accompanied
+Size:           20K
+Extension_by:   aus9 
+Tags:           launcher menu
+Comments:       A tool that can search executables on X 
+                or wayland compositors. When active, you type a 
+                command and it attempts to launch the highlighted entry 
+                when you press the Enter key. Search is exact spelling 
+                but not all letters needed.
+                Can search pathway $HOME/.local/bin
+
+                Lets type exit gives 2 selections exitcheck.sh and exittc
+                If you press the TAB key you are selecting the hightlighted item
+                which in example =  exitcheck.sh and exittc disappears
+                Therefore avoid using the TAB key.  If you press -> arrow key,
+                you can choose to highlight a different selection choice.
+                If exitcheck.sh is your target (its already highlighted) 
+                press enter. Otherwise type more letters eg exitt...
+                to get one selection or use arrow keys to hightlight it.
+
+                If your desktop allows it, create a keyboard  (KB) shortcut
+                If you change your mind, or mis-type....press Escape key
+                to exit dmenu. While dmenu is active, you can not use KB shortcuts.
+
+                If your search input is for a non-executable (eg) zzz
+                you lose all hits and if you forget to Escape and press enter 
+                you are launching a missing executable called zzz and will get
+                a not found error. 
+ 
+                How to run on X (tested on jwm-full)
+                ###############
+                $ dmenu_run 
+                For a large font eg
+                $ dmenu_run -fn sans-20
+ 
+                How to run on Sway
+                ##################
+                Press keys logo (and) d to start dmenu
+                Follow above for the rest.
+
+                How to run on labwc or weston
+                #########################
+                Same as X unless you have a launcher icon on weston
+                
+                Possible Glitches
+                #################
+                On flwm, dmenu may cover any open app that is
+                at the top of your monitor. So to close an app,
+                you may have to either launch an app or press escape,
+                while dmenu active.
+                You can safely ignore any msg about
+                /home/<name>/.cache/dmenu_run: No such file or directory
+                that file is created, after first run is complete
+                                
+Change-log:     2018/07/26 Original 4.8 on 9x 
+                2020/06/28 v 4.9 on 11x
+                2023/03/15 v 5.2 on 14x 
+                2023/11/01 recompiled with center patch for -c option (GNUser)
+Current:        2025/03/14 v 5.3 on 16x (aus9)

@@ -1,0 +1,65 @@
+Title:          notion.tcz TESTING
+Description:    Static tabbed tiling window manager
+Version:        4.0.3
+Author:         https://github.com/raboof/notion/blob/main/AUTHORS
+Original-site:  https://notionwm.net/
+Copying-policy: LGPL v 2.1
+Size:           476K
+Extension_by:   aus9 @ linuxquestions.org
+Tags:           window manager wm tiling
+Comments:       Do NOT use Apps "OnBoot" pulldown until you know how to use this WM.
+ 
+                Supports autostarted software in ~/.X.d but all of them
+                cover up the welcome page until you close them.
+                
+                Supports workspaces but no window decorations to use mouse kills
+                Most GUIs allow Ctrl+q to quit eg l3afpad, pcmanfm but
+                lxterminal uses  Ctrl+Shift+q. Otherwise use context menu to quit app.
+                For a right hand mouse user - context menu is the right button 
+               
+                Static means you can manually resize frames.
+                Keyboard shortcuts  https://notionwm.net/notionkeys.html
+                Intro https://notionwm.net/tour.html
+                Youtube https://youtu.be/4tkTc6U08DE?si=BCVPn44-23jBqreK
+                Windows logo key=mod4=META  
+                F2 will start lxterminal ditto logo+Enter
+
+                 logo+x kills active frame, you start with 2 frames.
+                Each frame can have multiple tabs. If you kill all frames
+                accidently -> logo+F9 starts afresh.
+                F11 may maximise current client (software) but only inside frame size
+                If you plan to use firefox please kill one frame as F11 is also a firefox
+                keybinding which interferes if you have more than one frame open
+
+                logo+j --- starts inbuilt run command similar to flrun
+                -----use TAB key to autocomplete when sufficient letters input
+                Executing F2, logo+Enter or a run command creates a TAB in 
+                current frame.
+                Use mouse to focus frame or logo+TAB to cycle thru frames
+
+                F12 main menu  = logo+m
+                A combined welcome and man page is displayed on launch
+                but it difficult to read instead run $ man notion 
+    
+               F12 and select looks to change theme. Bottom panel prompts to save 
+               changes....input y to save. Check ~/.notion files 
+               LUA users may want to copy files from /usr/local/etc/notion to ~/.notion
+               If so also read $ man notionflux
+
+               On my AMD APU I needed Xorg YMMV. I tested on a single monitor.
+               Wayland not supported. ssh untested by me. Inbuilt man page displays 
+               poorly with groff so TCE contains normal man pages so run
+               $ man notion
+
+               If you are in trouble try F3 input=exittc select shutdown or try
+               logo+Enter  input=exittcheck.sh and press enter
+               Experienced users can delete tce.installed/desktop and reload it 
+               then startx
+
+
+               Optional TCE  
+               dmenu if you are unable to increase font size for inbuilt  launcher
+               notion-doc is a removable as inbuilt man viewer uses groff and is "unreadable" IMHO            
+               
+Change-log:     2025/03/18 v 4.0.3 on 16x, inbuilt man page needs groff not man-db for welcome page
+Current:        2025/03/18  
