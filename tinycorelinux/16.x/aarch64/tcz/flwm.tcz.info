@@ -4,7 +4,7 @@ Version:        1.20
 Author:         Bill Spitzak
 Original-site:  http://flwm.sourceforge.net
 Copying-policy: GPL
-Size:		32KB
+Size:		28KB
 Extension_by:   juanito
 Tags:		fltk window manager X
 Comments:       For microcore, as found in tinycore v2.4
@@ -25,6 +25,6 @@ Comments:       For microcore, as found in tinycore v2.4
 		flwm now optionally supports environment variable FLWM_TITLEBAR_COLOR to set color for window title bars.
 		To set use hex rgb, e.g, 20:5F:20 (Currently supports fltk gtk+ scheme.)
                 ----
-Change-log:     first version
-		2020/08/11
-Current:	2020/09/23 Fixed exec= parsing issue in _menu_common script. (Rich)
+Change-log:     2020/08/11 first version
+                2020/09/23 Fixed exec= parsing issue in _menu_common script (Rich)
+Current:	2025/04/02 updated for fltk-1.4
