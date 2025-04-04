@@ -4,15 +4,10 @@ Version:        0.8.18.1.11
 Author:         Steven Honeyman
 Original-site:  https://github.com/stevenhoneyman/l3afpad
 Copying-policy: LGPL v 2.1
-Size:           116K
+Size:           112K
 Extension_by:   aus9 @linuxquestions.org
 Tags:           gtk3 text editor
 Comments:       fork of leafpad to gtk3...Features:
-                Codeset option (Some OpenI18N registered)
-                Auto codeset detection &  Unlimitted Undo/Redo
-                Auto/Multi-line Indent & Display line numbers
-                Drag and Drop & Printing
-
                 keybindings
 Ctrl-N  New.......Ctrl-O Open........Ctrl-S Save
 Shift-Ctrl-S Save As.................Ctrl-W Close
@@ -32,4 +27,4 @@ Shift-Tab with selection bound  multi-line unindent
                 2) $ mupdf /pathway2/output.pdf 
 
 Change-log:     2025/01/01 v 0.8.18.1.11 on 15x
-Current:        2025/01/01
+Current:        2025/03/20 rebuilt on 16x - add missing glyph font dep
