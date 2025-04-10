@@ -774,17 +774,28 @@ gimp-dev.tcz
             json-c.tcz
             gcc_libs.tcz
       iso-codes.tcz
-      py3.8gobject.tcz
-         py3.8cairo.tcz
-            python3.8.tcz
+      py3.11gobject.tcz
+         python3.11.tcz
+            bzip2-lib.tcz
+            readline.tcz
+               ncurses.tcz
+            gdbm.tcz
+            liblzma.tcz
+            openssl.tcz
+               ca-certificates.tcz
+            sqlite3.tcz
+            ncurses.tcz
+         py3.11cairo.tcz
+            python3.11.tcz
                bzip2-lib.tcz
+               readline.tcz
+                  ncurses.tcz
                gdbm.tcz
                liblzma.tcz
                openssl.tcz
                   ca-certificates.tcz
-               readline.tcz
-                  ncurses.tcz
                sqlite3.tcz
+               ncurses.tcz
             cairo.tcz
                glib2.tcz
                   gamin.tcz
@@ -3793,6 +3804,7 @@ gimp-dev.tcz
                   liblzma.tcz
                liblz4-dev.tcz
                   liblz4.tcz
+   gtk3-dev
    appstream-glib-dev.tcz
       appstream-glib.tcz
          libarchive.tcz
@@ -5496,6 +5508,69 @@ gimp-dev.tcz
                   bzip2.tcz
                      bzip2-lib.tcz
                zlib_base-dev.tcz
+   libarchive-dev.tcz
+      libarchive.tcz
+         openssl.tcz
+            ca-certificates.tcz
+         zstd.tcz
+            libzstd.tcz
+            liblzma.tcz
+            liblz4.tcz
+         bzip2-lib.tcz
+         libxml2.tcz
+            liblzma.tcz
+      openssl-dev.tcz
+         openssl.tcz
+            ca-certificates.tcz
+      zstd-dev.tcz
+         zstd.tcz
+            libzstd.tcz
+            liblzma.tcz
+            liblz4.tcz
+         liblzma-dev.tcz
+            liblzma.tcz
+         liblz4-dev.tcz
+            liblz4.tcz
+      bzip2-dev.tcz
+         bzip2.tcz
+            bzip2-lib.tcz
+      libxml2-dev.tcz
+         libxml2.tcz
+            liblzma.tcz
+   libmng-dev.tcz
+      libmng.tcz
+         libjpeg-turbo.tcz
+         liblcms2.tcz
+      libjpeg-turbo-dev.tcz
+         libjpeg-turbo-bin.tcz
+            libjpeg-turbo.tcz
+      lcms2-dev.tcz
+         lcms2-bin.tcz
+            liblcms2.tcz
+            libtiff.tcz
+               libjpeg-turbo.tcz
+               libwebp.tcz
+               liblzma.tcz
+               libzstd.tcz
+         tiff-dev.tcz
+            tiff-bin.tcz
+               libtiff.tcz
+                  libjpeg-turbo.tcz
+                  libwebp.tcz
+                  liblzma.tcz
+                  libzstd.tcz
+            libjpeg-turbo-dev.tcz
+               libjpeg-turbo-bin.tcz
+                  libjpeg-turbo.tcz
+            zstd-dev.tcz
+               zstd.tcz
+                  libzstd.tcz
+                  liblzma.tcz
+                  liblz4.tcz
+               liblzma-dev.tcz
+                  liblzma.tcz
+               liblz4-dev.tcz
+                  liblz4.tcz
    libmypaint-dev.tcz
       libmypaint.tcz
          glib2.tcz
@@ -5537,18 +5612,69 @@ gimp-dev.tcz
             zlib_base-dev.tcz
       json-c-dev.tcz
          json-c.tcz
-   py3.8gobject-dev.tcz
-      py3.8gobject.tcz
-         py3.8cairo.tcz
-            python3.8.tcz
+   gudev-lib-dev.tcz
+      gudev-lib.tcz
+         udev-lib.tcz
+         glib2.tcz
+            gamin.tcz
+            libelf.tcz
+            pcre2.tcz
                bzip2-lib.tcz
+      udev-lib-dev.tcz
+         udev-lib.tcz
+      glib2-dev.tcz
+         glib2-python.tcz
+            glib2.tcz
+               gamin.tcz
+               libelf.tcz
+               pcre2.tcz
+                  bzip2-lib.tcz
+            pcre2.tcz
+               bzip2-lib.tcz
+            python3.11.tcz
+               bzip2-lib.tcz
+               readline.tcz
+                  ncurses.tcz
                gdbm.tcz
                liblzma.tcz
                openssl.tcz
                   ca-certificates.tcz
+               sqlite3.tcz
+               ncurses.tcz
+         gamin-dev.tcz
+            gamin.tcz
+         libelf-dev.tcz
+            libelf.tcz
+         pcre2-dev.tcz
+            pcre2.tcz
+               bzip2-lib.tcz
+            bzip2-dev.tcz
+               bzip2.tcz
+                  bzip2-lib.tcz
+            zlib_base-dev.tcz
+   py3.11gobject-dev.tcz
+      py3.11gobject.tcz
+         python3.11.tcz
+            bzip2-lib.tcz
+            readline.tcz
+               ncurses.tcz
+            gdbm.tcz
+            liblzma.tcz
+            openssl.tcz
+               ca-certificates.tcz
+            sqlite3.tcz
+            ncurses.tcz
+         py3.11cairo.tcz
+            python3.11.tcz
+               bzip2-lib.tcz
                readline.tcz
                   ncurses.tcz
+               gdbm.tcz
+               liblzma.tcz
+               openssl.tcz
+                  ca-certificates.tcz
                sqlite3.tcz
+               ncurses.tcz
             cairo.tcz
                glib2.tcz
                   gamin.tcz
@@ -5594,17 +5720,18 @@ gimp-dev.tcz
                libelf.tcz
                pcre2.tcz
                   bzip2-lib.tcz
-      py3.8cairo-dev.tcz
-         py3.8cairo.tcz
-            python3.8.tcz
+      py3.11cairo-dev.tcz
+         py3.11cairo.tcz
+            python3.11.tcz
                bzip2-lib.tcz
+               readline.tcz
+                  ncurses.tcz
                gdbm.tcz
                liblzma.tcz
                openssl.tcz
                   ca-certificates.tcz
-               readline.tcz
-                  ncurses.tcz
                sqlite3.tcz
+               ncurses.tcz
             cairo.tcz
                glib2.tcz
                   gamin.tcz
@@ -5634,16 +5761,17 @@ gimp-dev.tcz
                      libxcb.tcz
                         libXau.tcz
                         libXdmcp.tcz
-         python3.8-dev.tcz
-            python3.8.tcz
+         python3.11-dev.tcz
+            python3.11.tcz
                bzip2-lib.tcz
+               readline.tcz
+                  ncurses.tcz
                gdbm.tcz
                liblzma.tcz
                openssl.tcz
                   ca-certificates.tcz
-               readline.tcz
-                  ncurses.tcz
                sqlite3.tcz
+               ncurses.tcz
             bzip2-dev.tcz
                bzip2.tcz
                   bzip2-lib.tcz
@@ -5669,6 +5797,8 @@ gimp-dev.tcz
                      ncurses.tcz
                   ncurses-dev.tcz
                      ncurses.tcz
+            ncurses-dev.tcz
+               ncurses.tcz
          cairo-dev.tcz
             cairo.tcz
                glib2.tcz
@@ -5958,4 +6088,105 @@ gimp-dev.tcz
                bzip2.tcz
                   bzip2-lib.tcz
             zlib_base-dev.tcz
+   libxslt-dev.tcz
+      libgcrypt-dev.tcz
+         libgcrypt.tcz
+            libgpg-error.tcz
+         libgpg-error-dev.tcz
+            libgpg-error.tcz
+      libxslt.tcz
+         libgcrypt.tcz
+            libgpg-error.tcz
+   libXmu-dev.tcz
+      libXmu.tcz
+         libXext.tcz
+            libX11.tcz
+               libxcb.tcz
+                  libXau.tcz
+                  libXdmcp.tcz
+         libXt.tcz
+            libICE.tcz
+            libSM.tcz
+            libX11.tcz
+               libxcb.tcz
+                  libXau.tcz
+                  libXdmcp.tcz
+      libXext-dev.tcz
+         libXext.tcz
+            libX11.tcz
+               libxcb.tcz
+                  libXau.tcz
+                  libXdmcp.tcz
+         libX11-dev.tcz
+            libX11.tcz
+               libxcb.tcz
+                  libXau.tcz
+                  libXdmcp.tcz
+            libxcb-dev.tcz
+               libxcb.tcz
+                  libXau.tcz
+                  libXdmcp.tcz
+               libXau-dev.tcz
+                  libXau.tcz
+               libXdmcp-dev.tcz
+                  libXdmcp.tcz
+               xcb-proto.tcz
+                  xorg-proto.tcz
+                     util-macros.tcz
+                        m4.tcz
+            xtrans.tcz
+      libXt-dev.tcz
+         libXt.tcz
+            libICE.tcz
+            libSM.tcz
+            libX11.tcz
+               libxcb.tcz
+                  libXau.tcz
+                  libXdmcp.tcz
+         libICE-dev.tcz
+            libICE.tcz
+         libSM-dev.tcz
+            libSM.tcz
+         libX11-dev.tcz
+            libX11.tcz
+               libxcb.tcz
+                  libXau.tcz
+                  libXdmcp.tcz
+            libxcb-dev.tcz
+               libxcb.tcz
+                  libXau.tcz
+                  libXdmcp.tcz
+               libXau-dev.tcz
+                  libXau.tcz
+               libXdmcp-dev.tcz
+                  libXdmcp.tcz
+               xcb-proto.tcz
+                  xorg-proto.tcz
+                     util-macros.tcz
+                        m4.tcz
+            xtrans.tcz
+   libXpm-dev.tcz
+      libXpm.tcz
+         libX11.tcz
+            libxcb.tcz
+               libXau.tcz
+               libXdmcp.tcz
+      libX11-dev.tcz
+         libX11.tcz
+            libxcb.tcz
+               libXau.tcz
+               libXdmcp.tcz
+         libxcb-dev.tcz
+            libxcb.tcz
+               libXau.tcz
+               libXdmcp.tcz
+            libXau-dev.tcz
+               libXau.tcz
+            libXdmcp-dev.tcz
+               libXdmcp.tcz
+            xcb-proto.tcz
+               xorg-proto.tcz
+                  util-macros.tcz
+                     m4.tcz
+         xtrans.tcz
 

@@ -25,6 +25,10 @@ patchage.tcz
                      libXau.tcz
                      libXdmcp.tcz
             libXcomposite.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
             libXcursor.tcz
                libXrender.tcz
                   libX11.tcz
@@ -232,7 +236,7 @@ patchage.tcz
          expat2.tcz
          libiec61883.tcz
          libraw1394.tcz
-            firewire-4.2.7-tinycore.tcz
+            firewire-4.2.9-tinycore.tcz
          libxml++.tcz
             libxml2.tcz
                liblzma.tcz
@@ -250,8 +254,8 @@ patchage.tcz
          fftw.tcz
    jack-lib.tcz
    alsa.tcz
-      alsa-modules-4.2.7-tinycore.tcz
-         input-joystick-4.2.7-tinycore.tcz
+      alsa-modules-4.2.9-tinycore.tcz
+         input-joystick-4.2.9-tinycore.tcz
       libasound.tcz
       ncurses.tcz
 

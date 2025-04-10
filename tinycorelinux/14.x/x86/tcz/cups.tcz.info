@@ -20,7 +20,7 @@ Comments:       cups, the standards-based, open source printing system..
                 the root password needs to be set perform admin tasks with..
                 ..the browser interface
                 $ sudo passwd
-                http://localhost:631 will start the browser interface
+                http://localhost:631/admin will start the browser interface
                 To persist across boots, add the following to your backup (remove leading "/"):
                 /usr/local/etc/cups/ppd/HP_OfficeJet_G85.ppd [for example]
                 /usr/local/etc/cups/printers.conf
