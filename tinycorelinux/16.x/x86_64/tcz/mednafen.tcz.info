@@ -1,0 +1,50 @@
+Title:          mednafen.tcz
+Description:    command-line multi-system emulator
+Version:        1.32.1
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size:		6.8M
+Extension_by:   gnuser
+Tags:           videogames emulator retro nintendo sega gameboy nes sms genesis
+Comments:       ----------
+                Emulated systems:
+                  - Apple II/II+/IIe/Enhanced IIe  - PC Engine/TurboGrafx-16 CD
+                  - Atari Lynx                     - SuperGrafx
+                  - Neo Geo Pocket (Color)         - PC-FX
+                  - WonderSwan                     - Sega Game Gear
+                  - GameBoy (Color)                - Sega Genesis/Megadrive
+                  - GameBoy Advance                - Sega Master System
+                  - Nintendo Entertainment System  - Sega Saturn (64-bit only)
+                  - Super Nintendo/Super Famicom   - Sony PlayStation
+                  - Virtual Boy
+                ----------
+                Configuration:
+                  - main config file (not required) is ~/.mednafen/mednafen.cfg
+                  - example config to start nes emulation in fullscreen:
+                      video.fs 1
+                      nes.stretch aspect
+                  - more configuration options are listed here: 
+                https://mednafen.github.io/documentation/#Section_config_files
+                ----------
+                Quick start guide:
+                  - start game: $ mednafen /path/to/rom
+                  - toggle fullscreen: Alt+Enter
+                  - configure player 1 controls: press Alt+Shift+1 for prompts
+                  - configure player 2 controls: press Alt+Shift+2 for prompts
+                  - save game state: press number for slot (0-9) then F5
+                  - load game state: press number for slot (0-9) then F7
+                  - toggle help screen: F1
+                  - exit game: Esc or F12
+                ----------
+                Notes regarding controller configuration:
+                  - config settings are written when game exits with Esc or F12
+                  - exiting game by closing its window => lost configuration
+                  - you should only have to configure controls once per system
+                    (i.e., once for nes, once for sega genesis, etc.)
+                ----------
+                This extension contains:
+                mednafen-1.32.1 - GPLv2 - https://mednafen.github.io/releases/files/mednafen-1.32.1.tar.xz
+                ----------
+Change-log:     ----------
+Current:        2025/04/07 first version
