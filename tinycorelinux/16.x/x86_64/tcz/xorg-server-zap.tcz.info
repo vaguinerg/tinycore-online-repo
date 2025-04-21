@@ -1,0 +1,41 @@
+Title:          xorg-server-zap.tcz 
+Description:    zaps or kills xorg-server 
+Version:        1.0
+Author:         aus9 based on internet research
+Original-site:  https://forum.tinycorelinux.net/index.php
+Copying-policy: open source
+Size:           4.0K
+Extension_by:   aus9 @linuxquestions.org
+Tags:           xorg Xorg server terminate kill
+Comments:     Before loading this TCE check
+                your current xorg settings by
+                $ setxkbmap -query # you may need to keep a record?  
+
+                2d=Xorg-7.7.tcz 3d=Xorg-7.7-3d.tcz  neither has a 
+                zap feature. Zap means kill. If you are unable to use 
+                exittc to exit to prompt, this TCE uses keyboard keys -- 
+                to achieve the same effect.
+                Ctrl + Alt + Backspace
+
+                Expect to return to the console prompt.
+                To regain Xorg desktop run $ startx.
+
+                This TCE will fail if you do not have at least Xorg-7.7-bin 
+                loaded which is achieved by loading 2d or 3d TCEs as above.  
+                So no dep set.
+
+                Due to my configs, install script will attempt to 
+                make a read-write config file 
+                /usr/local/share/X11/xorg.conf.d/00-keyboard.conf
+                If you need to change any setting, ensure you add 
+                that file to your backup please. If your backup file over reboot, 
+                is working correctly, you do not need this TCE in your 
+                boot list. To persist the file ensure you add
+                usr/local/share/X11/xorg.conf.d/00-keyboard.conf  to backup file
+                /opt/.filetool.lst
+
+                Otherwise, best to have this TCE named higher in your boot 
+                list than the 2d or 3d TCEs.  Boot list load from top to bottom
+  
+Change-log:     2025/02/28 any arch 
+Current:        2025/02/28  

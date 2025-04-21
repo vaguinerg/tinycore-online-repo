@@ -1,18 +1,22 @@
 Title:          sdl2.tcz
 Description:    low level hardware support
-Version:        2.24.0
+Version:        2.30.11
 Author:         see list of sites below
 Original-site:  see list of sites below
 Copying-policy: see list of sites below
-Size: 668KB
+Size: 692KB
 Extension_by:   juanito
 Tags:	        low level av
-Comments:       low level access to audio, keyboard, mouse, joystick, and graphics hardware via opengl and direct3d
+Comments:       low level access to audio, keyboard, mouse, joystick and 
+                graphics hardware via opengl and direct3d
+                ----------
+                can use alsa, pulseaudio, pipewire, x11, wayland and vulkan
                 ----------
                 This extension contains:
-                SDL2-2.24.0 - zlib - https://github.com/libsdl-org/SDL/releases/download/release-2.24.0/SDL2-2.24.0.tar.gz
+                SDL2-2.30.11 - zlib - https://www.libsdl.org/release/SDL2-2.30.11.tar.gz
                 ----------
 Change-log:     2014/03/06 first version
                 2019/04/03 updated 2.0.1 -> 2.0.9
                 2021/08/17 updated 2.0.9 -> 2.0.16
-Current:        2022/09/03 updated 2.0.16 -> 2.24.0
+                2022/09/03 updated 2.0.16 -> 2.24.0
+Current:        2025/04/13 updated 2.24.0 -> 2.30.11

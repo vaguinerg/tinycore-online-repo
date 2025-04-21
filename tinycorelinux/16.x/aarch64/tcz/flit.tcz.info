@@ -1,0 +1,19 @@
+Title:		flit.tcz
+Description:	Clock, Sound, WiFi, and Battery system tray
+Version:	1.5.2
+Author:		Michael A. Losh
+Original-site:	http://tinycorelinux.com
+Copying-policy:	GPLv3
+Size:		24KB
+Extension_by:	juanito
+Tags:		system tray battery sound wifi clock fltk
+Comments:	Small applets as found in many monder computer desktop software.
+                Choose any combination of clock, sound control, battery/power monitor
+                and WiFi networking control. Dockable in some WM trays, supports ALSA
+                or OSS, uses ACPI for battery/power status, scalable screen sizes 
+                ----
+                To start flit on X start, add to .xsession:
+                [ /usr/local/bin/flit ] && flit &
+                ----
+Change-log:     first version
+                2025/04/17
