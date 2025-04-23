@@ -75,53 +75,6 @@ wlroots-dev.tcz
          libevdev.tcz
          udev-lib.tcz
       seatd.tcz
-      xwayland.tcz
-         xorg-server.tcz
-            mesa.tcz
-               libdrm.tcz
-                  libpciaccess.tcz
-                  udev-lib.tcz
-               llvm19-lib.tcz
-                  libxml2.tcz
-                     liblzma.tcz
-                  libzstd.tcz
-                  ncurses.tcz
-               expat2.tcz
-               libzstd.tcz
-               libXfixes.tcz
-                  libX11.tcz
-                     libxcb.tcz
-                        libXau.tcz
-                        libXdmcp.tcz
-               libXxf86vm.tcz
-                  libXext.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-               libxshmfence.tcz
-            openssl.tcz
-               ca-certificates.tcz
-            pixman.tcz
-            libXfont2.tcz
-               freetype.tcz
-                  libpng.tcz
-                  harfbuzz.tcz
-                     glib2.tcz
-                        gamin.tcz
-                        libelf.tcz
-                        pcre2.tcz
-                           bzip2-lib.tcz
-                     graphite2.tcz
-                  bzip2-lib.tcz
-               libfontenc.tcz
-            libepoxy.tcz
-            libxcvt.tcz
-         wayland-protocols.tcz
-            wayland.tcz
-               expat2.tcz
-               libxml2.tcz
-                  liblzma.tcz
    wayland-protocols-dev.tcz
       wayland-protocols.tcz
          wayland.tcz
@@ -399,7 +352,6 @@ wlroots-dev.tcz
                   liblzma.tcz
             zstd-dev.tcz
                zstd.tcz
-                  libzstd.tcz
                   liblzma.tcz
                   liblz4.tcz
                liblzma-dev.tcz
@@ -408,7 +360,6 @@ wlroots-dev.tcz
                   liblz4.tcz
          zstd-dev.tcz
             zstd.tcz
-               libzstd.tcz
                liblzma.tcz
                liblz4.tcz
             liblzma-dev.tcz
@@ -658,7 +609,6 @@ wlroots-dev.tcz
                   liblzma.tcz
             zstd-dev.tcz
                zstd.tcz
-                  libzstd.tcz
                   liblzma.tcz
                   liblz4.tcz
                liblzma-dev.tcz
@@ -667,7 +617,6 @@ wlroots-dev.tcz
                   liblz4.tcz
          zstd-dev.tcz
             zstd.tcz
-               libzstd.tcz
                liblzma.tcz
                liblz4.tcz
             liblzma-dev.tcz
@@ -707,7 +656,6 @@ wlroots-dev.tcz
                libjpeg-turbo.tcz
          zstd-dev.tcz
             zstd.tcz
-               libzstd.tcz
                liblzma.tcz
                liblz4.tcz
             liblzma-dev.tcz
