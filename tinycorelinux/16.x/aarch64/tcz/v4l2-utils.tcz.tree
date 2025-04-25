@@ -8,27 +8,29 @@ v4l2-utils.tcz
       udev-lib.tcz
    libasound.tcz
       alsa-modules-6.12.15-piCore-v8.tcz
-   mesa.tcz
-      libdrm.tcz
-         libpciaccess.tcz
-         udev-lib.tcz
-      llvm19-lib.tcz
-         libxml2.tcz
-            liblzma.tcz
+   glu.tcz
+      mesa.tcz
+         libdrm.tcz
+            libpciaccess.tcz
+            udev-lib.tcz
+         llvm19-lib.tcz
+            libxml2.tcz
+               liblzma.tcz
+            libzstd.tcz
+            ncurses.tcz
+         expat2.tcz
          libzstd.tcz
-         ncurses.tcz
-      expat2.tcz
-      libzstd.tcz
-      libXfixes.tcz
-         libX11.tcz
-            libxcb.tcz
-               libXau.tcz
-               libXdmcp.tcz
-      libXxf86vm.tcz
-         libXext.tcz
+         libXfixes.tcz
             libX11.tcz
                libxcb.tcz
                   libXau.tcz
                   libXdmcp.tcz
-      libxshmfence.tcz
+         libXxf86vm.tcz
+            libXext.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
+         libxshmfence.tcz
+   sdl2.tcz
 
