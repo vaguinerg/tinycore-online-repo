@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TinyCore Package Browser</title>
+<link href="https://fonts.cdnfonts.com/css/liberation-mono" rel="stylesheet">
+<style>
+  body {
+    margin: 0;
+    padding: 1em;
+    font-family: 'Liberation Mono', monospace;
+    background: #f8f9fa;
+    color: #222;
+  }
+  header {
+    font-size: 1.4em;
+    margin-bottom: 1em;
+  }
+  select, input {
+    font: inherit;
+    padding: .5em;
+    margin: .2em 0;
+    width: 100%;
+    max-width: 300px;
+    box-sizing: border-box;
+  }
+  input { border: 1px solid #ccc; }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 1em;
+    border: 1px solid #ccc;
+    max-height: 40vh;
+    overflow-y: auto;
+    background: #fff;
+  }
+  li {
+    padding: .4em .6em;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+  }
+  li:hover {
+    background: #def;
+  }
+  pre {
+    white-space: pre-wrap;
+    background: #fff;
+    padding: .6em;
+    margin-top: 1em;
+    border: 1px solid #ccc;
+    display: none;
+  }
+  .status {
+    margin-top: 0.5em;
+    font-size: 0.9em;
+    color: #555;
+  }
+</style>
+<body>
+  <header>TinyCore Package Browser</header>
+
+  <label for="version">Version:</label>
+  <select id="version"></select>
+
+  <label for="arch">Architecture:</label>
+  <select id="arch"></select>
+
+  <label for="search">Search package:</label>
+  <input id="search" placeholder="Type and press Enter">
+
+  <div class="status" id="status">Loading versions...</div>
+
+  <ul id="packages"></ul>
+  <pre id="info"></pre>
+
+<script>
+  const $ = id => document.getElementById(id)
+  const dataURL = 'https://raw.githubusercontent.com/CardealRusso/tinycore-online-repo/main'
+
+  let allPkgs = [], version = '', arch = ''
+
+  async function init() {
+    const text = await fetch(`${dataURL}/site-data/versions`).then(r => r.text())
+    const versions = JSON.parse(text.replace(/,\s*([\]}])/g, '$1'))
+
+    for (let v of Object.keys(versions).sort((a, b) => b - a)) {
+      let opt = new Option(v, v)
+      $.version.add(opt)
+    }
+
+    $.version.onchange = () => {
+      $.arch.innerHTML = ''
+      versions[$.version.value].forEach(a => $.arch.add(new Option(a, a)))
+      $.arch.dispatchEvent(new Event('change'))
+    }
+
+    $.arch.onchange = async () => {
+      version = $.version.value
+      arch = $.arch.value
+      $.status.textContent = `Loading packages for ${version}/${arch}...`
+      const txt = await fetch(`${dataURL}/data/${version}/${arch}/tczlist`).then(r => r.text())
+      allPkgs = txt.trim().split('\n')
+      renderList(allPkgs)
+      $.status.textContent = ''
+    }
+
+    $.search.onkeypress = e => {
+      if (e.key !== 'Enter') return
+      const term = $.search.value.toLowerCase()
+      renderList(allPkgs.filter(p => p.toLowerCase().includes(term)))
+    }
+
+    $.version.dispatchEvent(new Event('change'))
+  }
+
+  function renderList(list) {
+    $.packages.innerHTML = ''
+    $.info.style.display = 'none'
+    list.forEach(name => {
+      let li = document.createElement('li')
+      li.textContent = name
+      li.onclick = () => showInfo(name)
+      $.packages.append(li)
+    })
+  }
+
+  async function showInfo(pkg) {
+    $.status.textContent = `Loading ${pkg} info...`
+    const url = `${dataURL}/tinycorelinux/${version}/${arch}/tcz/${pkg}.info`
+    try {
+      const text = await fetch(url).then(r => r.text())
+      $.info.textContent = text
+      $.info.style.display = 'block'
+    } catch (e) {
+      $.info.textContent = '(info not available)'
+      $.info.style.display = 'block'
+    }
+    $.status.textContent = ''
+  }
+
+  init()
+</script>
+</body>
+</html>
