@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TinyCore Online Repository</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="style2.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1><i class="fas fa-microchip"></i> TinyCore Repository</h1>
+      <p class="subtitle">Browse and search the TinyCore Linux package repository</p>
+    </header>
+
+    <div class="search-section">
+      <div class="control-group">
+        <label for="SelectVersion">Version:</label>
+        <select id="SelectVersion" class="form-control">
+          <option disabled selected>Select a version</option>
+        </select>
+      </div>
+      
+      <div class="control-group">
+        <label for="SearchType">Search by:</label>
+        <select id="SearchType" class="form-control" disabled>
+          <option value="search">Name</option>
+          <option value="info">Description</option>
+        </select>
+      </div>
+      
+      <div class="control-group">
+        <label for="InputSearchTerm">Search term:</label>
+        <div class="search-input-wrapper">
+          <input id="InputSearchTerm" class="form-control" type="text" placeholder="Type to search..." disabled>
+          <i class="fas fa-search search-icon"></i>
+        </div>
+      </div>
+    </div>
+
+    <div id="StatusWrapper">
+      <div id="StatusInfo" class="status-info"></div>
+      <div class="progress-bar" id="ProgressBar">
+        <div class="progress-fill" id="ProgressFill"></div>
+      </div>
+    </div>
+
+    <main class="content-section">
+      <div class="package-list-container">
+        <h2>Available Packages</h2>
+        <select id="TCZList" size="15" class="package-list"></select>
+      </div>
+      
+      <div class="package-info-container">
+        <h2>Package Information</h2>
+        <div id="InfoList" class="package-info"></div>
+      </div>
+    </main>
+
+    <footer>
+      <p>© 2024 TinyCore Online Repository | <a href="https://github.com/CardealRusso/tinycore-online-repo" target="_blank">GitHub Repository</a></p>
+    </footer>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
