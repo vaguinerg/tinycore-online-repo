@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TinyCore Repo</title>
+<link href="https://fonts.cdnfonts.com/css/liberation-mono" rel="stylesheet">
+<style>
+  body {
+    margin: 0;
+    font-family: 'Liberation Mono', monospace;
+    background: #f0f0f0;
+    color: #111;
+    padding: 1em;
+  }
+  select, input {
+    font: inherit;
+    padding: .4em;
+    margin: .2em;
+  }
+  #status {
+    margin: .5em 0;
+    font-size: .9em;
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-height: 40vh;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    background: #fff;
+  }
+  li {
+    padding: .4em;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+  }
+  li:hover {
+    background: #def;
+  }
+  pre {
+    white-space: pre-wrap;
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: .6em;
+    margin-top: 1em;
+    display: none;
+  }
+</style>
+<body>
+  <div>
+    <select id="ver"></select>
+    <select id="mode">
+      <option>Search</option>
+      <option>Info</option>
+    </select>
+    <input id="query" placeholder="Search">
+  </div>
+  <div id="status">Loading versions...</div>
+  <div class="row">
+    <ul id="list"></ul>
+    <pre id="info"></pre>
+  </div>
+<script>
+  const $ = id => document.getElementById(id)
+  let full = [], ver = '', arch = ''
+
+  fetch('https://raw.githubusercontent.com/CardealRusso/tinycore-online-repo/main/site-data/versions')
+    .then(r => r.text())
+    .then(t => {
+      let data = JSON.parse(t.replace(/,\s*([\]}])/g, '$1'))
+      Object.entries(data).sort((a,b)=>b[0]-a[0]).forEach(([v, arr]) => {
+        arr.forEach(a => {
+          let o = document.createElement('option')
+          o.value = v + '|' + a
+          o.textContent = v + '/' + a
+          $.ver.append(o)
+        })
+      })
+      $.status.textContent = 'Select version'
+    })
+
+  $.ver.onchange = async () => {
+    [ver, arch] = $.ver.value.split('|')
+    $.status.textContent = 'Loading packages...'
+    let txt = await fetch(`https://raw.githubusercontent.com/CardealRusso/tinycore-online-repo/main/data/${ver}/${arch}/tczlist`).then(r => r.text())
+    full = txt.trim().split('\n')
+    render(full)
+    $.status.textContent = ''
+  }
+
+  function render(list) {
+    $.list.innerHTML = ''
+    list.forEach(name => {
+      let li = document.createElement('li')
+      li.textContent = name
+      li.onclick = () => showInfo(name)
+      $.list.append(li)
+    })
+  }
+
+  async function showInfo(name) {
+    $.status.textContent = 'Loading ' + name
+    let url = `https://raw.githubusercontent.com/CardealRusso/tinycore-online-repo/main/tinycorelinux/${ver}/${arch}/tcz/${name}.info`
+    let txt = await fetch(url).then(r => r.text())
+    $.info.textContent = txt
+    $.info.style.display = 'block'
+    $.status.textContent = ''
+  }
+
+  $.query.onkeypress = async e => {
+    if (e.key !== 'Enter' || !ver) return
+    let term = $.query.value.toLowerCase()
+    if ($.mode.value === 'Search') {
+      render(full.filter(x => x.toLowerCase().includes(term)))
+    } else {
+      $.list.innerHTML = ''
+      $.info.style.display = 'none'
+      $.status.textContent = 'Searching info...'
+      let out = []
+      for (let i = 0; i < full.length; i++) {
+        let name = full[i]
+        $.status.textContent = `${i+1}/${full.length}: ${name}`
+        try {
+          let t = await fetch(`https://raw.githubusercontent.com/CardealRusso/tinycore-online-repo/main/tinycorelinux/${ver}/${arch}/tcz/${name}.info`).then(r => r.text())
+          if (t.toLowerCase().includes(term)) out.push(name)
+        } catch(e) {}
+      }
+      render(out)
+      $.status.textContent = ''
+    }
+  }
+</script>
+</body>
+</html>
