@@ -887,11 +887,6 @@ gtk4-dev.tcz
             libdrm.tcz
                libpciaccess.tcz
                udev-lib.tcz
-            llvm19-lib.tcz
-               libxml2.tcz
-                  liblzma.tcz
-               libzstd.tcz
-               ncurses.tcz
             expat2.tcz
             libzstd.tcz
             libXfixes.tcz
@@ -915,11 +910,6 @@ gtk4-dev.tcz
             libdrm.tcz
                libpciaccess.tcz
                udev-lib.tcz
-            llvm19-lib.tcz
-               libxml2.tcz
-                  liblzma.tcz
-               libzstd.tcz
-               ncurses.tcz
             expat2.tcz
             libzstd.tcz
             libXfixes.tcz
@@ -945,21 +935,22 @@ gtk4-dev.tcz
                libpciaccess.tcz
             udev-lib-dev.tcz
                udev-lib.tcz
-         wayland-dev.tcz
-            wayland.tcz
-               expat2.tcz
-               libxml2.tcz
-                  liblzma.tcz
-            expat2-dev.tcz
-               expat2.tcz
-            libxml2-dev.tcz
-               libxml2.tcz
-                  liblzma.tcz
-         wayland-protocols.tcz
-            wayland.tcz
-               expat2.tcz
-               libxml2.tcz
-                  liblzma.tcz
+         wayland-protocols-dev.tcz
+            wayland-protocols.tcz
+               wayland.tcz
+                  expat2.tcz
+                  libxml2.tcz
+                     liblzma.tcz
+            wayland-dev.tcz
+               wayland.tcz
+                  expat2.tcz
+                  libxml2.tcz
+                     liblzma.tcz
+               expat2-dev.tcz
+                  expat2.tcz
+               libxml2-dev.tcz
+                  libxml2.tcz
+                     liblzma.tcz
          libXvmc-dev.tcz
             libXvmc.tcz
                libXv.tcz
@@ -1102,26 +1093,6 @@ gtk4-dev.tcz
             libXrender-dev.tcz
          libelf-dev.tcz
             libelf.tcz
-         llvm19-dev.tcz
-            llvm19-bin.tcz
-               llvm19-lib.tcz
-                  libxml2.tcz
-                     liblzma.tcz
-                  libzstd.tcz
-                  ncurses.tcz
-            libffi_base-dev.tcz
-            libxml2-dev.tcz
-               libxml2.tcz
-                  liblzma.tcz
-            zstd-dev.tcz
-               zstd.tcz
-                  libzstd.tcz
-                  liblzma.tcz
-                  liblz4.tcz
-               liblzma-dev.tcz
-                  liblzma.tcz
-               liblz4-dev.tcz
-                  liblz4.tcz
          zstd-dev.tcz
             zstd.tcz
                libzstd.tcz
@@ -1279,7 +1250,7 @@ gtk4-dev.tcz
                      bzip2-lib.tcz
                gmp.tcz
             libasound.tcz
-               alsa-modules-6.12.15-piCore-v8.tcz
+               alsa-modules-6.12.25-piCore-v8.tcz
             opus.tcz
             libtheora.tcz
                libogg.tcz
@@ -1297,11 +1268,6 @@ gtk4-dev.tcz
                libdrm.tcz
                   libpciaccess.tcz
                   udev-lib.tcz
-               llvm19-lib.tcz
-                  libxml2.tcz
-                     liblzma.tcz
-                  libzstd.tcz
-                  ncurses.tcz
                expat2.tcz
                libzstd.tcz
                libXfixes.tcz
@@ -1325,11 +1291,6 @@ gtk4-dev.tcz
                libdrm.tcz
                   libpciaccess.tcz
                   udev-lib.tcz
-               llvm19-lib.tcz
-                  libxml2.tcz
-                     liblzma.tcz
-                  libzstd.tcz
-                  ncurses.tcz
                expat2.tcz
                libzstd.tcz
                libXfixes.tcz
@@ -1359,7 +1320,7 @@ gtk4-dev.tcz
                      bzip2-lib.tcz
                gmp.tcz
             libasound.tcz
-               alsa-modules-6.12.15-piCore-v8.tcz
+               alsa-modules-6.12.25-piCore-v8.tcz
             opus.tcz
             libtheora.tcz
                libogg.tcz
@@ -1414,7 +1375,7 @@ gtk4-dev.tcz
                gmp.tcz
          libasound-dev.tcz
             libasound.tcz
-               alsa-modules-6.12.15-piCore-v8.tcz
+               alsa-modules-6.12.25-piCore-v8.tcz
          opus-dev.tcz
             opus.tcz
          graphene-dev.tcz
@@ -1471,11 +1432,6 @@ gtk4-dev.tcz
                   libdrm.tcz
                      libpciaccess.tcz
                      udev-lib.tcz
-                  llvm19-lib.tcz
-                     libxml2.tcz
-                        liblzma.tcz
-                     libzstd.tcz
-                     ncurses.tcz
                   expat2.tcz
                   libzstd.tcz
                   libXfixes.tcz
@@ -1499,11 +1455,6 @@ gtk4-dev.tcz
                   libdrm.tcz
                      libpciaccess.tcz
                      udev-lib.tcz
-                  llvm19-lib.tcz
-                     libxml2.tcz
-                        liblzma.tcz
-                     libzstd.tcz
-                     ncurses.tcz
                   expat2.tcz
                   libzstd.tcz
                   libXfixes.tcz
@@ -1529,21 +1480,22 @@ gtk4-dev.tcz
                      libpciaccess.tcz
                   udev-lib-dev.tcz
                      udev-lib.tcz
-               wayland-dev.tcz
-                  wayland.tcz
-                     expat2.tcz
-                     libxml2.tcz
-                        liblzma.tcz
-                  expat2-dev.tcz
-                     expat2.tcz
-                  libxml2-dev.tcz
-                     libxml2.tcz
-                        liblzma.tcz
-               wayland-protocols.tcz
-                  wayland.tcz
-                     expat2.tcz
-                     libxml2.tcz
-                        liblzma.tcz
+               wayland-protocols-dev.tcz
+                  wayland-protocols.tcz
+                     wayland.tcz
+                        expat2.tcz
+                        libxml2.tcz
+                           liblzma.tcz
+                  wayland-dev.tcz
+                     wayland.tcz
+                        expat2.tcz
+                        libxml2.tcz
+                           liblzma.tcz
+                     expat2-dev.tcz
+                        expat2.tcz
+                     libxml2-dev.tcz
+                        libxml2.tcz
+                           liblzma.tcz
                libXvmc-dev.tcz
                   libXvmc.tcz
                      libXv.tcz
@@ -1686,26 +1638,6 @@ gtk4-dev.tcz
                   libXrender-dev.tcz
                libelf-dev.tcz
                   libelf.tcz
-               llvm19-dev.tcz
-                  llvm19-bin.tcz
-                     llvm19-lib.tcz
-                        libxml2.tcz
-                           liblzma.tcz
-                        libzstd.tcz
-                        ncurses.tcz
-                  libffi_base-dev.tcz
-                  libxml2-dev.tcz
-                     libxml2.tcz
-                        liblzma.tcz
-                  zstd-dev.tcz
-                     zstd.tcz
-                        libzstd.tcz
-                        liblzma.tcz
-                        liblz4.tcz
-                     liblzma-dev.tcz
-                        liblzma.tcz
-                     liblz4-dev.tcz
-                        liblz4.tcz
                zstd-dev.tcz
                   zstd.tcz
                      libzstd.tcz
@@ -1731,11 +1663,6 @@ gtk4-dev.tcz
                   libdrm.tcz
                      libpciaccess.tcz
                      udev-lib.tcz
-                  llvm19-lib.tcz
-                     libxml2.tcz
-                        liblzma.tcz
-                     libzstd.tcz
-                     ncurses.tcz
                   expat2.tcz
                   libzstd.tcz
                   libXfixes.tcz
@@ -1758,11 +1685,6 @@ gtk4-dev.tcz
                   libdrm.tcz
                      libpciaccess.tcz
                      udev-lib.tcz
-                  llvm19-lib.tcz
-                     libxml2.tcz
-                        liblzma.tcz
-                     libzstd.tcz
-                     ncurses.tcz
                   expat2.tcz
                   libzstd.tcz
                   libXfixes.tcz
@@ -1788,21 +1710,22 @@ gtk4-dev.tcz
                      libpciaccess.tcz
                   udev-lib-dev.tcz
                      udev-lib.tcz
-               wayland-dev.tcz
-                  wayland.tcz
-                     expat2.tcz
-                     libxml2.tcz
-                        liblzma.tcz
-                  expat2-dev.tcz
-                     expat2.tcz
-                  libxml2-dev.tcz
-                     libxml2.tcz
-                        liblzma.tcz
-               wayland-protocols.tcz
-                  wayland.tcz
-                     expat2.tcz
-                     libxml2.tcz
-                        liblzma.tcz
+               wayland-protocols-dev.tcz
+                  wayland-protocols.tcz
+                     wayland.tcz
+                        expat2.tcz
+                        libxml2.tcz
+                           liblzma.tcz
+                  wayland-dev.tcz
+                     wayland.tcz
+                        expat2.tcz
+                        libxml2.tcz
+                           liblzma.tcz
+                     expat2-dev.tcz
+                        expat2.tcz
+                     libxml2-dev.tcz
+                        libxml2.tcz
+                           liblzma.tcz
                libXvmc-dev.tcz
                   libXvmc.tcz
                      libXv.tcz
@@ -1945,26 +1868,6 @@ gtk4-dev.tcz
                   libXrender-dev.tcz
                libelf-dev.tcz
                   libelf.tcz
-               llvm19-dev.tcz
-                  llvm19-bin.tcz
-                     llvm19-lib.tcz
-                        libxml2.tcz
-                           liblzma.tcz
-                        libzstd.tcz
-                        ncurses.tcz
-                  libffi_base-dev.tcz
-                  libxml2-dev.tcz
-                     libxml2.tcz
-                        liblzma.tcz
-                  zstd-dev.tcz
-                     zstd.tcz
-                        libzstd.tcz
-                        liblzma.tcz
-                        liblz4.tcz
-                     liblzma-dev.tcz
-                        liblzma.tcz
-                     liblz4-dev.tcz
-                        liblz4.tcz
                zstd-dev.tcz
                   zstd.tcz
                      libzstd.tcz
@@ -3160,28 +3063,28 @@ gtk4-dev.tcz
                   pcre2.tcz
                      bzip2-lib.tcz
                libasound.tcz
-                  alsa-modules-6.12.15-piCore-v8.tcz
+                  alsa-modules-6.12.25-piCore-v8.tcz
                udev-lib.tcz
                libical.tcz
                   icu73.tcz
                pcre2.tcz
                   bzip2-lib.tcz
-               bluetooth-6.12.15-piCore-v8.tcz
+               bluetooth-6.12.25-piCore-v8.tcz
                   firmware-rpi-bt.tcz
                readline.tcz
                   ncurses.tcz
                sbc.tcz
                   libasound.tcz
-                     alsa-modules-6.12.15-piCore-v8.tcz
+                     alsa-modules-6.12.25-piCore-v8.tcz
          ncurses-dev.tcz
             ncurses.tcz
       sbc-dev.tcz
          sbc.tcz
             libasound.tcz
-               alsa-modules-6.12.15-piCore-v8.tcz
+               alsa-modules-6.12.25-piCore-v8.tcz
          libasound-dev.tcz
             libasound.tcz
-               alsa-modules-6.12.15-piCore-v8.tcz
+               alsa-modules-6.12.25-piCore-v8.tcz
       gsettings-desktop-schemas-dev.tcz
          gsettings-desktop-schemas.tcz
             glib2.tcz
@@ -4040,11 +3943,6 @@ gtk4-dev.tcz
                   libdrm.tcz
                      libpciaccess.tcz
                      udev-lib.tcz
-                  llvm19-lib.tcz
-                     libxml2.tcz
-                        liblzma.tcz
-                     libzstd.tcz
-                     ncurses.tcz
                   expat2.tcz
                   libzstd.tcz
                   libXfixes.tcz
@@ -4068,11 +3966,6 @@ gtk4-dev.tcz
                   libdrm.tcz
                      libpciaccess.tcz
                      udev-lib.tcz
-                  llvm19-lib.tcz
-                     libxml2.tcz
-                        liblzma.tcz
-                     libzstd.tcz
-                     ncurses.tcz
                   expat2.tcz
                   libzstd.tcz
                   libXfixes.tcz
@@ -4098,21 +3991,22 @@ gtk4-dev.tcz
                      libpciaccess.tcz
                   udev-lib-dev.tcz
                      udev-lib.tcz
-               wayland-dev.tcz
-                  wayland.tcz
-                     expat2.tcz
-                     libxml2.tcz
-                        liblzma.tcz
-                  expat2-dev.tcz
-                     expat2.tcz
-                  libxml2-dev.tcz
-                     libxml2.tcz
-                        liblzma.tcz
-               wayland-protocols.tcz
-                  wayland.tcz
-                     expat2.tcz
-                     libxml2.tcz
-                        liblzma.tcz
+               wayland-protocols-dev.tcz
+                  wayland-protocols.tcz
+                     wayland.tcz
+                        expat2.tcz
+                        libxml2.tcz
+                           liblzma.tcz
+                  wayland-dev.tcz
+                     wayland.tcz
+                        expat2.tcz
+                        libxml2.tcz
+                           liblzma.tcz
+                     expat2-dev.tcz
+                        expat2.tcz
+                     libxml2-dev.tcz
+                        libxml2.tcz
+                           liblzma.tcz
                libXvmc-dev.tcz
                   libXvmc.tcz
                      libXv.tcz
@@ -4255,26 +4149,6 @@ gtk4-dev.tcz
                   libXrender-dev.tcz
                libelf-dev.tcz
                   libelf.tcz
-               llvm19-dev.tcz
-                  llvm19-bin.tcz
-                     llvm19-lib.tcz
-                        libxml2.tcz
-                           liblzma.tcz
-                        libzstd.tcz
-                        ncurses.tcz
-                  libffi_base-dev.tcz
-                  libxml2-dev.tcz
-                     libxml2.tcz
-                        liblzma.tcz
-                  zstd-dev.tcz
-                     zstd.tcz
-                        libzstd.tcz
-                        liblzma.tcz
-                        liblz4.tcz
-                     liblzma-dev.tcz
-                        liblzma.tcz
-                     liblz4-dev.tcz
-                        liblz4.tcz
                zstd-dev.tcz
                   zstd.tcz
                      libzstd.tcz
@@ -4741,7 +4615,7 @@ gtk4-dev.tcz
             flac.tcz
                libogg.tcz
             libasound.tcz
-               alsa-modules-6.12.15-piCore-v8.tcz
+               alsa-modules-6.12.25-piCore-v8.tcz
             libvorbis.tcz
                libogg.tcz
             sqlite3.tcz
@@ -4752,7 +4626,7 @@ gtk4-dev.tcz
                libogg.tcz
          libasound-dev.tcz
             libasound.tcz
-               alsa-modules-6.12.15-piCore-v8.tcz
+               alsa-modules-6.12.25-piCore-v8.tcz
          libvorbis-dev.tcz
             libvorbis.tcz
                libogg.tcz
