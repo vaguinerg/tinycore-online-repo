@@ -1,153 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TinyCore online repo</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TinyCore Online Repo</title>
   <link href="https://fonts.cdnfonts.com/css/liberation-mono" rel="stylesheet">
-  <link href="style.css" rel="stylesheet">
-  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <style>
+    body {
+      margin: 0;
+      padding: 1rem;
+      font-family: 'Liberation Mono', monospace;
+      background: #f3f4f6;
+      color: #333;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 1.4rem;
+      margin-bottom: 1rem;
+    }
+
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      justify-content: center;
+      margin-bottom: 1rem;
+    }
+
+    select, input {
+      padding: 0.4rem;
+      font-size: 1rem;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+
+    #StatusInfo {
+      text-align: center;
+      font-size: 0.9rem;
+      margin: 0.5rem 0;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .list {
+      max-height: 300px;
+      overflow-y: auto;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      background: #fff;
+      padding: 0;
+      list-style: none;
+      margin: 0;
+    }
+
+    .list li {
+      padding: 0.5rem;
+      cursor: pointer;
+      border-bottom: 1px solid #eee;
+    }
+
+    .list li:hover {
+      background: #e0e7ff;
+    }
+
+    #InfoList {
+      white-space: pre-wrap;
+      background: #fff;
+      padding: 1rem;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+      display: none;
+    }
+
+    @media (min-width: 600px) {
+      .container {
+        flex-direction: row;
+      }
+
+      .list {
+        width: 30%;
+      }
+
+      #InfoList {
+        width: 70%;
+      }
+    }
+  </style>
 </head>
+<body>
+  <h1>TinyCore Online Repo</h1>
+  <div class="controls">
+    <select id="SelectVersion"></select>
+    <select id="SearchType">
+      <option>Search</option>
+      <option>Info</option>
+    </select>
+    <input type="text" id="InputSearchTerm" placeholder="Search term" />
+  </div>
+  <div id="StatusInfo">Loading versions...</div>
 
-<table>
-    <tr>
-        <td>
-            <select hidden id="SelectVersion">
-                <option disabled selected>Select a version</option>
-            </select>
-        </td>
-        <td>
-            <select hidden id="SearchType">
-                <option>Search</option>
-                <option disabled>Provides</option>
-                <option disabled>Tags</option>
-                <option disabled>Src</option>
-                <option>Info</option>
-            </select>
-        </td>
-        <td>
-            <input hidden id="InputSearchTerm">
-        </td>
-        <td>
-            <a id=StatusInfo></a>
-        </td>
-    </tr>
-</table>
-<hr>
-<table id=InfoTable>
-    <tr>
-        <td>
-            <select id="TCZList" size="2"></select>
-        </td>
-        <td valign="top">
-            <div id=InfoList></div>
-        </td>
-    </tr>
-</table>
+  <div class="container">
+    <ul id="TCZList" class="list"></ul>
+    <div id="InfoList"></div>
+  </div>
 
-<script>
-    var selectedVersion, selectedArch;
-    
-    $(document).ready(async function () {
-        $('#SelectVersion').change(async function () {
-            $('#SearchType').prop("disabled", true);
-            $('#InputSearchTerm').prop("disabled", true);
-            $('#SelectVersion').prop("disabled", true);
-            var selectedOption = $('#SelectVersion option:selected');
-            selectedVersion = selectedOption.closest('optgroup').attr('label');
-            selectedArch = selectedOption.val();
-    
-            await loadTczList();
+  <script>
+    const $ = id => document.getElementById(id);
+    let selectedVersion = '', selectedArch = '', fullList = [];
+
+    async function fetchText(url) {
+      const res = await fetch(url);
+      if (!res.ok) throw new Error("Failed to load " + url);
+      return res.text();
+    }
+
+    async function loadVersions() {
+      const raw = await fetchText('https://raw.githubusercontent.com/CardealRusso/tinycore-online-repo/main/site-data/versions');
+      const data = JSON.parse(raw.replace(/,\s*([\]}])/g, '$1'));
+      const sel = $('SelectVersion');
+
+      Object.entries(data).sort((a, b) => b[0] - a[0]).forEach(([ver, arches]) => {
+        arches.forEach(arch => {
+          const opt = document.createElement('option');
+          opt.textContent = `${ver} / ${arch}`;
+          opt.value = `${ver}|${arch}`;
+          sel.appendChild(opt);
         });
-    
-        $('#TCZList').change(async function () {
-            var selectedItem = $('#TCZList option:selected').text();
-            $('#StatusInfo').text(`Getting ${selectedItem}.info...`);
-            var infoUrl = `https://raw.githubusercontent.com/CardealRusso/tinycore-online-repo/main/tinycorelinux/${selectedVersion}/${selectedArch}/tcz/${selectedItem}.info`;
-    
-            var infoData = await $.get(infoUrl);
-            var formattedInfo = infoData.replace(/\n/g, '<br>');
-    
-            $('#InfoList').html(formattedInfo);
-            $('#InfoList').show();
-            $('#StatusInfo').text("");
-        });
-    
-        $('#InputSearchTerm').keypress(async function (event) {
-            if (event.which === 13 && selectedVersion) {
-                var searchTerm = $('#InputSearchTerm').val().toLowerCase();
-                var searchType = $('#SearchType option:selected').text().toLowerCase();
-    
-                if (searchType === 'search') {
-                    $('#TCZList option').each(function () {
-                        var itemText = $(this).text().toLowerCase();
-                        $(this).toggle(itemText.includes(searchTerm));
-                    });
-    
-                    searchTerm.length === 0 && $('#TCZList option').show();
-                }
-    
-                if (searchType === 'info') {
-                    $('#TCZList').empty();
-                    $('#SearchType').prop("disabled", true);
-                    $('#InputSearchTerm').prop("disabled", true);
-                    $('#SelectVersion').prop("disabled", true);
-                    await DeepInfoSearch(searchTerm);
-                }
-            }
-        });
-    
-        async function loadTczList() {
-            $('#StatusInfo').text(`Getting list of tcz for ${selectedVersion}/${selectedArch}...`);
-            var data = await $.get(`https://raw.githubusercontent.com/CardealRusso/tinycore-online-repo/main/data/${selectedVersion}/${selectedArch}/tczlist`);
-    
-            $('#TCZList').empty();
-            data.split('\n').forEach(line => {
-                $('#TCZList').append($('<option>', { text: line }));
-            });
-            $('#SearchType').show();
-            $('#InputSearchTerm').show();
-            $('#SearchType').prop("disabled", false);
-            $('#InputSearchTerm').prop("disabled", false);
-            $('#SelectVersion').prop("disabled", false);
-            $('#StatusInfo').text("");
+      });
+
+      $('StatusInfo').textContent = 'Select version and search';
+    }
+
+    async function loadTczList() {
+      $('StatusInfo').textContent = 'Loading packages...';
+      const url = `https://raw.githubusercontent.com/CardealRusso/tinycore-online-repo/main/data/${selectedVersion}/${selectedArch}/tczlist`;
+      const data = await fetchText(url);
+      fullList = data.trim().split('\n');
+      updateList(fullList);
+      $('StatusInfo').textContent = '';
+    }
+
+    function updateList(items) {
+      const list = $('TCZList');
+      list.innerHTML = '';
+      items.forEach(name => {
+        const li = document.createElement('li');
+        li.textContent = name;
+        li.onclick = () => loadInfo(name);
+        list.appendChild(li);
+      });
+    }
+
+    async function loadInfo(name) {
+      $('StatusInfo').textContent = `Loading ${name}.info...`;
+      const url = `https://raw.githubusercontent.com/CardealRusso/tinycore-online-repo/main/tinycorelinux/${selectedVersion}/${selectedArch}/tcz/${name}.info`;
+      const info = await fetchText(url);
+      $('InfoList').textContent = info;
+      $('InfoList').style.display = 'block';
+      $('StatusInfo').textContent = '';
+    }
+
+    async function deepSearch(term) {
+      $('StatusInfo').textContent = 'Searching in .info files...';
+      const url = `https://raw.githubusercontent.com/CardealRusso/tinycore-online-repo/main/data/${selectedVersion}/${selectedArch}/tczlist`;
+      const lines = (await fetchText(url)).trim().split('\n');
+      const matches = [];
+
+      for (let i = 0; i < lines.length; i++) {
+        const name = lines[i];
+        $('StatusInfo').textContent = `Checking ${i + 1}/${lines.length}: ${name}`;
+        try {
+          const info = await fetchText(`https://raw.githubusercontent.com/CardealRusso/tinycore-online-repo/main/tinycorelinux/${selectedVersion}/${selectedArch}/tcz/${name}.info`);
+          if (info.toLowerCase().includes(term.toLowerCase())) matches.push(name);
+        } catch (e) {}
+      }
+
+      updateList(matches);
+      $('StatusInfo').textContent = '';
+    }
+
+    $('SelectVersion').onchange = async () => {
+      const [ver, arch] = $('SelectVersion').value.split('|');
+      selectedVersion = ver;
+      selectedArch = arch;
+      await loadTczList();
+    };
+
+    $('InputSearchTerm').onkeypress = async e => {
+      if (e.key === 'Enter' && selectedVersion) {
+        const term = $('InputSearchTerm').value.trim().toLowerCase();
+        const type = $('SearchType').value.toLowerCase();
+
+        if (type === 'search') {
+          const filtered = fullList.filter(name => name.toLowerCase().includes(term));
+          updateList(filtered);
+        } else if (type === 'info') {
+          updateList([]); // clear
+          await deepSearch(term);
         }
-    
-        async function DeepInfoSearch(searchTerm) {
-            $('#StatusInfo').text(`Getting list of tcz for ${selectedVersion}/${selectedArch}...`);
-            var data = await $.get(`https://raw.githubusercontent.com/CardealRusso/tinycore-online-repo/main/data/${selectedVersion}/${selectedArch}/tczlist`);
-            var lines = data.split('\n');
-            var totalItems = lines.length;
-            var i = 0;
-            
-            for (const line of lines) {
-                var fileName = line.trim();
-                i++;
-                $('#StatusInfo').text(`${i}/${totalItems}: ${fileName}.info`);
-                var infoData = await $.get(`https://raw.githubusercontent.com/CardealRusso/tinycore-online-repo/main/tinycorelinux/${selectedVersion}/${selectedArch}/tcz/${fileName}.info`);
-    
-                if (infoData.toLowerCase().includes(searchTerm)) {
-                    $('#TCZList').append($('<option>', { text: fileName }));
-                }
-            }
-            $('#SearchType').prop("disabled", false);
-            $('#InputSearchTerm').prop("disabled", false);
-            $('#SelectVersion').prop("disabled", false);
-            $('#StatusInfo').text("");
-        }
+      }
+    };
 
-        $('#StatusInfo').text("Getting version list...");
-        $.get('https://raw.githubusercontent.com/CardealRusso/tinycore-online-repo/main/site-data/versions', function (data) {
-            var jsonString = data.replace(/,\s*([\]}])/g, '$1');
-            var parsedData = JSON.parse(jsonString);
-    
-            Object.keys(parsedData).sort((a, b) => parseInt(b) - parseInt(a)).forEach(version => {
-                $('#SelectVersion').append(
-                    $('<optgroup>', { label: version }).append(
-                        parsedData[version].map(value => $('<option>', { text: value }))
-                    )
-                );
-            });
-            $('#SelectVersion').show();
-            $('#StatusInfo').text("");
-        });
-    });
-</script>
+    loadVersions();
+  </script>
+</body>
+  </html>
