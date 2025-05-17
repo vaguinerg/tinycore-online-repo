@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TinyCore Online Repo</title>
+  <link href="https://fonts.cdnfonts.com/css/liberation-mono" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 1rem;
+      font-family: 'Liberation Mono', monospace;
+      background: #f3f4f6;
+      color: #333;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 1.4rem;
+      margin-bottom: 1rem;
+    }
+
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      justify-content: center;
+      margin-bottom: 1rem;
+    }
+
+    select, input {
+      padding: 0.4rem;
+      font-size: 1rem;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+
+    #StatusInfo {
+      text-align: center;
+      font-size: 0.9rem;
+      margin: 0.5rem 0;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .list {
+      max-height: 300px;
+      overflow-y: auto;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      background: #fff;
+      padding: 0;
+      list-style: none;
+      margin: 0;
+    }
+
+    .list li {
+      padding: 0.5rem;
+      cursor: pointer;
+      border-bottom: 1px solid #eee;
+    }
+
+    .list li:hover {
+      background: #e0e7ff;
+    }
+
+    #InfoContainer {
+      background: #fff;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+      display: none;
+    }
+
+    .tabs {
+      display: flex;
+      border-bottom: 1px solid #ccc;
+    }
+
+    .tab {
+      padding: 0.5rem 1rem;
+      cursor: pointer;
+      border-right: 1px solid #ccc;
+    }
+
+    .tab.active {
+      background: #e0e7ff;
+      font-weight: bold;
+    }
+
+    .tab-content {
+      display: none;
+      padding: 1rem;
+      white-space: pre-wrap;
+    }
+
+    .tab-content.active {
+      display: block;
+    }
+    
+    .dep-size {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 0.25rem;
+    }
+    
+    .total-size {
+      margin-top: 1rem;
+      font-weight: bold;
+      text-align: right;
+    }
+
+    @media (min-width: 600px) {
+      .container {
+        flex-direction: row;
+      }
+
+      .list {
+        width: 30%;
+      }
+
+      #InfoContainer {
+        width: 70%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>TinyCore Online Repo</h1>
+  <div class="controls">
+    <select id="SelectVersion"></select>
+    <select id="SearchType">
+      <option>Search</option>
+      <option>Info</option>
+    </select>
+    <input type="text" id="InputSearchTerm" placeholder="Search term" />
+  </div>
+  <div id="StatusInfo">Loading versions...</div>
+
+  <div class="container">
+    <ul id="TCZList" class="list"></ul>
+    <div id="InfoContainer">
+      <div class="tabs">
+        <div class="tab active" data-tab="info">Info</div>
+        <div class="tab" data-tab="dependencies">Dependencies</div>
+        <div class="tab" data-tab="files">Files</div>
+        <div class="tab" data-tab="tree">Dependency Tree</div>
+      </div>
+      <div id="InfoTab" class="tab-content active"></div>
+      <div id="DependenciesTab" class="tab-content"></div>
+      <div id="FilesTab" class="tab-content"></div>
+      <div id="TreeTab" class="tab-content"></div>
+    </div>
+  </div>
+
+  <script>
+    const $ = id => document.getElementById(id);
+    let selectedVersion = '', selectedArch = '', fullList = [], currentPackage = '';
+
+    async function fetchText(url) {
+      const res = await fetch(url);
+      if (!res.ok) throw new Error("Failed to load " + url);
+      return res.text();
+    }
+
+    async function loadVersions() {
+      const raw = await fetchText('https://raw.githubusercontent.com/vaguinerg/tinycore-online-repo/main/site-data/versions');
+      const data = JSON.parse(raw.replace(/,\s*([\]}])/g, '$1'));
+      const sel = $('SelectVersion');
+
+      Object.entries(data).sort((a, b) => b[0] - a[0]).forEach(([ver, arches]) => {
+        arches.forEach(arch => {
+          const opt = document.createElement('option');
+          opt.textContent = `${ver} / ${arch}`;
+          opt.value = `${ver}|${arch}`;
+          sel.appendChild(opt);
+        });
+      });
+
+      $('StatusInfo').textContent = 'Select version and search';
+    }
+
+    async function loadTczList() {
+      $('StatusInfo').textContent = 'Loading packages...';
+      const url = `https://raw.githubusercontent.com/vaguinerg/tinycore-online-repo/main/data/${selectedVersion}/${selectedArch}/tczlist`;
+      const data = await fetchText(url);
+      fullList = data.trim().split('\n');
+      updateList(fullList);
+      $('StatusInfo').textContent = '';
+    }
+
+    function updateList(items) {
+      const list = $('TCZList');
+      list.innerHTML = '';
+      items.forEach(name => {
+        const li = document.createElement('li');
+        li.textContent = name;
+        li.onclick = () => loadPackageInfo(name);
+        list.appendChild(li);
+      });
+    }
+
+    async function loadPackageInfo(name) {
+      $('StatusInfo').textContent = `Loading ${name} info...`;
+      currentPackage = name;
+      
+      try {
+        // Load basic info
+        const infoUrl = `https://raw.githubusercontent.com/vaguinerg/tinycore-online-repo/main/tinycorelinux/${selectedVersion}/${selectedArch}/tcz/${name}.info`;
+        const info = await fetchText(infoUrl);
+        $('InfoTab').textContent = info;
+        
+        // Load dependencies
+        try {
+          const depUrl = `https://raw.githubusercontent.com/vaguinerg/tinycore-online-repo/main/tinycorelinux/${selectedVersion}/${selectedArch}/tcz/${name}.dep`;
+          const dep = await fetchText(depUrl);
+          $('DependenciesTab').textContent = dep || "No dependencies";
+        } catch (e) {
+          $('DependenciesTab').textContent = "No dependencies found";
+        }
+        
+        // Load file list
+        try {
+          const listUrl = `https://raw.githubusercontent.com/vaguinerg/tinycore-online-repo/main/tinycorelinux/${selectedVersion}/${selectedArch}/tcz/${name}.list`;
+          const fileList = await fetchText(listUrl);
+          $('FilesTab').textContent = fileList || "No file list available";
+        } catch (e) {
+          $('FilesTab').textContent = "File list not available";
+        }
+        
+        // Load dependency tree with sizes
+        try {
+          const treeUrl = `https://raw.githubusercontent.com/vaguinerg/tinycore-online-repo/main/tinycorelinux/${selectedVersion}/${selectedArch}/tcz/${name}.tree`;
+          const tree = await fetchText(treeUrl);
+          
+          if (tree && tree.trim()) {
+            loadTreeWithSizes(tree);
+          } else {
+            $('TreeTab').textContent = "No dependency tree available";
+          }
+        } catch (e) {
+          $('TreeTab').textContent = "Dependency tree not available";
+        }
+        
+        $('InfoContainer').style.display = 'block';
+        $('StatusInfo').textContent = '';
+        
+        // Activate first tab
+        document.querySelector('.tab.active').click();
+      } catch (e) {
+        $('StatusInfo').textContent = `Error loading info for ${name}: ${e.message}`;
+      }
+    }
+    
+    async function getPackageSize(name) {
+      try {
+        // Get the package URL to get its size
+        const url = `https://raw.githubusercontent.com/vaguinerg/tinycore-online-repo/main/tinycorelinux/${selectedVersion}/${selectedArch}/tcz/${name}`;
+        const response = await fetch(url, { method: 'HEAD' });
+        if (!response.ok) throw new Error("Failed to get size");
+        
+        const size = response.headers.get('content-length');
+        if (!size) return 0;
+        
+        return parseInt(size, 10);
+      } catch (e) {
+        return 0;
+      }
+    }
+    
+    async function loadTreeWithSizes(treeText) {
+      $('TreeTab').innerHTML = '<div>Loading dependency sizes...</div>';
+      
+      const lines = treeText.trim().split('\n');
+      const dependencies = [];
+      
+      // Parse the tree and extract unique dependencies
+      const uniqueDeps = new Set();
+      lines.forEach(line => {
+        // Extract package name regardless of indentation
+        const match = line.match(/\s*(.+\.tcz)/);
+        if (match && match[1]) {
+          uniqueDeps.add(match[1].trim());
+        }
+      });
+      
+      let totalSize = 0;
+      const treeDiv = document.createElement('div');
+      
+      // For each dependency, get its size
+      for (const dep of uniqueDeps) {
+        const sizeInBytes = await getPackageSize(dep);
+        const sizeInMB = (sizeInBytes / (1024 * 1024)).toFixed(2);
+        totalSize += parseFloat(sizeInMB);
+        
+        const depDiv = document.createElement('div');
+        depDiv.className = 'dep-size';
+        depDiv.innerHTML = `<span>${dep}</span><span>${sizeInMB} MB</span>`;
+        treeDiv.appendChild(depDiv);
+      }
+      
+      // Add total size at the bottom
+      const totalDiv = document.createElement('div');
+      totalDiv.className = 'total-size';
+      totalDiv.textContent = `Total size: ${totalSize.toFixed(2)} MB`;
+      treeDiv.appendChild(totalDiv);
+      
+      $('TreeTab').innerHTML = '';
+      $('TreeTab').appendChild(treeDiv);
+    }
+
+    async function deepSearch(term) {
+      $('StatusInfo').textContent = 'Searching in .info files...';
+      const url = `https://raw.githubusercontent.com/vaguinerg/tinycore-online-repo/main/data/${selectedVersion}/${selectedArch}/tczlist`;
+      const lines = (await fetchText(url)).trim().split('\n');
+      const matches = [];
+
+      for (let i = 0; i < lines.length; i++) {
+        const name = lines[i];
+        $('StatusInfo').textContent = `Checking ${i + 1}/${lines.length}: ${name}`;
+        try {
+          const info = await fetchText(`https://raw.githubusercontent.com/vaguinerg/tinycore-online-repo/main/tinycorelinux/${selectedVersion}/${selectedArch}/tcz/${name}.info`);
+          if (info.toLowerCase().includes(term.toLowerCase())) matches.push(name);
+        } catch (e) {}
+      }
+
+      updateList(matches);
+      $('StatusInfo').textContent = '';
+    }
+
+    $('SelectVersion').onchange = async () => {
+      const [ver, arch] = $('SelectVersion').value.split('|');
+      selectedVersion = ver;
+      selectedArch = arch;
+      await loadTczList();
+    };
+
+    $('InputSearchTerm').onkeypress = async e => {
+      if (e.key === 'Enter' && selectedVersion) {
+        const term = $('InputSearchTerm').value.trim().toLowerCase();
+        const type = $('SearchType').value.toLowerCase();
+
+        if (type === 'search') {
+          const filtered = fullList.filter(name => name.toLowerCase().includes(term));
+          updateList(filtered);
+        } else if (type === 'info') {
+          updateList([]); // clear
+          await deepSearch(term);
+        }
+      }
+    };
+    
+    // Tab switching functionality
+    document.querySelectorAll('.tab').forEach(tab => {
+      tab.addEventListener('click', () => {
+        // Remove active class from all tabs and content
+        document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+        document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+        
+        // Add active class to clicked tab and corresponding content
+        tab.classList.add('active');
+        const tabName = tab.getAttribute('data-tab');
+        $(`${tabName.charAt(0).toUpperCase() + tabName.slice(1)}Tab`).classList.add('active');
+      });
+    });
+
+    loadVersions();
+  </script>
+</body>
+</html>
