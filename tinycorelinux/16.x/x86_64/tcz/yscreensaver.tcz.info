@@ -1,10 +1,10 @@
 Title:          yscreensaver.tcz
 Description:    minimalistic fork of xscreensaver
-Version:        2.1
+Version:        2.2
 Author:         Bruno "GNUser" Dantas
 Original-site:  n/a
 Copying-policy: GPLv3
-Size: 19M
+Size:		25M
 Extension-by:   gnuser
 Tags:           screensaver xscreensaver simple-screensaver
 Comments:       ----------
@@ -13,12 +13,13 @@ Comments:       ----------
     edit ~/.config/yscreensaver.conf
     $ yscreensaver &
   To reload config file while script is running:
-    $ pkill -USR1 -f yscreensaver
+    $ pkill -USR1 yscreensaver
   To manually trigger animations to start immediately:
-    $ pkill -USR2 -f yscreensaver
+    $ pkill -USR2 yscreensaver
   To see animations that have been played:
     $ cat /tmp/animations-played
                 ----------
 Change-log:     2024/05/27 1.0
                 2024/12/08 2.0
-Current:        2025/03/18 2.1
+                2025/03/18 2.1
+Current:        2025/05/15 2.2: new animations from xscreensaver 6.10.1

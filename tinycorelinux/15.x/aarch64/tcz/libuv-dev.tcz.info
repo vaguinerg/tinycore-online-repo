@@ -1,17 +1,16 @@
 Title:          libuv-dev.tcz
-Description:    libuv devs
-Version:        1.43.0
-Author:         see list of sites below
-Original-site:  see list of sites below
-Copying-policy: see list of sites below
-Size:		1.7M
+Description:    Development files part of libuv
+Version:        1.50.0
+Author:         https://github.com/libuv/libuv/blob/v1.x/AUTHORS
+Original-site:  https://libuv.org/
+Copying-policy: https://github.com/libuv/libuv/blob/v1.x/LICENSE
+Size:		1.6M
 Extension_by:   polikuo
-Tags:           asynchronous io dev
-Comments:       dev files for libuv
-                ----------
-                This extension contains:
-                libuv-1.43.0 - BSD - https://dist.libuv.org/dist/v1.43.0/libuv-v1.43.0.tar.gz
-                ----------
+Tags:           development libuv asynchronous
+Comments:       libuv is a multi-platform support library with a focus on asynchronous I/O.
+                on asynchronous I/O.
+
 Change-log:     2020/08/21 first version (juanito)
                 2022/03/04 1.38.1 --> 1.43.0 (polikuo) --enable-static
-Current:        2022/03/04 1.38.1 --> 1.43.0 (polikuo) --enable-static
+                2025/04/30 updated version, 1.50.0 (rhermsen)
+Current:        2025/04/30 updated version, 1.50.0 (rhermsen)

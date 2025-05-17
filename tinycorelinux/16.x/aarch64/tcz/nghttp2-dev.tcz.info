@@ -1,17 +1,16 @@
 Title:          nghttp2-dev.tcz
-Description:    nghttp2 devs
-Version:        1.47.0
-Author:         see list of sites below
-Original-site:  see list of sites below
-Copying-policy: see list of sites below
-Size:           996K
+Description:    Development files part of nghttp2
+Version:        1.65.0
+Author:         https://github.com/nghttp2/nghttp2/blob/master/AUTHORS
+Original-site:  https://nghttp2.org/
+Copying-policy: https://github.com/nghttp2/nghttp2/blob/master/COPYING
+Size:		56K
 Extension_by:   polikuo
-Tags:           http dev
-Comments:       dev files for nghttp2
-                ----------
-                This extension contains:
-                nghttp2-1.47.0 - MIT - https://github.com/nghttp2/nghttp2/releases/download/v1.47.0/nghttp2-1.47.0.tar.gz
-                ----------
+Tags:           development nghttp2 HTTP2
+Comments:       nghttp2 is an implementation of HTTP/2 and its header compression
+                algorithm HPACK in C.
+
 Change-log:     2020/08/21 first version (juanito)
                 2022/03/04 1.41.0 --> 1.47.0 (polikuo) --enable-static
-Current:        2022/03/04 1.41.0 --> 1.47.0 (polikuo) --enable-static
+                2025/04/30 updated version, 1.65.0 (rhermsen)
+Current:        2025/04/30 updated version, 1.65.0 (rhermsen)
