@@ -220,47 +220,52 @@
       }
     }
 
-    async function loadTreeInfo(name) {
+    async function loadTreeTab(name) {
       const url = `https://raw.githubusercontent.com/vaguinerg/tinycore-online-repo/main/tinycorelinux/${selectedVersion}/${selectedArch}/tcz/${name}.tree`;
       try {
         const raw = await fetchText(url);
         const lines = raw.trim().split('\n');
+        const sizeMap = new Map();
+        const counted = new Set();
         let totalSize = 0;
-        const sizeMap = {};
-
-        const promises = lines.map(async line => {
-          const pkg = line.trim();
-          if (!pkg.endsWith('.tcz')) return;
-
-          const infoUrl = `https://raw.githubusercontent.com/vaguinerg/tinycore-online-repo/main/tinycorelinux/${selectedVersion}/${selectedArch}/tcz/${pkg}.info`;
+    
+        // Fetch all sizes in parallel
+        await Promise.all(lines.map(async line => {
+          const match = line.trim().match(/^([^\s]+)/);
+          if (!match) return;
+          const dep = match[1];
+    
+          if (counted.has(dep)) return;
+          counted.add(dep);
+    
           try {
-            const info = await fetchText(infoUrl);
-            const match = info.match(/Size:\s+([\d.]+)K/i);
-            if (match) {
-              const sizeMB = parseFloat(match[1]) / 1024;
-              totalSize += sizeMB;
-              sizeMap[pkg] = sizeMB;
+            const info = await fetchText(`https://raw.githubusercontent.com/vaguinerg/tinycore-online-repo/main/tinycorelinux/${selectedVersion}/${selectedArch}/tcz/${dep}.info`);
+            const sizeMatch = info.match(/Size:\s*([0-9.]+)\s*(k|M)/i);
+            if (sizeMatch) {
+              let [_, value, unit] = sizeMatch;
+              let size = parseFloat(value);
+              if (unit.toLowerCase() === 'k') size /= 1024;
+              sizeMap.set(dep, size);
+              totalSize += size;
             }
-          } catch {}
-        });
-
-        await Promise.all(promises);
-
-        const result = lines.map(line => {
-          const pkg = line.trim();
-          const indent = line.match(/^\s*/)[0];
-          const size = sizeMap[pkg] !== undefined ? ` (${sizeMap[pkg].toFixed(2)} MB)` : '';
-          return indent + pkg + size;
-        });
-
-        result.push(`\nTotal size: ${totalSize.toFixed(2)} MB`);
-        const output = result.join('\n');
-        window._cachedInfo.tree = output;
-        $('TabContent').textContent = output;
-      } catch {
-        $('TabContent').textContent = 'Failed to load tree info.';
+          } catch (e) {
+            sizeMap.set(dep, 0);
+          }
+        }));
+    
+        // Render output
+        const output = lines.map(line => {
+          const dep = line.trim().split(/\s+/)[0];
+          const size = sizeMap.has(dep) ? `${sizeMap.get(dep).toFixed(2)} MB` : '(unknown)';
+          return `${line} (${size})`;
+        }).join('\n');
+    
+        $('TabTree').textContent = `${output}\n\nTotal size: ${totalSize.toFixed(2)} MB`;
+      } catch (e) {
+        $('TabTree').textContent = 'Error loading .tree file.';
       }
     }
+
 
     async function deepSearch(term) {
       $('StatusInfo').textContent = 'Searching in .info files...';
