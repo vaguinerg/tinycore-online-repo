@@ -135,6 +135,7 @@
     <select id="SearchType">
       <option>Search</option>
       <option>Info</option>
+      <option>Provides</option>
     </select>
     <input type="text" id="InputSearchTerm" placeholder="Search term" />
   </div>
@@ -259,14 +260,16 @@
       try {
         // Get the package URL to get its size
         const url = `https://raw.githubusercontent.com/vaguinerg/tinycore-online-repo/main/tinycorelinux/${selectedVersion}/${selectedArch}/tcz/${name}`;
-        const response = await fetch(url, { method: 'HEAD' });
+        
+        // Using actual GET request instead of HEAD, as some servers might not support HEAD properly
+        const response = await fetch(url);
         if (!response.ok) throw new Error("Failed to get size");
         
-        const size = response.headers.get('content-length');
-        if (!size) return 0;
-        
-        return parseInt(size, 10);
+        // Get the blob to accurately measure its size
+        const blob = await response.blob();
+        return blob.size;
       } catch (e) {
+        console.error(`Error getting size for ${name}:`, e);
         return 0;
       }
     }
@@ -292,6 +295,7 @@
       
       // For each dependency, get its size
       for (const dep of uniqueDeps) {
+        $('StatusInfo').textContent = `Loading size for ${dep}...`;
         const sizeInBytes = await getPackageSize(dep);
         const sizeInMB = (sizeInBytes / (1024 * 1024)).toFixed(2);
         totalSize += parseFloat(sizeInMB);
@@ -310,6 +314,7 @@
       
       $('TreeTab').innerHTML = '';
       $('TreeTab').appendChild(treeDiv);
+      $('StatusInfo').textContent = '';
     }
 
     async function deepSearch(term) {
@@ -349,9 +354,36 @@
         } else if (type === 'info') {
           updateList([]); // clear
           await deepSearch(term);
+        } else if (type === 'provides') {
+          updateList([]); // clear
+          await providesSearch(term);
         }
       }
     };
+    
+    async function providesSearch(term) {
+      $('StatusInfo').textContent = 'Searching in provides database...';
+      try {
+        const url = `https://raw.githubusercontent.com/vaguinerg/tinycore-online-repo/main/data/${selectedVersion}/${selectedArch}/provides.json`;
+        const response = await fetch(url);
+        const providesData = await response.json();
+        
+        const matches = [];
+        
+        // Search all packages for files matching the term
+        for (const [packageName, files] of Object.entries(providesData)) {
+          if (Array.isArray(files) && files.some(file => file.toLowerCase().includes(term.toLowerCase()))) {
+            matches.push(packageName);
+          }
+        }
+        
+        updateList(matches);
+        $('StatusInfo').textContent = `Found ${matches.length} packages providing files matching "${term}"`;
+      } catch (e) {
+        $('StatusInfo').textContent = `Error searching provides: ${e.message}`;
+        console.error('Provides search error:', e);
+      }
+    }
     
     // Tab switching functionality
     document.querySelectorAll('.tab').forEach(tab => {
