@@ -68,13 +68,49 @@
       background: #e0e7ff;
     }
 
-    #InfoList {
-      white-space: pre-wrap;
+    #InfoContainer {
       background: #fff;
-      padding: 1rem;
       border-radius: 4px;
       border: 1px solid #ccc;
       display: none;
+    }
+
+    .tabs {
+      display: flex;
+      border-bottom: 1px solid #ccc;
+    }
+
+    .tab {
+      padding: 0.5rem 1rem;
+      cursor: pointer;
+      border-right: 1px solid #ccc;
+    }
+
+    .tab.active {
+      background: #e0e7ff;
+      font-weight: bold;
+    }
+
+    .tab-content {
+      display: none;
+      padding: 1rem;
+      white-space: pre-wrap;
+    }
+
+    .tab-content.active {
+      display: block;
+    }
+    
+    .dep-size {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 0.25rem;
+    }
+    
+    .total-size {
+      margin-top: 1rem;
+      font-weight: bold;
+      text-align: right;
     }
 
     @media (min-width: 600px) {
@@ -86,7 +122,7 @@
         width: 30%;
       }
 
-      #InfoList {
+      #InfoContainer {
         width: 70%;
       }
     }
@@ -99,6 +135,7 @@
     <select id="SearchType">
       <option>Search</option>
       <option>Info</option>
+      <option>Provides</option>
     </select>
     <input type="text" id="InputSearchTerm" placeholder="Search term" />
   </div>
@@ -106,12 +143,23 @@
 
   <div class="container">
     <ul id="TCZList" class="list"></ul>
-    <div id="InfoList"></div>
+    <div id="InfoContainer">
+      <div class="tabs">
+        <div class="tab active" data-tab="info">Info</div>
+        <div class="tab" data-tab="dependencies">Dependencies</div>
+        <div class="tab" data-tab="files">Files</div>
+        <div class="tab" data-tab="tree">Dependency Tree</div>
+      </div>
+      <div id="InfoTab" class="tab-content active"></div>
+      <div id="DependenciesTab" class="tab-content"></div>
+      <div id="FilesTab" class="tab-content"></div>
+      <div id="TreeTab" class="tab-content"></div>
+    </div>
   </div>
 
   <script>
     const $ = id => document.getElementById(id);
-    let selectedVersion = '', selectedArch = '', fullList = [];
+    let selectedVersion = '', selectedArch = '', fullList = [], currentPackage = '';
 
     async function fetchText(url) {
       const res = await fetch(url);
@@ -151,18 +199,114 @@
       items.forEach(name => {
         const li = document.createElement('li');
         li.textContent = name;
-        li.onclick = () => loadInfo(name);
+        li.onclick = () => loadPackageInfo(name);
         list.appendChild(li);
       });
     }
 
-    async function loadInfo(name) {
-      $('StatusInfo').textContent = `Loading ${name}.info...`;
-      const url = `https://raw.githubusercontent.com/vaguinerg/tinycore-online-repo/main/tinycorelinux/${selectedVersion}/${selectedArch}/tcz/${name}.info`;
-      const info = await fetchText(url);
-      $('InfoList').textContent = info;
-      $('InfoList').style.display = 'block';
-      $('StatusInfo').textContent = '';
+    async function loadPackageInfo(name) {
+      $('StatusInfo').textContent = `Loading ${name} info...`;
+      currentPackage = name;
+      
+      try {
+        // Load basic info
+        const infoUrl = `https://raw.githubusercontent.com/vaguinerg/tinycore-online-repo/main/tinycorelinux/${selectedVersion}/${selectedArch}/tcz/${name}.info`;
+        const info = await fetchText(infoUrl);
+        $('InfoTab').textContent = info;
+        
+        // Load dependencies
+        try {
+          const depUrl = `https://raw.githubusercontent.com/vaguinerg/tinycore-online-repo/main/tinycorelinux/${selectedVersion}/${selectedArch}/tcz/${name}.dep`;
+          const dep = await fetchText(depUrl);
+          $('DependenciesTab').textContent = dep || "No dependencies";
+        } catch (e) {
+          $('DependenciesTab').textContent = "No dependencies found";
+        }
+        
+        // Load file list
+        try {
+          const listUrl = `https://raw.githubusercontent.com/vaguinerg/tinycore-online-repo/main/tinycorelinux/${selectedVersion}/${selectedArch}/tcz/${name}.list`;
+          const fileList = await fetchText(listUrl);
+          $('FilesTab').textContent = fileList || "No file list available";
+        } catch (e) {
+          $('FilesTab').textContent = "File list not available";
+        }
+        
+        // Load dependency tree with sizes using the new method
+        try {
+          await loadTreeTab(name);
+        } catch (e) {
+          $('TreeTab').textContent = "Dependency tree not available";
+          console.error("Tree loading error:", e);
+        }
+        
+        $('InfoContainer').style.display = 'block';
+        $('StatusInfo').textContent = '';
+        
+        // Activate first tab
+        document.querySelector('.tab.active').click();
+      } catch (e) {
+        $('StatusInfo').textContent = `Error loading info for ${name}: ${e.message}`;
+      }
+    }
+    
+    async function loadTreeTab(name) {
+      const url = `https://raw.githubusercontent.com/vaguinerg/tinycore-online-repo/main/tinycorelinux/${selectedVersion}/${selectedArch}/tcz/${name}.tree`;
+      try {
+        const raw = await fetchText(url);
+        const lines = raw.trim().split('\n');
+        
+        // First, collect all unique packages from the tree
+        const uniqueDeps = new Set();
+        lines.forEach(line => {
+          const match = line.trim().match(/^([^\s]+)/);
+          if (match) uniqueDeps.add(match[1]);
+        });
+        
+        // Fetch the size list file
+        $('StatusInfo').textContent = 'Loading package sizes...';
+        const sizeListUrl = `https://raw.githubusercontent.com/vaguinerg/tinycore-online-repo/main/data/${selectedVersion}/${selectedArch}/sizelist.json`;
+        const sizeListResponse = await fetch(sizeListUrl);
+        const sizeList = await sizeListResponse.json();
+        
+        // Map sizes and calculate total
+        const sizeMap = new Map();
+        let totalSize = 0;
+        uniqueDeps.forEach(dep => {
+          // Get size from sizelist.json
+          const sizeInBytes = sizeList[dep] || 0;
+          const sizeInMB = sizeInBytes / (1024 * 1024);
+          sizeMap.set(dep, sizeInMB);
+          totalSize += sizeInMB;
+        });
+        
+        // Track which dependencies have been displayed
+        const displayedDeps = new Set();
+        const outputLines = [];
+        
+        for (const line of lines) {
+          const match = line.trim().match(/^([^\s]+)/);
+          if (!match) {
+            outputLines.push(line); // Lines without package, just keep
+            continue;
+          }
+          
+          const dep = match[1];
+          // If already displayed this dependency, skip
+          if (displayedDeps.has(dep)) continue;
+          displayedDeps.add(dep);
+          
+          const size = sizeMap.has(dep) ? `${sizeMap.get(dep).toFixed(2)} MB` : '(unknown)';
+          outputLines.push(`${line} (${size})`);
+        }
+        
+        $('TreeTab').textContent = `${outputLines.join('\n')}\n\nTotal size: ${totalSize.toFixed(2)} MB`;
+        $('StatusInfo').textContent = '';
+      } catch (e) {
+        console.error('Error loading tree:', e);
+        $('TreeTab').textContent = 'Error loading .tree file or size information.';
+        $('StatusInfo').textContent = '';
+      }
     }
 
     async function deepSearch(term) {
@@ -202,11 +346,52 @@
         } else if (type === 'info') {
           updateList([]); // clear
           await deepSearch(term);
+        } else if (type === 'provides') {
+          updateList([]); // clear
+          await providesSearch(term);
         }
       }
     };
+    
+    async function providesSearch(term) {
+      $('StatusInfo').textContent = 'Searching in provides database...';
+      try {
+        const url = `https://raw.githubusercontent.com/vaguinerg/tinycore-online-repo/main/data/${selectedVersion}/${selectedArch}/provides.json`;
+        const response = await fetch(url);
+        const providesData = await response.json();
+        
+        const matches = [];
+        
+        // Search all packages for files matching the term
+        for (const [packageName, files] of Object.entries(providesData)) {
+          if (Array.isArray(files) && files.some(file => file.toLowerCase().includes(term.toLowerCase()))) {
+            matches.push(packageName);
+          }
+        }
+        
+        updateList(matches);
+        $('StatusInfo').textContent = `Found ${matches.length} packages providing files matching "${term}"`;
+      } catch (e) {
+        $('StatusInfo').textContent = `Error searching provides: ${e.message}`;
+        console.error('Provides search error:', e);
+      }
+    }
+    
+    // Tab switching functionality
+    document.querySelectorAll('.tab').forEach(tab => {
+      tab.addEventListener('click', () => {
+        // Remove active class from all tabs and content
+        document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+        document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+        
+        // Add active class to clicked tab and corresponding content
+        tab.classList.add('active');
+        const tabName = tab.getAttribute('data-tab');
+        $(`${tabName.charAt(0).toUpperCase() + tabName.slice(1)}Tab`).classList.add('active');
+      });
+    });
 
     loadVersions();
   </script>
 </body>
-  </html>
+</html>
