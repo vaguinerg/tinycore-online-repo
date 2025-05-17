@@ -232,18 +232,12 @@
           $('FilesTab').textContent = "File list not available";
         }
         
-        // Load dependency tree with sizes
+        // Load dependency tree with sizes using the new method
         try {
-          const treeUrl = `https://raw.githubusercontent.com/vaguinerg/tinycore-online-repo/main/tinycorelinux/${selectedVersion}/${selectedArch}/tcz/${name}.tree`;
-          const tree = await fetchText(treeUrl);
-          
-          if (tree && tree.trim()) {
-            loadTreeWithSizes(tree);
-          } else {
-            $('TreeTab').textContent = "No dependency tree available";
-          }
+          await loadTreeTab(name);
         } catch (e) {
           $('TreeTab').textContent = "Dependency tree not available";
+          console.error("Tree loading error:", e);
         }
         
         $('InfoContainer').style.display = 'block';
@@ -256,65 +250,63 @@
       }
     }
     
-    async function getPackageSize(name) {
+    async function loadTreeTab(name) {
+      const url = `https://raw.githubusercontent.com/vaguinerg/tinycore-online-repo/main/tinycorelinux/${selectedVersion}/${selectedArch}/tcz/${name}.tree`;
       try {
-        // Get the package URL to get its size
-        const url = `https://raw.githubusercontent.com/vaguinerg/tinycore-online-repo/main/tinycorelinux/${selectedVersion}/${selectedArch}/tcz/${name}`;
+        const raw = await fetchText(url);
+        const lines = raw.trim().split('\n');
         
-        // Using actual GET request instead of HEAD, as some servers might not support HEAD properly
-        const response = await fetch(url);
-        if (!response.ok) throw new Error("Failed to get size");
+        // First, collect all unique packages from the tree
+        const uniqueDeps = new Set();
+        lines.forEach(line => {
+          const match = line.trim().match(/^([^\s]+)/);
+          if (match) uniqueDeps.add(match[1]);
+        });
         
-        // Get the blob to accurately measure its size
-        const blob = await response.blob();
-        return blob.size;
-      } catch (e) {
-        console.error(`Error getting size for ${name}:`, e);
-        return 0;
-      }
-    }
-    
-    async function loadTreeWithSizes(treeText) {
-      $('TreeTab').innerHTML = '<div>Loading dependency sizes...</div>';
-      
-      const lines = treeText.trim().split('\n');
-      const dependencies = [];
-      
-      // Parse the tree and extract unique dependencies
-      const uniqueDeps = new Set();
-      lines.forEach(line => {
-        // Extract package name regardless of indentation
-        const match = line.match(/\s*(.+\.tcz)/);
-        if (match && match[1]) {
-          uniqueDeps.add(match[1].trim());
+        // Fetch the size list file
+        $('StatusInfo').textContent = 'Loading package sizes...';
+        const sizeListUrl = `https://raw.githubusercontent.com/vaguinerg/tinycore-online-repo/main/data/${selectedVersion}/${selectedArch}/sizelist.json`;
+        const sizeListResponse = await fetch(sizeListUrl);
+        const sizeList = await sizeListResponse.json();
+        
+        // Map sizes and calculate total
+        const sizeMap = new Map();
+        let totalSize = 0;
+        uniqueDeps.forEach(dep => {
+          // Get size from sizelist.json
+          const sizeInBytes = sizeList[dep] || 0;
+          const sizeInMB = sizeInBytes / (1024 * 1024);
+          sizeMap.set(dep, sizeInMB);
+          totalSize += sizeInMB;
+        });
+        
+        // Track which dependencies have been displayed
+        const displayedDeps = new Set();
+        const outputLines = [];
+        
+        for (const line of lines) {
+          const match = line.trim().match(/^([^\s]+)/);
+          if (!match) {
+            outputLines.push(line); // Lines without package, just keep
+            continue;
+          }
+          
+          const dep = match[1];
+          // If already displayed this dependency, skip
+          if (displayedDeps.has(dep)) continue;
+          displayedDeps.add(dep);
+          
+          const size = sizeMap.has(dep) ? `${sizeMap.get(dep).toFixed(2)} MB` : '(unknown)';
+          outputLines.push(`${line} (${size})`);
         }
-      });
-      
-      let totalSize = 0;
-      const treeDiv = document.createElement('div');
-      
-      // For each dependency, get its size
-      for (const dep of uniqueDeps) {
-        $('StatusInfo').textContent = `Loading size for ${dep}...`;
-        const sizeInBytes = await getPackageSize(dep);
-        const sizeInMB = (sizeInBytes / (1024 * 1024)).toFixed(2);
-        totalSize += parseFloat(sizeInMB);
         
-        const depDiv = document.createElement('div');
-        depDiv.className = 'dep-size';
-        depDiv.innerHTML = `<span>${dep}</span><span>${sizeInMB} MB</span>`;
-        treeDiv.appendChild(depDiv);
+        $('TreeTab').textContent = `${outputLines.join('\n')}\n\nTotal size: ${totalSize.toFixed(2)} MB`;
+        $('StatusInfo').textContent = '';
+      } catch (e) {
+        console.error('Error loading tree:', e);
+        $('TreeTab').textContent = 'Error loading .tree file or size information.';
+        $('StatusInfo').textContent = '';
       }
-      
-      // Add total size at the bottom
-      const totalDiv = document.createElement('div');
-      totalDiv.className = 'total-size';
-      totalDiv.textContent = `Total size: ${totalSize.toFixed(2)} MB`;
-      treeDiv.appendChild(totalDiv);
-      
-      $('TreeTab').innerHTML = '';
-      $('TreeTab').appendChild(treeDiv);
-      $('StatusInfo').textContent = '';
     }
 
     async function deepSearch(term) {
