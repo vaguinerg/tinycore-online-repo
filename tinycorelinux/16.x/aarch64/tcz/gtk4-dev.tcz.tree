@@ -4686,8 +4686,8 @@ gtk4-dev.tcz
                ca-certificates.tcz
       libvulkan-dev.tcz
          libvulkan.tcz
-      libsoup-dev.tcz
-         libsoup.tcz
+      libsoup3-dev.tcz
+         libsoup3.tcz
             glib-networking.tcz
                glib2.tcz
                   gamin.tcz
@@ -4713,6 +4713,7 @@ gtk4-dev.tcz
             libpsl.tcz
                libidn2.tcz
                   libunistring.tcz
+            libnghttp2.tcz
          libxml2-dev.tcz
             libxml2.tcz
                liblzma.tcz
@@ -4735,6 +4736,14 @@ gtk4-dev.tcz
                   libunistring.tcz
                libunistring-dev.tcz
                   libunistring.tcz
+         libnghttp2-dev.tcz
+            libnghttp2.tcz
+      glslang-dev.tcz
+         glslang.tcz
+            spirv-tools.tcz
+         spirv-tools-dev.tcz
+            spirv-tools.tcz
+            spirv-headers.tcz
    librsvg-dev.tcz
       librsvg.tcz
          pango.tcz

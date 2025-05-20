@@ -2868,7 +2868,14 @@ totem-dev.tcz
                   libelf.tcz
                   pcre2.tcz
                      bzip2-lib.tcz
-         libvpx.tcz
+         libvpx114.tcz
+         libv4l2.tcz
+            v4l-dvb-6.12.25-piCore-v8.tcz
+               alsa-modules-6.12.25-piCore-v8.tcz
+               graphics-6.12.25-piCore-v8.tcz
+                  alsa-modules-6.12.25-piCore-v8.tcz
+            libjpeg-turbo.tcz
+            udev-lib.tcz
       gst-plugins-bad.tcz
          gst-plugins-base.tcz
             gstreamer.tcz
@@ -2962,13 +2969,19 @@ totem-dev.tcz
                   libelf.tcz
                   pcre2.tcz
                      bzip2-lib.tcz
-         libavfilter6.tcz
-            libswresample6.tcz
-               libavutil6.tcz
-            libavformat6.tcz
-               libavcodec6.tcz
-                  libswresample6.tcz
-                     libavutil6.tcz
+         libavfilter7.tcz
+            libswresample7.tcz
+               libavutil7.tcz
+                  libdrm.tcz
+                     libpciaccess.tcz
+                     udev-lib.tcz
+            libavformat7.tcz
+               libavcodec7.tcz
+                  libswresample7.tcz
+                     libavutil7.tcz
+                        libdrm.tcz
+                           libpciaccess.tcz
+                           udev-lib.tcz
                   x264.tcz
                   x265.tcz
                   libwebp.tcz
@@ -3106,10 +3119,16 @@ totem-dev.tcz
                      gmp.tcz
                   p11-kit.tcz
                      libtasn1.tcz
-            libpostproc6.tcz
-               libavutil6.tcz
-            libswscale6.tcz
-               libavutil6.tcz
+            libpostproc7.tcz
+               libavutil7.tcz
+                  libdrm.tcz
+                     libpciaccess.tcz
+                     udev-lib.tcz
+            libswscale7.tcz
+               libavutil7.tcz
+                  libdrm.tcz
+                     libpciaccess.tcz
+                     udev-lib.tcz
             libass.tcz
                fribidi.tcz
                   glib2.tcz 
@@ -11175,8 +11194,8 @@ totem-dev.tcz
                   ca-certificates.tcz
          libvulkan-dev.tcz
             libvulkan.tcz
-         libsoup-dev.tcz
-            libsoup.tcz
+         libsoup3-dev.tcz
+            libsoup3.tcz
                glib-networking.tcz
                   glib2.tcz
                      gamin.tcz
@@ -11202,6 +11221,7 @@ totem-dev.tcz
                libpsl.tcz
                   libidn2.tcz
                      libunistring.tcz
+               libnghttp2.tcz
             libxml2-dev.tcz
                libxml2.tcz
                   liblzma.tcz
@@ -11224,6 +11244,14 @@ totem-dev.tcz
                      libunistring.tcz
                   libunistring-dev.tcz
                      libunistring.tcz
+            libnghttp2-dev.tcz
+               libnghttp2.tcz
+         glslang-dev.tcz
+            glslang.tcz
+               spirv-tools.tcz
+            spirv-tools-dev.tcz
+               spirv-tools.tcz
+               spirv-headers.tcz
    clutter-gtk-dev.tcz
       clutter-gtk.tcz
          clutter.tcz
@@ -20824,8 +20852,8 @@ totem-dev.tcz
                ca-certificates.tcz
       libvulkan-dev.tcz
          libvulkan.tcz
-      libsoup-dev.tcz
-         libsoup.tcz
+      libsoup3-dev.tcz
+         libsoup3.tcz
             glib-networking.tcz
                glib2.tcz
                   gamin.tcz
@@ -20851,6 +20879,7 @@ totem-dev.tcz
             libpsl.tcz
                libidn2.tcz
                   libunistring.tcz
+            libnghttp2.tcz
          libxml2-dev.tcz
             libxml2.tcz
                liblzma.tcz
@@ -20873,4 +20902,12 @@ totem-dev.tcz
                   libunistring.tcz
                libunistring-dev.tcz
                   libunistring.tcz
+         libnghttp2-dev.tcz
+            libnghttp2.tcz
+      glslang-dev.tcz
+         glslang.tcz
+            spirv-tools.tcz
+         spirv-tools-dev.tcz
+            spirv-tools.tcz
+            spirv-headers.tcz
 
