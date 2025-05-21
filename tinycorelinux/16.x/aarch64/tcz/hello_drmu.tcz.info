@@ -1,16 +1,17 @@
 Title:          hello_drmu.tcz
-Description:    RPi hevc hw decoder player
+Description:    RPi h264 hevc hw decoder player
 Version:        13.5.2015
 Author:         see list of sites below
 Original-site:  see list of sites below
 Copying-policy: see list of sites below
 Size:           7.5MB
 Extension_by:   juanito
-Tags:	        RPi hevc hardware decoder video
-Comments:       rpi-ffmpeg based hevc hardware decoder video player
-                should work on RPi4 and RPi5
-                needs something like dtoverlay=vc4-kms-v3d,cma-256
-                hello_drmu hevc_video_file
+Tags:	        RPi h264 hevc hardware decoder video
+Comments:       rpi-ffmpeg based hardware decoder video player
+                h264 and hevc on RPi4, hevc on RPi5
+                needs something like dtoverlay=vc4-kms-v3d,cma-256 on RPi4
+                how to:
+                hello_drmu video_file
                 ----------
                 This extension contains:
                 hello_drmu - GPLv2 - https://github.com/jc-kynesim/drmu
