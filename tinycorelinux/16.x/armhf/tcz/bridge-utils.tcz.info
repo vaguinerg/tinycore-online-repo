@@ -1,10 +1,10 @@
 Title:          bridge-utils.tcz
 Description:    network bridge utils
-Version:        1.6
+Version:        1.7.1
 Author:         see list of sites below
 Original-site:  see list of sites below
 Copying-policy: see list of sites below
-Size: 12KB
+Size:           20.0K
 Extension_by:   juanito
 Tags:	        network bridge vm
 Comments:       utility needed to create and manage bridge devices
@@ -17,7 +17,8 @@ Comments:       utility needed to create and manage bridge devices
                 $ sudo ifconfig br0 up
                 ----------
                 This extension contains:
-                bridge-utils-1.6 - GPLv2 - https://www.kernel.org/pub/linux/utils/net/bridge-utils/bridge-utils-1.6.tar.xz
+                bridge-utils-1.7.1- GPLv2 - https://www.kernel.org/pub/linux/utils/net/bridge-utils/bridge-utils-1.7.1.tar.xz
                 ----------
 Change-log:     first version
-Current:        2020/07/28
+                2020/07/28
+Current:        2025/05/25 Upgrade 1.6 -> 1.7.1 (paul-123)

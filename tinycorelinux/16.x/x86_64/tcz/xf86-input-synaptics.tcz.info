@@ -1,0 +1,26 @@
+Title:          xf86-input-synaptics.tcz
+Description:    synaptics touchpad driver
+Version:        1.10.0
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 44KB
+Extension_by:   juanito
+Tags:	        x xorg input synaptics
+Comments:       Input Driver and support programs for Synaptics touchpads
+                Can be used with xf86-input-evdev instead of xf86-input-libinput
+                ----
+                Even though the evdev driver can handle touchpads well, this
+                driver is required if you want to use advanced features like
+                multi tapping, scrolling with touchpad, turning the touchpad off
+                while typing, etc
+                ----------
+                This extension contains:
+                xf86-input-synaptics-1.10.0 - MIT - https://www.x.org/pub/individual/driver/xf86-input-synaptics-1.10.0.tar.xz
+                ----------
+Change-log:     2013/10/30 first version
+                2014/10/28 updated 1.7.1 -> 1.8.1
+                2015/12/17 updated 1.8.1 -> 1.8.3
+                2017/02/22 updated 1.8.3 -> 1.9.0
+                2018/05/29 recompiled for updated xorg-server
+Current:        2025/05/25 updated 1.9.0 -> 1.10.0

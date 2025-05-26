@@ -3,6 +3,15 @@ wifi-manager.tcz
       db.tcz
    iw.tcz
       libnl.tcz
-   eiwd.tcz
-      wireless-6.12.11-tinycore.tcz
+   wpa_supplicant-dbus.tcz
+      libnl.tcz
+      dbus.tcz
+         expat2.tcz
+      openssl.tcz
+         gcc_libs.tcz
+      readline.tcz
+         ncursesw.tcz
+      wireless_tools.tcz
+         libiw.tcz
+         wireless-6.12.11-tinycore.tcz
 
