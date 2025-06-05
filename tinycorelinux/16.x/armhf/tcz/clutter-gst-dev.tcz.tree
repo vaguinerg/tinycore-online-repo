@@ -6477,14 +6477,22 @@ clutter-gst-dev.tcz
                      libxcb.tcz
                         libXau.tcz
                         libXdmcp.tcz
-               udev-lib.tcz
+               glib2.tcz
+                  gamin.tcz
+                  libelf.tcz
+                  pcre2.tcz
+               libasound.tcz
+                  alsa-modules-6.12.25-piCore-v7.tcz
+               udev257-lib.tcz
+                  libcap.tcz
                libical.tcz
                   icu.tcz
+               pcre2.tcz
                bluetooth-6.12.25-piCore-v7.tcz
                   firmware-rpi-bt.tcz
-               sbc.tcz
                readline.tcz
                   ncurses.tcz
+               sbc.tcz
       sbc-dev.tcz
          sbc.tcz
       gsettings-desktop-schemas-dev.tcz

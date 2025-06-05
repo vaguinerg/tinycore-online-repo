@@ -681,7 +681,7 @@ gtk4-dev.tcz
                   pcre2.tcz
                gmp.tcz
             libasound.tcz
-               alsa-modules-6.12.15-piCore-v7.tcz
+               alsa-modules-6.12.25-piCore-v7.tcz
             libopus.tcz
             libtheora.tcz
                libogg.tcz
@@ -772,7 +772,7 @@ gtk4-dev.tcz
                   pcre2.tcz
                gmp.tcz
             libasound.tcz
-               alsa-modules-6.12.15-piCore-v7.tcz
+               alsa-modules-6.12.25-piCore-v7.tcz
             libopus.tcz
             libtheora.tcz
                libogg.tcz
@@ -819,7 +819,7 @@ gtk4-dev.tcz
                gmp.tcz
          libasound-dev.tcz
             libasound.tcz
-               alsa-modules-6.12.15-piCore-v7.tcz
+               alsa-modules-6.12.25-piCore-v7.tcz
          libopus-dev.tcz
             libopus.tcz
          graphene-dev.tcz
@@ -2543,14 +2543,22 @@ gtk4-dev.tcz
                      libxcb.tcz
                         libXau.tcz
                         libXdmcp.tcz
-               udev-lib.tcz
+               glib2.tcz
+                  gamin.tcz
+                  libelf.tcz
+                  pcre2.tcz
+               libasound.tcz
+                  alsa-modules-6.12.25-piCore-v7.tcz
+               udev257-lib.tcz
+                  libcap.tcz
                libical.tcz
                   icu.tcz
-               bluetooth-6.12.15-piCore-v7.tcz
+               pcre2.tcz
+               bluetooth-6.12.25-piCore-v7.tcz
                   firmware-rpi-bt.tcz
-               sbc.tcz
                readline.tcz
                   ncurses.tcz
+               sbc.tcz
       sbc-dev.tcz
          sbc.tcz
       gsettings-desktop-schemas-dev.tcz
@@ -4019,7 +4027,7 @@ gtk4-dev.tcz
          libsndfile.tcz
             flac13.tcz
             libasound.tcz
-               alsa-modules-6.12.15-piCore-v7.tcz
+               alsa-modules-6.12.25-piCore-v7.tcz
             libvorbis.tcz
                libogg.tcz
             sqlite3.tcz
@@ -4030,7 +4038,7 @@ gtk4-dev.tcz
                libogg.tcz
          libasound-dev.tcz
             libasound.tcz
-               alsa-modules-6.12.15-piCore-v7.tcz
+               alsa-modules-6.12.25-piCore-v7.tcz
          libvorbis-dev.tcz
             libvorbis.tcz
                libogg.tcz

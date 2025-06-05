@@ -1,12 +1,13 @@
 lib/udev/hid2hci
 usr/local/tce.installed/bluez
-usr/local/share/dbus-1/services/org.bluez.obex.service
 usr/local/share/bluez/files/97-hid2hci.rules
 usr/local/share/bluez/files/proximity.conf
 usr/local/share/bluez/files/network.conf
 usr/local/share/bluez/files/main.conf
 usr/local/share/bluez/files/input.conf
-usr/local/lib/cups/backend/bluetooth
+usr/local/share/dbus-1/services/org.bluez.obex.service
+usr/local/share/dbus-1/system.d/obex.conf
+usr/local/share/dbus-1/system.d/bluetooth.conf
 usr/local/lib/bluez/test/test-sap-server
 usr/local/lib/bluez/test/test-profile
 usr/local/lib/bluez/test/test-network
@@ -43,9 +44,7 @@ usr/local/lib/bluez/test/bluezutils.py
 usr/local/lib/bluez/test/agent.py
 usr/local/lib/bluetooth/obexd
 usr/local/lib/bluetooth/bluetoothd
-usr/local/lib/bluetooth/plugins/sixaxis.so
 usr/local/etc/init.d/bluez
-usr/local/etc/dbus-1/system.d/bluetooth.conf
 usr/local/bin/sdptool
 usr/local/bin/rfcomm
 usr/local/bin/rctest

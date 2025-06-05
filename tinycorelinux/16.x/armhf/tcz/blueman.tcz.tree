@@ -337,7 +337,7 @@ blueman.tcz
             readline.tcz
                ncurses.tcz
             wireless_tools.tcz
-               wireless-6.12.15-piCore-v7.tcz
+               wireless-6.12.25-piCore-v7.tcz
                   regdb.tcz
          dhcpcd.tcz
          modemmanager.tcz
@@ -363,16 +363,24 @@ blueman.tcz
                      libxcb.tcz
                         libXau.tcz
                         libXdmcp.tcz
-               udev-lib.tcz
+               glib2.tcz
+                  gamin.tcz
+                  libelf.tcz
+                  pcre2.tcz
+               libasound.tcz
+                  alsa-modules-6.12.25-piCore-v7.tcz
+               udev257-lib.tcz
+                  libcap.tcz
                libical.tcz
                   icu.tcz
-               bluetooth-6.12.15-piCore-v7.tcz
+               pcre2.tcz
+               bluetooth-6.12.25-piCore-v7.tcz
                   firmware-rpi-bt.tcz
-               sbc.tcz
                readline.tcz
                   ncurses.tcz
+               sbc.tcz
          ppp.tcz
-            ppp-modules-6.12.15-piCore-v7.tcz
+            ppp-modules-6.12.25-piCore-v7.tcz
          curl.tcz
             openssl.tcz
                ca-certificates.tcz
@@ -940,14 +948,22 @@ blueman.tcz
                libxcb.tcz
                   libXau.tcz
                   libXdmcp.tcz
-         udev-lib.tcz
+         glib2.tcz
+            gamin.tcz
+            libelf.tcz
+            pcre2.tcz
+         libasound.tcz
+            alsa-modules-6.12.25-piCore-v7.tcz
+         udev257-lib.tcz
+            libcap.tcz
          libical.tcz
             icu.tcz
-         bluetooth-6.12.15-piCore-v7.tcz
+         pcre2.tcz
+         bluetooth-6.12.25-piCore-v7.tcz
             firmware-rpi-bt.tcz
-         sbc.tcz
          readline.tcz
             ncurses.tcz
+         sbc.tcz
    dconf.tcz
       gtk3.tcz
          libepoxy.tcz

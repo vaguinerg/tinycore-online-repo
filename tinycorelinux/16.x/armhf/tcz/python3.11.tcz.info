@@ -4,7 +4,7 @@ Version:        3.11.12
 Author:         Python Software Foundation
 Original-site:  http://www.python.org
 Copying-policy: Python license, http://www.python.org/psg/license
-Size:           18.6M
+Size:           19M
 Extension_by:   paul-123
 Tags:           DEVELOPMENT PROGRAMMING CLI PYTHON
 Comments:       Binaries only
@@ -14,4 +14,5 @@ Comments:       Binaries only
                 ----
 Change-log:     2023/04/30 First version, 3.11.2
                 2023/08/22 Upgrade 3.11.2 -> 3.11.4, include bzip2 support
-Current:        2025/05/24 Upgrade 3.11.4 -> 3.11.12 (paul-123)
+                2025/05/24 Upgrade 3.11.4 -> 3.11.12 (paul-123)
+Current:        2025/06/03 Rebuild with uname_hack to resolve ssh build (paul-123)
