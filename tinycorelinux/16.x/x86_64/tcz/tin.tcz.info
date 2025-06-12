@@ -1,0 +1,25 @@
+Title:		tin.tcz
+Description:	Tin - A Usenet newsreader
+Version:	2.6.4
+Author:		Iain Lea, Urs Janssen
+Original-site:	http://www.tin.org
+Copying-policy:	BSD-3-Clause
+Size:		428K
+Extension_by:	CNK
+Tags:		internet usenet newsreader newsgroup NNTP NNTPS TUI
+Comments:	Tin is a full-screen easy to use Usenet newsreader for
+		the terminal. It can read news locally (eg. var/spool/news)
+		or remotely ("rtin" or "tin -r" option) via an NNTP (Network
+		News Transport Protocol, RFC3977) or NNTPS (RFC8143) server.
+
+		Example tin.defaults file is at:
+		/usr/local/etc/tin/tin.defaults
+		Copy to /etc/tin/tin.defaults and customise if desired. For
+		posting from a system without a Fully Qualified Domain Name,
+		you need "disable_sender=ON".
+
+		----                 
+		Compiled for TC Pure64 16.x
+		----
+Change-log:	2025/06/07 first packaged version, 2.6.4
+Current:	2025/06/07 first packaged version, 2.6.4
