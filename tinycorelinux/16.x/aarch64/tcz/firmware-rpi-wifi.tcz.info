@@ -9,7 +9,7 @@ Extension_by:   paul-123
 Tags:           FIRMWARE RPI4 RPI3 RPI0W RPI02 WIFI WIRELESS
 Comments:       Binaries only
                 ----
-                Packed for piCore 10.x / RPi3 and RPi0W
+                Packed for piCore 16.x / RPi3 and RPi0W
 Change-log:     2016/06/28 First version 7.45.41.26
                 CVE-2017-9417: Broadpwn issue fix
                 Add CY string in the version string.
@@ -33,4 +33,5 @@ Change-log:     2016/06/28 First version 7.45.41.26
                            Add CYW43439 firmware
                 2024/07/28 Update CYW43455 to 7.45.265 (28bca26 CY) CRC: 68bafb8c
                            43455 update for wpa3 offload
-Current:        2024/12/28 Add links for CM5 and Pi500
+                2024/12/28 Add links for CM5 and Pi500
+Current:        2025/06/15 Move to /usr/local/firmware for piCore16

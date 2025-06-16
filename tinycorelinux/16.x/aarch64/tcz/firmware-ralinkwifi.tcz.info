@@ -1,13 +1,28 @@
 Title:          firmware-ralinkwifi.tcz
-Description:    Redistributable firmware for ralink Wireless LAN adapters
-Version:        2015-09-03
+Description:    firmware for ralink Wireless LAN
+Version:        20240220
 Author:         Various
-Original-site:  https://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git/
+Original-site:  https://git.kernel.org/pub/scm/linux/\
+                kernel/git/firmware/linux-firmware.git
 Copying-policy: Distributable
-Size:           41k
-Extension_by:   coreplayer2, bmarkus, sbp
-Tags:           FIRMWARE RALINK WIFI WIRELESS
-Comments:       Binaries only
-Change-log:     2013/07/01 Original firmware for tc5.x
-                2014/03/04 Updated for piCore-5.2
-Current:        2015/09/03 Updated for piCore-7.0, added MEDIATEK7601 firmware
+Size:           32K
+Extension_by:   aus9 @linuxquestions.org
+Tags:           firmware mediatek ralink
+Comments:       mt*bin in firmware-mediatek.tcz  
+                pci module rt2800pci 
+                USB rt73usb rt2800usb  
+                module not found rt2860sta for rt2860.bin
+                module not found rt2870sta for rt2870.bin
+                
+                                
+Change-log:     2011/08/06 Original (curaga)
+                2013/07/01 updated (coreplayer2)
+                2015/06/02 updated     "
+                2017/03/17 updated     "
+                2018/02/25 updated     "
+                2018/12/24 updated     "
+                2020/01/13 updated (Juanito)
+                2020/06/20 updated (aus9) +vpu*, split mediatek out, some fw missing
+                2023/02/04 updated  
+                2024/03/12 updated remove install script  
+Current:        2024/09/23 corrected info file only    

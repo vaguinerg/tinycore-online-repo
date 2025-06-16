@@ -9,7 +9,7 @@ Extension_by:   paul-123
 Tags:           firmware rpi bluetooth bt
 Comments:       Binaries only
                 ---
-                Built for piCore 14.x
+                Built for piCore 16.x
 Change-log:     2017/03/12 first version
                 2017/08/08 (pi3/0 firmware MD5: 85801286c2253de0741310b2789bf187)
                 2018/03/17 (Add pi3b+ firmware MD5: ec75853caa3fa18a86fa4cbcb5242d54)
@@ -18,4 +18,6 @@ Change-log:     2017/03/12 first version
                 2020/11/24 Update BCM4345C0 hcd for BLE corrections
                 2021/07/17 Update BT firmware to latest, includes Spectra Fixes
                 2021/11/13 Add firmware for Zero2W
-Current:        2023/06/10 Update firmware to fix BLE on new phones, add Zero2W links
+                2023/06/10 Update firmware to fix BLE on new phones, add Zero2W links
+                2023/10/30 Add device-specific firmware links
+Current:        2025/06/15 Move to /usr/local/lib/firmware to match piCore16

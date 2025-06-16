@@ -1,14 +1,29 @@
 Title:          firmware-atheros.tcz
-Description:    Redistributable firmware for atheros
-Version:        2019-12-01
+Description:    firmware for Atheros wireless and Bluetooth devices
+Version:        20240220
 Author:         Various
-Original-site:  https://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git/
+Original-site:  https://git.kernel.org/pub/scm/linux/\
+                kernel/git/firmware/linux-firmware.git
 Copying-policy: Distributable
-Size:           1.2M
-Extension_by:   Curaga, coreplayer2, bmarkus
-Tags:           FIRMWARE ATHEROS WIFI WIRELESS
-Comments:       Binaries only
-Change-log:     2011/08/06 Original
-                2013/07/01 Updated firmware for tc5.x by coreplayer2
-                2014/03/04 Updated fo piCore-5.2
-Current:        2019/12/01 Added ath9k_htc firmware
+Size:           30.7M
+Extension_by:   aus9 @linuxquestions.org
+Tags:           firmware atheros wifi bluetooth
+Comments:       Other modules are also involved!
+                usb: ar5523 ath6kl_usb 
+                pci: ath9k_htc ath10k_pci ath11k_pci
+                --- carl9170 wil6210   
+                BT  ath3k for ath3k-1.fw
+                ar3k might use  btusb 
+                but modinfo shows no FW matches  
+    
+Change-log:     2013/07/01 Original (curaga)
+                2015/06/02 Original (coreplayer2)
+                2016/01/10 updated      "
+                2017/03/17 updated      "
+                2018/02/25 updated      "
+                2018/12/24 updated      "
+                2020/01/13 updated (Juanito)
+                2020/06/20 updated (aus9)
+                2023/02/04 updated  
+                2024/03/12 updated remove install script- -0 deletion
+Current:        2024/09/23 corrected info file only      
