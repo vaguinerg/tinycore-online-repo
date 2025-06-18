@@ -1,0 +1,25 @@
+Title:          wscreensaver.tcz
+Description:    minimalistic fork of xscreensaver for wayland
+Version:        2.2
+Author:         Bruno "GNUser" Dantas
+Original-site:  n/a
+Copying-policy: GPLv3
+Size:		25M
+Extension-by:   gnuser
+Tags:           screensaver xscreensaver simple-screensaver
+Comments:       ----------
+  Requires a wlroots-based wayland compositor (e.g., labwc) and xwayland
+                ----------
+  Usage:
+    $ cp /usr/local/share/wscreensaver/wscreensaver.conf ~/.config/
+    edit ~/.config/wscreensaver.conf
+    $ wscreensaver &
+  To reload config file while script is running:
+    $ pkill -USR1 wscreensaver
+  To manually trigger animations to start immediately:
+    $ pkill -USR2 wscreensaver
+  To see animations that have been played:
+    $ cat /tmp/animations-played
+                ----------
+Change-log:     ----------
+Current:        2025/06/16 first version
