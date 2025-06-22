@@ -1,19 +1,21 @@
-Title:          dropbear.tcz
-Description:    Small SSH server and client TESTING
-Version:        2020.80
+Title:		dropbear.tcz
+Description:    Small SSH server and client
+Version:        2024.86
 Author:         Matt Johnston
 Original-site:  https://matt.ucc.asn.au/dropbear/dropbear.html
-Copying-policy: Varying by code portion, see source tarball
-Size:		140K
+Copying-policy: https://secure.ucc.asn.au/hg/dropbear/raw-file/tip/LICENSE
+Size:		156K
 Extension_by:   bmarkus,jim
-Tags:           SECURITY CLI SSH
-Comments:       Binaries only
-                ----
-                Compiled for Core 11.0
-                ----
-                Use "sudo /usr/local/etc/init.d/dropbear start|stop|retart|status"
+Tags:           dropbear ssh dbclient
+Comments:       dropbear docs
+                Dropbear is a relatively small SSH server and client.
+                Use /usr/local/etc/init.d/dropbear start|stop|retart|status
                 to manage service as root
-                add "/usr/local/etc/init.d/dropbear start" to /opt/bootlocal.sh to start at boot
+                Less than 1024 bit RSA keys are not supported anymore.
+                From Dropbear 2022.83 DSA keys are not supported anymore.
+                
 Change-log:     2014/09/28 First version, 2014.65
                 2015/05/23 Fix init script type-o (thanks to M.S. for reporting)
-Current:        2020/10/27 Update to 2020.80 compiled in key paths, xauth fix
+                2020/10/27 Update to 2020.80 compiled in key paths, xauth fix
+                2025/06/20 updated version, 2024.86 (rhermsen)
+Current:        2025/06/20 updated version, 2024.86 (rhermsen)
