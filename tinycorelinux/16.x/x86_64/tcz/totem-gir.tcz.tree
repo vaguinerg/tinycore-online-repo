@@ -2012,10 +2012,10 @@ totem-gir.tcz
                libogg.tcz
             libasound.tcz
             opus.tcz
-         libavfilter5.tcz
-            libswresample5.tcz
-               libavutil5.tcz
-                  libva2.tcz
+         libavfilter7.tcz
+            libswresample7.tcz
+               libavutil7.tcz
+                  libva22.tcz
                      libGL.tcz
                         libXdamage.tcz
                            libXfixes.tcz
@@ -2045,11 +2045,11 @@ totem-gir.tcz
                            libxcb.tcz
                               libXau.tcz
                               libXdmcp.tcz
-            libavformat5.tcz
-               libavcodec5.tcz
-                  libswresample5.tcz
-                     libavutil5.tcz
-                        libva2.tcz
+            libavformat7.tcz
+               libavcodec7.tcz
+                  libswresample7.tcz
+                     libavutil7.tcz
+                        libva22.tcz
                            libGL.tcz
                               libXdamage.tcz
                                  libXfixes.tcz
@@ -2079,15 +2079,9 @@ totem-gir.tcz
                                  libxcb.tcz
                                     libXau.tcz
                                     libXdmcp.tcz
-                  libjxl.tcz
-                     brotli.tcz
-                     libhwy.tcz
-                  svt-av1.tcz
                   libaom.tcz
-                  dav1d.tcz
-                  xvid.tcz
                   x265.tcz
-                  x264_148.tcz
+                  x264_164.tcz
                   libwebp1.tcz
                   libvpx113.tcz
                   libtheora.tcz
@@ -2227,19 +2221,6 @@ totem-gir.tcz
                            libXau.tcz
                            libXdmcp.tcz
                bzip2-lib.tcz
-               libbluray.tcz
-                  libxml2.tcz
-                     liblzma.tcz
-                  fontconfig.tcz
-                     expat2.tcz
-                     freetype.tcz
-                        libpng.tcz
-                        harfbuzz.tcz
-                           glib2.tcz
-                              libffi.tcz
-                              pcre21042.tcz
-                           graphite.tcz
-                        bzip2-lib.tcz
                gnutls38.tcz
                   p11-kit.tcz
                      libffi7.tcz
@@ -2250,9 +2231,9 @@ totem-gir.tcz
                      libunistring.tcz
                      ncursesw.tcz
                   libzstd.tcz
-            libpostproc5.tcz
-               libavutil5.tcz
-                  libva2.tcz
+            libpostproc7.tcz
+               libavutil7.tcz
+                  libva22.tcz
                      libGL.tcz
                         libXdamage.tcz
                            libXfixes.tcz
@@ -2282,9 +2263,9 @@ totem-gir.tcz
                            libxcb.tcz
                               libXau.tcz
                               libXdmcp.tcz
-            libswscale5.tcz
-               libavutil5.tcz
-                  libva2.tcz
+            libswscale7.tcz
+               libavutil7.tcz
+                  libva22.tcz
                      libGL.tcz
                         libXdamage.tcz
                            libXfixes.tcz
@@ -2314,7 +2295,7 @@ totem-gir.tcz
                            libxcb.tcz
                               libXau.tcz
                               libXdmcp.tcz
-            libass5.tcz
+            libass.tcz
                fribidi.tcz
                   glib2.tcz
                      libffi.tcz

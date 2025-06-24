@@ -1,8 +1,10 @@
 /usr/local/include/gstreamer-1.0/gst/allocators/allocators-prelude.h
 /usr/local/include/gstreamer-1.0/gst/allocators/allocators.h
 /usr/local/include/gstreamer-1.0/gst/allocators/gstdmabuf.h
+/usr/local/include/gstreamer-1.0/gst/allocators/gstdrmdumb.h
 /usr/local/include/gstreamer-1.0/gst/allocators/gstfdmemory.h
 /usr/local/include/gstreamer-1.0/gst/allocators/gstphysmemory.h
+/usr/local/include/gstreamer-1.0/gst/allocators/gstshmallocator.h
 /usr/local/include/gstreamer-1.0/gst/app/app-enumtypes.h
 /usr/local/include/gstreamer-1.0/gst/app/app-prelude.h
 /usr/local/include/gstreamer-1.0/gst/app/app.h
@@ -33,6 +35,8 @@
 /usr/local/include/gstreamer-1.0/gst/audio/gstaudiosink.h
 /usr/local/include/gstreamer-1.0/gst/audio/gstaudiosrc.h
 /usr/local/include/gstreamer-1.0/gst/audio/gstaudiostreamalign.h
+/usr/local/include/gstreamer-1.0/gst/audio/gstdsd.h
+/usr/local/include/gstreamer-1.0/gst/audio/gstdsdformat.h
 /usr/local/include/gstreamer-1.0/gst/audio/streamvolume.h
 /usr/local/include/gstreamer-1.0/gst/fft/fft-prelude.h
 /usr/local/include/gstreamer-1.0/gst/fft/fft.h
@@ -62,6 +66,7 @@
 /usr/local/include/gstreamer-1.0/gst/gl/glprototypes/gles.h
 /usr/local/include/gstreamer-1.0/gst/gl/glprototypes/gstgl_compat.h
 /usr/local/include/gstreamer-1.0/gst/gl/glprototypes/gstgl_gles2compat.h
+/usr/local/include/gstreamer-1.0/gst/gl/glprototypes/invalidate_subdata.h
 /usr/local/include/gstreamer-1.0/gst/gl/glprototypes/opengl.h
 /usr/local/include/gstreamer-1.0/gst/gl/glprototypes/query.h
 /usr/local/include/gstreamer-1.0/gst/gl/glprototypes/shaders.h
@@ -72,6 +77,7 @@
 /usr/local/include/gstreamer-1.0/gst/gl/gstglapi.h
 /usr/local/include/gstreamer-1.0/gst/gl/gstglbasefilter.h
 /usr/local/include/gstreamer-1.0/gst/gl/gstglbasememory.h
+/usr/local/include/gstreamer-1.0/gst/gl/gstglbasemixer.h
 /usr/local/include/gstreamer-1.0/gst/gl/gstglbasesrc.h
 /usr/local/include/gstreamer-1.0/gst/gl/gstglbuffer.h
 /usr/local/include/gstreamer-1.0/gst/gl/gstglbufferpool.h
@@ -87,6 +93,7 @@
 /usr/local/include/gstreamer-1.0/gst/gl/gstglfuncs.h
 /usr/local/include/gstreamer-1.0/gst/gl/gstglmemory.h
 /usr/local/include/gstreamer-1.0/gst/gl/gstglmemorypbo.h
+/usr/local/include/gstreamer-1.0/gst/gl/gstglmixer.h
 /usr/local/include/gstreamer-1.0/gst/gl/gstgloverlaycompositor.h
 /usr/local/include/gstreamer-1.0/gst/gl/gstglquery.h
 /usr/local/include/gstreamer-1.0/gst/gl/gstglrenderbuffer.h
@@ -179,6 +186,7 @@
 /usr/local/include/gstreamer-1.0/gst/video/video-format.h
 /usr/local/include/gstreamer-1.0/gst/video/video-frame.h
 /usr/local/include/gstreamer-1.0/gst/video/video-hdr.h
+/usr/local/include/gstreamer-1.0/gst/video/video-info-dma.h
 /usr/local/include/gstreamer-1.0/gst/video/video-info.h
 /usr/local/include/gstreamer-1.0/gst/video/video-multiview.h
 /usr/local/include/gstreamer-1.0/gst/video/video-overlay-composition.h
