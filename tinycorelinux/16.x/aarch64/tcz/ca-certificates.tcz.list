@@ -1,6 +1,5 @@
+usr/sbin/update-ca-certificates
 usr/local/tce.installed/ca-certificates
-usr/local/sbin/update-ca-certificates
-usr/local/share/ca-certificates/files/ca-certificates.conf
 usr/local/share/ca-certificates/mozilla/vTrus_Root_CA.crt
 usr/local/share/ca-certificates/mozilla/vTrus_ECC_Root_CA.crt
 usr/local/share/ca-certificates/mozilla/emSign_Root_CA_-_G1.crt
@@ -11,7 +10,6 @@ usr/local/share/ca-certificates/mozilla/ePKI_Root_Certification_Authority.crt
 usr/local/share/ca-certificates/mozilla/e-Szigno_Root_CA_2017.crt
 usr/local/share/ca-certificates/mozilla/certSIGN_Root_CA_G2.crt
 usr/local/share/ca-certificates/mozilla/certSIGN_ROOT_CA.crt
-usr/local/share/ca-certificates/mozilla/XRamp_Global_CA_Root.crt
 usr/local/share/ca-certificates/mozilla/USERTrust_RSA_Certification_Authority.crt
 usr/local/share/ca-certificates/mozilla/USERTrust_ECC_Certification_Authority.crt
 usr/local/share/ca-certificates/mozilla/UCA_Global_G2_Root.crt
@@ -32,11 +30,9 @@ usr/local/share/ca-certificates/mozilla/TWCA_CYBER_Root_CA.crt
 usr/local/share/ca-certificates/mozilla/TUBITAK_Kamu_SM_SSL_Kok_Sertifikasi_-_Surum_1.crt
 usr/local/share/ca-certificates/mozilla/T-TeleSec_GlobalRoot_Class_3.crt
 usr/local/share/ca-certificates/mozilla/T-TeleSec_GlobalRoot_Class_2.crt
-usr/local/share/ca-certificates/mozilla/SwissSign_Silver_CA_-_G2.crt
 usr/local/share/ca-certificates/mozilla/SwissSign_Gold_CA_-_G2.crt
 usr/local/share/ca-certificates/mozilla/Starfield_Services_Root_Certificate_Authority_-_G2.crt
 usr/local/share/ca-certificates/mozilla/Starfield_Root_Certificate_Authority_-_G2.crt
-usr/local/share/ca-certificates/mozilla/Starfield_Class_2_CA.crt
 usr/local/share/ca-certificates/mozilla/Security_Communication_RootCA2.crt
 usr/local/share/ca-certificates/mozilla/Security_Communication_ECC_RootCA1.crt
 usr/local/share/ca-certificates/mozilla/Secure_Global_CA.crt
@@ -77,12 +73,10 @@ usr/local/share/ca-certificates/mozilla/Hellenic_Academic_and_Research_Instituti
 usr/local/share/ca-certificates/mozilla/HARICA_TLS_RSA_Root_CA_2021.crt
 usr/local/share/ca-certificates/mozilla/HARICA_TLS_ECC_Root_CA_2021.crt
 usr/local/share/ca-certificates/mozilla/Go_Daddy_Root_Certificate_Authority_-_G2.crt
-usr/local/share/ca-certificates/mozilla/Go_Daddy_Class_2_CA.crt
 usr/local/share/ca-certificates/mozilla/GlobalSign_Root_R46.crt
 usr/local/share/ca-certificates/mozilla/GlobalSign_Root_E46.crt
 usr/local/share/ca-certificates/mozilla/GlobalSign_Root_CA_-_R6.crt
 usr/local/share/ca-certificates/mozilla/GlobalSign_Root_CA_-_R3.crt
-usr/local/share/ca-certificates/mozilla/GlobalSign_Root_CA.crt
 usr/local/share/ca-certificates/mozilla/GlobalSign_ECC_Root_CA_-_R5.crt
 usr/local/share/ca-certificates/mozilla/GlobalSign_ECC_Root_CA_-_R4.crt
 usr/local/share/ca-certificates/mozilla/GTS_Root_R4.crt
@@ -95,7 +89,6 @@ usr/local/share/ca-certificates/mozilla/FIRMAPROFESIONAL_CA_ROOT-A_WEB.crt
 usr/local/share/ca-certificates/mozilla/Entrust_Root_Certification_Authority_-_G2.crt
 usr/local/share/ca-certificates/mozilla/Entrust_Root_Certification_Authority_-_EC1.crt
 usr/local/share/ca-certificates/mozilla/Entrust_Root_Certification_Authority.crt
-usr/local/share/ca-certificates/mozilla/Entrust.net_Premium_2048_Secure_Server_CA.crt
 usr/local/share/ca-certificates/mozilla/DigiCert_Trusted_Root_G4.crt
 usr/local/share/ca-certificates/mozilla/DigiCert_TLS_RSA4096_Root_G5.crt
 usr/local/share/ca-certificates/mozilla/DigiCert_TLS_ECC_P384_Root_G5.crt
@@ -108,9 +101,10 @@ usr/local/share/ca-certificates/mozilla/DigiCert_Assured_ID_Root_G2.crt
 usr/local/share/ca-certificates/mozilla/DigiCert_Assured_ID_Root_CA.crt
 usr/local/share/ca-certificates/mozilla/D-TRUST_Root_Class_3_CA_2_EV_2009.crt
 usr/local/share/ca-certificates/mozilla/D-TRUST_Root_Class_3_CA_2_2009.crt
+usr/local/share/ca-certificates/mozilla/D-TRUST_EV_Root_CA_2_2023.crt
 usr/local/share/ca-certificates/mozilla/D-TRUST_EV_Root_CA_1_2020.crt
+usr/local/share/ca-certificates/mozilla/D-TRUST_BR_Root_CA_2_2023.crt
 usr/local/share/ca-certificates/mozilla/D-TRUST_BR_Root_CA_1_2020.crt
-usr/local/share/ca-certificates/mozilla/Comodo_AAA_Services_root.crt
 usr/local/share/ca-certificates/mozilla/CommScope_Public_Trust_RSA_Root-02.crt
 usr/local/share/ca-certificates/mozilla/CommScope_Public_Trust_RSA_Root-01.crt
 usr/local/share/ca-certificates/mozilla/CommScope_Public_Trust_ECC_Root-02.crt
@@ -130,7 +124,6 @@ usr/local/share/ca-certificates/mozilla/CFCA_EV_ROOT.crt
 usr/local/share/ca-certificates/mozilla/CA_Disig_Root_R2.crt
 usr/local/share/ca-certificates/mozilla/Buypass_Class_3_Root_CA.crt
 usr/local/share/ca-certificates/mozilla/Buypass_Class_2_Root_CA.crt
-usr/local/share/ca-certificates/mozilla/Baltimore_CyberTrust_Root.crt
 usr/local/share/ca-certificates/mozilla/BJCA_Global_Root_CA2.crt
 usr/local/share/ca-certificates/mozilla/BJCA_Global_Root_CA1.crt
 usr/local/share/ca-certificates/mozilla/Autoridad_de_Certificacion_Firmaprofesional_CIF_A62634068.crt
@@ -150,3 +143,4 @@ usr/local/share/ca-certificates/mozilla/ANF_Secure_Server_Root_CA.crt
 usr/local/share/ca-certificates/mozilla/AC_RAIZ_FNMT-RCM_SERVIDORES_SEGUROS.crt
 usr/local/share/ca-certificates/mozilla/AC_RAIZ_FNMT-RCM.crt
 usr/local/share/ca-certificates/mozilla/ACCVRAIZ1.crt
+usr/local/share/ca-certificates/files/ca-certificates.conf
