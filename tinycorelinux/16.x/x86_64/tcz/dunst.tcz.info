@@ -1,0 +1,25 @@
+Title:          dunst.tcz
+Description:    highly configurable and lightweight notification daemon for X11 and wayland
+Version:        1.12.2
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size:		104K
+Extension_by:   gnuser
+Tags:           notification daemon notify-send
+Comments:       ----------
+                Basic usage:
+                $ tce-load -wi libnotify
+                $ dunst &
+                $ notify-send -t 3000 "Title" "Message"
+
+                Configuration:
+                $ mkdir -p ~/.config/dunst
+                $ cp /usr/local/etc/xdg/dunst/dunstrc ~/.config/dunst/
+                edit ~/.config/dunst/dunstrc
+                ----------
+                This extension contains:
+                dunst-1.12.2 - BSD-3-Clause - https://github.com/dunst-project/dunst/archive/refs/tags/v1.12.2.tar.gz
+                ----------
+Change-log:     ----------
+Current:        2025/07/15 first version

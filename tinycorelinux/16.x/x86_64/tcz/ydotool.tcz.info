@@ -1,0 +1,29 @@
+Title:          ydotool.tcz
+Description:    generic linux command-line automation tool
+Version:        1.0.4
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size:		16K
+Extension_by:   gnuser
+Tags:           xdotool xorg x wayland wtype wlrctl
+Comments:       ----------
+                Works at kernel level, so X/wayland/console-agnostic
+                ----------
+Usage example: Send Ctrl+Alt+F2 to switch to tty2, then type some text
+ 1. boot with multivt bootcode so that tty2 exists
+ 2. get desired keycodes from input-event-codes.h:
+  $ tce-load -wi linux-<version>_api_headers # e.g., linux-6.12_api_headers
+  $ cat /usr/include/linux/input-event-codes.h | grep -i leftctrl # 29
+  $ cat /usr/include/linux/input-event-codes.h | grep -i leftalt # 56
+  $ cat /usr/include/linux/input-event-codes.h | grep -i f2 # 60
+ 3. start the daemon: 
+  $ sudo ydotoold --socket-path=/run/user/$(id -u)/.ydotool_socket --socket-own $(id -u):50 &
+ 4. watch it work even in the console! (note :1 for press, :0 for release):
+  $ ydotool key 29:1 56:1 60:1 60:0 56:0 29:0; sleep 2; ydotool type 'hello world'
+                ----------
+                This extension contains:
+                ydotool-1.0.4 - AGPLv3 - https://github.com/ReimuNotMoe/ydotool/archive/refs/tags/v1.0.4.tar.gz
+                ----------
+Change-log:     ----------
+Current:        2025/07/19 first version

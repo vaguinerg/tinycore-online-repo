@@ -1,0 +1,29 @@
+Title:          mobilized-dillo.tcz
+Description:    Web browser for touchscreen devices
+Version:        20250630
+Author:         toomanyatoms
+Original-site:  https://www.toomanyatoms.com/software/mobilized_dillo.html
+Copying-policy: GPLv3
+Size:		836K
+Extension_by:   neonix
+Tags:           FLTK light internet web browser
+Comments:       Dillo is a multi-platform graphical web browser known
+                for speed and small footprint, written in C and C++,
+                based on FLTK (Fast Light Toolkit).
+                Project objectives:
+                - The democratization of internet information access
+                - Personal security and privacy
+                - High software efficiency
+                Note:
+                - First run creates /home/tc/.dillo directory
+                - Copy /usr/local/etc/dillo/dillorc to /home/tc/.dillo
+                  and modify as desired
+                - Click ? top right corner of browser for usage help
+                - Minimalistic, best suited for slow hardware
+                - Supports only plain HTML/XHTML with CSS rendering
+                  and images over HTTP, scripting is ignored
+                - Download option doesn't work
+		Optionald extensions: dejavu-fonts-ttf.tcz ca-certificates.tcz
+Change-log:     first version
+Current:	2025/07/09 v20250630 (neonix) TC14.x
+

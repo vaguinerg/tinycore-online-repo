@@ -1,6 +1,6 @@
 Title:          wifi.tcz
 Description:    Tiny Wifi Scanning Tool
-Version:        1.7
+Version:        1.8
 Author:         Robert Shingledecker
 Original-site:  www.tinycorelinux.com
 Copying-policy: GPL
@@ -35,4 +35,5 @@ Change-log:     2011/06/15 v0.1 Original Awk Program
                 2013/11/15 v1.4 Mods for wait for connection and display hostname on router by Gerrelt
                 2014/03/16 v1.5 Mods for configure wpa_supplicant driver
                 2019/01/12 v1.6 Change default driver to nl80211
-Current:        2024/08/21 v1.7 Added &!?$ to allowable chars for ESSID. Rich
+                2024/08/21 v1.7 Added &!?$ to allowable chars for ESSID. Rich
+Current:        2025/07/25 v1.8 Allows to use a different interface with -i. VaguinerG

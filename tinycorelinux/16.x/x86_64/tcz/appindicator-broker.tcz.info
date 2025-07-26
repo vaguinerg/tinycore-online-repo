@@ -1,6 +1,6 @@
 Title:          appindicator-broker.tcz
 Description:    simple daemon able to create SNI tray icons
-Version:        git-39a4a3d
+Version:        1.1
 Author:         see list of sites below
 Original-site:  see list of sites below
 Copying-policy: see list of sites below
@@ -8,10 +8,6 @@ Size:		4.0K
 Extension_by:   gnuser
 Tags:           systray icon sni statusnotifieritem toolbar notification
 Comments:       ----------
-  Notes:
-    - this daemon's sole purpose is to StatusNotifierItems
-    - SNIs are sometimes called appindicators or systray icons
-    - SNIs are supported by various notifications bars (e.g., sfwbar)
   Usage example (from terminal or shell script):
     $ mkfifo /tmp/pipe
     $ export SNI_BROKER=/tmp/pipe
@@ -19,8 +15,16 @@ Comments:       ----------
     $ echo "foo create vlc" > "$SNI_BROKER" # foo=identifier, vlc=icon
     $ echo "foo title some title" > "$SNI_BROKER"
     $ echo "foo label some <b>label</b>" > "$SNI_BROKER"
+    $ echo "foo hide" > "$SNI_BROKER"
+    $ echo "foo show" > "$SNI_BROKER"
     $ echo "foo icon /path/to/custom/icon.png" > "$SNI_BROKER"
+    $ echo "foo menu-add date#Show the date on console" > "$SNI_BROKER"
+    $ echo "foo menu-add foot#Start the foot terminal" > "$SNI_BROKER"
+    $ echo "foo menu-add echo Hello world!#Say hello on console" > "$SNI_BROKER"
+    $ cat /tmp/appindicators.created
+    $ cat /tmp/appindicators.visible
                 ----------
                 AppIndicator-Broker - Unlicense - https://github.com/Consolatis/AppIndicator-Broker
-Change-log:     ----------
-Current:        2025/06/16 first version
+                ----------
+Change-log:     2025/06/16 first version
+Current:        2025/06/25 updated 1.0 -> 1.1 (added arguments for menu item commands, /tmp/appindicators.*)

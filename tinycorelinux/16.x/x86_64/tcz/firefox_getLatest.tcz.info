@@ -1,37 +1,45 @@
 Title:			firefox_getLatest.tcz
 Description:		Download and install Firefox
-Version:		2.11
+Version:		2.12
 Author:			coreplayer2, CNK
 Original-site:  	http://forum.tinycorelinux.net/index.php/topic,17879.0.html
 Copying-policy:		GPL
-Size:			8.0K
+Size:			12.0K
 Extension_by:   	coreplayer2, CNK
 Tags:			firefox get latest web browser
-Comments:		This script detects the latest available Firefox Browser, downloads the  
-			update and creates an extension.  The new or updated Firefox extension
-			is then installed using tce-audit or scheduled for update during the 
-			next reboot.
+Comments:		This script detects the latest available Firefox
+			Browser, downloads the update and creates an
+			extension.  The new or updated Firefox extension is
+			then installed using tce-audit or scheduled for update
+			during the next reboot.
 			
-			There are alternative options available,  for more help type at the 
-			command-line: 
-				firefox-getLatest.sh -h    (for more info)
-				                     -m    (for manual version entry)
-				                     -e    (for latest ESR release)
-			                             -b    (for latest Beta release)
-			                             -d    (don't regenerate .dep file)
-			                             -g    (verify download with GnuPG keyring)
+			There are alternative options available,  for more
+			help type at the command-line: 
+			 firefox-getLatest.sh -h    (for more info)
+				-m    (for manual version entry)
+				-e    (for latest ESR release)
+				-b    (for latest Beta release)
+				-d    (don't regenerate .dep file)
+				-g    (verify download with GnuPG keyring)
 
 			Will create latest Firefox extension for:
 			x86
 			x86_64
+			aarch64
 
-			PulseAudio is required for sound (Mozilla disable ALSA support in
-			these builds). Libavcodec is required for audio/video streaming.
+			PulseAudio is required for sound (Mozilla disable ALSA
+			support in these builds). Libavcodec is required for
+			audio/video streaming.
 
-			Note: The newly created extension is a replacement for the deprecated 
-			firefox-official extension. If found during an onboot check, this old 
-			extension will be scheduled for removal by tce-auit during the next
-			reboot. The firefox-ESR extension will also be removed if it's found.
+			Requires a fonts extension to be installed, such as
+			Xorg-fonts.tcz or dejavu-fonts-ttf.tcz.
+
+			Note: The newly created extension is a replacement for
+			the deprecated firefox-official extension. If found
+			during an onboot check, this old extension will be
+			scheduled for removal by tce-auit during the next
+			reboot. The firefox-ESR extension will also be removed
+			if it's found.
 Change-log:		---
 			2014/12/20 Original
 			2015/01/17 Updated to support cloud mode install and Firefox major update
@@ -56,4 +64,5 @@ Change-log:		---
 			2022/02/08 Added libXtst to dep list. Also added -d option (CNK)
 			2022/11/17 Updated download URL. Exit if download fails (CNK)
 			2023/07/06 Fix deleting temp. files when not tc user. Add -g option (CNK)
-Current:		2025/01/20 Support XZ compression. Can auto-detect download URL (CNK)
+			2025/01/20 Support XZ compression. Can auto-detect download URL (CNK)
+Current:		2025/06/28 Support aarch64 PiCore (CNK)
