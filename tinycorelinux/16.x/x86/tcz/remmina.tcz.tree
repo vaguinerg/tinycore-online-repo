@@ -120,7 +120,6 @@ remmina.tcz
                libXau.tcz
                libXdmcp.tcz
    libsodium.tcz
-   pcre2.tcz
    libvncserver.tcz
       openssl.tcz
          gcc_libs.tcz
@@ -130,17 +129,6 @@ remmina.tcz
       glib2.tcz
          libffi.tcz
          pcre21042.tcz
-   libsoup.tcz
-      glib2.tcz
-         libffi.tcz
-         pcre21042.tcz
-      libxml2.tcz
-         liblzma.tcz
-      sqlite3.tcz
-      libpsl.tcz
-         libidn2.tcz
-            libunistring.tcz
-            ncursesw.tcz
    json-glib.tcz
       glib2.tcz
          libffi.tcz
@@ -148,6 +136,11 @@ remmina.tcz
    libssh.tcz
       openssl.tcz
          gcc_libs.tcz
+   curl.tcz
+      ca-certificates.tcz
+         openssl.tcz
+            gcc_libs.tcz
+      libzstd.tcz
    gtk-update-icon-cache.tcz
       gdk-pixbuf2.tcz
          libtiff.tcz
