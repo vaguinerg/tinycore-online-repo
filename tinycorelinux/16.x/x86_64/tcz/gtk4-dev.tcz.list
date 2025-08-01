@@ -8,7 +8,9 @@
 /usr/local/include/gtk-4.0/gdk/gdkapplaunchcontext.h
 /usr/local/include/gtk-4.0/gdk/gdkcairo.h
 /usr/local/include/gtk-4.0/gdk/gdkcairocontext.h
+/usr/local/include/gtk-4.0/gdk/gdkcicpparams.h
 /usr/local/include/gtk-4.0/gdk/gdkclipboard.h
+/usr/local/include/gtk-4.0/gdk/gdkcolorstate.h
 /usr/local/include/gtk-4.0/gdk/gdkconfig.h
 /usr/local/include/gtk-4.0/gdk/gdkcontentdeserializer.h
 /usr/local/include/gtk-4.0/gdk/gdkcontentformats.h
@@ -40,6 +42,7 @@
 /usr/local/include/gtk-4.0/gdk/gdkkeys.h
 /usr/local/include/gtk-4.0/gdk/gdkkeysyms.h
 /usr/local/include/gtk-4.0/gdk/gdkmemorytexture.h
+/usr/local/include/gtk-4.0/gdk/gdkmemorytexturebuilder.h
 /usr/local/include/gtk-4.0/gdk/gdkmonitor.h
 /usr/local/include/gtk-4.0/gdk/gdkpaintable.h
 /usr/local/include/gtk-4.0/gdk/gdkpango.h
@@ -86,6 +89,7 @@
 /usr/local/include/gtk-4.0/gdk/x11/gdkx11utils.h
 /usr/local/include/gtk-4.0/gsk/broadway/gskbroadwayrenderer.h
 /usr/local/include/gtk-4.0/gsk/gl/gskglrenderer.h
+/usr/local/include/gtk-4.0/gsk/gpu/gskglrenderer.h
 /usr/local/include/gtk-4.0/gsk/gpu/gskvulkanrenderer.h
 /usr/local/include/gtk-4.0/gsk/gsk.h
 /usr/local/include/gtk-4.0/gsk/gskcairorenderer.h
@@ -152,6 +156,11 @@
 /usr/local/include/gtk-4.0/gtk/deprecated/gtklockbutton.h
 /usr/local/include/gtk-4.0/gtk/deprecated/gtkmessagedialog.h
 /usr/local/include/gtk-4.0/gtk/deprecated/gtkrender.h
+/usr/local/include/gtk-4.0/gtk/deprecated/gtkshortcutlabel.h
+/usr/local/include/gtk-4.0/gtk/deprecated/gtkshortcutsgroup.h
+/usr/local/include/gtk-4.0/gtk/deprecated/gtkshortcutssection.h
+/usr/local/include/gtk-4.0/gtk/deprecated/gtkshortcutsshortcut.h
+/usr/local/include/gtk-4.0/gtk/deprecated/gtkshortcutswindow.h
 /usr/local/include/gtk-4.0/gtk/deprecated/gtkshow.h
 /usr/local/include/gtk-4.0/gtk/deprecated/gtkstatusbar.h
 /usr/local/include/gtk-4.0/gtk/deprecated/gtkstylecontext.h
@@ -329,12 +338,7 @@
 /usr/local/include/gtk-4.0/gtk/gtkshortcut.h
 /usr/local/include/gtk-4.0/gtk/gtkshortcutaction.h
 /usr/local/include/gtk-4.0/gtk/gtkshortcutcontroller.h
-/usr/local/include/gtk-4.0/gtk/gtkshortcutlabel.h
 /usr/local/include/gtk-4.0/gtk/gtkshortcutmanager.h
-/usr/local/include/gtk-4.0/gtk/gtkshortcutsgroup.h
-/usr/local/include/gtk-4.0/gtk/gtkshortcutssection.h
-/usr/local/include/gtk-4.0/gtk/gtkshortcutsshortcut.h
-/usr/local/include/gtk-4.0/gtk/gtkshortcutswindow.h
 /usr/local/include/gtk-4.0/gtk/gtkshortcuttrigger.h
 /usr/local/include/gtk-4.0/gtk/gtksignallistitemfactory.h
 /usr/local/include/gtk-4.0/gtk/gtksingleselection.h
