@@ -9,12 +9,17 @@ Extension_by:   gnuser
 Tags:           wayland compositor wm
 Comments:       wlroots-based, window-stacking, openbox-like compositor for wayland
                 ----------
-                manual start (from console prompt):
+                manual start from console prompt (without xwayland):
+                $ export WLR_XWAYLAND=
+                $ sudo -- seatd -g staff -n /run/seatd.sock & XDG_RUNTIME_DIR=/run/user/$(id -u) labwc
+                ----------
+                manual start from console prompt (with xwayland to support X apps):
+                $ tce-load -wi xwayland
                 $ sudo -- seatd -g staff -n /run/seatd.sock & XDG_RUNTIME_DIR=/run/user/$(id -u) labwc
                 ----------
                 automatic start:
-                - use "text" boot code (to prevent X from starting)
-                - add the above manual start command to the bottom of ~/.profile
+                - use "text" boot code to prevent X from starting (eventually this will not be needed)
+                - add the appropriate manual start command to the bottom of ~/.profile
                 ----------
                 configuration:
                 - to manually configure labwc from scratch, see these guides:
@@ -37,4 +42,5 @@ Change-log:     2023/10/23 first version
                 2024/11/19 updated 0.7.3 -> 0.8.1
                 2024/12/13 updated 0.8.1 -> 0.8.2
                 2025/02/23 updated 0.8.2 -> 0.8.3
-Current:        2025/07/11 updated 0.8.3 -> 0.8.4 with sigusr1 patch
+                2025/07/11 updated 0.8.3 -> 0.8.4 with sigusr1 patch
+Current:        2025/08/06 factored out xwayland (only .dep and .info files were changed)

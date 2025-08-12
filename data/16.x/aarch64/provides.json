@@ -113359,6 +113359,19 @@
     "/usr/local/share/doc/numlockx/LICENSE",
     "/usr/local/bin/numlockx"
   ],
+  "ocl-icd-dev.tcz": [
+    "/usr/local/lib/pkgconfig/OpenCL.pc",
+    "/usr/local/share/cmake/OpenCLICDLoader/OpenCLICDLoaderConfig.cmake",
+    "/usr/local/share/cmake/OpenCLICDLoader/OpenCLICDLoaderConfigVersion.cmake",
+    "/usr/local/share/cmake/OpenCLICDLoader/OpenCLICDLoaderTargets-release.cmake",
+    "/usr/local/share/cmake/OpenCLICDLoader/OpenCLICDLoaderTargets.cmake"
+  ],
+  "ocl-icd.tcz": [
+    "/usr/local/bin/cllayerinfo",
+    "/usr/local/lib/libOpenCL.so",
+    "/usr/local/lib/libOpenCL.so.1",
+    "/usr/local/lib/libOpenCL.so.1.0.0"
+  ],
   "openal-dev.tcz": [
     "/usr/local/include/AL/alc.h",
     "/usr/local/include/AL/alext.h",
@@ -113508,6 +113521,38 @@
     "/usr/local/bin/obxprop",
     "/usr/local/bin/gnome-panel-control",
     "/usr/local/bin/gdm-control"
+  ],
+  "opencl-clhpp.tcz": [
+    "/usr/local/include/CL/cl2.hpp",
+    "/usr/local/include/CL/opencl.hpp",
+    "/usr/local/share/cmake/OpenCLHeadersCpp/OpenCLHeadersCppConfig.cmake",
+    "/usr/local/share/cmake/OpenCLHeadersCpp/OpenCLHeadersCppConfigVersion.cmake",
+    "/usr/local/share/cmake/OpenCLHeadersCpp/OpenCLHeadersCppTargets.cmake",
+    "/usr/local/share/pkgconfig/OpenCL-CLHPP.pc"
+  ],
+  "opencl-headers.tcz": [
+    "/usr/local/include/CL/cl.h",
+    "/usr/local/include/CL/cl_d3d10.h",
+    "/usr/local/include/CL/cl_d3d11.h",
+    "/usr/local/include/CL/cl_dx9_media_sharing.h",
+    "/usr/local/include/CL/cl_dx9_media_sharing_intel.h",
+    "/usr/local/include/CL/cl_egl.h",
+    "/usr/local/include/CL/cl_ext.h",
+    "/usr/local/include/CL/cl_ext_intel.h",
+    "/usr/local/include/CL/cl_function_types.h",
+    "/usr/local/include/CL/cl_gl.h",
+    "/usr/local/include/CL/cl_gl_ext.h",
+    "/usr/local/include/CL/cl_half.h",
+    "/usr/local/include/CL/cl_icd.h",
+    "/usr/local/include/CL/cl_layer.h",
+    "/usr/local/include/CL/cl_platform.h",
+    "/usr/local/include/CL/cl_va_api_media_sharing_intel.h",
+    "/usr/local/include/CL/cl_version.h",
+    "/usr/local/include/CL/opencl.h",
+    "/usr/local/share/cmake/OpenCLHeaders/OpenCLHeadersConfig.cmake",
+    "/usr/local/share/cmake/OpenCLHeaders/OpenCLHeadersConfigVersion.cmake",
+    "/usr/local/share/cmake/OpenCLHeaders/OpenCLHeadersTargets.cmake",
+    "/usr/local/share/pkgconfig/OpenCL-Headers.pc"
   ],
   "openjpeg-dev.tcz": [
     "/usr/local/include/openjpeg-2.3/opj_stdint.h",
@@ -131677,6 +131722,17 @@
     "/usr/local/share/cmake/SPIRV-Headers/SPIRV-HeadersConfig.cmake",
     "/usr/local/share/cmake/SPIRV-Headers/SPIRV-HeadersConfigVersion.cmake",
     "/usr/local/share/pkgconfig/SPIRV-Headers.pc"
+  ],
+  "spirv-llvm-translator-dev.tcz": [
+    "/usr/local/include/LLVMSPIRVLib/LLVMSPIRVExtensions.inc",
+    "/usr/local/include/LLVMSPIRVLib/LLVMSPIRVLib.h",
+    "/usr/local/include/LLVMSPIRVLib/LLVMSPIRVOpts.h",
+    "/usr/local/lib/pkgconfig/LLVMSPIRVLib.pc"
+  ],
+  "spirv-llvm-translator.tcz": [
+    "/usr/local/bin/llvm-spirv",
+    "/usr/local/lib/libLLVMSPIRVLib.so",
+    "/usr/local/lib/libLLVMSPIRVLib.so.19.1"
   ],
   "spirv-tools-dev.tcz": [
     "/usr/local/include/spirv-tools/libspirv.h",
