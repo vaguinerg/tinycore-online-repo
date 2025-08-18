@@ -155,6 +155,12 @@
   "atkmm.tcz": [
     "LIBRARY"
   ],
+  "atkmm2-dev.tcz": [
+    "c++ bindings atk dev"
+  ],
+  "atkmm2.tcz": [
+    "c++ bindings atk"
+  ],
   "attr-dev.tcz": [
     "CLI FILE"
   ],
@@ -298,6 +304,12 @@
   ],
   "cairomm.tcz": [
     "LIBRARY"
+  ],
+  "cairomm16-dev.tcz": [
+    "c++ bindings cairo dev"
+  ],
+  "cairomm16.tcz": [
+    "c++ bindings cairo"
   ],
   "caps.tcz": [
     "SOUND LIBRARY AUDIO"
@@ -977,6 +989,12 @@
   "glibmm.tcz": [
     "LIBRARY"
   ],
+  "glibmm26-dev.tcz": [
+    "c++ bindings glib dev"
+  ],
+  "glibmm26.tcz": [
+    "c++ bindings glib"
+  ],
   "gloox-dev.tcz": [
     "gloox library devel"
   ],
@@ -1013,11 +1031,20 @@
   "gnome-autoar.tcz": [
     "archive compress extract gtk+ gtk3 gnome"
   ],
+  "gnome-commander-gtk4-gir.tcz": [
+    "file manager fm gtk+ gtk4 gir"
+  ],
+  "gnome-commander-gtk4.tcz": [
+    "file manager fm gtk+ gtk4"
+  ],
   "gnome-commander.tcz": [
     "file manager fm gtk+ gtk3"
   ],
   "gnome-common.tcz": [
     "autogen m4 gtk+ gtk3 gnome"
+  ],
+  "gnome-console.tcz": [
+    "terminal emulator gtk+ gtk4"
   ],
   "gnome-desktop-dev.tcz": [
     "gnome desktop gtk+ gtk3 dev"
@@ -1297,6 +1324,12 @@
   ],
   "gtk4.tcz": [
     "gtk+ gtk4 interface"
+  ],
+  "gtk4mm-dev.tcz": [
+    "c++ bindings gtk dev"
+  ],
+  "gtk4mm.tcz": [
+    "c++ bindings gtk"
   ],
   "gtkfind.tcz": [
     "find gtk+ gtk1"
@@ -2210,6 +2243,15 @@
   "libgsf.tcz": [
     "LIBRARY GNOME I/O"
   ],
+  "libgtop-dev.tcz": [
+    "system monitor dev"
+  ],
+  "libgtop-gir.tcz": [
+    "system monitor gir"
+  ],
+  "libgtop.tcz": [
+    "system monitor"
+  ],
   "libgusb-dev.tcz": [
     "gobject wrapper libusb dev"
   ],
@@ -2557,6 +2599,12 @@
   ],
   "libsigc++.tcz": [
     "LIBRARY"
+  ],
+  "libsigc++3-dev.tcz": [
+    "c++ callback dev"
+  ],
+  "libsigc++3.tcz": [
+    "c++ callback"
   ],
   "libsndfile-dev.tcz": [
     "LIBRARY CLI AUDIO CODEC"
@@ -3242,6 +3290,12 @@
   "pangomm.tcz": [
     "LIBRARY"
   ],
+  "pangomm2-dev.tcz": [
+    "c++ bindings pango dev"
+  ],
+  "pangomm2.tcz": [
+    "c++ bindings pango"
+  ],
   "parole.tcz": [
     "gtk3 video audio player"
   ],
@@ -3253,6 +3307,9 @@
   ],
   "patch.tcz": [
     "SYSTEM CLI"
+  ],
+  "pavucontrol-gtk4.tcz": [
+    "pulseaudio volume control gtk+ gtk4"
   ],
   "pavucontrol.tcz": [
     "pulseaudio volume control gtk+ gtk3"
@@ -4120,6 +4177,15 @@
   ],
   "vte-gir.tcz": [
     "gtk3 terminal gir"
+  ],
+  "vte-gtk4-dev.tcz": [
+    "terminal emulator gtk+ gtk4 dev"
+  ],
+  "vte-gtk4-gir.tcz": [
+    "terminal emulator gtk+ gtk4 gir"
+  ],
+  "vte-gtk4.tcz": [
+    "terminal emulator gtk+ gtk4"
   ],
   "vte.tcz": [
     "gtk3 terminal"
