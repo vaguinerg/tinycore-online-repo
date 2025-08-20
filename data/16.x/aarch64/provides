@@ -85370,17 +85370,18 @@
 "/usr/local/lib/libadwaita-1.so.0",
 ],
 "libarchive-dev.tcz": [
-"usr/local/include/archive_entry.h",
-"usr/local/include/archive.h",
-"usr/local/lib/pkgconfig/libarchive.pc",
+"/usr/local/include/archive.h",
+"/usr/local/include/archive_entry.h",
+"/usr/local/lib/pkgconfig/libarchive.pc",
 ],
 "libarchive.tcz": [
-"usr/local/bin/bsdcat",
-"usr/local/bin/bsdcpio",
-"usr/local/bin/bsdtar",
-"usr/local/lib/libarchive.so",
-"usr/local/lib/libarchive.so.13",
-"usr/local/lib/libarchive.so.13.6.2",
+"/usr/local/bin/bsdcat",
+"/usr/local/bin/bsdcpio",
+"/usr/local/bin/bsdtar",
+"/usr/local/bin/bsdunzip",
+"/usr/local/lib/libarchive.so",
+"/usr/local/lib/libarchive.so.13",
+"/usr/local/lib/libarchive.so.13.8.1",
 ],
 "libasound-dev.tcz": [
 "usr/local/share/aclocal/alsa.m4",
@@ -144608,6 +144609,11 @@
 "yt-dlp.tcz": [
 "/usr/local/share/doc/yt-dlp/LICENSE",
 "/usr/local/bin/yt-dlp",
+],
+"zenity-gtk4.tcz": [
+"/usr/local/bin/zenity",
+"/usr/local/share/applications/org.gnome.Zenity.desktop",
+"/usr/local/share/icons/hicolor/48x48/apps/zenity.png",
 ],
 "zip.tcz": [
 "/usr/local/bin/zip",
