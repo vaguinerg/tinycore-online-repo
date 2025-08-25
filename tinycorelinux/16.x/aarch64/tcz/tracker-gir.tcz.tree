@@ -32,9 +32,7 @@ tracker-gir.tcz
          libpsl.tcz
             libidn2.tcz
                libunistring.tcz
-      icu.tcz
-   libsoup-gir.tcz
-      libsoup.tcz
+      libsoup3.tcz
          glib-networking.tcz
             glib2.tcz
                gamin.tcz
@@ -60,20 +58,22 @@ tracker-gir.tcz
          libpsl.tcz
             libidn2.tcz
                libunistring.tcz
-      gobject-introspection.tcz
-         python3.11.tcz
-            bzip2-lib.tcz
-            readline.tcz
-               ncurses.tcz
-            gdbm.tcz
-            liblzma.tcz
-            openssl.tcz
-               ca-certificates.tcz
-            sqlite3.tcz
+         libnghttp2.tcz
+      icu73.tcz
+   gobject-introspection.tcz
+      python3.11.tcz
+         bzip2-lib.tcz
+         readline.tcz
             ncurses.tcz
-         glib2.tcz
-            gamin.tcz
-            libelf.tcz
-            pcre2.tcz
-               bzip2-lib.tcz
+         gdbm.tcz
+         liblzma.tcz
+         openssl.tcz
+            ca-certificates.tcz
+         sqlite3.tcz
+         ncurses.tcz
+      glib2.tcz
+         gamin.tcz
+         libelf.tcz
+         pcre2.tcz
+            bzip2-lib.tcz
 

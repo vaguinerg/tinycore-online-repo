@@ -1023,13 +1023,22 @@
     "LIBRARY"
   ],
   "gnome-autoar-dev.tcz": [
-    "archive compress extract gtk+ gtk3 gnome dev"
+    "archive compress extract gnome dev"
   ],
   "gnome-autoar-gir.tcz": [
-    "archive compress extract gtk+ gtk3 gnome gir"
+    "archive compress extract gnome gir"
+  ],
+  "gnome-autoar-gtk3-dev.tcz": [
+    "archive compress extract gnome gtk+ gtk3 dev"
+  ],
+  "gnome-autoar-gtk3-gir.tcz": [
+    "archive compress extract gnome gtk+ gtk3 gir"
+  ],
+  "gnome-autoar-gtk3.tcz": [
+    "archive compress extract gnome gtk+ gtk3"
   ],
   "gnome-autoar.tcz": [
-    "archive compress extract gtk+ gtk3 gnome"
+    "archive compress extract gnome"
   ],
   "gnome-commander-gtk4-gir.tcz": [
     "file manager fm gtk+ gtk4 gir"
@@ -1054,6 +1063,18 @@
   ],
   "gnome-desktop.tcz": [
     "gnome desktop gtk+ gtk3"
+  ],
+  "gnome-desktop19.tcz": [
+    "gnome desktop gtk+ gtk3"
+  ],
+  "gnome-desktop4-dev.tcz": [
+    "gnome desktop gtk+ gtk4 dev"
+  ],
+  "gnome-desktop4-gir.tcz": [
+    "gnome desktop gtk+ gtk4 gir"
+  ],
+  "gnome-desktop4.tcz": [
+    "gnome desktop gtk+ gtk4"
   ],
   "gnome-keyring-dev.tcz": [
     "password secrets daemon gtk+ gtk3 gnome dev"
@@ -1194,7 +1215,7 @@
     "gsettings schemas gnome desktop gir"
   ],
   "gsettings-desktop-schemas.tcz": [
-    "gsettings schemas gnome gtk+ gtk3"
+    "gsettings schemas gnome gtk+ gtk3 gtk4"
   ],
   "gsl-dev.tcz": [
     "scientific mathematical library dev"
@@ -2518,6 +2539,33 @@
   ],
   "libpng.tcz": [
     "graphics png"
+  ],
+  "libportal-dev.tcz": [
+    "flatpak gnome dev"
+  ],
+  "libportal-gir.tcz": [
+    "flatpak gnome gir"
+  ],
+  "libportal-gtk3-dev.tcz": [
+    "flatpak gnome gtk3 dev"
+  ],
+  "libportal-gtk3-gir.tcz": [
+    "flatpak gnome gtk3 gir"
+  ],
+  "libportal-gtk3.tcz": [
+    "flatpak gnome gtk3"
+  ],
+  "libportal-gtk4-dev.tcz": [
+    "flatpak gnome gtk4 dev"
+  ],
+  "libportal-gtk4-gir.tcz": [
+    "flatpak gnome gtk4 gir"
+  ],
+  "libportal-gtk4.tcz": [
+    "flatpak gnome gtk4"
+  ],
+  "libportal.tcz": [
+    "flatpak gnome"
   ],
   "libpostproc.tcz": [
     "VIDEO AUDIO MULTIMEDIA LIBRARY FFMPEG"
