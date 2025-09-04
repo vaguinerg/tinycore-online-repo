@@ -1,6 +1,6 @@
 Title:          wifi-manager.tcz
 Description:    minimalistic wifi manager
-Version:        5.3
+Version:        5.4
 Author:         Bruno "GNUser" Dantas
 Original-site:  n/a
 Copying-policy: GPLv3
@@ -8,22 +8,19 @@ Size:		32K
 Extension_by:   gnuser
 Tags:           wireless wifi manager
 Comments: ----------
-  Configuration:
-    $ cp /usr/local/share/wifi-manager/wifi-manager.conf ~/.config/
-    edit ~/.config/wifi-manager.conf
-  CLI usage:
-    Scan and connect to wifi: $ sudo wifi-connect
-    See last scan's results: $ cat /tmp/APs
-  GUI usage:
-    In X you need yad.tcz and a system tray/notification area of your choice
-    In wayland you need appindicator-broker.tcz and a bar that supports SNI tray icons
-    Create systray icon: $ wifi-monitor &
-    Scan and connect to wifi: left-click on systray icon
-----------
+          CLI usage:
+          $ cp /usr/local/share/wifi-manager/wifi-manager.conf ~/.config/
+          edit ~/.config/wifi-manager.conf
+          $ sudo wifi-connect
+          ----------
+          For more details (GUI usage, troubleshooting):
+          $ wifi-manager --help
+          ----------
 Change-log:     2022/12/22 1.0
                 2023/03/16 2.0
                 2024/01/24 3.0
                 2024/09/12 4.0
                 2025/06/17 5.1
                 2025/07/01 5.2
-Current:        2025/08/26 5.3
+                2025/08/26 5.3
+Current:        2025/09/02 5.4
