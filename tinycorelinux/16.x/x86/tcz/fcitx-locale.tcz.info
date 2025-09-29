@@ -1,0 +1,22 @@
+Title:          fcitx-locale.tcz
+Description:    Chinese IME pinyin
+Version:        4.2.9.9
+Author:         fcitx-team
+Original-site:  https://download.fcitx-im.org/fcitx/fcitx-4.2.9.9.tar.xz
+Copying-policy: GPL-2.0 BSD-3-Clause LGPL-2.1 MIT
+Size:		248K
+Extension_by:   Zhe
+Tags:           Chinese pinyin fcitx
+Comments:       --------- 
+                1. set locale,
+		2. install unicode font
+                vi .profile  add:
+
+                export GTK_IM_MODULE=fcitx
+                export QT_IM_MODULE=fcitx
+                export XMODIFIERS=@im=fcitx
+	
+		fcitx-config-gtk.tcz is recommend
+Change-log:	2025/08/19  4.2.9.9
+Current:  	4.2.9.9
+
