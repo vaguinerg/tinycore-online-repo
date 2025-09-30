@@ -11,15 +11,15 @@ Comments:       wlroots-based, window-stacking, openbox-like compositor for wayl
                 ----------
                 manual start from console prompt (without xwayland):
                 $ export WLR_XWAYLAND=
-                $ sudo -- seatd -g staff -n /run/seatd.sock & XDG_RUNTIME_DIR=/run/user/$(id -u) labwc
+                $ sudo -- seatd -g staff -n /run/seatd.sock & labwc
                 ----------
                 manual start from console prompt (with xwayland to support X apps):
                 $ tce-load -wi xwayland
-                $ sudo -- seatd -g staff -n /run/seatd.sock & XDG_RUNTIME_DIR=/run/user/$(id -u) labwc
+                $ sudo -- seatd -g staff -n /run/seatd.sock & labwc
                 ----------
                 automatic start:
                 - use "text" boot code to prevent X from starting (eventually this will not be needed)
-                - add the appropriate manual start command to the bottom of ~/.profile
+                - add the appropriate manual start commands (see above) to the bottom of ~/.profile
                 ----------
                 configuration:
                 - to manually configure labwc from scratch, see these guides:
@@ -43,4 +43,5 @@ Change-log:     2023/10/23 first version
                 2024/12/13 updated 0.8.1 -> 0.8.2
                 2025/02/23 updated 0.8.2 -> 0.8.3
                 2025/07/11 updated 0.8.3 -> 0.8.4 with sigusr1 patch
-Current:        2025/08/06 factored out xwayland (only .dep and .info files were changed)
+                2025/08/06 factored out xwayland (only .dep and .info files were changed)
+Current:        2025/09/29 startup script (deprecated as of tcl 16.2) removed
