@@ -2,7 +2,6 @@ pulseaudio.tcz
    libpulseaudio.tcz
       dbus.tcz
          expat2.tcz
-         libSM.tcz
          libX11.tcz
             libxcb.tcz
                libXau.tcz
@@ -21,7 +20,7 @@ pulseaudio.tcz
          flac.tcz
             libogg.tcz
          libasound.tcz
-            alsa-modules-6.12.15-piCore-v8.tcz
+            alsa-modules-6.12.25-piCore-v8.tcz
          libvorbis.tcz
             libogg.tcz
          sqlite3.tcz
@@ -35,13 +34,12 @@ pulseaudio.tcz
             libogg.tcz
    alsa.tcz
       libasound.tcz
-         alsa-modules-6.12.15-piCore-v8.tcz
+         alsa-modules-6.12.25-piCore-v8.tcz
    udev-lib.tcz
    libltdl.tcz
    libavahi.tcz
       dbus.tcz
          expat2.tcz
-         libSM.tcz
          libX11.tcz
             libxcb.tcz
                libXau.tcz

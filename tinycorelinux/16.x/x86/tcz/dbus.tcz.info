@@ -1,10 +1,10 @@
 Title:          dbus.tcz
 Description:    dbus message system
-Version:        1.12.20
+Version:        1.14.10
 Author:         see list of sites below
 Original-site:  see list of sites below
 Copying-policy: see list of sites below
-Size: 268KB
+Size: 280KB
 Extension_by:   juanito
 Tags:	        dbus message system
 Comments:       dbus message bus system, a simple way for applications to talk to one another
@@ -12,7 +12,7 @@ Comments:       dbus message bus system, a simple way for applications to talk t
                 $ sudo /usr/local/etc/init.d/dbus [start|stop|restart|reload|status]
                 ----------
                 This extension contains:
-                dbus-1.12.20 - GPLv2 - https://dbus.freedesktop.org/releases/dbus/dbus-1.12.20.tar.gz
+                dbus-1.14.10 - GPLv2 - https://dbus.freedesktop.org/releases/dbus/dbus-1.14.10.tar.xz
                 ----------
 Change-log:     2009/06/07 first version
                 2009/09/16 added start-up script to start dbus daemon when loaded
@@ -29,4 +29,5 @@ Change-log:     2009/06/07 first version
                 2012/04/29 updated 1.4.16 -> 1.4.20
                 2012/07/28 updated 1.4.20 -> 1.6.4, added reload to init.d/dbus
                 2018/02/26 updated 1.6.4 -> 1.12.4
-Current:        2021/05/31 updated 1.12.4 -> 1.12.20
+                2021/05/31 updated 1.12.4 -> 1.12.20
+Current:        2025/09/30 updated 1.12.20 -> 1.14.10
