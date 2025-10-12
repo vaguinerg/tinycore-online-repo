@@ -6,9 +6,10 @@ Original-site:  see list of sites below
 Copying-policy: see list of sites below
 Size:		48K
 Extension_by:   gnuser
-Tags:	        wayland notification daemon notify-send
+Tags:           wayland notification daemon notify-send
 Comments:       ----------
-                starting mako (add this to your wm's startup applications):
+                starting mako:
+                $ [ -S /run/user/*/bus ] || dbus-daemon --session --address=unix:path=$XDG_RUNTIME_DIR/bus &
                 $ mako >/dev/null 2>&1 &
 
                 example sending notification from terminal (mako must be running in background):
@@ -18,5 +19,5 @@ Comments:       ----------
                 This extension contains:
                 mako-1.8.0 - MIT - https://github.com/emersion/mako/archive/refs/tags/v1.8.0.tar.gz
                 ----------
-Change-log:     ----------
-Current:        2023/11/01 first version
+Change-log:     2023/11/01 first version
+Current:        2025/10/09 updated .info file

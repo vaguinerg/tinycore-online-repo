@@ -4,9 +4,9 @@ Version:        2.4.1
 Author:         see list of sites below
 Original-site:  see list of sites below
 Copying-policy: see list of sites below
-Size: 2.4MB
+Size:		2.4M
 Extension_by:   juanito
-Tags:	        av va video hardware acceleration intel
+Tags:           av va video hardware acceleration intel
 Comments:       access to intel hardware accelerated video processing to offload cpu
                 ----------
                 This extension contains:
@@ -18,4 +18,5 @@ Change-log:     2014/01/15 first version
                 2018/12/02 updated 1.7.3 -> 1.8.3, renamed
                 2019/11/11 updated 1.8.3 -> 2.3.0
                 2021/07/02 updated 2.3.0 -> 2.4.1
-Current:        2025/03/01 recompiled for libva22
+                2025/03/01 recompiled for libva22
+Current:        2025/10/07 patched to support wayland (gnuser)
