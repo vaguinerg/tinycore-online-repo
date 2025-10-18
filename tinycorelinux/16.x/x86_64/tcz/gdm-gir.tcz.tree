@@ -571,24 +571,32 @@ gdm-gir.tcz
                libepoxy.tcz
                openssl.tcz
                libEGL.tcz
-                  libGL.tcz
-                     libXdamage.tcz
-                        libXfixes.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                     libXxf86vm.tcz
+                  mesa.tcz
+                     libdrm.tcz
+                        libpciaccess.tcz
+                        udev-lib.tcz
+                     expat2.tcz
+                     libxshmfence.tcz
+                     elfutils.tcz
+                        liblzma.tcz
+                        bzip2-lib.tcz
+                     llvm19-lib.tcz
+                        libffi7.tcz
+                        libxml2.tcz
+                           liblzma.tcz
+                        libzstd.tcz
+                        ncursesw.tcz
+                     libvdpau.tcz
                         libXext.tcz
                            libX11.tcz
                               libxcb.tcz
                                  libXau.tcz
                                  libXdmcp.tcz
-                     libdrm.tcz
-                        libpciaccess.tcz
-                        udev-lib.tcz
-                     libxshmfence.tcz
-                     expat2.tcz
+                     elfutils.tcz
+                        liblzma.tcz
+                        bzip2-lib.tcz
+                     gcc_libs.tcz
+                     spirv-tools.tcz
                   wayland.tcz
                      libffi.tcz
                      expat2.tcz
@@ -1449,48 +1457,64 @@ gdm-gir.tcz
                            liblzma.tcz
                      gdk-pixbuf2-xlib.tcz
                   libEGL.tcz
-                     libGL.tcz
-                        libXdamage.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        libXxf86vm.tcz
+                     mesa.tcz
+                        libdrm.tcz
+                           libpciaccess.tcz
+                           udev-lib.tcz
+                        expat2.tcz
+                        libxshmfence.tcz
+                        elfutils.tcz
+                           liblzma.tcz
+                           bzip2-lib.tcz
+                        llvm19-lib.tcz
+                           libffi7.tcz
+                           libxml2.tcz
+                              liblzma.tcz
+                           libzstd.tcz
+                           ncursesw.tcz
+                        libvdpau.tcz
                            libXext.tcz
                               libX11.tcz
                                  libxcb.tcz
                                     libXau.tcz
                                     libXdmcp.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                        libxshmfence.tcz
-                        expat2.tcz
+                        elfutils.tcz
+                           liblzma.tcz
+                           bzip2-lib.tcz
+                        gcc_libs.tcz
+                        spirv-tools.tcz
                      wayland.tcz
                         libffi.tcz
                         expat2.tcz
                         libxml2.tcz
                            liblzma.tcz
                   libGLESv2.tcz
-                     libGL.tcz
-                        libXdamage.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        libXxf86vm.tcz
+                     mesa.tcz
+                        libdrm.tcz
+                           libpciaccess.tcz
+                           udev-lib.tcz
+                        expat2.tcz
+                        libxshmfence.tcz
+                        elfutils.tcz
+                           liblzma.tcz
+                           bzip2-lib.tcz
+                        llvm19-lib.tcz
+                           libffi7.tcz
+                           libxml2.tcz
+                              liblzma.tcz
+                           libzstd.tcz
+                           ncursesw.tcz
+                        libvdpau.tcz
                            libXext.tcz
                               libX11.tcz
                                  libxcb.tcz
                                     libXau.tcz
                                     libXdmcp.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                        libxshmfence.tcz
-                        expat2.tcz
+                        elfutils.tcz
+                           liblzma.tcz
+                           bzip2-lib.tcz
+                        gcc_libs.tcz
+                        spirv-tools.tcz
                libwacom.tcz
                   gudev-lib.tcz
                      udev-lib.tcz
@@ -2553,48 +2577,64 @@ gdm-gir.tcz
                                  liblzma.tcz
                            gdk-pixbuf2-xlib.tcz
                         libEGL.tcz
-                           libGL.tcz
-                              libXdamage.tcz
-                                 libXfixes.tcz
-                                    libX11.tcz
-                                       libxcb.tcz
-                                          libXau.tcz
-                                          libXdmcp.tcz
-                              libXxf86vm.tcz
+                           mesa.tcz
+                              libdrm.tcz
+                                 libpciaccess.tcz
+                                 udev-lib.tcz
+                              expat2.tcz
+                              libxshmfence.tcz
+                              elfutils.tcz
+                                 liblzma.tcz
+                                 bzip2-lib.tcz
+                              llvm19-lib.tcz
+                                 libffi7.tcz
+                                 libxml2.tcz
+                                    liblzma.tcz
+                                 libzstd.tcz
+                                 ncursesw.tcz
+                              libvdpau.tcz
                                  libXext.tcz
                                     libX11.tcz
                                        libxcb.tcz
                                           libXau.tcz
                                           libXdmcp.tcz
-                              libdrm.tcz
-                                 libpciaccess.tcz
-                                 udev-lib.tcz
-                              libxshmfence.tcz
-                              expat2.tcz
+                              elfutils.tcz
+                                 liblzma.tcz
+                                 bzip2-lib.tcz
+                              gcc_libs.tcz
+                              spirv-tools.tcz
                            wayland.tcz
                               libffi.tcz
                               expat2.tcz
                               libxml2.tcz
                                  liblzma.tcz
                         libGLESv2.tcz
-                           libGL.tcz
-                              libXdamage.tcz
-                                 libXfixes.tcz
-                                    libX11.tcz
-                                       libxcb.tcz
-                                          libXau.tcz
-                                          libXdmcp.tcz
-                              libXxf86vm.tcz
+                           mesa.tcz
+                              libdrm.tcz
+                                 libpciaccess.tcz
+                                 udev-lib.tcz
+                              expat2.tcz
+                              libxshmfence.tcz
+                              elfutils.tcz
+                                 liblzma.tcz
+                                 bzip2-lib.tcz
+                              llvm19-lib.tcz
+                                 libffi7.tcz
+                                 libxml2.tcz
+                                    liblzma.tcz
+                                 libzstd.tcz
+                                 ncursesw.tcz
+                              libvdpau.tcz
                                  libXext.tcz
                                     libX11.tcz
                                        libxcb.tcz
                                           libXau.tcz
                                           libXdmcp.tcz
-                              libdrm.tcz
-                                 libpciaccess.tcz
-                                 udev-lib.tcz
-                              libxshmfence.tcz
-                              expat2.tcz
+                              elfutils.tcz
+                                 liblzma.tcz
+                                 bzip2-lib.tcz
+                              gcc_libs.tcz
+                              spirv-tools.tcz
                      hicolor-icon-theme.tcz
                   libsecret.tcz
                      libgcrypt.tcz
@@ -3294,48 +3334,64 @@ gdm-gir.tcz
                            liblzma.tcz
                      gdk-pixbuf2-xlib.tcz
                   libEGL.tcz
-                     libGL.tcz
-                        libXdamage.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        libXxf86vm.tcz
+                     mesa.tcz
+                        libdrm.tcz
+                           libpciaccess.tcz
+                           udev-lib.tcz
+                        expat2.tcz
+                        libxshmfence.tcz
+                        elfutils.tcz
+                           liblzma.tcz
+                           bzip2-lib.tcz
+                        llvm19-lib.tcz
+                           libffi7.tcz
+                           libxml2.tcz
+                              liblzma.tcz
+                           libzstd.tcz
+                           ncursesw.tcz
+                        libvdpau.tcz
                            libXext.tcz
                               libX11.tcz
                                  libxcb.tcz
                                     libXau.tcz
                                     libXdmcp.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                        libxshmfence.tcz
-                        expat2.tcz
+                        elfutils.tcz
+                           liblzma.tcz
+                           bzip2-lib.tcz
+                        gcc_libs.tcz
+                        spirv-tools.tcz
                      wayland.tcz
                         libffi.tcz
                         expat2.tcz
                         libxml2.tcz
                            liblzma.tcz
                   libGLESv2.tcz
-                     libGL.tcz
-                        libXdamage.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        libXxf86vm.tcz
+                     mesa.tcz
+                        libdrm.tcz
+                           libpciaccess.tcz
+                           udev-lib.tcz
+                        expat2.tcz
+                        libxshmfence.tcz
+                        elfutils.tcz
+                           liblzma.tcz
+                           bzip2-lib.tcz
+                        llvm19-lib.tcz
+                           libffi7.tcz
+                           libxml2.tcz
+                              liblzma.tcz
+                           libzstd.tcz
+                           ncursesw.tcz
+                        libvdpau.tcz
                            libXext.tcz
                               libX11.tcz
                                  libxcb.tcz
                                     libXau.tcz
                                     libXdmcp.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                        libxshmfence.tcz
-                        expat2.tcz
+                        elfutils.tcz
+                           liblzma.tcz
+                           bzip2-lib.tcz
+                        gcc_libs.tcz
+                        spirv-tools.tcz
                hicolor-icon-theme.tcz
             libsecret.tcz
                libgcrypt.tcz
@@ -3757,24 +3813,32 @@ gdm-gir.tcz
                      libdvdnav.tcz
                         libdvdread.tcz
                      libGLESv2.tcz
-                        libGL.tcz
-                           libXdamage.tcz
-                              libXfixes.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
-                           libXxf86vm.tcz
+                        mesa.tcz
+                           libdrm.tcz
+                              libpciaccess.tcz
+                              udev-lib.tcz
+                           expat2.tcz
+                           libxshmfence.tcz
+                           elfutils.tcz
+                              liblzma.tcz
+                              bzip2-lib.tcz
+                           llvm19-lib.tcz
+                              libffi7.tcz
+                              libxml2.tcz
+                                 liblzma.tcz
+                              libzstd.tcz
+                              ncursesw.tcz
+                           libvdpau.tcz
                               libXext.tcz
                                  libX11.tcz
                                     libxcb.tcz
                                        libXau.tcz
                                        libXdmcp.tcz
-                           libdrm.tcz
-                              libpciaccess.tcz
-                              udev-lib.tcz
-                           libxshmfence.tcz
-                           expat2.tcz
+                           elfutils.tcz
+                              liblzma.tcz
+                              bzip2-lib.tcz
+                           gcc_libs.tcz
+                           spirv-tools.tcz
                      libwebp1.tcz
                   libsecret.tcz
                      libgcrypt.tcz
@@ -4362,48 +4426,64 @@ gdm-gir.tcz
                               liblzma.tcz
                         gdk-pixbuf2-xlib.tcz
                      libEGL.tcz
-                        libGL.tcz
-                           libXdamage.tcz
-                              libXfixes.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
-                           libXxf86vm.tcz
+                        mesa.tcz
+                           libdrm.tcz
+                              libpciaccess.tcz
+                              udev-lib.tcz
+                           expat2.tcz
+                           libxshmfence.tcz
+                           elfutils.tcz
+                              liblzma.tcz
+                              bzip2-lib.tcz
+                           llvm19-lib.tcz
+                              libffi7.tcz
+                              libxml2.tcz
+                                 liblzma.tcz
+                              libzstd.tcz
+                              ncursesw.tcz
+                           libvdpau.tcz
                               libXext.tcz
                                  libX11.tcz
                                     libxcb.tcz
                                        libXau.tcz
                                        libXdmcp.tcz
-                           libdrm.tcz
-                              libpciaccess.tcz
-                              udev-lib.tcz
-                           libxshmfence.tcz
-                           expat2.tcz
+                           elfutils.tcz
+                              liblzma.tcz
+                              bzip2-lib.tcz
+                           gcc_libs.tcz
+                           spirv-tools.tcz
                         wayland.tcz
                            libffi.tcz
                            expat2.tcz
                            libxml2.tcz
                               liblzma.tcz
                      libGLESv2.tcz
-                        libGL.tcz
-                           libXdamage.tcz
-                              libXfixes.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
-                           libXxf86vm.tcz
+                        mesa.tcz
+                           libdrm.tcz
+                              libpciaccess.tcz
+                              udev-lib.tcz
+                           expat2.tcz
+                           libxshmfence.tcz
+                           elfutils.tcz
+                              liblzma.tcz
+                              bzip2-lib.tcz
+                           llvm19-lib.tcz
+                              libffi7.tcz
+                              libxml2.tcz
+                                 liblzma.tcz
+                              libzstd.tcz
+                              ncursesw.tcz
+                           libvdpau.tcz
                               libXext.tcz
                                  libX11.tcz
                                     libxcb.tcz
                                        libXau.tcz
                                        libXdmcp.tcz
-                           libdrm.tcz
-                              libpciaccess.tcz
-                              udev-lib.tcz
-                           libxshmfence.tcz
-                           expat2.tcz
+                           elfutils.tcz
+                              liblzma.tcz
+                              bzip2-lib.tcz
+                           gcc_libs.tcz
+                           spirv-tools.tcz
                   hicolor-icon-theme.tcz
             libpwquality.tcz
                cracklib.tcz
@@ -5319,48 +5399,64 @@ gdm-gir.tcz
                            liblzma.tcz
                      gdk-pixbuf2-xlib.tcz
                   libEGL.tcz
-                     libGL.tcz
-                        libXdamage.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        libXxf86vm.tcz
+                     mesa.tcz
+                        libdrm.tcz
+                           libpciaccess.tcz
+                           udev-lib.tcz
+                        expat2.tcz
+                        libxshmfence.tcz
+                        elfutils.tcz
+                           liblzma.tcz
+                           bzip2-lib.tcz
+                        llvm19-lib.tcz
+                           libffi7.tcz
+                           libxml2.tcz
+                              liblzma.tcz
+                           libzstd.tcz
+                           ncursesw.tcz
+                        libvdpau.tcz
                            libXext.tcz
                               libX11.tcz
                                  libxcb.tcz
                                     libXau.tcz
                                     libXdmcp.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                        libxshmfence.tcz
-                        expat2.tcz
+                        elfutils.tcz
+                           liblzma.tcz
+                           bzip2-lib.tcz
+                        gcc_libs.tcz
+                        spirv-tools.tcz
                      wayland.tcz
                         libffi.tcz
                         expat2.tcz
                         libxml2.tcz
                            liblzma.tcz
                   libGLESv2.tcz
-                     libGL.tcz
-                        libXdamage.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        libXxf86vm.tcz
+                     mesa.tcz
+                        libdrm.tcz
+                           libpciaccess.tcz
+                           udev-lib.tcz
+                        expat2.tcz
+                        libxshmfence.tcz
+                        elfutils.tcz
+                           liblzma.tcz
+                           bzip2-lib.tcz
+                        llvm19-lib.tcz
+                           libffi7.tcz
+                           libxml2.tcz
+                              liblzma.tcz
+                           libzstd.tcz
+                           ncursesw.tcz
+                        libvdpau.tcz
                            libXext.tcz
                               libX11.tcz
                                  libxcb.tcz
                                     libXau.tcz
                                     libXdmcp.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                        libxshmfence.tcz
-                        expat2.tcz
+                        elfutils.tcz
+                           liblzma.tcz
+                           bzip2-lib.tcz
+                        gcc_libs.tcz
+                        spirv-tools.tcz
                libwacom.tcz
                   gudev-lib.tcz
                      udev-lib.tcz
@@ -6423,48 +6519,64 @@ gdm-gir.tcz
                                  liblzma.tcz
                            gdk-pixbuf2-xlib.tcz
                         libEGL.tcz
-                           libGL.tcz
-                              libXdamage.tcz
-                                 libXfixes.tcz
-                                    libX11.tcz
-                                       libxcb.tcz
-                                          libXau.tcz
-                                          libXdmcp.tcz
-                              libXxf86vm.tcz
+                           mesa.tcz
+                              libdrm.tcz
+                                 libpciaccess.tcz
+                                 udev-lib.tcz
+                              expat2.tcz
+                              libxshmfence.tcz
+                              elfutils.tcz
+                                 liblzma.tcz
+                                 bzip2-lib.tcz
+                              llvm19-lib.tcz
+                                 libffi7.tcz
+                                 libxml2.tcz
+                                    liblzma.tcz
+                                 libzstd.tcz
+                                 ncursesw.tcz
+                              libvdpau.tcz
                                  libXext.tcz
                                     libX11.tcz
                                        libxcb.tcz
                                           libXau.tcz
                                           libXdmcp.tcz
-                              libdrm.tcz
-                                 libpciaccess.tcz
-                                 udev-lib.tcz
-                              libxshmfence.tcz
-                              expat2.tcz
+                              elfutils.tcz
+                                 liblzma.tcz
+                                 bzip2-lib.tcz
+                              gcc_libs.tcz
+                              spirv-tools.tcz
                            wayland.tcz
                               libffi.tcz
                               expat2.tcz
                               libxml2.tcz
                                  liblzma.tcz
                         libGLESv2.tcz
-                           libGL.tcz
-                              libXdamage.tcz
-                                 libXfixes.tcz
-                                    libX11.tcz
-                                       libxcb.tcz
-                                          libXau.tcz
-                                          libXdmcp.tcz
-                              libXxf86vm.tcz
+                           mesa.tcz
+                              libdrm.tcz
+                                 libpciaccess.tcz
+                                 udev-lib.tcz
+                              expat2.tcz
+                              libxshmfence.tcz
+                              elfutils.tcz
+                                 liblzma.tcz
+                                 bzip2-lib.tcz
+                              llvm19-lib.tcz
+                                 libffi7.tcz
+                                 libxml2.tcz
+                                    liblzma.tcz
+                                 libzstd.tcz
+                                 ncursesw.tcz
+                              libvdpau.tcz
                                  libXext.tcz
                                     libX11.tcz
                                        libxcb.tcz
                                           libXau.tcz
                                           libXdmcp.tcz
-                              libdrm.tcz
-                                 libpciaccess.tcz
-                                 udev-lib.tcz
-                              libxshmfence.tcz
-                              expat2.tcz
+                              elfutils.tcz
+                                 liblzma.tcz
+                                 bzip2-lib.tcz
+                              gcc_libs.tcz
+                              spirv-tools.tcz
                      hicolor-icon-theme.tcz
                   libsecret.tcz
                      libgcrypt.tcz
@@ -6999,48 +7111,64 @@ gdm-gir.tcz
                                     liblzma.tcz
                               gdk-pixbuf2-xlib.tcz
                            libEGL.tcz
-                              libGL.tcz
-                                 libXdamage.tcz
-                                    libXfixes.tcz
-                                       libX11.tcz
-                                          libxcb.tcz
-                                             libXau.tcz
-                                             libXdmcp.tcz
-                                 libXxf86vm.tcz
+                              mesa.tcz
+                                 libdrm.tcz
+                                    libpciaccess.tcz
+                                    udev-lib.tcz
+                                 expat2.tcz
+                                 libxshmfence.tcz
+                                 elfutils.tcz
+                                    liblzma.tcz
+                                    bzip2-lib.tcz
+                                 llvm19-lib.tcz
+                                    libffi7.tcz
+                                    libxml2.tcz
+                                       liblzma.tcz
+                                    libzstd.tcz
+                                    ncursesw.tcz
+                                 libvdpau.tcz
                                     libXext.tcz
                                        libX11.tcz
                                           libxcb.tcz
                                              libXau.tcz
                                              libXdmcp.tcz
-                                 libdrm.tcz
-                                    libpciaccess.tcz
-                                    udev-lib.tcz
-                                 libxshmfence.tcz
-                                 expat2.tcz
+                                 elfutils.tcz
+                                    liblzma.tcz
+                                    bzip2-lib.tcz
+                                 gcc_libs.tcz
+                                 spirv-tools.tcz
                               wayland.tcz
                                  libffi.tcz
                                  expat2.tcz
                                  libxml2.tcz
                                     liblzma.tcz
                            libGLESv2.tcz
-                              libGL.tcz
-                                 libXdamage.tcz
-                                    libXfixes.tcz
-                                       libX11.tcz
-                                          libxcb.tcz
-                                             libXau.tcz
-                                             libXdmcp.tcz
-                                 libXxf86vm.tcz
+                              mesa.tcz
+                                 libdrm.tcz
+                                    libpciaccess.tcz
+                                    udev-lib.tcz
+                                 expat2.tcz
+                                 libxshmfence.tcz
+                                 elfutils.tcz
+                                    liblzma.tcz
+                                    bzip2-lib.tcz
+                                 llvm19-lib.tcz
+                                    libffi7.tcz
+                                    libxml2.tcz
+                                       liblzma.tcz
+                                    libzstd.tcz
+                                    ncursesw.tcz
+                                 libvdpau.tcz
                                     libXext.tcz
                                        libX11.tcz
                                           libxcb.tcz
                                              libXau.tcz
                                              libXdmcp.tcz
-                                 libdrm.tcz
-                                    libpciaccess.tcz
-                                    udev-lib.tcz
-                                 libxshmfence.tcz
-                                 expat2.tcz
+                                 elfutils.tcz
+                                    liblzma.tcz
+                                    bzip2-lib.tcz
+                                 gcc_libs.tcz
+                                 spirv-tools.tcz
                         hicolor-icon-theme.tcz
                   gcr4.tcz
                      gtk4.tcz
@@ -7309,48 +7437,64 @@ gdm-gir.tcz
                                     liblzma.tcz
                               gdk-pixbuf2-xlib.tcz
                            libEGL.tcz
-                              libGL.tcz
-                                 libXdamage.tcz
-                                    libXfixes.tcz
-                                       libX11.tcz
-                                          libxcb.tcz
-                                             libXau.tcz
-                                             libXdmcp.tcz
-                                 libXxf86vm.tcz
+                              mesa.tcz
+                                 libdrm.tcz
+                                    libpciaccess.tcz
+                                    udev-lib.tcz
+                                 expat2.tcz
+                                 libxshmfence.tcz
+                                 elfutils.tcz
+                                    liblzma.tcz
+                                    bzip2-lib.tcz
+                                 llvm19-lib.tcz
+                                    libffi7.tcz
+                                    libxml2.tcz
+                                       liblzma.tcz
+                                    libzstd.tcz
+                                    ncursesw.tcz
+                                 libvdpau.tcz
                                     libXext.tcz
                                        libX11.tcz
                                           libxcb.tcz
                                              libXau.tcz
                                              libXdmcp.tcz
-                                 libdrm.tcz
-                                    libpciaccess.tcz
-                                    udev-lib.tcz
-                                 libxshmfence.tcz
-                                 expat2.tcz
+                                 elfutils.tcz
+                                    liblzma.tcz
+                                    bzip2-lib.tcz
+                                 gcc_libs.tcz
+                                 spirv-tools.tcz
                               wayland.tcz
                                  libffi.tcz
                                  expat2.tcz
                                  libxml2.tcz
                                     liblzma.tcz
                            libGLESv2.tcz
-                              libGL.tcz
-                                 libXdamage.tcz
-                                    libXfixes.tcz
-                                       libX11.tcz
-                                          libxcb.tcz
-                                             libXau.tcz
-                                             libXdmcp.tcz
-                                 libXxf86vm.tcz
+                              mesa.tcz
+                                 libdrm.tcz
+                                    libpciaccess.tcz
+                                    udev-lib.tcz
+                                 expat2.tcz
+                                 libxshmfence.tcz
+                                 elfutils.tcz
+                                    liblzma.tcz
+                                    bzip2-lib.tcz
+                                 llvm19-lib.tcz
+                                    libffi7.tcz
+                                    libxml2.tcz
+                                       liblzma.tcz
+                                    libzstd.tcz
+                                    ncursesw.tcz
+                                 libvdpau.tcz
                                     libXext.tcz
                                        libX11.tcz
                                           libxcb.tcz
                                              libXau.tcz
                                              libXdmcp.tcz
-                                 libdrm.tcz
-                                    libpciaccess.tcz
-                                    udev-lib.tcz
-                                 libxshmfence.tcz
-                                 expat2.tcz
+                                 elfutils.tcz
+                                    liblzma.tcz
+                                    bzip2-lib.tcz
+                                 gcc_libs.tcz
+                                 spirv-tools.tcz
                         hicolor-icon-theme.tcz
                      libsecret.tcz
                         libgcrypt.tcz
@@ -8595,48 +8739,64 @@ gdm-gir.tcz
                               liblzma.tcz
                         gdk-pixbuf2-xlib.tcz
                      libEGL.tcz
-                        libGL.tcz
-                           libXdamage.tcz
-                              libXfixes.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
-                           libXxf86vm.tcz
+                        mesa.tcz
+                           libdrm.tcz
+                              libpciaccess.tcz
+                              udev-lib.tcz
+                           expat2.tcz
+                           libxshmfence.tcz
+                           elfutils.tcz
+                              liblzma.tcz
+                              bzip2-lib.tcz
+                           llvm19-lib.tcz
+                              libffi7.tcz
+                              libxml2.tcz
+                                 liblzma.tcz
+                              libzstd.tcz
+                              ncursesw.tcz
+                           libvdpau.tcz
                               libXext.tcz
                                  libX11.tcz
                                     libxcb.tcz
                                        libXau.tcz
                                        libXdmcp.tcz
-                           libdrm.tcz
-                              libpciaccess.tcz
-                              udev-lib.tcz
-                           libxshmfence.tcz
-                           expat2.tcz
+                           elfutils.tcz
+                              liblzma.tcz
+                              bzip2-lib.tcz
+                           gcc_libs.tcz
+                           spirv-tools.tcz
                         wayland.tcz
                            libffi.tcz
                            expat2.tcz
                            libxml2.tcz
                               liblzma.tcz
                      libGLESv2.tcz
-                        libGL.tcz
-                           libXdamage.tcz
-                              libXfixes.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
-                           libXxf86vm.tcz
+                        mesa.tcz
+                           libdrm.tcz
+                              libpciaccess.tcz
+                              udev-lib.tcz
+                           expat2.tcz
+                           libxshmfence.tcz
+                           elfutils.tcz
+                              liblzma.tcz
+                              bzip2-lib.tcz
+                           llvm19-lib.tcz
+                              libffi7.tcz
+                              libxml2.tcz
+                                 liblzma.tcz
+                              libzstd.tcz
+                              ncursesw.tcz
+                           libvdpau.tcz
                               libXext.tcz
                                  libX11.tcz
                                     libxcb.tcz
                                        libXau.tcz
                                        libXdmcp.tcz
-                           libdrm.tcz
-                              libpciaccess.tcz
-                              udev-lib.tcz
-                           libxshmfence.tcz
-                           expat2.tcz
+                           elfutils.tcz
+                              liblzma.tcz
+                              bzip2-lib.tcz
+                           gcc_libs.tcz
+                           spirv-tools.tcz
                   hicolor-icon-theme.tcz
                pcre.tcz
             libnma.tcz
@@ -9119,48 +9279,64 @@ gdm-gir.tcz
                                  liblzma.tcz
                            gdk-pixbuf2-xlib.tcz
                         libEGL.tcz
-                           libGL.tcz
-                              libXdamage.tcz
-                                 libXfixes.tcz
-                                    libX11.tcz
-                                       libxcb.tcz
-                                          libXau.tcz
-                                          libXdmcp.tcz
-                              libXxf86vm.tcz
+                           mesa.tcz
+                              libdrm.tcz
+                                 libpciaccess.tcz
+                                 udev-lib.tcz
+                              expat2.tcz
+                              libxshmfence.tcz
+                              elfutils.tcz
+                                 liblzma.tcz
+                                 bzip2-lib.tcz
+                              llvm19-lib.tcz
+                                 libffi7.tcz
+                                 libxml2.tcz
+                                    liblzma.tcz
+                                 libzstd.tcz
+                                 ncursesw.tcz
+                              libvdpau.tcz
                                  libXext.tcz
                                     libX11.tcz
                                        libxcb.tcz
                                           libXau.tcz
                                           libXdmcp.tcz
-                              libdrm.tcz
-                                 libpciaccess.tcz
-                                 udev-lib.tcz
-                              libxshmfence.tcz
-                              expat2.tcz
+                              elfutils.tcz
+                                 liblzma.tcz
+                                 bzip2-lib.tcz
+                              gcc_libs.tcz
+                              spirv-tools.tcz
                            wayland.tcz
                               libffi.tcz
                               expat2.tcz
                               libxml2.tcz
                                  liblzma.tcz
                         libGLESv2.tcz
-                           libGL.tcz
-                              libXdamage.tcz
-                                 libXfixes.tcz
-                                    libX11.tcz
-                                       libxcb.tcz
-                                          libXau.tcz
-                                          libXdmcp.tcz
-                              libXxf86vm.tcz
+                           mesa.tcz
+                              libdrm.tcz
+                                 libpciaccess.tcz
+                                 udev-lib.tcz
+                              expat2.tcz
+                              libxshmfence.tcz
+                              elfutils.tcz
+                                 liblzma.tcz
+                                 bzip2-lib.tcz
+                              llvm19-lib.tcz
+                                 libffi7.tcz
+                                 libxml2.tcz
+                                    liblzma.tcz
+                                 libzstd.tcz
+                                 ncursesw.tcz
+                              libvdpau.tcz
                                  libXext.tcz
                                     libX11.tcz
                                        libxcb.tcz
                                           libXau.tcz
                                           libXdmcp.tcz
-                              libdrm.tcz
-                                 libpciaccess.tcz
-                                 udev-lib.tcz
-                              libxshmfence.tcz
-                              expat2.tcz
+                              elfutils.tcz
+                                 liblzma.tcz
+                                 bzip2-lib.tcz
+                              gcc_libs.tcz
+                              spirv-tools.tcz
                      hicolor-icon-theme.tcz
                gcr4.tcz
                   gtk4.tcz
@@ -9429,48 +9605,64 @@ gdm-gir.tcz
                                  liblzma.tcz
                            gdk-pixbuf2-xlib.tcz
                         libEGL.tcz
-                           libGL.tcz
-                              libXdamage.tcz
-                                 libXfixes.tcz
-                                    libX11.tcz
-                                       libxcb.tcz
-                                          libXau.tcz
-                                          libXdmcp.tcz
-                              libXxf86vm.tcz
+                           mesa.tcz
+                              libdrm.tcz
+                                 libpciaccess.tcz
+                                 udev-lib.tcz
+                              expat2.tcz
+                              libxshmfence.tcz
+                              elfutils.tcz
+                                 liblzma.tcz
+                                 bzip2-lib.tcz
+                              llvm19-lib.tcz
+                                 libffi7.tcz
+                                 libxml2.tcz
+                                    liblzma.tcz
+                                 libzstd.tcz
+                                 ncursesw.tcz
+                              libvdpau.tcz
                                  libXext.tcz
                                     libX11.tcz
                                        libxcb.tcz
                                           libXau.tcz
                                           libXdmcp.tcz
-                              libdrm.tcz
-                                 libpciaccess.tcz
-                                 udev-lib.tcz
-                              libxshmfence.tcz
-                              expat2.tcz
+                              elfutils.tcz
+                                 liblzma.tcz
+                                 bzip2-lib.tcz
+                              gcc_libs.tcz
+                              spirv-tools.tcz
                            wayland.tcz
                               libffi.tcz
                               expat2.tcz
                               libxml2.tcz
                                  liblzma.tcz
                         libGLESv2.tcz
-                           libGL.tcz
-                              libXdamage.tcz
-                                 libXfixes.tcz
-                                    libX11.tcz
-                                       libxcb.tcz
-                                          libXau.tcz
-                                          libXdmcp.tcz
-                              libXxf86vm.tcz
+                           mesa.tcz
+                              libdrm.tcz
+                                 libpciaccess.tcz
+                                 udev-lib.tcz
+                              expat2.tcz
+                              libxshmfence.tcz
+                              elfutils.tcz
+                                 liblzma.tcz
+                                 bzip2-lib.tcz
+                              llvm19-lib.tcz
+                                 libffi7.tcz
+                                 libxml2.tcz
+                                    liblzma.tcz
+                                 libzstd.tcz
+                                 ncursesw.tcz
+                              libvdpau.tcz
                                  libXext.tcz
                                     libX11.tcz
                                        libxcb.tcz
                                           libXau.tcz
                                           libXdmcp.tcz
-                              libdrm.tcz
-                                 libpciaccess.tcz
-                                 udev-lib.tcz
-                              libxshmfence.tcz
-                              expat2.tcz
+                              elfutils.tcz
+                                 liblzma.tcz
+                                 bzip2-lib.tcz
+                              gcc_libs.tcz
+                              spirv-tools.tcz
                      hicolor-icon-theme.tcz
                   libsecret.tcz
                      libgcrypt.tcz
@@ -9794,48 +9986,64 @@ gdm-gir.tcz
                            liblzma.tcz
                      gdk-pixbuf2-xlib.tcz
                   libEGL.tcz
-                     libGL.tcz
-                        libXdamage.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        libXxf86vm.tcz
+                     mesa.tcz
+                        libdrm.tcz
+                           libpciaccess.tcz
+                           udev-lib.tcz
+                        expat2.tcz
+                        libxshmfence.tcz
+                        elfutils.tcz
+                           liblzma.tcz
+                           bzip2-lib.tcz
+                        llvm19-lib.tcz
+                           libffi7.tcz
+                           libxml2.tcz
+                              liblzma.tcz
+                           libzstd.tcz
+                           ncursesw.tcz
+                        libvdpau.tcz
                            libXext.tcz
                               libX11.tcz
                                  libxcb.tcz
                                     libXau.tcz
                                     libXdmcp.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                        libxshmfence.tcz
-                        expat2.tcz
+                        elfutils.tcz
+                           liblzma.tcz
+                           bzip2-lib.tcz
+                        gcc_libs.tcz
+                        spirv-tools.tcz
                      wayland.tcz
                         libffi.tcz
                         expat2.tcz
                         libxml2.tcz
                            liblzma.tcz
                   libGLESv2.tcz
-                     libGL.tcz
-                        libXdamage.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        libXxf86vm.tcz
+                     mesa.tcz
+                        libdrm.tcz
+                           libpciaccess.tcz
+                           udev-lib.tcz
+                        expat2.tcz
+                        libxshmfence.tcz
+                        elfutils.tcz
+                           liblzma.tcz
+                           bzip2-lib.tcz
+                        llvm19-lib.tcz
+                           libffi7.tcz
+                           libxml2.tcz
+                              liblzma.tcz
+                           libzstd.tcz
+                           ncursesw.tcz
+                        libvdpau.tcz
                            libXext.tcz
                               libX11.tcz
                                  libxcb.tcz
                                     libXau.tcz
                                     libXdmcp.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                        libxshmfence.tcz
-                        expat2.tcz
+                        elfutils.tcz
+                           liblzma.tcz
+                           bzip2-lib.tcz
+                        gcc_libs.tcz
+                        spirv-tools.tcz
                hicolor-icon-theme.tcz
             gnome-bluetooth.tcz
                libadwaita.tcz
@@ -10549,23 +10757,38 @@ gdm-gir.tcz
                      libavutil5.tcz
                         libva2.tcz
                            libGL.tcz
-                              libXdamage.tcz
-                                 libXfixes.tcz
-                                    libX11.tcz
-                                       libxcb.tcz
-                                          libXau.tcz
-                                          libXdmcp.tcz
+                              mesa.tcz
+                                 libdrm.tcz
+                                    libpciaccess.tcz
+                                    udev-lib.tcz
+                                 expat2.tcz
+                                 libxshmfence.tcz
+                                 elfutils.tcz
+                                    liblzma.tcz
+                                    bzip2-lib.tcz
+                                 llvm19-lib.tcz
+                                    libffi7.tcz
+                                    libxml2.tcz
+                                       liblzma.tcz
+                                    libzstd.tcz
+                                    ncursesw.tcz
+                                 libvdpau.tcz
+                                    libXext.tcz
+                                       libX11.tcz
+                                          libxcb.tcz
+                                             libXau.tcz
+                                             libXdmcp.tcz
+                                 elfutils.tcz
+                                    liblzma.tcz
+                                    bzip2-lib.tcz
+                                 gcc_libs.tcz
+                                 spirv-tools.tcz
                               libXxf86vm.tcz
                                  libXext.tcz
                                     libX11.tcz
                                        libxcb.tcz
                                           libXau.tcz
                                           libXdmcp.tcz
-                              libdrm.tcz
-                                 libpciaccess.tcz
-                                 udev-lib.tcz
-                              libxshmfence.tcz
-                              expat2.tcz
                            wayland.tcz
                               libffi.tcz
                               expat2.tcz
@@ -10583,23 +10806,38 @@ gdm-gir.tcz
                            libavutil5.tcz
                               libva2.tcz
                                  libGL.tcz
-                                    libXdamage.tcz
-                                       libXfixes.tcz
-                                          libX11.tcz
-                                             libxcb.tcz
-                                                libXau.tcz
-                                                libXdmcp.tcz
+                                    mesa.tcz
+                                       libdrm.tcz
+                                          libpciaccess.tcz
+                                          udev-lib.tcz
+                                       expat2.tcz
+                                       libxshmfence.tcz
+                                       elfutils.tcz
+                                          liblzma.tcz
+                                          bzip2-lib.tcz
+                                       llvm19-lib.tcz
+                                          libffi7.tcz
+                                          libxml2.tcz
+                                             liblzma.tcz
+                                          libzstd.tcz
+                                          ncursesw.tcz
+                                       libvdpau.tcz
+                                          libXext.tcz
+                                             libX11.tcz
+                                                libxcb.tcz
+                                                   libXau.tcz
+                                                   libXdmcp.tcz
+                                       elfutils.tcz
+                                          liblzma.tcz
+                                          bzip2-lib.tcz
+                                       gcc_libs.tcz
+                                       spirv-tools.tcz
                                     libXxf86vm.tcz
                                        libXext.tcz
                                           libX11.tcz
                                              libxcb.tcz
                                                 libXau.tcz
                                                 libXdmcp.tcz
-                                    libdrm.tcz
-                                       libpciaccess.tcz
-                                       udev-lib.tcz
-                                    libxshmfence.tcz
-                                    expat2.tcz
                                  wayland.tcz
                                     libffi.tcz
                                     expat2.tcz
@@ -10696,48 +10934,64 @@ gdm-gir.tcz
                                     liblzma.tcz
                               gdk-pixbuf2-xlib.tcz
                            libEGL.tcz
-                              libGL.tcz
-                                 libXdamage.tcz
-                                    libXfixes.tcz
-                                       libX11.tcz
-                                          libxcb.tcz
-                                             libXau.tcz
-                                             libXdmcp.tcz
-                                 libXxf86vm.tcz
+                              mesa.tcz
+                                 libdrm.tcz
+                                    libpciaccess.tcz
+                                    udev-lib.tcz
+                                 expat2.tcz
+                                 libxshmfence.tcz
+                                 elfutils.tcz
+                                    liblzma.tcz
+                                    bzip2-lib.tcz
+                                 llvm19-lib.tcz
+                                    libffi7.tcz
+                                    libxml2.tcz
+                                       liblzma.tcz
+                                    libzstd.tcz
+                                    ncursesw.tcz
+                                 libvdpau.tcz
                                     libXext.tcz
                                        libX11.tcz
                                           libxcb.tcz
                                              libXau.tcz
                                              libXdmcp.tcz
-                                 libdrm.tcz
-                                    libpciaccess.tcz
-                                    udev-lib.tcz
-                                 libxshmfence.tcz
-                                 expat2.tcz
+                                 elfutils.tcz
+                                    liblzma.tcz
+                                    bzip2-lib.tcz
+                                 gcc_libs.tcz
+                                 spirv-tools.tcz
                               wayland.tcz
                                  libffi.tcz
                                  expat2.tcz
                                  libxml2.tcz
                                     liblzma.tcz
                            libGLESv2.tcz
-                              libGL.tcz
-                                 libXdamage.tcz
-                                    libXfixes.tcz
-                                       libX11.tcz
-                                          libxcb.tcz
-                                             libXau.tcz
-                                             libXdmcp.tcz
-                                 libXxf86vm.tcz
+                              mesa.tcz
+                                 libdrm.tcz
+                                    libpciaccess.tcz
+                                    udev-lib.tcz
+                                 expat2.tcz
+                                 libxshmfence.tcz
+                                 elfutils.tcz
+                                    liblzma.tcz
+                                    bzip2-lib.tcz
+                                 llvm19-lib.tcz
+                                    libffi7.tcz
+                                    libxml2.tcz
+                                       liblzma.tcz
+                                    libzstd.tcz
+                                    ncursesw.tcz
+                                 libvdpau.tcz
                                     libXext.tcz
                                        libX11.tcz
                                           libxcb.tcz
                                              libXau.tcz
                                              libXdmcp.tcz
-                                 libdrm.tcz
-                                    libpciaccess.tcz
-                                    udev-lib.tcz
-                                 libxshmfence.tcz
-                                 expat2.tcz
+                                 elfutils.tcz
+                                    liblzma.tcz
+                                    bzip2-lib.tcz
+                                 gcc_libs.tcz
+                                 spirv-tools.tcz
                         cairo.tcz
                            glib2.tcz
                               libffi.tcz
@@ -10786,23 +11040,38 @@ gdm-gir.tcz
                      libavutil5.tcz
                         libva2.tcz
                            libGL.tcz
-                              libXdamage.tcz
-                                 libXfixes.tcz
-                                    libX11.tcz
-                                       libxcb.tcz
-                                          libXau.tcz
-                                          libXdmcp.tcz
+                              mesa.tcz
+                                 libdrm.tcz
+                                    libpciaccess.tcz
+                                    udev-lib.tcz
+                                 expat2.tcz
+                                 libxshmfence.tcz
+                                 elfutils.tcz
+                                    liblzma.tcz
+                                    bzip2-lib.tcz
+                                 llvm19-lib.tcz
+                                    libffi7.tcz
+                                    libxml2.tcz
+                                       liblzma.tcz
+                                    libzstd.tcz
+                                    ncursesw.tcz
+                                 libvdpau.tcz
+                                    libXext.tcz
+                                       libX11.tcz
+                                          libxcb.tcz
+                                             libXau.tcz
+                                             libXdmcp.tcz
+                                 elfutils.tcz
+                                    liblzma.tcz
+                                    bzip2-lib.tcz
+                                 gcc_libs.tcz
+                                 spirv-tools.tcz
                               libXxf86vm.tcz
                                  libXext.tcz
                                     libX11.tcz
                                        libxcb.tcz
                                           libXau.tcz
                                           libXdmcp.tcz
-                              libdrm.tcz
-                                 libpciaccess.tcz
-                                 udev-lib.tcz
-                              libxshmfence.tcz
-                              expat2.tcz
                            wayland.tcz
                               libffi.tcz
                               expat2.tcz
@@ -10818,23 +11087,38 @@ gdm-gir.tcz
                      libavutil5.tcz
                         libva2.tcz
                            libGL.tcz
-                              libXdamage.tcz
-                                 libXfixes.tcz
-                                    libX11.tcz
-                                       libxcb.tcz
-                                          libXau.tcz
-                                          libXdmcp.tcz
+                              mesa.tcz
+                                 libdrm.tcz
+                                    libpciaccess.tcz
+                                    udev-lib.tcz
+                                 expat2.tcz
+                                 libxshmfence.tcz
+                                 elfutils.tcz
+                                    liblzma.tcz
+                                    bzip2-lib.tcz
+                                 llvm19-lib.tcz
+                                    libffi7.tcz
+                                    libxml2.tcz
+                                       liblzma.tcz
+                                    libzstd.tcz
+                                    ncursesw.tcz
+                                 libvdpau.tcz
+                                    libXext.tcz
+                                       libX11.tcz
+                                          libxcb.tcz
+                                             libXau.tcz
+                                             libXdmcp.tcz
+                                 elfutils.tcz
+                                    liblzma.tcz
+                                    bzip2-lib.tcz
+                                 gcc_libs.tcz
+                                 spirv-tools.tcz
                               libXxf86vm.tcz
                                  libXext.tcz
                                     libX11.tcz
                                        libxcb.tcz
                                           libXau.tcz
                                           libXdmcp.tcz
-                              libdrm.tcz
-                                 libpciaccess.tcz
-                                 udev-lib.tcz
-                              libxshmfence.tcz
-                              expat2.tcz
                            wayland.tcz
                               libffi.tcz
                               expat2.tcz
@@ -11184,48 +11468,64 @@ gdm-gir.tcz
                            liblzma.tcz
                      gdk-pixbuf2-xlib.tcz
                   libEGL.tcz
-                     libGL.tcz
-                        libXdamage.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        libXxf86vm.tcz
+                     mesa.tcz
+                        libdrm.tcz
+                           libpciaccess.tcz
+                           udev-lib.tcz
+                        expat2.tcz
+                        libxshmfence.tcz
+                        elfutils.tcz
+                           liblzma.tcz
+                           bzip2-lib.tcz
+                        llvm19-lib.tcz
+                           libffi7.tcz
+                           libxml2.tcz
+                              liblzma.tcz
+                           libzstd.tcz
+                           ncursesw.tcz
+                        libvdpau.tcz
                            libXext.tcz
                               libX11.tcz
                                  libxcb.tcz
                                     libXau.tcz
                                     libXdmcp.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                        libxshmfence.tcz
-                        expat2.tcz
+                        elfutils.tcz
+                           liblzma.tcz
+                           bzip2-lib.tcz
+                        gcc_libs.tcz
+                        spirv-tools.tcz
                      wayland.tcz
                         libffi.tcz
                         expat2.tcz
                         libxml2.tcz
                            liblzma.tcz
                   libGLESv2.tcz
-                     libGL.tcz
-                        libXdamage.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        libXxf86vm.tcz
+                     mesa.tcz
+                        libdrm.tcz
+                           libpciaccess.tcz
+                           udev-lib.tcz
+                        expat2.tcz
+                        libxshmfence.tcz
+                        elfutils.tcz
+                           liblzma.tcz
+                           bzip2-lib.tcz
+                        llvm19-lib.tcz
+                           libffi7.tcz
+                           libxml2.tcz
+                              liblzma.tcz
+                           libzstd.tcz
+                           ncursesw.tcz
+                        libvdpau.tcz
                            libXext.tcz
                               libX11.tcz
                                  libxcb.tcz
                                     libXau.tcz
                                     libXdmcp.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                        libxshmfence.tcz
-                        expat2.tcz
+                        elfutils.tcz
+                           liblzma.tcz
+                           bzip2-lib.tcz
+                        gcc_libs.tcz
+                        spirv-tools.tcz
                hicolor-icon-theme.tcz
             pcre.tcz
          evolution-data-server.tcz
@@ -11319,24 +11619,32 @@ gdm-gir.tcz
                   libdvdnav.tcz
                      libdvdread.tcz
                   libGLESv2.tcz
-                     libGL.tcz
-                        libXdamage.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        libXxf86vm.tcz
+                     mesa.tcz
+                        libdrm.tcz
+                           libpciaccess.tcz
+                           udev-lib.tcz
+                        expat2.tcz
+                        libxshmfence.tcz
+                        elfutils.tcz
+                           liblzma.tcz
+                           bzip2-lib.tcz
+                        llvm19-lib.tcz
+                           libffi7.tcz
+                           libxml2.tcz
+                              liblzma.tcz
+                           libzstd.tcz
+                           ncursesw.tcz
+                        libvdpau.tcz
                            libXext.tcz
                               libX11.tcz
                                  libxcb.tcz
                                     libXau.tcz
                                     libXdmcp.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                        libxshmfence.tcz
-                        expat2.tcz
+                        elfutils.tcz
+                           liblzma.tcz
+                           bzip2-lib.tcz
+                        gcc_libs.tcz
+                        spirv-tools.tcz
                   libwebp1.tcz
                libsecret.tcz
                   libgcrypt.tcz
@@ -11807,24 +12115,32 @@ gdm-gir.tcz
                   libdvdnav.tcz
                      libdvdread.tcz
                   libGLESv2.tcz
-                     libGL.tcz
-                        libXdamage.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        libXxf86vm.tcz
+                     mesa.tcz
+                        libdrm.tcz
+                           libpciaccess.tcz
+                           udev-lib.tcz
+                        expat2.tcz
+                        libxshmfence.tcz
+                        elfutils.tcz
+                           liblzma.tcz
+                           bzip2-lib.tcz
+                        llvm19-lib.tcz
+                           libffi7.tcz
+                           libxml2.tcz
+                              liblzma.tcz
+                           libzstd.tcz
+                           ncursesw.tcz
+                        libvdpau.tcz
                            libXext.tcz
                               libX11.tcz
                                  libxcb.tcz
                                     libXau.tcz
                                     libXdmcp.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                        libxshmfence.tcz
-                        expat2.tcz
+                        elfutils.tcz
+                           liblzma.tcz
+                           bzip2-lib.tcz
+                        gcc_libs.tcz
+                        spirv-tools.tcz
                   libwebp1.tcz
                libsecret.tcz
                   libgcrypt.tcz
@@ -12523,48 +12839,64 @@ gdm-gir.tcz
                               liblzma.tcz
                         gdk-pixbuf2-xlib.tcz
                      libEGL.tcz
-                        libGL.tcz
-                           libXdamage.tcz
-                              libXfixes.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
-                           libXxf86vm.tcz
+                        mesa.tcz
+                           libdrm.tcz
+                              libpciaccess.tcz
+                              udev-lib.tcz
+                           expat2.tcz
+                           libxshmfence.tcz
+                           elfutils.tcz
+                              liblzma.tcz
+                              bzip2-lib.tcz
+                           llvm19-lib.tcz
+                              libffi7.tcz
+                              libxml2.tcz
+                                 liblzma.tcz
+                              libzstd.tcz
+                              ncursesw.tcz
+                           libvdpau.tcz
                               libXext.tcz
                                  libX11.tcz
                                     libxcb.tcz
                                        libXau.tcz
                                        libXdmcp.tcz
-                           libdrm.tcz
-                              libpciaccess.tcz
-                              udev-lib.tcz
-                           libxshmfence.tcz
-                           expat2.tcz
+                           elfutils.tcz
+                              liblzma.tcz
+                              bzip2-lib.tcz
+                           gcc_libs.tcz
+                           spirv-tools.tcz
                         wayland.tcz
                            libffi.tcz
                            expat2.tcz
                            libxml2.tcz
                               liblzma.tcz
                      libGLESv2.tcz
-                        libGL.tcz
-                           libXdamage.tcz
-                              libXfixes.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
-                           libXxf86vm.tcz
+                        mesa.tcz
+                           libdrm.tcz
+                              libpciaccess.tcz
+                              udev-lib.tcz
+                           expat2.tcz
+                           libxshmfence.tcz
+                           elfutils.tcz
+                              liblzma.tcz
+                              bzip2-lib.tcz
+                           llvm19-lib.tcz
+                              libffi7.tcz
+                              libxml2.tcz
+                                 liblzma.tcz
+                              libzstd.tcz
+                              ncursesw.tcz
+                           libvdpau.tcz
                               libXext.tcz
                                  libX11.tcz
                                     libxcb.tcz
                                        libXau.tcz
                                        libXdmcp.tcz
-                           libdrm.tcz
-                              libpciaccess.tcz
-                              udev-lib.tcz
-                           libxshmfence.tcz
-                           expat2.tcz
+                           elfutils.tcz
+                              liblzma.tcz
+                              bzip2-lib.tcz
+                           gcc_libs.tcz
+                           spirv-tools.tcz
                   hicolor-icon-theme.tcz
          polkit-gnome.tcz
             polkit.tcz
@@ -14057,24 +14389,32 @@ gdm-gir.tcz
                libepoxy.tcz
                openssl.tcz
                libEGL.tcz
-                  libGL.tcz
-                     libXdamage.tcz
-                        libXfixes.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                     libXxf86vm.tcz
+                  mesa.tcz
+                     libdrm.tcz
+                        libpciaccess.tcz
+                        udev-lib.tcz
+                     expat2.tcz
+                     libxshmfence.tcz
+                     elfutils.tcz
+                        liblzma.tcz
+                        bzip2-lib.tcz
+                     llvm19-lib.tcz
+                        libffi7.tcz
+                        libxml2.tcz
+                           liblzma.tcz
+                        libzstd.tcz
+                        ncursesw.tcz
+                     libvdpau.tcz
                         libXext.tcz
                            libX11.tcz
                               libxcb.tcz
                                  libXau.tcz
                                  libXdmcp.tcz
-                     libdrm.tcz
-                        libpciaccess.tcz
-                        udev-lib.tcz
-                     libxshmfence.tcz
-                     expat2.tcz
+                     elfutils.tcz
+                        liblzma.tcz
+                        bzip2-lib.tcz
+                     gcc_libs.tcz
+                     spirv-tools.tcz
                   wayland.tcz
                      libffi.tcz
                      expat2.tcz
@@ -14935,48 +15275,64 @@ gdm-gir.tcz
                            liblzma.tcz
                      gdk-pixbuf2-xlib.tcz
                   libEGL.tcz
-                     libGL.tcz
-                        libXdamage.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        libXxf86vm.tcz
+                     mesa.tcz
+                        libdrm.tcz
+                           libpciaccess.tcz
+                           udev-lib.tcz
+                        expat2.tcz
+                        libxshmfence.tcz
+                        elfutils.tcz
+                           liblzma.tcz
+                           bzip2-lib.tcz
+                        llvm19-lib.tcz
+                           libffi7.tcz
+                           libxml2.tcz
+                              liblzma.tcz
+                           libzstd.tcz
+                           ncursesw.tcz
+                        libvdpau.tcz
                            libXext.tcz
                               libX11.tcz
                                  libxcb.tcz
                                     libXau.tcz
                                     libXdmcp.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                        libxshmfence.tcz
-                        expat2.tcz
+                        elfutils.tcz
+                           liblzma.tcz
+                           bzip2-lib.tcz
+                        gcc_libs.tcz
+                        spirv-tools.tcz
                      wayland.tcz
                         libffi.tcz
                         expat2.tcz
                         libxml2.tcz
                            liblzma.tcz
                   libGLESv2.tcz
-                     libGL.tcz
-                        libXdamage.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        libXxf86vm.tcz
+                     mesa.tcz
+                        libdrm.tcz
+                           libpciaccess.tcz
+                           udev-lib.tcz
+                        expat2.tcz
+                        libxshmfence.tcz
+                        elfutils.tcz
+                           liblzma.tcz
+                           bzip2-lib.tcz
+                        llvm19-lib.tcz
+                           libffi7.tcz
+                           libxml2.tcz
+                              liblzma.tcz
+                           libzstd.tcz
+                           ncursesw.tcz
+                        libvdpau.tcz
                            libXext.tcz
                               libX11.tcz
                                  libxcb.tcz
                                     libXau.tcz
                                     libXdmcp.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                        libxshmfence.tcz
-                        expat2.tcz
+                        elfutils.tcz
+                           liblzma.tcz
+                           bzip2-lib.tcz
+                        gcc_libs.tcz
+                        spirv-tools.tcz
                libwacom.tcz
                   gudev-lib.tcz
                      udev-lib.tcz
@@ -16039,48 +16395,64 @@ gdm-gir.tcz
                                  liblzma.tcz
                            gdk-pixbuf2-xlib.tcz
                         libEGL.tcz
-                           libGL.tcz
-                              libXdamage.tcz
-                                 libXfixes.tcz
-                                    libX11.tcz
-                                       libxcb.tcz
-                                          libXau.tcz
-                                          libXdmcp.tcz
-                              libXxf86vm.tcz
+                           mesa.tcz
+                              libdrm.tcz
+                                 libpciaccess.tcz
+                                 udev-lib.tcz
+                              expat2.tcz
+                              libxshmfence.tcz
+                              elfutils.tcz
+                                 liblzma.tcz
+                                 bzip2-lib.tcz
+                              llvm19-lib.tcz
+                                 libffi7.tcz
+                                 libxml2.tcz
+                                    liblzma.tcz
+                                 libzstd.tcz
+                                 ncursesw.tcz
+                              libvdpau.tcz
                                  libXext.tcz
                                     libX11.tcz
                                        libxcb.tcz
                                           libXau.tcz
                                           libXdmcp.tcz
-                              libdrm.tcz
-                                 libpciaccess.tcz
-                                 udev-lib.tcz
-                              libxshmfence.tcz
-                              expat2.tcz
+                              elfutils.tcz
+                                 liblzma.tcz
+                                 bzip2-lib.tcz
+                              gcc_libs.tcz
+                              spirv-tools.tcz
                            wayland.tcz
                               libffi.tcz
                               expat2.tcz
                               libxml2.tcz
                                  liblzma.tcz
                         libGLESv2.tcz
-                           libGL.tcz
-                              libXdamage.tcz
-                                 libXfixes.tcz
-                                    libX11.tcz
-                                       libxcb.tcz
-                                          libXau.tcz
-                                          libXdmcp.tcz
-                              libXxf86vm.tcz
+                           mesa.tcz
+                              libdrm.tcz
+                                 libpciaccess.tcz
+                                 udev-lib.tcz
+                              expat2.tcz
+                              libxshmfence.tcz
+                              elfutils.tcz
+                                 liblzma.tcz
+                                 bzip2-lib.tcz
+                              llvm19-lib.tcz
+                                 libffi7.tcz
+                                 libxml2.tcz
+                                    liblzma.tcz
+                                 libzstd.tcz
+                                 ncursesw.tcz
+                              libvdpau.tcz
                                  libXext.tcz
                                     libX11.tcz
                                        libxcb.tcz
                                           libXau.tcz
                                           libXdmcp.tcz
-                              libdrm.tcz
-                                 libpciaccess.tcz
-                                 udev-lib.tcz
-                              libxshmfence.tcz
-                              expat2.tcz
+                              elfutils.tcz
+                                 liblzma.tcz
+                                 bzip2-lib.tcz
+                              gcc_libs.tcz
+                              spirv-tools.tcz
                      hicolor-icon-theme.tcz
                   libsecret.tcz
                      libgcrypt.tcz
@@ -16780,48 +17152,64 @@ gdm-gir.tcz
                            liblzma.tcz
                      gdk-pixbuf2-xlib.tcz
                   libEGL.tcz
-                     libGL.tcz
-                        libXdamage.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        libXxf86vm.tcz
+                     mesa.tcz
+                        libdrm.tcz
+                           libpciaccess.tcz
+                           udev-lib.tcz
+                        expat2.tcz
+                        libxshmfence.tcz
+                        elfutils.tcz
+                           liblzma.tcz
+                           bzip2-lib.tcz
+                        llvm19-lib.tcz
+                           libffi7.tcz
+                           libxml2.tcz
+                              liblzma.tcz
+                           libzstd.tcz
+                           ncursesw.tcz
+                        libvdpau.tcz
                            libXext.tcz
                               libX11.tcz
                                  libxcb.tcz
                                     libXau.tcz
                                     libXdmcp.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                        libxshmfence.tcz
-                        expat2.tcz
+                        elfutils.tcz
+                           liblzma.tcz
+                           bzip2-lib.tcz
+                        gcc_libs.tcz
+                        spirv-tools.tcz
                      wayland.tcz
                         libffi.tcz
                         expat2.tcz
                         libxml2.tcz
                            liblzma.tcz
                   libGLESv2.tcz
-                     libGL.tcz
-                        libXdamage.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        libXxf86vm.tcz
+                     mesa.tcz
+                        libdrm.tcz
+                           libpciaccess.tcz
+                           udev-lib.tcz
+                        expat2.tcz
+                        libxshmfence.tcz
+                        elfutils.tcz
+                           liblzma.tcz
+                           bzip2-lib.tcz
+                        llvm19-lib.tcz
+                           libffi7.tcz
+                           libxml2.tcz
+                              liblzma.tcz
+                           libzstd.tcz
+                           ncursesw.tcz
+                        libvdpau.tcz
                            libXext.tcz
                               libX11.tcz
                                  libxcb.tcz
                                     libXau.tcz
                                     libXdmcp.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                        libxshmfence.tcz
-                        expat2.tcz
+                        elfutils.tcz
+                           liblzma.tcz
+                           bzip2-lib.tcz
+                        gcc_libs.tcz
+                        spirv-tools.tcz
                hicolor-icon-theme.tcz
             libsecret.tcz
                libgcrypt.tcz
@@ -17243,24 +17631,32 @@ gdm-gir.tcz
                      libdvdnav.tcz
                         libdvdread.tcz
                      libGLESv2.tcz
-                        libGL.tcz
-                           libXdamage.tcz
-                              libXfixes.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
-                           libXxf86vm.tcz
+                        mesa.tcz
+                           libdrm.tcz
+                              libpciaccess.tcz
+                              udev-lib.tcz
+                           expat2.tcz
+                           libxshmfence.tcz
+                           elfutils.tcz
+                              liblzma.tcz
+                              bzip2-lib.tcz
+                           llvm19-lib.tcz
+                              libffi7.tcz
+                              libxml2.tcz
+                                 liblzma.tcz
+                              libzstd.tcz
+                              ncursesw.tcz
+                           libvdpau.tcz
                               libXext.tcz
                                  libX11.tcz
                                     libxcb.tcz
                                        libXau.tcz
                                        libXdmcp.tcz
-                           libdrm.tcz
-                              libpciaccess.tcz
-                              udev-lib.tcz
-                           libxshmfence.tcz
-                           expat2.tcz
+                           elfutils.tcz
+                              liblzma.tcz
+                              bzip2-lib.tcz
+                           gcc_libs.tcz
+                           spirv-tools.tcz
                      libwebp1.tcz
                   libsecret.tcz
                      libgcrypt.tcz
@@ -17848,48 +18244,64 @@ gdm-gir.tcz
                               liblzma.tcz
                         gdk-pixbuf2-xlib.tcz
                      libEGL.tcz
-                        libGL.tcz
-                           libXdamage.tcz
-                              libXfixes.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
-                           libXxf86vm.tcz
+                        mesa.tcz
+                           libdrm.tcz
+                              libpciaccess.tcz
+                              udev-lib.tcz
+                           expat2.tcz
+                           libxshmfence.tcz
+                           elfutils.tcz
+                              liblzma.tcz
+                              bzip2-lib.tcz
+                           llvm19-lib.tcz
+                              libffi7.tcz
+                              libxml2.tcz
+                                 liblzma.tcz
+                              libzstd.tcz
+                              ncursesw.tcz
+                           libvdpau.tcz
                               libXext.tcz
                                  libX11.tcz
                                     libxcb.tcz
                                        libXau.tcz
                                        libXdmcp.tcz
-                           libdrm.tcz
-                              libpciaccess.tcz
-                              udev-lib.tcz
-                           libxshmfence.tcz
-                           expat2.tcz
+                           elfutils.tcz
+                              liblzma.tcz
+                              bzip2-lib.tcz
+                           gcc_libs.tcz
+                           spirv-tools.tcz
                         wayland.tcz
                            libffi.tcz
                            expat2.tcz
                            libxml2.tcz
                               liblzma.tcz
                      libGLESv2.tcz
-                        libGL.tcz
-                           libXdamage.tcz
-                              libXfixes.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
-                           libXxf86vm.tcz
+                        mesa.tcz
+                           libdrm.tcz
+                              libpciaccess.tcz
+                              udev-lib.tcz
+                           expat2.tcz
+                           libxshmfence.tcz
+                           elfutils.tcz
+                              liblzma.tcz
+                              bzip2-lib.tcz
+                           llvm19-lib.tcz
+                              libffi7.tcz
+                              libxml2.tcz
+                                 liblzma.tcz
+                              libzstd.tcz
+                              ncursesw.tcz
+                           libvdpau.tcz
                               libXext.tcz
                                  libX11.tcz
                                     libxcb.tcz
                                        libXau.tcz
                                        libXdmcp.tcz
-                           libdrm.tcz
-                              libpciaccess.tcz
-                              udev-lib.tcz
-                           libxshmfence.tcz
-                           expat2.tcz
+                           elfutils.tcz
+                              liblzma.tcz
+                              bzip2-lib.tcz
+                           gcc_libs.tcz
+                           spirv-tools.tcz
                   hicolor-icon-theme.tcz
             libpwquality.tcz
                cracklib.tcz
@@ -18805,48 +19217,64 @@ gdm-gir.tcz
                            liblzma.tcz
                      gdk-pixbuf2-xlib.tcz
                   libEGL.tcz
-                     libGL.tcz
-                        libXdamage.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        libXxf86vm.tcz
+                     mesa.tcz
+                        libdrm.tcz
+                           libpciaccess.tcz
+                           udev-lib.tcz
+                        expat2.tcz
+                        libxshmfence.tcz
+                        elfutils.tcz
+                           liblzma.tcz
+                           bzip2-lib.tcz
+                        llvm19-lib.tcz
+                           libffi7.tcz
+                           libxml2.tcz
+                              liblzma.tcz
+                           libzstd.tcz
+                           ncursesw.tcz
+                        libvdpau.tcz
                            libXext.tcz
                               libX11.tcz
                                  libxcb.tcz
                                     libXau.tcz
                                     libXdmcp.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                        libxshmfence.tcz
-                        expat2.tcz
+                        elfutils.tcz
+                           liblzma.tcz
+                           bzip2-lib.tcz
+                        gcc_libs.tcz
+                        spirv-tools.tcz
                      wayland.tcz
                         libffi.tcz
                         expat2.tcz
                         libxml2.tcz
                            liblzma.tcz
                   libGLESv2.tcz
-                     libGL.tcz
-                        libXdamage.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        libXxf86vm.tcz
+                     mesa.tcz
+                        libdrm.tcz
+                           libpciaccess.tcz
+                           udev-lib.tcz
+                        expat2.tcz
+                        libxshmfence.tcz
+                        elfutils.tcz
+                           liblzma.tcz
+                           bzip2-lib.tcz
+                        llvm19-lib.tcz
+                           libffi7.tcz
+                           libxml2.tcz
+                              liblzma.tcz
+                           libzstd.tcz
+                           ncursesw.tcz
+                        libvdpau.tcz
                            libXext.tcz
                               libX11.tcz
                                  libxcb.tcz
                                     libXau.tcz
                                     libXdmcp.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                        libxshmfence.tcz
-                        expat2.tcz
+                        elfutils.tcz
+                           liblzma.tcz
+                           bzip2-lib.tcz
+                        gcc_libs.tcz
+                        spirv-tools.tcz
                libwacom.tcz
                   gudev-lib.tcz
                      udev-lib.tcz
@@ -19909,48 +20337,64 @@ gdm-gir.tcz
                                  liblzma.tcz
                            gdk-pixbuf2-xlib.tcz
                         libEGL.tcz
-                           libGL.tcz
-                              libXdamage.tcz
-                                 libXfixes.tcz
-                                    libX11.tcz
-                                       libxcb.tcz
-                                          libXau.tcz
-                                          libXdmcp.tcz
-                              libXxf86vm.tcz
+                           mesa.tcz
+                              libdrm.tcz
+                                 libpciaccess.tcz
+                                 udev-lib.tcz
+                              expat2.tcz
+                              libxshmfence.tcz
+                              elfutils.tcz
+                                 liblzma.tcz
+                                 bzip2-lib.tcz
+                              llvm19-lib.tcz
+                                 libffi7.tcz
+                                 libxml2.tcz
+                                    liblzma.tcz
+                                 libzstd.tcz
+                                 ncursesw.tcz
+                              libvdpau.tcz
                                  libXext.tcz
                                     libX11.tcz
                                        libxcb.tcz
                                           libXau.tcz
                                           libXdmcp.tcz
-                              libdrm.tcz
-                                 libpciaccess.tcz
-                                 udev-lib.tcz
-                              libxshmfence.tcz
-                              expat2.tcz
+                              elfutils.tcz
+                                 liblzma.tcz
+                                 bzip2-lib.tcz
+                              gcc_libs.tcz
+                              spirv-tools.tcz
                            wayland.tcz
                               libffi.tcz
                               expat2.tcz
                               libxml2.tcz
                                  liblzma.tcz
                         libGLESv2.tcz
-                           libGL.tcz
-                              libXdamage.tcz
-                                 libXfixes.tcz
-                                    libX11.tcz
-                                       libxcb.tcz
-                                          libXau.tcz
-                                          libXdmcp.tcz
-                              libXxf86vm.tcz
+                           mesa.tcz
+                              libdrm.tcz
+                                 libpciaccess.tcz
+                                 udev-lib.tcz
+                              expat2.tcz
+                              libxshmfence.tcz
+                              elfutils.tcz
+                                 liblzma.tcz
+                                 bzip2-lib.tcz
+                              llvm19-lib.tcz
+                                 libffi7.tcz
+                                 libxml2.tcz
+                                    liblzma.tcz
+                                 libzstd.tcz
+                                 ncursesw.tcz
+                              libvdpau.tcz
                                  libXext.tcz
                                     libX11.tcz
                                        libxcb.tcz
                                           libXau.tcz
                                           libXdmcp.tcz
-                              libdrm.tcz
-                                 libpciaccess.tcz
-                                 udev-lib.tcz
-                              libxshmfence.tcz
-                              expat2.tcz
+                              elfutils.tcz
+                                 liblzma.tcz
+                                 bzip2-lib.tcz
+                              gcc_libs.tcz
+                              spirv-tools.tcz
                      hicolor-icon-theme.tcz
                   libsecret.tcz
                      libgcrypt.tcz
@@ -20485,48 +20929,64 @@ gdm-gir.tcz
                                     liblzma.tcz
                               gdk-pixbuf2-xlib.tcz
                            libEGL.tcz
-                              libGL.tcz
-                                 libXdamage.tcz
-                                    libXfixes.tcz
-                                       libX11.tcz
-                                          libxcb.tcz
-                                             libXau.tcz
-                                             libXdmcp.tcz
-                                 libXxf86vm.tcz
+                              mesa.tcz
+                                 libdrm.tcz
+                                    libpciaccess.tcz
+                                    udev-lib.tcz
+                                 expat2.tcz
+                                 libxshmfence.tcz
+                                 elfutils.tcz
+                                    liblzma.tcz
+                                    bzip2-lib.tcz
+                                 llvm19-lib.tcz
+                                    libffi7.tcz
+                                    libxml2.tcz
+                                       liblzma.tcz
+                                    libzstd.tcz
+                                    ncursesw.tcz
+                                 libvdpau.tcz
                                     libXext.tcz
                                        libX11.tcz
                                           libxcb.tcz
                                              libXau.tcz
                                              libXdmcp.tcz
-                                 libdrm.tcz
-                                    libpciaccess.tcz
-                                    udev-lib.tcz
-                                 libxshmfence.tcz
-                                 expat2.tcz
+                                 elfutils.tcz
+                                    liblzma.tcz
+                                    bzip2-lib.tcz
+                                 gcc_libs.tcz
+                                 spirv-tools.tcz
                               wayland.tcz
                                  libffi.tcz
                                  expat2.tcz
                                  libxml2.tcz
                                     liblzma.tcz
                            libGLESv2.tcz
-                              libGL.tcz
-                                 libXdamage.tcz
-                                    libXfixes.tcz
-                                       libX11.tcz
-                                          libxcb.tcz
-                                             libXau.tcz
-                                             libXdmcp.tcz
-                                 libXxf86vm.tcz
+                              mesa.tcz
+                                 libdrm.tcz
+                                    libpciaccess.tcz
+                                    udev-lib.tcz
+                                 expat2.tcz
+                                 libxshmfence.tcz
+                                 elfutils.tcz
+                                    liblzma.tcz
+                                    bzip2-lib.tcz
+                                 llvm19-lib.tcz
+                                    libffi7.tcz
+                                    libxml2.tcz
+                                       liblzma.tcz
+                                    libzstd.tcz
+                                    ncursesw.tcz
+                                 libvdpau.tcz
                                     libXext.tcz
                                        libX11.tcz
                                           libxcb.tcz
                                              libXau.tcz
                                              libXdmcp.tcz
-                                 libdrm.tcz
-                                    libpciaccess.tcz
-                                    udev-lib.tcz
-                                 libxshmfence.tcz
-                                 expat2.tcz
+                                 elfutils.tcz
+                                    liblzma.tcz
+                                    bzip2-lib.tcz
+                                 gcc_libs.tcz
+                                 spirv-tools.tcz
                         hicolor-icon-theme.tcz
                   gcr4.tcz
                      gtk4.tcz
@@ -20795,48 +21255,64 @@ gdm-gir.tcz
                                     liblzma.tcz
                               gdk-pixbuf2-xlib.tcz
                            libEGL.tcz
-                              libGL.tcz
-                                 libXdamage.tcz
-                                    libXfixes.tcz
-                                       libX11.tcz
-                                          libxcb.tcz
-                                             libXau.tcz
-                                             libXdmcp.tcz
-                                 libXxf86vm.tcz
+                              mesa.tcz
+                                 libdrm.tcz
+                                    libpciaccess.tcz
+                                    udev-lib.tcz
+                                 expat2.tcz
+                                 libxshmfence.tcz
+                                 elfutils.tcz
+                                    liblzma.tcz
+                                    bzip2-lib.tcz
+                                 llvm19-lib.tcz
+                                    libffi7.tcz
+                                    libxml2.tcz
+                                       liblzma.tcz
+                                    libzstd.tcz
+                                    ncursesw.tcz
+                                 libvdpau.tcz
                                     libXext.tcz
                                        libX11.tcz
                                           libxcb.tcz
                                              libXau.tcz
                                              libXdmcp.tcz
-                                 libdrm.tcz
-                                    libpciaccess.tcz
-                                    udev-lib.tcz
-                                 libxshmfence.tcz
-                                 expat2.tcz
+                                 elfutils.tcz
+                                    liblzma.tcz
+                                    bzip2-lib.tcz
+                                 gcc_libs.tcz
+                                 spirv-tools.tcz
                               wayland.tcz
                                  libffi.tcz
                                  expat2.tcz
                                  libxml2.tcz
                                     liblzma.tcz
                            libGLESv2.tcz
-                              libGL.tcz
-                                 libXdamage.tcz
-                                    libXfixes.tcz
-                                       libX11.tcz
-                                          libxcb.tcz
-                                             libXau.tcz
-                                             libXdmcp.tcz
-                                 libXxf86vm.tcz
+                              mesa.tcz
+                                 libdrm.tcz
+                                    libpciaccess.tcz
+                                    udev-lib.tcz
+                                 expat2.tcz
+                                 libxshmfence.tcz
+                                 elfutils.tcz
+                                    liblzma.tcz
+                                    bzip2-lib.tcz
+                                 llvm19-lib.tcz
+                                    libffi7.tcz
+                                    libxml2.tcz
+                                       liblzma.tcz
+                                    libzstd.tcz
+                                    ncursesw.tcz
+                                 libvdpau.tcz
                                     libXext.tcz
                                        libX11.tcz
                                           libxcb.tcz
                                              libXau.tcz
                                              libXdmcp.tcz
-                                 libdrm.tcz
-                                    libpciaccess.tcz
-                                    udev-lib.tcz
-                                 libxshmfence.tcz
-                                 expat2.tcz
+                                 elfutils.tcz
+                                    liblzma.tcz
+                                    bzip2-lib.tcz
+                                 gcc_libs.tcz
+                                 spirv-tools.tcz
                         hicolor-icon-theme.tcz
                      libsecret.tcz
                         libgcrypt.tcz
@@ -22081,48 +22557,64 @@ gdm-gir.tcz
                               liblzma.tcz
                         gdk-pixbuf2-xlib.tcz
                      libEGL.tcz
-                        libGL.tcz
-                           libXdamage.tcz
-                              libXfixes.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
-                           libXxf86vm.tcz
+                        mesa.tcz
+                           libdrm.tcz
+                              libpciaccess.tcz
+                              udev-lib.tcz
+                           expat2.tcz
+                           libxshmfence.tcz
+                           elfutils.tcz
+                              liblzma.tcz
+                              bzip2-lib.tcz
+                           llvm19-lib.tcz
+                              libffi7.tcz
+                              libxml2.tcz
+                                 liblzma.tcz
+                              libzstd.tcz
+                              ncursesw.tcz
+                           libvdpau.tcz
                               libXext.tcz
                                  libX11.tcz
                                     libxcb.tcz
                                        libXau.tcz
                                        libXdmcp.tcz
-                           libdrm.tcz
-                              libpciaccess.tcz
-                              udev-lib.tcz
-                           libxshmfence.tcz
-                           expat2.tcz
+                           elfutils.tcz
+                              liblzma.tcz
+                              bzip2-lib.tcz
+                           gcc_libs.tcz
+                           spirv-tools.tcz
                         wayland.tcz
                            libffi.tcz
                            expat2.tcz
                            libxml2.tcz
                               liblzma.tcz
                      libGLESv2.tcz
-                        libGL.tcz
-                           libXdamage.tcz
-                              libXfixes.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
-                           libXxf86vm.tcz
+                        mesa.tcz
+                           libdrm.tcz
+                              libpciaccess.tcz
+                              udev-lib.tcz
+                           expat2.tcz
+                           libxshmfence.tcz
+                           elfutils.tcz
+                              liblzma.tcz
+                              bzip2-lib.tcz
+                           llvm19-lib.tcz
+                              libffi7.tcz
+                              libxml2.tcz
+                                 liblzma.tcz
+                              libzstd.tcz
+                              ncursesw.tcz
+                           libvdpau.tcz
                               libXext.tcz
                                  libX11.tcz
                                     libxcb.tcz
                                        libXau.tcz
                                        libXdmcp.tcz
-                           libdrm.tcz
-                              libpciaccess.tcz
-                              udev-lib.tcz
-                           libxshmfence.tcz
-                           expat2.tcz
+                           elfutils.tcz
+                              liblzma.tcz
+                              bzip2-lib.tcz
+                           gcc_libs.tcz
+                           spirv-tools.tcz
                   hicolor-icon-theme.tcz
                pcre.tcz
             libnma.tcz
@@ -22605,48 +23097,64 @@ gdm-gir.tcz
                                  liblzma.tcz
                            gdk-pixbuf2-xlib.tcz
                         libEGL.tcz
-                           libGL.tcz
-                              libXdamage.tcz
-                                 libXfixes.tcz
-                                    libX11.tcz
-                                       libxcb.tcz
-                                          libXau.tcz
-                                          libXdmcp.tcz
-                              libXxf86vm.tcz
+                           mesa.tcz
+                              libdrm.tcz
+                                 libpciaccess.tcz
+                                 udev-lib.tcz
+                              expat2.tcz
+                              libxshmfence.tcz
+                              elfutils.tcz
+                                 liblzma.tcz
+                                 bzip2-lib.tcz
+                              llvm19-lib.tcz
+                                 libffi7.tcz
+                                 libxml2.tcz
+                                    liblzma.tcz
+                                 libzstd.tcz
+                                 ncursesw.tcz
+                              libvdpau.tcz
                                  libXext.tcz
                                     libX11.tcz
                                        libxcb.tcz
                                           libXau.tcz
                                           libXdmcp.tcz
-                              libdrm.tcz
-                                 libpciaccess.tcz
-                                 udev-lib.tcz
-                              libxshmfence.tcz
-                              expat2.tcz
+                              elfutils.tcz
+                                 liblzma.tcz
+                                 bzip2-lib.tcz
+                              gcc_libs.tcz
+                              spirv-tools.tcz
                            wayland.tcz
                               libffi.tcz
                               expat2.tcz
                               libxml2.tcz
                                  liblzma.tcz
                         libGLESv2.tcz
-                           libGL.tcz
-                              libXdamage.tcz
-                                 libXfixes.tcz
-                                    libX11.tcz
-                                       libxcb.tcz
-                                          libXau.tcz
-                                          libXdmcp.tcz
-                              libXxf86vm.tcz
+                           mesa.tcz
+                              libdrm.tcz
+                                 libpciaccess.tcz
+                                 udev-lib.tcz
+                              expat2.tcz
+                              libxshmfence.tcz
+                              elfutils.tcz
+                                 liblzma.tcz
+                                 bzip2-lib.tcz
+                              llvm19-lib.tcz
+                                 libffi7.tcz
+                                 libxml2.tcz
+                                    liblzma.tcz
+                                 libzstd.tcz
+                                 ncursesw.tcz
+                              libvdpau.tcz
                                  libXext.tcz
                                     libX11.tcz
                                        libxcb.tcz
                                           libXau.tcz
                                           libXdmcp.tcz
-                              libdrm.tcz
-                                 libpciaccess.tcz
-                                 udev-lib.tcz
-                              libxshmfence.tcz
-                              expat2.tcz
+                              elfutils.tcz
+                                 liblzma.tcz
+                                 bzip2-lib.tcz
+                              gcc_libs.tcz
+                              spirv-tools.tcz
                      hicolor-icon-theme.tcz
                gcr4.tcz
                   gtk4.tcz
@@ -22915,48 +23423,64 @@ gdm-gir.tcz
                                  liblzma.tcz
                            gdk-pixbuf2-xlib.tcz
                         libEGL.tcz
-                           libGL.tcz
-                              libXdamage.tcz
-                                 libXfixes.tcz
-                                    libX11.tcz
-                                       libxcb.tcz
-                                          libXau.tcz
-                                          libXdmcp.tcz
-                              libXxf86vm.tcz
+                           mesa.tcz
+                              libdrm.tcz
+                                 libpciaccess.tcz
+                                 udev-lib.tcz
+                              expat2.tcz
+                              libxshmfence.tcz
+                              elfutils.tcz
+                                 liblzma.tcz
+                                 bzip2-lib.tcz
+                              llvm19-lib.tcz
+                                 libffi7.tcz
+                                 libxml2.tcz
+                                    liblzma.tcz
+                                 libzstd.tcz
+                                 ncursesw.tcz
+                              libvdpau.tcz
                                  libXext.tcz
                                     libX11.tcz
                                        libxcb.tcz
                                           libXau.tcz
                                           libXdmcp.tcz
-                              libdrm.tcz
-                                 libpciaccess.tcz
-                                 udev-lib.tcz
-                              libxshmfence.tcz
-                              expat2.tcz
+                              elfutils.tcz
+                                 liblzma.tcz
+                                 bzip2-lib.tcz
+                              gcc_libs.tcz
+                              spirv-tools.tcz
                            wayland.tcz
                               libffi.tcz
                               expat2.tcz
                               libxml2.tcz
                                  liblzma.tcz
                         libGLESv2.tcz
-                           libGL.tcz
-                              libXdamage.tcz
-                                 libXfixes.tcz
-                                    libX11.tcz
-                                       libxcb.tcz
-                                          libXau.tcz
-                                          libXdmcp.tcz
-                              libXxf86vm.tcz
+                           mesa.tcz
+                              libdrm.tcz
+                                 libpciaccess.tcz
+                                 udev-lib.tcz
+                              expat2.tcz
+                              libxshmfence.tcz
+                              elfutils.tcz
+                                 liblzma.tcz
+                                 bzip2-lib.tcz
+                              llvm19-lib.tcz
+                                 libffi7.tcz
+                                 libxml2.tcz
+                                    liblzma.tcz
+                                 libzstd.tcz
+                                 ncursesw.tcz
+                              libvdpau.tcz
                                  libXext.tcz
                                     libX11.tcz
                                        libxcb.tcz
                                           libXau.tcz
                                           libXdmcp.tcz
-                              libdrm.tcz
-                                 libpciaccess.tcz
-                                 udev-lib.tcz
-                              libxshmfence.tcz
-                              expat2.tcz
+                              elfutils.tcz
+                                 liblzma.tcz
+                                 bzip2-lib.tcz
+                              gcc_libs.tcz
+                              spirv-tools.tcz
                      hicolor-icon-theme.tcz
                   libsecret.tcz
                      libgcrypt.tcz
@@ -23280,48 +23804,64 @@ gdm-gir.tcz
                            liblzma.tcz
                      gdk-pixbuf2-xlib.tcz
                   libEGL.tcz
-                     libGL.tcz
-                        libXdamage.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        libXxf86vm.tcz
+                     mesa.tcz
+                        libdrm.tcz
+                           libpciaccess.tcz
+                           udev-lib.tcz
+                        expat2.tcz
+                        libxshmfence.tcz
+                        elfutils.tcz
+                           liblzma.tcz
+                           bzip2-lib.tcz
+                        llvm19-lib.tcz
+                           libffi7.tcz
+                           libxml2.tcz
+                              liblzma.tcz
+                           libzstd.tcz
+                           ncursesw.tcz
+                        libvdpau.tcz
                            libXext.tcz
                               libX11.tcz
                                  libxcb.tcz
                                     libXau.tcz
                                     libXdmcp.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                        libxshmfence.tcz
-                        expat2.tcz
+                        elfutils.tcz
+                           liblzma.tcz
+                           bzip2-lib.tcz
+                        gcc_libs.tcz
+                        spirv-tools.tcz
                      wayland.tcz
                         libffi.tcz
                         expat2.tcz
                         libxml2.tcz
                            liblzma.tcz
                   libGLESv2.tcz
-                     libGL.tcz
-                        libXdamage.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        libXxf86vm.tcz
+                     mesa.tcz
+                        libdrm.tcz
+                           libpciaccess.tcz
+                           udev-lib.tcz
+                        expat2.tcz
+                        libxshmfence.tcz
+                        elfutils.tcz
+                           liblzma.tcz
+                           bzip2-lib.tcz
+                        llvm19-lib.tcz
+                           libffi7.tcz
+                           libxml2.tcz
+                              liblzma.tcz
+                           libzstd.tcz
+                           ncursesw.tcz
+                        libvdpau.tcz
                            libXext.tcz
                               libX11.tcz
                                  libxcb.tcz
                                     libXau.tcz
                                     libXdmcp.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                        libxshmfence.tcz
-                        expat2.tcz
+                        elfutils.tcz
+                           liblzma.tcz
+                           bzip2-lib.tcz
+                        gcc_libs.tcz
+                        spirv-tools.tcz
                hicolor-icon-theme.tcz
             gnome-bluetooth.tcz
                libadwaita.tcz
@@ -24035,23 +24575,38 @@ gdm-gir.tcz
                      libavutil5.tcz
                         libva2.tcz
                            libGL.tcz
-                              libXdamage.tcz
-                                 libXfixes.tcz
-                                    libX11.tcz
-                                       libxcb.tcz
-                                          libXau.tcz
-                                          libXdmcp.tcz
+                              mesa.tcz
+                                 libdrm.tcz
+                                    libpciaccess.tcz
+                                    udev-lib.tcz
+                                 expat2.tcz
+                                 libxshmfence.tcz
+                                 elfutils.tcz
+                                    liblzma.tcz
+                                    bzip2-lib.tcz
+                                 llvm19-lib.tcz
+                                    libffi7.tcz
+                                    libxml2.tcz
+                                       liblzma.tcz
+                                    libzstd.tcz
+                                    ncursesw.tcz
+                                 libvdpau.tcz
+                                    libXext.tcz
+                                       libX11.tcz
+                                          libxcb.tcz
+                                             libXau.tcz
+                                             libXdmcp.tcz
+                                 elfutils.tcz
+                                    liblzma.tcz
+                                    bzip2-lib.tcz
+                                 gcc_libs.tcz
+                                 spirv-tools.tcz
                               libXxf86vm.tcz
                                  libXext.tcz
                                     libX11.tcz
                                        libxcb.tcz
                                           libXau.tcz
                                           libXdmcp.tcz
-                              libdrm.tcz
-                                 libpciaccess.tcz
-                                 udev-lib.tcz
-                              libxshmfence.tcz
-                              expat2.tcz
                            wayland.tcz
                               libffi.tcz
                               expat2.tcz
@@ -24069,23 +24624,38 @@ gdm-gir.tcz
                            libavutil5.tcz
                               libva2.tcz
                                  libGL.tcz
-                                    libXdamage.tcz
-                                       libXfixes.tcz
-                                          libX11.tcz
-                                             libxcb.tcz
-                                                libXau.tcz
-                                                libXdmcp.tcz
+                                    mesa.tcz
+                                       libdrm.tcz
+                                          libpciaccess.tcz
+                                          udev-lib.tcz
+                                       expat2.tcz
+                                       libxshmfence.tcz
+                                       elfutils.tcz
+                                          liblzma.tcz
+                                          bzip2-lib.tcz
+                                       llvm19-lib.tcz
+                                          libffi7.tcz
+                                          libxml2.tcz
+                                             liblzma.tcz
+                                          libzstd.tcz
+                                          ncursesw.tcz
+                                       libvdpau.tcz
+                                          libXext.tcz
+                                             libX11.tcz
+                                                libxcb.tcz
+                                                   libXau.tcz
+                                                   libXdmcp.tcz
+                                       elfutils.tcz
+                                          liblzma.tcz
+                                          bzip2-lib.tcz
+                                       gcc_libs.tcz
+                                       spirv-tools.tcz
                                     libXxf86vm.tcz
                                        libXext.tcz
                                           libX11.tcz
                                              libxcb.tcz
                                                 libXau.tcz
                                                 libXdmcp.tcz
-                                    libdrm.tcz
-                                       libpciaccess.tcz
-                                       udev-lib.tcz
-                                    libxshmfence.tcz
-                                    expat2.tcz
                                  wayland.tcz
                                     libffi.tcz
                                     expat2.tcz
@@ -24182,48 +24752,64 @@ gdm-gir.tcz
                                     liblzma.tcz
                               gdk-pixbuf2-xlib.tcz
                            libEGL.tcz
-                              libGL.tcz
-                                 libXdamage.tcz
-                                    libXfixes.tcz
-                                       libX11.tcz
-                                          libxcb.tcz
-                                             libXau.tcz
-                                             libXdmcp.tcz
-                                 libXxf86vm.tcz
+                              mesa.tcz
+                                 libdrm.tcz
+                                    libpciaccess.tcz
+                                    udev-lib.tcz
+                                 expat2.tcz
+                                 libxshmfence.tcz
+                                 elfutils.tcz
+                                    liblzma.tcz
+                                    bzip2-lib.tcz
+                                 llvm19-lib.tcz
+                                    libffi7.tcz
+                                    libxml2.tcz
+                                       liblzma.tcz
+                                    libzstd.tcz
+                                    ncursesw.tcz
+                                 libvdpau.tcz
                                     libXext.tcz
                                        libX11.tcz
                                           libxcb.tcz
                                              libXau.tcz
                                              libXdmcp.tcz
-                                 libdrm.tcz
-                                    libpciaccess.tcz
-                                    udev-lib.tcz
-                                 libxshmfence.tcz
-                                 expat2.tcz
+                                 elfutils.tcz
+                                    liblzma.tcz
+                                    bzip2-lib.tcz
+                                 gcc_libs.tcz
+                                 spirv-tools.tcz
                               wayland.tcz
                                  libffi.tcz
                                  expat2.tcz
                                  libxml2.tcz
                                     liblzma.tcz
                            libGLESv2.tcz
-                              libGL.tcz
-                                 libXdamage.tcz
-                                    libXfixes.tcz
-                                       libX11.tcz
-                                          libxcb.tcz
-                                             libXau.tcz
-                                             libXdmcp.tcz
-                                 libXxf86vm.tcz
+                              mesa.tcz
+                                 libdrm.tcz
+                                    libpciaccess.tcz
+                                    udev-lib.tcz
+                                 expat2.tcz
+                                 libxshmfence.tcz
+                                 elfutils.tcz
+                                    liblzma.tcz
+                                    bzip2-lib.tcz
+                                 llvm19-lib.tcz
+                                    libffi7.tcz
+                                    libxml2.tcz
+                                       liblzma.tcz
+                                    libzstd.tcz
+                                    ncursesw.tcz
+                                 libvdpau.tcz
                                     libXext.tcz
                                        libX11.tcz
                                           libxcb.tcz
                                              libXau.tcz
                                              libXdmcp.tcz
-                                 libdrm.tcz
-                                    libpciaccess.tcz
-                                    udev-lib.tcz
-                                 libxshmfence.tcz
-                                 expat2.tcz
+                                 elfutils.tcz
+                                    liblzma.tcz
+                                    bzip2-lib.tcz
+                                 gcc_libs.tcz
+                                 spirv-tools.tcz
                         cairo.tcz
                            glib2.tcz
                               libffi.tcz
@@ -24272,23 +24858,38 @@ gdm-gir.tcz
                      libavutil5.tcz
                         libva2.tcz
                            libGL.tcz
-                              libXdamage.tcz
-                                 libXfixes.tcz
-                                    libX11.tcz
-                                       libxcb.tcz
-                                          libXau.tcz
-                                          libXdmcp.tcz
+                              mesa.tcz
+                                 libdrm.tcz
+                                    libpciaccess.tcz
+                                    udev-lib.tcz
+                                 expat2.tcz
+                                 libxshmfence.tcz
+                                 elfutils.tcz
+                                    liblzma.tcz
+                                    bzip2-lib.tcz
+                                 llvm19-lib.tcz
+                                    libffi7.tcz
+                                    libxml2.tcz
+                                       liblzma.tcz
+                                    libzstd.tcz
+                                    ncursesw.tcz
+                                 libvdpau.tcz
+                                    libXext.tcz
+                                       libX11.tcz
+                                          libxcb.tcz
+                                             libXau.tcz
+                                             libXdmcp.tcz
+                                 elfutils.tcz
+                                    liblzma.tcz
+                                    bzip2-lib.tcz
+                                 gcc_libs.tcz
+                                 spirv-tools.tcz
                               libXxf86vm.tcz
                                  libXext.tcz
                                     libX11.tcz
                                        libxcb.tcz
                                           libXau.tcz
                                           libXdmcp.tcz
-                              libdrm.tcz
-                                 libpciaccess.tcz
-                                 udev-lib.tcz
-                              libxshmfence.tcz
-                              expat2.tcz
                            wayland.tcz
                               libffi.tcz
                               expat2.tcz
@@ -24304,23 +24905,38 @@ gdm-gir.tcz
                      libavutil5.tcz
                         libva2.tcz
                            libGL.tcz
-                              libXdamage.tcz
-                                 libXfixes.tcz
-                                    libX11.tcz
-                                       libxcb.tcz
-                                          libXau.tcz
-                                          libXdmcp.tcz
+                              mesa.tcz
+                                 libdrm.tcz
+                                    libpciaccess.tcz
+                                    udev-lib.tcz
+                                 expat2.tcz
+                                 libxshmfence.tcz
+                                 elfutils.tcz
+                                    liblzma.tcz
+                                    bzip2-lib.tcz
+                                 llvm19-lib.tcz
+                                    libffi7.tcz
+                                    libxml2.tcz
+                                       liblzma.tcz
+                                    libzstd.tcz
+                                    ncursesw.tcz
+                                 libvdpau.tcz
+                                    libXext.tcz
+                                       libX11.tcz
+                                          libxcb.tcz
+                                             libXau.tcz
+                                             libXdmcp.tcz
+                                 elfutils.tcz
+                                    liblzma.tcz
+                                    bzip2-lib.tcz
+                                 gcc_libs.tcz
+                                 spirv-tools.tcz
                               libXxf86vm.tcz
                                  libXext.tcz
                                     libX11.tcz
                                        libxcb.tcz
                                           libXau.tcz
                                           libXdmcp.tcz
-                              libdrm.tcz
-                                 libpciaccess.tcz
-                                 udev-lib.tcz
-                              libxshmfence.tcz
-                              expat2.tcz
                            wayland.tcz
                               libffi.tcz
                               expat2.tcz
@@ -24670,48 +25286,64 @@ gdm-gir.tcz
                            liblzma.tcz
                      gdk-pixbuf2-xlib.tcz
                   libEGL.tcz
-                     libGL.tcz
-                        libXdamage.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        libXxf86vm.tcz
+                     mesa.tcz
+                        libdrm.tcz
+                           libpciaccess.tcz
+                           udev-lib.tcz
+                        expat2.tcz
+                        libxshmfence.tcz
+                        elfutils.tcz
+                           liblzma.tcz
+                           bzip2-lib.tcz
+                        llvm19-lib.tcz
+                           libffi7.tcz
+                           libxml2.tcz
+                              liblzma.tcz
+                           libzstd.tcz
+                           ncursesw.tcz
+                        libvdpau.tcz
                            libXext.tcz
                               libX11.tcz
                                  libxcb.tcz
                                     libXau.tcz
                                     libXdmcp.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                        libxshmfence.tcz
-                        expat2.tcz
+                        elfutils.tcz
+                           liblzma.tcz
+                           bzip2-lib.tcz
+                        gcc_libs.tcz
+                        spirv-tools.tcz
                      wayland.tcz
                         libffi.tcz
                         expat2.tcz
                         libxml2.tcz
                            liblzma.tcz
                   libGLESv2.tcz
-                     libGL.tcz
-                        libXdamage.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        libXxf86vm.tcz
+                     mesa.tcz
+                        libdrm.tcz
+                           libpciaccess.tcz
+                           udev-lib.tcz
+                        expat2.tcz
+                        libxshmfence.tcz
+                        elfutils.tcz
+                           liblzma.tcz
+                           bzip2-lib.tcz
+                        llvm19-lib.tcz
+                           libffi7.tcz
+                           libxml2.tcz
+                              liblzma.tcz
+                           libzstd.tcz
+                           ncursesw.tcz
+                        libvdpau.tcz
                            libXext.tcz
                               libX11.tcz
                                  libxcb.tcz
                                     libXau.tcz
                                     libXdmcp.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                        libxshmfence.tcz
-                        expat2.tcz
+                        elfutils.tcz
+                           liblzma.tcz
+                           bzip2-lib.tcz
+                        gcc_libs.tcz
+                        spirv-tools.tcz
                hicolor-icon-theme.tcz
             pcre.tcz
          evolution-data-server.tcz
@@ -24805,24 +25437,32 @@ gdm-gir.tcz
                   libdvdnav.tcz
                      libdvdread.tcz
                   libGLESv2.tcz
-                     libGL.tcz
-                        libXdamage.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        libXxf86vm.tcz
+                     mesa.tcz
+                        libdrm.tcz
+                           libpciaccess.tcz
+                           udev-lib.tcz
+                        expat2.tcz
+                        libxshmfence.tcz
+                        elfutils.tcz
+                           liblzma.tcz
+                           bzip2-lib.tcz
+                        llvm19-lib.tcz
+                           libffi7.tcz
+                           libxml2.tcz
+                              liblzma.tcz
+                           libzstd.tcz
+                           ncursesw.tcz
+                        libvdpau.tcz
                            libXext.tcz
                               libX11.tcz
                                  libxcb.tcz
                                     libXau.tcz
                                     libXdmcp.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                        libxshmfence.tcz
-                        expat2.tcz
+                        elfutils.tcz
+                           liblzma.tcz
+                           bzip2-lib.tcz
+                        gcc_libs.tcz
+                        spirv-tools.tcz
                   libwebp1.tcz
                libsecret.tcz
                   libgcrypt.tcz
@@ -25293,24 +25933,32 @@ gdm-gir.tcz
                   libdvdnav.tcz
                      libdvdread.tcz
                   libGLESv2.tcz
-                     libGL.tcz
-                        libXdamage.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        libXxf86vm.tcz
+                     mesa.tcz
+                        libdrm.tcz
+                           libpciaccess.tcz
+                           udev-lib.tcz
+                        expat2.tcz
+                        libxshmfence.tcz
+                        elfutils.tcz
+                           liblzma.tcz
+                           bzip2-lib.tcz
+                        llvm19-lib.tcz
+                           libffi7.tcz
+                           libxml2.tcz
+                              liblzma.tcz
+                           libzstd.tcz
+                           ncursesw.tcz
+                        libvdpau.tcz
                            libXext.tcz
                               libX11.tcz
                                  libxcb.tcz
                                     libXau.tcz
                                     libXdmcp.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                        libxshmfence.tcz
-                        expat2.tcz
+                        elfutils.tcz
+                           liblzma.tcz
+                           bzip2-lib.tcz
+                        gcc_libs.tcz
+                        spirv-tools.tcz
                   libwebp1.tcz
                libsecret.tcz
                   libgcrypt.tcz
@@ -26009,48 +26657,64 @@ gdm-gir.tcz
                               liblzma.tcz
                         gdk-pixbuf2-xlib.tcz
                      libEGL.tcz
-                        libGL.tcz
-                           libXdamage.tcz
-                              libXfixes.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
-                           libXxf86vm.tcz
+                        mesa.tcz
+                           libdrm.tcz
+                              libpciaccess.tcz
+                              udev-lib.tcz
+                           expat2.tcz
+                           libxshmfence.tcz
+                           elfutils.tcz
+                              liblzma.tcz
+                              bzip2-lib.tcz
+                           llvm19-lib.tcz
+                              libffi7.tcz
+                              libxml2.tcz
+                                 liblzma.tcz
+                              libzstd.tcz
+                              ncursesw.tcz
+                           libvdpau.tcz
                               libXext.tcz
                                  libX11.tcz
                                     libxcb.tcz
                                        libXau.tcz
                                        libXdmcp.tcz
-                           libdrm.tcz
-                              libpciaccess.tcz
-                              udev-lib.tcz
-                           libxshmfence.tcz
-                           expat2.tcz
+                           elfutils.tcz
+                              liblzma.tcz
+                              bzip2-lib.tcz
+                           gcc_libs.tcz
+                           spirv-tools.tcz
                         wayland.tcz
                            libffi.tcz
                            expat2.tcz
                            libxml2.tcz
                               liblzma.tcz
                      libGLESv2.tcz
-                        libGL.tcz
-                           libXdamage.tcz
-                              libXfixes.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
-                           libXxf86vm.tcz
+                        mesa.tcz
+                           libdrm.tcz
+                              libpciaccess.tcz
+                              udev-lib.tcz
+                           expat2.tcz
+                           libxshmfence.tcz
+                           elfutils.tcz
+                              liblzma.tcz
+                              bzip2-lib.tcz
+                           llvm19-lib.tcz
+                              libffi7.tcz
+                              libxml2.tcz
+                                 liblzma.tcz
+                              libzstd.tcz
+                              ncursesw.tcz
+                           libvdpau.tcz
                               libXext.tcz
                                  libX11.tcz
                                     libxcb.tcz
                                        libXau.tcz
                                        libXdmcp.tcz
-                           libdrm.tcz
-                              libpciaccess.tcz
-                              udev-lib.tcz
-                           libxshmfence.tcz
-                           expat2.tcz
+                           elfutils.tcz
+                              liblzma.tcz
+                              bzip2-lib.tcz
+                           gcc_libs.tcz
+                           spirv-tools.tcz
                   hicolor-icon-theme.tcz
          polkit-gnome.tcz
             polkit.tcz
@@ -27542,24 +28206,32 @@ gdm-gir.tcz
                libepoxy.tcz
                openssl.tcz
                libEGL.tcz
-                  libGL.tcz
-                     libXdamage.tcz
-                        libXfixes.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                     libXxf86vm.tcz
+                  mesa.tcz
+                     libdrm.tcz
+                        libpciaccess.tcz
+                        udev-lib.tcz
+                     expat2.tcz
+                     libxshmfence.tcz
+                     elfutils.tcz
+                        liblzma.tcz
+                        bzip2-lib.tcz
+                     llvm19-lib.tcz
+                        libffi7.tcz
+                        libxml2.tcz
+                           liblzma.tcz
+                        libzstd.tcz
+                        ncursesw.tcz
+                     libvdpau.tcz
                         libXext.tcz
                            libX11.tcz
                               libxcb.tcz
                                  libXau.tcz
                                  libXdmcp.tcz
-                     libdrm.tcz
-                        libpciaccess.tcz
-                        udev-lib.tcz
-                     libxshmfence.tcz
-                     expat2.tcz
+                     elfutils.tcz
+                        liblzma.tcz
+                        bzip2-lib.tcz
+                     gcc_libs.tcz
+                     spirv-tools.tcz
                   wayland.tcz
                      libffi.tcz
                      expat2.tcz
@@ -28420,48 +29092,64 @@ gdm-gir.tcz
                            liblzma.tcz
                      gdk-pixbuf2-xlib.tcz
                   libEGL.tcz
-                     libGL.tcz
-                        libXdamage.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        libXxf86vm.tcz
+                     mesa.tcz
+                        libdrm.tcz
+                           libpciaccess.tcz
+                           udev-lib.tcz
+                        expat2.tcz
+                        libxshmfence.tcz
+                        elfutils.tcz
+                           liblzma.tcz
+                           bzip2-lib.tcz
+                        llvm19-lib.tcz
+                           libffi7.tcz
+                           libxml2.tcz
+                              liblzma.tcz
+                           libzstd.tcz
+                           ncursesw.tcz
+                        libvdpau.tcz
                            libXext.tcz
                               libX11.tcz
                                  libxcb.tcz
                                     libXau.tcz
                                     libXdmcp.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                        libxshmfence.tcz
-                        expat2.tcz
+                        elfutils.tcz
+                           liblzma.tcz
+                           bzip2-lib.tcz
+                        gcc_libs.tcz
+                        spirv-tools.tcz
                      wayland.tcz
                         libffi.tcz
                         expat2.tcz
                         libxml2.tcz
                            liblzma.tcz
                   libGLESv2.tcz
-                     libGL.tcz
-                        libXdamage.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        libXxf86vm.tcz
+                     mesa.tcz
+                        libdrm.tcz
+                           libpciaccess.tcz
+                           udev-lib.tcz
+                        expat2.tcz
+                        libxshmfence.tcz
+                        elfutils.tcz
+                           liblzma.tcz
+                           bzip2-lib.tcz
+                        llvm19-lib.tcz
+                           libffi7.tcz
+                           libxml2.tcz
+                              liblzma.tcz
+                           libzstd.tcz
+                           ncursesw.tcz
+                        libvdpau.tcz
                            libXext.tcz
                               libX11.tcz
                                  libxcb.tcz
                                     libXau.tcz
                                     libXdmcp.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                        libxshmfence.tcz
-                        expat2.tcz
+                        elfutils.tcz
+                           liblzma.tcz
+                           bzip2-lib.tcz
+                        gcc_libs.tcz
+                        spirv-tools.tcz
                libwacom.tcz
                   gudev-lib.tcz
                      udev-lib.tcz
@@ -29524,48 +30212,64 @@ gdm-gir.tcz
                                  liblzma.tcz
                            gdk-pixbuf2-xlib.tcz
                         libEGL.tcz
-                           libGL.tcz
-                              libXdamage.tcz
-                                 libXfixes.tcz
-                                    libX11.tcz
-                                       libxcb.tcz
-                                          libXau.tcz
-                                          libXdmcp.tcz
-                              libXxf86vm.tcz
+                           mesa.tcz
+                              libdrm.tcz
+                                 libpciaccess.tcz
+                                 udev-lib.tcz
+                              expat2.tcz
+                              libxshmfence.tcz
+                              elfutils.tcz
+                                 liblzma.tcz
+                                 bzip2-lib.tcz
+                              llvm19-lib.tcz
+                                 libffi7.tcz
+                                 libxml2.tcz
+                                    liblzma.tcz
+                                 libzstd.tcz
+                                 ncursesw.tcz
+                              libvdpau.tcz
                                  libXext.tcz
                                     libX11.tcz
                                        libxcb.tcz
                                           libXau.tcz
                                           libXdmcp.tcz
-                              libdrm.tcz
-                                 libpciaccess.tcz
-                                 udev-lib.tcz
-                              libxshmfence.tcz
-                              expat2.tcz
+                              elfutils.tcz
+                                 liblzma.tcz
+                                 bzip2-lib.tcz
+                              gcc_libs.tcz
+                              spirv-tools.tcz
                            wayland.tcz
                               libffi.tcz
                               expat2.tcz
                               libxml2.tcz
                                  liblzma.tcz
                         libGLESv2.tcz
-                           libGL.tcz
-                              libXdamage.tcz
-                                 libXfixes.tcz
-                                    libX11.tcz
-                                       libxcb.tcz
-                                          libXau.tcz
-                                          libXdmcp.tcz
-                              libXxf86vm.tcz
+                           mesa.tcz
+                              libdrm.tcz
+                                 libpciaccess.tcz
+                                 udev-lib.tcz
+                              expat2.tcz
+                              libxshmfence.tcz
+                              elfutils.tcz
+                                 liblzma.tcz
+                                 bzip2-lib.tcz
+                              llvm19-lib.tcz
+                                 libffi7.tcz
+                                 libxml2.tcz
+                                    liblzma.tcz
+                                 libzstd.tcz
+                                 ncursesw.tcz
+                              libvdpau.tcz
                                  libXext.tcz
                                     libX11.tcz
                                        libxcb.tcz
                                           libXau.tcz
                                           libXdmcp.tcz
-                              libdrm.tcz
-                                 libpciaccess.tcz
-                                 udev-lib.tcz
-                              libxshmfence.tcz
-                              expat2.tcz
+                              elfutils.tcz
+                                 liblzma.tcz
+                                 bzip2-lib.tcz
+                              gcc_libs.tcz
+                              spirv-tools.tcz
                      hicolor-icon-theme.tcz
                   libsecret.tcz
                      libgcrypt.tcz
@@ -32245,48 +32949,64 @@ gdm-gir.tcz
                            liblzma.tcz
                      gdk-pixbuf2-xlib.tcz
                   libEGL.tcz
-                     libGL.tcz
-                        libXdamage.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        libXxf86vm.tcz
+                     mesa.tcz
+                        libdrm.tcz
+                           libpciaccess.tcz
+                           udev-lib.tcz
+                        expat2.tcz
+                        libxshmfence.tcz
+                        elfutils.tcz
+                           liblzma.tcz
+                           bzip2-lib.tcz
+                        llvm19-lib.tcz
+                           libffi7.tcz
+                           libxml2.tcz
+                              liblzma.tcz
+                           libzstd.tcz
+                           ncursesw.tcz
+                        libvdpau.tcz
                            libXext.tcz
                               libX11.tcz
                                  libxcb.tcz
                                     libXau.tcz
                                     libXdmcp.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                        libxshmfence.tcz
-                        expat2.tcz
+                        elfutils.tcz
+                           liblzma.tcz
+                           bzip2-lib.tcz
+                        gcc_libs.tcz
+                        spirv-tools.tcz
                      wayland.tcz
                         libffi.tcz
                         expat2.tcz
                         libxml2.tcz
                            liblzma.tcz
                   libGLESv2.tcz
-                     libGL.tcz
-                        libXdamage.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        libXxf86vm.tcz
+                     mesa.tcz
+                        libdrm.tcz
+                           libpciaccess.tcz
+                           udev-lib.tcz
+                        expat2.tcz
+                        libxshmfence.tcz
+                        elfutils.tcz
+                           liblzma.tcz
+                           bzip2-lib.tcz
+                        llvm19-lib.tcz
+                           libffi7.tcz
+                           libxml2.tcz
+                              liblzma.tcz
+                           libzstd.tcz
+                           ncursesw.tcz
+                        libvdpau.tcz
                            libXext.tcz
                               libX11.tcz
                                  libxcb.tcz
                                     libXau.tcz
                                     libXdmcp.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                        libxshmfence.tcz
-                        expat2.tcz
+                        elfutils.tcz
+                           liblzma.tcz
+                           bzip2-lib.tcz
+                        gcc_libs.tcz
+                        spirv-tools.tcz
                hicolor-icon-theme.tcz
          gtk4-gir.tcz
             gtk4.tcz
@@ -33168,48 +33888,64 @@ gdm-gir.tcz
                            liblzma.tcz
                      gdk-pixbuf2-xlib.tcz
                   libEGL.tcz
-                     libGL.tcz
-                        libXdamage.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        libXxf86vm.tcz
+                     mesa.tcz
+                        libdrm.tcz
+                           libpciaccess.tcz
+                           udev-lib.tcz
+                        expat2.tcz
+                        libxshmfence.tcz
+                        elfutils.tcz
+                           liblzma.tcz
+                           bzip2-lib.tcz
+                        llvm19-lib.tcz
+                           libffi7.tcz
+                           libxml2.tcz
+                              liblzma.tcz
+                           libzstd.tcz
+                           ncursesw.tcz
+                        libvdpau.tcz
                            libXext.tcz
                               libX11.tcz
                                  libxcb.tcz
                                     libXau.tcz
                                     libXdmcp.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                        libxshmfence.tcz
-                        expat2.tcz
+                        elfutils.tcz
+                           liblzma.tcz
+                           bzip2-lib.tcz
+                        gcc_libs.tcz
+                        spirv-tools.tcz
                      wayland.tcz
                         libffi.tcz
                         expat2.tcz
                         libxml2.tcz
                            liblzma.tcz
                   libGLESv2.tcz
-                     libGL.tcz
-                        libXdamage.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        libXxf86vm.tcz
+                     mesa.tcz
+                        libdrm.tcz
+                           libpciaccess.tcz
+                           udev-lib.tcz
+                        expat2.tcz
+                        libxshmfence.tcz
+                        elfutils.tcz
+                           liblzma.tcz
+                           bzip2-lib.tcz
+                        llvm19-lib.tcz
+                           libffi7.tcz
+                           libxml2.tcz
+                              liblzma.tcz
+                           libzstd.tcz
+                           ncursesw.tcz
+                        libvdpau.tcz
                            libXext.tcz
                               libX11.tcz
                                  libxcb.tcz
                                     libXau.tcz
                                     libXdmcp.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                        libxshmfence.tcz
-                        expat2.tcz
+                        elfutils.tcz
+                           liblzma.tcz
+                           bzip2-lib.tcz
+                        gcc_libs.tcz
+                        spirv-tools.tcz
                hicolor-icon-theme.tcz
             pcre.tcz
       evolution-data-server-gir.tcz
@@ -33304,24 +34040,32 @@ gdm-gir.tcz
                   libdvdnav.tcz
                      libdvdread.tcz
                   libGLESv2.tcz
-                     libGL.tcz
-                        libXdamage.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        libXxf86vm.tcz
+                     mesa.tcz
+                        libdrm.tcz
+                           libpciaccess.tcz
+                           udev-lib.tcz
+                        expat2.tcz
+                        libxshmfence.tcz
+                        elfutils.tcz
+                           liblzma.tcz
+                           bzip2-lib.tcz
+                        llvm19-lib.tcz
+                           libffi7.tcz
+                           libxml2.tcz
+                              liblzma.tcz
+                           libzstd.tcz
+                           ncursesw.tcz
+                        libvdpau.tcz
                            libXext.tcz
                               libX11.tcz
                                  libxcb.tcz
                                     libXau.tcz
                                     libXdmcp.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                        libxshmfence.tcz
-                        expat2.tcz
+                        elfutils.tcz
+                           liblzma.tcz
+                           bzip2-lib.tcz
+                        gcc_libs.tcz
+                        spirv-tools.tcz
                   libwebp1.tcz
                libsecret.tcz
                   libgcrypt.tcz
@@ -33792,24 +34536,32 @@ gdm-gir.tcz
                   libdvdnav.tcz
                      libdvdread.tcz
                   libGLESv2.tcz
-                     libGL.tcz
-                        libXdamage.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        libXxf86vm.tcz
+                     mesa.tcz
+                        libdrm.tcz
+                           libpciaccess.tcz
+                           udev-lib.tcz
+                        expat2.tcz
+                        libxshmfence.tcz
+                        elfutils.tcz
+                           liblzma.tcz
+                           bzip2-lib.tcz
+                        llvm19-lib.tcz
+                           libffi7.tcz
+                           libxml2.tcz
+                              liblzma.tcz
+                           libzstd.tcz
+                           ncursesw.tcz
+                        libvdpau.tcz
                            libXext.tcz
                               libX11.tcz
                                  libxcb.tcz
                                     libXau.tcz
                                     libXdmcp.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                        libxshmfence.tcz
-                        expat2.tcz
+                        elfutils.tcz
+                           liblzma.tcz
+                           bzip2-lib.tcz
+                        gcc_libs.tcz
+                        spirv-tools.tcz
                   libwebp1.tcz
                libsecret.tcz
                   libgcrypt.tcz

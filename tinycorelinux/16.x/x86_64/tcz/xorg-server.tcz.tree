@@ -1,28 +1,4 @@
 xorg-server.tcz
-   libEGL.tcz
-      libGL.tcz
-         libXdamage.tcz
-            libXfixes.tcz
-               libX11.tcz
-                  libxcb.tcz
-                     libXau.tcz
-                     libXdmcp.tcz
-         libXxf86vm.tcz
-            libXext.tcz
-               libX11.tcz
-                  libxcb.tcz
-                     libXau.tcz
-                     libXdmcp.tcz
-         libdrm.tcz
-            libpciaccess.tcz
-            udev-lib.tcz
-         libxshmfence.tcz
-         expat2.tcz
-      wayland.tcz
-         libffi.tcz
-         expat2.tcz
-         libxml2.tcz
-            liblzma.tcz
    libXfont2.tcz
       freetype.tcz
          libpng.tcz
@@ -38,4 +14,15 @@ xorg-server.tcz
    openssl.tcz
    pixman.tcz
    libxcvt.tcz
+   libpciaccess.tcz
+   libxshmfence.tcz
+   libdrm.tcz
+      libpciaccess.tcz
+      udev-lib.tcz
+   xkbcomp.tcz
+      libxkbfile.tcz
+         libX11.tcz
+            libxcb.tcz
+               libXau.tcz
+               libXdmcp.tcz
 
