@@ -1,7 +1,7 @@
 meld.tcz
-   py3.6gobject.tcz
-      py3.6cairo.tcz
-         python3.6.tcz
+   py3.9gobject.tcz
+      py3.9cairo.tcz
+         python3.9.tcz
             openssl.tcz
             sqlite3.tcz
             gdbm.tcz
@@ -9,7 +9,7 @@ meld.tcz
             liblzma.tcz
             readline.tcz
                ncursesw.tcz
-            libffi7.tcz
+            libffi.tcz
          cairo.tcz
             glib2.tcz
                libffi.tcz
@@ -43,8 +43,8 @@ meld.tcz
             readline.tcz
                ncursesw.tcz
             libffi.tcz
-   gtksourceview-gir.tcz
-      gtksourceview.tcz
+   gtksourceview4-gir.tcz
+      gtksourceview4.tcz
          gtk3.tcz
             libepoxy.tcz
             at-spi2-core.tcz
@@ -198,7 +198,6 @@ meld.tcz
                      liblzma.tcz
          libxml2.tcz
             liblzma.tcz
-         libffi6.tcz
       gtk3-gir.tcz
          gtk3.tcz
             libepoxy.tcz
