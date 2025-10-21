@@ -16,26 +16,42 @@ mlt-dev.tcz
                libavutil4.tcz
                   libva2.tcz
                      libGL.tcz
-                        libXdamage.tcz
-                           libXfixes.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
+                        mesa.tcz
+                           libdrm.tcz
+                              libpciaccess.tcz
+                              udev-lib.tcz
+                                 glib2.tcz
+                                    libffi.tcz
+                                    pcre21042.tcz
+                           expat2.tcz
+                           libxshmfence.tcz
+                           elfutils.tcz
+                              bzip2-lib.tcz
+                              liblzma.tcz
+                           llvm19-lib.tcz
+                              libffi.tcz
+                              libxml2.tcz
+                                 liblzma.tcz
+                              libzstd.tcz
+                              ncursesw.tcz
+                              gcc_libs.tcz
+                           libvdpau.tcz
+                              libXext.tcz
+                                 libX11.tcz
+                                    libxcb.tcz
+                                       libXau.tcz
+                                       libXdmcp.tcz
+                           elfutils.tcz
+                              bzip2-lib.tcz
+                              liblzma.tcz
+                           gcc_libs.tcz
+                           spirv-tools.tcz
                         libXxf86vm.tcz
                            libXext.tcz
                               libX11.tcz
                                  libxcb.tcz
                                     libXau.tcz
                                     libXdmcp.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                              glib2.tcz
-                                 libffi.tcz
-                                 pcre21042.tcz
-                        libxshmfence.tcz
-                        expat2.tcz
                   libvdpau.tcz
                      libXext.tcz
                         libX11.tcz
@@ -117,27 +133,36 @@ mlt-dev.tcz
                   libxml2.tcz
                      liblzma.tcz
                libGLESv2.tcz
-                  libGL.tcz
-                     libXdamage.tcz
-                        libXfixes.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                     libXxf86vm.tcz
-                        libXext.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
+                  mesa.tcz
                      libdrm.tcz
                         libpciaccess.tcz
                         udev-lib.tcz
                            glib2.tcz
                               libffi.tcz
                               pcre21042.tcz
-                     libxshmfence.tcz
                      expat2.tcz
+                     libxshmfence.tcz
+                     elfutils.tcz
+                        bzip2-lib.tcz
+                        liblzma.tcz
+                     llvm19-lib.tcz
+                        libffi.tcz
+                        libxml2.tcz
+                           liblzma.tcz
+                        libzstd.tcz
+                        ncursesw.tcz
+                        gcc_libs.tcz
+                     libvdpau.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                     elfutils.tcz
+                        bzip2-lib.tcz
+                        liblzma.tcz
+                     gcc_libs.tcz
+                     spirv-tools.tcz
             cairo.tcz
                glib2.tcz
                   libffi.tcz
@@ -169,26 +194,42 @@ mlt-dev.tcz
          libavutil4.tcz
             libva2.tcz
                libGL.tcz
-                  libXdamage.tcz
-                     libXfixes.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
+                  mesa.tcz
+                     libdrm.tcz
+                        libpciaccess.tcz
+                        udev-lib.tcz
+                           glib2.tcz
+                              libffi.tcz
+                              pcre21042.tcz
+                     expat2.tcz
+                     libxshmfence.tcz
+                     elfutils.tcz
+                        bzip2-lib.tcz
+                        liblzma.tcz
+                     llvm19-lib.tcz
+                        libffi.tcz
+                        libxml2.tcz
+                           liblzma.tcz
+                        libzstd.tcz
+                        ncursesw.tcz
+                        gcc_libs.tcz
+                     libvdpau.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                     elfutils.tcz
+                        bzip2-lib.tcz
+                        liblzma.tcz
+                     gcc_libs.tcz
+                     spirv-tools.tcz
                   libXxf86vm.tcz
                      libXext.tcz
                         libX11.tcz
                            libxcb.tcz
                               libXau.tcz
                               libXdmcp.tcz
-                  libdrm.tcz
-                     libpciaccess.tcz
-                     udev-lib.tcz
-                        glib2.tcz
-                           libffi.tcz
-                           pcre21042.tcz
-                  libxshmfence.tcz
-                  expat2.tcz
             libvdpau.tcz
                libXext.tcz
                   libX11.tcz
@@ -924,28 +965,6 @@ mlt-dev.tcz
          xbitmaps.tcz
          xorg-server-dev.tcz
             xorg-server.tcz
-               libEGL.tcz
-                  libGL.tcz
-                     libXdamage.tcz
-                        libXfixes.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                     libXxf86vm.tcz
-                        libXext.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                     libdrm.tcz
-                        libpciaccess.tcz
-                        udev-lib.tcz
-                           glib2.tcz
-                              libffi.tcz
-                              pcre21042.tcz
-                     libxshmfence.tcz
-                     expat2.tcz
                libXfont2.tcz
                   freetype.tcz
                      libpng.tcz
@@ -956,51 +975,83 @@ mlt-dev.tcz
                   gcc_libs.tcz
                pixman.tcz
                libxcvt.tcz
+               libpciaccess.tcz
+               libxshmfence.tcz
+               libdrm.tcz
+                  libpciaccess.tcz
+                  udev-lib.tcz
+                     glib2.tcz
+                        libffi.tcz
+                        pcre21042.tcz
+               xkbcomp.tcz
+                  libxkbfile.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
             libEGL-dev.tcz
                libEGL.tcz
-                  libGL.tcz
-                     libXdamage.tcz
-                        libXfixes.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                     libXxf86vm.tcz
-                        libXext.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
+                  mesa.tcz
                      libdrm.tcz
                         libpciaccess.tcz
                         udev-lib.tcz
                            glib2.tcz
                               libffi.tcz
                               pcre21042.tcz
-                     libxshmfence.tcz
                      expat2.tcz
-               libGL-dev.tcz
-                  libGL.tcz
-                     libXdamage.tcz
-                        libXfixes.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                     libXxf86vm.tcz
+                     libxshmfence.tcz
+                     elfutils.tcz
+                        bzip2-lib.tcz
+                        liblzma.tcz
+                     llvm19-lib.tcz
+                        libffi.tcz
+                        libxml2.tcz
+                           liblzma.tcz
+                        libzstd.tcz
+                        ncursesw.tcz
+                        gcc_libs.tcz
+                     libvdpau.tcz
                         libXext.tcz
                            libX11.tcz
                               libxcb.tcz
                                  libXau.tcz
                                  libXdmcp.tcz
+                     elfutils.tcz
+                        bzip2-lib.tcz
+                        liblzma.tcz
+                     gcc_libs.tcz
+                     spirv-tools.tcz
+               mesa-dev.tcz
+                  mesa.tcz
                      libdrm.tcz
                         libpciaccess.tcz
                         udev-lib.tcz
                            glib2.tcz
                               libffi.tcz
                               pcre21042.tcz
-                     libxshmfence.tcz
                      expat2.tcz
+                     libxshmfence.tcz
+                     elfutils.tcz
+                        bzip2-lib.tcz
+                        liblzma.tcz
+                     llvm19-lib.tcz
+                        libffi.tcz
+                        libxml2.tcz
+                           liblzma.tcz
+                        libzstd.tcz
+                        ncursesw.tcz
+                        gcc_libs.tcz
+                     libvdpau.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                     elfutils.tcz
+                        bzip2-lib.tcz
+                        liblzma.tcz
+                     gcc_libs.tcz
+                     spirv-tools.tcz
                   libdrm-dev.tcz
                      libdrm.tcz
                         libpciaccess.tcz
@@ -1040,6 +1091,77 @@ mlt-dev.tcz
                                     ncursesw.tcz
                            libffi-dev.tcz
                               libffi.tcz
+                  wayland-protocols-dev.tcz
+                  libXvmc-dev.tcz
+                     libXvmc.tcz
+                        libXv.tcz
+                           libXext.tcz
+                              libX11.tcz
+                                 libxcb.tcz
+                                    libXau.tcz
+                                    libXdmcp.tcz
+                     libXv-dev.tcz
+                        libXv.tcz
+                           libXext.tcz
+                              libX11.tcz
+                                 libxcb.tcz
+                                    libXau.tcz
+                                    libXdmcp.tcz
+                        libXext-dev.tcz
+                           libXext.tcz
+                              libX11.tcz
+                                 libxcb.tcz
+                                    libXau.tcz
+                                    libXdmcp.tcz
+                           libX11-dev.tcz
+                              libX11.tcz
+                                 libxcb.tcz
+                                    libXau.tcz
+                                    libXdmcp.tcz
+                              libxcb-dev.tcz
+                                 libxcb.tcz
+                                    libXau.tcz
+                                    libXdmcp.tcz
+                                 libXau-dev.tcz
+                                    libXau.tcz
+                                 libXdmcp-dev.tcz
+                                    libXdmcp.tcz
+                                 xcb-proto.tcz
+                                    xorg-proto.tcz
+                                       util-macros.tcz
+                                          m4.tcz
+                              xtrans.tcz
+                  libXdamage-dev.tcz
+                     libXdamage.tcz
+                        libXfixes.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                     libXfixes-dev.tcz
+                        libXfixes.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                        libX11-dev.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                           libxcb-dev.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                              libXau-dev.tcz
+                                 libXau.tcz
+                              libXdmcp-dev.tcz
+                                 libXdmcp.tcz
+                              xcb-proto.tcz
+                                 xorg-proto.tcz
+                                    util-macros.tcz
+                                       m4.tcz
+                           xtrans.tcz
                   libxshmfence-dev.tcz
                      libxshmfence.tcz
                   libXxf86vm-dev.tcz
@@ -1073,6 +1195,157 @@ mlt-dev.tcz
                                     util-macros.tcz
                                        m4.tcz
                            xtrans.tcz
+                  libXrandr-dev.tcz
+                     libXrandr.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                        libXrender.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                     libXext-dev.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                        libX11-dev.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                           libxcb-dev.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                              libXau-dev.tcz
+                                 libXau.tcz
+                              libXdmcp-dev.tcz
+                                 libXdmcp.tcz
+                              xcb-proto.tcz
+                                 xorg-proto.tcz
+                                    util-macros.tcz
+                                       m4.tcz
+                           xtrans.tcz
+                     libXrender-dev.tcz
+                        libXrender.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                        libX11-dev.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                           libxcb-dev.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                              libXau-dev.tcz
+                                 libXau.tcz
+                              libXdmcp-dev.tcz
+                                 libXdmcp.tcz
+                              xcb-proto.tcz
+                                 xorg-proto.tcz
+                                    util-macros.tcz
+                                       m4.tcz
+                           xtrans.tcz
+                  libclc-dev.tcz
+                     libclc.tcz
+                  llvm19-dev.tcz
+                     llvm19-bin.tcz
+                        llvm19-lib.tcz
+                           libffi.tcz
+                           libxml2.tcz
+                              liblzma.tcz
+                           libzstd.tcz
+                           ncursesw.tcz
+                           gcc_libs.tcz
+                     libffi-dev.tcz
+                        libffi.tcz
+                     libxml2-dev.tcz
+                        libxml2-bin.tcz
+                           libxml2.tcz
+                              liblzma.tcz
+                           readline.tcz
+                              ncursesw.tcz
+                        libxml2-python.tcz
+                           libxml2.tcz
+                              liblzma.tcz
+                           python3.9.tcz
+                              openssl.tcz
+                                 gcc_libs.tcz
+                              sqlite3.tcz
+                              gdbm.tcz
+                              bzip2-lib.tcz
+                              liblzma.tcz
+                              readline.tcz
+                                 ncursesw.tcz
+                              libffi.tcz
+                        liblzma-dev.tcz
+                           liblzma.tcz
+                        readline-dev.tcz
+                           readline.tcz
+                              ncursesw.tcz
+                           ncursesw-dev.tcz
+                              ncursesw.tcz
+                     zstd-dev.tcz
+                        zstd.tcz
+                           libzstd.tcz
+                           liblzma.tcz
+                           liblz4.tcz
+                        liblzma-dev.tcz
+                           liblzma.tcz
+                        liblz4-dev.tcz
+                           liblz4.tcz
+                  libvdpau-dev.tcz
+                     libvdpau.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                     libXext-dev.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                        libX11-dev.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                           libxcb-dev.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                              libXau-dev.tcz
+                                 libXau.tcz
+                              libXdmcp-dev.tcz
+                                 libXdmcp.tcz
+                              xcb-proto.tcz
+                                 xorg-proto.tcz
+                                    util-macros.tcz
+                                       m4.tcz
+                           xtrans.tcz
+                  elfutils-dev.tcz
+                     elfutils.tcz
+                        bzip2-lib.tcz
+                        liblzma.tcz
+                     bzip2-dev.tcz
+                        bzip2.tcz
+                           bzip2-lib.tcz
+                     liblzma-dev.tcz
+                        liblzma.tcz
+                  spirv-tools-dev.tcz
+                     spirv-tools.tcz
+                     spirv-headers.tcz
             libXfont2-dev.tcz
                libXfont2.tcz
                   freetype.tcz
@@ -1101,6 +1374,49 @@ mlt-dev.tcz
                libxcvt.tcz
             font-util.tcz
                Xorg-fonts.tcz
+            libpciaccess-dev.tcz
+               libpciaccess.tcz
+            libxshmfence-dev.tcz
+               libxshmfence.tcz
+            libdrm-dev.tcz
+               libdrm.tcz
+                  libpciaccess.tcz
+                  udev-lib.tcz
+                     glib2.tcz
+                        libffi.tcz
+                        pcre21042.tcz
+               udev-dev.tcz
+                  udev-lib.tcz
+                     glib2.tcz
+                        libffi.tcz
+                        pcre21042.tcz
+                  glib2-dev.tcz
+                     glib2-python.tcz
+                        glib2.tcz
+                           libffi.tcz
+                           pcre21042.tcz
+                        python3.9.tcz
+                           openssl.tcz
+                              gcc_libs.tcz
+                           sqlite3.tcz
+                           gdbm.tcz
+                           bzip2-lib.tcz
+                           liblzma.tcz
+                           readline.tcz
+                              ncursesw.tcz
+                           libffi.tcz
+                     pcre21042-dev.tcz
+                        pcre21042.tcz
+                        bzip2-dev.tcz
+                           bzip2.tcz
+                              bzip2-lib.tcz
+                        readline-dev.tcz
+                           readline.tcz
+                              ncursesw.tcz
+                           ncursesw-dev.tcz
+                              ncursesw.tcz
+                     libffi-dev.tcz
+                        libffi.tcz
    ffmpeg4-dev.tcz
       ffmpeg4.tcz
          libavdevice4.tcz
@@ -1109,26 +1425,42 @@ mlt-dev.tcz
                   libavutil4.tcz
                      libva2.tcz
                         libGL.tcz
-                           libXdamage.tcz
-                              libXfixes.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
+                           mesa.tcz
+                              libdrm.tcz
+                                 libpciaccess.tcz
+                                 udev-lib.tcz
+                                    glib2.tcz
+                                       libffi.tcz
+                                       pcre21042.tcz
+                              expat2.tcz
+                              libxshmfence.tcz
+                              elfutils.tcz
+                                 bzip2-lib.tcz
+                                 liblzma.tcz
+                              llvm19-lib.tcz
+                                 libffi.tcz
+                                 libxml2.tcz
+                                    liblzma.tcz
+                                 libzstd.tcz
+                                 ncursesw.tcz
+                                 gcc_libs.tcz
+                              libvdpau.tcz
+                                 libXext.tcz
+                                    libX11.tcz
+                                       libxcb.tcz
+                                          libXau.tcz
+                                          libXdmcp.tcz
+                              elfutils.tcz
+                                 bzip2-lib.tcz
+                                 liblzma.tcz
+                              gcc_libs.tcz
+                              spirv-tools.tcz
                            libXxf86vm.tcz
                               libXext.tcz
                                  libX11.tcz
                                     libxcb.tcz
                                        libXau.tcz
                                        libXdmcp.tcz
-                           libdrm.tcz
-                              libpciaccess.tcz
-                              udev-lib.tcz
-                                 glib2.tcz
-                                    libffi.tcz
-                                    pcre21042.tcz
-                           libxshmfence.tcz
-                           expat2.tcz
                      libvdpau.tcz
                         libXext.tcz
                            libX11.tcz
@@ -1141,26 +1473,42 @@ mlt-dev.tcz
                         libavutil4.tcz
                            libva2.tcz
                               libGL.tcz
-                                 libXdamage.tcz
-                                    libXfixes.tcz
-                                       libX11.tcz
-                                          libxcb.tcz
-                                             libXau.tcz
-                                             libXdmcp.tcz
+                                 mesa.tcz
+                                    libdrm.tcz
+                                       libpciaccess.tcz
+                                       udev-lib.tcz
+                                          glib2.tcz
+                                             libffi.tcz
+                                             pcre21042.tcz
+                                    expat2.tcz
+                                    libxshmfence.tcz
+                                    elfutils.tcz
+                                       bzip2-lib.tcz
+                                       liblzma.tcz
+                                    llvm19-lib.tcz
+                                       libffi.tcz
+                                       libxml2.tcz
+                                          liblzma.tcz
+                                       libzstd.tcz
+                                       ncursesw.tcz
+                                       gcc_libs.tcz
+                                    libvdpau.tcz
+                                       libXext.tcz
+                                          libX11.tcz
+                                             libxcb.tcz
+                                                libXau.tcz
+                                                libXdmcp.tcz
+                                    elfutils.tcz
+                                       bzip2-lib.tcz
+                                       liblzma.tcz
+                                    gcc_libs.tcz
+                                    spirv-tools.tcz
                                  libXxf86vm.tcz
                                     libXext.tcz
                                        libX11.tcz
                                           libxcb.tcz
                                              libXau.tcz
                                              libXdmcp.tcz
-                                 libdrm.tcz
-                                    libpciaccess.tcz
-                                    udev-lib.tcz
-                                       glib2.tcz
-                                          libffi.tcz
-                                          pcre21042.tcz
-                                 libxshmfence.tcz
-                                 expat2.tcz
                            libvdpau.tcz
                               libXext.tcz
                                  libX11.tcz
@@ -1242,27 +1590,36 @@ mlt-dev.tcz
                            libxml2.tcz
                               liblzma.tcz
                         libGLESv2.tcz
-                           libGL.tcz
-                              libXdamage.tcz
-                                 libXfixes.tcz
-                                    libX11.tcz
-                                       libxcb.tcz
-                                          libXau.tcz
-                                          libXdmcp.tcz
-                              libXxf86vm.tcz
-                                 libXext.tcz
-                                    libX11.tcz
-                                       libxcb.tcz
-                                          libXau.tcz
-                                          libXdmcp.tcz
+                           mesa.tcz
                               libdrm.tcz
                                  libpciaccess.tcz
                                  udev-lib.tcz
                                     glib2.tcz
                                        libffi.tcz
                                        pcre21042.tcz
-                              libxshmfence.tcz
                               expat2.tcz
+                              libxshmfence.tcz
+                              elfutils.tcz
+                                 bzip2-lib.tcz
+                                 liblzma.tcz
+                              llvm19-lib.tcz
+                                 libffi.tcz
+                                 libxml2.tcz
+                                    liblzma.tcz
+                                 libzstd.tcz
+                                 ncursesw.tcz
+                                 gcc_libs.tcz
+                              libvdpau.tcz
+                                 libXext.tcz
+                                    libX11.tcz
+                                       libxcb.tcz
+                                          libXau.tcz
+                                          libXdmcp.tcz
+                              elfutils.tcz
+                                 bzip2-lib.tcz
+                                 liblzma.tcz
+                              gcc_libs.tcz
+                              spirv-tools.tcz
                      cairo.tcz
                         glib2.tcz
                            libffi.tcz
@@ -1294,26 +1651,42 @@ mlt-dev.tcz
                   libavutil4.tcz
                      libva2.tcz
                         libGL.tcz
-                           libXdamage.tcz
-                              libXfixes.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
+                           mesa.tcz
+                              libdrm.tcz
+                                 libpciaccess.tcz
+                                 udev-lib.tcz
+                                    glib2.tcz
+                                       libffi.tcz
+                                       pcre21042.tcz
+                              expat2.tcz
+                              libxshmfence.tcz
+                              elfutils.tcz
+                                 bzip2-lib.tcz
+                                 liblzma.tcz
+                              llvm19-lib.tcz
+                                 libffi.tcz
+                                 libxml2.tcz
+                                    liblzma.tcz
+                                 libzstd.tcz
+                                 ncursesw.tcz
+                                 gcc_libs.tcz
+                              libvdpau.tcz
+                                 libXext.tcz
+                                    libX11.tcz
+                                       libxcb.tcz
+                                          libXau.tcz
+                                          libXdmcp.tcz
+                              elfutils.tcz
+                                 bzip2-lib.tcz
+                                 liblzma.tcz
+                              gcc_libs.tcz
+                              spirv-tools.tcz
                            libXxf86vm.tcz
                               libXext.tcz
                                  libX11.tcz
                                     libxcb.tcz
                                        libXau.tcz
                                        libXdmcp.tcz
-                           libdrm.tcz
-                              libpciaccess.tcz
-                              udev-lib.tcz
-                                 glib2.tcz
-                                    libffi.tcz
-                                    pcre21042.tcz
-                           libxshmfence.tcz
-                           expat2.tcz
                      libvdpau.tcz
                         libXext.tcz
                            libX11.tcz
@@ -1324,26 +1697,42 @@ mlt-dev.tcz
                   libavutil4.tcz
                      libva2.tcz
                         libGL.tcz
-                           libXdamage.tcz
-                              libXfixes.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
+                           mesa.tcz
+                              libdrm.tcz
+                                 libpciaccess.tcz
+                                 udev-lib.tcz
+                                    glib2.tcz
+                                       libffi.tcz
+                                       pcre21042.tcz
+                              expat2.tcz
+                              libxshmfence.tcz
+                              elfutils.tcz
+                                 bzip2-lib.tcz
+                                 liblzma.tcz
+                              llvm19-lib.tcz
+                                 libffi.tcz
+                                 libxml2.tcz
+                                    liblzma.tcz
+                                 libzstd.tcz
+                                 ncursesw.tcz
+                                 gcc_libs.tcz
+                              libvdpau.tcz
+                                 libXext.tcz
+                                    libX11.tcz
+                                       libxcb.tcz
+                                          libXau.tcz
+                                          libXdmcp.tcz
+                              elfutils.tcz
+                                 bzip2-lib.tcz
+                                 liblzma.tcz
+                              gcc_libs.tcz
+                              spirv-tools.tcz
                            libXxf86vm.tcz
                               libXext.tcz
                                  libX11.tcz
                                     libxcb.tcz
                                        libXau.tcz
                                        libXdmcp.tcz
-                           libdrm.tcz
-                              libpciaccess.tcz
-                              udev-lib.tcz
-                                 glib2.tcz
-                                    libffi.tcz
-                                    pcre21042.tcz
-                           libxshmfence.tcz
-                           expat2.tcz
                      libvdpau.tcz
                         libXext.tcz
                            libX11.tcz
@@ -1354,26 +1743,42 @@ mlt-dev.tcz
                   libavutil4.tcz
                      libva2.tcz
                         libGL.tcz
-                           libXdamage.tcz
-                              libXfixes.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
+                           mesa.tcz
+                              libdrm.tcz
+                                 libpciaccess.tcz
+                                 udev-lib.tcz
+                                    glib2.tcz
+                                       libffi.tcz
+                                       pcre21042.tcz
+                              expat2.tcz
+                              libxshmfence.tcz
+                              elfutils.tcz
+                                 bzip2-lib.tcz
+                                 liblzma.tcz
+                              llvm19-lib.tcz
+                                 libffi.tcz
+                                 libxml2.tcz
+                                    liblzma.tcz
+                                 libzstd.tcz
+                                 ncursesw.tcz
+                                 gcc_libs.tcz
+                              libvdpau.tcz
+                                 libXext.tcz
+                                    libX11.tcz
+                                       libxcb.tcz
+                                          libXau.tcz
+                                          libXdmcp.tcz
+                              elfutils.tcz
+                                 bzip2-lib.tcz
+                                 liblzma.tcz
+                              gcc_libs.tcz
+                              spirv-tools.tcz
                            libXxf86vm.tcz
                               libXext.tcz
                                  libX11.tcz
                                     libxcb.tcz
                                        libXau.tcz
                                        libXdmcp.tcz
-                           libdrm.tcz
-                              libpciaccess.tcz
-                              udev-lib.tcz
-                                 glib2.tcz
-                                    libffi.tcz
-                                    pcre21042.tcz
-                           libxshmfence.tcz
-                           expat2.tcz
                      libvdpau.tcz
                         libXext.tcz
                            libX11.tcz
@@ -1443,65 +1848,336 @@ mlt-dev.tcz
       libva2-dev.tcz
          libva2.tcz
             libGL.tcz
-               libXdamage.tcz
-                  libXfixes.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-               libXxf86vm.tcz
-                  libXext.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-               libdrm.tcz
-                  libpciaccess.tcz
-                  udev-lib.tcz
-                     glib2.tcz
-                        libffi.tcz
-                        pcre21042.tcz
-               libxshmfence.tcz
-               expat2.tcz
-         libGL-dev.tcz
-            libGL.tcz
-               libXdamage.tcz
-                  libXfixes.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-               libXxf86vm.tcz
-                  libXext.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-               libdrm.tcz
-                  libpciaccess.tcz
-                  udev-lib.tcz
-                     glib2.tcz
-                        libffi.tcz
-                        pcre21042.tcz
-               libxshmfence.tcz
-               expat2.tcz
-            libdrm-dev.tcz
-               libdrm.tcz
-                  libpciaccess.tcz
-                  udev-lib.tcz
-                     glib2.tcz
-                        libffi.tcz
-                        pcre21042.tcz
-               udev-dev.tcz
-                  udev-lib.tcz
-                     glib2.tcz
-                        libffi.tcz
-                        pcre21042.tcz
-                  glib2-dev.tcz
-                     glib2-python.tcz
+               mesa.tcz
+                  libdrm.tcz
+                     libpciaccess.tcz
+                     udev-lib.tcz
                         glib2.tcz
                            libffi.tcz
                            pcre21042.tcz
+                  expat2.tcz
+                  libxshmfence.tcz
+                  elfutils.tcz
+                     bzip2-lib.tcz
+                     liblzma.tcz
+                  llvm19-lib.tcz
+                     libffi.tcz
+                     libxml2.tcz
+                        liblzma.tcz
+                     libzstd.tcz
+                     ncursesw.tcz
+                     gcc_libs.tcz
+                  libvdpau.tcz
+                     libXext.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                  elfutils.tcz
+                     bzip2-lib.tcz
+                     liblzma.tcz
+                  gcc_libs.tcz
+                  spirv-tools.tcz
+               libXxf86vm.tcz
+                  libXext.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+         libGL-dev.tcz
+            libGL.tcz
+               mesa.tcz
+                  libdrm.tcz
+                     libpciaccess.tcz
+                     udev-lib.tcz
+                        glib2.tcz
+                           libffi.tcz
+                           pcre21042.tcz
+                  expat2.tcz
+                  libxshmfence.tcz
+                  elfutils.tcz
+                     bzip2-lib.tcz
+                     liblzma.tcz
+                  llvm19-lib.tcz
+                     libffi.tcz
+                     libxml2.tcz
+                        liblzma.tcz
+                     libzstd.tcz
+                     ncursesw.tcz
+                     gcc_libs.tcz
+                  libvdpau.tcz
+                     libXext.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                  elfutils.tcz
+                     bzip2-lib.tcz
+                     liblzma.tcz
+                  gcc_libs.tcz
+                  spirv-tools.tcz
+               libXxf86vm.tcz
+                  libXext.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+            mesa-dev.tcz
+               mesa.tcz
+                  libdrm.tcz
+                     libpciaccess.tcz
+                     udev-lib.tcz
+                        glib2.tcz
+                           libffi.tcz
+                           pcre21042.tcz
+                  expat2.tcz
+                  libxshmfence.tcz
+                  elfutils.tcz
+                     bzip2-lib.tcz
+                     liblzma.tcz
+                  llvm19-lib.tcz
+                     libffi.tcz
+                     libxml2.tcz
+                        liblzma.tcz
+                     libzstd.tcz
+                     ncursesw.tcz
+                     gcc_libs.tcz
+                  libvdpau.tcz
+                     libXext.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                  elfutils.tcz
+                     bzip2-lib.tcz
+                     liblzma.tcz
+                  gcc_libs.tcz
+                  spirv-tools.tcz
+               libdrm-dev.tcz
+                  libdrm.tcz
+                     libpciaccess.tcz
+                     udev-lib.tcz
+                        glib2.tcz
+                           libffi.tcz
+                           pcre21042.tcz
+                  udev-dev.tcz
+                     udev-lib.tcz
+                        glib2.tcz
+                           libffi.tcz
+                           pcre21042.tcz
+                     glib2-dev.tcz
+                        glib2-python.tcz
+                           glib2.tcz
+                              libffi.tcz
+                              pcre21042.tcz
+                           python3.9.tcz
+                              openssl.tcz
+                                 gcc_libs.tcz
+                              sqlite3.tcz
+                              gdbm.tcz
+                              bzip2-lib.tcz
+                              liblzma.tcz
+                              readline.tcz
+                                 ncursesw.tcz
+                              libffi.tcz
+                        pcre21042-dev.tcz
+                           pcre21042.tcz
+                           bzip2-dev.tcz
+                              bzip2.tcz
+                                 bzip2-lib.tcz
+                           readline-dev.tcz
+                              readline.tcz
+                                 ncursesw.tcz
+                              ncursesw-dev.tcz
+                                 ncursesw.tcz
+                        libffi-dev.tcz
+                           libffi.tcz
+               wayland-protocols-dev.tcz
+               libXvmc-dev.tcz
+                  libXvmc.tcz
+                     libXv.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                  libXv-dev.tcz
+                     libXv.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                     libXext-dev.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                        libX11-dev.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                           libxcb-dev.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                              libXau-dev.tcz
+                                 libXau.tcz
+                              libXdmcp-dev.tcz
+                                 libXdmcp.tcz
+                              xcb-proto.tcz
+                                 xorg-proto.tcz
+                                    util-macros.tcz
+                                       m4.tcz
+                           xtrans.tcz
+               libXdamage-dev.tcz
+                  libXdamage.tcz
+                     libXfixes.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                  libXfixes-dev.tcz
+                     libXfixes.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                     libX11-dev.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                        libxcb-dev.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                           libXau-dev.tcz
+                              libXau.tcz
+                           libXdmcp-dev.tcz
+                              libXdmcp.tcz
+                           xcb-proto.tcz
+                              xorg-proto.tcz
+                                 util-macros.tcz
+                                    m4.tcz
+                        xtrans.tcz
+               libxshmfence-dev.tcz
+                  libxshmfence.tcz
+               libXxf86vm-dev.tcz
+                  libXxf86vm.tcz
+                     libXext.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                  libXext-dev.tcz
+                     libXext.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                     libX11-dev.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                        libxcb-dev.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                           libXau-dev.tcz
+                              libXau.tcz
+                           libXdmcp-dev.tcz
+                              libXdmcp.tcz
+                           xcb-proto.tcz
+                              xorg-proto.tcz
+                                 util-macros.tcz
+                                    m4.tcz
+                        xtrans.tcz
+               libXrandr-dev.tcz
+                  libXrandr.tcz
+                     libXext.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                     libXrender.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                  libXext-dev.tcz
+                     libXext.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                     libX11-dev.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                        libxcb-dev.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                           libXau-dev.tcz
+                              libXau.tcz
+                           libXdmcp-dev.tcz
+                              libXdmcp.tcz
+                           xcb-proto.tcz
+                              xorg-proto.tcz
+                                 util-macros.tcz
+                                    m4.tcz
+                        xtrans.tcz
+                  libXrender-dev.tcz
+                     libXrender.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                     libX11-dev.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                        libxcb-dev.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                           libXau-dev.tcz
+                              libXau.tcz
+                           libXdmcp-dev.tcz
+                              libXdmcp.tcz
+                           xcb-proto.tcz
+                              xorg-proto.tcz
+                                 util-macros.tcz
+                                    m4.tcz
+                        xtrans.tcz
+               libclc-dev.tcz
+                  libclc.tcz
+               llvm19-dev.tcz
+                  llvm19-bin.tcz
+                     llvm19-lib.tcz
+                        libffi.tcz
+                        libxml2.tcz
+                           liblzma.tcz
+                        libzstd.tcz
+                        ncursesw.tcz
+                        gcc_libs.tcz
+                  libffi-dev.tcz
+                     libffi.tcz
+                  libxml2-dev.tcz
+                     libxml2-bin.tcz
+                        libxml2.tcz
+                           liblzma.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                     libxml2-python.tcz
+                        libxml2.tcz
+                           liblzma.tcz
                         python3.9.tcz
                            openssl.tcz
                               gcc_libs.tcz
@@ -1512,51 +2188,65 @@ mlt-dev.tcz
                            readline.tcz
                               ncursesw.tcz
                            libffi.tcz
-                     pcre21042-dev.tcz
-                        pcre21042.tcz
-                        bzip2-dev.tcz
-                           bzip2.tcz
-                              bzip2-lib.tcz
-                        readline-dev.tcz
-                           readline.tcz
-                              ncursesw.tcz
-                           ncursesw-dev.tcz
-                              ncursesw.tcz
-                     libffi-dev.tcz
-                        libffi.tcz
-            libxshmfence-dev.tcz
-               libxshmfence.tcz
-            libXxf86vm-dev.tcz
-               libXxf86vm.tcz
-                  libXext.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-               libXext-dev.tcz
-                  libXext.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-                  libX11-dev.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-                     libxcb-dev.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-                        libXau-dev.tcz
-                           libXau.tcz
-                        libXdmcp-dev.tcz
-                           libXdmcp.tcz
-                        xcb-proto.tcz
-                           xorg-proto.tcz
-                              util-macros.tcz
-                                 m4.tcz
-                     xtrans.tcz
+                     liblzma-dev.tcz
+                        liblzma.tcz
+                     readline-dev.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        ncursesw-dev.tcz
+                           ncursesw.tcz
+                  zstd-dev.tcz
+                     zstd.tcz
+                        libzstd.tcz
+                        liblzma.tcz
+                        liblz4.tcz
+                     liblzma-dev.tcz
+                        liblzma.tcz
+                     liblz4-dev.tcz
+                        liblz4.tcz
+               libvdpau-dev.tcz
+                  libvdpau.tcz
+                     libXext.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                  libXext-dev.tcz
+                     libXext.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                     libX11-dev.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                        libxcb-dev.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                           libXau-dev.tcz
+                              libXau.tcz
+                           libXdmcp-dev.tcz
+                              libXdmcp.tcz
+                           xcb-proto.tcz
+                              xorg-proto.tcz
+                                 util-macros.tcz
+                                    m4.tcz
+                        xtrans.tcz
+               elfutils-dev.tcz
+                  elfutils.tcz
+                     bzip2-lib.tcz
+                     liblzma.tcz
+                  bzip2-dev.tcz
+                     bzip2.tcz
+                        bzip2-lib.tcz
+                  liblzma-dev.tcz
+                     liblzma.tcz
+               spirv-tools-dev.tcz
+                  spirv-tools.tcz
+                  spirv-headers.tcz
       libvdpau-dev.tcz
          libvdpau.tcz
             libXext.tcz
@@ -2703,49 +3393,67 @@ mlt-dev.tcz
                libepoxy.tcz
             libEGL-dev.tcz
                libEGL.tcz
-                  libGL.tcz
-                     libXdamage.tcz
-                        libXfixes.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                     libXxf86vm.tcz
-                        libXext.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
+                  mesa.tcz
                      libdrm.tcz
                         libpciaccess.tcz
                         udev-lib.tcz
                            glib2.tcz
                               libffi.tcz
                               pcre21042.tcz
-                     libxshmfence.tcz
                      expat2.tcz
-               libGL-dev.tcz
-                  libGL.tcz
-                     libXdamage.tcz
-                        libXfixes.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                     libXxf86vm.tcz
+                     libxshmfence.tcz
+                     elfutils.tcz
+                        bzip2-lib.tcz
+                        liblzma.tcz
+                     llvm19-lib.tcz
+                        libffi.tcz
+                        libxml2.tcz
+                           liblzma.tcz
+                        libzstd.tcz
+                        ncursesw.tcz
+                        gcc_libs.tcz
+                     libvdpau.tcz
                         libXext.tcz
                            libX11.tcz
                               libxcb.tcz
                                  libXau.tcz
                                  libXdmcp.tcz
+                     elfutils.tcz
+                        bzip2-lib.tcz
+                        liblzma.tcz
+                     gcc_libs.tcz
+                     spirv-tools.tcz
+               mesa-dev.tcz
+                  mesa.tcz
                      libdrm.tcz
                         libpciaccess.tcz
                         udev-lib.tcz
                            glib2.tcz
                               libffi.tcz
                               pcre21042.tcz
-                     libxshmfence.tcz
                      expat2.tcz
+                     libxshmfence.tcz
+                     elfutils.tcz
+                        bzip2-lib.tcz
+                        liblzma.tcz
+                     llvm19-lib.tcz
+                        libffi.tcz
+                        libxml2.tcz
+                           liblzma.tcz
+                        libzstd.tcz
+                        ncursesw.tcz
+                        gcc_libs.tcz
+                     libvdpau.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                     elfutils.tcz
+                        bzip2-lib.tcz
+                        liblzma.tcz
+                     gcc_libs.tcz
+                     spirv-tools.tcz
                   libdrm-dev.tcz
                      libdrm.tcz
                         libpciaccess.tcz
@@ -2785,6 +3493,77 @@ mlt-dev.tcz
                                     ncursesw.tcz
                            libffi-dev.tcz
                               libffi.tcz
+                  wayland-protocols-dev.tcz
+                  libXvmc-dev.tcz
+                     libXvmc.tcz
+                        libXv.tcz
+                           libXext.tcz
+                              libX11.tcz
+                                 libxcb.tcz
+                                    libXau.tcz
+                                    libXdmcp.tcz
+                     libXv-dev.tcz
+                        libXv.tcz
+                           libXext.tcz
+                              libX11.tcz
+                                 libxcb.tcz
+                                    libXau.tcz
+                                    libXdmcp.tcz
+                        libXext-dev.tcz
+                           libXext.tcz
+                              libX11.tcz
+                                 libxcb.tcz
+                                    libXau.tcz
+                                    libXdmcp.tcz
+                           libX11-dev.tcz
+                              libX11.tcz
+                                 libxcb.tcz
+                                    libXau.tcz
+                                    libXdmcp.tcz
+                              libxcb-dev.tcz
+                                 libxcb.tcz
+                                    libXau.tcz
+                                    libXdmcp.tcz
+                                 libXau-dev.tcz
+                                    libXau.tcz
+                                 libXdmcp-dev.tcz
+                                    libXdmcp.tcz
+                                 xcb-proto.tcz
+                                    xorg-proto.tcz
+                                       util-macros.tcz
+                                          m4.tcz
+                              xtrans.tcz
+                  libXdamage-dev.tcz
+                     libXdamage.tcz
+                        libXfixes.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                     libXfixes-dev.tcz
+                        libXfixes.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                        libX11-dev.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                           libxcb-dev.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                              libXau-dev.tcz
+                                 libXau.tcz
+                              libXdmcp-dev.tcz
+                                 libXdmcp.tcz
+                              xcb-proto.tcz
+                                 xorg-proto.tcz
+                                    util-macros.tcz
+                                       m4.tcz
+                           xtrans.tcz
                   libxshmfence-dev.tcz
                      libxshmfence.tcz
                   libXxf86vm-dev.tcz
@@ -2818,6 +3597,157 @@ mlt-dev.tcz
                                     util-macros.tcz
                                        m4.tcz
                            xtrans.tcz
+                  libXrandr-dev.tcz
+                     libXrandr.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                        libXrender.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                     libXext-dev.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                        libX11-dev.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                           libxcb-dev.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                              libXau-dev.tcz
+                                 libXau.tcz
+                              libXdmcp-dev.tcz
+                                 libXdmcp.tcz
+                              xcb-proto.tcz
+                                 xorg-proto.tcz
+                                    util-macros.tcz
+                                       m4.tcz
+                           xtrans.tcz
+                     libXrender-dev.tcz
+                        libXrender.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                        libX11-dev.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                           libxcb-dev.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                              libXau-dev.tcz
+                                 libXau.tcz
+                              libXdmcp-dev.tcz
+                                 libXdmcp.tcz
+                              xcb-proto.tcz
+                                 xorg-proto.tcz
+                                    util-macros.tcz
+                                       m4.tcz
+                           xtrans.tcz
+                  libclc-dev.tcz
+                     libclc.tcz
+                  llvm19-dev.tcz
+                     llvm19-bin.tcz
+                        llvm19-lib.tcz
+                           libffi.tcz
+                           libxml2.tcz
+                              liblzma.tcz
+                           libzstd.tcz
+                           ncursesw.tcz
+                           gcc_libs.tcz
+                     libffi-dev.tcz
+                        libffi.tcz
+                     libxml2-dev.tcz
+                        libxml2-bin.tcz
+                           libxml2.tcz
+                              liblzma.tcz
+                           readline.tcz
+                              ncursesw.tcz
+                        libxml2-python.tcz
+                           libxml2.tcz
+                              liblzma.tcz
+                           python3.9.tcz
+                              openssl.tcz
+                                 gcc_libs.tcz
+                              sqlite3.tcz
+                              gdbm.tcz
+                              bzip2-lib.tcz
+                              liblzma.tcz
+                              readline.tcz
+                                 ncursesw.tcz
+                              libffi.tcz
+                        liblzma-dev.tcz
+                           liblzma.tcz
+                        readline-dev.tcz
+                           readline.tcz
+                              ncursesw.tcz
+                           ncursesw-dev.tcz
+                              ncursesw.tcz
+                     zstd-dev.tcz
+                        zstd.tcz
+                           libzstd.tcz
+                           liblzma.tcz
+                           liblz4.tcz
+                        liblzma-dev.tcz
+                           liblzma.tcz
+                        liblz4-dev.tcz
+                           liblz4.tcz
+                  libvdpau-dev.tcz
+                     libvdpau.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                     libXext-dev.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                        libX11-dev.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                           libxcb-dev.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                              libXau-dev.tcz
+                                 libXau.tcz
+                              libXdmcp-dev.tcz
+                                 libXdmcp.tcz
+                              xcb-proto.tcz
+                                 xorg-proto.tcz
+                                    util-macros.tcz
+                                       m4.tcz
+                           xtrans.tcz
+                  elfutils-dev.tcz
+                     elfutils.tcz
+                        bzip2-lib.tcz
+                        liblzma.tcz
+                     bzip2-dev.tcz
+                        bzip2.tcz
+                           bzip2-lib.tcz
+                     liblzma-dev.tcz
+                        liblzma.tcz
+                  spirv-tools-dev.tcz
+                     spirv-tools.tcz
+                     spirv-headers.tcz
       bzip2-dev.tcz
          bzip2.tcz
             bzip2-lib.tcz
@@ -2832,26 +3762,42 @@ mlt-dev.tcz
             giflib7.tcz
             freeglut.tcz
                libGL.tcz
-                  libXdamage.tcz
-                     libXfixes.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
+                  mesa.tcz
+                     libdrm.tcz
+                        libpciaccess.tcz
+                        udev-lib.tcz
+                           glib2.tcz
+                              libffi.tcz
+                              pcre21042.tcz
+                     expat2.tcz
+                     libxshmfence.tcz
+                     elfutils.tcz
+                        bzip2-lib.tcz
+                        liblzma.tcz
+                     llvm19-lib.tcz
+                        libffi.tcz
+                        libxml2.tcz
+                           liblzma.tcz
+                        libzstd.tcz
+                        ncursesw.tcz
+                        gcc_libs.tcz
+                     libvdpau.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                     elfutils.tcz
+                        bzip2-lib.tcz
+                        liblzma.tcz
+                     gcc_libs.tcz
+                     spirv-tools.tcz
                   libXxf86vm.tcz
                      libXext.tcz
                         libX11.tcz
                            libxcb.tcz
                               libXau.tcz
                               libXdmcp.tcz
-                  libdrm.tcz
-                     libpciaccess.tcz
-                     udev-lib.tcz
-                        glib2.tcz
-                           libffi.tcz
-                           pcre21042.tcz
-                  libxshmfence.tcz
-                  expat2.tcz
                libXi.tcz
                   libXext.tcz
                      libX11.tcz
@@ -2897,26 +3843,42 @@ mlt-dev.tcz
          freeglut-dev.tcz
             freeglut.tcz
                libGL.tcz
-                  libXdamage.tcz
-                     libXfixes.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
+                  mesa.tcz
+                     libdrm.tcz
+                        libpciaccess.tcz
+                        udev-lib.tcz
+                           glib2.tcz
+                              libffi.tcz
+                              pcre21042.tcz
+                     expat2.tcz
+                     libxshmfence.tcz
+                     elfutils.tcz
+                        bzip2-lib.tcz
+                        liblzma.tcz
+                     llvm19-lib.tcz
+                        libffi.tcz
+                        libxml2.tcz
+                           liblzma.tcz
+                        libzstd.tcz
+                        ncursesw.tcz
+                        gcc_libs.tcz
+                     libvdpau.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                     elfutils.tcz
+                        bzip2-lib.tcz
+                        liblzma.tcz
+                     gcc_libs.tcz
+                     spirv-tools.tcz
                   libXxf86vm.tcz
                      libXext.tcz
                         libX11.tcz
                            libxcb.tcz
                               libXau.tcz
                               libXdmcp.tcz
-                  libdrm.tcz
-                     libpciaccess.tcz
-                     udev-lib.tcz
-                        glib2.tcz
-                           libffi.tcz
-                           pcre21042.tcz
-                  libxshmfence.tcz
-                  expat2.tcz
                libXi.tcz
                   libXext.tcz
                      libX11.tcz
@@ -2937,43 +3899,298 @@ mlt-dev.tcz
                expat2.tcz
             libGL-dev.tcz
                libGL.tcz
-                  libXdamage.tcz
-                     libXfixes.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
+                  mesa.tcz
+                     libdrm.tcz
+                        libpciaccess.tcz
+                        udev-lib.tcz
+                           glib2.tcz
+                              libffi.tcz
+                              pcre21042.tcz
+                     expat2.tcz
+                     libxshmfence.tcz
+                     elfutils.tcz
+                        bzip2-lib.tcz
+                        liblzma.tcz
+                     llvm19-lib.tcz
+                        libffi.tcz
+                        libxml2.tcz
+                           liblzma.tcz
+                        libzstd.tcz
+                        ncursesw.tcz
+                        gcc_libs.tcz
+                     libvdpau.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                     elfutils.tcz
+                        bzip2-lib.tcz
+                        liblzma.tcz
+                     gcc_libs.tcz
+                     spirv-tools.tcz
                   libXxf86vm.tcz
                      libXext.tcz
                         libX11.tcz
                            libxcb.tcz
                               libXau.tcz
                               libXdmcp.tcz
-                  libdrm.tcz
-                     libpciaccess.tcz
-                     udev-lib.tcz
-                        glib2.tcz
-                           libffi.tcz
-                           pcre21042.tcz
-                  libxshmfence.tcz
-                  expat2.tcz
-               libdrm-dev.tcz
-                  libdrm.tcz
-                     libpciaccess.tcz
-                     udev-lib.tcz
-                        glib2.tcz
-                           libffi.tcz
-                           pcre21042.tcz
-                  udev-dev.tcz
-                     udev-lib.tcz
-                        glib2.tcz
-                           libffi.tcz
-                           pcre21042.tcz
-                     glib2-dev.tcz
-                        glib2-python.tcz
+               mesa-dev.tcz
+                  mesa.tcz
+                     libdrm.tcz
+                        libpciaccess.tcz
+                        udev-lib.tcz
                            glib2.tcz
                               libffi.tcz
                               pcre21042.tcz
+                     expat2.tcz
+                     libxshmfence.tcz
+                     elfutils.tcz
+                        bzip2-lib.tcz
+                        liblzma.tcz
+                     llvm19-lib.tcz
+                        libffi.tcz
+                        libxml2.tcz
+                           liblzma.tcz
+                        libzstd.tcz
+                        ncursesw.tcz
+                        gcc_libs.tcz
+                     libvdpau.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                     elfutils.tcz
+                        bzip2-lib.tcz
+                        liblzma.tcz
+                     gcc_libs.tcz
+                     spirv-tools.tcz
+                  libdrm-dev.tcz
+                     libdrm.tcz
+                        libpciaccess.tcz
+                        udev-lib.tcz
+                           glib2.tcz
+                              libffi.tcz
+                              pcre21042.tcz
+                     udev-dev.tcz
+                        udev-lib.tcz
+                           glib2.tcz
+                              libffi.tcz
+                              pcre21042.tcz
+                        glib2-dev.tcz
+                           glib2-python.tcz
+                              glib2.tcz
+                                 libffi.tcz
+                                 pcre21042.tcz
+                              python3.9.tcz
+                                 openssl.tcz
+                                    gcc_libs.tcz
+                                 sqlite3.tcz
+                                 gdbm.tcz
+                                 bzip2-lib.tcz
+                                 liblzma.tcz
+                                 readline.tcz
+                                    ncursesw.tcz
+                                 libffi.tcz
+                           pcre21042-dev.tcz
+                              pcre21042.tcz
+                              bzip2-dev.tcz
+                                 bzip2.tcz
+                                    bzip2-lib.tcz
+                              readline-dev.tcz
+                                 readline.tcz
+                                    ncursesw.tcz
+                                 ncursesw-dev.tcz
+                                    ncursesw.tcz
+                           libffi-dev.tcz
+                              libffi.tcz
+                  wayland-protocols-dev.tcz
+                  libXvmc-dev.tcz
+                     libXvmc.tcz
+                        libXv.tcz
+                           libXext.tcz
+                              libX11.tcz
+                                 libxcb.tcz
+                                    libXau.tcz
+                                    libXdmcp.tcz
+                     libXv-dev.tcz
+                        libXv.tcz
+                           libXext.tcz
+                              libX11.tcz
+                                 libxcb.tcz
+                                    libXau.tcz
+                                    libXdmcp.tcz
+                        libXext-dev.tcz
+                           libXext.tcz
+                              libX11.tcz
+                                 libxcb.tcz
+                                    libXau.tcz
+                                    libXdmcp.tcz
+                           libX11-dev.tcz
+                              libX11.tcz
+                                 libxcb.tcz
+                                    libXau.tcz
+                                    libXdmcp.tcz
+                              libxcb-dev.tcz
+                                 libxcb.tcz
+                                    libXau.tcz
+                                    libXdmcp.tcz
+                                 libXau-dev.tcz
+                                    libXau.tcz
+                                 libXdmcp-dev.tcz
+                                    libXdmcp.tcz
+                                 xcb-proto.tcz
+                                    xorg-proto.tcz
+                                       util-macros.tcz
+                                          m4.tcz
+                              xtrans.tcz
+                  libXdamage-dev.tcz
+                     libXdamage.tcz
+                        libXfixes.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                     libXfixes-dev.tcz
+                        libXfixes.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                        libX11-dev.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                           libxcb-dev.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                              libXau-dev.tcz
+                                 libXau.tcz
+                              libXdmcp-dev.tcz
+                                 libXdmcp.tcz
+                              xcb-proto.tcz
+                                 xorg-proto.tcz
+                                    util-macros.tcz
+                                       m4.tcz
+                           xtrans.tcz
+                  libxshmfence-dev.tcz
+                     libxshmfence.tcz
+                  libXxf86vm-dev.tcz
+                     libXxf86vm.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                     libXext-dev.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                        libX11-dev.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                           libxcb-dev.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                              libXau-dev.tcz
+                                 libXau.tcz
+                              libXdmcp-dev.tcz
+                                 libXdmcp.tcz
+                              xcb-proto.tcz
+                                 xorg-proto.tcz
+                                    util-macros.tcz
+                                       m4.tcz
+                           xtrans.tcz
+                  libXrandr-dev.tcz
+                     libXrandr.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                        libXrender.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                     libXext-dev.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                        libX11-dev.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                           libxcb-dev.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                              libXau-dev.tcz
+                                 libXau.tcz
+                              libXdmcp-dev.tcz
+                                 libXdmcp.tcz
+                              xcb-proto.tcz
+                                 xorg-proto.tcz
+                                    util-macros.tcz
+                                       m4.tcz
+                           xtrans.tcz
+                     libXrender-dev.tcz
+                        libXrender.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                        libX11-dev.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                           libxcb-dev.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                              libXau-dev.tcz
+                                 libXau.tcz
+                              libXdmcp-dev.tcz
+                                 libXdmcp.tcz
+                              xcb-proto.tcz
+                                 xorg-proto.tcz
+                                    util-macros.tcz
+                                       m4.tcz
+                           xtrans.tcz
+                  libclc-dev.tcz
+                     libclc.tcz
+                  llvm19-dev.tcz
+                     llvm19-bin.tcz
+                        llvm19-lib.tcz
+                           libffi.tcz
+                           libxml2.tcz
+                              liblzma.tcz
+                           libzstd.tcz
+                           ncursesw.tcz
+                           gcc_libs.tcz
+                     libffi-dev.tcz
+                        libffi.tcz
+                     libxml2-dev.tcz
+                        libxml2-bin.tcz
+                           libxml2.tcz
+                              liblzma.tcz
+                           readline.tcz
+                              ncursesw.tcz
+                        libxml2-python.tcz
+                           libxml2.tcz
+                              liblzma.tcz
                            python3.9.tcz
                               openssl.tcz
                                  gcc_libs.tcz
@@ -2984,51 +4201,65 @@ mlt-dev.tcz
                               readline.tcz
                                  ncursesw.tcz
                               libffi.tcz
-                        pcre21042-dev.tcz
-                           pcre21042.tcz
-                           bzip2-dev.tcz
-                              bzip2.tcz
-                                 bzip2-lib.tcz
-                           readline-dev.tcz
-                              readline.tcz
-                                 ncursesw.tcz
-                              ncursesw-dev.tcz
-                                 ncursesw.tcz
-                        libffi-dev.tcz
-                           libffi.tcz
-               libxshmfence-dev.tcz
-                  libxshmfence.tcz
-               libXxf86vm-dev.tcz
-                  libXxf86vm.tcz
-                     libXext.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                  libXext-dev.tcz
-                     libXext.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                     libX11-dev.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                        libxcb-dev.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                           libXau-dev.tcz
-                              libXau.tcz
-                           libXdmcp-dev.tcz
-                              libXdmcp.tcz
-                           xcb-proto.tcz
-                              xorg-proto.tcz
-                                 util-macros.tcz
-                                    m4.tcz
-                        xtrans.tcz
+                        liblzma-dev.tcz
+                           liblzma.tcz
+                        readline-dev.tcz
+                           readline.tcz
+                              ncursesw.tcz
+                           ncursesw-dev.tcz
+                              ncursesw.tcz
+                     zstd-dev.tcz
+                        zstd.tcz
+                           libzstd.tcz
+                           liblzma.tcz
+                           liblz4.tcz
+                        liblzma-dev.tcz
+                           liblzma.tcz
+                        liblz4-dev.tcz
+                           liblz4.tcz
+                  libvdpau-dev.tcz
+                     libvdpau.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                     libXext-dev.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                        libX11-dev.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                           libxcb-dev.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                              libXau-dev.tcz
+                                 libXau.tcz
+                              libXdmcp-dev.tcz
+                                 libXdmcp.tcz
+                              xcb-proto.tcz
+                                 xorg-proto.tcz
+                                    util-macros.tcz
+                                       m4.tcz
+                           xtrans.tcz
+                  elfutils-dev.tcz
+                     elfutils.tcz
+                        bzip2-lib.tcz
+                        liblzma.tcz
+                     bzip2-dev.tcz
+                        bzip2.tcz
+                           bzip2-lib.tcz
+                     liblzma-dev.tcz
+                        liblzma.tcz
+                  spirv-tools-dev.tcz
+                     spirv-tools.tcz
+                     spirv-headers.tcz
             libXi-dev.tcz
                libXi.tcz
                   libXext.tcz
@@ -3149,65 +4380,336 @@ mlt-dev.tcz
          glu-dev.tcz
             glu.tcz
                libGL.tcz
-                  libXdamage.tcz
-                     libXfixes.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                  libXxf86vm.tcz
-                     libXext.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                  libdrm.tcz
-                     libpciaccess.tcz
-                     udev-lib.tcz
-                        glib2.tcz
-                           libffi.tcz
-                           pcre21042.tcz
-                  libxshmfence.tcz
-                  expat2.tcz
-            libGL-dev.tcz
-               libGL.tcz
-                  libXdamage.tcz
-                     libXfixes.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                  libXxf86vm.tcz
-                     libXext.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                  libdrm.tcz
-                     libpciaccess.tcz
-                     udev-lib.tcz
-                        glib2.tcz
-                           libffi.tcz
-                           pcre21042.tcz
-                  libxshmfence.tcz
-                  expat2.tcz
-               libdrm-dev.tcz
-                  libdrm.tcz
-                     libpciaccess.tcz
-                     udev-lib.tcz
-                        glib2.tcz
-                           libffi.tcz
-                           pcre21042.tcz
-                  udev-dev.tcz
-                     udev-lib.tcz
-                        glib2.tcz
-                           libffi.tcz
-                           pcre21042.tcz
-                     glib2-dev.tcz
-                        glib2-python.tcz
+                  mesa.tcz
+                     libdrm.tcz
+                        libpciaccess.tcz
+                        udev-lib.tcz
                            glib2.tcz
                               libffi.tcz
                               pcre21042.tcz
+                     expat2.tcz
+                     libxshmfence.tcz
+                     elfutils.tcz
+                        bzip2-lib.tcz
+                        liblzma.tcz
+                     llvm19-lib.tcz
+                        libffi.tcz
+                        libxml2.tcz
+                           liblzma.tcz
+                        libzstd.tcz
+                        ncursesw.tcz
+                        gcc_libs.tcz
+                     libvdpau.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                     elfutils.tcz
+                        bzip2-lib.tcz
+                        liblzma.tcz
+                     gcc_libs.tcz
+                     spirv-tools.tcz
+                  libXxf86vm.tcz
+                     libXext.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+            libGL-dev.tcz
+               libGL.tcz
+                  mesa.tcz
+                     libdrm.tcz
+                        libpciaccess.tcz
+                        udev-lib.tcz
+                           glib2.tcz
+                              libffi.tcz
+                              pcre21042.tcz
+                     expat2.tcz
+                     libxshmfence.tcz
+                     elfutils.tcz
+                        bzip2-lib.tcz
+                        liblzma.tcz
+                     llvm19-lib.tcz
+                        libffi.tcz
+                        libxml2.tcz
+                           liblzma.tcz
+                        libzstd.tcz
+                        ncursesw.tcz
+                        gcc_libs.tcz
+                     libvdpau.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                     elfutils.tcz
+                        bzip2-lib.tcz
+                        liblzma.tcz
+                     gcc_libs.tcz
+                     spirv-tools.tcz
+                  libXxf86vm.tcz
+                     libXext.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+               mesa-dev.tcz
+                  mesa.tcz
+                     libdrm.tcz
+                        libpciaccess.tcz
+                        udev-lib.tcz
+                           glib2.tcz
+                              libffi.tcz
+                              pcre21042.tcz
+                     expat2.tcz
+                     libxshmfence.tcz
+                     elfutils.tcz
+                        bzip2-lib.tcz
+                        liblzma.tcz
+                     llvm19-lib.tcz
+                        libffi.tcz
+                        libxml2.tcz
+                           liblzma.tcz
+                        libzstd.tcz
+                        ncursesw.tcz
+                        gcc_libs.tcz
+                     libvdpau.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                     elfutils.tcz
+                        bzip2-lib.tcz
+                        liblzma.tcz
+                     gcc_libs.tcz
+                     spirv-tools.tcz
+                  libdrm-dev.tcz
+                     libdrm.tcz
+                        libpciaccess.tcz
+                        udev-lib.tcz
+                           glib2.tcz
+                              libffi.tcz
+                              pcre21042.tcz
+                     udev-dev.tcz
+                        udev-lib.tcz
+                           glib2.tcz
+                              libffi.tcz
+                              pcre21042.tcz
+                        glib2-dev.tcz
+                           glib2-python.tcz
+                              glib2.tcz
+                                 libffi.tcz
+                                 pcre21042.tcz
+                              python3.9.tcz
+                                 openssl.tcz
+                                    gcc_libs.tcz
+                                 sqlite3.tcz
+                                 gdbm.tcz
+                                 bzip2-lib.tcz
+                                 liblzma.tcz
+                                 readline.tcz
+                                    ncursesw.tcz
+                                 libffi.tcz
+                           pcre21042-dev.tcz
+                              pcre21042.tcz
+                              bzip2-dev.tcz
+                                 bzip2.tcz
+                                    bzip2-lib.tcz
+                              readline-dev.tcz
+                                 readline.tcz
+                                    ncursesw.tcz
+                                 ncursesw-dev.tcz
+                                    ncursesw.tcz
+                           libffi-dev.tcz
+                              libffi.tcz
+                  wayland-protocols-dev.tcz
+                  libXvmc-dev.tcz
+                     libXvmc.tcz
+                        libXv.tcz
+                           libXext.tcz
+                              libX11.tcz
+                                 libxcb.tcz
+                                    libXau.tcz
+                                    libXdmcp.tcz
+                     libXv-dev.tcz
+                        libXv.tcz
+                           libXext.tcz
+                              libX11.tcz
+                                 libxcb.tcz
+                                    libXau.tcz
+                                    libXdmcp.tcz
+                        libXext-dev.tcz
+                           libXext.tcz
+                              libX11.tcz
+                                 libxcb.tcz
+                                    libXau.tcz
+                                    libXdmcp.tcz
+                           libX11-dev.tcz
+                              libX11.tcz
+                                 libxcb.tcz
+                                    libXau.tcz
+                                    libXdmcp.tcz
+                              libxcb-dev.tcz
+                                 libxcb.tcz
+                                    libXau.tcz
+                                    libXdmcp.tcz
+                                 libXau-dev.tcz
+                                    libXau.tcz
+                                 libXdmcp-dev.tcz
+                                    libXdmcp.tcz
+                                 xcb-proto.tcz
+                                    xorg-proto.tcz
+                                       util-macros.tcz
+                                          m4.tcz
+                              xtrans.tcz
+                  libXdamage-dev.tcz
+                     libXdamage.tcz
+                        libXfixes.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                     libXfixes-dev.tcz
+                        libXfixes.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                        libX11-dev.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                           libxcb-dev.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                              libXau-dev.tcz
+                                 libXau.tcz
+                              libXdmcp-dev.tcz
+                                 libXdmcp.tcz
+                              xcb-proto.tcz
+                                 xorg-proto.tcz
+                                    util-macros.tcz
+                                       m4.tcz
+                           xtrans.tcz
+                  libxshmfence-dev.tcz
+                     libxshmfence.tcz
+                  libXxf86vm-dev.tcz
+                     libXxf86vm.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                     libXext-dev.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                        libX11-dev.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                           libxcb-dev.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                              libXau-dev.tcz
+                                 libXau.tcz
+                              libXdmcp-dev.tcz
+                                 libXdmcp.tcz
+                              xcb-proto.tcz
+                                 xorg-proto.tcz
+                                    util-macros.tcz
+                                       m4.tcz
+                           xtrans.tcz
+                  libXrandr-dev.tcz
+                     libXrandr.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                        libXrender.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                     libXext-dev.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                        libX11-dev.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                           libxcb-dev.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                              libXau-dev.tcz
+                                 libXau.tcz
+                              libXdmcp-dev.tcz
+                                 libXdmcp.tcz
+                              xcb-proto.tcz
+                                 xorg-proto.tcz
+                                    util-macros.tcz
+                                       m4.tcz
+                           xtrans.tcz
+                     libXrender-dev.tcz
+                        libXrender.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                        libX11-dev.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                           libxcb-dev.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                              libXau-dev.tcz
+                                 libXau.tcz
+                              libXdmcp-dev.tcz
+                                 libXdmcp.tcz
+                              xcb-proto.tcz
+                                 xorg-proto.tcz
+                                    util-macros.tcz
+                                       m4.tcz
+                           xtrans.tcz
+                  libclc-dev.tcz
+                     libclc.tcz
+                  llvm19-dev.tcz
+                     llvm19-bin.tcz
+                        llvm19-lib.tcz
+                           libffi.tcz
+                           libxml2.tcz
+                              liblzma.tcz
+                           libzstd.tcz
+                           ncursesw.tcz
+                           gcc_libs.tcz
+                     libffi-dev.tcz
+                        libffi.tcz
+                     libxml2-dev.tcz
+                        libxml2-bin.tcz
+                           libxml2.tcz
+                              liblzma.tcz
+                           readline.tcz
+                              ncursesw.tcz
+                        libxml2-python.tcz
+                           libxml2.tcz
+                              liblzma.tcz
                            python3.9.tcz
                               openssl.tcz
                                  gcc_libs.tcz
@@ -3218,51 +4720,65 @@ mlt-dev.tcz
                               readline.tcz
                                  ncursesw.tcz
                               libffi.tcz
-                        pcre21042-dev.tcz
-                           pcre21042.tcz
-                           bzip2-dev.tcz
-                              bzip2.tcz
-                                 bzip2-lib.tcz
-                           readline-dev.tcz
-                              readline.tcz
-                                 ncursesw.tcz
-                              ncursesw-dev.tcz
-                                 ncursesw.tcz
-                        libffi-dev.tcz
-                           libffi.tcz
-               libxshmfence-dev.tcz
-                  libxshmfence.tcz
-               libXxf86vm-dev.tcz
-                  libXxf86vm.tcz
-                     libXext.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                  libXext-dev.tcz
-                     libXext.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                     libX11-dev.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                        libxcb-dev.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                           libXau-dev.tcz
-                              libXau.tcz
-                           libXdmcp-dev.tcz
-                              libXdmcp.tcz
-                           xcb-proto.tcz
-                              xorg-proto.tcz
-                                 util-macros.tcz
-                                    m4.tcz
-                        xtrans.tcz
+                        liblzma-dev.tcz
+                           liblzma.tcz
+                        readline-dev.tcz
+                           readline.tcz
+                              ncursesw.tcz
+                           ncursesw-dev.tcz
+                              ncursesw.tcz
+                     zstd-dev.tcz
+                        zstd.tcz
+                           libzstd.tcz
+                           liblzma.tcz
+                           liblz4.tcz
+                        liblzma-dev.tcz
+                           liblzma.tcz
+                        liblz4-dev.tcz
+                           liblz4.tcz
+                  libvdpau-dev.tcz
+                     libvdpau.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                     libXext-dev.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                        libX11-dev.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                           libxcb-dev.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                              libXau-dev.tcz
+                                 libXau.tcz
+                              libXdmcp-dev.tcz
+                                 libXdmcp.tcz
+                              xcb-proto.tcz
+                                 xorg-proto.tcz
+                                    util-macros.tcz
+                                       m4.tcz
+                           xtrans.tcz
+                  elfutils-dev.tcz
+                     elfutils.tcz
+                        bzip2-lib.tcz
+                        liblzma.tcz
+                     bzip2-dev.tcz
+                        bzip2.tcz
+                           bzip2-lib.tcz
+                     liblzma-dev.tcz
+                        liblzma.tcz
+                  spirv-tools-dev.tcz
+                     spirv-tools.tcz
+                     spirv-headers.tcz
       lame-dev.tcz
          lame.tcz
          libsndfile-dev.tcz
@@ -3495,27 +5011,36 @@ mlt-dev.tcz
                libxml2.tcz
                   liblzma.tcz
             libGLESv2.tcz
-               libGL.tcz
-                  libXdamage.tcz
-                     libXfixes.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                  libXxf86vm.tcz
-                     libXext.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
+               mesa.tcz
                   libdrm.tcz
                      libpciaccess.tcz
                      udev-lib.tcz
                         glib2.tcz
                            libffi.tcz
                            pcre21042.tcz
-                  libxshmfence.tcz
                   expat2.tcz
+                  libxshmfence.tcz
+                  elfutils.tcz
+                     bzip2-lib.tcz
+                     liblzma.tcz
+                  llvm19-lib.tcz
+                     libffi.tcz
+                     libxml2.tcz
+                        liblzma.tcz
+                     libzstd.tcz
+                     ncursesw.tcz
+                     gcc_libs.tcz
+                  libvdpau.tcz
+                     libXext.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                  elfutils.tcz
+                     bzip2-lib.tcz
+                     liblzma.tcz
+                  gcc_libs.tcz
+                  spirv-tools.tcz
          pango-dev.tcz
             pango.tcz
                cairo.tcz
@@ -3879,49 +5404,67 @@ mlt-dev.tcz
                      ncursesw.tcz
          libEGL-dev.tcz
             libEGL.tcz
-               libGL.tcz
-                  libXdamage.tcz
-                     libXfixes.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                  libXxf86vm.tcz
-                     libXext.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
+               mesa.tcz
                   libdrm.tcz
                      libpciaccess.tcz
                      udev-lib.tcz
                         glib2.tcz
                            libffi.tcz
                            pcre21042.tcz
-                  libxshmfence.tcz
                   expat2.tcz
-            libGL-dev.tcz
-               libGL.tcz
-                  libXdamage.tcz
-                     libXfixes.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                  libXxf86vm.tcz
+                  libxshmfence.tcz
+                  elfutils.tcz
+                     bzip2-lib.tcz
+                     liblzma.tcz
+                  llvm19-lib.tcz
+                     libffi.tcz
+                     libxml2.tcz
+                        liblzma.tcz
+                     libzstd.tcz
+                     ncursesw.tcz
+                     gcc_libs.tcz
+                  libvdpau.tcz
                      libXext.tcz
                         libX11.tcz
                            libxcb.tcz
                               libXau.tcz
                               libXdmcp.tcz
+                  elfutils.tcz
+                     bzip2-lib.tcz
+                     liblzma.tcz
+                  gcc_libs.tcz
+                  spirv-tools.tcz
+            mesa-dev.tcz
+               mesa.tcz
                   libdrm.tcz
                      libpciaccess.tcz
                      udev-lib.tcz
                         glib2.tcz
                            libffi.tcz
                            pcre21042.tcz
-                  libxshmfence.tcz
                   expat2.tcz
+                  libxshmfence.tcz
+                  elfutils.tcz
+                     bzip2-lib.tcz
+                     liblzma.tcz
+                  llvm19-lib.tcz
+                     libffi.tcz
+                     libxml2.tcz
+                        liblzma.tcz
+                     libzstd.tcz
+                     ncursesw.tcz
+                     gcc_libs.tcz
+                  libvdpau.tcz
+                     libXext.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                  elfutils.tcz
+                     bzip2-lib.tcz
+                     liblzma.tcz
+                  gcc_libs.tcz
+                  spirv-tools.tcz
                libdrm-dev.tcz
                   libdrm.tcz
                      libpciaccess.tcz
@@ -3961,6 +5504,77 @@ mlt-dev.tcz
                                  ncursesw.tcz
                         libffi-dev.tcz
                            libffi.tcz
+               wayland-protocols-dev.tcz
+               libXvmc-dev.tcz
+                  libXvmc.tcz
+                     libXv.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                  libXv-dev.tcz
+                     libXv.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                     libXext-dev.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                        libX11-dev.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                           libxcb-dev.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                              libXau-dev.tcz
+                                 libXau.tcz
+                              libXdmcp-dev.tcz
+                                 libXdmcp.tcz
+                              xcb-proto.tcz
+                                 xorg-proto.tcz
+                                    util-macros.tcz
+                                       m4.tcz
+                           xtrans.tcz
+               libXdamage-dev.tcz
+                  libXdamage.tcz
+                     libXfixes.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                  libXfixes-dev.tcz
+                     libXfixes.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                     libX11-dev.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                        libxcb-dev.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                           libXau-dev.tcz
+                              libXau.tcz
+                           libXdmcp-dev.tcz
+                              libXdmcp.tcz
+                           xcb-proto.tcz
+                              xorg-proto.tcz
+                                 util-macros.tcz
+                                    m4.tcz
+                        xtrans.tcz
                libxshmfence-dev.tcz
                   libxshmfence.tcz
                libXxf86vm-dev.tcz
@@ -3994,51 +5608,220 @@ mlt-dev.tcz
                                  util-macros.tcz
                                     m4.tcz
                         xtrans.tcz
+               libXrandr-dev.tcz
+                  libXrandr.tcz
+                     libXext.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                     libXrender.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                  libXext-dev.tcz
+                     libXext.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                     libX11-dev.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                        libxcb-dev.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                           libXau-dev.tcz
+                              libXau.tcz
+                           libXdmcp-dev.tcz
+                              libXdmcp.tcz
+                           xcb-proto.tcz
+                              xorg-proto.tcz
+                                 util-macros.tcz
+                                    m4.tcz
+                        xtrans.tcz
+                  libXrender-dev.tcz
+                     libXrender.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                     libX11-dev.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                        libxcb-dev.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                           libXau-dev.tcz
+                              libXau.tcz
+                           libXdmcp-dev.tcz
+                              libXdmcp.tcz
+                           xcb-proto.tcz
+                              xorg-proto.tcz
+                                 util-macros.tcz
+                                    m4.tcz
+                        xtrans.tcz
+               libclc-dev.tcz
+                  libclc.tcz
+               llvm19-dev.tcz
+                  llvm19-bin.tcz
+                     llvm19-lib.tcz
+                        libffi.tcz
+                        libxml2.tcz
+                           liblzma.tcz
+                        libzstd.tcz
+                        ncursesw.tcz
+                        gcc_libs.tcz
+                  libffi-dev.tcz
+                     libffi.tcz
+                  libxml2-dev.tcz
+                     libxml2-bin.tcz
+                        libxml2.tcz
+                           liblzma.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                     libxml2-python.tcz
+                        libxml2.tcz
+                           liblzma.tcz
+                        python3.9.tcz
+                           openssl.tcz
+                              gcc_libs.tcz
+                           sqlite3.tcz
+                           gdbm.tcz
+                           bzip2-lib.tcz
+                           liblzma.tcz
+                           readline.tcz
+                              ncursesw.tcz
+                           libffi.tcz
+                     liblzma-dev.tcz
+                        liblzma.tcz
+                     readline-dev.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        ncursesw-dev.tcz
+                           ncursesw.tcz
+                  zstd-dev.tcz
+                     zstd.tcz
+                        libzstd.tcz
+                        liblzma.tcz
+                        liblz4.tcz
+                     liblzma-dev.tcz
+                        liblzma.tcz
+                     liblz4-dev.tcz
+                        liblz4.tcz
+               libvdpau-dev.tcz
+                  libvdpau.tcz
+                     libXext.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                  libXext-dev.tcz
+                     libXext.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                     libX11-dev.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                        libxcb-dev.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                           libXau-dev.tcz
+                              libXau.tcz
+                           libXdmcp-dev.tcz
+                              libXdmcp.tcz
+                           xcb-proto.tcz
+                              xorg-proto.tcz
+                                 util-macros.tcz
+                                    m4.tcz
+                        xtrans.tcz
+               elfutils-dev.tcz
+                  elfutils.tcz
+                     bzip2-lib.tcz
+                     liblzma.tcz
+                  bzip2-dev.tcz
+                     bzip2.tcz
+                        bzip2-lib.tcz
+                  liblzma-dev.tcz
+                     liblzma.tcz
+               spirv-tools-dev.tcz
+                  spirv-tools.tcz
+                  spirv-headers.tcz
          libGLESv2-dev.tcz
             libGLESv2.tcz
-               libGL.tcz
-                  libXdamage.tcz
-                     libXfixes.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                  libXxf86vm.tcz
-                     libXext.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
+               mesa.tcz
                   libdrm.tcz
                      libpciaccess.tcz
                      udev-lib.tcz
                         glib2.tcz
                            libffi.tcz
                            pcre21042.tcz
-                  libxshmfence.tcz
                   expat2.tcz
-            libGL-dev.tcz
-               libGL.tcz
-                  libXdamage.tcz
-                     libXfixes.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                  libXxf86vm.tcz
+                  libxshmfence.tcz
+                  elfutils.tcz
+                     bzip2-lib.tcz
+                     liblzma.tcz
+                  llvm19-lib.tcz
+                     libffi.tcz
+                     libxml2.tcz
+                        liblzma.tcz
+                     libzstd.tcz
+                     ncursesw.tcz
+                     gcc_libs.tcz
+                  libvdpau.tcz
                      libXext.tcz
                         libX11.tcz
                            libxcb.tcz
                               libXau.tcz
                               libXdmcp.tcz
+                  elfutils.tcz
+                     bzip2-lib.tcz
+                     liblzma.tcz
+                  gcc_libs.tcz
+                  spirv-tools.tcz
+            mesa-dev.tcz
+               mesa.tcz
                   libdrm.tcz
                      libpciaccess.tcz
                      udev-lib.tcz
                         glib2.tcz
                            libffi.tcz
                            pcre21042.tcz
-                  libxshmfence.tcz
                   expat2.tcz
+                  libxshmfence.tcz
+                  elfutils.tcz
+                     bzip2-lib.tcz
+                     liblzma.tcz
+                  llvm19-lib.tcz
+                     libffi.tcz
+                     libxml2.tcz
+                        liblzma.tcz
+                     libzstd.tcz
+                     ncursesw.tcz
+                     gcc_libs.tcz
+                  libvdpau.tcz
+                     libXext.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                  elfutils.tcz
+                     bzip2-lib.tcz
+                     liblzma.tcz
+                  gcc_libs.tcz
+                  spirv-tools.tcz
                libdrm-dev.tcz
                   libdrm.tcz
                      libpciaccess.tcz
@@ -4078,6 +5861,77 @@ mlt-dev.tcz
                                  ncursesw.tcz
                         libffi-dev.tcz
                            libffi.tcz
+               wayland-protocols-dev.tcz
+               libXvmc-dev.tcz
+                  libXvmc.tcz
+                     libXv.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                  libXv-dev.tcz
+                     libXv.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                     libXext-dev.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                        libX11-dev.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                           libxcb-dev.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                              libXau-dev.tcz
+                                 libXau.tcz
+                              libXdmcp-dev.tcz
+                                 libXdmcp.tcz
+                              xcb-proto.tcz
+                                 xorg-proto.tcz
+                                    util-macros.tcz
+                                       m4.tcz
+                           xtrans.tcz
+               libXdamage-dev.tcz
+                  libXdamage.tcz
+                     libXfixes.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                  libXfixes-dev.tcz
+                     libXfixes.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                     libX11-dev.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                        libxcb-dev.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                           libXau-dev.tcz
+                              libXau.tcz
+                           libXdmcp-dev.tcz
+                              libXdmcp.tcz
+                           xcb-proto.tcz
+                              xorg-proto.tcz
+                                 util-macros.tcz
+                                    m4.tcz
+                        xtrans.tcz
                libxshmfence-dev.tcz
                   libxshmfence.tcz
                libXxf86vm-dev.tcz
@@ -4111,6 +5965,157 @@ mlt-dev.tcz
                                  util-macros.tcz
                                     m4.tcz
                         xtrans.tcz
+               libXrandr-dev.tcz
+                  libXrandr.tcz
+                     libXext.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                     libXrender.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                  libXext-dev.tcz
+                     libXext.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                     libX11-dev.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                        libxcb-dev.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                           libXau-dev.tcz
+                              libXau.tcz
+                           libXdmcp-dev.tcz
+                              libXdmcp.tcz
+                           xcb-proto.tcz
+                              xorg-proto.tcz
+                                 util-macros.tcz
+                                    m4.tcz
+                        xtrans.tcz
+                  libXrender-dev.tcz
+                     libXrender.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                     libX11-dev.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                        libxcb-dev.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                           libXau-dev.tcz
+                              libXau.tcz
+                           libXdmcp-dev.tcz
+                              libXdmcp.tcz
+                           xcb-proto.tcz
+                              xorg-proto.tcz
+                                 util-macros.tcz
+                                    m4.tcz
+                        xtrans.tcz
+               libclc-dev.tcz
+                  libclc.tcz
+               llvm19-dev.tcz
+                  llvm19-bin.tcz
+                     llvm19-lib.tcz
+                        libffi.tcz
+                        libxml2.tcz
+                           liblzma.tcz
+                        libzstd.tcz
+                        ncursesw.tcz
+                        gcc_libs.tcz
+                  libffi-dev.tcz
+                     libffi.tcz
+                  libxml2-dev.tcz
+                     libxml2-bin.tcz
+                        libxml2.tcz
+                           liblzma.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                     libxml2-python.tcz
+                        libxml2.tcz
+                           liblzma.tcz
+                        python3.9.tcz
+                           openssl.tcz
+                              gcc_libs.tcz
+                           sqlite3.tcz
+                           gdbm.tcz
+                           bzip2-lib.tcz
+                           liblzma.tcz
+                           readline.tcz
+                              ncursesw.tcz
+                           libffi.tcz
+                     liblzma-dev.tcz
+                        liblzma.tcz
+                     readline-dev.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        ncursesw-dev.tcz
+                           ncursesw.tcz
+                  zstd-dev.tcz
+                     zstd.tcz
+                        libzstd.tcz
+                        liblzma.tcz
+                        liblz4.tcz
+                     liblzma-dev.tcz
+                        liblzma.tcz
+                     liblz4-dev.tcz
+                        liblz4.tcz
+               libvdpau-dev.tcz
+                  libvdpau.tcz
+                     libXext.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                  libXext-dev.tcz
+                     libXext.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                     libX11-dev.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                        libxcb-dev.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                           libXau-dev.tcz
+                              libXau.tcz
+                           libXdmcp-dev.tcz
+                              libXdmcp.tcz
+                           xcb-proto.tcz
+                              xorg-proto.tcz
+                                 util-macros.tcz
+                                    m4.tcz
+                        xtrans.tcz
+               elfutils-dev.tcz
+                  elfutils.tcz
+                     bzip2-lib.tcz
+                     liblzma.tcz
+                  bzip2-dev.tcz
+                     bzip2.tcz
+                        bzip2-lib.tcz
+                  liblzma-dev.tcz
+                     liblzma.tcz
+               spirv-tools-dev.tcz
+                  spirv-tools.tcz
+                  spirv-headers.tcz
       gnutls3.6-dev.tcz
          gnutls3.6.tcz
             nettle3.tcz
