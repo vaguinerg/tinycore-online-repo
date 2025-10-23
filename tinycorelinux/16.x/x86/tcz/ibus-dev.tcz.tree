@@ -226,6 +226,12 @@ ibus-dev.tcz
                   libxcb.tcz
                      libXau.tcz
                      libXdmcp.tcz
+            libXdamage.tcz
+               libXfixes.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
       gtk3-dev.tcz
          gtk3.tcz
             libepoxy.tcz
@@ -347,6 +353,12 @@ ibus-dev.tcz
                   libxcb.tcz
                      libXau.tcz
                      libXdmcp.tcz
+            libXdamage.tcz
+               libXfixes.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
          gdk-pixbuf2-dev.tcz
             gdk-pixbuf2.tcz
                libtiff.tcz
@@ -1333,7 +1345,6 @@ ibus-dev.tcz
                                  ncursesw.tcz
                         libffi-dev.tcz
                            libffi.tcz
-               wayland-protocols-dev.tcz
                libXvmc-dev.tcz
                   libXvmc.tcz
                      libXv.tcz
@@ -1497,97 +1508,16 @@ ibus-dev.tcz
                                  util-macros.tcz
                                     m4.tcz
                         xtrans.tcz
-               libclc-dev.tcz
-                  libclc.tcz
-               llvm19-dev.tcz
-                  llvm19-bin.tcz
-                     llvm19-lib.tcz
-                        libffi.tcz
-                        libxml2.tcz
-                           liblzma.tcz
-                        libzstd.tcz
-                        ncursesw.tcz
-                        gcc_libs.tcz
-                  libffi-dev.tcz
-                     libffi.tcz
-                  libxml2-dev.tcz
-                     libxml2-bin.tcz
-                        libxml2.tcz
-                           liblzma.tcz
-                        readline.tcz
-                           ncursesw.tcz
-                     libxml2-python.tcz
-                        libxml2.tcz
-                           liblzma.tcz
-                        python3.9.tcz
-                           openssl.tcz
-                              gcc_libs.tcz
-                           sqlite3.tcz
-                           gdbm.tcz
-                           bzip2-lib.tcz
-                           liblzma.tcz
-                           readline.tcz
-                              ncursesw.tcz
-                           libffi.tcz
-                     liblzma-dev.tcz
-                        liblzma.tcz
-                     readline-dev.tcz
-                        readline.tcz
-                           ncursesw.tcz
-                        ncursesw-dev.tcz
-                           ncursesw.tcz
-                  zstd-dev.tcz
-                     zstd.tcz
-                        libzstd.tcz
-                        liblzma.tcz
-                        liblz4.tcz
-                     liblzma-dev.tcz
-                        liblzma.tcz
-                     liblz4-dev.tcz
-                        liblz4.tcz
-               libvdpau-dev.tcz
-                  libvdpau.tcz
-                     libXext.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                  libXext-dev.tcz
-                     libXext.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                     libX11-dev.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                        libxcb-dev.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                           libXau-dev.tcz
-                              libXau.tcz
-                           libXdmcp-dev.tcz
-                              libXdmcp.tcz
-                           xcb-proto.tcz
-                              xorg-proto.tcz
-                                 util-macros.tcz
-                                    m4.tcz
-                        xtrans.tcz
-               elfutils-dev.tcz
-                  elfutils.tcz
-                     bzip2-lib.tcz
+               libelf-dev.tcz
+               zstd-dev.tcz
+                  zstd.tcz
+                     libzstd.tcz
                      liblzma.tcz
-                  bzip2-dev.tcz
-                     bzip2.tcz
-                        bzip2-lib.tcz
+                     liblz4.tcz
                   liblzma-dev.tcz
                      liblzma.tcz
-               spirv-tools-dev.tcz
-                  spirv-tools.tcz
-                  spirv-headers.tcz
+                  liblz4-dev.tcz
+                     liblz4.tcz
    gtk2-dev.tcz
       gtk2.tcz
          at-spi2-core.tcz
@@ -1761,6 +1691,12 @@ ibus-dev.tcz
                   liblzma.tcz
                gcc_libs.tcz
                spirv-tools.tcz
+         libXdamage.tcz
+            libXfixes.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
       at-spi2-core-dev.tcz
          at-spi2-core.tcz
             dbus.tcz
@@ -2440,6 +2376,12 @@ ibus-dev.tcz
          bzip2-dev.tcz
             bzip2.tcz
                bzip2-lib.tcz
+      libXdamage.tcz
+         libXfixes.tcz
+            libX11.tcz
+               libxcb.tcz
+                  libXau.tcz
+                  libXdmcp.tcz
    gtk3-dev.tcz
       gtk3.tcz
          libepoxy.tcz
@@ -2561,6 +2503,12 @@ ibus-dev.tcz
                libxcb.tcz
                   libXau.tcz
                   libXdmcp.tcz
+         libXdamage.tcz
+            libXfixes.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
       gdk-pixbuf2-dev.tcz
          gdk-pixbuf2.tcz
             libtiff.tcz
@@ -3547,7 +3495,6 @@ ibus-dev.tcz
                               ncursesw.tcz
                      libffi-dev.tcz
                         libffi.tcz
-            wayland-protocols-dev.tcz
             libXvmc-dev.tcz
                libXvmc.tcz
                   libXv.tcz
@@ -3711,97 +3658,16 @@ ibus-dev.tcz
                               util-macros.tcz
                                  m4.tcz
                      xtrans.tcz
-            libclc-dev.tcz
-               libclc.tcz
-            llvm19-dev.tcz
-               llvm19-bin.tcz
-                  llvm19-lib.tcz
-                     libffi.tcz
-                     libxml2.tcz
-                        liblzma.tcz
-                     libzstd.tcz
-                     ncursesw.tcz
-                     gcc_libs.tcz
-               libffi-dev.tcz
-                  libffi.tcz
-               libxml2-dev.tcz
-                  libxml2-bin.tcz
-                     libxml2.tcz
-                        liblzma.tcz
-                     readline.tcz
-                        ncursesw.tcz
-                  libxml2-python.tcz
-                     libxml2.tcz
-                        liblzma.tcz
-                     python3.9.tcz
-                        openssl.tcz
-                           gcc_libs.tcz
-                        sqlite3.tcz
-                        gdbm.tcz
-                        bzip2-lib.tcz
-                        liblzma.tcz
-                        readline.tcz
-                           ncursesw.tcz
-                        libffi.tcz
-                  liblzma-dev.tcz
-                     liblzma.tcz
-                  readline-dev.tcz
-                     readline.tcz
-                        ncursesw.tcz
-                     ncursesw-dev.tcz
-                        ncursesw.tcz
-               zstd-dev.tcz
-                  zstd.tcz
-                     libzstd.tcz
-                     liblzma.tcz
-                     liblz4.tcz
-                  liblzma-dev.tcz
-                     liblzma.tcz
-                  liblz4-dev.tcz
-                     liblz4.tcz
-            libvdpau-dev.tcz
-               libvdpau.tcz
-                  libXext.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-               libXext-dev.tcz
-                  libXext.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-                  libX11-dev.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-                     libxcb-dev.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-                        libXau-dev.tcz
-                           libXau.tcz
-                        libXdmcp-dev.tcz
-                           libXdmcp.tcz
-                        xcb-proto.tcz
-                           xorg-proto.tcz
-                              util-macros.tcz
-                                 m4.tcz
-                     xtrans.tcz
-            elfutils-dev.tcz
-               elfutils.tcz
-                  bzip2-lib.tcz
+            libelf-dev.tcz
+            zstd-dev.tcz
+               zstd.tcz
+                  libzstd.tcz
                   liblzma.tcz
-               bzip2-dev.tcz
-                  bzip2.tcz
-                     bzip2-lib.tcz
+                  liblz4.tcz
                liblzma-dev.tcz
                   liblzma.tcz
-            spirv-tools-dev.tcz
-               spirv-tools.tcz
-               spirv-headers.tcz
+               liblz4-dev.tcz
+                  liblz4.tcz
    iso-codes.tcz
    vala-dev.tcz
       vala.tcz
@@ -5463,7 +5329,6 @@ ibus-dev.tcz
                                           ncursesw.tcz
                                  libffi-dev.tcz
                                     libffi.tcz
-                        wayland-protocols-dev.tcz
                         libXvmc-dev.tcz
                            libXvmc.tcz
                               libXv.tcz
@@ -5627,97 +5492,16 @@ ibus-dev.tcz
                                           util-macros.tcz
                                              m4.tcz
                                  xtrans.tcz
-                        libclc-dev.tcz
-                           libclc.tcz
-                        llvm19-dev.tcz
-                           llvm19-bin.tcz
-                              llvm19-lib.tcz
-                                 libffi.tcz
-                                 libxml2.tcz
-                                    liblzma.tcz
-                                 libzstd.tcz
-                                 ncursesw.tcz
-                                 gcc_libs.tcz
-                           libffi-dev.tcz
-                              libffi.tcz
-                           libxml2-dev.tcz
-                              libxml2-bin.tcz
-                                 libxml2.tcz
-                                    liblzma.tcz
-                                 readline.tcz
-                                    ncursesw.tcz
-                              libxml2-python.tcz
-                                 libxml2.tcz
-                                    liblzma.tcz
-                                 python3.9.tcz
-                                    openssl.tcz
-                                       gcc_libs.tcz
-                                    sqlite3.tcz
-                                    gdbm.tcz
-                                    bzip2-lib.tcz
-                                    liblzma.tcz
-                                    readline.tcz
-                                       ncursesw.tcz
-                                    libffi.tcz
-                              liblzma-dev.tcz
-                                 liblzma.tcz
-                              readline-dev.tcz
-                                 readline.tcz
-                                    ncursesw.tcz
-                                 ncursesw-dev.tcz
-                                    ncursesw.tcz
-                           zstd-dev.tcz
-                              zstd.tcz
-                                 libzstd.tcz
-                                 liblzma.tcz
-                                 liblz4.tcz
-                              liblzma-dev.tcz
-                                 liblzma.tcz
-                              liblz4-dev.tcz
-                                 liblz4.tcz
-                        libvdpau-dev.tcz
-                           libvdpau.tcz
-                              libXext.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
-                           libXext-dev.tcz
-                              libXext.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
-                              libX11-dev.tcz
-                                 libX11.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
-                                 libxcb-dev.tcz
-                                    libxcb.tcz
-                                       libXau.tcz
-                                       libXdmcp.tcz
-                                    libXau-dev.tcz
-                                       libXau.tcz
-                                    libXdmcp-dev.tcz
-                                       libXdmcp.tcz
-                                    xcb-proto.tcz
-                                       xorg-proto.tcz
-                                          util-macros.tcz
-                                             m4.tcz
-                                 xtrans.tcz
-                        elfutils-dev.tcz
-                           elfutils.tcz
-                              bzip2-lib.tcz
+                        libelf-dev.tcz
+                        zstd-dev.tcz
+                           zstd.tcz
+                              libzstd.tcz
                               liblzma.tcz
-                           bzip2-dev.tcz
-                              bzip2.tcz
-                                 bzip2-lib.tcz
+                              liblz4.tcz
                            liblzma-dev.tcz
                               liblzma.tcz
-                        spirv-tools-dev.tcz
-                           spirv-tools.tcz
-                           spirv-headers.tcz
+                           liblz4-dev.tcz
+                              liblz4.tcz
                   libXfont2-dev.tcz
                      libXfont2.tcz
                         freetype.tcz
@@ -5977,7 +5761,6 @@ ibus-dev.tcz
                                     ncursesw.tcz
                            libffi-dev.tcz
                               libffi.tcz
-                  wayland-protocols-dev.tcz
                   libXvmc-dev.tcz
                      libXvmc.tcz
                         libXv.tcz
@@ -6141,97 +5924,16 @@ ibus-dev.tcz
                                     util-macros.tcz
                                        m4.tcz
                            xtrans.tcz
-                  libclc-dev.tcz
-                     libclc.tcz
-                  llvm19-dev.tcz
-                     llvm19-bin.tcz
-                        llvm19-lib.tcz
-                           libffi.tcz
-                           libxml2.tcz
-                              liblzma.tcz
-                           libzstd.tcz
-                           ncursesw.tcz
-                           gcc_libs.tcz
-                     libffi-dev.tcz
-                        libffi.tcz
-                     libxml2-dev.tcz
-                        libxml2-bin.tcz
-                           libxml2.tcz
-                              liblzma.tcz
-                           readline.tcz
-                              ncursesw.tcz
-                        libxml2-python.tcz
-                           libxml2.tcz
-                              liblzma.tcz
-                           python3.9.tcz
-                              openssl.tcz
-                                 gcc_libs.tcz
-                              sqlite3.tcz
-                              gdbm.tcz
-                              bzip2-lib.tcz
-                              liblzma.tcz
-                              readline.tcz
-                                 ncursesw.tcz
-                              libffi.tcz
-                        liblzma-dev.tcz
-                           liblzma.tcz
-                        readline-dev.tcz
-                           readline.tcz
-                              ncursesw.tcz
-                           ncursesw-dev.tcz
-                              ncursesw.tcz
-                     zstd-dev.tcz
-                        zstd.tcz
-                           libzstd.tcz
-                           liblzma.tcz
-                           liblz4.tcz
-                        liblzma-dev.tcz
-                           liblzma.tcz
-                        liblz4-dev.tcz
-                           liblz4.tcz
-                  libvdpau-dev.tcz
-                     libvdpau.tcz
-                        libXext.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                     libXext-dev.tcz
-                        libXext.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                        libX11-dev.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                           libxcb-dev.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                              libXau-dev.tcz
-                                 libXau.tcz
-                              libXdmcp-dev.tcz
-                                 libXdmcp.tcz
-                              xcb-proto.tcz
-                                 xorg-proto.tcz
-                                    util-macros.tcz
-                                       m4.tcz
-                           xtrans.tcz
-                  elfutils-dev.tcz
-                     elfutils.tcz
-                        bzip2-lib.tcz
+                  libelf-dev.tcz
+                  zstd-dev.tcz
+                     zstd.tcz
+                        libzstd.tcz
                         liblzma.tcz
-                     bzip2-dev.tcz
-                        bzip2.tcz
-                           bzip2-lib.tcz
+                        liblz4.tcz
                      liblzma-dev.tcz
                         liblzma.tcz
-                  spirv-tools-dev.tcz
-                     spirv-tools.tcz
-                     spirv-headers.tcz
+                     liblz4-dev.tcz
+                        liblz4.tcz
             libGL-dev.tcz
                libGL.tcz
                   mesa.tcz
@@ -6340,7 +6042,6 @@ ibus-dev.tcz
                                     ncursesw.tcz
                            libffi-dev.tcz
                               libffi.tcz
-                  wayland-protocols-dev.tcz
                   libXvmc-dev.tcz
                      libXvmc.tcz
                         libXv.tcz
@@ -6504,97 +6205,16 @@ ibus-dev.tcz
                                     util-macros.tcz
                                        m4.tcz
                            xtrans.tcz
-                  libclc-dev.tcz
-                     libclc.tcz
-                  llvm19-dev.tcz
-                     llvm19-bin.tcz
-                        llvm19-lib.tcz
-                           libffi.tcz
-                           libxml2.tcz
-                              liblzma.tcz
-                           libzstd.tcz
-                           ncursesw.tcz
-                           gcc_libs.tcz
-                     libffi-dev.tcz
-                        libffi.tcz
-                     libxml2-dev.tcz
-                        libxml2-bin.tcz
-                           libxml2.tcz
-                              liblzma.tcz
-                           readline.tcz
-                              ncursesw.tcz
-                        libxml2-python.tcz
-                           libxml2.tcz
-                              liblzma.tcz
-                           python3.9.tcz
-                              openssl.tcz
-                                 gcc_libs.tcz
-                              sqlite3.tcz
-                              gdbm.tcz
-                              bzip2-lib.tcz
-                              liblzma.tcz
-                              readline.tcz
-                                 ncursesw.tcz
-                              libffi.tcz
-                        liblzma-dev.tcz
-                           liblzma.tcz
-                        readline-dev.tcz
-                           readline.tcz
-                              ncursesw.tcz
-                           ncursesw-dev.tcz
-                              ncursesw.tcz
-                     zstd-dev.tcz
-                        zstd.tcz
-                           libzstd.tcz
-                           liblzma.tcz
-                           liblz4.tcz
-                        liblzma-dev.tcz
-                           liblzma.tcz
-                        liblz4-dev.tcz
-                           liblz4.tcz
-                  libvdpau-dev.tcz
-                     libvdpau.tcz
-                        libXext.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                     libXext-dev.tcz
-                        libXext.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                        libX11-dev.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                           libxcb-dev.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                              libXau-dev.tcz
-                                 libXau.tcz
-                              libXdmcp-dev.tcz
-                                 libXdmcp.tcz
-                              xcb-proto.tcz
-                                 xorg-proto.tcz
-                                    util-macros.tcz
-                                       m4.tcz
-                           xtrans.tcz
-                  elfutils-dev.tcz
-                     elfutils.tcz
-                        bzip2-lib.tcz
+                  libelf-dev.tcz
+                  zstd-dev.tcz
+                     zstd.tcz
+                        libzstd.tcz
                         liblzma.tcz
-                     bzip2-dev.tcz
-                        bzip2.tcz
-                           bzip2-lib.tcz
+                        liblz4.tcz
                      liblzma-dev.tcz
                         liblzma.tcz
-                  spirv-tools-dev.tcz
-                     spirv-tools.tcz
-                     spirv-headers.tcz
+                     liblz4-dev.tcz
+                        liblz4.tcz
             libGLESv2-dev.tcz
                libGLESv2.tcz
                   mesa.tcz
@@ -6697,7 +6317,6 @@ ibus-dev.tcz
                                     ncursesw.tcz
                            libffi-dev.tcz
                               libffi.tcz
-                  wayland-protocols-dev.tcz
                   libXvmc-dev.tcz
                      libXvmc.tcz
                         libXv.tcz
@@ -6861,97 +6480,16 @@ ibus-dev.tcz
                                     util-macros.tcz
                                        m4.tcz
                            xtrans.tcz
-                  libclc-dev.tcz
-                     libclc.tcz
-                  llvm19-dev.tcz
-                     llvm19-bin.tcz
-                        llvm19-lib.tcz
-                           libffi.tcz
-                           libxml2.tcz
-                              liblzma.tcz
-                           libzstd.tcz
-                           ncursesw.tcz
-                           gcc_libs.tcz
-                     libffi-dev.tcz
-                        libffi.tcz
-                     libxml2-dev.tcz
-                        libxml2-bin.tcz
-                           libxml2.tcz
-                              liblzma.tcz
-                           readline.tcz
-                              ncursesw.tcz
-                        libxml2-python.tcz
-                           libxml2.tcz
-                              liblzma.tcz
-                           python3.9.tcz
-                              openssl.tcz
-                                 gcc_libs.tcz
-                              sqlite3.tcz
-                              gdbm.tcz
-                              bzip2-lib.tcz
-                              liblzma.tcz
-                              readline.tcz
-                                 ncursesw.tcz
-                              libffi.tcz
-                        liblzma-dev.tcz
-                           liblzma.tcz
-                        readline-dev.tcz
-                           readline.tcz
-                              ncursesw.tcz
-                           ncursesw-dev.tcz
-                              ncursesw.tcz
-                     zstd-dev.tcz
-                        zstd.tcz
-                           libzstd.tcz
-                           liblzma.tcz
-                           liblz4.tcz
-                        liblzma-dev.tcz
-                           liblzma.tcz
-                        liblz4-dev.tcz
-                           liblz4.tcz
-                  libvdpau-dev.tcz
-                     libvdpau.tcz
-                        libXext.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                     libXext-dev.tcz
-                        libXext.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                        libX11-dev.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                           libxcb-dev.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                              libXau-dev.tcz
-                                 libXau.tcz
-                              libXdmcp-dev.tcz
-                                 libXdmcp.tcz
-                              xcb-proto.tcz
-                                 xorg-proto.tcz
-                                    util-macros.tcz
-                                       m4.tcz
-                           xtrans.tcz
-                  elfutils-dev.tcz
-                     elfutils.tcz
-                        bzip2-lib.tcz
+                  libelf-dev.tcz
+                  zstd-dev.tcz
+                     zstd.tcz
+                        libzstd.tcz
                         liblzma.tcz
-                     bzip2-dev.tcz
-                        bzip2.tcz
-                           bzip2-lib.tcz
+                        liblz4.tcz
                      liblzma-dev.tcz
                         liblzma.tcz
-                  spirv-tools-dev.tcz
-                     spirv-tools.tcz
-                     spirv-headers.tcz
+                     liblz4-dev.tcz
+                        liblz4.tcz
          iso-codes.tcz
          cdparanoia-dev.tcz
             cdparanoia.tcz
@@ -7394,6 +6932,12 @@ ibus-dev.tcz
                      libxcb.tcz
                         libXau.tcz
                         libXdmcp.tcz
+               libXdamage.tcz
+                  libXfixes.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
             gdk-pixbuf2-dev.tcz
                gdk-pixbuf2.tcz
                   libtiff.tcz
@@ -8380,7 +7924,6 @@ ibus-dev.tcz
                                     ncursesw.tcz
                            libffi-dev.tcz
                               libffi.tcz
-                  wayland-protocols-dev.tcz
                   libXvmc-dev.tcz
                      libXvmc.tcz
                         libXv.tcz
@@ -8544,97 +8087,16 @@ ibus-dev.tcz
                                     util-macros.tcz
                                        m4.tcz
                            xtrans.tcz
-                  libclc-dev.tcz
-                     libclc.tcz
-                  llvm19-dev.tcz
-                     llvm19-bin.tcz
-                        llvm19-lib.tcz
-                           libffi.tcz
-                           libxml2.tcz
-                              liblzma.tcz
-                           libzstd.tcz
-                           ncursesw.tcz
-                           gcc_libs.tcz
-                     libffi-dev.tcz
-                        libffi.tcz
-                     libxml2-dev.tcz
-                        libxml2-bin.tcz
-                           libxml2.tcz
-                              liblzma.tcz
-                           readline.tcz
-                              ncursesw.tcz
-                        libxml2-python.tcz
-                           libxml2.tcz
-                              liblzma.tcz
-                           python3.9.tcz
-                              openssl.tcz
-                                 gcc_libs.tcz
-                              sqlite3.tcz
-                              gdbm.tcz
-                              bzip2-lib.tcz
-                              liblzma.tcz
-                              readline.tcz
-                                 ncursesw.tcz
-                              libffi.tcz
-                        liblzma-dev.tcz
-                           liblzma.tcz
-                        readline-dev.tcz
-                           readline.tcz
-                              ncursesw.tcz
-                           ncursesw-dev.tcz
-                              ncursesw.tcz
-                     zstd-dev.tcz
-                        zstd.tcz
-                           libzstd.tcz
-                           liblzma.tcz
-                           liblz4.tcz
-                        liblzma-dev.tcz
-                           liblzma.tcz
-                        liblz4-dev.tcz
-                           liblz4.tcz
-                  libvdpau-dev.tcz
-                     libvdpau.tcz
-                        libXext.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                     libXext-dev.tcz
-                        libXext.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                        libX11-dev.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                           libxcb-dev.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                              libXau-dev.tcz
-                                 libXau.tcz
-                              libXdmcp-dev.tcz
-                                 libXdmcp.tcz
-                              xcb-proto.tcz
-                                 xorg-proto.tcz
-                                    util-macros.tcz
-                                       m4.tcz
-                           xtrans.tcz
-                  elfutils-dev.tcz
-                     elfutils.tcz
-                        bzip2-lib.tcz
+                  libelf-dev.tcz
+                  zstd-dev.tcz
+                     zstd.tcz
+                        libzstd.tcz
                         liblzma.tcz
-                     bzip2-dev.tcz
-                        bzip2.tcz
-                           bzip2-lib.tcz
+                        liblz4.tcz
                      liblzma-dev.tcz
                         liblzma.tcz
-                  spirv-tools-dev.tcz
-                     spirv-tools.tcz
-                     spirv-headers.tcz
+                     liblz4-dev.tcz
+                        liblz4.tcz
       Xorg-7.7-3d-dev.tcz
          Xorg-7.7-dev.tcz
             makedepend.tcz
@@ -9405,7 +8867,6 @@ ibus-dev.tcz
                                        ncursesw.tcz
                               libffi-dev.tcz
                                  libffi.tcz
-                     wayland-protocols-dev.tcz
                      libXvmc-dev.tcz
                         libXvmc.tcz
                            libXv.tcz
@@ -9569,97 +9030,16 @@ ibus-dev.tcz
                                        util-macros.tcz
                                           m4.tcz
                               xtrans.tcz
-                     libclc-dev.tcz
-                        libclc.tcz
-                     llvm19-dev.tcz
-                        llvm19-bin.tcz
-                           llvm19-lib.tcz
-                              libffi.tcz
-                              libxml2.tcz
-                                 liblzma.tcz
-                              libzstd.tcz
-                              ncursesw.tcz
-                              gcc_libs.tcz
-                        libffi-dev.tcz
-                           libffi.tcz
-                        libxml2-dev.tcz
-                           libxml2-bin.tcz
-                              libxml2.tcz
-                                 liblzma.tcz
-                              readline.tcz
-                                 ncursesw.tcz
-                           libxml2-python.tcz
-                              libxml2.tcz
-                                 liblzma.tcz
-                              python3.9.tcz
-                                 openssl.tcz
-                                    gcc_libs.tcz
-                                 sqlite3.tcz
-                                 gdbm.tcz
-                                 bzip2-lib.tcz
-                                 liblzma.tcz
-                                 readline.tcz
-                                    ncursesw.tcz
-                                 libffi.tcz
-                           liblzma-dev.tcz
-                              liblzma.tcz
-                           readline-dev.tcz
-                              readline.tcz
-                                 ncursesw.tcz
-                              ncursesw-dev.tcz
-                                 ncursesw.tcz
-                        zstd-dev.tcz
-                           zstd.tcz
-                              libzstd.tcz
-                              liblzma.tcz
-                              liblz4.tcz
-                           liblzma-dev.tcz
-                              liblzma.tcz
-                           liblz4-dev.tcz
-                              liblz4.tcz
-                     libvdpau-dev.tcz
-                        libvdpau.tcz
-                           libXext.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                        libXext-dev.tcz
-                           libXext.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                           libX11-dev.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                              libxcb-dev.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                                 libXau-dev.tcz
-                                    libXau.tcz
-                                 libXdmcp-dev.tcz
-                                    libXdmcp.tcz
-                                 xcb-proto.tcz
-                                    xorg-proto.tcz
-                                       util-macros.tcz
-                                          m4.tcz
-                              xtrans.tcz
-                     elfutils-dev.tcz
-                        elfutils.tcz
-                           bzip2-lib.tcz
+                     libelf-dev.tcz
+                     zstd-dev.tcz
+                        zstd.tcz
+                           libzstd.tcz
                            liblzma.tcz
-                        bzip2-dev.tcz
-                           bzip2.tcz
-                              bzip2-lib.tcz
+                           liblz4.tcz
                         liblzma-dev.tcz
                            liblzma.tcz
-                     spirv-tools-dev.tcz
-                        spirv-tools.tcz
-                        spirv-headers.tcz
+                        liblz4-dev.tcz
+                           liblz4.tcz
                libXfont2-dev.tcz
                   libXfont2.tcz
                      freetype.tcz
@@ -9919,7 +9299,6 @@ ibus-dev.tcz
                                  ncursesw.tcz
                         libffi-dev.tcz
                            libffi.tcz
-               wayland-protocols-dev.tcz
                libXvmc-dev.tcz
                   libXvmc.tcz
                      libXv.tcz
@@ -10083,97 +9462,16 @@ ibus-dev.tcz
                                  util-macros.tcz
                                     m4.tcz
                         xtrans.tcz
-               libclc-dev.tcz
-                  libclc.tcz
-               llvm19-dev.tcz
-                  llvm19-bin.tcz
-                     llvm19-lib.tcz
-                        libffi.tcz
-                        libxml2.tcz
-                           liblzma.tcz
-                        libzstd.tcz
-                        ncursesw.tcz
-                        gcc_libs.tcz
-                  libffi-dev.tcz
-                     libffi.tcz
-                  libxml2-dev.tcz
-                     libxml2-bin.tcz
-                        libxml2.tcz
-                           liblzma.tcz
-                        readline.tcz
-                           ncursesw.tcz
-                     libxml2-python.tcz
-                        libxml2.tcz
-                           liblzma.tcz
-                        python3.9.tcz
-                           openssl.tcz
-                              gcc_libs.tcz
-                           sqlite3.tcz
-                           gdbm.tcz
-                           bzip2-lib.tcz
-                           liblzma.tcz
-                           readline.tcz
-                              ncursesw.tcz
-                           libffi.tcz
-                     liblzma-dev.tcz
-                        liblzma.tcz
-                     readline-dev.tcz
-                        readline.tcz
-                           ncursesw.tcz
-                        ncursesw-dev.tcz
-                           ncursesw.tcz
-                  zstd-dev.tcz
-                     zstd.tcz
-                        libzstd.tcz
-                        liblzma.tcz
-                        liblz4.tcz
-                     liblzma-dev.tcz
-                        liblzma.tcz
-                     liblz4-dev.tcz
-                        liblz4.tcz
-               libvdpau-dev.tcz
-                  libvdpau.tcz
-                     libXext.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                  libXext-dev.tcz
-                     libXext.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                     libX11-dev.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                        libxcb-dev.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                           libXau-dev.tcz
-                              libXau.tcz
-                           libXdmcp-dev.tcz
-                              libXdmcp.tcz
-                           xcb-proto.tcz
-                              xorg-proto.tcz
-                                 util-macros.tcz
-                                    m4.tcz
-                        xtrans.tcz
-               elfutils-dev.tcz
-                  elfutils.tcz
-                     bzip2-lib.tcz
+               libelf-dev.tcz
+               zstd-dev.tcz
+                  zstd.tcz
+                     libzstd.tcz
                      liblzma.tcz
-                  bzip2-dev.tcz
-                     bzip2.tcz
-                        bzip2-lib.tcz
+                     liblz4.tcz
                   liblzma-dev.tcz
                      liblzma.tcz
-               spirv-tools-dev.tcz
-                  spirv-tools.tcz
-                  spirv-headers.tcz
+                  liblz4-dev.tcz
+                     liblz4.tcz
          libGL-dev.tcz
             libGL.tcz
                mesa.tcz
@@ -10282,7 +9580,6 @@ ibus-dev.tcz
                                  ncursesw.tcz
                         libffi-dev.tcz
                            libffi.tcz
-               wayland-protocols-dev.tcz
                libXvmc-dev.tcz
                   libXvmc.tcz
                      libXv.tcz
@@ -10446,97 +9743,16 @@ ibus-dev.tcz
                                  util-macros.tcz
                                     m4.tcz
                         xtrans.tcz
-               libclc-dev.tcz
-                  libclc.tcz
-               llvm19-dev.tcz
-                  llvm19-bin.tcz
-                     llvm19-lib.tcz
-                        libffi.tcz
-                        libxml2.tcz
-                           liblzma.tcz
-                        libzstd.tcz
-                        ncursesw.tcz
-                        gcc_libs.tcz
-                  libffi-dev.tcz
-                     libffi.tcz
-                  libxml2-dev.tcz
-                     libxml2-bin.tcz
-                        libxml2.tcz
-                           liblzma.tcz
-                        readline.tcz
-                           ncursesw.tcz
-                     libxml2-python.tcz
-                        libxml2.tcz
-                           liblzma.tcz
-                        python3.9.tcz
-                           openssl.tcz
-                              gcc_libs.tcz
-                           sqlite3.tcz
-                           gdbm.tcz
-                           bzip2-lib.tcz
-                           liblzma.tcz
-                           readline.tcz
-                              ncursesw.tcz
-                           libffi.tcz
-                     liblzma-dev.tcz
-                        liblzma.tcz
-                     readline-dev.tcz
-                        readline.tcz
-                           ncursesw.tcz
-                        ncursesw-dev.tcz
-                           ncursesw.tcz
-                  zstd-dev.tcz
-                     zstd.tcz
-                        libzstd.tcz
-                        liblzma.tcz
-                        liblz4.tcz
-                     liblzma-dev.tcz
-                        liblzma.tcz
-                     liblz4-dev.tcz
-                        liblz4.tcz
-               libvdpau-dev.tcz
-                  libvdpau.tcz
-                     libXext.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                  libXext-dev.tcz
-                     libXext.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                     libX11-dev.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                        libxcb-dev.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                           libXau-dev.tcz
-                              libXau.tcz
-                           libXdmcp-dev.tcz
-                              libXdmcp.tcz
-                           xcb-proto.tcz
-                              xorg-proto.tcz
-                                 util-macros.tcz
-                                    m4.tcz
-                        xtrans.tcz
-               elfutils-dev.tcz
-                  elfutils.tcz
-                     bzip2-lib.tcz
+               libelf-dev.tcz
+               zstd-dev.tcz
+                  zstd.tcz
+                     libzstd.tcz
                      liblzma.tcz
-                  bzip2-dev.tcz
-                     bzip2.tcz
-                        bzip2-lib.tcz
+                     liblz4.tcz
                   liblzma-dev.tcz
                      liblzma.tcz
-               spirv-tools-dev.tcz
-                  spirv-tools.tcz
-                  spirv-headers.tcz
+                  liblz4-dev.tcz
+                     liblz4.tcz
          libGLESv2-dev.tcz
             libGLESv2.tcz
                mesa.tcz
@@ -10639,7 +9855,6 @@ ibus-dev.tcz
                                  ncursesw.tcz
                         libffi-dev.tcz
                            libffi.tcz
-               wayland-protocols-dev.tcz
                libXvmc-dev.tcz
                   libXvmc.tcz
                      libXv.tcz
@@ -10803,97 +10018,16 @@ ibus-dev.tcz
                                  util-macros.tcz
                                     m4.tcz
                         xtrans.tcz
-               libclc-dev.tcz
-                  libclc.tcz
-               llvm19-dev.tcz
-                  llvm19-bin.tcz
-                     llvm19-lib.tcz
-                        libffi.tcz
-                        libxml2.tcz
-                           liblzma.tcz
-                        libzstd.tcz
-                        ncursesw.tcz
-                        gcc_libs.tcz
-                  libffi-dev.tcz
-                     libffi.tcz
-                  libxml2-dev.tcz
-                     libxml2-bin.tcz
-                        libxml2.tcz
-                           liblzma.tcz
-                        readline.tcz
-                           ncursesw.tcz
-                     libxml2-python.tcz
-                        libxml2.tcz
-                           liblzma.tcz
-                        python3.9.tcz
-                           openssl.tcz
-                              gcc_libs.tcz
-                           sqlite3.tcz
-                           gdbm.tcz
-                           bzip2-lib.tcz
-                           liblzma.tcz
-                           readline.tcz
-                              ncursesw.tcz
-                           libffi.tcz
-                     liblzma-dev.tcz
-                        liblzma.tcz
-                     readline-dev.tcz
-                        readline.tcz
-                           ncursesw.tcz
-                        ncursesw-dev.tcz
-                           ncursesw.tcz
-                  zstd-dev.tcz
-                     zstd.tcz
-                        libzstd.tcz
-                        liblzma.tcz
-                        liblz4.tcz
-                     liblzma-dev.tcz
-                        liblzma.tcz
-                     liblz4-dev.tcz
-                        liblz4.tcz
-               libvdpau-dev.tcz
-                  libvdpau.tcz
-                     libXext.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                  libXext-dev.tcz
-                     libXext.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                     libX11-dev.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                        libxcb-dev.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                           libXau-dev.tcz
-                              libXau.tcz
-                           libXdmcp-dev.tcz
-                              libXdmcp.tcz
-                           xcb-proto.tcz
-                              xorg-proto.tcz
-                                 util-macros.tcz
-                                    m4.tcz
-                        xtrans.tcz
-               elfutils-dev.tcz
-                  elfutils.tcz
-                     bzip2-lib.tcz
+               libelf-dev.tcz
+               zstd-dev.tcz
+                  zstd.tcz
+                     libzstd.tcz
                      liblzma.tcz
-                  bzip2-dev.tcz
-                     bzip2.tcz
-                        bzip2-lib.tcz
+                     liblz4.tcz
                   liblzma-dev.tcz
                      liblzma.tcz
-               spirv-tools-dev.tcz
-                  spirv-tools.tcz
-                  spirv-headers.tcz
+                  liblz4-dev.tcz
+                     liblz4.tcz
       nss-dev.tcz
          nss.tcz
             nspr.tcz
