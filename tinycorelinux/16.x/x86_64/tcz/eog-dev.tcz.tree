@@ -244,6 +244,7 @@ eog-dev.tcz
                      libxml2.tcz
                         liblzma.tcz
                   gdk-pixbuf2-xlib.tcz
+               dav1d.tcz
             hicolor-icon-theme.tcz
       gnome-desktop.tcz
          gsettings-desktop-schemas.tcz
@@ -478,6 +479,7 @@ eog-dev.tcz
                libxml2.tcz
                   liblzma.tcz
             gdk-pixbuf2-xlib.tcz
+         dav1d.tcz
       libpeas.tcz
          gtk3.tcz
             libepoxy.tcz
@@ -11868,14 +11870,40 @@ eog-dev.tcz
             liblz4-dev.tcz
                liblz4.tcz
    librsvg-dev.tcz
-      librsvg.tcz
-         pango.tcz
-            cairo.tcz
-               glib2.tcz
-                  libffi.tcz
-                  pcre21042.tcz
-               fontconfig.tcz
-                  expat2.tcz
+      librsvg-bin.tcz
+         librsvg.tcz
+            pango.tcz
+               cairo.tcz
+                  glib2.tcz
+                     libffi.tcz
+                     pcre21042.tcz
+                  fontconfig.tcz
+                     expat2.tcz
+                     freetype.tcz
+                        libpng.tcz
+                        harfbuzz.tcz
+                           glib2.tcz
+                              libffi.tcz
+                              pcre21042.tcz
+                           graphite.tcz
+                        bzip2-lib.tcz
+                  pixman.tcz
+                  libpng.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
+               libXft.tcz
+                  fontconfig.tcz
+                     expat2.tcz
+                     freetype.tcz
+                        libpng.tcz
+                        harfbuzz.tcz
+                           glib2.tcz
+                              libffi.tcz
+                              pcre21042.tcz
+                           graphite.tcz
+                        bzip2-lib.tcz
                   freetype.tcz
                      libpng.tcz
                      harfbuzz.tcz
@@ -11884,57 +11912,33 @@ eog-dev.tcz
                            pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
-               pixman.tcz
+                  libXrender.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+               fribidi.tcz
+                  glib2.tcz
+                     libffi.tcz
+                     pcre21042.tcz
+            gdk-pixbuf2.tcz
+               libtiff.tcz
+                  libjpeg-turbo.tcz
+                  liblzma.tcz
+                  libzstd.tcz
                libpng.tcz
                libX11.tcz
                   libxcb.tcz
                      libXau.tcz
                      libXdmcp.tcz
-            libXft.tcz
-               fontconfig.tcz
-                  expat2.tcz
-                  freetype.tcz
-                     libpng.tcz
-                     harfbuzz.tcz
-                        glib2.tcz
-                           libffi.tcz
-                           pcre21042.tcz
-                        graphite.tcz
-                     bzip2-lib.tcz
-               freetype.tcz
-                  libpng.tcz
-                  harfbuzz.tcz
-                     glib2.tcz
-                        libffi.tcz
-                        pcre21042.tcz
-                     graphite.tcz
-                  bzip2-lib.tcz
-               libXrender.tcz
-                  libX11.tcz
-                     libxcb.tcz
-                        libXau.tcz
-                        libXdmcp.tcz
-            fribidi.tcz
-               glib2.tcz
-                  libffi.tcz
-                  pcre21042.tcz
-         gdk-pixbuf2.tcz
-            libtiff.tcz
-               libjpeg-turbo.tcz
-               liblzma.tcz
-               libzstd.tcz
-            libpng.tcz
-            libX11.tcz
-               libxcb.tcz
-                  libXau.tcz
-                  libXdmcp.tcz
-            shared-mime-info.tcz
-               glib2.tcz
-                  libffi.tcz
-                  pcre21042.tcz
-               libxml2.tcz
-                  liblzma.tcz
-            gdk-pixbuf2-xlib.tcz
+               shared-mime-info.tcz
+                  glib2.tcz
+                     libffi.tcz
+                     pcre21042.tcz
+                  libxml2.tcz
+                     liblzma.tcz
+               gdk-pixbuf2-xlib.tcz
+            dav1d.tcz
       pango-dev.tcz
          pango.tcz
             cairo.tcz
@@ -13289,6 +13293,8 @@ eog-dev.tcz
             xtrans.tcz
          gdk-pixbuf2-xlib-dev.tcz
             gdk-pixbuf2-xlib.tcz
+      dav1d-dev.tcz
+         dav1d.tcz
    exempi-dev.tcz
       exempi.tcz
          expat2.tcz
@@ -18634,6 +18640,7 @@ eog-dev.tcz
                      libxml2.tcz
                         liblzma.tcz
                   gdk-pixbuf2-xlib.tcz
+               dav1d.tcz
             libcups.tcz
                libavahi.tcz
                   dbus.tcz
@@ -23762,6 +23769,7 @@ eog-dev.tcz
                      libxml2.tcz
                         liblzma.tcz
                   gdk-pixbuf2-xlib.tcz
+               dav1d.tcz
             libcups.tcz
                libavahi.tcz
                   dbus.tcz
@@ -40092,14 +40100,40 @@ eog-dev.tcz
                udev-lib-dev.tcz
                   udev-lib.tcz
             librsvg-dev.tcz
-               librsvg.tcz
-                  pango.tcz
-                     cairo.tcz
-                        glib2.tcz
-                           libffi.tcz
-                           pcre21042.tcz
-                        fontconfig.tcz
-                           expat2.tcz
+               librsvg-bin.tcz
+                  librsvg.tcz
+                     pango.tcz
+                        cairo.tcz
+                           glib2.tcz
+                              libffi.tcz
+                              pcre21042.tcz
+                           fontconfig.tcz
+                              expat2.tcz
+                              freetype.tcz
+                                 libpng.tcz
+                                 harfbuzz.tcz
+                                    glib2.tcz
+                                       libffi.tcz
+                                       pcre21042.tcz
+                                    graphite.tcz
+                                 bzip2-lib.tcz
+                           pixman.tcz
+                           libpng.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                        libXft.tcz
+                           fontconfig.tcz
+                              expat2.tcz
+                              freetype.tcz
+                                 libpng.tcz
+                                 harfbuzz.tcz
+                                    glib2.tcz
+                                       libffi.tcz
+                                       pcre21042.tcz
+                                    graphite.tcz
+                                 bzip2-lib.tcz
                            freetype.tcz
                               libpng.tcz
                               harfbuzz.tcz
@@ -40108,57 +40142,33 @@ eog-dev.tcz
                                     pcre21042.tcz
                                  graphite.tcz
                               bzip2-lib.tcz
-                        pixman.tcz
+                           libXrender.tcz
+                              libX11.tcz
+                                 libxcb.tcz
+                                    libXau.tcz
+                                    libXdmcp.tcz
+                        fribidi.tcz
+                           glib2.tcz
+                              libffi.tcz
+                              pcre21042.tcz
+                     gdk-pixbuf2.tcz
+                        libtiff.tcz
+                           libjpeg-turbo.tcz
+                           liblzma.tcz
+                           libzstd.tcz
                         libpng.tcz
                         libX11.tcz
                            libxcb.tcz
                               libXau.tcz
                               libXdmcp.tcz
-                     libXft.tcz
-                        fontconfig.tcz
-                           expat2.tcz
-                           freetype.tcz
-                              libpng.tcz
-                              harfbuzz.tcz
-                                 glib2.tcz
-                                    libffi.tcz
-                                    pcre21042.tcz
-                                 graphite.tcz
-                              bzip2-lib.tcz
-                        freetype.tcz
-                           libpng.tcz
-                           harfbuzz.tcz
-                              glib2.tcz
-                                 libffi.tcz
-                                 pcre21042.tcz
-                              graphite.tcz
-                           bzip2-lib.tcz
-                        libXrender.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                     fribidi.tcz
-                        glib2.tcz
-                           libffi.tcz
-                           pcre21042.tcz
-                  gdk-pixbuf2.tcz
-                     libtiff.tcz
-                        libjpeg-turbo.tcz
-                        liblzma.tcz
-                        libzstd.tcz
-                     libpng.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-                     shared-mime-info.tcz
-                        glib2.tcz
-                           libffi.tcz
-                           pcre21042.tcz
-                        libxml2.tcz
-                           liblzma.tcz
-                     gdk-pixbuf2-xlib.tcz
+                        shared-mime-info.tcz
+                           glib2.tcz
+                              libffi.tcz
+                              pcre21042.tcz
+                           libxml2.tcz
+                              liblzma.tcz
+                        gdk-pixbuf2-xlib.tcz
+                     dav1d.tcz
                pango-dev.tcz
                   pango.tcz
                      cairo.tcz
@@ -41513,6 +41523,8 @@ eog-dev.tcz
                      xtrans.tcz
                   gdk-pixbuf2-xlib-dev.tcz
                      gdk-pixbuf2-xlib.tcz
+               dav1d-dev.tcz
+                  dav1d.tcz
             libwebp1-dev.tcz
                libwebp1-bin.tcz
                   libwebp1.tcz
