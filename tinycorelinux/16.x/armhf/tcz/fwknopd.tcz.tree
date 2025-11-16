@@ -1,0 +1,16 @@
+fwknopd.tcz
+   libpcap.tcz
+      libnl.tcz
+      libusb.tcz
+         udev-lib.tcz
+   iptables.tcz
+      libnftnl.tcz
+         libmnl.tcz
+            ipv6-netfilter-6.12.25-piCore-v7.tcz
+      libnetfilter_conntrack.tcz
+         libnfnetlink.tcz
+   fwknop.tcz
+      wget.tcz
+         openssl.tcz
+            ca-certificates.tcz
+
