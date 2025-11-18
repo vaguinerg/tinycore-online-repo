@@ -8,6 +8,70 @@ spice-gtk-gir.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
+            libEGL.tcz
+               mesa.tcz
+                  libdrm.tcz
+                     libpciaccess.tcz
+                     udev-lib.tcz
+                  expat2.tcz
+                  libxshmfence.tcz
+                  elfutils.tcz
+                     liblzma.tcz
+                     bzip2-lib.tcz
+                  llvm19-lib.tcz
+                     libffi7.tcz
+                     libxml2.tcz
+                        liblzma.tcz
+                     libzstd.tcz
+                     ncursesw.tcz
+                  libvdpau.tcz
+                     libXext.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                  gcc_libs.tcz
+                  spirv-tools.tcz
+               wayland.tcz
+                  libffi.tcz
+                  expat2.tcz
+                  libxml2.tcz
+                     liblzma.tcz
+            libGL.tcz
+               mesa.tcz
+                  libdrm.tcz
+                     libpciaccess.tcz
+                     udev-lib.tcz
+                  expat2.tcz
+                  libxshmfence.tcz
+                  elfutils.tcz
+                     liblzma.tcz
+                     bzip2-lib.tcz
+                  llvm19-lib.tcz
+                     libffi7.tcz
+                     libxml2.tcz
+                        liblzma.tcz
+                     libzstd.tcz
+                     ncursesw.tcz
+                  libvdpau.tcz
+                     libXext.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                  gcc_libs.tcz
+                  spirv-tools.tcz
+               libXxf86vm.tcz
+                  libXext.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+            gudev-lib.tcz
+               udev-lib.tcz
+               glib2.tcz
+                  libffi.tcz
+                  pcre21042.tcz
             libtheora.tcz
                libogg.tcz
             libvorbis.tcz
@@ -178,6 +242,70 @@ spice-gtk-gir.tcz
       gst-plugins-good.tcz
          gst-plugins-base.tcz
             gstreamer.tcz
+               glib2.tcz
+                  libffi.tcz
+                  pcre21042.tcz
+            libEGL.tcz
+               mesa.tcz
+                  libdrm.tcz
+                     libpciaccess.tcz
+                     udev-lib.tcz
+                  expat2.tcz
+                  libxshmfence.tcz
+                  elfutils.tcz
+                     liblzma.tcz
+                     bzip2-lib.tcz
+                  llvm19-lib.tcz
+                     libffi7.tcz
+                     libxml2.tcz
+                        liblzma.tcz
+                     libzstd.tcz
+                     ncursesw.tcz
+                  libvdpau.tcz
+                     libXext.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                  gcc_libs.tcz
+                  spirv-tools.tcz
+               wayland.tcz
+                  libffi.tcz
+                  expat2.tcz
+                  libxml2.tcz
+                     liblzma.tcz
+            libGL.tcz
+               mesa.tcz
+                  libdrm.tcz
+                     libpciaccess.tcz
+                     udev-lib.tcz
+                  expat2.tcz
+                  libxshmfence.tcz
+                  elfutils.tcz
+                     liblzma.tcz
+                     bzip2-lib.tcz
+                  llvm19-lib.tcz
+                     libffi7.tcz
+                     libxml2.tcz
+                        liblzma.tcz
+                     libzstd.tcz
+                     ncursesw.tcz
+                  libvdpau.tcz
+                     libXext.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                  gcc_libs.tcz
+                  spirv-tools.tcz
+               libXxf86vm.tcz
+                  libXext.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+            gudev-lib.tcz
+               udev-lib.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
@@ -509,6 +637,70 @@ spice-gtk-gir.tcz
    gst-plugins-base-gir.tcz
       gst-plugins-base.tcz
          gstreamer.tcz
+            glib2.tcz
+               libffi.tcz
+               pcre21042.tcz
+         libEGL.tcz
+            mesa.tcz
+               libdrm.tcz
+                  libpciaccess.tcz
+                  udev-lib.tcz
+               expat2.tcz
+               libxshmfence.tcz
+               elfutils.tcz
+                  liblzma.tcz
+                  bzip2-lib.tcz
+               llvm19-lib.tcz
+                  libffi7.tcz
+                  libxml2.tcz
+                     liblzma.tcz
+                  libzstd.tcz
+                  ncursesw.tcz
+               libvdpau.tcz
+                  libXext.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+               gcc_libs.tcz
+               spirv-tools.tcz
+            wayland.tcz
+               libffi.tcz
+               expat2.tcz
+               libxml2.tcz
+                  liblzma.tcz
+         libGL.tcz
+            mesa.tcz
+               libdrm.tcz
+                  libpciaccess.tcz
+                  udev-lib.tcz
+               expat2.tcz
+               libxshmfence.tcz
+               elfutils.tcz
+                  liblzma.tcz
+                  bzip2-lib.tcz
+               llvm19-lib.tcz
+                  libffi7.tcz
+                  libxml2.tcz
+                     liblzma.tcz
+                  libzstd.tcz
+                  ncursesw.tcz
+               libvdpau.tcz
+                  libXext.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+               gcc_libs.tcz
+               spirv-tools.tcz
+            libXxf86vm.tcz
+               libXext.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
+         gudev-lib.tcz
+            udev-lib.tcz
             glib2.tcz
                libffi.tcz
                pcre21042.tcz
