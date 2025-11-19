@@ -62,6 +62,72 @@ totem.tcz
                   glib2.tcz
                      libffi.tcz
                      pcre21042.tcz
+               libEGL.tcz
+                  mesa.tcz
+                     libdrm.tcz
+                        libpciaccess.tcz
+                        udev-lib.tcz
+                           glib2.tcz
+                              libffi.tcz
+                              pcre21042.tcz
+                     expat2.tcz
+                     libxshmfence.tcz
+                     elfutils.tcz
+                        bzip2-lib.tcz
+                        liblzma.tcz
+                     llvm19-lib.tcz
+                        libffi.tcz
+                        libxml2.tcz
+                           liblzma.tcz
+                        libzstd.tcz
+                        ncursesw.tcz
+                        gcc_libs.tcz
+                     libvdpau.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                     gcc_libs.tcz
+                     spirv-tools.tcz
+               libGL.tcz
+                  mesa.tcz
+                     libdrm.tcz
+                        libpciaccess.tcz
+                        udev-lib.tcz
+                           glib2.tcz
+                              libffi.tcz
+                              pcre21042.tcz
+                     expat2.tcz
+                     libxshmfence.tcz
+                     elfutils.tcz
+                        bzip2-lib.tcz
+                        liblzma.tcz
+                     llvm19-lib.tcz
+                        libffi.tcz
+                        libxml2.tcz
+                           liblzma.tcz
+                        libzstd.tcz
+                        ncursesw.tcz
+                        gcc_libs.tcz
+                     libvdpau.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                     gcc_libs.tcz
+                     spirv-tools.tcz
+                  libXxf86vm.tcz
+                     libXext.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+               udev-lib.tcz
+                  glib2.tcz
+                     libffi.tcz
+                     pcre21042.tcz
                libtheora.tcz
                   libogg.tcz
                libvorbis.tcz
@@ -170,23 +236,6 @@ totem.tcz
                               libxcb.tcz
                                  libXau.tcz
                                  libXdmcp.tcz
-               llvm19-lib.tcz
-                  libffi.tcz
-                  libxml2.tcz
-                     liblzma.tcz
-                  libzstd.tcz
-                  ncursesw.tcz
-                  gcc_libs.tcz
-               libvdpau.tcz
-                  libXext.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-               elfutils.tcz
-                  bzip2-lib.tcz
-                  liblzma.tcz
-               gcc_libs.tcz
                libEGL.tcz
                   mesa.tcz
                      libdrm.tcz
@@ -430,6 +479,72 @@ totem.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
+            libEGL.tcz
+               mesa.tcz
+                  libdrm.tcz
+                     libpciaccess.tcz
+                     udev-lib.tcz
+                        glib2.tcz
+                           libffi.tcz
+                           pcre21042.tcz
+                  expat2.tcz
+                  libxshmfence.tcz
+                  elfutils.tcz
+                     bzip2-lib.tcz
+                     liblzma.tcz
+                  llvm19-lib.tcz
+                     libffi.tcz
+                     libxml2.tcz
+                        liblzma.tcz
+                     libzstd.tcz
+                     ncursesw.tcz
+                     gcc_libs.tcz
+                  libvdpau.tcz
+                     libXext.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                  gcc_libs.tcz
+                  spirv-tools.tcz
+            libGL.tcz
+               mesa.tcz
+                  libdrm.tcz
+                     libpciaccess.tcz
+                     udev-lib.tcz
+                        glib2.tcz
+                           libffi.tcz
+                           pcre21042.tcz
+                  expat2.tcz
+                  libxshmfence.tcz
+                  elfutils.tcz
+                     bzip2-lib.tcz
+                     liblzma.tcz
+                  llvm19-lib.tcz
+                     libffi.tcz
+                     libxml2.tcz
+                        liblzma.tcz
+                     libzstd.tcz
+                     ncursesw.tcz
+                     gcc_libs.tcz
+                  libvdpau.tcz
+                     libXext.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                  gcc_libs.tcz
+                  spirv-tools.tcz
+               libXxf86vm.tcz
+                  libXext.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+            udev-lib.tcz
+               glib2.tcz
+                  libffi.tcz
+                  pcre21042.tcz
             libtheora.tcz
                libogg.tcz
             libvorbis.tcz
@@ -527,6 +642,72 @@ totem.tcz
                      pcre21042.tcz
             gst-plugins-base.tcz
                gstreamer.tcz
+                  glib2.tcz
+                     libffi.tcz
+                     pcre21042.tcz
+               libEGL.tcz
+                  mesa.tcz
+                     libdrm.tcz
+                        libpciaccess.tcz
+                        udev-lib.tcz
+                           glib2.tcz
+                              libffi.tcz
+                              pcre21042.tcz
+                     expat2.tcz
+                     libxshmfence.tcz
+                     elfutils.tcz
+                        bzip2-lib.tcz
+                        liblzma.tcz
+                     llvm19-lib.tcz
+                        libffi.tcz
+                        libxml2.tcz
+                           liblzma.tcz
+                        libzstd.tcz
+                        ncursesw.tcz
+                        gcc_libs.tcz
+                     libvdpau.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                     gcc_libs.tcz
+                     spirv-tools.tcz
+               libGL.tcz
+                  mesa.tcz
+                     libdrm.tcz
+                        libpciaccess.tcz
+                        udev-lib.tcz
+                           glib2.tcz
+                              libffi.tcz
+                              pcre21042.tcz
+                     expat2.tcz
+                     libxshmfence.tcz
+                     elfutils.tcz
+                        bzip2-lib.tcz
+                        liblzma.tcz
+                     llvm19-lib.tcz
+                        libffi.tcz
+                        libxml2.tcz
+                           liblzma.tcz
+                        libzstd.tcz
+                        ncursesw.tcz
+                        gcc_libs.tcz
+                     libvdpau.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                     gcc_libs.tcz
+                     spirv-tools.tcz
+                  libXxf86vm.tcz
+                     libXext.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+               udev-lib.tcz
                   glib2.tcz
                      libffi.tcz
                      pcre21042.tcz
@@ -638,23 +819,6 @@ totem.tcz
                               libxcb.tcz
                                  libXau.tcz
                                  libXdmcp.tcz
-               llvm19-lib.tcz
-                  libffi.tcz
-                  libxml2.tcz
-                     liblzma.tcz
-                  libzstd.tcz
-                  ncursesw.tcz
-                  gcc_libs.tcz
-               libvdpau.tcz
-                  libXext.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-               elfutils.tcz
-                  bzip2-lib.tcz
-                  liblzma.tcz
-               gcc_libs.tcz
                libEGL.tcz
                   mesa.tcz
                      libdrm.tcz
@@ -1478,6 +1642,72 @@ totem.tcz
             glib2.tcz
                libffi.tcz
                pcre21042.tcz
+         libEGL.tcz
+            mesa.tcz
+               libdrm.tcz
+                  libpciaccess.tcz
+                  udev-lib.tcz
+                     glib2.tcz
+                        libffi.tcz
+                        pcre21042.tcz
+               expat2.tcz
+               libxshmfence.tcz
+               elfutils.tcz
+                  bzip2-lib.tcz
+                  liblzma.tcz
+               llvm19-lib.tcz
+                  libffi.tcz
+                  libxml2.tcz
+                     liblzma.tcz
+                  libzstd.tcz
+                  ncursesw.tcz
+                  gcc_libs.tcz
+               libvdpau.tcz
+                  libXext.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+               gcc_libs.tcz
+               spirv-tools.tcz
+         libGL.tcz
+            mesa.tcz
+               libdrm.tcz
+                  libpciaccess.tcz
+                  udev-lib.tcz
+                     glib2.tcz
+                        libffi.tcz
+                        pcre21042.tcz
+               expat2.tcz
+               libxshmfence.tcz
+               elfutils.tcz
+                  bzip2-lib.tcz
+                  liblzma.tcz
+               llvm19-lib.tcz
+                  libffi.tcz
+                  libxml2.tcz
+                     liblzma.tcz
+                  libzstd.tcz
+                  ncursesw.tcz
+                  gcc_libs.tcz
+               libvdpau.tcz
+                  libXext.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+               gcc_libs.tcz
+               spirv-tools.tcz
+            libXxf86vm.tcz
+               libXext.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
+         udev-lib.tcz
+            glib2.tcz
+               libffi.tcz
+               pcre21042.tcz
          libtheora.tcz
             libogg.tcz
          libvorbis.tcz
@@ -1488,6 +1718,72 @@ totem.tcz
    gst-plugins-bad.tcz
       gst-plugins-base.tcz
          gstreamer.tcz
+            glib2.tcz
+               libffi.tcz
+               pcre21042.tcz
+         libEGL.tcz
+            mesa.tcz
+               libdrm.tcz
+                  libpciaccess.tcz
+                  udev-lib.tcz
+                     glib2.tcz
+                        libffi.tcz
+                        pcre21042.tcz
+               expat2.tcz
+               libxshmfence.tcz
+               elfutils.tcz
+                  bzip2-lib.tcz
+                  liblzma.tcz
+               llvm19-lib.tcz
+                  libffi.tcz
+                  libxml2.tcz
+                     liblzma.tcz
+                  libzstd.tcz
+                  ncursesw.tcz
+                  gcc_libs.tcz
+               libvdpau.tcz
+                  libXext.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+               gcc_libs.tcz
+               spirv-tools.tcz
+         libGL.tcz
+            mesa.tcz
+               libdrm.tcz
+                  libpciaccess.tcz
+                  udev-lib.tcz
+                     glib2.tcz
+                        libffi.tcz
+                        pcre21042.tcz
+               expat2.tcz
+               libxshmfence.tcz
+               elfutils.tcz
+                  bzip2-lib.tcz
+                  liblzma.tcz
+               llvm19-lib.tcz
+                  libffi.tcz
+                  libxml2.tcz
+                     liblzma.tcz
+                  libzstd.tcz
+                  ncursesw.tcz
+                  gcc_libs.tcz
+               libvdpau.tcz
+                  libXext.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+               gcc_libs.tcz
+               spirv-tools.tcz
+            libXxf86vm.tcz
+               libXext.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
+         udev-lib.tcz
             glib2.tcz
                libffi.tcz
                pcre21042.tcz
@@ -1534,6 +1830,72 @@ totem.tcz
             glib2.tcz
                libffi.tcz
                pcre21042.tcz
+         libEGL.tcz
+            mesa.tcz
+               libdrm.tcz
+                  libpciaccess.tcz
+                  udev-lib.tcz
+                     glib2.tcz
+                        libffi.tcz
+                        pcre21042.tcz
+               expat2.tcz
+               libxshmfence.tcz
+               elfutils.tcz
+                  bzip2-lib.tcz
+                  liblzma.tcz
+               llvm19-lib.tcz
+                  libffi.tcz
+                  libxml2.tcz
+                     liblzma.tcz
+                  libzstd.tcz
+                  ncursesw.tcz
+                  gcc_libs.tcz
+               libvdpau.tcz
+                  libXext.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+               gcc_libs.tcz
+               spirv-tools.tcz
+         libGL.tcz
+            mesa.tcz
+               libdrm.tcz
+                  libpciaccess.tcz
+                  udev-lib.tcz
+                     glib2.tcz
+                        libffi.tcz
+                        pcre21042.tcz
+               expat2.tcz
+               libxshmfence.tcz
+               elfutils.tcz
+                  bzip2-lib.tcz
+                  liblzma.tcz
+               llvm19-lib.tcz
+                  libffi.tcz
+                  libxml2.tcz
+                     liblzma.tcz
+                  libzstd.tcz
+                  ncursesw.tcz
+                  gcc_libs.tcz
+               libvdpau.tcz
+                  libXext.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+               gcc_libs.tcz
+               spirv-tools.tcz
+            libXxf86vm.tcz
+               libXext.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
+         udev-lib.tcz
+            glib2.tcz
+               libffi.tcz
+               pcre21042.tcz
          libtheora.tcz
             libogg.tcz
          libvorbis.tcz
@@ -1549,6 +1911,72 @@ totem.tcz
    gst-libav.tcz
       gst-plugins-base.tcz
          gstreamer.tcz
+            glib2.tcz
+               libffi.tcz
+               pcre21042.tcz
+         libEGL.tcz
+            mesa.tcz
+               libdrm.tcz
+                  libpciaccess.tcz
+                  udev-lib.tcz
+                     glib2.tcz
+                        libffi.tcz
+                        pcre21042.tcz
+               expat2.tcz
+               libxshmfence.tcz
+               elfutils.tcz
+                  bzip2-lib.tcz
+                  liblzma.tcz
+               llvm19-lib.tcz
+                  libffi.tcz
+                  libxml2.tcz
+                     liblzma.tcz
+                  libzstd.tcz
+                  ncursesw.tcz
+                  gcc_libs.tcz
+               libvdpau.tcz
+                  libXext.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+               gcc_libs.tcz
+               spirv-tools.tcz
+         libGL.tcz
+            mesa.tcz
+               libdrm.tcz
+                  libpciaccess.tcz
+                  udev-lib.tcz
+                     glib2.tcz
+                        libffi.tcz
+                        pcre21042.tcz
+               expat2.tcz
+               libxshmfence.tcz
+               elfutils.tcz
+                  bzip2-lib.tcz
+                  liblzma.tcz
+               llvm19-lib.tcz
+                  libffi.tcz
+                  libxml2.tcz
+                     liblzma.tcz
+                  libzstd.tcz
+                  ncursesw.tcz
+                  gcc_libs.tcz
+               libvdpau.tcz
+                  libXext.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+               gcc_libs.tcz
+               spirv-tools.tcz
+            libXxf86vm.tcz
+               libXext.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
+         udev-lib.tcz
             glib2.tcz
                libffi.tcz
                pcre21042.tcz
