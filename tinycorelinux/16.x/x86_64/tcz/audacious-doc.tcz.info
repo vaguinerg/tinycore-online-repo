@@ -1,6 +1,6 @@
 Title:          audacious-doc.tcz
 Description:    man page
-Version:        4.3.1
+Version:        4.5.1
 Author:         https://github.com/audacious-media-player/audacious/blob/master/AUTHORS         
 Original-site:  https://distfiles.audacious-media-player.org/
 Copying-policy: multiple see main TCE, COPYING
@@ -8,7 +8,7 @@ Size:           8.0K
 Extension_by:   aus9 @linuxquestions.org
 Tags:           audio media player gtk2
 Comments:       man page contains keybindings info
-                KEYBINDINGS
+                
        Control + Return        Play
        Space, Control + ,      Pause
        Control + .             Stop
@@ -38,4 +38,5 @@ Comments:       man page contains keybindings info
        Shift + Control + l     Display Add URL dialog
                 
 Change-log:     2024/05/30 v 4.3.1 on 15x
-Current:        2024/05/30 v 4.3.1 on 15x, gtk3->2 (aus9) 
+                2024/05/30 v 4.3.1 on 15x, gtk3->2 (aus9) 
+Current:        2025/11/16 v 4.5.1 on 16x  change RUN dep order 

@@ -1,8 +1,8 @@
 Title:			firefox_getLatest.tcz
 Description:		Download and install Firefox
-Version:		2.12
+Version:		2.13
 Author:			coreplayer2, CNK
-Original-site:  	http://forum.tinycorelinux.net/index.php/topic,17879.0.html
+Original-site:  	https://forum.tinycorelinux.net/index.php/topic,17879.0.html
 Copying-policy:		GPL
 Size:			12.0K
 Extension_by:   	coreplayer2, CNK
@@ -28,8 +28,9 @@ Comments:		This script detects the latest available Firefox
 			aarch64
 
 			PulseAudio is required for sound (Mozilla disable ALSA
-			support in these builds). Libavcodec is required for
-			audio/video streaming.
+			support in these builds). Xorg-7.7-3d (Xorg-3d in PiCore)
+                        is required for hardware graphics acceleration. Libavcodec
+                        is required for audio/video streaming.
 
 			Requires a fonts extension to be installed, such as
 			Xorg-fonts.tcz or dejavu-fonts-ttf.tcz.
@@ -65,4 +66,5 @@ Change-log:		---
 			2022/11/17 Updated download URL. Exit if download fails (CNK)
 			2023/07/06 Fix deleting temp. files when not tc user. Add -g option (CNK)
 			2025/01/20 Support XZ compression. Can auto-detect download URL (CNK)
-Current:		2025/06/28 Support aarch64 PiCore (CNK)
+			2025/06/28 Support aarch64 PiCore (CNK)
+Current:		2025/11/19 Fixed latest version detection. Removed libGLES from deps (CNK)
