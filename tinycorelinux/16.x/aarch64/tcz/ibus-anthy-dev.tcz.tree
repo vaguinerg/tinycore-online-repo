@@ -1357,7 +1357,7 @@ ibus-anthy-dev.tcz
                      zlib_base-dev.tcz
             rest-dev.tcz
                rest.tcz
-                  libsoup.tcz
+                  libsoup3.tcz
                      glib-networking.tcz
                         glib2.tcz
                            gamin.tcz
@@ -1383,8 +1383,9 @@ ibus-anthy-dev.tcz
                      libpsl.tcz
                         libidn2.tcz
                            libunistring.tcz
-               libsoup-dev.tcz
-                  libsoup.tcz
+                     libnghttp2.tcz
+               libsoup3-dev.tcz
+                  libsoup3.tcz
                      glib-networking.tcz
                         glib2.tcz
                            gamin.tcz
@@ -1410,6 +1411,7 @@ ibus-anthy-dev.tcz
                      libpsl.tcz
                         libidn2.tcz
                            libunistring.tcz
+                     libnghttp2.tcz
                   libxml2-dev.tcz
                      libxml2.tcz
                         liblzma.tcz
@@ -1432,6 +1434,8 @@ ibus-anthy-dev.tcz
                            libunistring.tcz
                         libunistring-dev.tcz
                            libunistring.tcz
+                  libnghttp2-dev.tcz
+                     libnghttp2.tcz
       gettext-dev.tcz
          gettext.tcz
             gcc_libs.tcz

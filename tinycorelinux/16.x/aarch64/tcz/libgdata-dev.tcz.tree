@@ -578,7 +578,7 @@ libgdata-dev.tcz
                   pcre2.tcz
                      bzip2-lib.tcz
          rest.tcz
-            libsoup.tcz
+            libsoup3.tcz
                glib-networking.tcz
                   glib2.tcz
                      gamin.tcz
@@ -604,6 +604,7 @@ libgdata-dev.tcz
                libpsl.tcz
                   libidn2.tcz
                      libunistring.tcz
+               libnghttp2.tcz
          telepathy-glib.tcz
             dbus-glib.tcz
                dbus.tcz
@@ -2015,7 +2016,7 @@ libgdata-dev.tcz
                   zlib_base-dev.tcz
          rest-dev.tcz
             rest.tcz
-               libsoup.tcz
+               libsoup3.tcz
                   glib-networking.tcz
                      glib2.tcz
                         gamin.tcz
@@ -2041,8 +2042,9 @@ libgdata-dev.tcz
                   libpsl.tcz
                      libidn2.tcz
                         libunistring.tcz
-            libsoup-dev.tcz
-               libsoup.tcz
+                  libnghttp2.tcz
+            libsoup3-dev.tcz
+               libsoup3.tcz
                   glib-networking.tcz
                      glib2.tcz
                         gamin.tcz
@@ -2068,6 +2070,7 @@ libgdata-dev.tcz
                   libpsl.tcz
                      libidn2.tcz
                         libunistring.tcz
+                  libnghttp2.tcz
                libxml2-dev.tcz
                   libxml2.tcz
                      liblzma.tcz
@@ -2090,6 +2093,8 @@ libgdata-dev.tcz
                         libunistring.tcz
                      libunistring-dev.tcz
                         libunistring.tcz
+               libnghttp2-dev.tcz
+                  libnghttp2.tcz
       p11-kit-dev.tcz
          libtasn1-dev.tcz
             libtasn1.tcz
@@ -2545,7 +2550,7 @@ libgdata-dev.tcz
                   pcre2.tcz
                      bzip2-lib.tcz
          rest.tcz
-            libsoup.tcz
+            libsoup3.tcz
                glib-networking.tcz
                   glib2.tcz
                      gamin.tcz
@@ -2571,6 +2576,7 @@ libgdata-dev.tcz
                libpsl.tcz
                   libidn2.tcz
                      libunistring.tcz
+               libnghttp2.tcz
          telepathy-glib.tcz
             dbus-glib.tcz
                dbus.tcz
@@ -5189,7 +5195,7 @@ libgdata-dev.tcz
                      zlib_base-dev.tcz
             rest-dev.tcz
                rest.tcz
-                  libsoup.tcz
+                  libsoup3.tcz
                      glib-networking.tcz
                         glib2.tcz
                            gamin.tcz
@@ -5215,8 +5221,9 @@ libgdata-dev.tcz
                      libpsl.tcz
                         libidn2.tcz
                            libunistring.tcz
-               libsoup-dev.tcz
-                  libsoup.tcz
+                     libnghttp2.tcz
+               libsoup3-dev.tcz
+                  libsoup3.tcz
                      glib-networking.tcz
                         glib2.tcz
                            gamin.tcz
@@ -5242,6 +5249,7 @@ libgdata-dev.tcz
                      libpsl.tcz
                         libidn2.tcz
                            libunistring.tcz
+                     libnghttp2.tcz
                   libxml2-dev.tcz
                      libxml2.tcz
                         liblzma.tcz
@@ -5264,6 +5272,8 @@ libgdata-dev.tcz
                            libunistring.tcz
                         libunistring-dev.tcz
                            libunistring.tcz
+                  libnghttp2-dev.tcz
+                     libnghttp2.tcz
          libsecret-dev.tcz
             libsecret.tcz
                glib2.tcz
@@ -6014,7 +6024,7 @@ libgdata-dev.tcz
                   giflib.tcz
       rest-dev.tcz
          rest.tcz
-            libsoup.tcz
+            libsoup3.tcz
                glib-networking.tcz
                   glib2.tcz
                      gamin.tcz
@@ -6040,8 +6050,9 @@ libgdata-dev.tcz
                libpsl.tcz
                   libidn2.tcz
                      libunistring.tcz
-         libsoup-dev.tcz
-            libsoup.tcz
+               libnghttp2.tcz
+         libsoup3-dev.tcz
+            libsoup3.tcz
                glib-networking.tcz
                   glib2.tcz
                      gamin.tcz
@@ -6067,6 +6078,7 @@ libgdata-dev.tcz
                libpsl.tcz
                   libidn2.tcz
                      libunistring.tcz
+               libnghttp2.tcz
             libxml2-dev.tcz
                libxml2.tcz
                   liblzma.tcz
@@ -6089,6 +6101,8 @@ libgdata-dev.tcz
                      libunistring.tcz
                   libunistring-dev.tcz
                      libunistring.tcz
+            libnghttp2-dev.tcz
+               libnghttp2.tcz
       telepathy-glib-dev.tcz
          telepathy-glib.tcz
             dbus-glib.tcz

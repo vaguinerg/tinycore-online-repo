@@ -391,7 +391,7 @@ gnome-online-accounts-gir.tcz
                pcre2.tcz
                   bzip2-lib.tcz
       rest.tcz
-         libsoup.tcz
+         libsoup3.tcz
             glib-networking.tcz
                glib2.tcz
                   gamin.tcz
@@ -417,6 +417,7 @@ gnome-online-accounts-gir.tcz
             libpsl.tcz
                libidn2.tcz
                   libunistring.tcz
+            libnghttp2.tcz
       telepathy-glib.tcz
          dbus-glib.tcz
             dbus.tcz
@@ -1175,7 +1176,7 @@ gnome-online-accounts-gir.tcz
                   bzip2-lib.tcz
    rest-gir.tcz
       rest.tcz
-         libsoup.tcz
+         libsoup3.tcz
             glib-networking.tcz
                glib2.tcz
                   gamin.tcz
@@ -1201,8 +1202,9 @@ gnome-online-accounts-gir.tcz
             libpsl.tcz
                libidn2.tcz
                   libunistring.tcz
-      libsoup-gir.tcz
-         libsoup.tcz
+            libnghttp2.tcz
+      libsoup3-gir.tcz
+         libsoup3.tcz
             glib-networking.tcz
                glib2.tcz
                   gamin.tcz
@@ -1228,6 +1230,7 @@ gnome-online-accounts-gir.tcz
             libpsl.tcz
                libidn2.tcz
                   libunistring.tcz
+            libnghttp2.tcz
          gobject-introspection.tcz
             python3.11.tcz
                bzip2-lib.tcz

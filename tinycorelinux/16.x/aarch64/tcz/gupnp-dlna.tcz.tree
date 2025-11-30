@@ -1,7 +1,7 @@
 gupnp-dlna.tcz
    gupnp.tcz
       gssdp.tcz
-         libsoup.tcz
+         libsoup3.tcz
             glib-networking.tcz
                glib2.tcz
                   gamin.tcz
@@ -27,6 +27,7 @@ gupnp-dlna.tcz
             libpsl.tcz
                libidn2.tcz
                   libunistring.tcz
+            libnghttp2.tcz
    gst-plugins-base.tcz
       gstreamer.tcz
          glib2.tcz
@@ -36,7 +37,7 @@ gupnp-dlna.tcz
                bzip2-lib.tcz
          gmp.tcz
       libasound.tcz
-         alsa-modules-6.12.15-piCore-v8.tcz
+         alsa-modules-6.12.25-piCore-v8.tcz
       opus.tcz
       libtheora.tcz
          libogg.tcz

@@ -2,7 +2,7 @@ gupnp-dlna-gir.tcz
    gupnp-dlna.tcz
       gupnp.tcz
          gssdp.tcz
-            libsoup.tcz
+            libsoup3.tcz
                glib-networking.tcz
                   glib2.tcz
                      gamin.tcz
@@ -28,6 +28,7 @@ gupnp-dlna-gir.tcz
                libpsl.tcz
                   libidn2.tcz
                      libunistring.tcz
+               libnghttp2.tcz
       gst-plugins-base.tcz
          gstreamer.tcz
             glib2.tcz
@@ -37,7 +38,7 @@ gupnp-dlna-gir.tcz
                   bzip2-lib.tcz
             gmp.tcz
          libasound.tcz
-            alsa-modules-6.12.15-piCore-v8.tcz
+            alsa-modules-6.12.25-piCore-v8.tcz
          opus.tcz
          libtheora.tcz
             libogg.tcz
@@ -50,106 +51,6 @@ gupnp-dlna-gir.tcz
                libelf.tcz
                pcre2.tcz
                   bzip2-lib.tcz
-   gupnp-gir.tcz
-      gupnp.tcz
-         gssdp.tcz
-            libsoup.tcz
-               glib-networking.tcz
-                  glib2.tcz
-                     gamin.tcz
-                     libelf.tcz
-                     pcre2.tcz
-                        bzip2-lib.tcz
-                  gnutls.tcz
-                     libidn2.tcz
-                        libunistring.tcz
-                     unbound.tcz
-                        expat2.tcz
-                        openssl.tcz
-                           ca-certificates.tcz
-                     nettle.tcz
-                        gmp.tcz
-                     p11-kit.tcz
-                        libtasn1.tcz
-                  openssl.tcz
-                     ca-certificates.tcz
-               libxml2.tcz
-                  liblzma.tcz
-               sqlite3.tcz
-               libpsl.tcz
-                  libidn2.tcz
-                     libunistring.tcz
-      gssdp-gir.tcz
-         gssdp.tcz
-            libsoup.tcz
-               glib-networking.tcz
-                  glib2.tcz
-                     gamin.tcz
-                     libelf.tcz
-                     pcre2.tcz
-                        bzip2-lib.tcz
-                  gnutls.tcz
-                     libidn2.tcz
-                        libunistring.tcz
-                     unbound.tcz
-                        expat2.tcz
-                        openssl.tcz
-                           ca-certificates.tcz
-                     nettle.tcz
-                        gmp.tcz
-                     p11-kit.tcz
-                        libtasn1.tcz
-                  openssl.tcz
-                     ca-certificates.tcz
-               libxml2.tcz
-                  liblzma.tcz
-               sqlite3.tcz
-               libpsl.tcz
-                  libidn2.tcz
-                     libunistring.tcz
-         libsoup-gir.tcz
-            libsoup.tcz
-               glib-networking.tcz
-                  glib2.tcz
-                     gamin.tcz
-                     libelf.tcz
-                     pcre2.tcz
-                        bzip2-lib.tcz
-                  gnutls.tcz
-                     libidn2.tcz
-                        libunistring.tcz
-                     unbound.tcz
-                        expat2.tcz
-                        openssl.tcz
-                           ca-certificates.tcz
-                     nettle.tcz
-                        gmp.tcz
-                     p11-kit.tcz
-                        libtasn1.tcz
-                  openssl.tcz
-                     ca-certificates.tcz
-               libxml2.tcz
-                  liblzma.tcz
-               sqlite3.tcz
-               libpsl.tcz
-                  libidn2.tcz
-                     libunistring.tcz
-            gobject-introspection.tcz
-               python3.11.tcz
-                  bzip2-lib.tcz
-                  readline.tcz
-                     ncurses.tcz
-                  gdbm.tcz
-                  liblzma.tcz
-                  openssl.tcz
-                     ca-certificates.tcz
-                  sqlite3.tcz
-                  ncurses.tcz
-               glib2.tcz
-                  gamin.tcz
-                  libelf.tcz
-                  pcre2.tcz
-                     bzip2-lib.tcz
    gst-plugins-base-gir.tcz
       gst-plugins-base.tcz
          gstreamer.tcz
@@ -160,7 +61,7 @@ gupnp-dlna-gir.tcz
                   bzip2-lib.tcz
             gmp.tcz
          libasound.tcz
-            alsa-modules-6.12.15-piCore-v8.tcz
+            alsa-modules-6.12.25-piCore-v8.tcz
          opus.tcz
          libtheora.tcz
             libogg.tcz

@@ -59,7 +59,7 @@ libdmapsharing-dev.tcz
                libelf.tcz
                pcre2.tcz
                   bzip2-lib.tcz
-      libsoup.tcz
+      libsoup3.tcz
          glib-networking.tcz
             glib2.tcz
                gamin.tcz
@@ -85,7 +85,7 @@ libdmapsharing-dev.tcz
          libpsl.tcz
             libidn2.tcz
                libunistring.tcz
-      libpng.tcz
+         libnghttp2.tcz
    gdk-pixbuf-dev.tcz
       gdk-pixbuf.tcz
          glib2.tcz
@@ -1220,8 +1220,8 @@ libdmapsharing-dev.tcz
                         util-macros.tcz
                            m4.tcz
                xtrans.tcz
-   libsoup-dev.tcz
-      libsoup.tcz
+   libsoup3-dev.tcz
+      libsoup3.tcz
          glib-networking.tcz
             glib2.tcz
                gamin.tcz
@@ -1247,6 +1247,7 @@ libdmapsharing-dev.tcz
          libpsl.tcz
             libidn2.tcz
                libunistring.tcz
+         libnghttp2.tcz
       libxml2-dev.tcz
          libxml2.tcz
             liblzma.tcz
@@ -1269,6 +1270,6 @@ libdmapsharing-dev.tcz
                libunistring.tcz
             libunistring-dev.tcz
                libunistring.tcz
-   libpng-dev.tcz
-      libpng.tcz
+      libnghttp2-dev.tcz
+         libnghttp2.tcz
 

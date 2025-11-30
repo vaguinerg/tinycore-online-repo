@@ -18,7 +18,7 @@ grilo-gir.tcz
             bzip2-lib.tcz
             libxml2.tcz
                liblzma.tcz
-      libsoup.tcz
+      libsoup3.tcz
          glib-networking.tcz
             glib2.tcz
                gamin.tcz
@@ -44,47 +44,13 @@ grilo-gir.tcz
          libpsl.tcz
             libidn2.tcz
                libunistring.tcz
+         libnghttp2.tcz
       liboauth.tcz
          curl.tcz
             openssl.tcz
                ca-certificates.tcz
-   totem-pl-parser-gir.tcz
-      totem-pl-parser.tcz
-         glib2.tcz
-            gamin.tcz
-            libelf.tcz
-            pcre2.tcz
-               bzip2-lib.tcz
-         libgcrypt.tcz
-            libgpg-error.tcz
-         libarchive.tcz
-            openssl.tcz
-               ca-certificates.tcz
-            zstd.tcz
-               libzstd.tcz
-               liblzma.tcz
-               liblz4.tcz
-            bzip2-lib.tcz
-            libxml2.tcz
-               liblzma.tcz
-      gobject-introspection.tcz
-         python3.11.tcz
-            bzip2-lib.tcz
-            readline.tcz
-               ncurses.tcz
-            gdbm.tcz
-            liblzma.tcz
-            openssl.tcz
-               ca-certificates.tcz
-            sqlite3.tcz
-            ncurses.tcz
-         glib2.tcz
-            gamin.tcz
-            libelf.tcz
-            pcre2.tcz
-               bzip2-lib.tcz
-   libsoup-gir.tcz
-      libsoup.tcz
+   libsoup3-gir.tcz
+      libsoup3.tcz
          glib-networking.tcz
             glib2.tcz
                gamin.tcz
@@ -110,6 +76,7 @@ grilo-gir.tcz
          libpsl.tcz
             libidn2.tcz
                libunistring.tcz
+         libnghttp2.tcz
       gobject-introspection.tcz
          python3.11.tcz
             bzip2-lib.tcz

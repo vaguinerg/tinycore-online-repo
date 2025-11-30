@@ -18,7 +18,7 @@ grilo-dev.tcz
             bzip2-lib.tcz
             libxml2.tcz
                liblzma.tcz
-      libsoup.tcz
+      libsoup3.tcz
          glib-networking.tcz
             glib2.tcz
                gamin.tcz
@@ -44,6 +44,7 @@ grilo-dev.tcz
          libpsl.tcz
             libidn2.tcz
                libunistring.tcz
+         libnghttp2.tcz
       liboauth.tcz
          curl.tcz
             openssl.tcz
@@ -131,8 +132,8 @@ grilo-dev.tcz
          libxml2-dev.tcz
             libxml2.tcz
                liblzma.tcz
-   libsoup-dev.tcz
-      libsoup.tcz
+   libsoup3-dev.tcz
+      libsoup3.tcz
          glib-networking.tcz
             glib2.tcz
                gamin.tcz
@@ -158,6 +159,7 @@ grilo-dev.tcz
          libpsl.tcz
             libidn2.tcz
                libunistring.tcz
+         libnghttp2.tcz
       libxml2-dev.tcz
          libxml2.tcz
             liblzma.tcz
@@ -180,6 +182,8 @@ grilo-dev.tcz
                libunistring.tcz
             libunistring-dev.tcz
                libunistring.tcz
+      libnghttp2-dev.tcz
+         libnghttp2.tcz
    liboauth-dev.tcz
       liboauth.tcz
          curl.tcz

@@ -59,7 +59,7 @@ libdmapsharing-gir.tcz
                libelf.tcz
                pcre2.tcz
                   bzip2-lib.tcz
-      libsoup.tcz
+      libsoup3.tcz
          glib-networking.tcz
             glib2.tcz
                gamin.tcz
@@ -85,9 +85,9 @@ libdmapsharing-gir.tcz
          libpsl.tcz
             libidn2.tcz
                libunistring.tcz
-      libpng.tcz
-   libsoup-gir.tcz
-      libsoup.tcz
+         libnghttp2.tcz
+   libsoup3-gir.tcz
+      libsoup3.tcz
          glib-networking.tcz
             glib2.tcz
                gamin.tcz
@@ -113,6 +113,31 @@ libdmapsharing-gir.tcz
          libpsl.tcz
             libidn2.tcz
                libunistring.tcz
+         libnghttp2.tcz
+      gobject-introspection.tcz
+         python3.11.tcz
+            bzip2-lib.tcz
+            readline.tcz
+               ncurses.tcz
+            gdbm.tcz
+            liblzma.tcz
+            openssl.tcz
+               ca-certificates.tcz
+            sqlite3.tcz
+            ncurses.tcz
+         glib2.tcz
+            gamin.tcz
+            libelf.tcz
+            pcre2.tcz
+               bzip2-lib.tcz
+   gstreamer-gir.tcz
+      gstreamer.tcz
+         glib2.tcz
+            gamin.tcz
+            libelf.tcz
+            pcre2.tcz
+               bzip2-lib.tcz
+         gmp.tcz
       gobject-introspection.tcz
          python3.11.tcz
             bzip2-lib.tcz

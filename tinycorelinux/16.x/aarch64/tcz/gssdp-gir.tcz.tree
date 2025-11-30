@@ -1,6 +1,6 @@
 gssdp-gir.tcz
    gssdp.tcz
-      libsoup.tcz
+      libsoup3.tcz
          glib-networking.tcz
             glib2.tcz
                gamin.tcz
@@ -26,8 +26,9 @@ gssdp-gir.tcz
          libpsl.tcz
             libidn2.tcz
                libunistring.tcz
-   libsoup-gir.tcz
-      libsoup.tcz
+         libnghttp2.tcz
+   libsoup3-gir.tcz
+      libsoup3.tcz
          glib-networking.tcz
             glib2.tcz
                gamin.tcz
@@ -53,6 +54,7 @@ gssdp-gir.tcz
          libpsl.tcz
             libidn2.tcz
                libunistring.tcz
+         libnghttp2.tcz
       gobject-introspection.tcz
          python3.11.tcz
             bzip2-lib.tcz
