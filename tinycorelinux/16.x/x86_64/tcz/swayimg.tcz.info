@@ -1,0 +1,31 @@
+Title:          swayimg.tcz 
+Description:    image viewer for wayland compositors
+Version:        4.6
+Author:         Artem Senichev 
+Original-site:  https://github.com/artemsen/swayimg
+Copying-policy: Accompanied 
+Size:           80K
+Extension_by:   aus9 @linuxquestions.org
+Tags:           wayland image viewer slideshow
+Comments:       To reduce dependencies only supports
+                jpg (jpeg) png tiff webp
+                Some settings can be changed in 
+                ~/.config/swayimg/swayimgrc
+                Please read as lots of kb controls
+                and the man pages have lots of info
+
+                Main use - viewer or slideshow
+                external image viewing is fragile YMMV
+
+                swayimg -h offers full list
+                cd <image-dir>
+                swayimg -l # slideshow ~ 3 seconds (changeable)
+                swayimg -g # gallery is slow to load on my AMD APU
+
+example of gallery mode gets messy with more images
+https://raw.githubusercontent.com/artemsen/swayimg/master/.github/gallery.png
+
+wget --no-check-certificate <image-link> | swayimg
+                  
+Change-log:     2025/12/04 v 4.6 on 16x
+Current:        2025/12/04  
