@@ -10,7 +10,7 @@ Tags:           wayland compositor wm
 Comments:       wlroots-based, window-stacking, openbox-like compositor for wayland
                 ----------
                 manual start from console prompt (without xwayland):
-                $ export WLR_XWAYLAND=
+                $ export WLR_XWAYLAND=   # nothing after the equal sign
                 $ sudo -- seatd -g staff -n /run/seatd.sock & labwc
                 ----------
                 manual start from console prompt (with xwayland to support X apps):
@@ -18,17 +18,19 @@ Comments:       wlroots-based, window-stacking, openbox-like compositor for wayl
                 $ sudo -- seatd -g staff -n /run/seatd.sock & labwc
                 ----------
                 automatic start:
-                - use "text" boot code to prevent X from starting (eventually this will not be needed)
                 - add the appropriate manual start commands (see above) to the bottom of ~/.profile
                 ----------
-                configuration:
-                - to manually configure labwc from scratch, see these guides:
+                configuration guides:
                   https://labwc.github.io/getting-started.html
                   https://forum.tinycorelinux.net/index.php/topic,27340
-                - if you prefer initial configuration to happen automatically, use the 
-                  companion extensions labwc-config.tcz and labwc-menu-generator.tcz
+                ----------
+                miscellaneous notes:
+                - if you use xwayland, one of your applications may drag in Xorg as a dependency--if
+                  this happens, use the "text" boot code to prevent X from starting
                 - to hide inactive cursor, load swayidle.tcz and add this to ~/.config/labwc/autostart:
                   swayidle timeout 5 "pkill -USR1 labwc" &
+                - labwc-config.tcz and labwc-menu-generator.tcz are not required by labwc.tcz and
+                  are not supported by labwc's maintainer
                 ----------
                 This extension contains:
                 labwc-0.8.4 - GPLv2 - https://github.com/labwc/labwc/archive/refs/tags/0.8.4.tar.gz
@@ -44,4 +46,5 @@ Change-log:     2023/10/23 first version
                 2025/02/23 updated 0.8.2 -> 0.8.3
                 2025/07/11 updated 0.8.3 -> 0.8.4 with sigusr1 patch
                 2025/08/06 factored out xwayland (only .dep and .info files were changed)
-Current:        2025/09/29 startup script (deprecated as of tcl 16.2) removed
+                2025/09/29 startup script (deprecated as of tcl 16.2) removed
+Current:        2025/12/05 .dep and .info files adjusted

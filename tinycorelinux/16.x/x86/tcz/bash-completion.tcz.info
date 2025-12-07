@@ -1,0 +1,17 @@
+Title:          bash-completion.tcz
+Description:    Autocompletion to commands in bash shell.
+Version:        2.16
+Author:         see list of sites below
+Original-site:  https://github.com/scop/bash-completion
+Copying-policy: GPLv2
+Size:		328K
+Extension_by:   Zhe
+Tags:           autocomplete bash 
+Comments:       --------------
+		vi /usr/local/etc/bashrc
+                if [ -f /usr/local/share/bash-completion/bash_completion ]; then
+                    . /usr/local/share/bash-completion/bash_completion
+                fi
+		--------------
+Change-log:     2.16
+Current:        2025/10/19  2.16

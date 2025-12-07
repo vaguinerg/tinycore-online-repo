@@ -1,6 +1,38 @@
 labwc.tcz
-   graphics-6.12.11-tinycore64.tcz
-      i2c-6.12.11-tinycore64.tcz
+   Xorg-fonts.tcz
+   libGLESv2.tcz
+      mesa.tcz
+         libdrm.tcz
+            libpciaccess.tcz
+            udev-lib.tcz
+         expat2.tcz
+         libxshmfence.tcz
+         elfutils.tcz
+            liblzma.tcz
+            bzip2-lib.tcz
+         llvm19-lib.tcz
+            libffi7.tcz
+            libxml2.tcz
+               liblzma.tcz
+            libzstd.tcz
+            ncursesw.tcz
+         libvdpau.tcz
+            libXext.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
+         gcc_libs.tcz
+         spirv-tools.tcz
+   libinput.tcz
+      mtdev.tcz
+      libevdev.tcz
+      libwacom.tcz
+         gudev-lib.tcz
+            udev-lib.tcz
+            glib2.tcz
+               libffi.tcz
+               pcre21042.tcz
    dbus.tcz
       expat2.tcz
       elogind.tcz
@@ -17,6 +49,48 @@ labwc.tcz
          libxcb.tcz
             libXau.tcz
             libXdmcp.tcz
+   wlroots.tcz
+      liblcms2.tcz
+      libdisplay-info.tcz
+      wayland-protocols.tcz
+         wayland.tcz
+            libffi.tcz
+            expat2.tcz
+            libxml2.tcz
+               liblzma.tcz
+      seatd.tcz
+      libvulkan.tcz
+   libEGL.tcz
+      mesa.tcz
+         libdrm.tcz
+            libpciaccess.tcz
+            udev-lib.tcz
+         expat2.tcz
+         libxshmfence.tcz
+         elfutils.tcz
+            liblzma.tcz
+            bzip2-lib.tcz
+         llvm19-lib.tcz
+            libffi7.tcz
+            libxml2.tcz
+               liblzma.tcz
+            libzstd.tcz
+            ncursesw.tcz
+         libvdpau.tcz
+            libXext.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
+         gcc_libs.tcz
+         spirv-tools.tcz
+      wayland.tcz
+         libffi.tcz
+         expat2.tcz
+         libxml2.tcz
+            liblzma.tcz
+   graphics-6.12.11-tinycore64.tcz
+      i2c-6.12.11-tinycore64.tcz
    librsvg.tcz
       pango.tcz
          cairo.tcz
@@ -85,30 +159,4 @@ labwc.tcz
                liblzma.tcz
          gdk-pixbuf2-xlib.tcz
       dav1d.tcz
-   wlroots.tcz
-      liblcms2.tcz
-      libdisplay-info.tcz
-      wayland-protocols.tcz
-         wayland.tcz
-            libffi.tcz
-            expat2.tcz
-            libxml2.tcz
-               liblzma.tcz
-      seatd.tcz
-      libvulkan.tcz
-   Xorg-fonts.tcz
-   libinput.tcz
-      mtdev.tcz
-      libevdev.tcz
-      libwacom.tcz
-         gudev-lib.tcz
-            udev-lib.tcz
-            glib2.tcz
-               libffi.tcz
-               pcre21042.tcz
-   libxkbcommon.tcz
-      xkeyboard-config.tcz
-      libxcb.tcz
-         libXau.tcz
-         libXdmcp.tcz
 
