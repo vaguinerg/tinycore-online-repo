@@ -49231,6 +49231,7 @@
     "/usr/local/lib/firmware/rt73.bin"
   ],
   "firmware-rpi-bt.tcz": [
+    "usr/local/lib/firmware/brcm/BCM4343A2.raspberrypi,0-compute-module.hcd",
     "usr/local/lib/firmware/brcm/BCM4345C0.raspberrypi,3-model-b-plus.hcd",
     "usr/local/lib/firmware/brcm/BCM4345C0.raspberrypi,5-model-b.hcd",
     "usr/local/lib/firmware/brcm/BCM43430A1.raspberrypi,model-zero-w.hcd",
@@ -49241,9 +49242,12 @@
     "usr/local/lib/firmware/brcm/BCM4345C0.raspberrypi,4-compute-module.hcd",
     "usr/local/lib/firmware/brcm/BCM4345C5.raspberrypi,400.hcd",
     "usr/local/lib/firmware/brcm/BCM43430A1.raspberrypi,model-zero-2-w.hcd",
+    "usr/local/lib/firmware/brcm/BCM4345C0.raspberrypi,5-compute-module.hcd",
+    "usr/local/lib/firmware/brcm/BCM4345C0.raspberrypi,500.hcd",
     "usr/local/lib/firmware/brcm/BCM43430B0.hcd",
     "usr/local/lib/firmware/brcm/BCM43430A1.raspberrypi,3-model-b.hcd",
     "usr/local/lib/firmware/brcm/BCM4345C0.raspberrypi,4-model-b.hcd",
+    "usr/local/lib/firmware/brcm/BCM4343A2.hcd",
     "usr/local/lib/firmware/brcm/BCM4345C5.hcd",
     "usr/local/lib/firmware/brcm/BCM4345C0.raspberrypi,3-model-a-plus.hcd",
     "usr/local/lib/firmware/synaptics/SYN43430B0.hcd",
@@ -49279,6 +49283,7 @@
     "usr/local/lib/firmware/brcm/brcmfmac43455-sdio.raspberrypi,5-compute-module.clm_blob",
     "usr/local/lib/firmware/brcm/brcmfmac43430b0-sdio.raspberrypi,model-zero-2-w.clm_blob",
     "usr/local/lib/firmware/brcm/brcmfmac43430b0-sdio.raspberrypi,model-zero-2-w.bin",
+    "usr/local/lib/firmware/brcm/brcmfmac43439-sdio.raspberrypi,0-compute-module.clm_blob",
     "usr/local/lib/firmware/brcm/brcmfmac43436-sdio.raspberrypi,model-zero-2-w.txt",
     "usr/local/lib/firmware/brcm/brcmfmac43455-sdio.raspberrypi,3-model-b-plus.bin",
     "usr/local/lib/firmware/brcm/brcmfmac43455-sdio.raspberrypi,4-model-b.txt",
@@ -49304,6 +49309,7 @@
     "usr/local/lib/firmware/brcm/brcmfmac43456-sdio.raspberrypi,4-compute-module.clm_blob",
     "usr/local/lib/firmware/brcm/brcmfmac43455-sdio.raspberrypi,5-compute-module.bin",
     "usr/local/lib/firmware/brcm/brcmfmac43456-sdio.txt",
+    "usr/local/lib/firmware/brcm/brcmfmac43439-sdio.raspberrypi,0-compute-module.txt",
     "usr/local/lib/firmware/brcm/brcmfmac43455-sdio.raspberrypi,3-model-a-plus.bin",
     "usr/local/lib/firmware/brcm/brcmfmac43430-sdio.raspberrypi,model-zero-w.txt",
     "usr/local/lib/firmware/brcm/brcmfmac43455-sdio.raspberrypi,5-model-b.bin",
@@ -49316,6 +49322,7 @@
     "usr/local/lib/firmware/brcm/brcmfmac43430-sdio.raspberrypi,model-zero-w.bin",
     "usr/local/lib/firmware/brcm/brcmfmac43455-sdio.raspberrypi,4-model-b.clm_blob",
     "usr/local/lib/firmware/brcm/brcmfmac43455-sdio.raspberrypi,3-model-a-plus.txt",
+    "usr/local/lib/firmware/brcm/brcmfmac43439-sdio.raspberrypi,0-compute-module.bin",
     "usr/local/lib/firmware/brcm/brcmfmac43456-sdio.bin",
     "usr/local/lib/firmware/brcm/brcmfmac43456-sdio.clm_blob",
     "usr/local/lib/firmware/brcm/brcmfmac43455-sdio.raspberrypi,5-compute-module.txt",
@@ -52772,11 +52779,11 @@
     "/usr/local/share/dbus-1/interfaces/org.freedesktop.GeoClue2.xml",
     "/usr/local/share/dbus-1/system-services/org.freedesktop.GeoClue2.service"
   ],
-  "get-chromium-browser.tcz": [
-    "usr/local/share/get-chromium-browser/files/90-chromium.sh",
-    "usr/local/share/get-chromium-browser/files/01-dbus-session.sh",
-    "usr/local/share/get-chromium-browser/files/chromium-launcher",
-    "usr/local/share/get-chromium-browser/files/chromium-browser.desktop",
+  "get-chromium.tcz": [
+    "usr/local/share/get-chromium/files/90-chromium.sh",
+    "usr/local/share/get-chromium/files/01-dbus-session.sh",
+    "usr/local/share/get-chromium/files/chromium-launcher",
+    "usr/local/share/get-chromium/files/chromium.desktop",
     "usr/local/bin/get-chromium-latest.sh"
   ],
   "get_youtube-dl.tcz": [
