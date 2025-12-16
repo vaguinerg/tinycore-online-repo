@@ -8,7 +8,7 @@ php-8.3-dev.tcz
       libxml2-python.tcz
          libxml2.tcz
             liblzma.tcz
-         python3.6.tcz
+         python3.9.tcz
             openssl.tcz
                gcc_libs.tcz
             sqlite3.tcz
@@ -35,12 +35,13 @@ php-8.3-dev.tcz
             ncursesw.tcz
          ncursesw-dev.tcz
             ncursesw.tcz
-   readline.tcz
-      ncursesw.tcz
    autoconf.tcz
       perl_xml_parser.tcz
          perl5.tcz
             bzip2-lib.tcz
          expat2.tcz
    php-8.3-ext.tcz
+      libxml2.tcz
+         liblzma.tcz
+      pcre21042.tcz
 

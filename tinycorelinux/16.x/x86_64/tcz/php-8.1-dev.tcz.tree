@@ -1,4 +1,8 @@
 php-8.1-dev.tcz
+   php-8.1-ext.tcz
+      libxml2.tcz
+         liblzma.tcz
+      pcre21042.tcz
    libxml2-dev.tcz
       libxml2-bin.tcz
          libxml2.tcz
@@ -27,12 +31,9 @@ php-8.1-dev.tcz
             ncursesw.tcz
          ncursesw-dev.tcz
             ncursesw.tcz
-   readline.tcz
-      ncursesw.tcz
    autoconf.tcz
       perl_xml_parser.tcz
          perl5.tcz
             bzip2-lib.tcz
          expat2.tcz
-   php-8.1-ext.tcz
 

@@ -8,14 +8,13 @@ svn.tcz
          gcc_libs.tcz
    sqlite3.tcz
    openldap.tcz
-      libltdl.tcz
+      cyrus-sasl.tcz
+         openssl.tcz
+            gcc_libs.tcz
       unixODBC.tcz
          readline.tcz
             ncursesw.tcz
          libltdl.tcz
-      cyrus-sasl.tcz
-         openssl.tcz
-            gcc_libs.tcz
    gdbm.tcz
    liblz4.tcz
 

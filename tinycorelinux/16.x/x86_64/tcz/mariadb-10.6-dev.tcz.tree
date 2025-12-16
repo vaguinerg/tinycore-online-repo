@@ -49,12 +49,16 @@ mariadb-10.6-dev.tcz
          openssl.tcz
    openldap-dev.tcz
       openldap.tcz
-         libltdl.tcz
+         cyrus-sasl.tcz
+            openssl.tcz
          unixODBC.tcz
             readline.tcz
                ncursesw.tcz
             libltdl.tcz
+      cyrus-sasl-dev.tcz
          cyrus-sasl.tcz
+            openssl.tcz
+         openssl-dev.tcz
             openssl.tcz
       unixODBC-dev.tcz
          unixODBC.tcz
@@ -66,12 +70,6 @@ mariadb-10.6-dev.tcz
                ncursesw.tcz
             ncursesw-dev.tcz
                ncursesw.tcz
-      cyrus-sasl-dev.tcz
-         cyrus-sasl.tcz
-            openssl.tcz
-         openssl-dev.tcz
-            openssl.tcz
-      libltdl.tcz
    openssl-1.1.1-dev.tcz
       openssl-1.1.1.tcz
 

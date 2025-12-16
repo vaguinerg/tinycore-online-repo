@@ -1713,21 +1713,6 @@ kea-dev.tcz
          liblz4-dev.tcz
             liblz4.tcz
    postgresql-16-dev.tcz
-      postgresql-16.tcz
-         openssl.tcz
-         readline.tcz
-            ncursesw.tcz
-         libxslt.tcz
-            libxml2.tcz
-               liblzma.tcz
-         tzdata.tcz
-      openssl-dev.tcz
-         openssl.tcz
-      readline-dev.tcz
-         readline.tcz
-            ncursesw.tcz
-         ncursesw-dev.tcz
-            ncursesw.tcz
       libxslt-dev.tcz
          libxslt.tcz
             libxml2.tcz
@@ -1750,11 +1735,17 @@ kea-dev.tcz
                   libffi.tcz
             liblzma-dev.tcz
                liblzma.tcz
-      liblzma-dev.tcz
-         liblzma.tcz
-      tcl8.6-dev.tcz
-         tcl8.6.tcz
-            tzdata.tcz
+      postgresql-16.tcz
+         openssl.tcz
+         readline.tcz
+            ncursesw.tcz
+         libxslt.tcz
+            libxml2.tcz
+               liblzma.tcz
+         icu74.tcz
+         tzdata.tcz
+      perl5.tcz
+         bzip2-lib.tcz
       python3.9-dev.tcz
          python3.9.tcz
             openssl.tcz
@@ -3448,8 +3439,6 @@ kea-dev.tcz
                      libpciaccess.tcz
                   udev-lib-dev.tcz
                      udev-lib.tcz
-      perl5.tcz
-         bzip2-lib.tcz
    gcc_libs-dev.tcz
       gcc_libs.tcz
 

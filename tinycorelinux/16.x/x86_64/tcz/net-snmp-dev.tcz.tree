@@ -1,40 +1,36 @@
 net-snmp-dev.tcz
+   libpci-dev.tcz
+      libpci.tcz
+   openssl-dev.tcz
+      openssl.tcz
    net-snmp.tcz
       openssl.tcz
       libpci.tcz
       libnl.tcz
       pcre.tcz
-   openssl-dev.tcz
-      openssl.tcz
-   libpci-dev.tcz
-      libpci.tcz
-   mariadb-11.2-dev.tcz
-      mariadb-11.2.tcz
-         libaio.tcz
-         bzip2-lib.tcz
-         openssl.tcz
+   mariadb-11.4-dev.tcz
+      tcp_wrappers-dev.tcz
+         tcp_wrappers.tcz
+      mariadb-11.4.tcz
          libxml2.tcz
             liblzma.tcz
+         libjudy.tcz
+         liblz4.tcz
+         libsnappy.tcz
+         lzo.tcz
+         libaio.tcz
+         pcre21042.tcz
+         tcp_wrappers.tcz
+         linux-pam.tcz
+         curl.tcz
+            ca-certificates.tcz
+               openssl.tcz
+            libzstd.tcz
          unixODBC.tcz
             readline.tcz
                ncursesw.tcz
             libltdl.tcz
-         ncursesw.tcz
-         tcp_wrappers.tcz
-      pcre21042-dev.tcz
-         pcre21042.tcz
-         bzip2-dev.tcz
-            bzip2.tcz
-               bzip2-lib.tcz
-         readline-dev.tcz
-            readline.tcz
-               ncursesw.tcz
-            ncursesw-dev.tcz
-               ncursesw.tcz
-      libaio-dev.tcz
-         libaio.tcz
-      jemalloc-dev.tcz
-         jemalloc.tcz
+         bzip2-lib.tcz
       libxml2-dev.tcz
          libxml2-bin.tcz
             libxml2.tcz
@@ -53,19 +49,37 @@ net-snmp-dev.tcz
                libffi.tcz
          liblzma-dev.tcz
             liblzma.tcz
+      pcre21042-dev.tcz
+         pcre21042.tcz
+         bzip2-dev.tcz
+            bzip2.tcz
+               bzip2-lib.tcz
+         readline-dev.tcz
+            readline.tcz
+               ncursesw.tcz
+            ncursesw-dev.tcz
+               ncursesw.tcz
       libevent-dev.tcz
          libevent.tcz
             openssl.tcz
          openssl-dev.tcz
             openssl.tcz
+      jemalloc-dev.tcz
+         jemalloc.tcz
+      libaio-dev.tcz
+         libaio.tcz
       openldap-dev.tcz
          openldap.tcz
-            libltdl.tcz
+            cyrus-sasl.tcz
+               openssl.tcz
             unixODBC.tcz
                readline.tcz
                   ncursesw.tcz
                libltdl.tcz
+         cyrus-sasl-dev.tcz
             cyrus-sasl.tcz
+               openssl.tcz
+            openssl-dev.tcz
                openssl.tcz
          unixODBC-dev.tcz
             unixODBC.tcz
@@ -77,15 +91,4 @@ net-snmp-dev.tcz
                   ncursesw.tcz
                ncursesw-dev.tcz
                   ncursesw.tcz
-         cyrus-sasl-dev.tcz
-            cyrus-sasl.tcz
-               openssl.tcz
-            openssl-dev.tcz
-               openssl.tcz
-         libltdl.tcz
-      openssl-dev.tcz
-         openssl.tcz
-      tcp_wrappers-dev.tcz
-         tcp_wrappers.tcz
-   pcre.tcz
 

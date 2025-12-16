@@ -1,11 +1,15 @@
 openldap-dev.tcz
    openldap.tcz
-      libltdl.tcz
+      cyrus-sasl.tcz
+         openssl.tcz
       unixODBC.tcz
          readline.tcz
             ncursesw.tcz
          libltdl.tcz
+   cyrus-sasl-dev.tcz
       cyrus-sasl.tcz
+         openssl.tcz
+      openssl-dev.tcz
          openssl.tcz
    unixODBC-dev.tcz
       unixODBC.tcz
@@ -17,10 +21,4 @@ openldap-dev.tcz
             ncursesw.tcz
          ncursesw-dev.tcz
             ncursesw.tcz
-   cyrus-sasl-dev.tcz
-      cyrus-sasl.tcz
-         openssl.tcz
-      openssl-dev.tcz
-         openssl.tcz
-   libltdl.tcz
 

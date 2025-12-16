@@ -4,19 +4,128 @@ serf-dev.tcz
          apr.tcz
          expat2.tcz
    apr-util-dev.tcz
+      apr-dev.tcz
+         apr.tcz
       apr-util.tcz
          apr.tcz
          expat2.tcz
-      apr-dev.tcz
-         apr.tcz
-      openldap-dev.tcz
-         openldap.tcz
-            libltdl.tcz
+      expat2-dev.tcz
+         expat2.tcz
+      gdbm-dev.tcz
+         gdbm.tcz
+      mariadb-12.1-dev.tcz
+         tcp_wrappers-dev.tcz
+            tcp_wrappers.tcz
+         libxml2-dev.tcz
+            libxml2-bin.tcz
+               libxml2.tcz
+                  liblzma.tcz
+               readline.tcz
+                  ncursesw.tcz
+            libxml2-python.tcz
+               libxml2.tcz
+                  liblzma.tcz
+               python3.9.tcz
+                  openssl.tcz
+                     gcc_libs.tcz
+                  sqlite3.tcz
+                  gdbm.tcz
+                  bzip2-lib.tcz
+                  liblzma.tcz
+                  readline.tcz
+                     ncursesw.tcz
+                  libffi.tcz
+            liblzma-dev.tcz
+               liblzma.tcz
+            readline-dev.tcz
+               readline.tcz
+                  ncursesw.tcz
+               ncursesw-dev.tcz
+                  ncursesw.tcz
+         pcre21042-dev.tcz
+            pcre21042.tcz
+            bzip2-dev.tcz
+               bzip2.tcz
+                  bzip2-lib.tcz
+            readline-dev.tcz
+               readline.tcz
+                  ncursesw.tcz
+               ncursesw-dev.tcz
+                  ncursesw.tcz
+         libevent-dev.tcz
+            libevent.tcz
+               openssl.tcz
+                  gcc_libs.tcz
+            openssl-dev.tcz
+               openssl.tcz
+                  gcc_libs.tcz
+         mariadb-12.1.tcz
+            libxml2.tcz
+               liblzma.tcz
+            libjudy.tcz
+            liblz4.tcz
+            libsnappy.tcz
+            lzo.tcz
+            libaio.tcz
+            pcre21042.tcz
+            tcp_wrappers.tcz
+            Linux-PAM.tcz
+               cracklib.tcz
+               db.tcz
+            curl.tcz
+               ca-certificates.tcz
+                  openssl.tcz
+                     gcc_libs.tcz
+               libzstd.tcz
             unixODBC.tcz
                readline.tcz
                   ncursesw.tcz
                libltdl.tcz
+            bzip2-lib.tcz
+         jemalloc-dev.tcz
+            jemalloc.tcz
+         libaio-dev.tcz
+            libaio.tcz
+         openldap-dev.tcz
+            openldap.tcz
+               cyrus-sasl.tcz
+                  openssl.tcz
+                     gcc_libs.tcz
+               unixODBC.tcz
+                  readline.tcz
+                     ncursesw.tcz
+                  libltdl.tcz
+            cyrus-sasl-dev.tcz
+               cyrus-sasl.tcz
+                  openssl.tcz
+                     gcc_libs.tcz
+               openssl-dev.tcz
+                  openssl.tcz
+                     gcc_libs.tcz
+            unixODBC-dev.tcz
+               unixODBC.tcz
+                  readline.tcz
+                     ncursesw.tcz
+                  libltdl.tcz
+               readline-dev.tcz
+                  readline.tcz
+                     ncursesw.tcz
+                  ncursesw-dev.tcz
+                     ncursesw.tcz
+      openldap-dev.tcz
+         openldap.tcz
             cyrus-sasl.tcz
+               openssl.tcz
+                  gcc_libs.tcz
+            unixODBC.tcz
+               readline.tcz
+                  ncursesw.tcz
+               libltdl.tcz
+         cyrus-sasl-dev.tcz
+            cyrus-sasl.tcz
+               openssl.tcz
+                  gcc_libs.tcz
+            openssl-dev.tcz
                openssl.tcz
                   gcc_libs.tcz
          unixODBC-dev.tcz
@@ -29,16 +138,8 @@ serf-dev.tcz
                   ncursesw.tcz
                ncursesw-dev.tcz
                   ncursesw.tcz
-         cyrus-sasl-dev.tcz
-            cyrus-sasl.tcz
-               openssl.tcz
-                  gcc_libs.tcz
-            openssl-dev.tcz
-               openssl.tcz
-                  gcc_libs.tcz
-         libltdl.tcz
-      postgresql-16-dev.tcz
-         postgresql-16.tcz
+      postgresql-18-dev.tcz
+         postgresql-18.tcz
             openssl.tcz
                gcc_libs.tcz
             readline.tcz
@@ -47,14 +148,6 @@ serf-dev.tcz
                libxml2.tcz
                   liblzma.tcz
             tzdata.tcz
-         openssl-dev.tcz
-            openssl.tcz
-               gcc_libs.tcz
-         readline-dev.tcz
-            readline.tcz
-               ncursesw.tcz
-            ncursesw-dev.tcz
-               ncursesw.tcz
          libxslt-dev.tcz
             libxslt.tcz
                libxml2.tcz
@@ -85,11 +178,8 @@ serf-dev.tcz
                      ncursesw.tcz
                   ncursesw-dev.tcz
                      ncursesw.tcz
-         liblzma-dev.tcz
-            liblzma.tcz
-         tcl8.6-dev.tcz
-            tcl8.6.tcz
-               tzdata.tcz
+         perl5.tcz
+            bzip2-lib.tcz
          python3.9-dev.tcz
             python3.9.tcz
                openssl.tcz
@@ -1944,135 +2034,6 @@ serf-dev.tcz
                               libffi.tcz
             liblzma-dev.tcz
                liblzma.tcz
-         perl5.tcz
-            bzip2-lib.tcz
-      mariadb-11.2-dev.tcz
-         mariadb-11.2.tcz
-            libaio.tcz
-            bzip2-lib.tcz
-            openssl.tcz
-               gcc_libs.tcz
-            libxml2.tcz
-               liblzma.tcz
-            unixODBC.tcz
-               readline.tcz
-                  ncursesw.tcz
-               libltdl.tcz
-            ncursesw.tcz
-            libjudy.tcz
-            curl.tcz
-               ca-certificates.tcz
-                  openssl.tcz
-                     gcc_libs.tcz
-               libzstd.tcz
-            libltdl.tcz
-            liblz4.tcz
-            liblzma.tcz
-            pcre21042.tcz
-            libsnappy.tcz
-            tcp_wrappers.tcz
-            lzo.tcz
-            libzstd.tcz
-            Linux-PAM.tcz
-               cracklib.tcz
-               db.tcz
-         pcre21042-dev.tcz
-            pcre21042.tcz
-            bzip2-dev.tcz
-               bzip2.tcz
-                  bzip2-lib.tcz
-            readline-dev.tcz
-               readline.tcz
-                  ncursesw.tcz
-               ncursesw-dev.tcz
-                  ncursesw.tcz
-         libaio-dev.tcz
-            libaio.tcz
-         jemalloc-dev.tcz
-            jemalloc.tcz
-         libxml2-dev.tcz
-            libxml2-bin.tcz
-               libxml2.tcz
-                  liblzma.tcz
-               readline.tcz
-                  ncursesw.tcz
-            libxml2-python.tcz
-               libxml2.tcz
-                  liblzma.tcz
-               python3.9.tcz
-                  openssl.tcz
-                     gcc_libs.tcz
-                  sqlite3.tcz
-                  gdbm.tcz
-                  bzip2-lib.tcz
-                  liblzma.tcz
-                  readline.tcz
-                     ncursesw.tcz
-                  libffi.tcz
-            liblzma-dev.tcz
-               liblzma.tcz
-            readline-dev.tcz
-               readline.tcz
-                  ncursesw.tcz
-               ncursesw-dev.tcz
-                  ncursesw.tcz
-         libevent-dev.tcz
-            libevent.tcz
-               openssl.tcz
-                  gcc_libs.tcz
-            openssl-dev.tcz
-               openssl.tcz
-                  gcc_libs.tcz
-         openldap-dev.tcz
-            openldap.tcz
-               libltdl.tcz
-               unixODBC.tcz
-                  readline.tcz
-                     ncursesw.tcz
-                  libltdl.tcz
-               cyrus-sasl.tcz
-                  openssl.tcz
-                     gcc_libs.tcz
-            unixODBC-dev.tcz
-               unixODBC.tcz
-                  readline.tcz
-                     ncursesw.tcz
-                  libltdl.tcz
-               readline-dev.tcz
-                  readline.tcz
-                     ncursesw.tcz
-                  ncursesw-dev.tcz
-                     ncursesw.tcz
-            cyrus-sasl-dev.tcz
-               cyrus-sasl.tcz
-                  openssl.tcz
-                     gcc_libs.tcz
-               openssl-dev.tcz
-                  openssl.tcz
-                     gcc_libs.tcz
-            libltdl.tcz
-         openssl-dev.tcz
-            openssl.tcz
-               gcc_libs.tcz
-         tcp_wrappers-dev.tcz
-            tcp_wrappers.tcz
-      unixODBC-dev.tcz
-         unixODBC.tcz
-            readline.tcz
-               ncursesw.tcz
-            libltdl.tcz
-         readline-dev.tcz
-            readline.tcz
-               ncursesw.tcz
-            ncursesw-dev.tcz
-               ncursesw.tcz
-      openssl-dev.tcz
-         openssl.tcz
-            gcc_libs.tcz
-      gdbm-dev.tcz
-         gdbm.tcz
-      expat2-dev.tcz
-         expat2.tcz
       sqlite3-dev.tcz
          sqlite3-bin.tcz
             sqlite3.tcz

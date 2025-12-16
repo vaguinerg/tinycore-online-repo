@@ -1,14 +1,16 @@
 bind-dev.tcz
    bind.tcz
+      jemalloc.tcz
       libcap.tcz
          attr.tcz
-      openssl.tcz
-      gcc_libs.tcz
+      libnghttp2.tcz
+      liburcu.tcz
       libuv.tcz
       libxml2.tcz
          liblzma.tcz
-      libnghttp2.tcz
-      jemalloc.tcz
+      openssl.tcz
+      readline.tcz
+         ncursesw.tcz
    openssl-dev.tcz
       openssl.tcz
    libcap-dev.tcz

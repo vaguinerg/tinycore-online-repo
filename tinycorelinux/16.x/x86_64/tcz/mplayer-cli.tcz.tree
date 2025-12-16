@@ -1,18 +1,7 @@
 mplayer-cli.tcz
-   gnutls38.tcz
-      p11-kit.tcz
-         libffi7.tcz
-         libtasn1-4.tcz
-      nettle39.tcz
-         gmp.tcz
-      libidn2.tcz
-         libunistring.tcz
-         ncursesw.tcz
-      libzstd.tcz
    libmng.tcz
       libjpeg-turbo.tcz
       liblcms2.tcz
-   libasound.tcz
    libcdio-paranoia.tcz
       libcdio.tcz
          libcddb.tcz
@@ -39,10 +28,7 @@ mplayer-cli.tcz
             bzip2-lib.tcz
    lzo.tcz
    libmad.tcz
-   libvorbis.tcz
-      libogg.tcz
-   libtheora.tcz
-      libogg.tcz
+   libvorbis.tvz
    mpg123.tcz
       portaudio.tcz
          libasound.tcz
@@ -346,49 +332,59 @@ mplayer-cli.tcz
    libdv.tcz
    libdvdnav.tcz
       libdvdread.tcz
-   sdl.tcz
-   libpulseaudio.tcz
-      dbus.tcz
-         expat2.tcz
-         elogind.tcz
-            acl.tcz
-               attr.tcz
-            libcap.tcz
-               attr.tcz
-            util-linux.tcz
-               readline.tcz
-                  ncursesw.tcz
-               udev-lib.tcz
-            linux-pam.tcz
-         libX11.tcz
-            libxcb.tcz
-               libXau.tcz
-               libXdmcp.tcz
-      libcap.tcz
-         attr.tcz
-      glib2.tcz
-         libffi.tcz
-         pcre21042.tcz
-      libsndfile.tcz
-         flac.tcz
-            libogg.tcz
-         libvorbis.tcz 
-      libXtst.tcz
-         libXi.tcz
-            libXext.tcz
-               libX11.tcz
-                  libxcb.tcz
-                     libXau.tcz
-                     libXdmcp.tcz
-      libICE.tcz
-      libSM.tcz
-   openal.tcz
-   faac.tcz
-   liblcms2.tcz
    libXss.tcz
       libXext.tcz
          libX11.tcz
             libxcb.tcz
                libXau.tcz
                libXdmcp.tcz
+   libXv.tcz
+      libXext.tcz
+         libX11.tcz
+            libxcb.tcz
+               libXau.tcz
+               libXdmcp.tcz
+   libXinerama.tcz
+      libXext.tcz
+         libX11.tcz
+            libxcb.tcz
+               libXau.tcz
+               libXdmcp.tcz
+   libXxf86dga.tcz
+      libXext.tcz
+         libX11.tcz
+            libxcb.tcz
+               libXau.tcz
+               libXdmcp.tcz
+   sdl.tcz
+   libEGL.tcz
+      mesa.tcz
+         libdrm.tcz
+            libpciaccess.tcz
+            udev-lib.tcz
+         expat2.tcz
+         libxshmfence.tcz
+         elfutils.tcz
+            liblzma.tcz
+            bzip2-lib.tcz
+         llvm19-lib.tcz
+            libffi7.tcz
+            libxml2.tcz
+               liblzma.tcz
+            libzstd.tcz
+            ncursesw.tcz
+         libvdpau.tcz
+            libXext.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
+         gcc_libs.tcz
+         spirv-tools.tcz
+      wayland.tcz
+         libffi.tcz
+         expat2.tcz
+         libxml2.tcz
+            liblzma.tcz
+   libopenal.tcz
 

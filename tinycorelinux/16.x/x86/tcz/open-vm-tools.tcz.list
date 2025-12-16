@@ -1,4 +1,3 @@
-/usr/bin/vm-support
 /usr/local/lib/libguestlib.so.0.0.0
 /usr/local/lib/libhgfs.so
 /usr/local/lib/libappmonitor.so.0
@@ -17,7 +16,6 @@
 /usr/local/lib/open-vm-tools/plugins/common/libvix.so
 /usr/local/lib/open-vm-tools/plugins/common/libhgfsServer.so
 /usr/local/lib/open-vm-tools/plugins/vmsvc/libguestStore.so
-/usr/local/lib/open-vm-tools/plugins/vmsvc/libresolutionKMS.so
 /usr/local/lib/open-vm-tools/plugins/vmsvc/libvmbackup.so
 /usr/local/lib/open-vm-tools/plugins/vmsvc/libguestInfo.so
 /usr/local/lib/open-vm-tools/plugins/vmsvc/libtimeSync.so
@@ -31,10 +29,10 @@
 /usr/local/lib/open-vm-tools/serviceDiscovery/scripts/get-connection-info.sh
 /usr/local/lib/open-vm-tools/serviceDiscovery/scripts/get-listening-process-perf-metrics.sh
 /usr/local/bin/vmtoolsd
-/usr/local/bin/vmwgfxctrl
 /usr/local/bin/vmware-toolbox-cmd
 /usr/local/bin/vmware-checkvm
 /usr/local/bin/vmhgfs-fuse
+/usr/local/bin/vm-support
 /usr/local/bin/vmware-xferlogs
 /usr/local/bin/vmware-namespace-cmd
 /usr/local/bin/vmware-hgfsclient
@@ -46,16 +44,6 @@
 /usr/local/share/open-vm-tools/messages/ja/toolboxcmd.vmsg
 /usr/local/share/open-vm-tools/messages/en/vmtoolsd.vmsg
 /usr/local/share/open-vm-tools/messages/en/toolboxcmd.vmsg
-/usr/local/share/open-vm-tools/messages/zh_TW/vmtoolsd.vmsg
-/usr/local/share/open-vm-tools/messages/zh_TW/toolboxcmd.vmsg
-/usr/local/share/open-vm-tools/messages/de/vmtoolsd.vmsg
-/usr/local/share/open-vm-tools/messages/de/toolboxcmd.vmsg
-/usr/local/share/open-vm-tools/messages/ko/vmtoolsd.vmsg
-/usr/local/share/open-vm-tools/messages/ko/toolboxcmd.vmsg
-/usr/local/share/open-vm-tools/messages/zh_CN/vmtoolsd.vmsg
-/usr/local/share/open-vm-tools/messages/zh_CN/toolboxcmd.vmsg
-/usr/local/share/open-vm-tools/messages/it/vmtoolsd.vmsg
-/usr/local/share/open-vm-tools/messages/it/toolboxcmd.vmsg
 /usr/local/share/open-vm-tools/messages/es/vmtoolsd.vmsg
 /usr/local/share/open-vm-tools/messages/es/toolboxcmd.vmsg
 /usr/local/etc/init.d/open-vm-tools

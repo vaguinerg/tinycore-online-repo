@@ -19,13 +19,12 @@ freeradius-dev.tcz
          openssl.tcz
       linux-pam.tcz
       openldap.tcz
-         libltdl.tcz
+         cyrus-sasl.tcz
+            openssl.tcz
          unixODBC.tcz
             readline.tcz
                ncursesw.tcz
             libltdl.tcz
-         cyrus-sasl.tcz
-            openssl.tcz
       unbound.tcz
          expat2.tcz
          libevent.tcz

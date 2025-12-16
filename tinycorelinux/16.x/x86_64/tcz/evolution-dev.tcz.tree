@@ -1595,13 +1595,12 @@ evolution-dev.tcz
                               libXdmcp.tcz
                      linux-pam.tcz
       openldap.tcz
-         libltdl.tcz
+         cyrus-sasl.tcz
+            openssl.tcz
          unixODBC.tcz
             readline.tcz
                ncursesw.tcz
             libltdl.tcz
-         cyrus-sasl.tcz
-            openssl.tcz
       gnome-autoar.tcz
          gtk3.tcz
             libepoxy.tcz
@@ -69277,12 +69276,16 @@ evolution-dev.tcz
                   liblz4.tcz
    openldap-dev.tcz
       openldap.tcz
-         libltdl.tcz
+         cyrus-sasl.tcz
+            openssl.tcz
          unixODBC.tcz
             readline.tcz
                ncursesw.tcz
             libltdl.tcz
+      cyrus-sasl-dev.tcz
          cyrus-sasl.tcz
+            openssl.tcz
+         openssl-dev.tcz
             openssl.tcz
       unixODBC-dev.tcz
          unixODBC.tcz
@@ -69294,12 +69297,6 @@ evolution-dev.tcz
                ncursesw.tcz
             ncursesw-dev.tcz
                ncursesw.tcz
-      cyrus-sasl-dev.tcz
-         cyrus-sasl.tcz
-            openssl.tcz
-         openssl-dev.tcz
-            openssl.tcz
-      libltdl.tcz
    gnome-autoar-dev.tcz
       gnome-autoar.tcz
          gtk3.tcz

@@ -7,10 +7,18 @@ lldpd-dev.tcz
       libxml2.tcz
          liblzma.tcz
       net-snmp.tcz
+         libpcap.tcz
+            libusb.tcz
+               udev-lib.tcz
+                  glib2.tcz
+                     libffi.tcz
+                     pcre21042.tcz
+            libnl.tcz
+            dbus.tcz
+               expat2.tcz
+         libpci.tcz
          openssl.tcz
             gcc_libs.tcz
-         libpci.tcz
-         libnl.tcz
          pcre.tcz
             bzip2-lib.tcz
 
