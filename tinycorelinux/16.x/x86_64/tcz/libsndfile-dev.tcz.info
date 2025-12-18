@@ -1,14 +1,17 @@
 Title:          libsndfile-dev.tcz
 Description:    dev files
-Version:        1.0.28
-Author:         http://www.mega-nerd.com/libsndfile/AUTHORS
-Original-site:  http://www.mega-nerd.com/libsndfile/
+Version:        1.2.2
+Author:         https://github.com/libsndfile/libsndfile/blob/master/AUTHORS
+Original-site:  https://github.com/libsndfile/
 Copying-policy: LGPL v 2.1
-Size:           300K           
+Size:           16K           
 Extension_by:   aus9 @linuxquestions.org
 Tags:           audio 
 Comments:       Development
-                contains libsndfile.a
-                
+                lame-dev was built with libsndfile-dev
+                so lame-dev needs to be loaded manually,
+                if you need to recompile something
+
 Change-log:     2013/11/10 v 1.0.25 (Juanito)
-Current:        2024/06/21 v 1.0.28 on 15x (aus9) 
+                2024/06/21 v 1.0.28 on 15x contains libsndfile.a (aus9)
+Current:        2025/12/17 v 1.2.2 on 16x - no libsndfile.a
