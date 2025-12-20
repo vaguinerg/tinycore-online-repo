@@ -55,12 +55,9 @@ freerdp-dev.tcz
             libffi.tcz
             pcre21042.tcz
          libsndfile.tcz
-            opus.tcz
-            mpg123.tcz 
             flac.tcz
                libogg.tcz
-            libvorbis.tcz
-               libogg.tcz
+            libvorbis.tcz 
          libXtst.tcz
             libXi.tcz
                libXext.tcz
@@ -679,12 +676,9 @@ freerdp-dev.tcz
                   libffi.tcz
                   pcre21042.tcz
                libsndfile.tcz
-                  opus.tcz
-                  mpg123.tcz 
                   flac.tcz
                      libogg.tcz
-                  libvorbis.tcz
-                     libogg.tcz
+                  libvorbis.tcz 
                libXtst.tcz
                   libXi.tcz
                      libXext.tcz
@@ -1168,12 +1162,9 @@ freerdp-dev.tcz
                   libffi.tcz
                   pcre21042.tcz
                libsndfile.tcz
-                  opus.tcz
-                  mpg123.tcz 
                   flac.tcz
                      libogg.tcz
-                  libvorbis.tcz
-                     libogg.tcz
+                  libvorbis.tcz 
                libXtst.tcz
                   libXi.tcz
                      libXext.tcz
@@ -1242,8 +1233,20 @@ freerdp-dev.tcz
                libogg-dev.tcz
                   libogg.tcz
          libsndfile-dev.tcz
-            mpg123-dev.tcz 
-            opus-dev.tcz    
+            libsndfile.tcz
+               flac.tcz
+                  libogg.tcz
+               libvorbis.tcz 
+            flac-dev.tcz
+               flac.tcz
+                  libogg.tcz
+               libogg-dev.tcz
+                  libogg.tcz
+            libvorbis-dev.tcz
+               libvorbis.tcz
+                  libogg.tcz
+               libogg-dev.tcz
+                  libogg.tcz
          libbluetooth-dev.tcz
             libbluetooth.tcz
                bluez.tcz
@@ -1277,8 +1280,20 @@ freerdp-dev.tcz
             sbc-dev.tcz
                sbc.tcz
                libsndfile-dev.tcz
-                  mpg123-dev.tcz 
-                  opus-dev.tcz    
+                  libsndfile.tcz
+                     flac.tcz
+                        libogg.tcz
+                     libvorbis.tcz 
+                  flac-dev.tcz
+                     flac.tcz
+                        libogg.tcz
+                     libogg-dev.tcz
+                        libogg.tcz
+                  libvorbis-dev.tcz
+                     libvorbis.tcz
+                        libogg.tcz
+                     libogg-dev.tcz
+                        libogg.tcz
             alsa-dev.tcz
                alsa.tcz
                   alsa-modules-6.12.11-tinycore64.tcz
@@ -7914,8 +7929,20 @@ freerdp-dev.tcz
          ncursesw-dev.tcz
             ncursesw.tcz
          libsndfile-dev.tcz
-            mpg123-dev.tcz 
-            opus-dev.tcz    
+            libsndfile.tcz
+               flac.tcz
+                  libogg.tcz
+               libvorbis.tcz 
+            flac-dev.tcz
+               flac.tcz
+                  libogg.tcz
+               libogg-dev.tcz
+                  libogg.tcz
+            libvorbis-dev.tcz
+               libvorbis.tcz
+                  libogg.tcz
+               libogg-dev.tcz
+                  libogg.tcz
       libcdio-paranoia-dev.tcz
          libcdio-paranoia.tcz
             libcdio.tcz
@@ -7972,12 +7999,9 @@ freerdp-dev.tcz
                         libffi.tcz
                         pcre21042.tcz
                      libsndfile.tcz
-                        opus.tcz
-                        mpg123.tcz 
                         flac.tcz
                            libogg.tcz
-                        libvorbis.tcz
-                           libogg.tcz
+                        libvorbis.tcz 
                      libXtst.tcz
                         libXi.tcz
                            libXext.tcz
@@ -8043,12 +8067,9 @@ freerdp-dev.tcz
                         libffi.tcz
                         pcre21042.tcz
                      libsndfile.tcz
-                        opus.tcz
-                        mpg123.tcz 
                         flac.tcz
                            libogg.tcz
-                        libvorbis.tcz
-                           libogg.tcz
+                        libvorbis.tcz 
                      libXtst.tcz
                         libXi.tcz
                            libXext.tcz
@@ -8117,8 +8138,20 @@ freerdp-dev.tcz
                      libogg-dev.tcz
                         libogg.tcz
                libsndfile-dev.tcz
-                  mpg123-dev.tcz 
-                  opus-dev.tcz    
+                  libsndfile.tcz
+                     flac.tcz
+                        libogg.tcz
+                     libvorbis.tcz 
+                  flac-dev.tcz
+                     flac.tcz
+                        libogg.tcz
+                     libogg-dev.tcz
+                        libogg.tcz
+                  libvorbis-dev.tcz
+                     libvorbis.tcz
+                        libogg.tcz
+                     libogg-dev.tcz
+                        libogg.tcz
                libbluetooth-dev.tcz
                   libbluetooth.tcz
                      bluez.tcz
@@ -8152,8 +8185,20 @@ freerdp-dev.tcz
                   sbc-dev.tcz
                      sbc.tcz
                      libsndfile-dev.tcz
-                        mpg123-dev.tcz 
-                        opus-dev.tcz    
+                        libsndfile.tcz
+                           flac.tcz
+                              libogg.tcz
+                           libvorbis.tcz 
+                        flac-dev.tcz
+                           flac.tcz
+                              libogg.tcz
+                           libogg-dev.tcz
+                              libogg.tcz
+                        libvorbis-dev.tcz
+                           libvorbis.tcz
+                              libogg.tcz
+                           libogg-dev.tcz
+                              libogg.tcz
                   alsa-dev.tcz
                      alsa.tcz
                         alsa-modules-6.12.11-tinycore64.tcz
