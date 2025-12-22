@@ -7,11 +7,10 @@ Copying-policy: LGPL v 2.1
 Size:           16K           
 Extension_by:   aus9 @linuxquestions.org
 Tags:           audio 
-Comments:       Development
-                lame-dev was built with libsndfile-dev
-                so lame-dev needs to be loaded manually,
-                if you need to recompile something
+Comments:       Manually load lame-dev due to 
+                circular dependency
 
 Change-log:     2013/11/10 v 1.0.25 (Juanito)
                 2024/06/21 v 1.0.28 on 15x contains libsndfile.a (aus9)
-Current:        2025/12/17 v 1.2.2 on 16x - no libsndfile.a
+                2025/12/17 v 1.2.2 on 16x - no libsndfile.a
+Current:        2025/12/20 remove circular dependency

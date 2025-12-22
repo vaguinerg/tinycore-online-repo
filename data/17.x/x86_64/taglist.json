@@ -20,7 +20,13 @@
   "bison.tcz": [
     "parser generator"
   ],
+  "bzip2-dev.tcz": [
+    "compression utility dev"
+  ],
   "bzip2-lib.tcz": [
+    "compression utility"
+  ],
+  "bzip2.tcz": [
     "compression utility"
   ],
   "compiletc.tcz": [
@@ -41,6 +47,12 @@
   "e2fsprogs_base-dev.tcz": [
     "linux fs tools dev"
   ],
+  "elfutils-dev.tcz": [
+    "elf utilities dev"
+  ],
+  "elfutils.tcz": [
+    "elf utilities"
+  ],
   "expat2-dev.tcz": [
     "xml parser dev"
   ],
@@ -52,6 +64,9 @@
   ],
   "findutils.tcz": [
     "findutils"
+  ],
+  "flex-dev.tcz": [
+    "lexical analyzer generator dev"
   ],
   "flex.tcz": [
     "lexical analyzer generator"
@@ -91,6 +106,9 @@
   ],
   "glibc_i18n_locale.tcz": [
     "glibc locale"
+  ],
+  "gmp-dev.tcz": [
+    "gmp dev"
   ],
   "gmp.tcz": [
     "arbitrary precision arithmetic"
@@ -143,6 +161,9 @@
   "lz4.tcz": [
     "COMPRESSION CLI LZ4"
   ],
+  "lzo-dev.tcz": [
+    "lzo data lossless compression dev"
+  ],
   "lzo.tcz": [
     "lzo data lossless compression"
   ],
@@ -151,6 +172,9 @@
   ],
   "make.tcz": [
     "gnu make"
+  ],
+  "mpc-dev.tcz": [
+    "mpc dev"
   ],
   "mpc.tcz": [
     "complex floating-point library"
@@ -217,5 +241,11 @@
   ],
   "zlib_base-dev.tcz": [
     "zlib dev"
+  ],
+  "zstd-dev.tcz": [
+    "zstd zlib lzma compression dev"
+  ],
+  "zstd.tcz": [
+    "zstd zlib lzma compression"
   ]
 }

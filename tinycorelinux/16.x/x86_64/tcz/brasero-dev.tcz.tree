@@ -947,42 +947,8 @@ brasero-dev.tcz
       mpg123.tcz
          portaudio.tcz
             libasound.tcz
-         libpulseaudio.tcz
-            dbus.tcz
-               expat2.tcz
-               elogind.tcz
-                  acl.tcz
-                     attr.tcz
-                  libcap.tcz
-                     attr.tcz
-                  util-linux.tcz
-                     readline.tcz
-                        ncursesw.tcz
-                     udev-lib.tcz
-                  linux-pam.tcz
-               libX11.tcz
-                  libxcb.tcz
-                     libXau.tcz
-                     libXdmcp.tcz
-            libcap.tcz
-               attr.tcz
-            glib2.tcz
-               libffi.tcz
-               pcre21042.tcz
-            libsndfile.tcz
-               flac.tcz
-                  libogg.tcz
-               libvorbis.tcz 
-            libXtst.tcz
-               libXi.tcz
-                  libXext.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-            libICE.tcz
-            libSM.tcz
-         sdl2.tcz 
+         sdl2.tcz
+         libmpg123.tcz 
       taglib.tcz  
       libvpx18.tcz
       wavpack.tcz 
@@ -2682,7 +2648,11 @@ brasero-dev.tcz
                      libsndfile.tcz
                         flac.tcz
                            libogg.tcz
-                        libvorbis.tcz 
+                        libvorbis.tcz
+                           libogg.tcz
+                        opus.tcz
+                        libmpg123.tcz 
+                        lame.tcz
                      libXtst.tcz
                         libXi.tcz
                            libXext.tcz
@@ -2750,7 +2720,11 @@ brasero-dev.tcz
                      libsndfile.tcz
                         flac.tcz
                            libogg.tcz
-                        libvorbis.tcz 
+                        libvorbis.tcz
+                           libogg.tcz
+                        opus.tcz
+                        libmpg123.tcz 
+                        lame.tcz
                      libXtst.tcz
                         libXi.tcz
                            libXext.tcz
@@ -2822,17 +2796,13 @@ brasero-dev.tcz
                   libsndfile.tcz
                      flac.tcz
                         libogg.tcz
-                     libvorbis.tcz 
-                  flac-dev.tcz
-                     flac.tcz
-                        libogg.tcz
-                     libogg-dev.tcz
-                        libogg.tcz
-                  libvorbis-dev.tcz
                      libvorbis.tcz
                         libogg.tcz
-                     libogg-dev.tcz
-                        libogg.tcz
+                     opus.tcz
+                     libmpg123.tcz 
+                     lame.tcz
+                  flac-dev.tcz 
+                  libvorbis-dev.tcz   
                libbluetooth-dev.tcz
                   libbluetooth.tcz
                      bluez.tcz
@@ -2869,17 +2839,13 @@ brasero-dev.tcz
                         libsndfile.tcz
                            flac.tcz
                               libogg.tcz
-                           libvorbis.tcz 
-                        flac-dev.tcz
-                           flac.tcz
-                              libogg.tcz
-                           libogg-dev.tcz
-                              libogg.tcz
-                        libvorbis-dev.tcz
                            libvorbis.tcz
                               libogg.tcz
-                           libogg-dev.tcz
-                              libogg.tcz
+                           opus.tcz
+                           libmpg123.tcz 
+                           lame.tcz
+                        flac-dev.tcz 
+                        libvorbis-dev.tcz   
                   alsa-dev.tcz
                      alsa.tcz
                         alsa-modules-6.12.11-tinycore64.tcz
@@ -14398,7 +14364,11 @@ brasero-dev.tcz
                         libsndfile.tcz
                            flac.tcz
                               libogg.tcz
-                           libvorbis.tcz 
+                           libvorbis.tcz
+                              libogg.tcz
+                           opus.tcz
+                           libmpg123.tcz 
+                           lame.tcz
                         libXtst.tcz
                            libXi.tcz
                               libXext.tcz
@@ -14466,7 +14436,11 @@ brasero-dev.tcz
                         libsndfile.tcz
                            flac.tcz
                               libogg.tcz
-                           libvorbis.tcz 
+                           libvorbis.tcz
+                              libogg.tcz
+                           opus.tcz
+                           libmpg123.tcz 
+                           lame.tcz
                         libXtst.tcz
                            libXi.tcz
                               libXext.tcz
@@ -14538,17 +14512,13 @@ brasero-dev.tcz
                      libsndfile.tcz
                         flac.tcz
                            libogg.tcz
-                        libvorbis.tcz 
-                     flac-dev.tcz
-                        flac.tcz
-                           libogg.tcz
-                        libogg-dev.tcz
-                           libogg.tcz
-                     libvorbis-dev.tcz
                         libvorbis.tcz
                            libogg.tcz
-                        libogg-dev.tcz
-                           libogg.tcz
+                        opus.tcz
+                        libmpg123.tcz 
+                        lame.tcz
+                     flac-dev.tcz 
+                     libvorbis-dev.tcz   
                   libbluetooth-dev.tcz
                      libbluetooth.tcz
                         bluez.tcz
@@ -14585,17 +14555,13 @@ brasero-dev.tcz
                            libsndfile.tcz
                               flac.tcz
                                  libogg.tcz
-                              libvorbis.tcz 
-                           flac-dev.tcz
-                              flac.tcz
-                                 libogg.tcz
-                              libogg-dev.tcz
-                                 libogg.tcz
-                           libvorbis-dev.tcz
                               libvorbis.tcz
                                  libogg.tcz
-                              libogg-dev.tcz
-                                 libogg.tcz
+                              opus.tcz
+                              libmpg123.tcz 
+                              lame.tcz
+                           flac-dev.tcz 
+                           libvorbis-dev.tcz   
                      alsa-dev.tcz
                         alsa.tcz
                            alsa-modules-6.12.11-tinycore64.tcz
@@ -19479,7 +19445,11 @@ brasero-dev.tcz
                libsndfile.tcz
                   flac.tcz
                      libogg.tcz
-                  libvorbis.tcz 
+                  libvorbis.tcz
+                     libogg.tcz
+                  opus.tcz
+                  libmpg123.tcz 
+                  lame.tcz
                libXtst.tcz
                   libXi.tcz
                      libXext.tcz
@@ -19551,17 +19521,13 @@ brasero-dev.tcz
             libsndfile.tcz
                flac.tcz
                   libogg.tcz
-               libvorbis.tcz 
-            flac-dev.tcz
-               flac.tcz
-                  libogg.tcz
-               libogg-dev.tcz
-                  libogg.tcz
-            libvorbis-dev.tcz
                libvorbis.tcz
                   libogg.tcz
-               libogg-dev.tcz
-                  libogg.tcz
+               opus.tcz
+               libmpg123.tcz 
+               lame.tcz
+            flac-dev.tcz 
+            libvorbis-dev.tcz   
          libbluetooth-dev.tcz
             libbluetooth.tcz
                bluez.tcz
@@ -19598,17 +19564,13 @@ brasero-dev.tcz
                   libsndfile.tcz
                      flac.tcz
                         libogg.tcz
-                     libvorbis.tcz 
-                  flac-dev.tcz
-                     flac.tcz
-                        libogg.tcz
-                     libogg-dev.tcz
-                        libogg.tcz
-                  libvorbis-dev.tcz
                      libvorbis.tcz
                         libogg.tcz
-                     libogg-dev.tcz
-                        libogg.tcz
+                     opus.tcz
+                     libmpg123.tcz 
+                     lame.tcz
+                  flac-dev.tcz 
+                  libvorbis-dev.tcz   
             alsa-dev.tcz
                alsa.tcz
                   alsa-modules-6.12.11-tinycore64.tcz

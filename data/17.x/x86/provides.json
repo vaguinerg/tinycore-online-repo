@@ -519,10 +519,27 @@
     "/usr/local/share/bison/xslt/xml2text.xsl",
     "/usr/local/share/bison/xslt/xml2xhtml.xsl"
   ],
+  "bzip2-dev.tcz": [
+    "/usr/local/include/bzlib.h",
+    "/usr/local/lib/libbz2.a"
+  ],
   "bzip2-lib.tcz": [
     "/usr/local/lib/libbz2.so",
     "/usr/local/lib/libbz2.so.1.0",
     "/usr/local/lib/libbz2.so.1.0.8"
+  ],
+  "bzip2.tcz": [
+    "/usr/local/bin/bunzip2",
+    "/usr/local/bin/bzcat",
+    "/usr/local/bin/bzcmp",
+    "/usr/local/bin/bzdiff",
+    "/usr/local/bin/bzegrep",
+    "/usr/local/bin/bzfgrep",
+    "/usr/local/bin/bzgrep",
+    "/usr/local/bin/bzip2",
+    "/usr/local/bin/bzip2recover",
+    "/usr/local/bin/bzless",
+    "/usr/local/bin/bzmore"
   ],
   "compiletc.tcz": [
     "/usr/local/share/compiletc/files/README"
@@ -698,6 +715,51 @@
     "/usr/share/et/et_c.awk",
     "/usr/share/et/et_h.awk"
   ],
+  "elfutils-dev.tcz": [
+    "/usr/local/include/dwarf.h",
+    "/usr/local/include/elfutils/elf-knowledge.h",
+    "/usr/local/include/elfutils/known-dwarf.h",
+    "/usr/local/include/elfutils/libasm.h",
+    "/usr/local/include/elfutils/libdw.h",
+    "/usr/local/include/elfutils/libdwelf.h",
+    "/usr/local/include/elfutils/libdwfl.h",
+    "/usr/local/include/elfutils/libdwfl_stacktrace.h",
+    "/usr/local/include/elfutils/version.h",
+    "/usr/local/include/gelf.h",
+    "/usr/local/include/libelf.h",
+    "/usr/local/include/nlist.h",
+    "/usr/local/lib/pkgconfig/libdw.pc",
+    "/usr/local/lib/pkgconfig/libelf.pc"
+  ],
+  "elfutils.tcz": [
+    "/usr/local/bin/eu-addr2line",
+    "/usr/local/bin/eu-ar",
+    "/usr/local/bin/eu-elfclassify",
+    "/usr/local/bin/eu-elfcmp",
+    "/usr/local/bin/eu-elfcompress",
+    "/usr/local/bin/eu-elflint",
+    "/usr/local/bin/eu-findtextrel",
+    "/usr/local/bin/eu-make-debug-archive",
+    "/usr/local/bin/eu-nm",
+    "/usr/local/bin/eu-objdump",
+    "/usr/local/bin/eu-ranlib",
+    "/usr/local/bin/eu-readelf",
+    "/usr/local/bin/eu-size",
+    "/usr/local/bin/eu-srcfiles",
+    "/usr/local/bin/eu-stack",
+    "/usr/local/bin/eu-strings",
+    "/usr/local/bin/eu-strip",
+    "/usr/local/bin/eu-unstrip",
+    "/usr/local/lib/libasm-0.194.so",
+    "/usr/local/lib/libasm.so",
+    "/usr/local/lib/libasm.so.1",
+    "/usr/local/lib/libdw-0.194.so",
+    "/usr/local/lib/libdw.so",
+    "/usr/local/lib/libdw.so.1",
+    "/usr/local/lib/libelf-0.194.so",
+    "/usr/local/lib/libelf.so",
+    "/usr/local/lib/libelf.so.1"
+  ],
   "expat2-dev.tcz": [
     "/usr/local/include/expat.h",
     "/usr/local/include/expat_config.h",
@@ -729,6 +791,10 @@
     "/usr/local/bin/xargs",
     "/usr/local/lib/findutils/frcode",
     "/usr/local/tce.installed/findutils"
+  ],
+  "flex-dev.tcz": [
+    "/usr/local/include/FlexLexer.h",
+    "/usr/local/lib/libfl.la"
   ],
   "flex.tcz": [
     "/usr/local/bin/flex",
@@ -3983,6 +4049,12 @@
     "/usr/share/locale/zh_CN/LC_MESSAGES/libc.mo",
     "/usr/share/locale/zh_TW/LC_MESSAGES/libc.mo"
   ],
+  "gmp-dev.tcz": [
+    "/usr/local/include/gmp.h",
+    "/usr/local/include/gmpxx.h",
+    "/usr/local/lib/pkgconfig/gmp.pc",
+    "/usr/local/lib/pkgconfig/gmpxx.pc"
+  ],
   "gmp.tcz": [
     "/usr/local/lib/libgmp.so",
     "/usr/local/lib/libgmp.so.10",
@@ -4022,6 +4094,72 @@
     "/usr/local/bin/intltoolize",
     "/usr/local/share/aclocal/intltool.m4",
     "/usr/local/share/intltool/Makefile.in.in"
+  ],
+  "isl-dev.tcz": [
+    "/usr/local/include/isl/aff.h",
+    "/usr/local/include/isl/aff_type.h",
+    "/usr/local/include/isl/arg.h",
+    "/usr/local/include/isl/ast.h",
+    "/usr/local/include/isl/ast_build.h",
+    "/usr/local/include/isl/ast_type.h",
+    "/usr/local/include/isl/constraint.h",
+    "/usr/local/include/isl/cpp.h",
+    "/usr/local/include/isl/ctx.h",
+    "/usr/local/include/isl/fixed_box.h",
+    "/usr/local/include/isl/flow.h",
+    "/usr/local/include/isl/hash.h",
+    "/usr/local/include/isl/hmap.h",
+    "/usr/local/include/isl/hmap_templ.c",
+    "/usr/local/include/isl/id.h",
+    "/usr/local/include/isl/id_to_ast_expr.h",
+    "/usr/local/include/isl/id_to_id.h",
+    "/usr/local/include/isl/id_to_pw_aff.h",
+    "/usr/local/include/isl/id_type.h",
+    "/usr/local/include/isl/ilp.h",
+    "/usr/local/include/isl/list.h",
+    "/usr/local/include/isl/local_space.h",
+    "/usr/local/include/isl/lp.h",
+    "/usr/local/include/isl/map.h",
+    "/usr/local/include/isl/map_to_basic_set.h",
+    "/usr/local/include/isl/map_type.h",
+    "/usr/local/include/isl/mat.h",
+    "/usr/local/include/isl/maybe.h",
+    "/usr/local/include/isl/maybe_ast_expr.h",
+    "/usr/local/include/isl/maybe_basic_set.h",
+    "/usr/local/include/isl/maybe_id.h",
+    "/usr/local/include/isl/maybe_pw_aff.h",
+    "/usr/local/include/isl/maybe_templ.h",
+    "/usr/local/include/isl/multi.h",
+    "/usr/local/include/isl/obj.h",
+    "/usr/local/include/isl/options.h",
+    "/usr/local/include/isl/point.h",
+    "/usr/local/include/isl/polynomial.h",
+    "/usr/local/include/isl/polynomial_type.h",
+    "/usr/local/include/isl/printer.h",
+    "/usr/local/include/isl/printer_type.h",
+    "/usr/local/include/isl/schedule.h",
+    "/usr/local/include/isl/schedule_node.h",
+    "/usr/local/include/isl/schedule_type.h",
+    "/usr/local/include/isl/set.h",
+    "/usr/local/include/isl/set_type.h",
+    "/usr/local/include/isl/space.h",
+    "/usr/local/include/isl/space_type.h",
+    "/usr/local/include/isl/stdint.h",
+    "/usr/local/include/isl/stream.h",
+    "/usr/local/include/isl/stride_info.h",
+    "/usr/local/include/isl/typed_cpp.h",
+    "/usr/local/include/isl/union_map.h",
+    "/usr/local/include/isl/union_map_type.h",
+    "/usr/local/include/isl/union_set.h",
+    "/usr/local/include/isl/union_set_type.h",
+    "/usr/local/include/isl/val.h",
+    "/usr/local/include/isl/val_gmp.h",
+    "/usr/local/include/isl/val_type.h",
+    "/usr/local/include/isl/vec.h",
+    "/usr/local/include/isl/version.h",
+    "/usr/local/include/isl/vertices.h",
+    "/usr/local/lib/pkgconfig/isl.pc",
+    "/usr/local/share/gdb/auto-load/usr/local/lib/libisl.so.23.1.0-gdb.py"
   ],
   "isl.tcz": [
     "/usr/local/lib/libisl.so",
@@ -6204,6 +6342,22 @@
     "/usr/local/bin/lz4cat",
     "/usr/local/bin/unlz4"
   ],
+  "lzo-dev.tcz": [
+    "/usr/local/include/lzo/lzo1.h",
+    "/usr/local/include/lzo/lzo1a.h",
+    "/usr/local/include/lzo/lzo1b.h",
+    "/usr/local/include/lzo/lzo1c.h",
+    "/usr/local/include/lzo/lzo1f.h",
+    "/usr/local/include/lzo/lzo1x.h",
+    "/usr/local/include/lzo/lzo1y.h",
+    "/usr/local/include/lzo/lzo1z.h",
+    "/usr/local/include/lzo/lzo2a.h",
+    "/usr/local/include/lzo/lzo_asm.h",
+    "/usr/local/include/lzo/lzoconf.h",
+    "/usr/local/include/lzo/lzodefs.h",
+    "/usr/local/include/lzo/lzoutil.h",
+    "/usr/local/lib/pkgconfig/lzo2.pc"
+  ],
   "lzo.tcz": [
     "/usr/local/lib/liblzo2.so",
     "/usr/local/lib/liblzo2.so.2",
@@ -6215,6 +6369,9 @@
   "make.tcz": [
     "/usr/local/bin/make",
     "/usr/local/include/gnumake.h"
+  ],
+  "mpc-dev.tcz": [
+    "/usr/local/include/mpc.h"
   ],
   "mpc.tcz": [
     "/usr/local/lib/libmpc.so",
