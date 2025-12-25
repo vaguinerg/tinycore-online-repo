@@ -86,6 +86,9 @@
   "gcc_libs.tcz": [
     "gcc shared libs"
   ],
+  "gdbm.tcz": [
+    "cli database"
+  ],
   "gettext-dev.tcz": [
     "cli development gnu dev"
   ],
@@ -131,6 +134,9 @@
   "isl.tcz": [
     "integer point set"
   ],
+  "libffi.tcz": [
+    "LIBRARY"
+  ],
   "libltdl.tcz": [
     "libltdl libtool"
   ],
@@ -154,6 +160,18 @@
   ],
   "libxcrypt_base-dev.tcz": [
     "zlib dev"
+  ],
+  "libxml2-bin.tcz": [
+    "LIBRARY CLI"
+  ],
+  "libxml2-dev.tcz": [
+    "LIBRARY CLI dev"
+  ],
+  "libxml2-python.tcz": [
+    "xml c parser python python3.9"
+  ],
+  "libxml2.tcz": [
+    "LIBRARY CLI"
   ],
   "libzstd.tcz": [
     "zstd zlib compression"
@@ -200,6 +218,9 @@
   "ncursesw.tcz": [
     "terminal character wide"
   ],
+  "openssl.tcz": [
+    "cryptography tls ssl"
+  ],
   "patch.tcz": [
     "patch"
   ],
@@ -218,6 +239,9 @@
   "pkg-config.tcz": [
     "pkg-config compiling helper"
   ],
+  "python3.9.tcz": [
+    "python development python3 python3.9"
+  ],
   "readline-dev.tcz": [
     "dev"
   ],
@@ -226,6 +250,9 @@
   ],
   "sed.tcz": [
     "sed"
+  ],
+  "sqlite3.tcz": [
+    "LIBRARY SQL DATABASE"
   ],
   "squashfs-tools.tcz": [
     "cli squash sf filesystem compression zlib lzma lzo zstd"
