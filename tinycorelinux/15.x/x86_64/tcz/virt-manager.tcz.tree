@@ -1,7 +1,7 @@
 virt-manager.tcz
-   py3.6gobject.tcz
-      py3.6cairo.tcz
-         python3.6.tcz
+   py3.9gobject.tcz
+      py3.9cairo.tcz
+         python3.9.tcz
             openssl.tcz
             sqlite3.tcz
             gdbm.tcz
@@ -154,8 +154,8 @@ virt-manager.tcz
             readline.tcz
                ncursesw.tcz
             libffi.tcz
-   libvirt-python3.6.tcz
-      python3.6.tcz
+   libvirt-python3.9.tcz
+      python3.9.tcz
          openssl.tcz
          sqlite3.tcz
          gdbm.tcz
@@ -210,9 +210,9 @@ virt-manager.tcz
                ncursesw.tcz
             libzstd.tcz
          fuse.tcz
-   python3.6-requests.tcz
-      python3.6-certifi.tcz
-         python3.6.tcz
+   python3.9-requests.tcz
+      python3.9-certifi.tcz
+         python3.9.tcz
             openssl.tcz
             sqlite3.tcz
             gdbm.tcz
@@ -221,8 +221,8 @@ virt-manager.tcz
             readline.tcz
                ncursesw.tcz
             libffi.tcz
-      python3.6-chardet.tcz
-         python3.6.tcz
+      python3.9-chardet.tcz
+         python3.9.tcz
             openssl.tcz
             sqlite3.tcz
             gdbm.tcz
@@ -231,8 +231,8 @@ virt-manager.tcz
             readline.tcz
                ncursesw.tcz
             libffi.tcz
-      python3.6-idna.tcz
-         python3.6.tcz
+      python3.9-idna.tcz
+         python3.9.tcz
             openssl.tcz
             sqlite3.tcz
             gdbm.tcz
@@ -241,8 +241,8 @@ virt-manager.tcz
             readline.tcz
                ncursesw.tcz
             libffi.tcz
-      python3.6-urllib3.tcz
-         python3.6.tcz
+      python3.9-urllib3.tcz
+         python3.9.tcz
             openssl.tcz
             sqlite3.tcz
             gdbm.tcz
@@ -1426,6 +1426,7 @@ virt-manager.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
+            sbc.tcz
       sdl2_image.tcz
          sdl2.tcz
       spice.tcz
