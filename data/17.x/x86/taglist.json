@@ -56,6 +56,9 @@
   "diffutils.tcz": [
     "gnu diff utilities"
   ],
+  "doxygen.tcz": [
+    "documentation generator"
+  ],
   "e2fsprogs-dev.tcz": [
     "e2fsprogs devs"
   ],
@@ -125,6 +128,18 @@
   "gettext.tcz": [
     "cli development gnu"
   ],
+  "glib-networking.tcz": [
+    "network gio glib"
+  ],
+  "glib2-dev.tcz": [
+    "LIBRARY dev"
+  ],
+  "glib2-python.tcz": [
+    "LIBRARY python python3"
+  ],
+  "glib2.tcz": [
+    "LIBRARY"
+  ],
   "glibc_add_lib.tcz": [
     "glibc additional libs"
   ],
@@ -145,6 +160,12 @@
   ],
   "gmp.tcz": [
     "gmp arbitrary precision arithmetic"
+  ],
+  "gobject-introspection-dev.tcz": [
+    "machine readable introspection data api c gobject gir dev"
+  ],
+  "gobject-introspection.tcz": [
+    "machine readable introspection data api c gobject gir"
   ],
   "gperf.tcz": [
     "CLI DEVELOPMENT GNU HASH"
@@ -258,7 +279,7 @@
     "LIBRARY CLI dev"
   ],
   "libxml2-python.tcz": [
-    "xml c parser python python3.9"
+    "xml c parser python python3.14"
   ],
   "libxml2.tcz": [
     "LIBRARY CLI"
@@ -283,6 +304,9 @@
   ],
   "make.tcz": [
     "gnu make"
+  ],
+  "meson.tcz": [
+    "build python python3 python3.14"
   ],
   "mpc-dev.tcz": [
     "mpc devs"
@@ -365,8 +389,17 @@
   "pkg-config.tcz": [
     "pkg-config compiling helper"
   ],
+  "python3.14-beaker.tcz": [
+    "caching session python3 python3.14"
+  ],
   "python3.14-dev.tcz": [
     "python development python3 python3.14 dev"
+  ],
+  "python3.14-mako.tcz": [
+    "python3 python3.14 template library"
+  ],
+  "python3.14-markupsafe.tcz": [
+    "python3 markupsafe html unicode subclass"
   ],
   "python3.14-setuptools.tcz": [
     "python python3 setuptools"

@@ -4,7 +4,7 @@ Version:        commit e7a3454
 Author:         Cypress
 Original-site:  https://github.com/RPi-Distro/firmware-nonfree
 Copying-policy: See LICENCE
-Size:           2.0M
+Size:           2.1M
 Extension_by:   paul-123
 Tags:           FIRMWARE RPI4 RPI3 RPI0W RPI02 WIFI WIRELESS
 Comments:       Binaries only
@@ -35,4 +35,5 @@ Change-log:     2016/06/28 First version 7.45.41.26
                            43455 update for wpa3 offload
                 2024/12/28 Add links for CM5 and Pi500
                 2025/06/15 Move to /usr/local/firmware for piCore16
-Current:        2025/12/12 Add support for CM0, 43439 
+                2025/12/12 Add support for CM0, 43439 
+Current:        2025/12/30 Fix 43436-sdio configuration blob for PiZero2W - BT Coexistence
