@@ -1,0 +1,20 @@
+Title:          linuxconsoletools.tcz  
+Description:    test and configure mainly game devices as below
+Version:        1.8.1
+Author:         linuxconsoletools Team
+Original-site:  https://sourceforge.net/projects/linuxconsole/
+Copying-policy: GPL v 2
+Size:           48K
+Extension_by:   aus9  
+Tags:           joystick gamepad game
+Comments:       I did not need any udev rule YMMV
+                udev rule are in the doc TCE
+                
+                ffmvforce requires sdl2.tcz 
+
+                Normal testing of joystick =
+                $ jstest --normal /dev/input/js0
+                (and press buttons, triggers etc)   
+                
+Change-log:     2025/12/27 v 1.8.1 on 16x
+Current:        2025/12/27 

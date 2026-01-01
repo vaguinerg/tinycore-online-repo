@@ -1,6 +1,6 @@
 Title:		mailutils.tcz
 Description:	Email tools
-Version:	3.20
+Version:	3.21
 Author:		Sergey Poznyakoff et al.
 Original-site:	https://mailutils.org/
 Copying-policy:	GPL v3 (libraries LGPL v3)
@@ -12,7 +12,8 @@ Comments:	GNU Mailutils provides a wide range of utilities and
 		overview of the many different programs included.
 		
 		Clients:
-		putmail frm mail sieve messages readmsg dotlock movemail                         mimeview decodemail
+		putmail frm mail sieve messages readmsg dotlock movemail
+		mimeview decodemail
 		
 		Servers:
 		pop3d imap4d comsat mda lmtpd
@@ -25,4 +26,5 @@ Comments:	GNU Mailutils provides a wide range of utilities and
 		----   
 Change-log:	2022/06/14 First packaged version, 3.15
 		2024/09/02 3.15 -> 3.17, enabled libgsasl
-Current:	2025/10/24 3.17 -> 3.20
+		2025/10/24 3.17 -> 3.20
+Current:	2025/12/27 3.20 -> 3.21
