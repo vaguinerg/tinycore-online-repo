@@ -1,0 +1,44 @@
+Title:		terminus-fonts.tcz
+Project:	Terminus Font
+Description:	Clean, fixed-width bitmapped fonts, great for long sessions
+		at the X11 terminal. 
+Version:	4.46
+Author:		Dimitar Zhekov
+Original-site:	http://terminus-font.sourceforge.net
+Copying-policy:	SIL Open Font License, version 1.1
+		http://scripts.sil.org/OFL
+Size:		1.4M
+Extension_by: 	PDP-8
+Tags:		font fixed-width bitmap  
+Comments:	Especially useful for lightweight systems running only Xvesa
+		or Xfbdev, although full Xorg is fine too. Supports a HUGE 
+		amount of characters and localizations. 
+                 
+                Included: 6x12, 8x14, 8x16, 10x18, 10x20, 11x22, 12x24, 14x28,
+                and 16x32
+
+                Weights: normal and bold (except for 6x12) 
+
+		Installation:
+		Edit ~/.xsession to add new fonts to path:
+		xset fp+ /usr/local/share/fonts/terminus/
+		xset fp rehash
+
+		Log out and back in. (Exit to prompt)
+		Run xlsfonts to get a list of long and short names.
+
+		Usage:
+		Temporary from existing terminal - use short name ie,
+		aterm -fn terminus-18 &
+		(an alias is handy here)
+
+		Permanent - edit your ~/.Xdefaults and use the long name, ie
+		Aterm*font: -xos4-terminus-bold-r-normal--20-200-72-72-c
+		-100-iso8859-1
+
+		Hint: dont miss the -- "double-dash" !!
+
+		----
+Change-log:	2018/28/3 First test version, 0.9
+Current:	1.0
+

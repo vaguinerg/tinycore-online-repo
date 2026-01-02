@@ -1,0 +1,16 @@
+Title:		xorg-server-xephyr.tcz
+Description:	X Server that outputs to a window on a pre-existing "host" X display
+Version:	1.20.6
+Author:		Matthew Allum
+Original-site:	https://freedesktop.org/wiki/Software/Xephyr
+Copying-policy:	MIT
+Size:		1008K
+Extension-by:	gnuser
+Tags:		xorg xephyr xnest
+Comments: A trivial usage example:
+  $ echo $DISPLAY
+    :0.0
+  $ Xephyr :1 &
+  $ DISPLAY=:1 xterm
+Change-log:	----------
+Current:	2021/11/24 first version

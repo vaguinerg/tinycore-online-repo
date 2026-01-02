@@ -1,0 +1,22 @@
+Title:          eiwd.tcz
+Description:    iNet Wireless Daemon without dbus
+Version:        2.3-1
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size:		800K
+Extension-by:   gnuser
+Tags:           wireless wifi daemon
+Comments:       wireless daemon
+                ----------
+                Basic usage (connecting to wifi):
+                $ printf "[Security]\nPassphrase=PASSWORD\n" | sudo tee /var/lib/iwd/SSID1.psk
+                $ sudo touch /var/lib/iwd/SSID2.open
+                $ sudo iwd -i wlan0 &
+                $ sudo udhcpc -i wlan0
+                ----------
+                This extension contains:
+                eiwd-2.3-1 - lGPLv2.1 - https://github.com/illiliti/eiwd/releases/download/2.3-1/iwd-2.3.tar.xz
+                ----------
+Change-log:     ----------
+Current:        2023/05/26 first version

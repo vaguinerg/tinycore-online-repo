@@ -1,0 +1,27 @@
+Title:		busybox-httpd.tcz
+Description:	BusyBox HTTP server
+Version:	1.21.1
+Author:		BusyBox is maintained by Denys Vlasenko
+Original-site:	http://www.busybox.net/downloads/busybox-1.17.2.tar.gz
+Copying-policy:	GPLv2
+Size:		20 KB
+Extension_by:	PingPing, ixbrian, Curaga
+Tags:		BusyBox HTTP server
+Comments:	Busybox's httpd applet.
+		Files installed:
+			/usr/local/httpd/bin/busybox
+			/usr/local/httpd/bin/false (symlink)
+			/usr/local/httpd/sbin/httpd (symlink)
+		False has been built but is not strictly needed - it comes in handy if chrooting httpd
+		To start:
+			sudo /usr/local/httpd/sbin/httpd -p port_number -h document_home_directory -u user:group
+		Where:
+			port_number is the port for httpd to listen on (default is 80)
+			document_home_directory is the directory containing your index.html (you'll need to make one)
+			user is the user you want httpd to run as eg. 'tc' (default is root)
+			group is the group 'user' is a member of eg. 'staff'
+		For example:	
+			sudo /usr/local/httpd/sbin/httpd -p 80 -h /home/tc/htdocs -u tc:staff
+Change-log:	2009/07/01 - original build
+		2010/08/31 - Updated to busybox 1.17.2
+Current:	2013/08/10 - Update to 1.21.1 (Curaga)

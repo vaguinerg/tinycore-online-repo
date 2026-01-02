@@ -1,0 +1,37 @@
+Title:		lshw.tcz
+Description:	lshw (Hardware Lister)
+Version:	B.02.19.27 
+Author:		Lyonel Vincent
+Original-site:	http://ezix.org/project/wiki/HardwareLiSter
+Copying-policy:	GPLv2
+Size:		920K
+Extension_by:	andriscom
+Tags:		hardware scanner lister
+Comments:	lshw (Hardware Lister) is a small tool to provide detailed
+		information on the hardware configuration of the machine.
+		It can report exact memory configuration, firmware version,
+		mainboard configuration, CPU version and speed, cache
+		configuration, bus speed, etc.
+		Information can be output in plain text, XML or HTML.
+		
+		This program should be run as root (sudo) to ensure accurate
+		and complete output
+		
+		For a GUI frontend, install gtk-lshw.tcz
+
+		Built with:
+		CFLAGS=gcc -flto -fuse-linker-plugin -mtune=generic -Os -pipe
+		CXXFLAGS=g++ -flto -fuse-linker-plugin -mtune=generic -Os -pipe -fno-exceptions -fno-rtti
+		LDFLAGS=-Wl,-O1
+		PREFIX=/usr/local
+		ZLIB=1
+
+		For man entry see:
+		/usr/local/share/man/man1/lshw.1
+
+Source:		https://github.com/lyonel/lshw
+Change-log:	2010/10/16 Original release Version: B.02.15
+		2020/02/29 Updated to Version: B.02.18.105 (Rich)
+		2020/07/02 Changed path for .ids files to /usr/local/share/lshw/ (Rich)
+Current:	2020/07/02 Updated to Version: B.02.19.27 (Rich)
+

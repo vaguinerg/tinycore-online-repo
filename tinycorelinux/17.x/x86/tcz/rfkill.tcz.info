@@ -1,0 +1,13 @@
+Title:		rfkill.tcz
+Description:	A tool to list and set the rfkill state of wireless devices.
+Version:	0.4
+Author:		Johannes Berg, Marcel Holtmann, Tim Gardner
+Original-site:	http://linuxwireless.org/en/users/Documentation/rfkill
+Copying-policy:	custom
+Size:		8.0K
+Extension_by:	Arslan S.
+Tags:	 tool list set rfkill state wireless devices.
+Comments:	Add this command to your bootlocal.sh:
+		sudo /usr/local/etc/init.d/rfkill start
+Change-log:	---
+Current:	2011/01/05 First Version

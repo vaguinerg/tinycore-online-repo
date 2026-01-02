@@ -1,0 +1,16 @@
+Title:          davfs2.tcz
+Description:    davfs2 - mount a webDav resource as file system
+Version:        1.6.0
+Author:         Werner Baumann
+Original-site:  http://savannah.nongnu.org/projects/davfs2
+Copying-policy: GPL v3
+Size:           112K	davfs2.tcz
+Extension_by:   bmarkus, udo
+Tags:           davfs webdav
+Comments:       mount/unmount a webdav resource:
+                - mount.davfs <server> <mountpoint>
+                - umount.davfs <mountpoint>
+                ----
+                initially compiled for 5.x
+Change-log:     2014/05/17 First version, 1.5.0 (bmarkus)
+Current:        2020/09/12 1.5.0 -> 1.6.0 for TC 11.x/x86 (udo)

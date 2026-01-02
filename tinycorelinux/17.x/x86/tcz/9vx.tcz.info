@@ -1,0 +1,20 @@
+Title:          9vx.tcz
+Description:    Port of Plan 9 using the vx32 sandboxing library 
+Version:        0.12+
+Author:	        Russ Cox, Bryan Ford, et al
+Original-site:  https://github.com/0intro/vx32
+Copying-policy: LPL 1.02
+Size:		1.8M
+Extension_by:   Jesus Galan (yiyus)
+Tags:           vm vx32 9vx Plan9 glenda
+Comments:       Binaries only
+                ----
+                In order to run a full Plan 9 system, a system
+                tree or iso file is needed. One can be downloaded
+                with: 9vx-iso -d
+                ----
+                See also: http://pdos.csail.mit.edu/~baford/vm/
+                ----
+                Compiled for Core 6.x
+Change-log:     ----
+Current:        2015/11/12 Compiled from sources

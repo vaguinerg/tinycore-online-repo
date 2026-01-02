@@ -1,0 +1,72 @@
+Title:          woodland.tcz
+Description:    wlroots stacking compositor
+Version:        2.0.5
+Author:         Nicolas Dio
+Original-site:  https://github.com/DiogenesN/woodland
+Copying-policy: GPL v 2
+Size:           120K
+Extension_by:   aus9 @linuxquestions.org
+Tags:           wayland compositor wlroots
+Comments:       Entire desktop can be zoomed by holding down Super key and rotate mouse wheel 
+                up or down or rotate wheel top LH corner.
+                HOVER your mouse pointer bottom RH corner to bring up widget panel 
+                Some panel items need extra packages or setups YMMV
+                Clicking network widget may freeze for ~ 10s for scanning wifi 
+                but I only tested the time/calender widget as I am on a tower. 
+
+                "within 10mm" means clicking at 45 degree angle to corner. That is, 
+                pretend there is a line from LH bottom corner to RH top corner. You are clicking
+                on that line at the top or bottom....now read on. You can change ini setting            
+                
+                Clicking "within 10mm" of top RH corner brings up window list for all opened apps 
+                including minimised apps. Restore minimised Apps via this list. 
+                Rotate opened apps by Alt+Tab and reverse rotate by Ctl+Alt+Tab.
+                WARNING stacking windows might hide another window needing your input.
+                This happened to me in copying over an existing file using pcmanfm, there were
+                2 dialog boxes...one was hidden until I rotated the stack.
+
+                Clicking "within 10mm" bottom LH corner brings up menu list
+                -- acts as alternative to wbar. Each item is clickable text.
+                                
+                If your app has no maximise button you can drag the window borders to max.
+                All gtk3 max buttons to work. Max. button in firefox acts like F11
+                ...press F11 to get back to normal.
+                                
+                TCEs NOT SUPPORTED - exittc sfwbar slurp swaylock waybar wlr-randr xwayland 
+                apps GUI can play up. If clicking browse a few times fails, then 
+                Super+Esc -> wood and retry please. Apps works better fully maximised
+
+                TCE positives
+                * lxterminal has been defined as your terminal and can be changed
+                ---- remember to edit your ini & dep file if you prefer another terminal
+                ---- apps GUI works on wayland with lxterminal
+                * brightnessctl for brightness and read brightness and panel sections
+                  https://github.com/DiogenesN/woodland/blob/main/README.md
+                * grim for screenshots
+                * wlrctl for window placement (not tested)
+                * wofi for search and launch executables
+                Note that both grim and wofi have menu and kb shortcuts but not made dependency                
+
+                You need to exit woodland and restart if you modify the ini for the following:
+                welcome_screen d_power_path background tap_to_click window placement zoom_speed
+                So EDITS of kb shortcuts and menus are refreshed without doing anything special.
+                Hard coded kb shortcuts are:  Super+Esc to prompt
+                Super+x closes the current window. Alt+Tab already discussed.
+                
+                On first use...I recommend you stay in current desktop and run $ tce-load -i woodland
+                It creates ~/.local/bin/wood and files under ~/.config/woodland includes ini file
+                To start desktop Exit to prompt & run $ wood 
+                When you exit woodland via the methods in this info or ini file, a new file is created
+                under your ~.config/woodland for sizes.....you can safely ignore this.
+                You either force sizes via the ini file or click max. button or drag the window edges
+                You decide what to change in your ini file, but I recommend that you at least try out
+                lxterminal which is a forced dependency as I assume you are not a wayland addict. LOL
+
+                For wayland addicts
+                If you like woodland to be your default desktop, replace startx in /home/<name>/.profile
+                with /home/<name>/.local/bin/wood....change <name> to local login name 
+                I suggest you leave current desktop in boot list so you can get back to it by
+                Super+Esc then run startx
+                                       
+Change-log:     2025/12/03 v 2.0.5 on 16x
+Current:        2025/12/03 

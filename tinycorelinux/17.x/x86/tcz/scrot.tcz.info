@@ -1,0 +1,20 @@
+Title:          scrot.tcz
+Description:    cli screen capture
+Version:        0.8
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 12KB
+Extension_by:   juanito
+Tags:	    cli screen capture
+Comments:       scrot (SCReen shOT) is a simple commandline screen capture utility that uses imlib2
+                to grab and save images. Multiple image formats are supported through imlib2's dynamic saver modules
+                ----------
+                howto:
+                $ scrot '%Y-%m-%d_$wx$h_scrot.png' -e 'mv $f ~/'
+                ----------
+                This extension contains:
+                scrot-0.8 - (c) Tom Gilbert - http://linuxbrit.co.uk/downloads/scrot-0.8.tar.gz
+                ----------
+Change-log:     first version
+Current:        2010/06/22

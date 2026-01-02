@@ -1,0 +1,16 @@
+Title:          openbox-config.tcz
+Description:    openbox menu configs
+Version:        3.6.1
+Author:         Robert Shingledecker, bmarkus, tinycoreteam
+Original-site:  tinycorelinux.net
+Copying-policy: GPL v2
+Size:		12K
+Extension_by:   polikuo
+Tags:           WINDOW MANAGER CONFIG
+Comments:       XML config files, executable shell scripts
+                Dynamic menu config files for openbox
+                ported from x86
+Change-log:     2016/12/21 First version
+                2016/12/21 First version
+	        2019/09/09 Modified openbox_menu_common to strip out % parameters. Rich
+Current:	2020/09/13 Fixed exec= parsing issue in _menu_common script. (Rich)

@@ -1,0 +1,48 @@
+Title:          audacity-locale.tcz
+Description:    audacity(well-known audio editor)(localization files)
+Version:        2.3.3
+Author:         audacity contributors
+Original-site:  www.audacityteam.org
+Copying-policy: GPLv2 or later
+Size:		4.7M
+Extension_by:   justincb
+Comments        Audacity source tarball available @-
+                www.audacityteam.org/downloads/source/
+                Needed-
+                WxWidgets-dev.tcz
+                python.tcz
+                bash.tcz
+                bash-dev.tcz
+                compiletc.tcz
+                coreutils.tcz
+                make.tcz
+                cmake.tcz
+                ffmpeg4-dev.tcz
+                libavformat4.tcz
+                libsndfile-dev.tcz
+                flac-dev.tcz
+                libogg-dev.tcz
+                liboggz-dev.tcz
+                libvorbis-dev.tcz
+                alsa-dev.tcz
+                gettext.tcz
+                libEGL-dev.tcz
+                libwidgetextra-dev.tcz
+                libdrm-dev.tcz
+                lafilefixer.tcz
+                libatomic_ops-dev.tcz
+                
+                need to run lafilefixer as stated in lafilefixer.tcz.info
+                
+                need to rename lib-src/lv2/configure to configure.real and create a stub configure containing the following
+                #!/bin/sh
+                ./configure.real "$@"
+                
+                export CFLAGS="-march=i486 -mtune=i486 -Os -fabi-version=11"
+                export CXXFLAGS="-march=i486 -mtune=i486 -Os -fabi-version=11"
+                export LDFLAGS="-Os -latomic -fabi-version=11"
+                ./configure --prefix=/usr/local --with-lib-preference="system local"
+                
+Tags:           audacity audio editor
+Change-log:     2020/02/24 compiled from source
+Current:        2020/03/02 recompiled against repo. wxWidgets

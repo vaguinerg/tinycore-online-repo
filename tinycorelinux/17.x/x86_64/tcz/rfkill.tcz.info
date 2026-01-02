@@ -1,0 +1,18 @@
+Title:          rfkill.tcz
+Description:    rf state utility
+Version:        0.5
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 8KB
+Extension_by:   juanito
+Tags:	        rfkill wifi wireless
+Comments:       userspace tool to query the state of the rfkill switches, buttons and subsystem interfaces
+                ----------
+                if required, add "/usr/local/etc/init.d/rfkill start" to bootlocal.sh
+                ----------
+                This extension contains:
+                rfkill-0.5 - (c) Berg/Holtmann/Gardner - https://www.kernel.org/pub/software/network/rfkill/rfkill-0.5.tar.xz
+                ----------
+Change-log:     first version
+Current:        2014/01/13

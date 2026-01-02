@@ -1,0 +1,49 @@
+Title:          ntpclient.tcz (TESTING)
+Description:    ntpclient -- a small NTP client for unix-alike computers
+Version:        2007_365
+Author:         Larry Doolittle
+Original-site:  http://doolittle.icarus.com/ntpclient/
+Copying-policy: GNU General Public License Version 2
+Size:           12.0K
+Extension_by:   vitex
+Tags:	    ntpclient -- small NTP client unix-alike computers
+Comments:       From http://doolittle.icarus.com/ntpclient/:
+                  ntpclient is an NTP (RFC-1305) client for unix-alike
+                  computers. Its functionality is a small subset of
+                  xntpd, but IMHO performs better (or at least has the
+                  potential to function better) within that limited
+                  scope. Since it is much smaller than xntpd, it is
+                  also more relevant for embedded computers.
+                See http://doolittle.icarus.com/ntpclient/README and
+                http://doolittle.icarus.com/ntpclient/HOWTO for more
+                informtion.
+                -----------------------------------------------------
+                This extension was built from
+                  http://doolittle.icarus.com/ntpclient/ntpclient_2007_365.tar.gz
+                using CFLAGS='-march=i486 -mtune=i686 -Os -pipe'.  The
+                adjtimex command that is normally supplied with
+                ntpclient is part of busybox.
+                While this extension can be used as a daemon to adjust
+                the system clock, Chrony is much easier to use.  This
+                extension is useful if you want to independently verify
+                how well Chrony is working or if you want to set the
+                sytem clock immediately using NTP time.
+                Examples:
+		$ ntpclient -c 1 -h pool.ntp.org
+		 day   second     elapsed    stall     skew  dispersion  freq
+		40179 64730.007   52736.0     16.7   -8557.8  57006.8   3254000
+                The fifth column (skew) gives the approximate offset in
+                microseconds between the system clock and the specified
+                NTP server.
+                $ ntpclient -c 10 -i 60 -h pool.ntp.org
+                This command will check the time every 60 seconds for
+                10 minutes.
+                $ sudo ntpclient -s -c 1 -h pool.ntp.org
+                This command sets the system clock based on the time
+                returned from the specified NTP server.  Running such
+                a command as a cron job is a simple way to keep the
+                system clock reasonably accurate, although time may
+                be stepped backward.
+                -----------------------------------------------------
+Change-log:     ----------
+Current:	2010/01/03 First version

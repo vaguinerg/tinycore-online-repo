@@ -1,0 +1,21 @@
+Title:          usb-automount.tcz
+Description:    automatically mount and browse usb storage devices, click on an icon to eject
+Version:        1.4
+Author:         Bruno "GNUser" Dantas
+Original-site:  n/a
+Copying-policy: GPLv3
+Size:		8.0K
+Extension_by:   gnuser
+Tags:	        mount unmount usb storage thumbdrive flashdrive
+Comments:	----------
+    - for eject button, you need either yad.tcz (and some kind of panel) or wbar.tcz
+    - user settings go in ~/.config/usb-automount.conf
+    - usb-automount.conf should have these four lines in any order:
+        mount_dir=/mnt # or /media or any directory you want
+        file_manager=xfe # change to whatever GUI file manager you use
+        icon=/usr/local/share/icons/usb-automount/eject.png # or any other icon
+        icon_method=wbar # must be either wbar or yad
+    ----------
+Change-log:	2020/11/24 first version
+		2021/10/21 updated 1.2 -> 1.3
+Current:	2021/12/11 updated 1.3 -> 1.4 (attention to system's locale)

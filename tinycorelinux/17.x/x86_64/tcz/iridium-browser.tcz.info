@@ -1,0 +1,22 @@
+Title:          iridium-browser.tcz
+Description:    iridium web browser
+Version:        2019.04.73
+Author:         see the site below
+Original-site:  https://iridiumbrowser.de/
+Copying-policy: BSD 3-Clause
+Size:		104M
+Extension_by:   gnuser
+Tags:	        web browser gtk+ gtk3
+Comments:       iridium web browser
+                ----------
+                *** locale and timezone must be set ***
+                ----------
+                This version of iridium is based on chromium 73.0.3683.103, with privacy enhancements and built-in libre codecs
+                (including h264 support)
+                ----------
+                This extension is the binary package provided by the iridium developers (iridium-browser_2019.04.73-1iridium0_amd64.deb)
+                converted into a Tiny Core Linux extension. The only change I made was the addition of /usr/local/share and
+                /usr/local/tce.installed directories
+                ----------
+Change-log:     ----------
+Current:        2019/10/05 First version for tc-10.x (gnuser)

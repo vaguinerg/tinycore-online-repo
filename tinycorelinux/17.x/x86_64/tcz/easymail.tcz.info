@@ -1,0 +1,19 @@
+Title:          easymail.tcz
+Description:    CLI utility to send email from terminal or shell script
+Version:        2.0
+Author:         Bruno "GNUser" Dantas
+Original-site:  n/a
+Copying-policy: GPLv3
+Size:		20K
+Extension_by:   gnuser
+Tags:           CLI email smtp
+Comments:       ----------
+                Usage:
+                $ cp /usr/local/share/easymail/easymail.conf ~/.config/
+                edit ~/.config/easymail.conf
+                $ easymail --help
+                ----------
+                Usage example:
+                $ easymail -d somebody@somewhere.com -s "TCL" -b "TCL is awesome" -a IntoTheCore.pdf
+Change-log:     2023/03/21 first version
+Current:        2024/01/21 updated 1.0 -> 2.0

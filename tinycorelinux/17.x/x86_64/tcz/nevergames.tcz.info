@@ -1,0 +1,32 @@
+Title:          nevergames.tcz
+Description:    neverball or neverputt games
+Version:        1.7.0-alpha.3
+Author:         see nevergames-doc authors.txt
+Original-site:  https://github.com/Neverball/neverball
+Copying-policy: GPL v 2
+ Size:          83M
+Extension_by:   aus9 @linuxquestions.org
+Tags:           game xorg wayland 
+Comments:       see nevergames-doc please
+                Both games play on Xorg-3d, sway, labwc or weston
+                Fails to run on Xorg 2d on my AMD APU 
+                If Xorg 3d -  needs setup first please.
+                Sound does not need setup as it uses sdl2  
+                Both games look excellent. Accepts  keyboard,
+                mouse, trackball or gamepad but gamepad not tested. 
+                Some settings mouse only.  Games have different modes.  
+
+                Optional dep for gamepad=input-joystick-KERNEL             
+
+                game 1=neverball
+                Tilt the floor to roll a ball through an obstacle course 
+                within the given time. If the ball falls or time expires, 
+                a ball is lost. Collect coins to unlock the exit and earn 
+                extra balls. Red coins are  worth 5. Blue coins are worth 
+                10. A ball is awarded for 100 coins. 
+
+                game 2=neverputt  a mini golf game.
+                IMHO this is much harder.
+
+Change-log:     2025/01/14 v 1.7.0-alpha.3 on 15x
+Current:        2025/01/14    

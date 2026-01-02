@@ -1,0 +1,21 @@
+Title:          polkit-gnome.tcz
+Description:    polkit authentication agent
+Version:        0.105
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 16KB
+Extension_by:   juanito
+Tags:	        authentication agent polkit gtk+ gtk3 gnome
+Comments:       authentication agent for polkit
+                ----------
+                howto:
+                $ cat ~/.X.d/polkit-gnome
+                sleep 1
+                /usr/local/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+                ----------
+                This extension contains:
+                polkit-gnome-0.105 - GPLv2 - http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/0.105/polkit-gnome-0.105.tar.xz
+                ----------
+Change-log:     2014/02/18 first version
+Current:        2021/02/08 recompiled against updated libffi

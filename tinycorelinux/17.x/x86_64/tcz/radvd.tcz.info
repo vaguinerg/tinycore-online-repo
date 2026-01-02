@@ -1,0 +1,21 @@
+Title:          radvd.tcz
+Description:    Router ADVertisement Daemon
+Version:        2.19
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size:		48K
+Extension_by:   gnuser
+Tags:	        ip6 ipv6 router routing prefix
+Comments:       ----------
+                daemon that advertises IPv6 router addresses and IPv6 routing prefixes
+                ----------
+                Basic usage:
+                1. Create /etc/radvd.conf
+                2. $ sudo radvd
+                ----------
+                This extension contains:
+                radvd-2.19 - BSD-like - https://github.com/radvd-project/radvd/releases/download/v2.19/radvd-2.19.tar.gz
+                ----------
+Change-log:     first version
+Current:        2023/05/11

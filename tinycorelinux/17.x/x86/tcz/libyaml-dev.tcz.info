@@ -1,0 +1,19 @@
+Title:          libyaml-dev.tcz
+Description:    Development files part of C library for parsing and emitting YAML
+Version:        0.2.2
+Author:         See homepage
+Original-site:  https://pyyaml.org/wiki/LibYAML
+Copying-policy: https://github.com/yaml/libyaml/blob/master/LICENSE
+Size:		212K
+Extension_by:   rhermsen
+Tags:           development yaml ansible
+Comments:       LibYAML is a YAML parser and emitter library
+                LibYAML covers presenting and parsing processes.
+                Thus LibYAML defines the following two processors:
+                - Parser, which takes an input stream of bytes and
+                produces a sequence of parsing events.
+                - Emitter, which takes a sequence of events and
+                produces a stream of bytes.
+                
+Change-log:     2019/05/22 compile later version, 0.2.2 (rhermsen)
+Current:        2019/05/22 compile later version, 0.2.2 (rhermsen)

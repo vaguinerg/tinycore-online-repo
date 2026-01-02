@@ -1,0 +1,21 @@
+Title:          gpm.tcz
+Description:    General Purpose Mouse Daemon.
+Version:        1.20.7
+Author:         Alessandro Rubini
+Original-site:  http://unix.schottelius.org/gpm/
+Copying-policy: GPL
+Size:		108KB
+Extension_by:   Jason W
+Tags:		General Purpose Mouse Daemon
+Comments:       This extension is PPI compatible.
+                See config file /usr/local/etc/gpm/gpm.conf to
+                set approprite settings.  Default settings work with
+                ps2, usb, and my own touch screen keyboard mouse, but
+                if for some reason that is not sufficient enter
+                appropriate values.  Start gpm with /usr/local/etc/init.d/gpm,
+                which will read the above mentioned config file for
+                settings.
+Change-log:     2010/07/25 First version 1.20.6
+                2014/12/10 Fix init.d/gpm -Alex G
+                2014/12/10 Fix init.d/gpm
+Current:        2019/01/28 updated 1.20.6 -> 1.20.7 (juanito)

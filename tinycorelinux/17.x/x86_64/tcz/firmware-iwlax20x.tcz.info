@@ -1,0 +1,22 @@
+Title:          firmware-iwlax20x.tcz
+Description:    firmware for Intel Wireless ax20x series
+Version:        20240220
+Author:         Various
+Original-site:  https://git.kernel.org/pub/scm/linux/\
+                kernel/git/firmware/linux-firmware.git
+Copying-policy: Distributable
+Size:           25.6M
+Extension_by:   aus9 @linuxquestions.org
+Tags:           firmware intel wifi  
+Comments:       (update WARNING) over 50 deletions
+                run $ dmesg | grep firmware
+                $ modinfo <module-name>  | grep firmware
+                If FW still needed delete md5 file and do not update! 
+
+                module iwlwifi
+  
+Change-log:     2020/01/24 first version (Juanito)
+                2020/06/20 updated (aus9)
+                2023/02/04 updated  
+                2024/03/12 updated remove install script - over 50 deletions 
+Current:        2024/09/23 corrected info file only  

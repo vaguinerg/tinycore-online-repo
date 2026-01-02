@@ -1,0 +1,24 @@
+Title:          auto-multiple-choice.tcz [testing]
+Description:    manage multiple choice tests
+Version:        1.4.0
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 512KB
+Extension_by:   juanito
+Tags:	        multiple choice
+Comments:       create and manage multiple choice questionnaires with automated
+                marking
+                ----------
+                additional perl packages required to run:
+                $ tce-load -i compiletc gtk3-dev gobject-introspection-dev
+                $ sudo cpan
+                > install xxx
+                where xxx = Gtk3 XML::Simple Locale::Language Locale::gettext
+                XML::Writer DBI Text::CSV
+                ----------
+                This extension contains:
+                auto-multiple-choice-1.4.0 - GPLv2  - https://www.auto-multiple-choice.net/download/auto-multiple-choice_1.4.0_sources.tar.gz
+                ----------
+Change-log:     first version
+Current:        2019/04/25

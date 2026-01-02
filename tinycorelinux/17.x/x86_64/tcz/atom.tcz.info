@@ -1,0 +1,30 @@
+Title:          atom.tcz
+Description:    The hackable text editor
+Version:        1.59.0
+Author:         see list of sites below
+Original-site:  https://atom.io/
+Copying-policy: MIT
+Size:           200M
+Extension_by:   polikuo
+Tags:           GNOME GTK Utility TextEditor Development
+Comments:       You'll likely need graphics-KERNEL.tcz to run this.
+                Some ancient graphic cards may not run at all.
+                ----------
+                IMPORTANT:
+                You'll need wget.tcz for the first run
+                  $ tce-load -i wget
+                  $ sudo rm -f /usr/bin/wget
+                  $ sudo ln -s /usr/local/bin/wget /usr/bin/wget
+                  $ atom
+                  $ filetool.sh -b
+                ----------
+                Occasionally, requires python3.tcz / perl5.tcz
+                ----------
+                This extension contains:
+                atom-1.59.0 - MIT - https://github.com/atom/atom/archive/refs/tags/v1.59.0.tar.gz
+                ----------
+                Compiled for 13.x x86_64
+                ----------
+Change-log:     2021/03/21 First version
+                2022/02/10 1.55.0 --> 1.59.0
+Current:        2022/02/10 1.55.0 --> 1.59.0

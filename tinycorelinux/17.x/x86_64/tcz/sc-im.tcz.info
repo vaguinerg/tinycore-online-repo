@@ -1,0 +1,41 @@
+Title:          sc-im.tcz
+Description:    spreadsheet calculator improved
+Version:        0.7.0
+Author:         Copyright (c) 2013-2017, Andrés Martinelli <andmarti at gmail.com>
+Original-site:  https://github.com/andmarti1424/sc-im
+Copying-policy: https://github.com/andmarti1424/sc-im/blob/freeze/LICENSE
+Size:		120K
+Extension_by:   rudock1
+Tags:           spreadsheet calculator ncurses cli
+Comments:       sc-im is an ncurses spreadsheet program for terminal
+                that is based on the good old SC. It is actively
+                developed by Andrés Martinelli under the 4-clause BSD
+                license. As an improved version of SC it adds
+                functionalities like:
+                * UNDO / REDO
+                * 65.536 rows and 702 columns supported. (The number of
+                  rows can be expanded to 1.048.576 if wished).
+                * CSV / TAB delimited file import and export.
+                * XLS / XLSX file import.
+                * Key-mappings.
+                * Sort of rows.
+                * Filter of rows.
+                * Cell shifting.
+                * 256 color support – screen colors can be customized by
+                  user, even at runtime.
+                * Colorize cells or give them format such as bold or
+                  underline.
+                * Wide character support. The following alphabets are
+                  supported: English, Spanish, French, Italian, German,
+                  Portuguese, Russian, Ukrainian, Greek, Turkish, Czech,
+                  Japanese, Chinese.
+                * Implement external functions in the language you
+                  prefer and use them in SC-IM.
+                * Also use SC-IM as a non-interactive calculator,
+                  reading its input from a external script.
+                ----------
+                This extension contains:
+                sc-im https://github.com/andmarti1424/sc-im/archive/freeze.zip
+                ----------
+Change-log:     first version
+Current:        2020/07/01 v0.7.0 Dec 13, 2017

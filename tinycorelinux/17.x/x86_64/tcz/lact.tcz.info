@@ -1,0 +1,22 @@
+Title:          lact.tcz
+Description:    gpu monitor
+Version:        0.8.2
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 5.7MB
+Extension_by:   juanito
+Tags:	        gpu vulkan opencl gtk+ gtk4
+Comments:       gpu configuration and monitoring tool
+                ----------
+                requires 3d accleration and vulkan
+                how to:
+                LACT_PCI_DB_PATH=/usr/local/share/hwdata/pci.ids lact daemon
+                ..then start gui
+                intel gpu older than broadwell require the beignet extension
+                ----------
+                This extension contains:
+                lact-0.8.2 - MIT - https://github.com/ilya-zlobintsev/LACT/archive/refs/tags/v0.8.2.tar.gz
+                ----------
+Change-log:     first version
+Current:        2025/10/22

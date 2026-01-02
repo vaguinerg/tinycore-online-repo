@@ -1,0 +1,17 @@
+Title:          gsimplecal.tcz
+Description:    lightweight gui calendar applet
+Version:        2.1
+Author:         Dmitry Medvinsky
+Original-site:  https://github.com/dmedvinsky/gsimplecal
+Copying-policy: 3-clause BSD
+Size:		16K
+Extension_by:   gnuser
+Tags:	        calendar applet
+Comments:       - To create a calendar applet on your panel, load yad.tcz then:
+                 $ yad --notification --image=/path/to/icon.png --icon-size=24 \
+                 --text="Calendar" --command="gsimplecal" --no-middle &
+                - If you'd like your window manager to decorate the calendar:
+                 $ echo "mainwindow_decorated=1" > ~/.config/gsimplecal/config
+                - See man page (easily found online) for other config options
+Change-log:     ----------
+Current:        2020/12/09 first version for tcl-11.x (gnuser)

@@ -1,0 +1,29 @@
+Title:          redsocks.tcz
+Description:    Tool for system-wide SOCKS or HTTPS proxy.
+Version:        2985413
+Author:         Leonid Evdokimov, leon@darkk.net.ru
+Original-site:  http://darkk.net.ru/redsocks
+Source:         https://github.com/darkk/redsocks/tarball/master at 2011-10-14 13:12:47
+Copying-policy: Apache 2.0 License
+Size:		36K
+Extension_by:   vitex
+Tags:	    Tool system-wide SOCKS or HTTPS proxy.
+Comments:       From http://darkk.net.ru/redsocks:
+                  This tool allows you to redirect any TCP connection
+                  to SOCKS or HTTPS proxy using your firewall, so
+                  redirection is system-wide.
+                See the /usr/local/share/redsocks directory for a
+                README and sample configuration file.
+                See https://gist.github.com/1287517 or download
+                http://gist.github.com/raw/1287517/via-ssh.sh for an
+                example script that uses redsocks, OpenSSH, and
+                iptables to redirect all TCP traffic temporarily to a
+                server on which you have an account with ssh access.
+                For example, executing
+                  ./via-ssh.sh user@server:port
+                at the command line will redirect all of your TCP
+                traffic until you enter Control-C to terminate the
+                redirection.
+                Please see the caution in the script about DNS queries.
+Change-log:     2011/10/10 First version
+Current:        2011/10/14 Upgraded redsocks; moved script to gist.github.com.

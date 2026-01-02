@@ -1,0 +1,33 @@
+Title:          colorized-logs.tcz
+Description:    tools for logs with ANSI color
+Version:        2.5
+Author:         Adam Borowski    kilobyte@angband.pl
+Original-site:  https://github.com/kilobyte/colorized-logs
+Copying-policy: https://github.com/kilobyte/colorized-logs/blob/master/LICENSE
+Size:           8.0K
+Extension_by:   rudock1
+Tags:           logs convert ANSI ansi html command line cli
+Comments:       Here's a handful of tools for dealing with logs with ANSI
+                color. Some tools like gcc, dmesg, grep --color, colordiff,
+                ccze, etc can enhance their output with color, making
+                reading a lot more pleasant.  The difference can be as big
+                as between slogging through twenty pages of a build log to
+                find a failure, and a swift drag of the scroller to do the
+                same within a second. Such colored logs can be usually
+                viewed on a terminal or with "less -R"; this package gives
+                you:
+                    * ansi2html: convert logs to HTML
+                      usage: ansi2html < input > output.html
+                    * ansi2txt: drop ANSI control codes
+                    * ttyrec2ansi: drop timing data from ttyrec files
+                    * pipetty: makes a program think its stdout and stderr
+                      are connected to a terminal; use as a prefix: "pipetty
+                      dmesg|tee"
+                ----------
+                This extension contains:
+                colorized-logs-2.5 - MIT license
+                git clone https://github.com/kilobyte/colorized-logs.git
+                ----------
+                Compiled for 11.x x86_64
+Change-log:     first version
+Current:        2020/09/07 v0.4.0 (released 2020-03-16)

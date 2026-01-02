@@ -1,0 +1,22 @@
+Title:          ntfs-3g.tcz
+Description:    ntfs fs driver
+Version:        2022.5.17
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size:		508KB
+Extension_by:   juanito
+Tags:	        ntfs fs driver ntfs3
+Comments:       ntfs driver for linux
+                ----------
+                for use with the ntfs3 kernel driver
+                i.e. sudo mount -t ntfs3 /dev/xxx /mnt/xxx
+                ----------
+                This extension contains:
+                ntfs-3g_ntfsprogs-2022.5.17 - GPLv2 - https://tuxera.com/opensource/ntfs-3g_ntfsprogs-2022.5.17.tgz
+                ----------
+Change-log:     2013/12/15 first version
+                2016/08/19 updated 2013.1.13 -> 2016.2.22
+                2020/11/05 removed broken link (gnuser)
+                2022/10/30 updated 2016.2.22 -> 2022.5.17
+Current:        2024/01/04 added symlinks in /sbin

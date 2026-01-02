@@ -1,0 +1,44 @@
+Title:          gphoto2.tcz
+Description:    command line frontend to libgphoto2 
+Version:        2.5.23
+Author:         see doc AUTHORS
+Original-site:  http://gphoto.org
+Copying-policy: GPL v2
+Size:           48K
+Extension_by:   aus9
+Tags:           camera
+Comments:       Mainly to copy images or movies from camera to PC
+                TC mount tool/usb-utils not needed and online help =
+                http://gphoto.org/doc/manual/
+                Supported cameras list
+                http://www.gphoto.org/proj/libgphoto2/support.php
+                Mine=Fuji T500 is unlisted but image copy works OK
+                
+                $ gphoto2 --auto-detect # must show a camera or phone
+                (My phone did not need usb debug enabled)
+                eg USB PTP Class Camera usb:001,005
+                Huawei Nova             usb:001,008
+                If not, power cycle your camera until you see one.
+                $ gphoto2 --get-all-files
+                eg Saving file as DSCF1462.JPG                                                    
+                   Saving file as DSCF1464.AVI 
+
+                $ gphoto2 -a  # shows with example
+                Abilities for camera: USB PTP Class Camera                        
+                Serial port support: no
+                USB support: yes 
+                Capture choices: : 
+                (on my phone Capture not supported by the driver)
+                                 : Image
+                                 : Preview
+                Configuration support: yes
+                Delete selected files on camera: yes
+                Delete all files on camera: no
+                File preview (thumbnail) support: yes
+                File upload support: yes 
+                (I have not found an use for ~/.gphoto/settings)
+                And this fails for me, $ gphoto2 --capture-image
+             
+Change-log:     2018/11/17 first version 2.5.20 on 9x
+Current:        2020/05/31 v 2.5.23 for 11x
+

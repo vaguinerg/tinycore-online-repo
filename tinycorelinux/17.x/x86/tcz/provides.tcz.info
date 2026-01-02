@@ -1,0 +1,50 @@
+Title:		provides.tcz
+Description:	Enhanced version of Tinycore provides.sh.
+Version:	0.3
+Author:		Robert Shingledecker
+Original-site:	https://github.com/tinycorelinux/Core-scripts/blob/master/usr/bin/provides.sh
+Copying-policy:	GPLv2
+Size:		4.0K
+Extension_by:	Rich
+Tags:		find filename extension
+Comments:	Run  provides.sh  for this help screen:
+
+		Version 0.3 Nov 25, 2024
+
+		Find extension(s) that provide a filename.
+		Filenames in list being searched include full paths, for example:
+		        usr/local/bin/grep
+
+		Usage:
+		   provides.sh [ -nz ] FileName
+
+		   -nz    Skip updating (zsync) the provides.db file. This speeds up
+		          the search, but might miss items if provides.db is outdated.
+
+		Examples:
+		   provides.sh cal           Finds cal anywhere in FileName
+		   provides.sh bin/cal       Finds bin/cal anywhere in FileName
+		   provides.sh bin/cal$      Finds FileName that ends in bin/cal
+		   provides.sh Black Gnome   Finds FileName with embedded spaces
+
+		Searches are case sensitive.
+		The $ sign can only be used at the end of your search term.
+
+
+		-------------------------------------------------------------
+		Note: The default age of provides.db for checking if an update
+		is available is 15 minutes.
+
+		Environmental variable PROVIDESUPDATE can override this default.
+		Add  export PROVIDESUPDATE=+N  to .profile file.
+		log out, log in.
+
+		N must be an integer.
+		Set to -0 to block updates.
+		Set to +0 for frequent updates.
+		Set to +N where N is the update interval in minutes.
+			Ex.  PROVIDESUPDATE=+1440    for 24 hours.
+
+Change-log:	2024/11/25 Original release v0.30
+Current:	2024/11/25 Original release v0.30
+

@@ -1,0 +1,30 @@
+Title:          rhythmbox.tcz
+Description:    rhythmbox music player
+Version:        3.4.4
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 		1.2MB
+Extension_by:   juanito
+Tags:	        audio music player gtk+ gtk3
+Comments:       one-stop multimedia application, supporting a music library,
+                multiple playlists, internet radio, and more
+                optionally can use grilo-plugins or libdmapsharing to play streamed music
+                ----------
+                this extension contains:
+                rhythmbox-3.4.4 - GPLv2 - https://ftp.gnome.org/pub/GNOME/sources/rhythmbox/3.4/rhythmbox-3.4.4.tar.xz
+                ----------
+Change-log:     2009/11/08 first version
+                2009/11/20 added daap streaming via avahi dependency
+                2010/01/09 updated 0.12.5 -> 0.12.6, added libgpod dep
+                2010/03/11 added start-up script to enable icons properly, added hicolor-icon-theme & libavahi dep, removed avahi dep
+                2010/09/12 updated 0.12.6 -> 0.13.1
+                2010/09/24 removed /usr/local/lib/rhythmbox/plugins/upnp_coherence
+                2010/11/05 updated 0.13.1 -> 0.13.2 (fixes problem playing daap stream)
+                2011/05/14 updated 0.13.2 -> 0.13.3 and split out devs
+                2012/07/17 rebuilt with latest deps
+                2013/08/01 updated 0.13.3 -> 2.99.1
+                2013/09/07 updated 2.99.1 -> 3.0
+                2015/04/25 updated 3.0 -> 3.2
+                2020/04/17 updated 3.2 -> 3.4.4
+Current:        2021/02/06 recompiled against updated libffi

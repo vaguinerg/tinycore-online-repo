@@ -1,0 +1,30 @@
+Title:          cpanm.tcz  
+Description:    script to get, unpack, build and install modules from CPAN 
+Version:        2018/08/17
+Author:         Tatsuhiko Miyagawa 
+Original-site:  https://github.com/miyagawa/cpanminus/tree/devel/App-cpanminus
+Copying-policy: see LICENSE
+Size:		216K
+Extension_by:   aus9 at gmx dot com
+Tags:           perl 
+Comments:       https://metacpan.org/pod/cpanm 
+                DEPENDENCIES will be seen in log if install fails
+                eg  sudo su && cpanm Glib
+                log at /root/.cpanm/build.log 
+                (snip) Package gobject-2.0 was not found in the pkg-config search path  
+                (so) load  gobject-introspection-dev and repeat install command 
+                (build.log will change and old build.log will be under ..work)
+
+                To check what modules you have installed,  I run
+                $ instmodsh
+                (prompt changes to cmd? <input l to list or q to quit> 
+
+                If you have to package something, please check the build log as it
+                shows what was installed and where eg
+                Installing /usr/local/lib/perl5/site_perl/5.26.1/\
+                x86_64-linux-thread-multi/auto/Glib/Glib.so   and others 
+ 
+                Compiled for 9.x
+Change-log:     2017/12/07  First version 2017/12/07
+Current:        2018/08/17 updated for 9x 
+

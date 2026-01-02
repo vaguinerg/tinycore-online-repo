@@ -1,0 +1,19 @@
+Title:          hostapd.tcz
+Description:    wlan ap mode daemon
+Version:        2.9
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size:		244K
+Extension_by:   bonbob
+Tags:           wlan wifi access point ap
+Comments:       wireless lan access point mode daemon
+                ----------
+                edit /usr/local/etc/hostapd.conf and run hostapd
+                $ sudo /usr/local/etc/init.d/hostapd {start|stop|restart|status}
+                ----------
+                This extension contains:
+                hostapd-2.9 - bsd - http://w1.fi/releases/hostapd-2.9.tar.gz
+                ----------
+Change-log:     2017/08/09 first version 2.6
+Current:        2020/05/07 updated to version 2.9 (added 802.11ac, 802.11ax support)

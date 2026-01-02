@@ -1,0 +1,19 @@
+Title:          xmms.tcz
+Description:    XMMS multimedia system
+Version:        1.2.11
+Author:         Peter Alm
+Original-site:  www.xmms.org/ 
+Copying-policy: GPL
+Size: 516K
+Extension_by:   Jason W
+Tags:	    XMMS multimedia system
+Comments:       xmms audio player gtk1 gtk
+                Requires glib1, gtk1, and optionally ogg-vorbis.
+		Use with either alsa or OSS, install the one of your
+		choice for sound.
+Change-log:     2008/07/09 First version
+                2008/11/27 Recompiled for 486 and size optimization.
+	        2009/06/18 Recompiled with ALSA plugin support.
+		2009/07/29 Using wrapper for xmms/wmxmms to solve the issue
+			   with the Xorg composite extension.
+Current:	2010/02/23 Patched for Crossfade and CVE-2007-0653.0654

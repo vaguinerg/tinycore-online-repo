@@ -1,0 +1,19 @@
+Title:          mpg123-dev.tcz
+Description:    dev files
+Version:        1.33.3
+Author:         https://github.com/madebr/mpg123/blob/master-with-github-ci/AUTHORS
+Original-site:  http://mpg123.org/
+Copying-policy: multiple see COPYING
+Size:           76K
+Extension_by:   aus9 @linuxquestions.org
+Tags:           audio player mpeg mp3
+Comments:       Development
+                Manually load sdl2-dev 
+                
+Change-log:     2016/02/07 v 1.23.0 (Juanito)
+                2016/11/20 recompiled for updated pulseaudio
+                2020/07/21 v 1.26.3 (Sashank999)
+                2024/05/26 v 1.32.6 + sdl2 portaudio support (aus9) 
+                2025/03/29 v 1.32.10 on 16x 
+                2025/12/17 v 1.33.3 on 16x  
+Current:        2025/12/20 v 1.33.3 rebuilt for circular dependency in dev TCE  

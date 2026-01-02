@@ -1,0 +1,19 @@
+Title:		gst-plugins-good.tcz
+Description:	GStreamer Good Plugins
+Version:	1.16.2
+Author:		various
+Original-site:	http://gstreamer.freedesktop.org
+Copying-policy:	LGPL
+Size:		1.5MB
+Extension_by:	Juanito, Arslan S., jlslegalize@gmail.com
+Tags:		gstreamer good plugin
+Comments:	Optional dependencies: flac, libsoup, libpulseaudio, libvpx18,
+                cairo, gdk-pixbuf2, libpng, libdv, taglib, libjpeg-turbo,
+                libv4l2, wavpack, lame and speex
+                ---
+Change-log:	2013/04/27 First version 1.0.7 by jls_legalize
+                2013/07/30 renamed for tc-5.x, stripped out devs (juanito)
+                2013/09/16 updated 1.0.7 -> 1.0.10 (juanito)
+                2013/09/28 added missing audiosink (juanito)
+                2018/12/13 updated 1.0.10 -> 1.14.4 (juanito)
+Current:	2020/01/18 updated 1.14.4 -> 1.16.2 (juanito)

@@ -1,0 +1,63 @@
+Title:          worker.tcz
+Description:    2-pane terminal file manager (not console)
+Version:        5.1.0
+Author:         Ralf Hoffmann
+Original-site:  http://www.boomerangsworld.de/cms/worker
+Copying-policy: GPL v2
+Size:           2.5M
+Extension_by:   aus9 @linuxquestions.org
+Tags:           cli terminal file manager
+Comments:       First run sets up $HOME/.config/worker dir & files
+                Unlike mc, worker opens in a new window.
+                Popup offers to configure 12 European languages 
+                EN config has been modified for some TCEs as below. 
+                I have not attempted to convert all executables to our TCEs
+                If you edit, popup will request restart worker. 
+       
+                No udisks support compiled so use mnttool pls
+                aterm has dependencies for worker but you are free to 
+                use your preferred terminal.
+                Click (or double click) button top LH corner next to 
+                A button allows GUI config edits if you do not want manual edits
+
+                Can use kb hotkeys or mouse clicks similar to mc.
+                Hotkeys can be changed. 
+
+                If you load extra TCEs you would like worker to use,
+                please run 
+                $ /usr/local/tce.installed/shared-mime-info
+
+                Both F3 & F4 font remains black font and "Floating" popup opens
+
+                Internal edit (F4) uses "xterm -e nano {A}"
+                which works with aterm and lxterminal.
+                Edit config to to your preferred terminal if you prefer
+                internal edits. Ditto change nano to your preferred CLI editor.
+                Otherwise use GUI TCE for edits (eg) "leafpad {A}" 
+                ---> then F4 will open a GUI text editor.
+
+                F8 (delete) 
+                ###########
+                Please look at the file & dir count at top of selected pane shown in Red
+                clicking on a file/dir multiple times toggles the font
+                from black -> white -> black in a loop
+                ONLY white font will be deleted
+                (Actually only white font can be actioned such as move copy etc)
+                If you click "invert selection button" all files/dirs are white font
+                Here is an example = Files 1/9 Dirs 2/10 means 3 items have been
+                highlighted for deletion. F8 -> Then a popup warns about non-empty dirs
+
+                Optional deps Use enter button, not F3/F4 to open external TCE
+                Read info files for supported formats and extra dependencies
+                abiword, audacious, flaxpdf, imagemagick, leafpad, mpv & mtpaint(-gtk3)  
+
+                Bottom BUTTONS
+                Options to move to trash can are dependent on your desktop
+                supporting such. 
+                Hover mouse for hints for most buttons.
+                Note to go up dir in mc, page up to get to top of sub-dir 
+                then press enter against /..
+                In worker we just use the backspace            
+                
+Change-log:     2024/08/05 v 5.1.0 on 15x
+Current:        2024/08/05   

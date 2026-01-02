@@ -1,0 +1,27 @@
+Title:          flatpak.tcz
+Description:    system for sandboxed desktop applications on linux
+Version:        1.16.1
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size:		3.2M
+Extension_by:   gnuser
+Tags:           flatpak appimage snap portable
+Comments:       ----------
+                Notes:
+                1. The  noembed  boot code is required
+                2. ~/.local/share/flatpak directory contains your installed
+                   apps and should be persistent (or a link to a persistent
+                   directory) for your installed apps to survive a reboot
+                ----------
+                Usage example:
+                $ sudo /usr/local/etc/init.d/dbus start # may not be needed
+                $ flatpak --user remote-add flathub https://flathub.org/repo/flathub.flatpakrepo
+                $ flatpak --user install flathub org.kde.kcalc
+                $ flatpak --user run org.kde.kcalc
+                ----------
+                This extension contains:
+                flatpak-1.16.1 - LGPL-2.1 - https://github.com/flatpak/flatpak/archive/refs/tags/1.16.1.tar.gz
+                ----------
+Change-log:     ----------
+Current:        2025/12/15 first version

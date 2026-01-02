@@ -1,0 +1,63 @@
+Title:          micro.tcz
+Description:    micro is a modern and intuitive terminal-based text editor
+Version:        2.0.7-dev.46
+Author:         Zachary Yedidia    zyedidia@gmail.com
+Original-site:  https://micro-editor.github.io/
+Copying-policy: https://github.com/zyedidia/micro/blob/master/LICENSE
+Size:		5.7M
+Extension_by:   rudock1
+Tags:           text editor terminal console command line cli golang
+Comments:       micro is a terminal-based text editor that aims to be easy
+                to use and intuitive, while also taking advantage of the
+                capabilities of modern terminals. It comes as a single,
+                batteries-included, static binary with no dependencies.
+                ----------
+                As its name indicates, micro aims to be somewhat of a
+                successor to the nano editor by being easy to install and
+                use. It strives to be enjoyable as a full-time editor for
+                people who prefer to work in a terminal, or those who
+                regularly edit files over SSH.
+                ----------
+                Features:
+                    No dependencies 
+                    Multiple cursors.
+                    Common keybindings (Ctrl-s, Ctrl-c, Ctrl-v, Ctrl-z, …).
+                        Keybindings can be rebound to your liking.
+                    Splits and tabs.
+                    nano-like menu to help you remember the keybindings.
+                    Extremely good mouse support.
+                        This means mouse dragging to create a selection,
+                        double click to select by word, and triple click
+                        to select by line.
+                    Plugin system (plugins are written in Lua).
+                        micro has a built-in plugin manager to automatically
+                        install, remove, and update plugins.
+                    Built-in diff gutter.
+                    Simple autocompletion.
+                    Persistent undo.
+                    Automatic linting and error notifications.
+                    Syntax highlighting for over 130 languages.
+                    Color scheme support.
+                        By default, micro comes with 16, 256, and true
+                        color themes.
+                    True color support (set the MICRO_TRUECOLOR environment
+                        variable to 1 to enable it).
+                    Copy and paste with the system clipboard.
+                    Small and simple.
+                    Easily configurable.
+                    Macros.
+                    Common editor features such as undo/redo, line numbers,
+                        Unicode support, soft wrapping
+                ----------
+                If you run this editor from text console (no X) and you
+                want the modern key bindings, then see the comments in
+                /usr/local/share/micro/kmap/supplemental_micro_edit_bindings.kmap
+                ----------
+                This extension contains:
+                micro-2.0.7 - MIT License
+                https://github.com/zyedidia/micro/archive/master.zip
+                ----------
+                Compiled for 11.x x86_64
+Change-log:     first version
+Current:        2020/07/26      v2.0.7 (released 2020-07-19)
+

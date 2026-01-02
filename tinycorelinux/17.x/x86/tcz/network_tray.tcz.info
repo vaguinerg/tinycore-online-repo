@@ -1,0 +1,32 @@
+Title:          network_tray.tcz (TESTING)
+Description:    Network status icon in tray
+Version:        2.9.1
+Author:         Barry Kauler, rerwin, peebee
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size:		12K
+Extension_by:   Misalf
+Tags:	        network tray connect
+Comments:       Network status icon in tray.
+                ----------
+                Compiled for TC 7.x
+                ----------
+                Left-Clicking the tray icon runs /opt/net_connect.sh
+                Right-Clicking the tray icon and selecting
+                "Disconnect from network" runs /opt/net_disconnect.sh
+                These files need to be created manually 
+                ----------
+                NOTE:
+                Modified for compatibility with Tiny Core:
+                - Removed monthly tx/rx
+                - Changed network tools
+                Also changed:
+                - Increased update interval to reduce CPU usage
+                - Icons
+                - Shortened some text
+                ----------
+                Based on:
+                network_tray-2.9.1-src.tar.gz - GPLv2 - http://www.murga-linux.com/puppy/viewtopic.php?t=98464
+                ----------
+Change-log:     2016/02/28 first version
+Current:        2016/02/16 Compiled on tc-7.x (Misalf)

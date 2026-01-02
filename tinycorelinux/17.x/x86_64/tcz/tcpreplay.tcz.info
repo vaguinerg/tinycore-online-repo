@@ -1,0 +1,20 @@
+Title:          tcpreplay.tcz
+Description:    suite for editing and replaying previously captured network traffic
+Version:        4.4.1
+Author:         Fred Klassen
+Original-site:  https://tcpreplay.appneta.com/
+Copying-policy: GPLv3
+Size:		560K
+Extension_by:   rhermsen
+Tags:           tcpdump replay tcpreplay pcap
+Comments:       Tcpreplay is a suite of GPLv3 licensed utilities for editing and
+                finally replay the traffic back onto the network and through other devices
+                such as switches, routers, firewalls, NIDS and IPS's. Tcpreplay supports
+                both single and dual NIC modes for testing both sniffing and in-line devices.
+
+                The IPv6 kernel modules are not automatically installed.
+                If IPv6 is desired, install ipv6-netfilter-x.x.x-tinycore.tcz via
+                the Apps GUI, or cli (tce-load -wi ipv6-netfilter-KERNEL).
+
+Change-log:     2022/10/11 Initial version, 4.4.1
+Current:        2022/10/11 Initial version, 4.4.1

@@ -1,0 +1,80 @@
+Title:          pdnsd.tcz
+Description:    Proxy DNS server with permanent caching
+Version:        1.2.8
+Author:         Paul Rombouts
+Original-site:  http://www.phys.uu.nl/~rombouts/pdnsd/index.html
+Source:         http://www.phys.uu.nl/~rombouts/pdnsd/releases/pdnsd-1.2.8-par.tar.gz
+Copying-policy: GPL v3
+Size:		88K
+Extension_by:   vitex
+Tags:	    Proxy DNS server permanent caching
+Comments:       -----
+                From the web page:
+                  pdnsd is a proxy DNS server with permanent caching
+                  (the cache contents are written to hard disk on
+                  exit) that is designed to cope with unreachable or
+                  down DNS servers (for example in dial-in
+                  networking)....  pdnsd can be used with applications
+                  that do DNS lookups, e.g. on startup, and can't be
+                  configured to change that behaviour, to prevent the
+                  often minute-long hangs (or even crashes) that
+                  result from stalled DNS queries.... pdnsd is
+                  configurable via a file and supports run-time
+                  configuration using the program pdnsd-ctl that comes
+                  with pdnsd. This allows you to set the status flags
+                  of servers that pdnsd knows (to influence which
+                  servers pdnsd will query), and the addition,
+                  deletion and invalidation of DNS records in pdnsd's
+                  cache.
+                The configuration file for pdnsd is
+                  /usr/local/etc/pdnsd.conf
+                which receives its initial value from
+                  /usr/local/etc/pdnsd.conf.default
+                That configuraton uses public servers from Google and
+                OpenDNS.  Change those servers as needed and add the
+                configuration file to you back-up set.  The sample
+                configuration file from the pdnsd distribution is
+                  /usr/local/etc/pdnsd.conf.sample
+                The extension installs the script
+                  /usr/local/etc/init.d/pdnsd
+                to simplify usage of pdnsd.  Executing (e.g., in
+                /opt/bootlocal.sh)
+                  sudo /usr/local/etc/init.d/pdnsd start
+                will change /etc/resolv.conf to point to pdnsd and use
+                the "-d" option to activate pdnsd as a daemon.  Add a
+                "-g" and a "-d" option
+                  sudo /usr/local/etc/init.d/pdnsd start -g -d
+                to execute pdnsd as a daemon and to record debug
+                messages in the file
+                  /var/cache/pdnsd/pdnsd.debug
+                Use the "-g" option alone to execute in the foreground
+                and see the debug messages on the console.  Executing
+                  sudo /usr/local/etc/init.d/pdnsd stop
+                will terminate pdnsd and signal udhcpc to rewrite
+                /etc/resolv.conf with the domain name servers that
+                it obtains by querying its up-stream DHCP server.
+                The DNS cache is saved to the disk file
+                  /var/cache/pdnsd/pdnsd.cache
+                when pdnsd terminates.  That file must be backed up if
+                you wish to take advantage of pdnsd's persistent
+                cache.  To test cache behavior, use
+                  sudo pdnsd-ctl empty-cache
+                to signal pdnsd to empty its cache. For example,
+                  L=tinycorelinux.net ; sudo pdnsd-ctl empty-cache ; \
+                    time nslookup $L ; time nslookup $L
+                should show the second lookup being almost instantaneous.
+                The default configuration sets
+                  query_method = tcp_udp;
+                which forces all up-stream DNS queries to be sent
+                first using TCP and then using UDP if TCP fails.  That
+                parameter can be changed to
+                  query_method = tcp_only;
+                or pdnsd can be invoked with the "-mto" option to
+                force pdnsd to use TCP but to not fall back to UDP.
+                Only using TCP is important for some encrypting
+                proxies (e.g., the OpenSSH SOCKS proxy) that do not
+                carry UDP traffic, in which case UDP DNS queries are
+                not protected by the proxy and might reveal the sites
+                that are being visited.
+Change-log:     ----------
+Current:	2011/10/09 First version

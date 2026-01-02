@@ -1,0 +1,27 @@
+Title:          jwm-full.tcz
+Description:    Joe's Window Manager 
+Version:        2.4.6
+Author:         Joe Wingbermuehle
+Original-site:  http://joewing.net/projects/jwm
+Copying-policy: accompanied
+Documentation:  http://joewing.net/projects/jwm/config.shtml
+Size:           116K
+Extension_by:   aus9 @linuxquestions.org   
+Tags:           window manager 
+Comments:       JWM is a floating desktop, that supports workspaces. 
+                Includes some scripts (c) Robert Shingledecker. 
+                Ondemand support removed due to errors seen in $ jwm -p
+                On my AMD APU I needed Xorg 2 or 3d
+                                                 
+                Before making changes, backup target file...make changes then run $ jwm -p 
+                If needed, fix -> restart jwm from menu -> re-run $ jwm -p
+                                    
+                Optional TCEs
+                jwm-themes, xfontsel
+                lxde-icon-theme  if you add new tray launchers
+                volumeicon but you may need to change color of its tray icon if you are using a 
+                ......a dark theme like skeuos-gtk-themes
+
+Change-log:     2014/12/01 v 2.2.2  on 5x  (maluvia)
+                2024/11/08 v 2.4.5 on 15x, changes listed in 15x comments as many changes  (aus9)
+Current:        2025/03/30 v 2.4.6 on 16x, some keys now use Alt,  + svg support

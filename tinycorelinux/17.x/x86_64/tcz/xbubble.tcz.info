@@ -1,0 +1,27 @@
+Title:          xbubble.tcz
+Description:    bubble shooting game
+Version:        0.5.11.2
+Author:         Ivan Djelic & Martin Quinson
+Original-site:  http://deb.debian.org/debian/pool/main/x/xbubble
+                https://sources.debian.org/data/main/x/xbubble/0.5.11.2-3.5/debian/patches
+Copying-policy: GPL v 2
+Size:		5.2M
+Extension_by:   aus9 @linuxquestions.org
+Tags:           game 
+Comments:       shoot 3 bubbles of same colour to clear them.
+                Any bubbles dependent on cleared bubbles will clear too.
+                Game is over if bubbles reach a marked line.
+                1 or 2 player + player vs computer modes
+                5 difficulty levels but no sound.
+                3 themes default is fancy
+                
+                To try another theme run
+                $ xbubble -t frozen (or plain )
+$ xbubble [-d display] [-s scale] [-f framerate] [-r resourcepath] [-t theme]
+                but on Debian and here, most settings do not work
+                IMHO frozen theme looks like frozen-bubble
+
+                -s 100 gave me full screen
+                
+Change-log:     2014/12/07 v 0.5.11.2 on 15x
+Current:        2024/12/07 

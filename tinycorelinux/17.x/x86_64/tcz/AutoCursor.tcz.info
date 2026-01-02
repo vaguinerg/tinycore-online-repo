@@ -1,0 +1,52 @@
+Title:		AutoCursor.tcz
+Description:	Controls cursor visibility based on device events.
+Version:	v0.31
+Author:		Richard A. Rost
+Original-site:	None
+Copying-policy:	GPLv2
+Size:		8.0K
+Extension_by:	Rich
+Tags:		auto hide mouse cursor pointer
+Comments:	Run  AutoCursor  for this help output:
+
+		AutoCursor version 0.31 Feb  7 2021 00:42:38
+		Copyright Richard A. Rost Jan 25,2021
+
+		AutoCursor controls cursor visibility based on device
+		events, such as mouse, keyboard, touch screen, etc.
+
+		Usage: AutoCursor [-sN] [-hN] [-i] [-e] [-S file] [-A] [-L file]
+
+			-s N    Show cursor when event N occurs.
+			-h N    Hide cursor when event N occurs.
+			-i      Initial state of cursor is hidden.
+			-e      Display list of available events with descriptions.
+			-S file Save event settings to file.
+			-A      Append instead of overwrite when -S is used.
+			-L file Load event settings from file.
+
+		Example: sudo AutoCursor -i -s5 -h1 -h3 -s2 -S ~/.cursor.conf &
+
+		Starts with cursor hidden.
+		Shows cursor when events 5 or 2 occur.
+		Hides cursor when events 1 or 3 occur.
+		Saves the event settings (but not -i) to a file.
+
+
+		To start automatically next time you boot:
+		echo "sudo AutoCursor -i -L ~/.cursor.conf &" > ~/.X.d/AutoCursor
+
+		Event numbers can change between boots by adding or removing a
+		mouse for example. So settings get saved by description instead.
+		If a mouse was included in your saved settings and is not present
+		when you boot, we just move on to the next setting in the file.
+
+		Built with:
+		CFLAGS=-flto -fuse-linker-plugin -mtune=generic -Os -g -pipe -Wall -Wextra -fno-plt
+		LDFLAGS=-Wl,-T/usr/local/lib/ldscripts/elf_x86_64.xbn
+
+Change-log:	2021/01/30 Original release v0.10
+		2021/01/31 v0.20 Fixed search in LoadSettings().
+		2021/01/31 v0.30 Added append option. Fixed file permissions.
+Current:	2021/02/07 v0.31 Cosmetic fixes to usage message.
+

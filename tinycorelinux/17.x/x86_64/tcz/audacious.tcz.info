@@ -1,0 +1,49 @@
+Title:          audacious.tcz
+Description:    gtk2 GUI audio player
+Version:        4.5.1
+Author:         https://github.com/audacious-media-player/audacious/blob/master/AUTHORS         
+Original-site:  https://distfiles.audacious-media-player.org/
+Copying-policy: multiple see COPYING
+Size:           376K           
+Extension_by:   aus9 @linuxquestions.org
+Tags:           audio media player gtk2
+Comments:       UPGRADE WARNING this TCE is now a dep of
+                audacious-plugins. If this TCE is in your boot 
+                list change it to audacious-plugins.tcz
+
+                No fuss audio.... pulldown File Settings Audio 
+                pulldown audio plugin and choose sdl2
+                -> playback should work with no further setup
+                alsa or pulseaudio plugins assumes setup. 
+                filewriter is not a playback plugin its a write plugin
+
+                To play cd -> Services -> play cd
+                See doc info for keybindings 
+                
+                Some common issues discussed here
+                https://audacious-media-player.org/problems
+
+                Optional TCES 
+                faad2 for aac file formats
+                See streaming or add curl neon mpg123 wavpack opusfile 
+                
+                Streaming sites (URL)
+                ############### If its a true audio URL, mpg123 should stream it. 
+                I suggest you bookmark this list of 1196 audio streams by Axel Schneider
+                but contains some 404 = stale links
+                https://gist.github.com/Axel-Erfurt/3b1965ac233f65a4f968a649c7ae40bf
+                
+                ERROR=unknown URI scheme is resolved by loading curl and neon
+                ERROR=unknown plugin -> close gui open a terminal and run audacious again
+                with your target URL, you will see which shared object(s) you are missing 
+                eg number 63, I was missing libmpg123.so.0 -> load mpg123 
+                Always exit the GUI and restart it to start streaming if you have loaded TCES
+                If still error + no more shared objects show up, URL is stale or incomplete             
+                
+                audtool is CLI player
+                                
+Change-log:     2014/02/11 v 3.4.3 (Juanito)
+                2016/02/07 v 3.7.1
+                2019/04/19 v 3.9
+                2024/05/30 v 4.3.1 on 15x, gtk3->2 (aus9) 
+Current:        2025/11/16 v 4.5.1 on 16x change RUN dep order

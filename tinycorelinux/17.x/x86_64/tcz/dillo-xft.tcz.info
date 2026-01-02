@@ -1,0 +1,34 @@
+Title:          dillo-xft.tcz
+Description:    Dillo - the fast and light web browser
+Version:        3.1-dev, rev:67b70f024568
+Author:         Jorge Arellano Cid and the Dillo project team
+Original-site:  http://www.dillo.org/
+Copying-policy: GPLv3
+Size:           548K
+Extension_by:   polikuo
+Tags:           FLTK light internet web browser
+Comments:       Compiled against fltk-xft
+                Occasionally requires wget.tcz when downloading stuff
+                The example below shows you how to setup unifont.tcz
+                to properly display UTF-8 text for certain languages
+		----------
+                Example:
+                $ mkdir -p ~/.dillo
+                $ cp /usr/local/etc/dillo/dillorc ~/.dillo
+                $ vi ~/.dillo/dillorc
+                (go to [RENDERING SECTION] and add these variables)
+                  font_serif="Unifont"
+                  font_sans_serif="Unifont"
+                  font_cursive="Unifont"
+                  font_fantasy="Unifont"
+                  font_monospace="Unifont"
+		----------
+                info - https://www.dillo.org/source.html
+                repo - https://hg.dillo.org/dillo
+                icon - https://www.dillo.org/Icons/ken-icons.html
+		----------
+                Compiled for 13.x x86_64
+                ----------
+Change-log:     2021/04/12 First version
+                2022/01/06 recompile, dep fix
+Current:        2022/01/06 recompile, dep fix

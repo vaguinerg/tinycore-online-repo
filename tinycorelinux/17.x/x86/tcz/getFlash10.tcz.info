@@ -1,0 +1,68 @@
+Title:          getFlash10.tcz
+Description:    Download - Setup - Create flash10.tcz script.
+Version:        0.1
+Author:         roberts
+Original-site:  http://www.tinycorelinux.com
+Copying-policy: GPL
+Size:		12K
+Extension_by:   roberts, Jason W, robc, coreplayer2
+Tags: 		adobe flash player flashplayer flash10
+
+Comments:       *** getFlash10 created for compatibility with older hardware, 
+		otherwise use the latest getFlash11 ***
+
+		Downloads from Adobe.
+                Extracts linux libflashplayer.so
+                Setup libflashplayer for either Minefield, Firefox, Opera, 
+		Seamonkey or all four. Also includes compiled libflashsupport.so 
+		for OSS sound. libflashsupport is licensed under Creative 
+		Commons Attribution 3.0.
+		Added newly compiled libflashsupport.so with Alsa & pulseaudio support.
+		System installed sound modules (OSS or ALSA) will be dectected on
+		initial run, required libflashsupport.so for system will then 
+		be installed to flash10 extension.
+		NOTE: Re-run this extension/script if sound modules are changed,
+		to include system specific libflashsupport module.
+
+                Finally packages a flash10.tcz to add to your tcz collection.
+.
+                NOTE:  Upon first time loading of this extension, the getflash10.sh
+		script is automatically run.
+.
+                If you already have your tce directory setup, then a flash10.tcz
+                will be installed there, otherwise it is in /tmp/tce/.  flash10.tcz
+		will be loaded upon completion of the getflash script.
+.
+                CAUTION: Flash10 requires gtk2 which is quite large.
+		
+		This extension is PPI compatible.
+              
+Change-log:     2008/12/11 Original
+                2009/04/04 Now a smaller download from Adobe Site.
+	        2009/04/11 Added Seamonkey and Firefox support.
+		2009/04/16 Updated to Flash 10
+        	2009/05/06 Converted to tcz (Jason W)
+        	2009/05/18 Fix for 2.0 - Added structure to menu item
+		2009/07/31 Change in archive at Macromedia
+		2009/10/16 Changed to create tcz extension and to 
+			   make PPI compatible. (Jason W)
+		2010/09/06 Added /usr/local/lib/mozilla/plugins to install path 
+			   and create directory /usr/lib/mozilla if not found
+			   and symlink /usr/lib/mozilla/plugins to support mozillas 
+			   that do not have /usr/local/lib/mozilla/plugins specified 
+			   in their plugin path.
+		2011/07/10 Removed unneeded squashfs-tools dependency on the 
+			   resulting flash($VER).tcz.dep  (Jason W)
+		2011/08/07 Added check for already running flash install. (Jason w)
+		2011/08/14 Added auto installing when first run. (Jason W)
+		2011/10/29 Updated to flash 11.
+		2011/11/11 Fixed broken download link.
+		2011/11/12 Added option to select version.
+		2012/03/11 Download current Flash 11 version or user specified.
+			   If flash11 is already installed, the updated extension is
+			   put in the upgrade dir to be updated on next boot. Other
+			   misc script updates. (robc)
+		2012/03/19 Fixed startup script (robc)
+		2013/01/10 To reflect Adobe's change in download file name. (roberts)
+		2014/09/15 Updated with libflashsupport for latest Alsa/Pulseaudio v4.0 (by coreplayer2)
+Current:	2015/05/23 getFlash10 Created for compatability with older hardware (by coreplayer2)

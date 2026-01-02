@@ -1,0 +1,18 @@
+Title:		hdparm.tcz
+Description:	CLI utility for tuning/accessing IDE/SATA drives
+Version:	9.43
+Author:		Mark Lord (mlord@pobox.com)
+Original-site:	http://sourceforge.net/projects/hdparm/
+Copying-policy:	BSD-Style Open Source License
+Size:		48K
+Extension-by:	dentonlt
+Tags:		hdparm utility IDE SATA drive
+Comments:	----------
+		This extension contains the hdparm binary only.
+		WARNING: this utility can cause permanent loss of data or drive
+		damage if used incorrectly. Example usage:
+		$ sudo hdparm -d1 /dev/hda # set DMA on hda
+		----------
+Change-log:	2014/01/01 first version for x86_64; v9.43
+		2014/01/01 first version for x86_64; v9.43
+Current:	2014/07/12 fixes by coreplayer2

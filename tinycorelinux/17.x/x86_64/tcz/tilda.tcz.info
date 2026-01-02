@@ -1,0 +1,27 @@
+Title:          tilda.tcz
+Description:    gtk3 terminal with rollup function as below
+Version:        2.0.0
+Author:         Sebastian Geiger    
+Original-site:  https://github.com/lanoxx/tilda
+Copying-policy: GPL v2
+Size:           76K
+Extension_by:   aus9 @ linuxquestions.org  
+Tags:           terminal gtk3
+Comments:       Recommend you read all info tilda-doc TCE please 
+                as it affects keybindings, configs etc
+
+                Note it is important to know that while tilda is active,
+                if you wish to do things outside tilda, press F1 to roll it up
+                otherwise you can not escape tilda. And other instances F2 etc
+
+                2 main ways to exit tilda are Ctrl + Shift + q or $ exit
+                Key bindings can now change.
+
+                On Wayland, you may prefer enable dbus (Optional dep) -
+                enable dbus and use dbus desktop that claims
+                "/usr/local/bin/tilda --dbus"
+
+                in mc TCE, arrow down works but you may like to try vifm TCE
+
+Change-log:     2020/07/22 v 1.5.0 on 11x dep vte (rudock1) 
+Current:        2024/04/03 v 2.0.0 on 15x dep vte-2.91-gtk3 (aus9)         

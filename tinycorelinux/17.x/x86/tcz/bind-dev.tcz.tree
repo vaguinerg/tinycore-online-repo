@@ -1,0 +1,25 @@
+bind-dev.tcz
+   bind.tcz
+      libxml2.tcz
+         liblzma.tcz
+      readline.tcz
+         ncursesw.tcz
+      liburcu.tcz
+      openssl.tcz
+         gcc_libs.tcz
+      jemalloc.tcz
+      libuv.tcz
+      libcap.tcz
+         attr.tcz
+      libnghttp2.tcz
+   openssl-dev.tcz
+      openssl.tcz
+         gcc_libs.tcz
+   libcap-dev.tcz
+      libcap.tcz
+         attr.tcz
+      attr-dev.tcz
+         attr.tcz
+   liburcu-dev.tcz
+      liburcu.tcz
+

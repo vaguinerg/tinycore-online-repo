@@ -1,0 +1,26 @@
+Title:		kermit.tcz
+Description:	kermit - A VTE-based, simple and froggy terminal emulator.
+Version:	v3.0
+Size:		12K
+Extension-by:	Sashank999
+Tags:		terminal zoom font
+Author:		see below
+Original-site:	see below
+Copying-policy:	see below
+Comments:	Features :
+		  Uses the default shell (with $SHELL environment variable)
+		  Supports transparency with a composite manager (such as compton)
+		  Supports base16 color schemes (customizable theme)
+		  Supports custom keys and associated commands
+		  Supports tabs
+		Please look at the customisation available starting from here :
+		https://github.com/orhun/kermit#key-bindings
+
+		Note that the official sources have been modified to suit Tiny Core. Modifications detailed
+		here : http://repo.tinycorelinux.net/11.x/x86_64/tcz/src/kermit/compile_kermit
+		--------------------------
+		This extension contains :
+		kermit - v3.0 - GNU GPLv3 - https://github.com/orhun/kermit/archive/3.0.tar.gz
+		--------------------------
+Change-log:	First Version
+Current:	2020/08/03

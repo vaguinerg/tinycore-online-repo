@@ -1,0 +1,21 @@
+Title:          keepalived.tcz
+Description:    VRRP stack to handle gateway failover
+Version:        2.0.18
+Author:         Alexandre Cassen, <acassen@linux-vs.org>
+Original-site:  http://www.keepalived.org/
+Copying-policy: GPL
+Size:           268K
+Extension_by:   trebuchet76
+Tags:           VRRP stack to handle gateway failover
+Comments:	Use IPVS Framework	: Yes
+		IPVS use libnl		: Yes
+		IPVS syncd attributes	: Yes
+		fwmark socket support	: Yes
+		Use VRRP Framework	: Yes
+		Use VRRP VMAC		: Yes
+		Use VRRP authentication	: Yes
+		SNMP support		: No
+		SHA1 support		: No
+		Use Debug flags		: No
+Change-log:	Compiled for TC 10.1
+Current:	2019/10/07 First version

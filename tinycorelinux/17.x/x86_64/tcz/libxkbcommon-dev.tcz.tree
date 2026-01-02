@@ -1,0 +1,19 @@
+libxkbcommon-dev.tcz
+   libxkbcommon.tcz
+      xkeyboard-config.tcz
+      libxcb.tcz
+         libXau.tcz
+         libXdmcp.tcz
+   libxcb-dev.tcz
+      libxcb.tcz
+         libXau.tcz
+         libXdmcp.tcz
+      libXau-dev.tcz
+         libXau.tcz
+      libXdmcp-dev.tcz
+         libXdmcp.tcz
+      xcb-proto.tcz
+         xorg-proto.tcz
+            util-macros.tcz
+               m4.tcz
+

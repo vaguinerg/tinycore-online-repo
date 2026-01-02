@@ -1,0 +1,24 @@
+Title:          playerctl.tcz
+Description:    command line media controller as below
+Version:        2.4.1
+Author:         https://github.com/altdesktop/playerctl/blob/master/CONTRIBUTORS
+Original-site:  https://github.com/altdesktop/playerctl
+Copying-policy: LGPL v 3
+Size:           96K
+Extension_by:   aus9 @linuxquestions.org
+Tags:           media player 
+Comments:       mpris media player command-line controller for 
+                audacious-plugins,rhythmbox, vlc and xmms2. However, any player 
+                that implements the MPRIS interface specification can be controlled 
+                using playerctl
+
+                NOTE you may need a playlist or a dir of files to play for some commands
+                (tested with audacious-plugins)
+                playerctl play-pause
+                playerctl next
+                playerctl previous 
+
+                Next create kb shorcuts for the commands you plan on using               
+                
+Change-log:     2025/12/04 v 2.4.1  on 16x
+Current:        2025/12/04

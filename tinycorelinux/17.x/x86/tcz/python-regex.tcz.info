@@ -1,0 +1,15 @@
+Title:          python-regex.tcz
+Description:    python regular expression library extension and replacement
+Version:        2017.09.23
+Author:         Matthew Barnett
+Original-site:  bitbucket.org/mrabarnett/mrab-regex
+Copying-policy: Python Software Foundation License
+Size:		288K
+Extension_by:   justincb
+Tags:           regex extension library python
+Comments:       A regular expression library for python that extends the
+                built-in functionality.  It claims to be i686, but was
+                compiled with tinycore's default python compiler arguments:
+                -march=i486 -mtune=i686 -O3 -pipe
+Change-log:     2017/09/26 Compiled from source for tinycore 8.x
+Current:        2017/09/26 Compiled from source for tinycore 8.x

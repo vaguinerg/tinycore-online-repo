@@ -1,0 +1,22 @@
+Title:		dosbox.tcz
+Description:	an x86 emulator with sound and graphics from old DOS
+Version:	0.74-3
+Author:		Lead developer: Peter Veenstra and others.
+Original-site:	http://www.dosbox.com
+Copying-policy:	GNU-GPL
+Size:		788KB
+Extension_by:	Alejandro Padrino
+Tags:		an x86 emulator sound graphics old DOS .
+Comments:	This extension contains:
+		dosbox-0.74-3.tar.gz
+                ----------
+		Sound engine tested:
+		Alsa
+		After few time playing games can be turn down in speed (same bug founded in 0.72 release).
+		If you can't use cursor keys, edit /home/tc/.dosbox/dosbox-0.74.conf file and set 'usescancodes=false'.
+		Some times don't show dosbox icon in wbar after loading.
+		----------
+Change-log:	2009/04/05 - Original .tcz package by Onyarian
+                2011/07/14 - Update to 0.74 release
+                2015/01/21 - adjusted extension (juanito)
+Current:	2022/08/29 - updated 0.74 -> 0.74-3 (juanito)

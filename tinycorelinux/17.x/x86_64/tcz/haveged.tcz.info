@@ -1,0 +1,13 @@
+Title:		haveged.tcz
+Description:	a simple entropy daemon
+Version:	1.9.4
+Author:	Gary Wuertz
+Original-site:	https://github.com/jirka-h/haveged
+Copying-policy: GPLv3
+Size:		52.0K
+Extension_by:	Yoshihiro Sato
+Tags:		random number generator entropy
+Comments:	Latest kernel change for CVE-2018-1108, takes long to fill enough entropy for random generator.
+		This simple daemon to provide random number generator based upon an adaptation of the HAVEGE algorithm.
+Change-log:	----
+Current:	2018/09/14 - first version - 1.9.4

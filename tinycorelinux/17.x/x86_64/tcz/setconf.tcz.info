@@ -1,0 +1,21 @@
+Title:          setconf.tcz
+Description:    changing settings in config text files and below
+Version:        0.7.7
+Author:         Alexander F. Rødseth
+Original-site:  https://github.com/xyproto/setconf
+Copying-policy: GPL v2 
+Size:           24K          
+Extension_by:   aus9 @linuxquestions.org  
+Tags:           config 
+Comments:       Replacement for most sed replacements
+                to alter config files, Makefile, headers and such
+                
+                old= sed 's|key=oldvalue|key=value|g' -i filename
+                new= setconf filename key value
+
+                sed still better if order of lines is important such as
+                headers that need #include <limits.h> (before another line)
+                More examples in man page
+                     
+Change-log:     2024/08/01 v 0.7.7 on 15x
+Current:        2024/08/01     

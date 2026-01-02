@@ -1,0 +1,26 @@
+Title:          fluidsynth.tcz
+Description:    Software synthesizer based on SoundFont2 specs 
+Version:        2.5.2
+Author:         Tom Moebert
+Original-site:  https://github.com/FluidSynth/fluidsynth
+Copying-policy: accompanied
+Size:           328K
+Extension_by:   aus9 
+Tags:           soundfont midi 
+Comments:       TCE generates audio by reading and handling MIDI events 
+                from MIDI input devices by using a SoundFont. It is the 
+                software analogue of a MIDI synthesizer.
+                supports sf2 sf3 dls files 
+                Alsa pulseaudio & pipewire need setup first
+
+                Can play MIDI files. First run
+                $ sudo modprobe snd-seq-midi
+                Tested alsa only but supports alsa file pipewire pulseaudio & 
+                portaudio so next edit to suit
+$ fluidsynth /usr/local/share/soundfonts/default.sf2 /path2/mid.mid
+
+                While its runs- it runs in a daemon mode and accepts commands like help
+                settings
+                                
+Change-log:     2025/12/31 v 2.5.2  on 16x
+Current:        2025/12/31  

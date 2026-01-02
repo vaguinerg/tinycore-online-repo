@@ -1,0 +1,19 @@
+Title:          python3.9-six.tcz
+Description:    Python 2 and 3 compatibility library
+Version:        1.16.0
+Author:         Benjamin Peterson
+Original-site:  https://github.com/benjaminp/six
+Copying-policy: MIT
+Size:		16K
+Extension_by:   justincb
+Tags:           python python3 six compatibility library
+Comments:       Six provides simple utilities for wrapping over differences
+                between Python 2 and Python 3. It is intended to support codebases
+                that work on both Python 2 and 3 without modification. six consists of
+                only one Python file, so it is painless to copy into a project.
+                Documentation at: https://six.readthedocs.io/
+                
+Change-log:     2017/09/26 Compiled from source for tinycore 8.x (justincb)
+                2022/03/26 python3.6 update to later version, 1.16.0 (rhermsen)
+                2024/02/02 first python3.9 version, 1.16.0 (rhermsen)
+Current:        2024/02/02 first python3.9 version, 1.16.0 (rhermsen)

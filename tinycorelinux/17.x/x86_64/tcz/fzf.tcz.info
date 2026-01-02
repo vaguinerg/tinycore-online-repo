@@ -1,0 +1,36 @@
+Title:          fzf.tcz
+Description:    fzf is a general-purpose command-line fuzzy finder.
+Version:        0.21.1
+Author:         Junegunn Choi    junegunn.c@gmail.com
+Original-site:  https://github.com/junegunn/fzf
+Copying-policy: https://github.com/junegunn/fzf/blob/master/LICENSE
+Size:       1.3M
+Extension_by:   rudock1
+Tags:           fuzzy find command line cli golang
+Comments:       It's an interactive Unix filter for command-line that can
+                be used with any list; files, command history, processes,
+                hostnames, bookmarks, git commits, etc. Blazingly fast,
+                comprehensive feature set, flexible layout, key bindings
+                and fuzzy auto-completion. Similar to Google Autocomplete
+                or OS X Spotlight.
+                ----------
+                Example .bashrc "script edit" function:
+                se() { du -a ~/.local/bin/* | awk '{print $2}' | fzf --height 40% --layout=reverse --border --preview 'head -100 {}' | xargs -r $EDITOR;}
+                ----------
+                Key bindings for command-line, add this line to your ~/.bashrc:
+                [ -f /usr/local/share/fzf/.fzf.bash ] && source /usr/local/share/fzf/.fzf.bash
+                Gives you:
+                    CTRL-T - Paste the selected files and directories onto
+                      the command-line
+                    CTRL-R - search history of shell commands and paste to
+                      the command-line
+                    ALT-C - fuzzy change directory
+                ----------
+                This extension contains:
+                fzf-0.21.1 - MIT License
+                https://github.com/junegunn/fzf/archive/0.21.1.tar.gz
+                ----------
+                Compiled for 11.x x86_64
+Change-log:     first version
+Current:        2020/06/22 v0.2.1 (released 2020-04-03)
+

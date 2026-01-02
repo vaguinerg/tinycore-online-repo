@@ -1,0 +1,23 @@
+Title:          hashcat.tcz
+Description:    password recovery utility
+Version:        3.6.0
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 3.56MB
+Extension_by:   juanito
+Tags:           password recovery opencl
+Comments:       password recovery utility using opencl hardware acceleration
+                ----------
+                *** run in copy2fs mode ***
+                ----------
+                needs beignet, pocl or Xprg-7.7-opencl for acceleration
+                adjust /etc/OpenCL/vendors/* to suit
+                benchmark with (for example)
+                $ hashcat -b -m 1000 --opencl-device-types 2 --opencl-platforms 1
+                ----------
+                This extension contains:
+                hashcat-3.6.0 - MIT - https://github.com/hashcat/hashcat/archive/v3.6.0.tar.gz
+                ----------
+Change-log:     first version
+Current:        2017/09/24

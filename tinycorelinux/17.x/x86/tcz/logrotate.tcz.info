@@ -1,0 +1,22 @@
+Title:          logrotate.tcz
+Description:    logrotate utility, automatic rotation compression removal and mailing of logs
+Version:        3.19.0
+Author:         Erik Troan, Preston Brown, and Jan Kaluza
+Original-site:  http://github.com/logrotate/logrotate
+Copying-policy: GPLv2
+Size:		40K
+Extension_by:   rhermsen
+Tags:           logrotate rotation compression
+Comments:       The logrotate utility is designed to simplify the administration
+                of log files on a system which generates a lot of log files. Logrotate
+                allows for the automatic rotation compression, removal and mailing
+                of log files. Logrotate can be set to handle a log file hourly, daily, weekly,
+                monthly or when the log file gets to a certain size.
+
+                After configuration, logrotate should be run on a schedule e.g. using crontab
+                which can be setup to run daily, or even hourly if faster rotation is required.
+
+                Install logrotate-doc.tcz for configuration examples.
+
+Change-log:     2022/03/08 First version, 3.19.0
+Current:        2022/03/08 First version, 3.19.0

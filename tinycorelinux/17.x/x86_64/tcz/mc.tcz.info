@@ -1,0 +1,40 @@
+Title:           mc.tcz
+Description:     Console or Virtual Terminal File Manager
+Version:         4.8.33
+Author:          https://github.com/MidnightCommander/mc/blob/master/AUTHORS
+Original-site:   https://github.com/MidnightCommander/mc
+Copying-policy:  GPL v3
+Size:            892K
+Extension_by:    aus9 @linuxquestions.org
+Tags:            tty console terminal file manager
+Comments:        Upgraders NOTE This TCE has been stripped of desktop/wbar/mc-fix.sh
+                 If you are a console (tty) user, less is loaded now.
+                 If you run a virtual terminal except for aterm or aterm2, it should render correctly
+                 If you have locale set with aterm or aterm2, graphics likely to glitch as per image YMMV
+                 https://postimg.cc/Nyj8K7LS
+                                                                                   
+                 Optional deps:  perl5 for misc. functions
+                 No support for trash can
+                 On first launch and exit, configs at ~/.config/mc
+                 mc allows live config changes, mc-> Options -> Configuration 
+                 
+                 mc has read-write file association files under /usr/local/libexec/mc/ext.d
+                 Any you change and you need over reboot, add to your backup please.
+                 eg usr/local/libexec/mc/ext.d/doc.sh               
+                                 
+                 mouse is supported this build for virtual terminal users.
+
+                 aterm/aterm2 If graphics glitch 
+                 #################################
+                 (1) edit ~/.Xdefaults to include a line that reads (edit to suit)
+                     Aterm*font: 12x24 
+                     Or launch aterm with your preferred font size (eg) $ aterm -fn 12x24 &
+                 (2) $ export LANG=C && mc 
+
+                 On my AMD APU, console or VT sudo mc takes > 5 seconds to load
+                                             
+ Change-log:     2014/01/18 v 4.8.11 (bmarkus)
+                 2014/06/16 v 4.8.12
+                 2024/04/05 v 4.8.31 on 15x + mouse doc/locale, rw file associations, remove aterm dep (aus9)
+                 2025/11/19 v 4.8.33 on 16x new upstream site + aterm multiple changes
+Current:         2025/12/13 delete aterm dep + desktop + mc-fix.sh on 16x  

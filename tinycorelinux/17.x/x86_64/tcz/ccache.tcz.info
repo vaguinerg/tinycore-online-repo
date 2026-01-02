@@ -1,0 +1,16 @@
+Title:		ccache.tcz
+Description:	C/C++ compiler cache
+Version:	3.1.9
+Author:		Andrew Tridgell, Joel Rosdahl, et al
+Original-site:	http://samba.org/ftp/ccache/ccache-3.1.9.tar.gz
+Copying-policy:	GPLv3 or later
+Size:		40K
+Extension-by:	dentonlt
+Tags:		compile cache c c++
+Comments:	----------
+		ccache is a tool to speed recompilations. It provides a cache
+		and detects when an identical compilation is being done again.
+		ccache supports C, C++, Objective-C, and Objective-C++.
+		----------
+Change-log:	2014/01/23 first version for x86_64; 3.1.9, dentonlt
+Current:	2014/01/23 first version for x86_64; 3.1.9, dentonlt

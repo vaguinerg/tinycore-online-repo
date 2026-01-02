@@ -1,0 +1,45 @@
+Title:          coturn.tcz
+Description:    open source implementation of TURN and STUN server
+Version:        git-1f74024 (4.6.2)
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size:		256K
+Extension_by:   gnuser
+Tags:           prosody xmpp voice video call voip
+Comments:       ----------
+                howto (assuming you are using prosody as xmpp server):
+                1. make sure prosody is properly configured and working for text messages
+                   (see prosody.tcz.info's howto)
+
+                2. open udp ports 3478, 5349, and 49152-65535 in your firewall (how to do this depends on your setup)
+
+                3. configure coturn:
+                   $ sudo cp /usr/local/etc/turnserver.conf.minimal /usr/local/etc/turnserver.conf
+                   edit the fields marked "**EDIT**" (public ip address, domain name, password, ssl certificate)
+
+                4. configure prosody (/usr/local/etc/prosody/prosody.cfg.lua):
+                   a. in the "modules_enabled" section, uncomment the line containing "turn_external"
+                   b. in the "Audio/video call relay" section, add these lines:
+                      turn_external_host = "penguins.ddns.org" -- use your real domain, of course
+                      turn_external_port = 3478
+                      turn_external_secret = "TinyCoreLinuxRules123890" -- use your real password
+
+                5. if you want to use a non-standard primary port (i.e., not 3478) for security purposes
+                   (recommended), make sure your firewall, turnserver.conf, and prosody.cfg.lua are all
+                   configured to use the same port (e.g., 3479). no change is needed in xmpp clients.
+
+                6. backup your configuration files:
+                   $ echo "usr/local/etc/turnserver.conf" >> /opt/.filetool.lst
+                   [presumably prosody's configuration file is already in /opt/.filetool.lst]
+                   $ filetool.sh -b
+
+                7. start coturn (as root) and restart prosody (as regular user):
+                   $ sudo turnserver &
+                   $ pkill prosody; prosody &
+                ----------
+                This extension contains:
+                coturn-4.6.2 - BSD-like
+                ----------
+Change-log:     ----------
+Current:        2024/08/01 first version

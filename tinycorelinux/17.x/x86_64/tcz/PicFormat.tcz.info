@@ -1,0 +1,47 @@
+Title:		PicFormat.tcz
+Description:	Simple image manipulations from the command line.
+Version:	v0.20
+Author:		Richard A. Rost
+Original-site:	None
+Copying-policy:	GPLv2
+Size:		8.0K
+Extension_by:	Rich
+Tags:		image resize rotate change format
+Comments:	Run  PicFormat  for this help screen:
+
+		PicFormat version 0.20 Jul 16 2021 22:18:04
+		Copyright Richard A. Rost Mar 17,2021
+
+		PicFormat resizes, rotates, and changes formats (i.e. .jpg to .png)
+		of images.
+
+		Usage: PicFormat [-i FILE] [-o FILE] [-w N] [-h N] [-p N] [-r N]
+
+			-i FILE Input.
+			-o FILE Output.
+			-w N    Output width.
+			-h N    Output height.
+			-p N    Percent, 110=10% bigger, 50=1/2 size.
+			-r N    Rotate image CW 90, 180, or 270 degrees.
+
+		Notes
+			N is an unsigned integer.
+			Only -w OR -h OR -p is needed if resizing.
+			If rotating 90 or 270, -w and -h are swapped.
+
+		Built with:
+		CFLAGS=-flto -fuse-linker-plugin -mtune=generic -Os -g -DX_DISPLAY_MISSING -pipe -Wall -Wextra -fno-plt
+		CXXFLAGS=-flto -fuse-linker-plugin -mtune=generic -Os -g -pipe -Wall -Wextra -fno-exceptions -fno-rtti
+		LDFLAGS=-Wl,-T/usr/local/lib/ldscripts/elf_x86_64.xbn
+
+		Optional dependency:
+		
+			binutils.tcz or elfutils.tcz to run PicFormats.sh
+
+		PicFormats.sh scans the /usr/local/lib/imlib2/loaders
+		directory. It prints which loaders are available and
+		whether they can load or save their respective formats.
+
+Change-log:	2021/03/27 Original release v0.10
+Current:	2021/07/16 v0.20 Added -p resize option.
+

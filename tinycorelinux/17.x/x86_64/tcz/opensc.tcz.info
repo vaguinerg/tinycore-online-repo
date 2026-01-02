@@ -1,0 +1,21 @@
+Title:          opensc.tcz
+Description:    smart card tools
+Version:        0.20.0
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 1.38MB
+Extension_by:   juanito
+Tags:	        smart card
+Comments:       smart card tools and middleware
+                ----------
+                to test:
+                $ sudo /usr/local/sbin/pcscd -fd
+                insert card/tap to pay
+                $ pkcs15-tool -D
+                ----------
+                This extension contains:
+                opensc-0.20.0 - lGPLv2.1 - https://github.com/OpenSC/OpenSC/releases/download/0.20.0/opensc-0.20.0.tar.gz
+                ----------
+Change-log:     2019/01/22 first version
+Current:        2020/07/03 updated 0.19.0 -> 0.20.0

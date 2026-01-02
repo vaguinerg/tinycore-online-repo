@@ -1,0 +1,20 @@
+Title:          protobuf-c.tcz
+Description:    Protobuf-c is a C implementation of the Google Protocol Buffers data serialization format
+Version:        1.5.0
+Author:         Dave Benson (original author)
+Original-site:  https://github.com/protobuf-c/protobuf-c
+Copying-policy: https://github.com/protobuf-c/protobuf-c?tab=License-1-ov-file
+Size:		72K
+Extension_by:   rhermsen
+Tags:           protobuf-c libprotobuf-c protoc-c
+Comments:       Protobuf-c is a C implementation of the Google Protocol
+                Buffers data serialization format. It includes libprotobuf-c, a
+                pure C library that implements protobuf encoding and decoding,
+                and protoc-c, a code generator that converts Protocol Buffer
+                .proto files to C descriptor code, based on the original protoc.
+
+                protobuf-c formerly included an RPC implementation;
+                that code has been split out into the protobuf-c-rpc project.
+
+Change-log:     2024/02/02 first version, 1.5.0 (rhermsen)
+Current:        2024/02/02 first version, 1.5.0 (rhermsen)

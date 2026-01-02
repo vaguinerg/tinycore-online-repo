@@ -1,0 +1,22 @@
+Title:          samba.tcz
+Description:    windows network services
+Version:        4.14.13
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 13.2MB
+Extension_by:   juanito
+Tags:	        file print service smb cifs network client server
+Comments:       file and print services for smb/cifs clients and windows networking to linux clients
+                ----------
+                edit /usr/local/etc/samba/smb.conf
+                $ sudo /usr/local/etc/init.d/samba [start|stop|restart|status]
+                can optionally use the python3.6 extension
+                ----------
+                This extension contains:
+                samba-4.14.13 - GPLv3 - https://download.samba.org/pub/samba/stable/samba-4.14.13.tar.gz
+                ----------
+Change-log:     2013/12/28 first version
+                2016/07/27 adjusted init.d as per misalf
+                2017/05/22 updated 4.1.3 -> 4.6.3
+Current:        2022/05/14 updated 4.6.3 -> 4.14.13

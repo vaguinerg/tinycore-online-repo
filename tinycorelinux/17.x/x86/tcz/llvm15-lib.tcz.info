@@ -1,0 +1,29 @@
+Title:          llvm15-lib.tcz
+Description:    llvm libraries
+Version:        15.0.7
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 26.7MB
+Extension_by:   juanito
+Tags:	        low level virtual machine llvm
+Comments:       collection of modular and reusable compiler and toolchain technologies.
+                The Low Level Virtual Machine (LLVM) libraries provide a modern source and target-independent optimizer,
+                along with code generation support for many popular CPUs
+                ----------
+                minimum cpu pentium-m
+                ----------
+                This extension contains:
+                llvm-15.0.7 - (c) University of Illinois -  https://github.com/llvm/llvm-project/releases/download/llvmorg-15.0.7/llvm-15.0.7.src.tar.xz
+                ----------
+Change-log:     2013/07/05 first version
+                2014/10/28 updated 3.3 -> 3.5
+                2015/12/17 updated 3.5 -> 3.7.0
+                2017/02/18 updated 3.7.0 -> 3.9.1
+                2017/09/14 updated 3.9.1 -> 4.0.1
+                2018/03/12 recompiled against ncursesw
+                2018/03/29 updated 4.0.1 -> 6.0.0
+                2019/04/04 updated 6.0.0 -> 8.0.0
+                2021/01/03 recompiled for updated libffi
+                2022/01/19 updated 8.0.0 -> 13.0.0
+Current:        2023/04/15 updated 13.0.0 -> 15.0.7

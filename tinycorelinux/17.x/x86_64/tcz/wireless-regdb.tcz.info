@@ -1,0 +1,25 @@
+Title:          wireless-regdb.tcz  
+Description:    wireless regulatory domain firmware and country code config
+Version:        2025/10/07
+Author:         Luis R. Rodriguez, Johannes Berg & Michael Green
+Original-site:  https://www.kernel.org/pub/software/network/wireless-regdb/
+Copying-policy: accompanied
+Size:           4.0K
+Extension_by:   aus9 @linuxquestions.org
+Tags:           cfg80211 regulatory.db firmware domain
+Comments:       Read-writeable config is /etc/modprobe.d/regdom.conf 
+                change "AU" to your country code. Your country laws
+                may require you to use correct country. Persist any changes by 
+                $ sudo echo 'etc/modprobe.d/regdom.conf' >> /opt/.filetool.lst 
+                full reboot WITH backup. On reboot you can test by loading iw + 
+                wireless-KERNEL TCEs then 
+                $ iw reg get # you should see correct country details
+                Other wireless TCEs not discussed here
+
+                module cfg80211 depends on this TCE 
+                                
+Change-log:     2023/05/06 any arch v 2023-05-03 source was
+                https://git.kernel.org/pub/scm/linux/kernel/git/sforshee/wireless-regdb.git
+Current:        2025/10/11 any arch v 2025/10/07 source now
+                https://www.kernel.org/pub/software/network/wireless-regdb
+                install script changed + regulatory.db.p7s not needed

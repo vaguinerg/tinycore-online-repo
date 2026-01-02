@@ -1,0 +1,29 @@
+Title:          volumeicon.tcz 
+Description:    alsa volume applet for system trays
+Version:        0.5.1
+Author:         various
+Original-site:  https://github.com/Maato/volumeicon
+Copying-policy: GPL v3 
+Size:           44K
+Extension_by:   aus9 @linuxquestions.org 
+Tags:           alsa
+Comments:       Tested on icewm & jwm
+                alsa sound must be set up first please.
+                You may need more alsa TCES
+
+                For a RH mouse user, left click mutes master volume
+                right click opens context menu
+                Depending on your dark or light themes, 
+                context menu -> preferences -> status icon
+                .....change icon dark to light or whatever
+                context menu -> open mixer = alsamixer
+
+                Autostart applet add line to existing file,
+                its not a script just a file
+                $ cat ~/X.d/volumeicon
+                volumeicon 
+                
+                Or $ volumeicon & # in a terminal
+
+Change-log:     2023/03/13 Original 0.5.1 on 14x
+Current:        2024/11/06 v git-nov on 15x more locales fix desktop, no svg

@@ -1,0 +1,22 @@
+Title:		pdftk.tcz [TESTING]
+Description:	PDF manipulation tools
+Version:	1.44
+Author:		Sid Steward (sid.steward at pdflabs.com)
+Original-site:	http://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/
+Copying-policy:	GNU GPL 2 for public use / proprietary for commercial use
+Size:		14M
+Extension_by:	dentonlt
+Tags:		PDF manipulation tools
+Comments:	pdftk provides a CLI tool for splitting, joining, and otherwise
+		altering PDF files. Call pdftk --help or see the web site for
+		details.
+		Building: a time consuming process. Build gcc to enable gcj
+		support, download/install ecj-$VER.jar into your path, edit the
+		pdftk Makefile.Debian makefile (follow its instructions), and
+		make.
+		This extension includes the libgcj library and the pdftk
+		binary. There are no external docs or development items.
+		The first version was built on TC 3.3 with gcj 4.5.1 and
+		ecj 4.5.
+		2010/11/12 first version by dentonlt
+Current:	2011/03/22 fix duplicated squash root in extension

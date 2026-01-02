@@ -1,0 +1,20 @@
+Title:		mdadm.tcz
+Description:	mdadm - Software raid tools for Linux
+Version:	3.2.5
+Author:		Neil Brown
+Original-site:	http://www.kernel.org/pub/linux/utils/raid/mdadm/
+Copying-policy:	GPL (see /usr/local/share/doc/License/mdadm-copying.txt)
+Size:		376K
+Extension_by:	gutmensch
+Tags:		software raid linux mdadm
+Comments:	Create, assemble, monitor your Linux software raids.
+		Edit /usr/local/etc/mdadm.conf and backup.
+		If needed also edit /etc/udev/rules.d/64-md-raid.rules and backup.
+		To monitor mdadm and query events, look at mdadm-events script.
+		Can use any sendmail provider to send messages (msmtp.tcz or postfix.tcz).
+	   	---
+		This extension is PPI compatible.
+Change-log:	2010/12/08	Initial version 3.1.4 for tc 3.x
+		2010/12/19	Updated udev rule installer
+		2011/02/06	Bump to 3.2
+Current:	2012/05/31	Recompiled against TC 4.x, bump to 3.2.5

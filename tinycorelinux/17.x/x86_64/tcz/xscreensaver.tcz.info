@@ -1,0 +1,89 @@
+
+Title:          xscreensaver.tcz
+Description:    screensavers and locker 
+Version:        6.09
+Author:         Jamie Zawinski 
+Original-site:  http://www.jwz.org/xscreensaver
+Copying-policy: accompanied
+Size:           700K
+Extension-by:   aus9 @linuxquestions.org
+Tags:           screensavers screen lock xorg
+Comments:       saver=TCE=xscreensaver & kb=keyboard
+                (UPGRADERS) Please read all saver TCES as you may now prefer TCE=yscreensaver
+                The X.d file has changed significantly for autostart as below
+                This TCE has 4 savers, with balance in TCE-extras. 
+                Health WARNING some savers may cause issues due to immersion, flashing etc.
+                lcdscrub saver.... claims to repair burn-ins on LCD monitors
+                This TCE is not designed to run on wayland desktops.  
+                
+                TCE fails on Xorg 2d with error missing /usr/local/lib/dri/swrast_dri.so
+                So reboot into Xorg-7.7-3d and its not in TCE dep file. Default config is 
+                read only /usr/local/share/X11/app-defaults/XScreenSaver unless you have 
+                ~/.xscreensaver (read-write) which we will create shortly.
+
+                Method 1 users must NOT use pulldown File -> lock nor run $ lock
+                -> either will require a hardware reset as lock refers to password lock
+                So if settings lock box is UNTICKED but you run $ lock....it really locks!
+
+                $ blank is safe for method 1 users $ lock for method 2 users 
+                blank and lock allows for desktop kb shortcuts for those that use them!
+                eg my jwm line is <Key mask="A" key="b">exec:blank</Key>
+                $ lock first blanks (may fade first) then locks 
+                If you notice your screen is starting to fade, a mouse click, mouse 
+                move or kb input should stop the fade/saver. I call that an INPUT-EVENT
+
+                Method 1 = savers and no locker
+                #########
+                Run $ xscreensaver-settings 
+                Popup asks do you want to launch the daemon now? Click launch button
+                -> another popup appears - do nothing and that popup will disappear shortly. 
+                The default setting for the lock box is already unticked.
+                
+                If daemon fails, $ blank will fail. You can check the daemon
+                status by pulldown File, if kill daemon is in bold, its working.
+                If start daemon is in bold.....start it!
+                                                
+                Some savers are blanked as they have not been installed or are in 
+                TCE-extras and some are slow to load. Each saver has their own settings 
+                button bottom RH corner. Advanced TAB includes fade, power & theme stuff.
+
+                Test timer for fadeout/saver by clicking the minus sign to show
+                Blank 1 minute. 
+                Now exit the app and make no kb or mouse clicks for 1 minute. Once saver starts,
+                - make an INPUT-EVENT. Leave the timer set 1 minute until you have completed all tests,
+                as below.
+                                        
+                If you like TCE autostarted then add either this TCE or TCE-extras 
+                (which has a dep of this TCE) to boot list and run
+                $ echo 'sleep 10 && xscreensaver --no-splash &' > ~/.X.d/xscreensaver
+                exit to prompt -> startx and check if kill daemon is in bold.
+                If not, increase sleep time and try again. On my AMD APU 8s is too short
+               
+                If after testing you are unhappy with changes you can use pulldown
+                File and kill the daemon, then uninstall the TCE and choose other options
+                Experienced members can manually edit their home config but please test
+                by pulldown File -> restart daemon.
+
+                I have a tower so power management not tested. Please see TCE=acpid
+                and $ man xscreensaver from TCE-doc section = LAPTOP LIDS WITHOUT SYSTEMD
+                
+                Mode 2 password 
+                ###### READ MODE 1 FIRST PLEASE
+                run $ passwd (to create password for local user) 
+                I have compiled support for root password but not tested.
+
+                Consider persistence of your password by backing up 
+                etc/passwd & etc/shadow 
+                Otherwise you need to repeat password creation over reboot.
+                
+                run $ xscreensaver-settings and complete all of mode 1 but TICK the lock box
+                To speed up testing run $ lockx
+                Method 2 users will, on kb or mouse input, see a login popup. Input password 
+                within 30 seconds to unlock. The login popup wil respawn if password not accepted
+                Logging is available read the man pages.
+               
+Change-log:     2014/01/29 v 5.26 (dentonlt)
+                2020/07/26 v 5.44 (aus9)
+                2020/07/31 fix desktop file 
+                2023/04/10 v 6.0.6 (called 6.06 in 6.09 changelog) on 14x
+Current:        2024/12/25 v 6.09 on 15x  split TCEs X.d file changes

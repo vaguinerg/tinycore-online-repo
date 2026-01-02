@@ -1,0 +1,19 @@
+Title:          linuxconsoletools-doc.tcz  
+Description:    man page, README + udev rule
+Version:        1.8.1
+Author:         linuxconsoletools Team
+Original-site:  https://sourceforge.net/projects/linuxconsole/
+Copying-policy: GPL v 2
+Size:           16K
+Extension_by:   aus9  
+Tags:           joystick gamepad game
+Comments:       Contains an udev rule for manufacturer=vendor=04d8 
+                Read the README but use root powers to 
+                copy and edit any relevant udev rule to 
+                /etc/udev/rules.d then run
+                $ sudo udevadm control --reload-rules
+                $ udevadm trigger
+                This device is no longer on sale AFAIK   
+                
+Change-log:     2025/12/27 v 1.8.1 on 16x
+Current:        2025/12/27  

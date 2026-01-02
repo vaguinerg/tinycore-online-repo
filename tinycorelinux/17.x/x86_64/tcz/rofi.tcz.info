@@ -1,0 +1,55 @@
+Title:          rofi.tcz 
+Description:    libX11/XWayland launcher and misc tool as below
+Version:        1.7.5+wayland3
+Author:         https://github.com/lbonn/rofi/blob/wayland/AUTHORS
+Original-site:  https://github.com/lbonn/rofi
+Copying-policy: Accompanied 
+Size:           236K
+Extension_by:   aus9 @linuxquestions.org
+Tags:           launcher 
+Comments:       Fork of https://github.com/davatorium/rofi
+                An X11 & (X)wayland pop-up window switcher, run dialog, 
+                dmenu replacement. It supports keyboard & mouse 
+                navigation, type to filter, tokenized search 
+                and log into a remote machine via ssh. (Untested)
+                
+                config = $HOME/.config/rofi/config.rasi
+                You should correct pathway to theme if not user=tc
+                PLUS you have 1xtheme file
+                $HOME/.config/rofi/themes/fancy.rasi
+                which is called by last line in your config file
+                
+                NORMAL USE: 
+                If not using wbar icon, run 
+                $ rofi -show drun -show-icons
+                Scroll thru selections via arrow key or mouse
+                Press enter against selection to open it
+                If App is already open elsewhere, you may switch to it 
+                --- subject to WM settings
+                Press Escape key to exit app if no selection made.
+                OR mouse click outside app to exit
+                (change config for click-to-exit if you like app open if 
+                 you need to swap workspaces for a while)
+                Highly recommend you create a keybinding for above in WM,
+                if WM allows kb shortcuts
+
+                Selection + Enter key opens "target app" and closes rofi
+
+                If your WM supports workspaces, $ rofi -show window
+                provides a list of what is open on each workspace
+
+                To run it like dmenu (exe search not a desktop file search) 
+                $ rofi -show run 
+                but note the following enhancements, IMHO,
+                string search is anywhere in exe name
+                eg search for "gr" without quotes has hits including
+                addgroup, groff,  vigr etc
+
+                fancy theme includes tabs for windows etc
+ 
+                TESTED basic functions on icewm/xorg and sway/xwayland 
+                rofi on wayland likely to bork if xwayland not loaded and enabled 
+                See rofi-doc & rofi-theme-selector                   
+               
+Change-log:     2024/08/27 v 1.7.5+wayland3 on 15x
+Current:        2024/08/27     

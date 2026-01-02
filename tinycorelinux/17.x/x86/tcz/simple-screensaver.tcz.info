@@ -1,0 +1,42 @@
+Title:		simple-screensaver.tcz
+Description:	minimalistic screensaver shell script
+Version:	5.5
+Author:		Bruno "GNUser" Dantas
+Original-site:	https://github.com/bdantas/simple-screensaver
+Copying-policy:	GPLv3
+Size:		16M
+Extension-by:	gnuser
+Tags:		screensaver
+Comments: ----------
+  - The script takes no arguments. To start it with default
+    settings, simply do: $ simple-screensaver &
+  - The script has only five settings (see the "load_config" function), which 
+    you can override if you create ~/.config/simple-screensaver.conf
+  - Here is an example simple-screensaver.conf:
+idle=180 # seconds to wait before starting animation
+cycle=60 # seconds to wait before switching animation
+animation_dir=/usr/local/share/simple-screensaver/animations
+command_file=/usr/local/share/simple-screensaver/animation_commands.txt
+photo_dir=$HOME/Photos/Fiji_vacation
+  - Your config file may have fewer than five lines--you only need to specify
+    settings you wish to change from the default
+  - Your config file takes effect immediately, no need to restart the script
+  - If you remove a line from your config file, that setting immediately reverts 
+    to default
+  - If you delete your config file, all settings immediately revert to default
+  - Use "cycle=0" if you don't want animation to change once it starts
+  - Keep a single line in command_file if you want a specific animation instead
+    of a random one
+  - Caveat: Your window manager needs to be EWMH/NetWM-compatible in order for 
+    the script to work as intended; ultra-minimalistic window managers such as 
+    flwm are not compatible (see http://tripie.sweb.cz/utils/wmctrl)
+  - Note: The 3d animations don't work ("Segmentation fault") if Xorg-7.7-3d.tcz
+    (one of this extension's dependencies) is loaded after your X session is 
+    already running. To avoid this issue, do "tce-load -wi simple-screensaver"
+    then reboot. With simple-screensaver.tcz now in your tce/onboot.lst, all
+    our dependencies (including Xorg-7.7-3d.tcz) are loaded before the X session
+    starts, problem solved!
+Change-log:	2021/05/24 first version
+		2021/05/28 more animations (complete xscreensaver set), adjusted .dep file
+		2021/06/07 updated 5.0 -> 5.2
+Current:	2021/06/14 updated 5.2 -> 5.5

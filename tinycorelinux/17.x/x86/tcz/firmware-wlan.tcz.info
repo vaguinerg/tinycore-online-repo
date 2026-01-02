@@ -1,0 +1,20 @@
+Title:          firmware-wlan.tcz
+Description:    firmware for some wireless network devices
+Version:        20240220
+Author:         Various
+Original-site:  https://git.kernel.org/pub/scm/linux/\
+                kernel/git/firmware/linux-firmware.git
+Copying-policy: Distributable
+Size:           10.6M
+Extension_by:   aus9 @linuxquestions.org
+Tags:           firmware wifi wireless 
+Comments:       firmware contains Realtek (rtw89) 8852AE as this allegedly conflicts
+                with normal kernel modules 
+see modules under /usr/local/lib/modules/6.6.8-tinycore64/kernel/drivers/net/wireless/realtek/rtw89
+   
+                modules may include wilc1000 brcm rsi_usb gspca_vicam  wfx orinoco btnxpuart
+ 
+Change-log:     2020/06/20 split from firmware.tcz and updated (aus9)
+                2023/02/04 updated  
+                2024/03/12 updated remove install script  
+Current:        2024/09/23 corrected info file only

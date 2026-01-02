@@ -1,0 +1,24 @@
+Title:		usbip.tcz
+Description:		Usbip v2 : USB over Network kernel layer
+Version:		2.0 for kernel 5.10.3 i386
+Author :		Takahiro Hirofuchi, Robert Leibl, Matt Mooney
+Original-site:		https://kernel.org linux-usb.org usbip.sf.net
+Copying-policy:		GPL v2
+Size:		293K
+Extension_by:		OeAi
+Tags:			usb network device 
+			***
+Comments:		use sudo to start usbipd and attach, bind devices
+			script starts modprobe and extracts usb.ids
+			you can create your file with own devices only
+			srv: usbip list -l
+			srv: sudo usbip bind -b #-#
+			srv: sudo usbipd
+			cli: usbip list -r #host
+			cli: sudo usbip attach -r #host -b #-#
+			***
+Change-log:		added usb.ids into /usr/local/share/hwdata 
+			latest sources taken from 
+			kernel/tools/usb/usbip compiled for TC12 i386
+			***
+Current:		2021/10/27 update for usbip 1.1

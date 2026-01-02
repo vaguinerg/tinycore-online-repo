@@ -1,0 +1,26 @@
+Title:          menumaker.tcz 
+Description:    menu generator for some desktops
+Version:        0.99.14
+Author:         Oleg A. Khlybov, Steve Fullenwider & David Niklas 
+Original-site:  https://menumaker.sourceforge.net/
+Copying-policy: accompanied
+Size:           148K
+Extension_by:   aus9 
+Tags:           menu
+Comments:       for JWM, IceWM, OpenBox, FluxBox & WindowMaker    
+                  
+                Due to desktop syntax errors please run first
+                $ mmaker -h # as some desktops have variants
+                You may lack icons in menus, a known issue
+                for icewm
+                $ mmaker -f -s GNOME,Xfce -v IceWM
+                                
+                Repeat your command if you load more TCEs 
+                Consider a ~/.local/bin/command for it eg
+                $ echo '#!/bin/sh
+tce-load -i menumaker               
+mmaker -f -s GNOME,Xfce -v IceWM' > ~/.local/bin/menumaker
+                $ chmod 755 ~/.local/bin/menumaker
+                
+Change-log:     2023/03/18 Original 0.99.14 on 14x uses python3.6
+Current:        2023/03/18 

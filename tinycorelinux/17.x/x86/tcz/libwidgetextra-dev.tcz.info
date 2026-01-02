@@ -1,0 +1,19 @@
+Title:          libwidgetextra-dev.tcz
+Description:    extra wxWidgets libraries(mainly for audacity)(dev. files)
+Version:        2.3.3
+Author:         wxWidgets/audacity contributors
+Original-site:  www.audacityteam.org/
+Copying-policy: wxWindows Licence(based on L-GPL)
+Size:		20K
+Extension_by:   justincb
+Comments:       CFLAGS="-march=i386 -mtune=i386 -Os"
+                CXXFLAGS="-march=i386 -mtune=i386 -Os"
+                LDFLAGS="-O2"
+                Comes from Audacity source tarball available @-
+                www.audacityteam.org/downloads/source/
+                Note - doesn't have its own version #, so I've
+                used audacity's version # instead
+                Note 2 - I had to copy NonGuiThread.h manually
+Tags:           audacity graphics wxWidgets
+Change-log:     2020/02/20 compiled from source
+Current:        2020/02/20 compiled from source

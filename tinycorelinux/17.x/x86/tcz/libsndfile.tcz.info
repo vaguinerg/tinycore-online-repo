@@ -1,0 +1,16 @@
+Title:          libsndfile.tcz
+Description:    A library for accessing various audio file formats
+Version:        1.0.26pre5
+Author:         Erik de Castro Lopo
+Original-site:  http://www.mega-nerd.com/libsndfile/
+Copying-policy: LGPL
+Size:		952K
+Extension_by:   malbo
+Tags:	    library accessing various audio file formats
+Comments:       Depends on flac.tcel and ogg-vorbis.tcel
+Change-log:     2009/04/22 First version 1.0.19
+		2009/05/30 Updated to 1.0.20 per security advisory:
+		http://www.linuxsecurity.com/content/view/148859/202/
+		2013/06/30 1.0.25 was crashing under a certain application.  Upgraded to 1.0.26 pre-lease
+		version, which does work.
+Current:	2013/06/30 Update to 1.0.26pre5

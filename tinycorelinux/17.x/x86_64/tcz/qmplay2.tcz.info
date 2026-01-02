@@ -1,0 +1,40 @@
+Title:          qmplay2.tcz
+Description:    QT5 ALSA audio & video player for X or wayland 
+Version:        24.04.07 
+Author:         https://github.com/zaps166/QMPlay2/blob/master/AUTHORS
+Original-site:  https://github.com/zaps166/QMPlay2
+Copying-policy: LGPL v3
+Size:           2.4M
+Extension_by:   aus9 @linuxquestions.org
+Tags:           audio video player alsa      
+Comments:       Can play all formats supported by FFmpeg, libmodplug, Audio CD, raw files, 
+                Rayman 2 music and chiptunes. It contains YouTube browser.
+
+                ALSA (with) X, Xorg 2d/3d or wayland desktops needs to be setup first.
+                Dep file does not include above TCEs. For max video choices boot into 
+                3d or a suitable wayland desktop. Load optional vulkan-tools and test 
+                vkcube-wayland or vkcube is spinning on wayland/Xorg 3d respectively
+                QMPlay2 supports spherical view on OpenGL and Vulkan video outputs. 
+                Search in youtube TAB for 360 degree or sperical
+                Pressing "Ctrl+3" or Playback->Video filters->Spherical view
+                -> mouse pointer changes to either a "grabbable hand"  or 4 arrows etc
+
+                Audio users can stay on libX if they prefer.
+                                                                
+                Searching Youtubes will pause this TCE to download its own yt-dlp to
+                ~/.config/QMPlay2 where other files can be found, including log.
+                While playing a youtube, you can click context menu, RH click for RH 
+                mouse user and choose to download your track. Note that pressing the 
+                normal stop button stops playing a track. To stop downloading you need
+                to click into the downloader TAB and click the "icon" to the right of 
+                download at the top.
+
+                To play audio cd -> Playlist (or Alt + P)
+                Click + -> select audiocd
+               
+                TCE supports hardware video decoding via Settings->Playback settings
+                Tested internet radios mp3 and aac streams OK
+
+Change-log:     2020/07/01 v 20.05.02 on 11x
+                2023/03/21 v 23.02.05 on 14x
+Current:        2024/04/27 v 24.04.07 del libtag support on 15x    

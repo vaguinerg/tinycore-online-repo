@@ -1,0 +1,46 @@
+Title:          ibus-libpinyin.tcz
+Description:    IBus front-end of Libpinyin
+Version:        1.11.1
+Author:         see site below
+Original-site:  https://github.com/libpinyin/ibus-libpinyin
+Copying-policy: GPLv3
+Size:           1.0M
+Extension_by:   polikuo
+Tags:           ibus libpinyin Traditional Simplified Chinese input method pinyin zhuyin bopomofo phonetic
+Comments:       Tested on openbox and jwm with gedit (it sometime fails with jwm)
+                Before you start, add "lang=zh_CN.utf8" in your boot code (zh_TW for Traditional)
+                * Download and run getlocale.tcz, select "zh_CN.utf8" and install
+                * Fetch any font that support UTF-8 (ex: unifont.tcz)
+                * Load this extension
+                * Start a window manager
+                * Switch EN/Pinyin with keyboard: <Shift>
+                You should be able to use pinyin now, enjoy ~ !
+                ----------
+                Troubleshooting:
+                If nothing happens, here're some common solutions
+                * Environment variables (VERY IMPORTANT)
+                "log out" then "log in" to refresh
+                 (type "exit" in prompt, then log in with "tc")
+                Type "echo $XIM" in the terminal to verify (should be "ibus")
+                Please refer to /etc/profile.d/ibus.sh in ibus.tcz
+                * ibus-daemon didn't start
+                Type "ibus engine" in terminal
+                * Select Input Method
+                Press <Super> + <Space> to switch between input methods
+                Or run the GUI tool, ibus-setup, to change the settings
+                ----------
+                For more details, please refer to the documents
+                Check the startup script ~/X.d/ibus-chewing and adjust for your machine
+                Or copy /usr/local/share/doc/ibus-chewing/startup_script.example
+                example: Add "sleep 5" at the begining of the script if X didn't start
+                ----------
+                Maintainer note:
+                I don't use pinyin.
+                If anyone is interested in maintaining the packages.
+                Feel free to take over.
+                Regards. polikuo
+                ----------
+                Compiled for 11.x x86_64
+                ----------
+Change-log:     2020/11/01 First version
+Current:        2020/11/01 First version

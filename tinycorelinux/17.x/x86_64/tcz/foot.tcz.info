@@ -1,0 +1,24 @@
+Title:          foot.tcz
+Description:    fast, lightweight, minimalistic wayland terminal
+Version:        1.25.0
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size:		452K
+Extension_by:   gnuser
+Tags:           wayland terminal emulator havoc
+Comments:       ----------
+                Configuration:
+                $ mkdir -p ~/.config/foot
+                $ cp /usr/local/etc/xdg/foot/foot.ini ~/.config/foot/
+                edit ~/.config/foot/foot.ini
+
+                Note:
+                - a UTF-8 locale is required (use getlocale.tcz to create mylocale.tcz)
+                ----------
+                This extension contains:
+                foot-1.25.0 - MIT - https://codeberg.org/dnkl/foot/releases/download/1.25.0/foot-1.25.0.tar.gz
+                ----------
+Change-log:     2023/10/31 first version
+                2025/07/15 updated 1.13.1 -> 1.21.0
+Current:        2025/12/05 updated 1.21.0 -> 1.25.0

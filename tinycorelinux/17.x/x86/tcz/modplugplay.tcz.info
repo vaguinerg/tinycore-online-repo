@@ -1,0 +1,21 @@
+Title:		modplugplay.tcz
+Description:	Command-line tracker module player
+Version:	2.05 + patch
+Author:		Kenton Varda, Olivier Lapicque, Colin DeVilbiss
+		Markus Fick,  Adam Goode
+Original-site:	https://modplug-xmms.sourceforge.net/ 
+Copying-policy:	Public Domain
+Size:		8K
+Extension_by:	CNK
+Tags:           sound
+Comments:	Basic command-line tracker module player using the
+		ModPlug library and supporting 22 mod formats.
+                
+		Only supports OSS audio. If using ALSA instead,
+		install alsa-oss.tcz and run like:
+		  aoss modplugplay [mod file/s]
+		----
+		Compiled for TC x86 14.x
+		----
+Change-log:	2023/05/27 First packaged version, 2.05 + patch
+Current:	2023/05/27 First packaged version, 2.05 + patch

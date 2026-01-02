@@ -1,0 +1,19 @@
+Title:          tesseract.tcz
+Description:    ocr cli
+Version:        4.0.0
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 1.1MB
+Extension_by:   juanito
+Tags:           cli ocr
+Comments:       cli optical character recognition
+                ----------
+                $ tesseract scan_test.png scan_test
+                optionally can use the beignet extension for intel gpu's
+                ----------
+                This extension contains:
+                tesseract-4.0.0 - APLv2 - https://github.com/tesseract-ocr/tesseract/archive/4.0.0.tar.gz
+                ----------
+Change-log:     2019/05/22 first version
+Current:        2019/05/25 recompiled with autotools

@@ -1,0 +1,38 @@
+Title:          sox.tcz
+Description:    Sound eXchange - audio player/converter
+Version:        14.4.2
+Author:         Chris Bagwell, Rob Sykes, Pascal Giard
+Original-site:  http://sourceforge.net/projects/sox/
+Copying-policy: GPL v2 / LGPL v2.1
+Size:		992K
+Extension_by:   Lukasz032
+Tags:	        console sound sox play soxi
+Comments:	SoX reads and writes audio files in most popular formats 
+                and can optionally apply effects to them. It can combine 
+                multiple input sources, synthesise audio, and, 
+                on many systems, act as a general purpose audio player 
+                or a multi-track audio recorder. 
+                It also has limited ability to split the input 
+                into multiple output files.
+                
+                All SoX functionality is available using just 
+                the sox command. To simplify playing and recording audio, 
+                if SoX is invoked as play, the output file 
+                is automatically set to be the default sound device, 
+                and if invoked as rec, the default sound device is used 
+                as an input source. Additionally, the soxi command 
+                provides a convenient way to just query audio 
+                file header information.
+                
+                The heart of SoX is a library called libSoX.
+                Those interested in extending SoX or using it 
+                in other programs should refer to the libSoX manual page.
+                
+                SoX is a command-line audio processing tool,
+                particularly suited to making quick,
+                simple edits and to batch processing.
+                
+                Compiled from source for TC 5.x/6.x.
+
+Change-log:     2015/10/14 : Initial release.
+Current:        2015/10/14 : Initial release.

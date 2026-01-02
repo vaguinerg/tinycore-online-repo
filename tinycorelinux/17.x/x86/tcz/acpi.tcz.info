@@ -1,0 +1,17 @@
+Title: acpi.tcz
+Description: Displays information on ACPI devices 
+Version: 1.7
+Author: meskes
+Original-site: https://sourceforge.net/projects/acpiclient
+Copying-policy: GPLv2
+Size:		20K
+Extension_by: jason123santa
+Tags: power acpi 
+Comments: Attempts to replicate the functionality of the 'old' apm command on ACPI systems, including battery and thermal information. 
+	  Does not support ACPI suspending, only displays information about ACPI devices.
+	  ----
+	  Compiled for TC 14.x
+	  ----
+Change-log: 2024/02/17 First version, 1.7
+Current:    2024/02/24 Changed compile flags 
+

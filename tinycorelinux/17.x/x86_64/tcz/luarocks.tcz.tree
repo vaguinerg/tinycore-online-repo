@@ -1,0 +1,15 @@
+luarocks.tcz
+   lua-5.4.tcz
+      readline.tcz
+         ncursesw.tcz
+   lua-5.4-dev.tcz
+      lua-5.4-lib.tcz
+      readline-dev.tcz
+         readline.tcz
+            ncursesw.tcz
+         ncursesw-dev.tcz
+            ncursesw.tcz
+   wget.tcz
+      ca-certificates.tcz
+         openssl.tcz
+

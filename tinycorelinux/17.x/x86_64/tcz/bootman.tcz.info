@@ -1,0 +1,19 @@
+Title:          bootman.tcz
+Description:    Tiny Core Linux Boot Manager
+Version:        1.0.0
+Author:         CentralWare Development Centers
+Copying-policy: GPLv2
+Size:		4.0K
+Extension_by:   centralware
+Tags:           tiny core linux multiple boot versions
+Comments:       Allows the user to boot into numerous versions of
+                TCL using a single drive/partition and separate
+                mydata.tgz and/or persistent opt/home directories
+                sudo bootman VERSION [PLATFORM=x86_64]
+                VERSION=5 or more, PLATFORM=x86 or x86_64 (x64)
+                ONLY INTENDED for default boot loader; grub not
+                yet implemented and PXE not intended here.
+Change-log:     ----
+                Created for TC 11 and newer, 5.x+ should work, too
+                ----
+Current:        2024/01/24 first version

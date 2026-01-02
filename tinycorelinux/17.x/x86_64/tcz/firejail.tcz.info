@@ -1,0 +1,22 @@
+Title:		firejail.tcz
+Description:	linux namespaces and seccomp-bpf sandbox
+Version:	0.9.62
+Author:		firejail community
+Original-site:	https://github.com/netblue30/firejail and https://firejail.wordpress.com/
+Copying-policy:	GPLv2
+Size:		512K
+Extension-by:	gnuser
+Tags:		sandbox security
+Comments:	----------
+		- firefox.profile and chromium-browser.profile are tested and working in TCL 11.x
+		- usage examples:
+		    $ firejail firefox
+		    $ firejail chromium-browser
+		- sound in sandboxed chromium-browser worked for me out of the box
+		- sound in sandboxed firefox may require commenting-out this line in /usr/local/etc/firejail/firefox-common.profile:
+		    seccomp !chroot
+		- profiles other than the two above are untested and will likely need adjustments
+		    (see this thread: http://forum.tinycorelinux.net/index.php/topic,23557.0.html)
+		----------
+Change-log:		----------
+Current:		2020/02/26 first version for tc-11.x

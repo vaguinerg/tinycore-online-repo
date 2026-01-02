@@ -1,0 +1,29 @@
+Title:           lxterminal.tcz
+Description:     gtk3 terminal for libX or wayland
+Version:         0.4.0
+Author:          lxterminal team
+Original-site:   http://sourceforge.net/projects/lxde/files
+Copying-policy:  GPL v2
+Size:            48K
+Extension_by:    aus9 @ linuxquestions.org
+Tags:            terminal utf8
+Comments:        This is a gtk3 terminal capable of UTF-8 display.
+                 Allows multiple tabs. Online man page is here
+                 https://linuxcommandlibrary.com/man/lxterminal
+
+                 If not in Xorg, to adjust fontname or its size edit
+                  .config/lxterminal/lxterminal.conf
+
+                 Optional deps:  More font TCEs, load fontconfig
+                 then load lxterminal please.
+
+                 apps (GUI) can work with lxterminal due to xterm setup.
+                 To use arrow key up/down in mc run in same tab
+                 $ export TERM=xterm && mc
+                 Better still try vifm TCE                           
+
+Change-log:     2015/08/01 First version (gordon64) 
+                2018/10/14 0.3 -> 0.3.2 (aus9)  
+                2019/01/03 recompiled for gnutls35
+                2023/03/16 v 0.4.0 on 14x
+Current:        2024/04/03 rebuilt for updated vte-2.91 non 15x 

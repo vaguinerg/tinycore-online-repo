@@ -1,0 +1,18 @@
+Title:		sct.tcz
+Description:	screen color temperature, a bloat-free alternative to redshift
+Version:	1.0
+Author:		Ted Unangst
+Original-site:	https://flak.tedunangst.com/post/sct-set-color-temperature
+Copying-policy:	Public Domain
+Size:		4.0K
+Extension-by:	gnuser
+Tags:		display screen color temperature redshift
+Comments:	----------
+		Syntax: $ sct <color_temperature_in_K>
+		Usage example: $ sct 4500
+		Notes: 
+		   - Color temperature must be between 1000 and 10000 and a multiple of 500
+		   - Works for Xorg but not for Xfbdev
+		----------
+Change-log:	----------
+Current:	2019/12/12 first version for tc-10.x (gnuser)

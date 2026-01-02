@@ -1,0 +1,41 @@
+Title:           ccrypt.tcz
+Description:     encryption tool
+Version:         1.11
+Author:          Peter Selinger & Joshua Redstone 
+Original-site:   https://ccrypt.sourceforge.net
+Copying-policy:  GPL v 2
+Size:            44K
+Extension_by:    aus9
+Tags:            encryption aes
+Comments:        It is based on the Rijndael block cipher, a version
+                 of which is also used in the Advanced Encryption Standard 
+                 (AES, see http://www.nist.gov/aes). This cipher is believed 
+                 to provide very strong cryptographic security, ~ 11 years ago
+                 2021, Redhat thinks it was secure as per
+                 https://www.redhat.com/en/blog/encryption-and-decryption-ccrypt
+                 See doc for more info. Below are my main ways......pw = password
+
+                 Encrypt
+                 $ ccencrypt filename
+                 (input pw twice) -> filename.cpt
+
+                 Decrypt
+                 $ ccdecrypt filename.cpt
+                 (input known pw)
+
+                 forgotten key
+                 #############
+                 $ ccguess -K (input best guess pw)  filename.cpt 
+
+                 eg ccguess -K lobe way2.png.cpt 
+                 Generating patterns...1..2..3..4..5..sorting...done.
+                 Possible match: love (1 change, found after trying 322 keys) 
+                 But cpt file remains! 
+
+                 This means is not absolutely secure but may help if you made 
+                 a typo in creation, or a typo in unlocking.
+                 Note that it appears to be strict with lower/upper case
+                 so -K failed for me with a wrong case input.                            
+
+Change-log:      2025/10/15 on 16x v 1.11
+Current:         2025/10/15               

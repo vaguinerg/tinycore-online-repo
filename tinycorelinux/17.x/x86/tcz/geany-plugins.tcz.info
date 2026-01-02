@@ -1,0 +1,24 @@
+Title:          geany-plugins.tcz
+Description:    Plugins of Geany.
+Version:        1.23
+Author:         Enrico Troeger
+Original-site:  http://www.geany.org/
+Copying-policy: GPL
+Size:		792K
+Extension_by:   Jason W, vinnie
+Tags:           text editor IDE programming
+Comments:       Only Devhelp, Geanygendoc and Multiterm plugins missing.
+                This plugin require some other dependencies to work:
+                Debugger:		vte.tcz
+                Scope:			vte.tcz
+                Geniuspaste:	libsoup.tcz
+                Updatechecker:	libsoup.tcz
+                Markdown:		webkitgtk-1.0-0 (and probably xorg)	
+                Webhelper:		webkitgtk-1.0-0 (and probably xorg)
+                Geanypg:		gpgme.tcz
+                Geanyvc:		gtkspell.tcz
+                Spellchack:		enchant.tcz
+                Geanylua:		(probably lua)                
+Change-log:     ----
+                2012/08/24 First version 1.22
+Current:        2013/03/17 Updated to 1.23

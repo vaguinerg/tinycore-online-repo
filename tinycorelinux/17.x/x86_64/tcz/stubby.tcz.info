@@ -1,0 +1,31 @@
+Title:          stubby.tcz
+Description:    local DNS Privacy stub resolver (using DNS-over-TLS)
+Version:        0.4.3
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: BSD-3-clause
+Size:		24K
+Extension_by:   gnuser
+Tags:           dns privacy tls dns-over-tls dns-over-https DoT DoH
+Comments:       ----------
+                How-to: (once you have a working internet connection)
+                $ sudo cp /usr/local/share/stubby/stubby.yml /usr/local/etc/stubby/
+                * DoT server settings go in /usr/local/etc/stubby/stubby.yml
+                  (in the "upstream_recursive_servers" section)
+                $ sudo cp /usr/local/share/stubby/resolv.conf /etc/
+                $ tce-load -wi dnsmasq
+                $ sudo cp /usr/local/share/stubby/dnsmasq.conf /etc/
+                $ sudo stubby -g
+                $ sudo dnsmasq &
+                ----------
+                Notes:
+                * In the how-to above, dnsmasq is used to cache DNS lookups
+                  because stubby does not have a built-in cache
+                * To prevent udhcpc from changing /etc/resolv.conf, do this:
+                  $ sudo sed -i 's_/etc/resolv\.conf_/dev/null_' /usr/share/udhcpc/default.script
+                ----------
+                This extension contains:
+                stubby-0.4.3 - BSD-3-clause - https://github.com/getdnsapi/stubby/archive/refs/tags/v0.4.3.tar.gz
+                ----------
+Change-log:     first version
+Current:        2024/03/17

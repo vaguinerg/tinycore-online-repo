@@ -1,0 +1,27 @@
+Title:          lafilefixer.tcz
+Description:    for fixing missing libtool library files
+Version:        0.5
+Author:         Project Contributors
+Original-site:  sources.gentoo.org/cgi-bin/viewvc.cgi/gentoo-x86/dev-util/lafilefixer/
+Copying-policy: MIT license
+Size:		4.0K
+Extension_by:   justincb
+Tags:           libtool library development
+Comments:       CFLAGS="-march=i386 -mtune=i386 -Os"
+                CXXFLAGS="-march=i386 -mtune=i386 -Os"
+                LDFLAGS="-O2"
+                Part of gentoo devutils
+                download source from-
+                https://sources.gentoo.org/cgi-bin/viewvc.cgi/gentoo-x86/dev-util/lafilefixer/files/lafilefixer-0.5
+                lafilecopier was written by me(justincb) to deal with the
+                fact that tcz packages are mounted readonly. It copies the
+                .la files into the ramfs
+                
+                Some packages cannot be built with libtool because some
+                packages don't have libtool libraries. This extension allows
+                this to be fixed by changing references to nonexistent libtool
+                libraries to the non-libtool libraries. To use-
+                sudo lafilecopier
+                sudo lafilefixer /usr/local/lib
+Change-log:     2020/02/26 packed into extension
+Current:        2020/02/26 packed into extension

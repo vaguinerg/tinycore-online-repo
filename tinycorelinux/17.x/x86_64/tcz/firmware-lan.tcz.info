@@ -1,0 +1,23 @@
+Title:          firmware-lan.tcz
+Description:    firmware for some wired networks
+Version:        20240220
+Author:         Various
+Original-site:  https://git.kernel.org/pub/scm/linux/\
+                kernel/git/firmware/linux-firmware.git
+Copying-policy: Distributable
+Size:           1.8M
+Extension_by:   aus9 @linuxquestions.org
+Tags:           firmware ethernet
+Comments:       lefover firmware not in other TCES
+                no deletions this update 
+
+                modules include acenic kaweth slicoss qla2xxx tehuti
+                module myri_sbus not found for lanai.bin 
+                if true module microchip then does not appear 
+                -- to need fw=mscc_vsc8574* bin              
+     
+Change-log:     2020/06/20 split from firmware.tcz and updated
+                2020/06/20 updated (aus9)
+                2023/02/04 updated has deletions
+                2024/03/12 updated remove install script - 0 deletions  
+Current:        2024/09/23 corrected info file only  

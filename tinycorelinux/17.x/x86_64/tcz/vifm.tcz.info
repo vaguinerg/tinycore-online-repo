@@ -1,0 +1,50 @@
+Title:           vifm.tcz
+Description:     console & terminal file manager 
+Version:         0.13
+Author:          see doc TCE for AUTHORS
+Original-site:   https://vifm.info
+Copying-policy:  GPL v2 for main TCE
+                 some headers see COPYING.3party 
+Size:            784K
+Extension_by:    aus9 @ linuxquestions.org
+Tags:            console terminal file manager  
+Comments:        Highly recommend: 
+                 https://wiki.vifm.info/index.php?title=Quickstart_Tutorial
+
+                 Normal builtin keys link below
+                 https://vifm.info/cheatsheets.shtml
+                 Copying to buffer/Selecting dir or file is called 
+                 yanking hence yy (yanks), in command mode 
+                 its the same as :yank  
+                 Normally followed by a delete or paste input 
+
+                 and doc TCE, especially vifm-help.txt
+
+                 Run 2 panes by  $ vifm /dir1 /dir2 # like mc
+                 On restart it may remember your last dirs so 
+                 :cd /dir3 /dir4 # will change to new dirs  
+
+                 In a virtual terminal, mc function keys like 
+                 F3,4,5,6,8 work as expected except
+                 F3 opens vi for inline view (unless configs changed)
+                 F4 opens vi for edits and both will need input of 
+                 quit view by :q  or save and quit edit by :wq 
+
+                 In Console, Function keys fail (for me) -> use vi commands only
+                 I use arrow keys to highlight selection dir or file, and eg
+                 :copy (will copy dir or file to other directory )
+                 :copy (force over write if exists at other dir)
+               
+                 You may like to edit the config file?
+                 It is not created until you launch vifm. Next
+                 $ rm -rf $HOME/.config/vifm/vifmrc 
+                 $ cp /tmp/tcloop/vifm/usr/local/share/vifm/vifmrc $HOME/.config/vifm
+                 
+                 You can use external GUI TCES like leafpad too
+                 To completely exit file manager while in normal mode...input  ZZ (all caps)
+                 or convert to command mode and input :q 
+
+                 In normal mode input : puts you into command mode, normally followed by letter(s)
+
+Change-log:     2024/03/28 v 0.13 on 15x 
+Current:        2024/03/28                    

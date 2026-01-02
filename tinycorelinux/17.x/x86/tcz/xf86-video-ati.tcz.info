@@ -1,0 +1,26 @@
+Title:          xf86-video-ati.tcz
+Description:    xorg modesetting video driver
+Version:        19.1.0
+Author:         see COPYING.xf86-video-ati
+Original-site:  https://www.x.org/archive//individual/driver/
+Copying-policy: see COPYING.xf86-video-ati
+Size:		156KB
+Extension_by:   dentonlt
+Tags:	        x xorg driver video 2d ati radeon
+Comments:       video driver for ATI Radeon video cards including all chipsets ranging from
+                R100 to R900 and the newer RAxx chipsets
+                ----------
+		For build notes, see build-dep.
+                Some cards require firmware-radeon.tcz when the kernel driver is loaded.
+		X2300 (RV516) may hang/panic when this driver is loaded. Reboot with kernel arg
+		radeon.modeset=0, load the tcz/module, rmmod it, then modprobe with arg modeset=1.
+                ----------
+Change-log:     2014/01/01 first version
+                2014/10/28 updated 7.1.0 -> 7.5.0 (juanito)
+                2015/02/13 recompiled for xorg-server-1.17.1 (juanito)
+                2015/12/20 updated 7.5.0 -> 7.6.1 (juanito)
+                2016/06/12 updated 7.6.1 -> 7.7.0 (juanito)
+                2016/11/28 updated 7.7.0 -> 7.8.0 (juanito)
+                2017/03/18 updated 7.8.0 -> 7.9.0 (juanito)
+                2018/05/30 updated 7.9.0 -> 18.0.1 (juanito)
+Current:        2022/01/28 updated 18.0.1 -> 19.1.0 (juanito)

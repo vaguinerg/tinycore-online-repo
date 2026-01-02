@@ -1,0 +1,14 @@
+Title:          python-unrardll.tcz
+Description:    unrar shared library python interface
+Version:        0.1.3
+Author:         Kovid Goyal
+Original-site:  github.com/kovidgoyal/unrardll
+Copying-policy: BSD
+Size:		16K
+Extension_by:   justincb
+Tags:           compression library rar python
+Comments:       The file is called an i686 file, but it used the
+                default python build arguments for tinycore,
+                which are -march=i486 -mtune=i686 -O3 -pipe
+Change-log:     2017/09/25 Compiled from source for tinycore 8.x
+Current:        2017/09/26 Compiled from source for tinycore 8.x

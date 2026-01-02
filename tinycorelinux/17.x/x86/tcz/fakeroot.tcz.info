@@ -1,0 +1,17 @@
+Title:          fakeroot.tcz
+Description:    Utility to create a fake root environment.
+Version:        1.18.4
+Author:         Timo Savola
+Original-site:  http://ftp.debian.org/debian/pool/main/f/fakeroot
+Copying-policy: GPL
+Size:		52K
+Extension_by:   Jason W
+Tags:	    	Utility create fake root environment.
+Comments:       Requires bash and util-linux-ng.
+Change-log:     ----
+   		2009/07/01 First version 1.12.4.
+		2010/08/29 Removed unneeded base dependency
+			   by adjusting /usr/local/bin/fakeroot
+			   shell script.
+		2010/09/28 Update to 1.14.4
+Current:	2015/04/24 Update to 1.18.4 for tc-6.x (by coreplayer2)

@@ -1,0 +1,21 @@
+Title:          aspell-pt_BR.tcz
+Description:    Portuguese (Brazilian) dictionary for aspell
+Version:        2009.07.02-0
+Author:         Leonardo Ferreira Fontenelle, Raimundo Santos Moura
+Original-site:  aspell.net
+Copying-policy: GPL v2
+Size:		3.2M
+Extension_by:   aus9
+Tags:	        aspell spell checker dictionary
+Comments:       Portuguese (Brazilian) dictionary for aspell
+		Default lang is set by locale, If you need help with locale see
+		http://forum.tinycorelinux.net/index.php/topic,7169.0.html
+		Summary: download and run getlocale.tcz and select your locale
+		Add created mylocale.tcz to your onboot.lst and  edit your bootloader
+		to set your language and/or keyboard mappings
+		Consider changing the aspell dep for dictionary to your dictionary
+		Alternatively try
+		$ aspell --lang=pt_BR -c filename
+		If no errors exits without message. Otherwise shows wrong words in terminal.
+Change-log:	2012/11/20 First Version
+Current:        2012/11/20 version 2009.07.02-0 built against TC 4.x

@@ -1,0 +1,15 @@
+Title:          ntfs-3g.tcz
+Description:    User-space NTFS read/write driver and utilities
+Version:        2022.5.17
+Author:         Various, see source tarball for list
+Original-site:  https://tuxera.com/opensource/
+Copying-policy: GPL/LGPL v2
+Size:           520KB
+Extension_by:   bmarkus
+Tags:           CLI SYSTEM NTFS
+Comments:       For use with the ntfs3 kernel driver
+                i.e. sudo mount -t ntfs3 /dev/xxx /mnt/xxx
+                ----
+Change-log:     2016/04/02 first version
+                2022/10/29 updated 2016.2.22 -> 2022.5.17 (juanito)
+Current:        2024/01/04 added symlinks in /sbin (juanito)

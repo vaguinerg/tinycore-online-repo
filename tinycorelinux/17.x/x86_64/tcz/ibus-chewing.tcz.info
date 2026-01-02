@@ -1,0 +1,41 @@
+Title:          ibus-chewing.tcz
+Description:    IBus front-end of Chewing
+Version:        c1e7f0d 18 Sep 2017
+Author:         Peng Huang, Ding-Yi Chen
+Original-site:  https://github.com/definite/ibus-chewing
+Copying-policy: GPLv2
+Size:           116.0K
+Extension_by:   polikuo
+Tags:           ibus libchewing Traditional Chinese input method zhuyin bopomofo phonetic
+Comments:       Tested on openbox and jwm with gedit
+                Before you start, add "lang=zh_TW.utf8" in your boot code
+                * Download and run getlocale.tcz, select "zh_TW.utf8" and install
+                * Fetch any font that support UTF-8 (ex: unifont.tcz)
+                * Load this extension
+                * Start a window manager
+                * Switch EN/Chewing with keyboard: <Shift>
+                You should be able to use chewing now, enjoy ~ !
+                ----------
+                Troubleshooting:
+                If nothing happens, here're some common solutions
+                * Environment variables (VERY IMPORTANT)
+                "log out" then "log in" to refresh
+                 (type "exit" in prompt, then log in with "tc")
+                Type "echo $XIM" in the terminal to verify (should be "ibus")
+                Please refer to /etc/profile.d/ibus.sh in ibus.tcz
+                * ibus-daemon didn't start
+                Type "ibus engine" in terminal
+                * Select Input Method
+                Press <Super> + <Space> to switch between input methods
+                Or run the GUI tool, ibus-setup, to change the settings
+                ----------
+                For more details, please refer to the documents
+                Check the startup script ~/X.d/ibus-chewing and adjust for your machine
+                Or copy /usr/local/share/doc/ibus-chewing/startup_script.example
+                example: Add "sleep 5" at the begining of the script if X didn't start
+                ----------
+Change-log:     2016/10/14 First Version
+                2016/11/2 recompiled for libchewing
+                2016/12/26 add start-up script
+                2018/03/06 recompiled for 9.x
+Current:        2020/10/31 recompiled for 11.x

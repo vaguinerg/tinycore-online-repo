@@ -1,0 +1,68 @@
+Title:		Resizer.tcz
+Description:	Control starting window size/pos of program.
+Version:	v0.20
+Author:		Richard A. Rost
+Original-site:	None
+Copying-policy:	GPLv2
+Size:		8.0K
+Extension_by:	Rich
+Tags:		window move resize
+Comments:	Run  Resizer  for this help screen:
+
+		Resizer version 0.20 Jul 11 2021 00:52:22
+		Copyright Richard A. Rost July 2,2021
+
+		Resizer starts a program and then resizes and moves its
+		window based on the options passed in.
+
+		Usage:
+
+		  Resizer -p program args [-x N] [-y N] [-w N] [-h N] [-f] [-d N] [-b] [-D]
+
+			-p program plus arguments in quotes
+			-x X position  -y Y position  -w Width  -h Height
+			-f Fullscreen
+			-d Delay N seconds, then move/resize window
+			-b No window manager present
+			-D Display ID and geometry of window under mouse, ^C exits
+
+			Use -d when a program:
+				Puts up a splash dialog before its window
+				Displays its window and later moves it
+
+			Your screen size is 1920 x 1080
+
+
+		Built with:
+		CFLAGS=-flto -fuse-linker-plugin -march=i486 -mtune=i686 -Os -g  -pipe -Wall -Wextra -fno-plt
+		LDFLAGS=-Wl,-T/usr/local/lib/ldscripts/elf_i386.xbn
+
+		Examples:
+			Start Midnight Commander in the /etc directory.
+			Resizer -p "xterm -e mc /etc" -x320 -y320 -w800 -h600
+
+			Start Tinycores default editor extra wide.
+			Resizer -p "editor ~/.profile" -x 100 -w 1000
+
+			If starting from a terminal, disable stdout and stderr.
+			Resizer -p "claws-mail-start 2>&1 > /dev/null" -x 0 -y 0
+
+		Notes:
+			Programs that insist on displaying a startup dialog before
+			displaying the main window need  -d. Wireshark for example.
+
+			Programs that display their main window and then later decide
+			to adjust their size/position need  -d. Firefox for example.
+
+			Programs that remember their window settings or have a geometry
+			option don't really need Resizer, though you can still use it.
+
+			Resizer starts your command in the background automatically.
+			Do NOT append an & to your command. Do NOT background Resizer.
+
+			If you are running X without a window manager (kiosk) then
+			use the  -b  option to make Resizer aware of that.
+
+Change-log:	2021/07/08 Original release v0.10
+Current:	2021/07/11 v0.20 Added -f and -D options.
+

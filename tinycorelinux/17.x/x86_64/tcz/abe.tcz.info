@@ -1,0 +1,34 @@
+Title:          abe.tcz
+Description:    2d scrolling game as below
+Version:        1.1
+Author:         Gabor Torok, Pedro Izecksohn & Alex Clarck
+Original-site:  https://sourceforge.net/projects/abe
+Copying-policy: GPL v 2
+Size:           3.0M
+Extension_by:   aus9 @linuxquestions.org
+Tags:           game scrolling
+Comments:       A scrolling, platform-jumping, key-collecting, ancient pyramid 
+                exploring game, vaguely in the style of similar games for the Commodore+4. 
+
+                (arrow keys=move)  (esc=quit)  (enter=use a balloon)
+                space = jump  OR toggle some settings in the settings screen
+ 
+                Optional TCE input-joystick-6.6.8-tinycore64  not tested
+
+                Suggest setup sound first.  First find a wav file. If 
+                $ aplay /usr/local/share/sounds/alsa/Noise.wav
+                plays a noise you are good to go. If you have been
+                using pulse to swap your devices, you may like to try
+                https://tinyurl.com/disablehdmi if you need analog sound.
+                If sound too difficult to setup
+                run $ abe --nosound
+               
+                $ abe -t # tests video modes available
+                If you are not using FM -> desktop files to launch nor
+                wbar launchers....try  $ abe 
+
+                GREMLIN, Settings -> space toggle to easy or hard fails for me,
+                ditto some other settings. 
+
+Change-log:     2025/01/04 v 1.1 on 15x
+Current:        2025/01/04  

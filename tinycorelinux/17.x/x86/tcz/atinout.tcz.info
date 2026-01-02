@@ -1,0 +1,21 @@
+Title:          atinout.tcz
+Description:    Send AT commands to modem, capturing the response
+Version:        0.9.1
+Author:         hlovdal
+Original-site:  http://atinout.sourceforge.net/
+Copying-policy: GPLv3
+Size:		28K
+Extension_by:   Misalf
+Tags:	        AT modem serial
+Comments:       Atinout reads a list of AT commands. It sends those commands one by one to the modem,
+                waiting for the final result code for the currently running command before continuing
+                with the next command in the list. The output from the commands is saved.
+
+                Notice that atinout is strictly about sending AT commands only;
+                it cannot be used for AT commands that expect additional input data (e.g. AT+CMGS etc).
+                ----------
+                This extension contains:
+                atinout-0.9.1.tar.gz - GPLv3 - http://atinout.sourceforge.net/
+                ----------
+Change-log:     2016/02/29 first version
+Current:        2016/02/29 Compiled on tc-7.x (Misalf)

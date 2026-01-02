@@ -1,0 +1,20 @@
+Title:		hidapi-dev.tcz
+Project		hidapi
+Description:	Library for communicating with USB and Bluetooth HID devices
+Version:	-git
+Author:		Alan Ott 
+Original-site:	http://www.signal11.us/oss/hidapi/
+Copying-policy:	BSD, GPL3
+Size:		44K
+Extension_by: 	andyj
+Tags:		HID USB Bluetooth Library
+Comments:	The hidraw back-end uses the hidraw interface in the Linux kernel.  While this
+		back-end will support both USB and Bluetooth, it has some limitations on
+		kernels prior to 2.6.39, including the inability to send or receive feature
+		reports.  In addition, it will only communicate with devices which have
+		hidraw nodes associated with them.  Keyboards, mice, and some other devices
+		which are blacklisted from having hidraw nodes will not work. Fortunately,
+		for nearly all the uses of hidraw, this is not a problem.
+		----
+Change-log:	2017/12/29 first build
+Current:	2017/12/29

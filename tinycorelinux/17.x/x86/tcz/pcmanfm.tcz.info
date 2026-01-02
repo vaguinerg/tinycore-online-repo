@@ -1,0 +1,31 @@
+Title:          pcmanfm.tcz
+Description:    gtk2 File Manager 
+Version:        1.3.2
+Author:         Hong Jen Yee
+Original-site:  https://downloads.sourceforge.net/pcmanfm
+Copying-policy: GPL v2
+Size:           148K
+Extension_by:   aus9 
+Tags:           file manager gtk2 fm    
+Comments:       online manual https://man.archlinux.org/man/pcmanfm.1.en
+                Config will auto-create at ~/.config/pcmanfm/default/pcmanfm.conf
+                Original /etc/xdg/pcmanfm/pcmanfm.conf
+
+                Change by pulldown Edit -> Preferences.
+                If pcmanfm run in desktop mode, other preferences can be activated
+                see   https://tinyurl.com/y3ouvb94
+                Config changed on update to disable auto mount of your partitions. 
+                Use mnttool or command to umount as gvfs or udisks not enabled this build. 
+
+                FM preferences can also change libfm (dependency) config.
+                FM Bookmarks at ~/.gtk-bookmarks 
+                gvfs and trash can support disabled. 
+
+                FM can integrate with an archiver but no dependencies set. 
+                If you load a GUI TCE after pcmanfm then run $ update-desktops 
+                However some files need icon theme and lxappearance might perform
+                setup easier than manual edit of $HOME/.gtkrc-2.0.mine
+  
+Change-log:     2015/07/05 v 1.2.3 (bmarkus)
+                2015/09/01 re-compiled for dependency updates on 6.x (gordon64)
+Current:        2023/08/20 v 1.3.2 on 14.x (aus9)   

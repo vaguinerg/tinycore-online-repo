@@ -1,0 +1,25 @@
+Title:          sylpheed.tcz
+Description:    Lightweight and user-friendly e-mail client
+Version:        3.7.0
+Author:         Hiroyuki Yamamoto
+Original-site:  http://sylpheed.sraoss.jp/
+Copying-policy: GPL v2
+Size:           804K
+Extension_by:   CNK
+Tags:           network internet email newsreader POP IMAP SMTP NNTP GTK2 GUI GPG
+Comments:       Sylpheed is a graphical Email client using GTK2,
+                with support for receiving with POP or IMAP, and
+                sending with SMTP or an external program. It stores
+                messages in MH format, but can also import and export
+                in mbox and eml formats. Also supports NNTP, for use
+                as a newsreader.
+
+                Uses OpenSSL for encryption. Load gnupg.tcz for GPG
+		support.
+
+                ----                 
+                Compiled for TC 14.0
+                ----   
+Change-log:     2020/12/22 First version, 3.7.0
+		2023/12/22 3.7.0 Rebuilt for OpenSSL 3.2
+Current:        2023/12/22 3.7.0 Rebuilt for OpenSSL 3.2

@@ -1,0 +1,17 @@
+Title:          thunderbird-appimage.tcz
+Description:    Graphical email client
+Version:        45.4.0
+Author:         Various
+Original-site:  https://bintray.com/probono/AppImages/Thunderbird
+Copying-policy: Mozilla
+Size:		48M
+Extension_by:   gnuser
+Tags:           NETWORK EMAIL CLIENT GUI
+Comments:	-----
+	- This is an appimage converted into a TCL extension. Use
+	this extension exactly as you would use any other TCL extension.
+	- For sound alerts to work when new messages arrive, you need
+	to load libcanberra.tcz.
+	-----
+Change-log:  2019/08/22 initial version for tc-10.x
+Current:        2019/10/06 added .desktop file and icon (gnuser)

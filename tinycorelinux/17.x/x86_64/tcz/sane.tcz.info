@@ -1,0 +1,34 @@
+Title:          sane.tcz 
+Description:    Scanner Access Now Easy
+Version:        1.3.1
+Author:         see sane-doc AUTHORS
+Original-site:  https://gitlab.com/sane-project/backends
+Copying-policy: GPL v 2
+Size:           204K
+Extension_by:   aus9 @linuxquestions.org
+Tags:           scan scanner 
+Comments:       For scanners and some cameras
+                You must read http://www.sane-project.org/sane-mfgs.html
+                and heed any damage warnings. Then read the doc TCE
+                and heed warnings about danger of running as root.
+                But I tested as local user.
+               
+                scanimage is the frontend see $ man scanimage
+                sane-find-scanner  -- useful if no scanner founds
+                see /usr/local/etc/sane.d/brand.conf
+                They are read only
+
+                saned is the network daemon see $ man saned 
+                & /usr/local/etc/sane.d/saned.conf (read only)
+
+                example (I needed no config changes)
+                $ scanimage -L
+                device `pixma:04A9180B_0581C8' is a CANON Canon PIXMA \
+                MG3000 Series multi-function peripheral
+                $ scanimage --format=jpeg > /tmp/1.jpeg
+                $ scanimage --format=jpeg  --resolution 600  > /tmp/2.jpeg
+
+                 sane-frontends eg xscanimage is 14 years old so not built
+                             
+Change-log:     2025/02/23 v 1.3.1 on 16x
+Current:        2025/02/23      

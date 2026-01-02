@@ -1,0 +1,22 @@
+Title:		advcpmv.tcz
+Description:	Advanced Copy - cp and mv commands with progress display
+Version:	0.9-9.5
+Author:		Florian Zwicke & GNU Coreutils authors
+Original-site:	https://github.com/jarun/advcpmv
+Copying-policy:	GPLv3
+Size:		88K
+Extension_by:	CNK
+Tags:		file transfer copy move
+Comments:	The mv and cp commands from GNU Coreutils patched to add a
+		progress bar and show file transfer stats when run with the
+		"-g" or "--progress" option.
+
+		Installed as "advcp" and "advmv", so use like:
+		 advcp -g ~/big.file /mnt/slowdrive/
+
+		Patch applied to GNU Coreutils 9.5.
+		----------
+		Compiled for TC 15 x86_64.
+		----------
+Change-log:	2024/08/02 first packaged version, 9.5
+Current:	2024/08/02 first packaged version, 9.5

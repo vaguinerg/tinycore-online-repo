@@ -1,0 +1,20 @@
+Title:          wine.tcz
+Description:    wine is not an emulator
+Version:        4.4
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 51.6MB
+Extension_by:   juanito
+Tags:	        windows emulator
+Comments:       compatibility layer capable of running Windows applications
+                ----------
+                ** 64-bit only - many windows apps are 32-bit **
+                $ winecfg [uncheck graphics/allow the window manager to control the windows]
+                $ wine64 start [download mono and gecko]
+                ----------
+                This extension contains:
+                wine-4.4 - lGPLv2.1 https://dl.winehq.org/wine/source/4.x/wine-4.4.tar.xz
+                ----------
+Change-log:     2017/11/10 first version
+Current:        2019/03/17 updated 2.0.3 -> 4.4

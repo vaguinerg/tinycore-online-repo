@@ -1,0 +1,26 @@
+Title:		stalonetray.tcz
+Description:    mini system-tary
+Version:        0.8.4
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size:		32K
+Extension_by:   Zhe
+Tags:	        system-tary notification
+Comments:       ----------
+		https://github.com/d3adb5/stalonetray/archive/refs/tags/v0.8.4.zip
+		
+		config:
+		Get stalonetrayrc.sample from the original website
+		cp stalonetrayrc.sample  ~/.stalonetrayrc
+
+		exit:
+		if you run it directly from a terminal like aterm, 
+		do not exit stalonetray by closing the terminal window directly,
+		as this will make the display unavailable.
+
+		use "pkill -TERM stalonetray"
+               	----------
+Change-log:     2025/09/26 0.8.4
+Current:        0.8.4
+

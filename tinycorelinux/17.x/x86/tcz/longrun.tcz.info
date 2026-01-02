@@ -1,0 +1,22 @@
+Title:          longrun.tcz
+Description:    Transmeta's CPU frequency scaling tool
+Version:        0.9-22.1 (2019-11-08)
+Author:         Transmeta Corporation
+Original-site:  https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/longrun/0.9-22.1/longrun_0.9.orig.tar.gz
+Copying-policy: GPLv2
+Size:		16K
+Extension_by:   neonix
+Tags:		cpu crusoe efficeon transmeta frequency scaling utility tool cpufreq
+Comments:       tool to control Transmeta's CPU frequency
+                
+		Usage:
+		sudo modprobe cpuid
+		sudo modprobe msr
+		sudo longrun -f economy
+		sudo longrun -f performance
+		sudo longrun -s 0 100
+		sudo longrun -s 0 0
+		sudo longrun -l
+		sudo longrun -p
+		
+Current:	2020/03/24 First version 0.9-22.1 TC10.x

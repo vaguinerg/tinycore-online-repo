@@ -1,0 +1,13 @@
+Title:          sshpass.tcz
+Description:    tool for non-interactively performing SSH password authentication
+Version:        1.06
+Author:         Shachar Shemesh
+Original-site:  https://sourceforge.net/projects/sshpass
+Copying-policy: GPLv2 (see /usr/local/share/doc/sshpass/license.txt)
+Size:		16K
+Extension_by:   gnuser
+Tags:           openssh autologin
+Comments:       - Example usage: $ sshpass 'secretPassWord' ssh bob@somedomain.net
+                - SSH's public key authentication is more secure and preferable to sshpass
+Change-log:     2019/08/27 Initial version
+Current:        2019/08/27 Initial version for tc 10.x (gnuser)
