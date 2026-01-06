@@ -1,40 +1,24 @@
 Title:          yt-dlp.tcz  
-Description:    command line fork of youtube-dl 
-Version:        2024.10.22
+Description:    Fork of youtube-dl
+Version:        2025.12.08
 Author:         https://github.com/yt-dlp/yt-dlp/blob/master/CONTRIBUTORS 
 Original-site:  https://github.com/yt-dlp/yt-dlp
 Copying-policy: https://github.com/yt-dlp/yt-dlp/blob/master/LICENSE 
-Size:           2.8M
+Size:           3.0M
 Extension_by:   aus9 
 Tags:           youtube downloader
-Comments:       Youtube web browser & yt-dlp are more complicated.
-                
-                If you are getting the download link in your web browser. You do not 
-                need to play it so it can be a basic web browser. In browser test, I
-                suggest disable adblocker, enable DRM & plugins openH264 + widevine.
-                Loading ffmpeg4 or 5 no longer converts audio to mp3 by simple command. 
-    
-                Basic use includes video download 
-                $ yt-dlp <url>
-                Older youtubes download as .mp4 - more recent as .webm or .mkv
-                mkv should play in vlc or qmplay2 to convert webm to mp4 try
-                $ tce-load -i ffmpeg5 
-                $ ffmpeg -i file.webm file.mp4
-                
-                audio only
-                yt-dlp -x <url>
-                Older youtubes download as .m4a - more recent as .opus
-                If you want mp3 do this
-                $ tce-load -i ffmpeg5 
-                $ ffmpeg -i file.m4a file.mp3
-                $ ffmpeg -i file.opus file.mp3
+Comments:       Youtube is making it harder, so ffmpeg7 is now a dep
+                Recent downloads likely SABR formats 
+                https://github.com/yt-dlp/yt-dlp/issues/12482
+                that results in video= webm - audio= opus
 
-                Playback in larger web browsers, vlc or qmplay2
-                mp3 only need cli apps like mpg123 YMMV
-                Note qmplay2 context menu allows you to download as mp3 
-                 
-                help or see original site for more info.
-                $ yt-dlp -h
-            
+                video+audio $ yt-dlp <url>
+                audio only  $ yt-dlp -x <url>
+              
+                If your player can not play webm or opus
+                $ ffmpeg -i filename.webm filename.mp4
+                $ ffmpeg -i filename.opus filename.mp3
+               
 Change-log:     2023/05/04 v 2023.03.04 on 14x 
-Current:        2024/10/31 v 2024.10.22 on 15x add ca-certificates dep
+                2024/10/31 v 2024.10.22 on 15x add ca-certificates dep
+Current:        2026/01/04 v 2025.12.08 on 17x errors unless ffmpeg7 loaded    

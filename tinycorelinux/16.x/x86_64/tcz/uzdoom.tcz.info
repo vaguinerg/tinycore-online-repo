@@ -1,0 +1,36 @@
+Title:          uzdoom.tcz
+Description:    doom like game engine to wad files
+                freedoom WARNING--pixelated violence 
+                Not suitable for children
+Version:        4.14.3
+Author:         ZDoom,GZDoom,UZDoom Teams+ contributors
+Original-site:  https://github.com/UZDoom/UZDoom
+Copying-policy: accompanied
+Size:           21M
+Extension_by:   aus9 
+Tags:           game 
+Comments:       Needs a minumum of Xorg-7.7-3d and best graphics load
+                Xorg-7.7-3d-vulkan. Can also run on some wayland
+                desktops, see the forum for comments on that.
+                For graphics, I recommend you try out the settings for 
+                "choose resolution presets" and click full screen if you 
+                are in full screen, otherwise click the window option. 
+                I tested full screen on 1920x1080 on AMD APU -- YMMV
+
+                If you want sound, test sound on TC works outside of uzdoom first.
+                When you start freedoom wad, if you hear a welcome sound, congrats!
+                If no game sound, please read info for openal125.  
+
+                This TCE needs wad files to play. Be aware that you need 
+                to buy certain wad files if they are closed source.
+                Do that at steam for windows or linux. Keep your receipt and 
+                create and inject wad under ~/.local/share/games/uzdoom/
+                Or use root to create, if missing and inject under
+                /usr/local/share/games/uzdoom
+                freedoom wad game has been made a run dep
+
+                For gamepad support load input-joystick-KERNEL,
+                and you made need to run game as root.
+                                
+Change-log:     2026/01/02 v 4.14.3  on 16x
+Current:        2026/01/02  

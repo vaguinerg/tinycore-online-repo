@@ -9,10 +9,16 @@ Extension_by:   aus9
 Tags:           game audio
 Comments:       alsa pipewire  pulseaudio need setup
                 portaudio nor sdl2 need setup
+                Test you have sound and mixer levels are
+                correct before trying out this TCE please
 
                 May conflict with openal
                 If you need  /dev/snd/seq
                 $ sudo modprobe snd-seq-midi
+
+                If you are not sure how sound works in uzdoom
+                correct midi player = OPL Synth Emulation
+                then click advanced and click restart sound
                 
 Change-log:     2025/12/31 v 1.25.0 on 16x
-Current:        2025/12/31  
+Current:        2026/01/02 rebuilt to support SSE & SSE2 only credits CNK forum post  
