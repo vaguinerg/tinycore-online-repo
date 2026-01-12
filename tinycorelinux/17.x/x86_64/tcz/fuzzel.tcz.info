@@ -1,0 +1,30 @@
+Title:          fuzzel.tcz 
+Description:    wlroots Applications launcher with fuzzy search as below
+Version:        1.13.1
+Author:         Daniel Eklöf
+Original-site:  https://codeberg.org/dnkl/fuzzel
+Copying-policy: Accompanied 
+Size:           144K
+Extension_by:   aus9 
+Tags:           wlroots launcher fuzzy
+Comments:       Install creates config at ~/.config/fuzzel/fuzzel.ini
+                Add font TCEs if you do not like monospace
+                Supports hicolor icon set in results
+                This TCE mainly searches for *.desktop under
+                /usr/local/share/applications so not a full
+                launcher like dmenu or wofi This acts more like
+                context menu to bring up Applications on libX/Xorg
+
+                Launch from a terminal. You might see the 
+                app you want to launch without searching
+                -> Either mouse click to launch it OR
+                use arrows to highlight line and press enter
+                Otherwise start typing your search term,
+                if nothing found suits you -> press Esc to quit
+                If searching is giving only one result, no need
+                to complete typing the full word just press enter
+
+                Does not work on woodland
+
+Change-log:     2026/01/09 v 1.13.1 on 17x
+Current:        2026/01/09 

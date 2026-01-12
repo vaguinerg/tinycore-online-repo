@@ -1,15 +1,51 @@
-Title:		translate-shell.tcz
-Description:    translate files txt and generate mp3 if using engine of google
-Version:        1.34.1
-Author:         Jorge Luis Borges
-Original-site:  https://www.soimort.org/
-Copying-policy: unlicense
-Size:		112K
-Extension_by:   tiagoarcosta
-Tags:           translate text to speech
-Comments:       translate files txt and generate mp3 if using engine of google
-                ----------
-                Source code: https://github.com/soimort/translate-shell/archive/refs/heads/develop.zip                
-                ----------
-Change-log:     2022/10/07 first version
-Current:        2022/10/07 first version
+Title:          translate-shell.tcz
+Description:    Translation tool console or virtual terminal as below
+Version:        0.9.7.1
+Author:         Mort Yao
+Original-site:  https://github.com/soimort/translate-shell
+Copying-policy: copyright waiver
+Size:           72K
+Extension_by:   aus9 
+Tags:           translate
+Comments:       Translates text into any language from the command-line, 
+                using Google Translate, Bing Translator or Yandex.Translate
+                Can also be used like an interactive shell, input the text 
+                to be translated line by line. Can convert txt to sound file 
+                or sound device if capable (use the -p for play)
+
+                It is ESSENTIAL that you read the man page/README as
+                'Each argument which is not a valid option is treated as 
+                TEXT to be translated.'
+
+                Use an  UTF-8 terminal AND load any fonts you might need to
+                display input or output font before running the executable.
+                Locale must be set, follow the info from getlocale and its output Please
+         
+                If you like Sound - Setup sound first then - 
+                    Choose mpg123, mpv, mplayer or 
+                    direct to sound device = espeak-ng
+ 
+                Other TCEs
+                aspell* depends on your native language 
+                non-EN to EN translations - aspell-en
+                (But for simple test I have no aspell loaded)
+                Other aspells* see GUI search result for aspell
+                fribidi for right to left languages
+                
+                curl for networks (pulls in ca-certificates) but 
+                I did not need curl for basic translation single lines
+
+                Simple one line by line EXAMPLE
+                drop -p if you want no sound output
+                ###################################
+                trans -b -p # NOTE -bp is treated as TEXT as above!
+                J'adore Linux 
+                I love Linux # with mpg123 loaded a voice spoke to me
+                Dónde estoy
+                where am I 
+                    我在哪里     # You need wqy-zenhei-fonts-ttf to see font
+                where am i
+                (ctrl + c to close)
+               
+Change-log:     2022/10/07 v 0.9.7 (tiagoarcosta)
+Current:        2026/01/08 v 0.9.7.1 on 17x (aus9)
