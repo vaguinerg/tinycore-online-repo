@@ -1,0 +1,52 @@
+Title:          sway.tcz 
+Description:    Tiling desktop for Wayland with full xwayland support
+Version:        1.11
+Author:         Drew DeVault
+Original-site:  https://github.com/swaywm/sway
+Copying-policy: Accompanied 
+Size:           332K		
+Extension_by:   aus9 
+Tags:           wayland sway wlroots
+Comments:       Supports workspaces. On first start you have workspace=WS1
+                Create new one by KB shortcuts (logo + 2)
+                If you do not open an app there and go to another WS, you lose WS2
+                You can use mouse to click into each WS OR (logo + <number of WS>)
+                Sway attempts to tile open apps on the same WS. If you move an app to a 
+                fresh WS it automatically maximises! So if you had 2 open apps on WS1 and moved 
+                one to WS2- by (logo + shift + 2) the remaining app on WS1 becomes maximised as 
+                ONE app will always maximise if its the only app in that WS. You are free to use 
+                WS1 and say WS6, no need to use WS1,2 etc
+
+                After you load sway, exit to prompt and type sw and press enter to launch sway. 
+                Please do not use ondemand with this TCE. 
+
+                Your active App is the last loaded app on your current workspace OR its the one 
+                with the blue titlebar. Sway does not have a context menu. Use wofi/dmenu, 
+                KB shortcuts or terminal commands. No wallpaper has been set. Edit config to suit. 
+                After you have made all your changes to ~/.config/sway/config, within sway use KB 
+                shortcuts (logo + z) to check for errors. If there is at least 1 error -- a dialog 
+                appears at top of monitor.
+                
+                Exit Sway 
+                #########
+                press logo + e  -> will launch exittc
+
+                Optional -changeable + removeable TCEs 
+                #######################################
+                NOTE TCEs below may need sway config edits. Read their relevant info files 
+                wbar (libX) interferes with sway so remove it from boot list please
+               
+                --> Changeable - lxterminal but make sure you modify and test 
+                     config please, as you need a terminal set.
+                - slurp = screenshot tool 
+                - dmenu = launcher recommended if you prefer larger fonts OR
+                - wofi = wlroots launcher
+                - wl-clipboard = terminal clipboard manager if not using a 
+                                 terminal with copy and paste support
+                - waybar = a bar OR 
+                - sfwbar = a fancier bar 
+                - swayimg = image viewer
+                - swaylock = screenlocker
+               
+Change-log:     2026/01/06 v 1.11 on 16x
+Current:        2026/01/06  
