@@ -775,7 +775,7 @@ gnome-settings-daemon-dev.tcz
                nss.tcz
                   nspr.tcz
                   sqlite3.tcz
-            libavahi.tcz 
+            libavahi.tcz     
          polkit.tcz
             glib2.tcz
                libffi.tcz
@@ -2041,7 +2041,7 @@ gnome-settings-daemon-dev.tcz
                      nss.tcz
                         nspr.tcz
                         sqlite3.tcz
-                  libavahi.tcz 
+                  libavahi.tcz     
                polkit.tcz
                   glib2.tcz
                      libffi.tcz
@@ -4443,7 +4443,7 @@ gnome-settings-daemon-dev.tcz
                      nss.tcz
                         nspr.tcz
                         sqlite3.tcz
-                  libavahi.tcz 
+                  libavahi.tcz     
                polkit.tcz
                   glib2.tcz
                      libffi.tcz
@@ -5434,133 +5434,6 @@ gnome-settings-daemon-dev.tcz
                   ncursesw-dev.tcz
                      ncursesw.tcz
             sane-dev.tcz
-               avahi-dev.tcz
-                  avahi.tcz
-                     libavahi.tcz
-                        dbus.tcz
-                           expat2.tcz
-                           elogind.tcz
-                              acl.tcz
-                                 attr.tcz
-                              libcap.tcz
-                                 attr.tcz
-                              util-linux.tcz
-                                 readline.tcz
-                                    ncursesw.tcz
-                                 udev-lib.tcz
-                              linux-pam.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                        gcc_libs.tcz
-                        glib2.tcz
-                           libffi.tcz
-                           pcre21042.tcz
-                     nss-mdns.tcz
-                     libdaemon.tcz
-                  dbus-dev.tcz
-                     dbus.tcz
-                        expat2.tcz
-                        elogind.tcz
-                           acl.tcz
-                              attr.tcz
-                           libcap.tcz
-                              attr.tcz
-                           util-linux.tcz
-                              readline.tcz
-                                 ncursesw.tcz
-                              udev-lib.tcz
-                           linux-pam.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                     expat2-dev.tcz
-                        expat2.tcz
-                     elogind-dev.tcz
-                        elogind.tcz
-                           acl.tcz
-                              attr.tcz
-                           libcap.tcz
-                              attr.tcz
-                           util-linux.tcz
-                              readline.tcz
-                                 ncursesw.tcz
-                              udev-lib.tcz
-                           linux-pam.tcz
-                        acl-dev.tcz
-                           acl.tcz
-                              attr.tcz
-                           attr-dev.tcz
-                              attr.tcz
-                        libcap-dev.tcz
-                           libcap.tcz
-                              attr.tcz
-                           attr-dev.tcz
-                              attr.tcz
-                        util-linux-dev.tcz
-                           util-linux.tcz
-                              readline.tcz
-                                 ncursesw.tcz
-                              udev-lib.tcz
-                           readline-dev.tcz
-                              readline.tcz
-                                 ncursesw.tcz
-                              ncursesw-dev.tcz
-                                 ncursesw.tcz
-                           udev-lib-dev.tcz
-                              udev-lib.tcz
-                     libX11-dev.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                        libxcb-dev.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                           libXau-dev.tcz
-                              libXau.tcz
-                           libXdmcp-dev.tcz
-                              libXdmcp.tcz
-                           xcb-proto.tcz
-                              xorg-proto.tcz
-                                 util-macros.tcz
-                                    m4.tcz
-                        xtrans.tcz
-                  gcc_libs-dev.tcz
-                     gcc_libs.tcz
-                  glib2-dev.tcz
-                     glib2-python.tcz
-                        glib2.tcz
-                           libffi.tcz
-                           pcre21042.tcz
-                        python3.14.tcz
-                           openssl.tcz
-                           sqlite3.tcz
-                           gdbm.tcz
-                           bzip2-lib.tcz
-                           liblzma.tcz
-                           readline.tcz
-                              ncursesw.tcz
-                           libffi.tcz
-                           libnsl.tcz
-                              libtirpc.tcz
-                     pcre21042-dev.tcz
-                        pcre21042.tcz
-                        bzip2-dev.tcz
-                           bzip2.tcz
-                              bzip2-lib.tcz
-                        readline-dev.tcz
-                           readline.tcz
-                              ncursesw.tcz
-                           ncursesw-dev.tcz
-                              ncursesw.tcz
-                     libffi-dev.tcz
-                        libffi.tcz
-                  libdaemon-dev.tcz
-                     libdaemon.tcz
                sane.tcz
                   libsane.tcz
                      libgphoto2.tcz
@@ -5608,56 +5481,14 @@ gnome-settings-daemon-dev.tcz
                         nss.tcz
                            nspr.tcz
                            sqlite3.tcz
-                     libavahi.tcz 
-               libgphoto2-dev.tcz
-                  libgphoto2.tcz
-                     libexif.tcz
-                     libltdl.tcz
-                     libusb.tcz
-                        udev-lib.tcz
-                     libxml2.tcz
-                        liblzma.tcz
-                     curl.tcz
-                        ca-certificates.tcz
-                           openssl.tcz
-                        libzstd.tcz
-                  libexif-dev.tcz
-                     libexif.tcz
-                  libtool-dev.tcz
-                     libtool.tcz
-                        libltdl.tcz
-                  libusb-dev.tcz
-                     libusb.tcz
-                        udev-lib.tcz
-                     udev-lib-dev.tcz
-                        udev-lib.tcz
-                  libxml2-dev.tcz
-                     libxml2-bin.tcz
-                        libxml2.tcz
-                           liblzma.tcz
-                     libxml2-python.tcz
-                        libxml2.tcz
-                           liblzma.tcz
-                        python3.14.tcz
-                           openssl.tcz
-                           sqlite3.tcz
-                           gdbm.tcz
+                     libavahi.tcz     
+               autoconf-archive.tcz
+                  autoconf.tcz
+                     perl_xml_parser.tcz
+                        perl5.tcz
                            bzip2-lib.tcz
-                           liblzma.tcz
-                           readline.tcz
-                              ncursesw.tcz
-                           libffi.tcz
-                           libnsl.tcz
-                              libtirpc.tcz
-                     liblzma-dev.tcz
-                        liblzma.tcz
-                  curl-dev.tcz
-                     curl.tcz
-                        ca-certificates.tcz
-                           openssl.tcz
-                        libzstd.tcz
-                     openssl-dev.tcz
-                        openssl.tcz
+                        expat2.tcz
+               avahi-dev.tcz  
                poppler23-dev.tcz
                   poppler23-bin.tcz
                      libpoppler23.tcz
@@ -6802,6 +6633,55 @@ gnome-settings-daemon-dev.tcz
                               ncursesw.tcz
                            ncursesw-dev.tcz
                               ncursesw.tcz
+               libgphoto2-dev.tcz
+                  libgphoto2.tcz
+                     libexif.tcz
+                     libltdl.tcz
+                     libusb.tcz
+                        udev-lib.tcz
+                     libxml2.tcz
+                        liblzma.tcz
+                     curl.tcz
+                        ca-certificates.tcz
+                           openssl.tcz
+                        libzstd.tcz
+                  libexif-dev.tcz
+                     libexif.tcz
+                  libtool-dev.tcz
+                     libtool.tcz
+                        libltdl.tcz
+                  libusb-dev.tcz
+                     libusb.tcz
+                        udev-lib.tcz
+                     udev-lib-dev.tcz
+                        udev-lib.tcz
+                  libxml2-dev.tcz
+                     libxml2-bin.tcz
+                        libxml2.tcz
+                           liblzma.tcz
+                     libxml2-python.tcz
+                        libxml2.tcz
+                           liblzma.tcz
+                        python3.14.tcz
+                           openssl.tcz
+                           sqlite3.tcz
+                           gdbm.tcz
+                           bzip2-lib.tcz
+                           liblzma.tcz
+                           readline.tcz
+                              ncursesw.tcz
+                           libffi.tcz
+                           libnsl.tcz
+                              libtirpc.tcz
+                     liblzma-dev.tcz
+                        liblzma.tcz
+                  curl-dev.tcz
+                     curl.tcz
+                        ca-certificates.tcz
+                           openssl.tcz
+                        libzstd.tcz
+                     openssl-dev.tcz
+                        openssl.tcz
             polkit-dev.tcz
                polkit.tcz
                   glib2.tcz
@@ -9590,7 +9470,7 @@ gnome-settings-daemon-dev.tcz
                      nss.tcz
                         nspr.tcz
                         sqlite3.tcz
-                  libavahi.tcz 
+                  libavahi.tcz     
                polkit.tcz
                   glib2.tcz
                      libffi.tcz
@@ -10581,133 +10461,6 @@ gnome-settings-daemon-dev.tcz
                   ncursesw-dev.tcz
                      ncursesw.tcz
             sane-dev.tcz
-               avahi-dev.tcz
-                  avahi.tcz
-                     libavahi.tcz
-                        dbus.tcz
-                           expat2.tcz
-                           elogind.tcz
-                              acl.tcz
-                                 attr.tcz
-                              libcap.tcz
-                                 attr.tcz
-                              util-linux.tcz
-                                 readline.tcz
-                                    ncursesw.tcz
-                                 udev-lib.tcz
-                              linux-pam.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                        gcc_libs.tcz
-                        glib2.tcz
-                           libffi.tcz
-                           pcre21042.tcz
-                     nss-mdns.tcz
-                     libdaemon.tcz
-                  dbus-dev.tcz
-                     dbus.tcz
-                        expat2.tcz
-                        elogind.tcz
-                           acl.tcz
-                              attr.tcz
-                           libcap.tcz
-                              attr.tcz
-                           util-linux.tcz
-                              readline.tcz
-                                 ncursesw.tcz
-                              udev-lib.tcz
-                           linux-pam.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                     expat2-dev.tcz
-                        expat2.tcz
-                     elogind-dev.tcz
-                        elogind.tcz
-                           acl.tcz
-                              attr.tcz
-                           libcap.tcz
-                              attr.tcz
-                           util-linux.tcz
-                              readline.tcz
-                                 ncursesw.tcz
-                              udev-lib.tcz
-                           linux-pam.tcz
-                        acl-dev.tcz
-                           acl.tcz
-                              attr.tcz
-                           attr-dev.tcz
-                              attr.tcz
-                        libcap-dev.tcz
-                           libcap.tcz
-                              attr.tcz
-                           attr-dev.tcz
-                              attr.tcz
-                        util-linux-dev.tcz
-                           util-linux.tcz
-                              readline.tcz
-                                 ncursesw.tcz
-                              udev-lib.tcz
-                           readline-dev.tcz
-                              readline.tcz
-                                 ncursesw.tcz
-                              ncursesw-dev.tcz
-                                 ncursesw.tcz
-                           udev-lib-dev.tcz
-                              udev-lib.tcz
-                     libX11-dev.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                        libxcb-dev.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                           libXau-dev.tcz
-                              libXau.tcz
-                           libXdmcp-dev.tcz
-                              libXdmcp.tcz
-                           xcb-proto.tcz
-                              xorg-proto.tcz
-                                 util-macros.tcz
-                                    m4.tcz
-                        xtrans.tcz
-                  gcc_libs-dev.tcz
-                     gcc_libs.tcz
-                  glib2-dev.tcz
-                     glib2-python.tcz
-                        glib2.tcz
-                           libffi.tcz
-                           pcre21042.tcz
-                        python3.14.tcz
-                           openssl.tcz
-                           sqlite3.tcz
-                           gdbm.tcz
-                           bzip2-lib.tcz
-                           liblzma.tcz
-                           readline.tcz
-                              ncursesw.tcz
-                           libffi.tcz
-                           libnsl.tcz
-                              libtirpc.tcz
-                     pcre21042-dev.tcz
-                        pcre21042.tcz
-                        bzip2-dev.tcz
-                           bzip2.tcz
-                              bzip2-lib.tcz
-                        readline-dev.tcz
-                           readline.tcz
-                              ncursesw.tcz
-                           ncursesw-dev.tcz
-                              ncursesw.tcz
-                     libffi-dev.tcz
-                        libffi.tcz
-                  libdaemon-dev.tcz
-                     libdaemon.tcz
                sane.tcz
                   libsane.tcz
                      libgphoto2.tcz
@@ -10755,56 +10508,14 @@ gnome-settings-daemon-dev.tcz
                         nss.tcz
                            nspr.tcz
                            sqlite3.tcz
-                     libavahi.tcz 
-               libgphoto2-dev.tcz
-                  libgphoto2.tcz
-                     libexif.tcz
-                     libltdl.tcz
-                     libusb.tcz
-                        udev-lib.tcz
-                     libxml2.tcz
-                        liblzma.tcz
-                     curl.tcz
-                        ca-certificates.tcz
-                           openssl.tcz
-                        libzstd.tcz
-                  libexif-dev.tcz
-                     libexif.tcz
-                  libtool-dev.tcz
-                     libtool.tcz
-                        libltdl.tcz
-                  libusb-dev.tcz
-                     libusb.tcz
-                        udev-lib.tcz
-                     udev-lib-dev.tcz
-                        udev-lib.tcz
-                  libxml2-dev.tcz
-                     libxml2-bin.tcz
-                        libxml2.tcz
-                           liblzma.tcz
-                     libxml2-python.tcz
-                        libxml2.tcz
-                           liblzma.tcz
-                        python3.14.tcz
-                           openssl.tcz
-                           sqlite3.tcz
-                           gdbm.tcz
+                     libavahi.tcz     
+               autoconf-archive.tcz
+                  autoconf.tcz
+                     perl_xml_parser.tcz
+                        perl5.tcz
                            bzip2-lib.tcz
-                           liblzma.tcz
-                           readline.tcz
-                              ncursesw.tcz
-                           libffi.tcz
-                           libnsl.tcz
-                              libtirpc.tcz
-                     liblzma-dev.tcz
-                        liblzma.tcz
-                  curl-dev.tcz
-                     curl.tcz
-                        ca-certificates.tcz
-                           openssl.tcz
-                        libzstd.tcz
-                     openssl-dev.tcz
-                        openssl.tcz
+                        expat2.tcz
+               avahi-dev.tcz  
                poppler23-dev.tcz
                   poppler23-bin.tcz
                      libpoppler23.tcz
@@ -11949,6 +11660,55 @@ gnome-settings-daemon-dev.tcz
                               ncursesw.tcz
                            ncursesw-dev.tcz
                               ncursesw.tcz
+               libgphoto2-dev.tcz
+                  libgphoto2.tcz
+                     libexif.tcz
+                     libltdl.tcz
+                     libusb.tcz
+                        udev-lib.tcz
+                     libxml2.tcz
+                        liblzma.tcz
+                     curl.tcz
+                        ca-certificates.tcz
+                           openssl.tcz
+                        libzstd.tcz
+                  libexif-dev.tcz
+                     libexif.tcz
+                  libtool-dev.tcz
+                     libtool.tcz
+                        libltdl.tcz
+                  libusb-dev.tcz
+                     libusb.tcz
+                        udev-lib.tcz
+                     udev-lib-dev.tcz
+                        udev-lib.tcz
+                  libxml2-dev.tcz
+                     libxml2-bin.tcz
+                        libxml2.tcz
+                           liblzma.tcz
+                     libxml2-python.tcz
+                        libxml2.tcz
+                           liblzma.tcz
+                        python3.14.tcz
+                           openssl.tcz
+                           sqlite3.tcz
+                           gdbm.tcz
+                           bzip2-lib.tcz
+                           liblzma.tcz
+                           readline.tcz
+                              ncursesw.tcz
+                           libffi.tcz
+                           libnsl.tcz
+                              libtirpc.tcz
+                     liblzma-dev.tcz
+                        liblzma.tcz
+                  curl-dev.tcz
+                     curl.tcz
+                        ca-certificates.tcz
+                           openssl.tcz
+                        libzstd.tcz
+                     openssl-dev.tcz
+                        openssl.tcz
             polkit-dev.tcz
                polkit.tcz
                   glib2.tcz
@@ -14707,7 +14467,7 @@ gnome-settings-daemon-dev.tcz
                      nss.tcz
                         nspr.tcz
                         sqlite3.tcz
-                  libavahi.tcz 
+                  libavahi.tcz     
                polkit.tcz
                   glib2.tcz
                      libffi.tcz
@@ -15698,133 +15458,6 @@ gnome-settings-daemon-dev.tcz
                   ncursesw-dev.tcz
                      ncursesw.tcz
             sane-dev.tcz
-               avahi-dev.tcz
-                  avahi.tcz
-                     libavahi.tcz
-                        dbus.tcz
-                           expat2.tcz
-                           elogind.tcz
-                              acl.tcz
-                                 attr.tcz
-                              libcap.tcz
-                                 attr.tcz
-                              util-linux.tcz
-                                 readline.tcz
-                                    ncursesw.tcz
-                                 udev-lib.tcz
-                              linux-pam.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                        gcc_libs.tcz
-                        glib2.tcz
-                           libffi.tcz
-                           pcre21042.tcz
-                     nss-mdns.tcz
-                     libdaemon.tcz
-                  dbus-dev.tcz
-                     dbus.tcz
-                        expat2.tcz
-                        elogind.tcz
-                           acl.tcz
-                              attr.tcz
-                           libcap.tcz
-                              attr.tcz
-                           util-linux.tcz
-                              readline.tcz
-                                 ncursesw.tcz
-                              udev-lib.tcz
-                           linux-pam.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                     expat2-dev.tcz
-                        expat2.tcz
-                     elogind-dev.tcz
-                        elogind.tcz
-                           acl.tcz
-                              attr.tcz
-                           libcap.tcz
-                              attr.tcz
-                           util-linux.tcz
-                              readline.tcz
-                                 ncursesw.tcz
-                              udev-lib.tcz
-                           linux-pam.tcz
-                        acl-dev.tcz
-                           acl.tcz
-                              attr.tcz
-                           attr-dev.tcz
-                              attr.tcz
-                        libcap-dev.tcz
-                           libcap.tcz
-                              attr.tcz
-                           attr-dev.tcz
-                              attr.tcz
-                        util-linux-dev.tcz
-                           util-linux.tcz
-                              readline.tcz
-                                 ncursesw.tcz
-                              udev-lib.tcz
-                           readline-dev.tcz
-                              readline.tcz
-                                 ncursesw.tcz
-                              ncursesw-dev.tcz
-                                 ncursesw.tcz
-                           udev-lib-dev.tcz
-                              udev-lib.tcz
-                     libX11-dev.tcz
-                        libX11.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                        libxcb-dev.tcz
-                           libxcb.tcz
-                              libXau.tcz
-                              libXdmcp.tcz
-                           libXau-dev.tcz
-                              libXau.tcz
-                           libXdmcp-dev.tcz
-                              libXdmcp.tcz
-                           xcb-proto.tcz
-                              xorg-proto.tcz
-                                 util-macros.tcz
-                                    m4.tcz
-                        xtrans.tcz
-                  gcc_libs-dev.tcz
-                     gcc_libs.tcz
-                  glib2-dev.tcz
-                     glib2-python.tcz
-                        glib2.tcz
-                           libffi.tcz
-                           pcre21042.tcz
-                        python3.14.tcz
-                           openssl.tcz
-                           sqlite3.tcz
-                           gdbm.tcz
-                           bzip2-lib.tcz
-                           liblzma.tcz
-                           readline.tcz
-                              ncursesw.tcz
-                           libffi.tcz
-                           libnsl.tcz
-                              libtirpc.tcz
-                     pcre21042-dev.tcz
-                        pcre21042.tcz
-                        bzip2-dev.tcz
-                           bzip2.tcz
-                              bzip2-lib.tcz
-                        readline-dev.tcz
-                           readline.tcz
-                              ncursesw.tcz
-                           ncursesw-dev.tcz
-                              ncursesw.tcz
-                     libffi-dev.tcz
-                        libffi.tcz
-                  libdaemon-dev.tcz
-                     libdaemon.tcz
                sane.tcz
                   libsane.tcz
                      libgphoto2.tcz
@@ -15872,56 +15505,14 @@ gnome-settings-daemon-dev.tcz
                         nss.tcz
                            nspr.tcz
                            sqlite3.tcz
-                     libavahi.tcz 
-               libgphoto2-dev.tcz
-                  libgphoto2.tcz
-                     libexif.tcz
-                     libltdl.tcz
-                     libusb.tcz
-                        udev-lib.tcz
-                     libxml2.tcz
-                        liblzma.tcz
-                     curl.tcz
-                        ca-certificates.tcz
-                           openssl.tcz
-                        libzstd.tcz
-                  libexif-dev.tcz
-                     libexif.tcz
-                  libtool-dev.tcz
-                     libtool.tcz
-                        libltdl.tcz
-                  libusb-dev.tcz
-                     libusb.tcz
-                        udev-lib.tcz
-                     udev-lib-dev.tcz
-                        udev-lib.tcz
-                  libxml2-dev.tcz
-                     libxml2-bin.tcz
-                        libxml2.tcz
-                           liblzma.tcz
-                     libxml2-python.tcz
-                        libxml2.tcz
-                           liblzma.tcz
-                        python3.14.tcz
-                           openssl.tcz
-                           sqlite3.tcz
-                           gdbm.tcz
+                     libavahi.tcz     
+               autoconf-archive.tcz
+                  autoconf.tcz
+                     perl_xml_parser.tcz
+                        perl5.tcz
                            bzip2-lib.tcz
-                           liblzma.tcz
-                           readline.tcz
-                              ncursesw.tcz
-                           libffi.tcz
-                           libnsl.tcz
-                              libtirpc.tcz
-                     liblzma-dev.tcz
-                        liblzma.tcz
-                  curl-dev.tcz
-                     curl.tcz
-                        ca-certificates.tcz
-                           openssl.tcz
-                        libzstd.tcz
-                     openssl-dev.tcz
-                        openssl.tcz
+                        expat2.tcz
+               avahi-dev.tcz  
                poppler23-dev.tcz
                   poppler23-bin.tcz
                      libpoppler23.tcz
@@ -17066,6 +16657,55 @@ gnome-settings-daemon-dev.tcz
                               ncursesw.tcz
                            ncursesw-dev.tcz
                               ncursesw.tcz
+               libgphoto2-dev.tcz
+                  libgphoto2.tcz
+                     libexif.tcz
+                     libltdl.tcz
+                     libusb.tcz
+                        udev-lib.tcz
+                     libxml2.tcz
+                        liblzma.tcz
+                     curl.tcz
+                        ca-certificates.tcz
+                           openssl.tcz
+                        libzstd.tcz
+                  libexif-dev.tcz
+                     libexif.tcz
+                  libtool-dev.tcz
+                     libtool.tcz
+                        libltdl.tcz
+                  libusb-dev.tcz
+                     libusb.tcz
+                        udev-lib.tcz
+                     udev-lib-dev.tcz
+                        udev-lib.tcz
+                  libxml2-dev.tcz
+                     libxml2-bin.tcz
+                        libxml2.tcz
+                           liblzma.tcz
+                     libxml2-python.tcz
+                        libxml2.tcz
+                           liblzma.tcz
+                        python3.14.tcz
+                           openssl.tcz
+                           sqlite3.tcz
+                           gdbm.tcz
+                           bzip2-lib.tcz
+                           liblzma.tcz
+                           readline.tcz
+                              ncursesw.tcz
+                           libffi.tcz
+                           libnsl.tcz
+                              libtirpc.tcz
+                     liblzma-dev.tcz
+                        liblzma.tcz
+                  curl-dev.tcz
+                     curl.tcz
+                        ca-certificates.tcz
+                           openssl.tcz
+                        libzstd.tcz
+                     openssl-dev.tcz
+                        openssl.tcz
             polkit-dev.tcz
                polkit.tcz
                   glib2.tcz
@@ -21613,7 +21253,7 @@ gnome-settings-daemon-dev.tcz
                                  nss.tcz
                                     nspr.tcz
                                     sqlite3.tcz
-                              libavahi.tcz 
+                              libavahi.tcz     
                            polkit.tcz
                               glib2.tcz
                                  libffi.tcz
@@ -22604,133 +22244,6 @@ gnome-settings-daemon-dev.tcz
                               ncursesw-dev.tcz
                                  ncursesw.tcz
                         sane-dev.tcz
-                           avahi-dev.tcz
-                              avahi.tcz
-                                 libavahi.tcz
-                                    dbus.tcz
-                                       expat2.tcz
-                                       elogind.tcz
-                                          acl.tcz
-                                             attr.tcz
-                                          libcap.tcz
-                                             attr.tcz
-                                          util-linux.tcz
-                                             readline.tcz
-                                                ncursesw.tcz
-                                             udev-lib.tcz
-                                          linux-pam.tcz
-                                       libX11.tcz
-                                          libxcb.tcz
-                                             libXau.tcz
-                                             libXdmcp.tcz
-                                    gcc_libs.tcz
-                                    glib2.tcz
-                                       libffi.tcz
-                                       pcre21042.tcz
-                                 nss-mdns.tcz
-                                 libdaemon.tcz
-                              dbus-dev.tcz
-                                 dbus.tcz
-                                    expat2.tcz
-                                    elogind.tcz
-                                       acl.tcz
-                                          attr.tcz
-                                       libcap.tcz
-                                          attr.tcz
-                                       util-linux.tcz
-                                          readline.tcz
-                                             ncursesw.tcz
-                                          udev-lib.tcz
-                                       linux-pam.tcz
-                                    libX11.tcz
-                                       libxcb.tcz
-                                          libXau.tcz
-                                          libXdmcp.tcz
-                                 expat2-dev.tcz
-                                    expat2.tcz
-                                 elogind-dev.tcz
-                                    elogind.tcz
-                                       acl.tcz
-                                          attr.tcz
-                                       libcap.tcz
-                                          attr.tcz
-                                       util-linux.tcz
-                                          readline.tcz
-                                             ncursesw.tcz
-                                          udev-lib.tcz
-                                       linux-pam.tcz
-                                    acl-dev.tcz
-                                       acl.tcz
-                                          attr.tcz
-                                       attr-dev.tcz
-                                          attr.tcz
-                                    libcap-dev.tcz
-                                       libcap.tcz
-                                          attr.tcz
-                                       attr-dev.tcz
-                                          attr.tcz
-                                    util-linux-dev.tcz
-                                       util-linux.tcz
-                                          readline.tcz
-                                             ncursesw.tcz
-                                          udev-lib.tcz
-                                       readline-dev.tcz
-                                          readline.tcz
-                                             ncursesw.tcz
-                                          ncursesw-dev.tcz
-                                             ncursesw.tcz
-                                       udev-lib-dev.tcz
-                                          udev-lib.tcz
-                                 libX11-dev.tcz
-                                    libX11.tcz
-                                       libxcb.tcz
-                                          libXau.tcz
-                                          libXdmcp.tcz
-                                    libxcb-dev.tcz
-                                       libxcb.tcz
-                                          libXau.tcz
-                                          libXdmcp.tcz
-                                       libXau-dev.tcz
-                                          libXau.tcz
-                                       libXdmcp-dev.tcz
-                                          libXdmcp.tcz
-                                       xcb-proto.tcz
-                                          xorg-proto.tcz
-                                             util-macros.tcz
-                                                m4.tcz
-                                    xtrans.tcz
-                              gcc_libs-dev.tcz
-                                 gcc_libs.tcz
-                              glib2-dev.tcz
-                                 glib2-python.tcz
-                                    glib2.tcz
-                                       libffi.tcz
-                                       pcre21042.tcz
-                                    python3.14.tcz
-                                       openssl.tcz
-                                       sqlite3.tcz
-                                       gdbm.tcz
-                                       bzip2-lib.tcz
-                                       liblzma.tcz
-                                       readline.tcz
-                                          ncursesw.tcz
-                                       libffi.tcz
-                                       libnsl.tcz
-                                          libtirpc.tcz
-                                 pcre21042-dev.tcz
-                                    pcre21042.tcz
-                                    bzip2-dev.tcz
-                                       bzip2.tcz
-                                          bzip2-lib.tcz
-                                    readline-dev.tcz
-                                       readline.tcz
-                                          ncursesw.tcz
-                                       ncursesw-dev.tcz
-                                          ncursesw.tcz
-                                 libffi-dev.tcz
-                                    libffi.tcz
-                              libdaemon-dev.tcz
-                                 libdaemon.tcz
                            sane.tcz
                               libsane.tcz
                                  libgphoto2.tcz
@@ -22778,56 +22291,14 @@ gnome-settings-daemon-dev.tcz
                                     nss.tcz
                                        nspr.tcz
                                        sqlite3.tcz
-                                 libavahi.tcz 
-                           libgphoto2-dev.tcz
-                              libgphoto2.tcz
-                                 libexif.tcz
-                                 libltdl.tcz
-                                 libusb.tcz
-                                    udev-lib.tcz
-                                 libxml2.tcz
-                                    liblzma.tcz
-                                 curl.tcz
-                                    ca-certificates.tcz
-                                       openssl.tcz
-                                    libzstd.tcz
-                              libexif-dev.tcz
-                                 libexif.tcz
-                              libtool-dev.tcz
-                                 libtool.tcz
-                                    libltdl.tcz
-                              libusb-dev.tcz
-                                 libusb.tcz
-                                    udev-lib.tcz
-                                 udev-lib-dev.tcz
-                                    udev-lib.tcz
-                              libxml2-dev.tcz
-                                 libxml2-bin.tcz
-                                    libxml2.tcz
-                                       liblzma.tcz
-                                 libxml2-python.tcz
-                                    libxml2.tcz
-                                       liblzma.tcz
-                                    python3.14.tcz
-                                       openssl.tcz
-                                       sqlite3.tcz
-                                       gdbm.tcz
+                                 libavahi.tcz     
+                           autoconf-archive.tcz
+                              autoconf.tcz
+                                 perl_xml_parser.tcz
+                                    perl5.tcz
                                        bzip2-lib.tcz
-                                       liblzma.tcz
-                                       readline.tcz
-                                          ncursesw.tcz
-                                       libffi.tcz
-                                       libnsl.tcz
-                                          libtirpc.tcz
-                                 liblzma-dev.tcz
-                                    liblzma.tcz
-                              curl-dev.tcz
-                                 curl.tcz
-                                    ca-certificates.tcz
-                                       openssl.tcz
-                                    libzstd.tcz
-                                 openssl-dev.tcz
-                                    openssl.tcz
+                                    expat2.tcz
+                           avahi-dev.tcz  
                            poppler23-dev.tcz
                               poppler23-bin.tcz
                                  libpoppler23.tcz
@@ -23972,6 +23443,55 @@ gnome-settings-daemon-dev.tcz
                                           ncursesw.tcz
                                        ncursesw-dev.tcz
                                           ncursesw.tcz
+                           libgphoto2-dev.tcz
+                              libgphoto2.tcz
+                                 libexif.tcz
+                                 libltdl.tcz
+                                 libusb.tcz
+                                    udev-lib.tcz
+                                 libxml2.tcz
+                                    liblzma.tcz
+                                 curl.tcz
+                                    ca-certificates.tcz
+                                       openssl.tcz
+                                    libzstd.tcz
+                              libexif-dev.tcz
+                                 libexif.tcz
+                              libtool-dev.tcz
+                                 libtool.tcz
+                                    libltdl.tcz
+                              libusb-dev.tcz
+                                 libusb.tcz
+                                    udev-lib.tcz
+                                 udev-lib-dev.tcz
+                                    udev-lib.tcz
+                              libxml2-dev.tcz
+                                 libxml2-bin.tcz
+                                    libxml2.tcz
+                                       liblzma.tcz
+                                 libxml2-python.tcz
+                                    libxml2.tcz
+                                       liblzma.tcz
+                                    python3.14.tcz
+                                       openssl.tcz
+                                       sqlite3.tcz
+                                       gdbm.tcz
+                                       bzip2-lib.tcz
+                                       liblzma.tcz
+                                       readline.tcz
+                                          ncursesw.tcz
+                                       libffi.tcz
+                                       libnsl.tcz
+                                          libtirpc.tcz
+                                 liblzma-dev.tcz
+                                    liblzma.tcz
+                              curl-dev.tcz
+                                 curl.tcz
+                                    ca-certificates.tcz
+                                       openssl.tcz
+                                    libzstd.tcz
+                                 openssl-dev.tcz
+                                    openssl.tcz
                         polkit-dev.tcz
                            polkit.tcz
                               glib2.tcz
@@ -26763,7 +26283,7 @@ gnome-settings-daemon-dev.tcz
                         nss.tcz
                            nspr.tcz
                            sqlite3.tcz
-                     libavahi.tcz 
+                     libavahi.tcz     
                   polkit.tcz
                      glib2.tcz
                         libffi.tcz
@@ -27754,133 +27274,6 @@ gnome-settings-daemon-dev.tcz
                      ncursesw-dev.tcz
                         ncursesw.tcz
                sane-dev.tcz
-                  avahi-dev.tcz
-                     avahi.tcz
-                        libavahi.tcz
-                           dbus.tcz
-                              expat2.tcz
-                              elogind.tcz
-                                 acl.tcz
-                                    attr.tcz
-                                 libcap.tcz
-                                    attr.tcz
-                                 util-linux.tcz
-                                    readline.tcz
-                                       ncursesw.tcz
-                                    udev-lib.tcz
-                                 linux-pam.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                           gcc_libs.tcz
-                           glib2.tcz
-                              libffi.tcz
-                              pcre21042.tcz
-                        nss-mdns.tcz
-                        libdaemon.tcz
-                     dbus-dev.tcz
-                        dbus.tcz
-                           expat2.tcz
-                           elogind.tcz
-                              acl.tcz
-                                 attr.tcz
-                              libcap.tcz
-                                 attr.tcz
-                              util-linux.tcz
-                                 readline.tcz
-                                    ncursesw.tcz
-                                 udev-lib.tcz
-                              linux-pam.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                        expat2-dev.tcz
-                           expat2.tcz
-                        elogind-dev.tcz
-                           elogind.tcz
-                              acl.tcz
-                                 attr.tcz
-                              libcap.tcz
-                                 attr.tcz
-                              util-linux.tcz
-                                 readline.tcz
-                                    ncursesw.tcz
-                                 udev-lib.tcz
-                              linux-pam.tcz
-                           acl-dev.tcz
-                              acl.tcz
-                                 attr.tcz
-                              attr-dev.tcz
-                                 attr.tcz
-                           libcap-dev.tcz
-                              libcap.tcz
-                                 attr.tcz
-                              attr-dev.tcz
-                                 attr.tcz
-                           util-linux-dev.tcz
-                              util-linux.tcz
-                                 readline.tcz
-                                    ncursesw.tcz
-                                 udev-lib.tcz
-                              readline-dev.tcz
-                                 readline.tcz
-                                    ncursesw.tcz
-                                 ncursesw-dev.tcz
-                                    ncursesw.tcz
-                              udev-lib-dev.tcz
-                                 udev-lib.tcz
-                        libX11-dev.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                           libxcb-dev.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                              libXau-dev.tcz
-                                 libXau.tcz
-                              libXdmcp-dev.tcz
-                                 libXdmcp.tcz
-                              xcb-proto.tcz
-                                 xorg-proto.tcz
-                                    util-macros.tcz
-                                       m4.tcz
-                           xtrans.tcz
-                     gcc_libs-dev.tcz
-                        gcc_libs.tcz
-                     glib2-dev.tcz
-                        glib2-python.tcz
-                           glib2.tcz
-                              libffi.tcz
-                              pcre21042.tcz
-                           python3.14.tcz
-                              openssl.tcz
-                              sqlite3.tcz
-                              gdbm.tcz
-                              bzip2-lib.tcz
-                              liblzma.tcz
-                              readline.tcz
-                                 ncursesw.tcz
-                              libffi.tcz
-                              libnsl.tcz
-                                 libtirpc.tcz
-                        pcre21042-dev.tcz
-                           pcre21042.tcz
-                           bzip2-dev.tcz
-                              bzip2.tcz
-                                 bzip2-lib.tcz
-                           readline-dev.tcz
-                              readline.tcz
-                                 ncursesw.tcz
-                              ncursesw-dev.tcz
-                                 ncursesw.tcz
-                        libffi-dev.tcz
-                           libffi.tcz
-                     libdaemon-dev.tcz
-                        libdaemon.tcz
                   sane.tcz
                      libsane.tcz
                         libgphoto2.tcz
@@ -27928,56 +27321,14 @@ gnome-settings-daemon-dev.tcz
                            nss.tcz
                               nspr.tcz
                               sqlite3.tcz
-                        libavahi.tcz 
-                  libgphoto2-dev.tcz
-                     libgphoto2.tcz
-                        libexif.tcz
-                        libltdl.tcz
-                        libusb.tcz
-                           udev-lib.tcz
-                        libxml2.tcz
-                           liblzma.tcz
-                        curl.tcz
-                           ca-certificates.tcz
-                              openssl.tcz
-                           libzstd.tcz
-                     libexif-dev.tcz
-                        libexif.tcz
-                     libtool-dev.tcz
-                        libtool.tcz
-                           libltdl.tcz
-                     libusb-dev.tcz
-                        libusb.tcz
-                           udev-lib.tcz
-                        udev-lib-dev.tcz
-                           udev-lib.tcz
-                     libxml2-dev.tcz
-                        libxml2-bin.tcz
-                           libxml2.tcz
-                              liblzma.tcz
-                        libxml2-python.tcz
-                           libxml2.tcz
-                              liblzma.tcz
-                           python3.14.tcz
-                              openssl.tcz
-                              sqlite3.tcz
-                              gdbm.tcz
+                        libavahi.tcz     
+                  autoconf-archive.tcz
+                     autoconf.tcz
+                        perl_xml_parser.tcz
+                           perl5.tcz
                               bzip2-lib.tcz
-                              liblzma.tcz
-                              readline.tcz
-                                 ncursesw.tcz
-                              libffi.tcz
-                              libnsl.tcz
-                                 libtirpc.tcz
-                        liblzma-dev.tcz
-                           liblzma.tcz
-                     curl-dev.tcz
-                        curl.tcz
-                           ca-certificates.tcz
-                              openssl.tcz
-                           libzstd.tcz
-                        openssl-dev.tcz
-                           openssl.tcz
+                           expat2.tcz
+                  avahi-dev.tcz  
                   poppler23-dev.tcz
                      poppler23-bin.tcz
                         libpoppler23.tcz
@@ -29122,6 +28473,55 @@ gnome-settings-daemon-dev.tcz
                                  ncursesw.tcz
                               ncursesw-dev.tcz
                                  ncursesw.tcz
+                  libgphoto2-dev.tcz
+                     libgphoto2.tcz
+                        libexif.tcz
+                        libltdl.tcz
+                        libusb.tcz
+                           udev-lib.tcz
+                        libxml2.tcz
+                           liblzma.tcz
+                        curl.tcz
+                           ca-certificates.tcz
+                              openssl.tcz
+                           libzstd.tcz
+                     libexif-dev.tcz
+                        libexif.tcz
+                     libtool-dev.tcz
+                        libtool.tcz
+                           libltdl.tcz
+                     libusb-dev.tcz
+                        libusb.tcz
+                           udev-lib.tcz
+                        udev-lib-dev.tcz
+                           udev-lib.tcz
+                     libxml2-dev.tcz
+                        libxml2-bin.tcz
+                           libxml2.tcz
+                              liblzma.tcz
+                        libxml2-python.tcz
+                           libxml2.tcz
+                              liblzma.tcz
+                           python3.14.tcz
+                              openssl.tcz
+                              sqlite3.tcz
+                              gdbm.tcz
+                              bzip2-lib.tcz
+                              liblzma.tcz
+                              readline.tcz
+                                 ncursesw.tcz
+                              libffi.tcz
+                              libnsl.tcz
+                                 libtirpc.tcz
+                        liblzma-dev.tcz
+                           liblzma.tcz
+                     curl-dev.tcz
+                        curl.tcz
+                           ca-certificates.tcz
+                              openssl.tcz
+                           libzstd.tcz
+                        openssl-dev.tcz
+                           openssl.tcz
                polkit-dev.tcz
                   polkit.tcz
                      glib2.tcz
@@ -34349,7 +33749,7 @@ gnome-settings-daemon-dev.tcz
                         nss.tcz
                            nspr.tcz
                            sqlite3.tcz
-                     libavahi.tcz 
+                     libavahi.tcz     
                   polkit.tcz
                      glib2.tcz
                         libffi.tcz
@@ -35340,133 +34740,6 @@ gnome-settings-daemon-dev.tcz
                      ncursesw-dev.tcz
                         ncursesw.tcz
                sane-dev.tcz
-                  avahi-dev.tcz
-                     avahi.tcz
-                        libavahi.tcz
-                           dbus.tcz
-                              expat2.tcz
-                              elogind.tcz
-                                 acl.tcz
-                                    attr.tcz
-                                 libcap.tcz
-                                    attr.tcz
-                                 util-linux.tcz
-                                    readline.tcz
-                                       ncursesw.tcz
-                                    udev-lib.tcz
-                                 linux-pam.tcz
-                              libX11.tcz
-                                 libxcb.tcz
-                                    libXau.tcz
-                                    libXdmcp.tcz
-                           gcc_libs.tcz
-                           glib2.tcz
-                              libffi.tcz
-                              pcre21042.tcz
-                        nss-mdns.tcz
-                        libdaemon.tcz
-                     dbus-dev.tcz
-                        dbus.tcz
-                           expat2.tcz
-                           elogind.tcz
-                              acl.tcz
-                                 attr.tcz
-                              libcap.tcz
-                                 attr.tcz
-                              util-linux.tcz
-                                 readline.tcz
-                                    ncursesw.tcz
-                                 udev-lib.tcz
-                              linux-pam.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                        expat2-dev.tcz
-                           expat2.tcz
-                        elogind-dev.tcz
-                           elogind.tcz
-                              acl.tcz
-                                 attr.tcz
-                              libcap.tcz
-                                 attr.tcz
-                              util-linux.tcz
-                                 readline.tcz
-                                    ncursesw.tcz
-                                 udev-lib.tcz
-                              linux-pam.tcz
-                           acl-dev.tcz
-                              acl.tcz
-                                 attr.tcz
-                              attr-dev.tcz
-                                 attr.tcz
-                           libcap-dev.tcz
-                              libcap.tcz
-                                 attr.tcz
-                              attr-dev.tcz
-                                 attr.tcz
-                           util-linux-dev.tcz
-                              util-linux.tcz
-                                 readline.tcz
-                                    ncursesw.tcz
-                                 udev-lib.tcz
-                              readline-dev.tcz
-                                 readline.tcz
-                                    ncursesw.tcz
-                                 ncursesw-dev.tcz
-                                    ncursesw.tcz
-                              udev-lib-dev.tcz
-                                 udev-lib.tcz
-                        libX11-dev.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                           libxcb-dev.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                              libXau-dev.tcz
-                                 libXau.tcz
-                              libXdmcp-dev.tcz
-                                 libXdmcp.tcz
-                              xcb-proto.tcz
-                                 xorg-proto.tcz
-                                    util-macros.tcz
-                                       m4.tcz
-                           xtrans.tcz
-                     gcc_libs-dev.tcz
-                        gcc_libs.tcz
-                     glib2-dev.tcz
-                        glib2-python.tcz
-                           glib2.tcz
-                              libffi.tcz
-                              pcre21042.tcz
-                           python3.14.tcz
-                              openssl.tcz
-                              sqlite3.tcz
-                              gdbm.tcz
-                              bzip2-lib.tcz
-                              liblzma.tcz
-                              readline.tcz
-                                 ncursesw.tcz
-                              libffi.tcz
-                              libnsl.tcz
-                                 libtirpc.tcz
-                        pcre21042-dev.tcz
-                           pcre21042.tcz
-                           bzip2-dev.tcz
-                              bzip2.tcz
-                                 bzip2-lib.tcz
-                           readline-dev.tcz
-                              readline.tcz
-                                 ncursesw.tcz
-                              ncursesw-dev.tcz
-                                 ncursesw.tcz
-                        libffi-dev.tcz
-                           libffi.tcz
-                     libdaemon-dev.tcz
-                        libdaemon.tcz
                   sane.tcz
                      libsane.tcz
                         libgphoto2.tcz
@@ -35514,56 +34787,14 @@ gnome-settings-daemon-dev.tcz
                            nss.tcz
                               nspr.tcz
                               sqlite3.tcz
-                        libavahi.tcz 
-                  libgphoto2-dev.tcz
-                     libgphoto2.tcz
-                        libexif.tcz
-                        libltdl.tcz
-                        libusb.tcz
-                           udev-lib.tcz
-                        libxml2.tcz
-                           liblzma.tcz
-                        curl.tcz
-                           ca-certificates.tcz
-                              openssl.tcz
-                           libzstd.tcz
-                     libexif-dev.tcz
-                        libexif.tcz
-                     libtool-dev.tcz
-                        libtool.tcz
-                           libltdl.tcz
-                     libusb-dev.tcz
-                        libusb.tcz
-                           udev-lib.tcz
-                        udev-lib-dev.tcz
-                           udev-lib.tcz
-                     libxml2-dev.tcz
-                        libxml2-bin.tcz
-                           libxml2.tcz
-                              liblzma.tcz
-                        libxml2-python.tcz
-                           libxml2.tcz
-                              liblzma.tcz
-                           python3.14.tcz
-                              openssl.tcz
-                              sqlite3.tcz
-                              gdbm.tcz
+                        libavahi.tcz     
+                  autoconf-archive.tcz
+                     autoconf.tcz
+                        perl_xml_parser.tcz
+                           perl5.tcz
                               bzip2-lib.tcz
-                              liblzma.tcz
-                              readline.tcz
-                                 ncursesw.tcz
-                              libffi.tcz
-                              libnsl.tcz
-                                 libtirpc.tcz
-                        liblzma-dev.tcz
-                           liblzma.tcz
-                     curl-dev.tcz
-                        curl.tcz
-                           ca-certificates.tcz
-                              openssl.tcz
-                           libzstd.tcz
-                        openssl-dev.tcz
-                           openssl.tcz
+                           expat2.tcz
+                  avahi-dev.tcz  
                   poppler23-dev.tcz
                      poppler23-bin.tcz
                         libpoppler23.tcz
@@ -36708,6 +35939,55 @@ gnome-settings-daemon-dev.tcz
                                  ncursesw.tcz
                               ncursesw-dev.tcz
                                  ncursesw.tcz
+                  libgphoto2-dev.tcz
+                     libgphoto2.tcz
+                        libexif.tcz
+                        libltdl.tcz
+                        libusb.tcz
+                           udev-lib.tcz
+                        libxml2.tcz
+                           liblzma.tcz
+                        curl.tcz
+                           ca-certificates.tcz
+                              openssl.tcz
+                           libzstd.tcz
+                     libexif-dev.tcz
+                        libexif.tcz
+                     libtool-dev.tcz
+                        libtool.tcz
+                           libltdl.tcz
+                     libusb-dev.tcz
+                        libusb.tcz
+                           udev-lib.tcz
+                        udev-lib-dev.tcz
+                           udev-lib.tcz
+                     libxml2-dev.tcz
+                        libxml2-bin.tcz
+                           libxml2.tcz
+                              liblzma.tcz
+                        libxml2-python.tcz
+                           libxml2.tcz
+                              liblzma.tcz
+                           python3.14.tcz
+                              openssl.tcz
+                              sqlite3.tcz
+                              gdbm.tcz
+                              bzip2-lib.tcz
+                              liblzma.tcz
+                              readline.tcz
+                                 ncursesw.tcz
+                              libffi.tcz
+                              libnsl.tcz
+                                 libtirpc.tcz
+                        liblzma-dev.tcz
+                           liblzma.tcz
+                     curl-dev.tcz
+                        curl.tcz
+                           ca-certificates.tcz
+                              openssl.tcz
+                           libzstd.tcz
+                        openssl-dev.tcz
+                           openssl.tcz
                polkit-dev.tcz
                   polkit.tcz
                      glib2.tcz
@@ -39034,7 +38314,7 @@ gnome-settings-daemon-dev.tcz
                      nss.tcz
                         nspr.tcz
                         sqlite3.tcz
-                  libavahi.tcz 
+                  libavahi.tcz     
                polkit.tcz
                   glib2.tcz
                      libffi.tcz
@@ -39538,7 +38818,7 @@ gnome-settings-daemon-dev.tcz
                      nss.tcz
                         nspr.tcz
                         sqlite3.tcz
-                  libavahi.tcz 
+                  libavahi.tcz     
                polkit.tcz
                   glib2.tcz
                      libffi.tcz
@@ -51134,7 +50414,7 @@ gnome-settings-daemon-dev.tcz
                                           nss.tcz
                                              nspr.tcz
                                              sqlite3.tcz
-                                       libavahi.tcz 
+                                       libavahi.tcz     
                                     polkit.tcz
                                        glib2.tcz
                                           libffi.tcz
@@ -52125,133 +51405,6 @@ gnome-settings-daemon-dev.tcz
                                        ncursesw-dev.tcz
                                           ncursesw.tcz
                                  sane-dev.tcz
-                                    avahi-dev.tcz
-                                       avahi.tcz
-                                          libavahi.tcz
-                                             dbus.tcz
-                                                expat2.tcz
-                                                elogind.tcz
-                                                   acl.tcz
-                                                      attr.tcz
-                                                   libcap.tcz
-                                                      attr.tcz
-                                                   util-linux.tcz
-                                                      readline.tcz
-                                                         ncursesw.tcz
-                                                      udev-lib.tcz
-                                                   linux-pam.tcz
-                                                libX11.tcz
-                                                   libxcb.tcz
-                                                      libXau.tcz
-                                                      libXdmcp.tcz
-                                             gcc_libs.tcz
-                                             glib2.tcz
-                                                libffi.tcz
-                                                pcre21042.tcz
-                                          nss-mdns.tcz
-                                          libdaemon.tcz
-                                       dbus-dev.tcz
-                                          dbus.tcz
-                                             expat2.tcz
-                                             elogind.tcz
-                                                acl.tcz
-                                                   attr.tcz
-                                                libcap.tcz
-                                                   attr.tcz
-                                                util-linux.tcz
-                                                   readline.tcz
-                                                      ncursesw.tcz
-                                                   udev-lib.tcz
-                                                linux-pam.tcz
-                                             libX11.tcz
-                                                libxcb.tcz
-                                                   libXau.tcz
-                                                   libXdmcp.tcz
-                                          expat2-dev.tcz
-                                             expat2.tcz
-                                          elogind-dev.tcz
-                                             elogind.tcz
-                                                acl.tcz
-                                                   attr.tcz
-                                                libcap.tcz
-                                                   attr.tcz
-                                                util-linux.tcz
-                                                   readline.tcz
-                                                      ncursesw.tcz
-                                                   udev-lib.tcz
-                                                linux-pam.tcz
-                                             acl-dev.tcz
-                                                acl.tcz
-                                                   attr.tcz
-                                                attr-dev.tcz
-                                                   attr.tcz
-                                             libcap-dev.tcz
-                                                libcap.tcz
-                                                   attr.tcz
-                                                attr-dev.tcz
-                                                   attr.tcz
-                                             util-linux-dev.tcz
-                                                util-linux.tcz
-                                                   readline.tcz
-                                                      ncursesw.tcz
-                                                   udev-lib.tcz
-                                                readline-dev.tcz
-                                                   readline.tcz
-                                                      ncursesw.tcz
-                                                   ncursesw-dev.tcz
-                                                      ncursesw.tcz
-                                                udev-lib-dev.tcz
-                                                   udev-lib.tcz
-                                          libX11-dev.tcz
-                                             libX11.tcz
-                                                libxcb.tcz
-                                                   libXau.tcz
-                                                   libXdmcp.tcz
-                                             libxcb-dev.tcz
-                                                libxcb.tcz
-                                                   libXau.tcz
-                                                   libXdmcp.tcz
-                                                libXau-dev.tcz
-                                                   libXau.tcz
-                                                libXdmcp-dev.tcz
-                                                   libXdmcp.tcz
-                                                xcb-proto.tcz
-                                                   xorg-proto.tcz
-                                                      util-macros.tcz
-                                                         m4.tcz
-                                             xtrans.tcz
-                                       gcc_libs-dev.tcz
-                                          gcc_libs.tcz
-                                       glib2-dev.tcz
-                                          glib2-python.tcz
-                                             glib2.tcz
-                                                libffi.tcz
-                                                pcre21042.tcz
-                                             python3.14.tcz
-                                                openssl.tcz
-                                                sqlite3.tcz
-                                                gdbm.tcz
-                                                bzip2-lib.tcz
-                                                liblzma.tcz
-                                                readline.tcz
-                                                   ncursesw.tcz
-                                                libffi.tcz
-                                                libnsl.tcz
-                                                   libtirpc.tcz
-                                          pcre21042-dev.tcz
-                                             pcre21042.tcz
-                                             bzip2-dev.tcz
-                                                bzip2.tcz
-                                                   bzip2-lib.tcz
-                                             readline-dev.tcz
-                                                readline.tcz
-                                                   ncursesw.tcz
-                                                ncursesw-dev.tcz
-                                                   ncursesw.tcz
-                                          libffi-dev.tcz
-                                             libffi.tcz
-                                       libdaemon-dev.tcz
-                                          libdaemon.tcz
                                     sane.tcz
                                        libsane.tcz
                                           libgphoto2.tcz
@@ -52299,56 +51452,14 @@ gnome-settings-daemon-dev.tcz
                                              nss.tcz
                                                 nspr.tcz
                                                 sqlite3.tcz
-                                          libavahi.tcz 
-                                    libgphoto2-dev.tcz
-                                       libgphoto2.tcz
-                                          libexif.tcz
-                                          libltdl.tcz
-                                          libusb.tcz
-                                             udev-lib.tcz
-                                          libxml2.tcz
-                                             liblzma.tcz
-                                          curl.tcz
-                                             ca-certificates.tcz
-                                                openssl.tcz
-                                             libzstd.tcz
-                                       libexif-dev.tcz
-                                          libexif.tcz
-                                       libtool-dev.tcz
-                                          libtool.tcz
-                                             libltdl.tcz
-                                       libusb-dev.tcz
-                                          libusb.tcz
-                                             udev-lib.tcz
-                                          udev-lib-dev.tcz
-                                             udev-lib.tcz
-                                       libxml2-dev.tcz
-                                          libxml2-bin.tcz
-                                             libxml2.tcz
-                                                liblzma.tcz
-                                          libxml2-python.tcz
-                                             libxml2.tcz
-                                                liblzma.tcz
-                                             python3.14.tcz
-                                                openssl.tcz
-                                                sqlite3.tcz
-                                                gdbm.tcz
+                                          libavahi.tcz     
+                                    autoconf-archive.tcz
+                                       autoconf.tcz
+                                          perl_xml_parser.tcz
+                                             perl5.tcz
                                                 bzip2-lib.tcz
-                                                liblzma.tcz
-                                                readline.tcz
-                                                   ncursesw.tcz
-                                                libffi.tcz
-                                                libnsl.tcz
-                                                   libtirpc.tcz
-                                          liblzma-dev.tcz
-                                             liblzma.tcz
-                                       curl-dev.tcz
-                                          curl.tcz
-                                             ca-certificates.tcz
-                                                openssl.tcz
-                                             libzstd.tcz
-                                          openssl-dev.tcz
-                                             openssl.tcz
+                                             expat2.tcz
+                                    avahi-dev.tcz  
                                     poppler23-dev.tcz
                                        poppler23-bin.tcz
                                           libpoppler23.tcz
@@ -53493,6 +52604,55 @@ gnome-settings-daemon-dev.tcz
                                                    ncursesw.tcz
                                                 ncursesw-dev.tcz
                                                    ncursesw.tcz
+                                    libgphoto2-dev.tcz
+                                       libgphoto2.tcz
+                                          libexif.tcz
+                                          libltdl.tcz
+                                          libusb.tcz
+                                             udev-lib.tcz
+                                          libxml2.tcz
+                                             liblzma.tcz
+                                          curl.tcz
+                                             ca-certificates.tcz
+                                                openssl.tcz
+                                             libzstd.tcz
+                                       libexif-dev.tcz
+                                          libexif.tcz
+                                       libtool-dev.tcz
+                                          libtool.tcz
+                                             libltdl.tcz
+                                       libusb-dev.tcz
+                                          libusb.tcz
+                                             udev-lib.tcz
+                                          udev-lib-dev.tcz
+                                             udev-lib.tcz
+                                       libxml2-dev.tcz
+                                          libxml2-bin.tcz
+                                             libxml2.tcz
+                                                liblzma.tcz
+                                          libxml2-python.tcz
+                                             libxml2.tcz
+                                                liblzma.tcz
+                                             python3.14.tcz
+                                                openssl.tcz
+                                                sqlite3.tcz
+                                                gdbm.tcz
+                                                bzip2-lib.tcz
+                                                liblzma.tcz
+                                                readline.tcz
+                                                   ncursesw.tcz
+                                                libffi.tcz
+                                                libnsl.tcz
+                                                   libtirpc.tcz
+                                          liblzma-dev.tcz
+                                             liblzma.tcz
+                                       curl-dev.tcz
+                                          curl.tcz
+                                             ca-certificates.tcz
+                                                openssl.tcz
+                                             libzstd.tcz
+                                          openssl-dev.tcz
+                                             openssl.tcz
                                  polkit-dev.tcz
                                     polkit.tcz
                                        glib2.tcz

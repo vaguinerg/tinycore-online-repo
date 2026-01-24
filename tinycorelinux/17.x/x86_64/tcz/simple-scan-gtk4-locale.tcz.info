@@ -1,0 +1,34 @@
+Title:          simple-scan-gtk4-locale.tcz 
+Description:    language files + non-EN help files
+Version:        49.1
+Author:         Robert Ancell & contributors
+Original-site:  https://download.gnome.org/sources/simple-scan
+Copying-policy: GPL v 3 
+Size:           1.6M
+Extension_by:   aus9 
+Tags:           scanner scan gtk4 gnome
+Comments:       This TCE has translations for command +
+                for help. Main TCE is a dep so its safe
+                to have only this TCE in your bootlist
+                if you frequently scan
+
+                For usb cable to PC run 
+                $ simple-scan 
+                For networked scanner read TCE=simple-scan please
+                For further setup click various buttons. Your configs are saved
+                ~/.config/simple-scan/state # delete to start afresh
+                You may need to change paper size eg US Letter to A4 etc
+                                
+                If you see msg= Additional software required, you need
+                to load sane which has more configs please. Next GUI says 
+                searching for scanners and then you must see
+                "Ready to Scan" With luck it will name your scanner
+                When ready, click the scan button, saves to ~/Downloads
+
+                If scanner not found, look at the output to 
+                $ scanimage -L # DO NOT RUN AS ROOT please
+                clicking F1 for help FAILS instead point your web browser to link
+                /usr/local/share/help/<your country iso code>....they are xml text files
+
+Change-log:     2026/01/21 v 49.1 on 17x
+Current:        2026/01/21    
