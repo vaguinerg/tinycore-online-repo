@@ -69348,6 +69348,10 @@
 "usr/local/lib/libacl.so.1",
 "usr/local/lib/libacl.so",
 ],
+"libaom-bin.tcz": [
+"/usr/local/bin/aomdec",
+"/usr/local/bin/aomenc",
+],
 "libaom-dev.tcz": [
 "/usr/local/include/aom/aom.h",
 "/usr/local/include/aom/aom_codec.h",
@@ -69366,8 +69370,6 @@
 "/usr/local/lib/pkgconfig/aom.pc",
 ],
 "libaom.tcz": [
-"/usr/local/bin/aomdec",
-"/usr/local/bin/aomenc",
 "/usr/local/lib/libaom.so",
 "/usr/local/lib/libaom.so.3",
 "/usr/local/lib/libaom.so.3.13.1",
@@ -123939,6 +123941,26 @@
 "usr/local/bin/pip3",
 "usr/local/bin/pip3.11",
 ],
+"python3.11-psutil.tcz": [
+"usr/local/lib/python3.11/site-packages/psutil-7.2.1.dist-info/top_level.txt",
+"usr/local/lib/python3.11/site-packages/psutil-7.2.1.dist-info/WHEEL",
+"usr/local/lib/python3.11/site-packages/psutil-7.2.1.dist-info/REQUESTED",
+"usr/local/lib/python3.11/site-packages/psutil-7.2.1.dist-info/RECORD",
+"usr/local/lib/python3.11/site-packages/psutil-7.2.1.dist-info/METADATA",
+"usr/local/lib/python3.11/site-packages/psutil-7.2.1.dist-info/INSTALLER",
+"usr/local/lib/python3.11/site-packages/psutil-7.2.1.dist-info/licenses/LICENSE",
+"usr/local/lib/python3.11/site-packages/psutil/_pswindows.py",
+"usr/local/lib/python3.11/site-packages/psutil/_psutil_linux.abi3.so",
+"usr/local/lib/python3.11/site-packages/psutil/_pssunos.py",
+"usr/local/lib/python3.11/site-packages/psutil/_psposix.py",
+"usr/local/lib/python3.11/site-packages/psutil/_psosx.py",
+"usr/local/lib/python3.11/site-packages/psutil/_pslinux.py",
+"usr/local/lib/python3.11/site-packages/psutil/_psbsd.py",
+"usr/local/lib/python3.11/site-packages/psutil/_psaix.py",
+"usr/local/lib/python3.11/site-packages/psutil/_ntuples.py",
+"usr/local/lib/python3.11/site-packages/psutil/_common.py",
+"usr/local/lib/python3.11/site-packages/psutil/__init__.py",
+],
 "python3.11-rpi-gpio.tcz": [
 "usr/local/lib/python3.11/site-packages/RPi.GPIO-0.7.1.dist-info/top_level.txt",
 "usr/local/lib/python3.11/site-packages/RPi.GPIO-0.7.1.dist-info/WHEEL",
@@ -147415,6 +147437,16 @@
 "/usr/local/bin/x265",
 "/usr/local/lib/libx265.so",
 "/usr/local/lib/libx265.so.188",
+],
+"x265_215-dev.tcz": [
+"/usr/local/include/x265.h",
+"/usr/local/include/x265_config.h",
+"/usr/local/lib/pkgconfig/x265.pc",
+],
+"x265_215.tcz": [
+"/usr/local/bin/x265",
+"/usr/local/lib/libx265.so",
+"/usr/local/lib/libx265.so.215",
 ],
 "xbitmaps.tcz": [
 "/usr/local/include/X11/bitmaps/1x1",
