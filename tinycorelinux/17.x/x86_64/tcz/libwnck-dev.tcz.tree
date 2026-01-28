@@ -89,14 +89,6 @@ libwnck-dev.tcz
                            pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
-               freetype.tcz
-                  libpng.tcz
-                  harfbuzz.tcz
-                     glib2.tcz
-                        libffi.tcz
-                        pcre21042.tcz
-                     graphite.tcz
-                  bzip2-lib.tcz
                libXrender.tcz
                   libX11.tcz
                      libxcb.tcz
@@ -252,14 +244,6 @@ libwnck-dev.tcz
                            pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
-               freetype.tcz
-                  libpng.tcz
-                  harfbuzz.tcz
-                     glib2.tcz
-                        libffi.tcz
-                        pcre21042.tcz
-                     graphite.tcz
-                  bzip2-lib.tcz
                libXrender.tcz
                   libX11.tcz
                      libxcb.tcz
@@ -791,6 +775,30 @@ libwnck-dev.tcz
                               libXdmcp.tcz
                   libXext-dev.tcz
                      libXext.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                     libX11-dev.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                        libxcb-dev.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                           libXau-dev.tcz
+                              libXau.tcz
+                           libXdmcp-dev.tcz
+                              libXdmcp.tcz
+                           xcb-proto.tcz
+                              xorg-proto.tcz
+                                 util-macros.tcz
+                                    m4.tcz
+                        xtrans.tcz
+                  libXfixes-dev.tcz
+                     libXfixes.tcz
                         libX11.tcz
                            libxcb.tcz
                               libXau.tcz
@@ -1463,6 +1471,30 @@ libwnck-dev.tcz
                            util-macros.tcz
                               m4.tcz
                   xtrans.tcz
+            libXfixes-dev.tcz
+               libXfixes.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
+               libX11-dev.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
+                  libxcb-dev.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
+                     libXau-dev.tcz
+                        libXau.tcz
+                     libXdmcp-dev.tcz
+                        libXdmcp.tcz
+                     xcb-proto.tcz
+                        xorg-proto.tcz
+                           util-macros.tcz
+                              m4.tcz
+                  xtrans.tcz
          libXtst-dev.tcz
             libXtst.tcz
                libXi.tcz
@@ -1480,6 +1512,30 @@ libwnck-dev.tcz
                            libXdmcp.tcz
                libXext-dev.tcz
                   libXext.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+                  libX11-dev.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+                     libxcb-dev.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+                        libXau-dev.tcz
+                           libXau.tcz
+                        libXdmcp-dev.tcz
+                           libXdmcp.tcz
+                        xcb-proto.tcz
+                           xorg-proto.tcz
+                              util-macros.tcz
+                                 m4.tcz
+                     xtrans.tcz
+               libXfixes-dev.tcz
+                  libXfixes.tcz
                      libX11.tcz
                         libxcb.tcz
                            libXau.tcz
@@ -1535,14 +1591,6 @@ libwnck-dev.tcz
                            pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
-               freetype.tcz
-                  libpng.tcz
-                  harfbuzz.tcz
-                     glib2.tcz
-                        libffi.tcz
-                        pcre21042.tcz
-                     graphite.tcz
-                  bzip2-lib.tcz
                libXrender.tcz
                   libX11.tcz
                      libxcb.tcz
@@ -1731,14 +1779,6 @@ libwnck-dev.tcz
                            pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
-               freetype.tcz
-                  libpng.tcz
-                  harfbuzz.tcz
-                     glib2.tcz
-                        libffi.tcz
-                        pcre21042.tcz
-                     graphite.tcz
-                  bzip2-lib.tcz
                libXrender.tcz
                   libX11.tcz
                      libxcb.tcz
@@ -1809,58 +1849,6 @@ libwnck-dev.tcz
                   bzip2-dev.tcz
                      bzip2.tcz
                         bzip2-lib.tcz
-            freetype-dev.tcz
-               freetype.tcz
-                  libpng.tcz
-                  harfbuzz.tcz
-                     glib2.tcz
-                        libffi.tcz
-                        pcre21042.tcz
-                     graphite.tcz
-                  bzip2-lib.tcz
-               libpng-dev.tcz
-                  libpng-bin.tcz
-                     libpng.tcz
-               harfbuzz-dev.tcz
-                  harfbuzz-bin.tcz
-                     harfbuzz.tcz
-                        glib2.tcz
-                           libffi.tcz
-                           pcre21042.tcz
-                        graphite.tcz
-                  glib2-dev.tcz
-                     glib2-python.tcz
-                        glib2.tcz
-                           libffi.tcz
-                           pcre21042.tcz
-                        python3.14.tcz
-                           openssl.tcz
-                           sqlite3.tcz
-                           gdbm.tcz
-                           bzip2-lib.tcz
-                           liblzma.tcz
-                           readline.tcz
-                              ncursesw.tcz
-                           libffi.tcz
-                           libnsl.tcz
-                              libtirpc.tcz
-                     pcre21042-dev.tcz
-                        pcre21042.tcz
-                        bzip2-dev.tcz
-                           bzip2.tcz
-                              bzip2-lib.tcz
-                        readline-dev.tcz
-                           readline.tcz
-                              ncursesw.tcz
-                           ncursesw-dev.tcz
-                              ncursesw.tcz
-                     libffi-dev.tcz
-                        libffi.tcz
-                  graphite-dev.tcz
-                     graphite.tcz
-               bzip2-dev.tcz
-                  bzip2.tcz
-                     bzip2-lib.tcz
             libXrender-dev.tcz
                libXrender.tcz
                   libX11.tcz
@@ -2550,6 +2538,30 @@ libwnck-dev.tcz
                                  libXdmcp.tcz
                      libXext-dev.tcz
                         libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                        libX11-dev.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                           libxcb-dev.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                              libXau-dev.tcz
+                                 libXau.tcz
+                              libXdmcp-dev.tcz
+                                 libXdmcp.tcz
+                              xcb-proto.tcz
+                                 xorg-proto.tcz
+                                    util-macros.tcz
+                                       m4.tcz
+                           xtrans.tcz
+                     libXfixes-dev.tcz
+                        libXfixes.tcz
                            libX11.tcz
                               libxcb.tcz
                                  libXau.tcz
@@ -3797,6 +3809,30 @@ libwnck-dev.tcz
                                              util-macros.tcz
                                                 m4.tcz
                                     xtrans.tcz
+                              libXfixes-dev.tcz
+                                 libXfixes.tcz
+                                    libX11.tcz
+                                       libxcb.tcz
+                                          libXau.tcz
+                                          libXdmcp.tcz
+                                 libX11-dev.tcz
+                                    libX11.tcz
+                                       libxcb.tcz
+                                          libXau.tcz
+                                          libXdmcp.tcz
+                                    libxcb-dev.tcz
+                                       libxcb.tcz
+                                          libXau.tcz
+                                          libXdmcp.tcz
+                                       libXau-dev.tcz
+                                          libXau.tcz
+                                       libXdmcp-dev.tcz
+                                          libXdmcp.tcz
+                                       xcb-proto.tcz
+                                          xorg-proto.tcz
+                                             util-macros.tcz
+                                                m4.tcz
+                                    xtrans.tcz
                            libXrandr-dev.tcz
                               libXrandr.tcz
                                  libXext.tcz
@@ -4548,24 +4584,30 @@ libwnck-dev.tcz
                libxcb.tcz
                   libXau.tcz
                   libXdmcp.tcz
-         libX11-dev.tcz
-            libX11.tcz
-               libxcb.tcz
-                  libXau.tcz
-                  libXdmcp.tcz
-            libxcb-dev.tcz
-               libxcb.tcz
-                  libXau.tcz
-                  libXdmcp.tcz
-               libXau-dev.tcz
-                  libXau.tcz
-               libXdmcp-dev.tcz
-                  libXdmcp.tcz
-               xcb-proto.tcz
-                  xorg-proto.tcz
-                     util-macros.tcz
-                        m4.tcz
-            xtrans.tcz
+         libXfixes-dev.tcz
+            libXfixes.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
+            libX11-dev.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
+               libxcb-dev.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
+                  libXau-dev.tcz
+                     libXau.tcz
+                  libXdmcp-dev.tcz
+                     libXdmcp.tcz
+                  xcb-proto.tcz
+                     xorg-proto.tcz
+                        util-macros.tcz
+                           m4.tcz
+               xtrans.tcz
       libXinerama-dev.tcz
          libXinerama.tcz
             libXext.tcz
@@ -5004,8 +5046,8 @@ libwnck-dev.tcz
                            libXau.tcz
                            libXdmcp.tcz
                   libXt.tcz
-                     libICE.tcz
                      libSM.tcz
+                        libICE.tcz
                      libX11.tcz
                         libxcb.tcz
                            libXau.tcz
@@ -5023,8 +5065,8 @@ libwnck-dev.tcz
                            libXau.tcz
                            libXdmcp.tcz
                   libXt.tcz
-                     libICE.tcz
                      libSM.tcz
+                        libICE.tcz
                      libX11.tcz
                         libxcb.tcz
                            libXau.tcz
@@ -5055,16 +5097,17 @@ libwnck-dev.tcz
                      xtrans.tcz
                libXt-dev.tcz
                   libXt.tcz
-                     libICE.tcz
                      libSM.tcz
+                        libICE.tcz
                      libX11.tcz
                         libxcb.tcz
                            libXau.tcz
                            libXdmcp.tcz
-                  libICE-dev.tcz
-                     libICE.tcz
                   libSM-dev.tcz
                      libSM.tcz
+                        libICE.tcz
+                     libICE-dev.tcz
+                        libICE.tcz
                   libX11-dev.tcz
                      libX11.tcz
                         libxcb.tcz
@@ -5113,24 +5156,30 @@ libwnck-dev.tcz
                   libxcb.tcz
                      libXau.tcz
                      libXdmcp.tcz
-            libX11-dev.tcz
-               libX11.tcz
-                  libxcb.tcz
-                     libXau.tcz
-                     libXdmcp.tcz
-               libxcb-dev.tcz
-                  libxcb.tcz
-                     libXau.tcz
-                     libXdmcp.tcz
-                  libXau-dev.tcz
-                     libXau.tcz
-                  libXdmcp-dev.tcz
-                     libXdmcp.tcz
-                  xcb-proto.tcz
-                     xorg-proto.tcz
-                        util-macros.tcz
-                           m4.tcz
-               xtrans.tcz
+            libXfixes-dev.tcz
+               libXfixes.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
+               libX11-dev.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
+                  libxcb-dev.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
+                     libXau-dev.tcz
+                        libXau.tcz
+                     libXdmcp-dev.tcz
+                        libXdmcp.tcz
+                     xcb-proto.tcz
+                        xorg-proto.tcz
+                           util-macros.tcz
+                              m4.tcz
+                  xtrans.tcz
          libXcursor-dev.tcz
             libXcursor.tcz
                libXrender.tcz
@@ -5299,14 +5348,6 @@ libwnck-dev.tcz
                            pcre21042.tcz
                         graphite.tcz
                      bzip2-lib.tcz
-               freetype.tcz
-                  libpng.tcz
-                  harfbuzz.tcz
-                     glib2.tcz
-                        libffi.tcz
-                        pcre21042.tcz
-                     graphite.tcz
-                  bzip2-lib.tcz
                libXrender.tcz
                   libX11.tcz
                      libxcb.tcz
@@ -5377,58 +5418,6 @@ libwnck-dev.tcz
                   bzip2-dev.tcz
                      bzip2.tcz
                         bzip2-lib.tcz
-            freetype-dev.tcz
-               freetype.tcz
-                  libpng.tcz
-                  harfbuzz.tcz
-                     glib2.tcz
-                        libffi.tcz
-                        pcre21042.tcz
-                     graphite.tcz
-                  bzip2-lib.tcz
-               libpng-dev.tcz
-                  libpng-bin.tcz
-                     libpng.tcz
-               harfbuzz-dev.tcz
-                  harfbuzz-bin.tcz
-                     harfbuzz.tcz
-                        glib2.tcz
-                           libffi.tcz
-                           pcre21042.tcz
-                        graphite.tcz
-                  glib2-dev.tcz
-                     glib2-python.tcz
-                        glib2.tcz
-                           libffi.tcz
-                           pcre21042.tcz
-                        python3.14.tcz
-                           openssl.tcz
-                           sqlite3.tcz
-                           gdbm.tcz
-                           bzip2-lib.tcz
-                           liblzma.tcz
-                           readline.tcz
-                              ncursesw.tcz
-                           libffi.tcz
-                           libnsl.tcz
-                              libtirpc.tcz
-                     pcre21042-dev.tcz
-                        pcre21042.tcz
-                        bzip2-dev.tcz
-                           bzip2.tcz
-                              bzip2-lib.tcz
-                        readline-dev.tcz
-                           readline.tcz
-                              ncursesw.tcz
-                           ncursesw-dev.tcz
-                              ncursesw.tcz
-                     libffi-dev.tcz
-                        libffi.tcz
-                  graphite-dev.tcz
-                     graphite.tcz
-               bzip2-dev.tcz
-                  bzip2.tcz
-                     bzip2-lib.tcz
             libXrender-dev.tcz
                libXrender.tcz
                   libX11.tcz
@@ -5623,6 +5612,30 @@ libwnck-dev.tcz
                            libXdmcp.tcz
                libXext-dev.tcz
                   libXext.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+                  libX11-dev.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+                     libxcb-dev.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+                        libXau-dev.tcz
+                           libXau.tcz
+                        libXdmcp-dev.tcz
+                           libXdmcp.tcz
+                        xcb-proto.tcz
+                           xorg-proto.tcz
+                              util-macros.tcz
+                                 m4.tcz
+                     xtrans.tcz
+               libXfixes-dev.tcz
+                  libXfixes.tcz
                      libX11.tcz
                         libxcb.tcz
                            libXau.tcz
