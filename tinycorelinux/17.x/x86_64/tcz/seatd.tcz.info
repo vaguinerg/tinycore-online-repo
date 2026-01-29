@@ -1,24 +1,27 @@
 Title:          seatd.tcz 
 Description:    seat management daemon
-Version:        0.9.1
+Version:        0.9.2
 Author:         Kenny Levinsen
 Original-site:  https://git.sr.ht/~kennylevinsen/seatd/refs
 Copying-policy: Accompanied 
-Size:		32K
-Extension_by:   aus9 @linuxquestions.org
-Tags:           seat sway weston labwc wayland
+Size:           36K
+Extension_by:   aus9 
+Tags:           seat sway weston labwc wayland woodland
 Comments:       minimal seat management daemon, and a universal 
                 seat management library
 
-                Socket will be created at /run/seatd.sock
-                Install script will destroy any existing socket file
-                and make executables  SUID
+                If you see ../run/seatd.sock, refusing to start... run 
+                $ sudo rm -rf /run/seatd.sock 
+                mainly if you swap wayland desktops
 
-                Examples
-                seatd -g staff /run/seatd.sock & XDG_RUNTIME_DIR=/run/user/$(id -u) weston
-                seatd -g staff /run/seatd.sock & XDG_RUNTIME_DIR=/run/user/$(id -u) labwc
-                sway has its own setup under ~/.local/bin/z see sway-dot TCE
+                Assuming members need dbus for eg firefox
+                No change to how members launch woodland or sway which is
+                $ wood # (seatd-launch dbus-run-session woodland)
+                $ sw #   (seatd-launch dbus-run-session sway) 
+                $ seatd-launch dbus-run-session weston
+                $ seatd-launch dbus-run-session labwc -s <terminal-name> 
                
 Change-log:     2023/04/21 v 0.7.0 on 14x
                 2024/04/18 v 0.8.0 suid for both exes on 15x  
-Current:        2025/02/19 start with a fresh socket+ suid by install script on 16x   
+                2025/02/19 v 0.9.1 start with a fresh socket + suid by install script on 16x 
+Current:        2026/01/27 v 0.9.2 modify install script on 16x for copy2fs members 
