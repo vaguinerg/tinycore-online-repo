@@ -24,6 +24,7 @@ deadbeef-dev.tcz
                         libXdmcp.tcz
          libICE.tcz
          libSM.tcz
+            libICE.tcz
       curl.tcz
          ca-certificates.tcz
             openssl.tcz
@@ -95,8 +96,6 @@ deadbeef-dev.tcz
                         expat2.tcz
                         freetype.tcz
                            libpng.tcz
-                     freetype.tcz
-                        libpng.tcz
                      libXrender.tcz
                         libX11.tcz
                            libxcb.tcz
@@ -203,8 +202,6 @@ deadbeef-dev.tcz
                   expat2.tcz
                   freetype.tcz
                      libpng.tcz
-               freetype.tcz
-                  libpng.tcz
                libXrender.tcz
                   libX11.tcz
                      libxcb.tcz
@@ -547,8 +544,6 @@ deadbeef-dev.tcz
                   expat2.tcz
                   freetype.tcz
                      libpng.tcz
-               freetype.tcz
-                  libpng.tcz
                libXrender.tcz
                   libX11.tcz
                      libxcb.tcz
@@ -688,8 +683,6 @@ deadbeef-dev.tcz
                   expat2.tcz
                   freetype.tcz
                      libpng.tcz
-               freetype.tcz
-                  libpng.tcz
                libXrender.tcz
                   libX11.tcz
                      libxcb.tcz
@@ -707,11 +700,6 @@ deadbeef-dev.tcz
                      libpng.tcz
                   libpng-dev.tcz
                      libpng.tcz
-            freetype-dev.tcz
-               freetype.tcz
-                  libpng.tcz
-               libpng-dev.tcz
-                  libpng.tcz
             libXrender-dev.tcz
                libXrender.tcz
                   libX11.tcz
@@ -1075,24 +1063,30 @@ deadbeef-dev.tcz
                libxcb.tcz
                   libXau.tcz
                   libXdmcp.tcz
-         libX11-dev.tcz
-            libX11.tcz
-               libxcb.tcz
-                  libXau.tcz
-                  libXdmcp.tcz
-            libxcb-dev.tcz
-               libxcb.tcz
-                  libXau.tcz
-                  libXdmcp.tcz
-               libXau-dev.tcz
-                  libXau.tcz
-               libXdmcp-dev.tcz
-                  libXdmcp.tcz
-               xcb-proto.tcz
-                  xorg-proto.tcz
-                     util-macros.tcz
-                        m4.tcz
-            xtrans.tcz
+         libXfixes-dev.tcz
+            libXfixes.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
+            libX11-dev.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
+               libxcb-dev.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
+                  libXau-dev.tcz
+                     libXau.tcz
+                  libXdmcp-dev.tcz
+                     libXdmcp.tcz
+                  xcb-proto.tcz
+                     xorg-proto.tcz
+                        util-macros.tcz
+                           m4.tcz
+               xtrans.tcz
       libXdamage-dev.tcz
          libXdamage.tcz
             libXfixes.tcz
@@ -2281,6 +2275,7 @@ deadbeef-dev.tcz
                            libXdmcp.tcz
             libICE.tcz
             libSM.tcz
+               libICE.tcz
          alsa.tcz
             alsa-modules-6.18.2-tinycore.tcz
                input-joystick-6.18.2-tinycore.tcz
@@ -2427,8 +2422,6 @@ deadbeef-dev.tcz
                      expat2.tcz
                      freetype.tcz
                         libpng.tcz
-                  freetype.tcz
-                     libpng.tcz
                   libXrender.tcz
                      libX11.tcz
                         libxcb.tcz
@@ -2771,8 +2764,6 @@ deadbeef-dev.tcz
                      expat2.tcz
                      freetype.tcz
                         libpng.tcz
-                  freetype.tcz
-                     libpng.tcz
                   libXrender.tcz
                      libX11.tcz
                         libxcb.tcz
@@ -2912,8 +2903,6 @@ deadbeef-dev.tcz
                      expat2.tcz
                      freetype.tcz
                         libpng.tcz
-                  freetype.tcz
-                     libpng.tcz
                   libXrender.tcz
                      libX11.tcz
                         libxcb.tcz
@@ -2931,11 +2920,6 @@ deadbeef-dev.tcz
                         libpng.tcz
                      libpng-dev.tcz
                         libpng.tcz
-               freetype-dev.tcz
-                  freetype.tcz
-                     libpng.tcz
-                  libpng-dev.tcz
-                     libpng.tcz
                libXrender-dev.tcz
                   libXrender.tcz
                      libX11.tcz
@@ -3299,24 +3283,30 @@ deadbeef-dev.tcz
                   libxcb.tcz
                      libXau.tcz
                      libXdmcp.tcz
-            libX11-dev.tcz
-               libX11.tcz
-                  libxcb.tcz
-                     libXau.tcz
-                     libXdmcp.tcz
-               libxcb-dev.tcz
-                  libxcb.tcz
-                     libXau.tcz
-                     libXdmcp.tcz
-                  libXau-dev.tcz
-                     libXau.tcz
-                  libXdmcp-dev.tcz
-                     libXdmcp.tcz
-                  xcb-proto.tcz
-                     xorg-proto.tcz
-                        util-macros.tcz
-                           m4.tcz
-               xtrans.tcz
+            libXfixes-dev.tcz
+               libXfixes.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
+               libX11-dev.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
+                  libxcb-dev.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
+                     libXau-dev.tcz
+                        libXau.tcz
+                     libXdmcp-dev.tcz
+                        libXdmcp.tcz
+                     xcb-proto.tcz
+                        xorg-proto.tcz
+                           util-macros.tcz
+                              m4.tcz
+                  xtrans.tcz
          libXdamage-dev.tcz
             libXdamage.tcz
                libXfixes.tcz

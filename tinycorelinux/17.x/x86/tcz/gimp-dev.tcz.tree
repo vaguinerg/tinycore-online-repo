@@ -35,8 +35,6 @@ gimp-dev.tcz
                      expat2.tcz
                      freetype.tcz
                         libpng.tcz
-                  freetype.tcz
-                     libpng.tcz
                   libXrender.tcz
                      libX11.tcz
                         libxcb.tcz
@@ -162,8 +160,6 @@ gimp-dev.tcz
                         expat2.tcz
                         freetype.tcz
                            libpng.tcz
-                     freetype.tcz
-                        libpng.tcz
                      libXrender.tcz
                         libX11.tcz
                            libxcb.tcz
@@ -268,8 +264,6 @@ gimp-dev.tcz
                      expat2.tcz
                      freetype.tcz
                         libpng.tcz
-                  freetype.tcz
-                     libpng.tcz
                   libXrender.tcz
                      libX11.tcz
                         libxcb.tcz
@@ -435,8 +429,6 @@ gimp-dev.tcz
                      expat2.tcz
                      freetype.tcz
                         libpng.tcz
-                  freetype.tcz
-                     libpng.tcz
                   libXrender.tcz
                      libX11.tcz
                         libxcb.tcz
@@ -536,8 +528,6 @@ gimp-dev.tcz
                      expat2.tcz
                      freetype.tcz
                         libpng.tcz
-                  freetype.tcz
-                     libpng.tcz
                   libXrender.tcz
                      libX11.tcz
                         libxcb.tcz
@@ -3899,8 +3889,6 @@ gimp-dev.tcz
                   expat2.tcz
                   freetype.tcz
                      libpng.tcz
-               freetype.tcz
-                  libpng.tcz
                libXrender.tcz
                   libX11.tcz
                      libxcb.tcz
@@ -4243,8 +4231,6 @@ gimp-dev.tcz
                   expat2.tcz
                   freetype.tcz
                      libpng.tcz
-               freetype.tcz
-                  libpng.tcz
                libXrender.tcz
                   libX11.tcz
                      libxcb.tcz
@@ -4384,8 +4370,6 @@ gimp-dev.tcz
                   expat2.tcz
                   freetype.tcz
                      libpng.tcz
-               freetype.tcz
-                  libpng.tcz
                libXrender.tcz
                   libX11.tcz
                      libxcb.tcz
@@ -4403,11 +4387,6 @@ gimp-dev.tcz
                      libpng.tcz
                   libpng-dev.tcz
                      libpng.tcz
-            freetype-dev.tcz
-               freetype.tcz
-                  libpng.tcz
-               libpng-dev.tcz
-                  libpng.tcz
             libXrender-dev.tcz
                libXrender.tcz
                   libX11.tcz
@@ -4771,24 +4750,30 @@ gimp-dev.tcz
                libxcb.tcz
                   libXau.tcz
                   libXdmcp.tcz
-         libX11-dev.tcz
-            libX11.tcz
-               libxcb.tcz
-                  libXau.tcz
-                  libXdmcp.tcz
-            libxcb-dev.tcz
-               libxcb.tcz
-                  libXau.tcz
-                  libXdmcp.tcz
-               libXau-dev.tcz
-                  libXau.tcz
-               libXdmcp-dev.tcz
-                  libXdmcp.tcz
-               xcb-proto.tcz
-                  xorg-proto.tcz
-                     util-macros.tcz
-                        m4.tcz
-            xtrans.tcz
+         libXfixes-dev.tcz
+            libXfixes.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
+            libX11-dev.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
+               libxcb-dev.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
+                  libXau-dev.tcz
+                     libXau.tcz
+                  libXdmcp-dev.tcz
+                     libXdmcp.tcz
+                  xcb-proto.tcz
+                     xorg-proto.tcz
+                        util-macros.tcz
+                           m4.tcz
+               xtrans.tcz
       libXdamage-dev.tcz
          libXdamage.tcz
             libXfixes.tcz
@@ -6123,8 +6108,6 @@ gimp-dev.tcz
                      expat2.tcz
                      freetype.tcz
                         libpng.tcz
-                  freetype.tcz
-                     libpng.tcz
                   libXrender.tcz
                      libX11.tcz
                         libxcb.tcz
@@ -6441,8 +6424,6 @@ gimp-dev.tcz
                      expat2.tcz
                      freetype.tcz
                         libpng.tcz
-                  freetype.tcz
-                     libpng.tcz
                   libXrender.tcz
                      libX11.tcz
                         libxcb.tcz
@@ -6785,8 +6766,6 @@ gimp-dev.tcz
                      expat2.tcz
                      freetype.tcz
                         libpng.tcz
-                  freetype.tcz
-                     libpng.tcz
                   libXrender.tcz
                      libX11.tcz
                         libxcb.tcz
@@ -6926,8 +6905,6 @@ gimp-dev.tcz
                      expat2.tcz
                      freetype.tcz
                         libpng.tcz
-                  freetype.tcz
-                     libpng.tcz
                   libXrender.tcz
                      libX11.tcz
                         libxcb.tcz
@@ -6945,11 +6922,6 @@ gimp-dev.tcz
                         libpng.tcz
                      libpng-dev.tcz
                         libpng.tcz
-               freetype-dev.tcz
-                  freetype.tcz
-                     libpng.tcz
-                  libpng-dev.tcz
-                     libpng.tcz
                libXrender-dev.tcz
                   libXrender.tcz
                      libX11.tcz
@@ -7313,24 +7285,30 @@ gimp-dev.tcz
                   libxcb.tcz
                      libXau.tcz
                      libXdmcp.tcz
-            libX11-dev.tcz
-               libX11.tcz
-                  libxcb.tcz
-                     libXau.tcz
-                     libXdmcp.tcz
-               libxcb-dev.tcz
-                  libxcb.tcz
-                     libXau.tcz
-                     libXdmcp.tcz
-                  libXau-dev.tcz
-                     libXau.tcz
-                  libXdmcp-dev.tcz
-                     libXdmcp.tcz
-                  xcb-proto.tcz
-                     xorg-proto.tcz
-                        util-macros.tcz
-                           m4.tcz
-               xtrans.tcz
+            libXfixes-dev.tcz
+               libXfixes.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
+               libX11-dev.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
+                  libxcb-dev.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
+                     libXau-dev.tcz
+                        libXau.tcz
+                     libXdmcp-dev.tcz
+                        libXdmcp.tcz
+                     xcb-proto.tcz
+                        xorg-proto.tcz
+                           util-macros.tcz
+                              m4.tcz
+                  xtrans.tcz
          libXdamage-dev.tcz
             libXdamage.tcz
                libXfixes.tcz
@@ -8676,8 +8654,8 @@ gimp-dev.tcz
                            libXau.tcz
                            libXdmcp.tcz
                   libXt.tcz
-                     libICE.tcz
                      libSM.tcz
+                        libICE.tcz
                      libX11.tcz
                         libxcb.tcz
                            libXau.tcz
@@ -8718,8 +8696,6 @@ gimp-dev.tcz
                   expat2.tcz
                   freetype.tcz
                      libpng.tcz
-               freetype.tcz
-                  libpng.tcz
                libXrender.tcz
                   libX11.tcz
                      libxcb.tcz
@@ -8812,8 +8788,8 @@ gimp-dev.tcz
                            libXau.tcz
                            libXdmcp.tcz
                   libXt.tcz
-                     libICE.tcz
                      libSM.tcz
+                        libICE.tcz
                      libX11.tcz
                         libxcb.tcz
                            libXau.tcz
@@ -8831,8 +8807,8 @@ gimp-dev.tcz
                            libXau.tcz
                            libXdmcp.tcz
                   libXt.tcz
-                     libICE.tcz
                      libSM.tcz
+                        libICE.tcz
                      libX11.tcz
                         libxcb.tcz
                            libXau.tcz
@@ -8863,16 +8839,17 @@ gimp-dev.tcz
                      xtrans.tcz
                libXt-dev.tcz
                   libXt.tcz
-                     libICE.tcz
                      libSM.tcz
+                        libICE.tcz
                      libX11.tcz
                         libxcb.tcz
                            libXau.tcz
                            libXdmcp.tcz
-                  libICE-dev.tcz
-                     libICE.tcz
                   libSM-dev.tcz
                      libSM.tcz
+                        libICE.tcz
+                     libICE-dev.tcz
+                        libICE.tcz
                   libX11-dev.tcz
                      libX11.tcz
                         libxcb.tcz
@@ -8921,24 +8898,30 @@ gimp-dev.tcz
                   libxcb.tcz
                      libXau.tcz
                      libXdmcp.tcz
-            libX11-dev.tcz
-               libX11.tcz
-                  libxcb.tcz
-                     libXau.tcz
-                     libXdmcp.tcz
-               libxcb-dev.tcz
-                  libxcb.tcz
-                     libXau.tcz
-                     libXdmcp.tcz
-                  libXau-dev.tcz
-                     libXau.tcz
-                  libXdmcp-dev.tcz
-                     libXdmcp.tcz
-                  xcb-proto.tcz
-                     xorg-proto.tcz
-                        util-macros.tcz
-                           m4.tcz
-               xtrans.tcz
+            libXfixes-dev.tcz
+               libXfixes.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
+               libX11-dev.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
+                  libxcb-dev.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
+                     libXau-dev.tcz
+                        libXau.tcz
+                     libXdmcp-dev.tcz
+                        libXdmcp.tcz
+                     xcb-proto.tcz
+                        xorg-proto.tcz
+                           util-macros.tcz
+                              m4.tcz
+                  xtrans.tcz
          libXcursor-dev.tcz
             libXcursor.tcz
                libXrender.tcz
@@ -9048,8 +9031,6 @@ gimp-dev.tcz
                   expat2.tcz
                   freetype.tcz
                      libpng.tcz
-               freetype.tcz
-                  libpng.tcz
                libXrender.tcz
                   libX11.tcz
                      libxcb.tcz
@@ -9067,11 +9048,6 @@ gimp-dev.tcz
                      libpng.tcz
                   libpng-dev.tcz
                      libpng.tcz
-            freetype-dev.tcz
-               freetype.tcz
-                  libpng.tcz
-               libpng-dev.tcz
-                  libpng.tcz
             libXrender-dev.tcz
                libXrender.tcz
                   libX11.tcz
@@ -10768,8 +10744,6 @@ gimp-dev.tcz
                         expat2.tcz
                         freetype.tcz
                            libpng.tcz
-                     freetype.tcz
-                        libpng.tcz
                      libXrender.tcz
                         libX11.tcz
                            libxcb.tcz
@@ -10811,8 +10785,8 @@ gimp-dev.tcz
                                  libXau.tcz
                                  libXdmcp.tcz
                         libXt.tcz
-                           libICE.tcz
                            libSM.tcz
+                              libICE.tcz
                            libX11.tcz
                               libxcb.tcz
                                  libXau.tcz
@@ -10830,8 +10804,8 @@ gimp-dev.tcz
                                  libXau.tcz
                                  libXdmcp.tcz
                         libXt.tcz
-                           libICE.tcz
                            libSM.tcz
+                              libICE.tcz
                            libX11.tcz
                               libxcb.tcz
                                  libXau.tcz
@@ -10862,16 +10836,17 @@ gimp-dev.tcz
                            xtrans.tcz
                      libXt-dev.tcz
                         libXt.tcz
-                           libICE.tcz
                            libSM.tcz
+                              libICE.tcz
                            libX11.tcz
                               libxcb.tcz
                                  libXau.tcz
                                  libXdmcp.tcz
-                        libICE-dev.tcz
-                           libICE.tcz
                         libSM-dev.tcz
                            libSM.tcz
+                              libICE.tcz
+                           libICE-dev.tcz
+                              libICE.tcz
                         libX11-dev.tcz
                            libX11.tcz
                               libxcb.tcz
@@ -10920,24 +10895,30 @@ gimp-dev.tcz
                         libxcb.tcz
                            libXau.tcz
                            libXdmcp.tcz
-                  libX11-dev.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-                     libxcb-dev.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-                        libXau-dev.tcz
-                           libXau.tcz
-                        libXdmcp-dev.tcz
-                           libXdmcp.tcz
-                        xcb-proto.tcz
-                           xorg-proto.tcz
-                              util-macros.tcz
-                                 m4.tcz
-                     xtrans.tcz
+                  libXfixes-dev.tcz
+                     libXfixes.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                     libX11-dev.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                        libxcb-dev.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                           libXau-dev.tcz
+                              libXau.tcz
+                           libXdmcp-dev.tcz
+                              libXdmcp.tcz
+                           xcb-proto.tcz
+                              xorg-proto.tcz
+                                 util-macros.tcz
+                                    m4.tcz
+                        xtrans.tcz
                libXcursor-dev.tcz
                   libXcursor.tcz
                      libXrender.tcz
@@ -11047,8 +11028,6 @@ gimp-dev.tcz
                         expat2.tcz
                         freetype.tcz
                            libpng.tcz
-                     freetype.tcz
-                        libpng.tcz
                      libXrender.tcz
                         libX11.tcz
                            libxcb.tcz
@@ -11066,11 +11045,6 @@ gimp-dev.tcz
                            libpng.tcz
                         libpng-dev.tcz
                            libpng.tcz
-                  freetype-dev.tcz
-                     freetype.tcz
-                        libpng.tcz
-                     libpng-dev.tcz
-                        libpng.tcz
                   libXrender-dev.tcz
                      libXrender.tcz
                         libX11.tcz
@@ -12792,8 +12766,6 @@ gimp-dev.tcz
                         expat2.tcz
                         freetype.tcz
                            libpng.tcz
-                     freetype.tcz
-                        libpng.tcz
                      libXrender.tcz
                         libX11.tcz
                            libxcb.tcz
@@ -12825,8 +12797,8 @@ gimp-dev.tcz
                                  libXau.tcz
                                  libXdmcp.tcz
                         libXt.tcz
-                           libICE.tcz
                            libSM.tcz
+                              libICE.tcz
                            libX11.tcz
                               libxcb.tcz
                                  libXau.tcz
@@ -12844,8 +12816,8 @@ gimp-dev.tcz
                                  libXau.tcz
                                  libXdmcp.tcz
                         libXt.tcz
-                           libICE.tcz
                            libSM.tcz
+                              libICE.tcz
                            libX11.tcz
                               libxcb.tcz
                                  libXau.tcz
@@ -12876,16 +12848,17 @@ gimp-dev.tcz
                            xtrans.tcz
                      libXt-dev.tcz
                         libXt.tcz
-                           libICE.tcz
                            libSM.tcz
+                              libICE.tcz
                            libX11.tcz
                               libxcb.tcz
                                  libXau.tcz
                                  libXdmcp.tcz
-                        libICE-dev.tcz
-                           libICE.tcz
                         libSM-dev.tcz
                            libSM.tcz
+                              libICE.tcz
+                           libICE-dev.tcz
+                              libICE.tcz
                         libX11-dev.tcz
                            libX11.tcz
                               libxcb.tcz
@@ -12934,24 +12907,30 @@ gimp-dev.tcz
                         libxcb.tcz
                            libXau.tcz
                            libXdmcp.tcz
-                  libX11-dev.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-                     libxcb-dev.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-                        libXau-dev.tcz
-                           libXau.tcz
-                        libXdmcp-dev.tcz
-                           libXdmcp.tcz
-                        xcb-proto.tcz
-                           xorg-proto.tcz
-                              util-macros.tcz
-                                 m4.tcz
-                     xtrans.tcz
+                  libXfixes-dev.tcz
+                     libXfixes.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                     libX11-dev.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                        libxcb-dev.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                           libXau-dev.tcz
+                              libXau.tcz
+                           libXdmcp-dev.tcz
+                              libXdmcp.tcz
+                           xcb-proto.tcz
+                              xorg-proto.tcz
+                                 util-macros.tcz
+                                    m4.tcz
+                        xtrans.tcz
                libXcursor-dev.tcz
                   libXcursor.tcz
                      libXrender.tcz
@@ -13061,8 +13040,6 @@ gimp-dev.tcz
                         expat2.tcz
                         freetype.tcz
                            libpng.tcz
-                     freetype.tcz
-                        libpng.tcz
                      libXrender.tcz
                         libX11.tcz
                            libxcb.tcz
@@ -13080,11 +13057,6 @@ gimp-dev.tcz
                            libpng.tcz
                         libpng-dev.tcz
                            libpng.tcz
-                  freetype-dev.tcz
-                     freetype.tcz
-                        libpng.tcz
-                     libpng-dev.tcz
-                        libpng.tcz
                   libXrender-dev.tcz
                      libXrender.tcz
                         libX11.tcz
@@ -14716,8 +14688,6 @@ gimp-dev.tcz
                   expat2.tcz
                   freetype.tcz
                      libpng.tcz
-               freetype.tcz
-                  libpng.tcz
                libXrender.tcz
                   libX11.tcz
                      libxcb.tcz
@@ -14778,8 +14748,6 @@ gimp-dev.tcz
                   expat2.tcz
                   freetype.tcz
                      libpng.tcz
-               freetype.tcz
-                  libpng.tcz
                libXrender.tcz
                   libX11.tcz
                      libxcb.tcz
@@ -14919,8 +14887,6 @@ gimp-dev.tcz
                   expat2.tcz
                   freetype.tcz
                      libpng.tcz
-               freetype.tcz
-                  libpng.tcz
                libXrender.tcz
                   libX11.tcz
                      libxcb.tcz
@@ -14938,11 +14904,6 @@ gimp-dev.tcz
                      libpng.tcz
                   libpng-dev.tcz
                      libpng.tcz
-            freetype-dev.tcz
-               freetype.tcz
-                  libpng.tcz
-               libpng-dev.tcz
-                  libpng.tcz
             libXrender-dev.tcz
                libXrender.tcz
                   libX11.tcz
