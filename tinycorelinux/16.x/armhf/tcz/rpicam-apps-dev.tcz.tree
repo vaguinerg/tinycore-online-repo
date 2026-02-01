@@ -1,21 +1,58 @@
 rpicam-apps-dev.tcz
    rpicam-apps.tcz
       libcamera.tcz
-         libpisp.tcz
          openssl.tcz
             ca-certificates.tcz
          udev-lib.tcz
          libyaml.tcz
-         v4l-dvb-6.12.15-piCore-v7.tcz
-            alsa-modules-6.12.15-piCore-v7.tcz
-            graphics-6.12.15-piCore-v7.tcz
-               alsa-modules-6.12.15-piCore-v7.tcz
+         gst-plugins-base.tcz
+            gstreamer.tcz
+               glib2.tcz
+                  gamin.tcz
+                  libelf.tcz
+                  pcre2.tcz
+               gmp.tcz
+            libasound.tcz
+               alsa-modules-6.12.25-piCore-v7.tcz
+            libopus.tcz
+            libtheora.tcz
+               libogg.tcz
+            libvorbis.tcz
+               libogg.tcz
+            gudev-lib.tcz
+               udev-lib.tcz
+               glib2.tcz
+                  gamin.tcz
+                  libelf.tcz
+                  pcre2.tcz
+         v4l-dvb-6.12.25-piCore-v7.tcz
+            alsa-modules-6.12.25-piCore-v7.tcz
+            graphics-6.12.25-piCore-v7.tcz
+               alsa-modules-6.12.25-piCore-v7.tcz
          libevent.tcz
             openssl.tcz
                ca-certificates.tcz
-         SDL2.tcz
-      boost.tcz
-         bzip2-lib.tcz
+         sdl2.tcz
+         libdrm.tcz
+            libpciaccess.tcz
+            udev-lib.tcz
+         libtiff.tcz
+            libjpeg-turbo.tcz
+            liblzma.tcz  
+         gnutls.tcz
+            libidn2.tcz
+               libunistring.tcz
+            openssl.tcz
+               ca-certificates.tcz
+            unbound.tcz
+               expat2.tcz
+               openssl.tcz
+                  ca-certificates.tcz
+            nettle.tcz
+               gmp.tcz
+            p11-kit.tcz
+               libtasn1.tcz
+      boost-1.83.tcz
       libdrm.tcz
          libpciaccess.tcz
          udev-lib.tcz
@@ -26,21 +63,57 @@ rpicam-apps-dev.tcz
       libpng.tcz
    libcamera-dev.tcz
       libcamera.tcz
-         libpisp.tcz
          openssl.tcz
             ca-certificates.tcz
          udev-lib.tcz
          libyaml.tcz
-         v4l-dvb-6.12.15-piCore-v7.tcz
-            alsa-modules-6.12.15-piCore-v7.tcz
-            graphics-6.12.15-piCore-v7.tcz
-               alsa-modules-6.12.15-piCore-v7.tcz
+         gst-plugins-base.tcz
+            gstreamer.tcz
+               glib2.tcz
+                  gamin.tcz
+                  libelf.tcz
+                  pcre2.tcz
+               gmp.tcz
+            libasound.tcz
+               alsa-modules-6.12.25-piCore-v7.tcz
+            libopus.tcz
+            libtheora.tcz
+               libogg.tcz
+            libvorbis.tcz
+               libogg.tcz
+            gudev-lib.tcz
+               udev-lib.tcz
+               glib2.tcz
+                  gamin.tcz
+                  libelf.tcz
+                  pcre2.tcz
+         v4l-dvb-6.12.25-piCore-v7.tcz
+            alsa-modules-6.12.25-piCore-v7.tcz
+            graphics-6.12.25-piCore-v7.tcz
+               alsa-modules-6.12.25-piCore-v7.tcz
          libevent.tcz
             openssl.tcz
                ca-certificates.tcz
-         SDL2.tcz
-      libpisp-dev.tcz
-         libpisp.tcz
+         sdl2.tcz
+         libdrm.tcz
+            libpciaccess.tcz
+            udev-lib.tcz
+         libtiff.tcz
+            libjpeg-turbo.tcz
+            liblzma.tcz  
+         gnutls.tcz
+            libidn2.tcz
+               libunistring.tcz
+            openssl.tcz
+               ca-certificates.tcz
+            unbound.tcz
+               expat2.tcz
+               openssl.tcz
+                  ca-certificates.tcz
+            nettle.tcz
+               gmp.tcz
+            p11-kit.tcz
+               libtasn1.tcz
       openssl-dev.tcz
          openssl.tcz
             ca-certificates.tcz
@@ -55,7 +128,7 @@ rpicam-apps-dev.tcz
                   pcre2.tcz
                gmp.tcz
             libasound.tcz
-               alsa-modules-6.12.15-piCore-v7.tcz
+               alsa-modules-6.12.25-piCore-v7.tcz
             libopus.tcz
             libtheora.tcz
                libogg.tcz
@@ -102,7 +175,7 @@ rpicam-apps-dev.tcz
                gmp.tcz
          libasound-dev.tcz
             libasound.tcz
-               alsa-modules-6.12.15-piCore-v7.tcz
+               alsa-modules-6.12.25-piCore-v7.tcz
          libopus-dev.tcz
             libopus.tcz
          graphene-dev.tcz
@@ -1289,8 +1362,8 @@ rpicam-apps-dev.tcz
          openssl-dev.tcz
             openssl.tcz
                ca-certificates.tcz
-      SDL2-dev.tcz
-         SDL2.tcz
+      sdl2-dev.tcz
+         sdl2.tcz
       libtiff-dev.tcz
          libtiff.tcz
             libjpeg-turbo.tcz
@@ -1309,6 +1382,50 @@ rpicam-apps-dev.tcz
             libpciaccess.tcz
          udev-lib-dev.tcz
             udev-lib.tcz
+      gnutls-dev.tcz
+         gnutls.tcz
+            libidn2.tcz
+               libunistring.tcz
+            openssl.tcz
+               ca-certificates.tcz
+            unbound.tcz
+               expat2.tcz
+               openssl.tcz
+                  ca-certificates.tcz
+            nettle.tcz
+               gmp.tcz
+            p11-kit.tcz
+               libtasn1.tcz
+         openssl-dev.tcz
+            openssl.tcz
+               ca-certificates.tcz
+         libidn2-dev.tcz
+            libidn2.tcz
+               libunistring.tcz
+            libunistring-dev.tcz
+               libunistring.tcz
+         unbound-dev.tcz
+            unbound.tcz
+               expat2.tcz
+               openssl.tcz
+                  ca-certificates.tcz
+            expat2-dev.tcz
+               expat2.tcz
+            openssl-dev.tcz
+               openssl.tcz
+                  ca-certificates.tcz
+         nettle-dev.tcz
+            nettle.tcz
+               gmp.tcz
+            gmp-dev.tcz
+               gmp.tcz
+         p11-kit-dev.tcz
+            libtasn1-dev.tcz
+               libtasn1.tcz
+            p11-kit.tcz
+               libtasn1.tcz
+   boost-1.83-dev.tcz
+      boost-1.83.tcz
    libexif-dev.tcz
       libexif.tcz
    libepoxy-dev.tcz
