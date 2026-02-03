@@ -1,10 +1,22 @@
 recordmydesktop.tcz
+   popt.tcz
+   libasound.tcz
+   libXext.tcz
+      libX11.tcz
+         libxcb.tcz
+            libXau.tcz
+            libXdmcp.tcz
+   libXdamage.tcz
+      libXfixes.tcz
+         libX11.tcz
+            libxcb.tcz
+               libXau.tcz
+               libXdmcp.tcz
+   libtheora.tcz
+      libogg.tcz
+   libvorbis.tcz
+      libogg.tcz
    libSM.tcz
-   libICE.tcz 
-   libasound.tcz 
-   libtheora.tcz 
-   libvorbis.tcz 
-   libXdamage.tcz 
-   libXext.tcz 
-   popt.tcz 
+      libICE.tcz
+   libICE.tcz
 
