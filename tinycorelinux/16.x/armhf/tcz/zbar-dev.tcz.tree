@@ -1,10 +1,10 @@
 zbar-dev.tcz
    zbar.tcz
       libv4l2.tcz
-         v4l-dvb-6.12.15-piCore-v7.tcz
-            alsa-modules-6.12.15-piCore-v7.tcz
-            graphics-6.12.15-piCore-v7.tcz
-               alsa-modules-6.12.15-piCore-v7.tcz
+         v4l-dvb-6.12.25-piCore-v7.tcz
+            alsa-modules-6.12.25-piCore-v7.tcz
+            graphics-6.12.25-piCore-v7.tcz
+               alsa-modules-6.12.25-piCore-v7.tcz
          libjpeg-turbo.tcz
          udev-lib.tcz
       gtk3.tcz
@@ -132,10 +132,11 @@ zbar-dev.tcz
                      libXau.tcz
                      libXdmcp.tcz
          libxkbcommon.tcz
-            libX11.tcz
-               libxcb.tcz
-                  libXau.tcz
-                  libXdmcp.tcz
+            libxcb.tcz
+               libXau.tcz
+               libXdmcp.tcz
+            libxml2.tcz
+               liblzma.tcz
             xkeyboard-config.tcz
          wayland-protocols.tcz
             wayland.tcz
@@ -144,17 +145,17 @@ zbar-dev.tcz
                   liblzma.tcz
    libv4l2-dev.tcz
       libv4l2.tcz
-         v4l-dvb-6.12.15-piCore-v7.tcz
-            alsa-modules-6.12.15-piCore-v7.tcz
-            graphics-6.12.15-piCore-v7.tcz
-               alsa-modules-6.12.15-piCore-v7.tcz
+         v4l-dvb-6.12.25-piCore-v7.tcz
+            alsa-modules-6.12.25-piCore-v7.tcz
+            graphics-6.12.25-piCore-v7.tcz
+               alsa-modules-6.12.25-piCore-v7.tcz
          libjpeg-turbo.tcz
          udev-lib.tcz
       libjpeg-turbo-dev.tcz
          libjpeg-turbo.tcz
       libasound-dev.tcz
          libasound.tcz
-            alsa-modules-6.12.15-piCore-v7.tcz
+            alsa-modules-6.12.25-piCore-v7.tcz
       mesa-dev.tcz
          mesa.tcz
             libdrm.tcz
@@ -433,11 +434,11 @@ zbar-dev.tcz
                liblzma.tcz
             liblz4-dev.tcz
                liblz4.tcz
-      SDL2_image-dev.tcz
-         SDL2_image.tcz
-            SDL2.tcz
-         SDL2-dev.tcz
-            SDL2.tcz
+      sdl2_image-dev.tcz
+         sdl2_image.tcz
+            sdl2.tcz
+         sdl2-dev.tcz
+            sdl2.tcz
          libtiff-dev.tcz
             libtiff.tcz
                libjpeg-turbo.tcz
@@ -574,10 +575,11 @@ zbar-dev.tcz
                      libXau.tcz
                      libXdmcp.tcz
          libxkbcommon.tcz
-            libX11.tcz
-               libxcb.tcz
-                  libXau.tcz
-                  libXdmcp.tcz
+            libxcb.tcz
+               libXau.tcz
+               libXdmcp.tcz
+            libxml2.tcz
+               liblzma.tcz
             xkeyboard-config.tcz
          wayland-protocols.tcz
             wayland.tcz
@@ -1146,34 +1148,30 @@ zbar-dev.tcz
             fribidi.tcz   
       libxkbcommon-dev.tcz
          libxkbcommon.tcz
-            libX11.tcz
-               libxcb.tcz
-                  libXau.tcz
-                  libXdmcp.tcz
+            libxcb.tcz
+               libXau.tcz
+               libXdmcp.tcz
+            libxml2.tcz
+               liblzma.tcz
             xkeyboard-config.tcz
-         libX11-dev.tcz
-            libX11.tcz
-               libxcb.tcz
-                  libXau.tcz
-                  libXdmcp.tcz
-            libxcb-dev.tcz
-               libxcb.tcz
-                  libXau.tcz
-                  libXdmcp.tcz
-               libXau-dev.tcz
-                  libXau.tcz
-                  xorg-proto.tcz
-                     util-macros.tcz
-               libXdmcp-dev.tcz
-                  libXdmcp.tcz
-                  xorg-proto.tcz
-                     util-macros.tcz
-               xcb-proto.tcz
-                  xorg-proto.tcz
-                     util-macros.tcz
-            xtrans.tcz
+         libxcb-dev.tcz
+            libxcb.tcz
+               libXau.tcz
+               libXdmcp.tcz
+            libXau-dev.tcz
+               libXau.tcz
                xorg-proto.tcz
                   util-macros.tcz
+            libXdmcp-dev.tcz
+               libXdmcp.tcz
+               xorg-proto.tcz
+                  util-macros.tcz
+            xcb-proto.tcz
+               xorg-proto.tcz
+                  util-macros.tcz
+         libxml2-dev.tcz
+            libxml2.tcz
+               liblzma.tcz
       cups-dev.tcz
          cups.tcz
             libcups.tcz

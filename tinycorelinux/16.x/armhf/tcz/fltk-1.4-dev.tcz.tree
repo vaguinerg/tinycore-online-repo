@@ -5,10 +5,11 @@ fltk-1.4-dev.tcz
          libxml2.tcz
             liblzma.tcz
       libxkbcommon.tcz
-         libX11.tcz
-            libxcb.tcz
-               libXau.tcz
-               libXdmcp.tcz
+         libxcb.tcz
+            libXau.tcz
+            libXdmcp.tcz
+         libxml2.tcz
+            liblzma.tcz
          xkeyboard-config.tcz
       pango.tcz
          cairo.tcz
@@ -119,34 +120,30 @@ fltk-1.4-dev.tcz
             liblzma.tcz
    libxkbcommon-dev.tcz
       libxkbcommon.tcz
-         libX11.tcz
-            libxcb.tcz
-               libXau.tcz
-               libXdmcp.tcz
+         libxcb.tcz
+            libXau.tcz
+            libXdmcp.tcz
+         libxml2.tcz
+            liblzma.tcz
          xkeyboard-config.tcz
-      libX11-dev.tcz
-         libX11.tcz
-            libxcb.tcz
-               libXau.tcz
-               libXdmcp.tcz
-         libxcb-dev.tcz
-            libxcb.tcz
-               libXau.tcz
-               libXdmcp.tcz
-            libXau-dev.tcz
-               libXau.tcz
-               xorg-proto.tcz
-                  util-macros.tcz
-            libXdmcp-dev.tcz
-               libXdmcp.tcz
-               xorg-proto.tcz
-                  util-macros.tcz
-            xcb-proto.tcz
-               xorg-proto.tcz
-                  util-macros.tcz
-         xtrans.tcz
+      libxcb-dev.tcz
+         libxcb.tcz
+            libXau.tcz
+            libXdmcp.tcz
+         libXau-dev.tcz
+            libXau.tcz
             xorg-proto.tcz
                util-macros.tcz
+         libXdmcp-dev.tcz
+            libXdmcp.tcz
+            xorg-proto.tcz
+               util-macros.tcz
+         xcb-proto.tcz
+            xorg-proto.tcz
+               util-macros.tcz
+      libxml2-dev.tcz
+         libxml2.tcz
+            liblzma.tcz
    pango-dev.tcz
       pango.tcz
          cairo.tcz

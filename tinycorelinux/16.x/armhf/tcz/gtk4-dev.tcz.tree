@@ -131,10 +131,11 @@ gtk4-dev.tcz
                   libXau.tcz
                   libXdmcp.tcz
       libxkbcommon.tcz
-         libX11.tcz
-            libxcb.tcz
-               libXau.tcz
-               libXdmcp.tcz
+         libxcb.tcz
+            libXau.tcz
+            libXdmcp.tcz
+         libxml2.tcz
+            liblzma.tcz
          xkeyboard-config.tcz
       wayland-protocols.tcz
          wayland.tcz
@@ -610,34 +611,30 @@ gtk4-dev.tcz
             libdaemon.tcz
    libxkbcommon-dev.tcz
       libxkbcommon.tcz
-         libX11.tcz
-            libxcb.tcz
-               libXau.tcz
-               libXdmcp.tcz
+         libxcb.tcz
+            libXau.tcz
+            libXdmcp.tcz
+         libxml2.tcz
+            liblzma.tcz
          xkeyboard-config.tcz
-      libX11-dev.tcz
-         libX11.tcz
-            libxcb.tcz
-               libXau.tcz
-               libXdmcp.tcz
-         libxcb-dev.tcz
-            libxcb.tcz
-               libXau.tcz
-               libXdmcp.tcz
-            libXau-dev.tcz
-               libXau.tcz
-               xorg-proto.tcz
-                  util-macros.tcz
-            libXdmcp-dev.tcz
-               libXdmcp.tcz
-               xorg-proto.tcz
-                  util-macros.tcz
-            xcb-proto.tcz
-               xorg-proto.tcz
-                  util-macros.tcz
-         xtrans.tcz
+      libxcb-dev.tcz
+         libxcb.tcz
+            libXau.tcz
+            libXdmcp.tcz
+         libXau-dev.tcz
+            libXau.tcz
             xorg-proto.tcz
                util-macros.tcz
+         libXdmcp-dev.tcz
+            libXdmcp.tcz
+            xorg-proto.tcz
+               util-macros.tcz
+         xcb-proto.tcz
+            xorg-proto.tcz
+               util-macros.tcz
+      libxml2-dev.tcz
+         libxml2.tcz
+            liblzma.tcz
    libvulkan-dev.tcz
       libvulkan.tcz
    graphene-dev.tcz
@@ -2717,10 +2714,11 @@ gtk4-dev.tcz
                         libXau.tcz
                         libXdmcp.tcz
             libxkbcommon.tcz
-               libX11.tcz
-                  libxcb.tcz
-                     libXau.tcz
-                     libXdmcp.tcz
+               libxcb.tcz
+                  libXau.tcz
+                  libXdmcp.tcz
+               libxml2.tcz
+                  liblzma.tcz
                xkeyboard-config.tcz
             wayland-protocols.tcz
                wayland.tcz
@@ -3289,34 +3287,30 @@ gtk4-dev.tcz
                fribidi.tcz   
          libxkbcommon-dev.tcz
             libxkbcommon.tcz
-               libX11.tcz
-                  libxcb.tcz
-                     libXau.tcz
-                     libXdmcp.tcz
+               libxcb.tcz
+                  libXau.tcz
+                  libXdmcp.tcz
+               libxml2.tcz
+                  liblzma.tcz
                xkeyboard-config.tcz
-            libX11-dev.tcz
-               libX11.tcz
-                  libxcb.tcz
-                     libXau.tcz
-                     libXdmcp.tcz
-               libxcb-dev.tcz
-                  libxcb.tcz
-                     libXau.tcz
-                     libXdmcp.tcz
-                  libXau-dev.tcz
-                     libXau.tcz
-                     xorg-proto.tcz
-                        util-macros.tcz
-                  libXdmcp-dev.tcz
-                     libXdmcp.tcz
-                     xorg-proto.tcz
-                        util-macros.tcz
-                  xcb-proto.tcz
-                     xorg-proto.tcz
-                        util-macros.tcz
-               xtrans.tcz
+            libxcb-dev.tcz
+               libxcb.tcz
+                  libXau.tcz
+                  libXdmcp.tcz
+               libXau-dev.tcz
+                  libXau.tcz
                   xorg-proto.tcz
                      util-macros.tcz
+               libXdmcp-dev.tcz
+                  libXdmcp.tcz
+                  xorg-proto.tcz
+                     util-macros.tcz
+               xcb-proto.tcz
+                  xorg-proto.tcz
+                     util-macros.tcz
+            libxml2-dev.tcz
+               libxml2.tcz
+                  liblzma.tcz
          cups-dev.tcz
             cups.tcz
                libcups.tcz
@@ -4055,34 +4049,30 @@ gtk4-dev.tcz
                ca-certificates.tcz
       libxkbcommon-dev.tcz
          libxkbcommon.tcz
-            libX11.tcz
-               libxcb.tcz
-                  libXau.tcz
-                  libXdmcp.tcz
+            libxcb.tcz
+               libXau.tcz
+               libXdmcp.tcz
+            libxml2.tcz
+               liblzma.tcz
             xkeyboard-config.tcz
-         libX11-dev.tcz
-            libX11.tcz
-               libxcb.tcz
-                  libXau.tcz
-                  libXdmcp.tcz
-            libxcb-dev.tcz
-               libxcb.tcz
-                  libXau.tcz
-                  libXdmcp.tcz
-               libXau-dev.tcz
-                  libXau.tcz
-                  xorg-proto.tcz
-                     util-macros.tcz
-               libXdmcp-dev.tcz
-                  libXdmcp.tcz
-                  xorg-proto.tcz
-                     util-macros.tcz
-               xcb-proto.tcz
-                  xorg-proto.tcz
-                     util-macros.tcz
-            xtrans.tcz
+         libxcb-dev.tcz
+            libxcb.tcz
+               libXau.tcz
+               libXdmcp.tcz
+            libXau-dev.tcz
+               libXau.tcz
                xorg-proto.tcz
                   util-macros.tcz
+            libXdmcp-dev.tcz
+               libXdmcp.tcz
+               xorg-proto.tcz
+                  util-macros.tcz
+            xcb-proto.tcz
+               xorg-proto.tcz
+                  util-macros.tcz
+         libxml2-dev.tcz
+            libxml2.tcz
+               liblzma.tcz
       neon-dev.tcz
          neon.tcz
             expat2.tcz
