@@ -22,13 +22,6 @@ parole.tcz
             pcre2.tcz
                bzip2-lib.tcz
    libxfce4ui.tcz
-      xfconf.tcz
-         libxfce4util.tcz
-            glib2.tcz
-               gamin.tcz
-               libelf.tcz
-               pcre2.tcz
-                  bzip2-lib.tcz
       gtk3.tcz
          libepoxy.tcz
          at-spi2-core.tcz
@@ -185,15 +178,27 @@ parole.tcz
                expat2.tcz
                libxml2.tcz
                   liblzma.tcz
-      harfbuzz.tcz
+      xfconf.tcz
+         libxfce4util.tcz
+            glib2.tcz
+               gamin.tcz
+               libelf.tcz
+               pcre2.tcz
+                  bzip2-lib.tcz
+      startup-notification.tcz
+         libX11.tcz
+            libxcb.tcz
+               libXau.tcz
+               libXdmcp.tcz
+      libSM.tcz
+         libICE.tcz
+      libgtop.tcz
          glib2.tcz
             gamin.tcz
             libelf.tcz
             pcre2.tcz
                bzip2-lib.tcz
-         graphite2.tcz
-      libSM.tcz
-      libICE.tcz
+         libXau.tcz
    dbus-glib.tcz
       dbus.tcz
          expat2.tcz

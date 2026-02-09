@@ -1,12 +1,5 @@
 libxfce4ui-dev.tcz
    libxfce4ui.tcz
-      xfconf.tcz
-         libxfce4util.tcz
-            glib2.tcz
-               gamin.tcz
-               libelf.tcz
-               pcre2.tcz
-                  bzip2-lib.tcz
       gtk3.tcz
          libepoxy.tcz
          at-spi2-core.tcz
@@ -163,17 +156,27 @@ libxfce4ui-dev.tcz
                expat2.tcz
                libxml2.tcz
                   liblzma.tcz
-      harfbuzz.tcz
+      xfconf.tcz
+         libxfce4util.tcz
+            glib2.tcz
+               gamin.tcz
+               libelf.tcz
+               pcre2.tcz
+                  bzip2-lib.tcz
+      startup-notification.tcz
+         libX11.tcz
+            libxcb.tcz
+               libXau.tcz
+               libXdmcp.tcz
+      libSM.tcz
+         libICE.tcz
+      libgtop.tcz
          glib2.tcz
             gamin.tcz
             libelf.tcz
             pcre2.tcz
                bzip2-lib.tcz
-         graphite2.tcz
-      libSM.tcz
-      libICE.tcz
-   xfconf-dev.tcz 
-   libX11-dev.tcz 
+         libXau.tcz
    gtk3-dev.tcz
       gtk3.tcz
          libepoxy.tcz
@@ -1450,5 +1453,118 @@ libxfce4ui-dev.tcz
                      libunistring.tcz
             libnghttp2-dev.tcz
                libnghttp2.tcz
-   libICE-dev.tcz 
+   xfconf-dev.tcz
+      xfconf.tcz
+         libxfce4util.tcz
+            glib2.tcz
+               gamin.tcz
+               libelf.tcz
+               pcre2.tcz
+                  bzip2-lib.tcz
+      libxfce4util-dev.tcz
+         libxfce4util.tcz
+            glib2.tcz
+               gamin.tcz
+               libelf.tcz
+               pcre2.tcz
+                  bzip2-lib.tcz
+         glib2-dev.tcz
+            glib2-python.tcz
+               glib2.tcz
+                  gamin.tcz
+                  libelf.tcz
+                  pcre2.tcz
+                     bzip2-lib.tcz
+               pcre2.tcz
+                  bzip2-lib.tcz
+               python3.11.tcz
+                  bzip2-lib.tcz
+                  readline.tcz
+                     ncurses.tcz
+                  gdbm.tcz
+                  liblzma.tcz
+                  openssl.tcz
+                     ca-certificates.tcz
+                  sqlite3.tcz
+                  ncurses.tcz
+            gamin-dev.tcz
+               gamin.tcz
+            libelf-dev.tcz
+               libelf.tcz
+            pcre2-dev.tcz
+               pcre2.tcz
+                  bzip2-lib.tcz
+               bzip2-dev.tcz
+                  bzip2.tcz
+                     bzip2-lib.tcz
+               zlib_base-dev.tcz
+   startup-notification-dev.tcz
+      startup-notification.tcz
+         libX11.tcz
+            libxcb.tcz
+               libXau.tcz
+               libXdmcp.tcz
+      libX11-dev.tcz
+         libX11.tcz
+            libxcb.tcz
+               libXau.tcz
+               libXdmcp.tcz
+         libxcb-dev.tcz
+            libxcb.tcz
+               libXau.tcz
+               libXdmcp.tcz
+            libXau-dev.tcz
+               libXau.tcz
+            libXdmcp-dev.tcz
+               libXdmcp.tcz
+            xcb-proto.tcz
+               xorg-proto.tcz
+                  util-macros.tcz
+                     m4.tcz
+         xtrans.tcz
+   libSM-dev.tcz
+      libSM.tcz
+         libICE.tcz
+      libICE-dev.tcz
+         libICE.tcz
+   libgtop-dev.tcz
+      libgtop.tcz
+         glib2.tcz
+            gamin.tcz
+            libelf.tcz
+            pcre2.tcz
+               bzip2-lib.tcz
+         libXau.tcz
+      glib2-dev.tcz
+         glib2-python.tcz
+            glib2.tcz
+               gamin.tcz
+               libelf.tcz
+               pcre2.tcz
+                  bzip2-lib.tcz
+            pcre2.tcz
+               bzip2-lib.tcz
+            python3.11.tcz
+               bzip2-lib.tcz
+               readline.tcz
+                  ncurses.tcz
+               gdbm.tcz
+               liblzma.tcz
+               openssl.tcz
+                  ca-certificates.tcz
+               sqlite3.tcz
+               ncurses.tcz
+         gamin-dev.tcz
+            gamin.tcz
+         libelf-dev.tcz
+            libelf.tcz
+         pcre2-dev.tcz
+            pcre2.tcz
+               bzip2-lib.tcz
+            bzip2-dev.tcz
+               bzip2.tcz
+                  bzip2-lib.tcz
+            zlib_base-dev.tcz
+      libXau-dev.tcz
+         libXau.tcz
 

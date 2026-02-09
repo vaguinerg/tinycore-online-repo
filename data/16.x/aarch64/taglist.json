@@ -614,6 +614,12 @@
   "exiv2.tcz": [
     "LIBRARY CLI VIDEO IMAGE"
   ],
+  "exo-dev.tcz": [
+    "xfce4 gtk+ gtk3 dev"
+  ],
+  "exo.tcz": [
+    "xfce4 gtk+ gtk3"
+  ],
   "expat2-dev.tcz": [
     "LIBRARY"
   ],
@@ -832,6 +838,15 @@
   ],
   "gamin.tcz": [
     "LIBRARY SYSTEM"
+  ],
+  "garcon-dev.tcz": [
+    "freedesktop xfce4 gtk+ gtk3 dev"
+  ],
+  "garcon-gir.tcz": [
+    "freedesktop xfce4 gtk+ gtk3 gir"
+  ],
+  "garcon.tcz": [
+    "freedesktop xfce4 gtk+ gtk3"
   ],
   "gawk-dev.tcz": [
     "CLI"
@@ -1610,6 +1625,9 @@
   "ibus.tcz": [
     "input bus"
   ],
+  "iceauth.tcz": [
+    "x11 ice"
+  ],
   "icu-bin.tcz": [
     "icu c c++ unicode globalization"
   ],
@@ -1960,6 +1978,12 @@
   ],
   "libXpm.tcz": [
     "Xpm"
+  ],
+  "libXpresent-dev.tcz": [
+    "X11 Xpresent dev"
+  ],
+  "libXpresent.tcz": [
+    "X11 Xpresent"
   ],
   "libXrandr-dev.tcz": [
     "Xrandr dev"
@@ -2963,6 +2987,15 @@
   "libwebp.tcz": [
     "LIBRARY CLI IMAGE WEBP"
   ],
+  "libwnck-dev.tcz": [
+    "xfce4 gtk+ gtk3 dev"
+  ],
+  "libwnck-gir.tcz": [
+    "xfce4 gtk+ gtk3 gir"
+  ],
+  "libwnck.tcz": [
+    "xfce4 gtk+ gtk3"
+  ],
   "libxcb-dev.tcz": [
     "LIBRARY X XORG dev"
   ],
@@ -2979,16 +3012,31 @@
     "x xserver vesa cvt"
   ],
   "libxfce4ui-dev.tcz": [
-    "xfce"
+    "xfce4 gtk+ gtk3 widget dev"
+  ],
+  "libxfce4ui-gir.tcz": [
+    "xfce4 gtk+ gtk3 widget gir"
   ],
   "libxfce4ui.tcz": [
-    "xfce"
+    "xfce4 gtk+ gtk3 widget"
   ],
   "libxfce4util-dev.tcz": [
     "xfce"
   ],
+  "libxfce4util-gir.tcz": [
+    "xfce4 gtk+ gtk3 gir"
+  ],
   "libxfce4util.tcz": [
-    "xfce"
+    "xfce4 gtk+ gtk3"
+  ],
+  "libxfce4windowing-dev.tcz": [
+    "xfce4 gtk+ gtk3 x11 wayland dev"
+  ],
+  "libxfce4windowing-gir.tcz": [
+    "xfce4 gtk+ gtk3 x11 wayland dev"
+  ],
+  "libxfce4windowing.tcz": [
+    "xfce4 gtk+ gtk3 x11 wayland"
   ],
   "libxkbcommon-dev.tcz": [
     "x xorg input keyboard dev"
@@ -3001,6 +3049,15 @@
   ],
   "libxkbfile.tcz": [
     "xkbfile"
+  ],
+  "libxklavier-dev.tcz": [
+    "keyboard xkb dev"
+  ],
+  "libxklavier-gir.tcz": [
+    "keyboard xkb gir"
+  ],
+  "libxklavier.tcz": [
+    "keyboard xkb"
   ],
   "libxml2-bin.tcz": [
     "LIBRARY CLI"
@@ -3121,6 +3178,9 @@
   ],
   "lv2-dev.tcz": [
     "audio plugin standard"
+  ],
+  "lxde-icon-theme.tcz": [
+    "icon theme"
   ],
   "lxterminal.tcz": [
     "terminal utf8"
@@ -4238,6 +4298,18 @@
   "texinfo.tcz": [
     "CLI TEXT CONVERTER"
   ],
+  "thunar-dev.tcz": [
+    "xfce4 gtk+ gtk3 file manager fm dev"
+  ],
+  "thunar-gir.tcz": [
+    "xfce4 gtk+ gtk3 file manager fm gir"
+  ],
+  "thunar-volman.tcz": [
+    "xfce4 gtk+ gtk3 file manager fm"
+  ],
+  "thunar.tcz": [
+    "xfce4 gtk+ gtk3 file manager fm"
+  ],
   "tiff-bin.tcz": [
     "IMAGE TIFF"
   ],
@@ -4670,6 +4742,9 @@
   "xdpyinfo.tcz": [
     "CLI X XORG"
   ],
+  "xf86-input-libinput-dev.tcz": [
+    "x xorg input dev"
+  ],
   "xf86-input-libinput.tcz": [
     "x xorg input"
   ],
@@ -4679,17 +4754,47 @@
   "xf86-video-fbdev.tcz": [
     "LIBRARY DRIVE X XORG"
   ],
+  "xfce4-appfinder.tcz": [
+    "xfce4 gtk+ gtk3 app find"
+  ],
+  "xfce4-dev-tools.tcz": [
+    "xfce4 gtk+ gtk3 dev"
+  ],
+  "xfce4-panel-dev.tcz": [
+    "xfce4 gtk+ gtk3 panel dev"
+  ],
+  "xfce4-panel-gir.tcz": [
+    "xfce4 gtk+ gtk3 panel gir"
+  ],
+  "xfce4-panel.tcz": [
+    "xfce4 gtk+ gtk3 panel"
+  ],
+  "xfce4-session.tcz": [
+    "xfce4 gtk+ gtk3 session"
+  ],
+  "xfce4-settings.tcz": [
+    "xfce4 gtk+ gtk3"
+  ],
   "xfconf-dev.tcz": [
-    "xfce"
+    "xfce4 gtk+ gtk3 dev"
+  ],
+  "xfconf-gir.tcz": [
+    "xfce4 gtk+ gtk3 gir"
   ],
   "xfconf.tcz": [
-    "xfce"
+    "xfce4 gtk+ gtk3"
+  ],
+  "xfdesktop.tcz": [
+    "xfce4 gtk+ gtk3 desktop"
   ],
   "xfsprogs-dev.tcz": [
     "xfsprogs"
   ],
   "xfsprogs.tcz": [
     "xfsprogs"
+  ],
+  "xfwm4.tcz": [
+    "xfce4 gtk+ gtk3 desktop"
   ],
   "xhost.tcz": [
     "x11 connection manager"
@@ -4726,6 +4831,9 @@
   ],
   "xrandr.tcz": [
     "CLI X XORG"
+  ],
+  "xrdb.tcz": [
+    "x11 server database"
   ],
   "xscreensaver.tcz": [
     "screensavers screen lock"
