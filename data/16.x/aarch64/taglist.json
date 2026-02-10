@@ -1484,6 +1484,15 @@
   "gudev-lib.tcz": [
     "LIBRARY"
   ],
+  "gudev238-gir.tcz": [
+    "gobject udev wrapper gir"
+  ],
+  "gudev238-lib-dev.tcz": [
+    "gobject udev wrapper dev"
+  ],
+  "gudev238-lib.tcz": [
+    "gobject udev wrapper"
+  ],
   "gupnp-av-dev.tcz": [
     "av upnp dev"
   ],
@@ -3959,6 +3968,9 @@
   "rhythmbox.tcz": [
     "audio music player gtk+ gtk3"
   ],
+  "ristretto.tcz": [
+    "xfce4 gtk+ gtk3 image viewer"
+  ],
   "rng-tools.tcz": [
     "CLI DAEMON RANDOM"
   ],
@@ -4430,6 +4442,15 @@
   "unzip.tcz": [
     "CLI COMPRESSION ZIP"
   ],
+  "upower-dev.tcz": [
+    "interface power device dev"
+  ],
+  "upower-gir.tcz": [
+    "interface power device gir"
+  ],
+  "upower.tcz": [
+    "interface power device"
+  ],
   "urcu-dev.tcz": [
     "Userspace RCU urcu"
   ],
@@ -4769,11 +4790,17 @@
   "xfce4-panel.tcz": [
     "xfce4 gtk+ gtk3 panel"
   ],
+  "xfce4-power-manager.tcz": [
+    "xfce4 gtk+ gtk3 power manager"
+  ],
   "xfce4-session.tcz": [
     "xfce4 gtk+ gtk3 session"
   ],
   "xfce4-settings.tcz": [
     "xfce4 gtk+ gtk3"
+  ],
+  "xfce4-terminal.tcz": [
+    "xfce4 gtk+ gtk3 terminal"
   ],
   "xfconf-dev.tcz": [
     "xfce4 gtk+ gtk3 dev"
