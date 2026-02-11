@@ -86400,6 +86400,19 @@
     "/usr/local/bin/jwm_initmenu",
     "/usr/local/bin/jwm"
   ],
+  "keybinder-dev.tcz": [
+    "/usr/local/include/keybinder-3.0/keybinder.h",
+    "/usr/local/lib/pkgconfig/keybinder-3.0.pc"
+  ],
+  "keybinder-gir.tcz": [
+    "/usr/local/lib/girepository-1.0/Keybinder-3.0.typelib",
+    "/usr/local/share/gir-1.0/Keybinder-3.0.gir"
+  ],
+  "keybinder.tcz": [
+    "/usr/local/lib/libkeybinder-3.0.so",
+    "/usr/local/lib/libkeybinder-3.0.so.0",
+    "/usr/local/lib/libkeybinder-3.0.so.0.0.0"
+  ],
   "keyutils-dev.tcz": [
     "usr/local/include/keyutils.h",
     "usr/local/lib/libkeyutils.a"
@@ -129281,23 +129294,29 @@
     "/usr/local/lib/libpangomm-2.48.so.1.0.30"
   ],
   "parole.tcz": [
-    "/usr/local/share/pixmaps/parole.png",
-    "/usr/local/share/parole/pixmaps/replay.png",
-    "/usr/local/share/parole/pixmaps/play.png",
-    "/usr/local/share/parole/pixmaps/no-cover.png",
-    "/usr/local/share/parole/parole-plugins-0/system-tray.desktop",
-    "/usr/local/share/metainfo/parole.appdata.xml",
-    "/usr/local/share/icons/hicolor/scalable/apps/org.xfce.parole.svg",
-    "/usr/local/share/icons/hicolor/48x48/apps/parole-extension.png",
-    "/usr/local/share/icons/hicolor/48x48/apps/org.xfce.parole.png",
-    "/usr/local/share/icons/hicolor/24x24/apps/org.xfce.parole.png",
-    "/usr/local/share/icons/hicolor/16x16/apps/parole-extension.png",
-    "/usr/local/share/icons/hicolor/16x16/apps/parole-extension-symbolic.svg",
-    "/usr/local/share/icons/hicolor/16x16/apps/org.xfce.parole.png",
-    "/usr/local/share/icons/hicolor/128x128/apps/org.xfce.parole.png",
-    "/usr/local/share/applications/org.xfce.Parole.desktop",
+    "/usr/local/bin/parole",
+    "/usr/local/lib/parole-0/parole-mpris2.so",
+    "/usr/local/lib/parole-0/parole-notify.so",
     "/usr/local/lib/parole-0/tray-icon.so",
-    "/usr/local/bin/parole"
+    "/usr/local/share/applications/org.xfce.Parole.desktop",
+    "/usr/local/share/icons/hicolor/128x128/apps/org.xfce.parole.png",
+    "/usr/local/share/icons/hicolor/16x16/apps/org.xfce.parole.png",
+    "/usr/local/share/icons/hicolor/16x16/apps/parole-extension-symbolic.svg",
+    "/usr/local/share/icons/hicolor/16x16/apps/parole-extension.png",
+    "/usr/local/share/icons/hicolor/24x24/apps/org.xfce.parole.png",
+    "/usr/local/share/icons/hicolor/32x32/apps/org.xfce.parole.png",
+    "/usr/local/share/icons/hicolor/48x48/apps/org.xfce.parole.png",
+    "/usr/local/share/icons/hicolor/48x48/apps/parole-extension.png",
+    "/usr/local/share/icons/hicolor/64x64/apps/org.xfce.parole.png",
+    "/usr/local/share/icons/hicolor/96x96/apps/org.xfce.parole.png",
+    "/usr/local/share/icons/hicolor/scalable/apps/org.xfce.parole.svg",
+    "/usr/local/share/metainfo/parole.appdata.xml",
+    "/usr/local/share/parole/parole-plugins-0/mpris2.desktop",
+    "/usr/local/share/parole/parole-plugins-0/notify.desktop",
+    "/usr/local/share/parole/parole-plugins-0/system-tray.desktop",
+    "/usr/local/share/parole/pixmaps/no-cover.png",
+    "/usr/local/share/parole/pixmaps/play.png",
+    "/usr/local/share/parole/pixmaps/replay.png"
   ],
   "parted-dev.tcz": [
     "/usr/local/include/parted/constraint.h",
@@ -158603,6 +158622,21 @@
     "/usr/local/share/icons/hicolor/scalable/status/video-display.svg",
     "/usr/local/share/metainfo/xfce4-power-manager.appdata.xml",
     "/usr/local/share/xfce4/panel/plugins/power-manager-plugin.desktop"
+  ],
+  "xfce4-pulseaudio-plugin.tcz": [
+    "/usr/local/lib/xfce4/panel/plugins/libpulseaudio-plugin.so",
+    "/usr/local/share/icons/hicolor/32x32/apps/xfce4-pulseaudio-plugin.png",
+    "/usr/local/share/icons/hicolor/48x48/apps/xfce4-pulseaudio-plugin.png",
+    "/usr/local/share/icons/hicolor/scalable/apps/xfce4-pulseaudio-plugin.svg",
+    "/usr/local/share/icons/hicolor/scalable/status/audio-volume-high-symbolic.svg",
+    "/usr/local/share/icons/hicolor/scalable/status/audio-volume-low-symbolic.svg",
+    "/usr/local/share/icons/hicolor/scalable/status/audio-volume-medium-symbolic.svg",
+    "/usr/local/share/icons/hicolor/scalable/status/audio-volume-muted-symbolic.svg",
+    "/usr/local/share/icons/hicolor/scalable/status/microphone-sensitivity-high-symbolic.svg",
+    "/usr/local/share/icons/hicolor/scalable/status/microphone-sensitivity-low-symbolic.svg",
+    "/usr/local/share/icons/hicolor/scalable/status/microphone-sensitivity-medium-symbolic.svg",
+    "/usr/local/share/icons/hicolor/scalable/status/microphone-sensitivity-muted-symbolic.svg",
+    "/usr/local/share/xfce4/panel/plugins/pulseaudio.desktop"
   ],
   "xfce4-session.tcz": [
     "/usr/local/bin/startxfce4",

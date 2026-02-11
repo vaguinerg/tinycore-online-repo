@@ -1,19 +1,21 @@
-Title:          parole.tcz  
-Description:    gtk3 gstreamer media player 
-Version:        4.18.0
+Title:          parole.tcz
+Description:    xfce4 gstreamer media player
+Version:        4.20.0
 Author:         Ali Abdallah, Simon Steinbeiss & Sean Davis
 Original-site:  https://docs.xfce.org/apps/parole/start
 Copying-policy: GPL v2
-Size:           300K		
+Size:           236KB
 Extension_by:   aus9
-Tags:           gtk3 video audio player  
-Comments:       Online docs with extra links here
+Tags:           gtk3 video audio player
+Comments:       may need gst-plugins-{bad, ugly} and/or gst-libav
+
+                Online docs with extra links here
                 https://docs.xfce.org/apps/parole/start
                 home config is 
                 ~/.config/xfce4/xfconf/xfce-perchannel-xml/parole.xml
 
                 Video sub-titles not tested. You may need more fonts.
-                If you load a screensaver, kill it.
+                If you load a screensaver, kill it
 
                 Audio: config already enabled and loads headphones (bcm2835)
                 Which also allows my desktop speakers to sing to me.
@@ -25,6 +27,7 @@ Comments:       Online docs with extra links here
                 With parole open, tools -> plugins -> enable tray plugin and it works in jwm
 
                 YMMV
-
-Change-log:     2020/10/22 v 1.0.5 on 12.x 
-Current:        2023/06/20 v 4.18.0 on 14.x 
+                ----
+Change-log:     2020/10/22 first version
+                2023/06/20 updated 1.0.5 -> 4.18.0
+Current:        2026/02/10 updated 4.18.0 -> 4.20.0 (juanito)

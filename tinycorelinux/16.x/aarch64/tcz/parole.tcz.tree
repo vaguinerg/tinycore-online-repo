@@ -1,26 +1,16 @@
 parole.tcz
-   gst-plugins-base.tcz
-      gstreamer.tcz
-         glib2.tcz
-            gamin.tcz
-            libelf.tcz
-            pcre2.tcz
-               bzip2-lib.tcz
-         gmp.tcz
-      libasound.tcz
-         alsa-modules-6.12.25-piCore-v8.tcz
-      opus.tcz
-      libtheora.tcz
-         libogg.tcz
-      libvorbis.tcz
-         libogg.tcz
-      gudev-lib.tcz
-         udev-lib.tcz
-         glib2.tcz
-            gamin.tcz
-            libelf.tcz
-            pcre2.tcz
-               bzip2-lib.tcz
+   dbus-glib.tcz
+      dbus.tcz
+         expat2.tcz
+         libX11.tcz
+            libxcb.tcz
+               libXau.tcz
+               libXdmcp.tcz
+      glib2.tcz
+         gamin.tcz
+         libelf.tcz
+         pcre2.tcz
+            bzip2-lib.tcz
    libxfce4ui.tcz
       gtk3.tcz
          libepoxy.tcz
@@ -199,31 +189,7 @@ parole.tcz
             pcre2.tcz
                bzip2-lib.tcz
          libXau.tcz
-   dbus-glib.tcz
-      dbus.tcz
-         expat2.tcz
-         libX11.tcz
-            libxcb.tcz
-               libXau.tcz
-               libXdmcp.tcz
-      glib2.tcz
-         gamin.tcz
-         libelf.tcz
-         pcre2.tcz
-            bzip2-lib.tcz
-   gstreamer.tcz
-      glib2.tcz
-         gamin.tcz
-         libelf.tcz
-         pcre2.tcz
-            bzip2-lib.tcz
-      gmp.tcz
-   taglib.tcz
-   alsa.tcz
-      libasound.tcz
-         alsa-modules-6.12.25-piCore-v8.tcz
-   gst-plugins-good.tcz 
-   gst-plugins-bad.tcz
+   gst-plugins-good.tcz
       gst-plugins-base.tcz
          gstreamer.tcz
             glib2.tcz
@@ -246,54 +212,38 @@ parole.tcz
                libelf.tcz
                pcre2.tcz
                   bzip2-lib.tcz
-      libEGL.tcz
-         mesa.tcz
-            libdrm.tcz
-               libpciaccess.tcz
-               udev-lib.tcz
-            expat2.tcz
+      libvpx114.tcz
+      libv4l2.tcz
+         v4l-dvb-6.12.25-piCore-v8.tcz
+            alsa-modules-6.12.25-piCore-v8.tcz
+            graphics-6.12.25-piCore-v8.tcz
+               alsa-modules-6.12.25-piCore-v8.tcz
+         libjpeg-turbo.tcz
+         udev-lib.tcz
+   taglib.tcz
+   libnotify.tcz
+      gdk-pixbuf.tcz
+         glib2.tcz
+            gamin.tcz
+            libelf.tcz
+            pcre2.tcz
+               bzip2-lib.tcz
+         libX11.tcz
+            libxcb.tcz
+               libXau.tcz
+               libXdmcp.tcz
+         libpng.tcz
+         libtiff.tcz
+            libjpeg-turbo.tcz
+            libwebp.tcz
+            liblzma.tcz
             libzstd.tcz
-            libXfixes.tcz
-               libX11.tcz
-                  libxcb.tcz
-                     libXau.tcz
-                     libXdmcp.tcz
-            libXxf86vm.tcz
-               libXext.tcz
-                  libX11.tcz
-                     libxcb.tcz
-                        libXau.tcz
-                        libXdmcp.tcz
-            libxshmfence.tcz
-         wayland.tcz
-            expat2.tcz
+         shared-mime-info.tcz
+            glib2.tcz
+               gamin.tcz
+               libelf.tcz
+               pcre2.tcz
+                  bzip2-lib.tcz
             libxml2.tcz
                liblzma.tcz
-      libGLES.tcz
-         mesa.tcz
-            libdrm.tcz
-               libpciaccess.tcz
-               udev-lib.tcz
-            expat2.tcz
-            libzstd.tcz
-            libXfixes.tcz
-               libX11.tcz
-                  libxcb.tcz
-                     libXau.tcz
-                     libXdmcp.tcz
-            libXxf86vm.tcz
-               libXext.tcz
-                  libX11.tcz
-                     libxcb.tcz
-                        libXau.tcz
-                        libXdmcp.tcz
-            libxshmfence.tcz
-         libdrm.tcz
-            libpciaccess.tcz
-            udev-lib.tcz
-      libwebp.tcz
-      x265.tcz
-   gst-plugins-ugly.tcz 
-   gst-libav.tcz 
-   liblcms2.tcz  
 
