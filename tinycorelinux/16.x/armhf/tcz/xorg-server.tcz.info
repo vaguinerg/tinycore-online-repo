@@ -1,10 +1,10 @@
 Title:          xorg-server.tcz
 Description:    xorg server
-Version:        21.1.13
+Version:        21.1.21
 Author:         Various, see source tarballs for list
 Original-site:  http://x.org
 Copying-policy: See source tarballs
-Size:           2.6MB
+Size:           2.8MB
 Extension_by:   bmarkus
 Tags:           SERVER X XORG
 Comments:       Binaries only
@@ -16,4 +16,5 @@ Change-log:     2016/09/21 first version
                 2024/07/26 updated 21.1.8 -> 21.1.13 (juanito)
                 2024/08/21 patched for RPi3 3d (juanito)
                 2024/10/17 added RPi ID to startup script (juanito)
-Current:        2024/11/14 removed noglamor snippet (juanito)
+                2024/11/14 removed noglamor snippet (juanito)
+Current:        2026/02/11 updated 21.1.13 -> 21.1.21, corrected fontdir (juanito)
