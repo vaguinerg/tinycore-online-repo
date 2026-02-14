@@ -65016,7 +65016,9 @@
     "usr/local/lib/libhavege.so.1.1.0"
   ],
   "havoc.tcz": [
-    "/usr/local/bin/havoc"
+    "/usr/local/bin/havoc",
+    "/usr/local/share/havoc/files/havoc.cfg",
+    "/usr/local/tce.installed/havoc"
   ],
   "hdparm.tcz": [
     "usr/local/share/hdparm/LICENSE.TXT",
@@ -68981,6 +68983,20 @@
     "usr/local/share/licences/krb5/NOTICE",
     "usr/local/share/et/et_h.awk",
     "usr/local/share/et/et_c.awk"
+  ],
+  "labwc-config.tcz": [
+    "/usr/local/bin/labwc_append",
+    "/usr/local/bin/labwc_initmenu",
+    "/usr/local/bin/labwc_makemenu",
+    "/usr/local/bin/labwc_ondemand",
+    "/usr/local/bin/labwc_restart",
+    "/usr/local/bin/labwc_writeMenuItem",
+    "/usr/local/share/labwc/autostart",
+    "/usr/local/share/labwc/environment",
+    "/usr/local/share/labwc/exclude",
+    "/usr/local/share/labwc/menu.xml",
+    "/usr/local/share/labwc/rc.xml",
+    "/usr/local/tce.installed/labwc-config"
   ],
   "labwc.tcz": [
     "/usr/local/bin/labwc",
@@ -149673,6 +149689,7 @@
   "xwayland.tcz": [
     "/usr/local/bin/Xwayland",
     "/usr/local/lib/pkgconfig/xwayland.pc",
+    "/usr/local/lib/xorg/protocol.txt",
     "/usr/local/share/applications/org.freedesktop.Xwayland.desktop"
   ],
   "xz.tcz": [
