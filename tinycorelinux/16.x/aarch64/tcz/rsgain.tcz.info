@@ -1,0 +1,24 @@
+Title:          rsgain.tcz
+Description:    rsgain utility
+Version:        v3.6
+Author:         "complexlogic, 2022"
+Original-site:  https://github.com/complexlogic/rsgain
+Copying-policy: BSD-2-Clause
+Size:           132K
+Extension-by:   Peter Walsh - pgwalsh@protonmail.com
+Tags:           audio gain 'loudness normalizer' metatag
+Maintainer:     "complexlogic"
+Comments:       To use: rsgain easy -S /path/to/music/library
+                The -S (--skip-existing) option prevents you from rescanning your
+                entire music library and adds only files with missing gain tags.
+                To get more information run rsgain -h easy or rsgain -h custom 
+                for more advanced options. 
+                Presets are in: /usr/local/share/rsgain/presets
+                Copy default.ini to create your own custom preset if you want to 
+                go beyond easy mode and keep things consistent.
+                To get a full understanging it's recommended to read the Usage
+                section here: https://github.com/complexlogic/rsgain
+                ----
+Change-log:     first version
+Current:        2026/02/24
+

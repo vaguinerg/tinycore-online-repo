@@ -2294,6 +2294,12 @@
   "libdrm.tcz": [
     "LIBRARY X XORG DRM"
   ],
+  "libebur128-dev.tcz": [
+    "audio gain 'EBU R 128' loudness dev"
+  ],
+  "libebur128.tcz": [
+    "audio gain 'EBU R 128' loudness"
+  ],
   "libelf-dev.tcz": [
     "LIBRARY SYSTEM"
   ],
@@ -4006,6 +4012,9 @@
   ],
   "rpicam-apps.tcz": [
     "camera"
+  ],
+  "rsgain.tcz": [
+    "audio gain 'loudness normalizer' metatag"
   ],
   "rsync.tcz": [
     "CLI FILETRANSFER"
