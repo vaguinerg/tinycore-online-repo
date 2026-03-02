@@ -29,17 +29,17 @@ sane-dev.tcz
             ca-certificates.tcz
    libv4l2-dev.tcz
       libv4l2.tcz
-         v4l-dvb-6.12.15-piCore-v7.tcz
-            alsa-modules-6.12.15-piCore-v7.tcz
-            graphics-6.12.15-piCore-v7.tcz
-               alsa-modules-6.12.15-piCore-v7.tcz
+         v4l-dvb-6.12.25-piCore-v7.tcz
+            alsa-modules-6.12.25-piCore-v7.tcz
+            graphics-6.12.25-piCore-v7.tcz
+               alsa-modules-6.12.25-piCore-v7.tcz
          libjpeg-turbo.tcz
          udev-lib.tcz
       libjpeg-turbo-dev.tcz
          libjpeg-turbo.tcz
       libasound-dev.tcz
          libasound.tcz
-            alsa-modules-6.12.15-piCore-v7.tcz
+            alsa-modules-6.12.25-piCore-v7.tcz
       mesa-dev.tcz
          mesa.tcz
             libdrm.tcz
@@ -318,11 +318,11 @@ sane-dev.tcz
                liblzma.tcz
             liblz4-dev.tcz
                liblz4.tcz
-      SDL2_image-dev.tcz
-         SDL2_image.tcz
-            SDL2.tcz
-         SDL2-dev.tcz
-            SDL2.tcz
+      sdl2_image-dev.tcz
+         sdl2_image.tcz
+            sdl2.tcz
+         sdl2-dev.tcz
+            sdl2.tcz
          libtiff-dev.tcz
             libtiff.tcz
                libjpeg-turbo.tcz
@@ -332,7 +332,8 @@ sane-dev.tcz
             libjpeg-turbo-dev.tcz
                libjpeg-turbo.tcz
          libpng-dev.tcz
-            libpng.tcz
+            libpng-bin.tcz
+               libpng.tcz
    libgphoto2-dev.tcz
       libgphoto2.tcz
       libtool-dev.tcz 
