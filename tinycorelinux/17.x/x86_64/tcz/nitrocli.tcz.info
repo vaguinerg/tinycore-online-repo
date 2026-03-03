@@ -1,0 +1,17 @@
+Title:          nitrocli.tcz
+Description:    A command line tool for interacting with Nitrokey devices
+Version:        0.4.1 (commit dd58925)
+Author:         The Nitrocli Developers
+Original-site:  https://github.com/d-e-s-o/nitrocli
+Copying-policy: GPLv3
+Size:		1.59744 MB
+Extension_by:   Synchen
+Tags:		commandline encryption terminal
+Comments:       a command line tool for interacting with Nitrokey devices
+                ----------
+                requires pinentry-[curses|fltk|gtk2|gtk3] and readline
+                gpg-agent needs to be running for full functionality
+                gpg-agent --homedir /home/tc/.gnupg --use-standard-socket --daemon
+                ----------
+Change-log:     2026/02/26 Original
+Current:        2026/02/26 Original
