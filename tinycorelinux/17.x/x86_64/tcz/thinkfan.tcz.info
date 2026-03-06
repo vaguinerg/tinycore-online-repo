@@ -1,0 +1,21 @@
+Title:          thinkfan.tcz
+Description:    simple, lightweight fan control program for thinkpads
+Version:        2.0.0
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size:		176K
+Extension_by:   gnuser
+Tags:           thinkpad fan
+Comments:       ----------
+                How-to:
+                1. Boot with this bootcode: thinkpad_acpi.fan_control=1
+                2. Copy the example config file /usr/local/etc/thinkfan.conf.example to /usr/local/etc/thinkfan.conf
+                3. Edit /usr/local/etc/thinkfan.conf as appropriate for your hardware and add it to your backup
+                4. Start the daemon: $ sudo thinkfan &
+                ----------
+                This extension contains:
+                thinkfan-2.0.0 - GPLv3 - https://github.com/vmatare/thinkfan/archive/refs/tags/2.0.0.tar.gz
+                ----------
+Change-log:     ----------
+Current:        2026/03/03 first version

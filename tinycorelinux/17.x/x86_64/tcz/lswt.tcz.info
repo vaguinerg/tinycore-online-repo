@@ -1,0 +1,20 @@
+Title:          lswt.tcz
+Description:    list wayland toplevels
+Version:        2.0.0
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size:		12K
+Extension_by:   gnuser
+Tags:           wayland wlrctl xdotool wmctrl windows
+Comments:       ----------
+                - similar to "wlrctl toplevel list", but can also show unique window identifiers
+                - for example, to show app-id, title, and unique identifier of all windows:
+                  $ lswt -c ati
+                - works with wayland compositors that support foreign-toplevel-management-unstable-v1 (e.g., labwc)
+                ----------
+                This extension contains:
+                lswt-2.0.0 - GPLv3 - https://git.sr.ht/~leon_plickat/lswt/archive/v2.0.0.tar.gz
+                ----------
+Change-log:     ----------
+Current:        2026/03/03 first version
