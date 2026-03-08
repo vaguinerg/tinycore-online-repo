@@ -4,9 +4,9 @@ easyprint.tcz
       bzip2-lib.tcz
       libzstd.tcz
    img2pdf.tcz
-      python3.9-pillow.tcz
-         python3.9-olefile.tcz
-            python3.9.tcz
+      python3.14-pillow.tcz
+         python3.14-olefile.tcz
+            python3.14.tcz
                openssl.tcz
                sqlite3.tcz
                gdbm.tcz
@@ -15,6 +15,8 @@ easyprint.tcz
                readline.tcz
                   ncursesw.tcz
                libffi.tcz
+               libnsl.tcz
+                  libtirpc.tcz
          libtiff.tcz
             libjpeg-turbo.tcz
             liblzma.tcz
