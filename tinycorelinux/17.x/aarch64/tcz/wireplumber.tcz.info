@@ -1,0 +1,32 @@
+Title:          wireplumber.tcz
+Description:    pipewire manager
+Version:        0.5.6
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size:		420KB
+Extension_by:   juanito
+Tags:           audio video av multimedia
+Comments:       session and policy manager for pipewire
+                ----------
+                howto:
+                1. make sure alsa is properly configured (see https://wiki.tinycorelinux.net/doku.php?id=wiki:setting_up_sound)
+                2. make sure pulseaudio is not running
+                3. run these commands manually or via a startup script:
+                    if [ -z "$XDG_RUNTIME_DIR" ]; then
+                        read USER </etc/sysconfig/tcuser
+                        export XDG_RUNTIME_DIR=/run/user/$(id -u "$USER")
+                    fi
+                    sudo /usr/local/etc/init.d/dbus start
+                    pipewire &
+                    sleep 1
+                    wireplumber &
+                    pipewire-pulse &
+                4. you're all set! Volume can be controlled with pactl (part of pulseaudio.tcz),
+                   changing input/output devices can be done via pavucontrol (part of pavucontrol.tcz)
+                ----------
+                This extension contains:
+                wireplumber-0.5.6 - GPLv2 - https://gitlab.freedesktop.org/pipewire/wireplumber/-/archive/0.5.6/wireplumber-0.5.6.tar.bz2
+                ----------
+Change-log:     first version
+Current:        2024/10/30

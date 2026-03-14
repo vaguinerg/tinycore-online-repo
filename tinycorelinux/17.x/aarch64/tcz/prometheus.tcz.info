@@ -1,0 +1,27 @@
+Title:          prometheus.tcz
+Description:    Prometheus is a systems and service monitoring system.
+Version:        3.1.0
+Author:         https://github.com/prometheus/prometheus/blob/main/MAINTAINERS.md
+Original-site:  https://prometheus.io/
+Copying-policy: Apache-2.0 license
+Size:		58M
+Extension_by:   rhermsen
+Tags:           prometheus
+Comments:       Prometheus, a Cloud Native Computing Foundation project,
+                is a systems and service monitoring system. It collects metrics
+                from configured targets at given intervals, evaluates rule expressions,
+                displays the results, and can trigger alerts when specified conditions
+                are observed.
+                Start with:
+                sudo /usr/local/etc/init.d/prometheus {start|stop|restart|force-reload|status}
+                or
+                sudo /usr/local/bin/prometheus --config.file=/usr/local/etc/prometheus/prometheus.yml \
+                 --storage.tsdb.path=/usr/local/etc/prometheus/data/
+
+                The database can be saved to a location of choice by configuring the enviroment 
+                variable DATA_DIR in /usr/local/etc/prometheus/default/prometheus.
+                If not set the default '/usr/local/etc/prometheus/data/' will be used.
+                Be aware that unsaved database content will be lost if not backupped
+                ('filetool.sh -b') when stored in the default location.
+Change-log:     2025/05/17 First version, 3.1.0 (rhermsen)
+Current:        2025/05/17 First version, 3.1.0 (rhermsen)

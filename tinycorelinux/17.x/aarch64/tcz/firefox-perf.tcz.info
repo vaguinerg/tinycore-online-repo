@@ -1,0 +1,22 @@
+Title:          firefox-perf.tcz
+Description:    web browser
+Version:        91.7.0esr
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size:           79M
+Extension_by:   polikuo
+Tags:           web browser
+Comments:       firefox web browser Cross language LTO build
+                Compiled with llvm toolkits (clang + lld)
+                This method trades off a few MB for performance boost
+                ----------
+                start in weston with "GDK_BACKEND=wayland firefox"
+                can optionally use alsa for sound
+                ----------
+                This extension contains:
+                firefox-91.7.0esr - MPLv2 - https://archive.mozilla.org/pub/firefox/releases/91.7.0esr/source/firefox-91.7.0esr.source.tar.xz
+                ----------
+Change-log:     2020/08/22 First version (juanito)
+                2022/03/11 78.1.0esr --> 91.7.0esr (polikuo)
+Current:        2022/03/11 78.1.0esr --> 91.7.0esr (polikuo)

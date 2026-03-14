@@ -1,0 +1,24 @@
+Title:          libfmt-dev.tcz
+Description:    A modern formatting library 
+Version:        8.1.1
+Author:         see sites below
+Original-site:  https://fmt.dev/latest/index.html
+Copying-policy: MIT
+Size:           180K
+Extension_by:   polikuo
+Tags:           formatting library libfmt
+Comments:       {fmt} is an open-source formatting library
+                providing a fast and safe alternative to
+                C stdio and C++ iostreams.
+                ----------
+                By default, the library is configured as shared object.
+                There's a patch file if you really need static config.
+                /usr/local/share/doc/libfmt/shared2static.patch
+                ----------
+                This extension contains:
+                https://github.com/fmtlib/fmt/archive/refs/tags/8.1.1.tar.gz
+                ----------
+                Compiled for 13.x aarch64
+                ----------
+Change-log:     2022/03/18 First version
+Current:        2022/03/18 First version

@@ -1,0 +1,24 @@
+Title:          qemu-arm.tcz
+Description:    qemu arm files
+Version:        6.2.0
+Author:         Various
+Original-site:  http://qemu.org
+Copying-policy: GPL v2
+Size:           14.8MB
+Extension_by:   juanito
+Tags:           QEMU EMULATOR INTEL arm rpi
+Comments:       arm specific binaries
+                ----
+                example howto:
+                $ qemu-img create -f qcow2 piCore.img 1G
+                $ QEMU_AUDIO_DRV=none qemu-system-arm -M raspi2b -m 1G -kernel \
+                  kernel4922v7.img -initrd 9.0.3v7.gz -append "elevator=deadline \
+                  rootwait quiet nortc nozswap dwc_otg.lpm_enable=0 \
+                  root=/dev/ram0" -dtb bcm2709-rpi-2-b.dtb -serial stdio \
+                  -sd piCore.img
+                ----
+                This extension contains:
+                qemu-6.2.0 - GPLv2 - https://download.qemu-project.org/qemu-6.2.0.tar.xz
+                ----------
+Change-log:     first version
+Current:        2022/08/22

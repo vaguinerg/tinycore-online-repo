@@ -1,0 +1,57 @@
+Title:          xscreensaver.tcz
+Description:    screensavers and lock
+Version:        5.44
+Author:         Jamie Zawinski 
+Original-site:  http://www.jwz.org/xscreensaver
+Copying-policy: accompanied
+Size:           4.1M
+Extension-by:   aus9
+Tags:           screensavers screen lock 
+Comments:       Screensavers, some support setuid. Can optionally 
+                lock your screen if pw set. System config at 
+                /usr/lib/X11/app-defaults/XScreenSaver
+                is over ridden by home config.
+                    
+                Mode 1 without a password= screen savers 
+                Mode 2 if password set allows screen, once locked,
+                to open only with correct password. Please make changes 
+                at mode 1 first, so you have a home config.
+                
+                It is normal for the screen to fade to darkness. Before 
+                darkness you can click an input device to stop the process.
+                    
+                1) Mode 1 has no login password so no lock so you 
+                untick the lock box please. Run 
+                $ xscreensaver-demo
+                Greyed out screensavers are either opengl ones which have 
+                not been compiled or glitchy screensavers I removed.
+                Popup will ask to start daemon -> select Yes. 
+                Choose your preferences, file is saved to
+                ~/.xscreensaver Click on preview to see effects. 
+                Click any kb key or mouse to stop demo.
+                                        
+                If after test you like it, autostart with
+                echo 'xscreensaver -nosplash &' > ~/.X.d/xscreensaver
+                (Above equals start the daemon)
+                Optional, add that line to an existing ~/.X.d file
+                ->
+                $ exittc (or GUI) and exit to prompt and run
+                $ startx
+                Do not move mouse or kb clicks for the time you set to test.
+                If you have also set rotation of screens, you then need to wait
+                even longer for at least one rotation to occur.
+                    
+                2) Mode 2 -> After setting screensaver preferences, 
+                run $ sudo passwd tc 
+                to setup a password for local user. Consider persistence 
+                of your password by backing up /etc/shadow
+                Do not move mouse or kb clicks for the time you set to test.
+                Click mouse or kb -> password dialog box appears.
+                
+                3) Faster mode 2 lock -> run the command
+                $ lockx
+                
+                Some window managers have their own key combo files too
+
+Change-log:     2020/10/08 Original v 5.44
+Current:        2020/10/08

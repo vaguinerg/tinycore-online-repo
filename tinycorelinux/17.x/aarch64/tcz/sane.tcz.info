@@ -1,0 +1,45 @@
+Title:          sane.tcz  
+Description:    Scanner Access Now Easy 
+Version:        git-20201109
+Author:         see doc/AUTHORS
+Original-site:  http://sane-project.org/
+Copying-policy: see doc TCE
+Size:           4.7M
+Extension_by:   aus9
+Tags:           scanner scan backend
+Comments:       These are backends, plus a terminal command for scanning
+
+                Avoiding damage on flatbed scanners
+                Some flatbed scanners have no protection against 
+                exceeding the physical scan area height. If scanner begins 
+                making loud noises IMMEDIATELY turn off the scanner.
+
+                Security problems with saned is not intended to be exposed 
+                to the internet or other non-trusted networks.  Make sure 
+                that access is limited by tcpwrappers and/or a firewall setup. 
+                Do not depend only on saned  own authentication.  Do not run saned
+                as root if it is not necessary
+                
+                backends are: Some devices not supported see build script
+                abaton agfafocus apple artec artec_eplus48u as6e avision bh canon 
+                canon630u canon_dr canon_lide70 cardscan coolscan coolscan2 
+                coolscan3 dc25 dc210 dc240 dell1600n_net dmc epjitsu epson epson2 
+                epsonds escl fujitsu genesys gphoto2 gt68xx hp hp3500 hp3900 hp4200 
+                hp5400 hp5590 hpljm1005 hs2p ibm kodak kodakaio kvs1025 kvs20xx kvs40xx 
+                leo lexmark ma1509 magicolor matsushita microtek microtek2 mustek 
+                mustek_usb mustek_usb2 nec net niash pie pieusb pixma plustek 
+                plustek_pp ricoh ricoh2 rts8891 s9036 sceptre sharp sm3600 sm3840 
+                napscan sp15c st400 stv680 tamarack teco1 teco2 teco3 test u12 umax 
+                umax_pp umax1220u v4l xerox_mfp p5
+
+                If not using hplip, 
+                $ scanimage -o /tmp/scan.jpg
+                Tested with usb canon, you may need avahi or net-snmp if you have non-usb?
+
+                If error for above check
+                $ scanimage -L # must show a hit SNIP means I truncated output 
+                eg device pixma:04A9180B_0581C8 is a CANON (SNIP)
+                Then check internet
+
+Change-log:     2020/11/10 original v git-20201109 on 12x 
+Current:        2020/11/19 split libsane to separate TCE 

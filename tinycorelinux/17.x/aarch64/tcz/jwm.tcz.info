@@ -1,0 +1,23 @@
+Title:          jwm.tcz
+Description:    Xorg Stacking Window Manager 
+Version:        2.4.3
+Author:         Joe Wingbermuelhle for main source
+                Robert Shingledecker (roberts) for TC stuff
+Original-site:  http://joewing.net/projects/jwm/
+Copying-policy: accompanied
+Size:           132K
+Extension_by:   aus9
+Tags:           window manager wm
+Comments:       Joe's Window Manager
+                (update) Move your current configs somewhere
+                safe and compare changes to 
+                ~/.jwmrc no ondemand due to $ jwm -p error
+                ~/.jwm-tray more buttons
+                ~/.jwm-keys changes CA now A and more TCE keys
+                Untouched /usr/local/etc/system.jwmrc  
+                Online guide http://joewing.net/projects/jwm/guide.html
+                If you make changes please run $ jwm -p 
+                 - if ok restart jwm with Alt + r              
+                                
+Change-log:     2020/09/10 v 2.3.7 on 12x
+Current:        2023/06/13 v 2.4.3 on 14x     

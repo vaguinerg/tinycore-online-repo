@@ -1,0 +1,19 @@
+rasqal.tcz
+   raptor.tcz
+      curl.tcz
+         openssl.tcz
+            ca-certificates.tcz
+         libssh2.tcz
+            openssl.tcz
+               ca-certificates.tcz
+         nghttp2.tcz
+            libxml2.tcz
+               liblzma.tcz
+      libxslt.tcz
+         libgcrypt.tcz
+            libgpg-error.tcz
+      libxml2.tcz
+         liblzma.tcz
+   mpfr.tcz
+      gmp.tcz
+
