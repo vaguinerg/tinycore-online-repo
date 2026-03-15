@@ -10,11 +10,12 @@ Tags:           wayland compositor wm
 Comments:       wlroots-based, window-stacking, openbox-like compositor for wayland
                 ----------
                 manual start from console prompt:
-                1. decide whether you want xwayland (to support X apps)
+                1. decide whether you want xwayland, to support X apps (recommended but not required)
                    if yes: $ tce-load -wi xwayland
                    if no:  $ export WLR_XWAYLAND=   # nothing after the equal sign
-                2. decide whether you want dbus
-                   if yes: $ sudo -- seatd -g staff -n /run/seatd.sock & XDG_SESSION_TYPE=wayland dbus-run-session labwc
+                2. decide whether you want dbus (recommended but not required)
+                   if yes: $ tce-load -wi dbus
+                           $ sudo -- seatd -g staff -n /run/seatd.sock & XDG_SESSION_TYPE=wayland dbus-run-session labwc
                    if no:  $ sudo -- seatd -g staff -n /run/seatd.sock & labwc
                 ----------
                 automatic start:
@@ -48,4 +49,5 @@ Change-log:     2023/10/23 first version
                 2025/08/06 factored out xwayland (only .dep and .info files were changed)
                 2025/09/29 startup script (deprecated as of tcl 16.2) removed
                 2025/12/05 .dep and .info files adjusted
-Current:        2026/03/04 updated 0.8.4 -> 0.9.4
+                2026/03/04 updated 0.8.4 -> 0.9.4
+Current:        2026/03/13 adjusted .dep file

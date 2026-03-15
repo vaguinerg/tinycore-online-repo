@@ -11,6 +11,7 @@ pipewire-dev.tcz
             libcap.tcz
             libICE.tcz
             libSM.tcz
+               libICE.tcz
             libXtst.tcz
                libXi.tcz
                   libXext.tcz
@@ -22,7 +23,7 @@ pipewire-dev.tcz
                flac.tcz
                   libogg.tcz
                libasound.tcz
-                  alsa-modules-6.12.25-piCore-v8.tcz
+                  alsa-modules-6.18.16-piCore-v8.tcz
                libvorbis.tcz
                   libogg.tcz
                sqlite3.tcz
@@ -36,7 +37,7 @@ pipewire-dev.tcz
                   libogg.tcz
          alsa.tcz
             libasound.tcz
-               alsa-modules-6.12.25-piCore-v8.tcz
+               alsa-modules-6.18.16-piCore-v8.tcz
          udev-lib.tcz
          libltdl.tcz
          libavahi.tcz
@@ -61,10 +62,10 @@ pipewire-dev.tcz
             ca-certificates.tcz
          udev-lib.tcz
          libyaml.tcz
-         v4l-dvb-6.12.25-piCore-v8.tcz
-            alsa-modules-6.12.25-piCore-v8.tcz
-            graphics-6.12.25-piCore-v8.tcz
-               alsa-modules-6.12.25-piCore-v8.tcz
+         v4l-dvb-6.18.16-piCore-v8.tcz
+            alsa-modules-6.18.16-piCore-v8.tcz
+            graphics-6.18.16-piCore-v8.tcz
+               alsa-modules-6.18.16-piCore-v8.tcz
          libevent.tcz
             openssl.tcz
                ca-certificates.tcz
@@ -86,7 +87,7 @@ pipewire-dev.tcz
                      bzip2-lib.tcz
                gmp.tcz
             libasound.tcz
-               alsa-modules-6.12.25-piCore-v8.tcz
+               alsa-modules-6.18.16-piCore-v8.tcz
             opus.tcz
             libtheora.tcz
                libogg.tcz
@@ -141,7 +142,7 @@ pipewire-dev.tcz
                gmp.tcz
          libasound-dev.tcz
             libasound.tcz
-               alsa-modules-6.12.25-piCore-v8.tcz
+               alsa-modules-6.18.16-piCore-v8.tcz
          opus-dev.tcz
             opus.tcz
          graphene-dev.tcz
@@ -797,7 +798,8 @@ pipewire-dev.tcz
                            graphite2.tcz
                         bzip2-lib.tcz
                      libpng-dev.tcz
-                        libpng.tcz
+                        libpng-bin.tcz
+                           libpng.tcz
                      harfbuzz-dev.tcz
                         harfbuzz-bin.tcz
                            harfbuzz.tcz
@@ -915,7 +917,8 @@ pipewire-dev.tcz
                            graphite2.tcz
                         bzip2-lib.tcz
                      libpng-dev.tcz
-                        libpng.tcz
+                        libpng-bin.tcz
+                           libpng.tcz
                      harfbuzz-dev.tcz
                         harfbuzz-bin.tcz
                            harfbuzz.tcz
@@ -1136,10 +1139,10 @@ pipewire-dev.tcz
       libvulkan.tcz
    libv4l2-dev.tcz
       libv4l2.tcz
-         v4l-dvb-6.12.25-piCore-v8.tcz
-            alsa-modules-6.12.25-piCore-v8.tcz
-            graphics-6.12.25-piCore-v8.tcz
-               alsa-modules-6.12.25-piCore-v8.tcz
+         v4l-dvb-6.18.16-piCore-v8.tcz
+            alsa-modules-6.18.16-piCore-v8.tcz
+            graphics-6.18.16-piCore-v8.tcz
+               alsa-modules-6.18.16-piCore-v8.tcz
          libjpeg-turbo.tcz
          udev-lib.tcz
       libjpeg-turbo-dev.tcz
@@ -1147,7 +1150,7 @@ pipewire-dev.tcz
             libjpeg-turbo.tcz
       libasound-dev.tcz
          libasound.tcz
-            alsa-modules-6.12.25-piCore-v8.tcz
+            alsa-modules-6.18.16-piCore-v8.tcz
       glu-dev.tcz
          glu.tcz
             mesa.tcz

@@ -6,10 +6,10 @@ rpicam-apps-dev.tcz
             ca-certificates.tcz
          udev-lib.tcz
          libyaml.tcz
-         v4l-dvb-6.12.25-piCore-v8.tcz
-            alsa-modules-6.12.25-piCore-v8.tcz
-            graphics-6.12.25-piCore-v8.tcz
-               alsa-modules-6.12.25-piCore-v8.tcz
+         v4l-dvb-6.18.16-piCore-v8.tcz
+            alsa-modules-6.18.16-piCore-v8.tcz
+            graphics-6.18.16-piCore-v8.tcz
+               alsa-modules-6.18.16-piCore-v8.tcz
          libevent.tcz
             openssl.tcz
                ca-certificates.tcz
@@ -23,10 +23,10 @@ rpicam-apps-dev.tcz
             ca-certificates.tcz
          udev-lib.tcz
          libyaml.tcz
-         v4l-dvb-6.12.25-piCore-v8.tcz
-            alsa-modules-6.12.25-piCore-v8.tcz
-            graphics-6.12.25-piCore-v8.tcz
-               alsa-modules-6.12.25-piCore-v8.tcz
+         v4l-dvb-6.18.16-piCore-v8.tcz
+            alsa-modules-6.18.16-piCore-v8.tcz
+            graphics-6.18.16-piCore-v8.tcz
+               alsa-modules-6.18.16-piCore-v8.tcz
          libevent.tcz
             openssl.tcz
                ca-certificates.tcz
@@ -48,7 +48,7 @@ rpicam-apps-dev.tcz
                      bzip2-lib.tcz
                gmp.tcz
             libasound.tcz
-               alsa-modules-6.12.25-piCore-v8.tcz
+               alsa-modules-6.18.16-piCore-v8.tcz
             opus.tcz
             libtheora.tcz
                libogg.tcz
@@ -103,7 +103,7 @@ rpicam-apps-dev.tcz
                gmp.tcz
          libasound-dev.tcz
             libasound.tcz
-               alsa-modules-6.12.25-piCore-v8.tcz
+               alsa-modules-6.18.16-piCore-v8.tcz
          opus-dev.tcz
             opus.tcz
          graphene-dev.tcz
@@ -759,7 +759,8 @@ rpicam-apps-dev.tcz
                            graphite2.tcz
                         bzip2-lib.tcz
                      libpng-dev.tcz
-                        libpng.tcz
+                        libpng-bin.tcz
+                           libpng.tcz
                      harfbuzz-dev.tcz
                         harfbuzz-bin.tcz
                            harfbuzz.tcz
@@ -877,7 +878,8 @@ rpicam-apps-dev.tcz
                            graphite2.tcz
                         bzip2-lib.tcz
                      libpng-dev.tcz
-                        libpng.tcz
+                        libpng-bin.tcz
+                           libpng.tcz
                      harfbuzz-dev.tcz
                         harfbuzz-bin.tcz
                            harfbuzz.tcz

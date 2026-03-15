@@ -3,7 +3,8 @@ sox-dev.tcz
       libtool.tcz
          libltdl.tcz
    libpng-dev.tcz
-      libpng.tcz
+      libpng-bin.tcz
+         libpng.tcz
    file-dev.tcz
       file.tcz
          liblzma.tcz
@@ -30,6 +31,7 @@ sox-dev.tcz
             libcap.tcz
             libICE.tcz
             libSM.tcz
+               libICE.tcz
             libXtst.tcz
                libXi.tcz
                   libXext.tcz
@@ -41,7 +43,7 @@ sox-dev.tcz
                flac.tcz
                   libogg.tcz
                libasound.tcz
-                  alsa-modules-6.12.25-piCore-v8.tcz
+                  alsa-modules-6.18.16-piCore-v8.tcz
                libvorbis.tcz
                   libogg.tcz
                sqlite3.tcz
@@ -55,7 +57,7 @@ sox-dev.tcz
                   libogg.tcz
          alsa.tcz
             libasound.tcz
-               alsa-modules-6.12.25-piCore-v8.tcz
+               alsa-modules-6.18.16-piCore-v8.tcz
          udev-lib.tcz
          libltdl.tcz
          libavahi.tcz
@@ -75,7 +77,7 @@ sox-dev.tcz
          libcap.tcz
       libasound-dev.tcz
          libasound.tcz
-            alsa-modules-6.12.25-piCore-v8.tcz
+            alsa-modules-6.18.16-piCore-v8.tcz
       libtool-dev.tcz
          libtool.tcz
             libltdl.tcz
@@ -95,7 +97,7 @@ sox-dev.tcz
             flac.tcz
                libogg.tcz
             libasound.tcz
-               alsa-modules-6.12.25-piCore-v8.tcz
+               alsa-modules-6.18.16-piCore-v8.tcz
             libvorbis.tcz
                libogg.tcz
             sqlite3.tcz
@@ -106,7 +108,7 @@ sox-dev.tcz
                libogg.tcz
          libasound-dev.tcz
             libasound.tcz
-               alsa-modules-6.12.25-piCore-v8.tcz
+               alsa-modules-6.18.16-piCore-v8.tcz
          libvorbis-dev.tcz
             libvorbis.tcz
                libogg.tcz
@@ -137,29 +139,29 @@ sox-dev.tcz
                   pcre2.tcz
                      bzip2-lib.tcz
                libasound.tcz
-                  alsa-modules-6.12.25-piCore-v8.tcz
+                  alsa-modules-6.18.16-piCore-v8.tcz
                udev257-lib.tcz
                   libcap.tcz
                libical.tcz
                   icu73.tcz
                pcre2.tcz
                   bzip2-lib.tcz
-               bluetooth-6.12.25-piCore-v8.tcz
+               bluetooth-6.18.16-piCore-v8.tcz
                   firmware-rpi-bt.tcz
                readline.tcz
                   ncurses.tcz
                sbc.tcz
                   libasound.tcz
-                     alsa-modules-6.12.25-piCore-v8.tcz
+                     alsa-modules-6.18.16-piCore-v8.tcz
          ncurses-dev.tcz
             ncurses.tcz
       sbc-dev.tcz
          sbc.tcz
             libasound.tcz
-               alsa-modules-6.12.25-piCore-v8.tcz
+               alsa-modules-6.18.16-piCore-v8.tcz
          libasound-dev.tcz
             libasound.tcz
-               alsa-modules-6.12.25-piCore-v8.tcz
+               alsa-modules-6.18.16-piCore-v8.tcz
       gtk3-dev.tcz
          gtk3.tcz
             libepoxy.tcz
@@ -391,7 +393,8 @@ sox-dev.tcz
                            m4.tcz
                xtrans.tcz
             libpng-dev.tcz
-               libpng.tcz
+               libpng-bin.tcz
+                  libpng.tcz
             tiff-dev.tcz
                tiff-bin.tcz
                   libtiff.tcz
@@ -689,7 +692,8 @@ sox-dev.tcz
                            graphite2.tcz
                         bzip2-lib.tcz
                      libpng-dev.tcz
-                        libpng.tcz
+                        libpng-bin.tcz
+                           libpng.tcz
                      harfbuzz-dev.tcz
                         harfbuzz-bin.tcz
                            harfbuzz.tcz
@@ -807,7 +811,8 @@ sox-dev.tcz
                            graphite2.tcz
                         bzip2-lib.tcz
                      libpng-dev.tcz
-                        libpng.tcz
+                        libpng-bin.tcz
+                           libpng.tcz
                      harfbuzz-dev.tcz
                         harfbuzz-bin.tcz
                            harfbuzz.tcz
