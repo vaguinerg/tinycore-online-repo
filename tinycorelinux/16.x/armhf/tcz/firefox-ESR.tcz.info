@@ -1,19 +1,19 @@
 Title:          firefox.tcz
 Description:    web browser
-Version:        68.5.0esr
+Version:        140.8.0esr
 Author:         see list of sites below
 Original-site:  see list of sites below
 Copying-policy: see list of sites below
-Size: 68MB
+Size:           94MB
 Extension_by:   juanito
 Tags:	        web browser
 Comments:       firefox web browser
                 ----------
-                RPi2, RPi3 and RPi4 only
-                start in weston with "GDK_BACKEND=wayland firefox"
+                RPi2 and greater
+                can optionally use alsa sound
                 ----------
                 This extension contains:
-                firefox-68.5.0esr - MPLv2 - https://archive.mozilla.org/pub/firefox/releases/68.5.0esr/source/firefox-68.5.0esr.source.tar.xz
+                firefox-140.8.0esr - MPLv2 - https://archive.mozilla.org/pub/firefox/releases/140.8.0esr/source/firefox-140.8.0esr.source.tar.xz
                 ----------
-Change-log:     first version
-Current:        2020/07/01
+Change-log:     2020/07/01 first version
+Current:        2026/02/27 updated 68.5.0esr -> 140.8.0esr

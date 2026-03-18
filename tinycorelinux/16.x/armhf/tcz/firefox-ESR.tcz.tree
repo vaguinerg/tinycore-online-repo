@@ -1,5 +1,4 @@
-firefox.tcz
-   icu.tcz
+firefox-ESR.tcz
    libwebp.tcz
       libtiff.tcz
          libjpeg-turbo.tcz
@@ -9,19 +8,6 @@ firefox.tcz
    libevent.tcz
       openssl.tcz
          ca-certificates.tcz
-   dbus-glib.tcz
-      dbus.tcz
-         expat2.tcz
-         libSM.tcz
-            libICE.tcz
-         libX11.tcz
-            libxcb.tcz
-               libXau.tcz
-               libXdmcp.tcz
-      glib2.tcz
-         gamin.tcz
-         libelf.tcz
-         pcre2.tcz
    libXt.tcz
       libICE.tcz
       libSM.tcz
@@ -228,4 +214,6 @@ firefox.tcz
                   pcre2.tcz
          gdk-pixbuf.tcz 
       hicolor-icon-theme.tcz
+   libaom.tcz
+   dav1d.tcz
 
