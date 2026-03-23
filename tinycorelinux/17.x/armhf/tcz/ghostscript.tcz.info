@@ -1,0 +1,16 @@
+Title:          ghostscript.tcz
+Description:    An interpreter for the PostScript language and for PDF
+Version:        9.52
+Author:         Artifex Software Inc.
+Original-site:  https://www.ghostscript.com/
+Copying-policy: see LICENSE
+Size:           12M
+Extension_by:   aus9
+Tags:           postscript ps pdf
+Comments:       used to display pdf or for printing
+                PDF display terminal command
+                $ gs -dSAFER -dBATCH filename.pdf
+
+Change-log:     2016/11/29 Original 9.20 (bmarkus)
+                2017/11/04 -> 9.22 (Juanito)
+Current:        2020/09/09 -> 9.52 (aus9)  

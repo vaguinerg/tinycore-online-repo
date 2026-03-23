@@ -1,0 +1,24 @@
+Title:          jasper.tcz
+Description:    jpeg 2000 support library and tools
+Version:        4.0.0
+Author:         Michael D Adams
+Original-site:  https://github.com/jasper-software/jasper
+Copying-policy: accompanied
+Size:           180K
+Extension_by:   aus9
+Tags:           CLI library jpeg jp2 images
+Comments:       The following formats are supported:
+                pnm Portable Graymap/Pixmap (PNM)
+                bmp Microsoft Bitmap (BMP)
+                ras Sun Rasterfile (RAS)
+                pgx JPEG-2000 VM Format (PGX)
+                jpc JPEG-2000 Code Stream Syntax (ISO/IEC 15444-1)
+                jp2 JPEG-2000 JP2 File Format Syntax (ISO/IEC 15444-1)
+                jpg JPEG (ISO/IEC 10918-1)
+
+                eg usage 
+                $ jasper --input sample.jp2 --output test.jpg
+
+ 
+Current:        2016/05/20 v 1.900.1 (bmarkus)
+Current:        2023/07/27 v 4.0.0 on 14x (aus9)

@@ -1,0 +1,17 @@
+Title:          libxcb-dev.tcz
+Description:    Interface to the X Window System protocol
+Version:        1.15
+Author:         Various, see source tarball for list
+Original-site:  http://x.org
+Copying-policy: See COPYING
+Size:           428KB
+Extension_by:   bmarkus
+Tags:           LIBRARY X XORG dev
+Comments:       Dev files
+                ----
+Change-log:     2016/08/08 first version
+                2019/12/23 updated 1.12 -> 1.13.1 (juanito)
+                2020/05/21 added xcb-util-0.4.0 (juanito)
+                2022/07/23 added xcb-util-keysyms-0.4.0 (juanito)
+                2023/07/03 updated 1.13.1 -> 1.15 (juanito)
+Current:        2023/07/29 added xcb-util-wm/renderutil/cursor (juanito)

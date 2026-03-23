@@ -1,0 +1,23 @@
+modemmanager-dev.tcz
+   modemmanager.tcz
+      libqmi.tcz
+         libmbim.tcz
+            udev-lib.tcz
+      dbus.tcz
+         expat2.tcz
+         libSM.tcz
+            libICE.tcz
+         libX11.tcz
+            libxcb.tcz
+               libXau.tcz
+               libXdmcp.tcz
+   libqmi-dev.tcz
+      libqmi.tcz
+         libmbim.tcz
+            udev-lib.tcz
+      libmbim-dev.tcz
+         libmbim.tcz
+            udev-lib.tcz
+         udev-lib-dev.tcz
+            udev-lib.tcz
+

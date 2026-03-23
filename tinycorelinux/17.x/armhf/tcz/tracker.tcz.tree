@@ -1,0 +1,34 @@
+tracker.tcz
+   json-glib.tcz
+      glib2.tcz
+         gamin.tcz
+         libelf.tcz
+         pcre2.tcz
+   libsoup.tcz
+      glib-networking.tcz
+         glib2.tcz
+            gamin.tcz
+            libelf.tcz
+            pcre2.tcz
+         gnutls.tcz
+            libidn2.tcz
+               libunistring.tcz
+            openssl.tcz
+               ca-certificates.tcz
+            unbound.tcz
+               expat2.tcz
+               openssl.tcz
+                  ca-certificates.tcz
+            nettle.tcz
+               gmp.tcz
+            p11-kit.tcz
+               libtasn1.tcz
+         openssl.tcz
+            ca-certificates.tcz
+      libxml2.tcz
+         liblzma.tcz
+      sqlite3.tcz
+      libpsl.tcz
+         libidn2.tcz
+            libunistring.tcz
+

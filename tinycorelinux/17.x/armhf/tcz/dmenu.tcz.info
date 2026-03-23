@@ -1,0 +1,57 @@
+Title:          dmenu.tcz 
+Description:    Dynamic Menu Launcher for X or Sway
+Version:        5.0
+Author:         Hiltjo Posthuma
+Original-site:  https://tools.suckless.org/dmenu/
+Copying-policy: MIT/X Consortium
+Size:           16K
+Extension_by:   aus9 
+Tags:           launcher menu
+Comments:       A tool that can search executables on X (or Sway) 
+                Then attempts to launch the highlighted entry           
+                when you press the Enter key. Search is not a fuzzy but exact.
+
+                How to run on X (tested on jwm)
+                ###############
+                $ dmenu_run 
+                For a large font $ dmenu_run -fn sans-20
+
+                Search bar will appear at top of your monitor
+                
+                Use arrow keys with numlock OFF to navigate to
+                your target command or type more letters
+
+                If you pressed enter, you are attempting to 
+                launch the highlighted item and dmenu closes.
+                Be aware not all commands are meant to be run 
+                without parameters - options etc 
+
+                If you change your mind press the Escape key. 
+                While dmenu is active, you lose kb combos.
+
+                If your search input is for a non-executable (eg) "lll" 
+                you lose all hits and if you forget to Escape and press enter 
+                you are launching a missing executable called "lll" and will get
+                a not found error. 
+                
+                How to run on Sway
+                ##################
+                Press keys logo (and) d to start dmenu
+                Follow above for the rest.
+                
+                Possible Glitches
+                #################
+                On fvwm, dmenu may cover any open app that is
+                at the top of your monitor. So to close an app,
+                you may have to either launch an app or press escape,
+                while dmenu active.
+                You can safely ignore any msg about
+                /home/tc/.cache/dmenu_run: No such file or directory
+                ^ that file is created, its a list of executables
+
+                If you launch a GUI, terminal returns to prompt but
+                for a terminal command you may need to press return
+                key to get back to prompt
+                 
+Change-log:     2020/10/04 v 5.0 on 12x
+Current:        2020/10/04 

@@ -1,0 +1,31 @@
+Title:          firmware-rtlwifi.tcz
+Description:    firmware for Realtek Wireless LAN
+Version:        20240220
+Author:         Various
+Original-site:  https://git.kernel.org/pub/scm/linux/\
+                kernel/git/firmware/linux-firmware.git
+Copying-policy: Distributable
+Size:           1000K
+Extension_by:   aus9 @linuxquestions.org 
+Tags:           firmware realtek wifi
+Comments:       firmware 
+                update WARNING fw for RTL8192E deleted ( 3 images)
+                run $ modinfo <module-name>  | grep firmware
+                If FW still needed delete md5 file and do not update!
+
+               modules too many to list see 
+               /lib/modules/6.6.8-tinycore64/kernel.tclocal/drivers/net/wireless/realtek/rtlwifi 
+
+Change-log:     2013/07/01 Original for tc5.x (bmarkus)
+                2014/03/04 updated for piCore-5.2
+                2014/04/25 Added rtl8188eufw.bin
+                2014/10/17 Added rtl8192cufw_TMSC.bin
+                2015/06/02 updated (coreplayer2)
+                2017/03/17 updated     "
+                2018/02/25 updated     "
+                2018/12/24 updated     "
+                2020/01/13 updated (Juanito)
+                2020/06/20 updated (aus9)
+                2023/02/04 updated has 4 deletions
+                2024/03/12 updated remove install script - 1 (effectively) deleted 
+Current:        2024/09/23 corrected info file only    

@@ -1,0 +1,43 @@
+Title:          submitqc.tcz
+Description:    Extension audit tool for the TC (cross-repo)
+Version:        2024/12/19
+Author:         Jason W and others
+Original-site:  www.tinycorelinux.net
+Copying-policy: GPLv2
+Size:		28K
+Extension_by:   dentonlt polikuo and others
+Tags:           audit tool repo submit quality check submitqc
+Comments:       submitqc is used to audit extensions before submission.
+                Run the script in the same directory as the extensions
+                you want to check. The script will report any issues
+                with the structure, formatting, etc. Where possible,
+                simple errors will be fixed.
+
+                Results are echoed to the terminal and logged at
+                /tmp/submitqc
+
+                The original script was written by Jason W. Various
+                updates and changes have been made over the years by
+                gordonselfish, coreplayer2, dentonlt, and others.
+                ----
+Change-log:     2010/12/06 First version as extensio
+                2011/09/17 Renamed to submitqc4.tcz for simplicity
+                2012/02/12 Updated, removed dir perm check, .desktop file check, simplified dependency check.
+                2013/01/26 Fixed dep file checking bugs (Thanks Rich)
+                2013/09/07 adapt for 5x repo (gordonselfish)
+                2014/02/08 busybox mount fix by coreplayer2
+                2014/02/10 miscellaneous fixes by coreplayer2
+                2014/06/24 updated for tc-5.x x86_64 by coreplayer2
+                2015/08/01 various updates for cross-platform use; dentonlt
+                2015/09/19 permission-checking bug fixes, add --fix; dentonlt
+                2015/09/20 first pre-release; dentonlt
+                2015/09/21 lots of bug fixes, add rotdash; dentonlt
+                2015/10/04 lots - see changelog in script; dentonlt, coreplayer2
+                2015/10/17 add dynamic library checking; var bugfixes; dentonlt
+                2015/12/08 fix concat & add error checking in checklibs()
+                2016/02/04 updated script version check line 240 (juanito)
+                2016/03/17 bugfix (andyj), begin ARM support, self-pkg; dentonlt
+                2019/02/18 bugfix (Rich) at lines 657, 834 (juanito)
+                2022/01/21 patched for aarch64 (polikuo)
+                2024/11/25 adjusted for wayland repo (polikuo)
+Current:        2024/12/19 tgz checking, deps resolving, .info fetch (Sashank999)

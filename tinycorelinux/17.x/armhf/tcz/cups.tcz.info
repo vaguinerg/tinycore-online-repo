@@ -1,0 +1,46 @@
+Title:          cups.tcz
+Description:    printing tool 
+Version:        2.4.4
+Author:         OpenPrinting group
+Original-site:  https://openprinting.github.io/cups/
+Copying-policy: accompanied
+Size:           5.3M
+Extension_by:   aus9
+Tags:           printing printer
+Comments:       Some printers/models support ipp anywhere
+                https://www.pwg.org/ipp/everywhere.html
+                Only some basic drivers are included in TCE
+                Most drivers are in gutenprint or hplip 
+
+                howto
+                $ sudo /usr/local/etc/init.d/cups start
+                the root password needs to be set as root owns /usr/local/etc/cups
+                $ sudo passwd
+                At some stage in the process below use root and root password 
+                Ensure popups allowed in your web browser.
+
+                http://localhost:631/admin will start the browser interface
+                Click "add printer" (not find) and follow the prompts
+                To persist across boots, add the following to your backup 
+                (but remove leading "/" s). --- PPD are examples only
+                No need to backup something.ppd.0
+                /usr/local/etc/cups/ppd/HP_DeskJet_2600_series.ppd 
+                /usr/local/etc/cups/ppd/Canon_MG3000_series.ppd
+                /usr/local/etc/cups/printers.conf
+                /usr/local/etc/cups/cupsd.conf (only if you changed it)
+                
+                Most likely these are already backed up but if not there, 
+                add to backup please 
+                /etc/group # contains lp group for printing
+                /etc/gshadow
+                /etc/passwd
+                /etc/shadow 
+
+                Cups root session password is more flexible. Unless you change
+                config files, you do not need to use the same root password you
+                originally used to setup the printer(s). As long as you input the
+                current root password in the popup, configs should be edittable.
+ 
+Change-log:     2015/08/12 v 2.0.4 (bmarkus)
+                2017/11/04 v 2.2.4 12.x
+Current:        2023/06/28 v 2.4.4 14.x           

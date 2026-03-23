@@ -1,0 +1,17 @@
+Title:		fwknop.tcz
+Description:    Firewall knock operator client, implements Single Packet Authorization (SPA)
+Version:        2.6.11
+Author:         Michael Rash
+Original-site:  https://www.cipherdyne.org/fwknop/
+Copying-policy: GPL v1
+Size:		64KB
+Extension_by:   sm8ps
+Tags:           firewall, ssh, port knocking, single packet authorization, spa
+Comments:       Client only, fwknopd (server) not included.
+		When calling fwknop with --resolve-ip-https then 
+		add --wget-cmd /usr/local/bin/wget .
+                ----
+                Compiled for piCore 16.0.0
+                ----
+Change-log:     First version, 0.1
+Current:        2025/10/31

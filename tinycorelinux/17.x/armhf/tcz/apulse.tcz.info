@@ -1,0 +1,30 @@
+Title:          apulse.tcz
+Description:    PulseAudio emulation for ALSA
+Version:        0.1.13
+Author:         Rinat Ibragimov 
+Original-site:  https://github.com/i-rinat/apulse
+Copying-policy: accompanied
+Size:           40K
+Extension-by:   aus9
+Tags:           alsa
+Comments:       Designed to allow (mainly) firefox to run without 
+                pulseaudio. Test alsa is working correctly before 
+                apulse stuff. (No alsa deps set.)
+                $ tce-load -i alsa alsa-utils
+                $ speaker-test -D hw:Headphones
+                $ speaker-test # for HDMI
+                Optional adjust alsamixer levels
+                       
+                I use analog sound (headphones + firefox)
+                Skip to last command if HDMI is acceptable
+                Create sound swap file. sudo su needed by me. YMMV
+                $ sudo su
+                #   echo 'defaults.pcm.card 1
+                   defaults.ctl.card 1'  > /etc/asound.conf
+                # su tc
+                $ apulse firefox https://youtu.be/enuOArEfqGo
+                Add etc/asound.conf to your persistance file
+                for analog users. 
+
+Change-log:     2020/10/06 Original 0.1.13 on 12x
+Current:        2020/10/06 

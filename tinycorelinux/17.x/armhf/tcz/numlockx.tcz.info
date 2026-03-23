@@ -1,0 +1,15 @@
+Title:           numlockx.tcz
+Description:     tool to turn numlock on/off/toggle 
+Version:         1.2
+Author:          Lubos Lunak - xkb stuff Oswald Buddenhagen
+Original-site:   https://github.com/rg3/numlockx
+Copying-policy:  accompanied
+Size:            8.0K
+Extension_by:    aus9
+Tags:            numpad numlock
+Comments:        Try autostart on Xorg 
+                 $ mkdir $HOME/.X.d # if missing
+                 $ echo "numlockx on" > $HOME/.X.d/numlock                 
+
+Change-log:     2023/07/11 v 1.2 on 14.x  
+Current:        2023/07/11    

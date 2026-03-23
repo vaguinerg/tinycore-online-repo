@@ -1,0 +1,30 @@
+Title:          rpiboot.tcz
+Description:    USB device Boot Code for RPI
+Version:        2025/08/09
+Author:         Raspberrypi
+Original-site:  https://github.com/raspberrypi/usbboot
+Copying-policy: See LICENCE
+Size:           25.7M
+Extension_by:   paul-123
+Tags:           RPI BOOT EEPROM
+Comments:       Binaries only
+                ----
+				This extension contains only the msd bootcode, rpiboot can be used to flash
+				recovery images or secure boot files.
+				
+				See https://github.com/raspberrypi/usbboot
+
+				To use this to flash a recovery images, you need to use git.
+
+				git clone --depth=1 https://github.com/raspberrypi/usbboot  
+				cd usbboot
+				git submodule init
+				git submodule update
+				rpiboot -d recovery    (or recovery5 for a pi5)
+
+				Then Connect your pi with the approprirate boot mode jumper setting
+				See https://github.com/raspberrypi/usbboot/Readme.md
+
+                ----
+Change-log:     
+Current:        2025/08/14 First Verison

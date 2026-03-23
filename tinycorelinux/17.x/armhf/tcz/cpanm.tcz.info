@@ -1,0 +1,22 @@
+Title:          cpanm.tcz
+Description:    script to get, unpack, build and install modules from CPAN 
+Version:        20201010
+Author:         Tatsuhiko Miyagawa 
+Original-site:  https://cpanmin.us/
+Copying-policy: open source
+Size:           112K
+Extension_by:   aus9
+Tags:           perl
+Comments:       help=https://metacpan.org/pod/cpanm 
+                main use to install a module
+                $ sudo cpanm module-name
+                To check what modules you have installed,  I run
+                $ instmodsh
+                (at prompt input l )
+
+                If you have to package something, please check 
+                the build log under /root/.cpanm
+                as it shows what was installed and where
+
+Change-log:     2020/10/11 Original on 12x
+Current:        2020/10/11   

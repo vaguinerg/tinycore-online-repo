@@ -1,0 +1,16 @@
+Title:          udev-lib-dev.tcz
+Description:    The userspace dev tools
+Version:        174
+Author:         Many, see source file
+Original-site:  http://www.kernel.org
+Copying-policy: GPL v2
+Size:           4KB
+Extension_by:   bmarkus
+Tags:           LIBRARY dev
+Comments:       Dev files
+                ----
+Change-log:     2013/09/21 First version, 174
+                2013/09/25 Added gudev support
+                2015/03/15 Rebuilt for piCore 6.x
+                2020/05/06 adjusted libffi location in libgudev-1.0.la (juanito)
+Current:        2023/07/04 Rebuilt and updated package names for piCore 14. (paul-123)

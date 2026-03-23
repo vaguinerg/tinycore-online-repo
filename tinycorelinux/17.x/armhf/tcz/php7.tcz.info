@@ -1,0 +1,16 @@
+Title:		php7.tcz
+Description:	Script langage for web application development
+Version: 	7.4.14
+Author:		Rasmus Lerdorf
+Original-site:	https://www.php.net
+Size:		16.4M
+Extension_by:	MrToga
+Tags:		php
+Comments:	If you want to use apache with php interpretation you might need 
+		to uncomment a line in /usr/local/etc/httpd/httpd.conf in Section module
+		LoadModule php7_module modules/libphp7.so
+		------	
+		Compiled for piCore 13.x
+		-----
+Change-log:	First version
+Current:	2022/05/20	

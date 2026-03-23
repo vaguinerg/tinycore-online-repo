@@ -1,0 +1,29 @@
+Title:          hplip.tcz
+Description:    hp print, fax, scan
+Version:        3.18.6
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size: 6.5MB
+Extension_by:   juanito
+Tags:	        hp print fax scan
+Comments:       Hp Linux Imaging and Printing software
+                ----------
+                fax not tested
+                scan not enabled
+                ----------
+                howto:
+                $ sudo /usr/local/etc/inid.d/dbus start
+                $ sudo /usr/local/etc/init.d/cups start
+                $ sudo hp-setup -ia
+                ----------
+                To keep settings on reboot, add the following to your backup
+                /usr/local/etc/cups/cupsd.conf (if changed)
+                /usr/local/etc/cups/printers.conf
+                /usr/local/etc/cups/ppd
+                ----------
+                This extension contains:
+                hplip-3.18.6 - GPLv2 - https://sourceforge.net/projects/hplip/files/hplip/3.18.6/hplip-3.18.6.tar.gz
+                ----------
+Change-log:     2017/11/04 first version
+Current:        2020/09/24 updated 3.17.10 -> 3.18.6
