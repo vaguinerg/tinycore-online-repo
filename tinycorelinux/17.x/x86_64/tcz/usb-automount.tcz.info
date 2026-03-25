@@ -1,23 +1,34 @@
 Title:          usb-automount.tcz
 Description:    automatically mount and browse usb storage devices
-Version:        3.1
+Version:        4.0
 Author:         Bruno "GNUser" Dantas
 Original-site:  n/a
 Copying-policy: GPLv3
-Size:		4.0K
+Size:		8.0K
 Extension_by:   gnuser
 Tags:           mount unmount usb storage thumbdrive flashdrive
 Comments:       ----------
-                Setup:
-                1. Disable file manager's automount to prevent interference (if applicable)
-                2. $ cp /usr/local/share/usb-automount/usb-automount.conf ~/.config/
-                3. Edit ~/.config/usb-automount.conf (set your gui file manager)
-                4. Start the daemon: $ usb-automount &
-
-                To remove a mounted device (menu will be presented if there is >1):
-                $ usb-unmount [eject]
+	A. Setup:
+	 1. $ cp /usr/local/share/usb-automount/usb-automount.conf ~/.config/
+	 2. Edit ~/.config/usb-automount.conf
+	 3. Start the daemon: $ usb-automount &
+	
+	B. Usage:
+	 * When you insert a usb drive, it will be automatically 
+	   mounted and opened for browsing in your file manager
+	 * To unmount a drive: $ usb-unmount
+	 * To unmount a drive and delete it from /sys/block tree:
+	   $ usb-unmount eject
+	
+	C. Optional GUI:
+	 * If you have a status bar that supports SNI icons
+	   (e.g., sfwbar) and you want an "eject" icon:
+	   $ tce-load -wi appindicator-broker
+	   $ mkfifo /tmp/appindicators.pipe
+	   $ appindicator-broker /tmp/appindicators.pipe >/dev/null &
                 ----------
-Change-log:     2020/11/24 1.0
-                2023/11/02 2.0
-                2024/02/08 3.0
-Current:        2024/05/13 3.1
+Change-log:     2020/11/24 first version
+                2023/11/02 updated 1.0 -> 2.0
+                2024/02/08 updated 2.0 -> 3.0
+                2024/05/13 updated 3.0 -> 3.1
+Current:        2026/03/23 updated 3.1 -> 4.0

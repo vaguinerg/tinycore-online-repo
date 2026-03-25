@@ -13,10 +13,6 @@ Comments:       server and user space api to deal with multimedia pipelines
                 1. make sure alsa is properly configured (see https://wiki.tinycorelinux.net/doku.php?id=wiki:setting_up_sound)
                 2. make sure pulseaudio is not running
                 3. run these commands manually or via a startup script:
-                    if [ -z "$XDG_RUNTIME_DIR" ]; then
-                        read USER </etc/sysconfig/tcuser
-                        export XDG_RUNTIME_DIR=/run/user/$(id -u "$USER")
-                    fi
                     sudo /usr/local/etc/init.d/dbus start
                     pipewire &
                     sleep 1
@@ -30,5 +26,6 @@ Comments:       server and user space api to deal with multimedia pipelines
                 ----------
 Change-log:     2018/12/30 first version
                 2020/01/30 updated 0.2.5 -> 0.2.7
-Current:        2024/01/11 updated 0.2.7 -> 1.0.1 (gnuser)
+                2024/01/11 updated 0.2.7 -> 1.0.1 (gnuser)
                 2024/04/22 added startup script, updated howto (gnuser)
+Current:        2026/03/19 removed startup script, updated howto (gnuser)

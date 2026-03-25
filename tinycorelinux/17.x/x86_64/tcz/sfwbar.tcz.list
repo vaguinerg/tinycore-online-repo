@@ -29,6 +29,7 @@
 /usr/local/share/sfwbar/wifi.widget
 /usr/local/share/sfwbar/session.widget
 /usr/local/share/sfwbar/weather.widget
+/usr/local/share/sfwbar/idleinhibit.widget
 /usr/local/share/sfwbar/wbar-net.widget
 /usr/local/share/sfwbar/twoline.config
 /usr/local/share/sfwbar/oneline.config
@@ -116,6 +117,7 @@
 /usr/local/share/sfwbar/icons/weather/clearsky_night.svg
 /usr/local/share/sfwbar/icons/weather/heavysnowshowersandthunder_day.svg
 /usr/local/share/sfwbar/icons/weather/partlycloudy_night.svg
+/usr/local/share/sfwbar/icons/misc/dialog-cancel-symbolic.svg
 /usr/local/share/sfwbar/icons/misc/fan.svg
 /usr/local/share/sfwbar/icons/misc/play.svg
 /usr/local/share/sfwbar/icons/misc/fforward.svg
@@ -130,10 +132,10 @@
 /usr/local/share/sfwbar/icons/misc/hibernate-symbolic.svg
 /usr/local/share/sfwbar/icons/misc/rewind.svg
 /usr/local/share/sfwbar/icons/misc/lan.svg
+/usr/local/share/sfwbar/icons/misc/dialog-ok-symbolic.svg
 /usr/local/share/sfwbar/icons/misc/cpu.svg
 /usr/local/share/sfwbar/t2.config
 /usr/local/share/sfwbar/lan-bps.widget
-/usr/local/share/sfwbar/idle.widget
 /usr/local/share/sfwbar/battery.widget
 /usr/local/share/sfwbar/fan-rpm.widget
 /usr/local/share/sfwbar/wbar-temp.widget
@@ -161,7 +163,6 @@
 /usr/local/share/sfwbar/cpu.widget
 /usr/local/share/sfwbar/alsa.widget
 /usr/local/share/sfwbar/vertical.config
-/usr/local/share/sfwbar/battery-svg.widget
 /usr/local/share/sfwbar/volume-popup.widget
 /usr/local/share/sfwbar/desktop-directories/Graphics.directory
 /usr/local/share/sfwbar/desktop-directories/Utility-Accessibility.directory
@@ -177,7 +178,6 @@
 /usr/local/share/sfwbar/mpd-intmod.widget
 /usr/local/share/sfwbar/swap.source
 /usr/local/share/sfwbar/clock.widget
-/usr/local/share/sfwbar/sway-lang.widget
 /usr/local/share/sfwbar/bluez.widget
 /usr/local/share/sfwbar/backlight.widget
 /usr/local/share/sfwbar/mpd-browser.widget
@@ -186,7 +186,7 @@
 /usr/local/share/sfwbar/wbar-backlight.widget
 /usr/local/share/sfwbar/memory.widget
 /usr/local/share/sfwbar/wbar-bluetooth.widget
-/usr/local/share/sfwbar/network-module.widget
+/usr/local/share/sfwbar/network.widget
 /usr/local/share/sfwbar/showdesktop.widget
 /usr/local/share/sfwbar/wbar-idleinhibit.widget
 /usr/local/share/icons/hicolor/scalable/apps/sfwbar.svg
