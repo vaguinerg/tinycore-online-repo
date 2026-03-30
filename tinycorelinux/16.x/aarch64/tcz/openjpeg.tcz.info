@@ -1,15 +1,13 @@
 Title:          openjpeg.tcz
 Description:    open-source JPEG 2000 codec written in C language
-Version:        2.3.1
+Version:        2.5.4
 Author:         https://github.com/uclouvain/openjpeg/blob/master/AUTHORS.md
 Original-site:  https://github.com/openjpeg/openjpeg/
 Copying-policy: accompanied
-Size:           540K
+Size:           152KB
 Extension_by:   aus9
 Tags:           jpeg
-Comments:       Optional TCEs liblcms2, libpng and tiff-bin
-                Supports pnm pgm ppm pgx png bmp tif raw tga
-                sample $ opj_compress -i apps.png  -o /tmp/test.j2k
-
-Change-log:     2020/09/25 Original v 2.3.1 on 12x 
-Current:        2020/09/25   
+Comments:       Supports pnm pgm ppm pgx png bmp tif raw tga
+                ----
+Change-log:     2020/09/25 first version
+Current:        2026/03/29 updated 2.3.1 -> 2.5.4 (juanito), split out bin
