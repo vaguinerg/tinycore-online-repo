@@ -9,10 +9,9 @@ Extension_by:   juanito
 Tags:	        music gtk+ gtk4 gnome python3 python3.9
 Comments:       gnome music application
                 ----------
-                this extension probably only works with gnome-session/gnome-shell
                 uses tracker to find music and expects music to be in xdg desktop
                 locations
-                $ xdg-users-dirs-update
+                $ xdg-user-dirs-update
                 if no music found
                 $ sudo /usr/local/lib/tracker-3.0/tracker-miner-fs-3 &
                 use gst-plugins-{good,bad,ugly} to suit your music format 
