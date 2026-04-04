@@ -364,11 +364,7 @@ webkitgtk4-dev.tcz
       ca-certificates.tcz
          openssl.tcz
             gcc_libs.tcz
-      lcms2.tcz
-         libtiff.tcz
-            liblzma.tcz
-            libjpeg-turbo.tcz
-            libzstd.tcz
+      liblcms2.tcz
    gst-plugins-bad-dev.tcz
       gst-plugins-bad.tcz
          gst-plugins-base.tcz
@@ -10848,7 +10844,8 @@ webkitgtk4-dev.tcz
    openjpeg2-dev.tcz
       openjpeg2.tcz
       lcms2-dev.tcz
-         lcms2.tcz
+         lcms2-bin.tcz
+            liblcms2.tcz
             libtiff.tcz
                liblzma.tcz
                libjpeg-turbo.tcz

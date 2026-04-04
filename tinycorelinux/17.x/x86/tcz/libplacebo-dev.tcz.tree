@@ -199,11 +199,7 @@ libplacebo-dev.tcz
                               libXdmcp.tcz
                   gcc_libs.tcz
                   spirv-tools.tcz
-      lcms2.tcz
-         libtiff.tcz
-            liblzma.tcz
-            libjpeg-turbo.tcz
-            libzstd.tcz
+      liblcms2.tcz
    shaderc-dev.tcz
       shaderc.tcz
          glslang.tcz
@@ -472,7 +468,8 @@ libplacebo-dev.tcz
                            m4.tcz
                xtrans.tcz
    lcms2-dev.tcz
-      lcms2.tcz
+      lcms2-bin.tcz
+         liblcms2.tcz
          libtiff.tcz
             liblzma.tcz
             libjpeg-turbo.tcz

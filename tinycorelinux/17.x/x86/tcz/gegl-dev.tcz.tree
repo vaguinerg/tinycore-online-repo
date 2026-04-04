@@ -1,11 +1,7 @@
 gegl-dev.tcz
    gegl.tcz
       babl.tcz
-         lcms2.tcz
-            libtiff.tcz
-               liblzma.tcz
-               libjpeg-turbo.tcz
-               libzstd.tcz
+         liblcms2.tcz
       librsvg.tcz
          pango.tcz
             cairo.tcz
@@ -92,11 +88,7 @@ gegl-dev.tcz
       libraw.tcz
          jasper2.tcz
             libjpeg-turbo.tcz
-         lcms2.tcz
-            libtiff.tcz
-               liblzma.tcz
-               libjpeg-turbo.tcz
-               libzstd.tcz
+         liblcms2.tcz
       jasper2.tcz
          libjpeg-turbo.tcz
       openexr.tcz
@@ -114,13 +106,10 @@ gegl-dev.tcz
             pcre21042.tcz
    babl-dev.tcz
       babl.tcz
-         lcms2.tcz
-            libtiff.tcz
-               liblzma.tcz
-               libjpeg-turbo.tcz
-               libzstd.tcz
+         liblcms2.tcz
       lcms2-dev.tcz
-         lcms2.tcz
+         lcms2-bin.tcz
+            liblcms2.tcz
             libtiff.tcz
                liblzma.tcz
                libjpeg-turbo.tcz
@@ -1310,11 +1299,7 @@ gegl-dev.tcz
       libraw.tcz
          jasper2.tcz
             libjpeg-turbo.tcz
-         lcms2.tcz
-            libtiff.tcz
-               liblzma.tcz
-               libjpeg-turbo.tcz
-               libzstd.tcz
+         liblcms2.tcz
       jasper2-dev.tcz
          jasper2.tcz
             libjpeg-turbo.tcz
@@ -2270,7 +2255,8 @@ gegl-dev.tcz
             expat2-dev.tcz
                expat2.tcz
       lcms2-dev.tcz
-         lcms2.tcz
+         lcms2-bin.tcz
+            liblcms2.tcz
             libtiff.tcz
                liblzma.tcz
                libjpeg-turbo.tcz
@@ -3313,8 +3299,6 @@ gegl-dev.tcz
                   ncursesw.tcz
          libffi-dev.tcz
             libffi.tcz
-   luajit-dev.tcz
-      luajit.tcz
    libv4l2-dev.tcz
       libv4l2.tcz
          v4l-dvb-6.18.2-tinycore.tcz

@@ -1,11 +1,7 @@
 evince-dev.tcz
    evince.tcz
       poppler07.tcz
-         lcms2.tcz
-            libtiff.tcz
-               liblzma.tcz
-               libjpeg-turbo.tcz
-               libzstd.tcz
+         liblcms2.tcz
          cairo.tcz
             glib2.tcz
                libffi.tcz
@@ -2700,11 +2696,7 @@ evince-dev.tcz
    poppler07-dev.tcz
       poppler07-bin.tcz
          poppler07.tcz
-            lcms2.tcz
-               libtiff.tcz
-                  liblzma.tcz
-                  libjpeg-turbo.tcz
-                  libzstd.tcz
+            liblcms2.tcz
             cairo.tcz
                glib2.tcz
                   libffi.tcz
@@ -2733,7 +2725,8 @@ evince-dev.tcz
                      gcc_libs.tcz
                libzstd.tcz
       lcms2-dev.tcz
-         lcms2.tcz
+         lcms2-bin.tcz
+            liblcms2.tcz
             libtiff.tcz
                liblzma.tcz
                libjpeg-turbo.tcz
@@ -2873,7 +2866,8 @@ evince-dev.tcz
       openjpeg2-dev.tcz
          openjpeg2.tcz
          lcms2-dev.tcz
-            lcms2.tcz
+            lcms2-bin.tcz
+               liblcms2.tcz
                libtiff.tcz
                   liblzma.tcz
                   libjpeg-turbo.tcz

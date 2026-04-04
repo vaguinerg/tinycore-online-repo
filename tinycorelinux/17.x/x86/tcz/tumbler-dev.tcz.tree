@@ -104,11 +104,7 @@ tumbler-dev.tcz
             libffi.tcz
             pcre21042.tcz
       poppler07.tcz
-         lcms2.tcz
-            libtiff.tcz
-               liblzma.tcz
-               libjpeg-turbo.tcz
-               libzstd.tcz
+         liblcms2.tcz
          cairo.tcz
             glib2.tcz
                libffi.tcz
@@ -1782,11 +1778,7 @@ tumbler-dev.tcz
    poppler07-dev.tcz
       poppler07-bin.tcz
          poppler07.tcz
-            lcms2.tcz
-               libtiff.tcz
-                  liblzma.tcz
-                  libjpeg-turbo.tcz
-                  libzstd.tcz
+            liblcms2.tcz
             cairo.tcz
                glib2.tcz
                   libffi.tcz
@@ -1815,7 +1807,8 @@ tumbler-dev.tcz
                      gcc_libs.tcz
                libzstd.tcz
       lcms2-dev.tcz
-         lcms2.tcz
+         lcms2-bin.tcz
+            liblcms2.tcz
             libtiff.tcz
                liblzma.tcz
                libjpeg-turbo.tcz
@@ -1955,7 +1948,8 @@ tumbler-dev.tcz
       openjpeg2-dev.tcz
          openjpeg2.tcz
          lcms2-dev.tcz
-            lcms2.tcz
+            lcms2-bin.tcz
+               liblcms2.tcz
                libtiff.tcz
                   liblzma.tcz
                   libjpeg-turbo.tcz

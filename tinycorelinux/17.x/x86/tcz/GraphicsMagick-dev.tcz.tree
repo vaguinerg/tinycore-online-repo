@@ -6,11 +6,7 @@ GraphicsMagick-dev.tcz
          liblzma.tcz
          libjpeg-turbo.tcz
          libzstd.tcz
-      lcms2.tcz
-         libtiff.tcz
-            liblzma.tcz
-            libjpeg-turbo.tcz
-            libzstd.tcz
+      liblcms2.tcz
       libxml2.tcz
          liblzma.tcz
       bzip2-lib.tcz
@@ -163,7 +159,8 @@ GraphicsMagick-dev.tcz
          liblz4-dev.tcz
             liblz4.tcz
    lcms2-dev.tcz
-      lcms2.tcz
+      lcms2-bin.tcz
+         liblcms2.tcz
          libtiff.tcz
             liblzma.tcz
             libjpeg-turbo.tcz

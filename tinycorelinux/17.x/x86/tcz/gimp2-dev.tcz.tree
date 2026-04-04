@@ -127,11 +127,7 @@ gimp2-dev.tcz
             gcc_libs.tcz
       gegl.tcz
          babl.tcz
-            lcms2.tcz
-               libtiff.tcz
-                  liblzma.tcz
-                  libjpeg-turbo.tcz
-                  libzstd.tcz
+            liblcms2.tcz
          librsvg.tcz
             pango.tcz
                cairo.tcz
@@ -218,11 +214,7 @@ gimp2-dev.tcz
          libraw.tcz
             jasper2.tcz
                libjpeg-turbo.tcz
-            lcms2.tcz
-               libtiff.tcz
-                  liblzma.tcz
-                  libjpeg-turbo.tcz
-                  libzstd.tcz
+            liblcms2.tcz
          jasper2.tcz
             libjpeg-turbo.tcz
          openexr.tcz
@@ -923,11 +915,7 @@ gimp2-dev.tcz
                expat2.tcz
             cups-filters.tcz
                poppler07.tcz
-                  lcms2.tcz
-                     libtiff.tcz
-                        liblzma.tcz
-                        libjpeg-turbo.tcz
-                        libzstd.tcz
+                  liblcms2.tcz
                   cairo.tcz
                      glib2.tcz
                         libffi.tcz
@@ -1258,13 +1246,10 @@ gimp2-dev.tcz
                xtrans.tcz
    libmng-dev.tcz
       libmng.tcz
-         lcms2.tcz
-            libtiff.tcz
-               liblzma.tcz
-               libjpeg-turbo.tcz
-               libzstd.tcz
+         liblcms2.tcz
       lcms2-dev.tcz
-         lcms2.tcz
+         lcms2-bin.tcz
+            liblcms2.tcz
             libtiff.tcz
                liblzma.tcz
                libjpeg-turbo.tcz
@@ -1329,11 +1314,7 @@ gimp2-dev.tcz
    gegl-dev.tcz
       gegl.tcz
          babl.tcz
-            lcms2.tcz
-               libtiff.tcz
-                  liblzma.tcz
-                  libjpeg-turbo.tcz
-                  libzstd.tcz
+            liblcms2.tcz
          librsvg.tcz
             pango.tcz
                cairo.tcz
@@ -1420,11 +1401,7 @@ gimp2-dev.tcz
          libraw.tcz
             jasper2.tcz
                libjpeg-turbo.tcz
-            lcms2.tcz
-               libtiff.tcz
-                  liblzma.tcz
-                  libjpeg-turbo.tcz
-                  libzstd.tcz
+            liblcms2.tcz
          jasper2.tcz
             libjpeg-turbo.tcz
          openexr.tcz
@@ -1442,13 +1419,10 @@ gimp2-dev.tcz
                pcre21042.tcz
       babl-dev.tcz
          babl.tcz
-            lcms2.tcz
-               libtiff.tcz
-                  liblzma.tcz
-                  libjpeg-turbo.tcz
-                  libzstd.tcz
+            liblcms2.tcz
          lcms2-dev.tcz
-            lcms2.tcz
+            lcms2-bin.tcz
+               liblcms2.tcz
                libtiff.tcz
                   liblzma.tcz
                   libjpeg-turbo.tcz
@@ -2638,11 +2612,7 @@ gimp2-dev.tcz
          libraw.tcz
             jasper2.tcz
                libjpeg-turbo.tcz
-            lcms2.tcz
-               libtiff.tcz
-                  liblzma.tcz
-                  libjpeg-turbo.tcz
-                  libzstd.tcz
+            liblcms2.tcz
          jasper2-dev.tcz
             jasper2.tcz
                libjpeg-turbo.tcz
@@ -3598,7 +3568,8 @@ gimp2-dev.tcz
                expat2-dev.tcz
                   expat2.tcz
          lcms2-dev.tcz
-            lcms2.tcz
+            lcms2-bin.tcz
+               liblcms2.tcz
                libtiff.tcz
                   liblzma.tcz
                   libjpeg-turbo.tcz
@@ -4641,8 +4612,6 @@ gimp2-dev.tcz
                      ncursesw.tcz
             libffi-dev.tcz
                libffi.tcz
-      luajit-dev.tcz
-         luajit.tcz
       libv4l2-dev.tcz
          libv4l2.tcz
             v4l-dvb-6.18.2-tinycore.tcz
@@ -4655,11 +4624,7 @@ gimp2-dev.tcz
    poppler07-dev.tcz
       poppler07-bin.tcz
          poppler07.tcz
-            lcms2.tcz
-               libtiff.tcz
-                  liblzma.tcz
-                  libjpeg-turbo.tcz
-                  libzstd.tcz
+            liblcms2.tcz
             cairo.tcz
                glib2.tcz
                   libffi.tcz
@@ -4688,7 +4653,8 @@ gimp2-dev.tcz
                      gcc_libs.tcz
                libzstd.tcz
       lcms2-dev.tcz
-         lcms2.tcz
+         lcms2-bin.tcz
+            liblcms2.tcz
             libtiff.tcz
                liblzma.tcz
                libjpeg-turbo.tcz
@@ -4828,7 +4794,8 @@ gimp2-dev.tcz
       openjpeg2-dev.tcz
          openjpeg2.tcz
          lcms2-dev.tcz
-            lcms2.tcz
+            lcms2-bin.tcz
+               liblcms2.tcz
                libtiff.tcz
                   liblzma.tcz
                   libjpeg-turbo.tcz

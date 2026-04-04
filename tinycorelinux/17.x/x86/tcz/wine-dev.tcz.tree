@@ -106,11 +106,7 @@ wine-dev.tcz
       libxslt.tcz
          libxml2.tcz
             liblzma.tcz
-      lcms2.tcz
-         libtiff.tcz
-            liblzma.tcz
-            libjpeg-turbo.tcz
-            libzstd.tcz
+      liblcms2.tcz
       gnutls3.6.tcz
          nettle3.tcz
             gmp.tcz
@@ -7086,7 +7082,8 @@ wine-dev.tcz
       libxml2.tcz
          liblzma.tcz
    lcms2-dev.tcz
-      lcms2.tcz
+      lcms2-bin.tcz
+         liblcms2.tcz
          libtiff.tcz
             liblzma.tcz
             libjpeg-turbo.tcz
@@ -7133,11 +7130,7 @@ wine-dev.tcz
             expat2.tcz
          cups-filters.tcz
             poppler07.tcz
-               lcms2.tcz
-                  libtiff.tcz
-                     liblzma.tcz
-                     libjpeg-turbo.tcz
-                     libzstd.tcz
+               liblcms2.tcz
                cairo.tcz
                   glib2.tcz
                      libffi.tcz

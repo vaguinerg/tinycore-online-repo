@@ -338,11 +338,7 @@ eog-dev.tcz
          pcre.tcz
             bzip2-lib.tcz
       libexif.tcz
-      lcms2.tcz
-         libtiff.tcz
-            liblzma.tcz
-            libjpeg-turbo.tcz
-            libzstd.tcz
+      liblcms2.tcz
       librsvg.tcz
          pango.tcz
             cairo.tcz
@@ -7039,7 +7035,8 @@ eog-dev.tcz
    libexif-dev.tcz
       libexif.tcz
    lcms2-dev.tcz
-      lcms2.tcz
+      lcms2-bin.tcz
+         liblcms2.tcz
          libtiff.tcz
             liblzma.tcz
             libjpeg-turbo.tcz
