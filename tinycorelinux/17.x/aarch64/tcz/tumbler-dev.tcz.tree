@@ -12,8 +12,6 @@ tumbler-dev.tcz
       gst-plugins-base.tcz
          gstreamer.tcz
             glib2.tcz
-               gamin.tcz
-               libelf.tcz
                pcre2.tcz
                   bzip2-lib.tcz
             gmp.tcz
@@ -27,14 +25,10 @@ tumbler-dev.tcz
          gudev-lib.tcz
             udev-lib.tcz
             glib2.tcz
-               gamin.tcz
-               libelf.tcz
                pcre2.tcz
                   bzip2-lib.tcz
       libxfce4util.tcz
          glib2.tcz
-            gamin.tcz
-            libelf.tcz
             pcre2.tcz
                bzip2-lib.tcz
       dbus.tcz
@@ -45,8 +39,6 @@ tumbler-dev.tcz
                libXdmcp.tcz
       gdk-pixbuf.tcz
          glib2.tcz
-            gamin.tcz
-            libelf.tcz
             pcre2.tcz
                bzip2-lib.tcz
          libX11.tcz
@@ -61,8 +53,6 @@ tumbler-dev.tcz
             libzstd.tcz
          shared-mime-info.tcz
             glib2.tcz
-               gamin.tcz
-               libelf.tcz
                pcre2.tcz
                   bzip2-lib.tcz
             libxml2.tcz
@@ -98,8 +88,6 @@ tumbler-dev.tcz
       gst-plugins-base.tcz
          gstreamer.tcz
             glib2.tcz
-               gamin.tcz
-               libelf.tcz
                pcre2.tcz
                   bzip2-lib.tcz
             gmp.tcz
@@ -113,27 +101,19 @@ tumbler-dev.tcz
          gudev-lib.tcz
             udev-lib.tcz
             glib2.tcz
-               gamin.tcz
-               libelf.tcz
                pcre2.tcz
                   bzip2-lib.tcz
       gstreamer-dev.tcz
          gstreamer.tcz
             glib2.tcz
-               gamin.tcz
-               libelf.tcz
                pcre2.tcz
                   bzip2-lib.tcz
             gmp.tcz
          glib2-dev.tcz
             glib2-python.tcz
                glib2.tcz
-                  gamin.tcz
-                  libelf.tcz
                   pcre2.tcz
                      bzip2-lib.tcz
-               pcre2.tcz
-                  bzip2-lib.tcz
                python3.11.tcz
                   bzip2-lib.tcz
                   readline.tcz
@@ -144,10 +124,6 @@ tumbler-dev.tcz
                      ca-certificates.tcz
                   sqlite3.tcz
                   ncurses.tcz
-            gamin-dev.tcz
-               gamin.tcz
-            libelf-dev.tcz
-               libelf.tcz
             pcre2-dev.tcz
                pcre2.tcz
                   bzip2-lib.tcz
@@ -165,19 +141,13 @@ tumbler-dev.tcz
       graphene-dev.tcz
          graphene.tcz
             glib2.tcz
-               gamin.tcz
-               libelf.tcz
                pcre2.tcz
                   bzip2-lib.tcz
          glib2-dev.tcz
             glib2-python.tcz
                glib2.tcz
-                  gamin.tcz
-                  libelf.tcz
                   pcre2.tcz
                      bzip2-lib.tcz
-               pcre2.tcz
-                  bzip2-lib.tcz
                python3.11.tcz
                   bzip2-lib.tcz
                   readline.tcz
@@ -188,10 +158,6 @@ tumbler-dev.tcz
                      ca-certificates.tcz
                   sqlite3.tcz
                   ncurses.tcz
-            gamin-dev.tcz
-               gamin.tcz
-            libelf-dev.tcz
-               libelf.tcz
             pcre2-dev.tcz
                pcre2.tcz
                   bzip2-lib.tcz
@@ -681,8 +647,6 @@ tumbler-dev.tcz
          pango.tcz
             cairo.tcz
                glib2.tcz
-                  gamin.tcz
-                  libelf.tcz
                   pcre2.tcz
                      bzip2-lib.tcz
                fontconfig.tcz
@@ -691,8 +655,6 @@ tumbler-dev.tcz
                      libpng.tcz
                      harfbuzz.tcz
                         glib2.tcz
-                           gamin.tcz
-                           libelf.tcz
                            pcre2.tcz
                               bzip2-lib.tcz
                         graphite2.tcz
@@ -715,8 +677,6 @@ tumbler-dev.tcz
                      libpng.tcz
                      harfbuzz.tcz
                         glib2.tcz
-                           gamin.tcz
-                           libelf.tcz
                            pcre2.tcz
                               bzip2-lib.tcz
                         graphite2.tcz
@@ -731,8 +691,6 @@ tumbler-dev.tcz
          cairo-dev.tcz
             cairo.tcz
                glib2.tcz
-                  gamin.tcz
-                  libelf.tcz
                   pcre2.tcz
                      bzip2-lib.tcz
                fontconfig.tcz
@@ -741,8 +699,6 @@ tumbler-dev.tcz
                      libpng.tcz
                      harfbuzz.tcz
                         glib2.tcz
-                           gamin.tcz
-                           libelf.tcz
                            pcre2.tcz
                               bzip2-lib.tcz
                         graphite2.tcz
@@ -761,12 +717,8 @@ tumbler-dev.tcz
             glib2-dev.tcz
                glib2-python.tcz
                   glib2.tcz
-                     gamin.tcz
-                     libelf.tcz
                      pcre2.tcz
                         bzip2-lib.tcz
-                  pcre2.tcz
-                     bzip2-lib.tcz
                   python3.11.tcz
                      bzip2-lib.tcz
                      readline.tcz
@@ -777,10 +729,6 @@ tumbler-dev.tcz
                         ca-certificates.tcz
                      sqlite3.tcz
                      ncurses.tcz
-               gamin-dev.tcz
-                  gamin.tcz
-               libelf-dev.tcz
-                  libelf.tcz
                pcre2-dev.tcz
                   pcre2.tcz
                      bzip2-lib.tcz
@@ -795,8 +743,6 @@ tumbler-dev.tcz
                      libpng.tcz
                      harfbuzz.tcz
                         glib2.tcz
-                           gamin.tcz
-                           libelf.tcz
                            pcre2.tcz
                               bzip2-lib.tcz
                         graphite2.tcz
@@ -808,8 +754,6 @@ tumbler-dev.tcz
                      libpng.tcz
                      harfbuzz.tcz
                         glib2.tcz
-                           gamin.tcz
-                           libelf.tcz
                            pcre2.tcz
                               bzip2-lib.tcz
                         graphite2.tcz
@@ -821,20 +765,14 @@ tumbler-dev.tcz
                      harfbuzz-bin.tcz
                         harfbuzz.tcz
                            glib2.tcz
-                              gamin.tcz
-                              libelf.tcz
                               pcre2.tcz
                                  bzip2-lib.tcz
                            graphite2.tcz
                      glib2-dev.tcz
                         glib2-python.tcz
                            glib2.tcz
-                              gamin.tcz
-                              libelf.tcz
                               pcre2.tcz
                                  bzip2-lib.tcz
-                           pcre2.tcz
-                              bzip2-lib.tcz
                            python3.11.tcz
                               bzip2-lib.tcz
                               readline.tcz
@@ -845,10 +783,6 @@ tumbler-dev.tcz
                                  ca-certificates.tcz
                               sqlite3.tcz
                               ncurses.tcz
-                        gamin-dev.tcz
-                           gamin.tcz
-                        libelf-dev.tcz
-                           libelf.tcz
                         pcre2-dev.tcz
                            pcre2.tcz
                               bzip2-lib.tcz
@@ -896,8 +830,6 @@ tumbler-dev.tcz
                      libpng.tcz
                      harfbuzz.tcz
                         glib2.tcz
-                           gamin.tcz
-                           libelf.tcz
                            pcre2.tcz
                               bzip2-lib.tcz
                         graphite2.tcz
@@ -914,8 +846,6 @@ tumbler-dev.tcz
                      libpng.tcz
                      harfbuzz.tcz
                         glib2.tcz
-                           gamin.tcz
-                           libelf.tcz
                            pcre2.tcz
                               bzip2-lib.tcz
                         graphite2.tcz
@@ -927,8 +857,6 @@ tumbler-dev.tcz
                      libpng.tcz
                      harfbuzz.tcz
                         glib2.tcz
-                           gamin.tcz
-                           libelf.tcz
                            pcre2.tcz
                               bzip2-lib.tcz
                         graphite2.tcz
@@ -940,20 +868,14 @@ tumbler-dev.tcz
                      harfbuzz-bin.tcz
                         harfbuzz.tcz
                            glib2.tcz
-                              gamin.tcz
-                              libelf.tcz
                               pcre2.tcz
                                  bzip2-lib.tcz
                            graphite2.tcz
                      glib2-dev.tcz
                         glib2-python.tcz
                            glib2.tcz
-                              gamin.tcz
-                              libelf.tcz
                               pcre2.tcz
                                  bzip2-lib.tcz
-                           pcre2.tcz
-                              bzip2-lib.tcz
                            python3.11.tcz
                               bzip2-lib.tcz
                               readline.tcz
@@ -964,10 +886,6 @@ tumbler-dev.tcz
                                  ca-certificates.tcz
                               sqlite3.tcz
                               ncurses.tcz
-                        gamin-dev.tcz
-                           gamin.tcz
-                        libelf-dev.tcz
-                           libelf.tcz
                         pcre2-dev.tcz
                            pcre2.tcz
                               bzip2-lib.tcz
@@ -1046,8 +964,6 @@ tumbler-dev.tcz
          gudev-lib.tcz
             udev-lib.tcz
             glib2.tcz
-               gamin.tcz
-               libelf.tcz
                pcre2.tcz
                   bzip2-lib.tcz
          udev-lib-dev.tcz
@@ -1055,12 +971,8 @@ tumbler-dev.tcz
          glib2-dev.tcz
             glib2-python.tcz
                glib2.tcz
-                  gamin.tcz
-                  libelf.tcz
                   pcre2.tcz
                      bzip2-lib.tcz
-               pcre2.tcz
-                  bzip2-lib.tcz
                python3.11.tcz
                   bzip2-lib.tcz
                   readline.tcz
@@ -1071,10 +983,6 @@ tumbler-dev.tcz
                      ca-certificates.tcz
                   sqlite3.tcz
                   ncurses.tcz
-            gamin-dev.tcz
-               gamin.tcz
-            libelf-dev.tcz
-               libelf.tcz
             pcre2-dev.tcz
                pcre2.tcz
                   bzip2-lib.tcz
@@ -1116,19 +1024,13 @@ tumbler-dev.tcz
    libxfce4util-dev.tcz
       libxfce4util.tcz
          glib2.tcz
-            gamin.tcz
-            libelf.tcz
             pcre2.tcz
                bzip2-lib.tcz
       glib2-dev.tcz
          glib2-python.tcz
             glib2.tcz
-               gamin.tcz
-               libelf.tcz
                pcre2.tcz
                   bzip2-lib.tcz
-            pcre2.tcz
-               bzip2-lib.tcz
             python3.11.tcz
                bzip2-lib.tcz
                readline.tcz
@@ -1139,10 +1041,6 @@ tumbler-dev.tcz
                   ca-certificates.tcz
                sqlite3.tcz
                ncurses.tcz
-         gamin-dev.tcz
-            gamin.tcz
-         libelf-dev.tcz
-            libelf.tcz
          pcre2-dev.tcz
             pcre2.tcz
                bzip2-lib.tcz

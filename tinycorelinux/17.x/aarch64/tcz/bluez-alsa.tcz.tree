@@ -1,8 +1,6 @@
 bluez-alsa.tcz
    glibc_add_lib.tcz
    glib2.tcz
-      gamin.tcz
-      libelf.tcz
       pcre2.tcz
          bzip2-lib.tcz
    ncurses.tcz
@@ -18,30 +16,28 @@ bluez-alsa.tcz
                   libXau.tcz
                   libXdmcp.tcz
          glib2.tcz
-            gamin.tcz
-            libelf.tcz
             pcre2.tcz
                bzip2-lib.tcz
          libasound.tcz
-            alsa-modules-6.12.25-piCore-v8.tcz
+            alsa-modules-6.18.16-piCore-v8.tcz
          udev257-lib.tcz
             libcap.tcz
          libical.tcz
             icu73.tcz
          pcre2.tcz
             bzip2-lib.tcz
-         bluetooth-6.12.25-piCore-v8.tcz
+         bluetooth-6.18.16-piCore-v8.tcz
             firmware-rpi-bt.tcz
          readline.tcz
             ncurses.tcz
          sbc.tcz
             libasound.tcz
-               alsa-modules-6.12.25-piCore-v8.tcz
+               alsa-modules-6.18.16-piCore-v8.tcz
    sbc.tcz
       libasound.tcz
-         alsa-modules-6.12.25-piCore-v8.tcz
+         alsa-modules-6.18.16-piCore-v8.tcz
    libasound.tcz
-      alsa-modules-6.12.25-piCore-v8.tcz
+      alsa-modules-6.18.16-piCore-v8.tcz
    libopenaptx.tcz
    libfdk-aac.tcz
    libldac.tcz

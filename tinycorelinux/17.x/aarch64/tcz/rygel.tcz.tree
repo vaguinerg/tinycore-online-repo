@@ -5,8 +5,6 @@ rygel.tcz
             libsoup3.tcz
                glib-networking.tcz
                   glib2.tcz
-                     gamin.tcz
-                     libelf.tcz
                      pcre2.tcz
                         bzip2-lib.tcz
                   gnutls.tcz
@@ -35,8 +33,6 @@ rygel.tcz
             libsoup3.tcz
                glib-networking.tcz
                   glib2.tcz
-                     gamin.tcz
-                     libelf.tcz
                      pcre2.tcz
                         bzip2-lib.tcz
                   gnutls.tcz
@@ -62,13 +58,11 @@ rygel.tcz
       gst-plugins-base.tcz
          gstreamer.tcz
             glib2.tcz
-               gamin.tcz
-               libelf.tcz
                pcre2.tcz
                   bzip2-lib.tcz
             gmp.tcz
          libasound.tcz
-            alsa-modules-6.12.25-piCore-v8.tcz
+            alsa-modules-6.18.16-piCore-v8.tcz
          opus.tcz
          libtheora.tcz
             libogg.tcz
@@ -77,14 +71,10 @@ rygel.tcz
          gudev-lib.tcz
             udev-lib.tcz
             glib2.tcz
-               gamin.tcz
-               libelf.tcz
                pcre2.tcz
                   bzip2-lib.tcz
    libgee.tcz
       glib2.tcz
-         gamin.tcz
-         libelf.tcz
          pcre2.tcz
             bzip2-lib.tcz
    dbus.tcz
@@ -96,8 +86,6 @@ rygel.tcz
    libmediaart.tcz
       gdk-pixbuf.tcz
          glib2.tcz
-            gamin.tcz
-            libelf.tcz
             pcre2.tcz
                bzip2-lib.tcz
          libX11.tcz
@@ -112,16 +100,12 @@ rygel.tcz
             libzstd.tcz
          shared-mime-info.tcz
             glib2.tcz
-               gamin.tcz
-               libelf.tcz
                pcre2.tcz
                   bzip2-lib.tcz
             libxml2.tcz
                liblzma.tcz
    gsettings-desktop-schemas.tcz
       glib2.tcz
-         gamin.tcz
-         libelf.tcz
          pcre2.tcz
             bzip2-lib.tcz
    ca-certificates.tcz
@@ -129,13 +113,11 @@ rygel.tcz
       gst-plugins-base.tcz
          gstreamer.tcz
             glib2.tcz
-               gamin.tcz
-               libelf.tcz
                pcre2.tcz
                   bzip2-lib.tcz
             gmp.tcz
          libasound.tcz
-            alsa-modules-6.12.25-piCore-v8.tcz
+            alsa-modules-6.18.16-piCore-v8.tcz
          opus.tcz
          libtheora.tcz
             libogg.tcz
@@ -144,13 +126,12 @@ rygel.tcz
          gudev-lib.tcz
             udev-lib.tcz
             glib2.tcz
-               gamin.tcz
-               libelf.tcz
                pcre2.tcz
                   bzip2-lib.tcz
       x264.tcz
       libmpeg2.tcz
          libSM.tcz
+            libICE.tcz
          libXext.tcz
             libX11.tcz
                libxcb.tcz
@@ -160,13 +141,11 @@ rygel.tcz
       gst-plugins-base.tcz
          gstreamer.tcz
             glib2.tcz
-               gamin.tcz
-               libelf.tcz
                pcre2.tcz
                   bzip2-lib.tcz
             gmp.tcz
          libasound.tcz
-            alsa-modules-6.12.25-piCore-v8.tcz
+            alsa-modules-6.18.16-piCore-v8.tcz
          opus.tcz
          libtheora.tcz
             libogg.tcz
@@ -175,8 +154,6 @@ rygel.tcz
          gudev-lib.tcz
             udev-lib.tcz
             glib2.tcz
-               gamin.tcz
-               libelf.tcz
                pcre2.tcz
                   bzip2-lib.tcz
       libavfilter7.tcz
@@ -207,8 +184,6 @@ rygel.tcz
                   pango.tcz
                      cairo.tcz
                         glib2.tcz
-                           gamin.tcz
-                           libelf.tcz
                            pcre2.tcz
                               bzip2-lib.tcz
                         fontconfig.tcz
@@ -217,8 +192,6 @@ rygel.tcz
                               libpng.tcz
                               harfbuzz.tcz
                                  glib2.tcz
-                                    gamin.tcz
-                                    libelf.tcz
                                     pcre2.tcz
                                        bzip2-lib.tcz
                                  graphite2.tcz
@@ -241,8 +214,6 @@ rygel.tcz
                               libpng.tcz
                               harfbuzz.tcz
                                  glib2.tcz
-                                    gamin.tcz
-                                    libelf.tcz
                                     pcre2.tcz
                                        bzip2-lib.tcz
                                  graphite2.tcz
@@ -256,8 +227,6 @@ rygel.tcz
                         glib2.tcz 
                   gdk-pixbuf.tcz
                      glib2.tcz
-                        gamin.tcz
-                        libelf.tcz
                         pcre2.tcz
                            bzip2-lib.tcz
                      libX11.tcz
@@ -272,16 +241,12 @@ rygel.tcz
                         libzstd.tcz
                      shared-mime-info.tcz
                         glib2.tcz
-                           gamin.tcz
-                           libelf.tcz
                            pcre2.tcz
                               bzip2-lib.tcz
                         libxml2.tcz
                            liblzma.tcz
                cairo.tcz
                   glib2.tcz
-                     gamin.tcz
-                     libelf.tcz
                      pcre2.tcz
                         bzip2-lib.tcz
                   fontconfig.tcz
@@ -290,8 +255,6 @@ rygel.tcz
                         libpng.tcz
                         harfbuzz.tcz
                            glib2.tcz
-                              gamin.tcz
-                              libelf.tcz
                               pcre2.tcz
                                  bzip2-lib.tcz
                            graphite2.tcz
@@ -338,8 +301,6 @@ rygel.tcz
                   libpng.tcz
                   harfbuzz.tcz
                      glib2.tcz
-                        gamin.tcz
-                        libelf.tcz
                         pcre2.tcz
                            bzip2-lib.tcz
                      graphite2.tcz
@@ -355,13 +316,11 @@ rygel.tcz
          gst-plugins-base.tcz
             gstreamer.tcz
                glib2.tcz
-                  gamin.tcz
-                  libelf.tcz
                   pcre2.tcz
                      bzip2-lib.tcz
                gmp.tcz
             libasound.tcz
-               alsa-modules-6.12.25-piCore-v8.tcz
+               alsa-modules-6.18.16-piCore-v8.tcz
             opus.tcz
             libtheora.tcz
                libogg.tcz
@@ -370,29 +329,25 @@ rygel.tcz
             gudev-lib.tcz
                udev-lib.tcz
                glib2.tcz
-                  gamin.tcz
-                  libelf.tcz
                   pcre2.tcz
                      bzip2-lib.tcz
          libvpx114.tcz
          libv4l2.tcz
-            v4l-dvb-6.12.25-piCore-v8.tcz
-               alsa-modules-6.12.25-piCore-v8.tcz
-               graphics-6.12.25-piCore-v8.tcz
-                  alsa-modules-6.12.25-piCore-v8.tcz
+            v4l-dvb-6.18.16-piCore-v8.tcz
+               alsa-modules-6.18.16-piCore-v8.tcz
+               graphics-6.18.16-piCore-v8.tcz
+                  alsa-modules-6.18.16-piCore-v8.tcz
             libjpeg-turbo.tcz
             udev-lib.tcz
       gst-plugins-bad.tcz
          gst-plugins-base.tcz
             gstreamer.tcz
                glib2.tcz
-                  gamin.tcz
-                  libelf.tcz
                   pcre2.tcz
                      bzip2-lib.tcz
                gmp.tcz
             libasound.tcz
-               alsa-modules-6.12.25-piCore-v8.tcz
+               alsa-modules-6.18.16-piCore-v8.tcz
             opus.tcz
             libtheora.tcz
                libogg.tcz
@@ -401,8 +356,6 @@ rygel.tcz
             gudev-lib.tcz
                udev-lib.tcz
                glib2.tcz
-                  gamin.tcz
-                  libelf.tcz
                   pcre2.tcz
                      bzip2-lib.tcz
          libEGL.tcz

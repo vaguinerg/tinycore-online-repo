@@ -2,15 +2,11 @@ geoclue-dev.tcz
    geoclue.tcz
       json-glib.tcz
          glib2.tcz
-            gamin.tcz
-            libelf.tcz
             pcre2.tcz
                bzip2-lib.tcz
       libsoup.tcz
          glib-networking.tcz
             glib2.tcz
-               gamin.tcz
-               libelf.tcz
                pcre2.tcz
                   bzip2-lib.tcz
             gnutls.tcz
@@ -41,15 +37,11 @@ geoclue-dev.tcz
                   libXdmcp.tcz
          gcc_libs.tcz
          glib2.tcz
-            gamin.tcz
-            libelf.tcz
             pcre2.tcz
                bzip2-lib.tcz
       libnotify.tcz
          gdk-pixbuf.tcz
             glib2.tcz
-               gamin.tcz
-               libelf.tcz
                pcre2.tcz
                   bzip2-lib.tcz
             libX11.tcz
@@ -64,8 +56,6 @@ geoclue-dev.tcz
                libzstd.tcz
             shared-mime-info.tcz
                glib2.tcz
-                  gamin.tcz
-                  libelf.tcz
                   pcre2.tcz
                      bzip2-lib.tcz
                libxml2.tcz
@@ -73,19 +63,13 @@ geoclue-dev.tcz
    json-glib-dev.tcz
       json-glib.tcz
          glib2.tcz
-            gamin.tcz
-            libelf.tcz
             pcre2.tcz
                bzip2-lib.tcz
       glib2-dev.tcz
          glib2-python.tcz
             glib2.tcz
-               gamin.tcz
-               libelf.tcz
                pcre2.tcz
                   bzip2-lib.tcz
-            pcre2.tcz
-               bzip2-lib.tcz
             python3.11.tcz
                bzip2-lib.tcz
                readline.tcz
@@ -96,10 +80,6 @@ geoclue-dev.tcz
                   ca-certificates.tcz
                sqlite3.tcz
                ncurses.tcz
-         gamin-dev.tcz
-            gamin.tcz
-         libelf-dev.tcz
-            libelf.tcz
          pcre2-dev.tcz
             pcre2.tcz
                bzip2-lib.tcz
@@ -111,8 +91,6 @@ geoclue-dev.tcz
       libsoup.tcz
          glib-networking.tcz
             glib2.tcz
-               gamin.tcz
-               libelf.tcz
                pcre2.tcz
                   bzip2-lib.tcz
             gnutls.tcz
@@ -167,8 +145,6 @@ geoclue-dev.tcz
                      libXdmcp.tcz
             gcc_libs.tcz
             glib2.tcz
-               gamin.tcz
-               libelf.tcz
                pcre2.tcz
                   bzip2-lib.tcz
          nss-mdns.tcz
@@ -183,8 +159,6 @@ geoclue-dev.tcz
       libnotify.tcz
          gdk-pixbuf.tcz
             glib2.tcz
-               gamin.tcz
-               libelf.tcz
                pcre2.tcz
                   bzip2-lib.tcz
             libX11.tcz
@@ -199,8 +173,6 @@ geoclue-dev.tcz
                libzstd.tcz
             shared-mime-info.tcz
                glib2.tcz
-                  gamin.tcz
-                  libelf.tcz
                   pcre2.tcz
                      bzip2-lib.tcz
                libxml2.tcz
@@ -208,8 +180,6 @@ geoclue-dev.tcz
       gdk-pixbuf-dev.tcz
          gdk-pixbuf.tcz
             glib2.tcz
-               gamin.tcz
-               libelf.tcz
                pcre2.tcz
                   bzip2-lib.tcz
             libX11.tcz
@@ -224,8 +194,6 @@ geoclue-dev.tcz
                libzstd.tcz
             shared-mime-info.tcz
                glib2.tcz
-                  gamin.tcz
-                  libelf.tcz
                   pcre2.tcz
                      bzip2-lib.tcz
                libxml2.tcz
@@ -233,12 +201,8 @@ geoclue-dev.tcz
          glib2-dev.tcz
             glib2-python.tcz
                glib2.tcz
-                  gamin.tcz
-                  libelf.tcz
                   pcre2.tcz
                      bzip2-lib.tcz
-               pcre2.tcz
-                  bzip2-lib.tcz
                python3.11.tcz
                   bzip2-lib.tcz
                   readline.tcz
@@ -249,10 +213,6 @@ geoclue-dev.tcz
                      ca-certificates.tcz
                   sqlite3.tcz
                   ncurses.tcz
-            gamin-dev.tcz
-               gamin.tcz
-            libelf-dev.tcz
-               libelf.tcz
             pcre2-dev.tcz
                pcre2.tcz
                   bzip2-lib.tcz

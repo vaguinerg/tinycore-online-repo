@@ -8,6 +8,7 @@ libpulseaudio.tcz
    libcap.tcz
    libICE.tcz
    libSM.tcz
+      libICE.tcz
    libXtst.tcz
       libXi.tcz
          libXext.tcz
@@ -19,13 +20,11 @@ libpulseaudio.tcz
       flac.tcz
          libogg.tcz
       libasound.tcz
-         alsa-modules-6.12.25-piCore-v8.tcz
+         alsa-modules-6.18.16-piCore-v8.tcz
       libvorbis.tcz
          libogg.tcz
       sqlite3.tcz
    glib2.tcz
-      gamin.tcz
-      libelf.tcz
       pcre2.tcz
          bzip2-lib.tcz
    speexdsp.tcz

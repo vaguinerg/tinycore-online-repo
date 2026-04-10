@@ -27,8 +27,6 @@ libavdevice7.tcz
                pango.tcz
                   cairo.tcz
                      glib2.tcz
-                        gamin.tcz
-                        libelf.tcz
                         pcre2.tcz
                            bzip2-lib.tcz
                      fontconfig.tcz
@@ -37,8 +35,6 @@ libavdevice7.tcz
                            libpng.tcz
                            harfbuzz.tcz
                               glib2.tcz
-                                 gamin.tcz
-                                 libelf.tcz
                                  pcre2.tcz
                                     bzip2-lib.tcz
                               graphite2.tcz
@@ -61,8 +57,6 @@ libavdevice7.tcz
                            libpng.tcz
                            harfbuzz.tcz
                               glib2.tcz
-                                 gamin.tcz
-                                 libelf.tcz
                                  pcre2.tcz
                                     bzip2-lib.tcz
                               graphite2.tcz
@@ -76,8 +70,6 @@ libavdevice7.tcz
                      glib2.tcz 
                gdk-pixbuf.tcz
                   glib2.tcz
-                     gamin.tcz
-                     libelf.tcz
                      pcre2.tcz
                         bzip2-lib.tcz
                   libX11.tcz
@@ -92,16 +84,12 @@ libavdevice7.tcz
                      libzstd.tcz
                   shared-mime-info.tcz
                      glib2.tcz
-                        gamin.tcz
-                        libelf.tcz
                         pcre2.tcz
                            bzip2-lib.tcz
                      libxml2.tcz
                         liblzma.tcz
             cairo.tcz
                glib2.tcz
-                  gamin.tcz
-                  libelf.tcz
                   pcre2.tcz
                      bzip2-lib.tcz
                fontconfig.tcz
@@ -110,8 +98,6 @@ libavdevice7.tcz
                      libpng.tcz
                      harfbuzz.tcz
                         glib2.tcz
-                           gamin.tcz
-                           libelf.tcz
                            pcre2.tcz
                               bzip2-lib.tcz
                         graphite2.tcz
@@ -158,8 +144,6 @@ libavdevice7.tcz
                libpng.tcz
                harfbuzz.tcz
                   glib2.tcz
-                     gamin.tcz
-                     libelf.tcz
                      pcre2.tcz
                         bzip2-lib.tcz
                   graphite2.tcz
@@ -176,12 +160,12 @@ libavdevice7.tcz
             libXau.tcz
             libXdmcp.tcz
    libasound.tcz
-      alsa-modules-6.12.25-piCore-v8.tcz
+      alsa-modules-6.18.16-piCore-v8.tcz
    libv4l2.tcz
-      v4l-dvb-6.12.25-piCore-v8.tcz
-         alsa-modules-6.12.25-piCore-v8.tcz
-         graphics-6.12.25-piCore-v8.tcz
-            alsa-modules-6.12.25-piCore-v8.tcz
+      v4l-dvb-6.18.16-piCore-v8.tcz
+         alsa-modules-6.18.16-piCore-v8.tcz
+         graphics-6.18.16-piCore-v8.tcz
+            alsa-modules-6.18.16-piCore-v8.tcz
       libjpeg-turbo.tcz
       udev-lib.tcz
    libpulseaudio.tcz
@@ -194,6 +178,7 @@ libavdevice7.tcz
       libcap.tcz
       libICE.tcz
       libSM.tcz
+         libICE.tcz
       libXtst.tcz
          libXi.tcz
             libXext.tcz
@@ -205,13 +190,11 @@ libavdevice7.tcz
          flac.tcz
             libogg.tcz
          libasound.tcz
-            alsa-modules-6.12.25-piCore-v8.tcz
+            alsa-modules-6.18.16-piCore-v8.tcz
          libvorbis.tcz
             libogg.tcz
          sqlite3.tcz
       glib2.tcz
-         gamin.tcz
-         libelf.tcz
          pcre2.tcz
             bzip2-lib.tcz
       speexdsp.tcz

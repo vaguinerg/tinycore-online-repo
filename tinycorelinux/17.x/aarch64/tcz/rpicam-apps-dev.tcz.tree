@@ -42,8 +42,6 @@ rpicam-apps-dev.tcz
          gst-plugins-base.tcz
             gstreamer.tcz
                glib2.tcz
-                  gamin.tcz
-                  libelf.tcz
                   pcre2.tcz
                      bzip2-lib.tcz
                gmp.tcz
@@ -57,27 +55,19 @@ rpicam-apps-dev.tcz
             gudev-lib.tcz
                udev-lib.tcz
                glib2.tcz
-                  gamin.tcz
-                  libelf.tcz
                   pcre2.tcz
                      bzip2-lib.tcz
          gstreamer-dev.tcz
             gstreamer.tcz
                glib2.tcz
-                  gamin.tcz
-                  libelf.tcz
                   pcre2.tcz
                      bzip2-lib.tcz
                gmp.tcz
             glib2-dev.tcz
                glib2-python.tcz
                   glib2.tcz
-                     gamin.tcz
-                     libelf.tcz
                      pcre2.tcz
                         bzip2-lib.tcz
-                  pcre2.tcz
-                     bzip2-lib.tcz
                   python3.11.tcz
                      bzip2-lib.tcz
                      readline.tcz
@@ -88,10 +78,6 @@ rpicam-apps-dev.tcz
                         ca-certificates.tcz
                      sqlite3.tcz
                      ncurses.tcz
-               gamin-dev.tcz
-                  gamin.tcz
-               libelf-dev.tcz
-                  libelf.tcz
                pcre2-dev.tcz
                   pcre2.tcz
                      bzip2-lib.tcz
@@ -109,19 +95,13 @@ rpicam-apps-dev.tcz
          graphene-dev.tcz
             graphene.tcz
                glib2.tcz
-                  gamin.tcz
-                  libelf.tcz
                   pcre2.tcz
                      bzip2-lib.tcz
             glib2-dev.tcz
                glib2-python.tcz
                   glib2.tcz
-                     gamin.tcz
-                     libelf.tcz
                      pcre2.tcz
                         bzip2-lib.tcz
-                  pcre2.tcz
-                     bzip2-lib.tcz
                   python3.11.tcz
                      bzip2-lib.tcz
                      readline.tcz
@@ -132,10 +112,6 @@ rpicam-apps-dev.tcz
                         ca-certificates.tcz
                      sqlite3.tcz
                      ncurses.tcz
-               gamin-dev.tcz
-                  gamin.tcz
-               libelf-dev.tcz
-                  libelf.tcz
                pcre2-dev.tcz
                   pcre2.tcz
                      bzip2-lib.tcz
@@ -625,8 +601,6 @@ rpicam-apps-dev.tcz
             pango.tcz
                cairo.tcz
                   glib2.tcz
-                     gamin.tcz
-                     libelf.tcz
                      pcre2.tcz
                         bzip2-lib.tcz
                   fontconfig.tcz
@@ -635,8 +609,6 @@ rpicam-apps-dev.tcz
                         libpng.tcz
                         harfbuzz.tcz
                            glib2.tcz
-                              gamin.tcz
-                              libelf.tcz
                               pcre2.tcz
                                  bzip2-lib.tcz
                            graphite2.tcz
@@ -659,8 +631,6 @@ rpicam-apps-dev.tcz
                         libpng.tcz
                         harfbuzz.tcz
                            glib2.tcz
-                              gamin.tcz
-                              libelf.tcz
                               pcre2.tcz
                                  bzip2-lib.tcz
                            graphite2.tcz
@@ -675,8 +645,6 @@ rpicam-apps-dev.tcz
             cairo-dev.tcz
                cairo.tcz
                   glib2.tcz
-                     gamin.tcz
-                     libelf.tcz
                      pcre2.tcz
                         bzip2-lib.tcz
                   fontconfig.tcz
@@ -685,8 +653,6 @@ rpicam-apps-dev.tcz
                         libpng.tcz
                         harfbuzz.tcz
                            glib2.tcz
-                              gamin.tcz
-                              libelf.tcz
                               pcre2.tcz
                                  bzip2-lib.tcz
                            graphite2.tcz
@@ -705,12 +671,8 @@ rpicam-apps-dev.tcz
                glib2-dev.tcz
                   glib2-python.tcz
                      glib2.tcz
-                        gamin.tcz
-                        libelf.tcz
                         pcre2.tcz
                            bzip2-lib.tcz
-                     pcre2.tcz
-                        bzip2-lib.tcz
                      python3.11.tcz
                         bzip2-lib.tcz
                         readline.tcz
@@ -721,10 +683,6 @@ rpicam-apps-dev.tcz
                            ca-certificates.tcz
                         sqlite3.tcz
                         ncurses.tcz
-                  gamin-dev.tcz
-                     gamin.tcz
-                  libelf-dev.tcz
-                     libelf.tcz
                   pcre2-dev.tcz
                      pcre2.tcz
                         bzip2-lib.tcz
@@ -739,8 +697,6 @@ rpicam-apps-dev.tcz
                         libpng.tcz
                         harfbuzz.tcz
                            glib2.tcz
-                              gamin.tcz
-                              libelf.tcz
                               pcre2.tcz
                                  bzip2-lib.tcz
                            graphite2.tcz
@@ -752,8 +708,6 @@ rpicam-apps-dev.tcz
                         libpng.tcz
                         harfbuzz.tcz
                            glib2.tcz
-                              gamin.tcz
-                              libelf.tcz
                               pcre2.tcz
                                  bzip2-lib.tcz
                            graphite2.tcz
@@ -765,20 +719,14 @@ rpicam-apps-dev.tcz
                         harfbuzz-bin.tcz
                            harfbuzz.tcz
                               glib2.tcz
-                                 gamin.tcz
-                                 libelf.tcz
                                  pcre2.tcz
                                     bzip2-lib.tcz
                               graphite2.tcz
                         glib2-dev.tcz
                            glib2-python.tcz
                               glib2.tcz
-                                 gamin.tcz
-                                 libelf.tcz
                                  pcre2.tcz
                                     bzip2-lib.tcz
-                              pcre2.tcz
-                                 bzip2-lib.tcz
                               python3.11.tcz
                                  bzip2-lib.tcz
                                  readline.tcz
@@ -789,10 +737,6 @@ rpicam-apps-dev.tcz
                                     ca-certificates.tcz
                                  sqlite3.tcz
                                  ncurses.tcz
-                           gamin-dev.tcz
-                              gamin.tcz
-                           libelf-dev.tcz
-                              libelf.tcz
                            pcre2-dev.tcz
                               pcre2.tcz
                                  bzip2-lib.tcz
@@ -840,8 +784,6 @@ rpicam-apps-dev.tcz
                         libpng.tcz
                         harfbuzz.tcz
                            glib2.tcz
-                              gamin.tcz
-                              libelf.tcz
                               pcre2.tcz
                                  bzip2-lib.tcz
                            graphite2.tcz
@@ -858,8 +800,6 @@ rpicam-apps-dev.tcz
                         libpng.tcz
                         harfbuzz.tcz
                            glib2.tcz
-                              gamin.tcz
-                              libelf.tcz
                               pcre2.tcz
                                  bzip2-lib.tcz
                            graphite2.tcz
@@ -871,8 +811,6 @@ rpicam-apps-dev.tcz
                         libpng.tcz
                         harfbuzz.tcz
                            glib2.tcz
-                              gamin.tcz
-                              libelf.tcz
                               pcre2.tcz
                                  bzip2-lib.tcz
                            graphite2.tcz
@@ -884,20 +822,14 @@ rpicam-apps-dev.tcz
                         harfbuzz-bin.tcz
                            harfbuzz.tcz
                               glib2.tcz
-                                 gamin.tcz
-                                 libelf.tcz
                                  pcre2.tcz
                                     bzip2-lib.tcz
                               graphite2.tcz
                         glib2-dev.tcz
                            glib2-python.tcz
                               glib2.tcz
-                                 gamin.tcz
-                                 libelf.tcz
                                  pcre2.tcz
                                     bzip2-lib.tcz
-                              pcre2.tcz
-                                 bzip2-lib.tcz
                               python3.11.tcz
                                  bzip2-lib.tcz
                                  readline.tcz
@@ -908,10 +840,6 @@ rpicam-apps-dev.tcz
                                     ca-certificates.tcz
                                  sqlite3.tcz
                                  ncurses.tcz
-                           gamin-dev.tcz
-                              gamin.tcz
-                           libelf-dev.tcz
-                              libelf.tcz
                            pcre2-dev.tcz
                               pcre2.tcz
                                  bzip2-lib.tcz
@@ -990,8 +918,6 @@ rpicam-apps-dev.tcz
             gudev-lib.tcz
                udev-lib.tcz
                glib2.tcz
-                  gamin.tcz
-                  libelf.tcz
                   pcre2.tcz
                      bzip2-lib.tcz
             udev-lib-dev.tcz
@@ -999,12 +925,8 @@ rpicam-apps-dev.tcz
             glib2-dev.tcz
                glib2-python.tcz
                   glib2.tcz
-                     gamin.tcz
-                     libelf.tcz
                      pcre2.tcz
                         bzip2-lib.tcz
-                  pcre2.tcz
-                     bzip2-lib.tcz
                   python3.11.tcz
                      bzip2-lib.tcz
                      readline.tcz
@@ -1015,10 +937,6 @@ rpicam-apps-dev.tcz
                         ca-certificates.tcz
                      sqlite3.tcz
                      ncurses.tcz
-               gamin-dev.tcz
-                  gamin.tcz
-               libelf-dev.tcz
-                  libelf.tcz
                pcre2-dev.tcz
                   pcre2.tcz
                      bzip2-lib.tcz

@@ -989,6 +989,15 @@
   "git.tcz": [
     "CLI DEVELOPMENT GIT"
   ],
+  "gjs-dev.tcz": [
+    "java script c c++ gnome dev"
+  ],
+  "gjs-gir.tcz": [
+    "java script c c++ gnome gir"
+  ],
+  "gjs.tcz": [
+    "java script c c++ gnome"
+  ],
   "glib-networking.tcz": [
     "LIBRARY NETWORK GLIB GLIB2"
   ],
@@ -1616,15 +1625,6 @@
   "iceauth.tcz": [
     "x11 ice"
   ],
-  "icu-bin.tcz": [
-    "icu c c++ unicode globalization"
-  ],
-  "icu-dev.tcz": [
-    "LIBRARY ICU dev"
-  ],
-  "icu.tcz": [
-    "LIBRARY ICU"
-  ],
   "icu70-bin.tcz": [
     "icu c c++ unicode globalization"
   ],
@@ -1641,6 +1641,15 @@
     "LIBRARY ICU dev"
   ],
   "icu73.tcz": [
+    "LIBRARY ICU"
+  ],
+  "icu78-bin.tcz": [
+    "icu c c++ unicode globalization"
+  ],
+  "icu78-dev.tcz": [
+    "LIBRARY ICU dev"
+  ],
+  "icu78.tcz": [
     "LIBRARY ICU"
   ],
   "imlib2-bin.tcz": [
@@ -1750,6 +1759,12 @@
   ],
   "jpegexiforient.tcz": [
     "jpeg jpg exif orientation tag"
+  ],
+  "js140-dev.tcz": [
+    "java script c c++ dev"
+  ],
+  "js140.tcz": [
+    "java script c c++"
   ],
   "json-c-dev.tcz": [
     "json c object model dev"
@@ -3428,12 +3443,6 @@
   "node-doc.tcz": [
     "man pages JavaScript runtime environment"
   ],
-  "node.js-dev.tcz": [
-    "js java script dev"
-  ],
-  "node.js.tcz": [
-    "js java script"
-  ],
   "node.tcz": [
     "js java script node.js node npm"
   ],
@@ -4493,12 +4502,6 @@
   "vte-2.91.tcz": [
     "terminal gtk3"
   ],
-  "vte-dev.tcz": [
-    "gtk3 terminal"
-  ],
-  "vte-gir.tcz": [
-    "gtk3 terminal gir"
-  ],
   "vte-gtk4-dev.tcz": [
     "terminal emulator gtk+ gtk4 dev"
   ],
@@ -4507,9 +4510,6 @@
   ],
   "vte-gtk4.tcz": [
     "terminal emulator gtk+ gtk4"
-  ],
-  "vte.tcz": [
-    "gtk3 terminal"
   ],
   "vtun.tcz": [
     "NETWORK SECURITY"

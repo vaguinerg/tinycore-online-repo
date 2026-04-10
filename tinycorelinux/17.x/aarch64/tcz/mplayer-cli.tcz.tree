@@ -8,8 +8,6 @@ mplayer-cli.tcz
             libpng.tcz
             harfbuzz.tcz
                glib2.tcz
-                  gamin.tcz
-                  libelf.tcz
                   pcre2.tcz
                      bzip2-lib.tcz
                graphite2.tcz
@@ -35,8 +33,6 @@ mplayer-cli.tcz
             pango.tcz
                cairo.tcz
                   glib2.tcz
-                     gamin.tcz
-                     libelf.tcz
                      pcre2.tcz
                         bzip2-lib.tcz
                   fontconfig.tcz
@@ -45,8 +41,6 @@ mplayer-cli.tcz
                         libpng.tcz
                         harfbuzz.tcz
                            glib2.tcz
-                              gamin.tcz
-                              libelf.tcz
                               pcre2.tcz
                                  bzip2-lib.tcz
                            graphite2.tcz
@@ -69,8 +63,6 @@ mplayer-cli.tcz
                         libpng.tcz
                         harfbuzz.tcz
                            glib2.tcz
-                              gamin.tcz
-                              libelf.tcz
                               pcre2.tcz
                                  bzip2-lib.tcz
                            graphite2.tcz
@@ -84,8 +76,6 @@ mplayer-cli.tcz
                   glib2.tcz 
             gdk-pixbuf.tcz
                glib2.tcz
-                  gamin.tcz
-                  libelf.tcz
                   pcre2.tcz
                      bzip2-lib.tcz
                libX11.tcz
@@ -100,16 +90,12 @@ mplayer-cli.tcz
                   libzstd.tcz
                shared-mime-info.tcz
                   glib2.tcz
-                     gamin.tcz
-                     libelf.tcz
                      pcre2.tcz
                         bzip2-lib.tcz
                   libxml2.tcz
                      liblzma.tcz
          cairo.tcz
             glib2.tcz
-               gamin.tcz
-               libelf.tcz
                pcre2.tcz
                   bzip2-lib.tcz
             fontconfig.tcz
@@ -118,8 +104,6 @@ mplayer-cli.tcz
                   libpng.tcz
                   harfbuzz.tcz
                      glib2.tcz
-                        gamin.tcz
-                        libelf.tcz
                         pcre2.tcz
                            bzip2-lib.tcz
                      graphite2.tcz
@@ -153,6 +137,7 @@ mplayer-cli.tcz
       libavutil.tcz
    libmpeg2.tcz
       libSM.tcz
+         libICE.tcz
       libXext.tcz
          libX11.tcz
             libxcb.tcz
@@ -175,6 +160,7 @@ mplayer-cli.tcz
       libcap.tcz
       libICE.tcz
       libSM.tcz
+         libICE.tcz
       libXtst.tcz
          libXi.tcz
             libXext.tcz
@@ -186,13 +172,11 @@ mplayer-cli.tcz
          flac.tcz
             libogg.tcz
          libasound.tcz
-            alsa-modules-6.12.25-piCore-v8.tcz
+            alsa-modules-6.18.16-piCore-v8.tcz
          libvorbis.tcz
             libogg.tcz
          sqlite3.tcz
       glib2.tcz
-         gamin.tcz
-         libelf.tcz
          pcre2.tcz
             bzip2-lib.tcz
       speexdsp.tcz
@@ -200,13 +184,13 @@ mplayer-cli.tcz
             libogg.tcz
    jack.tcz
       libasound.tcz
-         alsa-modules-6.12.25-piCore-v8.tcz
+         alsa-modules-6.18.16-piCore-v8.tcz
       libsamplerate.tcz
          libsndfile.tcz
             flac.tcz
                libogg.tcz
             libasound.tcz
-               alsa-modules-6.12.25-piCore-v8.tcz
+               alsa-modules-6.18.16-piCore-v8.tcz
             libvorbis.tcz
                libogg.tcz
             sqlite3.tcz
