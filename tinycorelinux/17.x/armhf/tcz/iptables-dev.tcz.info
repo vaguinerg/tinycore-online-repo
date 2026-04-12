@@ -1,14 +1,17 @@
 Title:          iptables-dev.tcz
 Description:    Userspace CLI utility to configure packet filtering rulesets
-Version:        1.6.1
+Version:        1.8.13
 Author:         Various
 Original-site:  http://netfilter.org
 Copying-policy: GPL v2
-Size:           45k
+Size:           4k
 Extension_by:   bmarkus
 Tags:           CLI SECURITY
 Comments:       Dev files
                 ----
-                Compiled for piCore 8.x
+                Contains only iptables-nft compatability layer
+                Iptables is no longer compatabile with the 6.18.y kernels
+                ----
 Change-log:     2016/05/21 First version, 1.4.21
-Current:        2017/01/29 Updated to 1.6.1
+                2017/01/29 Updated to 1.6.1
+Current:        2026/04/11 Updated to 1.8.13 (paul-123)

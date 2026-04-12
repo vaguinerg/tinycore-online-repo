@@ -1,14 +1,17 @@
 Title:          iptables.tcz
 Description:    Userspace CLI utility to configure packet filtering rulesets
-Version:        1.8.6
+Version:        1.8.13
 Author:         Various
 Original-site:  http://netfilter.org
 Copying-policy: GPL v2
-Size:           560k
+Size:           444.0K
 Extension_by:   paul-123
 Tags:           CLI SECURITY
 Comments:       Binaries only
                 ----
-                Compiled for piCore64 12.x
+                Contains only iptables-nft compatability layer
+                Iptables is no longer compatabile with the 6.18.y kernels
+                ----
 Change-log:     
-Current:        2020/12/11 First version 1.8.6
+                2020/12/11 First version 1.8.6
+Current:        2026/04/11 Upgrade 1.8.6 -> 1.8.13 (paul-123)
