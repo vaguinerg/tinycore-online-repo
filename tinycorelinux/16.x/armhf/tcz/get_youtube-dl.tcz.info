@@ -1,6 +1,6 @@
 Title:		get_youtube-dl.tcz
 Description:	Script to create youtube-dl.tcz for youtube-dl or yt-dlp
-Version:	202305
+Version:	202604
 Author:		nitram, CNK
 Original-site:	http://forum.tinycorelinux.net/index.php/topic,20524.0.html
 Copying-policy:	http://unlicense.org
@@ -19,7 +19,6 @@ Comments:	Run 'get_youtube-dl.sh' to get the latest version of
 		download the specified release type and not prompt for
 		user input:
 
-		youtube-dl		-- Latest official release
 		youtube-dl_daily	-- Latest daily dev. build
 		yt-dlp			-- Youtube-dl fork (Python 3)
 		[custom URL]		-- User-provided link to
@@ -44,5 +43,7 @@ Change-log:	2016/11/19 Version 201611 for TC7 (nitram)
                  script renamed get_youtube-dl.sh to prevent OnDemand
                  menu autorun, improved logic and runtime efficiency,
                  proper TC upgrade protocol
-Current:	2023/05/27 Version 202305 for TC14, TC Pure64 14, and
+		2023/05/27 Version 202305 for TC14, TC Pure64 14, and
 		 PiCore 13. (CNK) - Changes at "Original-site" link.
+Current:	2026/04/09 Version 202604: Change yt-dlp python dep to
+                 3.14 and name extension yt-dlp.tcz. Update URLs. (CNK)

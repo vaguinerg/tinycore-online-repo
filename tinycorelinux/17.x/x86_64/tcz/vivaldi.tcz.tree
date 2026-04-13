@@ -1,10 +1,5 @@
 vivaldi.tcz
-   bash.tcz
-      readline.tcz
-         ncursesw.tcz
-   nss.tcz
-      nspr.tcz
-      sqlite3.tcz
+   libEG.tcz
    libcups.tcz
       libavahi.tcz
          dbus.tcz
@@ -37,9 +32,16 @@ vivaldi.tcz
             libunistring.tcz
             ncursesw.tcz
          libzstd.tcz
+   nss.tcz
+      nspr.tcz
+      sqlite3.tcz
    udev254-lib.tcz
       libcap.tcz
          attr.tcz
+   lnspr.tcz
+   bash.tcz
+      readline.tcz
+         ncursesw.tcz
    xdg-desktop-portal.tcz
       pipewire.tcz
          pulseaudio.tcz
