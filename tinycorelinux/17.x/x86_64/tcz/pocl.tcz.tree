@@ -1,9 +1,16 @@
 pocl.tcz
    clang.tcz
-      llvm19-dev.tcz
-         llvm19-bin.tcz
-            llvm19-lib.tcz
-               libffi7.tcz
+      clang_libs.tcz
+         llvm22-lib.tcz
+            libffi.tcz
+            libxml2.tcz
+               liblzma.tcz
+            libzstd.tcz
+            ncursesw.tcz
+      llvm22-dev.tcz
+         llvm22-bin.tcz
+            llvm22-lib.tcz
+               libffi.tcz
                libxml2.tcz
                   liblzma.tcz
                libzstd.tcz

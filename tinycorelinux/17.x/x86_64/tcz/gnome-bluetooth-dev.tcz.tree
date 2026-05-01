@@ -389,6 +389,10 @@ gnome-bluetooth-dev.tcz
                liblzma.tcz
             yaml.tcz
             libstemmer.tcz
+            libxmlb.tcz
+               glib2.tcz
+                  libffi.tcz
+                  pcre21042.tcz
       libnotify.tcz
          notification-daemon.tcz
             gtk3.tcz
@@ -1308,6 +1312,10 @@ gnome-bluetooth-dev.tcz
                liblzma.tcz
             yaml.tcz
             libstemmer.tcz
+            libxmlb.tcz
+               glib2.tcz
+                  libffi.tcz
+                  pcre21042.tcz
       gtk4-dev.tcz
          gtk4.tcz
             libepoxy.tcz
@@ -16671,6 +16679,10 @@ gnome-bluetooth-dev.tcz
                liblzma.tcz
             yaml.tcz
             libstemmer.tcz
+            libxmlb.tcz
+               glib2.tcz
+                  libffi.tcz
+                  pcre21042.tcz
          glib2-dev.tcz
             glib2-python.tcz
                glib2.tcz
@@ -16730,6 +16742,39 @@ gnome-bluetooth-dev.tcz
             yaml.tcz
          libstemmer-dev.tcz
             libstemmer.tcz
+         libxmlb-dev.tcz
+            libxmlb.tcz
+               glib2.tcz
+                  libffi.tcz
+                  pcre21042.tcz
+            glib2-dev.tcz
+               glib2-python.tcz
+                  glib2.tcz
+                     libffi.tcz
+                     pcre21042.tcz
+                  python3.14.tcz
+                     openssl.tcz
+                     sqlite3.tcz
+                     gdbm.tcz
+                     bzip2-lib.tcz
+                     liblzma.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     libffi.tcz
+                     libnsl.tcz
+                        libtirpc.tcz
+               pcre21042-dev.tcz
+                  pcre21042.tcz
+                  bzip2-dev.tcz
+                     bzip2.tcz
+                        bzip2-lib.tcz
+                  readline-dev.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     ncursesw-dev.tcz
+                        ncursesw.tcz
+               libffi-dev.tcz
+                  libffi.tcz
    libnotify-dev.tcz
       libnotify.tcz
          notification-daemon.tcz
