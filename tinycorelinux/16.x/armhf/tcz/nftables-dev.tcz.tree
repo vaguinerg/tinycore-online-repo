@@ -1,0 +1,21 @@
+nftables-dev.tcz
+   libmnl-dev.tcz
+      libmnl.tcz
+         ipv6-netfilter-6.12.25-piCore-v7.tcz
+   libnftnl-dev.tcz
+      libmnl-dev.tcz
+         libmnl.tcz
+            ipv6-netfilter-6.12.25-piCore-v7.tcz
+      libnftnl.tcz
+         libmnl.tcz
+            ipv6-netfilter-6.12.25-piCore-v7.tcz
+   jansson-dev.tcz
+      jansson.tcz
+   readline-dev.tcz
+      readline.tcz
+         ncurses.tcz
+      ncurses-dev.tcz
+         ncurses.tcz
+   gmp-dev.tcz
+      gmp.tcz
+
