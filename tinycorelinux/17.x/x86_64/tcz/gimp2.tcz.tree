@@ -194,7 +194,14 @@ gimp2.tcz
          libffi.tcz
          pcre21042.tcz
    libwmf.tcz
-      freetype.tcz  
+      freetype.tcz
+         libpng.tcz
+         harfbuzz.tcz
+            glib2.tcz
+               libffi.tcz
+               pcre21042.tcz
+            graphite.tcz
+         bzip2-lib.tcz
       libX11.tcz
          libxcb.tcz
             libXau.tcz
@@ -221,7 +228,16 @@ gimp2.tcz
       glib2.tcz
          libffi.tcz
          pcre21042.tcz
-      fontconfig.tcz        
+      fontconfig.tcz
+         expat2.tcz
+         freetype.tcz
+            libpng.tcz
+            harfbuzz.tcz
+               glib2.tcz
+                  libffi.tcz
+                  pcre21042.tcz
+               graphite.tcz
+            bzip2-lib.tcz
    alsa.tcz
       alsa-modules-6.18.2-tinycore64.tcz
          input-joystick-6.18.2-tinycore64.tcz
@@ -302,9 +318,34 @@ gimp2.tcz
       json-c.tcz
       gcc_libs.tcz
    gtk2.tcz
-      libXcursor.tcz 
-      libXinerama.tcz 
-      libXrandr.tcz 
+      libXcursor.tcz
+         libXrender.tcz
+            libX11.tcz
+               libxcb.tcz
+                  libXau.tcz
+                  libXdmcp.tcz
+         libXfixes.tcz
+            libX11.tcz
+               libxcb.tcz
+                  libXau.tcz
+                  libXdmcp.tcz
+      libXinerama.tcz
+         libXext.tcz
+            libX11.tcz
+               libxcb.tcz
+                  libXau.tcz
+                  libXdmcp.tcz
+      libXrandr.tcz
+         libXext.tcz
+            libX11.tcz
+               libxcb.tcz
+                  libXau.tcz
+                  libXdmcp.tcz
+         libXrender.tcz
+            libX11.tcz
+               libxcb.tcz
+                  libXau.tcz
+                  libXdmcp.tcz
       pango.tcz
          cairo.tcz
             glib2.tcz
@@ -346,8 +387,17 @@ gimp2.tcz
             glib2.tcz
                libffi.tcz
                pcre21042.tcz
-      libXcomposite.tcz 
-      libXdamage.tcz 
+      libXcomposite.tcz
+         libX11.tcz
+            libxcb.tcz
+               libXau.tcz
+               libXdmcp.tcz
+      libXdamage.tcz
+         libXfixes.tcz
+            libX11.tcz
+               libxcb.tcz
+                  libXau.tcz
+                  libXdmcp.tcz
       at-spi2-core.tcz
          dbus.tcz
             expat2.tcz
@@ -478,7 +528,12 @@ gimp2.tcz
                   gdk-pixbuf2-xlib.tcz
                dav1d.tcz
             hicolor-icon-theme.tcz
-      shared-mime-info.tcz             
+      shared-mime-info.tcz
+         glib2.tcz
+            libffi.tcz
+            pcre21042.tcz
+         libxml2.tcz
+            liblzma.tcz
    iso-codes.tcz
    gtk-update-icon-cache.tcz
       gdk-pixbuf2.tcz

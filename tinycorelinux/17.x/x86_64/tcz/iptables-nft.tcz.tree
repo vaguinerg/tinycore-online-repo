@@ -2,6 +2,15 @@ iptables-nft.tcz
    libnetfilter_conntrack.tcz
       libnfnetlink.tcz
       libmnl.tcz
-   nftables.tcz 
-   bash.tcz  
+   nftables.tcz
+      ipv6-netfilter-6.18.2-tinycore64.tcz
+      libnftnl.tcz
+         libmnl.tcz
+      gmp.tcz
+      readline.tcz
+         ncursesw.tcz
+      jansson.tcz
+   bash.tcz
+      readline.tcz
+         ncursesw.tcz
 

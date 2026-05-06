@@ -123,7 +123,7 @@ audacity.tcz
                libffi.tcz
                pcre21042.tcz
             aspell.tcz
-               ncursesw.tcz 
+               ncursesw.tcz
             hunspell.tcz
                readline.tcz
                   ncursesw.tcz
@@ -748,7 +748,7 @@ audacity.tcz
                libffi.tcz
                pcre21042.tcz
             aspell.tcz
-               ncursesw.tcz 
+               ncursesw.tcz
             hunspell.tcz
                readline.tcz
                   ncursesw.tcz
@@ -1091,7 +1091,13 @@ audacity.tcz
                      libxcb.tcz
                         libXau.tcz
                         libXdmcp.tcz
-      libXt.tcz  
+      libXt.tcz
+         libSM.tcz
+            libICE.tcz
+         libX11.tcz
+            libxcb.tcz
+               libXau.tcz
+               libXdmcp.tcz
    gcc_libs.tcz
    portaudio.tcz
       libasound.tcz
@@ -1103,7 +1109,7 @@ audacity.tcz
       libvorbis.tcz
          libogg.tcz
       opus.tcz
-      libmpg123.tcz 
+      libmpg123.tcz
       lame.tcz
    libid3tag.tcz
    lame.tcz
@@ -1111,7 +1117,7 @@ audacity.tcz
       portaudio.tcz
          libasound.tcz
       sdl2.tcz
-      libmpg123.tcz 
+      libmpg123.tcz
    opusfile.tcz
       opus.tcz
       libogg.tcz
@@ -1196,5 +1202,10 @@ audacity.tcz
             gdk-pixbuf2-xlib.tcz
          dav1d.tcz
       hicolor-icon-theme.tcz
-   shared-mime-info.tcz           
+   shared-mime-info.tcz
+      glib2.tcz
+         libffi.tcz
+         pcre21042.tcz
+      libxml2.tcz
+         liblzma.tcz
 

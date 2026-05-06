@@ -8,7 +8,7 @@ jack-dev.tcz
             libvorbis.tcz
                libogg.tcz
             opus.tcz
-            libmpg123.tcz 
+            libmpg123.tcz
             lame.tcz
       portaudio.tcz
          libasound.tcz
@@ -31,7 +31,7 @@ jack-dev.tcz
             libvorbis.tcz
                libogg.tcz
             opus.tcz
-            libmpg123.tcz 
+            libmpg123.tcz
             lame.tcz
       libsndfile-dev.tcz
          libsndfile.tcz
@@ -40,14 +40,31 @@ jack-dev.tcz
             libvorbis.tcz
                libogg.tcz
             opus.tcz
-            libmpg123.tcz 
+            libmpg123.tcz
             lame.tcz
-         flac-dev.tcz 
-         libvorbis-dev.tcz   
+         flac-dev.tcz
+            flac.tcz
+               libogg.tcz
+            libogg-dev.tcz
+               libogg.tcz
+         libvorbis-dev.tcz
+            libvorbis.tcz
+               libogg.tcz
+            libogg-dev.tcz
+               libogg.tcz
    portaudio-dev.tcz
       portaudio.tcz
          libasound.tcz
-      alsa-dev.tcz                                      
+      alsa-dev.tcz
+         alsa.tcz
+            alsa-modules-6.18.2-tinycore64.tcz
+               input-joystick-6.18.2-tinycore64.tcz
+            libasound.tcz
+            ncursesw.tcz
+         ncursesw-dev.tcz
+            ncursesw.tcz
+         fftw-dev.tcz
+            fftw.tcz
    opus-dev.tcz
       opus.tcz
 

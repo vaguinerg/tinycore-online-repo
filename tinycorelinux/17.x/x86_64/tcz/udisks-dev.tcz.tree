@@ -44,11 +44,17 @@ udisks-dev.tcz
             gpgme.tcz
                libassuan.tcz
                   libgpg-error.tcz
-            cryptsetup.tcz 
+            cryptsetup.tcz
+               liblvm2.tcz
+                  udev-lib.tcz
+               openssl.tcz
+               json-c.tcz
             glib2.tcz
                libffi.tcz
                pcre21042.tcz
-            nss.tcz    
+            nss.tcz
+               nspr.tcz
+               sqlite3.tcz
          mdadm.tcz
             raid-dm-6.18.2-tinycore64.tcz
          parted.tcz
@@ -229,11 +235,17 @@ udisks-dev.tcz
             gpgme.tcz
                libassuan.tcz
                   libgpg-error.tcz
-            cryptsetup.tcz 
+            cryptsetup.tcz
+               liblvm2.tcz
+                  udev-lib.tcz
+               openssl.tcz
+               json-c.tcz
             glib2.tcz
                libffi.tcz
                pcre21042.tcz
-            nss.tcz    
+            nss.tcz
+               nspr.tcz
+               sqlite3.tcz
          mdadm.tcz
             raid-dm-6.18.2-tinycore64.tcz
          parted.tcz
@@ -281,11 +293,17 @@ udisks-dev.tcz
             gpgme.tcz
                libassuan.tcz
                   libgpg-error.tcz
-            cryptsetup.tcz 
+            cryptsetup.tcz
+               liblvm2.tcz
+                  udev-lib.tcz
+               openssl.tcz
+               json-c.tcz
             glib2.tcz
                libffi.tcz
                pcre21042.tcz
-            nss.tcz    
+            nss.tcz
+               nspr.tcz
+               sqlite3.tcz
          cryptsetup-dev.tcz
             cryptsetup.tcz
                liblvm2.tcz

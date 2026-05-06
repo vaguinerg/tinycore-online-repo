@@ -811,7 +811,7 @@ auto-multiple-choice.tcz
       openexr.tcz
          ilmbase.tcz
    imagemagick.tcz
-      liblcms2.tcz  
+      liblcms2.tcz
       fftw.tcz
       libxml2.tcz
          liblzma.tcz
@@ -838,12 +838,19 @@ auto-multiple-choice.tcz
                libXau.tcz
                libXdmcp.tcz
       gcc_libs.tcz
-      libltdl.tcz      
+      libltdl.tcz
    graphicsmagick.tcz
       jasper2.tcz
          libjpeg-turbo.tcz
       libwmf.tcz
-         freetype.tcz  
+         freetype.tcz
+            libpng.tcz
+            harfbuzz.tcz
+               glib2.tcz
+                  libffi.tcz
+                  pcre21042.tcz
+               graphite.tcz
+            bzip2-lib.tcz
          libX11.tcz
             libxcb.tcz
                libXau.tcz
@@ -870,7 +877,16 @@ auto-multiple-choice.tcz
          glib2.tcz
             libffi.tcz
             pcre21042.tcz
-         fontconfig.tcz        
+         fontconfig.tcz
+            expat2.tcz
+            freetype.tcz
+               libpng.tcz
+               harfbuzz.tcz
+                  glib2.tcz
+                     libffi.tcz
+                     pcre21042.tcz
+                  graphite.tcz
+               bzip2-lib.tcz
       libjxl.tcz
          brotli.tcz
          libhwy.tcz
@@ -898,7 +914,7 @@ auto-multiple-choice.tcz
       libICE.tcz
       libxml2.tcz
          liblzma.tcz
-      gcc_libs.tcz    
+      gcc_libs.tcz
    adwaita-icon-theme.tcz
       gtk-update-icon-cache.tcz
          gdk-pixbuf2.tcz

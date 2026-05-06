@@ -179,10 +179,6 @@ appstream-glib-dev.tcz
          libzstd.tcz
          liblz4.tcz
       nettle3-dev.tcz
-         nettle3.tcz
-            gmp.tcz
-         gmp-dev.tcz
-            gmp.tcz
       acl-dev.tcz
          acl.tcz
             attr.tcz
@@ -949,7 +945,10 @@ appstream-glib-dev.tcz
                               m4.tcz
                   xtrans.tcz
          fribidi-dev.tcz
-            fribidi.tcz   
+            fribidi.tcz
+               glib2.tcz
+                  libffi.tcz
+                  pcre21042.tcz
       rest-dev.tcz
          rest.tcz
             libsoup-gnome.tcz

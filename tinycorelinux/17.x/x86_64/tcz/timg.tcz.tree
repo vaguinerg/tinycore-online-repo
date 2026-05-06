@@ -3,7 +3,14 @@ timg.tcz
       jasper2.tcz
          libjpeg-turbo.tcz
       libwmf.tcz
-         freetype.tcz  
+         freetype.tcz
+            libpng.tcz
+            harfbuzz.tcz
+               glib2.tcz
+                  libffi.tcz
+                  pcre21042.tcz
+               graphite.tcz
+            bzip2-lib.tcz
          libX11.tcz
             libxcb.tcz
                libXau.tcz
@@ -30,7 +37,16 @@ timg.tcz
          glib2.tcz
             libffi.tcz
             pcre21042.tcz
-         fontconfig.tcz        
+         fontconfig.tcz
+            expat2.tcz
+            freetype.tcz
+               libpng.tcz
+               harfbuzz.tcz
+                  glib2.tcz
+                     libffi.tcz
+                     pcre21042.tcz
+                  graphite.tcz
+               bzip2-lib.tcz
       libjxl.tcz
          brotli.tcz
          libhwy.tcz
@@ -58,7 +74,7 @@ timg.tcz
       libICE.tcz
       libxml2.tcz
          liblzma.tcz
-      gcc_libs.tcz    
+      gcc_libs.tcz
    libtiff.tcz
       libjpeg-turbo.tcz
       liblzma.tcz

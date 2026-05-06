@@ -124,7 +124,15 @@ lxterminal.tcz
                   libxcb.tcz
                      libXau.tcz
                      libXdmcp.tcz
-      gnutls3.6.tcz 
+      gnutls3.6.tcz
+         nettle3.tcz
+            gmp.tcz
+         p11-kit.tcz
+            libffi.tcz
+            libtasn1.tcz
+         libidn2.tcz
+            libunistring.tcz
+            ncursesw.tcz
       pcre2.tcz
    harfbuzz.tcz
       glib2.tcz
@@ -137,7 +145,86 @@ lxterminal.tcz
       libxcb.tcz
          libXau.tcz
          libXdmcp.tcz
-   adwaita-icon-theme.tcz 
+   adwaita-icon-theme.tcz
+      gtk-update-icon-cache.tcz
+         gdk-pixbuf2.tcz
+            libtiff.tcz
+               liblzma.tcz
+               libjpeg-turbo.tcz
+               libzstd.tcz
+            libpng.tcz
+            libX11.tcz
+               libxcb.tcz
+                  libXau.tcz
+                  libXdmcp.tcz
+            shared-mime-info.tcz
+               glib2.tcz
+                  libffi.tcz
+                  pcre21042.tcz
+               libxml2.tcz
+                  liblzma.tcz
+            gdk-pixbuf2-xlib.tcz
+         librsvg.tcz
+            pango.tcz
+               cairo.tcz
+                  glib2.tcz
+                     libffi.tcz
+                     pcre21042.tcz
+                  fontconfig.tcz
+                     expat2.tcz
+                     freetype.tcz
+                        libpng.tcz
+                  pixman.tcz
+                  libpng.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
+               harfbuzz.tcz
+                  glib2.tcz
+                     libffi.tcz
+                     pcre21042.tcz
+                  graphite2.tcz
+                  pcre.tcz
+                     bzip2-lib.tcz
+               libXft.tcz
+                  fontconfig.tcz
+                     expat2.tcz
+                     freetype.tcz
+                        libpng.tcz
+                  libXrender.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+               fribidi.tcz
+                  glib2.tcz
+                     libffi.tcz
+                     pcre21042.tcz
+            gdk-pixbuf2.tcz
+               libtiff.tcz
+                  liblzma.tcz
+                  libjpeg-turbo.tcz
+                  libzstd.tcz
+               libpng.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
+               shared-mime-info.tcz
+                  glib2.tcz
+                     libffi.tcz
+                     pcre21042.tcz
+                  libxml2.tcz
+                     liblzma.tcz
+               gdk-pixbuf2-xlib.tcz
+            libcroco.tcz
+               glib2.tcz
+                  libffi.tcz
+                  pcre21042.tcz
+               libxml2.tcz
+                  liblzma.tcz
+         hicolor-icon-theme.tcz
    mononoki-ttf-fonts.tcz
       fontconfig.tcz
          expat2.tcz
@@ -146,5 +233,20 @@ lxterminal.tcz
    ncursesw-terminfo.tcz
       ncursesw-utils.tcz
          ncursesw.tcz
-   glib-networking.tcz  
+   glib-networking.tcz
+      glib2.tcz
+         libffi.tcz
+         pcre21042.tcz
+      gnutls38.tcz
+         nettle39.tcz
+            gmp.tcz
+         p11-kit.tcz
+            libffi.tcz
+            libtasn1.tcz
+         libidn2.tcz
+            libunistring.tcz
+            ncursesw.tcz
+         libzstd.tcz
+      openssl.tcz
+         gcc_libs.tcz
 

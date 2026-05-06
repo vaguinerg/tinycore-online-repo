@@ -88,7 +88,15 @@ wlroots-xwayland.tcz
          spirv-tools.tcz
    libvulkan.tcz
    liblcms2.tcz
-   seatd.tcz 
+   seatd.tcz
    libdisplay-info.tcz
-   libinput.tcz  
+   libinput.tcz
+      mtdev.tcz
+      libevdev.tcz
+      libwacom.tcz
+         gudev-lib.tcz
+            udev-lib.tcz
+            glib2.tcz
+               libffi.tcz
+               pcre21042.tcz
 

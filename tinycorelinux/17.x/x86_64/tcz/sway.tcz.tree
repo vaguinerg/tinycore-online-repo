@@ -271,10 +271,18 @@ sway.tcz
             spirv-tools.tcz
       libvulkan.tcz
       liblcms2.tcz
-      seatd.tcz 
+      seatd.tcz
       libdisplay-info.tcz
-      libinput.tcz  
-   json-c13.tcz 
+      libinput.tcz
+         mtdev.tcz
+         libevdev.tcz
+         libwacom.tcz
+            gudev-lib.tcz
+               udev-lib.tcz
+               glib2.tcz
+                  libffi.tcz
+                  pcre21042.tcz
+   json-c13.tcz
    swaybg.tcz
       cairo.tcz
          glib2.tcz
@@ -313,6 +321,11 @@ sway.tcz
             libxml2.tcz
                liblzma.tcz
          gdk-pixbuf2-xlib.tcz
-      wayland.tcz       
-   graphics-6.18.2-tinycore64.tcz         
+      wayland.tcz
+         libffi.tcz
+         expat2.tcz
+         libxml2.tcz
+            liblzma.tcz
+   graphics-6.18.2-tinycore64.tcz
+      i2c-6.18.2-tinycore64.tcz
 

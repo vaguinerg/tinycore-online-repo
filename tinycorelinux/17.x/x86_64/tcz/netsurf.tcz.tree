@@ -1,8 +1,33 @@
 netsurf.tcz
    gtk2.tcz
-      libXcursor.tcz 
-      libXinerama.tcz 
-      libXrandr.tcz 
+      libXcursor.tcz
+         libXrender.tcz
+            libX11.tcz
+               libxcb.tcz
+                  libXau.tcz
+                  libXdmcp.tcz
+         libXfixes.tcz
+            libX11.tcz
+               libxcb.tcz
+                  libXau.tcz
+                  libXdmcp.tcz
+      libXinerama.tcz
+         libXext.tcz
+            libX11.tcz
+               libxcb.tcz
+                  libXau.tcz
+                  libXdmcp.tcz
+      libXrandr.tcz
+         libXext.tcz
+            libX11.tcz
+               libxcb.tcz
+                  libXau.tcz
+                  libXdmcp.tcz
+         libXrender.tcz
+            libX11.tcz
+               libxcb.tcz
+                  libXau.tcz
+                  libXdmcp.tcz
       pango.tcz
          cairo.tcz
             glib2.tcz
@@ -44,8 +69,17 @@ netsurf.tcz
             glib2.tcz
                libffi.tcz
                pcre21042.tcz
-      libXcomposite.tcz 
-      libXdamage.tcz 
+      libXcomposite.tcz
+         libX11.tcz
+            libxcb.tcz
+               libXau.tcz
+               libXdmcp.tcz
+      libXdamage.tcz
+         libXfixes.tcz
+            libX11.tcz
+               libxcb.tcz
+                  libXau.tcz
+                  libXdmcp.tcz
       at-spi2-core.tcz
          dbus.tcz
             expat2.tcz
@@ -176,7 +210,12 @@ netsurf.tcz
                   gdk-pixbuf2-xlib.tcz
                dav1d.tcz
             hicolor-icon-theme.tcz
-      shared-mime-info.tcz             
+      shared-mime-info.tcz
+         glib2.tcz
+            libffi.tcz
+            pcre21042.tcz
+         libxml2.tcz
+            liblzma.tcz
    curl.tcz
       ca-certificates.tcz
          openssl.tcz

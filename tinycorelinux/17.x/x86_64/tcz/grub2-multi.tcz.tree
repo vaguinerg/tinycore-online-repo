@@ -5,8 +5,11 @@ grub2-multi.tcz
       readline.tcz
          ncursesw.tcz
    mtools.tcz
-      libXau.tcz 
-      libX11.tcz   
+      libXau.tcz
+      libX11.tcz
+         libxcb.tcz
+            libXau.tcz
+            libXdmcp.tcz
    glibc_gconv.tcz
    liblzma.tcz
    liblvm2.tcz

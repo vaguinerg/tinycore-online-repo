@@ -2,8 +2,11 @@ tc-install.tcz
    dosfstools.tcz
    glibc_gconv.tcz
    mtools.tcz
-      libXau.tcz 
-      libX11.tcz   
+      libXau.tcz
+      libX11.tcz
+         libxcb.tcz
+            libXau.tcz
+            libXdmcp.tcz
    perl5.tcz
       bzip2-lib.tcz
    syslinux.tcz

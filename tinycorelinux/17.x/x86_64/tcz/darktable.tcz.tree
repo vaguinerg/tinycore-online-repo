@@ -49,7 +49,14 @@ darktable.tcz
       jasper2.tcz
          libjpeg-turbo.tcz
       libwmf.tcz
-         freetype.tcz  
+         freetype.tcz
+            libpng.tcz
+            harfbuzz.tcz
+               glib2.tcz
+                  libffi.tcz
+                  pcre21042.tcz
+               graphite.tcz
+            bzip2-lib.tcz
          libX11.tcz
             libxcb.tcz
                libXau.tcz
@@ -76,7 +83,16 @@ darktable.tcz
          glib2.tcz
             libffi.tcz
             pcre21042.tcz
-         fontconfig.tcz        
+         fontconfig.tcz
+            expat2.tcz
+            freetype.tcz
+               libpng.tcz
+               harfbuzz.tcz
+                  glib2.tcz
+                     libffi.tcz
+                     pcre21042.tcz
+                  graphite.tcz
+               bzip2-lib.tcz
       libjxl.tcz
          brotli.tcz
          libhwy.tcz
@@ -104,7 +120,7 @@ darktable.tcz
       libICE.tcz
       libxml2.tcz
          liblzma.tcz
-      gcc_libs.tcz    
+      gcc_libs.tcz
    lua-5.4-lib.tcz
    pugixml.tcz
    colord-gtk.tcz
@@ -163,7 +179,27 @@ darktable.tcz
                nss.tcz
                   nspr.tcz
                   sqlite3.tcz
-            libavahi.tcz     
+            libavahi.tcz
+               dbus.tcz
+                  expat2.tcz
+                  elogind.tcz
+                     acl.tcz
+                        attr.tcz
+                     libcap.tcz
+                        attr.tcz
+                     util-linux.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        udev-lib.tcz
+                     linux-pam.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
+               gcc_libs.tcz
+               glib2.tcz
+                  libffi.tcz
+                  pcre21042.tcz
          polkit.tcz
             glib2.tcz
                libffi.tcz

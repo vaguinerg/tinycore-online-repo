@@ -105,7 +105,7 @@ wine.tcz
          libvorbis.tcz
             libogg.tcz
          opus.tcz
-         libmpg123.tcz 
+         libmpg123.tcz
          lame.tcz
       libXtst.tcz
          libXi.tcz
@@ -116,6 +116,7 @@ wine.tcz
                      libXdmcp.tcz
       libICE.tcz
       libSM.tcz
+         libICE.tcz
    libxslt.tcz
       libxml2.tcz
          liblzma.tcz
@@ -178,7 +179,27 @@ wine.tcz
          nss.tcz
             nspr.tcz
             sqlite3.tcz
-      libavahi.tcz     
+      libavahi.tcz
+         dbus.tcz
+            expat2.tcz
+            elogind.tcz
+               acl.tcz
+                  attr.tcz
+               libcap.tcz
+                  attr.tcz
+               util-linux.tcz
+                  readline.tcz
+                     ncursesw.tcz
+                  udev-lib.tcz
+               linux-pam.tcz
+            libX11.tcz
+               libxcb.tcz
+                  libXau.tcz
+                  libXdmcp.tcz
+         gcc_libs.tcz
+         glib2.tcz
+            libffi.tcz
+            pcre21042.tcz
    libv4l2.tcz
       libjpeg-turbo.tcz
       v4l-dvb-6.18.2-tinycore64.tcz
@@ -200,7 +221,7 @@ wine.tcz
       portaudio.tcz
          libasound.tcz
       sdl2.tcz
-      libmpg123.tcz 
+      libmpg123.tcz
    glu.tcz
       libGL.tcz
          mesa.tcz

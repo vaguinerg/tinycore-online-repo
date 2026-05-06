@@ -4,6 +4,11 @@ quagga-dev.tcz
       readline7.tcz
          ncursesw.tcz
       libcares.tcz
-   readline-dev.tcz                                                                        
-   libcares-dev.tcz                                                                        
+   readline-dev.tcz
+      readline.tcz
+         ncursesw.tcz
+      ncursesw-dev.tcz
+         ncursesw.tcz
+   libcares-dev.tcz
+      libcares.tcz
 

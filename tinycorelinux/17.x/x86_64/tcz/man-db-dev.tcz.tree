@@ -1,11 +1,32 @@
 man-db-dev.tcz
-   man-db.tcz 
-   libtool.tcz 
-   intltool.tcz 
+   man-db.tcz
+      gdbm.tcz
+      libpipeline.tcz
+      groff.tcz
+         perl5.tcz
+            bzip2-lib.tcz
+      less.tcz
+         ncursesw.tcz
+   libtool.tcz
+      libltdl.tcz
+   intltool.tcz
+      perl_xml_parser.tcz
+         perl5.tcz
+            bzip2-lib.tcz
+         expat2.tcz
+      gettext.tcz
+         ncursesw.tcz
    libpipeline-dev.tcz
       libpipeline.tcz
-      libtool-dev.tcz 
-      automake.tcz 
+      libtool-dev.tcz
+         libtool.tcz
+            libltdl.tcz
+      automake.tcz
+         autoconf.tcz
+            perl_xml_parser.tcz
+               perl5.tcz
+                  bzip2-lib.tcz
+               expat2.tcz
       git.tcz
          curl.tcz
             ca-certificates.tcz
@@ -13,7 +34,12 @@ man-db-dev.tcz
             libzstd.tcz
          expat2.tcz
          pcre21042.tcz
-   gdbm-dev.tcz 
-   groff.tcz 
-   db-dev.tcz 
+   gdbm-dev.tcz
+      gdbm.tcz
+   groff.tcz
+      perl5.tcz
+         bzip2-lib.tcz
+   db-dev.tcz
+      db.tcz
+         libdb.tcz
 

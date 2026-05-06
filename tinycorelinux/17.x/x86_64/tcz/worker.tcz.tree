@@ -32,7 +32,12 @@ worker.tcz
             libxcb.tcz
                libXau.tcz
                libXdmcp.tcz
-   libXinerama.tcz 
+   libXinerama.tcz
+      libXext.tcz
+         libX11.tcz
+            libxcb.tcz
+               libXau.tcz
+               libXdmcp.tcz
    xdg-utils.tcz
       file.tcz
          liblzma.tcz

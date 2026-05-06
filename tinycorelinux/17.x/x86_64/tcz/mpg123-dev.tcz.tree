@@ -3,6 +3,18 @@ mpg123-dev.tcz
       portaudio.tcz
          libasound.tcz
       sdl2.tcz
-      libmpg123.tcz 
-   portaudio-dev.tcz  
+      libmpg123.tcz
+   portaudio-dev.tcz
+      portaudio.tcz
+         libasound.tcz
+      alsa-dev.tcz
+         alsa.tcz
+            alsa-modules-6.18.2-tinycore64.tcz
+               input-joystick-6.18.2-tinycore64.tcz
+            libasound.tcz
+            ncursesw.tcz
+         ncursesw-dev.tcz
+            ncursesw.tcz
+         fftw-dev.tcz
+            fftw.tcz
 

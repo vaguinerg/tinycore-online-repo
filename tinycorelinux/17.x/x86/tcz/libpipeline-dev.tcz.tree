@@ -1,7 +1,14 @@
 libpipeline-dev.tcz
    libpipeline.tcz
-   libtool-dev.tcz 
-   automake.tcz 
+   libtool-dev.tcz
+      libtool.tcz
+         libltdl.tcz
+   automake.tcz
+      autoconf.tcz
+         perl_xml_parser.tcz
+            perl5.tcz
+               bzip2-lib.tcz
+            expat2.tcz
    git.tcz
       curl.tcz
          ca-certificates.tcz

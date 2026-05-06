@@ -1750,7 +1750,10 @@ freerdp2-dev.tcz
                                     m4.tcz
                         xtrans.tcz
                fribidi-dev.tcz
-                  fribidi.tcz   
+                  fribidi.tcz
+                     glib2.tcz
+                        libffi.tcz
+                        pcre21042.tcz
             rest-dev.tcz
                rest.tcz
                   libsoup-gnome.tcz
@@ -4380,7 +4383,10 @@ freerdp2-dev.tcz
                freetype.tcz
                   libpng.tcz
          fribidi-dev.tcz
-            fribidi.tcz   
+            fribidi.tcz
+               glib2.tcz
+                  libffi.tcz
+                  pcre21042.tcz
          harfbuzz-dev.tcz
             harfbuzz-bin.tcz
                harfbuzz.tcz
@@ -4476,7 +4482,18 @@ freerdp2-dev.tcz
                libpng.tcz
             libpng-dev.tcz
                libpng.tcz
-         fontconfig-dev.tcz 
+         fontconfig-dev.tcz
+            fontconfig.tcz
+               expat2.tcz
+               freetype.tcz
+                  libpng.tcz
+            expat2-dev.tcz
+               expat2.tcz
+            freetype-dev.tcz
+               freetype.tcz
+                  libpng.tcz
+               libpng-dev.tcz
+                  libpng.tcz
       xvid-dev.tcz
          xvid.tcz
       libopus-dev.tcz
@@ -4755,7 +4772,10 @@ freerdp2-dev.tcz
                                  m4.tcz
                      xtrans.tcz
             fribidi-dev.tcz
-               fribidi.tcz   
+               fribidi.tcz
+                  glib2.tcz
+                     libffi.tcz
+                     pcre21042.tcz
          gdk-pixbuf2-dev.tcz
             gdk-pixbuf2.tcz
                libtiff.tcz
@@ -4919,10 +4939,6 @@ freerdp2-dev.tcz
                libunistring.tcz
                ncursesw.tcz
          nettle3-dev.tcz
-            nettle3.tcz
-               gmp.tcz
-            gmp-dev.tcz
-               gmp.tcz
          p11-kit-dev.tcz
             p11-kit.tcz
                libffi.tcz
@@ -5105,10 +5121,6 @@ freerdp2-dev.tcz
                libunistring.tcz
                ncursesw.tcz
          nettle3-dev.tcz
-            nettle3.tcz
-               gmp.tcz
-            gmp-dev.tcz
-               gmp.tcz
          p11-kit-dev.tcz
             p11-kit.tcz
                libffi.tcz

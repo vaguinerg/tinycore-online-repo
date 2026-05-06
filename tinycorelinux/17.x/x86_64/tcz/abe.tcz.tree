@@ -8,6 +8,19 @@ abe.tcz
                libXau.tcz
                libXdmcp.tcz
    sdl.tcz
-   libXmu.tcz 
-   libvorbis.tcz 
+   libXmu.tcz
+      libXext.tcz
+         libX11.tcz
+            libxcb.tcz
+               libXau.tcz
+               libXdmcp.tcz
+      libXt.tcz
+         libSM.tcz
+            libICE.tcz
+         libX11.tcz
+            libxcb.tcz
+               libXau.tcz
+               libXdmcp.tcz
+   libvorbis.tcz
+      libogg.tcz
 

@@ -59,7 +59,17 @@ icewm.tcz
                liblzma.tcz
          gdk-pixbuf2-xlib.tcz
       dav1d.tcz
-   dejavu-fonts-ttf.tcz  
+   dejavu-fonts-ttf.tcz
+      fontconfig.tcz
+         expat2.tcz
+         freetype.tcz
+            libpng.tcz
+            harfbuzz.tcz
+               glib2.tcz
+                  libffi.tcz
+                  pcre21042.tcz
+               graphite.tcz
+            bzip2-lib.tcz
    imlib2.tcz
       freetype.tcz
          libpng.tcz
@@ -118,5 +128,6 @@ icewm.tcz
       libSM.tcz
          libICE.tcz
       libICE.tcz
-   perl5.tcz  
+   perl5.tcz
+      bzip2-lib.tcz
 

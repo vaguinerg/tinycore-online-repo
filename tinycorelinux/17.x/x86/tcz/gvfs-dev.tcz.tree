@@ -1435,7 +1435,10 @@ gvfs-dev.tcz
                                     m4.tcz
                         xtrans.tcz
                fribidi-dev.tcz
-                  fribidi.tcz   
+                  fribidi.tcz
+                     glib2.tcz
+                        libffi.tcz
+                        pcre21042.tcz
             rest-dev.tcz
                rest.tcz
                   libsoup-gnome.tcz
@@ -2993,10 +2996,6 @@ gvfs-dev.tcz
                   libunistring.tcz
                   ncursesw.tcz
             nettle3-dev.tcz
-               nettle3.tcz
-                  gmp.tcz
-               gmp-dev.tcz
-                  gmp.tcz
             p11-kit-dev.tcz
                p11-kit.tcz
                   libffi.tcz
@@ -3027,10 +3026,6 @@ gvfs-dev.tcz
          libzstd.tcz
          liblz4.tcz
       nettle3-dev.tcz
-         nettle3.tcz
-            gmp.tcz
-         gmp-dev.tcz
-            gmp.tcz
       acl-dev.tcz
          acl.tcz
             attr.tcz
@@ -3358,10 +3353,6 @@ gvfs-dev.tcz
                   libunistring.tcz
                   ncursesw.tcz
             nettle3-dev.tcz
-               nettle3.tcz
-                  gmp.tcz
-               gmp-dev.tcz
-                  gmp.tcz
             p11-kit-dev.tcz
                p11-kit.tcz
                   libffi.tcz
@@ -3528,7 +3519,18 @@ gvfs-dev.tcz
             libpng.tcz
          libpng-dev.tcz
             libpng.tcz
-      fontconfig-dev.tcz 
+      fontconfig-dev.tcz
+         fontconfig.tcz
+            expat2.tcz
+            freetype.tcz
+               libpng.tcz
+         expat2-dev.tcz
+            expat2.tcz
+         freetype-dev.tcz
+            freetype.tcz
+               libpng.tcz
+            libpng-dev.tcz
+               libpng.tcz
    polkit-dev.tcz
       polkit.tcz
          glib2.tcz
