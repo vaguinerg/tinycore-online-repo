@@ -242,8 +242,14 @@ fltk-1.4-dev.tcz
                libelf.tcz
             pcre2-dev.tcz
                pcre2.tcz
-               bzip2-dev.tcz 
-               readline-dev.tcz 
+               bzip2-dev.tcz
+                  bzip2.tcz
+                     bzip2-lib.tcz
+               readline-dev.tcz
+                  readline.tcz
+                     ncurses.tcz
+                  ncurses-dev.tcz
+                     ncurses.tcz
          fontconfig-dev.tcz
             fontconfig.tcz
                expat2.tcz
@@ -300,8 +306,14 @@ fltk-1.4-dev.tcz
                         libelf.tcz
                      pcre2-dev.tcz
                         pcre2.tcz
-                        bzip2-dev.tcz 
-                        readline-dev.tcz 
+                        bzip2-dev.tcz
+                           bzip2.tcz
+                              bzip2-lib.tcz
+                        readline-dev.tcz
+                           readline.tcz
+                              ncurses.tcz
+                           ncurses-dev.tcz
+                              ncurses.tcz
                   graphite2-dev.tcz
                      graphite2.tcz
                bzip2-dev.tcz
@@ -450,8 +462,14 @@ fltk-1.4-dev.tcz
                         libelf.tcz
                      pcre2-dev.tcz
                         pcre2.tcz
-                        bzip2-dev.tcz 
-                        readline-dev.tcz 
+                        bzip2-dev.tcz
+                           bzip2.tcz
+                              bzip2-lib.tcz
+                        readline-dev.tcz
+                           readline.tcz
+                              ncurses.tcz
+                           ncurses-dev.tcz
+                              ncurses.tcz
                   graphite2-dev.tcz
                      graphite2.tcz
                bzip2-dev.tcz
@@ -499,8 +517,14 @@ fltk-1.4-dev.tcz
                      libelf.tcz
                   pcre2-dev.tcz
                      pcre2.tcz
-                     bzip2-dev.tcz 
-                     readline-dev.tcz 
+                     bzip2-dev.tcz
+                        bzip2.tcz
+                           bzip2-lib.tcz
+                     readline-dev.tcz
+                        readline.tcz
+                           ncurses.tcz
+                        ncurses-dev.tcz
+                           ncurses.tcz
                graphite2-dev.tcz
                   graphite2.tcz
             bzip2-dev.tcz
@@ -536,7 +560,11 @@ fltk-1.4-dev.tcz
                   xorg-proto.tcz
                      util-macros.tcz
       fribidi-dev.tcz
-         fribidi.tcz   
+         fribidi.tcz
+            glib2.tcz
+               gamin.tcz
+               libelf.tcz
+               pcre2.tcz
    libXcursor-dev.tcz
       libXcursor.tcz
          libXrender.tcz
@@ -728,8 +756,14 @@ fltk-1.4-dev.tcz
                      libelf.tcz
                   pcre2-dev.tcz
                      pcre2.tcz
-                     bzip2-dev.tcz 
-                     readline-dev.tcz 
+                     bzip2-dev.tcz
+                        bzip2.tcz
+                           bzip2-lib.tcz
+                     readline-dev.tcz
+                        readline.tcz
+                           ncurses.tcz
+                        ncurses-dev.tcz
+                           ncurses.tcz
                graphite2-dev.tcz
                   graphite2.tcz
             bzip2-dev.tcz
@@ -777,8 +811,14 @@ fltk-1.4-dev.tcz
                   libelf.tcz
                pcre2-dev.tcz
                   pcre2.tcz
-                  bzip2-dev.tcz 
-                  readline-dev.tcz 
+                  bzip2-dev.tcz
+                     bzip2.tcz
+                        bzip2-lib.tcz
+                  readline-dev.tcz
+                     readline.tcz
+                        ncurses.tcz
+                     ncurses-dev.tcz
+                        ncurses.tcz
             graphite2-dev.tcz
                graphite2.tcz
          bzip2-dev.tcz
