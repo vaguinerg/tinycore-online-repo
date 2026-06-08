@@ -51,8 +51,8 @@
 /usr/local/vivaldi/resources/vivaldi/resources/welcomepage-chrome.png
 /usr/local/vivaldi/resources/vivaldi/resources/welcomepage-brave.png
 /usr/local/vivaldi/resources/vivaldi/resources/welcomepage-arc.png
+/usr/local/vivaldi/resources/vivaldi/resources/welcome-control.webp
 /usr/local/vivaldi/resources/vivaldi/resources/welcome-client.webp
-/usr/local/vivaldi/resources/vivaldi/resources/welcome-account.webp
 /usr/local/vivaldi/resources/vivaldi/resources/web_ui/profile_picker/welcomepage-vivaldi.svg
 /usr/local/vivaldi/resources/vivaldi/resources/web_ui/profile_picker/profile-picker.css
 /usr/local/vivaldi/resources/vivaldi/resources/web_ui/profile_picker/index.html
@@ -235,6 +235,7 @@
 /usr/local/vivaldi/resources/vivaldi/resources/share-confetti.gif
 /usr/local/vivaldi/resources/vivaldi/resources/search_startpage.svg
 /usr/local/vivaldi/resources/vivaldi/resources/search_qwant.svg
+/usr/local/vivaldi/resources/vivaldi/resources/search_kagi.svg
 /usr/local/vivaldi/resources/vivaldi/resources/search_ecosia.svg
 /usr/local/vivaldi/resources/vivaldi/resources/search_duckduckgo.svg
 /usr/local/vivaldi/resources/vivaldi/resources/sd_thumbnails/sd_youtube.png
@@ -534,6 +535,8 @@
 /usr/local/vivaldi/resources/vivaldi/resources/pref-lock.svg
 /usr/local/vivaldi/resources/vivaldi/resources/picture_in_picture_exit.svg
 /usr/local/vivaldi/resources/vivaldi/resources/picture_in_picture.svg
+/usr/local/vivaldi/resources/vivaldi/resources/perm-undecided.svg
+/usr/local/vivaldi/resources/vivaldi/resources/perm-denied.svg
 /usr/local/vivaldi/resources/vivaldi/resources/notification_tada.opus
 /usr/local/vivaldi/resources/vivaldi/resources/notification_rooster.opus
 /usr/local/vivaldi/resources/vivaldi/resources/notification_ding.opus
@@ -550,6 +553,7 @@
 /usr/local/vivaldi/resources/vivaldi/resources/mask-add.svg
 /usr/local/vivaldi/resources/vivaldi/resources/mask-add-outline.svg
 /usr/local/vivaldi/resources/vivaldi/resources/mail_notification_icon.png
+/usr/local/vivaldi/resources/vivaldi/resources/inverse-rounding-mask.svg
 /usr/local/vivaldi/resources/vivaldi/resources/icon_notifications.png
 /usr/local/vivaldi/resources/vivaldi/resources/icon_16.png
 /usr/local/vivaldi/resources/vivaldi/resources/icon_128.png
@@ -771,15 +775,24 @@
 /usr/local/vivaldi/resources/vivaldi/resources/check-selected.png
 /usr/local/vivaldi/resources/vivaldi/resources/calendar_web.png
 /usr/local/vivaldi/resources/vivaldi/resources/calendar_caldav.png
+/usr/local/vivaldi/resources/vivaldi/resources/bg_zen-8.jpg
+/usr/local/vivaldi/resources/vivaldi/resources/bg_soria-8.jpg
 /usr/local/vivaldi/resources/vivaldi/resources/bg_richard-horvath-_nWaeTF6qo0-unsplash.webp
 /usr/local/vivaldi/resources/vivaldi/resources/bg_pawel-czerwinski-bWeZR1BQU9o-unsplash.webp
 /usr/local/vivaldi/resources/vivaldi/resources/bg_pawel-czerwinski-Xk7ktUfyaNI-unsplash.webp
 /usr/local/vivaldi/resources/vivaldi/resources/bg_martin-martz-7it4_acM-0M-unsplash.webp
 /usr/local/vivaldi/resources/vivaldi/resources/bg_landscape.webp
+/usr/local/vivaldi/resources/vivaldi/resources/bg_kawaii-8.jpg
 /usr/local/vivaldi/resources/vivaldi/resources/bg_gradient_09.webp
 /usr/local/vivaldi/resources/vivaldi/resources/bg_gradient_01.webp
 /usr/local/vivaldi/resources/vivaldi/resources/bg_geometric_1.webp
+/usr/local/vivaldi/resources/vivaldi/resources/bg_forest-8.jpg
+/usr/local/vivaldi/resources/vivaldi/resources/bg_dark-8.png
 /usr/local/vivaldi/resources/vivaldi/resources/bg_alt_4.webp
+/usr/local/vivaldi/resources/vivaldi/resources/bg-thumbnail-VivaldiZen.webp
+/usr/local/vivaldi/resources/vivaldi/resources/bg-thumbnail-VivaldiSoria.webp
+/usr/local/vivaldi/resources/vivaldi/resources/bg-thumbnail-Vivaldi2.webp
+/usr/local/vivaldi/resources/vivaldi/resources/bg-thumbnail-Vivaldi1.webp
 /usr/local/vivaldi/resources/vivaldi/resources/bg-soft-pink.webp
 /usr/local/vivaldi/resources/vivaldi/resources/bg-paint.webp
 /usr/local/vivaldi/resources/vivaldi/resources/badge-supporter-16@2x.png
@@ -791,6 +804,7 @@
 /usr/local/vivaldi/resources/vivaldi/resources/ToolbarIconFallback.svg
 /usr/local/vivaldi/resources/vivaldi/reader-bundle.js
 /usr/local/vivaldi/resources/vivaldi/prefs_definitions.json
+/usr/local/vivaldi/resources/vivaldi/policy_prefs.json
 /usr/local/vivaldi/resources/vivaldi/menus/mainmenu.json
 /usr/local/vivaldi/resources/vivaldi/menus/contextmenu.json
 /usr/local/vivaldi/resources/vivaldi/markdowneditor-bundle.js
@@ -861,7 +875,7 @@
 /usr/local/vivaldi/resources/vivaldi/components/mail/mail.html
 /usr/local/vivaldi/resources/vivaldi/bundle.js
 /usr/local/vivaldi/resources/vivaldi/bundle-mailreader-worker.js
-/usr/local/vivaldi/resources/vivaldi/background-service-worker-8aa87129d68f8abed9ab43adb9a9c404.js
+/usr/local/vivaldi/resources/vivaldi/background-service-worker-9567491b38d101971077a1ceff057b7c.js
 /usr/local/vivaldi/resources/vivaldi/background-common-bundle.js
 /usr/local/vivaldi/resources/vivaldi/background-bundle.js
 /usr/local/vivaldi/resources/vivaldi/adblocker_resources/redirectable_resources.json
@@ -1298,7 +1312,6 @@
 /usr/local/vivaldi/libffmpeg.so
 /usr/local/vivaldi/libGLESv2.so
 /usr/local/vivaldi/libEGL.so
-/usr/local/vivaldi/icudtl.dat
 /usr/local/vivaldi/cron/vivaldi
 /usr/local/vivaldi/chrome_crashpad_handler
 /usr/local/vivaldi/PrivacySandboxAttestationsPreloaded/privacy-sandbox-attestations.dat

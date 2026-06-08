@@ -1,5 +1,28 @@
 vivaldi.tcz
-   libEG.tcz
+   libEGL.tcz
+      mesa.tcz
+         libdrm.tcz
+            libpciaccess.tcz
+            udev-lib.tcz
+         expat2.tcz
+         libxshmfence.tcz
+         elfutils.tcz
+            liblzma.tcz
+            bzip2-lib.tcz
+            libzstd.tcz
+         llvm22-lib.tcz
+            libffi.tcz
+            libxml2.tcz
+               liblzma.tcz
+            libzstd.tcz
+            ncursesw.tcz
+         gcc_libs.tcz
+         spirv-tools.tcz
+      wayland.tcz
+         libffi.tcz
+         expat2.tcz
+         libxml2.tcz
+            liblzma.tcz
    libcups.tcz
       libavahi.tcz
          dbus.tcz
@@ -38,7 +61,6 @@ vivaldi.tcz
    udev254-lib.tcz
       libcap.tcz
          attr.tcz
-   lnspr.tcz
    bash.tcz
       readline.tcz
          ncursesw.tcz
