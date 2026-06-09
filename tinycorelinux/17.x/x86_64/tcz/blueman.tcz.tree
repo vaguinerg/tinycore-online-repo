@@ -602,7 +602,6 @@ blueman.tcz
                            libxcb.tcz
                               libXau.tcz
                               libXdmcp.tcz
-               pcre.tcz
       gtk3-gir.tcz
          gtk3.tcz
             libepoxy.tcz
@@ -898,9 +897,9 @@ blueman.tcz
                      libffi.tcz
                      libnsl.tcz
                         libtirpc.tcz
-   py3.9gobject.tcz
-      py3.9cairo.tcz
-         python3.9.tcz
+   py3.14gobject.tcz
+      py3.14cairo.tcz
+         python3.14.tcz
             openssl.tcz
             sqlite3.tcz
             gdbm.tcz
@@ -909,6 +908,8 @@ blueman.tcz
             readline.tcz
                ncursesw.tcz
             libffi.tcz
+            libnsl.tcz
+               libtirpc.tcz
          cairo.tcz
             glib2.tcz
                libffi.tcz
