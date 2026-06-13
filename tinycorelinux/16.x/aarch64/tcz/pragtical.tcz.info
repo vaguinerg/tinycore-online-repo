@@ -1,0 +1,22 @@
+Title:          pragtical.tcz
+Description:    code editor
+Version:        3.12.1
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size:           1.2MB
+Extension_by:   juanito
+Tags:	        code editor
+Comments:       practical and pragmatic code editor
+                ----------
+                required for piCore64 16.x (fixed in 17.x)
+                sudo mkdir -p /run/user/1001
+                sudo chown tc:staff /run/user/1001
+                sudo chmod 700 /run/user/100
+                XDG_RUNTIME_DIR=/run/user/1001 pragtical
+                ----------
+                This extension contains:
+                pragtical-3.12.1 - MIT - https://github.com/pragtical/pragtical/archive/refs/tags/v3.12.1.tar.gz
+                ----------
+Change-log:     first version
+Current:        2026/06/11
