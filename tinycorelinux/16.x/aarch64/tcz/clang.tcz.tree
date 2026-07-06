@@ -1,12 +1,17 @@
 clang.tcz
-   llvm19-dev.tcz
-      llvm19-bin.tcz
-         llvm19-lib.tcz
+   clang_libs.tcz
+      llvm22-lib.tcz
+         libxml2.tcz
+            liblzma.tcz
+         libzstd.tcz
+         ncurses.tcz
+   llvm22-dev.tcz
+      llvm22-bin.tcz
+         llvm22-lib.tcz
             libxml2.tcz
                liblzma.tcz
             libzstd.tcz
             ncurses.tcz
-      libffi_base-dev.tcz
       libxml2-dev.tcz
          libxml2.tcz
             liblzma.tcz
