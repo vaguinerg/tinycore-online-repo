@@ -1,6 +1,6 @@
 spirv-llvm-translator-dev.tcz
    spirv-llvm-translator.tcz
-      llvm19-lib.tcz
+      llvm22-lib.tcz
          libxml2.tcz
             liblzma.tcz
          libzstd.tcz
@@ -8,4 +8,23 @@ spirv-llvm-translator-dev.tcz
    spirv-tools-dev.tcz
       spirv-tools.tcz
       spirv-headers.tcz
+   llvm22-dev.tcz
+      llvm22-bin.tcz
+         llvm22-lib.tcz
+            libxml2.tcz
+               liblzma.tcz
+            libzstd.tcz
+            ncurses.tcz
+      libxml2-dev.tcz
+         libxml2.tcz
+            liblzma.tcz
+      zstd-dev.tcz
+         zstd.tcz
+            libzstd.tcz
+            liblzma.tcz
+            liblz4.tcz
+         liblzma-dev.tcz
+            liblzma.tcz
+         liblz4-dev.tcz
+            liblz4.tcz
 
