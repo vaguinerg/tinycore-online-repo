@@ -63,7 +63,7 @@ rygel-gir.tcz
                      bzip2-lib.tcz
                gmp.tcz
             libasound.tcz
-               alsa-modules-6.18.16-piCore-v8.tcz
+               alsa-modules-6.18.37-piCore-v8.tcz
             opus.tcz
             libtheora.tcz
                libogg.tcz
@@ -118,7 +118,7 @@ rygel-gir.tcz
                      bzip2-lib.tcz
                gmp.tcz
             libasound.tcz
-               alsa-modules-6.18.16-piCore-v8.tcz
+               alsa-modules-6.18.37-piCore-v8.tcz
             opus.tcz
             libtheora.tcz
                libogg.tcz
@@ -146,7 +146,7 @@ rygel-gir.tcz
                      bzip2-lib.tcz
                gmp.tcz
             libasound.tcz
-               alsa-modules-6.18.16-piCore-v8.tcz
+               alsa-modules-6.18.37-piCore-v8.tcz
             opus.tcz
             libtheora.tcz
                libogg.tcz
@@ -225,7 +225,9 @@ rygel-gir.tcz
                                     libXau.tcz
                                     libXdmcp.tcz
                         fribidi.tcz
-                           glib2.tcz 
+                           glib2.tcz
+                              pcre2.tcz
+                                 bzip2-lib.tcz
                      gdk-pixbuf.tcz
                         glib2.tcz
                            pcre2.tcz
@@ -301,7 +303,9 @@ rygel-gir.tcz
                      udev-lib.tcz
             libass.tcz
                fribidi.tcz
-                  glib2.tcz 
+                  glib2.tcz
+                     pcre2.tcz
+                        bzip2-lib.tcz
                fontconfig.tcz
                   expat2.tcz
                   freetype.tcz
@@ -312,6 +316,12 @@ rygel-gir.tcz
                               bzip2-lib.tcz
                         graphite2.tcz
                      bzip2-lib.tcz
+            libplacebo.tcz
+               shaderc.tcz
+                  glslang.tcz
+                     spirv-tools.tcz
+               libvulkan.tcz
+               liblcms2.tcz
          libplacebo.tcz
             shaderc.tcz
                glslang.tcz
@@ -327,7 +337,7 @@ rygel-gir.tcz
                         bzip2-lib.tcz
                   gmp.tcz
                libasound.tcz
-                  alsa-modules-6.18.16-piCore-v8.tcz
+                  alsa-modules-6.18.37-piCore-v8.tcz
                opus.tcz
                libtheora.tcz
                   libogg.tcz
@@ -340,10 +350,10 @@ rygel-gir.tcz
                         bzip2-lib.tcz
             libvpx114.tcz
             libv4l2.tcz
-               v4l-dvb-6.18.16-piCore-v8.tcz
-                  alsa-modules-6.18.16-piCore-v8.tcz
-                  graphics-6.18.16-piCore-v8.tcz
-                     alsa-modules-6.18.16-piCore-v8.tcz
+               v4l-dvb-6.18.37-piCore-v8.tcz
+                  alsa-modules-6.18.37-piCore-v8.tcz
+                  graphics-6.18.37-piCore-v8.tcz
+                     alsa-modules-6.18.37-piCore-v8.tcz
                libjpeg-turbo.tcz
                udev-lib.tcz
          gst-plugins-bad.tcz
@@ -354,7 +364,7 @@ rygel-gir.tcz
                         bzip2-lib.tcz
                   gmp.tcz
                libasound.tcz
-                  alsa-modules-6.18.16-piCore-v8.tcz
+                  alsa-modules-6.18.37-piCore-v8.tcz
                opus.tcz
                libtheora.tcz
                   libogg.tcz

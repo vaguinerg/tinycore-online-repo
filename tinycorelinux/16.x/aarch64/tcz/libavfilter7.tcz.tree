@@ -66,7 +66,9 @@ libavfilter7.tcz
                            libXau.tcz
                            libXdmcp.tcz
                fribidi.tcz
-                  glib2.tcz 
+                  glib2.tcz
+                     pcre2.tcz
+                        bzip2-lib.tcz
             gdk-pixbuf.tcz
                glib2.tcz
                   pcre2.tcz
@@ -142,7 +144,9 @@ libavfilter7.tcz
             udev-lib.tcz
    libass.tcz
       fribidi.tcz
-         glib2.tcz 
+         glib2.tcz
+            pcre2.tcz
+               bzip2-lib.tcz
       fontconfig.tcz
          expat2.tcz
          freetype.tcz
@@ -153,4 +157,10 @@ libavfilter7.tcz
                      bzip2-lib.tcz
                graphite2.tcz
             bzip2-lib.tcz
+   libplacebo.tcz
+      shaderc.tcz
+         glslang.tcz
+            spirv-tools.tcz
+      libvulkan.tcz
+      liblcms2.tcz
 
