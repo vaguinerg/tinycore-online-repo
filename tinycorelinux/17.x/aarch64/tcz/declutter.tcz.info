@@ -1,0 +1,49 @@
+Title:          declutter.tcz
+Description:    A lightweight data management utility
+Version:        2026.06.05.1
+Author:         Cliquesoft
+Original-site:  https://www.cliquesoft.org
+Copying-policy: CPLv2
+Size:           32K
+Extension_by:   wysiwyg
+Tags:           declutter user data management empty hidden directories drives archive archiving mismatch mismatched deduplicate deduplicating deduplication dryrun
+Comments:       A lightweight script to perform a variety of tasks allowing an
+                admin to manage user-generated data - moving or deleting it.
+                Functionality includes: archiving data using before or after
+                dates, cleaning mismatched data between directories or drives,
+                deduplicating data between one or two directories, and removal
+                of empty directories. Additional features include: each action
+                being able to ignore data by data specifications, optional
+                inclusion of hidden files and directories, ability to test a
+                run first by operating in a 'dryrun' mode, move or delete the
+                targeted data, and manipulation of directory paths when moving
+                targeted data.
+                ----
+                  [PLANNED UPDATES]
+                There are several planned updates that will eventually be
+                added. Patches or donations are welcome and will expedite
+                future updates. Features include:
+                - A graphical interface
+                - Ability to color output
+                - Ability to output to different formats
+                - Ability to delete invalid symlink files
+                - Ability to use a RegEx with directory name manipulation
+                Feature requests can be sent to: service@cliquesoft.org
+                  [OTHER PROJECTS]
+                Feel free to check out some of our other projects. If they are
+                not in the repo yet, they will be soon. Visit our website to
+                obtain them otherwise @ cliquesoft.org.
+                - builder: a tool to easily build software
+                - dittodata: a data backup/copy tool
+                - fxWM: a lightweight window manager configured via CSS
+                - web.de: a web-based desktop environment
+                ----
+                The coreutils.tcz package is a dependency due to the 'stat'
+                applet in busybox not being part of the TC ramdisk image.
+                ----
+                Valid for all versions of TC
+                ----
+                PPI Compatible
+Change-log:     2026/05/26 First version
+                See https://github.com/cliquesoft/declutter/blob/main/CHANGE.log
+Current:        2026/05/26 Current short change description

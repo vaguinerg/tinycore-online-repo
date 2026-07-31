@@ -1,28 +1,5 @@
 vivaldi.tcz
-   libEGL.tcz
-      mesa.tcz
-         libdrm.tcz
-            libpciaccess.tcz
-            udev-lib.tcz
-         expat2.tcz
-         libxshmfence.tcz
-         elfutils.tcz
-            liblzma.tcz
-            bzip2-lib.tcz
-            libzstd.tcz
-         llvm22-lib.tcz
-            libffi.tcz
-            libxml2.tcz
-               liblzma.tcz
-            libzstd.tcz
-            ncursesw.tcz
-         gcc_libs.tcz
-         spirv-tools.tcz
-      wayland.tcz
-         libffi.tcz
-         expat2.tcz
-         libxml2.tcz
-            liblzma.tcz
+   libEG.tcz
    libcups.tcz
       libavahi.tcz
          dbus.tcz
@@ -61,6 +38,7 @@ vivaldi.tcz
    udev254-lib.tcz
       libcap.tcz
          attr.tcz
+   lnspr.tcz
    bash.tcz
       readline.tcz
          ncursesw.tcz
@@ -108,8 +86,8 @@ vivaldi.tcz
                libSM.tcz
                   libICE.tcz
             alsa.tcz
-               alsa-modules-6.18.2-tinycore64.tcz
-                  input-joystick-6.18.2-tinycore64.tcz
+               alsa-modules-6.18.35-tinycore64.tcz
+                  input-joystick-6.18.35-tinycore64.tcz
                libasound.tcz
                ncursesw.tcz
             udev-lib.tcz
