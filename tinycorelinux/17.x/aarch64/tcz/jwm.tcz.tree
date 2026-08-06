@@ -48,6 +48,8 @@ jwm.tcz
                   libxcb.tcz
                      libXau.tcz
                      libXdmcp.tcz
+               libxml2.tcz
+                  liblzma.tcz
                xkeyboard-config.tcz
             pango.tcz
                cairo.tcz
@@ -92,7 +94,9 @@ jwm.tcz
                            libXau.tcz
                            libXdmcp.tcz
                fribidi.tcz
-                  glib2.tcz 
+                  glib2.tcz
+                     pcre2.tcz
+                        bzip2-lib.tcz
             libXcursor.tcz
                libXrender.tcz
                   libX11.tcz
@@ -147,8 +151,6 @@ jwm.tcz
       xorg-server.tcz
          mesa.tcz
             libdrm.tcz
-               libpciaccess.tcz
-               udev-lib.tcz
             expat2.tcz
             libzstd.tcz
             libXfixes.tcz
@@ -178,6 +180,7 @@ jwm.tcz
             libfontenc.tcz
          libepoxy.tcz
          libxcvt.tcz
+         libpciaccess.tcz
       xf86-video-fbdev.tcz
       xf86-input-libinput.tcz
          libinput.tcz
@@ -208,5 +211,9 @@ jwm.tcz
             libxcb.tcz
                libXau.tcz
                libXdmcp.tcz
-   libXpm.tcz      
+   libXpm.tcz
+      libX11.tcz
+         libxcb.tcz
+            libXau.tcz
+            libXdmcp.tcz
 

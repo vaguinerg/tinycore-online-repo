@@ -147,8 +147,6 @@ neatvnc-dev.tcz
       libEGL.tcz
          mesa.tcz
             libdrm.tcz
-               libpciaccess.tcz
-               udev-lib.tcz
             expat2.tcz
             libzstd.tcz
             libXfixes.tcz
@@ -317,12 +315,12 @@ neatvnc-dev.tcz
                      libXau.tcz
                      libXdmcp.tcz
             libasound.tcz
-               alsa-modules-6.18.16-piCore-v8.tcz
+               alsa-modules-6.18.37-piCore-v8.tcz
             libv4l2.tcz
-               v4l-dvb-6.18.16-piCore-v8.tcz
-                  alsa-modules-6.18.16-piCore-v8.tcz
-                  graphics-6.18.16-piCore-v8.tcz
-                     alsa-modules-6.18.16-piCore-v8.tcz
+               v4l-dvb-6.18.37-piCore-v8.tcz
+                  alsa-modules-6.18.37-piCore-v8.tcz
+                  graphics-6.18.37-piCore-v8.tcz
+                     alsa-modules-6.18.37-piCore-v8.tcz
                libjpeg-turbo.tcz
                udev-lib.tcz
             libpulseaudio.tcz
@@ -347,7 +345,7 @@ neatvnc-dev.tcz
                   flac.tcz
                      libogg.tcz
                   libasound.tcz
-                     alsa-modules-6.18.16-piCore-v8.tcz
+                     alsa-modules-6.18.37-piCore-v8.tcz
                   libvorbis.tcz
                      libogg.tcz
                   sqlite3.tcz
@@ -394,7 +392,7 @@ neatvnc-dev.tcz
                   flac.tcz
                      libogg.tcz
                   libasound.tcz
-                     alsa-modules-6.18.16-piCore-v8.tcz
+                     alsa-modules-6.18.37-piCore-v8.tcz
                   libvorbis.tcz
                      libogg.tcz
                   sqlite3.tcz
@@ -406,7 +404,7 @@ neatvnc-dev.tcz
                      libogg.tcz
             alsa.tcz
                libasound.tcz
-                  alsa-modules-6.18.16-piCore-v8.tcz
+                  alsa-modules-6.18.37-piCore-v8.tcz
             udev-lib.tcz
             libltdl.tcz
             libavahi.tcz
@@ -424,7 +422,7 @@ neatvnc-dev.tcz
             libcap.tcz
          libasound-dev.tcz
             libasound.tcz
-               alsa-modules-6.18.16-piCore-v8.tcz
+               alsa-modules-6.18.37-piCore-v8.tcz
          libtool-dev.tcz
             libtool.tcz
                libltdl.tcz
@@ -444,7 +442,7 @@ neatvnc-dev.tcz
                flac.tcz
                   libogg.tcz
                libasound.tcz
-                  alsa-modules-6.18.16-piCore-v8.tcz
+                  alsa-modules-6.18.37-piCore-v8.tcz
                libvorbis.tcz
                   libogg.tcz
                sqlite3.tcz
@@ -455,7 +453,7 @@ neatvnc-dev.tcz
                   libogg.tcz
             libasound-dev.tcz
                libasound.tcz
-                  alsa-modules-6.18.16-piCore-v8.tcz
+                  alsa-modules-6.18.37-piCore-v8.tcz
             libvorbis-dev.tcz
                libvorbis.tcz
                   libogg.tcz
@@ -484,29 +482,29 @@ neatvnc-dev.tcz
                      pcre2.tcz
                         bzip2-lib.tcz
                   libasound.tcz
-                     alsa-modules-6.18.16-piCore-v8.tcz
+                     alsa-modules-6.18.37-piCore-v8.tcz
                   udev257-lib.tcz
                      libcap.tcz
                   libical.tcz
                      icu73.tcz
                   pcre2.tcz
                      bzip2-lib.tcz
-                  bluetooth-6.18.16-piCore-v8.tcz
+                  bluetooth-6.18.37-piCore-v8.tcz
                      firmware-rpi-bt.tcz
                   readline.tcz
                      ncurses.tcz
                   sbc.tcz
                      libasound.tcz
-                        alsa-modules-6.18.16-piCore-v8.tcz
+                        alsa-modules-6.18.37-piCore-v8.tcz
             ncurses-dev.tcz
                ncurses.tcz
          sbc-dev.tcz
             sbc.tcz
                libasound.tcz
-                  alsa-modules-6.18.16-piCore-v8.tcz
+                  alsa-modules-6.18.37-piCore-v8.tcz
             libasound-dev.tcz
                libasound.tcz
-                  alsa-modules-6.18.16-piCore-v8.tcz
+                  alsa-modules-6.18.37-piCore-v8.tcz
          gtk3-dev.tcz
             gtk3.tcz
                libepoxy.tcz
@@ -648,6 +646,8 @@ neatvnc-dev.tcz
                      libxcb.tcz
                         libXau.tcz
                         libXdmcp.tcz
+                  libxml2.tcz
+                     liblzma.tcz
                   xkeyboard-config.tcz
                wayland-protocols.tcz
                   wayland.tcz
@@ -1158,6 +1158,8 @@ neatvnc-dev.tcz
                      libxcb.tcz
                         libXau.tcz
                         libXdmcp.tcz
+                  libxml2.tcz
+                     liblzma.tcz
                   xkeyboard-config.tcz
                libX11-dev.tcz
                   libX11.tcz
@@ -1199,8 +1201,6 @@ neatvnc-dev.tcz
                libEGL.tcz
                   mesa.tcz
                      libdrm.tcz
-                        libpciaccess.tcz
-                        udev-lib.tcz
                      expat2.tcz
                      libzstd.tcz
                      libXfixes.tcz
@@ -1222,8 +1222,6 @@ neatvnc-dev.tcz
                mesa-dev.tcz
                   mesa.tcz
                      libdrm.tcz
-                        libpciaccess.tcz
-                        udev-lib.tcz
                      expat2.tcz
                      libzstd.tcz
                      libXfixes.tcz
@@ -1240,15 +1238,6 @@ neatvnc-dev.tcz
                      libxshmfence.tcz
                   libdrm-dev.tcz
                      libdrm.tcz
-                        libpciaccess.tcz
-                        udev-lib.tcz
-                     xorg-proto.tcz
-                        util-macros.tcz
-                           m4.tcz
-                     libpciaccess-dev.tcz
-                        libpciaccess.tcz
-                     udev-lib-dev.tcz
-                        udev-lib.tcz
                   wayland-protocols-dev.tcz
                      wayland-protocols.tcz
                         wayland.tcz
@@ -1953,10 +1942,10 @@ neatvnc-dev.tcz
             ncurses.tcz
       libv4l2-dev.tcz
          libv4l2.tcz
-            v4l-dvb-6.18.16-piCore-v8.tcz
-               alsa-modules-6.18.16-piCore-v8.tcz
-               graphics-6.18.16-piCore-v8.tcz
-                  alsa-modules-6.18.16-piCore-v8.tcz
+            v4l-dvb-6.18.37-piCore-v8.tcz
+               alsa-modules-6.18.37-piCore-v8.tcz
+               graphics-6.18.37-piCore-v8.tcz
+                  alsa-modules-6.18.37-piCore-v8.tcz
             libjpeg-turbo.tcz
             udev-lib.tcz
          libjpeg-turbo-dev.tcz
@@ -1964,13 +1953,11 @@ neatvnc-dev.tcz
                libjpeg-turbo.tcz
          libasound-dev.tcz
             libasound.tcz
-               alsa-modules-6.18.16-piCore-v8.tcz
+               alsa-modules-6.18.37-piCore-v8.tcz
          glu-dev.tcz
             glu.tcz
                mesa.tcz
                   libdrm.tcz
-                     libpciaccess.tcz
-                     udev-lib.tcz
                   expat2.tcz
                   libzstd.tcz
                   libXfixes.tcz
@@ -1988,8 +1975,6 @@ neatvnc-dev.tcz
             mesa-dev.tcz
                mesa.tcz
                   libdrm.tcz
-                     libpciaccess.tcz
-                     udev-lib.tcz
                   expat2.tcz
                   libzstd.tcz
                   libXfixes.tcz
@@ -2006,15 +1991,6 @@ neatvnc-dev.tcz
                   libxshmfence.tcz
                libdrm-dev.tcz
                   libdrm.tcz
-                     libpciaccess.tcz
-                     udev-lib.tcz
-                  xorg-proto.tcz
-                     util-macros.tcz
-                        m4.tcz
-                  libpciaccess-dev.tcz
-                     libpciaccess.tcz
-                  udev-lib-dev.tcz
-                     udev-lib.tcz
                wayland-protocols-dev.tcz
                   wayland-protocols.tcz
                      wayland.tcz

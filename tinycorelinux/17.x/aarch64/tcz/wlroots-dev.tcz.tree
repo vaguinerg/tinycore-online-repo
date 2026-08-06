@@ -10,13 +10,13 @@ wlroots-dev.tcz
             libxcb.tcz
                libXau.tcz
                libXdmcp.tcz
+         libxml2.tcz
+            liblzma.tcz
          xkeyboard-config.tcz
       pixman.tcz
       libEGL.tcz
          mesa.tcz
             libdrm.tcz
-               libpciaccess.tcz
-               udev-lib.tcz
             expat2.tcz
             libzstd.tcz
             libXfixes.tcz
@@ -38,8 +38,6 @@ wlroots-dev.tcz
       libGLES.tcz
          mesa.tcz
             libdrm.tcz
-               libpciaccess.tcz
-               udev-lib.tcz
             expat2.tcz
             libzstd.tcz
             libXfixes.tcz
@@ -55,8 +53,6 @@ wlroots-dev.tcz
                         libXdmcp.tcz
             libxshmfence.tcz
          libdrm.tcz
-            libpciaccess.tcz
-            udev-lib.tcz
       libvulkan.tcz
       liblcms2.tcz
       libdisplay-info.tcz
@@ -87,6 +83,8 @@ wlroots-dev.tcz
             libxcb.tcz
                libXau.tcz
                libXdmcp.tcz
+         libxml2.tcz
+            liblzma.tcz
          xkeyboard-config.tcz
       libX11-dev.tcz
          libX11.tcz
@@ -128,8 +126,6 @@ wlroots-dev.tcz
       libEGL.tcz
          mesa.tcz
             libdrm.tcz
-               libpciaccess.tcz
-               udev-lib.tcz
             expat2.tcz
             libzstd.tcz
             libXfixes.tcz
@@ -151,8 +147,6 @@ wlroots-dev.tcz
       mesa-dev.tcz
          mesa.tcz
             libdrm.tcz
-               libpciaccess.tcz
-               udev-lib.tcz
             expat2.tcz
             libzstd.tcz
             libXfixes.tcz
@@ -169,15 +163,6 @@ wlroots-dev.tcz
             libxshmfence.tcz
          libdrm-dev.tcz
             libdrm.tcz
-               libpciaccess.tcz
-               udev-lib.tcz
-            xorg-proto.tcz
-               util-macros.tcz
-                  m4.tcz
-            libpciaccess-dev.tcz
-               libpciaccess.tcz
-            udev-lib-dev.tcz
-               udev-lib.tcz
          wayland-protocols-dev.tcz
             wayland-protocols.tcz
                wayland.tcz
@@ -359,8 +344,6 @@ wlroots-dev.tcz
       libGLES.tcz
          mesa.tcz
             libdrm.tcz
-               libpciaccess.tcz
-               udev-lib.tcz
             expat2.tcz
             libzstd.tcz
             libXfixes.tcz
@@ -376,13 +359,9 @@ wlroots-dev.tcz
                         libXdmcp.tcz
             libxshmfence.tcz
          libdrm.tcz
-            libpciaccess.tcz
-            udev-lib.tcz
       mesa-dev.tcz
          mesa.tcz
             libdrm.tcz
-               libpciaccess.tcz
-               udev-lib.tcz
             expat2.tcz
             libzstd.tcz
             libXfixes.tcz
@@ -399,15 +378,6 @@ wlroots-dev.tcz
             libxshmfence.tcz
          libdrm-dev.tcz
             libdrm.tcz
-               libpciaccess.tcz
-               udev-lib.tcz
-            xorg-proto.tcz
-               util-macros.tcz
-                  m4.tcz
-            libpciaccess-dev.tcz
-               libpciaccess.tcz
-            udev-lib-dev.tcz
-               udev-lib.tcz
          wayland-protocols-dev.tcz
             wayland-protocols.tcz
                wayland.tcz
@@ -577,15 +547,6 @@ wlroots-dev.tcz
                liblz4.tcz
       libdrm-dev.tcz
          libdrm.tcz
-            libpciaccess.tcz
-            udev-lib.tcz
-         xorg-proto.tcz
-            util-macros.tcz
-               m4.tcz
-         libpciaccess-dev.tcz
-            libpciaccess.tcz
-         udev-lib-dev.tcz
-            udev-lib.tcz
    libvulkan-dev.tcz
       libvulkan.tcz
    lcms2-dev.tcz

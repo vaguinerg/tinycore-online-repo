@@ -14,7 +14,8 @@ ghostscript.tcz
                bzip2-lib.tcz
       openssl.tcz
          ca-certificates.tcz
-      libusb.tcz    
+      libusb.tcz
+         udev-lib.tcz
    pango.tcz
       cairo.tcz
          glib2.tcz
@@ -58,7 +59,9 @@ ghostscript.tcz
                   libXau.tcz
                   libXdmcp.tcz
       fribidi.tcz
-         glib2.tcz 
+         glib2.tcz
+            pcre2.tcz
+               bzip2-lib.tcz
    at-spi2-core.tcz
       dbus.tcz
          expat2.tcz
@@ -104,5 +107,14 @@ ghostscript.tcz
          libxcb.tcz
             libXau.tcz
             libXdmcp.tcz
-   fontconfig.tcz      
+   fontconfig.tcz
+      expat2.tcz
+      freetype.tcz
+         libpng.tcz
+         harfbuzz.tcz
+            glib2.tcz
+               pcre2.tcz
+                  bzip2-lib.tcz
+            graphite2.tcz
+         bzip2-lib.tcz
 

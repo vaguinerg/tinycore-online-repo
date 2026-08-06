@@ -43,7 +43,9 @@ pangomm2-dev.tcz
                      libXau.tcz
                      libXdmcp.tcz
          fribidi.tcz
-            glib2.tcz 
+            glib2.tcz
+               pcre2.tcz
+                  bzip2-lib.tcz
       cairomm16.tcz
          cairo.tcz
             glib2.tcz
@@ -120,7 +122,9 @@ pangomm2-dev.tcz
                      libXau.tcz
                      libXdmcp.tcz
          fribidi.tcz
-            glib2.tcz 
+            glib2.tcz
+               pcre2.tcz
+                  bzip2-lib.tcz
       cairo-dev.tcz
          cairo.tcz
             glib2.tcz
@@ -333,8 +337,32 @@ pangomm2-dev.tcz
                      bzip2-lib.tcz
          libXrender-dev.tcz
       fribidi-dev.tcz
-         fribidi.tcz 
-         glib2-dev.tcz 
+         fribidi.tcz
+            glib2.tcz
+               pcre2.tcz
+                  bzip2-lib.tcz
+         glib2-dev.tcz
+            glib2-python.tcz
+               glib2.tcz
+                  pcre2.tcz
+                     bzip2-lib.tcz
+               python3.11.tcz
+                  bzip2-lib.tcz
+                  readline.tcz
+                     ncurses.tcz
+                  gdbm.tcz
+                  liblzma.tcz
+                  openssl.tcz
+                     ca-certificates.tcz
+                  sqlite3.tcz
+                  ncurses.tcz
+            pcre2-dev.tcz
+               pcre2.tcz
+                  bzip2-lib.tcz
+               bzip2-dev.tcz
+                  bzip2.tcz
+                     bzip2-lib.tcz
+               zlib_base-dev.tcz
    cairomm16-dev.tcz
       cairomm16.tcz
          cairo.tcz

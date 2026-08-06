@@ -59,7 +59,9 @@ openal-dev.tcz
                               libXau.tcz
                               libXdmcp.tcz
                   fribidi.tcz
-                     glib2.tcz 
+                     glib2.tcz
+                        pcre2.tcz
+                           bzip2-lib.tcz
                gdk-pixbuf.tcz
                   glib2.tcz
                      pcre2.tcz
@@ -121,7 +123,7 @@ openal-dev.tcz
          flac.tcz
             libogg.tcz
          libasound.tcz
-            alsa-modules-6.18.16-piCore-v8.tcz
+            alsa-modules-6.18.37-piCore-v8.tcz
          libvorbis.tcz
             libogg.tcz
          sqlite3.tcz
@@ -193,7 +195,9 @@ openal-dev.tcz
                                        libXau.tcz
                                        libXdmcp.tcz
                            fribidi.tcz
-                              glib2.tcz 
+                              glib2.tcz
+                                 pcre2.tcz
+                                    bzip2-lib.tcz
                         gdk-pixbuf.tcz
                            glib2.tcz
                               pcre2.tcz
@@ -257,7 +261,9 @@ openal-dev.tcz
                   libavutil.tcz
                libass.tcz
                   fribidi.tcz
-                     glib2.tcz 
+                     glib2.tcz
+                        pcre2.tcz
+                           bzip2-lib.tcz
                   fontconfig.tcz
                      expat2.tcz
                      freetype.tcz
@@ -274,12 +280,12 @@ openal-dev.tcz
                      libXau.tcz
                      libXdmcp.tcz
             libasound.tcz
-               alsa-modules-6.18.16-piCore-v8.tcz
+               alsa-modules-6.18.37-piCore-v8.tcz
             libv4l2.tcz
-               v4l-dvb-6.18.16-piCore-v8.tcz
-                  alsa-modules-6.18.16-piCore-v8.tcz
-                  graphics-6.18.16-piCore-v8.tcz
-                     alsa-modules-6.18.16-piCore-v8.tcz
+               v4l-dvb-6.18.37-piCore-v8.tcz
+                  alsa-modules-6.18.37-piCore-v8.tcz
+                  graphics-6.18.37-piCore-v8.tcz
+                     alsa-modules-6.18.37-piCore-v8.tcz
                libjpeg-turbo.tcz
                udev-lib.tcz
             libpulseaudio.tcz
@@ -304,7 +310,7 @@ openal-dev.tcz
                   flac.tcz
                      libogg.tcz
                   libasound.tcz
-                     alsa-modules-6.18.16-piCore-v8.tcz
+                     alsa-modules-6.18.37-piCore-v8.tcz
                   libvorbis.tcz
                      libogg.tcz
                   sqlite3.tcz
@@ -351,7 +357,7 @@ openal-dev.tcz
                   flac.tcz
                      libogg.tcz
                   libasound.tcz
-                     alsa-modules-6.18.16-piCore-v8.tcz
+                     alsa-modules-6.18.37-piCore-v8.tcz
                   libvorbis.tcz
                      libogg.tcz
                   sqlite3.tcz
@@ -363,7 +369,7 @@ openal-dev.tcz
                      libogg.tcz
             alsa.tcz
                libasound.tcz
-                  alsa-modules-6.18.16-piCore-v8.tcz
+                  alsa-modules-6.18.37-piCore-v8.tcz
             udev-lib.tcz
             libltdl.tcz
             libavahi.tcz
@@ -381,7 +387,7 @@ openal-dev.tcz
             libcap.tcz
          libasound-dev.tcz
             libasound.tcz
-               alsa-modules-6.18.16-piCore-v8.tcz
+               alsa-modules-6.18.37-piCore-v8.tcz
          libtool-dev.tcz
             libtool.tcz
                libltdl.tcz
@@ -401,7 +407,7 @@ openal-dev.tcz
                flac.tcz
                   libogg.tcz
                libasound.tcz
-                  alsa-modules-6.18.16-piCore-v8.tcz
+                  alsa-modules-6.18.37-piCore-v8.tcz
                libvorbis.tcz
                   libogg.tcz
                sqlite3.tcz
@@ -412,7 +418,7 @@ openal-dev.tcz
                   libogg.tcz
             libasound-dev.tcz
                libasound.tcz
-                  alsa-modules-6.18.16-piCore-v8.tcz
+                  alsa-modules-6.18.37-piCore-v8.tcz
             libvorbis-dev.tcz
                libvorbis.tcz
                   libogg.tcz
@@ -441,29 +447,29 @@ openal-dev.tcz
                      pcre2.tcz
                         bzip2-lib.tcz
                   libasound.tcz
-                     alsa-modules-6.18.16-piCore-v8.tcz
+                     alsa-modules-6.18.37-piCore-v8.tcz
                   udev257-lib.tcz
                      libcap.tcz
                   libical.tcz
                      icu73.tcz
                   pcre2.tcz
                      bzip2-lib.tcz
-                  bluetooth-6.18.16-piCore-v8.tcz
+                  bluetooth-6.18.37-piCore-v8.tcz
                      firmware-rpi-bt.tcz
                   readline.tcz
                      ncurses.tcz
                   sbc.tcz
                      libasound.tcz
-                        alsa-modules-6.18.16-piCore-v8.tcz
+                        alsa-modules-6.18.37-piCore-v8.tcz
             ncurses-dev.tcz
                ncurses.tcz
          sbc-dev.tcz
             sbc.tcz
                libasound.tcz
-                  alsa-modules-6.18.16-piCore-v8.tcz
+                  alsa-modules-6.18.37-piCore-v8.tcz
             libasound-dev.tcz
                libasound.tcz
-                  alsa-modules-6.18.16-piCore-v8.tcz
+                  alsa-modules-6.18.37-piCore-v8.tcz
          gtk3-dev.tcz
             gtk3.tcz
                libepoxy.tcz
@@ -552,7 +558,9 @@ openal-dev.tcz
                               libXau.tcz
                               libXdmcp.tcz
                   fribidi.tcz
-                     glib2.tcz 
+                     glib2.tcz
+                        pcre2.tcz
+                           bzip2-lib.tcz
                libXcursor.tcz
                   libXrender.tcz
                      libX11.tcz
@@ -603,6 +611,8 @@ openal-dev.tcz
                      libxcb.tcz
                         libXau.tcz
                         libXdmcp.tcz
+                  libxml2.tcz
+                     liblzma.tcz
                   xkeyboard-config.tcz
                wayland-protocols.tcz
                   wayland.tcz
@@ -866,7 +876,9 @@ openal-dev.tcz
                               libXau.tcz
                               libXdmcp.tcz
                   fribidi.tcz
-                     glib2.tcz 
+                     glib2.tcz
+                        pcre2.tcz
+                           bzip2-lib.tcz
                cairo-dev.tcz
                   cairo.tcz
                      glib2.tcz
@@ -1079,14 +1091,40 @@ openal-dev.tcz
                               bzip2-lib.tcz
                   libXrender-dev.tcz
                fribidi-dev.tcz
-                  fribidi.tcz 
-                  glib2-dev.tcz 
+                  fribidi.tcz
+                     glib2.tcz
+                        pcre2.tcz
+                           bzip2-lib.tcz
+                  glib2-dev.tcz
+                     glib2-python.tcz
+                        glib2.tcz
+                           pcre2.tcz
+                              bzip2-lib.tcz
+                        python3.11.tcz
+                           bzip2-lib.tcz
+                           readline.tcz
+                              ncurses.tcz
+                           gdbm.tcz
+                           liblzma.tcz
+                           openssl.tcz
+                              ca-certificates.tcz
+                           sqlite3.tcz
+                           ncurses.tcz
+                     pcre2-dev.tcz
+                        pcre2.tcz
+                           bzip2-lib.tcz
+                        bzip2-dev.tcz
+                           bzip2.tcz
+                              bzip2-lib.tcz
+                        zlib_base-dev.tcz
             libxkbcommon-dev.tcz
                libxkbcommon.tcz
                   libX11.tcz
                      libxcb.tcz
                         libXau.tcz
                         libXdmcp.tcz
+                  libxml2.tcz
+                     liblzma.tcz
                   xkeyboard-config.tcz
                libX11-dev.tcz
                   libX11.tcz
@@ -1128,8 +1166,6 @@ openal-dev.tcz
                libEGL.tcz
                   mesa.tcz
                      libdrm.tcz
-                        libpciaccess.tcz
-                        udev-lib.tcz
                      expat2.tcz
                      libzstd.tcz
                      libXfixes.tcz
@@ -1151,8 +1187,6 @@ openal-dev.tcz
                mesa-dev.tcz
                   mesa.tcz
                      libdrm.tcz
-                        libpciaccess.tcz
-                        udev-lib.tcz
                      expat2.tcz
                      libzstd.tcz
                      libXfixes.tcz
@@ -1169,15 +1203,6 @@ openal-dev.tcz
                      libxshmfence.tcz
                   libdrm-dev.tcz
                      libdrm.tcz
-                        libpciaccess.tcz
-                        udev-lib.tcz
-                     xorg-proto.tcz
-                        util-macros.tcz
-                           m4.tcz
-                     libpciaccess-dev.tcz
-                        libpciaccess.tcz
-                     udev-lib-dev.tcz
-                        udev-lib.tcz
                   wayland-protocols-dev.tcz
                      wayland-protocols.tcz
                         wayland.tcz
@@ -1500,7 +1525,8 @@ openal-dev.tcz
                               bzip2-lib.tcz
                      openssl.tcz
                         ca-certificates.tcz
-                     libusb.tcz    
+                     libusb.tcz
+                        udev-lib.tcz
                   libavahi.tcz
                      dbus.tcz
                         expat2.tcz
@@ -1512,10 +1538,73 @@ openal-dev.tcz
                      glib2.tcz
                         pcre2.tcz
                            bzip2-lib.tcz
-                  libusb.tcz 
-                  cups-filters.tcz          
-               openssl-dev.tcz 
-               libusb-dev.tcz 
+                  libusb.tcz
+                     udev-lib.tcz
+                  cups-filters.tcz
+                     poppler.tcz
+                        cairo.tcz
+                           glib2.tcz
+                              pcre2.tcz
+                                 bzip2-lib.tcz
+                           fontconfig.tcz
+                              expat2.tcz
+                              freetype.tcz
+                                 libpng.tcz
+                                 harfbuzz.tcz
+                                    glib2.tcz
+                                       pcre2.tcz
+                                          bzip2-lib.tcz
+                                    graphite2.tcz
+                                 bzip2-lib.tcz
+                           pixman.tcz
+                           libXext.tcz
+                              libX11.tcz
+                                 libxcb.tcz
+                                    libXau.tcz
+                                    libXdmcp.tcz
+                           libXrender.tcz
+                              libX11.tcz
+                                 libxcb.tcz
+                                    libXau.tcz
+                                    libXdmcp.tcz
+                        fontconfig.tcz
+                           expat2.tcz
+                           freetype.tcz
+                              libpng.tcz
+                              harfbuzz.tcz
+                                 glib2.tcz
+                                    pcre2.tcz
+                                       bzip2-lib.tcz
+                                 graphite2.tcz
+                              bzip2-lib.tcz
+                        liblcms2.tcz
+                        glib2.tcz
+                           pcre2.tcz
+                              bzip2-lib.tcz
+                        libjpeg-turbo.tcz
+                     qpdf.tcz
+                        gnutls.tcz
+                           libidn2.tcz
+                              libunistring.tcz
+                           unbound.tcz
+                              expat2.tcz
+                              openssl.tcz
+                                 ca-certificates.tcz
+                           nettle.tcz
+                              gmp.tcz
+                           p11-kit.tcz
+                              libtasn1.tcz
+                        pcre2.tcz
+                           bzip2-lib.tcz
+                     Xorg-fonts.tcz
+               openssl-dev.tcz
+                  openssl.tcz
+                     ca-certificates.tcz
+               libusb-dev.tcz
+                  libusb.tcz
+                     udev-lib.tcz
+                  udev-lib-dev.tcz
+                     udev-lib.tcz
                avahi-dev.tcz
                   avahi.tcz
                      libavahi.tcz
@@ -1530,13 +1619,153 @@ openal-dev.tcz
                            pcre2.tcz
                               bzip2-lib.tcz
                      nss-mdns.tcz
-                     libdaemon.tcz 
-                  glib2-dev.tcz 
-                  dbus-dev.tcz 
-                  gobject-introspection-dev.tcz 
-                  libdaemon-dev.tcz 
-                  intltool.tcz 
-                  libevent-dev.tcz 
+                     libdaemon.tcz
+                  glib2-dev.tcz
+                     glib2-python.tcz
+                        glib2.tcz
+                           pcre2.tcz
+                              bzip2-lib.tcz
+                        python3.11.tcz
+                           bzip2-lib.tcz
+                           readline.tcz
+                              ncurses.tcz
+                           gdbm.tcz
+                           liblzma.tcz
+                           openssl.tcz
+                              ca-certificates.tcz
+                           sqlite3.tcz
+                           ncurses.tcz
+                     pcre2-dev.tcz
+                        pcre2.tcz
+                           bzip2-lib.tcz
+                        bzip2-dev.tcz
+                           bzip2.tcz
+                              bzip2-lib.tcz
+                        zlib_base-dev.tcz
+                  dbus-dev.tcz
+                     dbus.tcz
+                        expat2.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                     expat2-dev.tcz
+                        expat2.tcz
+                     libX11-dev.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                        libxcb-dev.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                           libXau-dev.tcz
+                              libXau.tcz
+                           libXdmcp-dev.tcz
+                              libXdmcp.tcz
+                           xcb-proto.tcz
+                              xorg-proto.tcz
+                                 util-macros.tcz
+                                    m4.tcz
+                        xtrans.tcz
+                  gobject-introspection-dev.tcz
+                     gobject-introspection.tcz
+                        python3.11.tcz
+                           bzip2-lib.tcz
+                           readline.tcz
+                              ncurses.tcz
+                           gdbm.tcz
+                           liblzma.tcz
+                           openssl.tcz
+                              ca-certificates.tcz
+                           sqlite3.tcz
+                           ncurses.tcz
+                        glib2.tcz
+                           pcre2.tcz
+                              bzip2-lib.tcz
+                     python3.11-dev.tcz
+                        python3.11.tcz
+                           bzip2-lib.tcz
+                           readline.tcz
+                              ncurses.tcz
+                           gdbm.tcz
+                           liblzma.tcz
+                           openssl.tcz
+                              ca-certificates.tcz
+                           sqlite3.tcz
+                           ncurses.tcz
+                        bzip2-dev.tcz
+                           bzip2.tcz
+                              bzip2-lib.tcz
+                        gdbm-dev.tcz
+                           gdbm.tcz
+                        liblzma-dev.tcz
+                           liblzma.tcz
+                        openssl-dev.tcz
+                           openssl.tcz
+                              ca-certificates.tcz
+                        readline-dev.tcz
+                           readline.tcz
+                              ncurses.tcz
+                           ncurses-dev.tcz
+                              ncurses.tcz
+                        sqlite3-dev.tcz
+                           sqlite3-bin.tcz
+                              sqlite3.tcz
+                              readline.tcz
+                                 ncurses.tcz
+                           readline-dev.tcz
+                              readline.tcz
+                                 ncurses.tcz
+                              ncurses-dev.tcz
+                                 ncurses.tcz
+                        ncurses-dev.tcz
+                           ncurses.tcz
+                     glib2-dev.tcz
+                        glib2-python.tcz
+                           glib2.tcz
+                              pcre2.tcz
+                                 bzip2-lib.tcz
+                           python3.11.tcz
+                              bzip2-lib.tcz
+                              readline.tcz
+                                 ncurses.tcz
+                              gdbm.tcz
+                              liblzma.tcz
+                              openssl.tcz
+                                 ca-certificates.tcz
+                              sqlite3.tcz
+                              ncurses.tcz
+                        pcre2-dev.tcz
+                           pcre2.tcz
+                              bzip2-lib.tcz
+                           bzip2-dev.tcz
+                              bzip2.tcz
+                                 bzip2-lib.tcz
+                           zlib_base-dev.tcz
+                  libdaemon-dev.tcz
+                     libdaemon.tcz
+                     libtool.tcz
+                        libltdl.tcz
+                  intltool.tcz
+                     perl_xml_parser.tcz
+                        expat2.tcz
+                        perl5.tcz
+                     gettext.tcz
+                        gcc_libs.tcz
+                        libacl.tcz
+                           libattr.tcz
+                        libxml2.tcz
+                           liblzma.tcz
+                        ncurses.tcz
+                  libevent-dev.tcz
+                     libevent.tcz
+                        openssl.tcz
+                           ca-certificates.tcz
+                     openssl-dev.tcz
+                        openssl.tcz
+                           ca-certificates.tcz
             json-glib-dev.tcz
                json-glib.tcz
                   glib2.tcz
@@ -1678,10 +1907,10 @@ openal-dev.tcz
             ncurses.tcz
       libv4l2-dev.tcz
          libv4l2.tcz
-            v4l-dvb-6.18.16-piCore-v8.tcz
-               alsa-modules-6.18.16-piCore-v8.tcz
-               graphics-6.18.16-piCore-v8.tcz
-                  alsa-modules-6.18.16-piCore-v8.tcz
+            v4l-dvb-6.18.37-piCore-v8.tcz
+               alsa-modules-6.18.37-piCore-v8.tcz
+               graphics-6.18.37-piCore-v8.tcz
+                  alsa-modules-6.18.37-piCore-v8.tcz
             libjpeg-turbo.tcz
             udev-lib.tcz
          libjpeg-turbo-dev.tcz
@@ -1689,13 +1918,11 @@ openal-dev.tcz
                libjpeg-turbo.tcz
          libasound-dev.tcz
             libasound.tcz
-               alsa-modules-6.18.16-piCore-v8.tcz
+               alsa-modules-6.18.37-piCore-v8.tcz
          glu-dev.tcz
             glu.tcz
                mesa.tcz
                   libdrm.tcz
-                     libpciaccess.tcz
-                     udev-lib.tcz
                   expat2.tcz
                   libzstd.tcz
                   libXfixes.tcz
@@ -1713,8 +1940,6 @@ openal-dev.tcz
             mesa-dev.tcz
                mesa.tcz
                   libdrm.tcz
-                     libpciaccess.tcz
-                     udev-lib.tcz
                   expat2.tcz
                   libzstd.tcz
                   libXfixes.tcz
@@ -1731,15 +1956,6 @@ openal-dev.tcz
                   libxshmfence.tcz
                libdrm-dev.tcz
                   libdrm.tcz
-                     libpciaccess.tcz
-                     udev-lib.tcz
-                  xorg-proto.tcz
-                     util-macros.tcz
-                        m4.tcz
-                  libpciaccess-dev.tcz
-                     libpciaccess.tcz
-                  udev-lib-dev.tcz
-                     udev-lib.tcz
                wayland-protocols-dev.tcz
                   wayland-protocols.tcz
                      wayland.tcz
@@ -1912,7 +2128,9 @@ openal-dev.tcz
       libass-dev.tcz
          libass.tcz
             fribidi.tcz
-               glib2.tcz 
+               glib2.tcz
+                  pcre2.tcz
+                     bzip2-lib.tcz
             fontconfig.tcz
                expat2.tcz
                freetype.tcz
@@ -1924,8 +2142,32 @@ openal-dev.tcz
                      graphite2.tcz
                   bzip2-lib.tcz
          fribidi-dev.tcz
-            fribidi.tcz 
-            glib2-dev.tcz 
+            fribidi.tcz
+               glib2.tcz
+                  pcre2.tcz
+                     bzip2-lib.tcz
+            glib2-dev.tcz
+               glib2-python.tcz
+                  glib2.tcz
+                     pcre2.tcz
+                        bzip2-lib.tcz
+                  python3.11.tcz
+                     bzip2-lib.tcz
+                     readline.tcz
+                        ncurses.tcz
+                     gdbm.tcz
+                     liblzma.tcz
+                     openssl.tcz
+                        ca-certificates.tcz
+                     sqlite3.tcz
+                     ncurses.tcz
+               pcre2-dev.tcz
+                  pcre2.tcz
+                     bzip2-lib.tcz
+                  bzip2-dev.tcz
+                     bzip2.tcz
+                        bzip2-lib.tcz
+                  zlib_base-dev.tcz
          fontconfig-dev.tcz
             fontconfig.tcz
                expat2.tcz
@@ -2032,7 +2274,9 @@ openal-dev.tcz
                            libXau.tcz
                            libXdmcp.tcz
                fribidi.tcz
-                  glib2.tcz 
+                  glib2.tcz
+                     pcre2.tcz
+                        bzip2-lib.tcz
             gdk-pixbuf.tcz
                glib2.tcz
                   pcre2.tcz
@@ -2097,7 +2341,9 @@ openal-dev.tcz
                            libXau.tcz
                            libXdmcp.tcz
                fribidi.tcz
-                  glib2.tcz 
+                  glib2.tcz
+                     pcre2.tcz
+                        bzip2-lib.tcz
             cairo-dev.tcz
                cairo.tcz
                   glib2.tcz
@@ -2310,8 +2556,32 @@ openal-dev.tcz
                            bzip2-lib.tcz
                libXrender-dev.tcz
             fribidi-dev.tcz
-               fribidi.tcz 
-               glib2-dev.tcz 
+               fribidi.tcz
+                  glib2.tcz
+                     pcre2.tcz
+                        bzip2-lib.tcz
+               glib2-dev.tcz
+                  glib2-python.tcz
+                     glib2.tcz
+                        pcre2.tcz
+                           bzip2-lib.tcz
+                     python3.11.tcz
+                        bzip2-lib.tcz
+                        readline.tcz
+                           ncurses.tcz
+                        gdbm.tcz
+                        liblzma.tcz
+                        openssl.tcz
+                           ca-certificates.tcz
+                        sqlite3.tcz
+                        ncurses.tcz
+                  pcre2-dev.tcz
+                     pcre2.tcz
+                        bzip2-lib.tcz
+                     bzip2-dev.tcz
+                        bzip2.tcz
+                           bzip2-lib.tcz
+                     zlib_base-dev.tcz
          gdk-pixbuf-dev.tcz
             gdk-pixbuf.tcz
                glib2.tcz
@@ -2458,7 +2728,7 @@ openal-dev.tcz
                flac.tcz
                   libogg.tcz
                libasound.tcz
-                  alsa-modules-6.18.16-piCore-v8.tcz
+                  alsa-modules-6.18.37-piCore-v8.tcz
                libvorbis.tcz
                   libogg.tcz
                sqlite3.tcz
@@ -2470,7 +2740,7 @@ openal-dev.tcz
                   libogg.tcz
          alsa.tcz
             libasound.tcz
-               alsa-modules-6.18.16-piCore-v8.tcz
+               alsa-modules-6.18.37-piCore-v8.tcz
          udev-lib.tcz
          libltdl.tcz
          libavahi.tcz
@@ -2488,7 +2758,7 @@ openal-dev.tcz
          libcap.tcz
       libasound-dev.tcz
          libasound.tcz
-            alsa-modules-6.18.16-piCore-v8.tcz
+            alsa-modules-6.18.37-piCore-v8.tcz
       libtool-dev.tcz
          libtool.tcz
             libltdl.tcz
@@ -2508,7 +2778,7 @@ openal-dev.tcz
             flac.tcz
                libogg.tcz
             libasound.tcz
-               alsa-modules-6.18.16-piCore-v8.tcz
+               alsa-modules-6.18.37-piCore-v8.tcz
             libvorbis.tcz
                libogg.tcz
             sqlite3.tcz
@@ -2519,7 +2789,7 @@ openal-dev.tcz
                libogg.tcz
          libasound-dev.tcz
             libasound.tcz
-               alsa-modules-6.18.16-piCore-v8.tcz
+               alsa-modules-6.18.37-piCore-v8.tcz
          libvorbis-dev.tcz
             libvorbis.tcz
                libogg.tcz
@@ -2548,29 +2818,29 @@ openal-dev.tcz
                   pcre2.tcz
                      bzip2-lib.tcz
                libasound.tcz
-                  alsa-modules-6.18.16-piCore-v8.tcz
+                  alsa-modules-6.18.37-piCore-v8.tcz
                udev257-lib.tcz
                   libcap.tcz
                libical.tcz
                   icu73.tcz
                pcre2.tcz
                   bzip2-lib.tcz
-               bluetooth-6.18.16-piCore-v8.tcz
+               bluetooth-6.18.37-piCore-v8.tcz
                   firmware-rpi-bt.tcz
                readline.tcz
                   ncurses.tcz
                sbc.tcz
                   libasound.tcz
-                     alsa-modules-6.18.16-piCore-v8.tcz
+                     alsa-modules-6.18.37-piCore-v8.tcz
          ncurses-dev.tcz
             ncurses.tcz
       sbc-dev.tcz
          sbc.tcz
             libasound.tcz
-               alsa-modules-6.18.16-piCore-v8.tcz
+               alsa-modules-6.18.37-piCore-v8.tcz
          libasound-dev.tcz
             libasound.tcz
-               alsa-modules-6.18.16-piCore-v8.tcz
+               alsa-modules-6.18.37-piCore-v8.tcz
       gtk3-dev.tcz
          gtk3.tcz
             libepoxy.tcz
@@ -2659,7 +2929,9 @@ openal-dev.tcz
                            libXau.tcz
                            libXdmcp.tcz
                fribidi.tcz
-                  glib2.tcz 
+                  glib2.tcz
+                     pcre2.tcz
+                        bzip2-lib.tcz
             libXcursor.tcz
                libXrender.tcz
                   libX11.tcz
@@ -2710,6 +2982,8 @@ openal-dev.tcz
                   libxcb.tcz
                      libXau.tcz
                      libXdmcp.tcz
+               libxml2.tcz
+                  liblzma.tcz
                xkeyboard-config.tcz
             wayland-protocols.tcz
                wayland.tcz
@@ -2973,7 +3247,9 @@ openal-dev.tcz
                            libXau.tcz
                            libXdmcp.tcz
                fribidi.tcz
-                  glib2.tcz 
+                  glib2.tcz
+                     pcre2.tcz
+                        bzip2-lib.tcz
             cairo-dev.tcz
                cairo.tcz
                   glib2.tcz
@@ -3186,14 +3462,40 @@ openal-dev.tcz
                            bzip2-lib.tcz
                libXrender-dev.tcz
             fribidi-dev.tcz
-               fribidi.tcz 
-               glib2-dev.tcz 
+               fribidi.tcz
+                  glib2.tcz
+                     pcre2.tcz
+                        bzip2-lib.tcz
+               glib2-dev.tcz
+                  glib2-python.tcz
+                     glib2.tcz
+                        pcre2.tcz
+                           bzip2-lib.tcz
+                     python3.11.tcz
+                        bzip2-lib.tcz
+                        readline.tcz
+                           ncurses.tcz
+                        gdbm.tcz
+                        liblzma.tcz
+                        openssl.tcz
+                           ca-certificates.tcz
+                        sqlite3.tcz
+                        ncurses.tcz
+                  pcre2-dev.tcz
+                     pcre2.tcz
+                        bzip2-lib.tcz
+                     bzip2-dev.tcz
+                        bzip2.tcz
+                           bzip2-lib.tcz
+                     zlib_base-dev.tcz
          libxkbcommon-dev.tcz
             libxkbcommon.tcz
                libX11.tcz
                   libxcb.tcz
                      libXau.tcz
                      libXdmcp.tcz
+               libxml2.tcz
+                  liblzma.tcz
                xkeyboard-config.tcz
             libX11-dev.tcz
                libX11.tcz
@@ -3235,8 +3537,6 @@ openal-dev.tcz
             libEGL.tcz
                mesa.tcz
                   libdrm.tcz
-                     libpciaccess.tcz
-                     udev-lib.tcz
                   expat2.tcz
                   libzstd.tcz
                   libXfixes.tcz
@@ -3258,8 +3558,6 @@ openal-dev.tcz
             mesa-dev.tcz
                mesa.tcz
                   libdrm.tcz
-                     libpciaccess.tcz
-                     udev-lib.tcz
                   expat2.tcz
                   libzstd.tcz
                   libXfixes.tcz
@@ -3276,15 +3574,6 @@ openal-dev.tcz
                   libxshmfence.tcz
                libdrm-dev.tcz
                   libdrm.tcz
-                     libpciaccess.tcz
-                     udev-lib.tcz
-                  xorg-proto.tcz
-                     util-macros.tcz
-                        m4.tcz
-                  libpciaccess-dev.tcz
-                     libpciaccess.tcz
-                  udev-lib-dev.tcz
-                     udev-lib.tcz
                wayland-protocols-dev.tcz
                   wayland-protocols.tcz
                      wayland.tcz
@@ -3607,7 +3896,8 @@ openal-dev.tcz
                            bzip2-lib.tcz
                   openssl.tcz
                      ca-certificates.tcz
-                  libusb.tcz    
+                  libusb.tcz
+                     udev-lib.tcz
                libavahi.tcz
                   dbus.tcz
                      expat2.tcz
@@ -3619,10 +3909,73 @@ openal-dev.tcz
                   glib2.tcz
                      pcre2.tcz
                         bzip2-lib.tcz
-               libusb.tcz 
-               cups-filters.tcz          
-            openssl-dev.tcz 
-            libusb-dev.tcz 
+               libusb.tcz
+                  udev-lib.tcz
+               cups-filters.tcz
+                  poppler.tcz
+                     cairo.tcz
+                        glib2.tcz
+                           pcre2.tcz
+                              bzip2-lib.tcz
+                        fontconfig.tcz
+                           expat2.tcz
+                           freetype.tcz
+                              libpng.tcz
+                              harfbuzz.tcz
+                                 glib2.tcz
+                                    pcre2.tcz
+                                       bzip2-lib.tcz
+                                 graphite2.tcz
+                              bzip2-lib.tcz
+                        pixman.tcz
+                        libXext.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                        libXrender.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
+                     fontconfig.tcz
+                        expat2.tcz
+                        freetype.tcz
+                           libpng.tcz
+                           harfbuzz.tcz
+                              glib2.tcz
+                                 pcre2.tcz
+                                    bzip2-lib.tcz
+                              graphite2.tcz
+                           bzip2-lib.tcz
+                     liblcms2.tcz
+                     glib2.tcz
+                        pcre2.tcz
+                           bzip2-lib.tcz
+                     libjpeg-turbo.tcz
+                  qpdf.tcz
+                     gnutls.tcz
+                        libidn2.tcz
+                           libunistring.tcz
+                        unbound.tcz
+                           expat2.tcz
+                           openssl.tcz
+                              ca-certificates.tcz
+                        nettle.tcz
+                           gmp.tcz
+                        p11-kit.tcz
+                           libtasn1.tcz
+                     pcre2.tcz
+                        bzip2-lib.tcz
+                  Xorg-fonts.tcz
+            openssl-dev.tcz
+               openssl.tcz
+                  ca-certificates.tcz
+            libusb-dev.tcz
+               libusb.tcz
+                  udev-lib.tcz
+               udev-lib-dev.tcz
+                  udev-lib.tcz
             avahi-dev.tcz
                avahi.tcz
                   libavahi.tcz
@@ -3637,13 +3990,153 @@ openal-dev.tcz
                         pcre2.tcz
                            bzip2-lib.tcz
                   nss-mdns.tcz
-                  libdaemon.tcz 
-               glib2-dev.tcz 
-               dbus-dev.tcz 
-               gobject-introspection-dev.tcz 
-               libdaemon-dev.tcz 
-               intltool.tcz 
-               libevent-dev.tcz 
+                  libdaemon.tcz
+               glib2-dev.tcz
+                  glib2-python.tcz
+                     glib2.tcz
+                        pcre2.tcz
+                           bzip2-lib.tcz
+                     python3.11.tcz
+                        bzip2-lib.tcz
+                        readline.tcz
+                           ncurses.tcz
+                        gdbm.tcz
+                        liblzma.tcz
+                        openssl.tcz
+                           ca-certificates.tcz
+                        sqlite3.tcz
+                        ncurses.tcz
+                  pcre2-dev.tcz
+                     pcre2.tcz
+                        bzip2-lib.tcz
+                     bzip2-dev.tcz
+                        bzip2.tcz
+                           bzip2-lib.tcz
+                     zlib_base-dev.tcz
+               dbus-dev.tcz
+                  dbus.tcz
+                     expat2.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+                  expat2-dev.tcz
+                     expat2.tcz
+                  libX11-dev.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+                     libxcb-dev.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+                        libXau-dev.tcz
+                           libXau.tcz
+                        libXdmcp-dev.tcz
+                           libXdmcp.tcz
+                        xcb-proto.tcz
+                           xorg-proto.tcz
+                              util-macros.tcz
+                                 m4.tcz
+                     xtrans.tcz
+               gobject-introspection-dev.tcz
+                  gobject-introspection.tcz
+                     python3.11.tcz
+                        bzip2-lib.tcz
+                        readline.tcz
+                           ncurses.tcz
+                        gdbm.tcz
+                        liblzma.tcz
+                        openssl.tcz
+                           ca-certificates.tcz
+                        sqlite3.tcz
+                        ncurses.tcz
+                     glib2.tcz
+                        pcre2.tcz
+                           bzip2-lib.tcz
+                  python3.11-dev.tcz
+                     python3.11.tcz
+                        bzip2-lib.tcz
+                        readline.tcz
+                           ncurses.tcz
+                        gdbm.tcz
+                        liblzma.tcz
+                        openssl.tcz
+                           ca-certificates.tcz
+                        sqlite3.tcz
+                        ncurses.tcz
+                     bzip2-dev.tcz
+                        bzip2.tcz
+                           bzip2-lib.tcz
+                     gdbm-dev.tcz
+                        gdbm.tcz
+                     liblzma-dev.tcz
+                        liblzma.tcz
+                     openssl-dev.tcz
+                        openssl.tcz
+                           ca-certificates.tcz
+                     readline-dev.tcz
+                        readline.tcz
+                           ncurses.tcz
+                        ncurses-dev.tcz
+                           ncurses.tcz
+                     sqlite3-dev.tcz
+                        sqlite3-bin.tcz
+                           sqlite3.tcz
+                           readline.tcz
+                              ncurses.tcz
+                        readline-dev.tcz
+                           readline.tcz
+                              ncurses.tcz
+                           ncurses-dev.tcz
+                              ncurses.tcz
+                     ncurses-dev.tcz
+                        ncurses.tcz
+                  glib2-dev.tcz
+                     glib2-python.tcz
+                        glib2.tcz
+                           pcre2.tcz
+                              bzip2-lib.tcz
+                        python3.11.tcz
+                           bzip2-lib.tcz
+                           readline.tcz
+                              ncurses.tcz
+                           gdbm.tcz
+                           liblzma.tcz
+                           openssl.tcz
+                              ca-certificates.tcz
+                           sqlite3.tcz
+                           ncurses.tcz
+                     pcre2-dev.tcz
+                        pcre2.tcz
+                           bzip2-lib.tcz
+                        bzip2-dev.tcz
+                           bzip2.tcz
+                              bzip2-lib.tcz
+                        zlib_base-dev.tcz
+               libdaemon-dev.tcz
+                  libdaemon.tcz
+                  libtool.tcz
+                     libltdl.tcz
+               intltool.tcz
+                  perl_xml_parser.tcz
+                     expat2.tcz
+                     perl5.tcz
+                  gettext.tcz
+                     gcc_libs.tcz
+                     libacl.tcz
+                        libattr.tcz
+                     libxml2.tcz
+                        liblzma.tcz
+                     ncurses.tcz
+               libevent-dev.tcz
+                  libevent.tcz
+                     openssl.tcz
+                        ca-certificates.tcz
+                  openssl-dev.tcz
+                     openssl.tcz
+                        ca-certificates.tcz
          json-glib-dev.tcz
             json-glib.tcz
                glib2.tcz

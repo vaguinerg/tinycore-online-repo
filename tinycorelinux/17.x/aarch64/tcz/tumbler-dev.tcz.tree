@@ -16,7 +16,7 @@ tumbler-dev.tcz
                   bzip2-lib.tcz
             gmp.tcz
          libasound.tcz
-            alsa-modules-6.18.16-piCore-v8.tcz
+            alsa-modules-6.18.37-piCore-v8.tcz
          opus.tcz
          libtheora.tcz
             libogg.tcz
@@ -92,7 +92,7 @@ tumbler-dev.tcz
                   bzip2-lib.tcz
             gmp.tcz
          libasound.tcz
-            alsa-modules-6.18.16-piCore-v8.tcz
+            alsa-modules-6.18.37-piCore-v8.tcz
          opus.tcz
          libtheora.tcz
             libogg.tcz
@@ -135,7 +135,7 @@ tumbler-dev.tcz
             gmp.tcz
       libasound-dev.tcz
          libasound.tcz
-            alsa-modules-6.18.16-piCore-v8.tcz
+            alsa-modules-6.18.37-piCore-v8.tcz
       opus-dev.tcz
          opus.tcz
       graphene-dev.tcz
@@ -180,8 +180,6 @@ tumbler-dev.tcz
          libEGL.tcz
             mesa.tcz
                libdrm.tcz
-                  libpciaccess.tcz
-                  udev-lib.tcz
                expat2.tcz
                libzstd.tcz
                libXfixes.tcz
@@ -203,8 +201,6 @@ tumbler-dev.tcz
          mesa-dev.tcz
             mesa.tcz
                libdrm.tcz
-                  libpciaccess.tcz
-                  udev-lib.tcz
                expat2.tcz
                libzstd.tcz
                libXfixes.tcz
@@ -221,15 +217,6 @@ tumbler-dev.tcz
                libxshmfence.tcz
             libdrm-dev.tcz
                libdrm.tcz
-                  libpciaccess.tcz
-                  udev-lib.tcz
-               xorg-proto.tcz
-                  util-macros.tcz
-                     m4.tcz
-               libpciaccess-dev.tcz
-                  libpciaccess.tcz
-               udev-lib-dev.tcz
-                  udev-lib.tcz
             wayland-protocols-dev.tcz
                wayland-protocols.tcz
                   wayland.tcz
@@ -411,8 +398,6 @@ tumbler-dev.tcz
          libGLES.tcz
             mesa.tcz
                libdrm.tcz
-                  libpciaccess.tcz
-                  udev-lib.tcz
                expat2.tcz
                libzstd.tcz
                libXfixes.tcz
@@ -428,13 +413,9 @@ tumbler-dev.tcz
                            libXdmcp.tcz
                libxshmfence.tcz
             libdrm.tcz
-               libpciaccess.tcz
-               udev-lib.tcz
          mesa-dev.tcz
             mesa.tcz
                libdrm.tcz
-                  libpciaccess.tcz
-                  udev-lib.tcz
                expat2.tcz
                libzstd.tcz
                libXfixes.tcz
@@ -451,15 +432,6 @@ tumbler-dev.tcz
                libxshmfence.tcz
             libdrm-dev.tcz
                libdrm.tcz
-                  libpciaccess.tcz
-                  udev-lib.tcz
-               xorg-proto.tcz
-                  util-macros.tcz
-                     m4.tcz
-               libpciaccess-dev.tcz
-                  libpciaccess.tcz
-               udev-lib-dev.tcz
-                  udev-lib.tcz
             wayland-protocols-dev.tcz
                wayland-protocols.tcz
                   wayland.tcz
@@ -629,15 +601,6 @@ tumbler-dev.tcz
                   liblz4.tcz
          libdrm-dev.tcz
             libdrm.tcz
-               libpciaccess.tcz
-               udev-lib.tcz
-            xorg-proto.tcz
-               util-macros.tcz
-                  m4.tcz
-            libpciaccess-dev.tcz
-               libpciaccess.tcz
-            udev-lib-dev.tcz
-               udev-lib.tcz
       wayland-protocols.tcz
          wayland.tcz
             expat2.tcz
@@ -687,7 +650,9 @@ tumbler-dev.tcz
                         libXau.tcz
                         libXdmcp.tcz
             fribidi.tcz
-               glib2.tcz 
+               glib2.tcz
+                  pcre2.tcz
+                     bzip2-lib.tcz
          cairo-dev.tcz
             cairo.tcz
                glib2.tcz
@@ -900,8 +865,32 @@ tumbler-dev.tcz
                         bzip2-lib.tcz
             libXrender-dev.tcz
          fribidi-dev.tcz
-            fribidi.tcz 
-            glib2-dev.tcz 
+            fribidi.tcz
+               glib2.tcz
+                  pcre2.tcz
+                     bzip2-lib.tcz
+            glib2-dev.tcz
+               glib2-python.tcz
+                  glib2.tcz
+                     pcre2.tcz
+                        bzip2-lib.tcz
+                  python3.11.tcz
+                     bzip2-lib.tcz
+                     readline.tcz
+                        ncurses.tcz
+                     gdbm.tcz
+                     liblzma.tcz
+                     openssl.tcz
+                        ca-certificates.tcz
+                     sqlite3.tcz
+                     ncurses.tcz
+               pcre2-dev.tcz
+                  pcre2.tcz
+                     bzip2-lib.tcz
+                  bzip2-dev.tcz
+                     bzip2.tcz
+                        bzip2-lib.tcz
+                  zlib_base-dev.tcz
       libjpeg-turbo-dev.tcz
          libjpeg-turbo-bin.tcz
             libjpeg-turbo.tcz

@@ -141,6 +141,8 @@ libshumate-dev.tcz
                libxcb.tcz
                   libXau.tcz
                   libXdmcp.tcz
+            libxml2.tcz
+               liblzma.tcz
             xkeyboard-config.tcz
          wayland-protocols.tcz
             wayland.tcz
@@ -257,8 +259,6 @@ libshumate-dev.tcz
             libEGL.tcz
                mesa.tcz
                   libdrm.tcz
-                     libpciaccess.tcz
-                     udev-lib.tcz
                   expat2.tcz
                   libzstd.tcz
                   libXfixes.tcz
@@ -280,8 +280,6 @@ libshumate-dev.tcz
             libGLES.tcz
                mesa.tcz
                   libdrm.tcz
-                     libpciaccess.tcz
-                     udev-lib.tcz
                   expat2.tcz
                   libzstd.tcz
                   libXfixes.tcz
@@ -297,8 +295,6 @@ libshumate-dev.tcz
                               libXdmcp.tcz
                   libxshmfence.tcz
                libdrm.tcz
-                  libpciaccess.tcz
-                  udev-lib.tcz
             libwebp.tcz
             x265.tcz
       libsoup3.tcz
@@ -469,6 +465,8 @@ libshumate-dev.tcz
                libxcb.tcz
                   libXau.tcz
                   libXdmcp.tcz
+            libxml2.tcz
+               liblzma.tcz
             xkeyboard-config.tcz
          wayland-protocols.tcz
             wayland.tcz
@@ -585,8 +583,6 @@ libshumate-dev.tcz
             libEGL.tcz
                mesa.tcz
                   libdrm.tcz
-                     libpciaccess.tcz
-                     udev-lib.tcz
                   expat2.tcz
                   libzstd.tcz
                   libXfixes.tcz
@@ -608,8 +604,6 @@ libshumate-dev.tcz
             libGLES.tcz
                mesa.tcz
                   libdrm.tcz
-                     libpciaccess.tcz
-                     udev-lib.tcz
                   expat2.tcz
                   libzstd.tcz
                   libXfixes.tcz
@@ -625,8 +619,6 @@ libshumate-dev.tcz
                               libXdmcp.tcz
                   libxshmfence.tcz
                libdrm.tcz
-                  libpciaccess.tcz
-                  udev-lib.tcz
             libwebp.tcz
             x265.tcz
       gdk-pixbuf-dev.tcz
@@ -1131,8 +1123,6 @@ libshumate-dev.tcz
          libEGL.tcz
             mesa.tcz
                libdrm.tcz
-                  libpciaccess.tcz
-                  udev-lib.tcz
                expat2.tcz
                libzstd.tcz
                libXfixes.tcz
@@ -1154,8 +1144,6 @@ libshumate-dev.tcz
          mesa-dev.tcz
             mesa.tcz
                libdrm.tcz
-                  libpciaccess.tcz
-                  udev-lib.tcz
                expat2.tcz
                libzstd.tcz
                libXfixes.tcz
@@ -1172,15 +1160,6 @@ libshumate-dev.tcz
                libxshmfence.tcz
             libdrm-dev.tcz
                libdrm.tcz
-                  libpciaccess.tcz
-                  udev-lib.tcz
-               xorg-proto.tcz
-                  util-macros.tcz
-                     m4.tcz
-               libpciaccess-dev.tcz
-                  libpciaccess.tcz
-               udev-lib-dev.tcz
-                  udev-lib.tcz
             wayland-protocols-dev.tcz
                wayland-protocols.tcz
                   wayland.tcz
@@ -1621,6 +1600,8 @@ libshumate-dev.tcz
                libxcb.tcz
                   libXau.tcz
                   libXdmcp.tcz
+            libxml2.tcz
+               liblzma.tcz
             xkeyboard-config.tcz
          libX11-dev.tcz
             libX11.tcz
@@ -1709,8 +1690,6 @@ libshumate-dev.tcz
             libEGL.tcz
                mesa.tcz
                   libdrm.tcz
-                     libpciaccess.tcz
-                     udev-lib.tcz
                   expat2.tcz
                   libzstd.tcz
                   libXfixes.tcz
@@ -1732,8 +1711,6 @@ libshumate-dev.tcz
             libGLES.tcz
                mesa.tcz
                   libdrm.tcz
-                     libpciaccess.tcz
-                     udev-lib.tcz
                   expat2.tcz
                   libzstd.tcz
                   libXfixes.tcz
@@ -1749,8 +1726,6 @@ libshumate-dev.tcz
                               libXdmcp.tcz
                   libxshmfence.tcz
                libdrm.tcz
-                  libpciaccess.tcz
-                  udev-lib.tcz
             libwebp.tcz
             x265.tcz
          gst-plugins-base-dev.tcz
@@ -1849,8 +1824,6 @@ libshumate-dev.tcz
                libEGL.tcz
                   mesa.tcz
                      libdrm.tcz
-                        libpciaccess.tcz
-                        udev-lib.tcz
                      expat2.tcz
                      libzstd.tcz
                      libXfixes.tcz
@@ -1872,8 +1845,6 @@ libshumate-dev.tcz
                mesa-dev.tcz
                   mesa.tcz
                      libdrm.tcz
-                        libpciaccess.tcz
-                        udev-lib.tcz
                      expat2.tcz
                      libzstd.tcz
                      libXfixes.tcz
@@ -1890,15 +1861,6 @@ libshumate-dev.tcz
                      libxshmfence.tcz
                   libdrm-dev.tcz
                      libdrm.tcz
-                        libpciaccess.tcz
-                        udev-lib.tcz
-                     xorg-proto.tcz
-                        util-macros.tcz
-                           m4.tcz
-                     libpciaccess-dev.tcz
-                        libpciaccess.tcz
-                     udev-lib-dev.tcz
-                        udev-lib.tcz
                   wayland-protocols-dev.tcz
                      wayland-protocols.tcz
                         wayland.tcz
@@ -2080,8 +2042,6 @@ libshumate-dev.tcz
                libGLES.tcz
                   mesa.tcz
                      libdrm.tcz
-                        libpciaccess.tcz
-                        udev-lib.tcz
                      expat2.tcz
                      libzstd.tcz
                      libXfixes.tcz
@@ -2097,13 +2057,9 @@ libshumate-dev.tcz
                                  libXdmcp.tcz
                      libxshmfence.tcz
                   libdrm.tcz
-                     libpciaccess.tcz
-                     udev-lib.tcz
                mesa-dev.tcz
                   mesa.tcz
                      libdrm.tcz
-                        libpciaccess.tcz
-                        udev-lib.tcz
                      expat2.tcz
                      libzstd.tcz
                      libXfixes.tcz
@@ -2120,15 +2076,6 @@ libshumate-dev.tcz
                      libxshmfence.tcz
                   libdrm-dev.tcz
                      libdrm.tcz
-                        libpciaccess.tcz
-                        udev-lib.tcz
-                     xorg-proto.tcz
-                        util-macros.tcz
-                           m4.tcz
-                     libpciaccess-dev.tcz
-                        libpciaccess.tcz
-                     udev-lib-dev.tcz
-                        udev-lib.tcz
                   wayland-protocols-dev.tcz
                      wayland-protocols.tcz
                         wayland.tcz
@@ -2298,15 +2245,6 @@ libshumate-dev.tcz
                         liblz4.tcz
                libdrm-dev.tcz
                   libdrm.tcz
-                     libpciaccess.tcz
-                     udev-lib.tcz
-                  xorg-proto.tcz
-                     util-macros.tcz
-                        m4.tcz
-                  libpciaccess-dev.tcz
-                     libpciaccess.tcz
-                  udev-lib-dev.tcz
-                     udev-lib.tcz
             wayland-protocols.tcz
                wayland.tcz
                   expat2.tcz
@@ -3458,6 +3396,8 @@ libshumate-dev.tcz
                      libxcb.tcz
                         libXau.tcz
                         libXdmcp.tcz
+                  libxml2.tcz
+                     liblzma.tcz
                   xkeyboard-config.tcz
                wayland-protocols.tcz
                   wayland.tcz
@@ -3968,6 +3908,8 @@ libshumate-dev.tcz
                      libxcb.tcz
                         libXau.tcz
                         libXdmcp.tcz
+                  libxml2.tcz
+                     liblzma.tcz
                   xkeyboard-config.tcz
                libX11-dev.tcz
                   libX11.tcz
@@ -4009,8 +3951,6 @@ libshumate-dev.tcz
                libEGL.tcz
                   mesa.tcz
                      libdrm.tcz
-                        libpciaccess.tcz
-                        udev-lib.tcz
                      expat2.tcz
                      libzstd.tcz
                      libXfixes.tcz
@@ -4032,8 +3972,6 @@ libshumate-dev.tcz
                mesa-dev.tcz
                   mesa.tcz
                      libdrm.tcz
-                        libpciaccess.tcz
-                        udev-lib.tcz
                      expat2.tcz
                      libzstd.tcz
                      libXfixes.tcz
@@ -4050,15 +3988,6 @@ libshumate-dev.tcz
                      libxshmfence.tcz
                   libdrm-dev.tcz
                      libdrm.tcz
-                        libpciaccess.tcz
-                        udev-lib.tcz
-                     xorg-proto.tcz
-                        util-macros.tcz
-                           m4.tcz
-                     libpciaccess-dev.tcz
-                        libpciaccess.tcz
-                     udev-lib-dev.tcz
-                        udev-lib.tcz
                   wayland-protocols-dev.tcz
                      wayland-protocols.tcz
                         wayland.tcz
@@ -4963,6 +4892,8 @@ libshumate-dev.tcz
                   libxcb.tcz
                      libXau.tcz
                      libXdmcp.tcz
+               libxml2.tcz
+                  liblzma.tcz
                xkeyboard-config.tcz
             libX11-dev.tcz
                libX11.tcz

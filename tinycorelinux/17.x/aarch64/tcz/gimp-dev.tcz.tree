@@ -258,6 +258,8 @@ gimp-dev.tcz
                   libxcb.tcz
                      libXau.tcz
                      libXdmcp.tcz
+               libxml2.tcz
+                  liblzma.tcz
                xkeyboard-config.tcz
             wayland-protocols.tcz
                wayland.tcz
@@ -473,6 +475,8 @@ gimp-dev.tcz
                   libxcb.tcz
                      libXau.tcz
                      libXdmcp.tcz
+               libxml2.tcz
+                  liblzma.tcz
                xkeyboard-config.tcz
             wayland-protocols.tcz
                wayland.tcz
@@ -955,8 +959,6 @@ gimp-dev.tcz
                glu.tcz
                   mesa.tcz
                      libdrm.tcz
-                        libpciaccess.tcz
-                        udev-lib.tcz
                      expat2.tcz
                      libzstd.tcz
                      libXfixes.tcz
@@ -974,8 +976,6 @@ gimp-dev.tcz
                mesa-dev.tcz
                   mesa.tcz
                      libdrm.tcz
-                        libpciaccess.tcz
-                        udev-lib.tcz
                      expat2.tcz
                      libzstd.tcz
                      libXfixes.tcz
@@ -992,15 +992,6 @@ gimp-dev.tcz
                      libxshmfence.tcz
                   libdrm-dev.tcz
                      libdrm.tcz
-                        libpciaccess.tcz
-                        udev-lib.tcz
-                     xorg-proto.tcz
-                        util-macros.tcz
-                           m4.tcz
-                     libpciaccess-dev.tcz
-                        libpciaccess.tcz
-                     udev-lib-dev.tcz
-                        udev-lib.tcz
                   wayland-protocols-dev.tcz
                      wayland-protocols.tcz
                         wayland.tcz
@@ -1178,8 +1169,6 @@ gimp-dev.tcz
             glu.tcz
                mesa.tcz
                   libdrm.tcz
-                     libpciaccess.tcz
-                     udev-lib.tcz
                   expat2.tcz
                   libzstd.tcz
                   libXfixes.tcz
@@ -1197,8 +1186,6 @@ gimp-dev.tcz
             mesa-dev.tcz
                mesa.tcz
                   libdrm.tcz
-                     libpciaccess.tcz
-                     udev-lib.tcz
                   expat2.tcz
                   libzstd.tcz
                   libXfixes.tcz
@@ -1215,15 +1202,6 @@ gimp-dev.tcz
                   libxshmfence.tcz
                libdrm-dev.tcz
                   libdrm.tcz
-                     libpciaccess.tcz
-                     udev-lib.tcz
-                  xorg-proto.tcz
-                     util-macros.tcz
-                        m4.tcz
-                  libpciaccess-dev.tcz
-                     libpciaccess.tcz
-                  udev-lib-dev.tcz
-                     udev-lib.tcz
                wayland-protocols-dev.tcz
                   wayland-protocols.tcz
                      wayland.tcz
@@ -1466,8 +1444,6 @@ gimp-dev.tcz
             glu.tcz
                mesa.tcz
                   libdrm.tcz
-                     libpciaccess.tcz
-                     udev-lib.tcz
                   expat2.tcz
                   libzstd.tcz
                   libXfixes.tcz
@@ -1485,8 +1461,6 @@ gimp-dev.tcz
             mesa-dev.tcz
                mesa.tcz
                   libdrm.tcz
-                     libpciaccess.tcz
-                     udev-lib.tcz
                   expat2.tcz
                   libzstd.tcz
                   libXfixes.tcz
@@ -1503,15 +1477,6 @@ gimp-dev.tcz
                   libxshmfence.tcz
                libdrm-dev.tcz
                   libdrm.tcz
-                     libpciaccess.tcz
-                     udev-lib.tcz
-                  xorg-proto.tcz
-                     util-macros.tcz
-                        m4.tcz
-                  libpciaccess-dev.tcz
-                     libpciaccess.tcz
-                  udev-lib-dev.tcz
-                     udev-lib.tcz
                wayland-protocols-dev.tcz
                   wayland-protocols.tcz
                      wayland.tcz

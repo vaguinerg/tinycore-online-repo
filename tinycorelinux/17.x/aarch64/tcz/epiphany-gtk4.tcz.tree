@@ -8,7 +8,7 @@ epiphany-gtk4.tcz
                   bzip2-lib.tcz
             gmp.tcz
          libasound.tcz
-            alsa-modules-6.18.16-piCore-v8.tcz
+            alsa-modules-6.18.37-piCore-v8.tcz
          opus.tcz
          libtheora.tcz
             libogg.tcz
@@ -21,13 +21,465 @@ epiphany-gtk4.tcz
                   bzip2-lib.tcz
       libvpx114.tcz
       libv4l2.tcz
-         v4l-dvb-6.18.16-piCore-v8.tcz
-            alsa-modules-6.18.16-piCore-v8.tcz
-            graphics-6.18.16-piCore-v8.tcz
-               alsa-modules-6.18.16-piCore-v8.tcz
+         v4l-dvb-6.18.37-piCore-v8.tcz
+            alsa-modules-6.18.37-piCore-v8.tcz
+            graphics-6.18.37-piCore-v8.tcz
+               alsa-modules-6.18.37-piCore-v8.tcz
          libjpeg-turbo.tcz
          udev-lib.tcz
    webkitgtk-gtk4.tcz
+      gst-plugins-bad.tcz
+         gst-plugins-base.tcz
+            gstreamer.tcz
+               glib2.tcz
+                  pcre2.tcz
+                     bzip2-lib.tcz
+               gmp.tcz
+            libasound.tcz
+               alsa-modules-6.18.37-piCore-v8.tcz
+            opus.tcz
+            libtheora.tcz
+               libogg.tcz
+            libvorbis.tcz
+               libogg.tcz
+            gudev-lib.tcz
+               udev-lib.tcz
+               glib2.tcz
+                  pcre2.tcz
+                     bzip2-lib.tcz
+         libEGL.tcz
+            mesa.tcz
+               libdrm.tcz
+               expat2.tcz
+               libzstd.tcz
+               libXfixes.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
+               libXxf86vm.tcz
+                  libXext.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+               libxshmfence.tcz
+            wayland.tcz
+               expat2.tcz
+               libxml2.tcz
+                  liblzma.tcz
+         libGLES.tcz
+            mesa.tcz
+               libdrm.tcz
+               expat2.tcz
+               libzstd.tcz
+               libXfixes.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
+               libXxf86vm.tcz
+                  libXext.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+               libxshmfence.tcz
+            libdrm.tcz
+         libwebp.tcz
+         x265.tcz
+      libsecret.tcz
+         glib2.tcz
+            pcre2.tcz
+               bzip2-lib.tcz
+         libgcrypt.tcz
+            libgpg-error.tcz
+      gudev-lib.tcz
+         udev-lib.tcz
+         glib2.tcz
+            pcre2.tcz
+               bzip2-lib.tcz
+      enchant.tcz
+         aspell.tcz
+            ncurses.tcz
+            aspell-en.tcz
+         glib2.tcz
+            pcre2.tcz
+               bzip2-lib.tcz
+         hunspell.tcz
+            perl5.tcz
+            hunspell-en_US.tcz
+      geoclue.tcz
+         json-glib.tcz
+            glib2.tcz
+               pcre2.tcz
+                  bzip2-lib.tcz
+         libsoup3.tcz
+            glib-networking.tcz
+               glib2.tcz
+                  pcre2.tcz
+                     bzip2-lib.tcz
+               gnutls.tcz
+                  libidn2.tcz
+                     libunistring.tcz
+                  unbound.tcz
+                     expat2.tcz
+                     openssl.tcz
+                        ca-certificates.tcz
+                  nettle.tcz
+                     gmp.tcz
+                  p11-kit.tcz
+                     libtasn1.tcz
+               openssl.tcz
+                  ca-certificates.tcz
+            libxml2.tcz
+               liblzma.tcz
+            sqlite3.tcz
+            libpsl.tcz
+               libidn2.tcz
+                  libunistring.tcz
+            libnghttp2.tcz
+      libxslt.tcz
+         libgcrypt.tcz
+            libgpg-error.tcz
+      harfbuzz-icu.tcz
+         harfbuzz.tcz
+            glib2.tcz
+               pcre2.tcz
+                  bzip2-lib.tcz
+            graphite2.tcz
+         icu73.tcz
+      openjpeg.tcz
+         liblcms2.tcz
+         libpng.tcz
+      gsettings-desktop-schemas.tcz
+         glib2.tcz
+            pcre2.tcz
+               bzip2-lib.tcz
+      ca-certificates.tcz
+      liblcms2.tcz
+      libsoup3.tcz
+         glib-networking.tcz
+            glib2.tcz
+               pcre2.tcz
+                  bzip2-lib.tcz
+            gnutls.tcz
+               libidn2.tcz
+                  libunistring.tcz
+               unbound.tcz
+                  expat2.tcz
+                  openssl.tcz
+                     ca-certificates.tcz
+               nettle.tcz
+                  gmp.tcz
+               p11-kit.tcz
+                  libtasn1.tcz
+            openssl.tcz
+               ca-certificates.tcz
+         libxml2.tcz
+            liblzma.tcz
+         sqlite3.tcz
+         libpsl.tcz
+            libidn2.tcz
+               libunistring.tcz
+         libnghttp2.tcz
+      gtk4.tcz
+         shared-mime-info.tcz
+            glib2.tcz
+               pcre2.tcz
+                  bzip2-lib.tcz
+            libxml2.tcz
+               liblzma.tcz
+         libepoxy.tcz
+         at-spi2-core.tcz
+            dbus.tcz
+               expat2.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
+            glib2.tcz
+               pcre2.tcz
+                  bzip2-lib.tcz
+            libXtst.tcz
+               libXi.tcz
+                  libXext.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+         gdk-pixbuf.tcz
+            glib2.tcz
+               pcre2.tcz
+                  bzip2-lib.tcz
+            libX11.tcz
+               libxcb.tcz
+                  libXau.tcz
+                  libXdmcp.tcz
+            libpng.tcz
+            libtiff.tcz
+               libjpeg-turbo.tcz
+               libwebp.tcz
+               liblzma.tcz
+               libzstd.tcz
+            shared-mime-info.tcz
+               glib2.tcz
+                  pcre2.tcz
+                     bzip2-lib.tcz
+               libxml2.tcz
+                  liblzma.tcz
+         libXcomposite.tcz
+            libX11.tcz
+               libxcb.tcz
+                  libXau.tcz
+                  libXdmcp.tcz
+         pango.tcz
+            cairo.tcz
+               glib2.tcz
+                  pcre2.tcz
+                     bzip2-lib.tcz
+               fontconfig.tcz
+                  expat2.tcz
+                  freetype.tcz
+                     libpng.tcz
+                     harfbuzz.tcz
+                        glib2.tcz
+                           pcre2.tcz
+                              bzip2-lib.tcz
+                        graphite2.tcz
+                     bzip2-lib.tcz
+               pixman.tcz
+               libXext.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
+               libXrender.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
+            libXft.tcz
+               fontconfig.tcz
+                  expat2.tcz
+                  freetype.tcz
+                     libpng.tcz
+                     harfbuzz.tcz
+                        glib2.tcz
+                           pcre2.tcz
+                              bzip2-lib.tcz
+                        graphite2.tcz
+                     bzip2-lib.tcz
+               libXrender.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
+            fribidi.tcz
+               glib2.tcz
+                  pcre2.tcz
+                     bzip2-lib.tcz
+         libXcursor.tcz
+            libXrender.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
+            libXfixes.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
+         libXdamage.tcz
+            libXfixes.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
+         libXinerama.tcz
+            libXext.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
+         libXrandr.tcz
+            libXext.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
+            libXrender.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
+         libXi.tcz
+            libXext.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
+         libxkbcommon.tcz
+            libX11.tcz
+               libxcb.tcz
+                  libXau.tcz
+                  libXdmcp.tcz
+            libxml2.tcz
+               liblzma.tcz
+            xkeyboard-config.tcz
+         wayland-protocols.tcz
+            wayland.tcz
+               expat2.tcz
+               libxml2.tcz
+                  liblzma.tcz
+         graphene.tcz
+            glib2.tcz
+               pcre2.tcz
+                  bzip2-lib.tcz
+         libvulkan.tcz
+         librsvg.tcz
+            pango.tcz
+               cairo.tcz
+                  glib2.tcz
+                     pcre2.tcz
+                        bzip2-lib.tcz
+                  fontconfig.tcz
+                     expat2.tcz
+                     freetype.tcz
+                        libpng.tcz
+                        harfbuzz.tcz
+                           glib2.tcz
+                              pcre2.tcz
+                                 bzip2-lib.tcz
+                           graphite2.tcz
+                        bzip2-lib.tcz
+                  pixman.tcz
+                  libXext.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+                  libXrender.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+               libXft.tcz
+                  fontconfig.tcz
+                     expat2.tcz
+                     freetype.tcz
+                        libpng.tcz
+                        harfbuzz.tcz
+                           glib2.tcz
+                              pcre2.tcz
+                                 bzip2-lib.tcz
+                           graphite2.tcz
+                        bzip2-lib.tcz
+                  libXrender.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+               fribidi.tcz
+                  glib2.tcz
+                     pcre2.tcz
+                        bzip2-lib.tcz
+            gdk-pixbuf.tcz
+               glib2.tcz
+                  pcre2.tcz
+                     bzip2-lib.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
+               libpng.tcz
+               libtiff.tcz
+                  libjpeg-turbo.tcz
+                  libwebp.tcz
+                  liblzma.tcz
+                  libzstd.tcz
+               shared-mime-info.tcz
+                  glib2.tcz
+                     pcre2.tcz
+                        bzip2-lib.tcz
+                  libxml2.tcz
+                     liblzma.tcz
+         libcups.tcz
+            libavahi.tcz
+               dbus.tcz
+                  expat2.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
+               gcc_libs.tcz
+               glib2.tcz
+                  pcre2.tcz
+                     bzip2-lib.tcz
+            openssl.tcz
+               ca-certificates.tcz
+            libusb.tcz
+               udev-lib.tcz
+         gst-plugins-bad.tcz
+            gst-plugins-base.tcz
+               gstreamer.tcz
+                  glib2.tcz
+                     pcre2.tcz
+                        bzip2-lib.tcz
+                  gmp.tcz
+               libasound.tcz
+                  alsa-modules-6.18.37-piCore-v8.tcz
+               opus.tcz
+               libtheora.tcz
+                  libogg.tcz
+               libvorbis.tcz
+                  libogg.tcz
+               gudev-lib.tcz
+                  udev-lib.tcz
+                  glib2.tcz
+                     pcre2.tcz
+                        bzip2-lib.tcz
+            libEGL.tcz
+               mesa.tcz
+                  libdrm.tcz
+                  expat2.tcz
+                  libzstd.tcz
+                  libXfixes.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+                  libXxf86vm.tcz
+                     libXext.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                  libxshmfence.tcz
+               wayland.tcz
+                  expat2.tcz
+                  libxml2.tcz
+                     liblzma.tcz
+            libGLES.tcz
+               mesa.tcz
+                  libdrm.tcz
+                  expat2.tcz
+                  libzstd.tcz
+                  libXfixes.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+                  libXxf86vm.tcz
+                     libXext.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
+                  libxshmfence.tcz
+               libdrm.tcz
+            libwebp.tcz
+            x265.tcz
    gcr-gtk4.tcz
       gtk4.tcz
          shared-mime-info.tcz
@@ -122,7 +574,9 @@ epiphany-gtk4.tcz
                         libXau.tcz
                         libXdmcp.tcz
             fribidi.tcz
-               glib2.tcz 
+               glib2.tcz
+                  pcre2.tcz
+                     bzip2-lib.tcz
          libXcursor.tcz
             libXrender.tcz
                libX11.tcz
@@ -168,6 +622,8 @@ epiphany-gtk4.tcz
                libxcb.tcz
                   libXau.tcz
                   libXdmcp.tcz
+            libxml2.tcz
+               liblzma.tcz
             xkeyboard-config.tcz
          wayland-protocols.tcz
             wayland.tcz
@@ -223,7 +679,9 @@ epiphany-gtk4.tcz
                            libXau.tcz
                            libXdmcp.tcz
                fribidi.tcz
-                  glib2.tcz 
+                  glib2.tcz
+                     pcre2.tcz
+                        bzip2-lib.tcz
             gdk-pixbuf.tcz
                glib2.tcz
                   pcre2.tcz
@@ -258,7 +716,8 @@ epiphany-gtk4.tcz
                      bzip2-lib.tcz
             openssl.tcz
                ca-certificates.tcz
-            libusb.tcz    
+            libusb.tcz
+               udev-lib.tcz
          gst-plugins-bad.tcz
             gst-plugins-base.tcz
                gstreamer.tcz
@@ -267,7 +726,7 @@ epiphany-gtk4.tcz
                         bzip2-lib.tcz
                   gmp.tcz
                libasound.tcz
-                  alsa-modules-6.18.16-piCore-v8.tcz
+                  alsa-modules-6.18.37-piCore-v8.tcz
                opus.tcz
                libtheora.tcz
                   libogg.tcz
@@ -281,8 +740,6 @@ epiphany-gtk4.tcz
             libEGL.tcz
                mesa.tcz
                   libdrm.tcz
-                     libpciaccess.tcz
-                     udev-lib.tcz
                   expat2.tcz
                   libzstd.tcz
                   libXfixes.tcz
@@ -304,8 +761,6 @@ epiphany-gtk4.tcz
             libGLES.tcz
                mesa.tcz
                   libdrm.tcz
-                     libpciaccess.tcz
-                     udev-lib.tcz
                   expat2.tcz
                   libzstd.tcz
                   libXfixes.tcz
@@ -321,8 +776,6 @@ epiphany-gtk4.tcz
                               libXdmcp.tcz
                   libxshmfence.tcz
                libdrm.tcz
-                  libpciaccess.tcz
-                  udev-lib.tcz
             libwebp.tcz
             x265.tcz
       libsecret.tcz
@@ -458,7 +911,9 @@ epiphany-gtk4.tcz
                         libXau.tcz
                         libXdmcp.tcz
             fribidi.tcz
-               glib2.tcz 
+               glib2.tcz
+                  pcre2.tcz
+                     bzip2-lib.tcz
          libXcursor.tcz
             libXrender.tcz
                libX11.tcz
@@ -504,6 +959,8 @@ epiphany-gtk4.tcz
                libxcb.tcz
                   libXau.tcz
                   libXdmcp.tcz
+            libxml2.tcz
+               liblzma.tcz
             xkeyboard-config.tcz
          wayland-protocols.tcz
             wayland.tcz
@@ -559,7 +1016,9 @@ epiphany-gtk4.tcz
                            libXau.tcz
                            libXdmcp.tcz
                fribidi.tcz
-                  glib2.tcz 
+                  glib2.tcz
+                     pcre2.tcz
+                        bzip2-lib.tcz
             gdk-pixbuf.tcz
                glib2.tcz
                   pcre2.tcz
@@ -594,7 +1053,8 @@ epiphany-gtk4.tcz
                      bzip2-lib.tcz
             openssl.tcz
                ca-certificates.tcz
-            libusb.tcz    
+            libusb.tcz
+               udev-lib.tcz
          gst-plugins-bad.tcz
             gst-plugins-base.tcz
                gstreamer.tcz
@@ -603,7 +1063,7 @@ epiphany-gtk4.tcz
                         bzip2-lib.tcz
                   gmp.tcz
                libasound.tcz
-                  alsa-modules-6.18.16-piCore-v8.tcz
+                  alsa-modules-6.18.37-piCore-v8.tcz
                opus.tcz
                libtheora.tcz
                   libogg.tcz
@@ -617,8 +1077,6 @@ epiphany-gtk4.tcz
             libEGL.tcz
                mesa.tcz
                   libdrm.tcz
-                     libpciaccess.tcz
-                     udev-lib.tcz
                   expat2.tcz
                   libzstd.tcz
                   libXfixes.tcz
@@ -640,8 +1098,6 @@ epiphany-gtk4.tcz
             libGLES.tcz
                mesa.tcz
                   libdrm.tcz
-                     libpciaccess.tcz
-                     udev-lib.tcz
                   expat2.tcz
                   libzstd.tcz
                   libXfixes.tcz
@@ -657,8 +1113,6 @@ epiphany-gtk4.tcz
                               libXdmcp.tcz
                   libxshmfence.tcz
                libdrm.tcz
-                  libpciaccess.tcz
-                  udev-lib.tcz
             libwebp.tcz
             x265.tcz
       appstream.tcz
@@ -781,7 +1235,9 @@ epiphany-gtk4.tcz
                         libXau.tcz
                         libXdmcp.tcz
             fribidi.tcz
-               glib2.tcz 
+               glib2.tcz
+                  pcre2.tcz
+                     bzip2-lib.tcz
          libXcursor.tcz
             libXrender.tcz
                libX11.tcz
@@ -827,6 +1283,8 @@ epiphany-gtk4.tcz
                libxcb.tcz
                   libXau.tcz
                   libXdmcp.tcz
+            libxml2.tcz
+               liblzma.tcz
             xkeyboard-config.tcz
          wayland-protocols.tcz
             wayland.tcz
@@ -882,7 +1340,9 @@ epiphany-gtk4.tcz
                            libXau.tcz
                            libXdmcp.tcz
                fribidi.tcz
-                  glib2.tcz 
+                  glib2.tcz
+                     pcre2.tcz
+                        bzip2-lib.tcz
             gdk-pixbuf.tcz
                glib2.tcz
                   pcre2.tcz
@@ -917,7 +1377,8 @@ epiphany-gtk4.tcz
                      bzip2-lib.tcz
             openssl.tcz
                ca-certificates.tcz
-            libusb.tcz    
+            libusb.tcz
+               udev-lib.tcz
          gst-plugins-bad.tcz
             gst-plugins-base.tcz
                gstreamer.tcz
@@ -926,7 +1387,7 @@ epiphany-gtk4.tcz
                         bzip2-lib.tcz
                   gmp.tcz
                libasound.tcz
-                  alsa-modules-6.18.16-piCore-v8.tcz
+                  alsa-modules-6.18.37-piCore-v8.tcz
                opus.tcz
                libtheora.tcz
                   libogg.tcz
@@ -940,8 +1401,6 @@ epiphany-gtk4.tcz
             libEGL.tcz
                mesa.tcz
                   libdrm.tcz
-                     libpciaccess.tcz
-                     udev-lib.tcz
                   expat2.tcz
                   libzstd.tcz
                   libXfixes.tcz
@@ -963,8 +1422,6 @@ epiphany-gtk4.tcz
             libGLES.tcz
                mesa.tcz
                   libdrm.tcz
-                     libpciaccess.tcz
-                     udev-lib.tcz
                   expat2.tcz
                   libzstd.tcz
                   libXfixes.tcz
@@ -980,8 +1437,6 @@ epiphany-gtk4.tcz
                               libXdmcp.tcz
                   libxshmfence.tcz
                libdrm.tcz
-                  libpciaccess.tcz
-                  udev-lib.tcz
             libwebp.tcz
             x265.tcz
 

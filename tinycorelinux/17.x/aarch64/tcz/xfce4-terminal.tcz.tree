@@ -87,7 +87,9 @@ xfce4-terminal.tcz
                         libXau.tcz
                         libXdmcp.tcz
             fribidi.tcz
-               glib2.tcz 
+               glib2.tcz
+                  pcre2.tcz
+                     bzip2-lib.tcz
          libXcursor.tcz
             libXrender.tcz
                libX11.tcz
@@ -138,13 +140,25 @@ xfce4-terminal.tcz
                libxcb.tcz
                   libXau.tcz
                   libXdmcp.tcz
+            libxml2.tcz
+               liblzma.tcz
             xkeyboard-config.tcz
          wayland-protocols.tcz
             wayland.tcz
                expat2.tcz
                libxml2.tcz
                   liblzma.tcz
-      gnutls.tcz 
+      gnutls.tcz
+         libidn2.tcz
+            libunistring.tcz
+         unbound.tcz
+            expat2.tcz
+            openssl.tcz
+               ca-certificates.tcz
+         nettle.tcz
+            gmp.tcz
+         p11-kit.tcz
+            libtasn1.tcz
       icu70.tcz
    libxfce4ui.tcz
       gtk3.tcz
@@ -234,7 +248,9 @@ xfce4-terminal.tcz
                         libXau.tcz
                         libXdmcp.tcz
             fribidi.tcz
-               glib2.tcz 
+               glib2.tcz
+                  pcre2.tcz
+                     bzip2-lib.tcz
          libXcursor.tcz
             libXrender.tcz
                libX11.tcz
@@ -285,6 +301,8 @@ xfce4-terminal.tcz
                libxcb.tcz
                   libXau.tcz
                   libXdmcp.tcz
+            libxml2.tcz
+               liblzma.tcz
             xkeyboard-config.tcz
          wayland-protocols.tcz
             wayland.tcz
@@ -396,7 +414,9 @@ xfce4-terminal.tcz
                         libXau.tcz
                         libXdmcp.tcz
             fribidi.tcz
-               glib2.tcz 
+               glib2.tcz
+                  pcre2.tcz
+                     bzip2-lib.tcz
          libXcursor.tcz
             libXrender.tcz
                libX11.tcz
@@ -447,6 +467,8 @@ xfce4-terminal.tcz
                libxcb.tcz
                   libXau.tcz
                   libXdmcp.tcz
+            libxml2.tcz
+               liblzma.tcz
             xkeyboard-config.tcz
          wayland-protocols.tcz
             wayland.tcz

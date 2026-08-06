@@ -9,13 +9,13 @@ wlroots.tcz
          libxcb.tcz
             libXau.tcz
             libXdmcp.tcz
+      libxml2.tcz
+         liblzma.tcz
       xkeyboard-config.tcz
    pixman.tcz
    libEGL.tcz
       mesa.tcz
          libdrm.tcz
-            libpciaccess.tcz
-            udev-lib.tcz
          expat2.tcz
          libzstd.tcz
          libXfixes.tcz
@@ -37,8 +37,6 @@ wlroots.tcz
    libGLES.tcz
       mesa.tcz
          libdrm.tcz
-            libpciaccess.tcz
-            udev-lib.tcz
          expat2.tcz
          libzstd.tcz
          libXfixes.tcz
@@ -54,8 +52,6 @@ wlroots.tcz
                      libXdmcp.tcz
          libxshmfence.tcz
       libdrm.tcz
-         libpciaccess.tcz
-         udev-lib.tcz
    libvulkan.tcz
    liblcms2.tcz
    libdisplay-info.tcz

@@ -1,6 +1,6 @@
 weston.tcz
-   graphics-6.18.16-piCore-v8.tcz
-      alsa-modules-6.18.16-piCore-v8.tcz
+   graphics-6.18.37-piCore-v8.tcz
+      alsa-modules-6.18.37-piCore-v8.tcz
    wayland-protocols.tcz
       wayland.tcz
          expat2.tcz
@@ -11,6 +11,8 @@ weston.tcz
          libxcb.tcz
             libXau.tcz
             libXdmcp.tcz
+      libxml2.tcz
+         liblzma.tcz
       xkeyboard-config.tcz
    libinput.tcz
       mtdev.tcz
@@ -80,8 +82,6 @@ weston.tcz
    libEGL.tcz
       mesa.tcz
          libdrm.tcz
-            libpciaccess.tcz
-            udev-lib.tcz
          expat2.tcz
          libzstd.tcz
          libXfixes.tcz
@@ -103,8 +103,6 @@ weston.tcz
    libGLES.tcz
       mesa.tcz
          libdrm.tcz
-            libpciaccess.tcz
-            udev-lib.tcz
          expat2.tcz
          libzstd.tcz
          libXfixes.tcz
@@ -120,8 +118,6 @@ weston.tcz
                      libXdmcp.tcz
          libxshmfence.tcz
       libdrm.tcz
-         libpciaccess.tcz
-         udev-lib.tcz
    dejavu-fonts-ttf.tcz
       fontconfig.tcz
          expat2.tcz

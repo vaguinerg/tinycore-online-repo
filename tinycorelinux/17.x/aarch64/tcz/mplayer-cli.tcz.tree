@@ -1,7 +1,9 @@
 mplayer-cli.tcz
    libass.tcz
       fribidi.tcz
-         glib2.tcz 
+         glib2.tcz
+            pcre2.tcz
+               bzip2-lib.tcz
       fontconfig.tcz
          expat2.tcz
          freetype.tcz
@@ -73,7 +75,9 @@ mplayer-cli.tcz
                            libXau.tcz
                            libXdmcp.tcz
                fribidi.tcz
-                  glib2.tcz 
+                  glib2.tcz
+                     pcre2.tcz
+                        bzip2-lib.tcz
             gdk-pixbuf.tcz
                glib2.tcz
                   pcre2.tcz
@@ -172,7 +176,7 @@ mplayer-cli.tcz
          flac.tcz
             libogg.tcz
          libasound.tcz
-            alsa-modules-6.18.16-piCore-v8.tcz
+            alsa-modules-6.18.37-piCore-v8.tcz
          libvorbis.tcz
             libogg.tcz
          sqlite3.tcz
@@ -184,13 +188,13 @@ mplayer-cli.tcz
             libogg.tcz
    jack.tcz
       libasound.tcz
-         alsa-modules-6.18.16-piCore-v8.tcz
+         alsa-modules-6.18.37-piCore-v8.tcz
       libsamplerate.tcz
          libsndfile.tcz
             flac.tcz
                libogg.tcz
             libasound.tcz
-               alsa-modules-6.18.16-piCore-v8.tcz
+               alsa-modules-6.18.37-piCore-v8.tcz
             libvorbis.tcz
                libogg.tcz
             sqlite3.tcz

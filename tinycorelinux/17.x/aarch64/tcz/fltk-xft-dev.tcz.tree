@@ -106,8 +106,6 @@ fltk-xft-dev.tcz
       xorg-server.tcz
          mesa.tcz
             libdrm.tcz
-               libpciaccess.tcz
-               udev-lib.tcz
             expat2.tcz
             libzstd.tcz
             libXfixes.tcz
@@ -137,11 +135,10 @@ fltk-xft-dev.tcz
             libfontenc.tcz
          libepoxy.tcz
          libxcvt.tcz
+         libpciaccess.tcz
       mesa-dev.tcz
          mesa.tcz
             libdrm.tcz
-               libpciaccess.tcz
-               udev-lib.tcz
             expat2.tcz
             libzstd.tcz
             libXfixes.tcz
@@ -158,15 +155,6 @@ fltk-xft-dev.tcz
             libxshmfence.tcz
          libdrm-dev.tcz
             libdrm.tcz
-               libpciaccess.tcz
-               udev-lib.tcz
-            xorg-proto.tcz
-               util-macros.tcz
-                  m4.tcz
-            libpciaccess-dev.tcz
-               libpciaccess.tcz
-            udev-lib-dev.tcz
-               udev-lib.tcz
          wayland-protocols-dev.tcz
             wayland-protocols.tcz
                wayland.tcz
@@ -338,8 +326,6 @@ fltk-xft-dev.tcz
          libEGL.tcz
             mesa.tcz
                libdrm.tcz
-                  libpciaccess.tcz
-                  udev-lib.tcz
                expat2.tcz
                libzstd.tcz
                libXfixes.tcz
@@ -361,8 +347,6 @@ fltk-xft-dev.tcz
          mesa-dev.tcz
             mesa.tcz
                libdrm.tcz
-                  libpciaccess.tcz
-                  udev-lib.tcz
                expat2.tcz
                libzstd.tcz
                libXfixes.tcz
@@ -379,15 +363,6 @@ fltk-xft-dev.tcz
                libxshmfence.tcz
             libdrm-dev.tcz
                libdrm.tcz
-                  libpciaccess.tcz
-                  udev-lib.tcz
-               xorg-proto.tcz
-                  util-macros.tcz
-                     m4.tcz
-               libpciaccess-dev.tcz
-                  libpciaccess.tcz
-               udev-lib-dev.tcz
-                  udev-lib.tcz
             wayland-protocols-dev.tcz
                wayland-protocols.tcz
                   wayland.tcz
@@ -569,8 +544,6 @@ fltk-xft-dev.tcz
          libGLES.tcz
             mesa.tcz
                libdrm.tcz
-                  libpciaccess.tcz
-                  udev-lib.tcz
                expat2.tcz
                libzstd.tcz
                libXfixes.tcz
@@ -586,13 +559,9 @@ fltk-xft-dev.tcz
                            libXdmcp.tcz
                libxshmfence.tcz
             libdrm.tcz
-               libpciaccess.tcz
-               udev-lib.tcz
          mesa-dev.tcz
             mesa.tcz
                libdrm.tcz
-                  libpciaccess.tcz
-                  udev-lib.tcz
                expat2.tcz
                libzstd.tcz
                libXfixes.tcz
@@ -609,15 +578,6 @@ fltk-xft-dev.tcz
                libxshmfence.tcz
             libdrm-dev.tcz
                libdrm.tcz
-                  libpciaccess.tcz
-                  udev-lib.tcz
-               xorg-proto.tcz
-                  util-macros.tcz
-                     m4.tcz
-               libpciaccess-dev.tcz
-                  libpciaccess.tcz
-               udev-lib-dev.tcz
-                  udev-lib.tcz
             wayland-protocols-dev.tcz
                wayland-protocols.tcz
                   wayland.tcz
@@ -787,15 +747,6 @@ fltk-xft-dev.tcz
                   liblz4.tcz
          libdrm-dev.tcz
             libdrm.tcz
-               libpciaccess.tcz
-               udev-lib.tcz
-            xorg-proto.tcz
-               util-macros.tcz
-                  m4.tcz
-            libpciaccess-dev.tcz
-               libpciaccess.tcz
-            udev-lib-dev.tcz
-               udev-lib.tcz
       openssl-dev.tcz
          openssl.tcz
             ca-certificates.tcz
@@ -864,4 +815,6 @@ fltk-xft-dev.tcz
          libepoxy.tcz
       libxcvt-dev.tcz
          libxcvt.tcz
+      libpciaccess-dev.tcz
+         libpciaccess.tcz
 

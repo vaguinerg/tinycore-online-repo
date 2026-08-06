@@ -1,8 +1,17 @@
 net-snmp-dev.tcz
-   net-snmp.tcz   
-   libtool-dev.tcz 
-   openssl-dev.tcz 
+   net-snmp.tcz
+      libnl.tcz
+      libpci.tcz
+      openssl.tcz
+         ca-certificates.tcz
+   libtool-dev.tcz
+      libtool.tcz
+         libltdl.tcz
+   openssl-dev.tcz
+      openssl.tcz
+         ca-certificates.tcz
    libnl-dev.tcz
       libnl.tcz
-   libpci-dev.tcz  
+   libpci-dev.tcz
+      libpci.tcz
 

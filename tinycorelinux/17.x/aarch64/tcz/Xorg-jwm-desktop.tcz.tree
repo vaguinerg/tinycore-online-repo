@@ -48,6 +48,8 @@ Xorg-jwm-desktop.tcz
                   libxcb.tcz
                      libXau.tcz
                      libXdmcp.tcz
+               libxml2.tcz
+                  liblzma.tcz
                xkeyboard-config.tcz
             pango.tcz
                cairo.tcz
@@ -92,7 +94,9 @@ Xorg-jwm-desktop.tcz
                            libXau.tcz
                            libXdmcp.tcz
                fribidi.tcz
-                  glib2.tcz 
+                  glib2.tcz
+                     pcre2.tcz
+                        bzip2-lib.tcz
             libXcursor.tcz
                libXrender.tcz
                   libX11.tcz
@@ -147,8 +151,6 @@ Xorg-jwm-desktop.tcz
       xorg-server.tcz
          mesa.tcz
             libdrm.tcz
-               libpciaccess.tcz
-               udev-lib.tcz
             expat2.tcz
             libzstd.tcz
             libXfixes.tcz
@@ -178,6 +180,7 @@ Xorg-jwm-desktop.tcz
             libfontenc.tcz
          libepoxy.tcz
          libxcvt.tcz
+         libpciaccess.tcz
       xf86-video-fbdev.tcz
       xf86-input-libinput.tcz
          libinput.tcz
@@ -242,6 +245,8 @@ Xorg-jwm-desktop.tcz
                      libxcb.tcz
                         libXau.tcz
                         libXdmcp.tcz
+                  libxml2.tcz
+                     liblzma.tcz
                   xkeyboard-config.tcz
                pango.tcz
                   cairo.tcz
@@ -286,7 +291,9 @@ Xorg-jwm-desktop.tcz
                               libXau.tcz
                               libXdmcp.tcz
                   fribidi.tcz
-                     glib2.tcz 
+                     glib2.tcz
+                        pcre2.tcz
+                           bzip2-lib.tcz
                libXcursor.tcz
                   libXrender.tcz
                      libX11.tcz
@@ -341,8 +348,6 @@ Xorg-jwm-desktop.tcz
          xorg-server.tcz
             mesa.tcz
                libdrm.tcz
-                  libpciaccess.tcz
-                  udev-lib.tcz
                expat2.tcz
                libzstd.tcz
                libXfixes.tcz
@@ -372,6 +377,7 @@ Xorg-jwm-desktop.tcz
                libfontenc.tcz
             libepoxy.tcz
             libxcvt.tcz
+            libpciaccess.tcz
          xf86-video-fbdev.tcz
          xf86-input-libinput.tcz
             libinput.tcz
@@ -402,7 +408,11 @@ Xorg-jwm-desktop.tcz
                libxcb.tcz
                   libXau.tcz
                   libXdmcp.tcz
-      libXpm.tcz      
+      libXpm.tcz
+         libX11.tcz
+            libxcb.tcz
+               libXau.tcz
+               libXdmcp.tcz
    aterm.tcz
       libXext.tcz
          libX11.tcz

@@ -97,7 +97,9 @@ gnome-desktop4.tcz
                      libXau.tcz
                      libXdmcp.tcz
          fribidi.tcz
-            glib2.tcz 
+            glib2.tcz
+               pcre2.tcz
+                  bzip2-lib.tcz
       libXcursor.tcz
          libXrender.tcz
             libX11.tcz
@@ -143,6 +145,8 @@ gnome-desktop4.tcz
             libxcb.tcz
                libXau.tcz
                libXdmcp.tcz
+         libxml2.tcz
+            liblzma.tcz
          xkeyboard-config.tcz
       wayland-protocols.tcz
          wayland.tcz
@@ -198,7 +202,9 @@ gnome-desktop4.tcz
                         libXau.tcz
                         libXdmcp.tcz
             fribidi.tcz
-               glib2.tcz 
+               glib2.tcz
+                  pcre2.tcz
+                     bzip2-lib.tcz
          gdk-pixbuf.tcz
             glib2.tcz
                pcre2.tcz
@@ -233,7 +239,8 @@ gnome-desktop4.tcz
                   bzip2-lib.tcz
          openssl.tcz
             ca-certificates.tcz
-         libusb.tcz    
+         libusb.tcz
+            udev-lib.tcz
       gst-plugins-bad.tcz
          gst-plugins-base.tcz
             gstreamer.tcz
@@ -242,7 +249,7 @@ gnome-desktop4.tcz
                      bzip2-lib.tcz
                gmp.tcz
             libasound.tcz
-               alsa-modules-6.18.16-piCore-v8.tcz
+               alsa-modules-6.18.37-piCore-v8.tcz
             opus.tcz
             libtheora.tcz
                libogg.tcz
@@ -256,8 +263,6 @@ gnome-desktop4.tcz
          libEGL.tcz
             mesa.tcz
                libdrm.tcz
-                  libpciaccess.tcz
-                  udev-lib.tcz
                expat2.tcz
                libzstd.tcz
                libXfixes.tcz
@@ -279,8 +284,6 @@ gnome-desktop4.tcz
          libGLES.tcz
             mesa.tcz
                libdrm.tcz
-                  libpciaccess.tcz
-                  udev-lib.tcz
                expat2.tcz
                libzstd.tcz
                libXfixes.tcz
@@ -296,8 +299,6 @@ gnome-desktop4.tcz
                            libXdmcp.tcz
                libxshmfence.tcz
             libdrm.tcz
-               libpciaccess.tcz
-               udev-lib.tcz
          libwebp.tcz
          x265.tcz
    libseccomp.tcz

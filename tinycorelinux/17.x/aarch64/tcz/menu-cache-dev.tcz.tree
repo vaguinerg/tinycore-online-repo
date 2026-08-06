@@ -1,5 +1,40 @@
 menu-cache-dev.tcz
    menu-cache.tcz
-      glib2.tcz 
-   libfm-extra-dev.tcz  
+      glib2.tcz
+         pcre2.tcz
+            bzip2-lib.tcz
+   libfm-extra-dev.tcz
+      glib2-dev.tcz
+         glib2-python.tcz
+            glib2.tcz
+               pcre2.tcz
+                  bzip2-lib.tcz
+            python3.11.tcz
+               bzip2-lib.tcz
+               readline.tcz
+                  ncurses.tcz
+               gdbm.tcz
+               liblzma.tcz
+               openssl.tcz
+                  ca-certificates.tcz
+               sqlite3.tcz
+               ncurses.tcz
+         pcre2-dev.tcz
+            pcre2.tcz
+               bzip2-lib.tcz
+            bzip2-dev.tcz
+               bzip2.tcz
+                  bzip2-lib.tcz
+            zlib_base-dev.tcz
+      intltool.tcz
+         perl_xml_parser.tcz
+            expat2.tcz
+            perl5.tcz
+         gettext.tcz
+            gcc_libs.tcz
+            libacl.tcz
+               libattr.tcz
+            libxml2.tcz
+               liblzma.tcz
+            ncurses.tcz
 

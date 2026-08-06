@@ -13,7 +13,8 @@ freerdp.tcz
                bzip2-lib.tcz
       openssl.tcz
          ca-certificates.tcz
-      libusb.tcz    
+      libusb.tcz
+         udev-lib.tcz
    libpulseaudio.tcz
       dbus.tcz
          expat2.tcz
@@ -36,7 +37,7 @@ freerdp.tcz
          flac.tcz
             libogg.tcz
          libasound.tcz
-            alsa-modules-6.18.16-piCore-v8.tcz
+            alsa-modules-6.18.37-piCore-v8.tcz
          libvorbis.tcz
             libogg.tcz
          sqlite3.tcz
@@ -104,7 +105,9 @@ freerdp.tcz
                         libXau.tcz
                         libXdmcp.tcz
             fribidi.tcz
-               glib2.tcz 
+               glib2.tcz
+                  pcre2.tcz
+                     bzip2-lib.tcz
          gdk-pixbuf.tcz
             glib2.tcz
                pcre2.tcz

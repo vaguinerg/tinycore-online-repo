@@ -2,8 +2,6 @@ xwayland.tcz
    xorg-server.tcz
       mesa.tcz
          libdrm.tcz
-            libpciaccess.tcz
-            udev-lib.tcz
          expat2.tcz
          libzstd.tcz
          libXfixes.tcz
@@ -33,6 +31,7 @@ xwayland.tcz
          libfontenc.tcz
       libepoxy.tcz
       libxcvt.tcz
+      libpciaccess.tcz
    wayland-protocols.tcz
       wayland.tcz
          expat2.tcz

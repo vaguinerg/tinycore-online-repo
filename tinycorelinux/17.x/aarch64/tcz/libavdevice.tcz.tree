@@ -61,7 +61,9 @@ libavdevice.tcz
                               libXau.tcz
                               libXdmcp.tcz
                   fribidi.tcz
-                     glib2.tcz 
+                     glib2.tcz
+                        pcre2.tcz
+                           bzip2-lib.tcz
                gdk-pixbuf.tcz
                   glib2.tcz
                      pcre2.tcz
@@ -125,7 +127,9 @@ libavdevice.tcz
          libavutil.tcz
       libass.tcz
          fribidi.tcz
-            glib2.tcz 
+            glib2.tcz
+               pcre2.tcz
+                  bzip2-lib.tcz
          fontconfig.tcz
             expat2.tcz
             freetype.tcz
@@ -142,12 +146,12 @@ libavdevice.tcz
             libXau.tcz
             libXdmcp.tcz
    libasound.tcz
-      alsa-modules-6.18.16-piCore-v8.tcz
+      alsa-modules-6.18.37-piCore-v8.tcz
    libv4l2.tcz
-      v4l-dvb-6.18.16-piCore-v8.tcz
-         alsa-modules-6.18.16-piCore-v8.tcz
-         graphics-6.18.16-piCore-v8.tcz
-            alsa-modules-6.18.16-piCore-v8.tcz
+      v4l-dvb-6.18.37-piCore-v8.tcz
+         alsa-modules-6.18.37-piCore-v8.tcz
+         graphics-6.18.37-piCore-v8.tcz
+            alsa-modules-6.18.37-piCore-v8.tcz
       libjpeg-turbo.tcz
       udev-lib.tcz
    libpulseaudio.tcz
@@ -172,7 +176,7 @@ libavdevice.tcz
          flac.tcz
             libogg.tcz
          libasound.tcz
-            alsa-modules-6.18.16-piCore-v8.tcz
+            alsa-modules-6.18.37-piCore-v8.tcz
          libvorbis.tcz
             libogg.tcz
          sqlite3.tcz

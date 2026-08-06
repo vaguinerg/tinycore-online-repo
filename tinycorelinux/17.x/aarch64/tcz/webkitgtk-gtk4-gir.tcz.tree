@@ -22,8 +22,6 @@ webkitgtk-gtk4-gir.tcz
          libEGL.tcz
             mesa.tcz
                libdrm.tcz
-                  libpciaccess.tcz
-                  udev-lib.tcz
                expat2.tcz
                libzstd.tcz
                libXfixes.tcz
@@ -45,8 +43,6 @@ webkitgtk-gtk4-gir.tcz
          libGLES.tcz
             mesa.tcz
                libdrm.tcz
-                  libpciaccess.tcz
-                  udev-lib.tcz
                expat2.tcz
                libzstd.tcz
                libXfixes.tcz
@@ -62,8 +58,6 @@ webkitgtk-gtk4-gir.tcz
                            libXdmcp.tcz
                libxshmfence.tcz
             libdrm.tcz
-               libpciaccess.tcz
-               udev-lib.tcz
          libwebp.tcz
          x265.tcz
       libsecret.tcz
@@ -302,6 +296,8 @@ webkitgtk-gtk4-gir.tcz
                libxcb.tcz
                   libXau.tcz
                   libXdmcp.tcz
+            libxml2.tcz
+               liblzma.tcz
             xkeyboard-config.tcz
          wayland-protocols.tcz
             wayland.tcz
@@ -418,8 +414,6 @@ webkitgtk-gtk4-gir.tcz
             libEGL.tcz
                mesa.tcz
                   libdrm.tcz
-                     libpciaccess.tcz
-                     udev-lib.tcz
                   expat2.tcz
                   libzstd.tcz
                   libXfixes.tcz
@@ -441,8 +435,6 @@ webkitgtk-gtk4-gir.tcz
             libGLES.tcz
                mesa.tcz
                   libdrm.tcz
-                     libpciaccess.tcz
-                     udev-lib.tcz
                   expat2.tcz
                   libzstd.tcz
                   libXfixes.tcz
@@ -458,8 +450,6 @@ webkitgtk-gtk4-gir.tcz
                               libXdmcp.tcz
                   libxshmfence.tcz
                libdrm.tcz
-                  libpciaccess.tcz
-                  udev-lib.tcz
             libwebp.tcz
             x265.tcz
    gtk4-gir.tcz
@@ -604,6 +594,8 @@ webkitgtk-gtk4-gir.tcz
                libxcb.tcz
                   libXau.tcz
                   libXdmcp.tcz
+            libxml2.tcz
+               liblzma.tcz
             xkeyboard-config.tcz
          wayland-protocols.tcz
             wayland.tcz
@@ -720,8 +712,6 @@ webkitgtk-gtk4-gir.tcz
             libEGL.tcz
                mesa.tcz
                   libdrm.tcz
-                     libpciaccess.tcz
-                     udev-lib.tcz
                   expat2.tcz
                   libzstd.tcz
                   libXfixes.tcz
@@ -743,8 +733,6 @@ webkitgtk-gtk4-gir.tcz
             libGLES.tcz
                mesa.tcz
                   libdrm.tcz
-                     libpciaccess.tcz
-                     udev-lib.tcz
                   expat2.tcz
                   libzstd.tcz
                   libXfixes.tcz
@@ -760,8 +748,6 @@ webkitgtk-gtk4-gir.tcz
                               libXdmcp.tcz
                   libxshmfence.tcz
                libdrm.tcz
-                  libpciaccess.tcz
-                  udev-lib.tcz
             libwebp.tcz
             x265.tcz
       gdk-pixbuf-gir.tcz

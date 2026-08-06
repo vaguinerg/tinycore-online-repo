@@ -141,6 +141,8 @@ gtk4mm-dev.tcz
                libxcb.tcz
                   libXau.tcz
                   libXdmcp.tcz
+            libxml2.tcz
+               liblzma.tcz
             xkeyboard-config.tcz
          wayland-protocols.tcz
             wayland.tcz
@@ -257,8 +259,6 @@ gtk4mm-dev.tcz
             libEGL.tcz
                mesa.tcz
                   libdrm.tcz
-                     libpciaccess.tcz
-                     udev-lib.tcz
                   expat2.tcz
                   libzstd.tcz
                   libXfixes.tcz
@@ -280,8 +280,6 @@ gtk4mm-dev.tcz
             libGLES.tcz
                mesa.tcz
                   libdrm.tcz
-                     libpciaccess.tcz
-                     udev-lib.tcz
                   expat2.tcz
                   libzstd.tcz
                   libXfixes.tcz
@@ -297,8 +295,6 @@ gtk4mm-dev.tcz
                               libXdmcp.tcz
                   libxshmfence.tcz
                libdrm.tcz
-                  libpciaccess.tcz
-                  udev-lib.tcz
             libwebp.tcz
             x265.tcz
       atkmm2.tcz
@@ -545,6 +541,8 @@ gtk4mm-dev.tcz
                libxcb.tcz
                   libXau.tcz
                   libXdmcp.tcz
+            libxml2.tcz
+               liblzma.tcz
             xkeyboard-config.tcz
          wayland-protocols.tcz
             wayland.tcz
@@ -661,8 +659,6 @@ gtk4mm-dev.tcz
             libEGL.tcz
                mesa.tcz
                   libdrm.tcz
-                     libpciaccess.tcz
-                     udev-lib.tcz
                   expat2.tcz
                   libzstd.tcz
                   libXfixes.tcz
@@ -684,8 +680,6 @@ gtk4mm-dev.tcz
             libGLES.tcz
                mesa.tcz
                   libdrm.tcz
-                     libpciaccess.tcz
-                     udev-lib.tcz
                   expat2.tcz
                   libzstd.tcz
                   libXfixes.tcz
@@ -701,8 +695,6 @@ gtk4mm-dev.tcz
                               libXdmcp.tcz
                   libxshmfence.tcz
                libdrm.tcz
-                  libpciaccess.tcz
-                  udev-lib.tcz
             libwebp.tcz
             x265.tcz
       gdk-pixbuf-dev.tcz
@@ -1207,8 +1199,6 @@ gtk4mm-dev.tcz
          libEGL.tcz
             mesa.tcz
                libdrm.tcz
-                  libpciaccess.tcz
-                  udev-lib.tcz
                expat2.tcz
                libzstd.tcz
                libXfixes.tcz
@@ -1230,8 +1220,6 @@ gtk4mm-dev.tcz
          mesa-dev.tcz
             mesa.tcz
                libdrm.tcz
-                  libpciaccess.tcz
-                  udev-lib.tcz
                expat2.tcz
                libzstd.tcz
                libXfixes.tcz
@@ -1248,15 +1236,6 @@ gtk4mm-dev.tcz
                libxshmfence.tcz
             libdrm-dev.tcz
                libdrm.tcz
-                  libpciaccess.tcz
-                  udev-lib.tcz
-               xorg-proto.tcz
-                  util-macros.tcz
-                     m4.tcz
-               libpciaccess-dev.tcz
-                  libpciaccess.tcz
-               udev-lib-dev.tcz
-                  udev-lib.tcz
             wayland-protocols-dev.tcz
                wayland-protocols.tcz
                   wayland.tcz
@@ -1697,6 +1676,8 @@ gtk4mm-dev.tcz
                libxcb.tcz
                   libXau.tcz
                   libXdmcp.tcz
+            libxml2.tcz
+               liblzma.tcz
             xkeyboard-config.tcz
          libX11-dev.tcz
             libX11.tcz
@@ -1785,8 +1766,6 @@ gtk4mm-dev.tcz
             libEGL.tcz
                mesa.tcz
                   libdrm.tcz
-                     libpciaccess.tcz
-                     udev-lib.tcz
                   expat2.tcz
                   libzstd.tcz
                   libXfixes.tcz
@@ -1808,8 +1787,6 @@ gtk4mm-dev.tcz
             libGLES.tcz
                mesa.tcz
                   libdrm.tcz
-                     libpciaccess.tcz
-                     udev-lib.tcz
                   expat2.tcz
                   libzstd.tcz
                   libXfixes.tcz
@@ -1825,8 +1802,6 @@ gtk4mm-dev.tcz
                               libXdmcp.tcz
                   libxshmfence.tcz
                libdrm.tcz
-                  libpciaccess.tcz
-                  udev-lib.tcz
             libwebp.tcz
             x265.tcz
          gst-plugins-base-dev.tcz
@@ -1925,8 +1900,6 @@ gtk4mm-dev.tcz
                libEGL.tcz
                   mesa.tcz
                      libdrm.tcz
-                        libpciaccess.tcz
-                        udev-lib.tcz
                      expat2.tcz
                      libzstd.tcz
                      libXfixes.tcz
@@ -1948,8 +1921,6 @@ gtk4mm-dev.tcz
                mesa-dev.tcz
                   mesa.tcz
                      libdrm.tcz
-                        libpciaccess.tcz
-                        udev-lib.tcz
                      expat2.tcz
                      libzstd.tcz
                      libXfixes.tcz
@@ -1966,15 +1937,6 @@ gtk4mm-dev.tcz
                      libxshmfence.tcz
                   libdrm-dev.tcz
                      libdrm.tcz
-                        libpciaccess.tcz
-                        udev-lib.tcz
-                     xorg-proto.tcz
-                        util-macros.tcz
-                           m4.tcz
-                     libpciaccess-dev.tcz
-                        libpciaccess.tcz
-                     udev-lib-dev.tcz
-                        udev-lib.tcz
                   wayland-protocols-dev.tcz
                      wayland-protocols.tcz
                         wayland.tcz
@@ -2156,8 +2118,6 @@ gtk4mm-dev.tcz
                libGLES.tcz
                   mesa.tcz
                      libdrm.tcz
-                        libpciaccess.tcz
-                        udev-lib.tcz
                      expat2.tcz
                      libzstd.tcz
                      libXfixes.tcz
@@ -2173,13 +2133,9 @@ gtk4mm-dev.tcz
                                  libXdmcp.tcz
                      libxshmfence.tcz
                   libdrm.tcz
-                     libpciaccess.tcz
-                     udev-lib.tcz
                mesa-dev.tcz
                   mesa.tcz
                      libdrm.tcz
-                        libpciaccess.tcz
-                        udev-lib.tcz
                      expat2.tcz
                      libzstd.tcz
                      libXfixes.tcz
@@ -2196,15 +2152,6 @@ gtk4mm-dev.tcz
                      libxshmfence.tcz
                   libdrm-dev.tcz
                      libdrm.tcz
-                        libpciaccess.tcz
-                        udev-lib.tcz
-                     xorg-proto.tcz
-                        util-macros.tcz
-                           m4.tcz
-                     libpciaccess-dev.tcz
-                        libpciaccess.tcz
-                     udev-lib-dev.tcz
-                        udev-lib.tcz
                   wayland-protocols-dev.tcz
                      wayland-protocols.tcz
                         wayland.tcz
@@ -2374,15 +2321,6 @@ gtk4mm-dev.tcz
                         liblz4.tcz
                libdrm-dev.tcz
                   libdrm.tcz
-                     libpciaccess.tcz
-                     udev-lib.tcz
-                  xorg-proto.tcz
-                     util-macros.tcz
-                        m4.tcz
-                  libpciaccess-dev.tcz
-                     libpciaccess.tcz
-                  udev-lib-dev.tcz
-                     udev-lib.tcz
             wayland-protocols.tcz
                wayland.tcz
                   expat2.tcz
@@ -3534,6 +3472,8 @@ gtk4mm-dev.tcz
                      libxcb.tcz
                         libXau.tcz
                         libXdmcp.tcz
+                  libxml2.tcz
+                     liblzma.tcz
                   xkeyboard-config.tcz
                wayland-protocols.tcz
                   wayland.tcz
@@ -4044,6 +3984,8 @@ gtk4mm-dev.tcz
                      libxcb.tcz
                         libXau.tcz
                         libXdmcp.tcz
+                  libxml2.tcz
+                     liblzma.tcz
                   xkeyboard-config.tcz
                libX11-dev.tcz
                   libX11.tcz
@@ -4085,8 +4027,6 @@ gtk4mm-dev.tcz
                libEGL.tcz
                   mesa.tcz
                      libdrm.tcz
-                        libpciaccess.tcz
-                        udev-lib.tcz
                      expat2.tcz
                      libzstd.tcz
                      libXfixes.tcz
@@ -4108,8 +4048,6 @@ gtk4mm-dev.tcz
                mesa-dev.tcz
                   mesa.tcz
                      libdrm.tcz
-                        libpciaccess.tcz
-                        udev-lib.tcz
                      expat2.tcz
                      libzstd.tcz
                      libXfixes.tcz
@@ -4126,15 +4064,6 @@ gtk4mm-dev.tcz
                      libxshmfence.tcz
                   libdrm-dev.tcz
                      libdrm.tcz
-                        libpciaccess.tcz
-                        udev-lib.tcz
-                     xorg-proto.tcz
-                        util-macros.tcz
-                           m4.tcz
-                     libpciaccess-dev.tcz
-                        libpciaccess.tcz
-                     udev-lib-dev.tcz
-                        udev-lib.tcz
                   wayland-protocols-dev.tcz
                      wayland-protocols.tcz
                         wayland.tcz
@@ -5039,6 +4968,8 @@ gtk4mm-dev.tcz
                   libxcb.tcz
                      libXau.tcz
                      libXdmcp.tcz
+               libxml2.tcz
+                  liblzma.tcz
                xkeyboard-config.tcz
             libX11-dev.tcz
                libX11.tcz

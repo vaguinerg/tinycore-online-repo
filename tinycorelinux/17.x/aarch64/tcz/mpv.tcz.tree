@@ -4,15 +4,11 @@ mpv.tcz
          libswresample7.tcz
             libavutil7.tcz
                libdrm.tcz
-                  libpciaccess.tcz
-                  udev-lib.tcz
          libavformat7.tcz
             libavcodec7.tcz
                libswresample7.tcz
                   libavutil7.tcz
                      libdrm.tcz
-                        libpciaccess.tcz
-                        udev-lib.tcz
                x264.tcz
                x265.tcz
                libwebp.tcz
@@ -137,13 +133,9 @@ mpv.tcz
          libpostproc7.tcz
             libavutil7.tcz
                libdrm.tcz
-                  libpciaccess.tcz
-                  udev-lib.tcz
          libswscale7.tcz
             libavutil7.tcz
                libdrm.tcz
-                  libpciaccess.tcz
-                  udev-lib.tcz
          libass.tcz
             fribidi.tcz
                glib2.tcz
@@ -235,6 +227,8 @@ mpv.tcz
          libxcb.tcz
             libXau.tcz
             libXdmcp.tcz
+      libxml2.tcz
+         liblzma.tcz
       xkeyboard-config.tcz
    libXinerama.tcz
       libXext.tcz
@@ -262,8 +256,6 @@ mpv.tcz
    libEGL.tcz
       mesa.tcz
          libdrm.tcz
-            libpciaccess.tcz
-            udev-lib.tcz
          expat2.tcz
          libzstd.tcz
          libXfixes.tcz
