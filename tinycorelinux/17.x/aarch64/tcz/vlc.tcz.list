@@ -5,10 +5,10 @@
 /usr/local/bin/vlc-wrapper
 /usr/local/lib/libvlc.so
 /usr/local/lib/libvlc.so.5
-/usr/local/lib/libvlc.so.5.6.0
+/usr/local/lib/libvlc.so.5.6.1
 /usr/local/lib/libvlccore.so
 /usr/local/lib/libvlccore.so.9
-/usr/local/lib/libvlccore.so.9.0.0
+/usr/local/lib/libvlccore.so.9.0.1
 /usr/local/lib/vlc/libvlc_pulse.so
 /usr/local/lib/vlc/libvlc_pulse.so.0
 /usr/local/lib/vlc/libvlc_pulse.so.0.0.0
@@ -95,7 +95,6 @@
 /usr/local/lib/vlc/plugins/codec/libg711_plugin.so
 /usr/local/lib/vlc/plugins/codec/libjpeg_plugin.so
 /usr/local/lib/vlc/plugins/codec/liblibass_plugin.so
-/usr/local/lib/vlc/plugins/codec/liblibmpeg2_plugin.so
 /usr/local/lib/vlc/plugins/codec/liblpcm_plugin.so
 /usr/local/lib/vlc/plugins/codec/libmpg123_plugin.so
 /usr/local/lib/vlc/plugins/codec/liboggspots_plugin.so
@@ -146,6 +145,7 @@
 /usr/local/lib/vlc/plugins/demux/libdemuxdump_plugin.so
 /usr/local/lib/vlc/plugins/demux/libdiracsys_plugin.so
 /usr/local/lib/vlc/plugins/demux/libdirectory_demux_plugin.so
+/usr/local/lib/vlc/plugins/demux/libdmxmus_plugin.so
 /usr/local/lib/vlc/plugins/demux/libes_plugin.so
 /usr/local/lib/vlc/plugins/demux/libflacsys_plugin.so
 /usr/local/lib/vlc/plugins/demux/libh26x_plugin.so
@@ -220,6 +220,7 @@
 /usr/local/lib/vlc/plugins/packetizer/libpacketizer_mpegaudio_plugin.so
 /usr/local/lib/vlc/plugins/packetizer/libpacketizer_mpegvideo_plugin.so
 /usr/local/lib/vlc/plugins/packetizer/libpacketizer_vc1_plugin.so
+/usr/local/lib/vlc/plugins/plugins.dat
 /usr/local/lib/vlc/plugins/services_discovery/libavahi_plugin.so
 /usr/local/lib/vlc/plugins/services_discovery/libmediadirs_plugin.so
 /usr/local/lib/vlc/plugins/services_discovery/libpodcast_plugin.so
@@ -341,6 +342,7 @@
 /usr/local/lib/vlc/plugins/visualization/libglspectrum_plugin.so
 /usr/local/lib/vlc/plugins/visualization/libvisual_plugin.so
 /usr/local/lib/vlc/vlc-cache-gen
+/usr/local/share/applications/vlc.desktop
 /usr/local/share/icons/hicolor/128x128/apps/vlc-kb.png
 /usr/local/share/icons/hicolor/128x128/apps/vlc-xmas.png
 /usr/local/share/icons/hicolor/128x128/apps/vlc.png
@@ -352,9 +354,13 @@
 /usr/local/share/icons/hicolor/32x32/apps/vlc.xpm
 /usr/local/share/icons/hicolor/48x48/apps/vlc-xmas.png
 /usr/local/share/icons/hicolor/48x48/apps/vlc.png
-/usr/local/share/metainfo/vlc.appdata.xml
+/usr/local/share/kde4/apps/solid/actions/vlc-openbd.desktop
+/usr/local/share/kde4/apps/solid/actions/vlc-opencda.desktop
+/usr/local/share/kde4/apps/solid/actions/vlc-opendvd.desktop
+/usr/local/share/kde4/apps/solid/actions/vlc-openvcd.desktop
+/usr/local/share/metainfo/org.videolan.vlc.appdata.xml
+/usr/local/share/pixmaps/vlc.png
 /usr/local/share/vlc/utils/audio-vlc-default.sh
 /usr/local/share/vlc/utils/gnome-vlc-default.sh
 /usr/local/share/vlc/utils/video-vlc-default.sh
 /usr/local/share/vlc/vlc.ico
-/usr/local/tce.installed/vlc

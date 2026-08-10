@@ -1,17 +1,19 @@
 vlc-dev.tcz
    vlc.tcz
-      libavdevice.tcz
-         libavfilter.tcz
-            libswresample.tcz
-               libavutil.tcz
-            libavformat.tcz
-               libavcodec.tcz
-                  libswresample.tcz
-                     libavutil.tcz
+      libavdevice7.tcz
+         libavfilter7.tcz
+            libswresample7.tcz
+               libavutil7.tcz
+                  libdrm.tcz
+            libavformat7.tcz
+               libavcodec7.tcz
+                  libswresample7.tcz
+                     libavutil7.tcz
+                        libdrm.tcz
                   x264.tcz
                   x265.tcz
                   libwebp.tcz
-                  libvpx.tcz
+                  libvpx114.tcz
                   libtheora.tcz
                      libogg.tcz
                   speex.tcz
@@ -111,6 +113,12 @@ vlc-dev.tcz
                            libxcb.tcz
                               libXau.tcz
                               libXdmcp.tcz
+                  svt-av1.tcz
+                  libjxl.tcz
+                     brotli.tcz
+                     highway.tcz
+                     liblcms2.tcz
+                  dav1d.tcz
                bzip2-lib.tcz
                gnutls.tcz
                   libidn2.tcz
@@ -123,10 +131,12 @@ vlc-dev.tcz
                      gmp.tcz
                   p11-kit.tcz
                      libtasn1.tcz
-            libpostproc.tcz
-               libavutil.tcz
-            libswscale.tcz
-               libavutil.tcz
+            libpostproc7.tcz
+               libavutil7.tcz
+                  libdrm.tcz
+            libswscale7.tcz
+               libavutil7.tcz
+                  libdrm.tcz
             libass.tcz
                fribidi.tcz
                   glib2.tcz
@@ -142,6 +152,18 @@ vlc-dev.tcz
                               bzip2-lib.tcz
                         graphite2.tcz
                      bzip2-lib.tcz
+            libplacebo.tcz
+               shaderc.tcz
+                  glslang.tcz
+                     spirv-tools.tcz
+               libvulkan.tcz
+               liblcms2.tcz
+         libXv.tcz
+            libXext.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
          libXfixes.tcz
             libX11.tcz
                libxcb.tcz
@@ -189,20 +211,28 @@ vlc-dev.tcz
                speex.tcz
                   libogg.tcz
          sdl2.tcz
-   ffmpeg-dev.tcz
-      ffmpeg.tcz
-         libavdevice.tcz
-            libavfilter.tcz
-               libswresample.tcz
-                  libavutil.tcz
-               libavformat.tcz
-                  libavcodec.tcz
-                     libswresample.tcz
-                        libavutil.tcz
+         libplacebo.tcz
+            shaderc.tcz
+               glslang.tcz
+                  spirv-tools.tcz
+            libvulkan.tcz
+            liblcms2.tcz
+   ffmpeg7-dev.tcz
+      ffmpeg7.tcz
+         libavdevice7.tcz
+            libavfilter7.tcz
+               libswresample7.tcz
+                  libavutil7.tcz
+                     libdrm.tcz
+               libavformat7.tcz
+                  libavcodec7.tcz
+                     libswresample7.tcz
+                        libavutil7.tcz
+                           libdrm.tcz
                      x264.tcz
                      x265.tcz
                      libwebp.tcz
-                     libvpx.tcz
+                     libvpx114.tcz
                      libtheora.tcz
                         libogg.tcz
                      speex.tcz
@@ -302,6 +332,12 @@ vlc-dev.tcz
                               libxcb.tcz
                                  libXau.tcz
                                  libXdmcp.tcz
+                     svt-av1.tcz
+                     libjxl.tcz
+                        brotli.tcz
+                        highway.tcz
+                        liblcms2.tcz
+                     dav1d.tcz
                   bzip2-lib.tcz
                   gnutls.tcz
                      libidn2.tcz
@@ -314,10 +350,12 @@ vlc-dev.tcz
                         gmp.tcz
                      p11-kit.tcz
                         libtasn1.tcz
-               libpostproc.tcz
-                  libavutil.tcz
-               libswscale.tcz
-                  libavutil.tcz
+               libpostproc7.tcz
+                  libavutil7.tcz
+                     libdrm.tcz
+               libswscale7.tcz
+                  libavutil7.tcz
+                     libdrm.tcz
                libass.tcz
                   fribidi.tcz
                      glib2.tcz
@@ -333,6 +371,18 @@ vlc-dev.tcz
                                  bzip2-lib.tcz
                            graphite2.tcz
                         bzip2-lib.tcz
+               libplacebo.tcz
+                  shaderc.tcz
+                     glslang.tcz
+                        spirv-tools.tcz
+                  libvulkan.tcz
+                  liblcms2.tcz
+            libXv.tcz
+               libXext.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
             libXfixes.tcz
                libX11.tcz
                   libxcb.tcz
@@ -380,13 +430,19 @@ vlc-dev.tcz
                   speex.tcz
                      libogg.tcz
             sdl2.tcz
+            libplacebo.tcz
+               shaderc.tcz
+                  glslang.tcz
+                     spirv-tools.tcz
+               libvulkan.tcz
+               liblcms2.tcz
       x264-dev.tcz
          x264.tcz
       x265-dev.tcz
          x265.tcz
-      libvpx-dev.tcz
-         libvpx-bin.tcz
-            libvpx.tcz
+      libvpx114-dev.tcz
+         libvpx114-bin.tcz
+            libvpx114.tcz
       libtheora-dev.tcz
          libtheora.tcz
             libogg.tcz
@@ -2763,6 +2819,105 @@ vlc-dev.tcz
                libtasn1.tcz
       sdl2-dev.tcz
          sdl2.tcz
+      libplacebo-dev.tcz
+         libplacebo.tcz
+            shaderc.tcz
+               glslang.tcz
+                  spirv-tools.tcz
+            libvulkan.tcz
+            liblcms2.tcz
+         shaderc-dev.tcz
+            shaderc.tcz
+               glslang.tcz
+                  spirv-tools.tcz
+            glslang-dev.tcz
+               glslang.tcz
+                  spirv-tools.tcz
+               spirv-tools-dev.tcz
+                  spirv-tools.tcz
+                  spirv-headers.tcz
+         libvulkan-dev.tcz
+            libvulkan.tcz
+         lcms2-dev.tcz
+            lcms2-bin.tcz
+               liblcms2.tcz
+               libtiff.tcz
+                  libjpeg-turbo.tcz
+                  libwebp.tcz
+                  liblzma.tcz
+                  libzstd.tcz
+            tiff-dev.tcz
+               tiff-bin.tcz
+                  libtiff.tcz
+                     libjpeg-turbo.tcz
+                     libwebp.tcz
+                     liblzma.tcz
+                     libzstd.tcz
+               libjpeg-turbo-dev.tcz
+                  libjpeg-turbo-bin.tcz
+                     libjpeg-turbo.tcz
+               zstd-dev.tcz
+                  zstd.tcz
+                     libzstd.tcz
+                     liblzma.tcz
+                     liblz4.tcz
+                  liblzma-dev.tcz
+                     liblzma.tcz
+                  liblz4-dev.tcz
+                     liblz4.tcz
+      svt-av1-dev.tcz
+         svt-av1.tcz
+      libjxl-dev.tcz
+         libjxl-bin.tcz
+            libjxl.tcz
+               brotli.tcz
+               highway.tcz
+               liblcms2.tcz
+            giflib.tcz
+            libjpeg-turbo.tcz
+            libpng.tcz
+         brotli-dev.tcz
+            brotli.tcz
+         highway-dev.tcz
+            highway.tcz
+         lcms2-dev.tcz
+            lcms2-bin.tcz
+               liblcms2.tcz
+               libtiff.tcz
+                  libjpeg-turbo.tcz
+                  libwebp.tcz
+                  liblzma.tcz
+                  libzstd.tcz
+            tiff-dev.tcz
+               tiff-bin.tcz
+                  libtiff.tcz
+                     libjpeg-turbo.tcz
+                     libwebp.tcz
+                     liblzma.tcz
+                     libzstd.tcz
+               libjpeg-turbo-dev.tcz
+                  libjpeg-turbo-bin.tcz
+                     libjpeg-turbo.tcz
+               zstd-dev.tcz
+                  zstd.tcz
+                     libzstd.tcz
+                     liblzma.tcz
+                     liblz4.tcz
+                  liblzma-dev.tcz
+                     liblzma.tcz
+                  liblz4-dev.tcz
+                     liblz4.tcz
+         libjpeg-turbo-dev.tcz
+            libjpeg-turbo-bin.tcz
+               libjpeg-turbo.tcz
+         giflib-dev.tcz
+            giflib-bin.tcz
+               giflib.tcz
+         libpng-dev.tcz
+            libpng-bin.tcz
+               libpng.tcz
+      dav1d-dev.tcz
+         dav1d.tcz
    taglib-dev.tcz
       taglib.tcz
    libsecret-dev.tcz
@@ -4487,8 +4642,6 @@ vlc-dev.tcz
                      libnghttp2.tcz
       sdl2-dev.tcz
          sdl2.tcz
-   dav1d-dev.tcz
-      dav1d.tcz
    libmad-dev.tcz
       libmad.tcz
    libsamplerate-dev.tcz

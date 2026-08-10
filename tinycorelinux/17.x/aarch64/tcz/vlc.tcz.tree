@@ -1,16 +1,18 @@
 vlc.tcz
-   libavdevice.tcz
-      libavfilter.tcz
-         libswresample.tcz
-            libavutil.tcz
-         libavformat.tcz
-            libavcodec.tcz
-               libswresample.tcz
-                  libavutil.tcz
+   libavdevice7.tcz
+      libavfilter7.tcz
+         libswresample7.tcz
+            libavutil7.tcz
+               libdrm.tcz
+         libavformat7.tcz
+            libavcodec7.tcz
+               libswresample7.tcz
+                  libavutil7.tcz
+                     libdrm.tcz
                x264.tcz
                x265.tcz
                libwebp.tcz
-               libvpx.tcz
+               libvpx114.tcz
                libtheora.tcz
                   libogg.tcz
                speex.tcz
@@ -110,6 +112,12 @@ vlc.tcz
                         libxcb.tcz
                            libXau.tcz
                            libXdmcp.tcz
+               svt-av1.tcz
+               libjxl.tcz
+                  brotli.tcz
+                  highway.tcz
+                  liblcms2.tcz
+               dav1d.tcz
             bzip2-lib.tcz
             gnutls.tcz
                libidn2.tcz
@@ -122,10 +130,12 @@ vlc.tcz
                   gmp.tcz
                p11-kit.tcz
                   libtasn1.tcz
-         libpostproc.tcz
-            libavutil.tcz
-         libswscale.tcz
-            libavutil.tcz
+         libpostproc7.tcz
+            libavutil7.tcz
+               libdrm.tcz
+         libswscale7.tcz
+            libavutil7.tcz
+               libdrm.tcz
          libass.tcz
             fribidi.tcz
                glib2.tcz
@@ -141,6 +151,18 @@ vlc.tcz
                            bzip2-lib.tcz
                      graphite2.tcz
                   bzip2-lib.tcz
+         libplacebo.tcz
+            shaderc.tcz
+               glslang.tcz
+                  spirv-tools.tcz
+            libvulkan.tcz
+            liblcms2.tcz
+      libXv.tcz
+         libXext.tcz
+            libX11.tcz
+               libxcb.tcz
+                  libXau.tcz
+                  libXdmcp.tcz
       libXfixes.tcz
          libX11.tcz
             libxcb.tcz
@@ -188,4 +210,10 @@ vlc.tcz
             speex.tcz
                libogg.tcz
       sdl2.tcz
+      libplacebo.tcz
+         shaderc.tcz
+            glslang.tcz
+               spirv-tools.tcz
+         libvulkan.tcz
+         liblcms2.tcz
 
