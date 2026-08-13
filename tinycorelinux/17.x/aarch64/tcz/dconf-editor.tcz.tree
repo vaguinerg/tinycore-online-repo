@@ -1,13 +1,15 @@
-audacity.tcz
-   libsndfile.tcz
-      flac.tcz
-         libogg.tcz
-      libasound.tcz
-         alsa-modules-6.18.37-piCore-v8.tcz
-      libvorbis.tcz
-         libogg.tcz
-      sqlite3.tcz
-   wxwidgets.tcz
+dconf-editor.tcz
+   dconf.tcz
+      glib2.tcz
+         pcre2.tcz
+            bzip2-lib.tcz
+      dbus.tcz
+         expat2.tcz
+         libX11.tcz
+            libxcb.tcz
+               libXau.tcz
+               libXdmcp.tcz
+   libhandy1.tcz
       gtk3.tcz
          libepoxy.tcz
          at-spi2-core.tcz
@@ -156,89 +158,6 @@ audacity.tcz
                expat2.tcz
                libxml2.tcz
                   liblzma.tcz
-      glu.tcz
-         mesa.tcz
-            libdrm.tcz
-            expat2.tcz
-            libzstd.tcz
-            libXfixes.tcz
-               libX11.tcz
-                  libxcb.tcz
-                     libXau.tcz
-                     libXdmcp.tcz
-            libXxf86vm.tcz
-               libXext.tcz
-                  libX11.tcz
-                     libxcb.tcz
-                        libXau.tcz
-                        libXdmcp.tcz
-            libxshmfence.tcz
-      libnotify.tcz
-         gdk-pixbuf.tcz
-            glib2.tcz
-               pcre2.tcz
-                  bzip2-lib.tcz
-            libX11.tcz
-               libxcb.tcz
-                  libXau.tcz
-                  libXdmcp.tcz
-            libpng.tcz
-            libtiff.tcz
-               libjpeg-turbo.tcz
-               libwebp.tcz
-               liblzma.tcz
-               libzstd.tcz
-            shared-mime-info.tcz
-               glib2.tcz
-                  pcre2.tcz
-                     bzip2-lib.tcz
-               libxml2.tcz
-                  liblzma.tcz
-      gst-plugins-base.tcz
-         gstreamer.tcz
-            glib2.tcz
-               pcre2.tcz
-                  bzip2-lib.tcz
-            gmp.tcz
-         libasound.tcz
-            alsa-modules-6.18.37-piCore-v8.tcz
-         opus.tcz
-         libtheora.tcz
-            libogg.tcz
-         libvorbis.tcz
-            libogg.tcz
-         gudev-lib.tcz
-            udev-lib.tcz
-            glib2.tcz
-               pcre2.tcz
-                  bzip2-lib.tcz
-      libsecret.tcz
-         glib2.tcz
-            pcre2.tcz
-               bzip2-lib.tcz
-         libgcrypt.tcz
-            libgpg-error.tcz
-      curl.tcz
-         openssl.tcz
-            ca-certificates.tcz
-         libssh2.tcz
-            openssl.tcz
-               ca-certificates.tcz
-         nghttp2.tcz
-            libxml2.tcz
-               liblzma.tcz
-      libICE.tcz
-      libXtst.tcz
-         libXi.tcz
-            libXext.tcz
-               libX11.tcz
-                  libxcb.tcz
-                     libXau.tcz
-                     libXdmcp.tcz
-   flac.tcz
-      libogg.tcz
-   libid3tag.tcz
-   libmad.tcz
    adwaita-icon-theme.tcz
       gtk3.tcz
          libepoxy.tcz
@@ -456,26 +375,4 @@ audacity.tcz
                libxml2.tcz
                   liblzma.tcz
       hicolor-icon-theme.tcz
-   dconf.tcz
-      glib2.tcz
-         pcre2.tcz
-            bzip2-lib.tcz
-      dbus.tcz
-         expat2.tcz
-         libX11.tcz
-            libxcb.tcz
-               libXau.tcz
-               libXdmcp.tcz
-   gcc_libs.tcz
-   lame.tcz
-      ncurses.tcz
-   opus.tcz
-   portaudio.tcz
-      libasound.tcz
-         alsa-modules-6.18.37-piCore-v8.tcz
-   portmidi.tcz
-      libasound.tcz
-         alsa-modules-6.18.37-piCore-v8.tcz
-   libvorbis.tcz
-      libogg.tcz
 
