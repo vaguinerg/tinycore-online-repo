@@ -20,8 +20,7 @@ Comments:       gtk3 bluetooth manager
                 no longer requires obexd or obex-data-server for file transfer
                 requires locale set to en_US.UTF-8 or similar to receive files
                 ----------
-                receive file location, the use of networkmanager and/or
-                notification-daemon
+                receive file location, the use of and/or notification-daemon
                 can be set with view plugins/system settings menu or
                 dconf-editor/gsettings
                 ----------
@@ -29,4 +28,5 @@ Comments:       gtk3 bluetooth manager
                 blueman-2.4.6 - GPLv3 - https://github.com/blueman-project/blueman/releases/download/2.4.6/blueman-2.4.6.tar.xz
                 ----------
 Change-log:     2020/11/04 first version
-Current:        2026/06/08 updated 2.1.4 -> 2.4.6
+                2026/06/08 updated 2.1.4 -> 2.4.6
+Current:        2026/08/14 disabled networkmanager by default
