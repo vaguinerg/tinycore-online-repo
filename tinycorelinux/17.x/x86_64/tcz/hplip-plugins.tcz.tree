@@ -149,11 +149,12 @@ hplip-plugins.tcz
          libpng.tcz
       libusb.tcz
          udev-lib.tcz
-      net-snmp35.tcz
-         openssl-1.1.1.tcz
+      net-snmp.tcz
+         openssl.tcz
          libpci.tcz
          libnl.tcz
-      dbus-python3.6.tcz
+         pcre.tcz
+      dbus-python3.14.tcz
          dbus.tcz
             expat2.tcz
             elogind.tcz
@@ -170,7 +171,7 @@ hplip-plugins.tcz
                libxcb.tcz
                   libXau.tcz
                   libXdmcp.tcz
-         python3.6.tcz
+         python3.14.tcz
             openssl.tcz
             sqlite3.tcz
             gdbm.tcz
@@ -178,7 +179,9 @@ hplip-plugins.tcz
             liblzma.tcz
             readline.tcz
                ncursesw.tcz
-            libffi7.tcz
+            libffi.tcz
+            libnsl.tcz
+               libtirpc.tcz
       libsane.tcz
          libgphoto2.tcz
             libexif.tcz
