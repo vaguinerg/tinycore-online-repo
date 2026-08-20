@@ -1,7 +1,5 @@
 mesa-rusticl.tcz
    libdrm.tcz
-      libpciaccess.tcz
-      udev-lib.tcz
    expat2.tcz
    spirv-tools.tcz
    clang.tcz
@@ -19,8 +17,18 @@ mesa-rusticl.tcz
                libzstd.tcz
                ncurses.tcz
          libxml2-dev.tcz
-            libxml2.tcz
+            libxml2-bin.tcz
+               libxml2.tcz
+                  liblzma.tcz
+               readline.tcz
+                  ncurses.tcz
+            liblzma-dev.tcz
                liblzma.tcz
+            readline-dev.tcz
+               readline.tcz
+                  ncurses.tcz
+               ncurses-dev.tcz
+                  ncurses.tcz
          zstd-dev.tcz
             zstd.tcz
                libzstd.tcz
@@ -70,7 +78,7 @@ mesa-rusticl.tcz
          libxcrypt_base-dev.tcz
          linux-6.18.y_api_headers.tcz
    spirv-llvm-translator.tcz
-      llvm19-lib.tcz
+      llvm22-lib.tcz
          libxml2.tcz
             liblzma.tcz
          libzstd.tcz

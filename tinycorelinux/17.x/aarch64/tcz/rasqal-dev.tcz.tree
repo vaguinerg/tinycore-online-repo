@@ -58,8 +58,18 @@ rasqal-dev.tcz
                libxml2.tcz
                   liblzma.tcz
             libxml2-dev.tcz
-               libxml2.tcz
+               libxml2-bin.tcz
+                  libxml2.tcz
+                     liblzma.tcz
+                  readline.tcz
+                     ncurses.tcz
+               liblzma-dev.tcz
                   liblzma.tcz
+               readline-dev.tcz
+                  readline.tcz
+                     ncurses.tcz
+                  ncurses-dev.tcz
+                     ncurses.tcz
       libxslt-dev.tcz
          libgcrypt-dev.tcz
             libgcrypt.tcz
@@ -70,8 +80,18 @@ rasqal-dev.tcz
             libgcrypt.tcz
                libgpg-error.tcz
       libxml2-dev.tcz
-         libxml2.tcz
+         libxml2-bin.tcz
+            libxml2.tcz
+               liblzma.tcz
+            readline.tcz
+               ncurses.tcz
+         liblzma-dev.tcz
             liblzma.tcz
+         readline-dev.tcz
+            readline.tcz
+               ncurses.tcz
+            ncurses-dev.tcz
+               ncurses.tcz
    mpfr-dev.tcz
       mpfr.tcz
          gmp.tcz

@@ -26,16 +26,7 @@ appstream-dev.tcz
          glib2.tcz
             pcre2.tcz
                bzip2-lib.tcz
-         python3.11.tcz
-            bzip2-lib.tcz
-            readline.tcz
-               ncurses.tcz
-            gdbm.tcz
-            liblzma.tcz
-            openssl.tcz
-               ca-certificates.tcz
-            sqlite3.tcz
-            ncurses.tcz
+         python3.14444.tcz
       pcre2-dev.tcz
          pcre2.tcz
             bzip2-lib.tcz
@@ -68,11 +59,31 @@ appstream-dev.tcz
             libxml2.tcz
                liblzma.tcz
          libxml2-dev.tcz
-            libxml2.tcz
+            libxml2-bin.tcz
+               libxml2.tcz
+                  liblzma.tcz
+               readline.tcz
+                  ncurses.tcz
+            liblzma-dev.tcz
                liblzma.tcz
+            readline-dev.tcz
+               readline.tcz
+                  ncurses.tcz
+               ncurses-dev.tcz
+                  ncurses.tcz
    libxml2-dev.tcz
-      libxml2.tcz
+      libxml2-bin.tcz
+         libxml2.tcz
+            liblzma.tcz
+         readline.tcz
+            ncurses.tcz
+      liblzma-dev.tcz
          liblzma.tcz
+      readline-dev.tcz
+         readline.tcz
+            ncurses.tcz
+         ncurses-dev.tcz
+            ncurses.tcz
    libyaml-dev.tcz
       libyaml.tcz
    libxmlb-dev.tcz
@@ -86,16 +97,7 @@ appstream-dev.tcz
             glib2.tcz
                pcre2.tcz
                   bzip2-lib.tcz
-            python3.11.tcz
-               bzip2-lib.tcz
-               readline.tcz
-                  ncurses.tcz
-               gdbm.tcz
-               liblzma.tcz
-               openssl.tcz
-                  ca-certificates.tcz
-               sqlite3.tcz
-               ncurses.tcz
+            python3.14444.tcz
          pcre2-dev.tcz
             pcre2.tcz
                bzip2-lib.tcz

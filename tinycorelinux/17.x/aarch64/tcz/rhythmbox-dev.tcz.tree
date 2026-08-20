@@ -499,7 +499,7 @@ rhythmbox-dev.tcz
                      libxml2.tcz
                         liblzma.tcz
             gobject-introspection.tcz
-               python3.11.tcz
+               python3.14.tcz
                   bzip2-lib.tcz
                   readline.tcz
                      ncurses.tcz
@@ -683,7 +683,7 @@ rhythmbox-dev.tcz
                      libxml2.tcz
                         liblzma.tcz
                gobject-introspection.tcz
-                  python3.11.tcz
+                  python3.14.tcz
                      bzip2-lib.tcz
                      readline.tcz
                         ncurses.tcz
@@ -698,7 +698,7 @@ rhythmbox-dev.tcz
                         bzip2-lib.tcz
             at-spi2-core-gir.tcz
                gobject-introspection.tcz
-                  python3.11.tcz
+                  python3.14.tcz
                      bzip2-lib.tcz
                      readline.tcz
                         ncurses.tcz
@@ -782,7 +782,7 @@ rhythmbox-dev.tcz
                            bzip2-lib.tcz
                      graphite2.tcz
                   gobject-introspection.tcz
-                     python3.11.tcz
+                     python3.14.tcz
                         bzip2-lib.tcz
                         readline.tcz
                            ncurses.tcz
@@ -1148,16 +1148,7 @@ rhythmbox-dev.tcz
                glib2.tcz
                   pcre2.tcz
                      bzip2-lib.tcz
-               python3.11.tcz
-                  bzip2-lib.tcz
-                  readline.tcz
-                     ncurses.tcz
-                  gdbm.tcz
-                  liblzma.tcz
-                  openssl.tcz
-                     ca-certificates.tcz
-                  sqlite3.tcz
-                  ncurses.tcz
+               python3.14444.tcz
             pcre2-dev.tcz
                pcre2.tcz
                   bzip2-lib.tcz
@@ -1182,16 +1173,7 @@ rhythmbox-dev.tcz
                glib2.tcz
                   pcre2.tcz
                      bzip2-lib.tcz
-               python3.11.tcz
-                  bzip2-lib.tcz
-                  readline.tcz
-                     ncurses.tcz
-                  gdbm.tcz
-                  liblzma.tcz
-                  openssl.tcz
-                     ca-certificates.tcz
-                  sqlite3.tcz
-                  ncurses.tcz
+               python3.14444.tcz
             pcre2-dev.tcz
                pcre2.tcz
                   bzip2-lib.tcz
@@ -1265,8 +1247,18 @@ rhythmbox-dev.tcz
                   expat2-dev.tcz
                      expat2.tcz
                   libxml2-dev.tcz
-                     libxml2.tcz
+                     libxml2-bin.tcz
+                        libxml2.tcz
+                           liblzma.tcz
+                        readline.tcz
+                           ncurses.tcz
+                     liblzma-dev.tcz
                         liblzma.tcz
+                     readline-dev.tcz
+                        readline.tcz
+                           ncurses.tcz
+                        ncurses-dev.tcz
+                           ncurses.tcz
             libXvmc-dev.tcz
                libXvmc.tcz
                   libXv.tcz
@@ -1426,8 +1418,18 @@ rhythmbox-dev.tcz
             expat2-dev.tcz
                expat2.tcz
             libxml2-dev.tcz
-               libxml2.tcz
+               libxml2-bin.tcz
+                  libxml2.tcz
+                     liblzma.tcz
+                  readline.tcz
+                     ncurses.tcz
+               liblzma-dev.tcz
                   liblzma.tcz
+               readline-dev.tcz
+                  readline.tcz
+                     ncurses.tcz
+                  ncurses-dev.tcz
+                     ncurses.tcz
       libGLES-dev.tcz
          libGLES.tcz
             mesa.tcz
@@ -1480,8 +1482,18 @@ rhythmbox-dev.tcz
                   expat2-dev.tcz
                      expat2.tcz
                   libxml2-dev.tcz
-                     libxml2.tcz
+                     libxml2-bin.tcz
+                        libxml2.tcz
+                           liblzma.tcz
+                        readline.tcz
+                           ncurses.tcz
+                     liblzma-dev.tcz
                         liblzma.tcz
+                     readline-dev.tcz
+                        readline.tcz
+                           ncurses.tcz
+                        ncurses-dev.tcz
+                           ncurses.tcz
             libXvmc-dev.tcz
                libXvmc.tcz
                   libXv.tcz
@@ -1718,16 +1730,7 @@ rhythmbox-dev.tcz
                   glib2.tcz
                      pcre2.tcz
                         bzip2-lib.tcz
-                  python3.11.tcz
-                     bzip2-lib.tcz
-                     readline.tcz
-                        ncurses.tcz
-                     gdbm.tcz
-                     liblzma.tcz
-                     openssl.tcz
-                        ca-certificates.tcz
-                     sqlite3.tcz
-                     ncurses.tcz
+                  python3.14444.tcz
                pcre2-dev.tcz
                   pcre2.tcz
                      bzip2-lib.tcz
@@ -1772,16 +1775,7 @@ rhythmbox-dev.tcz
                            glib2.tcz
                               pcre2.tcz
                                  bzip2-lib.tcz
-                           python3.11.tcz
-                              bzip2-lib.tcz
-                              readline.tcz
-                                 ncurses.tcz
-                              gdbm.tcz
-                              liblzma.tcz
-                              openssl.tcz
-                                 ca-certificates.tcz
-                              sqlite3.tcz
-                              ncurses.tcz
+                           python3.14444.tcz
                         pcre2-dev.tcz
                            pcre2.tcz
                               bzip2-lib.tcz
@@ -1875,16 +1869,7 @@ rhythmbox-dev.tcz
                            glib2.tcz
                               pcre2.tcz
                                  bzip2-lib.tcz
-                           python3.11.tcz
-                              bzip2-lib.tcz
-                              readline.tcz
-                                 ncurses.tcz
-                              gdbm.tcz
-                              liblzma.tcz
-                              openssl.tcz
-                                 ca-certificates.tcz
-                              sqlite3.tcz
-                              ncurses.tcz
+                           python3.14444.tcz
                         pcre2-dev.tcz
                            pcre2.tcz
                               bzip2-lib.tcz
@@ -1908,16 +1893,7 @@ rhythmbox-dev.tcz
                   glib2.tcz
                      pcre2.tcz
                         bzip2-lib.tcz
-                  python3.11.tcz
-                     bzip2-lib.tcz
-                     readline.tcz
-                        ncurses.tcz
-                     gdbm.tcz
-                     liblzma.tcz
-                     openssl.tcz
-                        ca-certificates.tcz
-                     sqlite3.tcz
-                     ncurses.tcz
+                  python3.14444.tcz
                pcre2-dev.tcz
                   pcre2.tcz
                      bzip2-lib.tcz
@@ -1996,16 +1972,7 @@ rhythmbox-dev.tcz
                glib2.tcz
                   pcre2.tcz
                      bzip2-lib.tcz
-               python3.11.tcz
-                  bzip2-lib.tcz
-                  readline.tcz
-                     ncurses.tcz
-                  gdbm.tcz
-                  liblzma.tcz
-                  openssl.tcz
-                     ca-certificates.tcz
-                  sqlite3.tcz
-                  ncurses.tcz
+               python3.14444.tcz
             pcre2-dev.tcz
                pcre2.tcz
                   bzip2-lib.tcz
@@ -2066,16 +2033,7 @@ rhythmbox-dev.tcz
             glib2.tcz
                pcre2.tcz
                   bzip2-lib.tcz
-            python3.11.tcz
-               bzip2-lib.tcz
-               readline.tcz
-                  ncurses.tcz
-               gdbm.tcz
-               liblzma.tcz
-               openssl.tcz
-                  ca-certificates.tcz
-               sqlite3.tcz
-               ncurses.tcz
+            python3.14444.tcz
          pcre2-dev.tcz
             pcre2.tcz
                bzip2-lib.tcz
@@ -2115,8 +2073,18 @@ rhythmbox-dev.tcz
             bzip2.tcz
                bzip2-lib.tcz
          libxml2-dev.tcz
-            libxml2.tcz
+            libxml2-bin.tcz
+               libxml2.tcz
+                  liblzma.tcz
+               readline.tcz
+                  ncurses.tcz
+            liblzma-dev.tcz
                liblzma.tcz
+            readline-dev.tcz
+               readline.tcz
+                  ncurses.tcz
+               ncurses-dev.tcz
+                  ncurses.tcz
    libpeas-dev.tcz
       libpeas.tcz
          gtk3.tcz
@@ -2268,7 +2236,7 @@ rhythmbox-dev.tcz
                   libxml2.tcz
                      liblzma.tcz
          gobject-introspection.tcz
-            python3.11.tcz
+            python3.14.tcz
                bzip2-lib.tcz
                readline.tcz
                   ncurses.tcz
@@ -2456,16 +2424,7 @@ rhythmbox-dev.tcz
                   glib2.tcz
                      pcre2.tcz
                         bzip2-lib.tcz
-                  python3.11.tcz
-                     bzip2-lib.tcz
-                     readline.tcz
-                        ncurses.tcz
-                     gdbm.tcz
-                     liblzma.tcz
-                     openssl.tcz
-                        ca-certificates.tcz
-                     sqlite3.tcz
-                     ncurses.tcz
+                  python3.14444.tcz
                pcre2-dev.tcz
                   pcre2.tcz
                      bzip2-lib.tcz
@@ -2563,16 +2522,7 @@ rhythmbox-dev.tcz
                   glib2.tcz
                      pcre2.tcz
                         bzip2-lib.tcz
-                  python3.11.tcz
-                     bzip2-lib.tcz
-                     readline.tcz
-                        ncurses.tcz
-                     gdbm.tcz
-                     liblzma.tcz
-                     openssl.tcz
-                        ca-certificates.tcz
-                     sqlite3.tcz
-                     ncurses.tcz
+                  python3.14444.tcz
                pcre2-dev.tcz
                   pcre2.tcz
                      bzip2-lib.tcz
@@ -2721,16 +2671,7 @@ rhythmbox-dev.tcz
                      glib2.tcz
                         pcre2.tcz
                            bzip2-lib.tcz
-                     python3.11.tcz
-                        bzip2-lib.tcz
-                        readline.tcz
-                           ncurses.tcz
-                        gdbm.tcz
-                        liblzma.tcz
-                        openssl.tcz
-                           ca-certificates.tcz
-                        sqlite3.tcz
-                        ncurses.tcz
+                     python3.14444.tcz
                   pcre2-dev.tcz
                      pcre2.tcz
                         bzip2-lib.tcz
@@ -2775,16 +2716,7 @@ rhythmbox-dev.tcz
                               glib2.tcz
                                  pcre2.tcz
                                     bzip2-lib.tcz
-                              python3.11.tcz
-                                 bzip2-lib.tcz
-                                 readline.tcz
-                                    ncurses.tcz
-                                 gdbm.tcz
-                                 liblzma.tcz
-                                 openssl.tcz
-                                    ca-certificates.tcz
-                                 sqlite3.tcz
-                                 ncurses.tcz
+                              python3.14444.tcz
                            pcre2-dev.tcz
                               pcre2.tcz
                                  bzip2-lib.tcz
@@ -2878,16 +2810,7 @@ rhythmbox-dev.tcz
                               glib2.tcz
                                  pcre2.tcz
                                     bzip2-lib.tcz
-                              python3.11.tcz
-                                 bzip2-lib.tcz
-                                 readline.tcz
-                                    ncurses.tcz
-                                 gdbm.tcz
-                                 liblzma.tcz
-                                 openssl.tcz
-                                    ca-certificates.tcz
-                                 sqlite3.tcz
-                                 ncurses.tcz
+                              python3.14444.tcz
                            pcre2-dev.tcz
                               pcre2.tcz
                                  bzip2-lib.tcz
@@ -2911,16 +2834,7 @@ rhythmbox-dev.tcz
                      glib2.tcz
                         pcre2.tcz
                            bzip2-lib.tcz
-                     python3.11.tcz
-                        bzip2-lib.tcz
-                        readline.tcz
-                           ncurses.tcz
-                        gdbm.tcz
-                        liblzma.tcz
-                        openssl.tcz
-                           ca-certificates.tcz
-                        sqlite3.tcz
-                        ncurses.tcz
+                     python3.14444.tcz
                   pcre2-dev.tcz
                      pcre2.tcz
                         bzip2-lib.tcz
@@ -2969,8 +2883,18 @@ rhythmbox-dev.tcz
                   expat2-dev.tcz
                      expat2.tcz
                   libxml2-dev.tcz
-                     libxml2.tcz
+                     libxml2-bin.tcz
+                        libxml2.tcz
+                           liblzma.tcz
+                        readline.tcz
+                           ncurses.tcz
+                     liblzma-dev.tcz
                         liblzma.tcz
+                     readline-dev.tcz
+                        readline.tcz
+                           ncurses.tcz
+                        ncurses-dev.tcz
+                           ncurses.tcz
          libepoxy-dev.tcz
             libepoxy.tcz
          libEGL-dev.tcz
@@ -3028,8 +2952,18 @@ rhythmbox-dev.tcz
                      expat2-dev.tcz
                         expat2.tcz
                      libxml2-dev.tcz
-                        libxml2.tcz
+                        libxml2-bin.tcz
+                           libxml2.tcz
+                              liblzma.tcz
+                           readline.tcz
+                              ncurses.tcz
+                        liblzma-dev.tcz
                            liblzma.tcz
+                        readline-dev.tcz
+                           readline.tcz
+                              ncurses.tcz
+                           ncurses-dev.tcz
+                              ncurses.tcz
                libXvmc-dev.tcz
                   libXvmc.tcz
                      libXv.tcz
@@ -3189,8 +3123,18 @@ rhythmbox-dev.tcz
                expat2-dev.tcz
                   expat2.tcz
                libxml2-dev.tcz
-                  libxml2.tcz
+                  libxml2-bin.tcz
+                     libxml2.tcz
+                        liblzma.tcz
+                     readline.tcz
+                        ncurses.tcz
+                  liblzma-dev.tcz
                      liblzma.tcz
+                  readline-dev.tcz
+                     readline.tcz
+                        ncurses.tcz
+                     ncurses-dev.tcz
+                        ncurses.tcz
          libXrandr-dev.tcz
             libXrandr.tcz
                libXext.tcz
@@ -3436,16 +3380,7 @@ rhythmbox-dev.tcz
                      glib2.tcz
                         pcre2.tcz
                            bzip2-lib.tcz
-                     python3.11.tcz
-                        bzip2-lib.tcz
-                        readline.tcz
-                           ncurses.tcz
-                        gdbm.tcz
-                        liblzma.tcz
-                        openssl.tcz
-                           ca-certificates.tcz
-                        sqlite3.tcz
-                        ncurses.tcz
+                     python3.14444.tcz
                   pcre2-dev.tcz
                      pcre2.tcz
                         bzip2-lib.tcz
@@ -3482,7 +3417,7 @@ rhythmbox-dev.tcz
                      xtrans.tcz
                gobject-introspection-dev.tcz
                   gobject-introspection.tcz
-                     python3.11.tcz
+                     python3.14.tcz
                         bzip2-lib.tcz
                         readline.tcz
                            ncurses.tcz
@@ -3495,8 +3430,8 @@ rhythmbox-dev.tcz
                      glib2.tcz
                         pcre2.tcz
                            bzip2-lib.tcz
-                  python3.11-dev.tcz
-                     python3.11.tcz
+                  python3.14-dev.tcz
+                     python3.14.tcz
                         bzip2-lib.tcz
                         readline.tcz
                            ncurses.tcz
@@ -3538,16 +3473,7 @@ rhythmbox-dev.tcz
                         glib2.tcz
                            pcre2.tcz
                               bzip2-lib.tcz
-                        python3.11.tcz
-                           bzip2-lib.tcz
-                           readline.tcz
-                              ncurses.tcz
-                           gdbm.tcz
-                           liblzma.tcz
-                           openssl.tcz
-                              ca-certificates.tcz
-                           sqlite3.tcz
-                           ncurses.tcz
+                        python3.14444.tcz
                      pcre2-dev.tcz
                         pcre2.tcz
                            bzip2-lib.tcz
@@ -3587,16 +3513,7 @@ rhythmbox-dev.tcz
                   glib2.tcz
                      pcre2.tcz
                         bzip2-lib.tcz
-                  python3.11.tcz
-                     bzip2-lib.tcz
-                     readline.tcz
-                        ncurses.tcz
-                     gdbm.tcz
-                     liblzma.tcz
-                     openssl.tcz
-                        ca-certificates.tcz
-                     sqlite3.tcz
-                     ncurses.tcz
+                  python3.14444.tcz
                pcre2-dev.tcz
                   pcre2.tcz
                      bzip2-lib.tcz
@@ -3681,16 +3598,7 @@ rhythmbox-dev.tcz
                glib2.tcz
                   pcre2.tcz
                      bzip2-lib.tcz
-               python3.11.tcz
-                  bzip2-lib.tcz
-                  readline.tcz
-                     ncurses.tcz
-                  gdbm.tcz
-                  liblzma.tcz
-                  openssl.tcz
-                     ca-certificates.tcz
-                  sqlite3.tcz
-                  ncurses.tcz
+               python3.14444.tcz
             pcre2-dev.tcz
                pcre2.tcz
                   bzip2-lib.tcz
@@ -3730,8 +3638,18 @@ rhythmbox-dev.tcz
                bzip2.tcz
                   bzip2-lib.tcz
             libxml2-dev.tcz
-               libxml2.tcz
+               libxml2-bin.tcz
+                  libxml2.tcz
+                     liblzma.tcz
+                  readline.tcz
+                     ncurses.tcz
+               liblzma-dev.tcz
                   liblzma.tcz
+               readline-dev.tcz
+                  readline.tcz
+                     ncurses.tcz
+                  ncurses-dev.tcz
+                     ncurses.tcz
       libsoup3-dev.tcz
          libsoup3.tcz
             glib-networking.tcz
@@ -3759,8 +3677,18 @@ rhythmbox-dev.tcz
                   libunistring.tcz
             libnghttp2.tcz
          libxml2-dev.tcz
-            libxml2.tcz
+            libxml2-bin.tcz
+               libxml2.tcz
+                  liblzma.tcz
+               readline.tcz
+                  ncurses.tcz
+            liblzma-dev.tcz
                liblzma.tcz
+            readline-dev.tcz
+               readline.tcz
+                  ncurses.tcz
+               ncurses-dev.tcz
+                  ncurses.tcz
          sqlite3-dev.tcz
             sqlite3-bin.tcz
                sqlite3.tcz
@@ -3818,8 +3746,18 @@ rhythmbox-dev.tcz
                   libxml2.tcz
                      liblzma.tcz
                libxml2-dev.tcz
-                  libxml2.tcz
+                  libxml2-bin.tcz
+                     libxml2.tcz
+                        liblzma.tcz
+                     readline.tcz
+                        ncurses.tcz
+                  liblzma-dev.tcz
                      liblzma.tcz
+                  readline-dev.tcz
+                     readline.tcz
+                        ncurses.tcz
+                     ncurses-dev.tcz
+                        ncurses.tcz
    libnotify-dev.tcz
       libnotify.tcz
          gdk-pixbuf.tcz
@@ -3868,16 +3806,7 @@ rhythmbox-dev.tcz
                glib2.tcz
                   pcre2.tcz
                      bzip2-lib.tcz
-               python3.11.tcz
-                  bzip2-lib.tcz
-                  readline.tcz
-                     ncurses.tcz
-                  gdbm.tcz
-                  liblzma.tcz
-                  openssl.tcz
-                     ca-certificates.tcz
-                  sqlite3.tcz
-                  ncurses.tcz
+               python3.14444.tcz
             pcre2-dev.tcz
                pcre2.tcz
                   bzip2-lib.tcz
@@ -3935,16 +3864,7 @@ rhythmbox-dev.tcz
             glib2.tcz
                pcre2.tcz
                   bzip2-lib.tcz
-            python3.11.tcz
-               bzip2-lib.tcz
-               readline.tcz
-                  ncurses.tcz
-               gdbm.tcz
-               liblzma.tcz
-               openssl.tcz
-                  ca-certificates.tcz
-               sqlite3.tcz
-               ncurses.tcz
+            python3.14444.tcz
          pcre2-dev.tcz
             pcre2.tcz
                bzip2-lib.tcz
@@ -3964,16 +3884,7 @@ rhythmbox-dev.tcz
             glib2.tcz
                pcre2.tcz
                   bzip2-lib.tcz
-            python3.11.tcz
-               bzip2-lib.tcz
-               readline.tcz
-                  ncurses.tcz
-               gdbm.tcz
-               liblzma.tcz
-               openssl.tcz
-                  ca-certificates.tcz
-               sqlite3.tcz
-               ncurses.tcz
+            python3.14444.tcz
          pcre2-dev.tcz
             pcre2.tcz
                bzip2-lib.tcz
@@ -4088,16 +3999,7 @@ rhythmbox-dev.tcz
                glib2.tcz
                   pcre2.tcz
                      bzip2-lib.tcz
-               python3.11.tcz
-                  bzip2-lib.tcz
-                  readline.tcz
-                     ncurses.tcz
-                  gdbm.tcz
-                  liblzma.tcz
-                  openssl.tcz
-                     ca-certificates.tcz
-                  sqlite3.tcz
-                  ncurses.tcz
+               python3.14444.tcz
             pcre2-dev.tcz
                pcre2.tcz
                   bzip2-lib.tcz
@@ -4165,16 +4067,7 @@ rhythmbox-dev.tcz
                glib2.tcz
                   pcre2.tcz
                      bzip2-lib.tcz
-               python3.11.tcz
-                  bzip2-lib.tcz
-                  readline.tcz
-                     ncurses.tcz
-                  gdbm.tcz
-                  liblzma.tcz
-                  openssl.tcz
-                     ca-certificates.tcz
-                  sqlite3.tcz
-                  ncurses.tcz
+               python3.14444.tcz
             pcre2-dev.tcz
                pcre2.tcz
                   bzip2-lib.tcz
@@ -4211,7 +4104,7 @@ rhythmbox-dev.tcz
                xtrans.tcz
          gobject-introspection-dev.tcz
             gobject-introspection.tcz
-               python3.11.tcz
+               python3.14.tcz
                   bzip2-lib.tcz
                   readline.tcz
                      ncurses.tcz
@@ -4224,8 +4117,8 @@ rhythmbox-dev.tcz
                glib2.tcz
                   pcre2.tcz
                      bzip2-lib.tcz
-            python3.11-dev.tcz
-               python3.11.tcz
+            python3.14-dev.tcz
+               python3.14.tcz
                   bzip2-lib.tcz
                   readline.tcz
                      ncurses.tcz
@@ -4267,16 +4160,7 @@ rhythmbox-dev.tcz
                   glib2.tcz
                      pcre2.tcz
                         bzip2-lib.tcz
-                  python3.11.tcz
-                     bzip2-lib.tcz
-                     readline.tcz
-                        ncurses.tcz
-                     gdbm.tcz
-                     liblzma.tcz
-                     openssl.tcz
-                        ca-certificates.tcz
-                     sqlite3.tcz
-                     ncurses.tcz
+                  python3.14444.tcz
                pcre2-dev.tcz
                   pcre2.tcz
                      bzip2-lib.tcz
@@ -4336,16 +4220,7 @@ rhythmbox-dev.tcz
                   glib2.tcz
                      pcre2.tcz
                         bzip2-lib.tcz
-                  python3.11.tcz
-                     bzip2-lib.tcz
-                     readline.tcz
-                        ncurses.tcz
-                     gdbm.tcz
-                     liblzma.tcz
-                     openssl.tcz
-                        ca-certificates.tcz
-                     sqlite3.tcz
-                     ncurses.tcz
+                  python3.14444.tcz
                pcre2-dev.tcz
                   pcre2.tcz
                      bzip2-lib.tcz
@@ -4370,16 +4245,7 @@ rhythmbox-dev.tcz
                   glib2.tcz
                      pcre2.tcz
                         bzip2-lib.tcz
-                  python3.11.tcz
-                     bzip2-lib.tcz
-                     readline.tcz
-                        ncurses.tcz
-                     gdbm.tcz
-                     liblzma.tcz
-                     openssl.tcz
-                        ca-certificates.tcz
-                     sqlite3.tcz
-                     ncurses.tcz
+                  python3.14444.tcz
                pcre2-dev.tcz
                   pcre2.tcz
                      bzip2-lib.tcz
@@ -4453,8 +4319,18 @@ rhythmbox-dev.tcz
                      expat2-dev.tcz
                         expat2.tcz
                      libxml2-dev.tcz
-                        libxml2.tcz
+                        libxml2-bin.tcz
+                           libxml2.tcz
+                              liblzma.tcz
+                           readline.tcz
+                              ncurses.tcz
+                        liblzma-dev.tcz
                            liblzma.tcz
+                        readline-dev.tcz
+                           readline.tcz
+                              ncurses.tcz
+                           ncurses-dev.tcz
+                              ncurses.tcz
                libXvmc-dev.tcz
                   libXvmc.tcz
                      libXv.tcz
@@ -4614,8 +4490,18 @@ rhythmbox-dev.tcz
                expat2-dev.tcz
                   expat2.tcz
                libxml2-dev.tcz
-                  libxml2.tcz
+                  libxml2-bin.tcz
+                     libxml2.tcz
+                        liblzma.tcz
+                     readline.tcz
+                        ncurses.tcz
+                  liblzma-dev.tcz
                      liblzma.tcz
+                  readline-dev.tcz
+                     readline.tcz
+                        ncurses.tcz
+                     ncurses-dev.tcz
+                        ncurses.tcz
          libGLES-dev.tcz
             libGLES.tcz
                mesa.tcz
@@ -4668,8 +4554,18 @@ rhythmbox-dev.tcz
                      expat2-dev.tcz
                         expat2.tcz
                      libxml2-dev.tcz
-                        libxml2.tcz
+                        libxml2-bin.tcz
+                           libxml2.tcz
+                              liblzma.tcz
+                           readline.tcz
+                              ncurses.tcz
+                        liblzma-dev.tcz
                            liblzma.tcz
+                        readline-dev.tcz
+                           readline.tcz
+                              ncurses.tcz
+                           ncurses-dev.tcz
+                              ncurses.tcz
                libXvmc-dev.tcz
                   libXvmc.tcz
                      libXv.tcz
@@ -4906,16 +4802,7 @@ rhythmbox-dev.tcz
                      glib2.tcz
                         pcre2.tcz
                            bzip2-lib.tcz
-                     python3.11.tcz
-                        bzip2-lib.tcz
-                        readline.tcz
-                           ncurses.tcz
-                        gdbm.tcz
-                        liblzma.tcz
-                        openssl.tcz
-                           ca-certificates.tcz
-                        sqlite3.tcz
-                        ncurses.tcz
+                     python3.14444.tcz
                   pcre2-dev.tcz
                      pcre2.tcz
                         bzip2-lib.tcz
@@ -4960,16 +4847,7 @@ rhythmbox-dev.tcz
                               glib2.tcz
                                  pcre2.tcz
                                     bzip2-lib.tcz
-                              python3.11.tcz
-                                 bzip2-lib.tcz
-                                 readline.tcz
-                                    ncurses.tcz
-                                 gdbm.tcz
-                                 liblzma.tcz
-                                 openssl.tcz
-                                    ca-certificates.tcz
-                                 sqlite3.tcz
-                                 ncurses.tcz
+                              python3.14444.tcz
                            pcre2-dev.tcz
                               pcre2.tcz
                                  bzip2-lib.tcz
@@ -5063,16 +4941,7 @@ rhythmbox-dev.tcz
                               glib2.tcz
                                  pcre2.tcz
                                     bzip2-lib.tcz
-                              python3.11.tcz
-                                 bzip2-lib.tcz
-                                 readline.tcz
-                                    ncurses.tcz
-                                 gdbm.tcz
-                                 liblzma.tcz
-                                 openssl.tcz
-                                    ca-certificates.tcz
-                                 sqlite3.tcz
-                                 ncurses.tcz
+                              python3.14444.tcz
                            pcre2-dev.tcz
                               pcre2.tcz
                                  bzip2-lib.tcz
@@ -5096,16 +4965,7 @@ rhythmbox-dev.tcz
                      glib2.tcz
                         pcre2.tcz
                            bzip2-lib.tcz
-                     python3.11.tcz
-                        bzip2-lib.tcz
-                        readline.tcz
-                           ncurses.tcz
-                        gdbm.tcz
-                        liblzma.tcz
-                        openssl.tcz
-                           ca-certificates.tcz
-                        sqlite3.tcz
-                        ncurses.tcz
+                     python3.14444.tcz
                   pcre2-dev.tcz
                      pcre2.tcz
                         bzip2-lib.tcz
@@ -5184,16 +5044,7 @@ rhythmbox-dev.tcz
                   glib2.tcz
                      pcre2.tcz
                         bzip2-lib.tcz
-                  python3.11.tcz
-                     bzip2-lib.tcz
-                     readline.tcz
-                        ncurses.tcz
-                     gdbm.tcz
-                     liblzma.tcz
-                     openssl.tcz
-                        ca-certificates.tcz
-                     sqlite3.tcz
-                     ncurses.tcz
+                  python3.14444.tcz
                pcre2-dev.tcz
                   pcre2.tcz
                      bzip2-lib.tcz
@@ -5259,8 +5110,18 @@ rhythmbox-dev.tcz
                   libunistring.tcz
             libnghttp2.tcz
          libxml2-dev.tcz
-            libxml2.tcz
+            libxml2-bin.tcz
+               libxml2.tcz
+                  liblzma.tcz
+               readline.tcz
+                  ncurses.tcz
+            liblzma-dev.tcz
                liblzma.tcz
+            readline-dev.tcz
+               readline.tcz
+                  ncurses.tcz
+               ncurses-dev.tcz
+                  ncurses.tcz
          sqlite3-dev.tcz
             sqlite3-bin.tcz
                sqlite3.tcz
