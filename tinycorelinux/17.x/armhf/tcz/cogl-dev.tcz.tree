@@ -8,8 +8,14 @@ cogl-dev.tcz
          libpng.tcz
          libtiff.tcz
             libjpeg-turbo.tcz
-            liblzma.tcz  
-         shared-mime-info.tcz 
+            liblzma.tcz
+         shared-mime-info.tcz
+            glib2.tcz
+               gamin.tcz
+               libelf.tcz
+               pcre2.tcz
+            libxml2.tcz
+               liblzma.tcz
       pango.tcz
          cairo.tcz
             fontconfig.tcz
@@ -71,7 +77,7 @@ cogl-dev.tcz
                pcre2.tcz
             gmp.tcz
          libasound.tcz
-            alsa-modules-6.18.16-piCore-v7.tcz
+            alsa-modules-6.18.37-piCore-v7.tcz
          libopus.tcz
          libtheora.tcz
             libogg.tcz
@@ -110,8 +116,13 @@ cogl-dev.tcz
                      liblzma.tcz
                      libtiff.tcz
                         libjpeg-turbo.tcz
-                        liblzma.tcz  
-                     libwebp.tcz 
+                        liblzma.tcz
+                     libwebp.tcz
+                        libtiff.tcz
+                           libjpeg-turbo.tcz
+                           liblzma.tcz
+                        libpng.tcz
+                        giflib.tcz
                   libXmu.tcz
                      libXext.tcz
                         libX11.tcz
@@ -298,8 +309,8 @@ cogl-dev.tcz
                         libXau.tcz
                         libXdmcp.tcz
             Xorg-fonts.tcz
-         graphics-6.18.16-piCore-v7.tcz
-            alsa-modules-6.18.16-piCore-v7.tcz
+         graphics-6.18.37-piCore-v7.tcz
+            alsa-modules-6.18.37-piCore-v7.tcz
          libGLES.tcz
             mesa.tcz
                libdrm.tcz
@@ -372,10 +383,25 @@ cogl-dev.tcz
          libpng.tcz
          libtiff.tcz
             libjpeg-turbo.tcz
-            liblzma.tcz  
-         shared-mime-info.tcz 
-      libpng-dev.tcz 
-      libtiff-dev.tcz 
+            liblzma.tcz
+         shared-mime-info.tcz
+            glib2.tcz
+               gamin.tcz
+               libelf.tcz
+               pcre2.tcz
+            libxml2.tcz
+               liblzma.tcz
+      libpng-dev.tcz
+         libpng-bin.tcz
+            libpng.tcz
+      libtiff-dev.tcz
+         libtiff.tcz
+            libjpeg-turbo.tcz
+            liblzma.tcz
+         liblzma-dev.tcz
+            liblzma.tcz
+         libjpeg-turbo-dev.tcz
+            libjpeg-turbo.tcz
    pango-dev.tcz
       pango.tcz
          cairo.tcz
@@ -458,7 +484,7 @@ cogl-dev.tcz
                   gamin.tcz
                   libelf.tcz
                   pcre2.tcz
-               python3.11.tcz
+               python3.14.tcz
                   bzip2-lib.tcz
                   readline.tcz
                      ncurses.tcz
@@ -474,8 +500,14 @@ cogl-dev.tcz
                libelf.tcz
             pcre2-dev.tcz
                pcre2.tcz
-               bzip2-dev.tcz 
-               readline-dev.tcz 
+               bzip2-dev.tcz
+                  bzip2.tcz
+                     bzip2-lib.tcz
+               readline-dev.tcz
+                  readline.tcz
+                     ncurses.tcz
+                  ncurses-dev.tcz
+                     ncurses.tcz
          fontconfig-dev.tcz
             fontconfig.tcz
                expat2.tcz
@@ -516,7 +548,7 @@ cogl-dev.tcz
                            gamin.tcz
                            libelf.tcz
                            pcre2.tcz
-                        python3.11.tcz
+                        python3.14.tcz
                            bzip2-lib.tcz
                            readline.tcz
                               ncurses.tcz
@@ -532,8 +564,14 @@ cogl-dev.tcz
                         libelf.tcz
                      pcre2-dev.tcz
                         pcre2.tcz
-                        bzip2-dev.tcz 
-                        readline-dev.tcz 
+                        bzip2-dev.tcz
+                           bzip2.tcz
+                              bzip2-lib.tcz
+                        readline-dev.tcz
+                           readline.tcz
+                              ncurses.tcz
+                           ncurses-dev.tcz
+                              ncurses.tcz
                   graphite2-dev.tcz
                      graphite2.tcz
                bzip2-dev.tcz
@@ -666,7 +704,7 @@ cogl-dev.tcz
                            gamin.tcz
                            libelf.tcz
                            pcre2.tcz
-                        python3.11.tcz
+                        python3.14.tcz
                            bzip2-lib.tcz
                            readline.tcz
                               ncurses.tcz
@@ -682,8 +720,14 @@ cogl-dev.tcz
                         libelf.tcz
                      pcre2-dev.tcz
                         pcre2.tcz
-                        bzip2-dev.tcz 
-                        readline-dev.tcz 
+                        bzip2-dev.tcz
+                           bzip2.tcz
+                              bzip2-lib.tcz
+                        readline-dev.tcz
+                           readline.tcz
+                              ncurses.tcz
+                           ncurses-dev.tcz
+                              ncurses.tcz
                   graphite2-dev.tcz
                      graphite2.tcz
                bzip2-dev.tcz
@@ -715,7 +759,7 @@ cogl-dev.tcz
                         gamin.tcz
                         libelf.tcz
                         pcre2.tcz
-                     python3.11.tcz
+                     python3.14.tcz
                         bzip2-lib.tcz
                         readline.tcz
                            ncurses.tcz
@@ -731,8 +775,14 @@ cogl-dev.tcz
                      libelf.tcz
                   pcre2-dev.tcz
                      pcre2.tcz
-                     bzip2-dev.tcz 
-                     readline-dev.tcz 
+                     bzip2-dev.tcz
+                        bzip2.tcz
+                           bzip2-lib.tcz
+                     readline-dev.tcz
+                        readline.tcz
+                           ncurses.tcz
+                        ncurses-dev.tcz
+                           ncurses.tcz
                graphite2-dev.tcz
                   graphite2.tcz
             bzip2-dev.tcz
@@ -768,7 +818,11 @@ cogl-dev.tcz
                   xorg-proto.tcz
                      util-macros.tcz
       fribidi-dev.tcz
-         fribidi.tcz   
+         fribidi.tcz
+            glib2.tcz
+               gamin.tcz
+               libelf.tcz
+               pcre2.tcz
    gst-plugins-base-dev.tcz
       gst-plugins-base.tcz
          gstreamer.tcz
@@ -778,7 +832,7 @@ cogl-dev.tcz
                pcre2.tcz
             gmp.tcz
          libasound.tcz
-            alsa-modules-6.18.16-piCore-v7.tcz
+            alsa-modules-6.18.37-piCore-v7.tcz
          libopus.tcz
          libtheora.tcz
             libogg.tcz
@@ -803,7 +857,7 @@ cogl-dev.tcz
                   gamin.tcz
                   libelf.tcz
                   pcre2.tcz
-               python3.11.tcz
+               python3.14.tcz
                   bzip2-lib.tcz
                   readline.tcz
                      ncurses.tcz
@@ -819,13 +873,19 @@ cogl-dev.tcz
                libelf.tcz
             pcre2-dev.tcz
                pcre2.tcz
-               bzip2-dev.tcz 
-               readline-dev.tcz 
+               bzip2-dev.tcz
+                  bzip2.tcz
+                     bzip2-lib.tcz
+               readline-dev.tcz
+                  readline.tcz
+                     ncurses.tcz
+                  ncurses-dev.tcz
+                     ncurses.tcz
          gmp-dev.tcz
             gmp.tcz
       libasound-dev.tcz
          libasound.tcz
-            alsa-modules-6.18.16-piCore-v7.tcz
+            alsa-modules-6.18.37-piCore-v7.tcz
       libopus-dev.tcz
          libopus.tcz
       graphene-dev.tcz
@@ -840,7 +900,7 @@ cogl-dev.tcz
                   gamin.tcz
                   libelf.tcz
                   pcre2.tcz
-               python3.11.tcz
+               python3.14.tcz
                   bzip2-lib.tcz
                   readline.tcz
                      ncurses.tcz
@@ -856,8 +916,14 @@ cogl-dev.tcz
                libelf.tcz
             pcre2-dev.tcz
                pcre2.tcz
-               bzip2-dev.tcz 
-               readline-dev.tcz 
+               bzip2-dev.tcz
+                  bzip2.tcz
+                     bzip2-lib.tcz
+               readline-dev.tcz
+                  readline.tcz
+                     ncurses.tcz
+                  ncurses-dev.tcz
+                     ncurses.tcz
       libvorbis-dev.tcz
          libvorbis.tcz
             libogg.tcz
@@ -1597,7 +1663,7 @@ cogl-dev.tcz
                      gamin.tcz
                      libelf.tcz
                      pcre2.tcz
-                  python3.11.tcz
+                  python3.14.tcz
                      bzip2-lib.tcz
                      readline.tcz
                         ncurses.tcz
@@ -1613,8 +1679,14 @@ cogl-dev.tcz
                   libelf.tcz
                pcre2-dev.tcz
                   pcre2.tcz
-                  bzip2-dev.tcz 
-                  readline-dev.tcz 
+                  bzip2-dev.tcz
+                     bzip2.tcz
+                        bzip2-lib.tcz
+                  readline-dev.tcz
+                     readline.tcz
+                        ncurses.tcz
+                     ncurses-dev.tcz
+                        ncurses.tcz
             fontconfig-dev.tcz
                fontconfig.tcz
                   expat2.tcz
@@ -1655,7 +1727,7 @@ cogl-dev.tcz
                               gamin.tcz
                               libelf.tcz
                               pcre2.tcz
-                           python3.11.tcz
+                           python3.14.tcz
                               bzip2-lib.tcz
                               readline.tcz
                                  ncurses.tcz
@@ -1671,8 +1743,14 @@ cogl-dev.tcz
                            libelf.tcz
                         pcre2-dev.tcz
                            pcre2.tcz
-                           bzip2-dev.tcz 
-                           readline-dev.tcz 
+                           bzip2-dev.tcz
+                              bzip2.tcz
+                                 bzip2-lib.tcz
+                           readline-dev.tcz
+                              readline.tcz
+                                 ncurses.tcz
+                              ncurses-dev.tcz
+                                 ncurses.tcz
                      graphite2-dev.tcz
                         graphite2.tcz
                   bzip2-dev.tcz
@@ -1805,7 +1883,7 @@ cogl-dev.tcz
                               gamin.tcz
                               libelf.tcz
                               pcre2.tcz
-                           python3.11.tcz
+                           python3.14.tcz
                               bzip2-lib.tcz
                               readline.tcz
                                  ncurses.tcz
@@ -1821,8 +1899,14 @@ cogl-dev.tcz
                            libelf.tcz
                         pcre2-dev.tcz
                            pcre2.tcz
-                           bzip2-dev.tcz 
-                           readline-dev.tcz 
+                           bzip2-dev.tcz
+                              bzip2.tcz
+                                 bzip2-lib.tcz
+                           readline-dev.tcz
+                              readline.tcz
+                                 ncurses.tcz
+                              ncurses-dev.tcz
+                                 ncurses.tcz
                      graphite2-dev.tcz
                         graphite2.tcz
                   bzip2-dev.tcz
@@ -1854,7 +1938,7 @@ cogl-dev.tcz
                            gamin.tcz
                            libelf.tcz
                            pcre2.tcz
-                        python3.11.tcz
+                        python3.14.tcz
                            bzip2-lib.tcz
                            readline.tcz
                               ncurses.tcz
@@ -1870,8 +1954,14 @@ cogl-dev.tcz
                         libelf.tcz
                      pcre2-dev.tcz
                         pcre2.tcz
-                        bzip2-dev.tcz 
-                        readline-dev.tcz 
+                        bzip2-dev.tcz
+                           bzip2.tcz
+                              bzip2-lib.tcz
+                        readline-dev.tcz
+                           readline.tcz
+                              ncurses.tcz
+                           ncurses-dev.tcz
+                              ncurses.tcz
                   graphite2-dev.tcz
                      graphite2.tcz
                bzip2-dev.tcz
@@ -1907,7 +1997,11 @@ cogl-dev.tcz
                      xorg-proto.tcz
                         util-macros.tcz
          fribidi-dev.tcz
-            fribidi.tcz   
+            fribidi.tcz
+               glib2.tcz
+                  gamin.tcz
+                  libelf.tcz
+                  pcre2.tcz
       libjpeg-turbo-dev.tcz
          libjpeg-turbo.tcz
       libXi-dev.tcz
@@ -1990,7 +2084,7 @@ cogl-dev.tcz
                   gamin.tcz
                   libelf.tcz
                   pcre2.tcz
-               python3.11.tcz
+               python3.14.tcz
                   bzip2-lib.tcz
                   readline.tcz
                      ncurses.tcz
@@ -2006,8 +2100,14 @@ cogl-dev.tcz
                libelf.tcz
             pcre2-dev.tcz
                pcre2.tcz
-               bzip2-dev.tcz 
-               readline-dev.tcz 
+               bzip2-dev.tcz
+                  bzip2.tcz
+                     bzip2-lib.tcz
+               readline-dev.tcz
+                  readline.tcz
+                     ncurses.tcz
+                  ncurses-dev.tcz
+                     ncurses.tcz
    libXcomposite-dev.tcz
       libXcomposite.tcz
          libX11.tcz

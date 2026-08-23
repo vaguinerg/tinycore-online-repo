@@ -17,7 +17,7 @@ xfconf-dev.tcz
                gamin.tcz
                libelf.tcz
                pcre2.tcz
-            python3.11.tcz
+            python3.14.tcz
                bzip2-lib.tcz
                readline.tcz
                   ncurses.tcz
@@ -33,9 +33,36 @@ xfconf-dev.tcz
             libelf.tcz
          pcre2-dev.tcz
             pcre2.tcz
-            bzip2-dev.tcz 
-            readline-dev.tcz 
-      intltool.tcz 
+            bzip2-dev.tcz
+               bzip2.tcz
+                  bzip2-lib.tcz
+            readline-dev.tcz
+               readline.tcz
+                  ncurses.tcz
+               ncurses-dev.tcz
+                  ncurses.tcz
+      intltool.tcz
+         perl_xml_parser.tcz
+            expat2.tcz
+            perl5.tcz
+         gettext.tcz
+            libacl.tcz
+               libattr.tcz
+            libxml2.tcz
+               liblzma.tcz
+            ncurses.tcz
    perl5.tcz
-   dbus-glib.tcz 
+   dbus-glib.tcz
+      dbus.tcz
+         expat2.tcz
+         libSM.tcz
+            libICE.tcz
+         libX11.tcz
+            libxcb.tcz
+               libXau.tcz
+               libXdmcp.tcz
+      glib2.tcz
+         gamin.tcz
+         libelf.tcz
+         pcre2.tcz
 

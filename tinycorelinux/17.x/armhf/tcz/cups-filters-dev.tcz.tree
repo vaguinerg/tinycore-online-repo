@@ -5,7 +5,7 @@ cups-filters-dev.tcz
          lcms2.tcz
             libtiff.tcz
                libjpeg-turbo.tcz
-               liblzma.tcz  
+               liblzma.tcz
          cairo.tcz
             fontconfig.tcz
                expat2.tcz
@@ -53,11 +53,12 @@ cups-filters-dev.tcz
                   pcre2.tcz
             openssl.tcz
                ca-certificates.tcz
-            libusb.tcz    
+            libusb.tcz
+               udev-lib.tcz
          lcms2.tcz
             libtiff.tcz
                libjpeg-turbo.tcz
-               liblzma.tcz  
+               liblzma.tcz
          fontconfig.tcz
             expat2.tcz
             freetype.tcz
@@ -77,7 +78,7 @@ cups-filters-dev.tcz
          lcms2.tcz
             libtiff.tcz
                libjpeg-turbo.tcz
-               liblzma.tcz  
+               liblzma.tcz
          cairo.tcz
             fontconfig.tcz
                expat2.tcz
@@ -107,11 +108,11 @@ cups-filters-dev.tcz
          lcms2.tcz
             libtiff.tcz
                libjpeg-turbo.tcz
-               liblzma.tcz  
+               liblzma.tcz
          libtiff-dev.tcz
             libtiff.tcz
                libjpeg-turbo.tcz
-               liblzma.tcz  
+               liblzma.tcz
             liblzma-dev.tcz
                liblzma.tcz
             libjpeg-turbo-dev.tcz
@@ -144,7 +145,7 @@ cups-filters-dev.tcz
                   gamin.tcz
                   libelf.tcz
                   pcre2.tcz
-               python3.11.tcz
+               python3.14.tcz
                   bzip2-lib.tcz
                   readline.tcz
                      ncurses.tcz
@@ -160,8 +161,14 @@ cups-filters-dev.tcz
                libelf.tcz
             pcre2-dev.tcz
                pcre2.tcz
-               bzip2-dev.tcz 
-               readline-dev.tcz 
+               bzip2-dev.tcz
+                  bzip2.tcz
+                     bzip2-lib.tcz
+               readline-dev.tcz
+                  readline.tcz
+                     ncurses.tcz
+                  ncurses-dev.tcz
+                     ncurses.tcz
          fontconfig-dev.tcz
             fontconfig.tcz
                expat2.tcz
@@ -202,7 +209,7 @@ cups-filters-dev.tcz
                            gamin.tcz
                            libelf.tcz
                            pcre2.tcz
-                        python3.11.tcz
+                        python3.14.tcz
                            bzip2-lib.tcz
                            readline.tcz
                               ncurses.tcz
@@ -218,8 +225,14 @@ cups-filters-dev.tcz
                         libelf.tcz
                      pcre2-dev.tcz
                         pcre2.tcz
-                        bzip2-dev.tcz 
-                        readline-dev.tcz 
+                        bzip2-dev.tcz
+                           bzip2.tcz
+                              bzip2-lib.tcz
+                        readline-dev.tcz
+                           readline.tcz
+                              ncurses.tcz
+                           ncurses-dev.tcz
+                              ncurses.tcz
                   graphite2-dev.tcz
                      graphite2.tcz
                bzip2-dev.tcz

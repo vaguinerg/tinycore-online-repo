@@ -37,7 +37,7 @@ gupnp-dlna-dev.tcz
                pcre2.tcz
             gmp.tcz
          libasound.tcz
-            alsa-modules-6.18.16-piCore-v7.tcz
+            alsa-modules-6.18.37-piCore-v7.tcz
          libopus.tcz
          libtheora.tcz
             libogg.tcz
@@ -159,7 +159,7 @@ gupnp-dlna-dev.tcz
                pcre2.tcz
             gmp.tcz
          libasound.tcz
-            alsa-modules-6.18.16-piCore-v7.tcz
+            alsa-modules-6.18.37-piCore-v7.tcz
          libopus.tcz
          libtheora.tcz
             libogg.tcz
@@ -184,7 +184,7 @@ gupnp-dlna-dev.tcz
                   gamin.tcz
                   libelf.tcz
                   pcre2.tcz
-               python3.11.tcz
+               python3.14.tcz
                   bzip2-lib.tcz
                   readline.tcz
                      ncurses.tcz
@@ -200,13 +200,19 @@ gupnp-dlna-dev.tcz
                libelf.tcz
             pcre2-dev.tcz
                pcre2.tcz
-               bzip2-dev.tcz 
-               readline-dev.tcz 
+               bzip2-dev.tcz
+                  bzip2.tcz
+                     bzip2-lib.tcz
+               readline-dev.tcz
+                  readline.tcz
+                     ncurses.tcz
+                  ncurses-dev.tcz
+                     ncurses.tcz
          gmp-dev.tcz
             gmp.tcz
       libasound-dev.tcz
          libasound.tcz
-            alsa-modules-6.18.16-piCore-v7.tcz
+            alsa-modules-6.18.37-piCore-v7.tcz
       libopus-dev.tcz
          libopus.tcz
       graphene-dev.tcz
@@ -221,7 +227,7 @@ gupnp-dlna-dev.tcz
                   gamin.tcz
                   libelf.tcz
                   pcre2.tcz
-               python3.11.tcz
+               python3.14.tcz
                   bzip2-lib.tcz
                   readline.tcz
                      ncurses.tcz
@@ -237,8 +243,14 @@ gupnp-dlna-dev.tcz
                libelf.tcz
             pcre2-dev.tcz
                pcre2.tcz
-               bzip2-dev.tcz 
-               readline-dev.tcz 
+               bzip2-dev.tcz
+                  bzip2.tcz
+                     bzip2-lib.tcz
+               readline-dev.tcz
+                  readline.tcz
+                     ncurses.tcz
+                  ncurses-dev.tcz
+                     ncurses.tcz
       libvorbis-dev.tcz
          libvorbis.tcz
             libogg.tcz
@@ -978,7 +990,7 @@ gupnp-dlna-dev.tcz
                      gamin.tcz
                      libelf.tcz
                      pcre2.tcz
-                  python3.11.tcz
+                  python3.14.tcz
                      bzip2-lib.tcz
                      readline.tcz
                         ncurses.tcz
@@ -994,8 +1006,14 @@ gupnp-dlna-dev.tcz
                   libelf.tcz
                pcre2-dev.tcz
                   pcre2.tcz
-                  bzip2-dev.tcz 
-                  readline-dev.tcz 
+                  bzip2-dev.tcz
+                     bzip2.tcz
+                        bzip2-lib.tcz
+                  readline-dev.tcz
+                     readline.tcz
+                        ncurses.tcz
+                     ncurses-dev.tcz
+                        ncurses.tcz
             fontconfig-dev.tcz
                fontconfig.tcz
                   expat2.tcz
@@ -1036,7 +1054,7 @@ gupnp-dlna-dev.tcz
                               gamin.tcz
                               libelf.tcz
                               pcre2.tcz
-                           python3.11.tcz
+                           python3.14.tcz
                               bzip2-lib.tcz
                               readline.tcz
                                  ncurses.tcz
@@ -1052,8 +1070,14 @@ gupnp-dlna-dev.tcz
                            libelf.tcz
                         pcre2-dev.tcz
                            pcre2.tcz
-                           bzip2-dev.tcz 
-                           readline-dev.tcz 
+                           bzip2-dev.tcz
+                              bzip2.tcz
+                                 bzip2-lib.tcz
+                           readline-dev.tcz
+                              readline.tcz
+                                 ncurses.tcz
+                              ncurses-dev.tcz
+                                 ncurses.tcz
                      graphite2-dev.tcz
                         graphite2.tcz
                   bzip2-dev.tcz
@@ -1186,7 +1210,7 @@ gupnp-dlna-dev.tcz
                               gamin.tcz
                               libelf.tcz
                               pcre2.tcz
-                           python3.11.tcz
+                           python3.14.tcz
                               bzip2-lib.tcz
                               readline.tcz
                                  ncurses.tcz
@@ -1202,8 +1226,14 @@ gupnp-dlna-dev.tcz
                            libelf.tcz
                         pcre2-dev.tcz
                            pcre2.tcz
-                           bzip2-dev.tcz 
-                           readline-dev.tcz 
+                           bzip2-dev.tcz
+                              bzip2.tcz
+                                 bzip2-lib.tcz
+                           readline-dev.tcz
+                              readline.tcz
+                                 ncurses.tcz
+                              ncurses-dev.tcz
+                                 ncurses.tcz
                      graphite2-dev.tcz
                         graphite2.tcz
                   bzip2-dev.tcz
@@ -1235,7 +1265,7 @@ gupnp-dlna-dev.tcz
                            gamin.tcz
                            libelf.tcz
                            pcre2.tcz
-                        python3.11.tcz
+                        python3.14.tcz
                            bzip2-lib.tcz
                            readline.tcz
                               ncurses.tcz
@@ -1251,8 +1281,14 @@ gupnp-dlna-dev.tcz
                         libelf.tcz
                      pcre2-dev.tcz
                         pcre2.tcz
-                        bzip2-dev.tcz 
-                        readline-dev.tcz 
+                        bzip2-dev.tcz
+                           bzip2.tcz
+                              bzip2-lib.tcz
+                        readline-dev.tcz
+                           readline.tcz
+                              ncurses.tcz
+                           ncurses-dev.tcz
+                              ncurses.tcz
                   graphite2-dev.tcz
                      graphite2.tcz
                bzip2-dev.tcz
@@ -1288,7 +1324,11 @@ gupnp-dlna-dev.tcz
                      xorg-proto.tcz
                         util-macros.tcz
          fribidi-dev.tcz
-            fribidi.tcz   
+            fribidi.tcz
+               glib2.tcz
+                  gamin.tcz
+                  libelf.tcz
+                  pcre2.tcz
       libjpeg-turbo-dev.tcz
          libjpeg-turbo.tcz
       libXi-dev.tcz
@@ -1371,7 +1411,7 @@ gupnp-dlna-dev.tcz
                   gamin.tcz
                   libelf.tcz
                   pcre2.tcz
-               python3.11.tcz
+               python3.14.tcz
                   bzip2-lib.tcz
                   readline.tcz
                      ncurses.tcz
@@ -1387,6 +1427,12 @@ gupnp-dlna-dev.tcz
                libelf.tcz
             pcre2-dev.tcz
                pcre2.tcz
-               bzip2-dev.tcz 
-               readline-dev.tcz 
+               bzip2-dev.tcz
+                  bzip2.tcz
+                     bzip2-lib.tcz
+               readline-dev.tcz
+                  readline.tcz
+                     ncurses.tcz
+                  ncurses-dev.tcz
+                     ncurses.tcz
 
