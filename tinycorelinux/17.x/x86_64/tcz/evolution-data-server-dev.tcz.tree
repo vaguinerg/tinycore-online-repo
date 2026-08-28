@@ -163,6 +163,8 @@ evolution-data-server-dev.tcz
                   gcc_libs.tcz
                   spirv-tools.tcz
             libwebp1.tcz
+            openh264.tcz
+            faad.tcz
          libsecret.tcz
             libgcrypt.tcz
                libgpg-error.tcz
@@ -700,6 +702,8 @@ evolution-data-server-dev.tcz
                   gcc_libs.tcz
                   spirv-tools.tcz
             libwebp1.tcz
+            openh264.tcz
+            faad.tcz
          libsecret.tcz
             libgcrypt.tcz
                libgpg-error.tcz
@@ -1332,6 +1336,8 @@ evolution-data-server-dev.tcz
                      gcc_libs.tcz
                      spirv-tools.tcz
                libwebp1.tcz
+               openh264.tcz
+               faad.tcz
             librsvg.tcz
                pango.tcz
                   cairo.tcz
@@ -1982,6 +1988,8 @@ evolution-data-server-dev.tcz
                   gcc_libs.tcz
                   spirv-tools.tcz
             libwebp1.tcz
+            openh264.tcz
+            faad.tcz
          libsecret.tcz
             libgcrypt.tcz
                libgpg-error.tcz
@@ -2519,6 +2527,8 @@ evolution-data-server-dev.tcz
                   gcc_libs.tcz
                   spirv-tools.tcz
             libwebp1.tcz
+            openh264.tcz
+            faad.tcz
          libdvdnav-dev.tcz
             libdvdnav.tcz
                libdvdread.tcz
@@ -16384,6 +16394,78 @@ evolution-data-server-dev.tcz
                            libtirpc.tcz
                   liblzma-dev.tcz
                      liblzma.tcz
+         libsoup3-dev.tcz
+            libsoup3.tcz
+               glib-networking.tcz
+                  glib2.tcz
+                     libffi.tcz
+                     pcre21042.tcz
+                  openssl.tcz
+                  gnutls38.tcz
+                     p11-kit.tcz
+                        libffi.tcz
+                        libtasn1-4.tcz
+                     nettle39.tcz
+                        gmp.tcz
+                     libidn2.tcz
+                        libunistring.tcz
+                        ncursesw.tcz
+                     libzstd.tcz
+               libxml2.tcz
+                  liblzma.tcz
+               sqlite3.tcz
+               libpsl.tcz
+                  libidn2.tcz
+                     libunistring.tcz
+                     ncursesw.tcz
+               libnghttp2.tcz
+            libxml2-dev.tcz
+               libxml2-bin.tcz
+                  libxml2.tcz
+                     liblzma.tcz
+               libxml2-python.tcz
+                  libxml2.tcz
+                     liblzma.tcz
+                  python3.14.tcz
+                     openssl.tcz
+                     sqlite3.tcz
+                     gdbm.tcz
+                     bzip2-lib.tcz
+                     liblzma.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     libffi.tcz
+                     libnsl.tcz
+                        libtirpc.tcz
+               liblzma-dev.tcz
+                  liblzma.tcz
+            sqlite3-dev.tcz
+               sqlite3-bin.tcz
+                  sqlite3.tcz
+                  readline.tcz
+                     ncursesw.tcz
+               readline-dev.tcz
+                  readline.tcz
+                     ncursesw.tcz
+                  ncursesw-dev.tcz
+                     ncursesw.tcz
+            libpsl-dev.tcz
+               libpsl.tcz
+                  libidn2.tcz
+                     libunistring.tcz
+                     ncursesw.tcz
+               libidn2-dev.tcz
+                  libidn2.tcz
+                     libunistring.tcz
+                     ncursesw.tcz
+                  libunistring-dev.tcz
+                     libunistring.tcz
+                  ncursesw-dev.tcz
+                     ncursesw.tcz
+            libnghttp2-dev.tcz
+               libnghttp2.tcz
+         openh264-dev.tcz
+            openh264.tcz
       gtk3-dev.tcz
          gtk3.tcz
             libepoxy.tcz
@@ -28011,6 +28093,8 @@ evolution-data-server-dev.tcz
                   gcc_libs.tcz
                   spirv-tools.tcz
             libwebp1.tcz
+            openh264.tcz
+            faad.tcz
          libsecret.tcz
             libgcrypt.tcz
                libgpg-error.tcz
@@ -28643,6 +28727,8 @@ evolution-data-server-dev.tcz
                      gcc_libs.tcz
                      spirv-tools.tcz
                libwebp1.tcz
+               openh264.tcz
+               faad.tcz
             librsvg.tcz
                pango.tcz
                   cairo.tcz
@@ -28926,6 +29012,8 @@ evolution-data-server-dev.tcz
                   gcc_libs.tcz
                   spirv-tools.tcz
             libwebp1.tcz
+            openh264.tcz
+            faad.tcz
          libdvdnav-dev.tcz
             libdvdnav.tcz
                libdvdread.tcz
@@ -42791,6 +42879,78 @@ evolution-data-server-dev.tcz
                            libtirpc.tcz
                   liblzma-dev.tcz
                      liblzma.tcz
+         libsoup3-dev.tcz
+            libsoup3.tcz
+               glib-networking.tcz
+                  glib2.tcz
+                     libffi.tcz
+                     pcre21042.tcz
+                  openssl.tcz
+                  gnutls38.tcz
+                     p11-kit.tcz
+                        libffi.tcz
+                        libtasn1-4.tcz
+                     nettle39.tcz
+                        gmp.tcz
+                     libidn2.tcz
+                        libunistring.tcz
+                        ncursesw.tcz
+                     libzstd.tcz
+               libxml2.tcz
+                  liblzma.tcz
+               sqlite3.tcz
+               libpsl.tcz
+                  libidn2.tcz
+                     libunistring.tcz
+                     ncursesw.tcz
+               libnghttp2.tcz
+            libxml2-dev.tcz
+               libxml2-bin.tcz
+                  libxml2.tcz
+                     liblzma.tcz
+               libxml2-python.tcz
+                  libxml2.tcz
+                     liblzma.tcz
+                  python3.14.tcz
+                     openssl.tcz
+                     sqlite3.tcz
+                     gdbm.tcz
+                     bzip2-lib.tcz
+                     liblzma.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     libffi.tcz
+                     libnsl.tcz
+                        libtirpc.tcz
+               liblzma-dev.tcz
+                  liblzma.tcz
+            sqlite3-dev.tcz
+               sqlite3-bin.tcz
+                  sqlite3.tcz
+                  readline.tcz
+                     ncursesw.tcz
+               readline-dev.tcz
+                  readline.tcz
+                     ncursesw.tcz
+                  ncursesw-dev.tcz
+                     ncursesw.tcz
+            libpsl-dev.tcz
+               libpsl.tcz
+                  libidn2.tcz
+                     libunistring.tcz
+                     ncursesw.tcz
+               libidn2-dev.tcz
+                  libidn2.tcz
+                     libunistring.tcz
+                     ncursesw.tcz
+                  libunistring-dev.tcz
+                     libunistring.tcz
+                  ncursesw-dev.tcz
+                     ncursesw.tcz
+            libnghttp2-dev.tcz
+               libnghttp2.tcz
+         openh264-dev.tcz
+            openh264.tcz
       gtk4-dev.tcz
          gtk4.tcz
             libepoxy.tcz
@@ -42976,6 +43136,8 @@ evolution-data-server-dev.tcz
                      gcc_libs.tcz
                      spirv-tools.tcz
                libwebp1.tcz
+               openh264.tcz
+               faad.tcz
             librsvg.tcz
                pango.tcz
                   cairo.tcz
@@ -43293,6 +43455,8 @@ evolution-data-server-dev.tcz
                      gcc_libs.tcz
                      spirv-tools.tcz
                libwebp1.tcz
+               openh264.tcz
+               faad.tcz
             libdvdnav-dev.tcz
                libdvdnav.tcz
                   libdvdread.tcz
@@ -57158,6 +57322,78 @@ evolution-data-server-dev.tcz
                               libtirpc.tcz
                      liblzma-dev.tcz
                         liblzma.tcz
+            libsoup3-dev.tcz
+               libsoup3.tcz
+                  glib-networking.tcz
+                     glib2.tcz
+                        libffi.tcz
+                        pcre21042.tcz
+                     openssl.tcz
+                     gnutls38.tcz
+                        p11-kit.tcz
+                           libffi.tcz
+                           libtasn1-4.tcz
+                        nettle39.tcz
+                           gmp.tcz
+                        libidn2.tcz
+                           libunistring.tcz
+                           ncursesw.tcz
+                        libzstd.tcz
+                  libxml2.tcz
+                     liblzma.tcz
+                  sqlite3.tcz
+                  libpsl.tcz
+                     libidn2.tcz
+                        libunistring.tcz
+                        ncursesw.tcz
+                  libnghttp2.tcz
+               libxml2-dev.tcz
+                  libxml2-bin.tcz
+                     libxml2.tcz
+                        liblzma.tcz
+                  libxml2-python.tcz
+                     libxml2.tcz
+                        liblzma.tcz
+                     python3.14.tcz
+                        openssl.tcz
+                        sqlite3.tcz
+                        gdbm.tcz
+                        bzip2-lib.tcz
+                        liblzma.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        libffi.tcz
+                        libnsl.tcz
+                           libtirpc.tcz
+                  liblzma-dev.tcz
+                     liblzma.tcz
+               sqlite3-dev.tcz
+                  sqlite3-bin.tcz
+                     sqlite3.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                  readline-dev.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     ncursesw-dev.tcz
+                        ncursesw.tcz
+               libpsl-dev.tcz
+                  libpsl.tcz
+                     libidn2.tcz
+                        libunistring.tcz
+                        ncursesw.tcz
+                  libidn2-dev.tcz
+                     libidn2.tcz
+                        libunistring.tcz
+                        ncursesw.tcz
+                     libunistring-dev.tcz
+                        libunistring.tcz
+                     ncursesw-dev.tcz
+                        ncursesw.tcz
+               libnghttp2-dev.tcz
+                  libnghttp2.tcz
+            openh264-dev.tcz
+               openh264.tcz
       libsecret-dev.tcz
          libsecret.tcz
             libgcrypt.tcz

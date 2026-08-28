@@ -10,7 +10,7 @@ Tags:	        gstreamer bad plugin
 Comments:       gstreamer bad plugins and elements
                 ----------
                 optionally can be used with the following extensions:
-                openssl, curl, gnutls38, gtk3, libexif, libvdpau, faac, faad,
+                openssl, curl, gnutls38, gtk3, libexif, libsoup3, libvdpau, faac,
                 libass, neon, libusb, librsvg, sbc, openal, libbluetooth, x265, 
                 fdk-aac openexr, openjpeg, libvulkan, libnice and libssh2
                 ----------
@@ -30,4 +30,5 @@ Change-log:     2013/12/05 first version
                 2020/01/16 updated 1.14.4 -> 1.16.2
                 2021/03/06 recompiled for updated libffi
                 2024/01/14 updated 1.16.2 -> 1.22.8
-Current:   	2025/06/23 updated 1.22.8 -> 1.26.2
+                2025/06/23 updated 1.22.8 -> 1.26.2
+Current:   	2026/08/28 added libsoup3 and openh264 plugins

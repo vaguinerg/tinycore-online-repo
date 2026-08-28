@@ -4,14 +4,15 @@ Version:        1.26.1
 Author:         Many, see source tarball for list
 Original-site:  http://gstreamer.freedesktop.org
 Copying-policy: LGPL v2
-Size:           2.2MB
+Size:           2.3MB
 Extension_by:   juanito
 Tags:           LIBRARY AUDIO VIDEO MULTIMEDIA
 Comments:       Binaries only
                 ----
-                can optionally use the flac, libsoup3, pulseaudio, taglib,
-                speexdsp, wavpack and lame extensions
+                can optionally use the flac, gtk3, libsoup3, libXv, mpg123,
+                pulseaudio, taglib, speexdsp, wavpack and lame extensions
                 ----
 Change-log:     2020/10/11 first version
                 2024/08/26 updated 1.16.2 -> 1.24.6
-Current:        2025/05/18 updated 1.24.6 -> 1.26.1
+                2025/05/18 updated 1.24.6 -> 1.26.1
+Current:        2026/08/26 recompiled for missing plugins

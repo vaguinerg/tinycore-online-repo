@@ -145,10 +145,10 @@ gnome-photos.tcz
             pcre21042.tcz
       libv4l2.tcz
          libjpeg-turbo.tcz
-         v4l-dvb-6.18.2-tinycore64.tcz
-            i2c-6.18.2-tinycore64.tcz
-            alsa-modules-6.18.2-tinycore64.tcz
-               input-joystick-6.18.2-tinycore64.tcz
+         v4l-dvb-6.18.35-tinycore64.tcz
+            i2c-6.18.35-tinycore64.tcz
+            alsa-modules-6.18.35-tinycore64.tcz
+               input-joystick-6.18.35-tinycore64.tcz
       libpoppler23.tcz
          liblcms2.tcz
          cairo.tcz
@@ -919,7 +919,7 @@ gnome-photos.tcz
             readline.tcz
                ncursesw.tcz
             wireless_tools.tcz
-               wireless-6.18.2-tinycore64.tcz
+               wireless-6.18.35-tinycore64.tcz
                libiw.tcz
          dhcpcd.tcz
          modemmanager.tcz
@@ -979,7 +979,7 @@ gnome-photos.tcz
                   glib2.tcz
                      libffi.tcz
                      pcre21042.tcz
-               bluetooth-6.18.2-tinycore64.tcz
+               bluetooth-6.18.35-tinycore64.tcz
                sbc.tcz
                readline.tcz
                   ncursesw.tcz
@@ -1515,6 +1515,8 @@ gnome-photos.tcz
                   gcc_libs.tcz
                   spirv-tools.tcz
             libwebp1.tcz
+            openh264.tcz
+            faad.tcz
          libsecret.tcz
             libgcrypt.tcz
                libgpg-error.tcz

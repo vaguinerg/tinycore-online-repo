@@ -345,6 +345,8 @@ gnome-control-center.tcz
                   gcc_libs.tcz
                   spirv-tools.tcz
             libwebp1.tcz
+            openh264.tcz
+            faad.tcz
          libsecret.tcz
             libgcrypt.tcz
                libgpg-error.tcz
@@ -964,8 +966,8 @@ gnome-control-center.tcz
          libSM.tcz
             libICE.tcz
       alsa.tcz
-         alsa-modules-6.18.2-tinycore64.tcz
-            input-joystick-6.18.2-tinycore64.tcz
+         alsa-modules-6.18.35-tinycore64.tcz
+            input-joystick-6.18.35-tinycore64.tcz
          libasound.tcz
          ncursesw.tcz
       udev-lib.tcz
@@ -1501,8 +1503,8 @@ gnome-control-center.tcz
             libSM.tcz
                libICE.tcz
          alsa.tcz
-            alsa-modules-6.18.2-tinycore64.tcz
-               input-joystick-6.18.2-tinycore64.tcz
+            alsa-modules-6.18.35-tinycore64.tcz
+               input-joystick-6.18.35-tinycore64.tcz
             libasound.tcz
             ncursesw.tcz
          udev-lib.tcz
@@ -2513,7 +2515,7 @@ gnome-control-center.tcz
             readline.tcz
                ncursesw.tcz
             wireless_tools.tcz
-               wireless-6.18.2-tinycore64.tcz
+               wireless-6.18.35-tinycore64.tcz
                libiw.tcz
          dhcpcd.tcz
          modemmanager.tcz
@@ -2573,7 +2575,7 @@ gnome-control-center.tcz
                   glib2.tcz
                      libffi.tcz
                      pcre21042.tcz
-               bluetooth-6.18.2-tinycore64.tcz
+               bluetooth-6.18.35-tinycore64.tcz
                sbc.tcz
                readline.tcz
                   ncursesw.tcz
@@ -2820,6 +2822,8 @@ gnome-control-center.tcz
                      gcc_libs.tcz
                      spirv-tools.tcz
                libwebp1.tcz
+               openh264.tcz
+               faad.tcz
             librsvg.tcz
                pango.tcz
                   cairo.tcz
@@ -3266,7 +3270,7 @@ gnome-control-center.tcz
                readline.tcz
                   ncursesw.tcz
                wireless_tools.tcz
-                  wireless-6.18.2-tinycore64.tcz
+                  wireless-6.18.35-tinycore64.tcz
                   libiw.tcz
             dhcpcd.tcz
             modemmanager.tcz
@@ -3326,7 +3330,7 @@ gnome-control-center.tcz
                      glib2.tcz
                         libffi.tcz
                         pcre21042.tcz
-                  bluetooth-6.18.2-tinycore64.tcz
+                  bluetooth-6.18.35-tinycore64.tcz
                   sbc.tcz
                   readline.tcz
                      ncursesw.tcz
@@ -3826,6 +3830,8 @@ gnome-control-center.tcz
                         gcc_libs.tcz
                         spirv-tools.tcz
                   libwebp1.tcz
+                  openh264.tcz
+                  faad.tcz
                librsvg.tcz
                   pango.tcz
                      cairo.tcz
@@ -4522,7 +4528,7 @@ gnome-control-center.tcz
                readline.tcz
                   ncursesw.tcz
                wireless_tools.tcz
-                  wireless-6.18.2-tinycore64.tcz
+                  wireless-6.18.35-tinycore64.tcz
                   libiw.tcz
             dhcpcd.tcz
             modemmanager.tcz
@@ -4582,7 +4588,7 @@ gnome-control-center.tcz
                      glib2.tcz
                         libffi.tcz
                         pcre21042.tcz
-                  bluetooth-6.18.2-tinycore64.tcz
+                  bluetooth-6.18.35-tinycore64.tcz
                   sbc.tcz
                   readline.tcz
                      ncursesw.tcz
@@ -4964,6 +4970,8 @@ gnome-control-center.tcz
                      gcc_libs.tcz
                      spirv-tools.tcz
                libwebp1.tcz
+               openh264.tcz
+               faad.tcz
             librsvg.tcz
                pango.tcz
                   cairo.tcz
@@ -5678,7 +5686,7 @@ gnome-control-center.tcz
             readline.tcz
                ncursesw.tcz
             wireless_tools.tcz
-               wireless-6.18.2-tinycore64.tcz
+               wireless-6.18.35-tinycore64.tcz
                libiw.tcz
          dhcpcd.tcz
          modemmanager.tcz
@@ -5738,7 +5746,7 @@ gnome-control-center.tcz
                   glib2.tcz
                      libffi.tcz
                      pcre21042.tcz
-               bluetooth-6.18.2-tinycore64.tcz
+               bluetooth-6.18.35-tinycore64.tcz
                sbc.tcz
                readline.tcz
                   ncursesw.tcz
@@ -6238,6 +6246,8 @@ gnome-control-center.tcz
                      gcc_libs.tcz
                      spirv-tools.tcz
                libwebp1.tcz
+               openh264.tcz
+               faad.tcz
             librsvg.tcz
                pango.tcz
                   cairo.tcz
@@ -6600,7 +6610,7 @@ gnome-control-center.tcz
                nspr.tcz
                sqlite3.tcz
          mdadm.tcz
-            raid-dm-6.18.2-tinycore64.tcz
+            raid-dm-6.18.35-tinycore64.tcz
          parted.tcz
             liblvm2.tcz
                udev-lib.tcz
@@ -6613,9 +6623,9 @@ gnome-control-center.tcz
          btrfs-progs.tcz
             lzo.tcz
             libzstd.tcz
-            filesystems-6.18.2-tinycore64.tcz
-               mtd-6.18.2-tinycore64.tcz
-               raid-dm-6.18.2-tinycore64.tcz
+            filesystems-6.18.35-tinycore64.tcz
+               mtd-6.18.35-tinycore64.tcz
+               raid-dm-6.18.35-tinycore64.tcz
          ndctl.tcz
             kmod.tcz
                liblzma.tcz
@@ -7040,6 +7050,8 @@ gnome-control-center.tcz
                      gcc_libs.tcz
                      spirv-tools.tcz
                libwebp1.tcz
+               openh264.tcz
+               faad.tcz
             librsvg.tcz
                pango.tcz
                   cairo.tcz
@@ -7772,7 +7784,7 @@ gnome-control-center.tcz
             glib2.tcz
                libffi.tcz
                pcre21042.tcz
-         bluetooth-6.18.2-tinycore64.tcz
+         bluetooth-6.18.35-tinycore64.tcz
          sbc.tcz
          readline.tcz
             ncursesw.tcz
@@ -8098,10 +8110,10 @@ gnome-control-center.tcz
       openal.tcz
       libv4l2.tcz
          libjpeg-turbo.tcz
-         v4l-dvb-6.18.2-tinycore64.tcz
-            i2c-6.18.2-tinycore64.tcz
-            alsa-modules-6.18.2-tinycore64.tcz
-               input-joystick-6.18.2-tinycore64.tcz
+         v4l-dvb-6.18.35-tinycore64.tcz
+            i2c-6.18.35-tinycore64.tcz
+            alsa-modules-6.18.35-tinycore64.tcz
+               input-joystick-6.18.35-tinycore64.tcz
       libpulseaudio.tcz
          dbus.tcz
             expat2.tcz

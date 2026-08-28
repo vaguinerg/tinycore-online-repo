@@ -160,15 +160,11 @@ rygel.tcz
          libswresample7.tcz
             libavutil7.tcz
                libdrm.tcz
-                  libpciaccess.tcz
-                  udev-lib.tcz
          libavformat7.tcz
             libavcodec7.tcz
                libswresample7.tcz
                   libavutil7.tcz
                      libdrm.tcz
-                        libpciaccess.tcz
-                        udev-lib.tcz
                x264.tcz
                x265.tcz
                libwebp.tcz
@@ -293,13 +289,9 @@ rygel.tcz
          libpostproc7.tcz
             libavutil7.tcz
                libdrm.tcz
-                  libpciaccess.tcz
-                  udev-lib.tcz
          libswscale7.tcz
             libavutil7.tcz
                libdrm.tcz
-                  libpciaccess.tcz
-                  udev-lib.tcz
          libass.tcz
             fribidi.tcz
                glib2.tcz
@@ -377,8 +369,6 @@ rygel.tcz
          libEGL.tcz
             mesa.tcz
                libdrm.tcz
-                  libpciaccess.tcz
-                  udev-lib.tcz
                expat2.tcz
                libzstd.tcz
                libXfixes.tcz
@@ -400,8 +390,6 @@ rygel.tcz
          libGLES.tcz
             mesa.tcz
                libdrm.tcz
-                  libpciaccess.tcz
-                  udev-lib.tcz
                expat2.tcz
                libzstd.tcz
                libXfixes.tcz
@@ -417,10 +405,10 @@ rygel.tcz
                            libXdmcp.tcz
                libxshmfence.tcz
             libdrm.tcz
-               libpciaccess.tcz
-               udev-lib.tcz
          libwebp.tcz
          x265.tcz
+         openh264.tcz
+         faad.tcz
    python3.11.tcz
       bzip2-lib.tcz
       readline.tcz

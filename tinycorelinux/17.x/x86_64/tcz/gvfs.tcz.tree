@@ -415,6 +415,8 @@ gvfs.tcz
                   gcc_libs.tcz
                   spirv-tools.tcz
             libwebp1.tcz
+            openh264.tcz
+            faad.tcz
          libsecret.tcz
             libgcrypt.tcz
                libgpg-error.tcz
@@ -1046,7 +1048,7 @@ gvfs.tcz
                nspr.tcz
                sqlite3.tcz
          mdadm.tcz
-            raid-dm-6.18.2-tinycore64.tcz
+            raid-dm-6.18.35-tinycore64.tcz
          parted.tcz
             liblvm2.tcz
                udev-lib.tcz
@@ -1059,9 +1061,9 @@ gvfs.tcz
          btrfs-progs.tcz
             lzo.tcz
             libzstd.tcz
-            filesystems-6.18.2-tinycore64.tcz
-               mtd-6.18.2-tinycore64.tcz
-               raid-dm-6.18.2-tinycore64.tcz
+            filesystems-6.18.35-tinycore64.tcz
+               mtd-6.18.35-tinycore64.tcz
+               raid-dm-6.18.35-tinycore64.tcz
          ndctl.tcz
             kmod.tcz
                liblzma.tcz
