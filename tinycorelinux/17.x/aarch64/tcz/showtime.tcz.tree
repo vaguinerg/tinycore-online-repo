@@ -775,8 +775,8 @@ showtime.tcz
                glib2.tcz
                   pcre2.tcz
                      bzip2-lib.tcz
-   py3.11gobject.tcz
-      python3.11.tcz
+   py3.14gobject.tcz
+      python3.14.tcz
          bzip2-lib.tcz
          readline.tcz
             ncurses.tcz
@@ -786,8 +786,8 @@ showtime.tcz
             ca-certificates.tcz
          sqlite3.tcz
          ncurses.tcz
-      py3.11cairo.tcz
-         python3.11.tcz
+      py3.14cairo.tcz
+         python3.14.tcz
             bzip2-lib.tcz
             readline.tcz
                ncurses.tcz
@@ -938,6 +938,33 @@ showtime.tcz
                glib2.tcz
                   pcre2.tcz
                      bzip2-lib.tcz
+   gst-plugins-good.tcz
+      gst-plugins-base.tcz
+         gstreamer.tcz
+            glib2.tcz
+               pcre2.tcz
+                  bzip2-lib.tcz
+            gmp.tcz
+         libasound.tcz
+            alsa-modules-6.18.37-piCore-v8.tcz
+         opus.tcz
+         libtheora.tcz
+            libogg.tcz
+         libvorbis.tcz
+            libogg.tcz
+         gudev-lib.tcz
+            udev-lib.tcz
+            glib2.tcz
+               pcre2.tcz
+                  bzip2-lib.tcz
+      libvpx114.tcz
+      libv4l2.tcz
+         v4l-dvb-6.18.37-piCore-v8.tcz
+            alsa-modules-6.18.37-piCore-v8.tcz
+            graphics-6.18.37-piCore-v8.tcz
+               alsa-modules-6.18.37-piCore-v8.tcz
+         libjpeg-turbo.tcz
+         udev-lib.tcz
    gst-plugins-rs.tcz
       gst-plugins-base.tcz
          gstreamer.tcz
