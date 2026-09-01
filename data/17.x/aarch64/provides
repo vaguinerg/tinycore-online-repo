@@ -87600,6 +87600,9 @@
 "usr/local/bin/gunzip",
 "usr/local/bin/gzip",
 ],
+"handbrake-cli.tcz": [
+"/usr/local/bin/HandBrakeCLI",
+],
 "harfbuzz-bin.tcz": [
 "/usr/local/bin/hb-info",
 "/usr/local/bin/hb-shape",
@@ -100250,6 +100253,17 @@
 "/usr/local/lib/libnotify.so",
 "/usr/local/lib/libnotify.so.4",
 "/usr/local/lib/libnotify.so.4.0.0",
+],
+"libnuma-dev.tcz": [
+"/usr/local/include/numa.h",
+"/usr/local/include/numacompat1.h",
+"/usr/local/include/numaif.h",
+"/usr/local/lib/pkgconfig/numa.pc",
+],
+"libnuma.tcz": [
+"/usr/local/lib/libnuma.so",
+"/usr/local/lib/libnuma.so.1",
+"/usr/local/lib/libnuma.so.1.0.0",
 ],
 "liboauth-dev.tcz": [
 "/usr/local/include/oauth.h",
@@ -137494,6 +137508,14 @@
 "/usr/local/lib/libntk_images.so",
 "/usr/local/lib/libntk_images.so.1",
 "/usr/local/lib/libntk_images.so.1.3.1001",
+],
+"numactl.tcz": [
+"/usr/local/bin/memhog",
+"/usr/local/bin/migratepages",
+"/usr/local/bin/migspeed",
+"/usr/local/bin/numactl",
+"/usr/local/bin/numademo",
+"/usr/local/bin/numastat",
 ],
 "numlockx.tcz": [
 "/usr/local/share/doc/numlockx/LICENSE",
