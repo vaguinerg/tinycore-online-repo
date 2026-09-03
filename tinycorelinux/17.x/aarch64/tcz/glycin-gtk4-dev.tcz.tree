@@ -2318,6 +2318,11 @@ glycin-gtk4-dev.tcz
                      zlib_base-dev.tcz
                gmp-dev.tcz
                   gmp.tcz
+               libnsl-dev.tcz
+                  libnsl.tcz
+                     libtirpc.tcz
+                  libtirpc-dev.tcz
+                     libtirpc.tcz
             libasound-dev.tcz
                libasound.tcz
                   alsa-modules-6.18.37-piCore-v8.tcz
@@ -3225,6 +3230,8 @@ glycin-gtk4-dev.tcz
                               util-macros.tcz
                                  m4.tcz
                      xtrans.tcz
+            cdparanoia-dev.tcz
+               cdparanoia.tcz
          curl-dev.tcz
             curl.tcz
                openssl.tcz
@@ -5553,6 +5560,20 @@ glycin-gtk4-dev.tcz
                spirv-headers.tcz
          openh264-dev.tcz
             openh264.tcz
+         libaom-dev.tcz
+            libaom-bin.tcz
+               libaom.tcz
+         libdvdnav-dev.tcz
+            libdvdnav.tcz
+               libdvdread.tcz
+                  libdvdcss.tcz
+            libdvdread-dev.tcz
+               libdvdread.tcz
+                  libdvdcss.tcz
+               libdvdcss-dev.tcz
+                  libdvdcss.tcz
+         svt-av1-dev.tcz
+            svt-av1.tcz
       librsvg-dev.tcz
          librsvg.tcz
             pango.tcz

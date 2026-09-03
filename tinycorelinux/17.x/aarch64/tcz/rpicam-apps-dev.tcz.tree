@@ -68,7 +68,16 @@ rpicam-apps-dev.tcz
                   glib2.tcz
                      pcre2.tcz
                         bzip2-lib.tcz
-                  python3.14444.tcz
+                  python3.14.tcz
+                     bzip2-lib.tcz
+                     readline.tcz
+                        ncurses.tcz
+                     gdbm.tcz
+                     liblzma.tcz
+                     openssl.tcz
+                        ca-certificates.tcz
+                     sqlite3.tcz
+                     ncurses.tcz
                pcre2-dev.tcz
                   pcre2.tcz
                      bzip2-lib.tcz
@@ -78,6 +87,11 @@ rpicam-apps-dev.tcz
                   zlib_base-dev.tcz
             gmp-dev.tcz
                gmp.tcz
+            libnsl-dev.tcz
+               libnsl.tcz
+                  libtirpc.tcz
+               libtirpc-dev.tcz
+                  libtirpc.tcz
          libasound-dev.tcz
             libasound.tcz
                alsa-modules-6.18.37-piCore-v8.tcz
@@ -93,7 +107,16 @@ rpicam-apps-dev.tcz
                   glib2.tcz
                      pcre2.tcz
                         bzip2-lib.tcz
-                  python3.14444.tcz
+                  python3.14.tcz
+                     bzip2-lib.tcz
+                     readline.tcz
+                        ncurses.tcz
+                     gdbm.tcz
+                     liblzma.tcz
+                     openssl.tcz
+                        ca-certificates.tcz
+                     sqlite3.tcz
+                     ncurses.tcz
                pcre2-dev.tcz
                   pcre2.tcz
                      bzip2-lib.tcz
@@ -650,7 +673,16 @@ rpicam-apps-dev.tcz
                      glib2.tcz
                         pcre2.tcz
                            bzip2-lib.tcz
-                     python3.14444.tcz
+                     python3.14.tcz
+                        bzip2-lib.tcz
+                        readline.tcz
+                           ncurses.tcz
+                        gdbm.tcz
+                        liblzma.tcz
+                        openssl.tcz
+                           ca-certificates.tcz
+                        sqlite3.tcz
+                        ncurses.tcz
                   pcre2-dev.tcz
                      pcre2.tcz
                         bzip2-lib.tcz
@@ -695,7 +727,16 @@ rpicam-apps-dev.tcz
                               glib2.tcz
                                  pcre2.tcz
                                     bzip2-lib.tcz
-                              python3.14444.tcz
+                              python3.14.tcz
+                                 bzip2-lib.tcz
+                                 readline.tcz
+                                    ncurses.tcz
+                                 gdbm.tcz
+                                 liblzma.tcz
+                                 openssl.tcz
+                                    ca-certificates.tcz
+                                 sqlite3.tcz
+                                 ncurses.tcz
                            pcre2-dev.tcz
                               pcre2.tcz
                                  bzip2-lib.tcz
@@ -789,7 +830,16 @@ rpicam-apps-dev.tcz
                               glib2.tcz
                                  pcre2.tcz
                                     bzip2-lib.tcz
-                              python3.14444.tcz
+                              python3.14.tcz
+                                 bzip2-lib.tcz
+                                 readline.tcz
+                                    ncurses.tcz
+                                 gdbm.tcz
+                                 liblzma.tcz
+                                 openssl.tcz
+                                    ca-certificates.tcz
+                                 sqlite3.tcz
+                                 ncurses.tcz
                            pcre2-dev.tcz
                               pcre2.tcz
                                  bzip2-lib.tcz
@@ -813,7 +863,16 @@ rpicam-apps-dev.tcz
                      glib2.tcz
                         pcre2.tcz
                            bzip2-lib.tcz
-                     python3.14444.tcz
+                     python3.14.tcz
+                        bzip2-lib.tcz
+                        readline.tcz
+                           ncurses.tcz
+                        gdbm.tcz
+                        liblzma.tcz
+                        openssl.tcz
+                           ca-certificates.tcz
+                        sqlite3.tcz
+                        ncurses.tcz
                   pcre2-dev.tcz
                      pcre2.tcz
                         bzip2-lib.tcz
@@ -892,7 +951,16 @@ rpicam-apps-dev.tcz
                   glib2.tcz
                      pcre2.tcz
                         bzip2-lib.tcz
-                  python3.14444.tcz
+                  python3.14.tcz
+                     bzip2-lib.tcz
+                     readline.tcz
+                        ncurses.tcz
+                     gdbm.tcz
+                     liblzma.tcz
+                     openssl.tcz
+                        ca-certificates.tcz
+                     sqlite3.tcz
+                     ncurses.tcz
                pcre2-dev.tcz
                   pcre2.tcz
                      bzip2-lib.tcz
@@ -931,6 +999,8 @@ rpicam-apps-dev.tcz
                            util-macros.tcz
                               m4.tcz
                   xtrans.tcz
+         cdparanoia-dev.tcz
+            cdparanoia.tcz
       libevent-dev.tcz
          libevent.tcz
             openssl.tcz

@@ -21,15 +21,11 @@ gst-libav.tcz
       libswresample7.tcz
          libavutil7.tcz
             libdrm.tcz
-               libpciaccess.tcz
-               udev-lib.tcz
       libavformat7.tcz
          libavcodec7.tcz
             libswresample7.tcz
                libavutil7.tcz
                   libdrm.tcz
-                     libpciaccess.tcz
-                     udev-lib.tcz
             x264.tcz
             x265.tcz
             libwebp.tcz
@@ -154,13 +150,9 @@ gst-libav.tcz
       libpostproc7.tcz
          libavutil7.tcz
             libdrm.tcz
-               libpciaccess.tcz
-               udev-lib.tcz
       libswscale7.tcz
          libavutil7.tcz
             libdrm.tcz
-               libpciaccess.tcz
-               udev-lib.tcz
       libass.tcz
          fribidi.tcz
             glib2.tcz
@@ -182,10 +174,4 @@ gst-libav.tcz
                spirv-tools.tcz
          libvulkan.tcz
          liblcms2.tcz
-   libplacebo.tcz
-      shaderc.tcz
-         glslang.tcz
-            spirv-tools.tcz
-      libvulkan.tcz
-      liblcms2.tcz
 

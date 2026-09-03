@@ -138,6 +138,7 @@ rygel-dev.tcz
                   libxcb.tcz
                      libXau.tcz
                      libXdmcp.tcz
+         liba52.tcz
       gst-libav.tcz
          gst-plugins-base.tcz
             gstreamer.tcz
@@ -314,12 +315,6 @@ rygel-dev.tcz
                      spirv-tools.tcz
                libvulkan.tcz
                liblcms2.tcz
-         libplacebo.tcz
-            shaderc.tcz
-               glslang.tcz
-                  spirv-tools.tcz
-            libvulkan.tcz
-            liblcms2.tcz
       gst-editing-services.tcz
          gst-plugins-good.tcz
             gst-plugins-base.tcz
@@ -775,6 +770,11 @@ rygel-dev.tcz
                   zlib_base-dev.tcz
             gmp-dev.tcz
                gmp.tcz
+            libnsl-dev.tcz
+               libnsl.tcz
+                  libtirpc.tcz
+               libtirpc-dev.tcz
+                  libtirpc.tcz
          libasound-dev.tcz
             libasound.tcz
                alsa-modules-6.18.37-piCore-v8.tcz
@@ -1682,6 +1682,8 @@ rygel-dev.tcz
                            util-macros.tcz
                               m4.tcz
                   xtrans.tcz
+         cdparanoia-dev.tcz
+            cdparanoia.tcz
    libgee-dev.tcz
       libgee.tcz
          glib2.tcz
@@ -2027,6 +2029,11 @@ rygel-dev.tcz
                      zlib_base-dev.tcz
                gmp-dev.tcz
                   gmp.tcz
+               libnsl-dev.tcz
+                  libnsl.tcz
+                     libtirpc.tcz
+                  libtirpc-dev.tcz
+                     libtirpc.tcz
             libasound-dev.tcz
                libasound.tcz
                   alsa-modules-6.18.37-piCore-v8.tcz
@@ -2934,6 +2941,8 @@ rygel-dev.tcz
                               util-macros.tcz
                                  m4.tcz
                      xtrans.tcz
+            cdparanoia-dev.tcz
+               cdparanoia.tcz
          curl-dev.tcz
             curl.tcz
                openssl.tcz
@@ -5262,4 +5271,18 @@ rygel-dev.tcz
                spirv-headers.tcz
          openh264-dev.tcz
             openh264.tcz
+         libaom-dev.tcz
+            libaom-bin.tcz
+               libaom.tcz
+         libdvdnav-dev.tcz
+            libdvdnav.tcz
+               libdvdread.tcz
+                  libdvdcss.tcz
+            libdvdread-dev.tcz
+               libdvdread.tcz
+                  libdvdcss.tcz
+               libdvdcss-dev.tcz
+                  libdvdcss.tcz
+         svt-av1-dev.tcz
+            svt-av1.tcz
 
