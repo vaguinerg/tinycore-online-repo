@@ -1,5 +1,38 @@
 rpi-imager.tcz
-   qt-5.x-all.tcz
+   double-conversion.tcz
+   icu73.tcz
+   dbus.tcz
+      expat2.tcz
+      libX11.tcz
+         libxcb.tcz
+            libXau.tcz
+            libXdmcp.tcz
+   mesa.tcz
+      libdrm.tcz
+      expat2.tcz
+      libzstd.tcz
+      libXfixes.tcz
+         libX11.tcz
+            libxcb.tcz
+               libXau.tcz
+               libXdmcp.tcz
+      libXxf86vm.tcz
+         libXext.tcz
+            libX11.tcz
+               libxcb.tcz
+                  libXau.tcz
+                  libXdmcp.tcz
+      libxshmfence.tcz
+   freetype.tcz
+      libpng.tcz
+      harfbuzz.tcz
+         glib2.tcz
+            pcre2.tcz
+               bzip2-lib.tcz
+         graphite2.tcz
+      bzip2-lib.tcz
+   openssl.tcz
+      ca-certificates.tcz
    curl.tcz
       openssl.tcz
          ca-certificates.tcz
@@ -19,18 +52,6 @@ rpi-imager.tcz
       bzip2-lib.tcz
       libxml2.tcz
          liblzma.tcz
-   util-linux.tcz
-      udev-lib.tcz
-      readline.tcz
-         ncurses.tcz
-      file.tcz
-         liblzma.tcz
-         bzip2-lib.tcz
-         libzstd.tcz
-   dosfstools.tcz
-   parted.tcz
-      readline.tcz
-         ncurses.tcz
    gnutls.tcz
       libidn2.tcz
          libunistring.tcz
@@ -42,6 +63,12 @@ rpi-imager.tcz
          gmp.tcz
       p11-kit.tcz
          libtasn1.tcz
-   double-conversion.tcz
-   icu70.tcz
+   util-linux.tcz
+      udev-lib.tcz
+      readline.tcz
+         ncurses.tcz
+      file.tcz
+         liblzma.tcz
+         bzip2-lib.tcz
+         libzstd.tcz
 
