@@ -1,0 +1,45 @@
+Title:          niri.tcz 
+Description:    scrollable-tiling wayland compositor
+Version:        26.04
+Author:         Ivan Molodetskikh & contributors
+Original-site:  https://github.com/niri-wm/niri
+Copying-policy: GPL v3  
+Size:           12M
+Extension_by:   aus9 
+Tags:           wayland  
+Comments:       Windows are arranged in columns on an infinite strip going to the right. 
+                Opening a new window never causes existing windows to resize. Workspaces are 
+                dynamic and arranged vertically. For multi monitor users- Every monitor has 
+                its own separate window strip. Windows can never "overflow" onto an adjacent monitor.
+
+                On first start a popup of mainly logo + letter key bindings appears. Lots more in the config.
+                The letter is in uppercase but you input in lowercase. The main ones to watch out are:
+                (logo + E) = exit to prompt while (Alt + E) opens exittc for shutdown and reboot ONLY
+                "Mod" is a special modifier equal to Super when running on a TTY, and is Alt when running as 
+                a winit window. If sfwbar loaded, it too will autostart  
+
+                On first start I recommend you launch your file manager or text editor and edit
+                ~/.config/config.kdl # you can load niri inside X but most errors will resolve when on tty 
+                (wayland) to edit your config or start-niri command. Feel free to alter your dep file or your 
+                start-niri bin file. If your kb changes result in duplicates or bad syntax, you will get a report. 
+                niri will not start if bad config. Inside niri run $ niri validate to see errors. Suggest make one 
+                change and validate please!
+                
+                You can have 2 or more different kb shortcuts to do the same action, but I have removed a number of those,
+                to free up more free letters for your combinations. Most of my changes are at the BOTTOM of the config. 
+                Original Config had over 600 lines, so $ niri validate is a must command. Note the word "spawn" 
+                in key bindings make no sense for a one off command like swaylock but pressing kb combo will repeat command
+                so repeating (eg) launch terminal is what gives you a scrollable work space. (logo + ->) will scroll to the right 
+                etc....You can always have one opened app for each workspace!
+
+                Optional TCES ignoring your preferred text editor/file mgr,media player
+                swaylock --but kb combo works without needing  $ swaylock -fl
+                sfwaybar - a configurable panel at top of monitor....better than waybar IMHO 
+                fuzzel - a fuzzy search of desktop files and launcher
+                rofi or wofi -- executables search and launcher 
+               
+                # xwayland not supported instead use (if needed)
+                TCE=xwayland-satellite                
+      
+Change-log:     2026/09/25 v 26.04 on 17x
+Current:        2026/09/25  
