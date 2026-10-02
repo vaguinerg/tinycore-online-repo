@@ -1,24 +1,32 @@
 Title:          yt-dlp.tcz  
-Description:    Fork of youtube-dl
-Version:        2025.12.08
+Description:    python3.14 script to download youtubes
+Version:        2026.08.19
 Author:         https://github.com/yt-dlp/yt-dlp/blob/master/CONTRIBUTORS 
 Original-site:  https://github.com/yt-dlp/yt-dlp
 Copying-policy: https://github.com/yt-dlp/yt-dlp/blob/master/LICENSE 
-Size:           3.0M
+Size:           2.9M
 Extension_by:   aus9 
 Tags:           youtube downloader
-Comments:       Youtube is making it harder, so ffmpeg7 is now a dep
-                Recent downloads likely SABR formats 
-                https://github.com/yt-dlp/yt-dlp/issues/12482
-                that results in video= webm - audio= opus
+Comments:       WARNING
+                Install script assumes you may have loaded the wrong python version
+                before loading this TCE. So I break and re-link python3.14 to python3
+                Either reboot to use older pythons or after using this TCE, use root powers
+                to break my link and relink either python3.6 or python3.9 to python3
+                ALSO you may need to remove this TCE from boot list if you are using
+                TCEs that rely on older pythons
 
+                For movie--without ffmpeg7 to merge video and audio into a webm file, 
+                you will have a video file (mp4) with no audio and an audio file (webm) 
+                with no video. Hence the need for large ffmpeg7 dependency.
+                
                 video+audio $ yt-dlp <url>
                 audio only  $ yt-dlp -x <url>
               
-                If your player can not play webm or opus
+                If your player can not play webm or opus or use $ ffplay
                 $ ffmpeg -i filename.webm filename.mp4
                 $ ffmpeg -i filename.opus filename.mp3
-               
+              
 Change-log:     2023/05/04 v 2023.03.04 on 14x 
                 2024/10/31 v 2024.10.22 on 15x add ca-certificates dep
-Current:        2026/01/04 v 2025.12.08 on 17x errors unless ffmpeg7 loaded    
+                2026/01/04 v 2025.12.08 on 17x errors unless ffmpeg7 loaded 
+Current:        2026/10/01 v 2026.08.19 on 17x + install script for python sym link

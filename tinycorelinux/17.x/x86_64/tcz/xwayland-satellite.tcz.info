@@ -1,0 +1,25 @@
+Title:          xwayland-satellite.tcz 
+Description:    xwayland outside your wayland
+Version:        0.8.2
+Author:         Supreeeme 
+Original-site:  https://github.com/Supreeeme/xwayland-satellite
+Copying-policy: Mozilla Public License 2.0
+Size:           2.5M
+Extension_by:   aus9 
+Tags:           wayland  
+Comments:       xwayland-satellite grants rootless Xwayland integration to 
+                any Wayland compositor implementing xdg_wm_base and viewporter. 
+
+                The host compositor needs:
+                Core interfaces (wl_output, wl_surface, wl_compositor, etc)
+                xdg_shell (xdg_wm_base, xdg_surface, xdg_popup, xdg_toplevel)
+                wp_viewporter - used for scaling
+
+                Can optionally use: Linux dmabuf, XDG activation,
+                XDG decoration, XDG foreign, Pointer constraints,
+                Primary selection, Tablet input & Fractional scale
+
+                This TCE is an optional TCE for niri as it can not use xwayland direct
+ 
+Change-log:     2026/09/21 v 0.8.2 on 17x
+Current:        2026/09/21  

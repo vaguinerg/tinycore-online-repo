@@ -1235,7 +1235,7 @@ virt-manager.tcz
             libunistring.tcz
             ncursesw.tcz
    qemu.tcz
-      kvm-6.18.2-tinycore64.tcz
+      kvm-6.18.35-tinycore64.tcz
       gtk3.tcz
          libepoxy.tcz
          at-spi2-core.tcz
@@ -1443,8 +1443,8 @@ virt-manager.tcz
                libSM.tcz
                   libICE.tcz
             alsa.tcz
-               alsa-modules-6.18.2-tinycore64.tcz
-                  input-joystick-6.18.2-tinycore64.tcz
+               alsa-modules-6.18.35-tinycore64.tcz
+                  input-joystick-6.18.35-tinycore64.tcz
                libasound.tcz
                ncursesw.tcz
             udev-lib.tcz
@@ -1584,35 +1584,11 @@ virt-manager.tcz
                glib2.tcz
                   libffi.tcz
                   pcre21042.tcz
-            bluetooth-6.18.2-tinycore64.tcz
+            bluetooth-6.18.35-tinycore64.tcz
             sbc.tcz
             readline.tcz
                ncursesw.tcz
             libasound.tcz
-      libEGL.tcz
-         mesa.tcz
-            libdrm.tcz
-               libpciaccess.tcz
-               udev-lib.tcz
-            expat2.tcz
-            libxshmfence.tcz
-            elfutils.tcz
-               liblzma.tcz
-               bzip2-lib.tcz
-               libzstd.tcz
-            llvm22-lib.tcz
-               libffi.tcz
-               libxml2.tcz
-                  liblzma.tcz
-               libzstd.tcz
-               ncursesw.tcz
-            gcc_libs.tcz
-            spirv-tools.tcz
-         wayland.tcz
-            libffi.tcz
-            expat2.tcz
-            libxml2.tcz
-               liblzma.tcz
       adwaita-icon-theme.tcz
          gtk-update-icon-cache.tcz
             gdk-pixbuf2.tcz
@@ -1704,6 +1680,68 @@ virt-manager.tcz
          liblzma.tcz
          bzip2-lib.tcz
          libzstd.tcz
+      libvirglrenderer.tcz
+         libepoxy.tcz
+         libva22.tcz
+            libGL.tcz
+               mesa.tcz
+                  libdrm.tcz
+                     libpciaccess.tcz
+                     udev-lib.tcz
+                  expat2.tcz
+                  libxshmfence.tcz
+                  elfutils.tcz
+                     liblzma.tcz
+                     bzip2-lib.tcz
+                     libzstd.tcz
+                  llvm22-lib.tcz
+                     libffi.tcz
+                     libxml2.tcz
+                        liblzma.tcz
+                     libzstd.tcz
+                     ncursesw.tcz
+                  gcc_libs.tcz
+                  spirv-tools.tcz
+               libXxf86vm.tcz
+                  libXext.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+            wayland.tcz
+               libffi.tcz
+               expat2.tcz
+               libxml2.tcz
+                  liblzma.tcz
+            libXfixes.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
+         libEGL.tcz
+            mesa.tcz
+               libdrm.tcz
+                  libpciaccess.tcz
+                  udev-lib.tcz
+               expat2.tcz
+               libxshmfence.tcz
+               elfutils.tcz
+                  liblzma.tcz
+                  bzip2-lib.tcz
+                  libzstd.tcz
+               llvm22-lib.tcz
+                  libffi.tcz
+                  libxml2.tcz
+                     liblzma.tcz
+                  libzstd.tcz
+                  ncursesw.tcz
+               gcc_libs.tcz
+               spirv-tools.tcz
+            wayland.tcz
+               libffi.tcz
+               expat2.tcz
+               libxml2.tcz
+                  liblzma.tcz
    gtk-vnc-gir.tcz
       gtk-vnc.tcz
          gtk3.tcz
