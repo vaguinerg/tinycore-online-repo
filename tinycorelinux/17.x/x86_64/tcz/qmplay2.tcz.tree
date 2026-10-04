@@ -1,206 +1,110 @@
 qmplay2.tcz
-   libavformat5.tcz
-      libavcodec5.tcz
-         libswresample5.tcz
-            libavutil5.tcz
-               libva2.tcz
-                  libGL.tcz
-                     mesa.tcz
-                        libdrm.tcz
-                           libpciaccess.tcz
-                           udev-lib.tcz
-                        expat2.tcz
-                        libxshmfence.tcz
-                        elfutils.tcz
-                           liblzma.tcz
-                           bzip2-lib.tcz
-                           libzstd.tcz
-                        llvm22-lib.tcz
+   dejavu-fonts-ttf.tcz
+      fontconfig.tcz
+         expat2.tcz
+         freetype.tcz
+            libpng.tcz
+            harfbuzz.tcz
+               glib2.tcz
+                  libffi.tcz
+                  pcre21042.tcz
+               graphite.tcz
+            bzip2-lib.tcz
+   gtk-update-icon-cache.tcz
+      gdk-pixbuf2.tcz
+         libtiff.tcz
+            libjpeg-turbo.tcz
+            liblzma.tcz
+            libzstd.tcz
+         libpng.tcz
+         libX11.tcz
+            libxcb.tcz
+               libXau.tcz
+               libXdmcp.tcz
+         shared-mime-info.tcz
+            glib2.tcz
+               libffi.tcz
+               pcre21042.tcz
+            libxml2.tcz
+               liblzma.tcz
+         gdk-pixbuf2-xlib.tcz
+      librsvg.tcz
+         pango.tcz
+            cairo.tcz
+               glib2.tcz
+                  libffi.tcz
+                  pcre21042.tcz
+               fontconfig.tcz
+                  expat2.tcz
+                  freetype.tcz
+                     libpng.tcz
+                     harfbuzz.tcz
+                        glib2.tcz
                            libffi.tcz
-                           libxml2.tcz
-                              liblzma.tcz
-                           libzstd.tcz
-                           ncursesw.tcz
-                        gcc_libs.tcz
-                        spirv-tools.tcz
-                     libXxf86vm.tcz
-                        libXext.tcz
-                           libX11.tcz
-                              libxcb.tcz
-                                 libXau.tcz
-                                 libXdmcp.tcz
-                  wayland.tcz
-                     libffi.tcz
-                     expat2.tcz
-                     libxml2.tcz
-                        liblzma.tcz
-               libvdpau.tcz
-                  libXext.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-         libjxl.tcz
-            brotli.tcz
-            libhwy.tcz
-         svt-av116.tcz
-         libaom.tcz
-         dav1d6.tcz
-         xvid.tcz
-         x265.tcz
-         x264_148.tcz
-         libwebp1.tcz
-         libvpx113.tcz
-         libtheora.tcz
-            libogg.tcz
-         speex.tcz
-            libogg.tcz
-         opus.tcz
-         lame.tcz
-         librsvg.tcz
-            pango.tcz
-               cairo.tcz
-                  glib2.tcz
-                     libffi.tcz
-                     pcre21042.tcz
-                  fontconfig.tcz
-                     expat2.tcz
-                     freetype.tcz
-                        libpng.tcz
-                        harfbuzz.tcz
-                           glib2.tcz
-                              libffi.tcz
-                              pcre21042.tcz
-                           graphite.tcz
-                        bzip2-lib.tcz
-                  pixman.tcz
-                  libpng.tcz
-                  libX11.tcz
-                     libxcb.tcz
-                        libXau.tcz
-                        libXdmcp.tcz
-               libXft.tcz
-                  fontconfig.tcz
-                     expat2.tcz
-                     freetype.tcz
-                        libpng.tcz
-                        harfbuzz.tcz
-                           glib2.tcz
-                              libffi.tcz
-                              pcre21042.tcz
-                           graphite.tcz
-                        bzip2-lib.tcz
-                  libXrender.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-               fribidi.tcz
-                  glib2.tcz
-                     libffi.tcz
-                     pcre21042.tcz
-            gdk-pixbuf2.tcz
-               libtiff.tcz
-                  libjpeg-turbo.tcz
-                  liblzma.tcz
-                  libzstd.tcz
+                           pcre21042.tcz
+                        graphite.tcz
+                     bzip2-lib.tcz
+               pixman.tcz
                libpng.tcz
                libX11.tcz
                   libxcb.tcz
                      libXau.tcz
                      libXdmcp.tcz
-               shared-mime-info.tcz
-                  glib2.tcz
-                     libffi.tcz
-                     pcre21042.tcz
-                  libxml2.tcz
-                     liblzma.tcz
-               gdk-pixbuf2-xlib.tcz
-            dav1d.tcz
-         cairo.tcz
-            glib2.tcz
-               libffi.tcz
-               pcre21042.tcz
-            fontconfig.tcz
-               expat2.tcz
-               freetype.tcz
-                  libpng.tcz
-                  harfbuzz.tcz
-                     glib2.tcz
-                        libffi.tcz
-                        pcre21042.tcz
-                     graphite.tcz
-                  bzip2-lib.tcz
-            pixman.tcz
+            libXft.tcz
+               fontconfig.tcz
+                  expat2.tcz
+                  freetype.tcz
+                     libpng.tcz
+                     harfbuzz.tcz
+                        glib2.tcz
+                           libffi.tcz
+                           pcre21042.tcz
+                        graphite.tcz
+                     bzip2-lib.tcz
+               libXrender.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
+            fribidi.tcz
+               glib2.tcz
+                  libffi.tcz
+                  pcre21042.tcz
+         gdk-pixbuf2.tcz
+            libtiff.tcz
+               libjpeg-turbo.tcz
+               liblzma.tcz
+               libzstd.tcz
             libpng.tcz
             libX11.tcz
                libxcb.tcz
                   libXau.tcz
                   libXdmcp.tcz
-      bzip2-lib.tcz
-      libbluray.tcz
-         libxml2.tcz
-            liblzma.tcz
-         fontconfig.tcz
-            expat2.tcz
-            freetype.tcz
-               libpng.tcz
-               harfbuzz.tcz
-                  glib2.tcz
-                     libffi.tcz
-                     pcre21042.tcz
-                  graphite.tcz
-               bzip2-lib.tcz
-      gnutls38.tcz
-         p11-kit.tcz
-            libffi.tcz
-            libtasn1-4.tcz
-         nettle39.tcz
-            gmp.tcz
-         libidn2.tcz
-            libunistring.tcz
-            ncursesw.tcz
-         libzstd.tcz
-   libswscale5.tcz
-      libavutil5.tcz
-         libva2.tcz
-            libGL.tcz
-               mesa.tcz
-                  libdrm.tcz
-                     libpciaccess.tcz
-                     udev-lib.tcz
-                  expat2.tcz
-                  libxshmfence.tcz
-                  elfutils.tcz
-                     liblzma.tcz
-                     bzip2-lib.tcz
-                     libzstd.tcz
-                  llvm22-lib.tcz
-                     libffi.tcz
-                     libxml2.tcz
-                        liblzma.tcz
-                     libzstd.tcz
-                     ncursesw.tcz
-                  gcc_libs.tcz
-                  spirv-tools.tcz
-               libXxf86vm.tcz
-                  libXext.tcz
-                     libX11.tcz
-                        libxcb.tcz
-                           libXau.tcz
-                           libXdmcp.tcz
-            wayland.tcz
-               libffi.tcz
-               expat2.tcz
+            shared-mime-info.tcz
+               glib2.tcz
+                  libffi.tcz
+                  pcre21042.tcz
                libxml2.tcz
                   liblzma.tcz
-         libvdpau.tcz
-            libXext.tcz
-               libX11.tcz
-                  libxcb.tcz
-                     libXau.tcz
-                     libXdmcp.tcz
-   libass5.tcz
+            gdk-pixbuf2-xlib.tcz
+         dav1d.tcz
+      hicolor-icon-theme.tcz
+   glib2-python.tcz
+      glib2.tcz
+         libffi.tcz
+         pcre21042.tcz
+      python3.14.tcz
+         openssl.tcz
+         sqlite3.tcz
+         gdbm.tcz
+         bzip2-lib.tcz
+         liblzma.tcz
+         readline.tcz
+            ncursesw.tcz
+         libffi.tcz
+         libnsl.tcz
+            libtirpc.tcz
+   libass.tcz
       fribidi.tcz
          glib2.tcz
             libffi.tcz
@@ -220,68 +124,11 @@ qmplay2.tcz
                   pcre21042.tcz
                graphite.tcz
             bzip2-lib.tcz
-   libcdio.tcz
-      libcddb.tcz
-      ncursesw.tcz
-   libEGL.tcz
-      mesa.tcz
-         libdrm.tcz
-            libpciaccess.tcz
-            udev-lib.tcz
-         expat2.tcz
-         libxshmfence.tcz
-         elfutils.tcz
-            liblzma.tcz
-            bzip2-lib.tcz
-            libzstd.tcz
-         llvm22-lib.tcz
-            libffi.tcz
-            libxml2.tcz
-               liblzma.tcz
-            libzstd.tcz
-            ncursesw.tcz
-         gcc_libs.tcz
-         spirv-tools.tcz
-      wayland.tcz
-         libffi.tcz
-         expat2.tcz
-         libxml2.tcz
-            liblzma.tcz
-   libX11.tcz
-      libxcb.tcz
-         libXau.tcz
-         libXdmcp.tcz
-   libXv.tcz
-      libXext.tcz
-         libX11.tcz
-            libxcb.tcz
-               libXau.tcz
-               libXdmcp.tcz
-   dejavu-fonts-ttf.tcz
-      fontconfig.tcz
-         expat2.tcz
-         freetype.tcz
-            libpng.tcz
-            harfbuzz.tcz
-               glib2.tcz
-                  libffi.tcz
-                  pcre21042.tcz
-               graphite.tcz
-            bzip2-lib.tcz
-   python3.9.tcz
-      openssl.tcz
-      sqlite3.tcz
-      gdbm.tcz
-      bzip2-lib.tcz
-      liblzma.tcz
-      readline.tcz
-         ncursesw.tcz
-      libffi.tcz
-   libavdevice5.tcz
-      libavfilter5.tcz
-         libswresample5.tcz
-            libavutil5.tcz
-               libva2.tcz
+   libavdevice7.tcz
+      libavfilter7.tcz
+         libswresample7.tcz
+            libavutil7.tcz
+               libva22.tcz
                   libGL.tcz
                      mesa.tcz
                         libdrm.tcz
@@ -312,17 +159,22 @@ qmplay2.tcz
                      expat2.tcz
                      libxml2.tcz
                         liblzma.tcz
+                  libXfixes.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
                libvdpau.tcz
                   libXext.tcz
                      libX11.tcz
                         libxcb.tcz
                            libXau.tcz
                            libXdmcp.tcz
-         libavformat5.tcz
-            libavcodec5.tcz
-               libswresample5.tcz
-                  libavutil5.tcz
-                     libva2.tcz
+         libavformat7.tcz
+            libavcodec7.tcz
+               libswresample7.tcz
+                  libavutil7.tcz
+                     libva22.tcz
                         libGL.tcz
                            mesa.tcz
                               libdrm.tcz
@@ -353,21 +205,20 @@ qmplay2.tcz
                            expat2.tcz
                            libxml2.tcz
                               liblzma.tcz
+                        libXfixes.tcz
+                           libX11.tcz
+                              libxcb.tcz
+                                 libXau.tcz
+                                 libXdmcp.tcz
                      libvdpau.tcz
                         libXext.tcz
                            libX11.tcz
                               libxcb.tcz
                                  libXau.tcz
                                  libXdmcp.tcz
-               libjxl.tcz
-                  brotli.tcz
-                  libhwy.tcz
-               svt-av116.tcz
                libaom.tcz
-               dav1d6.tcz
-               xvid.tcz
                x265.tcz
-               x264_148.tcz
+               x264_164.tcz
                libwebp1.tcz
                libvpx113.tcz
                libtheora.tcz
@@ -456,20 +307,12 @@ qmplay2.tcz
                      libxcb.tcz
                         libXau.tcz
                         libXdmcp.tcz
+               libjxl.tcz
+                  brotli.tcz
+                  libhwy.tcz
+               svt-av1.tcz
+               dav1d.tcz
             bzip2-lib.tcz
-            libbluray.tcz
-               libxml2.tcz
-                  liblzma.tcz
-               fontconfig.tcz
-                  expat2.tcz
-                  freetype.tcz
-                     libpng.tcz
-                     harfbuzz.tcz
-                        glib2.tcz
-                           libffi.tcz
-                           pcre21042.tcz
-                        graphite.tcz
-                     bzip2-lib.tcz
             gnutls38.tcz
                p11-kit.tcz
                   libffi.tcz
@@ -480,9 +323,9 @@ qmplay2.tcz
                   libunistring.tcz
                   ncursesw.tcz
                libzstd.tcz
-         libpostproc5.tcz
-            libavutil5.tcz
-               libva2.tcz
+         libpostproc7.tcz
+            libavutil7.tcz
+               libva22.tcz
                   libGL.tcz
                      mesa.tcz
                         libdrm.tcz
@@ -513,15 +356,20 @@ qmplay2.tcz
                      expat2.tcz
                      libxml2.tcz
                         liblzma.tcz
+                  libXfixes.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
                libvdpau.tcz
                   libXext.tcz
                      libX11.tcz
                         libxcb.tcz
                            libXau.tcz
                            libXdmcp.tcz
-         libswscale5.tcz
-            libavutil5.tcz
-               libva2.tcz
+         libswscale7.tcz
+            libavutil7.tcz
+               libva22.tcz
                   libGL.tcz
                      mesa.tcz
                         libdrm.tcz
@@ -552,13 +400,18 @@ qmplay2.tcz
                      expat2.tcz
                      libxml2.tcz
                         liblzma.tcz
+                  libXfixes.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
                libvdpau.tcz
                   libXext.tcz
                      libX11.tcz
                         libxcb.tcz
                            libXau.tcz
                            libXdmcp.tcz
-         libass5.tcz
+         libass.tcz
             fribidi.tcz
                glib2.tcz
                   libffi.tcz
@@ -589,19 +442,14 @@ qmplay2.tcz
             libxcb.tcz
                libXau.tcz
                libXdmcp.tcz
-      libcdio-paranoia.tcz
-         libcdio.tcz
-            libcddb.tcz
-            ncursesw.tcz
       libasound.tcz
       sdl2.tcz
-      openal.tcz
       libv4l2.tcz
          libjpeg-turbo.tcz
-         v4l-dvb-6.18.2-tinycore64.tcz
-            i2c-6.18.2-tinycore64.tcz
-            alsa-modules-6.18.2-tinycore64.tcz
-               input-joystick-6.18.2-tinycore64.tcz
+         v4l-dvb-6.18.35-tinycore64.tcz
+            i2c-6.18.35-tinycore64.tcz
+            alsa-modules-6.18.35-tinycore64.tcz
+               input-joystick-6.18.35-tinycore64.tcz
       libpulseaudio.tcz
          dbus.tcz
             expat2.tcz
@@ -642,93 +490,125 @@ qmplay2.tcz
          libICE.tcz
          libSM.tcz
             libICE.tcz
-   nettle39.tcz
-      gmp.tcz
-   shared-mime-info.tcz
-      glib2.tcz
-         libffi.tcz
-         pcre21042.tcz
-      libxml2.tcz
-         liblzma.tcz
-   gtk-update-icon-cache.tcz
-      gdk-pixbuf2.tcz
-         libtiff.tcz
-            libjpeg-turbo.tcz
-            liblzma.tcz
-            libzstd.tcz
-         libpng.tcz
-         libX11.tcz
-            libxcb.tcz
-               libXau.tcz
-               libXdmcp.tcz
-         shared-mime-info.tcz
-            glib2.tcz
-               libffi.tcz
-               pcre21042.tcz
-            libxml2.tcz
+      libplacebo.tcz
+         shaderc.tcz
+            glslang.tcz
+               spirv-tools.tcz
+         libvulkan.tcz
+         liblcms2.tcz
+   libcdio.tcz
+      libcddb.tcz
+      ncursesw.tcz
+   libva22.tcz
+      libGL.tcz
+         mesa.tcz
+            libdrm.tcz
+               libpciaccess.tcz
+               udev-lib.tcz
+            expat2.tcz
+            libxshmfence.tcz
+            elfutils.tcz
                liblzma.tcz
-         gdk-pixbuf2-xlib.tcz
-      librsvg.tcz
-         pango.tcz
-            cairo.tcz
-               glib2.tcz
-                  libffi.tcz
-                  pcre21042.tcz
-               fontconfig.tcz
-                  expat2.tcz
-                  freetype.tcz
-                     libpng.tcz
-                     harfbuzz.tcz
-                        glib2.tcz
-                           libffi.tcz
-                           pcre21042.tcz
-                        graphite.tcz
-                     bzip2-lib.tcz
-               pixman.tcz
-               libpng.tcz
+               bzip2-lib.tcz
+               libzstd.tcz
+            llvm22-lib.tcz
+               libffi.tcz
+               libxml2.tcz
+                  liblzma.tcz
+               libzstd.tcz
+               ncursesw.tcz
+            gcc_libs.tcz
+            spirv-tools.tcz
+         libXxf86vm.tcz
+            libXext.tcz
                libX11.tcz
                   libxcb.tcz
                      libXau.tcz
                      libXdmcp.tcz
-            libXft.tcz
-               fontconfig.tcz
-                  expat2.tcz
-                  freetype.tcz
-                     libpng.tcz
-                     harfbuzz.tcz
-                        glib2.tcz
-                           libffi.tcz
-                           pcre21042.tcz
-                        graphite.tcz
-                     bzip2-lib.tcz
-               libXrender.tcz
-                  libX11.tcz
-                     libxcb.tcz
-                        libXau.tcz
-                        libXdmcp.tcz
-            fribidi.tcz
-               glib2.tcz
-                  libffi.tcz
-                  pcre21042.tcz
-         gdk-pixbuf2.tcz
-            libtiff.tcz
-               libjpeg-turbo.tcz
-               liblzma.tcz
-               libzstd.tcz
-            libpng.tcz
-            libX11.tcz
-               libxcb.tcz
-                  libXau.tcz
-                  libXdmcp.tcz
-            shared-mime-info.tcz
-               glib2.tcz
-                  libffi.tcz
-                  pcre21042.tcz
-               libxml2.tcz
-                  liblzma.tcz
-            gdk-pixbuf2-xlib.tcz
-         dav1d.tcz
-      hicolor-icon-theme.tcz
+      wayland.tcz
+         libffi.tcz
+         expat2.tcz
+         libxml2.tcz
+            liblzma.tcz
+      libXfixes.tcz
+         libX11.tcz
+            libxcb.tcz
+               libXau.tcz
+               libXdmcp.tcz
+   pipewire.tcz
+      pulseaudio.tcz
+         libpulseaudio.tcz
+            dbus.tcz
+               expat2.tcz
+               elogind.tcz
+                  acl.tcz
+                     attr.tcz
+                  libcap.tcz
+                     attr.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
+                  linux-pam.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
+            libcap.tcz
+               attr.tcz
+            glib2.tcz
+               libffi.tcz
+               pcre21042.tcz
+            libsndfile.tcz
+               flac.tcz
+                  libogg.tcz
+               libvorbis.tcz
+                  libogg.tcz
+               opus.tcz
+               libmpg123.tcz
+               lame.tcz
+            libXtst.tcz
+               libXi.tcz
+                  libXext.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
+            libICE.tcz
+            libSM.tcz
+               libICE.tcz
+         alsa.tcz
+            alsa-modules-6.18.35-tinycore64.tcz
+               input-joystick-6.18.35-tinycore64.tcz
+            libasound.tcz
+            ncursesw.tcz
+         udev-lib.tcz
+         speexdsp.tcz
+            speex.tcz
+               libogg.tcz
+         libltdl.tcz
+         libavahi.tcz
+            dbus.tcz
+               expat2.tcz
+               elogind.tcz
+                  acl.tcz
+                     attr.tcz
+                  libcap.tcz
+                     attr.tcz
+                  util-linux.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     udev-lib.tcz
+                  linux-pam.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
+            gcc_libs.tcz
+            glib2.tcz
+               libffi.tcz
+               pcre21042.tcz
+         sbc.tcz
    qt-5.x-opengl.tcz
       qt-5.x-dbus.tcz
          qt-5.x-xml.tcz

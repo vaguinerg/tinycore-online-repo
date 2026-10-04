@@ -1,19 +1,24 @@
 Title:          ogg123.tcz
-Description:    CLI ogg player
+Description:    CLI ogg or opus player
 Version:        1.4.3
 Author:         see doc TCE/AUTHORS
 Original-site:  https://ftp.osuosl.org/pub/xiph/releases/vorbis
 Copying-policy: GPL v 2
 Size:           40K
 Extension_by:   aus9 @linuxquestions.org
-Tags:           audio player ogg
-Comments:       split from vorbis-tools
-                Optional dep for locales= vorbis-tools-locale
-                man page in vorbis-tools-doc TCE
-
-                Can play *.oga *.ogg *.ogv files
+Tags:           audio player ogg opus
+Comments:       Play *.oga *.ogg *.ogv files
                 but ogv means you will lack the video and
                 just get the audio stream
 
+                Play *.opus but you need to follow the info for libao
+                and config ~/.libao to either default_driver=alsa or
+                default_driver=pulse
+
+                Split from vorbis-tools. 
+                Optional TCE for locales=vorbis-tools-locale
+                man page in vorbis-tools-doc TCE
+
 Change-log:     2025/01/12 v 1.4.2 on 15x
-Current:        2025/12/17 v 1.4.3 on 16x   
+                2025/12/17 v 1.4.3 on 16x 
+Current:        2026/10/02 rebuilt against updated libao + opus support on 17x  
