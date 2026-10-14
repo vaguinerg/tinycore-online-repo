@@ -46355,6 +46355,9 @@
     "/usr/local/share/ccid/files/92_pcscd_ccid.rules",
     "/usr/local/tce.installed/ccid"
   ],
+  "cd-discid.tcz": [
+    "/usr/local/bin/cd-discid"
+  ],
   "cdparanoia-dev.tcz": [
     "/usr/local/include/utils.h",
     "/usr/local/include/cdda_interface.h",
@@ -148987,6 +148990,7 @@
   "libcdio-paranoia-dev.tcz": [
     "/usr/local/include/cdio/paranoia/cdda.h",
     "/usr/local/include/cdio/paranoia/paranoia.h",
+    "/usr/local/include/cdio/paranoia/toc.h",
     "/usr/local/lib/pkgconfig/libcdio_cdda.pc",
     "/usr/local/lib/pkgconfig/libcdio_paranoia.pc"
   ],
@@ -149000,6 +149004,30 @@
     "/usr/local/lib/libcdio_paranoia.so.2.0.0"
   ],
   "libcdio.tcz": [
+    "/usr/local/bin/cd-drive",
+    "/usr/local/bin/cd-info",
+    "/usr/local/bin/cd-read",
+    "/usr/local/bin/cdda-player",
+    "/usr/local/bin/iso-info",
+    "/usr/local/bin/iso-read",
+    "/usr/local/bin/mmc-tool",
+    "/usr/local/lib/libcdio++.so",
+    "/usr/local/lib/libcdio++.so.1",
+    "/usr/local/lib/libcdio++.so.1.0.0",
+    "/usr/local/lib/libcdio.so",
+    "/usr/local/lib/libcdio.so.18",
+    "/usr/local/lib/libcdio.so.18.0.0",
+    "/usr/local/lib/libiso9660++.so",
+    "/usr/local/lib/libiso9660++.so.0",
+    "/usr/local/lib/libiso9660++.so.0.0.0",
+    "/usr/local/lib/libiso9660.so",
+    "/usr/local/lib/libiso9660.so.11",
+    "/usr/local/lib/libiso9660.so.11.0.0",
+    "/usr/local/lib/libudf.so",
+    "/usr/local/lib/libudf.so.0",
+    "/usr/local/lib/libudf.so.0.0.0"
+  ],
+  "libcdio20.tcz": [
     "/usr/local/bin/cd-drive",
     "/usr/local/bin/cd-info",
     "/usr/local/bin/cd-read",
@@ -150004,20 +150032,39 @@
     "/usr/local/lib/libdvbpsi.so.10",
     "/usr/local/lib/libdvbpsi.so.10.0.0"
   ],
+  "libdvdcss-dev.tcz": [
+    "/usr/local/include/dvdcss/dvdcpxm.h",
+    "/usr/local/include/dvdcss/dvdcss.h",
+    "/usr/local/include/dvdcss/version.h",
+    "/usr/local/lib/pkgconfig/libdvdcss.pc"
+  ],
+  "libdvdcss.tcz": [
+    "/usr/local/lib/libdvdcss.so",
+    "/usr/local/lib/libdvdcss.so.2",
+    "/usr/local/lib/libdvdcss.so.2.4.0"
+  ],
   "libdvdnav-dev.tcz": [
     "/usr/local/include/dvdnav/dvd_types.h",
     "/usr/local/include/dvdnav/dvdnav.h",
     "/usr/local/include/dvdnav/dvdnav_events.h",
+    "/usr/local/include/dvdnav/version.h",
     "/usr/local/lib/pkgconfig/dvdnav.pc"
   ],
   "libdvdnav.tcz": [
-    "usr/local/lib/libdvdnav.so",
-    "usr/local/lib/libdvdnav.so.4",
-    "usr/local/lib/libdvdnav.so.4.2.0",
-    "usr/local/share/doc/libdvdnav/AUTHORS"
+    "/usr/local/lib/libdvdnav.so",
+    "/usr/local/lib/libdvdnav.so.4",
+    "/usr/local/lib/libdvdnav.so.4.4.0"
+  ],
+  "libdvdnav5.tcz": [
+    "/usr/local/lib/libdvdnav.so",
+    "/usr/local/lib/libdvdnav.so.4",
+    "/usr/local/lib/libdvdnav.so.4.2.0",
+    "/usr/local/share/doc/libdvdnav/AUTHORS"
   ],
   "libdvdread-dev.tcz": [
+    "/usr/local/include/dvdread/attributes.h",
     "/usr/local/include/dvdread/bitreader.h",
+    "/usr/local/include/dvdread/dvd_filesystem.h",
     "/usr/local/include/dvdread/dvd_reader.h",
     "/usr/local/include/dvdread/dvd_udf.h",
     "/usr/local/include/dvdread/ifo_print.h",
@@ -150026,13 +150073,19 @@
     "/usr/local/include/dvdread/nav_print.h",
     "/usr/local/include/dvdread/nav_read.h",
     "/usr/local/include/dvdread/nav_types.h",
+    "/usr/local/include/dvdread/version.h",
     "/usr/local/lib/pkgconfig/dvdread.pc"
   ],
   "libdvdread.tcz": [
-    "usr/local/lib/libdvdread.so",
-    "usr/local/lib/libdvdread.so.4",
-    "usr/local/lib/libdvdread.so.4.2.0",
-    "usr/local/share/doc/libdvdread/AUTHORS"
+    "/usr/local/lib/libdvdread.so",
+    "/usr/local/lib/libdvdread.so.8",
+    "/usr/local/lib/libdvdread.so.8.2.0"
+  ],
+  "libdvdread5.tcz": [
+    "/usr/local/lib/libdvdread.so",
+    "/usr/local/lib/libdvdread.so.4",
+    "/usr/local/lib/libdvdread.so.4.2.0",
+    "/usr/local/share/doc/libdvdread/AUTHORS"
   ],
   "libedit-dev.tcz": [
     "/usr/local/include/editline/readline.h",
