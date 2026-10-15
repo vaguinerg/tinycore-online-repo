@@ -4,13 +4,14 @@ Version:        1.16.2
 Author:         see list of sites below
 Original-site:  see list of sites below
 Copying-policy: see list of sites below
-Size: 1.6MB
+Size:           2.1MB
 Extension_by:   juanito
 Tags:           gstreamer plugins bad
-Comments:       contains a set a set of plug-ins that aren't up to par compared to the rest
+Comments:       contains a set a set of plug-ins that aren't up to par compared
+                to the rest
                 ----------
                 can optionally be used with the gtk3, libdvdnav, libexif, curl,
-                gnutls3.6, libsndfile, faac, faad, bzip2, neon, libvdpau,
+                gnutls38, libsndfile, faac, faad, bzip2, neon, libssh2, libvdpau,
                 openjpeg, openexr and x265 extensions
                 ----------
                 This extension contains:
@@ -19,4 +20,5 @@ Comments:       contains a set a set of plug-ins that aren't up to par compared 
 Change-log:     2013/08/08 first version
                 2013/09/17 updated 1.0.7 -> 1.0.10
                 2018/12/13 updated 1.0.10 -> 1.14.4
-Current:        2020/01/18 updated 1.14.4 -> 1.16.2
+                2020/01/18 updated 1.14.4 -> 1.16.2
+Current:        2026/10/14 rebuilt for updated libdvdnav
