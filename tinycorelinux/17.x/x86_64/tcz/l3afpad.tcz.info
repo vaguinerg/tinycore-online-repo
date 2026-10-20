@@ -9,22 +9,28 @@ Extension_by:   aus9 @linuxquestions.org
 Tags:           gtk3 text editor
 Comments:       fork of leafpad to gtk3...Features:
                 keybindings
-Ctrl-N  New.......Ctrl-O Open........Ctrl-S Save
-Shift-Ctrl-S Save As.................Ctrl-W Close
-Ctrl-P Print.......Ctrl-Q Quit.......Ctrl-Z Undo
-Shift-Ctrl-Z (Ctrl-Y) Redo...........Ctrl-X Cut
-Ctrl-C Copy........Ctrl-V Paste......Ctrl-A Select All
-Ctrl-F Find........Ctrl-G (F3) Find Next
-Shift-Ctrl-G (Shift-F3) Find Previous....Ctrl-J Jump To
-Ctrl-H (Ctrl-R) Replace..............Ctrl-T Always on Top
-Ctrl-Tab toggle tab width
-Tab with selection bound  multi-line indent
-Shift-Tab with selection bound  multi-line unindent
+                Ctrl-N  New.......Ctrl-O Open........Ctrl-S Save
+                Shift-Ctrl-S Save As.................Ctrl-W Close
+                Ctrl-P Print.......Ctrl-Q Quit.......Ctrl-Z Undo
+                Shift-Ctrl-Z (Ctrl-Y) Redo...........Ctrl-X Cut
+                Ctrl-C Copy........Ctrl-V Paste......Ctrl-A Select All
+                Ctrl-F Find........Ctrl-G (F3) Find Next
+                Shift-Ctrl-G (Shift-F3) Find Previous....Ctrl-J Jump To
+                Ctrl-H (Ctrl-R) Replace..............Ctrl-T Always on Top
+                Ctrl-Tab toggle tab width
+                Tab with selection bound  multi-line indent
+                Shift-Tab with selection bound  multi-line unindent
 
-                Optional mupdf is much smaller than evince for print preview
+                
+                Printer support
+                ################
+                Optional TCE= mupdf is much smaller than evince for print preview
                 1) choose print to file will default to ~/output.pdf 
                 unless you change it.....then click on print to create file
                 2) $ mupdf /pathway2/output.pdf 
+                Otherwise setup your printer as per hplip or gutenprint 
+                --- and choose your printer to print
 
 Change-log:     2025/01/01 v 0.8.18.1.11 on 15x
-Current:        2025/03/20 rebuilt on 16x - add missing glyph font dep
+                2025/03/20 rebuilt on 16x - add missing glyph font dep
+Current:        2026/01/05 redone on 17x to regain printer support

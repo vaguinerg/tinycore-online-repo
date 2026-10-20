@@ -24,6 +24,7 @@ Comments:       manual https://tinyurl.com/4tpya6f5
                 Alt +z ...Input Alt+z in an empty workspace for maximum safety
 
                 optional TCEs 
+                #############
                 icewm-themes as icewm TCE has only nanoblue 
                 icewm-locale & xscreensaver and read their infos please
                 menumaker but icewm menu now seems better
@@ -31,7 +32,9 @@ Comments:       manual https://tinyurl.com/4tpya6f5
                 ............context menu -> RH mouse for RH mouse users, 
                 ............change status icon to white gnome YMMV 
                 ............or change theme
-                arandr seems better than inbuilt icewm-menu-xrandr     
+                command=icewm-menu-xrandr needs Xorg-7.7-bin but
+                TCE=lxrandr seems easier IMHO
+                     
                 
                 To allow you to keep wbar, ~/icewm/preferences 
                 now reads TaskBarAtTop=1 # 0/1
@@ -47,4 +50,5 @@ Change-log:     2020/07/22 v 1.7.0 on 11x
                 2023/03/20 v 3.2.2 on 14x nanoblue lxterminal delete icehelp*   
                 2023/03/28 v 3.4.7 on 15x icehelp back in, icon caching ignored, aterm is back in 
                 2024/08/02 v 3.6.0 on 15x modifier key was Windows TM logo key
-Current:        2025/03/11 v 3.7.2 on 16x, change modifier key to Alt  for Apps launchers
+                2025/03/11 v 3.7.2 on 16x, change modifier key to Alt for Apps launchers 
+Current:        2026/10/05 v 4.1.0 on 17x 

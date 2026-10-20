@@ -1,23 +1,23 @@
 Title:          gutenprint.tcz
 Description:    printer drivers for most printers
-Version:        5.3.5-pre1
+Version:        5.3.5
 Author:         https://github.com/echiu64/gutenprint/blob/master/AUTHORS
 Original-site:  https://sourceforge.net/projects/gimp-print/
 Copying-policy: GPL v2
-Size:           5.9M
+Size:           5.2M
 Extension_by:   aus9 @linuxquestions.org 
 Tags:           cups printer ppd 
-Comments:       Not for scanning. To know if gutenprint is suitable see
+Comments:       Not for scanning. To know if your printer is supported see
                 http://gimp-print.sourceforge.net/p_Supported_Printers.php
                 
                 Optional TCEs
                 #############
                 colord.tcz reduce log warnings or if printing colour images
                 mupdf.tcz (Very tiny relative to total for evince)
-                for print preview 
-                1) choose print to file and choose pathway2/output.pdf
+                For print preview 
+                1) choose print to file and choose /pathway2/output.pdf
                 2) $ mupdf /pathway2/output.pdf # output.pdf is default
-
+                
                 Wireless (WL) Printing
                 #############
                 I recommend you set up your router to reserve an IP for your WL printer first.
@@ -26,7 +26,7 @@ Comments:       Not for scanning. To know if gutenprint is suitable see
                 eg url= 192.168.1.7  -- once the printer IP is set.
 
                 Epson ink levels, once printer is set up
-                # tested in the past on TX100, I no longer have it 
+                # tested in the past on TX100, I no longer have Epson
                 $ tce-load -wi readline
                 $ escputil --raw-device=/dev/usb/lp0 --ink-level
                  ^ if that fails....repeat...if fails try as root.
@@ -42,16 +42,16 @@ Comments:       Not for scanning. To know if gutenprint is suitable see
                 $ [ -f /var/run/cups/cupsd.pid ] || sudo /usr/local/etc/init.d/cups start
                 $ sudo passwd # to set up a root passwd, if not already set 
                 ---------as /usr/local/etc/cups is root owned
+                
+                Password is just for this session, no need to save it.
                 Next, open your web browser to  http://localhost:631/admin
 
                 Do NOT click on "Find New Printer", instead click on Add Printer
                 Then make your selection. Remember to click the "Add Printer" button
                 to then get options to change paper size etc. At the end of that process
-                a popup (ensure you allow popups in browser settings) will 
-                ask for user, input root and your new password please. I did not need
-                locale set.
-
-                After setup (recommended) pulldown administration and make your printer
+                a popup (ensure you allow popups in browser settings) will ask for user, 
+                input root and your new password please. 
+                After setup, I recommend pulldown administration and make your printer
                 the server default. Then test printer. 
 
                 If printer not found for WL printers run
@@ -60,10 +60,10 @@ Comments:       Not for scanning. To know if gutenprint is suitable see
                 Only run it if you can not find your printer PPD or maybe if you are runnng avahi.
                 $ sudo generate-ppd.sh
 
-                For persistence 
+                For persistence -dropped etc/shadow line as you can change root password anytime
                 ################
                 Add these lines to /opt/.filetool.lst 
-                etc/shadow
+                
                 usr/local/etc/cups/cupsd.conf
                 usr/local/etc/cups/printers.conf
                 usr/local/etc/cups/ppd
@@ -104,4 +104,5 @@ Change-log:     2018/06/17 v 5.2.14
                 2019/01/04 v 5.3.1 add simplified PPD option on 10x
                 2020/04/21 v 5.3.3 on 11x
                 2023/03/28 v 5.3.4 on 14x 
-Current:        2024/10/25 v 5.3.5-pre1 on 15x     
+                2024/10/25 v 5.3.5-pre1 on 15x 
+Current:        2026/10/05 v 5.3.5 on 17x      
