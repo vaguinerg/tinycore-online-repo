@@ -1,6 +1,6 @@
 Title:          mplayer-cli.tcz
 Description:    cli movie player
-Version:        1.4
+Version:        SVN-r38689-15.2.0
 Author:         see list of sites below
 Original-site:  see list of sites below
 Copying-policy: see list of sites below
@@ -13,8 +13,9 @@ Comments:       movie player that can play most standard video formats
                 $ mplayer -vo x11 -ao alsa:device=hw=1.0 video.mp4
                 ----------
                 this extension contains:
-                mplayer-1.4 - GPLv2 - http://www.mplayerhq.hu/MPlayer/releases/MPlayer-1.4.tar.xz
+                mplayer - GPLv2 - svn://svn.mplayerhq.hu/mplayer/trunk mplayer
                 ----------
 Change-log:     2017/04/18 first version
                 2019/01/13 updated 1.2.1 -> 1.3.0
-Current:   	2020/03/07 updated 1.3.0 -> 1.4
+                2020/03/07 updated 1.3.0 -> 1.4
+Current:   	2026/10/19 updated 1.4 -> SVN-r38689-15.2.0

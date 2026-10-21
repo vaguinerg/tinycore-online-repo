@@ -525,7 +525,7 @@ devede.tcz
                            libXau.tcz
                            libXdmcp.tcz
                bzip2-lib.tcz
-               libbluray.tcz
+               libbluray09.tcz
                   libxml2.tcz
                      liblzma.tcz
                   fontconfig.tcz
@@ -705,10 +705,10 @@ devede.tcz
          openal.tcz
          libv4l2.tcz
             libjpeg-turbo.tcz
-            v4l-dvb-6.18.2-tinycore64.tcz
-               i2c-6.18.2-tinycore64.tcz
-               alsa-modules-6.18.2-tinycore64.tcz
-                  input-joystick-6.18.2-tinycore64.tcz
+            v4l-dvb-6.18.35-tinycore64.tcz
+               i2c-6.18.35-tinycore64.tcz
+               alsa-modules-6.18.35-tinycore64.tcz
+                  input-joystick-6.18.35-tinycore64.tcz
          libpulseaudio.tcz
             dbus.tcz
                expat2.tcz
@@ -757,7 +757,7 @@ devede.tcz
          libcdio.tcz
             libcddb.tcz
             ncursesw.tcz
-      libass5.tcz
+      libass.tcz
          fribidi.tcz
             glib2.tcz
                libffi.tcz
@@ -790,9 +790,9 @@ devede.tcz
       libmpeg2.tcz
       libdca.tcz
       faad.tcz
-      libswscale4.tcz
-         libavutil4.tcz
-            libva2.tcz
+      libswscale7.tcz
+         libavutil7.tcz
+            libva22.tcz
                libGL.tcz
                   mesa.tcz
                      libdrm.tcz
@@ -823,17 +823,22 @@ devede.tcz
                   expat2.tcz
                   libxml2.tcz
                      liblzma.tcz
+               libXfixes.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
             libvdpau.tcz
                libXext.tcz
                   libX11.tcz
                      libxcb.tcz
                         libXau.tcz
                         libXdmcp.tcz
-      libavformat4.tcz
-         libavcodec4.tcz
-            libswresample4.tcz
-               libavutil4.tcz
-                  libva2.tcz
+      libavformat7.tcz
+         libavcodec7.tcz
+            libswresample7.tcz
+               libavutil7.tcz
+                  libva22.tcz
                      libGL.tcz
                         mesa.tcz
                            libdrm.tcz
@@ -864,17 +869,22 @@ devede.tcz
                         expat2.tcz
                         libxml2.tcz
                            liblzma.tcz
+                     libXfixes.tcz
+                        libX11.tcz
+                           libxcb.tcz
+                              libXau.tcz
+                              libXdmcp.tcz
                   libvdpau.tcz
                      libXext.tcz
                         libX11.tcz
                            libxcb.tcz
                               libXau.tcz
                               libXdmcp.tcz
-            xvid.tcz
+            libaom.tcz
             x265.tcz
-            x264_148.tcz
+            x264_164.tcz
             libwebp1.tcz
-            libvpx18.tcz
+            libvpx113.tcz
             libtheora.tcz
                libogg.tcz
             speex.tcz
@@ -961,20 +971,12 @@ devede.tcz
                   libxcb.tcz
                      libXau.tcz
                      libXdmcp.tcz
+            libjxl.tcz
+               brotli.tcz
+               libhwy.tcz
+            svt-av1.tcz
+            dav1d.tcz
          bzip2-lib.tcz
-         libbluray.tcz
-            libxml2.tcz
-               liblzma.tcz
-            fontconfig.tcz
-               expat2.tcz
-               freetype.tcz
-                  libpng.tcz
-                  harfbuzz.tcz
-                     glib2.tcz
-                        libffi.tcz
-                        pcre21042.tcz
-                     graphite.tcz
-                  bzip2-lib.tcz
          gnutls38.tcz
             p11-kit.tcz
                libffi.tcz
@@ -985,9 +987,9 @@ devede.tcz
                libunistring.tcz
                ncursesw.tcz
             libzstd.tcz
-      libpostproc4.tcz
-         libavutil4.tcz
-            libva2.tcz
+      libpostproc7.tcz
+         libavutil7.tcz
+            libva22.tcz
                libGL.tcz
                   mesa.tcz
                      libdrm.tcz
@@ -1018,6 +1020,11 @@ devede.tcz
                   expat2.tcz
                   libxml2.tcz
                      liblzma.tcz
+               libXfixes.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
             libvdpau.tcz
                libXext.tcz
                   libX11.tcz
@@ -1027,6 +1034,7 @@ devede.tcz
       libdv.tcz
       libdvdnav.tcz
          libdvdread.tcz
+            libdvdcss.tcz
       libXss.tcz
          libXext.tcz
             libX11.tcz
@@ -1051,7 +1059,6 @@ devede.tcz
                libxcb.tcz
                   libXau.tcz
                   libXdmcp.tcz
-      sdl.tcz
       libEGL.tcz
          mesa.tcz
             libdrm.tcz
@@ -1077,6 +1084,46 @@ devede.tcz
             libxml2.tcz
                liblzma.tcz
       openal.tcz
+      libpulseaudio.tcz
+         dbus.tcz
+            expat2.tcz
+            elogind.tcz
+               acl.tcz
+                  attr.tcz
+               libcap.tcz
+                  attr.tcz
+               util-linux.tcz
+                  readline.tcz
+                     ncursesw.tcz
+                  udev-lib.tcz
+               linux-pam.tcz
+            libX11.tcz
+               libxcb.tcz
+                  libXau.tcz
+                  libXdmcp.tcz
+         libcap.tcz
+            attr.tcz
+         glib2.tcz
+            libffi.tcz
+            pcre21042.tcz
+         libsndfile.tcz
+            flac.tcz
+               libogg.tcz
+            libvorbis.tcz
+               libogg.tcz
+            opus.tcz
+            libmpg123.tcz
+            lame.tcz
+         libXtst.tcz
+            libXi.tcz
+               libXext.tcz
+                  libX11.tcz
+                     libxcb.tcz
+                        libXau.tcz
+                        libXdmcp.tcz
+         libICE.tcz
+         libSM.tcz
+            libICE.tcz
    brasero.tcz
       libnotify.tcz
          notification-daemon.tcz
@@ -1676,8 +1723,6 @@ devede.tcz
                pcre21042.tcz
          libgxps.tcz
             libarchive.tcz
-               nettle3.tcz
-                  gmp.tcz
                acl.tcz
                   attr.tcz
                lzo.tcz
@@ -1806,8 +1851,6 @@ devede.tcz
             libgcrypt.tcz
                libgpg-error.tcz
             libarchive.tcz
-               nettle3.tcz
-                  gmp.tcz
                acl.tcz
                   attr.tcz
                lzo.tcz
@@ -2005,7 +2048,7 @@ devede.tcz
                readline.tcz
                   ncursesw.tcz
                wireless_tools.tcz
-                  wireless-6.18.2-tinycore64.tcz
+                  wireless-6.18.35-tinycore64.tcz
                   libiw.tcz
             dhcpcd.tcz
             modemmanager.tcz
@@ -2065,7 +2108,7 @@ devede.tcz
                      glib2.tcz
                         libffi.tcz
                         pcre21042.tcz
-                  bluetooth-6.18.2-tinycore64.tcz
+                  bluetooth-6.18.35-tinycore64.tcz
                   sbc.tcz
                   readline.tcz
                      ncursesw.tcz
@@ -2267,6 +2310,7 @@ devede.tcz
    mkisofs-tools.tcz
    dvdauthor.tcz
       libdvdread.tcz
+         libdvdcss.tcz
       fontconfig.tcz
          expat2.tcz
          freetype.tcz

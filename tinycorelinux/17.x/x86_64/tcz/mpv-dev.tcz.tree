@@ -378,9 +378,8 @@ mpv-dev.tcz
             ncursesw.tcz
       libdvdnav.tcz
          libdvdread.tcz
+            libdvdcss.tcz
       libarchive.tcz
-         nettle3.tcz
-            gmp.tcz
          acl.tcz
             attr.tcz
          lzo.tcz
@@ -21350,12 +21349,14 @@ mpv-dev.tcz
    libdvdnav-dev.tcz
       libdvdnav.tcz
          libdvdread.tcz
+            libdvdcss.tcz
       libdvdread-dev.tcz
          libdvdread.tcz
+            libdvdcss.tcz
+         libdvdcss-dev.tcz
+            libdvdcss.tcz
    libarchive-dev.tcz
       libarchive.tcz
-         nettle3.tcz
-            gmp.tcz
          acl.tcz
             attr.tcz
          lzo.tcz
@@ -21365,11 +21366,6 @@ mpv-dev.tcz
          libzstd.tcz
          openssl.tcz
          liblz4.tcz
-      nettle3-dev.tcz
-         nettle3.tcz
-            gmp.tcz
-         gmp-dev.tcz
-            gmp.tcz
       acl-dev.tcz
          acl.tcz
             attr.tcz

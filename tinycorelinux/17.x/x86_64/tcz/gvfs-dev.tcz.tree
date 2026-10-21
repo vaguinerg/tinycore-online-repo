@@ -285,8 +285,6 @@ gvfs-dev.tcz
       libxml2.tcz
          liblzma.tcz
       libarchive.tcz
-         nettle3.tcz
-            gmp.tcz
          acl.tcz
             attr.tcz
          lzo.tcz
@@ -396,6 +394,7 @@ gvfs-dev.tcz
                   opus.tcz
                libdvdnav.tcz
                   libdvdread.tcz
+                     libdvdcss.tcz
                libGLESv2.tcz
                   mesa.tcz
                      libdrm.tcz
@@ -1088,7 +1087,7 @@ gvfs-dev.tcz
             libcddb.tcz
             ncursesw.tcz
       libnfs.tcz
-      libbluray.tcz
+      libbluray09.tcz
          libxml2.tcz
             liblzma.tcz
          fontconfig.tcz
@@ -6799,8 +6798,6 @@ gvfs-dev.tcz
          liblzma.tcz
    libarchive-dev.tcz
       libarchive.tcz
-         nettle3.tcz
-            gmp.tcz
          acl.tcz
             attr.tcz
          lzo.tcz
@@ -6810,11 +6807,6 @@ gvfs-dev.tcz
          libzstd.tcz
          openssl.tcz
          liblz4.tcz
-      nettle3-dev.tcz
-         nettle3.tcz
-            gmp.tcz
-         gmp-dev.tcz
-            gmp.tcz
       acl-dev.tcz
          acl.tcz
             attr.tcz
@@ -7094,6 +7086,7 @@ gvfs-dev.tcz
                   opus.tcz
                libdvdnav.tcz
                   libdvdread.tcz
+                     libdvdcss.tcz
                libGLESv2.tcz
                   mesa.tcz
                      libdrm.tcz
@@ -7760,6 +7753,7 @@ gvfs-dev.tcz
                   opus.tcz
                libdvdnav.tcz
                   libdvdread.tcz
+                     libdvdcss.tcz
                libGLESv2.tcz
                   mesa.tcz
                      libdrm.tcz
@@ -8299,6 +8293,7 @@ gvfs-dev.tcz
                   opus.tcz
                libdvdnav.tcz
                   libdvdread.tcz
+                     libdvdcss.tcz
                libGLESv2.tcz
                   mesa.tcz
                      libdrm.tcz
@@ -8324,8 +8319,12 @@ gvfs-dev.tcz
             libdvdnav-dev.tcz
                libdvdnav.tcz
                   libdvdread.tcz
+                     libdvdcss.tcz
                libdvdread-dev.tcz
                   libdvdread.tcz
+                     libdvdcss.tcz
+                  libdvdcss-dev.tcz
+                     libdvdcss.tcz
             curl-dev.tcz
                curl.tcz
                   ca-certificates.tcz
@@ -23200,6 +23199,8 @@ gvfs-dev.tcz
                   libnghttp2.tcz
             openh264-dev.tcz
                openh264.tcz
+            svt-av1-dev.tcz
+               svt-av1.tcz
          gtk3-dev.tcz
             gtk3.tcz
                libepoxy.tcz

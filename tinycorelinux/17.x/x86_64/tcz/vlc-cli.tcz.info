@@ -1,0 +1,21 @@
+Title:          vlc-cli.tcz
+Description:    audio and video media player
+Version:        3.0.23
+Author:         see doc/AUTHORS
+Original-site:  http://videolan.org
+Copying-policy: GPL v3
+Size:		3.8MB
+Extension_by:   juanito
+Tags:           vlc audio video
+Comments:       Media player, streamer and encoder
+                ----
+                alsa or pulseaudio needs to be functional
+                ----
+                eg vlc -A alsa --alsa-audio-device=plughw:1,0 video.mp4
+                ----
+                can optionally use the liba52, libarchive, libbluray, libdvdnav,
+                libgcrypt, libmad, libmpeg2, libnotify, libsamplerate, libsecret,
+                libssh2 and taglib extensions
+                ----
+Change-log:     first version
+Current:        2026/10/19

@@ -343,7 +343,7 @@ vlc-dev.tcz
                            libXau.tcz
                            libXdmcp.tcz
                bzip2-lib.tcz
-               libbluray.tcz
+               libbluray09.tcz
                   libxml2.tcz
                      liblzma.tcz
                   fontconfig.tcz
@@ -16548,7 +16548,7 @@ vlc-dev.tcz
                               libXau.tcz
                               libXdmcp.tcz
                   bzip2-lib.tcz
-                  libbluray.tcz
+                  libbluray09.tcz
                      libxml2.tcz
                         liblzma.tcz
                      fontconfig.tcz
@@ -31101,8 +31101,12 @@ vlc-dev.tcz
    libdvdnav-dev.tcz
       libdvdnav.tcz
          libdvdread.tcz
+            libdvdcss.tcz
       libdvdread-dev.tcz
          libdvdread.tcz
+            libdvdcss.tcz
+         libdvdcss-dev.tcz
+            libdvdcss.tcz
    libgcrypt-dev.tcz
       libgcrypt.tcz
          libgpg-error.tcz
@@ -40543,8 +40547,6 @@ vlc-dev.tcz
          libebml.tcz
    libarchive-dev.tcz
       libarchive.tcz
-         nettle3.tcz
-            gmp.tcz
          acl.tcz
             attr.tcz
          lzo.tcz
@@ -40554,11 +40556,6 @@ vlc-dev.tcz
          libzstd.tcz
          openssl.tcz
          liblz4.tcz
-      nettle3-dev.tcz
-         nettle3.tcz
-            gmp.tcz
-         gmp-dev.tcz
-            gmp.tcz
       acl-dev.tcz
          acl.tcz
             attr.tcz

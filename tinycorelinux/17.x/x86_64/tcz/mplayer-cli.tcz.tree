@@ -6,7 +6,7 @@ mplayer-cli.tcz
       libcdio.tcz
          libcddb.tcz
          ncursesw.tcz
-   libass5.tcz
+   libass.tcz
       fribidi.tcz
          glib2.tcz
             libffi.tcz
@@ -39,9 +39,9 @@ mplayer-cli.tcz
    libmpeg2.tcz
    libdca.tcz
    faad.tcz
-   libswscale4.tcz
-      libavutil4.tcz
-         libva2.tcz
+   libswscale7.tcz
+      libavutil7.tcz
+         libva22.tcz
             libGL.tcz
                mesa.tcz
                   libdrm.tcz
@@ -72,17 +72,22 @@ mplayer-cli.tcz
                expat2.tcz
                libxml2.tcz
                   liblzma.tcz
+            libXfixes.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
          libvdpau.tcz
             libXext.tcz
                libX11.tcz
                   libxcb.tcz
                      libXau.tcz
                      libXdmcp.tcz
-   libavformat4.tcz
-      libavcodec4.tcz
-         libswresample4.tcz
-            libavutil4.tcz
-               libva2.tcz
+   libavformat7.tcz
+      libavcodec7.tcz
+         libswresample7.tcz
+            libavutil7.tcz
+               libva22.tcz
                   libGL.tcz
                      mesa.tcz
                         libdrm.tcz
@@ -113,17 +118,22 @@ mplayer-cli.tcz
                      expat2.tcz
                      libxml2.tcz
                         liblzma.tcz
+                  libXfixes.tcz
+                     libX11.tcz
+                        libxcb.tcz
+                           libXau.tcz
+                           libXdmcp.tcz
                libvdpau.tcz
                   libXext.tcz
                      libX11.tcz
                         libxcb.tcz
                            libXau.tcz
                            libXdmcp.tcz
-         xvid.tcz
+         libaom.tcz
          x265.tcz
-         x264_148.tcz
+         x264_164.tcz
          libwebp1.tcz
-         libvpx18.tcz
+         libvpx113.tcz
          libtheora.tcz
             libogg.tcz
          speex.tcz
@@ -210,20 +220,12 @@ mplayer-cli.tcz
                libxcb.tcz
                   libXau.tcz
                   libXdmcp.tcz
+         libjxl.tcz
+            brotli.tcz
+            libhwy.tcz
+         svt-av1.tcz
+         dav1d.tcz
       bzip2-lib.tcz
-      libbluray.tcz
-         libxml2.tcz
-            liblzma.tcz
-         fontconfig.tcz
-            expat2.tcz
-            freetype.tcz
-               libpng.tcz
-               harfbuzz.tcz
-                  glib2.tcz
-                     libffi.tcz
-                     pcre21042.tcz
-                  graphite.tcz
-               bzip2-lib.tcz
       gnutls38.tcz
          p11-kit.tcz
             libffi.tcz
@@ -234,9 +236,9 @@ mplayer-cli.tcz
             libunistring.tcz
             ncursesw.tcz
          libzstd.tcz
-   libpostproc4.tcz
-      libavutil4.tcz
-         libva2.tcz
+   libpostproc7.tcz
+      libavutil7.tcz
+         libva22.tcz
             libGL.tcz
                mesa.tcz
                   libdrm.tcz
@@ -267,6 +269,11 @@ mplayer-cli.tcz
                expat2.tcz
                libxml2.tcz
                   liblzma.tcz
+            libXfixes.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
          libvdpau.tcz
             libXext.tcz
                libX11.tcz
@@ -276,6 +283,7 @@ mplayer-cli.tcz
    libdv.tcz
    libdvdnav.tcz
       libdvdread.tcz
+         libdvdcss.tcz
    libXss.tcz
       libXext.tcz
          libX11.tcz
@@ -300,7 +308,6 @@ mplayer-cli.tcz
             libxcb.tcz
                libXau.tcz
                libXdmcp.tcz
-   sdl.tcz
    libEGL.tcz
       mesa.tcz
          libdrm.tcz
@@ -326,4 +333,44 @@ mplayer-cli.tcz
          libxml2.tcz
             liblzma.tcz
    openal.tcz
+   libpulseaudio.tcz
+      dbus.tcz
+         expat2.tcz
+         elogind.tcz
+            acl.tcz
+               attr.tcz
+            libcap.tcz
+               attr.tcz
+            util-linux.tcz
+               readline.tcz
+                  ncursesw.tcz
+               udev-lib.tcz
+            linux-pam.tcz
+         libX11.tcz
+            libxcb.tcz
+               libXau.tcz
+               libXdmcp.tcz
+      libcap.tcz
+         attr.tcz
+      glib2.tcz
+         libffi.tcz
+         pcre21042.tcz
+      libsndfile.tcz
+         flac.tcz
+            libogg.tcz
+         libvorbis.tcz
+            libogg.tcz
+         opus.tcz
+         libmpg123.tcz
+         lame.tcz
+      libXtst.tcz
+         libXi.tcz
+            libXext.tcz
+               libX11.tcz
+                  libxcb.tcz
+                     libXau.tcz
+                     libXdmcp.tcz
+      libICE.tcz
+      libSM.tcz
+         libICE.tcz
 

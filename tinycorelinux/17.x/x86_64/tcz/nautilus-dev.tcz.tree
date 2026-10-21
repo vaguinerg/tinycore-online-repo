@@ -437,8 +437,6 @@ nautilus-dev.tcz
                         libXau.tcz
                         libXdmcp.tcz
          libarchive.tcz
-            nettle3.tcz
-               gmp.tcz
             acl.tcz
                attr.tcz
             lzo.tcz
@@ -838,6 +836,7 @@ nautilus-dev.tcz
                   opus.tcz
                libdvdnav.tcz
                   libdvdread.tcz
+                     libdvdcss.tcz
                libGLESv2.tcz
                   mesa.tcz
                      libdrm.tcz
@@ -1239,6 +1238,7 @@ nautilus-dev.tcz
                   opus.tcz
                libdvdnav.tcz
                   libdvdread.tcz
+                     libdvdcss.tcz
                libGLESv2.tcz
                   mesa.tcz
                      libdrm.tcz
@@ -7092,8 +7092,6 @@ nautilus-dev.tcz
                         libXau.tcz
                         libXdmcp.tcz
          libarchive.tcz
-            nettle3.tcz
-               gmp.tcz
             acl.tcz
                attr.tcz
             lzo.tcz
@@ -12080,8 +12078,6 @@ nautilus-dev.tcz
                      spirv-headers.tcz
       libarchive-dev.tcz
          libarchive.tcz
-            nettle3.tcz
-               gmp.tcz
             acl.tcz
                attr.tcz
             lzo.tcz
@@ -12091,11 +12087,6 @@ nautilus-dev.tcz
             libzstd.tcz
             openssl.tcz
             liblz4.tcz
-         nettle3-dev.tcz
-            nettle3.tcz
-               gmp.tcz
-            gmp-dev.tcz
-               gmp.tcz
          acl-dev.tcz
             acl.tcz
                attr.tcz
@@ -19080,6 +19071,7 @@ nautilus-dev.tcz
                opus.tcz
             libdvdnav.tcz
                libdvdread.tcz
+                  libdvdcss.tcz
             libGLESv2.tcz
                mesa.tcz
                   libdrm.tcz
@@ -19399,6 +19391,7 @@ nautilus-dev.tcz
                opus.tcz
             libdvdnav.tcz
                libdvdread.tcz
+                  libdvdcss.tcz
             libGLESv2.tcz
                mesa.tcz
                   libdrm.tcz
@@ -19424,8 +19417,12 @@ nautilus-dev.tcz
          libdvdnav-dev.tcz
             libdvdnav.tcz
                libdvdread.tcz
+                  libdvdcss.tcz
             libdvdread-dev.tcz
                libdvdread.tcz
+                  libdvdcss.tcz
+               libdvdcss-dev.tcz
+                  libdvdcss.tcz
          curl-dev.tcz
             curl.tcz
                ca-certificates.tcz
@@ -34300,6 +34297,8 @@ nautilus-dev.tcz
                libnghttp2.tcz
          openh264-dev.tcz
             openh264.tcz
+         svt-av1-dev.tcz
+            svt-av1.tcz
    libadwaita-dev.tcz
       libadwaita.tcz
          gtk4.tcz
@@ -34466,6 +34465,7 @@ nautilus-dev.tcz
                   opus.tcz
                libdvdnav.tcz
                   libdvdread.tcz
+                     libdvdcss.tcz
                libGLESv2.tcz
                   mesa.tcz
                      libdrm.tcz
@@ -34863,6 +34863,7 @@ nautilus-dev.tcz
                   opus.tcz
                libdvdnav.tcz
                   libdvdread.tcz
+                     libdvdcss.tcz
                libGLESv2.tcz
                   mesa.tcz
                      libdrm.tcz
@@ -35182,6 +35183,7 @@ nautilus-dev.tcz
                   opus.tcz
                libdvdnav.tcz
                   libdvdread.tcz
+                     libdvdcss.tcz
                libGLESv2.tcz
                   mesa.tcz
                      libdrm.tcz
@@ -35207,8 +35209,12 @@ nautilus-dev.tcz
             libdvdnav-dev.tcz
                libdvdnav.tcz
                   libdvdread.tcz
+                     libdvdcss.tcz
                libdvdread-dev.tcz
                   libdvdread.tcz
+                     libdvdcss.tcz
+                  libdvdcss-dev.tcz
+                     libdvdcss.tcz
             curl-dev.tcz
                curl.tcz
                   ca-certificates.tcz
@@ -50083,6 +50089,8 @@ nautilus-dev.tcz
                   libnghttp2.tcz
             openh264-dev.tcz
                openh264.tcz
+            svt-av1-dev.tcz
+               svt-av1.tcz
       appstream-dev.tcz
          appstream.tcz
             glib2.tcz
@@ -50516,6 +50524,7 @@ nautilus-dev.tcz
                   opus.tcz
                libdvdnav.tcz
                   libdvdread.tcz
+                     libdvdcss.tcz
                libGLESv2.tcz
                   mesa.tcz
                      libdrm.tcz
@@ -55872,6 +55881,7 @@ nautilus-dev.tcz
                   opus.tcz
                libdvdnav.tcz
                   libdvdread.tcz
+                     libdvdcss.tcz
                libGLESv2.tcz
                   mesa.tcz
                      libdrm.tcz
@@ -56191,6 +56201,7 @@ nautilus-dev.tcz
                   opus.tcz
                libdvdnav.tcz
                   libdvdread.tcz
+                     libdvdcss.tcz
                libGLESv2.tcz
                   mesa.tcz
                      libdrm.tcz
@@ -56216,8 +56227,12 @@ nautilus-dev.tcz
             libdvdnav-dev.tcz
                libdvdnav.tcz
                   libdvdread.tcz
+                     libdvdcss.tcz
                libdvdread-dev.tcz
                   libdvdread.tcz
+                     libdvdcss.tcz
+                  libdvdcss-dev.tcz
+                     libdvdcss.tcz
             curl-dev.tcz
                curl.tcz
                   ca-certificates.tcz
@@ -71092,6 +71107,8 @@ nautilus-dev.tcz
                   libnghttp2.tcz
             openh264-dev.tcz
                openh264.tcz
+            svt-av1-dev.tcz
+               svt-av1.tcz
    libcloudproviders-dev.tcz
       glib2-dev.tcz
          glib2-python.tcz

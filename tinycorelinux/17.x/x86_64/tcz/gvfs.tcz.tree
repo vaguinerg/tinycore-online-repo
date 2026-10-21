@@ -284,8 +284,6 @@ gvfs.tcz
    libxml2.tcz
       liblzma.tcz
    libarchive.tcz
-      nettle3.tcz
-         gmp.tcz
       acl.tcz
          attr.tcz
       lzo.tcz
@@ -395,6 +393,7 @@ gvfs.tcz
                opus.tcz
             libdvdnav.tcz
                libdvdread.tcz
+                  libdvdcss.tcz
             libGLESv2.tcz
                mesa.tcz
                   libdrm.tcz
@@ -1087,7 +1086,7 @@ gvfs.tcz
          libcddb.tcz
          ncursesw.tcz
    libnfs.tcz
-   libbluray.tcz
+   libbluray09.tcz
       libxml2.tcz
          liblzma.tcz
       fontconfig.tcz
