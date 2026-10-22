@@ -1,0 +1,50 @@
+Title:          jgmenu.tcz
+Description:    menu generator for X11, also supports keyboard inputs
+                Runs on wayland with xwayland enabled 
+Version:        4.7.0
+Author:         Johan Malm & contributors
+Original-site:  https://github.com/jgmenu/jgmenu
+Copying-policy: GPL v 2
+Size:           152K
+Extension_by:   aus9 @linuxquestions.org
+Tags:           menu 
+Comments:       Tested on icewm and sway. 
+                On first load you get ~/.config/jgmenu/jgmenurc with only stay alive
+                turned off by me. This means menu will exit gracefully. 
+
+                How to use 
+                ########## KB=keyboard
+                menu can be used as a cascading menu = normal or
+                by inputting keys which automatically converts to search mode.
+                
+                On first load you also get ~/.local/bin/pointer command
+                
+                KB shortcut is easier, I show the terminal command first
+                run $ pointer #--- do not press enter yet.
+                Move your cursor to a position on the screen you prefer. 
+                This will be where the "normal" menu top left hand corner appears.
+                Press enter in the terminal -> cascading "normal" menu appears 
+                2) If your desktop supports KB shortcuts create an unused one to launch  
+                   pointer eg on icewm key "Alt+b" pointer  
+                3) If you have a lot of apps loaded, mouse may be faster but you can 
+                   go into search mode by typing executable name 
+                   Typing unknown value will report empty list
+                4) eg inputting cp (for cpanel) brings up one hit=Control Panel
+                    but to bring up apps...use pp as inputting ap fails for me. YMMV   
+
+                 KB hints---assuming no mouse detected etc
+                 #########
+                 However you launch jgmenu, when menu appears, without a mouse you need 
+                 to get "focus" into that menu. This how I do it ...press the space key
+                 so menu goes into search mode and reports "empty list"
+                 (Of course you can start typing the executable name too here)
+                 Next press Escape....which takes you from search mode to normal mode.
+                 Now you can use down arrow to navigate down thru the menus or 
+                 right arrow to peek into each menu and use left arrow to come back
+                 If you see your target press enter against it.
+                
+                 Pressing ESCAPE when you are in "normal" menu mode will exit the menu
+                 ... no matter where you are in the menu
+
+Change-log:     2026/10/19 v 4.7.0 on 17x 
+Current:        2026/10/19   

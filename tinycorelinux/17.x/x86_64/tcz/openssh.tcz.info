@@ -1,12 +1,12 @@
-Title:		openssh.tcz
-Description:	openssh client and server
-Version:	10.0p1
-Author:		Many contributors, see site
-Original-site:	http://www.openssh.org
-Copying-policy:	BSD
-Size:		2.1MB
-Extension_by:	juanito
-Tags:		openssh server client ssh
+Title:          openssh.tcz
+Description:    openssh client and server
+Version:        10.6p1
+Author:         Many contributors, see site
+Original-site:  http://www.openssh.org
+Copying-policy: BSD
+Size:           2.7M
+Extension_by:   juanito
+Tags:           openssh server client ssh
 Comments:       Config files are located at /usr/local/etc/ssh/
 		Copy ssh_config.orig and sshd_config.orig to
 		ssh_config and sshd_config AND EDIT to fit setup
@@ -18,7 +18,7 @@ Comments:       Config files are located at /usr/local/etc/ssh/
 		restart server and to generate host keys.
 		This extension is PPI compatible
                 ----
-Change-log:	2012/11/09 first version
+Change-log:     2012/11/09 first version
                 2014/01/19 updated 6.0p1 -> 6.4p1
                 2016/04/12 updated 6.4p1 -> 7.2p2
                 2017/05/26 corrected init.d typo
@@ -26,4 +26,5 @@ Change-log:	2012/11/09 first version
                 2021/03/03 updated 8.1p1 -> 8.4p1
                 2023/04/04 updated 8.4p1 -> 9.3p1
                 2023/12/02 updated 9.3p1 -> 9.5p1
-Current:	2025/09/16 updated 9.5p1 -> 10.0p1
+                2025/09/16 updated 9.5p1 -> 10.0p1
+Current:        2026/10/20 updated 10.0p1 -> 10.6p1 (gnuser)
