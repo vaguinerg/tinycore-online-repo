@@ -1,19 +1,29 @@
 Title:          ratpoison.tcz
-Description:    window manager
+Description:    window manager mainly for non-mouse users
 Version:        1.4.9
-Author:         see list of sites below
-Original-site:  see list of sites below
-Copying-policy: see list of sites below
-Size: 84KB
-Extension_by:   juanito
-Tags:	        window manager wm
-Comments:       window manager with no fat library dependencies, no fancy graphics,
-                no window decorations, and no rodent dependence
-                ----------
-                use <ctrl> ct to open aterm window
-                ----------
-                This extension contains:
-                ratpoison-1.4.9 - GPLv2 - http://download.savannah.nongnu.org/releases/ratpoison/ratpoison-1.4.9.tar.xz
-                ----------
-Change-log:     first version
-Current:        2020/08/29
+Author:         Shawn Betts & contributors
+Original-site:  http://mirror.accum.se/mirror/gnu.org/savannah/ratpoison/
+Copying-policy: GPL v 2
+Size:           88K
+Extension_by:   aus9 @ linuxquestions.org
+Tags:           window manager wm
+Comments:       Uses a concept called frames kind of on one workspace
+                I have created 5 workspaces read the config on use please.
+                Recommend read doc TCE....load this TCE inside your 
+                current WM and read my read write ~/.ratpoisonrc
+                as it contains hints instead of reading this info file.
+ 
+                Ratpoison prefers C-t to indicate Ctrl + t THEN release keys
+                run box is handy to remember C-t !
+                full list of keybindings is C-t ? 
+
+                TCEs...dep=dependency
+                config made nano default & dep ( my preference)
+                sgmenu and its doc TCE if interested...not a dep
+                .......allows generate and navigate menu by kb or mouse
+                config made mc default file manager but not a dep 
+                To use the nicer left pointer suggest you use lxappearance
+                with xcursor-themes....none are deps  
+               
+Change-log:     2020/08/29 v 1.4.9 (Juanito)
+Current:        2026/10/21 rebuilt on 17x (aus9) 

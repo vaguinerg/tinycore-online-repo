@@ -1,31 +1,45 @@
 Title:          apulse.tcz
-Description:    PulseAudio emulation for ALSA
-Version:        0.1.13
+Description:    May allow apps run without pulseaudio
+Version:        0.1.14
 Author:         Rinat Ibragimov 
 Original-site:  https://github.com/i-rinat/apulse
 Copying-policy: accompanied
-Size:           40K
-Extension-by:   aus9
+Size:           48K
+Extension-by:   aus9 @ linuxquestions.org
 Tags:           alsa
-Comments:       Designed to allow (mainly) firefox to run without 
-                pulseaudio. Test alsa is working correctly before 
-                apulse stuff. (No alsa deps set.)
+Comments:       Designed to allow (mainly) firefox to run without pulseaudio. 
+                Test that  alsa is working correctly before trying apulse stuff. 
+                No alsa deps set.
                 $ tce-load -i alsa alsa-utils
                 $ speaker-test -D hw:Headphones
-                $ speaker-test # for HDMI
+                $ speaker-test # for HDMI or analog (it depends as below)
                 Optional adjust alsamixer levels
                        
-                I use analog sound (headphones + firefox)
-                Skip to last command if HDMI is acceptable
-                Create sound swap file. sudo su needed by me. YMMV
-                $ sudo su
-                #   echo 'defaults.pcm.card 1
-                   defaults.ctl.card 1'  > /etc/asound.conf
-                # su tc
-                $ apulse firefox https://youtu.be/enuOArEfqGo
-                Add etc/asound.conf to your persistance file
-                for analog users. 
+                If you use analog sound....eg headphones or non-bluetooth speakers etc 
+                and you can not hear sound then you may need to swap sound to the analog device.
+                FOR INTEL sound only I do this....add below line to grub.cfg
+                blacklist=snd-hda-intel
+                Next run  $ echo '#!/bin/sh
+                sudo modprobe snd-hda-intel options enable=0,1
+                sleep 2
+                alsactl restore -f /home/tc/asound.state ' > ~/.local/bin/snd
+                
+                Create  ~/.X.d/my-sound (no shebang needed)
+                /home/tc/.local/bin/snd &
+                Reboot to run $ aplay -l to see only analog device 
+                You are likely need to set and save your mixer levels
+                $ alsactl store -f /home/tc/asound.state
+
+                So for most people with intel devices....the boot config disabled
+                the intel sound module, loading into a X desktop, the my-sound file
+                is executed....which loads the intel sound module but disabled the 
+                first detected sound device (normally hdmi) so the next sound device,
+                analog gets to be the first device and mixer levels set. 
+                Obviously this assumes aplay -l has hdmi listed first. 
+                So not all users can follow this method but I believe most can. YMMV
+                
+                Finally test with $ apulse firefox https://youtu.be/enuOArEfqGo
 
 Change-log:     2020/07/27 Original 0.1.13
-Current:        2020/10/06 adjust info file
-
+                2020/10/06 adjust info file
+Current:        2026/10/22 v 0.1.14 on 17x 

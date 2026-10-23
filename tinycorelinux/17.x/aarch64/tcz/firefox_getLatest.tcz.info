@@ -1,6 +1,6 @@
 Title:			firefox_getLatest.tcz
 Description:		Download and install Firefox
-Version:		2.13
+Version:		2.14
 Author:			coreplayer2, CNK
 Original-site:  	https://forum.tinycorelinux.net/index.php/topic,17879.0.html
 Copying-policy:		GPL
@@ -8,7 +8,7 @@ Size:			12.0K
 Extension_by:   	coreplayer2, CNK
 Tags:			firefox get latest web browser
 Comments:		This script detects the latest available Firefox
-			Browser, downloads the update and creates an
+			browser, downloads the latest binary and creates an
 			extension.  The new or updated Firefox extension is
 			then installed using tce-audit or scheduled for update
 			during the next reboot.
@@ -23,7 +23,7 @@ Comments:		This script detects the latest available Firefox
 				-g    (verify download with GnuPG keyring)
 
 			Will create latest Firefox extension for:
-			x86
+			x86 (only versions up to 144.0.2 or 140.17.0esr)
 			x86_64
 			aarch64
 
@@ -67,4 +67,5 @@ Change-log:		---
 			2023/07/06 Fix deleting temp. files when not tc user. Add -g option (CNK)
 			2025/01/20 Support XZ compression. Can auto-detect download URL (CNK)
 			2025/06/28 Support aarch64 PiCore (CNK)
-Current:		2025/11/19 Fixed latest version detection. Removed libGLES from deps (CNK)
+			2025/11/19 Fixed latest version detection. Removed libGLES from deps (CNK)
+Current:		2026/10/20 Handle end of Firefox's 32bit x86 Linux support. (CNK)
