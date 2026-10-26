@@ -1,10 +1,10 @@
 Title:          ca-certificates.tcz
 Description:    ca-certificates
-Version:        20250916
+Version:        20260607
 Author:         see list of sites below
 Original-site:  see list of sites below
 Copying-policy: see list of sites below
-Size: 152KB
+Size:           128KB
 Extension_by:   juanito
 Tags:	        ca certificate authority
 Comments:       certificate authority certificates and debian installation script
@@ -22,4 +22,5 @@ Change-log:     2016/09/12 first version
                 2019/05/01 updated to latest certificates
                 2020/05/08 updated to latest certificates
                 2025/09/16 updated to latest certificates
-Current:        2025/12/08 Changed mkdir -p to /usr/local/etc/ssl/certs in tce.installed (Rich)
+                2025/12/08 Changed mkdir -p to /usr/local/etc/ssl/certs in tce.installed (Rich)
+Current:        2026/10/25 updated to latest certificates
