@@ -1,20 +1,21 @@
 Title:          swaylock.tcz 
 Description:    screen locker for wayland 
-Version:        1.8.0
+Version:        1.8.6
 Author:         Drew DeVault
 Original-site:  https://github.com/swaywm/swaylock
 Copying-policy: Accompanied 
 Size:           28K
 Extension_by:   aus9 @linuxquestions.org
 Tags:           wayland swaylock
-Comments:       Before using you will need to create a password for 
-                local login. You may like to persist the password files 
-                over reboot? etc/passwd and etc/shadow 
+Comments:       Create a local login password (not root password). 
+                You may like to persist the password over reboot? 
+                add etc/passwd to your backup file
+                --but swaylock works with current session password too 
 
                 To LOCK
-                $ swaylock -fl # l for lima 1
-                which daemonises the locker and locks screen
-                And prompts if you have caps lock on. It will not prompt 
+                $ swaylock -fl # (thats) hyphen foxtrot lima
+                which daemonises the locker and locks screen.
+                Swaylock prompts if you have caps lock on. It will not prompt 
                 if you are using Shift key to input one or more letters in caps
 
                 To UNLOCK
@@ -25,11 +26,11 @@ Comments:       Before using you will need to create a password for
                 red indicator at least one error in input of password
                 If you mistype ---you can try again
 
-                TCE=sway has z file which uses shadow for password 
-                management. Other Wayland desktops may not use shadow? 
-                TCE=swaylock-doc has loads of options if interested           
+                TCE=swaylock-doc has loads of options if interested
+                and bash-completion TCE might work (untested by me)         
                             
 Change-log:     2019/06/17 v 1.4 on 10x 
                 2020/06/29 v 1.5 on 11x  
                 2023/04/22 v 1.7.2 on 14x add install script for SUID
-Current:        2024/11/23 v 1.8.0 on 15x    
+                2024/11/23 v 1.8.0 on 15x
+Current:        2026/10/24 v 1.8.6 on 17x    

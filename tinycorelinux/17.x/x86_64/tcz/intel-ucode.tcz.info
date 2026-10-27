@@ -1,0 +1,43 @@
+Title:          intel-ucode.tcz
+Description:    intel microcodes 
+Version:        20260925
+Author:         Intel Corporation
+Original-site:  https://tinyurl.com/intelreleases                
+Copying-policy: accompanied 
+Size:           15M
+Extension-by:   aus9 @ linuxquestions.org
+Tags:           intel microcode bios
+Comments:       WARNING not a normal TCE, do not have this in your boot list!
+                An updated bios is better, but not all makers offer bios
+                updates for older PCs. Before loading this TCE run 
+                $ dmesg | grep micro # no need to type microcode.
+                Microcodes affect only the x86 instruction set so please
+                get an bios update to get more features.
+
+                Please read all this info as its designed for both 32 & 64 bit users
+                AND for MBR and UEFI users....so you need to understand your own
+                pathways to files for below. So below....as long as you edit to the correct path 
+                to your microcode file...it could go in
+                /boot or /boot/grub or /EFI or /EFI/BOOT or /EFI/boot 
+                That is, below are just examples. So if you want to place the file slightly 
+                different to above....just match that pathway for your bootloader config.
+                
+                Load this TCE once and copy the original intel-ucode.img from
+                /tmp/tcloop/intel-ucode/usr/local/share/intel-ucode/files Dir 
+                to your boot dir with above caveats. Note copying sym links will not work.
+
+                You may need root powers to do that copying?
+                Then use local or root powers to edit your grub.cfg line for initrd
+                so the beginning of the line may read
+                initrd /boot/intel-ucode.img (subject to your above personal preferences)
+                (for UEFI it may read ....initrd /EFI/BOOT/intel-ucode.img etc)                
+
+                Full reboot and recheck if the above dmesg command  has changed....I can not 
+                update my bios unless I use Microsoft so I am stuck with a out-of-date bios 
+                so the microcodes help me YMMV. Image of result for me. YMMV
+                https://i.postimg.cc/SRcwYyLc/micro.png
+                Notice the key words...updated early from my old microcode value.
+                I am researching the SRBDS issue that affects me hopefully not you.               
+                      
+Change-log:     2026/10/25 v 20260925 built on 17x but not tested on TC32 
+Current:        2026/10/25 

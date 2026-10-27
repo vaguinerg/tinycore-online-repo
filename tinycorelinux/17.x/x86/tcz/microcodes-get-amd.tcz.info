@@ -1,0 +1,37 @@
+Title:          microcodes-get-amd.tcz
+Description:    get script to make early loading AMD microcodes
+Version:        1
+Author:         aus9 @ linuxquestions.org 
+Original-site:  https://tinyurl.com/amdfirmware                
+Copying-policy: open source
+Size:           4.0K
+Extension-by:   aus9 @ linuxquestions.org
+Tags:           amd microcodes bios
+Comments:       Based on my forum post 2023 in General TC Talk
+                https://tinyurl.com/amdmicocodes but added an older microcode. 
+
+                Its a get script and the resultant amd-ucode.img will be found at /tmp
+                Loading the TCE will execute the script so please do NOT 
+                have this in your boot list. Late loading microcodes are forbidden.               
+
+                Before loading this TCE run $ dmesg | grep microcode
+                and remember that value. Next load this TCE and copy that 
+                amd-code.img to your boot Dir and adjust your grub.cfg at 
+                the initrd line so it reads
+                
+                initrd /boot/amd-ucode.img (before your core or rootfs stuff)
+ 
+                Full reboot and then recheck $ dmesg | grep microcode 
+                to see if value changes. An updated bios should not have
+                a changed value eg mine is unchanged 0x0a500014 
+
+                An updated bios is better, but not all makers offer bios
+                updates for older PCs. 
+
+                Script has no idea if there a new updates so check  
+                https://tinyurl.com/amdfirmware
+                Forum post reply 2...discusses making a specific microcode script
+                if interested.
+      
+Change-log:     2026/10/23 v 1 on 17x 
+Current:        2026/10/23 
