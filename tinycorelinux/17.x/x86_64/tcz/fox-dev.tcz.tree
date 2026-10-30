@@ -44,6 +44,17 @@ fox-dev.tcz
                   libXdmcp.tcz
       libjpeg-turbo.tcz
       glibc_add_lib.tcz
+      libXrandr.tcz
+         libXext.tcz
+            libX11.tcz
+               libxcb.tcz
+                  libXau.tcz
+                  libXdmcp.tcz
+         libXrender.tcz
+            libX11.tcz
+               libxcb.tcz
+                  libXau.tcz
+                  libXdmcp.tcz
    glu-dev.tcz
       glu.tcz
          libGL.tcz
