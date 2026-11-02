@@ -15,7 +15,7 @@ Comments:		This script detects the latest available Firefox
 			
 			There are alternative options available,  for more
 			help type at the command-line: 
-			 firefox-getLatest.sh -h    (for more info)
+			 firefox_getLatest.sh -h    (for more info)
 				-m    (for manual version entry)
 				-e    (for latest ESR release)
 				-b    (for latest Beta release)
@@ -67,4 +67,5 @@ Change-log:		---
 			2023/07/06 Fix deleting temp. files when not tc user. Add -g option (CNK)
 			2025/01/20 Support XZ compression. Can auto-detect download URL (CNK)
 			2025/06/28 Support aarch64 PiCore (CNK)
-Current:		2025/11/19 Fixed latest version detection. Removed libGLES from deps (CNK)
+        		2025/11/19 Fixed latest version detection. Removed libGLES from deps (CNK)
+Current:        2026/11/01 Update to 16k Blocksize
