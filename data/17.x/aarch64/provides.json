@@ -38826,24 +38826,26 @@
     "usr/local/include/FLAC/assert.h",
     "usr/local/include/FLAC/all.h",
     "usr/local/lib/pkgconfig/flac++.pc",
-    "usr/local/lib/pkgconfig/flac.pc",
-    "usr/local/lib/libFLAC.la",
-    "usr/local/lib/libFLAC++.la",
-    "usr/local/lib/libFLAC.a",
-    "usr/local/lib/libFLAC++.a"
+    "usr/local/lib/pkgconfig/flac.pc"
   ],
   "flac.tcz": [
     "usr/local/share/flac/COPYING.Xiph",
     "usr/local/share/flac/COPYING.LGPL",
     "usr/local/share/flac/COPYING.GPL",
     "usr/local/share/flac/COPYING.FDL",
-    "usr/local/bin/flac",
     "usr/local/bin/metaflac",
+    "usr/local/bin/flac",
+    "usr/local/lib/libFLAC++.so",
+    "usr/local/lib/libFLAC++.so.11",
+    "usr/local/lib/libFLAC++.so.11.0.0",
+    "usr/local/lib/libFLAC.so",
+    "usr/local/lib/libFLAC.so.14",
+    "usr/local/lib/libFLAC.so.14.0.0"
+  ],
+  "flac13.tcz": [
     "usr/local/lib/libFLAC.so.8.3.0",
     "usr/local/lib/libFLAC++.so.6.3.0",
-    "usr/local/lib/libFLAC++.so",
     "usr/local/lib/libFLAC++.so.6",
-    "usr/local/lib/libFLAC.so",
     "usr/local/lib/libFLAC.so.8"
   ],
   "flex-dev.tcz": [
@@ -95529,9 +95531,7 @@
     "usr/local/include/ogg/os_types.h",
     "usr/local/include/ogg/ogg.h",
     "usr/local/include/ogg/config_types.h",
-    "usr/local/lib/pkgconfig/ogg.pc",
-    "usr/local/lib/libogg.la",
-    "usr/local/lib/libogg.a"
+    "usr/local/lib/pkgconfig/ogg.pc"
   ],
   "libogg.tcz": [
     "usr/local/share/libogg/COPYING",
@@ -95550,6 +95550,16 @@
     "usr/local/lib/libopenaptx.so",
     "usr/local/lib/libopenaptx.so.0",
     "usr/local/lib/libopenaptx.so.0.2.1"
+  ],
+  "libopusenc-dev.tcz": [
+    "usr/local/include/opus/opusenc.h",
+    "usr/local/lib/pkgconfig/libopusenc.pc"
+  ],
+  "libopusenc.tcz": [
+    "usr/local/share/libopusenc/COPYING",
+    "usr/local/lib/libopusenc.so",
+    "usr/local/lib/libopusenc.so.0",
+    "usr/local/lib/libopusenc.so.0.4.3"
   ],
   "libpci-dev.tcz": [
     "usr/local/include/pci/types.h",
@@ -133213,19 +133223,22 @@
     "usr/local/libexec/openvpn/dns-updown"
   ],
   "opus-dev.tcz": [
-    "/usr/local/include/opus/opus.h",
-    "/usr/local/include/opus/opus_defines.h",
-    "/usr/local/include/opus/opus_multistream.h",
-    "/usr/local/include/opus/opus_projection.h",
-    "/usr/local/include/opus/opus_types.h",
-    "/usr/local/lib/libopus.la",
-    "/usr/local/lib/pkgconfig/opus.pc",
-    "/usr/local/share/aclocal/opus.m4"
+    "usr/local/include/opus/opus_projection.h",
+    "usr/local/include/opus/opus_defines.h",
+    "usr/local/include/opus/opus_types.h",
+    "usr/local/include/opus/opus_multistream.h",
+    "usr/local/include/opus/opus.h",
+    "usr/local/lib/pkgconfig/opus.pc"
+  ],
+  "opus-tools.tcz": [
+    "usr/local/bin/opusinfo",
+    "usr/local/bin/opusdec",
+    "usr/local/bin/opusenc"
   ],
   "opus.tcz": [
-    "/usr/local/lib/libopus.so",
-    "/usr/local/lib/libopus.so.0",
-    "/usr/local/lib/libopus.so.0.8.0"
+    "usr/local/lib/libopus.so",
+    "usr/local/lib/libopus.so.0",
+    "usr/local/lib/libopus.so.0.11.1"
   ],
   "opusfile-dev.tcz": [
     "/usr/local/include/opus/opusfile.h",

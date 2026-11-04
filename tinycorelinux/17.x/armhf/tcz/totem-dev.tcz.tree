@@ -81,7 +81,7 @@ totem-dev.tcz
                      gmp.tcz
                   libasound.tcz
                      alsa-modules-6.18.37-piCore-v7.tcz
-                  libopus.tcz
+                  opus.tcz
                   libtheora.tcz
                      libogg.tcz
                   libvorbis.tcz
@@ -545,7 +545,7 @@ totem-dev.tcz
                   gmp.tcz
                libasound.tcz
                   alsa-modules-6.18.37-piCore-v7.tcz
-               libopus.tcz
+               opus.tcz
                libtheora.tcz
                   libogg.tcz
                libvorbis.tcz
@@ -707,7 +707,7 @@ totem-dev.tcz
                      gmp.tcz
                   libasound.tcz
                      alsa-modules-6.18.37-piCore-v7.tcz
-                  libopus.tcz
+                  opus.tcz
                   libtheora.tcz
                      libogg.tcz
                   libvorbis.tcz
@@ -1646,7 +1646,7 @@ totem-dev.tcz
                            gmp.tcz
                         libasound.tcz
                            alsa-modules-6.18.37-piCore-v7.tcz
-                        libopus.tcz
+                        opus.tcz
                         libtheora.tcz
                            libogg.tcz
                         libvorbis.tcz
@@ -2598,7 +2598,7 @@ totem-dev.tcz
                gmp.tcz
             libasound.tcz
                alsa-modules-6.18.37-piCore-v7.tcz
-            libopus.tcz
+            opus.tcz
             libtheora.tcz
                libogg.tcz
             libvorbis.tcz
@@ -2620,7 +2620,7 @@ totem-dev.tcz
                gmp.tcz
             libasound.tcz
                alsa-modules-6.18.37-piCore-v7.tcz
-            libopus.tcz
+            opus.tcz
             libtheora.tcz
                libogg.tcz
             libvorbis.tcz
@@ -2711,7 +2711,7 @@ totem-dev.tcz
                gmp.tcz
             libasound.tcz
                alsa-modules-6.18.37-piCore-v7.tcz
-            libopus.tcz
+            opus.tcz
             libtheora.tcz
                libogg.tcz
             libvorbis.tcz
@@ -2742,7 +2742,7 @@ totem-dev.tcz
                      libogg.tcz
                   speex.tcz
                      libogg.tcz
-                  libopus.tcz
+                  opus.tcz
                   lame.tcz
                      ncurses.tcz
                   librsvg.tcz
@@ -2953,7 +2953,7 @@ totem-dev.tcz
                      gmp.tcz
                   libasound.tcz
                      alsa-modules-6.18.37-piCore-v7.tcz
-                  libopus.tcz
+                  opus.tcz
                   libtheora.tcz
                      libogg.tcz
                   libvorbis.tcz
@@ -3417,7 +3417,7 @@ totem-dev.tcz
                   gmp.tcz
                libasound.tcz
                   alsa-modules-6.18.37-piCore-v7.tcz
-               libopus.tcz
+               opus.tcz
                libtheora.tcz
                   libogg.tcz
                libvorbis.tcz
@@ -3579,7 +3579,7 @@ totem-dev.tcz
                      gmp.tcz
                   libasound.tcz
                      alsa-modules-6.18.37-piCore-v7.tcz
-                  libopus.tcz
+                  opus.tcz
                   libtheora.tcz
                      libogg.tcz
                   libvorbis.tcz
@@ -4113,7 +4113,7 @@ totem-dev.tcz
                      gmp.tcz
                   libasound.tcz
                      alsa-modules-6.18.37-piCore-v7.tcz
-                  libopus.tcz
+                  opus.tcz
                   libtheora.tcz
                      libogg.tcz
                   libvorbis.tcz
@@ -4868,7 +4868,7 @@ totem-dev.tcz
                      gmp.tcz
                   libasound.tcz
                      alsa-modules-6.18.37-piCore-v7.tcz
-                  libopus.tcz
+                  opus.tcz
                   libtheora.tcz
                      libogg.tcz
                   libvorbis.tcz
@@ -4921,8 +4921,8 @@ totem-dev.tcz
                libasound-dev.tcz
                   libasound.tcz
                      alsa-modules-6.18.37-piCore-v7.tcz
-               libopus-dev.tcz
-                  libopus.tcz
+               opus-dev.tcz
+                  opus.tcz
                graphene-dev.tcz
                   graphene.tcz
                      glib2.tcz
@@ -7703,7 +7703,7 @@ totem-dev.tcz
                   gmp.tcz
                libasound.tcz
                   alsa-modules-6.18.37-piCore-v7.tcz
-               libopus.tcz
+               opus.tcz
                libtheora.tcz
                   libogg.tcz
                libvorbis.tcz
@@ -7794,7 +7794,7 @@ totem-dev.tcz
                   gmp.tcz
                libasound.tcz
                   alsa-modules-6.18.37-piCore-v7.tcz
-               libopus.tcz
+               opus.tcz
                libtheora.tcz
                   libogg.tcz
                libvorbis.tcz
@@ -7847,8 +7847,8 @@ totem-dev.tcz
             libasound-dev.tcz
                libasound.tcz
                   alsa-modules-6.18.37-piCore-v7.tcz
-            libopus-dev.tcz
-               libopus.tcz
+            opus-dev.tcz
+               opus.tcz
             graphene-dev.tcz
                graphene.tcz
                   glib2.tcz
@@ -11381,10 +11381,12 @@ totem-dev.tcz
                   libogg.tcz
                sqlite3.tcz
             flac-dev.tcz
-               flac.tcz
-                  libogg.tcz
-               libogg-dev.tcz
-                  libogg.tcz
+               libvorbis-dev.tcz
+                  libvorbis.tcz
+                     libogg.tcz
+                  libogg-dev.tcz
+                     libogg.tcz
+               libflac.tcz
             libasound-dev.tcz
                libasound.tcz
                   alsa-modules-6.18.37-piCore-v7.tcz
@@ -11563,7 +11565,7 @@ totem-dev.tcz
                      gmp.tcz
                   libasound.tcz
                      alsa-modules-6.18.37-piCore-v7.tcz
-                  libopus.tcz
+                  opus.tcz
                   libtheora.tcz
                      libogg.tcz
                   libvorbis.tcz
@@ -12098,7 +12100,7 @@ totem-dev.tcz
                      gmp.tcz
                   libasound.tcz
                      alsa-modules-6.18.37-piCore-v7.tcz
-                  libopus.tcz
+                  opus.tcz
                   libtheora.tcz
                      libogg.tcz
                   libvorbis.tcz
@@ -12632,7 +12634,7 @@ totem-dev.tcz
                      gmp.tcz
                   libasound.tcz
                      alsa-modules-6.18.37-piCore-v7.tcz
-                  libopus.tcz
+                  opus.tcz
                   libtheora.tcz
                      libogg.tcz
                   libvorbis.tcz
@@ -13387,7 +13389,7 @@ totem-dev.tcz
                      gmp.tcz
                   libasound.tcz
                      alsa-modules-6.18.37-piCore-v7.tcz
-                  libopus.tcz
+                  opus.tcz
                   libtheora.tcz
                      libogg.tcz
                   libvorbis.tcz
@@ -13440,8 +13442,8 @@ totem-dev.tcz
                libasound-dev.tcz
                   libasound.tcz
                      alsa-modules-6.18.37-piCore-v7.tcz
-               libopus-dev.tcz
-                  libopus.tcz
+               opus-dev.tcz
+                  opus.tcz
                graphene-dev.tcz
                   graphene.tcz
                      glib2.tcz
@@ -17909,7 +17911,7 @@ totem-dev.tcz
                gmp.tcz
             libasound.tcz
                alsa-modules-6.18.37-piCore-v7.tcz
-            libopus.tcz
+            opus.tcz
             libtheora.tcz
                libogg.tcz
             libvorbis.tcz
@@ -18000,7 +18002,7 @@ totem-dev.tcz
                gmp.tcz
             libasound.tcz
                alsa-modules-6.18.37-piCore-v7.tcz
-            libopus.tcz
+            opus.tcz
             libtheora.tcz
                libogg.tcz
             libvorbis.tcz
@@ -18053,8 +18055,8 @@ totem-dev.tcz
          libasound-dev.tcz
             libasound.tcz
                alsa-modules-6.18.37-piCore-v7.tcz
-         libopus-dev.tcz
-            libopus.tcz
+         opus-dev.tcz
+            opus.tcz
          graphene-dev.tcz
             graphene.tcz
                glib2.tcz
@@ -21587,10 +21589,12 @@ totem-dev.tcz
                libogg.tcz
             sqlite3.tcz
          flac-dev.tcz
-            flac.tcz
-               libogg.tcz
-            libogg-dev.tcz
-               libogg.tcz
+            libvorbis-dev.tcz
+               libvorbis.tcz
+                  libogg.tcz
+               libogg-dev.tcz
+                  libogg.tcz
+            libflac.tcz
          libasound-dev.tcz
             libasound.tcz
                alsa-modules-6.18.37-piCore-v7.tcz

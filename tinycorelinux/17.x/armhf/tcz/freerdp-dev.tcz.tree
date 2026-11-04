@@ -69,7 +69,7 @@ freerdp-dev.tcz
             libogg.tcz
          speex.tcz
             libogg.tcz
-         libopus.tcz
+         opus.tcz
          lame.tcz
             ncurses.tcz
          librsvg.tcz
@@ -235,7 +235,7 @@ freerdp-dev.tcz
                         libogg.tcz
                      speex.tcz
                         libogg.tcz
-                     libopus.tcz
+                     opus.tcz
                      lame.tcz
                         ncurses.tcz
                      librsvg.tcz
@@ -513,10 +513,12 @@ freerdp-dev.tcz
                   libogg.tcz
                sqlite3.tcz
             flac-dev.tcz
-               flac.tcz
-                  libogg.tcz
-               libogg-dev.tcz
-                  libogg.tcz
+               libvorbis-dev.tcz
+                  libvorbis.tcz
+                     libogg.tcz
+                  libogg-dev.tcz
+                     libogg.tcz
+               libflac.tcz
             libasound-dev.tcz
                libasound.tcz
                   alsa-modules-6.18.37-piCore-v7.tcz
@@ -2433,8 +2435,8 @@ freerdp-dev.tcz
                bzip2-dev.tcz
                   bzip2.tcz
                      bzip2-lib.tcz
-      libopus-dev.tcz
-         libopus.tcz
+      opus-dev.tcz
+         opus.tcz
       librsvg-dev.tcz
          librsvg.tcz
             pango.tcz
