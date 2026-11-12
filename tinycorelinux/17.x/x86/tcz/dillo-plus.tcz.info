@@ -1,10 +1,10 @@
 Title:          dillo-plus.tcz
 Description:    Dillo web browser
-Version:        3.2.3
+Version:        3.3.0
 Author:         https://dillo-browser.github.io/old/D_authors.html
 Original-site:  https://github.com/crossbowerbt/dillo-plus/
 Copying-policy: GPLv3
-Size:		836K
+Size:		888K
 Extension_by:   Colin Jones, hiro, nitram, CNK
 Tags:           FLTK light internet web browser
 Comments:       Dillo is a multi-platform graphical web browser known
@@ -24,6 +24,7 @@ Comments:       Dillo is a multi-platform graphical web browser known
                   and images over HTTP, scripting is ignored
                 - Download option doesn't work
 		Optionald extensions: dejavu-fonts-ttf.tcz ca-certificates.tcz
+		wget.tcz
 Change-log:     2009/01/14 Original (Colin Jones/xentalion)
                 2009/09/15 v2.1.1 without xft (Colin Jones/xentalion)
                 2011/08/23 Pre-3.0 (hiro)
@@ -38,4 +39,5 @@ Change-log:     2009/01/14 Original (Colin Jones/xentalion)
 		2019/10/14 fixed https support (neonix)
 		2020/02/20 fixed openssl-1.1.1 dependency (neonix) TC11.x
 		2024/05/06 v3.1 (20181005) -> v3.1.0, use mbedTLS (CNK) TC15.x
-Current:	2024/07/11 v3.2.3 (neonix) TC15.x
+		2025/05/05 v3.3.0 (neonix) corepure64 TC15.x
+Current:	2026/10/04 v3.3.0 (neonix) corepure64 TC17.x

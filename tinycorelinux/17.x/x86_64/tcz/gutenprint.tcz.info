@@ -10,9 +10,8 @@ Tags:           cups printer ppd
 Comments:       Not for scanning. To know if your printer is supported see
                 http://gimp-print.sourceforge.net/p_Supported_Printers.php
                 
-                Optional TCEs
+                Optional TCE
                 #############
-                colord.tcz reduce log warnings or if printing colour images
                 mupdf.tcz (Very tiny relative to total for evince)
                 For print preview 
                 1) choose print to file and choose /pathway2/output.pdf
@@ -105,4 +104,5 @@ Change-log:     2018/06/17 v 5.2.14
                 2020/04/21 v 5.3.3 on 11x
                 2023/03/28 v 5.3.4 on 14x 
                 2024/10/25 v 5.3.5-pre1 on 15x 
-Current:        2026/10/05 v 5.3.5 on 17x      
+                2026/10/05 v 5.3.5 on 17x 
+Current:        2026/11/11 new dep = colord-gtk      
