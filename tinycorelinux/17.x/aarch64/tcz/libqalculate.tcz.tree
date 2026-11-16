@@ -1,0 +1,16 @@
+libqalculate.tcz
+   readline.tcz
+      ncurses.tcz
+   curl.tcz
+      openssl.tcz
+         ca-certificates.tcz
+      libssh2.tcz
+         openssl.tcz
+            ca-certificates.tcz
+      nghttp2.tcz
+         libxml2.tcz
+            liblzma.tcz
+   icu78.tcz
+   mpfr.tcz
+      gmp.tcz
+
