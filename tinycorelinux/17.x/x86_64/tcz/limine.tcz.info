@@ -4,13 +4,14 @@ Version:        12.9.6
 Author:         see list of sites below
 Original-site:  see list of sites below
 Copying-policy: see list of sites below
-Size:           86KB
+Size:           1000KB
 Extension_by:   juanito
 Tags:           boot loader bios uefi
 Comments:       multiprotocol bootloader and boot manager
+                may need the mtools and/or glibc_gconv extensions
                 ----------
                 This extension contains:
                 limine-12.9.6 - BSDv2 - https://github.com/Limine-Bootloader/Limine/releases/download/v12.9.6/limine-12.9.6.tar.xz
                 ----------
-Change-log:     first version
-Current:        2026/11/09
+Change-log:     2026/11/09 first version
+Current:        2026/11/16 added limine-uefi-cd.bin
