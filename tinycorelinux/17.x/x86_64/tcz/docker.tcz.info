@@ -1,0 +1,81 @@
+Title:          docker.tcz
+Description:    TESTING Docker Engine static binaries for CorePure64
+Version:        29.10.0
+Author:         Docker, Inc. and Moby contributors
+Original-site:  https://www.docker.com/
+Copying-policy: Apache-2.0
+Size:           85M
+Extension_by:   homecore
+Tags:           docker containers engine corepure64
+Comments:       binary-only
+                ----------
+                Packages Docker Engine static binaries (cli, dockerd,
+                containerd, runc, docker-proxy, docker-init) for
+                Tiny Core Linux CorePure64 (x86_64).
+                ----------
+                Requires: CorePure64 (64-bit userspace). Will not run
+                on 32-bit Core or Core64 mixed userspace.
+                ----------
+                Load:
+                $ tce-load -i docker.tcz
+                ----------
+                Start daemon:
+                $ sudo /usr/local/etc/init.d/docker start
+                ----------
+                Stock TC 17.x: overlay.ko in core modules; no custom kernel
+                needed for hello-world. Init uses cgroup v1 (no CGROUP_BPF)
+                and iptables:false (no legacy iptables NAT tables).
+                .dep pulls net-bridging-KERNEL, ipv6-netfilter-KERNEL,
+                nftables (+ libs), iptables, bridge-utils, openssl,
+                ca-certificates.
+                ----------
+                Networking note (stock TC 17, no kernel rebuild):
+                TC disables iptables-legacy NAT tables, so default
+                daemon.json sets "iptables": false. Enough for
+                hello-world; containers do not get outbound NAT.
+                Workarounds without changing the kernel:
+                1) Host network (simplest):
+                   $ docker run --rm --network host IMAGE
+                2) Manual nft MASQUERADE/forward for docker0 after
+                   dockerd starts (needs nftables + ipv6-netfilter
+                   modules). Can be added to init.d/bootsync.
+                3) iptables-nft userspace (if provided) so Docker's
+                   iptables calls hit nf_tables via nft_compat.
+                4) Host HTTP(S)_PROXY for pulls/APIs only.
+                Custom kernel only needed later for full legacy
+                iptables NAT or cgroup v2 + CONFIG_CGROUP_BPF.
+                ----------
+                Persist across boots (Tiny Core filetool):
+                Add these paths to /opt/.filetool.lst (no leading /):
+                etc/passwd
+                etc/group
+                etc/shadow
+                etc/gshadow
+                etc/docker
+                opt/bootsync.sh
+                Then run: filetool.sh -b
+                Notes:
+                - etc/passwd + etc/group (+ shadow/gshadow) keep the
+                  docker group and tc membership created at load time.
+                - etc/docker keeps daemon.json and any certs/config
+                  under /etc/docker.
+                - opt/bootsync.sh if you auto-start dockerd on boot
+                  (see below). Also backup opt/.filetool.lst itself
+                  via normal TC mydata habit.
+                Do NOT put var/lib/docker in .filetool.lst (images and
+                volumes are large). Bind-mount or use a dedicated
+                partition for /var/lib/docker instead, e.g. in
+                bootsync: mkdir -p /mnt/sda1/docker-data &&
+                mount --bind /mnt/sda1/docker-data /var/lib/docker
+                (adjust device/path). Without that, images/containers
+                are lost on reboot.
+                ----------
+                Optional bootsync (/opt/bootsync.sh):
+                /usr/local/etc/init.d/docker start
+                ----------
+                This extension contains:
+                docker-29.10.0 static - Apache-2.0 -
+                https://download.docker.com/linux/static/stable/x86_64/
+                ----------
+Change-log:     2026/11/17 first version (29.10.0)
+Current:        2026/11/17 submit bundle (TESTING, KERNEL deps)
