@@ -1,0 +1,61 @@
+Title:          hwdetect.tcz
+Description:    TESTING hardware detect → driver/firmware .tcz loader
+Version:        0.1.0
+Author:         Zendrael
+Original-site:  https://forum.tinycorelinux.net/index.php?topic=27640.0
+Copying-policy: GPL-2.0
+Size:           8K
+Extension_by:   Zendrael
+Tags:           hardware drivers firmware wifi alsa detect tinycore x86
+Comments:       shell scripts + curated map (no compiled code)
+                ----------
+                Detects PCI/USB IDs via sysfs (no lspci/lsusb) and
+                selects matching firmware / wireless / alsa / bluetooth
+                extensions for Tiny Core 17.x. Local-first: loads from
+                tce/optional when present; optional online fetch.
+                ----------
+                Requires: Core (x86). Also packaged for CorePure64 (x86_64).
+                Zero .dep — peer driver packages loaded dynamically.
+                ----------
+                Install:
+                $ tce-load -i hwdetect.tcz
+                Put hwdetect.tcz early on onboot.lst for portable USB.
+                ----------
+                After boot / CLI:
+                $ hwdetect              # list suggested .tcz
+                $ hwdetect --load       # load matches already in tce/optional
+                $ hwdetect --fetch      # also download if network is up
+                $ hwdetect --boot       # load + write tce/hwdetect.lst
+                $ hwdetect --fetch --boot
+                Status in the list: local | loaded | absent
+                ----------
+                One-shot via init.d:
+                $ sudo /usr/local/etc/init.d/hwdetect start
+                ----------
+                Persistence:
+                tce-load -i/-wi (used by --load/--fetch) appends packages
+                to onboot.lst, so a fixed HDD install usually needs only
+                one successful --fetch/--boot; drivers load next boot
+                without calling hwdetect again.
+                --boot also writes tce/hwdetect.lst (use boot code
+                lst=hwdetect.lst if you want that list instead).
+                Portable USB: keep hwdetect.tcz on onboot.lst to
+                re-detect each boot.
+                ----------
+                Disable auto-run on load:
+                $ sudo touch /etc/sysconfig/hwdetect.disable
+                Enable online fetch during --boot / tce.installed:
+                $ sudo touch /etc/sysconfig/hwdetect.fetch
+                ----------
+                Portable USB tip: copy common firmware-*.tcz, wifi.tcz,
+                alsa.tcz into tce/optional so detection works offline.
+                ----------
+                Scope: drivers/firmware/wifi/alsa/bluez only — does not
+                pull Xorg or window managers.
+                ----------
+                This extension contains:
+                hwdetect-0.1.0 - GPL-2.0 -
+                curated map under /usr/local/share/hwdetect/map.conf
+                ----------
+Change-log:     2026/11/18 first version (0.1.0)
+Current:        2026/11/18 submit pack (TESTING, dual-arch)

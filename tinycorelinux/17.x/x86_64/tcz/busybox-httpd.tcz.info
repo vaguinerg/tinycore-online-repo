@@ -1,0 +1,38 @@
+Title:          busybox-httpd.tcz
+Description:    TESTING BusyBox HTTP server for CorePure64
+Version:        1.37.0
+Author:         BusyBox project (Denys Vlasenko et al.)
+Original-site:  https://busybox.net/
+Copying-policy: GPLv2
+Size:           52K
+Extension_by:   Zendrael
+Tags:           busybox httpd http server web
+Comments:       ----------
+                BusyBox httpd applet for Tiny Core CorePure64 (x86_64).
+                Standalone busybox binary under /usr/local/httpd so it
+                does not conflict with the base BusyBox.
+                ----------
+                Files:
+                /usr/local/httpd/bin/busybox
+                /usr/local/httpd/bin/false (symlink)
+                /usr/local/httpd/sbin/httpd (symlink)
+                ----------
+                Load:
+                $ tce-load -i busybox-httpd.tcz
+                ----------
+                Start (example):
+                $ mkdir -p /home/tc/htdocs && echo ok >/home/tc/htdocs/index.html
+                $ sudo /usr/local/httpd/sbin/httpd -p 80 -h /home/tc/htdocs -u tc:staff
+                Or:
+                $ sudo /usr/local/etc/init.d/busybox-httpd start
+                (default: port 8080, docroot /usr/local/httpd/htdocs)
+                ----------
+                Port 80 needs root to bind; non-root can use -p 8080.
+                No runtime .dep (links only to base libc when dynamic).
+                ----------
+                This extension contains:
+                busybox-1.37.0 - GPLv2 -
+                https://busybox.net/downloads/busybox-1.37.0.tar.bz2
+                ----------
+Change-log:     2026/11/19 first CorePure64 version (1.37.0, TESTING)
+Current:        2026/11/19 first CorePure64 version (TESTING)

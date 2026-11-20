@@ -97938,6 +97938,14 @@
     "/usr/local/lib/libbtrfsutil.so.1",
     "/usr/local/lib/libbtrfsutil.so.1.2.0"
   ],
+  "busybox-httpd.tcz": [
+    "usr/local/etc/init.d/busybox-httpd",
+    "usr/local/httpd/bin/busybox",
+    "usr/local/httpd/bin/false",
+    "usr/local/httpd/index.cgi",
+    "usr/local/httpd/sbin/httpd",
+    "usr/local/tce.installed/busybox-httpd"
+  ],
   "busybox_extras.tcz": [
     "/bin/base32",
     "/bin/base64",
@@ -223328,6 +223336,12 @@
     "/usr/local/share/hwdata/pnp.ids",
     "/usr/local/share/hwdata/usb.ids",
     "/usr/local/share/pkgconfig/hwdata.pc"
+  ],
+  "hwdetect.tcz": [
+    "usr/local/bin/hwdetect",
+    "usr/local/etc/init.d/hwdetect",
+    "usr/local/share/hwdetect/map.conf",
+    "usr/local/tce.installed/hwdetect"
   ],
   "hwloc-dev.tcz": [
     "/usr/local/include/hwloc/autogen/config.h",

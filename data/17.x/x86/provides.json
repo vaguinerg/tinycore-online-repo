@@ -137998,6 +137998,12 @@
     "/usr/local/share/hwdata/usb.ids",
     "/usr/local/share/pkgconfig/hwdata.pc"
   ],
+  "hwdetect.tcz": [
+    "usr/local/bin/hwdetect",
+    "usr/local/etc/init.d/hwdetect",
+    "usr/local/share/hwdetect/map.conf",
+    "usr/local/tce.installed/hwdetect"
+  ],
   "hwmon-6.18.2-tinycore.tcz": [
     "./usr/local/lib/modules/6.18.2-tinycore/kernel/drivers/hwmon/tc654.ko.gz",
     "./usr/local/lib/modules/6.18.2-tinycore/kernel/drivers/hwmon/coretemp.ko.gz",
