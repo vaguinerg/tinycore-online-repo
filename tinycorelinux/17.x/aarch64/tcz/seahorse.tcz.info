@@ -1,0 +1,22 @@
+Title:          seahorse.tcz
+Description:    encryption key gui
+Version:        47.0.1
+Author:         see list of sites below
+Original-site:  see list of sites below
+Copying-policy: see list of sites below
+Size:           388KB
+Extension_by:   juanito
+Tags:	        encryption key gui gtk+ gtk3 gnome
+Comments:       gui for managing and using encryption keys
+                supports pgp and ssh keys
+                ----------
+                start dbus daemon
+                sudo dbus-launch /usr/local/bin/gnome-keyring-daemon --start --foreground --components=secrets
+                start seahorse
+                create password keyring
+                ----------
+                This extension contains:
+                seahorse-47.0.1 - GPLv2 - https://download.gnome.org/sources/seahorse/47/seahorse-47.0.1.tar.xz
+                ----------
+Change-log:     first version
+Current:        2026/11/19
