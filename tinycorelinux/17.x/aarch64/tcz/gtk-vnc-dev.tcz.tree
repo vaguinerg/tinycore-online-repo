@@ -1547,10 +1547,12 @@ gtk-vnc-dev.tcz
                      bzip2-lib.tcz
                zlib_base-dev.tcz
    libgcrypt-dev.tcz
-      libgcrypt.tcz
-         libgpg-error.tcz
+      libgcrypt-bin.tcz
+         libgcrypt.tcz
+            libgpg-error.tcz
       libgpg-error-dev.tcz
-         libgpg-error.tcz
+         libgpg-error-bin.tcz
+            libgpg-error.tcz
    pulseaudio-dev.tcz
       pulseaudio.tcz
          libpulseaudio.tcz

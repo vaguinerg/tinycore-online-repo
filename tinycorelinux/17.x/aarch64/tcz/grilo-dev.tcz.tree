@@ -73,7 +73,16 @@ grilo-dev.tcz
             glib2.tcz
                pcre2.tcz
                   bzip2-lib.tcz
-            python3.14444.tcz
+            python3.14.tcz
+               bzip2-lib.tcz
+               readline.tcz
+                  ncurses.tcz
+               gdbm.tcz
+               liblzma.tcz
+               openssl.tcz
+                  ca-certificates.tcz
+               sqlite3.tcz
+               ncurses.tcz
          pcre2-dev.tcz
             pcre2.tcz
                bzip2-lib.tcz
@@ -82,10 +91,12 @@ grilo-dev.tcz
                   bzip2-lib.tcz
             zlib_base-dev.tcz
       libgcrypt-dev.tcz
-         libgcrypt.tcz
-            libgpg-error.tcz
+         libgcrypt-bin.tcz
+            libgcrypt.tcz
+               libgpg-error.tcz
          libgpg-error-dev.tcz
-            libgpg-error.tcz
+            libgpg-error-bin.tcz
+               libgpg-error.tcz
       libarchive-dev.tcz
          libarchive.tcz
             openssl.tcz

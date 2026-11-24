@@ -1340,9 +1340,6 @@
   "gnome-desktop4.tcz": [
     "gnome desktop gtk+ gtk4"
   ],
-  "gnome-keyring-dev.tcz": [
-    "password secrets daemon gtk+ gtk3 gnome dev"
-  ],
   "gnome-keyring.tcz": [
     "password secrets daemon gtk+ gtk3 gnome"
   ],
@@ -2684,8 +2681,11 @@
   "libfontenc.tcz": [
     "fontenc"
   ],
+  "libgcrypt-bin.tcz": [
+    "CLI CRYPTO bin"
+  ],
   "libgcrypt-dev.tcz": [
-    "CLI CRYPTO"
+    "CLI CRYPTO dev"
   ],
   "libgcrypt.tcz": [
     "CLI CRYPTO"
@@ -2719,6 +2719,9 @@
   ],
   "libglade.tcz": [
     "glade"
+  ],
+  "libgpg-error-bin.tcz": [
+    "LIBRARY bin"
   ],
   "libgpg-error-dev.tcz": [
     "LIBRARY"
