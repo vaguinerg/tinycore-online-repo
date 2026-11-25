@@ -251,10 +251,12 @@ libvirt-glib-dev.tcz
          openssl-dev.tcz
             openssl.tcz
       libgcrypt-dev.tcz
-         libgcrypt.tcz
-            libgpg-error.tcz
+         libgcrypt-bin.tcz
+            libgcrypt.tcz
+               libgpg-error.tcz
          libgpg-error-dev.tcz
-            libgpg-error.tcz
+            libgpg-error-bin.tcz
+               libgpg-error.tcz
       curl-dev.tcz
          curl.tcz
             ca-certificates.tcz

@@ -5203,10 +5203,12 @@ gtk-vnc-dev.tcz
                   spirv-tools.tcz
                   spirv-headers.tcz
    libgcrypt-dev.tcz
-      libgcrypt.tcz
-         libgpg-error.tcz
+      libgcrypt-bin.tcz
+         libgcrypt.tcz
+            libgpg-error.tcz
       libgpg-error-dev.tcz
-         libgpg-error.tcz
+         libgpg-error-bin.tcz
+            libgpg-error.tcz
    cyrus-sasl-dev.tcz
       cyrus-sasl.tcz
          openssl.tcz

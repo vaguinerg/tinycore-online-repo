@@ -5253,10 +5253,12 @@ wireshark-dev.tcz
       libnl-dev.tcz
          libnl.tcz
    libgcrypt-dev.tcz
-      libgcrypt.tcz
-         libgpg-error.tcz
+      libgcrypt-bin.tcz
+         libgcrypt.tcz
+            libgpg-error.tcz
       libgpg-error-dev.tcz
-         libgpg-error.tcz
+         libgpg-error-bin.tcz
+            libgpg-error.tcz
    lua-5.3-dev.tcz
    sbc-dev.tcz
       sbc.tcz

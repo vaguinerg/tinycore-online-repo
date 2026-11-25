@@ -250055,6 +250055,7 @@
   "libassuan-dev.tcz": [
     "/usr/local/bin/libassuan-config",
     "/usr/local/include/assuan.h",
+    "/usr/local/lib/pkgconfig/libassuan.pc",
     "/usr/local/share/aclocal/libassuan.m4"
   ],
   "libassuan.tcz": [
@@ -252848,19 +252849,20 @@
     "/usr/local/lib/libfontenc.so.1",
     "/usr/local/lib/libfontenc.so.1.0.0"
   ],
+  "libgcrypt-bin.tcz": [
+    "/usr/local/bin/dumpsexp",
+    "/usr/local/bin/hmac256",
+    "/usr/local/bin/mpicalc"
+  ],
   "libgcrypt-dev.tcz": [
-    "/usr/local/bin/libgcrypt-config",
     "/usr/local/include/gcrypt.h",
     "/usr/local/lib/pkgconfig/libgcrypt.pc",
     "/usr/local/share/aclocal/libgcrypt.m4"
   ],
   "libgcrypt.tcz": [
-    "/usr/local/bin/dumpsexp",
-    "/usr/local/bin/hmac256",
-    "/usr/local/bin/mpicalc",
     "/usr/local/lib/libgcrypt.so",
     "/usr/local/lib/libgcrypt.so.20",
-    "/usr/local/lib/libgcrypt.so.20.4.3"
+    "/usr/local/lib/libgcrypt.so.20.8.9"
   ],
   "libgd-bin.tcz": [
     "/usr/local/bin/annotate",
@@ -254168,25 +254170,26 @@
     "/usr/local/lib/libgovirt.so.2",
     "/usr/local/lib/libgovirt.so.2.1.0"
   ],
+  "libgpg-error-bin.tcz": [
+    "/usr/local/bin/gpg-error",
+    "/usr/local/bin/yat2m"
+  ],
   "libgpg-error-dev.tcz": [
-    "/usr/local/bin/gpg-error-config",
     "/usr/local/bin/gpgrt-config",
     "/usr/local/include/gpg-error.h",
     "/usr/local/include/gpgrt.h",
     "/usr/local/lib/pkgconfig/gpg-error.pc",
     "/usr/local/share/aclocal/gpg-error.m4",
-    "/usr/local/share/aclocal/gpgrt.m4",
+    "/usr/local/share/aclocal/gpgrt.m4"
+  ],
+  "libgpg-error.tcz": [
+    "/usr/local/lib/libgpg-error.so",
+    "/usr/local/lib/libgpg-error.so.0",
+    "/usr/local/lib/libgpg-error.so.0.42.1",
     "/usr/local/share/common-lisp/source/gpg-error/gpg-error-codes.lisp",
     "/usr/local/share/common-lisp/source/gpg-error/gpg-error-package.lisp",
     "/usr/local/share/common-lisp/source/gpg-error/gpg-error.asd",
-    "/usr/local/share/common-lisp/source/gpg-error/gpg-error.lisp"
-  ],
-  "libgpg-error.tcz": [
-    "/usr/local/bin/gpg-error",
-    "/usr/local/bin/yat2m",
-    "/usr/local/lib/libgpg-error.so",
-    "/usr/local/lib/libgpg-error.so.0",
-    "/usr/local/lib/libgpg-error.so.0.32.0",
+    "/usr/local/share/common-lisp/source/gpg-error/gpg-error.lisp",
     "/usr/local/share/libgpg-error/errorref.txt"
   ],
   "libgphoto2-dev.tcz": [
@@ -255824,8 +255827,8 @@
     "/usr/local/lib/libkeybinder-3.0.so"
   ],
   "libksba-dev.tcz": [
-    "/usr/local/bin/ksba-config",
     "/usr/local/include/ksba.h",
+    "/usr/local/lib/pkgconfig/ksba.pc",
     "/usr/local/share/aclocal/ksba.m4"
   ],
   "libksba.tcz": [
@@ -424240,8 +424243,8 @@
     "./usr/local/lib/modules/6.18.35-tinycore64/kernel/drivers/gpu/drm/nouveau/nouveau.ko.gz"
   ],
   "npth-dev.tcz": [
-    "/usr/local/bin/npth-config",
     "/usr/local/include/npth.h",
+    "/usr/local/lib/pkgconfig/npth.pc",
     "/usr/local/share/aclocal/npth.m4"
   ],
   "npth.tcz": [
