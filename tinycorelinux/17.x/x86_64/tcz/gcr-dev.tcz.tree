@@ -154,15 +154,19 @@ gcr-dev.tcz
       p11-kit.tcz
          libffi.tcz
          libtasn1-4.tcz
+      libsecret.tcz
+         libgcrypt.tcz
+            libgpg-error.tcz
+         glib2.tcz
+            libffi.tcz
+            pcre21042.tcz
       gnupg.tcz
-         libassuan.tcz
+         libassuan3.tcz
             libgpg-error.tcz
          libgcrypt.tcz
             libgpg-error.tcz
          libksba.tcz
             libgpg-error.tcz
-         libusb.tcz
-            udev-lib.tcz
          gnutls38.tcz
             p11-kit.tcz
                libffi.tcz
@@ -170,11 +174,25 @@ gcr-dev.tcz
             nettle39.tcz
                gmp.tcz
             libidn2.tcz
-               libunistring.tcz
-               ncursesw.tcz
+               libunistring1.tcz
+            unbound.tcz
+               expat2.tcz
+               libevent.tcz
+                  openssl.tcz
             libzstd.tcz
+            brotli.tcz
          npth.tcz
+         openldap.tcz
+            cyrus-sasl.tcz
+               openssl.tcz
+            unixODBC.tcz
+               readline.tcz
+                  ncursesw.tcz
+               libltdl.tcz
          sqlite3.tcz
+         bzip2-lib.tcz
+         readline.tcz
+            ncursesw.tcz
       gtk-update-icon-cache.tcz
          gdk-pixbuf2.tcz
             libtiff.tcz
@@ -5260,29 +5278,48 @@ gcr-dev.tcz
       libffi-dev.tcz
          libffi.tcz
       libtasn1-4-dev.tcz
-         libtasn1-4.tcz
-   libgcrypt-dev.tcz
-      libgcrypt-bin.tcz
+         libtasn1-4-bin.tcz
+            libtasn1-4.tcz
+   libsecret-dev.tcz
+      libsecret.tcz
          libgcrypt.tcz
             libgpg-error.tcz
-      libgpg-error-dev.tcz
-         libgpg-error-bin.tcz
-            libgpg-error.tcz
-   libassuan-dev.tcz
-      libassuan.tcz
-         libgpg-error.tcz
-      libgpg-error-dev.tcz
-         libgpg-error-bin.tcz
-            libgpg-error.tcz
-   libksba-dev.tcz
-      libksba.tcz
-         libgpg-error.tcz
-      libgpg-error-dev.tcz
-         libgpg-error-bin.tcz
-            libgpg-error.tcz
-   libusb-dev.tcz
-      libusb.tcz
-         udev-lib.tcz
-      udev-lib-dev.tcz
-         udev-lib.tcz
+         glib2.tcz
+            libffi.tcz
+            pcre21042.tcz
+      libgcrypt-dev.tcz
+         libgcrypt-bin.tcz
+            libgcrypt.tcz
+               libgpg-error.tcz
+         libgpg-error-dev.tcz
+            libgpg-error-bin.tcz
+               libgpg-error.tcz
+      glib2-dev.tcz
+         glib2-python.tcz
+            glib2.tcz
+               libffi.tcz
+               pcre21042.tcz
+            python3.14.tcz
+               openssl.tcz
+               sqlite3.tcz
+               gdbm.tcz
+               bzip2-lib.tcz
+               liblzma.tcz
+               readline.tcz
+                  ncursesw.tcz
+               libffi.tcz
+               libnsl.tcz
+                  libtirpc.tcz
+         pcre21042-dev.tcz
+            pcre21042.tcz
+            bzip2-dev.tcz
+               bzip2.tcz
+                  bzip2-lib.tcz
+            readline-dev.tcz
+               readline.tcz
+                  ncursesw.tcz
+               ncursesw-dev.tcz
+                  ncursesw.tcz
+         libffi-dev.tcz
+            libffi.tcz
 

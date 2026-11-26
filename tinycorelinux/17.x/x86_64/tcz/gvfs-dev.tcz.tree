@@ -181,15 +181,19 @@ gvfs-dev.tcz
             p11-kit.tcz
                libffi.tcz
                libtasn1-4.tcz
+            libsecret.tcz
+               libgcrypt.tcz
+                  libgpg-error.tcz
+               glib2.tcz
+                  libffi.tcz
+                  pcre21042.tcz
             gnupg.tcz
-               libassuan.tcz
+               libassuan3.tcz
                   libgpg-error.tcz
                libgcrypt.tcz
                   libgpg-error.tcz
                libksba.tcz
                   libgpg-error.tcz
-               libusb.tcz
-                  udev-lib.tcz
                gnutls38.tcz
                   p11-kit.tcz
                      libffi.tcz
@@ -197,11 +201,25 @@ gvfs-dev.tcz
                   nettle39.tcz
                      gmp.tcz
                   libidn2.tcz
-                     libunistring.tcz
-                     ncursesw.tcz
+                     libunistring1.tcz
+                  unbound.tcz
+                     expat2.tcz
+                     libevent.tcz
+                        openssl.tcz
                   libzstd.tcz
+                  brotli.tcz
                npth.tcz
+               openldap.tcz
+                  cyrus-sasl.tcz
+                     openssl.tcz
+                  unixODBC.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     libltdl.tcz
                sqlite3.tcz
+               bzip2-lib.tcz
+               readline.tcz
+                  ncursesw.tcz
             gtk-update-icon-cache.tcz
                gdk-pixbuf2.tcz
                   libtiff.tcz
@@ -283,7 +301,6 @@ gvfs-dev.tcz
                      gdk-pixbuf2-xlib.tcz
                   dav1d.tcz
                hicolor-icon-theme.tcz
-         linux-pam.tcz
          openssh.tcz
             openssl.tcz
       libxml2.tcz
@@ -460,16 +477,20 @@ gvfs-dev.tcz
                         nettle39.tcz
                            gmp.tcz
                         libidn2.tcz
-                           libunistring.tcz
-                           ncursesw.tcz
+                           libunistring1.tcz
+                        unbound.tcz
+                           expat2.tcz
+                           libevent.tcz
+                              openssl.tcz
                         libzstd.tcz
+                        brotli.tcz
                   libxml2.tcz
                      liblzma.tcz
                   sqlite3.tcz
                   libpsl.tcz
                      libidn2.tcz
-                        libunistring.tcz
-                        ncursesw.tcz
+                        libunistring1.tcz
+                     libunistring.tcz
                libavahi.tcz
                   dbus.tcz
                      expat2.tcz
@@ -862,17 +883,22 @@ gvfs-dev.tcz
                      nettle39.tcz
                         gmp.tcz
                      libidn2.tcz
-                        libunistring.tcz
-                        ncursesw.tcz
+                        libunistring1.tcz
+                     unbound.tcz
+                        expat2.tcz
+                        libevent.tcz
+                           openssl.tcz
                      libzstd.tcz
+                     brotli.tcz
                libxml2.tcz
                   liblzma.tcz
                sqlite3.tcz
                libpsl.tcz
                   libidn2.tcz
-                     libunistring.tcz
-                     ncursesw.tcz
+                     libunistring1.tcz
+                  libunistring.tcz
                libnghttp2.tcz
+               libunistring.tcz
          rest1.tcz
             libsoup3.tcz
                glib-networking.tcz
@@ -887,17 +913,22 @@ gvfs-dev.tcz
                      nettle39.tcz
                         gmp.tcz
                      libidn2.tcz
-                        libunistring.tcz
-                        ncursesw.tcz
+                        libunistring1.tcz
+                     unbound.tcz
+                        expat2.tcz
+                        libevent.tcz
+                           openssl.tcz
                      libzstd.tcz
+                     brotli.tcz
                libxml2.tcz
                   liblzma.tcz
                sqlite3.tcz
                libpsl.tcz
                   libidn2.tcz
-                     libunistring.tcz
-                     ncursesw.tcz
+                     libunistring1.tcz
+                  libunistring.tcz
                libnghttp2.tcz
+               libunistring.tcz
          telepathy-glib.tcz
             dbus-glib.tcz
                dbus.tcz
@@ -1427,15 +1458,19 @@ gvfs-dev.tcz
             p11-kit.tcz
                libffi.tcz
                libtasn1-4.tcz
+            libsecret.tcz
+               libgcrypt.tcz
+                  libgpg-error.tcz
+               glib2.tcz
+                  libffi.tcz
+                  pcre21042.tcz
             gnupg.tcz
-               libassuan.tcz
+               libassuan3.tcz
                   libgpg-error.tcz
                libgcrypt.tcz
                   libgpg-error.tcz
                libksba.tcz
                   libgpg-error.tcz
-               libusb.tcz
-                  udev-lib.tcz
                gnutls38.tcz
                   p11-kit.tcz
                      libffi.tcz
@@ -1443,11 +1478,25 @@ gvfs-dev.tcz
                   nettle39.tcz
                      gmp.tcz
                   libidn2.tcz
-                     libunistring.tcz
-                     ncursesw.tcz
+                     libunistring1.tcz
+                  unbound.tcz
+                     expat2.tcz
+                     libevent.tcz
+                        openssl.tcz
                   libzstd.tcz
+                  brotli.tcz
                npth.tcz
+               openldap.tcz
+                  cyrus-sasl.tcz
+                     openssl.tcz
+                  unixODBC.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     libltdl.tcz
                sqlite3.tcz
+               bzip2-lib.tcz
+               readline.tcz
+                  ncursesw.tcz
             gtk-update-icon-cache.tcz
                gdk-pixbuf2.tcz
                   libtiff.tcz
@@ -1529,7 +1578,6 @@ gvfs-dev.tcz
                      gdk-pixbuf2-xlib.tcz
                   dav1d.tcz
                hicolor-icon-theme.tcz
-         linux-pam.tcz
          openssh.tcz
             openssl.tcz
       gcr-dev.tcz
@@ -1688,15 +1736,19 @@ gvfs-dev.tcz
             p11-kit.tcz
                libffi.tcz
                libtasn1-4.tcz
+            libsecret.tcz
+               libgcrypt.tcz
+                  libgpg-error.tcz
+               glib2.tcz
+                  libffi.tcz
+                  pcre21042.tcz
             gnupg.tcz
-               libassuan.tcz
+               libassuan3.tcz
                   libgpg-error.tcz
                libgcrypt.tcz
                   libgpg-error.tcz
                libksba.tcz
                   libgpg-error.tcz
-               libusb.tcz
-                  udev-lib.tcz
                gnutls38.tcz
                   p11-kit.tcz
                      libffi.tcz
@@ -1704,11 +1756,25 @@ gvfs-dev.tcz
                   nettle39.tcz
                      gmp.tcz
                   libidn2.tcz
-                     libunistring.tcz
-                     ncursesw.tcz
+                     libunistring1.tcz
+                  unbound.tcz
+                     expat2.tcz
+                     libevent.tcz
+                        openssl.tcz
                   libzstd.tcz
+                  brotli.tcz
                npth.tcz
+               openldap.tcz
+                  cyrus-sasl.tcz
+                     openssl.tcz
+                  unixODBC.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     libltdl.tcz
                sqlite3.tcz
+               bzip2-lib.tcz
+               readline.tcz
+                  ncursesw.tcz
             gtk-update-icon-cache.tcz
                gdk-pixbuf2.tcz
                   libtiff.tcz
@@ -6794,31 +6860,50 @@ gvfs-dev.tcz
             libffi-dev.tcz
                libffi.tcz
             libtasn1-4-dev.tcz
-               libtasn1-4.tcz
-         libgcrypt-dev.tcz
-            libgcrypt-bin.tcz
+               libtasn1-4-bin.tcz
+                  libtasn1-4.tcz
+         libsecret-dev.tcz
+            libsecret.tcz
                libgcrypt.tcz
                   libgpg-error.tcz
-            libgpg-error-dev.tcz
-               libgpg-error-bin.tcz
-                  libgpg-error.tcz
-         libassuan-dev.tcz
-            libassuan.tcz
-               libgpg-error.tcz
-            libgpg-error-dev.tcz
-               libgpg-error-bin.tcz
-                  libgpg-error.tcz
-         libksba-dev.tcz
-            libksba.tcz
-               libgpg-error.tcz
-            libgpg-error-dev.tcz
-               libgpg-error-bin.tcz
-                  libgpg-error.tcz
-         libusb-dev.tcz
-            libusb.tcz
-               udev-lib.tcz
-            udev-lib-dev.tcz
-               udev-lib.tcz
+               glib2.tcz
+                  libffi.tcz
+                  pcre21042.tcz
+            libgcrypt-dev.tcz
+               libgcrypt-bin.tcz
+                  libgcrypt.tcz
+                     libgpg-error.tcz
+               libgpg-error-dev.tcz
+                  libgpg-error-bin.tcz
+                     libgpg-error.tcz
+            glib2-dev.tcz
+               glib2-python.tcz
+                  glib2.tcz
+                     libffi.tcz
+                     pcre21042.tcz
+                  python3.14.tcz
+                     openssl.tcz
+                     sqlite3.tcz
+                     gdbm.tcz
+                     bzip2-lib.tcz
+                     liblzma.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     libffi.tcz
+                     libnsl.tcz
+                        libtirpc.tcz
+               pcre21042-dev.tcz
+                  pcre21042.tcz
+                  bzip2-dev.tcz
+                     bzip2.tcz
+                        bzip2-lib.tcz
+                  readline-dev.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     ncursesw-dev.tcz
+                        ncursesw.tcz
+               libffi-dev.tcz
+                  libffi.tcz
       linux-pam-dev.tcz
          linux-pam.tcz
    libxml2-dev.tcz
@@ -7195,16 +7280,20 @@ gvfs-dev.tcz
                         nettle39.tcz
                            gmp.tcz
                         libidn2.tcz
-                           libunistring.tcz
-                           ncursesw.tcz
+                           libunistring1.tcz
+                        unbound.tcz
+                           expat2.tcz
+                           libevent.tcz
+                              openssl.tcz
                         libzstd.tcz
+                        brotli.tcz
                   libxml2.tcz
                      liblzma.tcz
                   sqlite3.tcz
                   libpsl.tcz
                      libidn2.tcz
-                        libunistring.tcz
-                        ncursesw.tcz
+                        libunistring1.tcz
+                     libunistring.tcz
                libavahi.tcz
                   dbus.tcz
                      expat2.tcz
@@ -7597,17 +7686,22 @@ gvfs-dev.tcz
                      nettle39.tcz
                         gmp.tcz
                      libidn2.tcz
-                        libunistring.tcz
-                        ncursesw.tcz
+                        libunistring1.tcz
+                     unbound.tcz
+                        expat2.tcz
+                        libevent.tcz
+                           openssl.tcz
                      libzstd.tcz
+                     brotli.tcz
                libxml2.tcz
                   liblzma.tcz
                sqlite3.tcz
                libpsl.tcz
                   libidn2.tcz
-                     libunistring.tcz
-                     ncursesw.tcz
+                     libunistring1.tcz
+                  libunistring.tcz
                libnghttp2.tcz
+               libunistring.tcz
          rest1.tcz
             libsoup3.tcz
                glib-networking.tcz
@@ -7622,17 +7716,22 @@ gvfs-dev.tcz
                      nettle39.tcz
                         gmp.tcz
                      libidn2.tcz
-                        libunistring.tcz
-                        ncursesw.tcz
+                        libunistring1.tcz
+                     unbound.tcz
+                        expat2.tcz
+                        libevent.tcz
+                           openssl.tcz
                      libzstd.tcz
+                     brotli.tcz
                libxml2.tcz
                   liblzma.tcz
                sqlite3.tcz
                libpsl.tcz
                   libidn2.tcz
-                     libunistring.tcz
-                     ncursesw.tcz
+                     libunistring1.tcz
+                  libunistring.tcz
                libnghttp2.tcz
+               libunistring.tcz
          telepathy-glib.tcz
             dbus-glib.tcz
                dbus.tcz
@@ -7868,16 +7967,20 @@ gvfs-dev.tcz
                         nettle39.tcz
                            gmp.tcz
                         libidn2.tcz
-                           libunistring.tcz
-                           ncursesw.tcz
+                           libunistring1.tcz
+                        unbound.tcz
+                           expat2.tcz
+                           libevent.tcz
+                              openssl.tcz
                         libzstd.tcz
+                        brotli.tcz
                   libxml2.tcz
                      liblzma.tcz
                   sqlite3.tcz
                   libpsl.tcz
                      libidn2.tcz
-                        libunistring.tcz
-                        ncursesw.tcz
+                        libunistring1.tcz
+                     libunistring.tcz
                libavahi.tcz
                   dbus.tcz
                      expat2.tcz
@@ -8270,17 +8373,22 @@ gvfs-dev.tcz
                      nettle39.tcz
                         gmp.tcz
                      libidn2.tcz
-                        libunistring.tcz
-                        ncursesw.tcz
+                        libunistring1.tcz
+                     unbound.tcz
+                        expat2.tcz
+                        libevent.tcz
+                           openssl.tcz
                      libzstd.tcz
+                     brotli.tcz
                libxml2.tcz
                   liblzma.tcz
                sqlite3.tcz
                libpsl.tcz
                   libidn2.tcz
-                     libunistring.tcz
-                     ncursesw.tcz
+                     libunistring1.tcz
+                  libunistring.tcz
                libnghttp2.tcz
+               libunistring.tcz
          gst-plugins-bad-dev.tcz
             gst-plugins-bad.tcz
                gst-plugins-base.tcz
@@ -15415,17 +15523,22 @@ gvfs-dev.tcz
                                     nettle39.tcz
                                        gmp.tcz
                                     libidn2.tcz
-                                       libunistring.tcz
-                                       ncursesw.tcz
+                                       libunistring1.tcz
+                                    unbound.tcz
+                                       expat2.tcz
+                                       libevent.tcz
+                                          openssl.tcz
                                     libzstd.tcz
+                                    brotli.tcz
                               libxml2.tcz
                                  liblzma.tcz
                               sqlite3.tcz
                               libpsl.tcz
                                  libidn2.tcz
-                                    libunistring.tcz
-                                    ncursesw.tcz
+                                    libunistring1.tcz
+                                 libunistring.tcz
                               libnghttp2.tcz
+                              libunistring.tcz
                   gst-plugins-base.tcz
                      gstreamer.tcz
                         glib2.tcz
@@ -15508,17 +15621,22 @@ gvfs-dev.tcz
                                     nettle39.tcz
                                        gmp.tcz
                                     libidn2.tcz
-                                       libunistring.tcz
-                                       ncursesw.tcz
+                                       libunistring1.tcz
+                                    unbound.tcz
+                                       expat2.tcz
+                                       libevent.tcz
+                                          openssl.tcz
                                     libzstd.tcz
+                                    brotli.tcz
                               libxml2.tcz
                                  liblzma.tcz
                               sqlite3.tcz
                               libpsl.tcz
                                  libidn2.tcz
-                                    libunistring.tcz
-                                    ncursesw.tcz
+                                    libunistring1.tcz
+                                 libunistring.tcz
                               libnghttp2.tcz
+                              libunistring.tcz
                   gupnp16-dev.tcz
                      gupnp16.tcz
                         gssdp16.tcz
@@ -15535,17 +15653,22 @@ gvfs-dev.tcz
                                     nettle39.tcz
                                        gmp.tcz
                                     libidn2.tcz
-                                       libunistring.tcz
-                                       ncursesw.tcz
+                                       libunistring1.tcz
+                                    unbound.tcz
+                                       expat2.tcz
+                                       libevent.tcz
+                                          openssl.tcz
                                     libzstd.tcz
+                                    brotli.tcz
                               libxml2.tcz
                                  liblzma.tcz
                               sqlite3.tcz
                               libpsl.tcz
                                  libidn2.tcz
-                                    libunistring.tcz
-                                    ncursesw.tcz
+                                    libunistring1.tcz
+                                 libunistring.tcz
                               libnghttp2.tcz
+                              libunistring.tcz
                      gssdp16-dev.tcz
                         gssdp16.tcz
                            libsoup3.tcz
@@ -15561,17 +15684,22 @@ gvfs-dev.tcz
                                     nettle39.tcz
                                        gmp.tcz
                                     libidn2.tcz
-                                       libunistring.tcz
-                                       ncursesw.tcz
+                                       libunistring1.tcz
+                                    unbound.tcz
+                                       expat2.tcz
+                                       libevent.tcz
+                                          openssl.tcz
                                     libzstd.tcz
+                                    brotli.tcz
                               libxml2.tcz
                                  liblzma.tcz
                               sqlite3.tcz
                               libpsl.tcz
                                  libidn2.tcz
-                                    libunistring.tcz
-                                    ncursesw.tcz
+                                    libunistring1.tcz
+                                 libunistring.tcz
                               libnghttp2.tcz
+                              libunistring.tcz
                         libsoup3-dev.tcz
                            libsoup3.tcz
                               glib-networking.tcz
@@ -15586,17 +15714,22 @@ gvfs-dev.tcz
                                     nettle39.tcz
                                        gmp.tcz
                                     libidn2.tcz
-                                       libunistring.tcz
-                                       ncursesw.tcz
+                                       libunistring1.tcz
+                                    unbound.tcz
+                                       expat2.tcz
+                                       libevent.tcz
+                                          openssl.tcz
                                     libzstd.tcz
+                                    brotli.tcz
                               libxml2.tcz
                                  liblzma.tcz
                               sqlite3.tcz
                               libpsl.tcz
                                  libidn2.tcz
-                                    libunistring.tcz
-                                    ncursesw.tcz
+                                    libunistring1.tcz
+                                 libunistring.tcz
                               libnghttp2.tcz
+                              libunistring.tcz
                            libxml2-dev.tcz
                               libxml2-bin.tcz
                                  libxml2.tcz
@@ -15630,18 +15763,19 @@ gvfs-dev.tcz
                            libpsl-dev.tcz
                               libpsl.tcz
                                  libidn2.tcz
-                                    libunistring.tcz
-                                    ncursesw.tcz
+                                    libunistring1.tcz
+                                 libunistring.tcz
                               libidn2-dev.tcz
                                  libidn2.tcz
-                                    libunistring.tcz
-                                    ncursesw.tcz
-                                 libunistring-dev.tcz
-                                    libunistring.tcz
-                                 ncursesw-dev.tcz
-                                    ncursesw.tcz
+                                    libunistring1.tcz
+                                 libunistring1-dev.tcz
+                                    libunistring1.tcz
+                              libunistring-dev.tcz
+                                 libunistring.tcz
                            libnghttp2-dev.tcz
                               libnghttp2.tcz
+                           libunistring-dev.tcz
+                              libunistring.tcz
                gst-plugins-base-dev.tcz
                   gst-plugins-base.tcz
                      gstreamer.tcz
@@ -23265,17 +23399,22 @@ gvfs-dev.tcz
                         nettle39.tcz
                            gmp.tcz
                         libidn2.tcz
-                           libunistring.tcz
-                           ncursesw.tcz
+                           libunistring1.tcz
+                        unbound.tcz
+                           expat2.tcz
+                           libevent.tcz
+                              openssl.tcz
                         libzstd.tcz
+                        brotli.tcz
                   libxml2.tcz
                      liblzma.tcz
                   sqlite3.tcz
                   libpsl.tcz
                      libidn2.tcz
-                        libunistring.tcz
-                        ncursesw.tcz
+                        libunistring1.tcz
+                     libunistring.tcz
                   libnghttp2.tcz
+                  libunistring.tcz
                libxml2-dev.tcz
                   libxml2-bin.tcz
                      libxml2.tcz
@@ -23309,18 +23448,19 @@ gvfs-dev.tcz
                libpsl-dev.tcz
                   libpsl.tcz
                      libidn2.tcz
-                        libunistring.tcz
-                        ncursesw.tcz
+                        libunistring1.tcz
+                     libunistring.tcz
                   libidn2-dev.tcz
                      libidn2.tcz
-                        libunistring.tcz
-                        ncursesw.tcz
-                     libunistring-dev.tcz
-                        libunistring.tcz
-                     ncursesw-dev.tcz
-                        ncursesw.tcz
+                        libunistring1.tcz
+                     libunistring1-dev.tcz
+                        libunistring1.tcz
+                  libunistring-dev.tcz
+                     libunistring.tcz
                libnghttp2-dev.tcz
                   libnghttp2.tcz
+               libunistring-dev.tcz
+                  libunistring.tcz
             openh264-dev.tcz
                openh264.tcz
             svt-av1-dev.tcz
@@ -28473,16 +28613,20 @@ gvfs-dev.tcz
                         nettle39.tcz
                            gmp.tcz
                         libidn2.tcz
-                           libunistring.tcz
-                           ncursesw.tcz
+                           libunistring1.tcz
+                        unbound.tcz
+                           expat2.tcz
+                           libevent.tcz
+                              openssl.tcz
                         libzstd.tcz
+                        brotli.tcz
                   libxml2.tcz
                      liblzma.tcz
                   sqlite3.tcz
                   libpsl.tcz
                      libidn2.tcz
-                        libunistring.tcz
-                        ncursesw.tcz
+                        libunistring1.tcz
+                     libunistring.tcz
                libavahi.tcz
                   dbus.tcz
                      expat2.tcz
@@ -28891,16 +29035,20 @@ gvfs-dev.tcz
                         nettle39.tcz
                            gmp.tcz
                         libidn2.tcz
-                           libunistring.tcz
-                           ncursesw.tcz
+                           libunistring1.tcz
+                        unbound.tcz
+                           expat2.tcz
+                           libevent.tcz
+                              openssl.tcz
                         libzstd.tcz
+                        brotli.tcz
                   libxml2.tcz
                      liblzma.tcz
                   sqlite3.tcz
                   libpsl.tcz
                      libidn2.tcz
-                        libunistring.tcz
-                        ncursesw.tcz
+                        libunistring1.tcz
+                     libunistring.tcz
                libxml2-dev.tcz
                   libxml2-bin.tcz
                      libxml2.tcz
@@ -28934,16 +29082,15 @@ gvfs-dev.tcz
                libpsl-dev.tcz
                   libpsl.tcz
                      libidn2.tcz
-                        libunistring.tcz
-                        ncursesw.tcz
+                        libunistring1.tcz
+                     libunistring.tcz
                   libidn2-dev.tcz
                      libidn2.tcz
-                        libunistring.tcz
-                        ncursesw.tcz
-                     libunistring-dev.tcz
-                        libunistring.tcz
-                     ncursesw-dev.tcz
-                        ncursesw.tcz
+                        libunistring1.tcz
+                     libunistring1-dev.tcz
+                        libunistring1.tcz
+                  libunistring-dev.tcz
+                     libunistring.tcz
             avahi-dev.tcz
                avahi.tcz
                   libavahi.tcz
@@ -35488,17 +35635,22 @@ gvfs-dev.tcz
                      nettle39.tcz
                         gmp.tcz
                      libidn2.tcz
-                        libunistring.tcz
-                        ncursesw.tcz
+                        libunistring1.tcz
+                     unbound.tcz
+                        expat2.tcz
+                        libevent.tcz
+                           openssl.tcz
                      libzstd.tcz
+                     brotli.tcz
                libxml2.tcz
                   liblzma.tcz
                sqlite3.tcz
                libpsl.tcz
                   libidn2.tcz
-                     libunistring.tcz
-                     ncursesw.tcz
+                     libunistring1.tcz
+                  libunistring.tcz
                libnghttp2.tcz
+               libunistring.tcz
             libxml2-dev.tcz
                libxml2-bin.tcz
                   libxml2.tcz
@@ -35532,18 +35684,19 @@ gvfs-dev.tcz
             libpsl-dev.tcz
                libpsl.tcz
                   libidn2.tcz
-                     libunistring.tcz
-                     ncursesw.tcz
+                     libunistring1.tcz
+                  libunistring.tcz
                libidn2-dev.tcz
                   libidn2.tcz
-                     libunistring.tcz
-                     ncursesw.tcz
-                  libunistring-dev.tcz
-                     libunistring.tcz
-                  ncursesw-dev.tcz
-                     ncursesw.tcz
+                     libunistring1.tcz
+                  libunistring1-dev.tcz
+                     libunistring1.tcz
+               libunistring-dev.tcz
+                  libunistring.tcz
             libnghttp2-dev.tcz
                libnghttp2.tcz
+            libunistring-dev.tcz
+               libunistring.tcz
       rest1-dev.tcz
          rest1.tcz
             libsoup3.tcz
@@ -35559,17 +35712,22 @@ gvfs-dev.tcz
                      nettle39.tcz
                         gmp.tcz
                      libidn2.tcz
-                        libunistring.tcz
-                        ncursesw.tcz
+                        libunistring1.tcz
+                     unbound.tcz
+                        expat2.tcz
+                        libevent.tcz
+                           openssl.tcz
                      libzstd.tcz
+                     brotli.tcz
                libxml2.tcz
                   liblzma.tcz
                sqlite3.tcz
                libpsl.tcz
                   libidn2.tcz
-                     libunistring.tcz
-                     ncursesw.tcz
+                     libunistring1.tcz
+                  libunistring.tcz
                libnghttp2.tcz
+               libunistring.tcz
          libsoup3-dev.tcz
             libsoup3.tcz
                glib-networking.tcz
@@ -35584,17 +35742,22 @@ gvfs-dev.tcz
                      nettle39.tcz
                         gmp.tcz
                      libidn2.tcz
-                        libunistring.tcz
-                        ncursesw.tcz
+                        libunistring1.tcz
+                     unbound.tcz
+                        expat2.tcz
+                        libevent.tcz
+                           openssl.tcz
                      libzstd.tcz
+                     brotli.tcz
                libxml2.tcz
                   liblzma.tcz
                sqlite3.tcz
                libpsl.tcz
                   libidn2.tcz
-                     libunistring.tcz
-                     ncursesw.tcz
+                     libunistring1.tcz
+                  libunistring.tcz
                libnghttp2.tcz
+               libunistring.tcz
             libxml2-dev.tcz
                libxml2-bin.tcz
                   libxml2.tcz
@@ -35628,18 +35791,19 @@ gvfs-dev.tcz
             libpsl-dev.tcz
                libpsl.tcz
                   libidn2.tcz
-                     libunistring.tcz
-                     ncursesw.tcz
+                     libunistring1.tcz
+                  libunistring.tcz
                libidn2-dev.tcz
                   libidn2.tcz
-                     libunistring.tcz
-                     ncursesw.tcz
-                  libunistring-dev.tcz
-                     libunistring.tcz
-                  ncursesw-dev.tcz
-                     ncursesw.tcz
+                     libunistring1.tcz
+                  libunistring1-dev.tcz
+                     libunistring1.tcz
+               libunistring-dev.tcz
+                  libunistring.tcz
             libnghttp2-dev.tcz
                libnghttp2.tcz
+            libunistring-dev.tcz
+               libunistring.tcz
       telepathy-glib-dev.tcz
          telepathy-glib.tcz
             dbus-glib.tcz

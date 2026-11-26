@@ -85,16 +85,20 @@ telepathy-mission-control-dev.tcz
                   nettle39.tcz
                      gmp.tcz
                   libidn2.tcz
-                     libunistring.tcz
-                     ncursesw.tcz
+                     libunistring1.tcz
+                  unbound.tcz
+                     expat2.tcz
+                     libevent.tcz
+                        openssl.tcz
                   libzstd.tcz
+                  brotli.tcz
             libxml2.tcz
                liblzma.tcz
             sqlite3.tcz
             libpsl.tcz
                libidn2.tcz
-                  libunistring.tcz
-                  ncursesw.tcz
+                  libunistring1.tcz
+               libunistring.tcz
          wpa_supplicant-dbus.tcz
             libnl.tcz
             dbus.tcz
@@ -117,7 +121,7 @@ telepathy-mission-control-dev.tcz
             readline.tcz
                ncursesw.tcz
             wireless_tools.tcz
-               wireless-6.18.2-tinycore64.tcz
+               wireless-6.18.35-tinycore64.tcz
                libiw.tcz
          dhcpcd.tcz
          modemmanager.tcz
@@ -177,7 +181,7 @@ telepathy-mission-control-dev.tcz
                   glib2.tcz
                      libffi.tcz
                      pcre21042.tcz
-               bluetooth-6.18.2-tinycore64.tcz
+               bluetooth-6.18.35-tinycore64.tcz
                sbc.tcz
                readline.tcz
                   ncursesw.tcz
@@ -236,9 +240,13 @@ telepathy-mission-control-dev.tcz
             nettle39.tcz
                gmp.tcz
             libidn2.tcz
-               libunistring.tcz
-               ncursesw.tcz
+               libunistring1.tcz
+            unbound.tcz
+               expat2.tcz
+               libevent.tcz
+                  openssl.tcz
             libzstd.tcz
+            brotli.tcz
       upower.tcz
          dbus-glib.tcz
             dbus.tcz
@@ -486,16 +494,20 @@ telepathy-mission-control-dev.tcz
                   nettle39.tcz
                      gmp.tcz
                   libidn2.tcz
-                     libunistring.tcz
-                     ncursesw.tcz
+                     libunistring1.tcz
+                  unbound.tcz
+                     expat2.tcz
+                     libevent.tcz
+                        openssl.tcz
                   libzstd.tcz
+                  brotli.tcz
             libxml2.tcz
                liblzma.tcz
             sqlite3.tcz
             libpsl.tcz
                libidn2.tcz
-                  libunistring.tcz
-                  ncursesw.tcz
+                  libunistring1.tcz
+               libunistring.tcz
          wpa_supplicant-dbus.tcz
             libnl.tcz
             dbus.tcz
@@ -518,7 +530,7 @@ telepathy-mission-control-dev.tcz
             readline.tcz
                ncursesw.tcz
             wireless_tools.tcz
-               wireless-6.18.2-tinycore64.tcz
+               wireless-6.18.35-tinycore64.tcz
                libiw.tcz
          dhcpcd.tcz
          modemmanager.tcz
@@ -578,7 +590,7 @@ telepathy-mission-control-dev.tcz
                   glib2.tcz
                      libffi.tcz
                      pcre21042.tcz
-               bluetooth-6.18.2-tinycore64.tcz
+               bluetooth-6.18.35-tinycore64.tcz
                sbc.tcz
                readline.tcz
                   ncursesw.tcz
@@ -637,9 +649,13 @@ telepathy-mission-control-dev.tcz
             nettle39.tcz
                gmp.tcz
             libidn2.tcz
-               libunistring.tcz
-               ncursesw.tcz
+               libunistring1.tcz
+            unbound.tcz
+               expat2.tcz
+               libevent.tcz
+                  openssl.tcz
             libzstd.tcz
+            brotli.tcz
       nss-dev.tcz
          nss.tcz
             nspr.tcz
@@ -893,16 +909,20 @@ telepathy-mission-control-dev.tcz
                   nettle39.tcz
                      gmp.tcz
                   libidn2.tcz
-                     libunistring.tcz
-                     ncursesw.tcz
+                     libunistring1.tcz
+                  unbound.tcz
+                     expat2.tcz
+                     libevent.tcz
+                        openssl.tcz
                   libzstd.tcz
+                  brotli.tcz
             libxml2.tcz
                liblzma.tcz
             sqlite3.tcz
             libpsl.tcz
                libidn2.tcz
-                  libunistring.tcz
-                  ncursesw.tcz
+                  libunistring1.tcz
+               libunistring.tcz
          libxml2-dev.tcz
             libxml2-bin.tcz
                libxml2.tcz
@@ -936,16 +956,15 @@ telepathy-mission-control-dev.tcz
          libpsl-dev.tcz
             libpsl.tcz
                libidn2.tcz
-                  libunistring.tcz
-                  ncursesw.tcz
+                  libunistring1.tcz
+               libunistring.tcz
             libidn2-dev.tcz
                libidn2.tcz
-                  libunistring.tcz
-                  ncursesw.tcz
-               libunistring-dev.tcz
-                  libunistring.tcz
-               ncursesw-dev.tcz
-                  ncursesw.tcz
+                  libunistring1.tcz
+               libunistring1-dev.tcz
+                  libunistring1.tcz
+            libunistring-dev.tcz
+               libunistring.tcz
       modemmanager-dev.tcz
          modemmanager.tcz
             polkit.tcz
@@ -1145,7 +1164,7 @@ telepathy-mission-control-dev.tcz
                   glib2.tcz
                      libffi.tcz
                      pcre21042.tcz
-               bluetooth-6.18.2-tinycore64.tcz
+               bluetooth-6.18.35-tinycore64.tcz
                sbc.tcz
                readline.tcz
                   ncursesw.tcz
@@ -1173,8 +1192,8 @@ telepathy-mission-control-dev.tcz
                      libogg.tcz
          alsa-dev.tcz
             alsa.tcz
-               alsa-modules-6.18.2-tinycore64.tcz
-                  input-joystick-6.18.2-tinycore64.tcz
+               alsa-modules-6.18.35-tinycore64.tcz
+                  input-joystick-6.18.35-tinycore64.tcz
                libasound.tcz
                ncursesw.tcz
             ncursesw-dev.tcz
@@ -1537,16 +1556,21 @@ telepathy-mission-control-dev.tcz
             openssl-dev.tcz
                openssl.tcz
       gnutls38-dev.tcz
-         gnutls38.tcz
-            p11-kit.tcz
-               libffi.tcz
-               libtasn1-4.tcz
-            nettle39.tcz
-               gmp.tcz
-            libidn2.tcz
-               libunistring.tcz
-               ncursesw.tcz
-            libzstd.tcz
+         gnutls38-bin.tcz
+            gnutls38.tcz
+               p11-kit.tcz
+                  libffi.tcz
+                  libtasn1-4.tcz
+               nettle39.tcz
+                  gmp.tcz
+               libidn2.tcz
+                  libunistring1.tcz
+               unbound.tcz
+                  expat2.tcz
+                  libevent.tcz
+                     openssl.tcz
+               libzstd.tcz
+               brotli.tcz
          p11-kit-dev.tcz
             p11-kit.tcz
                libffi.tcz
@@ -1554,20 +1578,31 @@ telepathy-mission-control-dev.tcz
             libffi-dev.tcz
                libffi.tcz
             libtasn1-4-dev.tcz
-               libtasn1-4.tcz
+               libtasn1-4-bin.tcz
+                  libtasn1-4.tcz
          nettle39-dev.tcz
-            nettle39.tcz
-               gmp.tcz
+            nettle39-bin.tcz
+               nettle39.tcz
+                  gmp.tcz
             gmp-dev.tcz
                gmp.tcz
          libidn2-dev.tcz
             libidn2.tcz
-               libunistring.tcz
-               ncursesw.tcz
-            libunistring-dev.tcz
-               libunistring.tcz
-            ncursesw-dev.tcz
-               ncursesw.tcz
+               libunistring1.tcz
+            libunistring1-dev.tcz
+               libunistring1.tcz
+         unbound-dev.tcz
+            unbound.tcz
+               expat2.tcz
+               libevent.tcz
+                  openssl.tcz
+            libevent-dev.tcz
+               libevent.tcz
+                  openssl.tcz
+               openssl-dev.tcz
+                  openssl.tcz
+            expat2-dev.tcz
+               expat2.tcz
          zstd-dev.tcz
             zstd.tcz
                libzstd.tcz
@@ -1577,6 +1612,8 @@ telepathy-mission-control-dev.tcz
                liblzma.tcz
             liblz4-dev.tcz
                liblz4.tcz
+         brotli-dev.tcz
+            brotli.tcz
    upower-dev.tcz
       upower.tcz
          dbus-glib.tcz

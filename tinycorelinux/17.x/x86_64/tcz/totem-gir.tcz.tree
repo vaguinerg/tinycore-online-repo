@@ -166,16 +166,20 @@ totem-gir.tcz
                   nettle39.tcz
                      gmp.tcz
                   libidn2.tcz
-                     libunistring.tcz
-                     ncursesw.tcz
+                     libunistring1.tcz
+                  unbound.tcz
+                     expat2.tcz
+                     libevent.tcz
+                        openssl.tcz
                   libzstd.tcz
+                  brotli.tcz
             libxml2.tcz
                liblzma.tcz
             sqlite3.tcz
             libpsl.tcz
                libidn2.tcz
-                  libunistring.tcz
-                  ncursesw.tcz
+                  libunistring1.tcz
+               libunistring.tcz
          libgcrypt.tcz
             libgpg-error.tcz
          libarchive.tcz
@@ -372,16 +376,20 @@ totem-gir.tcz
                         nettle39.tcz
                            gmp.tcz
                         libidn2.tcz
-                           libunistring.tcz
-                           ncursesw.tcz
+                           libunistring1.tcz
+                        unbound.tcz
+                           expat2.tcz
+                           libevent.tcz
+                              openssl.tcz
                         libzstd.tcz
+                        brotli.tcz
                   libxml2.tcz
                      liblzma.tcz
                   sqlite3.tcz
                   libpsl.tcz
                      libidn2.tcz
-                        libunistring.tcz
-                        ncursesw.tcz
+                        libunistring1.tcz
+                     libunistring.tcz
                libgcrypt.tcz
                   libgpg-error.tcz
                libarchive.tcz
@@ -408,17 +416,22 @@ totem-gir.tcz
                      nettle39.tcz
                         gmp.tcz
                      libidn2.tcz
-                        libunistring.tcz
-                        ncursesw.tcz
+                        libunistring1.tcz
+                     unbound.tcz
+                        expat2.tcz
+                        libevent.tcz
+                           openssl.tcz
                      libzstd.tcz
+                     brotli.tcz
                libxml2.tcz
                   liblzma.tcz
                sqlite3.tcz
                libpsl.tcz
                   libidn2.tcz
-                     libunistring.tcz
-                     ncursesw.tcz
+                     libunistring1.tcz
+                  libunistring.tcz
                libnghttp2.tcz
+               libunistring.tcz
          libmediaart.tcz
             gdk-pixbuf2.tcz
                libtiff.tcz
@@ -453,16 +466,20 @@ totem-gir.tcz
                         nettle39.tcz
                            gmp.tcz
                         libidn2.tcz
-                           libunistring.tcz
-                           ncursesw.tcz
+                           libunistring1.tcz
+                        unbound.tcz
+                           expat2.tcz
+                           libevent.tcz
+                              openssl.tcz
                         libzstd.tcz
+                        brotli.tcz
                   libxml2.tcz
                      liblzma.tcz
                   sqlite3.tcz
                   libpsl.tcz
                      libidn2.tcz
-                        libunistring.tcz
-                        ncursesw.tcz
+                        libunistring1.tcz
+                     libunistring.tcz
             gcr.tcz
                gtk3.tcz
                   libepoxy.tcz
@@ -618,15 +635,19 @@ totem-gir.tcz
                p11-kit.tcz
                   libffi.tcz
                   libtasn1-4.tcz
+               libsecret.tcz
+                  libgcrypt.tcz
+                     libgpg-error.tcz
+                  glib2.tcz
+                     libffi.tcz
+                     pcre21042.tcz
                gnupg.tcz
-                  libassuan.tcz
+                  libassuan3.tcz
                      libgpg-error.tcz
                   libgcrypt.tcz
                      libgpg-error.tcz
                   libksba.tcz
                      libgpg-error.tcz
-                  libusb.tcz
-                     udev-lib.tcz
                   gnutls38.tcz
                      p11-kit.tcz
                         libffi.tcz
@@ -634,11 +655,25 @@ totem-gir.tcz
                      nettle39.tcz
                         gmp.tcz
                      libidn2.tcz
-                        libunistring.tcz
-                        ncursesw.tcz
+                        libunistring1.tcz
+                     unbound.tcz
+                        expat2.tcz
+                        libevent.tcz
+                           openssl.tcz
                      libzstd.tcz
+                     brotli.tcz
                   npth.tcz
+                  openldap.tcz
+                     cyrus-sasl.tcz
+                        openssl.tcz
+                     unixODBC.tcz
+                        readline.tcz
+                           ncursesw.tcz
+                        libltdl.tcz
                   sqlite3.tcz
+                  bzip2-lib.tcz
+                  readline.tcz
+                     ncursesw.tcz
                gtk-update-icon-cache.tcz
                   gdk-pixbuf2.tcz
                      libtiff.tcz
@@ -852,16 +887,20 @@ totem-gir.tcz
                               nettle39.tcz
                                  gmp.tcz
                               libidn2.tcz
-                                 libunistring.tcz
-                                 ncursesw.tcz
+                                 libunistring1.tcz
+                              unbound.tcz
+                                 expat2.tcz
+                                 libevent.tcz
+                                    openssl.tcz
                               libzstd.tcz
+                              brotli.tcz
                         libxml2.tcz
                            liblzma.tcz
                         sqlite3.tcz
                         libpsl.tcz
                            libidn2.tcz
-                              libunistring.tcz
-                              ncursesw.tcz
+                              libunistring1.tcz
+                           libunistring.tcz
                      libavahi.tcz
                         dbus.tcz
                            expat2.tcz
@@ -1254,17 +1293,22 @@ totem-gir.tcz
                            nettle39.tcz
                               gmp.tcz
                            libidn2.tcz
-                              libunistring.tcz
-                              ncursesw.tcz
+                              libunistring1.tcz
+                           unbound.tcz
+                              expat2.tcz
+                              libevent.tcz
+                                 openssl.tcz
                            libzstd.tcz
+                           brotli.tcz
                      libxml2.tcz
                         liblzma.tcz
                      sqlite3.tcz
                      libpsl.tcz
                         libidn2.tcz
-                           libunistring.tcz
-                           ncursesw.tcz
+                           libunistring1.tcz
+                        libunistring.tcz
                      libnghttp2.tcz
+                     libunistring.tcz
                rest1.tcz
                   libsoup3.tcz
                      glib-networking.tcz
@@ -1279,17 +1323,22 @@ totem-gir.tcz
                            nettle39.tcz
                               gmp.tcz
                            libidn2.tcz
-                              libunistring.tcz
-                              ncursesw.tcz
+                              libunistring1.tcz
+                           unbound.tcz
+                              expat2.tcz
+                              libevent.tcz
+                                 openssl.tcz
                            libzstd.tcz
+                           brotli.tcz
                      libxml2.tcz
                         liblzma.tcz
                      sqlite3.tcz
                      libpsl.tcz
                         libidn2.tcz
-                           libunistring.tcz
-                           ncursesw.tcz
+                           libunistring1.tcz
+                        libunistring.tcz
                      libnghttp2.tcz
+                     libunistring.tcz
                telepathy-glib.tcz
                   dbus-glib.tcz
                      dbus.tcz
@@ -1510,17 +1559,22 @@ totem-gir.tcz
                      nettle39.tcz
                         gmp.tcz
                      libidn2.tcz
-                        libunistring.tcz
-                        ncursesw.tcz
+                        libunistring1.tcz
+                     unbound.tcz
+                        expat2.tcz
+                        libevent.tcz
+                           openssl.tcz
                      libzstd.tcz
+                     brotli.tcz
                libxml2.tcz
                   liblzma.tcz
                sqlite3.tcz
                libpsl.tcz
                   libidn2.tcz
-                     libunistring.tcz
-                     ncursesw.tcz
+                     libunistring1.tcz
+                  libunistring.tcz
                libnghttp2.tcz
+               libunistring.tcz
          liboauth.tcz
             curl.tcz
                ca-certificates.tcz

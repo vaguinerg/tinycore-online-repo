@@ -291,9 +291,13 @@ gimp2-dev.tcz
                nettle39.tcz
                   gmp.tcz
                libidn2.tcz
-                  libunistring.tcz
-                  ncursesw.tcz
+                  libunistring1.tcz
+               unbound.tcz
+                  expat2.tcz
+                  libevent.tcz
+                     openssl.tcz
                libzstd.tcz
+               brotli.tcz
          fontconfig.tcz
             expat2.tcz
             freetype.tcz
@@ -317,9 +321,13 @@ gimp2-dev.tcz
             nettle39.tcz
                gmp.tcz
             libidn2.tcz
-               libunistring.tcz
-               ncursesw.tcz
+               libunistring1.tcz
+            unbound.tcz
+               expat2.tcz
+               libevent.tcz
+                  openssl.tcz
             libzstd.tcz
+            brotli.tcz
       libmypaint.tcz
          glib2.tcz
             libffi.tcz
@@ -1133,9 +1141,13 @@ gimp2-dev.tcz
                      nettle39.tcz
                         gmp.tcz
                      libidn2.tcz
-                        libunistring.tcz
-                        ncursesw.tcz
+                        libunistring1.tcz
+                     unbound.tcz
+                        expat2.tcz
+                        libevent.tcz
+                           openssl.tcz
                      libzstd.tcz
+                     brotli.tcz
             dbus.tcz
                expat2.tcz
                elogind.tcz
@@ -1197,9 +1209,13 @@ gimp2-dev.tcz
                      nettle39.tcz
                         gmp.tcz
                      libidn2.tcz
-                        libunistring.tcz
-                        ncursesw.tcz
+                        libunistring1.tcz
+                     unbound.tcz
+                        expat2.tcz
+                        libevent.tcz
+                           openssl.tcz
                      libzstd.tcz
+                     brotli.tcz
                Xorg-fonts.tcz
          avahi-dev.tcz
             avahi.tcz
@@ -1329,16 +1345,21 @@ gimp2-dev.tcz
             libdaemon-dev.tcz
                libdaemon.tcz
          gnutls38-dev.tcz
-            gnutls38.tcz
-               p11-kit.tcz
-                  libffi.tcz
-                  libtasn1-4.tcz
-               nettle39.tcz
-                  gmp.tcz
-               libidn2.tcz
-                  libunistring.tcz
-                  ncursesw.tcz
-               libzstd.tcz
+            gnutls38-bin.tcz
+               gnutls38.tcz
+                  p11-kit.tcz
+                     libffi.tcz
+                     libtasn1-4.tcz
+                  nettle39.tcz
+                     gmp.tcz
+                  libidn2.tcz
+                     libunistring1.tcz
+                  unbound.tcz
+                     expat2.tcz
+                     libevent.tcz
+                        openssl.tcz
+                  libzstd.tcz
+                  brotli.tcz
             p11-kit-dev.tcz
                p11-kit.tcz
                   libffi.tcz
@@ -1346,20 +1367,31 @@ gimp2-dev.tcz
                libffi-dev.tcz
                   libffi.tcz
                libtasn1-4-dev.tcz
-                  libtasn1-4.tcz
+                  libtasn1-4-bin.tcz
+                     libtasn1-4.tcz
             nettle39-dev.tcz
-               nettle39.tcz
-                  gmp.tcz
+               nettle39-bin.tcz
+                  nettle39.tcz
+                     gmp.tcz
                gmp-dev.tcz
                   gmp.tcz
             libidn2-dev.tcz
                libidn2.tcz
-                  libunistring.tcz
-                  ncursesw.tcz
-               libunistring-dev.tcz
-                  libunistring.tcz
-               ncursesw-dev.tcz
-                  ncursesw.tcz
+                  libunistring1.tcz
+               libunistring1-dev.tcz
+                  libunistring1.tcz
+            unbound-dev.tcz
+               unbound.tcz
+                  expat2.tcz
+                  libevent.tcz
+                     openssl.tcz
+               libevent-dev.tcz
+                  libevent.tcz
+                     openssl.tcz
+                  openssl-dev.tcz
+                     openssl.tcz
+               expat2-dev.tcz
+                  expat2.tcz
             zstd-dev.tcz
                zstd.tcz
                   libzstd.tcz
@@ -1369,6 +1401,8 @@ gimp2-dev.tcz
                   liblzma.tcz
                liblz4-dev.tcz
                   liblz4.tcz
+            brotli-dev.tcz
+               brotli.tcz
       gdk-pixbuf2-dev.tcz
          gdk-pixbuf2.tcz
             libtiff.tcz
@@ -18135,9 +18169,13 @@ gimp2-dev.tcz
                nettle39.tcz
                   gmp.tcz
                libidn2.tcz
-                  libunistring.tcz
-                  ncursesw.tcz
+                  libunistring1.tcz
+               unbound.tcz
+                  expat2.tcz
+                  libevent.tcz
+                     openssl.tcz
                libzstd.tcz
+               brotli.tcz
          fontconfig.tcz
             expat2.tcz
             freetype.tcz
@@ -19857,9 +19895,13 @@ gimp2-dev.tcz
                      nettle39.tcz
                         gmp.tcz
                      libidn2.tcz
-                        libunistring.tcz
-                        ncursesw.tcz
+                        libunistring1.tcz
+                     unbound.tcz
+                        expat2.tcz
+                        libevent.tcz
+                           openssl.tcz
                      libzstd.tcz
+                     brotli.tcz
             dbus.tcz
                expat2.tcz
                elogind.tcz
@@ -19921,9 +19963,13 @@ gimp2-dev.tcz
                      nettle39.tcz
                         gmp.tcz
                      libidn2.tcz
-                        libunistring.tcz
-                        ncursesw.tcz
+                        libunistring1.tcz
+                     unbound.tcz
+                        expat2.tcz
+                        libevent.tcz
+                           openssl.tcz
                      libzstd.tcz
+                     brotli.tcz
                Xorg-fonts.tcz
          avahi-dev.tcz
             avahi.tcz
@@ -20053,16 +20099,21 @@ gimp2-dev.tcz
             libdaemon-dev.tcz
                libdaemon.tcz
          gnutls38-dev.tcz
-            gnutls38.tcz
-               p11-kit.tcz
-                  libffi.tcz
-                  libtasn1-4.tcz
-               nettle39.tcz
-                  gmp.tcz
-               libidn2.tcz
-                  libunistring.tcz
-                  ncursesw.tcz
-               libzstd.tcz
+            gnutls38-bin.tcz
+               gnutls38.tcz
+                  p11-kit.tcz
+                     libffi.tcz
+                     libtasn1-4.tcz
+                  nettle39.tcz
+                     gmp.tcz
+                  libidn2.tcz
+                     libunistring1.tcz
+                  unbound.tcz
+                     expat2.tcz
+                     libevent.tcz
+                        openssl.tcz
+                  libzstd.tcz
+                  brotli.tcz
             p11-kit-dev.tcz
                p11-kit.tcz
                   libffi.tcz
@@ -20070,20 +20121,31 @@ gimp2-dev.tcz
                libffi-dev.tcz
                   libffi.tcz
                libtasn1-4-dev.tcz
-                  libtasn1-4.tcz
+                  libtasn1-4-bin.tcz
+                     libtasn1-4.tcz
             nettle39-dev.tcz
-               nettle39.tcz
-                  gmp.tcz
+               nettle39-bin.tcz
+                  nettle39.tcz
+                     gmp.tcz
                gmp-dev.tcz
                   gmp.tcz
             libidn2-dev.tcz
                libidn2.tcz
-                  libunistring.tcz
-                  ncursesw.tcz
-               libunistring-dev.tcz
-                  libunistring.tcz
-               ncursesw-dev.tcz
-                  ncursesw.tcz
+                  libunistring1.tcz
+               libunistring1-dev.tcz
+                  libunistring1.tcz
+            unbound-dev.tcz
+               unbound.tcz
+                  expat2.tcz
+                  libevent.tcz
+                     openssl.tcz
+               libevent-dev.tcz
+                  libevent.tcz
+                     openssl.tcz
+                  openssl-dev.tcz
+                     openssl.tcz
+               expat2-dev.tcz
+                  expat2.tcz
             zstd-dev.tcz
                zstd.tcz
                   libzstd.tcz
@@ -20093,6 +20155,8 @@ gimp2-dev.tcz
                   liblzma.tcz
                liblz4-dev.tcz
                   liblz4.tcz
+            brotli-dev.tcz
+               brotli.tcz
       fontconfig-dev.tcz
          fontconfig.tcz
             expat2.tcz

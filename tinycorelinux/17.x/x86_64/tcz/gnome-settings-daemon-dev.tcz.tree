@@ -884,16 +884,20 @@ gnome-settings-daemon-dev.tcz
                   nettle39.tcz
                      gmp.tcz
                   libidn2.tcz
-                     libunistring.tcz
-                     ncursesw.tcz
+                     libunistring1.tcz
+                  unbound.tcz
+                     expat2.tcz
+                     libevent.tcz
+                        openssl.tcz
                   libzstd.tcz
+                  brotli.tcz
             libxml2.tcz
                liblzma.tcz
             sqlite3.tcz
             libpsl.tcz
                libidn2.tcz
-                  libunistring.tcz
-                  ncursesw.tcz
+                  libunistring1.tcz
+               libunistring.tcz
          libavahi.tcz
             dbus.tcz
                expat2.tcz
@@ -1274,17 +1278,22 @@ gnome-settings-daemon-dev.tcz
                      nettle39.tcz
                         gmp.tcz
                      libidn2.tcz
-                        libunistring.tcz
-                        ncursesw.tcz
+                        libunistring1.tcz
+                     unbound.tcz
+                        expat2.tcz
+                        libevent.tcz
+                           openssl.tcz
                      libzstd.tcz
+                     brotli.tcz
                libxml2.tcz
                   liblzma.tcz
                sqlite3.tcz
                libpsl.tcz
                   libidn2.tcz
-                     libunistring.tcz
-                     ncursesw.tcz
+                     libunistring1.tcz
+                  libunistring.tcz
                libnghttp2.tcz
+               libunistring.tcz
       dconf.tcz
          gtk3.tcz
             libepoxy.tcz
@@ -1500,16 +1509,20 @@ gnome-settings-daemon-dev.tcz
                   nettle39.tcz
                      gmp.tcz
                   libidn2.tcz
-                     libunistring.tcz
-                     ncursesw.tcz
+                     libunistring1.tcz
+                  unbound.tcz
+                     expat2.tcz
+                     libevent.tcz
+                        openssl.tcz
                   libzstd.tcz
+                  brotli.tcz
             libxml2.tcz
                liblzma.tcz
             sqlite3.tcz
             libpsl.tcz
                libidn2.tcz
-                  libunistring.tcz
-                  ncursesw.tcz
+                  libunistring1.tcz
+               libunistring.tcz
          wpa_supplicant-dbus.tcz
             libnl.tcz
             dbus.tcz
@@ -1651,9 +1664,13 @@ gnome-settings-daemon-dev.tcz
             nettle39.tcz
                gmp.tcz
             libidn2.tcz
-               libunistring.tcz
-               ncursesw.tcz
+               libunistring1.tcz
+            unbound.tcz
+               expat2.tcz
+               libevent.tcz
+                  openssl.tcz
             libzstd.tcz
+            brotli.tcz
       gcr4.tcz
          gtk4.tcz
             libepoxy.tcz
@@ -1933,9 +1950,13 @@ gnome-settings-daemon-dev.tcz
                   nettle39.tcz
                      gmp.tcz
                   libidn2.tcz
-                     libunistring.tcz
-                     ncursesw.tcz
+                     libunistring1.tcz
+                  unbound.tcz
+                     expat2.tcz
+                     libevent.tcz
+                        openssl.tcz
                   libzstd.tcz
+                  brotli.tcz
             colord.tcz
                liblcms2.tcz
                libgusb.tcz
@@ -2043,14 +2064,12 @@ gnome-settings-daemon-dev.tcz
             libffi.tcz
             libtasn1-4.tcz
          gnupg.tcz
-            libassuan.tcz
+            libassuan3.tcz
                libgpg-error.tcz
             libgcrypt.tcz
                libgpg-error.tcz
             libksba.tcz
                libgpg-error.tcz
-            libusb.tcz
-               udev-lib.tcz
             gnutls38.tcz
                p11-kit.tcz
                   libffi.tcz
@@ -2058,11 +2077,25 @@ gnome-settings-daemon-dev.tcz
                nettle39.tcz
                   gmp.tcz
                libidn2.tcz
-                  libunistring.tcz
-                  ncursesw.tcz
+                  libunistring1.tcz
+               unbound.tcz
+                  expat2.tcz
+                  libevent.tcz
+                     openssl.tcz
                libzstd.tcz
+               brotli.tcz
             npth.tcz
+            openldap.tcz
+               cyrus-sasl.tcz
+                  openssl.tcz
+               unixODBC.tcz
+                  readline.tcz
+                     ncursesw.tcz
+                  libltdl.tcz
             sqlite3.tcz
+            bzip2-lib.tcz
+            readline.tcz
+               ncursesw.tcz
          gtk-update-icon-cache.tcz
             gdk-pixbuf2.tcz
                libtiff.tcz
@@ -31189,16 +31222,20 @@ gnome-settings-daemon-dev.tcz
                   nettle39.tcz
                      gmp.tcz
                   libidn2.tcz
-                     libunistring.tcz
-                     ncursesw.tcz
+                     libunistring1.tcz
+                  unbound.tcz
+                     expat2.tcz
+                     libevent.tcz
+                        openssl.tcz
                   libzstd.tcz
+                  brotli.tcz
             libxml2.tcz
                liblzma.tcz
             sqlite3.tcz
             libpsl.tcz
                libidn2.tcz
-                  libunistring.tcz
-                  ncursesw.tcz
+                  libunistring1.tcz
+               libunistring.tcz
          libavahi.tcz
             dbus.tcz
                expat2.tcz
@@ -31607,16 +31644,20 @@ gnome-settings-daemon-dev.tcz
                   nettle39.tcz
                      gmp.tcz
                   libidn2.tcz
-                     libunistring.tcz
-                     ncursesw.tcz
+                     libunistring1.tcz
+                  unbound.tcz
+                     expat2.tcz
+                     libevent.tcz
+                        openssl.tcz
                   libzstd.tcz
+                  brotli.tcz
             libxml2.tcz
                liblzma.tcz
             sqlite3.tcz
             libpsl.tcz
                libidn2.tcz
-                  libunistring.tcz
-                  ncursesw.tcz
+                  libunistring1.tcz
+               libunistring.tcz
          libxml2-dev.tcz
             libxml2-bin.tcz
                libxml2.tcz
@@ -31650,16 +31691,15 @@ gnome-settings-daemon-dev.tcz
          libpsl-dev.tcz
             libpsl.tcz
                libidn2.tcz
-                  libunistring.tcz
-                  ncursesw.tcz
+                  libunistring1.tcz
+               libunistring.tcz
             libidn2-dev.tcz
                libidn2.tcz
-                  libunistring.tcz
-                  ncursesw.tcz
-               libunistring-dev.tcz
-                  libunistring.tcz
-               ncursesw-dev.tcz
-                  ncursesw.tcz
+                  libunistring1.tcz
+               libunistring1-dev.tcz
+                  libunistring1.tcz
+            libunistring-dev.tcz
+               libunistring.tcz
       avahi-dev.tcz
          avahi.tcz
             libavahi.tcz
@@ -37287,17 +37327,22 @@ gnome-settings-daemon-dev.tcz
                      nettle39.tcz
                         gmp.tcz
                      libidn2.tcz
-                        libunistring.tcz
-                        ncursesw.tcz
+                        libunistring1.tcz
+                     unbound.tcz
+                        expat2.tcz
+                        libevent.tcz
+                           openssl.tcz
                      libzstd.tcz
+                     brotli.tcz
                libxml2.tcz
                   liblzma.tcz
                sqlite3.tcz
                libpsl.tcz
                   libidn2.tcz
-                     libunistring.tcz
-                     ncursesw.tcz
+                     libunistring1.tcz
+                  libunistring.tcz
                libnghttp2.tcz
+               libunistring.tcz
       geocode-glib-dev.tcz
          geocode-glib.tcz
             json-glib.tcz
@@ -37317,17 +37362,22 @@ gnome-settings-daemon-dev.tcz
                      nettle39.tcz
                         gmp.tcz
                      libidn2.tcz
-                        libunistring.tcz
-                        ncursesw.tcz
+                        libunistring1.tcz
+                     unbound.tcz
+                        expat2.tcz
+                        libevent.tcz
+                           openssl.tcz
                      libzstd.tcz
+                     brotli.tcz
                libxml2.tcz
                   liblzma.tcz
                sqlite3.tcz
                libpsl.tcz
                   libidn2.tcz
-                     libunistring.tcz
-                     ncursesw.tcz
+                     libunistring1.tcz
+                  libunistring.tcz
                libnghttp2.tcz
+               libunistring.tcz
          json-glib-dev.tcz
             json-glib.tcz
                glib2.tcz
@@ -37375,17 +37425,22 @@ gnome-settings-daemon-dev.tcz
                      nettle39.tcz
                         gmp.tcz
                      libidn2.tcz
-                        libunistring.tcz
-                        ncursesw.tcz
+                        libunistring1.tcz
+                     unbound.tcz
+                        expat2.tcz
+                        libevent.tcz
+                           openssl.tcz
                      libzstd.tcz
+                     brotli.tcz
                libxml2.tcz
                   liblzma.tcz
                sqlite3.tcz
                libpsl.tcz
                   libidn2.tcz
-                     libunistring.tcz
-                     ncursesw.tcz
+                     libunistring1.tcz
+                  libunistring.tcz
                libnghttp2.tcz
+               libunistring.tcz
             libxml2-dev.tcz
                libxml2-bin.tcz
                   libxml2.tcz
@@ -37419,18 +37474,19 @@ gnome-settings-daemon-dev.tcz
             libpsl-dev.tcz
                libpsl.tcz
                   libidn2.tcz
-                     libunistring.tcz
-                     ncursesw.tcz
+                     libunistring1.tcz
+                  libunistring.tcz
                libidn2-dev.tcz
                   libidn2.tcz
-                     libunistring.tcz
-                     ncursesw.tcz
-                  libunistring-dev.tcz
-                     libunistring.tcz
-                  ncursesw-dev.tcz
-                     ncursesw.tcz
+                     libunistring1.tcz
+                  libunistring1-dev.tcz
+                     libunistring1.tcz
+               libunistring-dev.tcz
+                  libunistring.tcz
             libnghttp2-dev.tcz
                libnghttp2.tcz
+            libunistring-dev.tcz
+               libunistring.tcz
    networkmanager-dev.tcz
       networkmanager.tcz
          nss.tcz
@@ -37495,16 +37551,20 @@ gnome-settings-daemon-dev.tcz
                   nettle39.tcz
                      gmp.tcz
                   libidn2.tcz
-                     libunistring.tcz
-                     ncursesw.tcz
+                     libunistring1.tcz
+                  unbound.tcz
+                     expat2.tcz
+                     libevent.tcz
+                        openssl.tcz
                   libzstd.tcz
+                  brotli.tcz
             libxml2.tcz
                liblzma.tcz
             sqlite3.tcz
             libpsl.tcz
                libidn2.tcz
-                  libunistring.tcz
-                  ncursesw.tcz
+                  libunistring1.tcz
+               libunistring.tcz
          wpa_supplicant-dbus.tcz
             libnl.tcz
             dbus.tcz
@@ -37646,9 +37706,13 @@ gnome-settings-daemon-dev.tcz
             nettle39.tcz
                gmp.tcz
             libidn2.tcz
-               libunistring.tcz
-               ncursesw.tcz
+               libunistring1.tcz
+            unbound.tcz
+               expat2.tcz
+               libevent.tcz
+                  openssl.tcz
             libzstd.tcz
+            brotli.tcz
       nss-dev.tcz
          nss.tcz
             nspr.tcz
@@ -37902,16 +37966,20 @@ gnome-settings-daemon-dev.tcz
                   nettle39.tcz
                      gmp.tcz
                   libidn2.tcz
-                     libunistring.tcz
-                     ncursesw.tcz
+                     libunistring1.tcz
+                  unbound.tcz
+                     expat2.tcz
+                     libevent.tcz
+                        openssl.tcz
                   libzstd.tcz
+                  brotli.tcz
             libxml2.tcz
                liblzma.tcz
             sqlite3.tcz
             libpsl.tcz
                libidn2.tcz
-                  libunistring.tcz
-                  ncursesw.tcz
+                  libunistring1.tcz
+               libunistring.tcz
          libxml2-dev.tcz
             libxml2-bin.tcz
                libxml2.tcz
@@ -37945,16 +38013,15 @@ gnome-settings-daemon-dev.tcz
          libpsl-dev.tcz
             libpsl.tcz
                libidn2.tcz
-                  libunistring.tcz
-                  ncursesw.tcz
+                  libunistring1.tcz
+               libunistring.tcz
             libidn2-dev.tcz
                libidn2.tcz
-                  libunistring.tcz
-                  ncursesw.tcz
-               libunistring-dev.tcz
-                  libunistring.tcz
-               ncursesw-dev.tcz
-                  ncursesw.tcz
+                  libunistring1.tcz
+               libunistring1-dev.tcz
+                  libunistring1.tcz
+            libunistring-dev.tcz
+               libunistring.tcz
       modemmanager-dev.tcz
          modemmanager.tcz
             polkit.tcz
@@ -38546,16 +38613,21 @@ gnome-settings-daemon-dev.tcz
             openssl-dev.tcz
                openssl.tcz
       gnutls38-dev.tcz
-         gnutls38.tcz
-            p11-kit.tcz
-               libffi.tcz
-               libtasn1-4.tcz
-            nettle39.tcz
-               gmp.tcz
-            libidn2.tcz
-               libunistring.tcz
-               ncursesw.tcz
-            libzstd.tcz
+         gnutls38-bin.tcz
+            gnutls38.tcz
+               p11-kit.tcz
+                  libffi.tcz
+                  libtasn1-4.tcz
+               nettle39.tcz
+                  gmp.tcz
+               libidn2.tcz
+                  libunistring1.tcz
+               unbound.tcz
+                  expat2.tcz
+                  libevent.tcz
+                     openssl.tcz
+               libzstd.tcz
+               brotli.tcz
          p11-kit-dev.tcz
             p11-kit.tcz
                libffi.tcz
@@ -38563,20 +38635,31 @@ gnome-settings-daemon-dev.tcz
             libffi-dev.tcz
                libffi.tcz
             libtasn1-4-dev.tcz
-               libtasn1-4.tcz
+               libtasn1-4-bin.tcz
+                  libtasn1-4.tcz
          nettle39-dev.tcz
-            nettle39.tcz
-               gmp.tcz
+            nettle39-bin.tcz
+               nettle39.tcz
+                  gmp.tcz
             gmp-dev.tcz
                gmp.tcz
          libidn2-dev.tcz
             libidn2.tcz
-               libunistring.tcz
-               ncursesw.tcz
-            libunistring-dev.tcz
-               libunistring.tcz
-            ncursesw-dev.tcz
-               ncursesw.tcz
+               libunistring1.tcz
+            libunistring1-dev.tcz
+               libunistring1.tcz
+         unbound-dev.tcz
+            unbound.tcz
+               expat2.tcz
+               libevent.tcz
+                  openssl.tcz
+            libevent-dev.tcz
+               libevent.tcz
+                  openssl.tcz
+               openssl-dev.tcz
+                  openssl.tcz
+            expat2-dev.tcz
+               expat2.tcz
          zstd-dev.tcz
             zstd.tcz
                libzstd.tcz
@@ -38586,6 +38669,8 @@ gnome-settings-daemon-dev.tcz
                liblzma.tcz
             liblz4-dev.tcz
                liblz4.tcz
+         brotli-dev.tcz
+            brotli.tcz
    gcr4-dev.tcz
       gcr4.tcz
          gtk4.tcz
@@ -38866,9 +38951,13 @@ gnome-settings-daemon-dev.tcz
                   nettle39.tcz
                      gmp.tcz
                   libidn2.tcz
-                     libunistring.tcz
-                     ncursesw.tcz
+                     libunistring1.tcz
+                  unbound.tcz
+                     expat2.tcz
+                     libevent.tcz
+                        openssl.tcz
                   libzstd.tcz
+                  brotli.tcz
             colord.tcz
                liblcms2.tcz
                libgusb.tcz
@@ -38976,14 +39065,12 @@ gnome-settings-daemon-dev.tcz
             libffi.tcz
             libtasn1-4.tcz
          gnupg.tcz
-            libassuan.tcz
+            libassuan3.tcz
                libgpg-error.tcz
             libgcrypt.tcz
                libgpg-error.tcz
             libksba.tcz
                libgpg-error.tcz
-            libusb.tcz
-               udev-lib.tcz
             gnutls38.tcz
                p11-kit.tcz
                   libffi.tcz
@@ -38991,11 +39078,25 @@ gnome-settings-daemon-dev.tcz
                nettle39.tcz
                   gmp.tcz
                libidn2.tcz
-                  libunistring.tcz
-                  ncursesw.tcz
+                  libunistring1.tcz
+               unbound.tcz
+                  expat2.tcz
+                  libevent.tcz
+                     openssl.tcz
                libzstd.tcz
+               brotli.tcz
             npth.tcz
+            openldap.tcz
+               cyrus-sasl.tcz
+                  openssl.tcz
+               unixODBC.tcz
+                  readline.tcz
+                     ncursesw.tcz
+                  libltdl.tcz
             sqlite3.tcz
+            bzip2-lib.tcz
+            readline.tcz
+               ncursesw.tcz
          gtk-update-icon-cache.tcz
             gdk-pixbuf2.tcz
                libtiff.tcz
@@ -39364,9 +39465,13 @@ gnome-settings-daemon-dev.tcz
                   nettle39.tcz
                      gmp.tcz
                   libidn2.tcz
-                     libunistring.tcz
-                     ncursesw.tcz
+                     libunistring1.tcz
+                  unbound.tcz
+                     expat2.tcz
+                     libevent.tcz
+                        openssl.tcz
                   libzstd.tcz
+                  brotli.tcz
             colord.tcz
                liblcms2.tcz
                libgusb.tcz
@@ -46638,17 +46743,22 @@ gnome-settings-daemon-dev.tcz
                                     nettle39.tcz
                                        gmp.tcz
                                     libidn2.tcz
-                                       libunistring.tcz
-                                       ncursesw.tcz
+                                       libunistring1.tcz
+                                    unbound.tcz
+                                       expat2.tcz
+                                       libevent.tcz
+                                          openssl.tcz
                                     libzstd.tcz
+                                    brotli.tcz
                               libxml2.tcz
                                  liblzma.tcz
                               sqlite3.tcz
                               libpsl.tcz
                                  libidn2.tcz
-                                    libunistring.tcz
-                                    ncursesw.tcz
+                                    libunistring1.tcz
+                                 libunistring.tcz
                               libnghttp2.tcz
+                              libunistring.tcz
                   gst-plugins-base.tcz
                      gstreamer.tcz
                         glib2.tcz
@@ -46731,17 +46841,22 @@ gnome-settings-daemon-dev.tcz
                                     nettle39.tcz
                                        gmp.tcz
                                     libidn2.tcz
-                                       libunistring.tcz
-                                       ncursesw.tcz
+                                       libunistring1.tcz
+                                    unbound.tcz
+                                       expat2.tcz
+                                       libevent.tcz
+                                          openssl.tcz
                                     libzstd.tcz
+                                    brotli.tcz
                               libxml2.tcz
                                  liblzma.tcz
                               sqlite3.tcz
                               libpsl.tcz
                                  libidn2.tcz
-                                    libunistring.tcz
-                                    ncursesw.tcz
+                                    libunistring1.tcz
+                                 libunistring.tcz
                               libnghttp2.tcz
+                              libunistring.tcz
                   gupnp16-dev.tcz
                      gupnp16.tcz
                         gssdp16.tcz
@@ -46758,17 +46873,22 @@ gnome-settings-daemon-dev.tcz
                                     nettle39.tcz
                                        gmp.tcz
                                     libidn2.tcz
-                                       libunistring.tcz
-                                       ncursesw.tcz
+                                       libunistring1.tcz
+                                    unbound.tcz
+                                       expat2.tcz
+                                       libevent.tcz
+                                          openssl.tcz
                                     libzstd.tcz
+                                    brotli.tcz
                               libxml2.tcz
                                  liblzma.tcz
                               sqlite3.tcz
                               libpsl.tcz
                                  libidn2.tcz
-                                    libunistring.tcz
-                                    ncursesw.tcz
+                                    libunistring1.tcz
+                                 libunistring.tcz
                               libnghttp2.tcz
+                              libunistring.tcz
                      gssdp16-dev.tcz
                         gssdp16.tcz
                            libsoup3.tcz
@@ -46784,17 +46904,22 @@ gnome-settings-daemon-dev.tcz
                                     nettle39.tcz
                                        gmp.tcz
                                     libidn2.tcz
-                                       libunistring.tcz
-                                       ncursesw.tcz
+                                       libunistring1.tcz
+                                    unbound.tcz
+                                       expat2.tcz
+                                       libevent.tcz
+                                          openssl.tcz
                                     libzstd.tcz
+                                    brotli.tcz
                               libxml2.tcz
                                  liblzma.tcz
                               sqlite3.tcz
                               libpsl.tcz
                                  libidn2.tcz
-                                    libunistring.tcz
-                                    ncursesw.tcz
+                                    libunistring1.tcz
+                                 libunistring.tcz
                               libnghttp2.tcz
+                              libunistring.tcz
                         libsoup3-dev.tcz
                            libsoup3.tcz
                               glib-networking.tcz
@@ -46809,17 +46934,22 @@ gnome-settings-daemon-dev.tcz
                                     nettle39.tcz
                                        gmp.tcz
                                     libidn2.tcz
-                                       libunistring.tcz
-                                       ncursesw.tcz
+                                       libunistring1.tcz
+                                    unbound.tcz
+                                       expat2.tcz
+                                       libevent.tcz
+                                          openssl.tcz
                                     libzstd.tcz
+                                    brotli.tcz
                               libxml2.tcz
                                  liblzma.tcz
                               sqlite3.tcz
                               libpsl.tcz
                                  libidn2.tcz
-                                    libunistring.tcz
-                                    ncursesw.tcz
+                                    libunistring1.tcz
+                                 libunistring.tcz
                               libnghttp2.tcz
+                              libunistring.tcz
                            libxml2-dev.tcz
                               libxml2-bin.tcz
                                  libxml2.tcz
@@ -46853,18 +46983,19 @@ gnome-settings-daemon-dev.tcz
                            libpsl-dev.tcz
                               libpsl.tcz
                                  libidn2.tcz
-                                    libunistring.tcz
-                                    ncursesw.tcz
+                                    libunistring1.tcz
+                                 libunistring.tcz
                               libidn2-dev.tcz
                                  libidn2.tcz
-                                    libunistring.tcz
-                                    ncursesw.tcz
-                                 libunistring-dev.tcz
-                                    libunistring.tcz
-                                 ncursesw-dev.tcz
-                                    ncursesw.tcz
+                                    libunistring1.tcz
+                                 libunistring1-dev.tcz
+                                    libunistring1.tcz
+                              libunistring-dev.tcz
+                                 libunistring.tcz
                            libnghttp2-dev.tcz
                               libnghttp2.tcz
+                           libunistring-dev.tcz
+                              libunistring.tcz
                gst-plugins-base-dev.tcz
                   gst-plugins-base.tcz
                      gstreamer.tcz
@@ -54488,17 +54619,22 @@ gnome-settings-daemon-dev.tcz
                         nettle39.tcz
                            gmp.tcz
                         libidn2.tcz
-                           libunistring.tcz
-                           ncursesw.tcz
+                           libunistring1.tcz
+                        unbound.tcz
+                           expat2.tcz
+                           libevent.tcz
+                              openssl.tcz
                         libzstd.tcz
+                        brotli.tcz
                   libxml2.tcz
                      liblzma.tcz
                   sqlite3.tcz
                   libpsl.tcz
                      libidn2.tcz
-                        libunistring.tcz
-                        ncursesw.tcz
+                        libunistring1.tcz
+                     libunistring.tcz
                   libnghttp2.tcz
+                  libunistring.tcz
                libxml2-dev.tcz
                   libxml2-bin.tcz
                      libxml2.tcz
@@ -54532,18 +54668,19 @@ gnome-settings-daemon-dev.tcz
                libpsl-dev.tcz
                   libpsl.tcz
                      libidn2.tcz
-                        libunistring.tcz
-                        ncursesw.tcz
+                        libunistring1.tcz
+                     libunistring.tcz
                   libidn2-dev.tcz
                      libidn2.tcz
-                        libunistring.tcz
-                        ncursesw.tcz
-                     libunistring-dev.tcz
-                        libunistring.tcz
-                     ncursesw-dev.tcz
-                        ncursesw.tcz
+                        libunistring1.tcz
+                     libunistring1-dev.tcz
+                        libunistring1.tcz
+                  libunistring-dev.tcz
+                     libunistring.tcz
                libnghttp2-dev.tcz
                   libnghttp2.tcz
+               libunistring-dev.tcz
+                  libunistring.tcz
             openh264-dev.tcz
                openh264.tcz
             svt-av1-dev.tcz
@@ -54555,7 +54692,8 @@ gnome-settings-daemon-dev.tcz
          libffi-dev.tcz
             libffi.tcz
          libtasn1-4-dev.tcz
-            libtasn1-4.tcz
+            libtasn1-4-bin.tcz
+               libtasn1-4.tcz
       libgcrypt-dev.tcz
          libgcrypt-bin.tcz
             libgcrypt.tcz

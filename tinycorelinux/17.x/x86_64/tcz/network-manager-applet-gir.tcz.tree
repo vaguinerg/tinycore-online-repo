@@ -64,16 +64,20 @@ network-manager-applet-gir.tcz
                      nettle39.tcz
                         gmp.tcz
                      libidn2.tcz
-                        libunistring.tcz
-                        ncursesw.tcz
+                        libunistring1.tcz
+                     unbound.tcz
+                        expat2.tcz
+                        libevent.tcz
+                           openssl.tcz
                      libzstd.tcz
+                     brotli.tcz
                libxml2.tcz
                   liblzma.tcz
                sqlite3.tcz
                libpsl.tcz
                   libidn2.tcz
-                     libunistring.tcz
-                     ncursesw.tcz
+                     libunistring1.tcz
+                  libunistring.tcz
             wpa_supplicant-dbus.tcz
                libnl.tcz
                dbus.tcz
@@ -215,9 +219,13 @@ network-manager-applet-gir.tcz
                nettle39.tcz
                   gmp.tcz
                libidn2.tcz
-                  libunistring.tcz
-                  ncursesw.tcz
+                  libunistring1.tcz
+               unbound.tcz
+                  expat2.tcz
+                  libevent.tcz
+                     openssl.tcz
                libzstd.tcz
+               brotli.tcz
          gcr.tcz
             gtk3.tcz
                libepoxy.tcz
@@ -373,15 +381,19 @@ network-manager-applet-gir.tcz
             p11-kit.tcz
                libffi.tcz
                libtasn1-4.tcz
+            libsecret.tcz
+               libgcrypt.tcz
+                  libgpg-error.tcz
+               glib2.tcz
+                  libffi.tcz
+                  pcre21042.tcz
             gnupg.tcz
-               libassuan.tcz
+               libassuan3.tcz
                   libgpg-error.tcz
                libgcrypt.tcz
                   libgpg-error.tcz
                libksba.tcz
                   libgpg-error.tcz
-               libusb.tcz
-                  udev-lib.tcz
                gnutls38.tcz
                   p11-kit.tcz
                      libffi.tcz
@@ -389,11 +401,25 @@ network-manager-applet-gir.tcz
                   nettle39.tcz
                      gmp.tcz
                   libidn2.tcz
-                     libunistring.tcz
-                     ncursesw.tcz
+                     libunistring1.tcz
+                  unbound.tcz
+                     expat2.tcz
+                     libevent.tcz
+                        openssl.tcz
                   libzstd.tcz
+                  brotli.tcz
                npth.tcz
+               openldap.tcz
+                  cyrus-sasl.tcz
+                     openssl.tcz
+                  unixODBC.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     libltdl.tcz
                sqlite3.tcz
+               bzip2-lib.tcz
+               readline.tcz
+                  ncursesw.tcz
             gtk-update-icon-cache.tcz
                gdk-pixbuf2.tcz
                   libtiff.tcz
@@ -754,9 +780,13 @@ network-manager-applet-gir.tcz
                      nettle39.tcz
                         gmp.tcz
                      libidn2.tcz
-                        libunistring.tcz
-                        ncursesw.tcz
+                        libunistring1.tcz
+                     unbound.tcz
+                        expat2.tcz
+                        libevent.tcz
+                           openssl.tcz
                      libzstd.tcz
+                     brotli.tcz
                colord.tcz
                   liblcms2.tcz
                   libgusb.tcz
@@ -864,14 +894,12 @@ network-manager-applet-gir.tcz
                libffi.tcz
                libtasn1-4.tcz
             gnupg.tcz
-               libassuan.tcz
+               libassuan3.tcz
                   libgpg-error.tcz
                libgcrypt.tcz
                   libgpg-error.tcz
                libksba.tcz
                   libgpg-error.tcz
-               libusb.tcz
-                  udev-lib.tcz
                gnutls38.tcz
                   p11-kit.tcz
                      libffi.tcz
@@ -879,11 +907,25 @@ network-manager-applet-gir.tcz
                   nettle39.tcz
                      gmp.tcz
                   libidn2.tcz
-                     libunistring.tcz
-                     ncursesw.tcz
+                     libunistring1.tcz
+                  unbound.tcz
+                     expat2.tcz
+                     libevent.tcz
+                        openssl.tcz
                   libzstd.tcz
+                  brotli.tcz
                npth.tcz
+               openldap.tcz
+                  cyrus-sasl.tcz
+                     openssl.tcz
+                  unixODBC.tcz
+                     readline.tcz
+                        ncursesw.tcz
+                     libltdl.tcz
                sqlite3.tcz
+               bzip2-lib.tcz
+               readline.tcz
+                  ncursesw.tcz
             gtk-update-icon-cache.tcz
                gdk-pixbuf2.tcz
                   libtiff.tcz
@@ -1417,16 +1459,20 @@ network-manager-applet-gir.tcz
                   nettle39.tcz
                      gmp.tcz
                   libidn2.tcz
-                     libunistring.tcz
-                     ncursesw.tcz
+                     libunistring1.tcz
+                  unbound.tcz
+                     expat2.tcz
+                     libevent.tcz
+                        openssl.tcz
                   libzstd.tcz
+                  brotli.tcz
             libxml2.tcz
                liblzma.tcz
             sqlite3.tcz
             libpsl.tcz
                libidn2.tcz
-                  libunistring.tcz
-                  ncursesw.tcz
+                  libunistring1.tcz
+               libunistring.tcz
          wpa_supplicant-dbus.tcz
             libnl.tcz
             dbus.tcz
@@ -1568,9 +1614,13 @@ network-manager-applet-gir.tcz
             nettle39.tcz
                gmp.tcz
             libidn2.tcz
-               libunistring.tcz
-               ncursesw.tcz
+               libunistring1.tcz
+            unbound.tcz
+               expat2.tcz
+               libevent.tcz
+                  openssl.tcz
             libzstd.tcz
+            brotli.tcz
       libsoup-gir.tcz
          libsoup.tcz
             glib-networking.tcz
@@ -1585,16 +1635,20 @@ network-manager-applet-gir.tcz
                   nettle39.tcz
                      gmp.tcz
                   libidn2.tcz
-                     libunistring.tcz
-                     ncursesw.tcz
+                     libunistring1.tcz
+                  unbound.tcz
+                     expat2.tcz
+                     libevent.tcz
+                        openssl.tcz
                   libzstd.tcz
+                  brotli.tcz
             libxml2.tcz
                liblzma.tcz
             sqlite3.tcz
             libpsl.tcz
                libidn2.tcz
-                  libunistring.tcz
-                  ncursesw.tcz
+                  libunistring1.tcz
+               libunistring.tcz
          gobject-introspection.tcz
             glib2.tcz
                libffi.tcz

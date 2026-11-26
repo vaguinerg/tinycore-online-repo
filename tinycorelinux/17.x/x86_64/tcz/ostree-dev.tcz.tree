@@ -18,17 +18,22 @@ ostree-dev.tcz
                nettle39.tcz
                   gmp.tcz
                libidn2.tcz
-                  libunistring.tcz
-                  ncursesw.tcz
+                  libunistring1.tcz
+               unbound.tcz
+                  expat2.tcz
+                  libevent.tcz
+                     openssl.tcz
                libzstd.tcz
+               brotli.tcz
          libxml2.tcz
             liblzma.tcz
          sqlite3.tcz
          libpsl.tcz
             libidn2.tcz
-               libunistring.tcz
-               ncursesw.tcz
+               libunistring1.tcz
+            libunistring.tcz
          libnghttp2.tcz
+         libunistring.tcz
       gpgme.tcz
          libassuan.tcz
             libgpg-error.tcz
@@ -55,17 +60,22 @@ ostree-dev.tcz
                nettle39.tcz
                   gmp.tcz
                libidn2.tcz
-                  libunistring.tcz
-                  ncursesw.tcz
+                  libunistring1.tcz
+               unbound.tcz
+                  expat2.tcz
+                  libevent.tcz
+                     openssl.tcz
                libzstd.tcz
+               brotli.tcz
          libxml2.tcz
             liblzma.tcz
          sqlite3.tcz
          libpsl.tcz
             libidn2.tcz
-               libunistring.tcz
-               ncursesw.tcz
+               libunistring1.tcz
+            libunistring.tcz
          libnghttp2.tcz
+         libunistring.tcz
       libxml2-dev.tcz
          libxml2-bin.tcz
             libxml2.tcz
@@ -99,18 +109,19 @@ ostree-dev.tcz
       libpsl-dev.tcz
          libpsl.tcz
             libidn2.tcz
-               libunistring.tcz
-               ncursesw.tcz
+               libunistring1.tcz
+            libunistring.tcz
          libidn2-dev.tcz
             libidn2.tcz
-               libunistring.tcz
-               ncursesw.tcz
-            libunistring-dev.tcz
-               libunistring.tcz
-            ncursesw-dev.tcz
-               ncursesw.tcz
+               libunistring1.tcz
+            libunistring1-dev.tcz
+               libunistring1.tcz
+         libunistring-dev.tcz
+            libunistring.tcz
       libnghttp2-dev.tcz
          libnghttp2.tcz
+      libunistring-dev.tcz
+         libunistring.tcz
    gpgme-dev.tcz
       gpgme.tcz
          libassuan.tcz
