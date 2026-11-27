@@ -1,0 +1,29 @@
+zfs-dev.tcz
+   zfs.tcz
+      zfs-modules-6.18.35-tinycore64.tcz
+      openssl.tcz
+      udev-lib.tcz
+      libtirpc.tcz
+      util-linux.tcz
+         readline.tcz
+            ncursesw.tcz
+         udev-lib.tcz
+   openssl-dev.tcz
+      openssl.tcz
+   udev-lib-dev.tcz
+      udev-lib.tcz
+   libtirpc-dev.tcz
+      libtirpc.tcz
+   util-linux-dev.tcz
+      util-linux.tcz
+         readline.tcz
+            ncursesw.tcz
+         udev-lib.tcz
+      readline-dev.tcz
+         readline.tcz
+            ncursesw.tcz
+         ncursesw-dev.tcz
+            ncursesw.tcz
+      udev-lib-dev.tcz
+         udev-lib.tcz
+

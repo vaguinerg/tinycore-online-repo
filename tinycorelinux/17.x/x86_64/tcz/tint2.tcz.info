@@ -1,0 +1,39 @@
+Title:          tint2.tcz
+Description:    TESTING lightweight panel / taskbar for X11 WMs
+Version:        17.0.2
+Author:         tint2 authors (o9000 / Thierry Lorthiois et al.)
+Original-site:  https://gitlab.com/o9000/tint2
+Copying-policy: GPL-2.0
+Size:           404K
+Extension_by:   Zendrael
+Tags:           panel taskbar tint2 openbox x11 corepure64
+Comments:       compiled from source for CorePure64
+                ----------
+                tint2 is a simple panel/taskbar for window managers
+                such as openbox (also works with others). Includes
+                tint2conf (GTK theme configurator).
+                ----------
+                Optional:
+                tint2-doc.tcz    — man page + docs
+                tint2-locale.tcz — tint2conf translations
+                ----------
+                Requires: CorePure64 (x86_64).
+                ----------
+                Load:
+                $ tce-load -i tint2.tcz
+                ----------
+                Run (from an X session):
+                $ tint2 &
+                Configure:
+                $ tint2conf
+                ----------
+                Default config: /usr/local/etc/xdg/tint2/tint2rc
+                User config: ~/.config/tint2/tint2rc
+                ----------
+                This extension contains:
+                tint2-17.0.2 - GPL-2.0 -
+                https://gitlab.com/o9000/tint2/-/archive/17.0.2/tint2-17.0.2.tar.bz2
+                ----------
+Change-log:     2026/11/18 first CorePure64 version (17.0.2)
+                2026/11/19 split docs/man → tint2-doc, locales → tint2-locale
+Current:        2026/11/19 split docs/man → tint2-doc, locales → tint2-locale

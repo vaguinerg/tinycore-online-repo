@@ -1,0 +1,28 @@
+Title:          zfs-modules-6.18.35-tinycore64.tcz
+Description:    TESTING OpenZFS kernel modules for 6.18.35-tinycore64
+Version:        2.4.4
+Author:         OpenZFS project
+Original-site:  https://github.com/openzfs/zfs
+Copying-policy: CDDL-1.0
+Size:           2M
+Extension_by:   Zendrael
+Tags:           zfs openzfs kernel modules spl
+Comments:       ----------
+                Out-of-tree spl.ko.gz + zfs.ko.gz for Tiny Core
+                CorePure64 kernel 6.18.35-tinycore64 (gzip/advdef -z4).
+                tce-load runs depmod. Pulled automatically via
+                zfs-modules-KERNEL.tcz from zfs.tcz.dep.
+                ----------
+                Load (usually via zfs.tcz):
+                $ tce-load -i zfs-modules-6.18.35-tinycore64.tcz
+                $ sudo modprobe zfs
+                ----------
+                Rebuild required when Tiny Core changes the running
+                kernel ABI (new *-tinycore64 release).
+                ----------
+                This extension contains:
+                openzfs-2.4.4 - CDDL-1.0 -
+                https://github.com/openzfs/zfs/releases/tag/zfs-2.4.4
+                ----------
+Change-log:     2026/11/19 first CorePure64 modules split (2.4.4)
+Current:        2026/11/19 first CorePure64 modules split (2.4.4)

@@ -1,0 +1,50 @@
+Title:          zfs.tcz
+Description:    TESTING OpenZFS 2.4.4 userspace tools for CorePure64
+Version:        2.4.4
+Author:         OpenZFS project
+Original-site:  https://github.com/openzfs/zfs
+Copying-policy: CDDL-1.0
+Size:           2M
+Extension_by:   Zendrael
+Tags:           zfs openzfs filesystem storage
+Comments:       ----------
+                OpenZFS 2.4.4 userspace for Tiny Core Linux CorePure64
+                (x86_64). Kernel modules ship separately as
+                zfs-modules-KERNEL.tcz (built for 6.18.35-tinycore64).
+                Development files: zfs-dev.tcz.
+                ----------
+                Requires: CorePure64 with matching kernel modules
+                (tce-load pulls zfs-modules-KERNEL.tcz).
+                Not for 32-bit Core. Rebuild modules when TC bumps
+                the kernel release.
+                ----------
+                CDDL note: OpenZFS is CDDL-1.0. Kernel modules are
+                out-of-tree. Review license implications before
+                redistributing with GPL-only policies.
+                ----------
+                Load:
+                $ tce-load -i zfs.tcz
+                ----------
+                Load modules (after tce-load):
+                $ sudo modprobe zfs
+                ----------
+                Import / mount pools:
+                $ sudo zpool import -a
+                $ sudo zfs mount -a
+                Or use the init script:
+                $ sudo /usr/local/etc/init.d/zfs start
+                ----------
+                Config: /usr/local/etc/zfs (symlinked as /etc/zfs)
+                Optional helpers under /usr/local/lib/zfs/
+                ----------
+                This does NOT provide boot-from-ZFS / root-on-ZFS.
+                Use for data pools after a normal CorePure64 boot.
+                ----------
+                This extension contains:
+                openzfs-2.4.4 - CDDL-1.0 -
+                https://github.com/openzfs/zfs/releases/tag/zfs-2.4.4
+                ----------
+Change-log:     2026/11/18 first version (2.4.4, TC 17.x / 6.18.35)
+                2026/11/19 split -dev + modules; libexec→lib/zfs;
+                           udev rules via tce.installed; drop .la/src
+Current:        2026/11/19 split -dev + modules (TESTING)

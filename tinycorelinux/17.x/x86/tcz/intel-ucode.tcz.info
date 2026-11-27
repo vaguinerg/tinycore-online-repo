@@ -1,10 +1,10 @@
 Title:          intel-ucode.tcz
 Description:    intel microcodes 
-Version:        20260925
+Version:        20261110
 Author:         Intel Corporation
 Original-site:  https://tinyurl.com/intelreleases                
 Copying-policy: accompanied 
-Size:           15M
+Size:           16M
 Extension-by:   aus9 @ linuxquestions.org
 Tags:           intel microcode bios
 Comments:       WARNING not a normal TCE, do not have this in your boot list!
@@ -40,4 +40,4 @@ Comments:       WARNING not a normal TCE, do not have this in your boot list!
                 I am researching the SRBDS issue that affects me hopefully not you.               
                       
 Change-log:     2026/10/25 v 20260925 built on 17x but not tested on TC32 
-Current:        2026/10/25 
+Current:        2026/11/12 v 20261110 + Raptor Lake, Wildcat Lake, Panther Lake 

@@ -1,0 +1,27 @@
+Title:          tint2-doc.tcz
+Description:    TESTING tint2 documentation and man page
+Version:        17.0.2
+Author:         tint2 authors (o9000 / Thierry Lorthiois et al.)
+Original-site:  https://gitlab.com/o9000/tint2
+Copying-policy: GPL-2.0
+Size:           128K
+Extension_by:   Zendrael
+Tags:           panel taskbar tint2 doc man corepure64
+Comments:       Optional documentation for tint2.tcz
+                ----------
+                Contains man page and HTML/markdown docs.
+                ----------
+                Load:
+                $ tce-load -i tint2-doc.tcz
+                ----------
+                Man page:
+                $ man tint2
+                ----------
+                Docs: /usr/local/share/doc/tint2/
+                ----------
+                This extension contains:
+                tint2-17.0.2 - GPL-2.0 -
+                https://gitlab.com/o9000/tint2/-/archive/17.0.2/tint2-17.0.2.tar.bz2
+                ----------
+Change-log:     2026/11/19 first CorePure64 split (docs/man from tint2)
+Current:        2026/11/19 first CorePure64 split (docs/man from tint2)

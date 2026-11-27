@@ -1,0 +1,22 @@
+Title:          zfs-dev.tcz
+Description:    TESTING OpenZFS development files (headers, .pc, .a)
+Version:        2.4.4
+Author:         OpenZFS project
+Original-site:  https://github.com/openzfs/zfs
+Copying-policy: CDDL-1.0
+Size:           3M
+Extension_by:   Zendrael
+Tags:           zfs openzfs development headers
+Comments:       ----------
+                Headers, pkg-config files, static libraries, and
+                unversioned .so linker names for OpenZFS 2.4.4.
+                ----------
+                Load:
+                $ tce-load -i zfs-dev.tcz
+                ----------
+                This extension contains:
+                openzfs-2.4.4 - CDDL-1.0 -
+                https://github.com/openzfs/zfs/releases/tag/zfs-2.4.4
+                ----------
+Change-log:     2026/11/19 first CorePure64 split (-dev from zfs)
+Current:        2026/11/19 first CorePure64 split (-dev from zfs)
